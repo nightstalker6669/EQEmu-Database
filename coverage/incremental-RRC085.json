@@ -1,0 +1,33 @@
+{
+  "format_version": 1,
+  "batch": "RRC085",
+  "source_commit": "64837efe7c40d7fda91f8978bdcef8099c5db2ae",
+  "source_sha256": "90af0724786c8cdc48312ef6f6fb595c59db3718b7b9a0a605eeb0e24324e6b1",
+  "application_status": "APPLIED_VERIFIED",
+  "recipes_added": 0,
+  "entries_added": 1,
+  "change": "One new ingredient93542 entry on existing recipe12784.",
+  "preserved_existing_rows": "Recipe definition and all seven old entries plus learned references preserved per owner/coordinator receipt.",
+  "TS_cumulative_added_through085": {
+    "recipes": 2708,
+    "entries": 14893
+  },
+  "separate_Xorbb_recipe_excluded": {
+    "recipes": 1,
+    "entries": 6
+  },
+  "held_batch": "RRC014",
+  "prior_closed_normal_SQL_path_cutoff": 401,
+  "new_normal_SQL_paths": 2,
+  "normal_SQL_paths_after_followup": 403,
+  "Scent_candidate_SQL": "Two .sql.disabled source files remain separate, unexecuted/unparsed/not applied.",
+  "temporary_QA39999": {
+    "separate_source_commit_abbreviation": "c94890a8",
+    "application_status": "NOT_APPLIED",
+    "included_in_production_packet": false,
+    "excluded_from_production_snapshot": true
+  },
+  "SQL_path_count_meaning": "Paths include apply/rollback pairs and readback SQL; not403 database applications.",
+  "assembly": "Additive source/receipt packaging only; no database query/replay/rescan/tests/runtime writes or old catalog/archive changes.",
+  "full_content_snapshot_or_universal_upgrade": false
+}

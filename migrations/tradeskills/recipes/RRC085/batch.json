@@ -1,0 +1,426 @@
+{
+  "batch": "RRC085",
+  "branch": "rof2-tradeskills",
+  "status": "SOURCE_INGREDIENT_EXTENSION_NOT_APPLIED",
+  "counts": {
+    "recipes_added": 0,
+    "entries_added": 1,
+    "entries_updated": 0,
+    "recipe_definitions_preserved": 1,
+    "full_existing_entries_guarded": 7
+  },
+  "before_recipes": [
+    {
+      "id": 12784,
+      "name": "Spell: Iceflame Tenement Rk. Ii",
+      "tradeskill": 58,
+      "skillneeded": 0,
+      "trivial": 444,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": null,
+      "must_learn": 2,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": -1,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    }
+  ],
+  "after_recipes": [
+    {
+      "id": 12784,
+      "name": "Spell: Iceflame Tenement Rk. Ii",
+      "tradeskill": 58,
+      "skillneeded": 0,
+      "trivial": 444,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": null,
+      "must_learn": 2,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": -1,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    }
+  ],
+  "before_entries": [
+    {
+      "id": 150075,
+      "recipe_id": 12784,
+      "item_id": 93587,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 3,
+      "salvagecount": 3,
+      "iscontainer": 0
+    },
+    {
+      "id": 150076,
+      "recipe_id": 12784,
+      "item_id": 93578,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 150077,
+      "recipe_id": 12784,
+      "item_id": 93553,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 150078,
+      "recipe_id": 12784,
+      "item_id": 93515,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 150079,
+      "recipe_id": 12784,
+      "item_id": 90310,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 150080,
+      "recipe_id": 12784,
+      "item_id": 115742,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 150081,
+      "recipe_id": 12784,
+      "item_id": 93492,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    }
+  ],
+  "after_existing_entries": [
+    {
+      "id": 150075,
+      "recipe_id": 12784,
+      "item_id": 93587,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 3,
+      "salvagecount": 3,
+      "iscontainer": 0
+    },
+    {
+      "id": 150076,
+      "recipe_id": 12784,
+      "item_id": 93578,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 150077,
+      "recipe_id": 12784,
+      "item_id": 93553,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 150078,
+      "recipe_id": 12784,
+      "item_id": 93515,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 150079,
+      "recipe_id": 12784,
+      "item_id": 90310,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 150080,
+      "recipe_id": 12784,
+      "item_id": 115742,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 150081,
+      "recipe_id": 12784,
+      "item_id": 93492,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    }
+  ],
+  "new_entries": [
+    {
+      "recipe_id": 12784,
+      "item_id": 93542,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    }
+  ],
+  "source_facts": [
+    {
+      "name": "Spell: Iceflame Tenement Rk. II",
+      "trivial_text": "444",
+      "formula": "Components: Ink Additive of the Nameless, Ink of Pain (3), Ink of Zek, Invigorating Thickener, Quill of the Arch Convoker, Runic Charta Arcanum\nIn: Spell Research Kit, Tome Binding Kit, Prayer Writing Kit, Hybrid Research Kit, Song Writing Kit\nYield: 1",
+      "observed_EQTC_item_id": 34544,
+      "output_source_url": "https://www.eqtraders.com/items/show_item.php?item=34544&menustr=010000000000",
+      "source_table_index": 2,
+      "source_row_index": 190,
+      "source_cell_count": 3,
+      "field_links": [
+        {
+          "name": "Ink Additive of the Nameless",
+          "url": "https://www.eqtraders.com//items/show_item.php?item=20871",
+          "field": "Components",
+          "explicit_count": null
+        },
+        {
+          "name": "Ink of Pain",
+          "url": "https://www.eqtraders.com//items/show_item.php?item=20997",
+          "field": "Components",
+          "explicit_count": 3
+        },
+        {
+          "name": "Ink of Zek",
+          "url": "https://www.eqtraders.com//items/show_item.php?item=20989",
+          "field": "Components",
+          "explicit_count": null
+        },
+        {
+          "name": "Invigorating Thickener",
+          "url": "https://www.eqtraders.com//items/show_item.php?item=20961",
+          "field": "Components",
+          "explicit_count": null
+        },
+        {
+          "name": "Quill of the Arch Convoker",
+          "url": "https://www.eqtraders.com//items/show_item.php?item=20945",
+          "field": "Components",
+          "explicit_count": null
+        },
+        {
+          "name": "Runic Charta Arcanum",
+          "url": "https://www.eqtraders.com//items/show_item.php?item=34319",
+          "field": "Components",
+          "explicit_count": null
+        },
+        {
+          "name": "Spell Research Kit",
+          "url": "https://www.eqtraders.com//items/show_item.php?item=20935",
+          "field": "In",
+          "explicit_count": null
+        },
+        {
+          "name": "Tome Binding Kit",
+          "url": "https://www.eqtraders.com//items/show_item.php?item=30867",
+          "field": "In",
+          "explicit_count": null
+        },
+        {
+          "name": "Prayer Writing Kit",
+          "url": "https://www.eqtraders.com//items/show_item.php?item=30868",
+          "field": "In",
+          "explicit_count": null
+        },
+        {
+          "name": "Hybrid Research Kit",
+          "url": "https://www.eqtraders.com//items/show_item.php?item=30869",
+          "field": "In",
+          "explicit_count": null
+        },
+        {
+          "name": "Song Writing Kit",
+          "url": "https://www.eqtraders.com//items/show_item.php?item=30870",
+          "field": "In",
+          "explicit_count": null
+        }
+      ]
+    }
+  ],
+  "native_capacity": [
+    {
+      "id": 93492,
+      "Name": "Spell Research Kit",
+      "size": 3,
+      "itemclass": 1,
+      "itemtype": 11,
+      "classes": 15360,
+      "bagtype": 11,
+      "bagslots": 10,
+      "bagsize": 3,
+      "stackable": 0,
+      "maxcharges": 0
+    }
+  ],
+  "ingredient_sizes": [
+    {
+      "id": 90310,
+      "Name": "Runic Charta Arcanum",
+      "size": 1,
+      "itemclass": 0,
+      "itemtype": 17,
+      "classes": 15360,
+      "bagtype": 0,
+      "bagslots": 0,
+      "bagsize": 0,
+      "stackable": 1,
+      "maxcharges": 0
+    },
+    {
+      "id": 93515,
+      "Name": "Quill of the Arch Convoker",
+      "size": 1,
+      "itemclass": 0,
+      "itemtype": 17,
+      "classes": 15360,
+      "bagtype": 0,
+      "bagslots": 0,
+      "bagsize": 0,
+      "stackable": 1,
+      "maxcharges": 0
+    },
+    {
+      "id": 93542,
+      "Name": "Ink Additive of the Nameless",
+      "size": 0,
+      "itemclass": 0,
+      "itemtype": 17,
+      "classes": 15360,
+      "bagtype": 0,
+      "bagslots": 0,
+      "bagsize": 0,
+      "stackable": 1,
+      "maxcharges": 0
+    },
+    {
+      "id": 93553,
+      "Name": "Invigorating Thickener",
+      "size": 0,
+      "itemclass": 0,
+      "itemtype": 17,
+      "classes": 15360,
+      "bagtype": 0,
+      "bagslots": 0,
+      "bagsize": 0,
+      "stackable": 1,
+      "maxcharges": 0
+    },
+    {
+      "id": 93578,
+      "Name": "Ink of Zek",
+      "size": 1,
+      "itemclass": 0,
+      "itemtype": 17,
+      "classes": 15360,
+      "bagtype": 0,
+      "bagslots": 0,
+      "bagsize": 0,
+      "stackable": 1,
+      "maxcharges": 0
+    },
+    {
+      "id": 93587,
+      "Name": "Ink of Pain",
+      "size": 1,
+      "itemclass": 0,
+      "itemtype": 17,
+      "classes": 15360,
+      "bagtype": 0,
+      "bagslots": 0,
+      "bagsize": 0,
+      "stackable": 1,
+      "maxcharges": 0
+    },
+    {
+      "id": 115742,
+      "Name": "Spell: Iceflame Tenement Rk. II",
+      "size": 1,
+      "itemclass": 0,
+      "itemtype": 20,
+      "classes": 4096,
+      "bagtype": 0,
+      "bagslots": 0,
+      "bagsize": 0,
+      "stackable": 1,
+      "maxcharges": 0
+    }
+  ],
+  "native_added_ingredient_items": [
+    {
+      "id": 93542,
+      "Name": "Ink Additive of the Nameless",
+      "size": 0,
+      "itemclass": 0,
+      "itemtype": 17,
+      "classes": 15360,
+      "bagtype": 0,
+      "bagslots": 0,
+      "bagsize": 0,
+      "stackable": 1,
+      "maxcharges": 0
+    }
+  ],
+  "collision_review": {
+    "scope": "One bounded allskill enabled6input/8unit/effective93492kit lookup",
+    "expected_inputs": {
+      "93542": 1,
+      "93587": 3,
+      "93578": 1,
+      "93553": 1,
+      "93515": 1,
+      "90310": 1
+    },
+    "matching_recipes": []
+  },
+  "source_urls": [
+    "https://www.eqtraders.com/recipes/recipe_page.php?article=121&rsa=Spell+Research&sub=Magician"
+  ],
+  "historical_qualification": "Current positiveprimary explicitly requiresNamelessAdditive1. Preservetrivial444/learning2/output115742/93492kit/all7oldentries. Newsalvage1 islocalfamily convention, not independenthistoric proof."
+}
