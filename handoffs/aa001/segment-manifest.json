@@ -1,0 +1,42 @@
+{
+  "format_version": 1,
+  "id": "AA-001",
+  "source_commit": "b429b266d9b38ae83bd07f23cfd63d128a1adf10",
+  "sql_file": "2026_11_04_don_critical_2h_piercing_guarded.sql",
+  "sql_sha256": "974a604f7e04eceadb3601f0c2f75054134510f073bd2b7877c8820ad086c7de",
+  "original_published_projection_sha256": "eedbad4c262866b38a7d7a6377e9eb94f435bc1a886dd63a6a9718f3adc1b23e",
+  "provenance_qualification": "Exact retained applied guarded transaction, distinct from original published two-row INSERT projection. File originally held privately; audited content tables only, no player/config/credential/identity records. SQL bytes unchanged.",
+  "applied_status": {
+    "status": "COMMITTED",
+    "application_receipt_sha256": "f41f04981d4004892a029a997a642e81496a2c3da179bddcfc3457834999b2fd",
+    "committed_readback_matches": true,
+    "native_acceptance": false
+  },
+  "writes": {
+    "aa_rank_effects": [
+      {
+        "rank_id": 1364,
+        "slot": 15,
+        "effect_id": 169,
+        "base1": 40,
+        "base2": 77
+      },
+      {
+        "rank_id": 1369,
+        "slot": 15,
+        "effect_id": 169,
+        "base1": 40,
+        "base2": 77
+      }
+    ]
+  },
+  "historical_qualification": "April17,2013 extension evidence; slot15 is emulator storage choice, not authenticated original wire slot.",
+  "requires": [
+    "MariaDB compound-block support",
+    "transactional target content tables",
+    "exact four-table guarded content preimages"
+  ],
+  "already_applied_locally": true,
+  "original_prose_qualification": "SOURCE-README describes preparation before application; later receipt supplies applied status.",
+  "audit": "New extraction inspected only aa_ability/aa_ranks/aa_rank_effects/aa_rank_prereqs SQL content and local block variable. No player/private identity data or raw private receipt included."
+}

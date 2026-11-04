@@ -1,0 +1,113 @@
+{
+  "format_version": 1,
+  "prepared_date": "2026-11-04",
+  "status": "Offline receipt-backed supplement; no new SQL execution or publication",
+  "baseline_sha256": "ac8649f23d2c3aea2cade138dfe10d46d1b21ad1a80d08ca95f5434fab7f218d",
+  "baseline_to_current_chain_complete": false,
+  "assembly_order": [
+    "AA-004",
+    "AA-005"
+  ],
+  "order_qualification": "Preserves actual application sequence; components use independent AA content keys and each keeps full preimage guards.",
+  "total_insert_rows": 86,
+  "entries": [
+    {
+      "id": "AA-004",
+      "kind": "exact-owner-guarded-sql",
+      "source_commit": "0bb5d12f5321cf6d2c11aaff9e73beeac2430b0c",
+      "sql_file": "aa-004/2026_11_04_bard_burst_of_power_rank12.sql",
+      "sql_sha256": "753db4ce1b4b92ab207a67b5372fe46f0d28b9cf5896bfb0998821f4fb6963a1",
+      "applied_status": {
+        "status": "COMMITTED",
+        "time_utc": "2026-11-04T14:40:11.720090+00:00",
+        "application_receipt_sha256": "652eaa657a86fe93d7dafd70f46bfd42193aa326d42f8a4215d6068310aa993c",
+        "committed_postimages_file_sha256": "ff9961c6ed88b8b4b600cd8ee81b8138aad7fe944b5dd12e802e1341c020d833",
+        "committed_readback_matches": true,
+        "cache_at_application": "No runtime refresh performed; Build owns freshness.",
+        "native_acceptance": false
+      },
+      "writes": {
+        "aa_ranks": 1,
+        "aa_rank_effects": 1
+      },
+      "preserved_existing_rows": {
+        "aa_ability": 2,
+        "aa_ranks": 12,
+        "aa_rank_effects": 12,
+        "aa_rank_prereqs": 2
+      },
+      "ownership_or_existing_prerequisite_changes": false,
+      "qualification": {
+        "cost": {
+          "value": 13,
+          "qualification": "Selected proposal numeric default from preceding VoA costs9/11; exact original missing rank cost unresolved."
+        },
+        "level_req": {
+          "value": 95,
+          "qualification": "Selected numeric default continuing91/93 within existing VoA18 chain; original row not recovered."
+        },
+        "expansion": {
+          "value": 18,
+          "qualification": "Inherits preceding chain expansion; period row not authenticated."
+        },
+        "next_id": {
+          "value": -1,
+          "qualification": "Terminate at restored known identity; no speculative further native IDs. Later upgrades remain separately unresolved."
+        },
+        "other_fields": "Inherit exact preceding rank template; effect magnitude follows explicit retained description, not a newly invented mechanic."
+      },
+      "requires": [
+        "MariaDB compound-block support",
+        "transactional target content tables",
+        "exact full guarded content preimages"
+      ],
+      "execution_qualification": "Already applied locally; do not replay. Portable exact-guarded SQL component, not a complete original9328 baseline upgrade."
+    },
+    {
+      "id": "AA-005",
+      "kind": "exact-owner-guarded-sql",
+      "source_commit": "5282164ebe7bec60ad5055c7fe28685ce97c90da",
+      "sql_file": "aa-005/2026_11_04_drakkin_breath_ranks.sql",
+      "sql_sha256": "421785df67c029d039fc7f511caf4588907125d8ea561ce101e0446c1d8face7",
+      "applied_status": {
+        "status": "COMMITTED",
+        "time_utc": "2026-11-04T14:40:25.078491+00:00",
+        "application_receipt_sha256": "9567155d0e4b84d5c9435b0a43401e57220a8722063ac8bf07d40b56b509d7b6",
+        "committed_postimages_file_sha256": "e8c8a004e82b8f7289b0d2594362c3d2b1d44d2a691c627b67bf9033ee1e5254",
+        "committed_readback_matches": true,
+        "cache_at_application": "No runtime refresh performed; Build owns freshness.",
+        "native_acceptance": false
+      },
+      "writes": {
+        "aa_ranks": 84
+      },
+      "preserved_existing_rows": {
+        "aa_ability": 6,
+        "aa_ranks": 6,
+        "aa_rank_effects": 0,
+        "aa_rank_prereqs": 0
+      },
+      "ownership_or_existing_prerequisite_changes": false,
+      "qualification": "See exact source manifest for selected level defaults and retained legacy provenance; not authenticated original native data.",
+      "requires": [
+        "MariaDB compound-block support",
+        "transactional target content tables",
+        "exact full guarded content preimages"
+      ],
+      "execution_qualification": "Already applied locally; do not replay. Portable exact-guarded SQL component, not a complete original9328 baseline upgrade.",
+      "eligibility_qualification": "Level10..75 for ranks2..15 are local reconstruction defaults. Explicit retained legacy spell/action mappings establish emulator provenance, not authenticated native rank packets. Current expansion3 and existing race/heritage eligibility remain unchanged; AA007 proposal is not included/applied."
+    }
+  ],
+  "exclusions": [
+    {
+      "id": "AA-006",
+      "status": "Source published, not installed per coordinator; excluded from applied segment."
+    },
+    {
+      "id": "AA-007",
+      "status": "Race correction not applied; user preference pending; excluded."
+    }
+  ],
+  "source_preparation_status_note": "Owner prose describes original preparation. Later retained application receipts establish committed status without implying cache/native acceptance.",
+  "validation": "Both SQL hashes match published application receipts and retained authorized SQL; both preimage backup hashes match receipt; committed readback flags checked. No runtime reread/tests."
+}

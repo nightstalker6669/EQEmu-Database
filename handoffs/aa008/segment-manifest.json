@@ -1,0 +1,50 @@
+{
+  "format_version": 1,
+  "prepared_date": "2026-11-04",
+  "id": "AA-008",
+  "source_commit": "afb8abe17f87a637e669125377c416a01eff8328",
+  "sql_file": "2026_11_04_gift_of_mana_rank9.sql",
+  "sql_sha256": "d8a8a00862dadf4b71b4ed49577a60051ffe4dbac66a8e7c307b53c901d69f12",
+  "applied_status": {
+    "status": "COMMITTED",
+    "time_utc": "2026-11-04T14:45:52.263002+00:00",
+    "application_receipt_sha256": "bbb11f483d74d842888af2dd3f7dbd2a3c0622d85fd7c8b09ac65f716803d38c",
+    "committed_postimages_sha256": "c11e6ff9d17e3126f07abf2714a1e3dcb43188b6675147b06f79e6f6fa30a563",
+    "committed_readback_matches": true,
+    "native_acceptance": false,
+    "cache_at_application": "No runtime refresh performed; Build owns freshness."
+  },
+  "writes": {
+    "aa_ranks": 1,
+    "aa_rank_effects": 168
+  },
+  "preserved_existing_rows": {
+    "aa_ability": 2,
+    "aa_ranks": 9,
+    "aa_rank_effects": 576,
+    "aa_rank_prereqs": 9
+  },
+  "qualification": {
+    "cost": 12,
+    "level_req": 96,
+    "expansion": 19,
+    "other_fields": "Previous-rank SID/passive template. All numeric reconstruction defaults, not recovered period row.",
+    "next_id": "-1 ends at known restored identity; further historical ranks unresolved.",
+    "prereqs": "No added prerequisite rows; existing predecessor prerequisites inherit via AA loader1868..1884, including root20/3. No existing prerequisite weakened."
+  },
+  "ownership_or_existing_prerequisite_changes": false,
+  "requires": [
+    "MariaDB compound-block support",
+    "transactional target content tables",
+    "exact owner guarded content preimages"
+  ],
+  "baseline_to_current_chain_complete": false,
+  "status_qualification": "Later applied supplement supersedes earlier historical proposal-only AA008 inventory status. No modification to already frozen/inflight packages.",
+  "executable_qualification": "Exact original guarded owner SQL, not full original9328 baseline upgrade; already applied locally, do not replay.",
+  "exclusions": [
+    "Player state/ownership/private backups/config",
+    "AA006uninstalled source handler",
+    "AA007unapplied preference work"
+  ],
+  "validation": "New AA008 SQL matches application receipt and retained authorized SQL; fresh preimage hash matches receipt; committed/readback flags checked offline. No DBconnection/rerun."
+}
