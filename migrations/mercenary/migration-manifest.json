@@ -1,0 +1,46 @@
+{
+  "format_version": 1,
+  "feature": "mercenary",
+  "source_repository": "nightstalker6669/EQEmu",
+  "inspected_source_head": "aedc7e878f325a8beaffb04c932fb3c1469f69d3",
+  "scope": "Retained owner explicit installation order. Housing/session infrastructure prerequisite; schema/runtime state and content migration roles must follow owner guide.",
+  "application_status": "Source availability/order only; exact retained applied receipt reconciliation continues in coverage ledger. Do not infer installation from this package.",
+  "order": [
+    "utils/sql/mercenary/001_owned_roster.sql",
+    "utils/sql/mercenary/003_passive_upkeep.sql",
+    "utils/sql/mercenary/004_zone_permissions.sql",
+    "utils/sql/mercenary/002_enable_rof2.sql"
+  ],
+  "entries": [
+    {
+      "order": 1,
+      "path": "utils/sql/mercenary/001_owned_roster.sql",
+      "sha256": "98f351ed194ec5a7727ce989d03febd1812cc48b2f93aa625327ec6eb0e18322",
+      "kind": "owner-schema/content-upgrade",
+      "applied_status": "Await retained receipt match; not newly executed."
+    },
+    {
+      "order": 2,
+      "path": "utils/sql/mercenary/003_passive_upkeep.sql",
+      "sha256": "dbd02ec1b59a97a501569d08ccd6d7f8e369b19479d0e263e14e2d9ae2abaf1f",
+      "kind": "owner-schema/content-upgrade",
+      "applied_status": "Await retained receipt match; not newly executed."
+    },
+    {
+      "order": 3,
+      "path": "utils/sql/mercenary/004_zone_permissions.sql",
+      "sha256": "9e3a6740f485aacedd683590bb7260ccf75553ab4c8b0e52e70f5567bd9d1efb",
+      "kind": "owner-schema/content-upgrade",
+      "applied_status": "Await retained receipt match; not newly executed."
+    },
+    {
+      "order": 4,
+      "path": "utils/sql/mercenary/002_enable_rof2.sql",
+      "sha256": "0721a62aa29bebf4238c4293fa23a261c1a48de740b58c02e52fbd3d8bd9e76e",
+      "kind": "owner-schema/content-upgrade",
+      "applied_status": "Await retained receipt match; not newly executed."
+    }
+  ],
+  "snapshot_qualification": "Schema migration files can create runtime tables; this is not permission to export player/custody contents or import a live dump.",
+  "baseline_gap": "Original clone receipt/redistribution terms unresolved, but these own SQL updates are independently distributable source."
+}

@@ -1,0 +1,46 @@
+{
+  "format_version": 1,
+  "feature": "fellowship",
+  "source_repository": "nightstalker6669/EQEmu",
+  "inspected_source_head": "aedc7e878f325a8beaffb04c932fb3c1469f69d3",
+  "scope": "Retained owner explicit installation order. Housing/session infrastructure prerequisite; schema/runtime state and content migration roles must follow owner guide.",
+  "application_status": "Source availability/order only; exact retained applied receipt reconciliation continues in coverage ledger. Do not infer installation from this package.",
+  "order": [
+    "utils/sql/fellowship/001_fellowships.sql",
+    "utils/sql/fellowship/002_vitality.sql",
+    "utils/sql/fellowship/003_xp_commits.sql",
+    "utils/sql/fellowship/004_campsite_catalogue.sql"
+  ],
+  "entries": [
+    {
+      "order": 1,
+      "path": "utils/sql/fellowship/001_fellowships.sql",
+      "sha256": "cdab8dff251b5dc1c374f805a4be39487e82a459b8cf2b7df814ae3ae0b81985",
+      "kind": "owner-schema/content-upgrade",
+      "applied_status": "Await retained receipt match; not newly executed."
+    },
+    {
+      "order": 2,
+      "path": "utils/sql/fellowship/002_vitality.sql",
+      "sha256": "c7a4ca3fbc913c1e5bb387281d904f73a86038a238fb9ef4317b8734413b35cf",
+      "kind": "owner-schema/content-upgrade",
+      "applied_status": "Await retained receipt match; not newly executed."
+    },
+    {
+      "order": 3,
+      "path": "utils/sql/fellowship/003_xp_commits.sql",
+      "sha256": "5e0d5c54679ca508fa6a5361735299f6feac9493b67b98d21fdc4c75546e27a1",
+      "kind": "owner-schema/content-upgrade",
+      "applied_status": "Await retained receipt match; not newly executed."
+    },
+    {
+      "order": 4,
+      "path": "utils/sql/fellowship/004_campsite_catalogue.sql",
+      "sha256": "f91dfe397ec07b4cf2acf72d45e8f49db3fc57ff04749c9f783b3038ac3246f4",
+      "kind": "owner-schema/content-upgrade",
+      "applied_status": "Await retained receipt match; not newly executed."
+    }
+  ],
+  "snapshot_qualification": "Schema migration files can create runtime tables; this is not permission to export player/custody contents or import a live dump.",
+  "baseline_gap": "Original clone receipt/redistribution terms unresolved, but these own SQL updates are independently distributable source."
+}

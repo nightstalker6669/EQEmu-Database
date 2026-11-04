@@ -1,0 +1,118 @@
+{
+  "format_version": 1,
+  "feature": "shroud",
+  "source_repository": "nightstalker6669/EQEmu",
+  "inspected_source_head": "aedc7e878f325a8beaffb04c932fb3c1469f69d3",
+  "scope": "Retained owner explicit installation order. Housing/session infrastructure prerequisite; schema/runtime state and content migration roles must follow owner guide.",
+  "application_status": "Source availability/order only; exact retained applied receipt reconciliation continues in coverage ledger. Do not infer installation from this package.",
+  "order": [
+    "utils/sql/shroud/001_storage.sql",
+    "utils/sql/shroud/003_parity_storage.sql",
+    "utils/sql/shroud/004_live_imp_wizard.sql",
+    "utils/sql/shroud/005_experience_settlement.sql",
+    "utils/sql/shroud/006_starter_inventory.sql",
+    "utils/sql/shroud/007_rof2_enumerable_aa.sql",
+    "utils/sql/shroud/008_starter_identity.sql",
+    "utils/sql/shroud/009_live_captured_catalog.sql",
+    "utils/sql/shroud/011_live_lower_level_forms.sql",
+    "utils/sql/shroud/012_live_paid_monster_rank_chains.sql",
+    "utils/sql/shroud/013_remaining_monster_aa.sql",
+    "utils/sql/shroud/014_death_resurrection_accounting.sql",
+    "utils/sql/shroud/015_system_interactions.sql"
+  ],
+  "entries": [
+    {
+      "order": 1,
+      "path": "utils/sql/shroud/001_storage.sql",
+      "sha256": "72819211f1c7357fdbe819551ab4958cd670a4f00289420ae4663d2414133452",
+      "kind": "owner-schema/content-upgrade",
+      "applied_status": "Await retained receipt match; not newly executed."
+    },
+    {
+      "order": 2,
+      "path": "utils/sql/shroud/003_parity_storage.sql",
+      "sha256": "e93ab66bfba6edcbf4b11a994a4cc1f498f52c01d5b62d2d2adf291e083297f5",
+      "kind": "owner-schema/content-upgrade",
+      "applied_status": "Await retained receipt match; not newly executed."
+    },
+    {
+      "order": 3,
+      "path": "utils/sql/shroud/004_live_imp_wizard.sql",
+      "sha256": "eac1516c0ab60cfbc855730e39a95f7141c14b71c3d479b047368fdabbd4d0ca",
+      "kind": "owner-schema/content-upgrade",
+      "applied_status": "Await retained receipt match; not newly executed."
+    },
+    {
+      "order": 4,
+      "path": "utils/sql/shroud/005_experience_settlement.sql",
+      "sha256": "73a9915699d17d6f2ba87f47a4a803b62dc4856830dda5bf1daf117513cf4ef9",
+      "kind": "owner-schema/content-upgrade",
+      "applied_status": "Await retained receipt match; not newly executed."
+    },
+    {
+      "order": 5,
+      "path": "utils/sql/shroud/006_starter_inventory.sql",
+      "sha256": "f5e36ed594bbda98df994fad2c141964645a5a28e4485bb0479dd2017781a53b",
+      "kind": "owner-schema/content-upgrade",
+      "applied_status": "Await retained receipt match; not newly executed."
+    },
+    {
+      "order": 6,
+      "path": "utils/sql/shroud/007_rof2_enumerable_aa.sql",
+      "sha256": "bf0d518ab6894b499bf85e3553f2543a4e050186991f5e5edeae0617b4437616",
+      "kind": "owner-schema/content-upgrade",
+      "applied_status": "Await retained receipt match; not newly executed."
+    },
+    {
+      "order": 7,
+      "path": "utils/sql/shroud/008_starter_identity.sql",
+      "sha256": "3c9a69422945f41178f9f9acb0a9aec2a849e1d90e53e705336e9082795e18f1",
+      "kind": "owner-schema/content-upgrade",
+      "applied_status": "Await retained receipt match; not newly executed."
+    },
+    {
+      "order": 8,
+      "path": "utils/sql/shroud/009_live_captured_catalog.sql",
+      "sha256": "1a358075d4fb9a7498d9ea42e61167866f5024147ecd1453c2b7ac8b8041155f",
+      "kind": "owner-schema/content-upgrade",
+      "applied_status": "Await retained receipt match; not newly executed."
+    },
+    {
+      "order": 9,
+      "path": "utils/sql/shroud/011_live_lower_level_forms.sql",
+      "sha256": "8f9038b3cd02a4c4388429d5c6fbb608006a13014ac7dbdaf9dca9a32d719723",
+      "kind": "owner-schema/content-upgrade",
+      "applied_status": "Await retained receipt match; not newly executed."
+    },
+    {
+      "order": 10,
+      "path": "utils/sql/shroud/012_live_paid_monster_rank_chains.sql",
+      "sha256": "d1646741121e0b393efe6a292e61dee4aa64fce455934be2729b47609e47711e",
+      "kind": "owner-schema/content-upgrade",
+      "applied_status": "Await retained receipt match; not newly executed."
+    },
+    {
+      "order": 11,
+      "path": "utils/sql/shroud/013_remaining_monster_aa.sql",
+      "sha256": "64319d68a76e10607e632d487e0a00185bf394152146e6cb8517095ac2901e4a",
+      "kind": "owner-schema/content-upgrade",
+      "applied_status": "Await retained receipt match; not newly executed."
+    },
+    {
+      "order": 12,
+      "path": "utils/sql/shroud/014_death_resurrection_accounting.sql",
+      "sha256": "b4b8b9698f82ead1709901a66965b03965acdc1b46a3e91505244c80e6666574",
+      "kind": "owner-schema/content-upgrade",
+      "applied_status": "Await retained receipt match; not newly executed."
+    },
+    {
+      "order": 13,
+      "path": "utils/sql/shroud/015_system_interactions.sql",
+      "sha256": "6d97d2a0323ddc8b9ef81c5307b6807456264f8681933b9f210a1c74bca5c52a",
+      "kind": "owner-schema/content-upgrade",
+      "applied_status": "Await retained receipt match; not newly executed."
+    }
+  ],
+  "snapshot_qualification": "Schema migration files can create runtime tables; this is not permission to export player/custody contents or import a live dump.",
+  "baseline_gap": "Original clone receipt/redistribution terms unresolved, but these own SQL updates are independently distributable source."
+}
