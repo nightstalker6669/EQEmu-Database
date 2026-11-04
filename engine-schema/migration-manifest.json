@@ -1,0 +1,110 @@
+{
+  "format_version": 1,
+  "source_registry": "common/database/database_update_manifest.h",
+  "source_registry_sha256": "0f3e39c53a380f3f03b65665087d558f35c2c1216cb9d0c5e586e9eaabb64f1b",
+  "sequence": [
+    {
+      "version": 9329,
+      "path": "engine-schema/registry/9329_2026_04_27_spell_id_type_correction.sql",
+      "embedded_SQL_sha256": "9b84ab5eb7e62060ab702d793bdec428a5e1f2f78ee890aa2a31b0c435fa9cb1",
+      "source_description": "2026_04_27_spell_id_type_correction.sql",
+      "content_schema_update": false,
+      "applied_status": "Not asserted by registrysource; engine-managed upgrade bookkeeping is separate."
+    },
+    {
+      "version": 9330,
+      "path": "engine-schema/registry/9330_2026_04_30_buffdurations.sql",
+      "embedded_SQL_sha256": "1cb3338661aa2d98d766e7d7ed45ba7bf5779496c7e5aa17fe6f9d3d0ab52092",
+      "source_description": "2026_04_30_buffdurations.sql",
+      "content_schema_update": false,
+      "applied_status": "Not asserted by registrysource; engine-managed upgrade bookkeeping is separate."
+    },
+    {
+      "version": 9331,
+      "path": "engine-schema/registry/9331_2026_07_28_achievement_content.sql",
+      "embedded_SQL_sha256": "cda36682339ceccc3ea93d2d9ae972cedd0fff8d32bde9ca88d4a5dcaa302f33",
+      "source_description": "2026_07_28_achievement_content.sql",
+      "content_schema_update": true,
+      "applied_status": "Not asserted by registrysource; engine-managed upgrade bookkeeping is separate."
+    },
+    {
+      "version": 9332,
+      "path": "engine-schema/registry/9332_2026_07_28_achievement_state.sql",
+      "embedded_SQL_sha256": "d324492d95413fbccb782da75ebefc8e4b9bdf8b8f5c38ce4a126165d78df230",
+      "source_description": "2026_07_28_achievement_state.sql",
+      "content_schema_update": false,
+      "applied_status": "Not asserted by registrysource; engine-managed upgrade bookkeeping is separate."
+    },
+    {
+      "version": 9333,
+      "path": "engine-schema/registry/9333_2026_10_31_task_reward_progression_state.sql",
+      "embedded_SQL_sha256": "2a453bf37b296453b61f0ab28faaa7a37f5ba61d7d2c809226d670781e88f1dc",
+      "source_description": "2026_10_31_task_reward_progression_state.sql",
+      "content_schema_update": false,
+      "applied_status": "Not asserted by registrysource; engine-managed upgrade bookkeeping is separate."
+    },
+    {
+      "version": 9334,
+      "path": "engine-schema/registry/9334_2026_10_31_task_reward_progression_content.sql",
+      "embedded_SQL_sha256": "bbe9de0ed8d0d16326809590c5bb09ce0c9df5aa7e3ec057b2258e6fdf89f077",
+      "source_description": "2026_10_31_task_reward_progression_content.sql",
+      "content_schema_update": true,
+      "applied_status": "Not asserted by registrysource; engine-managed upgrade bookkeeping is separate."
+    },
+    {
+      "version": 9335,
+      "path": "engine-schema/registry/9335_2026_11_01_shared_task_average_levels.sql",
+      "embedded_SQL_sha256": "7ef34c58fb377161ab3449fdb662c26a6eaa24bba053082e913523daf3e9e079",
+      "source_description": "2026_11_01_shared_task_average_levels.sql",
+      "content_schema_update": true,
+      "applied_status": "Not asserted by registrysource; engine-managed upgrade bookkeeping is separate."
+    },
+    {
+      "version": 9336,
+      "path": "engine-schema/registry/9336_2026_11_01_merchant_language_requirements.sql",
+      "embedded_SQL_sha256": "534517529f56564db54c00942d04891ab8e6327ae05e0cf290653c617118da0d",
+      "source_description": "2026_11_01_merchant_language_requirements.sql",
+      "content_schema_update": true,
+      "applied_status": "Not asserted by registrysource; engine-managed upgrade bookkeeping is separate."
+    },
+    {
+      "version": 9337,
+      "path": "engine-schema/registry/9337_2026_11_02_task_spell_exchange_policies.sql",
+      "embedded_SQL_sha256": "1a660073d12510673eee48ab880179bcc0f9d4f8da977157d79124a8546fa80a",
+      "source_description": "2026_11_02_task_spell_exchange_policies.sql",
+      "content_schema_update": true,
+      "applied_status": "Not asserted by registrysource; engine-managed upgrade bookkeeping is separate."
+    },
+    {
+      "version": 9338,
+      "path": "engine-schema/registry/9338_2026_11_02_task_spell_reward_policy_state.sql",
+      "embedded_SQL_sha256": "21e1b2fa0e0cd75968fa951b621553188ebb763797cc0bdfbaab02c13db4d394",
+      "source_description": "2026_11_02_task_spell_reward_policy_state.sql",
+      "content_schema_update": false,
+      "applied_status": "Not asserted by registrysource; engine-managed upgrade bookkeeping is separate."
+    }
+  ],
+  "supplemental": [
+    {
+      "path": "engine-schema/supplemental/2026_10_27_achievement_reward_classes.sql",
+      "source_path": "utils/sql/git/2026_10_27_achievement_reward_classes.sql",
+      "sha256": "2a1992c5230a62c35eea7e51739b6aab1b669559ea298e8ecbb675aa9555544c",
+      "version": "Unnumbered source supplement, not newly allocated/updater-registered."
+    },
+    {
+      "path": "engine-schema/supplemental/2026_10_30_shared_task_reward_identity.sql",
+      "source_path": "utils/sql/git/2026_10_30_shared_task_reward_identity.sql",
+      "sha256": "f91af00c213590852f22d23b28e05241701be5e91d1a5da4627579a7524d1dbd",
+      "version": "Unnumbered source supplement, not newly allocated/updater-registered."
+    },
+    {
+      "path": "engine-schema/supplemental/2026_10_30_shared_task_admission_policies.sql",
+      "source_path": "utils/sql/git/2026_10_30_shared_task_admission_policies.sql",
+      "sha256": "3b4931e3b0bfeda46acf509795a1dcdcce82189298c4e832b7bd529fd2380927",
+      "version": "Unnumbered source supplement, not newly allocated/updater-registered."
+    }
+  ],
+  "order_qualification": "Numeric registry9329..9338 order is preserved; supplements are existing owner-required source inputs before relevantcontent permatchingengineguide. Not a new manualglobalreplay order or db_version bump.",
+  "runtime_state": "9329/9330changecharacter/mercschema and buffdurationvalues, otherentries create state/content prerequisites. PublishsourceDDL, never rawpopulatedplayer tables.",
+  "readiness": "Matchingengineupdater/ownerupgrade controls required; no migrationexecuted or confirmedappliedbypublication."
+}
