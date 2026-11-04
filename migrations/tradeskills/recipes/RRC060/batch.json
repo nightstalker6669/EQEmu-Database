@@ -1,0 +1,793 @@
+{
+  "batch": "RRC060",
+  "branch": "rof2-tradeskills",
+  "status": "SOURCE_PROPOSAL_NOT_APPLIED",
+  "cutoff": "2013-05-31",
+  "proposed_ids": [
+    3093575,
+    3093580
+  ],
+  "counts": {
+    "recipes": 6,
+    "entries": 29,
+    "item_dependencies": 31
+  },
+  "source_urls": [
+    "https://www.eqtraders.com/items/show_item.php?item=30245",
+    "https://www.eqtraders.com/items/show_item.php?item=30246",
+    "https://www.eqtraders.com/items/show_item.php?item=30282",
+    "https://www.eqtraders.com/items/show_item.php?item=33607",
+    "https://www.eqtraders.com/items/show_item.php?item=56039",
+    "https://www.eqtraders.com/items/show_item.php?item=56055"
+  ],
+  "recipes": [
+    {
+      "id": 3093575,
+      "name": "Eron's Threaded Web",
+      "tradeskill": 61,
+      "skillneeded": 0,
+      "trivial": 400,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "SoF Eron; mandatory native book learning; RRC060.",
+      "must_learn": 1,
+      "learned_by_item_id": 36471,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 14,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3093576,
+      "name": "Eron's Ceramic Setting",
+      "tradeskill": 69,
+      "skillneeded": 0,
+      "trivial": 50,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "SoF Eron; mandatory native book learning; RRC060.",
+      "must_learn": 1,
+      "learned_by_item_id": 36459,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 14,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3093577,
+      "name": "Unfired Eron's Ceramic Setting",
+      "tradeskill": 69,
+      "skillneeded": 0,
+      "trivial": 400,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "SoF Eron; mandatory native book learning; RRC060.",
+      "must_learn": 1,
+      "learned_by_item_id": 36459,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 14,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3093578,
+      "name": "Soot Bound Ceramic Clay",
+      "tradeskill": 69,
+      "skillneeded": 0,
+      "trivial": 100,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "SoF Eron; mandatory native book learning; RRC060.",
+      "must_learn": 1,
+      "learned_by_item_id": 36459,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 14,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3093579,
+      "name": "Shadowspike Arrow Tip",
+      "tradeskill": 63,
+      "skillneeded": 0,
+      "trivial": 100,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "SoF Eron; mandatory native book learning; RRC060.",
+      "must_learn": 1,
+      "learned_by_item_id": 36588,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 14,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3093580,
+      "name": "Shadowspike Arrow",
+      "tradeskill": 64,
+      "skillneeded": 0,
+      "trivial": 400,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "SoF Eron; mandatory native book learning; RRC060.",
+      "must_learn": 1,
+      "learned_by_item_id": 36588,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 14,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    }
+  ],
+  "entries": [
+    {
+      "recipe_id": 3093575,
+      "item_id": 36631,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093575,
+      "item_id": 36630,
+      "successcount": 1,
+      "failcount": 1,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093575,
+      "item_id": 36629,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093575,
+      "item_id": 16,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3093576,
+      "item_id": 36527,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093576,
+      "item_id": 16908,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093576,
+      "item_id": 36526,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093576,
+      "item_id": 22,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3093577,
+      "item_id": 36526,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093577,
+      "item_id": 36525,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093577,
+      "item_id": 13006,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093577,
+      "item_id": 21,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3093578,
+      "item_id": 36525,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093578,
+      "item_id": 36510,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 7,
+      "salvagecount": 7,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093578,
+      "item_id": 13006,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093578,
+      "item_id": 21,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3093579,
+      "item_id": 36591,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093579,
+      "item_id": 9650,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093579,
+      "item_id": 36593,
+      "successcount": 1,
+      "failcount": 1,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093579,
+      "item_id": 33438,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093579,
+      "item_id": 17,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3093580,
+      "item_id": 36592,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093580,
+      "item_id": 8062,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093580,
+      "item_id": 8069,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093580,
+      "item_id": 36591,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093580,
+      "item_id": 8052,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093580,
+      "item_id": 36589,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093580,
+      "item_id": 10250,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093580,
+      "item_id": 18,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    }
+  ],
+  "source_facts": [
+    {
+      "recipe_id": 3093575,
+      "name": "Eron's Threaded Web",
+      "tradeskill": 61,
+      "output_item_id": 36631,
+      "yield_count": 1,
+      "trivial": 400,
+      "book_item_id": 36471,
+      "skill_needed": 0,
+      "container_bagtype": 16,
+      "source_url": "https://www.eqtraders.com/items/show_item.php?item=33607",
+      "ingredients": [
+        {
+          "item_id": 36630,
+          "name": "Eron's Threaded Web Pattern",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=33608"
+        },
+        {
+          "item_id": 36629,
+          "name": "Spool of Energized Brownie Hair Thread",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=33605"
+        }
+      ],
+      "also_returns": [
+        {
+          "item_id": 36630,
+          "name": "Eron's Threaded Web Pattern",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=33608"
+        }
+      ],
+      "failure_returns": [
+        {
+          "item_id": 36630,
+          "name": "Eron's Threaded Web Pattern",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=33608"
+        }
+      ]
+    },
+    {
+      "recipe_id": 3093576,
+      "name": "Eron's Ceramic Setting",
+      "tradeskill": 69,
+      "output_item_id": 36527,
+      "yield_count": 1,
+      "trivial": 50,
+      "book_item_id": 36459,
+      "skill_needed": 0,
+      "container_bagtype": 22,
+      "source_url": "https://www.eqtraders.com/items/show_item.php?item=56039",
+      "ingredients": [
+        {
+          "item_id": 16908,
+          "name": "High Quality Firing Sheet",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=1333"
+        },
+        {
+          "item_id": 36526,
+          "name": "Unfired Eron's Ceramic Setting",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=56055"
+        }
+      ],
+      "also_returns": [],
+      "failure_returns": []
+    },
+    {
+      "recipe_id": 3093577,
+      "name": "Unfired Eron's Ceramic Setting",
+      "tradeskill": 69,
+      "output_item_id": 36526,
+      "yield_count": 1,
+      "trivial": 400,
+      "book_item_id": 36459,
+      "skill_needed": 0,
+      "container_bagtype": 21,
+      "source_url": "https://www.eqtraders.com/items/show_item.php?item=56055",
+      "ingredients": [
+        {
+          "item_id": 36525,
+          "name": "Soot Bound Ceramic Clay",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=30282"
+        },
+        {
+          "item_id": 13006,
+          "name": "Water Flask",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=1001"
+        }
+      ],
+      "also_returns": [],
+      "failure_returns": []
+    },
+    {
+      "recipe_id": 3093578,
+      "name": "Soot Bound Ceramic Clay",
+      "tradeskill": 69,
+      "output_item_id": 36525,
+      "yield_count": 1,
+      "trivial": 100,
+      "book_item_id": 36459,
+      "skill_needed": 0,
+      "container_bagtype": 21,
+      "source_url": "https://www.eqtraders.com/items/show_item.php?item=30282",
+      "ingredients": [
+        {
+          "item_id": 36510,
+          "name": "Twitching Soot",
+          "count": 7,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=30283"
+        },
+        {
+          "item_id": 13006,
+          "name": "Water Flask",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=1001"
+        }
+      ],
+      "also_returns": [],
+      "failure_returns": []
+    },
+    {
+      "recipe_id": 3093579,
+      "name": "Shadowspike Arrow Tip",
+      "tradeskill": 63,
+      "output_item_id": 36591,
+      "yield_count": 1,
+      "trivial": 100,
+      "book_item_id": 36588,
+      "skill_needed": 0,
+      "container_bagtype": 17,
+      "source_url": "https://www.eqtraders.com/items/show_item.php?item=30246",
+      "ingredients": [
+        {
+          "item_id": 9650,
+          "name": "Celestial Essence",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=1190"
+        },
+        {
+          "item_id": 36593,
+          "name": "Shadowspike Arrow Tip Mold",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=30247"
+        },
+        {
+          "item_id": 33438,
+          "name": "Small Piece of High Quality Steel",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=20835"
+        }
+      ],
+      "also_returns": [
+        {
+          "item_id": 36593,
+          "name": "Shadowspike Arrow Tip Mold",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=30247"
+        }
+      ],
+      "failure_returns": [
+        {
+          "item_id": 36593,
+          "name": "Shadowspike Arrow Tip Mold",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=30247"
+        }
+      ]
+    },
+    {
+      "recipe_id": 3093580,
+      "name": "Shadowspike Arrow",
+      "tradeskill": 64,
+      "output_item_id": 36592,
+      "yield_count": 1,
+      "trivial": 400,
+      "book_item_id": 36588,
+      "skill_needed": 0,
+      "container_bagtype": 18,
+      "source_url": "https://www.eqtraders.com/items/show_item.php?item=30245",
+      "ingredients": [
+        {
+          "item_id": 8062,
+          "name": "Bundled Ceramic Arrow Shafts",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=1271"
+        },
+        {
+          "item_id": 8069,
+          "name": "Set of Ceramic Arrow Vanes",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=1777"
+        },
+        {
+          "item_id": 36591,
+          "name": "Shadowspike Arrow Tip",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=30246"
+        },
+        {
+          "item_id": 8052,
+          "name": "Small Groove Nocks",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=1269"
+        },
+        {
+          "item_id": 36589,
+          "name": "Swirling Shadow Essence",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=30248"
+        },
+        {
+          "item_id": 10250,
+          "name": "Vial of Viscous Mana",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=1447"
+        }
+      ],
+      "also_returns": [],
+      "failure_returns": []
+    }
+  ],
+  "item_dependencies": [
+    {
+      "id": 8052,
+      "name": "Small Groove Nocks"
+    },
+    {
+      "id": 8062,
+      "name": "Bundled Ceramic Arrow Shafts"
+    },
+    {
+      "id": 8069,
+      "name": "Set of Ceramic Arrow Vanes"
+    },
+    {
+      "id": 9650,
+      "name": "Celestial Essence"
+    },
+    {
+      "id": 10250,
+      "name": "Vial of Viscous Mana"
+    },
+    {
+      "id": 13006,
+      "name": "Water Flask"
+    },
+    {
+      "id": 16908,
+      "name": "High Quality Firing Sheet"
+    },
+    {
+      "id": 17165,
+      "name": "Collapsible Sewing Kit"
+    },
+    {
+      "id": 17768,
+      "name": "Planar Sewing Kit"
+    },
+    {
+      "id": 17863,
+      "name": "Coldain Tanners Kit"
+    },
+    {
+      "id": 17880,
+      "name": "Large Sewing Kit"
+    },
+    {
+      "id": 17909,
+      "name": "Forge"
+    },
+    {
+      "id": 17910,
+      "name": "Fletching Kit"
+    },
+    {
+      "id": 17966,
+      "name": "Deluxe Sewing Kit"
+    },
+    {
+      "id": 33438,
+      "name": "Small Piece of High Quality Steel"
+    },
+    {
+      "id": 36459,
+      "name": "Eron's Ceramic Setting Notes"
+    },
+    {
+      "id": 36471,
+      "name": "Eron's Thread"
+    },
+    {
+      "id": 36510,
+      "name": "Twitching Soot"
+    },
+    {
+      "id": 36525,
+      "name": "Soot Bound Ceramic Clay"
+    },
+    {
+      "id": 36526,
+      "name": "Unfired Eron's Ceramic Setting"
+    },
+    {
+      "id": 36527,
+      "name": "Eron's Ceramic Setting"
+    },
+    {
+      "id": 36588,
+      "name": "Making Shadowspike Arrows"
+    },
+    {
+      "id": 36589,
+      "name": "Swirling Shadow Essence"
+    },
+    {
+      "id": 36591,
+      "name": "Shadowspike Arrow Tip"
+    },
+    {
+      "id": 36592,
+      "name": "Shadowspike Arrow"
+    },
+    {
+      "id": 36593,
+      "name": "Shadowspike Arrow Tip Mold"
+    },
+    {
+      "id": 36629,
+      "name": "Spool of Energized Brownie Hair Thread"
+    },
+    {
+      "id": 36630,
+      "name": "Eron's Threaded Web Pattern"
+    },
+    {
+      "id": 36631,
+      "name": "Eron's Threaded Web"
+    },
+    {
+      "id": 54254,
+      "name": "Kiln"
+    },
+    {
+      "id": 54257,
+      "name": "Pottery Wheel"
+    }
+  ],
+  "book_bindings": [
+    {
+      "item_id": 36459,
+      "item_name": "Eron's Ceramic Setting Notes",
+      "filename": "TSLQ1SettingNotes",
+      "book_id": 5222,
+      "language": 0,
+      "text_sha256": "8615fa721b7a6e39b6c5787dda75c856ddadcbc693041a3817157c8d30bbaa91"
+    },
+    {
+      "item_id": 36471,
+      "item_name": "Eron's Thread",
+      "filename": "TSLQ1Thread",
+      "book_id": 5224,
+      "language": 0,
+      "text_sha256": "5b173e8194c9ac080515eb54a26d575791bb3995d623256edb7e0d0813fa1683"
+    },
+    {
+      "item_id": 36588,
+      "item_name": "Making Shadowspike Arrows",
+      "filename": "TSLQ1Shadowspike",
+      "book_id": 5223,
+      "text_sha256": "925654c1724eb6224ec4c1ce8914447fd5d17621445e6d253856cb2c1efab967",
+      "language": 0
+    }
+  ],
+  "restriction_review": {
+    "learning": "All six direct primary formulas explicitly require scribing. Three pottery recipes bind to book36459; Threaded Web binds to36471; Shadowspike arrow and tip bind to36588. Existing text hashes and filename/name links guarded.",
+    "minimum": "Source has no explicit skill minimum for these six; skillneeded0; numeric trivial50/100/400 retained.",
+    "environment": "Energized Thread is excluded: native book text requires a strong static field, enforcement unresolved. This web recipe consumes already energized thread and does not create it.",
+    "historical": "Maintained primary formulas plus native SoF authored book context; not immutable May2013 numeric or native combine proof.",
+    "native_combine": false
+  },
+  "held_mechanics": [
+    {
+      "name": "Spool of Energized Brownie Hair Thread",
+      "reason": "Native Eron Thread text explicitly requires strong static field. Location/environment enforcement not established; no ordinary unrestricted insertion."
+    },
+    {
+      "name": "Eron's Tertiary Setting and Refined Magnetized Scrap Metal",
+      "reason": "Native Folding Steel text describes both, but retained direct formula pages omit mandatory scribing flags. Resolve actual learning requirement before setting either permissive or mandatory defaults."
+    }
+  ]
+}

@@ -1,0 +1,777 @@
+{
+  "batch": "RRC068",
+  "branch": "rof2-tradeskills",
+  "status": "SOURCE_CONTAINER_EXTENSION_NOT_APPLIED",
+  "counts": {
+    "recipes_added": 0,
+    "entries_added": 4,
+    "entries_updated": 0,
+    "recipe_definitions_preserved": 4,
+    "full_existing_entries_guarded": 20
+  },
+  "before_recipes": [
+    {
+      "id": 302,
+      "name": "Simple Contact Poison",
+      "tradeskill": 56,
+      "skillneeded": 0,
+      "trivial": 46,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": null,
+      "must_learn": 2,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": -1,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 303,
+      "name": "Simple Injected Poison",
+      "tradeskill": 56,
+      "skillneeded": 0,
+      "trivial": 54,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": null,
+      "must_learn": 2,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": -1,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 304,
+      "name": "Simple Solvent",
+      "tradeskill": 56,
+      "skillneeded": 0,
+      "trivial": 38,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": null,
+      "must_learn": 2,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": -1,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 305,
+      "name": "Simple Universal Suspension",
+      "tradeskill": 56,
+      "skillneeded": 0,
+      "trivial": 31,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": null,
+      "must_learn": 2,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": -1,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    }
+  ],
+  "after_recipes": [
+    {
+      "id": 302,
+      "name": "Simple Contact Poison",
+      "tradeskill": 56,
+      "skillneeded": 0,
+      "trivial": 46,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": null,
+      "must_learn": 2,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": -1,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 303,
+      "name": "Simple Injected Poison",
+      "tradeskill": 56,
+      "skillneeded": 0,
+      "trivial": 54,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": null,
+      "must_learn": 2,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": -1,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 304,
+      "name": "Simple Solvent",
+      "tradeskill": 56,
+      "skillneeded": 0,
+      "trivial": 38,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": null,
+      "must_learn": 2,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": -1,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 305,
+      "name": "Simple Universal Suspension",
+      "tradeskill": 56,
+      "skillneeded": 0,
+      "trivial": 31,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": null,
+      "must_learn": 2,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": -1,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    }
+  ],
+  "before_entries": [
+    {
+      "id": 2286,
+      "recipe_id": 302,
+      "item_id": 58063,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 2287,
+      "recipe_id": 302,
+      "item_id": 58169,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 2288,
+      "recipe_id": 302,
+      "item_id": 58093,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 2289,
+      "recipe_id": 302,
+      "item_id": 17190,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 2290,
+      "recipe_id": 302,
+      "item_id": 17904,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 2291,
+      "recipe_id": 303,
+      "item_id": 58062,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 2292,
+      "recipe_id": 303,
+      "item_id": 58168,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 2293,
+      "recipe_id": 303,
+      "item_id": 58097,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 2294,
+      "recipe_id": 303,
+      "item_id": 17190,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 2295,
+      "recipe_id": 303,
+      "item_id": 17904,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 2320,
+      "recipe_id": 304,
+      "item_id": 58060,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 2321,
+      "recipe_id": 304,
+      "item_id": 58167,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 2322,
+      "recipe_id": 304,
+      "item_id": 58122,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 2323,
+      "recipe_id": 304,
+      "item_id": 17190,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 2324,
+      "recipe_id": 304,
+      "item_id": 17904,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 2325,
+      "recipe_id": 305,
+      "item_id": 58128,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 2326,
+      "recipe_id": 305,
+      "item_id": 58167,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 2327,
+      "recipe_id": 305,
+      "item_id": 58130,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 2328,
+      "recipe_id": 305,
+      "item_id": 17190,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 2329,
+      "recipe_id": 305,
+      "item_id": 17904,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    }
+  ],
+  "after_existing_entries": [
+    {
+      "id": 2286,
+      "recipe_id": 302,
+      "item_id": 58063,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 2287,
+      "recipe_id": 302,
+      "item_id": 58169,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 2288,
+      "recipe_id": 302,
+      "item_id": 58093,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 2289,
+      "recipe_id": 302,
+      "item_id": 17190,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 2290,
+      "recipe_id": 302,
+      "item_id": 17904,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 2291,
+      "recipe_id": 303,
+      "item_id": 58062,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 2292,
+      "recipe_id": 303,
+      "item_id": 58168,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 2293,
+      "recipe_id": 303,
+      "item_id": 58097,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 2294,
+      "recipe_id": 303,
+      "item_id": 17190,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 2295,
+      "recipe_id": 303,
+      "item_id": 17904,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 2320,
+      "recipe_id": 304,
+      "item_id": 58060,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 2321,
+      "recipe_id": 304,
+      "item_id": 58167,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 2322,
+      "recipe_id": 304,
+      "item_id": 58122,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 2323,
+      "recipe_id": 304,
+      "item_id": 17190,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 2324,
+      "recipe_id": 304,
+      "item_id": 17904,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 2325,
+      "recipe_id": 305,
+      "item_id": 58128,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 2326,
+      "recipe_id": 305,
+      "item_id": 58167,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 2327,
+      "recipe_id": 305,
+      "item_id": 58130,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 2328,
+      "recipe_id": 305,
+      "item_id": 17190,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 2329,
+      "recipe_id": 305,
+      "item_id": 17904,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    }
+  ],
+  "new_entries": [
+    {
+      "recipe_id": 302,
+      "item_id": 17139,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 303,
+      "item_id": 17139,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 304,
+      "item_id": 17139,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 305,
+      "item_id": 17139,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    }
+  ],
+  "source_facts": [
+    {
+      "name": "Simple Contact Poison",
+      "trivial_text": "46",
+      "formula": "Components: Ounce of Weak Spider Venom, Vial of Simple Suspension\nIn: Mortar and Pestle, Marble Mortar and Pestle, Collapsible Mortar and Pestle\nYield: 1\nThis combine may only be made by Rogues\nNotes: EQRecipeID: 63954\nAbysmal Sea and Crescent Reach Make Poison freebie quest",
+      "observed_EQTC_item_id": 11884,
+      "output_source_url": "https://www.eqtraders.com/items/show_item.php?item=11884&menustr=010000000000",
+      "source_table_index": 2,
+      "source_row_index": 4,
+      "source_cell_count": 3,
+      "field_links": [
+        {
+          "name": "Ounce of Weak Spider Venom",
+          "url": "https://www.eqtraders.com//items/show_item.php?item=11888",
+          "field": "Components",
+          "explicit_count": null
+        },
+        {
+          "name": "Vial of Simple Suspension",
+          "url": "https://www.eqtraders.com//items/show_item.php?item=11889",
+          "field": "Components",
+          "explicit_count": null
+        },
+        {
+          "name": "Mortar and Pestle",
+          "url": "https://www.eqtraders.com//items/show_item.php?item=1745",
+          "field": "In",
+          "explicit_count": null
+        },
+        {
+          "name": "Marble Mortar and Pestle",
+          "url": "https://www.eqtraders.com//items/show_item.php?item=7131",
+          "field": "In",
+          "explicit_count": null
+        },
+        {
+          "name": "Collapsible Mortar and Pestle",
+          "url": "https://www.eqtraders.com//items/show_item.php?item=7339",
+          "field": "In",
+          "explicit_count": null
+        }
+      ],
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=383&rsa=Make+Poison&sub=quest"
+    },
+    {
+      "name": "Simple Injected Poison",
+      "trivial_text": "54",
+      "formula": "Components: Ounce of Weak Snake Venom, Vial of Simple Solvent\nIn: Mortar and Pestle, Marble Mortar and Pestle, Collapsible Mortar and Pestle\nYield: 1\nThis combine may only be made by Rogues\nNotes: EQRecipeID: 63955\nAbysmal Sea and Crescent Reach Make Poison freebie quests",
+      "observed_EQTC_item_id": 11885,
+      "output_source_url": "https://www.eqtraders.com/items/show_item.php?item=11885&menustr=010000000000",
+      "source_table_index": 2,
+      "source_row_index": 5,
+      "source_cell_count": 3,
+      "field_links": [
+        {
+          "name": "Ounce of Weak Snake Venom",
+          "url": "https://www.eqtraders.com//items/show_item.php?item=11890",
+          "field": "Components",
+          "explicit_count": null
+        },
+        {
+          "name": "Vial of Simple Solvent",
+          "url": "https://www.eqtraders.com//items/show_item.php?item=11891",
+          "field": "Components",
+          "explicit_count": null
+        },
+        {
+          "name": "Mortar and Pestle",
+          "url": "https://www.eqtraders.com//items/show_item.php?item=1745",
+          "field": "In",
+          "explicit_count": null
+        },
+        {
+          "name": "Marble Mortar and Pestle",
+          "url": "https://www.eqtraders.com//items/show_item.php?item=7131",
+          "field": "In",
+          "explicit_count": null
+        },
+        {
+          "name": "Collapsible Mortar and Pestle",
+          "url": "https://www.eqtraders.com//items/show_item.php?item=7339",
+          "field": "In",
+          "explicit_count": null
+        }
+      ],
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=383&rsa=Make+Poison&sub=quest"
+    },
+    {
+      "name": "Simple Solvent",
+      "trivial_text": "38",
+      "formula": "Components: Ounce of Mild Acid, Vial of Abysmal Sea Water\nIn: Mortar and Pestle, Marble Mortar and Pestle, Collapsible Mortar and Pestle\nYield: 1\nThis combine may only be made by Rogues\nNotes: EQRecipeID: 63953\nLearned as: Simple Solvent (Vial of Abysmal Sea Water)\nAbysmal Sea make poison freebie quest",
+      "observed_EQTC_item_id": 11883,
+      "output_source_url": "https://www.eqtraders.com/items/show_item.php?item=11883&menustr=010000000000",
+      "source_table_index": 2,
+      "source_row_index": 7,
+      "source_cell_count": 3,
+      "field_links": [
+        {
+          "name": "Ounce of Mild Acid",
+          "url": "https://www.eqtraders.com//items/show_item.php?item=11887",
+          "field": "Components",
+          "explicit_count": null
+        },
+        {
+          "name": "Vial of Abysmal Sea Water",
+          "url": "https://www.eqtraders.com//items/show_item.php?item=12833",
+          "field": "Components",
+          "explicit_count": null
+        },
+        {
+          "name": "Mortar and Pestle",
+          "url": "https://www.eqtraders.com//items/show_item.php?item=1745",
+          "field": "In",
+          "explicit_count": null
+        },
+        {
+          "name": "Marble Mortar and Pestle",
+          "url": "https://www.eqtraders.com//items/show_item.php?item=7131",
+          "field": "In",
+          "explicit_count": null
+        },
+        {
+          "name": "Collapsible Mortar and Pestle",
+          "url": "https://www.eqtraders.com//items/show_item.php?item=7339",
+          "field": "In",
+          "explicit_count": null
+        }
+      ],
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=383&rsa=Make+Poison&sub=quest"
+    },
+    {
+      "name": "Simple Universal Suspension",
+      "trivial_text": "31",
+      "formula": "Components: Simple Thickener, Vial of Abysmal Sea Water\nIn: Mortar and Pestle, Marble Mortar and Pestle, Collapsible Mortar and Pestle\nYield: 1\nThis combine may only be made by Rogues\nNotes: EQRecipeID: 63953\nLearned as: Simple Universal Suspension (Vial of Abysmal Sea Water)\nAbysmal Sea make poison freebie quest",
+      "observed_EQTC_item_id": 11882,
+      "output_source_url": "https://www.eqtraders.com/items/show_item.php?item=11882&menustr=010000000000",
+      "source_table_index": 2,
+      "source_row_index": 9,
+      "source_cell_count": 3,
+      "field_links": [
+        {
+          "name": "Simple Thickener",
+          "url": "https://www.eqtraders.com//items/show_item.php?item=11886",
+          "field": "Components",
+          "explicit_count": null
+        },
+        {
+          "name": "Vial of Abysmal Sea Water",
+          "url": "https://www.eqtraders.com//items/show_item.php?item=12833",
+          "field": "Components",
+          "explicit_count": null
+        },
+        {
+          "name": "Mortar and Pestle",
+          "url": "https://www.eqtraders.com//items/show_item.php?item=1745",
+          "field": "In",
+          "explicit_count": null
+        },
+        {
+          "name": "Marble Mortar and Pestle",
+          "url": "https://www.eqtraders.com//items/show_item.php?item=7131",
+          "field": "In",
+          "explicit_count": null
+        },
+        {
+          "name": "Collapsible Mortar and Pestle",
+          "url": "https://www.eqtraders.com//items/show_item.php?item=7339",
+          "field": "In",
+          "explicit_count": null
+        }
+      ],
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=383&rsa=Make+Poison&sub=quest"
+    }
+  ],
+  "historical_qualification": "Maintained explicit MarbleMortar source; exactMay2013container support not independently established. Existing quantities/trivials/must_learn2 and all old fields preserved."
+}

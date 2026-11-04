@@ -1,0 +1,569 @@
+{
+  "batch": "RRC074",
+  "branch": "rof2-tradeskills",
+  "status": "SOURCE_PROPOSAL_NOT_APPLIED",
+  "proposed_ids": [
+    3093628,
+    3093628
+  ],
+  "counts": {
+    "recipes": 1,
+    "entries": 7,
+    "item_dependencies": 7,
+    "unchanged_alternative_recipes": 4,
+    "unchanged_alternative_entries": 28
+  },
+  "recipes": [
+    {
+      "id": 3093628,
+      "name": "Magi Rune (Beza) (Fine Steel Dagger)",
+      "tradeskill": 58,
+      "skillneeded": 0,
+      "trivial": 0,
+      "nofail": 1,
+      "replace_container": 0,
+      "notes": "Explicit Fine Steel Dagger primary variant; inherited nofail family encoding; RRC074.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": -1,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    }
+  ],
+  "entries": [
+    {
+      "recipe_id": 3093628,
+      "item_id": 15915,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093628,
+      "item_id": 7350,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093628,
+      "item_id": 16539,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093628,
+      "item_id": 13063,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093628,
+      "item_id": 13051,
+      "successcount": 1,
+      "failcount": 1,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093628,
+      "item_id": 10025,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093628,
+      "item_id": 17504,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    }
+  ],
+  "source_facts": [
+    {
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=306&rsa=No+Skill%2CSpell+Research&sub=practice",
+      "output_source_url": "https://www.eqtraders.com/items/show_item.php?item=10207&menustr=010000000000",
+      "output_item_id": 15915,
+      "ingredients": [
+        {
+          "item_id": 7350,
+          "name": "Fine Steel Dagger",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=1974"
+        },
+        {
+          "item_id": 16539,
+          "name": "Hill Giant Toes",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=2970"
+        },
+        {
+          "item_id": 13063,
+          "name": "Piece of Parchment",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=7411"
+        },
+        {
+          "item_id": 13051,
+          "name": "Quill",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=7410"
+        },
+        {
+          "item_id": 10025,
+          "name": "Topaz",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=1071"
+        }
+      ],
+      "also_returns": [
+        {
+          "item_id": 13051,
+          "name": "Quill",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=7410"
+        }
+      ],
+      "failure_returns": [
+        {
+          "item_id": 13051,
+          "name": "Quill",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=7410"
+        }
+      ]
+    }
+  ],
+  "item_dependencies": [
+    {
+      "id": 7350,
+      "name": "Fine Steel Dagger"
+    },
+    {
+      "id": 10025,
+      "name": "Topaz"
+    },
+    {
+      "id": 13051,
+      "name": "Quill"
+    },
+    {
+      "id": 13063,
+      "name": "Piece of Parchment"
+    },
+    {
+      "id": 15915,
+      "name": "Magi Rune (Beza)"
+    },
+    {
+      "id": 16539,
+      "name": "Hill Giant Toes"
+    },
+    {
+      "id": 17504,
+      "name": "Concordance of Research"
+    }
+  ],
+  "exact_existing_producer_recipes": [
+    {
+      "id": 10174,
+      "name": "Magi Rune (beza)",
+      "tradeskill": 58,
+      "skillneeded": 0,
+      "trivial": 0,
+      "nofail": 1,
+      "replace_container": 0,
+      "notes": "Created by joligario",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": -1,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 10175,
+      "name": "Magi Rune (beza)",
+      "tradeskill": 58,
+      "skillneeded": 0,
+      "trivial": 0,
+      "nofail": 1,
+      "replace_container": 0,
+      "notes": "Created by joligario",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": -1,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 10176,
+      "name": "Magi Rune (beza)",
+      "tradeskill": 58,
+      "skillneeded": 0,
+      "trivial": 0,
+      "nofail": 1,
+      "replace_container": 0,
+      "notes": "Created by joligario",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": -1,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 10177,
+      "name": "Magi Rune (beza)",
+      "tradeskill": 58,
+      "skillneeded": 0,
+      "trivial": 0,
+      "nofail": 1,
+      "replace_container": 0,
+      "notes": "Created by joligario",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": -1,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    }
+  ],
+  "exact_existing_producer_entries": [
+    {
+      "id": 4699,
+      "recipe_id": 10174,
+      "item_id": 6350,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 4700,
+      "recipe_id": 10174,
+      "item_id": 10025,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 4701,
+      "recipe_id": 10174,
+      "item_id": 13051,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 4702,
+      "recipe_id": 10174,
+      "item_id": 13063,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 4703,
+      "recipe_id": 10174,
+      "item_id": 16539,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 4705,
+      "recipe_id": 10174,
+      "item_id": 15915,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 4706,
+      "recipe_id": 10174,
+      "item_id": 17504,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 4707,
+      "recipe_id": 10175,
+      "item_id": 6351,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 4708,
+      "recipe_id": 10175,
+      "item_id": 10025,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 4709,
+      "recipe_id": 10175,
+      "item_id": 13051,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 4710,
+      "recipe_id": 10175,
+      "item_id": 13063,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 4711,
+      "recipe_id": 10175,
+      "item_id": 16539,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 4713,
+      "recipe_id": 10175,
+      "item_id": 15915,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 4714,
+      "recipe_id": 10175,
+      "item_id": 17504,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 4715,
+      "recipe_id": 10176,
+      "item_id": 6352,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 4716,
+      "recipe_id": 10176,
+      "item_id": 10025,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 4717,
+      "recipe_id": 10176,
+      "item_id": 13051,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 4718,
+      "recipe_id": 10176,
+      "item_id": 13063,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 4719,
+      "recipe_id": 10176,
+      "item_id": 16539,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 4721,
+      "recipe_id": 10176,
+      "item_id": 15915,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 4722,
+      "recipe_id": 10176,
+      "item_id": 17504,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 4723,
+      "recipe_id": 10177,
+      "item_id": 6941,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 4724,
+      "recipe_id": 10177,
+      "item_id": 10025,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 4725,
+      "recipe_id": 10177,
+      "item_id": 13051,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 4726,
+      "recipe_id": 10177,
+      "item_id": 13063,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 4727,
+      "recipe_id": 10177,
+      "item_id": 16539,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 4729,
+      "recipe_id": 10177,
+      "item_id": 15915,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 4730,
+      "recipe_id": 10177,
+      "item_id": 17504,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    }
+  ],
+  "existing_weapons": [
+    {
+      "id": 6350,
+      "name": "Fine Steel Warhammer"
+    },
+    {
+      "id": 6351,
+      "name": "Fine Steel Morning Star"
+    },
+    {
+      "id": 6352,
+      "name": "Fine Steel Great Staff"
+    },
+    {
+      "id": 6941,
+      "name": "Fine Steel Jutte"
+    }
+  ],
+  "restriction_review": {
+    "source": "Explicit Dagger7350/HillGiantToes16539 formula, not an assumed ID/name substitution. Existing4 variants use Warhammer6350/MorningStar6351/GreatStaff6352/Jutte6941; all preserved.",
+    "encoding": "Native peer skill58/minimum0/nofail1/trivial0/learning0/min_expansion-1 retained as local family encoding. Source says no fail without numeric trivial; zero is not claimed as independently historical source fact.",
+    "tool": "Quill13051 required and returned once on success/failure; new salvage0 follows returned-tool convention. Existing peers have fail0/salvage1 but nofail1 makes failure branch unreachable; no normalization.",
+    "era": "DatedMay2006 firsthand discussion explicitly identifies fine-steel piercing/blunt weapon substitutions for MagiRune. Current linked item pages supply exact IDs/formula. Not immutable May2013 production or proof of every generic alternative.",
+    "holds": "Three PracticeRune modern-kit versus legacy-kit conflicts held. Generic ice/fire giant toe and other weapon alternatives require separate exact identity/source review; not extrapolated from names.",
+    "native_combine": false
+  },
+  "period_source": "https://mboards.eqtraders.com/eq/forum/tradeskills/research/27145-fine-steel-daggers"
+}

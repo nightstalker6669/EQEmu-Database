@@ -1,0 +1,6580 @@
+{
+  "batch": "RRC072",
+  "branch": "rof2-tradeskills",
+  "status": "SOURCE_PROPOSAL_NOT_APPLIED",
+  "cutoff": "2013-05-31",
+  "proposed_ids": [
+    3093618,
+    3093627
+  ],
+  "counts": {
+    "recipes": 10,
+    "entries": 137,
+    "item_dependencies": 27,
+    "unchanged_return_producer_recipes": 27,
+    "unchanged_return_producer_entries": 370
+  },
+  "recipes": [
+    {
+      "id": 3093618,
+      "name": "Charta Arcanum Solution",
+      "tradeskill": 58,
+      "skillneeded": 0,
+      "trivial": 243,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Primary solution formula; qualified by-HoT/VoA context; RRC072.",
+      "must_learn": 2,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 17,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3093619,
+      "name": "Fine Charta Arcanum Solution",
+      "tradeskill": 58,
+      "skillneeded": 0,
+      "trivial": 243,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Primary solution formula; qualified by-HoT/VoA context; RRC072.",
+      "must_learn": 2,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 17,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3093620,
+      "name": "Fine Runic Charta Arcanum Solution",
+      "tradeskill": 58,
+      "skillneeded": 0,
+      "trivial": 243,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Primary solution formula; qualified by-HoT/VoA context; RRC072.",
+      "must_learn": 2,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 17,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3093621,
+      "name": "Fine Runic Spell Tablet Solution",
+      "tradeskill": 58,
+      "skillneeded": 0,
+      "trivial": 243,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Primary solution formula; qualified by-HoT/VoA context; RRC072.",
+      "must_learn": 2,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 18,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3093622,
+      "name": "Fine Spell Tablet Solution",
+      "tradeskill": 58,
+      "skillneeded": 0,
+      "trivial": 243,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Primary solution formula; qualified by-HoT/VoA context; RRC072.",
+      "must_learn": 2,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 18,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3093623,
+      "name": "Rough Charta Arcanum Solution",
+      "tradeskill": 58,
+      "skillneeded": 0,
+      "trivial": 243,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Primary solution formula; qualified by-HoT/VoA context; RRC072.",
+      "must_learn": 2,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 17,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3093624,
+      "name": "Rough Spell Tablet Solution",
+      "tradeskill": 58,
+      "skillneeded": 0,
+      "trivial": 243,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Primary solution formula; qualified by-HoT/VoA context; RRC072.",
+      "must_learn": 2,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 18,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3093625,
+      "name": "Runic Charta Arcanum Solution",
+      "tradeskill": 58,
+      "skillneeded": 0,
+      "trivial": 243,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Primary solution formula; qualified by-HoT/VoA context; RRC072.",
+      "must_learn": 2,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 17,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3093626,
+      "name": "Runic Spell Tablet Solution",
+      "tradeskill": 58,
+      "skillneeded": 0,
+      "trivial": 243,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Primary solution formula; qualified by-HoT/VoA context; RRC072.",
+      "must_learn": 2,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 18,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3093627,
+      "name": "Spell Tablet Solution",
+      "tradeskill": 58,
+      "skillneeded": 0,
+      "trivial": 243,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Primary solution formula; qualified by-HoT/VoA context; RRC072.",
+      "must_learn": 2,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 18,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    }
+  ],
+  "entries": [
+    {
+      "recipe_id": 3093618,
+      "item_id": 90318,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093618,
+      "item_id": 93508,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093618,
+      "item_id": 10035,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 3,
+      "salvagecount": 3,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093618,
+      "item_id": 10032,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093618,
+      "item_id": 10025,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093618,
+      "item_id": 93509,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093618,
+      "item_id": 93510,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093618,
+      "item_id": 10062,
+      "successcount": 1,
+      "failcount": 1,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093618,
+      "item_id": 93618,
+      "successcount": 2,
+      "failcount": 2,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093618,
+      "item_id": 93492,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3093618,
+      "item_id": 41555,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3093618,
+      "item_id": 41631,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3093618,
+      "item_id": 41632,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3093618,
+      "item_id": 41633,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3093619,
+      "item_id": 90319,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093619,
+      "item_id": 93508,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093619,
+      "item_id": 10033,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093619,
+      "item_id": 10035,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 3,
+      "salvagecount": 3,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093619,
+      "item_id": 10025,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093619,
+      "item_id": 93509,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093619,
+      "item_id": 93510,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093619,
+      "item_id": 10062,
+      "successcount": 1,
+      "failcount": 1,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093619,
+      "item_id": 93618,
+      "successcount": 2,
+      "failcount": 2,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093619,
+      "item_id": 93492,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3093619,
+      "item_id": 41555,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3093619,
+      "item_id": 41631,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3093619,
+      "item_id": 41632,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3093619,
+      "item_id": 41633,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3093620,
+      "item_id": 90321,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093620,
+      "item_id": 93508,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093620,
+      "item_id": 10035,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 4,
+      "salvagecount": 4,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093620,
+      "item_id": 10025,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093620,
+      "item_id": 93509,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093620,
+      "item_id": 93510,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093620,
+      "item_id": 10062,
+      "successcount": 1,
+      "failcount": 1,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093620,
+      "item_id": 93618,
+      "successcount": 2,
+      "failcount": 2,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093620,
+      "item_id": 93492,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3093620,
+      "item_id": 41555,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3093620,
+      "item_id": 41631,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3093620,
+      "item_id": 41632,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3093620,
+      "item_id": 41633,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3093621,
+      "item_id": 64914,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093621,
+      "item_id": 93508,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093621,
+      "item_id": 10028,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093621,
+      "item_id": 10035,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 4,
+      "salvagecount": 4,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093621,
+      "item_id": 10025,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093621,
+      "item_id": 93509,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093621,
+      "item_id": 93510,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093621,
+      "item_id": 10062,
+      "successcount": 1,
+      "failcount": 1,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093621,
+      "item_id": 93618,
+      "successcount": 2,
+      "failcount": 2,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093621,
+      "item_id": 93492,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3093621,
+      "item_id": 41555,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3093621,
+      "item_id": 41632,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3093621,
+      "item_id": 41633,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3093622,
+      "item_id": 64912,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093622,
+      "item_id": 93508,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093622,
+      "item_id": 10033,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093622,
+      "item_id": 10028,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093622,
+      "item_id": 10035,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 3,
+      "salvagecount": 3,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093622,
+      "item_id": 10025,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093622,
+      "item_id": 93509,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093622,
+      "item_id": 93510,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093622,
+      "item_id": 10062,
+      "successcount": 1,
+      "failcount": 1,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093622,
+      "item_id": 93618,
+      "successcount": 2,
+      "failcount": 2,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093622,
+      "item_id": 93492,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3093622,
+      "item_id": 41555,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3093622,
+      "item_id": 41632,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3093622,
+      "item_id": 41633,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3093623,
+      "item_id": 90317,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093623,
+      "item_id": 93508,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093623,
+      "item_id": 10031,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093623,
+      "item_id": 10035,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 3,
+      "salvagecount": 3,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093623,
+      "item_id": 93509,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093623,
+      "item_id": 93510,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093623,
+      "item_id": 10062,
+      "successcount": 1,
+      "failcount": 1,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093623,
+      "item_id": 93618,
+      "successcount": 2,
+      "failcount": 2,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093623,
+      "item_id": 93492,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3093623,
+      "item_id": 41555,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3093623,
+      "item_id": 41631,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3093623,
+      "item_id": 41632,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3093623,
+      "item_id": 41633,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3093624,
+      "item_id": 64910,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093624,
+      "item_id": 93508,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093624,
+      "item_id": 10031,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093624,
+      "item_id": 10028,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093624,
+      "item_id": 10035,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 3,
+      "salvagecount": 3,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093624,
+      "item_id": 10025,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093624,
+      "item_id": 93509,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093624,
+      "item_id": 93510,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093624,
+      "item_id": 10062,
+      "successcount": 1,
+      "failcount": 1,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093624,
+      "item_id": 93618,
+      "successcount": 2,
+      "failcount": 2,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093624,
+      "item_id": 93492,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3093624,
+      "item_id": 41555,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3093624,
+      "item_id": 41632,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3093624,
+      "item_id": 41633,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3093625,
+      "item_id": 90320,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093625,
+      "item_id": 93508,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093625,
+      "item_id": 10028,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093625,
+      "item_id": 10035,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 3,
+      "salvagecount": 3,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093625,
+      "item_id": 10034,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093625,
+      "item_id": 93509,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093625,
+      "item_id": 93510,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093625,
+      "item_id": 10062,
+      "successcount": 1,
+      "failcount": 1,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093625,
+      "item_id": 93618,
+      "successcount": 2,
+      "failcount": 2,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093625,
+      "item_id": 93492,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3093625,
+      "item_id": 41555,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3093625,
+      "item_id": 41631,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3093625,
+      "item_id": 41632,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3093625,
+      "item_id": 41633,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3093626,
+      "item_id": 64913,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093626,
+      "item_id": 93508,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093626,
+      "item_id": 10028,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093626,
+      "item_id": 10035,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 3,
+      "salvagecount": 3,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093626,
+      "item_id": 10034,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093626,
+      "item_id": 10025,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093626,
+      "item_id": 93509,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093626,
+      "item_id": 93510,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093626,
+      "item_id": 10062,
+      "successcount": 1,
+      "failcount": 1,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093626,
+      "item_id": 93618,
+      "successcount": 2,
+      "failcount": 2,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093626,
+      "item_id": 93492,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3093626,
+      "item_id": 41555,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3093626,
+      "item_id": 41632,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3093626,
+      "item_id": 41633,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3093627,
+      "item_id": 64911,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093627,
+      "item_id": 93508,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093627,
+      "item_id": 10028,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093627,
+      "item_id": 10035,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 3,
+      "salvagecount": 3,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093627,
+      "item_id": 10032,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093627,
+      "item_id": 10025,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093627,
+      "item_id": 93509,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093627,
+      "item_id": 93510,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093627,
+      "item_id": 10062,
+      "successcount": 1,
+      "failcount": 1,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093627,
+      "item_id": 93618,
+      "successcount": 2,
+      "failcount": 2,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093627,
+      "item_id": 93492,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3093627,
+      "item_id": 41555,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3093627,
+      "item_id": 41632,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3093627,
+      "item_id": 41633,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    }
+  ],
+  "source_facts": [
+    {
+      "recipe_id": 3093618,
+      "name": "Charta Arcanum Solution",
+      "output_item_id": 90318,
+      "yield_count": 1,
+      "trivial": 243,
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=395&rsa=Spell+Research&sub=suspension",
+      "output_source_url": "https://www.eqtraders.com/items/show_item.php?item=34306&menustr=010000000000",
+      "container_item_ids": [
+        93492,
+        41555,
+        41631,
+        41632,
+        41633
+      ],
+      "ingredients": [
+        {
+          "item_id": 93508,
+          "name": "Aqua Regia",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=20929"
+        },
+        {
+          "item_id": 10035,
+          "name": "Ruby",
+          "count": 3,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=1080"
+        },
+        {
+          "item_id": 10032,
+          "name": "Star Ruby",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=1077"
+        },
+        {
+          "item_id": 10025,
+          "name": "Topaz",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=1071"
+        },
+        {
+          "item_id": 93509,
+          "name": "Vial of Muriatic Acid",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=20930"
+        },
+        {
+          "item_id": 93510,
+          "name": "Vial of Pure Water",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=20928"
+        }
+      ],
+      "also_returns": [
+        {
+          "item_id": 10062,
+          "name": "Empty Vial",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=1898"
+        },
+        {
+          "item_id": 93618,
+          "name": "Dirty Empty Vial",
+          "count": 2,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=20934"
+        }
+      ],
+      "failure_returns": [
+        {
+          "item_id": 10062,
+          "name": "Empty Vial",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=1898"
+        },
+        {
+          "item_id": 93618,
+          "name": "Dirty Empty Vial",
+          "count": 2,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=20934"
+        }
+      ]
+    },
+    {
+      "recipe_id": 3093619,
+      "name": "Fine Charta Arcanum Solution",
+      "output_item_id": 90319,
+      "yield_count": 1,
+      "trivial": 243,
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=395&rsa=Spell+Research&sub=suspension",
+      "output_source_url": "https://www.eqtraders.com/items/show_item.php?item=34307&menustr=010000000000",
+      "container_item_ids": [
+        93492,
+        41555,
+        41631,
+        41632,
+        41633
+      ],
+      "ingredients": [
+        {
+          "item_id": 93508,
+          "name": "Aqua Regia",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=20929"
+        },
+        {
+          "item_id": 10033,
+          "name": "Fire Emerald",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=1078"
+        },
+        {
+          "item_id": 10035,
+          "name": "Ruby",
+          "count": 3,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=1080"
+        },
+        {
+          "item_id": 10025,
+          "name": "Topaz",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=1071"
+        },
+        {
+          "item_id": 93509,
+          "name": "Vial of Muriatic Acid",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=20930"
+        },
+        {
+          "item_id": 93510,
+          "name": "Vial of Pure Water",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=20928"
+        }
+      ],
+      "also_returns": [
+        {
+          "item_id": 10062,
+          "name": "Empty Vial",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=1898"
+        },
+        {
+          "item_id": 93618,
+          "name": "Dirty Empty Vial",
+          "count": 2,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=20934"
+        }
+      ],
+      "failure_returns": [
+        {
+          "item_id": 10062,
+          "name": "Empty Vial",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=1898"
+        },
+        {
+          "item_id": 93618,
+          "name": "Dirty Empty Vial",
+          "count": 2,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=20934"
+        }
+      ]
+    },
+    {
+      "recipe_id": 3093620,
+      "name": "Fine Runic Charta Arcanum Solution",
+      "output_item_id": 90321,
+      "yield_count": 1,
+      "trivial": 243,
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=395&rsa=Spell+Research&sub=suspension",
+      "output_source_url": "https://www.eqtraders.com/items/show_item.php?item=34308&menustr=010000000000",
+      "container_item_ids": [
+        93492,
+        41555,
+        41631,
+        41632,
+        41633
+      ],
+      "ingredients": [
+        {
+          "item_id": 93508,
+          "name": "Aqua Regia",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=20929"
+        },
+        {
+          "item_id": 10035,
+          "name": "Ruby",
+          "count": 4,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=1080"
+        },
+        {
+          "item_id": 10025,
+          "name": "Topaz",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=1071"
+        },
+        {
+          "item_id": 93509,
+          "name": "Vial of Muriatic Acid",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=20930"
+        },
+        {
+          "item_id": 93510,
+          "name": "Vial of Pure Water",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=20928"
+        }
+      ],
+      "also_returns": [
+        {
+          "item_id": 10062,
+          "name": "Empty Vial",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=1898"
+        },
+        {
+          "item_id": 93618,
+          "name": "Dirty Empty Vial",
+          "count": 2,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=20934"
+        }
+      ],
+      "failure_returns": [
+        {
+          "item_id": 10062,
+          "name": "Empty Vial",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=1898"
+        },
+        {
+          "item_id": 93618,
+          "name": "Dirty Empty Vial",
+          "count": 2,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=20934"
+        }
+      ]
+    },
+    {
+      "recipe_id": 3093621,
+      "name": "Fine Runic Spell Tablet Solution",
+      "output_item_id": 64914,
+      "yield_count": 1,
+      "trivial": 243,
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=395&rsa=Spell+Research&sub=suspension",
+      "output_source_url": "https://www.eqtraders.com/items/show_item.php?item=37927&menustr=010000000000",
+      "container_item_ids": [
+        93492,
+        41555,
+        41632,
+        41633
+      ],
+      "ingredients": [
+        {
+          "item_id": 93508,
+          "name": "Aqua Regia",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=20929"
+        },
+        {
+          "item_id": 10028,
+          "name": "Peridot",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=1072"
+        },
+        {
+          "item_id": 10035,
+          "name": "Ruby",
+          "count": 4,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=1080"
+        },
+        {
+          "item_id": 10025,
+          "name": "Topaz",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=1071"
+        },
+        {
+          "item_id": 93509,
+          "name": "Vial of Muriatic Acid",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=20930"
+        },
+        {
+          "item_id": 93510,
+          "name": "Vial of Pure Water",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=20928"
+        }
+      ],
+      "also_returns": [
+        {
+          "item_id": 10062,
+          "name": "Empty Vial",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=1898"
+        },
+        {
+          "item_id": 93618,
+          "name": "Dirty Empty Vial",
+          "count": 2,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=20934"
+        }
+      ],
+      "failure_returns": [
+        {
+          "item_id": 10062,
+          "name": "Empty Vial",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=1898"
+        },
+        {
+          "item_id": 93618,
+          "name": "Dirty Empty Vial",
+          "count": 2,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=20934"
+        }
+      ]
+    },
+    {
+      "recipe_id": 3093622,
+      "name": "Fine Spell Tablet Solution",
+      "output_item_id": 64912,
+      "yield_count": 1,
+      "trivial": 243,
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=395&rsa=Spell+Research&sub=suspension",
+      "output_source_url": "https://www.eqtraders.com/items/show_item.php?item=37928&menustr=010000000000",
+      "container_item_ids": [
+        93492,
+        41555,
+        41632,
+        41633
+      ],
+      "ingredients": [
+        {
+          "item_id": 93508,
+          "name": "Aqua Regia",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=20929"
+        },
+        {
+          "item_id": 10033,
+          "name": "Fire Emerald",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=1078"
+        },
+        {
+          "item_id": 10028,
+          "name": "Peridot",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=1072"
+        },
+        {
+          "item_id": 10035,
+          "name": "Ruby",
+          "count": 3,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=1080"
+        },
+        {
+          "item_id": 10025,
+          "name": "Topaz",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=1071"
+        },
+        {
+          "item_id": 93509,
+          "name": "Vial of Muriatic Acid",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=20930"
+        },
+        {
+          "item_id": 93510,
+          "name": "Vial of Pure Water",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=20928"
+        }
+      ],
+      "also_returns": [
+        {
+          "item_id": 10062,
+          "name": "Empty Vial",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=1898"
+        },
+        {
+          "item_id": 93618,
+          "name": "Dirty Empty Vial",
+          "count": 2,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=20934"
+        }
+      ],
+      "failure_returns": [
+        {
+          "item_id": 10062,
+          "name": "Empty Vial",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=1898"
+        },
+        {
+          "item_id": 93618,
+          "name": "Dirty Empty Vial",
+          "count": 2,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=20934"
+        }
+      ]
+    },
+    {
+      "recipe_id": 3093623,
+      "name": "Rough Charta Arcanum Solution",
+      "output_item_id": 90317,
+      "yield_count": 1,
+      "trivial": 243,
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=395&rsa=Spell+Research&sub=suspension",
+      "output_source_url": "https://www.eqtraders.com/items/show_item.php?item=34309&menustr=010000000000",
+      "container_item_ids": [
+        93492,
+        41555,
+        41631,
+        41632,
+        41633
+      ],
+      "ingredients": [
+        {
+          "item_id": 93508,
+          "name": "Aqua Regia",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=20929"
+        },
+        {
+          "item_id": 10031,
+          "name": "Fire Opal",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=1076"
+        },
+        {
+          "item_id": 10035,
+          "name": "Ruby",
+          "count": 3,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=1080"
+        },
+        {
+          "item_id": 93509,
+          "name": "Vial of Muriatic Acid",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=20930"
+        },
+        {
+          "item_id": 93510,
+          "name": "Vial of Pure Water",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=20928"
+        }
+      ],
+      "also_returns": [
+        {
+          "item_id": 10062,
+          "name": "Empty Vial",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=1898"
+        },
+        {
+          "item_id": 93618,
+          "name": "Dirty Empty Vial",
+          "count": 2,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=20934"
+        }
+      ],
+      "failure_returns": [
+        {
+          "item_id": 10062,
+          "name": "Empty Vial",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=1898"
+        },
+        {
+          "item_id": 93618,
+          "name": "Dirty Empty Vial",
+          "count": 2,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=20934"
+        }
+      ]
+    },
+    {
+      "recipe_id": 3093624,
+      "name": "Rough Spell Tablet Solution",
+      "output_item_id": 64910,
+      "yield_count": 1,
+      "trivial": 243,
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=395&rsa=Spell+Research&sub=suspension",
+      "output_source_url": "https://www.eqtraders.com/items/show_item.php?item=37929&menustr=010000000000",
+      "container_item_ids": [
+        93492,
+        41555,
+        41632,
+        41633
+      ],
+      "ingredients": [
+        {
+          "item_id": 93508,
+          "name": "Aqua Regia",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=20929"
+        },
+        {
+          "item_id": 10031,
+          "name": "Fire Opal",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=1076"
+        },
+        {
+          "item_id": 10028,
+          "name": "Peridot",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=1072"
+        },
+        {
+          "item_id": 10035,
+          "name": "Ruby",
+          "count": 3,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=1080"
+        },
+        {
+          "item_id": 10025,
+          "name": "Topaz",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=1071"
+        },
+        {
+          "item_id": 93509,
+          "name": "Vial of Muriatic Acid",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=20930"
+        },
+        {
+          "item_id": 93510,
+          "name": "Vial of Pure Water",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=20928"
+        }
+      ],
+      "also_returns": [
+        {
+          "item_id": 10062,
+          "name": "Empty Vial",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=1898"
+        },
+        {
+          "item_id": 93618,
+          "name": "Dirty Empty Vial",
+          "count": 2,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=20934"
+        }
+      ],
+      "failure_returns": [
+        {
+          "item_id": 10062,
+          "name": "Empty Vial",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=1898"
+        },
+        {
+          "item_id": 93618,
+          "name": "Dirty Empty Vial",
+          "count": 2,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=20934"
+        }
+      ]
+    },
+    {
+      "recipe_id": 3093625,
+      "name": "Runic Charta Arcanum Solution",
+      "output_item_id": 90320,
+      "yield_count": 1,
+      "trivial": 243,
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=395&rsa=Spell+Research&sub=suspension",
+      "output_source_url": "https://www.eqtraders.com/items/show_item.php?item=34310&menustr=010000000000",
+      "container_item_ids": [
+        93492,
+        41555,
+        41631,
+        41632,
+        41633
+      ],
+      "ingredients": [
+        {
+          "item_id": 93508,
+          "name": "Aqua Regia",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=20929"
+        },
+        {
+          "item_id": 10028,
+          "name": "Peridot",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=1072"
+        },
+        {
+          "item_id": 10035,
+          "name": "Ruby",
+          "count": 3,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=1080"
+        },
+        {
+          "item_id": 10034,
+          "name": "Sapphire",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=1079"
+        },
+        {
+          "item_id": 93509,
+          "name": "Vial of Muriatic Acid",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=20930"
+        },
+        {
+          "item_id": 93510,
+          "name": "Vial of Pure Water",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=20928"
+        }
+      ],
+      "also_returns": [
+        {
+          "item_id": 10062,
+          "name": "Empty Vial",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=1898"
+        },
+        {
+          "item_id": 93618,
+          "name": "Dirty Empty Vial",
+          "count": 2,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=20934"
+        }
+      ],
+      "failure_returns": [
+        {
+          "item_id": 10062,
+          "name": "Empty Vial",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=1898"
+        },
+        {
+          "item_id": 93618,
+          "name": "Dirty Empty Vial",
+          "count": 2,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=20934"
+        }
+      ]
+    },
+    {
+      "recipe_id": 3093626,
+      "name": "Runic Spell Tablet Solution",
+      "output_item_id": 64913,
+      "yield_count": 1,
+      "trivial": 243,
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=395&rsa=Spell+Research&sub=suspension",
+      "output_source_url": "https://www.eqtraders.com/items/show_item.php?item=37930&menustr=010000000000",
+      "container_item_ids": [
+        93492,
+        41555,
+        41632,
+        41633
+      ],
+      "ingredients": [
+        {
+          "item_id": 93508,
+          "name": "Aqua Regia",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=20929"
+        },
+        {
+          "item_id": 10028,
+          "name": "Peridot",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=1072"
+        },
+        {
+          "item_id": 10035,
+          "name": "Ruby",
+          "count": 3,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=1080"
+        },
+        {
+          "item_id": 10034,
+          "name": "Sapphire",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=1079"
+        },
+        {
+          "item_id": 10025,
+          "name": "Topaz",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=1071"
+        },
+        {
+          "item_id": 93509,
+          "name": "Vial of Muriatic Acid",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=20930"
+        },
+        {
+          "item_id": 93510,
+          "name": "Vial of Pure Water",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=20928"
+        }
+      ],
+      "also_returns": [
+        {
+          "item_id": 10062,
+          "name": "Empty Vial",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=1898"
+        },
+        {
+          "item_id": 93618,
+          "name": "Dirty Empty Vial",
+          "count": 2,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=20934"
+        }
+      ],
+      "failure_returns": [
+        {
+          "item_id": 10062,
+          "name": "Empty Vial",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=1898"
+        },
+        {
+          "item_id": 93618,
+          "name": "Dirty Empty Vial",
+          "count": 2,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=20934"
+        }
+      ]
+    },
+    {
+      "recipe_id": 3093627,
+      "name": "Spell Tablet Solution",
+      "output_item_id": 64911,
+      "yield_count": 1,
+      "trivial": 243,
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=395&rsa=Spell+Research&sub=suspension",
+      "output_source_url": "https://www.eqtraders.com/items/show_item.php?item=37931&menustr=010000000000",
+      "container_item_ids": [
+        93492,
+        41555,
+        41632,
+        41633
+      ],
+      "ingredients": [
+        {
+          "item_id": 93508,
+          "name": "Aqua Regia",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=20929"
+        },
+        {
+          "item_id": 10028,
+          "name": "Peridot",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=1072"
+        },
+        {
+          "item_id": 10035,
+          "name": "Ruby",
+          "count": 3,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=1080"
+        },
+        {
+          "item_id": 10032,
+          "name": "Star Ruby",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=1077"
+        },
+        {
+          "item_id": 10025,
+          "name": "Topaz",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=1071"
+        },
+        {
+          "item_id": 93509,
+          "name": "Vial of Muriatic Acid",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=20930"
+        },
+        {
+          "item_id": 93510,
+          "name": "Vial of Pure Water",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=20928"
+        }
+      ],
+      "also_returns": [
+        {
+          "item_id": 10062,
+          "name": "Empty Vial",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=1898"
+        },
+        {
+          "item_id": 93618,
+          "name": "Dirty Empty Vial",
+          "count": 2,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=20934"
+        }
+      ],
+      "failure_returns": [
+        {
+          "item_id": 10062,
+          "name": "Empty Vial",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=1898"
+        },
+        {
+          "item_id": 93618,
+          "name": "Dirty Empty Vial",
+          "count": 2,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=20934"
+        }
+      ]
+    }
+  ],
+  "item_dependencies": [
+    {
+      "id": 10025,
+      "name": "Topaz"
+    },
+    {
+      "id": 10028,
+      "name": "Peridot"
+    },
+    {
+      "id": 10031,
+      "name": "Fire Opal"
+    },
+    {
+      "id": 10032,
+      "name": "Star Ruby"
+    },
+    {
+      "id": 10033,
+      "name": "Fire Emerald"
+    },
+    {
+      "id": 10034,
+      "name": "Sapphire"
+    },
+    {
+      "id": 10035,
+      "name": "Ruby"
+    },
+    {
+      "id": 10062,
+      "name": "Empty Vial"
+    },
+    {
+      "id": 41555,
+      "name": "Tome Binding Kit"
+    },
+    {
+      "id": 41631,
+      "name": "Prayer Writing Kit"
+    },
+    {
+      "id": 41632,
+      "name": "Hybrid Research Kit"
+    },
+    {
+      "id": 41633,
+      "name": "Song Writing Kit"
+    },
+    {
+      "id": 64910,
+      "name": "Rough Spell Tablet Solution"
+    },
+    {
+      "id": 64911,
+      "name": "Spell Tablet Solution"
+    },
+    {
+      "id": 64912,
+      "name": "Fine Spell Tablet Solution"
+    },
+    {
+      "id": 64913,
+      "name": "Runic Spell Tablet Solution"
+    },
+    {
+      "id": 64914,
+      "name": "Fine Runic Spell Tablet Solution"
+    },
+    {
+      "id": 90317,
+      "name": "Rough Charta Arcanum Solution"
+    },
+    {
+      "id": 90318,
+      "name": "Charta Arcanum Solution"
+    },
+    {
+      "id": 90319,
+      "name": "Fine Charta Arcanum Solution"
+    },
+    {
+      "id": 90320,
+      "name": "Runic Charta Arcanum Solution"
+    },
+    {
+      "id": 90321,
+      "name": "Fine Runic Charta Arcanum Solution"
+    },
+    {
+      "id": 93492,
+      "name": "Spell Research Kit"
+    },
+    {
+      "id": 93508,
+      "name": "Aqua Regia"
+    },
+    {
+      "id": 93509,
+      "name": "Vial of Muriatic Acid"
+    },
+    {
+      "id": 93510,
+      "name": "Vial of Pure Water"
+    },
+    {
+      "id": 93618,
+      "name": "Dirty Empty Vial"
+    }
+  ],
+  "unchanged_return_producer_recipes": [
+    {
+      "id": 1288,
+      "name": "Formed Ensnaring Concoction V",
+      "tradeskill": 59,
+      "skillneeded": 0,
+      "trivial": 41,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": null,
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": -1,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 11233,
+      "name": "Parchment Solution",
+      "tradeskill": 58,
+      "skillneeded": 0,
+      "trivial": 144,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": null,
+      "must_learn": 2,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": -1,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 11234,
+      "name": "Fine Parchment Solution",
+      "tradeskill": 58,
+      "skillneeded": 0,
+      "trivial": 174,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": null,
+      "must_learn": 2,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": -1,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 11235,
+      "name": "Vellum Parchment Solution",
+      "tradeskill": 58,
+      "skillneeded": 0,
+      "trivial": 203,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": null,
+      "must_learn": 2,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": -1,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 11236,
+      "name": "Fine Vellum Parchment Solution",
+      "tradeskill": 58,
+      "skillneeded": 0,
+      "trivial": 216,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": null,
+      "must_learn": 2,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": -1,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 11237,
+      "name": "Runic Parchment Solution",
+      "tradeskill": 58,
+      "skillneeded": 0,
+      "trivial": 243,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": null,
+      "must_learn": 2,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": -1,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 11240,
+      "name": "Aqua Regia",
+      "tradeskill": 58,
+      "skillneeded": 0,
+      "trivial": 102,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": null,
+      "must_learn": 2,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": -1,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 11313,
+      "name": "Celestial Cleanser",
+      "tradeskill": 58,
+      "skillneeded": 0,
+      "trivial": 54,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": null,
+      "must_learn": 2,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": -1,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 12219,
+      "name": "Crude Spell Scroll Solution",
+      "tradeskill": 58,
+      "skillneeded": 0,
+      "trivial": 32,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": null,
+      "must_learn": 2,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": -1,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 12220,
+      "name": "Rough Spell Scroll Solution",
+      "tradeskill": 58,
+      "skillneeded": 0,
+      "trivial": 35,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": null,
+      "must_learn": 2,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": -1,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 12221,
+      "name": "Spell Scroll Solution",
+      "tradeskill": 58,
+      "skillneeded": 0,
+      "trivial": 38,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": null,
+      "must_learn": 2,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": -1,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 12222,
+      "name": "Fine Spell Scroll Solution",
+      "tradeskill": 58,
+      "skillneeded": 0,
+      "trivial": 42,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": null,
+      "must_learn": 2,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": -1,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 12223,
+      "name": "Runic Spell Scroll Solution",
+      "tradeskill": 58,
+      "skillneeded": 0,
+      "trivial": 47,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": null,
+      "must_learn": 2,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": -1,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 12224,
+      "name": "Fine Runic Spell Scroll Solution",
+      "tradeskill": 58,
+      "skillneeded": 0,
+      "trivial": 53,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": null,
+      "must_learn": 2,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": -1,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 12225,
+      "name": "Rough Papyrus Solution",
+      "tradeskill": 58,
+      "skillneeded": 0,
+      "trivial": 60,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": null,
+      "must_learn": 2,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": -1,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 12226,
+      "name": "Papyrus Solution",
+      "tradeskill": 58,
+      "skillneeded": 0,
+      "trivial": 71,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": null,
+      "must_learn": 2,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": -1,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 12227,
+      "name": "Fine Papyrus Solution",
+      "tradeskill": 58,
+      "skillneeded": 0,
+      "trivial": 84,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": null,
+      "must_learn": 2,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": -1,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 12228,
+      "name": "Runic Papyrus Solution",
+      "tradeskill": 58,
+      "skillneeded": 0,
+      "trivial": 100,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": null,
+      "must_learn": 2,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": -1,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 12229,
+      "name": "Fine Runic Papyrus Solution",
+      "tradeskill": 58,
+      "skillneeded": 0,
+      "trivial": 120,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": null,
+      "must_learn": 2,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": -1,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 12230,
+      "name": "Fine Runic Parchment Solution",
+      "tradeskill": 58,
+      "skillneeded": 0,
+      "trivial": 243,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": null,
+      "must_learn": 2,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": -1,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 12231,
+      "name": "Vellum Solution",
+      "tradeskill": 58,
+      "skillneeded": 0,
+      "trivial": 243,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": null,
+      "must_learn": 2,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": -1,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 12232,
+      "name": "Fine Vellum Solution",
+      "tradeskill": 58,
+      "skillneeded": 0,
+      "trivial": 243,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": null,
+      "must_learn": 2,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": -1,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 12234,
+      "name": "Fine Runic Vellum Solution",
+      "tradeskill": 58,
+      "skillneeded": 0,
+      "trivial": 243,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": null,
+      "must_learn": 2,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": -1,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 12235,
+      "name": "Rough Paper Solution",
+      "tradeskill": 58,
+      "skillneeded": 0,
+      "trivial": 243,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": null,
+      "must_learn": 2,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": -1,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 12236,
+      "name": "Paper Solution",
+      "tradeskill": 58,
+      "skillneeded": 0,
+      "trivial": 243,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": null,
+      "must_learn": 2,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": -1,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 12237,
+      "name": "Fine Paper Solution",
+      "tradeskill": 58,
+      "skillneeded": 0,
+      "trivial": 243,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": null,
+      "must_learn": 2,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": -1,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 12238,
+      "name": "Runic Paper Solution",
+      "tradeskill": 58,
+      "skillneeded": 0,
+      "trivial": 243,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": null,
+      "must_learn": 2,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": -1,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    }
+  ],
+  "unchanged_return_producer_entries": [
+    {
+      "id": 9988,
+      "recipe_id": 1288,
+      "item_id": 45232,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 9989,
+      "recipe_id": 1288,
+      "item_id": 45236,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 9990,
+      "recipe_id": 1288,
+      "item_id": 10062,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 9991,
+      "recipe_id": 1288,
+      "item_id": 16851,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 9992,
+      "recipe_id": 1288,
+      "item_id": 45258,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 9993,
+      "recipe_id": 1288,
+      "item_id": 17770,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 9994,
+      "recipe_id": 1288,
+      "item_id": 17771,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 9995,
+      "recipe_id": 1288,
+      "item_id": 17811,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 9996,
+      "recipe_id": 1288,
+      "item_id": 17901,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 137999,
+      "recipe_id": 11233,
+      "item_id": 93508,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 138000,
+      "recipe_id": 11233,
+      "item_id": 10033,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 138001,
+      "recipe_id": 11233,
+      "item_id": 63244,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 138002,
+      "recipe_id": 11233,
+      "item_id": 93510,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 138003,
+      "recipe_id": 11233,
+      "item_id": 93503,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 138004,
+      "recipe_id": 11233,
+      "item_id": 10062,
+      "successcount": 1,
+      "failcount": 1,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 138005,
+      "recipe_id": 11233,
+      "item_id": 93618,
+      "successcount": 1,
+      "failcount": 1,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 138008,
+      "recipe_id": 11233,
+      "item_id": 93492,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 138009,
+      "recipe_id": 11233,
+      "item_id": 41555,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 138010,
+      "recipe_id": 11233,
+      "item_id": 41631,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 138011,
+      "recipe_id": 11233,
+      "item_id": 41632,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 138012,
+      "recipe_id": 11233,
+      "item_id": 41633,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 138013,
+      "recipe_id": 11234,
+      "item_id": 93508,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 138014,
+      "recipe_id": 11234,
+      "item_id": 10033,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 138015,
+      "recipe_id": 11234,
+      "item_id": 63244,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 4,
+      "salvagecount": 4,
+      "iscontainer": 0
+    },
+    {
+      "id": 138016,
+      "recipe_id": 11234,
+      "item_id": 16502,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 2,
+      "salvagecount": 2,
+      "iscontainer": 0
+    },
+    {
+      "id": 138017,
+      "recipe_id": 11234,
+      "item_id": 93510,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 2,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 138018,
+      "recipe_id": 11234,
+      "item_id": 93504,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 138019,
+      "recipe_id": 11234,
+      "item_id": 10062,
+      "successcount": 2,
+      "failcount": 2,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 138020,
+      "recipe_id": 11234,
+      "item_id": 93618,
+      "successcount": 1,
+      "failcount": 1,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 138023,
+      "recipe_id": 11234,
+      "item_id": 93492,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 138024,
+      "recipe_id": 11234,
+      "item_id": 41555,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 138025,
+      "recipe_id": 11234,
+      "item_id": 41631,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 138026,
+      "recipe_id": 11234,
+      "item_id": 41632,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 138027,
+      "recipe_id": 11234,
+      "item_id": 41633,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 138028,
+      "recipe_id": 11235,
+      "item_id": 93508,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 138029,
+      "recipe_id": 11235,
+      "item_id": 63244,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 3,
+      "salvagecount": 3,
+      "iscontainer": 0
+    },
+    {
+      "id": 138030,
+      "recipe_id": 11235,
+      "item_id": 16502,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 3,
+      "salvagecount": 3,
+      "iscontainer": 0
+    },
+    {
+      "id": 138031,
+      "recipe_id": 11235,
+      "item_id": 16503,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 138032,
+      "recipe_id": 11235,
+      "item_id": 93510,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 138033,
+      "recipe_id": 11235,
+      "item_id": 93505,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 138034,
+      "recipe_id": 11235,
+      "item_id": 10062,
+      "successcount": 1,
+      "failcount": 1,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 138035,
+      "recipe_id": 11235,
+      "item_id": 93618,
+      "successcount": 1,
+      "failcount": 1,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 138038,
+      "recipe_id": 11235,
+      "item_id": 93492,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 138039,
+      "recipe_id": 11235,
+      "item_id": 41555,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 138040,
+      "recipe_id": 11235,
+      "item_id": 41631,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 138041,
+      "recipe_id": 11235,
+      "item_id": 41632,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 138042,
+      "recipe_id": 11235,
+      "item_id": 41633,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 138043,
+      "recipe_id": 11236,
+      "item_id": 93508,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 138044,
+      "recipe_id": 11236,
+      "item_id": 10031,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 138045,
+      "recipe_id": 11236,
+      "item_id": 63244,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 2,
+      "salvagecount": 2,
+      "iscontainer": 0
+    },
+    {
+      "id": 138046,
+      "recipe_id": 11236,
+      "item_id": 10028,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 138047,
+      "recipe_id": 11236,
+      "item_id": 16503,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 138048,
+      "recipe_id": 11236,
+      "item_id": 93509,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 138049,
+      "recipe_id": 11236,
+      "item_id": 93510,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 2,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 138050,
+      "recipe_id": 11236,
+      "item_id": 93506,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 138051,
+      "recipe_id": 11236,
+      "item_id": 10062,
+      "successcount": 2,
+      "failcount": 2,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 138052,
+      "recipe_id": 11236,
+      "item_id": 93618,
+      "successcount": 2,
+      "failcount": 2,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 138055,
+      "recipe_id": 11236,
+      "item_id": 93492,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 138056,
+      "recipe_id": 11236,
+      "item_id": 41555,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 138057,
+      "recipe_id": 11236,
+      "item_id": 41631,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 138058,
+      "recipe_id": 11236,
+      "item_id": 41632,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 138059,
+      "recipe_id": 11236,
+      "item_id": 41633,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 138060,
+      "recipe_id": 11237,
+      "item_id": 93508,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 138061,
+      "recipe_id": 11237,
+      "item_id": 63244,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 138062,
+      "recipe_id": 11237,
+      "item_id": 16502,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 138063,
+      "recipe_id": 11237,
+      "item_id": 16503,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 138064,
+      "recipe_id": 11237,
+      "item_id": 10032,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 138065,
+      "recipe_id": 11237,
+      "item_id": 93509,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 138066,
+      "recipe_id": 11237,
+      "item_id": 93510,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 2,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 138067,
+      "recipe_id": 11237,
+      "item_id": 93507,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 138068,
+      "recipe_id": 11237,
+      "item_id": 10062,
+      "successcount": 2,
+      "failcount": 2,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 138069,
+      "recipe_id": 11237,
+      "item_id": 93618,
+      "successcount": 2,
+      "failcount": 2,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 138072,
+      "recipe_id": 11237,
+      "item_id": 93492,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 138073,
+      "recipe_id": 11237,
+      "item_id": 41555,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 138074,
+      "recipe_id": 11237,
+      "item_id": 41631,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 138075,
+      "recipe_id": 11237,
+      "item_id": 41632,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 138076,
+      "recipe_id": 11237,
+      "item_id": 41633,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 138096,
+      "recipe_id": 11240,
+      "item_id": 93511,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 138097,
+      "recipe_id": 11240,
+      "item_id": 93509,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 138098,
+      "recipe_id": 11240,
+      "item_id": 93508,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 138099,
+      "recipe_id": 11240,
+      "item_id": 93618,
+      "successcount": 1,
+      "failcount": 2,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 138100,
+      "recipe_id": 11240,
+      "item_id": 10062,
+      "successcount": 0,
+      "failcount": 2,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 138102,
+      "recipe_id": 11240,
+      "item_id": 93492,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 138103,
+      "recipe_id": 11240,
+      "item_id": 41555,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 138104,
+      "recipe_id": 11240,
+      "item_id": 41631,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 138105,
+      "recipe_id": 11240,
+      "item_id": 41632,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 138106,
+      "recipe_id": 11240,
+      "item_id": 41633,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 138729,
+      "recipe_id": 11313,
+      "item_id": 9731,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 138730,
+      "recipe_id": 11313,
+      "item_id": 10062,
+      "successcount": 3,
+      "failcount": 4,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 138731,
+      "recipe_id": 11313,
+      "item_id": 93510,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 3,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 138732,
+      "recipe_id": 11313,
+      "item_id": 93617,
+      "successcount": 4,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 138735,
+      "recipe_id": 11313,
+      "item_id": 93492,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 138736,
+      "recipe_id": 11313,
+      "item_id": 41632,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 145296,
+      "recipe_id": 12219,
+      "item_id": 10022,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 145297,
+      "recipe_id": 12219,
+      "item_id": 93508,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 145298,
+      "recipe_id": 12219,
+      "item_id": 93510,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 145299,
+      "recipe_id": 12219,
+      "item_id": 97836,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 145300,
+      "recipe_id": 12219,
+      "item_id": 10062,
+      "successcount": 1,
+      "failcount": 1,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 145301,
+      "recipe_id": 12219,
+      "item_id": 93618,
+      "successcount": 1,
+      "failcount": 1,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 145304,
+      "recipe_id": 12219,
+      "item_id": 93492,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 145305,
+      "recipe_id": 12219,
+      "item_id": 41555,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 145306,
+      "recipe_id": 12219,
+      "item_id": 41631,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 145307,
+      "recipe_id": 12219,
+      "item_id": 41632,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 145308,
+      "recipe_id": 12219,
+      "item_id": 41633,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 145309,
+      "recipe_id": 12220,
+      "item_id": 93508,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 145310,
+      "recipe_id": 12220,
+      "item_id": 10024,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 145311,
+      "recipe_id": 12220,
+      "item_id": 93510,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 145312,
+      "recipe_id": 12220,
+      "item_id": 97837,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 145313,
+      "recipe_id": 12220,
+      "item_id": 10062,
+      "successcount": 1,
+      "failcount": 1,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 145314,
+      "recipe_id": 12220,
+      "item_id": 93618,
+      "successcount": 1,
+      "failcount": 1,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 145317,
+      "recipe_id": 12220,
+      "item_id": 93492,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 145318,
+      "recipe_id": 12220,
+      "item_id": 41555,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 145319,
+      "recipe_id": 12220,
+      "item_id": 41631,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 145320,
+      "recipe_id": 12220,
+      "item_id": 41632,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 145321,
+      "recipe_id": 12220,
+      "item_id": 41633,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 145322,
+      "recipe_id": 12221,
+      "item_id": 93508,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 145323,
+      "recipe_id": 12221,
+      "item_id": 10021,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 2,
+      "salvagecount": 2,
+      "iscontainer": 0
+    },
+    {
+      "id": 145324,
+      "recipe_id": 12221,
+      "item_id": 10025,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 145325,
+      "recipe_id": 12221,
+      "item_id": 93510,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 145326,
+      "recipe_id": 12221,
+      "item_id": 97838,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 145327,
+      "recipe_id": 12221,
+      "item_id": 10062,
+      "successcount": 1,
+      "failcount": 1,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 145328,
+      "recipe_id": 12221,
+      "item_id": 93618,
+      "successcount": 1,
+      "failcount": 1,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 145331,
+      "recipe_id": 12221,
+      "item_id": 93492,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 145332,
+      "recipe_id": 12221,
+      "item_id": 41555,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 145333,
+      "recipe_id": 12221,
+      "item_id": 41631,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 145334,
+      "recipe_id": 12221,
+      "item_id": 41632,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 145335,
+      "recipe_id": 12221,
+      "item_id": 41633,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 145336,
+      "recipe_id": 12222,
+      "item_id": 93508,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 145337,
+      "recipe_id": 12222,
+      "item_id": 16502,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 145338,
+      "recipe_id": 12222,
+      "item_id": 93510,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 145339,
+      "recipe_id": 12222,
+      "item_id": 97839,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 145340,
+      "recipe_id": 12222,
+      "item_id": 10062,
+      "successcount": 1,
+      "failcount": 1,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 145341,
+      "recipe_id": 12222,
+      "item_id": 93618,
+      "successcount": 1,
+      "failcount": 1,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 145344,
+      "recipe_id": 12222,
+      "item_id": 93492,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 145345,
+      "recipe_id": 12222,
+      "item_id": 41555,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 145346,
+      "recipe_id": 12222,
+      "item_id": 41631,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 145347,
+      "recipe_id": 12222,
+      "item_id": 41632,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 145348,
+      "recipe_id": 12222,
+      "item_id": 41633,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 145349,
+      "recipe_id": 12223,
+      "item_id": 10022,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 145350,
+      "recipe_id": 12223,
+      "item_id": 93508,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 145351,
+      "recipe_id": 12223,
+      "item_id": 16502,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 145352,
+      "recipe_id": 12223,
+      "item_id": 10021,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 145353,
+      "recipe_id": 12223,
+      "item_id": 93510,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 145354,
+      "recipe_id": 12223,
+      "item_id": 97840,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 145355,
+      "recipe_id": 12223,
+      "item_id": 10062,
+      "successcount": 1,
+      "failcount": 1,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 145356,
+      "recipe_id": 12223,
+      "item_id": 93618,
+      "successcount": 1,
+      "failcount": 1,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 145359,
+      "recipe_id": 12223,
+      "item_id": 93492,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 145360,
+      "recipe_id": 12223,
+      "item_id": 41555,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 145361,
+      "recipe_id": 12223,
+      "item_id": 41631,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 145362,
+      "recipe_id": 12223,
+      "item_id": 41632,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 145363,
+      "recipe_id": 12223,
+      "item_id": 41633,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 145364,
+      "recipe_id": 12224,
+      "item_id": 10022,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 145365,
+      "recipe_id": 12224,
+      "item_id": 93508,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 145366,
+      "recipe_id": 12224,
+      "item_id": 16502,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 145367,
+      "recipe_id": 12224,
+      "item_id": 10024,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 145368,
+      "recipe_id": 12224,
+      "item_id": 10021,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 145369,
+      "recipe_id": 12224,
+      "item_id": 93510,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 145370,
+      "recipe_id": 12224,
+      "item_id": 97841,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 145371,
+      "recipe_id": 12224,
+      "item_id": 10062,
+      "successcount": 1,
+      "failcount": 1,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 145372,
+      "recipe_id": 12224,
+      "item_id": 93618,
+      "successcount": 1,
+      "failcount": 1,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 145375,
+      "recipe_id": 12224,
+      "item_id": 93492,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 145376,
+      "recipe_id": 12224,
+      "item_id": 41555,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 145377,
+      "recipe_id": 12224,
+      "item_id": 41631,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 145378,
+      "recipe_id": 12224,
+      "item_id": 41632,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 145379,
+      "recipe_id": 12224,
+      "item_id": 41633,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 145380,
+      "recipe_id": 12225,
+      "item_id": 93508,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 145381,
+      "recipe_id": 12225,
+      "item_id": 16502,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 145382,
+      "recipe_id": 12225,
+      "item_id": 10023,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 145383,
+      "recipe_id": 12225,
+      "item_id": 10027,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 145384,
+      "recipe_id": 12225,
+      "item_id": 10028,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 145385,
+      "recipe_id": 12225,
+      "item_id": 93510,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 145386,
+      "recipe_id": 12225,
+      "item_id": 97842,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 145387,
+      "recipe_id": 12225,
+      "item_id": 10062,
+      "successcount": 1,
+      "failcount": 1,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 145388,
+      "recipe_id": 12225,
+      "item_id": 93618,
+      "successcount": 1,
+      "failcount": 1,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 145391,
+      "recipe_id": 12225,
+      "item_id": 93492,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 145392,
+      "recipe_id": 12225,
+      "item_id": 41555,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 145393,
+      "recipe_id": 12225,
+      "item_id": 41631,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 145394,
+      "recipe_id": 12225,
+      "item_id": 41632,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 145395,
+      "recipe_id": 12225,
+      "item_id": 41633,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 145396,
+      "recipe_id": 12226,
+      "item_id": 93508,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 145397,
+      "recipe_id": 12226,
+      "item_id": 16502,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 145398,
+      "recipe_id": 12226,
+      "item_id": 10028,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 2,
+      "salvagecount": 2,
+      "iscontainer": 0
+    },
+    {
+      "id": 145399,
+      "recipe_id": 12226,
+      "item_id": 10021,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 145400,
+      "recipe_id": 12226,
+      "item_id": 93510,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 145401,
+      "recipe_id": 12226,
+      "item_id": 97843,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 145402,
+      "recipe_id": 12226,
+      "item_id": 10062,
+      "successcount": 1,
+      "failcount": 1,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 145403,
+      "recipe_id": 12226,
+      "item_id": 93618,
+      "successcount": 1,
+      "failcount": 1,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 145406,
+      "recipe_id": 12226,
+      "item_id": 93492,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 145407,
+      "recipe_id": 12226,
+      "item_id": 41555,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 145408,
+      "recipe_id": 12226,
+      "item_id": 41631,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 145409,
+      "recipe_id": 12226,
+      "item_id": 41632,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 145410,
+      "recipe_id": 12226,
+      "item_id": 41633,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 145411,
+      "recipe_id": 12227,
+      "item_id": 93508,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 145412,
+      "recipe_id": 12227,
+      "item_id": 10029,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 145413,
+      "recipe_id": 12227,
+      "item_id": 16502,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 145414,
+      "recipe_id": 12227,
+      "item_id": 10020,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 145415,
+      "recipe_id": 12227,
+      "item_id": 10030,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 145416,
+      "recipe_id": 12227,
+      "item_id": 93510,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 145417,
+      "recipe_id": 12227,
+      "item_id": 97844,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 145418,
+      "recipe_id": 12227,
+      "item_id": 10062,
+      "successcount": 1,
+      "failcount": 1,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 145419,
+      "recipe_id": 12227,
+      "item_id": 93618,
+      "successcount": 1,
+      "failcount": 1,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 145422,
+      "recipe_id": 12227,
+      "item_id": 93492,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 145423,
+      "recipe_id": 12227,
+      "item_id": 41555,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 145424,
+      "recipe_id": 12227,
+      "item_id": 41631,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 145425,
+      "recipe_id": 12227,
+      "item_id": 41632,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 145426,
+      "recipe_id": 12227,
+      "item_id": 41633,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 145427,
+      "recipe_id": 12228,
+      "item_id": 93508,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 145428,
+      "recipe_id": 12228,
+      "item_id": 16502,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 145429,
+      "recipe_id": 12228,
+      "item_id": 10023,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 145430,
+      "recipe_id": 12228,
+      "item_id": 10030,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 2,
+      "salvagecount": 2,
+      "iscontainer": 0
+    },
+    {
+      "id": 145431,
+      "recipe_id": 12228,
+      "item_id": 10025,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 145432,
+      "recipe_id": 12228,
+      "item_id": 93510,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 145433,
+      "recipe_id": 12228,
+      "item_id": 97845,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 145434,
+      "recipe_id": 12228,
+      "item_id": 10062,
+      "successcount": 1,
+      "failcount": 1,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 145435,
+      "recipe_id": 12228,
+      "item_id": 93618,
+      "successcount": 1,
+      "failcount": 1,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 145438,
+      "recipe_id": 12228,
+      "item_id": 93492,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 145439,
+      "recipe_id": 12228,
+      "item_id": 41555,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 145440,
+      "recipe_id": 12228,
+      "item_id": 41631,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 145441,
+      "recipe_id": 12228,
+      "item_id": 41632,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 145442,
+      "recipe_id": 12228,
+      "item_id": 41633,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 145443,
+      "recipe_id": 12229,
+      "item_id": 10022,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 145444,
+      "recipe_id": 12229,
+      "item_id": 93508,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 145445,
+      "recipe_id": 12229,
+      "item_id": 10031,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 145446,
+      "recipe_id": 12229,
+      "item_id": 16502,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 145447,
+      "recipe_id": 12229,
+      "item_id": 10028,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 145448,
+      "recipe_id": 12229,
+      "item_id": 10025,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 145449,
+      "recipe_id": 12229,
+      "item_id": 93510,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 145450,
+      "recipe_id": 12229,
+      "item_id": 97846,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 145451,
+      "recipe_id": 12229,
+      "item_id": 10062,
+      "successcount": 1,
+      "failcount": 1,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 145452,
+      "recipe_id": 12229,
+      "item_id": 93618,
+      "successcount": 1,
+      "failcount": 1,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 145455,
+      "recipe_id": 12229,
+      "item_id": 93492,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 145456,
+      "recipe_id": 12229,
+      "item_id": 41555,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 145457,
+      "recipe_id": 12229,
+      "item_id": 41631,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 145458,
+      "recipe_id": 12229,
+      "item_id": 41632,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 145459,
+      "recipe_id": 12229,
+      "item_id": 41633,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 145460,
+      "recipe_id": 12230,
+      "item_id": 93508,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 145461,
+      "recipe_id": 12230,
+      "item_id": 16503,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 145462,
+      "recipe_id": 12230,
+      "item_id": 10034,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 145463,
+      "recipe_id": 12230,
+      "item_id": 93509,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 145464,
+      "recipe_id": 12230,
+      "item_id": 93510,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 145465,
+      "recipe_id": 12230,
+      "item_id": 97847,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 145466,
+      "recipe_id": 12230,
+      "item_id": 10062,
+      "successcount": 1,
+      "failcount": 1,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 145467,
+      "recipe_id": 12230,
+      "item_id": 93618,
+      "successcount": 2,
+      "failcount": 2,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 145470,
+      "recipe_id": 12230,
+      "item_id": 93492,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 145471,
+      "recipe_id": 12230,
+      "item_id": 41555,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 145472,
+      "recipe_id": 12230,
+      "item_id": 41631,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 145473,
+      "recipe_id": 12230,
+      "item_id": 41632,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 145474,
+      "recipe_id": 12230,
+      "item_id": 41633,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 145475,
+      "recipe_id": 12231,
+      "item_id": 93508,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 145476,
+      "recipe_id": 12231,
+      "item_id": 10019,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 145477,
+      "recipe_id": 12231,
+      "item_id": 10030,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 145478,
+      "recipe_id": 12231,
+      "item_id": 16503,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 145479,
+      "recipe_id": 12231,
+      "item_id": 10034,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 145480,
+      "recipe_id": 12231,
+      "item_id": 10025,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 145481,
+      "recipe_id": 12231,
+      "item_id": 93509,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 145482,
+      "recipe_id": 12231,
+      "item_id": 93510,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 145483,
+      "recipe_id": 12231,
+      "item_id": 97848,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 145484,
+      "recipe_id": 12231,
+      "item_id": 10062,
+      "successcount": 1,
+      "failcount": 1,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 145485,
+      "recipe_id": 12231,
+      "item_id": 93618,
+      "successcount": 2,
+      "failcount": 2,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 145488,
+      "recipe_id": 12231,
+      "item_id": 93492,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 145489,
+      "recipe_id": 12231,
+      "item_id": 41555,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 145490,
+      "recipe_id": 12231,
+      "item_id": 41631,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 145491,
+      "recipe_id": 12231,
+      "item_id": 41632,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 145492,
+      "recipe_id": 12231,
+      "item_id": 41633,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 145493,
+      "recipe_id": 12232,
+      "item_id": 93508,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 145494,
+      "recipe_id": 12232,
+      "item_id": 10023,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 145495,
+      "recipe_id": 12232,
+      "item_id": 10030,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 145496,
+      "recipe_id": 12232,
+      "item_id": 16503,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 145497,
+      "recipe_id": 12232,
+      "item_id": 10035,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 145498,
+      "recipe_id": 12232,
+      "item_id": 93509,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 145499,
+      "recipe_id": 12232,
+      "item_id": 93510,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 145500,
+      "recipe_id": 12232,
+      "item_id": 97849,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 145501,
+      "recipe_id": 12232,
+      "item_id": 10062,
+      "successcount": 1,
+      "failcount": 1,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 145502,
+      "recipe_id": 12232,
+      "item_id": 93618,
+      "successcount": 2,
+      "failcount": 2,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 145505,
+      "recipe_id": 12232,
+      "item_id": 93492,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 145506,
+      "recipe_id": 12232,
+      "item_id": 41555,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 145507,
+      "recipe_id": 12232,
+      "item_id": 41631,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 145508,
+      "recipe_id": 12232,
+      "item_id": 41632,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 145509,
+      "recipe_id": 12232,
+      "item_id": 41633,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 145524,
+      "recipe_id": 12234,
+      "item_id": 93508,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 145525,
+      "recipe_id": 12234,
+      "item_id": 10019,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 145526,
+      "recipe_id": 12234,
+      "item_id": 10029,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 145527,
+      "recipe_id": 12234,
+      "item_id": 10031,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 145528,
+      "recipe_id": 12234,
+      "item_id": 10023,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 145529,
+      "recipe_id": 12234,
+      "item_id": 10028,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 145530,
+      "recipe_id": 12234,
+      "item_id": 16503,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 145531,
+      "recipe_id": 12234,
+      "item_id": 10035,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 145532,
+      "recipe_id": 12234,
+      "item_id": 93509,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 145533,
+      "recipe_id": 12234,
+      "item_id": 93510,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 145534,
+      "recipe_id": 12234,
+      "item_id": 97851,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 145535,
+      "recipe_id": 12234,
+      "item_id": 10062,
+      "successcount": 1,
+      "failcount": 1,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 145536,
+      "recipe_id": 12234,
+      "item_id": 93618,
+      "successcount": 2,
+      "failcount": 2,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 145539,
+      "recipe_id": 12234,
+      "item_id": 93492,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 145540,
+      "recipe_id": 12234,
+      "item_id": 41555,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 145541,
+      "recipe_id": 12234,
+      "item_id": 41631,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 145542,
+      "recipe_id": 12234,
+      "item_id": 41632,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 145543,
+      "recipe_id": 12234,
+      "item_id": 41633,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 145544,
+      "recipe_id": 12235,
+      "item_id": 10022,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 145545,
+      "recipe_id": 12235,
+      "item_id": 93508,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 145546,
+      "recipe_id": 12235,
+      "item_id": 10020,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 145547,
+      "recipe_id": 12235,
+      "item_id": 10030,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 145548,
+      "recipe_id": 12235,
+      "item_id": 16503,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 145549,
+      "recipe_id": 12235,
+      "item_id": 10035,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 145550,
+      "recipe_id": 12235,
+      "item_id": 10032,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 145551,
+      "recipe_id": 12235,
+      "item_id": 10025,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 145552,
+      "recipe_id": 12235,
+      "item_id": 93509,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 145553,
+      "recipe_id": 12235,
+      "item_id": 93510,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 145554,
+      "recipe_id": 12235,
+      "item_id": 97852,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 145555,
+      "recipe_id": 12235,
+      "item_id": 10062,
+      "successcount": 1,
+      "failcount": 1,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 145556,
+      "recipe_id": 12235,
+      "item_id": 93618,
+      "successcount": 2,
+      "failcount": 2,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 145559,
+      "recipe_id": 12235,
+      "item_id": 93492,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 145560,
+      "recipe_id": 12235,
+      "item_id": 41555,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 145561,
+      "recipe_id": 12235,
+      "item_id": 41631,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 145562,
+      "recipe_id": 12235,
+      "item_id": 41632,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 145563,
+      "recipe_id": 12235,
+      "item_id": 41633,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 145564,
+      "recipe_id": 12236,
+      "item_id": 93508,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 145565,
+      "recipe_id": 12236,
+      "item_id": 10026,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 145566,
+      "recipe_id": 12236,
+      "item_id": 10033,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 145567,
+      "recipe_id": 12236,
+      "item_id": 10030,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 145568,
+      "recipe_id": 12236,
+      "item_id": 10028,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 145569,
+      "recipe_id": 12236,
+      "item_id": 16503,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 145570,
+      "recipe_id": 12236,
+      "item_id": 10035,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 145571,
+      "recipe_id": 12236,
+      "item_id": 10021,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 145572,
+      "recipe_id": 12236,
+      "item_id": 93509,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 145573,
+      "recipe_id": 12236,
+      "item_id": 93510,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 145574,
+      "recipe_id": 12236,
+      "item_id": 97853,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 145575,
+      "recipe_id": 12236,
+      "item_id": 10062,
+      "successcount": 1,
+      "failcount": 1,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 145576,
+      "recipe_id": 12236,
+      "item_id": 93618,
+      "successcount": 2,
+      "failcount": 2,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 145579,
+      "recipe_id": 12236,
+      "item_id": 93492,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 145580,
+      "recipe_id": 12236,
+      "item_id": 41555,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 145581,
+      "recipe_id": 12236,
+      "item_id": 41631,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 145582,
+      "recipe_id": 12236,
+      "item_id": 41632,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 145583,
+      "recipe_id": 12236,
+      "item_id": 41633,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 145584,
+      "recipe_id": 12237,
+      "item_id": 93508,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 145585,
+      "recipe_id": 12237,
+      "item_id": 10031,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 145586,
+      "recipe_id": 12237,
+      "item_id": 10030,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 145587,
+      "recipe_id": 12237,
+      "item_id": 10024,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 145588,
+      "recipe_id": 12237,
+      "item_id": 10028,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 145589,
+      "recipe_id": 12237,
+      "item_id": 16503,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 145590,
+      "recipe_id": 12237,
+      "item_id": 10035,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 145591,
+      "recipe_id": 12237,
+      "item_id": 10032,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 145592,
+      "recipe_id": 12237,
+      "item_id": 93509,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 145593,
+      "recipe_id": 12237,
+      "item_id": 93510,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 145594,
+      "recipe_id": 12237,
+      "item_id": 97854,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 145595,
+      "recipe_id": 12237,
+      "item_id": 10062,
+      "successcount": 1,
+      "failcount": 1,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 145596,
+      "recipe_id": 12237,
+      "item_id": 93618,
+      "successcount": 2,
+      "failcount": 2,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 145599,
+      "recipe_id": 12237,
+      "item_id": 93492,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 145600,
+      "recipe_id": 12237,
+      "item_id": 41555,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 145601,
+      "recipe_id": 12237,
+      "item_id": 41631,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 145602,
+      "recipe_id": 12237,
+      "item_id": 41632,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 145603,
+      "recipe_id": 12237,
+      "item_id": 41633,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 145604,
+      "recipe_id": 12238,
+      "item_id": 93508,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 145605,
+      "recipe_id": 12238,
+      "item_id": 10033,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 145606,
+      "recipe_id": 12238,
+      "item_id": 10018,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 145607,
+      "recipe_id": 12238,
+      "item_id": 10024,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 145608,
+      "recipe_id": 12238,
+      "item_id": 16503,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 145609,
+      "recipe_id": 12238,
+      "item_id": 10035,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 145610,
+      "recipe_id": 12238,
+      "item_id": 10032,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 145611,
+      "recipe_id": 12238,
+      "item_id": 10025,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 145612,
+      "recipe_id": 12238,
+      "item_id": 93509,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 145613,
+      "recipe_id": 12238,
+      "item_id": 93510,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 145614,
+      "recipe_id": 12238,
+      "item_id": 97855,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 145615,
+      "recipe_id": 12238,
+      "item_id": 10062,
+      "successcount": 1,
+      "failcount": 1,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 145616,
+      "recipe_id": 12238,
+      "item_id": 93618,
+      "successcount": 2,
+      "failcount": 2,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 145619,
+      "recipe_id": 12238,
+      "item_id": 93492,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 145620,
+      "recipe_id": 12238,
+      "item_id": 41555,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 145621,
+      "recipe_id": 12238,
+      "item_id": 41631,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 145622,
+      "recipe_id": 12238,
+      "item_id": 41632,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 145623,
+      "recipe_id": 12238,
+      "item_id": 41633,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 152065,
+      "recipe_id": 11313,
+      "item_id": 41555,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    }
+  ],
+  "era_context": {
+    "Charta": {
+      "source_url": "https://mboards.eqtraders.com/eq/forum/tradeskills/research/35190-dnc-charta-arcanum-solution-recipes",
+      "basis": "Dated2010-10 book reports list all5 formulas and nonscribable book; initial DNC explicitly not success. Dated2010-12-16 firsthand post reports successful FineRunicCharta combine two days earlier, with243 confirmed and othertrivials/returns not then confirmed. Current primary formulas supply full modern fields. Qualified by-HoT context17, not exact introduction of every field."
+    },
+    "Tablet": {
+      "source_url": "https://mboards.eqtraders.com/eq/forum/tradeskills/tradeskill-guides-and-ui-mods/36211-the-ultimate-eq-tradeskill-guide",
+      "basis": "Dated2012-05 guide describes all5 level81\u201385 tablet refinements/solutions, supplying inherited by-VoA context18, not an exact solution-introduction date."
+    }
+  },
+  "restriction_review": {
+    "kits": "SourceCharta lists5 physicalkits; sourceTablet omitsPrayerWritingKit41631 and links only4. Furniture excluded. Native classmasks andcapacity preserved.",
+    "learning": "must_learn2 uses existing solution-family manual-discovery/automatic-known convention. This is local encoding, not a recovered May2013 scribe flag. DatedCharta book report says nonscribable; no mandatory book lock fabricated.",
+    "returns": "Exact native primary IDs derived from each linked page: EmptyVial1 andDirtyEmptyVial2 on success andfailure; stackable quantities, no charge coercion. Existing common-return producers guarded unchanged; no primaryoutput producer exists.",
+    "salvage": "Preserve existing solution-family acid/water salvage0 convention. Other consumed components use local componentcount salvage convention; primary source does not specify salvage.",
+    "holds": "Other15missing Numen/Orphic/Sortilege solutions need separateperiodproof. ExistingFineRunicPaper/RunicVellum missingvialreturns are separateholds. No item/NPC/player/runtime change or nativeacceptance claimed."
+  }
+}

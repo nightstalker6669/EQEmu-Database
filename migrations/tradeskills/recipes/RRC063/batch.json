@@ -1,0 +1,380 @@
+{
+  "batch": "RRC063",
+  "branch": "rof2-tradeskills",
+  "status": "SOURCE_PROPOSAL_NOT_APPLIED",
+  "cutoff": "2013-05-31",
+  "proposed_ids": [
+    3093605,
+    3093607
+  ],
+  "counts": {
+    "recipes": 3,
+    "entries": 12,
+    "item_dependencies": 14
+  },
+  "source_urls": [
+    "https://www.eqtraders.com/items/show_item.php?item=21347"
+  ],
+  "recipes": [
+    {
+      "id": 3093605,
+      "name": "Powdered Glowrock",
+      "tradeskill": 59,
+      "skillneeded": 0,
+      "trivial": 102,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Primary powder formula; inherited by-DoDH era estimate; RRC063.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 10,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3093606,
+      "name": "Powdered Glowrock",
+      "tradeskill": 68,
+      "skillneeded": 0,
+      "trivial": 102,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Primary powder formula; inherited by-DoDH era estimate; RRC063.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 10,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3093607,
+      "name": "Powdered Glowrock",
+      "tradeskill": 56,
+      "skillneeded": 0,
+      "trivial": 102,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Primary powder formula; inherited by-DoDH era estimate; RRC063.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 10,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    }
+  ],
+  "entries": [
+    {
+      "recipe_id": 3093605,
+      "item_id": 33250,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093605,
+      "item_id": 16883,
+      "successcount": 1,
+      "failcount": 1,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093605,
+      "item_id": 32694,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093605,
+      "item_id": 9,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3093606,
+      "item_id": 33250,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093606,
+      "item_id": 16883,
+      "successcount": 1,
+      "failcount": 1,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093606,
+      "item_id": 32694,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093606,
+      "item_id": 20,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3093607,
+      "item_id": 33250,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093607,
+      "item_id": 16883,
+      "successcount": 1,
+      "failcount": 1,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093607,
+      "item_id": 32694,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093607,
+      "item_id": 12,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    }
+  ],
+  "source_facts": [
+    {
+      "recipe_id": 3093605,
+      "name": "Powdered Glowrock",
+      "tradeskill": 59,
+      "output_item_id": 33250,
+      "yield_count": 1,
+      "trivial": 102,
+      "container_bagtype": 9,
+      "source_url": "https://www.eqtraders.com/items/show_item.php?item=21347",
+      "ingredients": [
+        {
+          "item_id": 16883,
+          "name": "Gem Cutter",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=4126"
+        },
+        {
+          "item_id": 32694,
+          "name": "Glowrock",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=20802"
+        }
+      ],
+      "also_returns": [
+        {
+          "item_id": 16883,
+          "name": "Gem Cutter",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=4126"
+        }
+      ],
+      "failure_returns": [
+        {
+          "item_id": 16883,
+          "name": "Gem Cutter",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=4126"
+        }
+      ]
+    },
+    {
+      "recipe_id": 3093606,
+      "name": "Powdered Glowrock",
+      "tradeskill": 68,
+      "output_item_id": 33250,
+      "yield_count": 1,
+      "trivial": 102,
+      "container_bagtype": 20,
+      "source_url": "https://www.eqtraders.com/items/show_item.php?item=21347",
+      "ingredients": [
+        {
+          "item_id": 16883,
+          "name": "Gem Cutter",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=4126"
+        },
+        {
+          "item_id": 32694,
+          "name": "Glowrock",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=20802"
+        }
+      ],
+      "also_returns": [
+        {
+          "item_id": 16883,
+          "name": "Gem Cutter",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=4126"
+        }
+      ],
+      "failure_returns": [
+        {
+          "item_id": 16883,
+          "name": "Gem Cutter",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=4126"
+        }
+      ]
+    },
+    {
+      "recipe_id": 3093607,
+      "name": "Powdered Glowrock",
+      "tradeskill": 56,
+      "output_item_id": 33250,
+      "yield_count": 1,
+      "trivial": 102,
+      "container_bagtype": 12,
+      "source_url": "https://www.eqtraders.com/items/show_item.php?item=21347",
+      "ingredients": [
+        {
+          "item_id": 16883,
+          "name": "Gem Cutter",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=4126"
+        },
+        {
+          "item_id": 32694,
+          "name": "Glowrock",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=20802"
+        }
+      ],
+      "also_returns": [
+        {
+          "item_id": 16883,
+          "name": "Gem Cutter",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=4126"
+        }
+      ],
+      "failure_returns": [
+        {
+          "item_id": 16883,
+          "name": "Gem Cutter",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=4126"
+        }
+      ]
+    }
+  ],
+  "item_dependencies": [
+    {
+      "id": 16883,
+      "name": "Gem Cutter"
+    },
+    {
+      "id": 17139,
+      "name": "Marble Mortar and Pestle"
+    },
+    {
+      "id": 17187,
+      "name": "Collapsible Jeweler's Kit"
+    },
+    {
+      "id": 17190,
+      "name": "Collapsible Mortar and Pestle"
+    },
+    {
+      "id": 17764,
+      "name": "Planar Jeweler's Kit"
+    },
+    {
+      "id": 17770,
+      "name": "Foldable Medicine Bag"
+    },
+    {
+      "id": 17771,
+      "name": "Foldable Reinforced Medicine Bag"
+    },
+    {
+      "id": 17811,
+      "name": "Reinforced Medicine Bag"
+    },
+    {
+      "id": 17901,
+      "name": "Medicine Bag"
+    },
+    {
+      "id": 17904,
+      "name": "Mortar and Pestle"
+    },
+    {
+      "id": 17912,
+      "name": "Jeweler's Kit"
+    },
+    {
+      "id": 32694,
+      "name": "Glowrock"
+    },
+    {
+      "id": 33250,
+      "name": "Powdered Glowrock"
+    },
+    {
+      "id": 62480,
+      "name": "Reinforced Jeweler's Kit"
+    }
+  ],
+  "era_context": {
+    "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=350&rsa=Smithing&sub=dodh",
+    "using_recipes": [
+      "Ambleshift's Basic Display Panel Front Plate",
+      "Ambleshift's Display Panel Front Plate"
+    ],
+    "basis": "Input to maintained DoDH Smithing display-panel formulas. By-DoDH availability estimate is inherited component context; not independently dated introduction of each manufacturing route."
+  },
+  "restriction_review": {
+    "learning": "No source learning or skill minimum specified. All three normal numeric trivial102; nofail0.",
+    "class_gate": "Existing core Alchemy59Shaman/level and MakePoison56Rogue restrictions retained in manual/automatic paths; no new checks or cap changes.",
+    "tool": "GemCutter16883 is required and returned once on success and failure. Glowrock32694 consumed once; Powder33250yield1.",
+    "duplicates": "Three distinct source skill/container routes, not three recipes for one container. Same output is intentional; no existing all-skill producer.",
+    "historical": "Current maintained formula plus inherited DoDH use context; not immutable2013 data or native acceptance.",
+    "native_combine": false
+  }
+}

@@ -1,0 +1,249 @@
+{
+  "batch": "RRC065",
+  "branch": "rof2-tradeskills",
+  "status": "SOURCE_CONTAINER_EXTENSION_NOT_APPLIED",
+  "counts": {
+    "recipes_added": 0,
+    "entries_added": 1,
+    "entries_updated": 0,
+    "recipe_definitions_preserved": 1,
+    "full_existing_entries_guarded": 5
+  },
+  "before_recipes": [
+    {
+      "id": 232,
+      "name": "Crushed Windstone",
+      "tradeskill": 56,
+      "skillneeded": 0,
+      "trivial": 15,
+      "nofail": 1,
+      "replace_container": 0,
+      "notes": null,
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": -1,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    }
+  ],
+  "after_recipes": [
+    {
+      "id": 232,
+      "name": "Crushed Windstone",
+      "tradeskill": 56,
+      "skillneeded": 0,
+      "trivial": 15,
+      "nofail": 1,
+      "replace_container": 0,
+      "notes": null,
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": -1,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    }
+  ],
+  "before_entries": [
+    {
+      "id": 1693,
+      "recipe_id": 232,
+      "item_id": 10223,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 2,
+      "salvagecount": 2,
+      "iscontainer": 0
+    },
+    {
+      "id": 1694,
+      "recipe_id": 232,
+      "item_id": 10227,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 1695,
+      "recipe_id": 232,
+      "item_id": 17139,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 1696,
+      "recipe_id": 232,
+      "item_id": 17190,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 1697,
+      "recipe_id": 232,
+      "item_id": 17904,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    }
+  ],
+  "after_existing_entries": [
+    {
+      "id": 1693,
+      "recipe_id": 232,
+      "item_id": 10223,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 2,
+      "salvagecount": 2,
+      "iscontainer": 0
+    },
+    {
+      "id": 1694,
+      "recipe_id": 232,
+      "item_id": 10227,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 1695,
+      "recipe_id": 232,
+      "item_id": 17139,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 1696,
+      "recipe_id": 232,
+      "item_id": 17190,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 1697,
+      "recipe_id": 232,
+      "item_id": 17904,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    }
+  ],
+  "new_entries": [
+    {
+      "recipe_id": 232,
+      "item_id": 17149,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    }
+  ],
+  "source_facts": [
+    {
+      "name": "Crushed Windstone",
+      "trivial_text": "15 (No-Fail)",
+      "formula": "Components: Windstone (2)\nIn: Mortar and Pestle, Coffin Poison Bottle, Marble Mortar and Pestle, Collapsible Mortar and Pestle\nYield: 1\nThis combine may only be made by Rogues",
+      "observed_EQTC_item_id": 5257,
+      "output_source_url": "https://www.eqtraders.com/items/show_item.php?item=5257&menustr=010000000000",
+      "source_table_index": 2,
+      "source_row_index": 5,
+      "source_cell_count": 3,
+      "field_links": [
+        {
+          "name": "Windstone",
+          "url": "https://www.eqtraders.com//items/show_item.php?item=5258",
+          "field": "Components",
+          "explicit_count": 2
+        },
+        {
+          "name": "Mortar and Pestle",
+          "url": "https://www.eqtraders.com//items/show_item.php?item=1745",
+          "field": "In",
+          "explicit_count": null
+        },
+        {
+          "name": "Coffin Poison Bottle",
+          "url": "https://www.eqtraders.com//items/show_item.php?item=7010",
+          "field": "In",
+          "explicit_count": null
+        },
+        {
+          "name": "Marble Mortar and Pestle",
+          "url": "https://www.eqtraders.com//items/show_item.php?item=7131",
+          "field": "In",
+          "explicit_count": null
+        },
+        {
+          "name": "Collapsible Mortar and Pestle",
+          "url": "https://www.eqtraders.com//items/show_item.php?item=7339",
+          "field": "In",
+          "explicit_count": null
+        }
+      ],
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=187&rsa=Make+Poison&sub=other"
+    }
+  ],
+  "native_capacity": {
+    "items": [
+      {
+        "id": 10223,
+        "Name": "Windstone",
+        "size": 0,
+        "itemclass": 0,
+        "bagtype": 0,
+        "bagsize": 0,
+        "bagslots": 0
+      },
+      {
+        "id": 10227,
+        "Name": "Crushed Windstone",
+        "size": 0,
+        "itemclass": 0,
+        "bagtype": 0,
+        "bagsize": 0,
+        "bagslots": 0
+      },
+      {
+        "id": 17149,
+        "Name": "Coffin Poison Bottle",
+        "size": 1,
+        "itemclass": 1,
+        "bagtype": 12,
+        "bagsize": 2,
+        "bagslots": 10
+      }
+    ],
+    "ingredient_units": 2,
+    "source_explicit_alternative_container": true,
+    "capacity_compatible": true,
+    "native_acceptance": false,
+    "database_writes": 0
+  },
+  "historical_qualification": "Maintained explicit alternative-container source; exactMay2013Coffin support not independently established. Existing recipe numeric/failure/class metadata unchanged."
+}

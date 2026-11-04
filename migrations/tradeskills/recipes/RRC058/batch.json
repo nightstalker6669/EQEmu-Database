@@ -1,0 +1,588 @@
+{
+  "batch": "RRC058",
+  "branch": "rof2-tradeskills",
+  "status": "SOURCE_PROPOSAL_NOT_REHEARSED_APPLIED",
+  "cutoff": "2013-05-31",
+  "proposed_ids": [
+    3093530,
+    3093532
+  ],
+  "counts": {
+    "recipes": 3,
+    "entries": 12,
+    "item_dependencies": 20
+  },
+  "source_urls": [
+    "https://www.eqtraders.com/items/show_item.php?item=39089",
+    "https://www.eqtraders.com/recipes/recipe_page.php?article=545&rsa=Baking&sub=VOA"
+  ],
+  "recipes": [
+    {
+      "id": 3093530,
+      "name": "Brewmaster's Component Bag (Essence)",
+      "tradeskill": 65,
+      "skillneeded": 0,
+      "trivial": 0,
+      "nofail": 1,
+      "replace_container": 0,
+      "notes": "VoA Carryall source variants; canonical ComponentBag view; RRC058.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 18,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3093531,
+      "name": "Denmother's Component Bag (Satchel)",
+      "tradeskill": 60,
+      "skillneeded": 0,
+      "trivial": 0,
+      "nofail": 1,
+      "replace_container": 0,
+      "notes": "VoA Carryall source variants; canonical ComponentBag view; RRC058.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 18,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3093532,
+      "name": "Denmother's Component Bag (Essence)",
+      "tradeskill": 60,
+      "skillneeded": 0,
+      "trivial": 0,
+      "nofail": 1,
+      "replace_container": 0,
+      "notes": "VoA Carryall source variants; canonical ComponentBag view; RRC058.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 18,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    }
+  ],
+  "entries": [
+    {
+      "recipe_id": 3093530,
+      "item_id": 67636,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093530,
+      "item_id": 96972,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093530,
+      "item_id": 96963,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093530,
+      "item_id": 19,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3093531,
+      "item_id": 67635,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093531,
+      "item_id": 96960,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093531,
+      "item_id": 96962,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093531,
+      "item_id": 15,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3093532,
+      "item_id": 67635,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093532,
+      "item_id": 96972,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093532,
+      "item_id": 96962,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093532,
+      "item_id": 15,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    }
+  ],
+  "source_facts": [
+    {
+      "recipe_id": 3093530,
+      "name": "Brewmaster's Component Bag (Essence)",
+      "source_name": "Brewmaster's Component Bag",
+      "output_item_id": 67636,
+      "trivial": 0,
+      "yield_count": 1,
+      "nofail": 1,
+      "ingredients": [
+        {
+          "name": "Artisan Essence",
+          "item_id": 96972,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=39098"
+        }
+      ],
+      "also_returns": [
+        {
+          "name": "Brewmaster's Carry-All",
+          "item_id": 96963,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34826"
+        }
+      ],
+      "failure_returns": [],
+      "container_bagtype": 19,
+      "source_url": "https://www.eqtraders.com/items/show_item.php?item=39089",
+      "source_output_url": "https://www.eqtraders.com/items/show_item.php?item=39089"
+    },
+    {
+      "recipe_id": 3093531,
+      "name": "Denmother's Component Bag (Satchel)",
+      "source_name": "Denmother's Component Bag",
+      "output_item_id": 67635,
+      "trivial": 0,
+      "yield_count": 1,
+      "nofail": 1,
+      "ingredients": [
+        {
+          "name": "Artisan Satchel",
+          "item_id": 96960,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34829"
+        }
+      ],
+      "also_returns": [
+        {
+          "name": "Denmother's Carry-All",
+          "item_id": 96962,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34825"
+        }
+      ],
+      "failure_returns": [],
+      "container_bagtype": 15,
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=545&rsa=Baking&sub=VOA",
+      "source_output_url": "https://www.eqtraders.com/items/show_item.php?item=39090&menustr=010000000000"
+    },
+    {
+      "recipe_id": 3093532,
+      "name": "Denmother's Component Bag (Essence)",
+      "source_name": "Denmother's Component Bag",
+      "output_item_id": 67635,
+      "trivial": 0,
+      "yield_count": 1,
+      "nofail": 1,
+      "ingredients": [
+        {
+          "name": "Artisan Essence",
+          "item_id": 96972,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=39098"
+        }
+      ],
+      "also_returns": [
+        {
+          "name": "Denmother's Carry-All",
+          "item_id": 96962,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34825"
+        }
+      ],
+      "failure_returns": [],
+      "container_bagtype": 15,
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=545&rsa=Baking&sub=VOA",
+      "source_output_url": "https://www.eqtraders.com/items/show_item.php?item=39090&menustr=010000000000"
+    }
+  ],
+  "item_dependencies": [
+    {
+      "id": 17911,
+      "name": "Brewing Barrel"
+    },
+    {
+      "id": 54256,
+      "name": "Oven"
+    },
+    {
+      "id": 67635,
+      "name": "Denmother's Component Bag"
+    },
+    {
+      "id": 67636,
+      "name": "Brewmaster's Component Bag"
+    },
+    {
+      "id": 95211,
+      "name": "Beginner Baker Carry-All"
+    },
+    {
+      "id": 95212,
+      "name": "Apprentice Baker Carry-All"
+    },
+    {
+      "id": 95213,
+      "name": "Freshman Baker Carry-All"
+    },
+    {
+      "id": 95214,
+      "name": "Journeyman Baker Carry-All"
+    },
+    {
+      "id": 95215,
+      "name": "Expert Baker Carry-All"
+    },
+    {
+      "id": 95216,
+      "name": "Master Baker Carry-All"
+    },
+    {
+      "id": 95217,
+      "name": "Beginner Brewer Carry-All"
+    },
+    {
+      "id": 95218,
+      "name": "Apprentice Brewer Carry-All"
+    },
+    {
+      "id": 95219,
+      "name": "Freshman Brewer Carry-All"
+    },
+    {
+      "id": 95220,
+      "name": "Journeyman Brewer Carry-All"
+    },
+    {
+      "id": 95221,
+      "name": "Expert Brewer Carry-All"
+    },
+    {
+      "id": 95222,
+      "name": "Master Brewer Carry-All"
+    },
+    {
+      "id": 96960,
+      "name": "Artisan Satchel"
+    },
+    {
+      "id": 96962,
+      "name": "Denmother's Carry-All"
+    },
+    {
+      "id": 96963,
+      "name": "Brewmaster's Carry-All"
+    },
+    {
+      "id": 96972,
+      "name": "Artisan Essence"
+    }
+  ],
+  "deferred_source_rows": [],
+  "exact_existing_producer_recipes": [
+    {
+      "id": 3093251,
+      "name": "Brewmaster's Component Bag",
+      "tradeskill": 65,
+      "skillneeded": 0,
+      "trivial": 0,
+      "nofail": 1,
+      "replace_container": 0,
+      "notes": "SoD-UF-HoT-VoA; primary Brewing; RRC054.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 18,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    }
+  ],
+  "exact_existing_producer_entries": [
+    {
+      "id": 30419829,
+      "recipe_id": 3093251,
+      "item_id": 67636,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 30419830,
+      "recipe_id": 3093251,
+      "item_id": 96960,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30419831,
+      "recipe_id": 3093251,
+      "item_id": 96963,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 30419832,
+      "recipe_id": 3093251,
+      "item_id": 19,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    }
+  ],
+  "carryall_native_lore": {
+    "items": [
+      {
+        "id": 67635,
+        "Name": "Denmother's Component Bag",
+        "loregroup": -1,
+        "itemclass": 1,
+        "bagtype": 58,
+        "bagslots": 24,
+        "maxcharges": 0
+      },
+      {
+        "id": 67636,
+        "Name": "Brewmaster's Component Bag",
+        "loregroup": -1,
+        "itemclass": 1,
+        "bagtype": 58,
+        "bagslots": 24,
+        "maxcharges": 0
+      },
+      {
+        "id": 95211,
+        "Name": "Beginner Baker Carry-All",
+        "loregroup": 95211,
+        "itemclass": 1,
+        "bagtype": 1,
+        "bagslots": 6,
+        "maxcharges": 0
+      },
+      {
+        "id": 95212,
+        "Name": "Apprentice Baker Carry-All",
+        "loregroup": 95211,
+        "itemclass": 1,
+        "bagtype": 1,
+        "bagslots": 8,
+        "maxcharges": 0
+      },
+      {
+        "id": 95213,
+        "Name": "Freshman Baker Carry-All",
+        "loregroup": 95211,
+        "itemclass": 1,
+        "bagtype": 1,
+        "bagslots": 8,
+        "maxcharges": 0
+      },
+      {
+        "id": 95214,
+        "Name": "Journeyman Baker Carry-All",
+        "loregroup": 95211,
+        "itemclass": 1,
+        "bagtype": 1,
+        "bagslots": 10,
+        "maxcharges": 0
+      },
+      {
+        "id": 95215,
+        "Name": "Expert Baker Carry-All",
+        "loregroup": 95211,
+        "itemclass": 1,
+        "bagtype": 1,
+        "bagslots": 10,
+        "maxcharges": 0
+      },
+      {
+        "id": 95216,
+        "Name": "Master Baker Carry-All",
+        "loregroup": 95211,
+        "itemclass": 1,
+        "bagtype": 1,
+        "bagslots": 10,
+        "maxcharges": 0
+      },
+      {
+        "id": 95217,
+        "Name": "Beginner Brewer Carry-All",
+        "loregroup": 95217,
+        "itemclass": 1,
+        "bagtype": 1,
+        "bagslots": 6,
+        "maxcharges": 0
+      },
+      {
+        "id": 95218,
+        "Name": "Apprentice Brewer Carry-All",
+        "loregroup": 95217,
+        "itemclass": 1,
+        "bagtype": 1,
+        "bagslots": 8,
+        "maxcharges": 0
+      },
+      {
+        "id": 95219,
+        "Name": "Freshman Brewer Carry-All",
+        "loregroup": 95217,
+        "itemclass": 1,
+        "bagtype": 1,
+        "bagslots": 8,
+        "maxcharges": 0
+      },
+      {
+        "id": 95220,
+        "Name": "Journeyman Brewer Carry-All",
+        "loregroup": 95217,
+        "itemclass": 1,
+        "bagtype": 1,
+        "bagslots": 10,
+        "maxcharges": 0
+      },
+      {
+        "id": 95221,
+        "Name": "Expert Brewer Carry-All",
+        "loregroup": 95217,
+        "itemclass": 1,
+        "bagtype": 1,
+        "bagslots": 10,
+        "maxcharges": 0
+      },
+      {
+        "id": 95222,
+        "Name": "Master Brewer Carry-All",
+        "loregroup": 95217,
+        "itemclass": 1,
+        "bagtype": 1,
+        "bagslots": 10,
+        "maxcharges": 0
+      },
+      {
+        "id": 96960,
+        "Name": "Artisan Satchel",
+        "loregroup": 0,
+        "itemclass": 1,
+        "bagtype": 1,
+        "bagslots": 12,
+        "maxcharges": 0
+      },
+      {
+        "id": 96962,
+        "Name": "Denmother's Carry-All",
+        "loregroup": 95211,
+        "itemclass": 1,
+        "bagtype": 1,
+        "bagslots": 12,
+        "maxcharges": 0
+      },
+      {
+        "id": 96963,
+        "Name": "Brewmaster's Carry-All",
+        "loregroup": 95217,
+        "itemclass": 1,
+        "bagtype": 1,
+        "bagslots": 12,
+        "maxcharges": 0
+      }
+    ],
+    "alaran_omelet_current_rows": [],
+    "scope": "Read-only native ownership/lore/capacities; no item/player changes or native combine."
+  },
+  "resolves_prior_hold": "RRC007twoDenmotherconversionrows nowrepresented usingpositiveprimaryroles/nativeLoreGroup mechanism; twoabsentAlaranomelets remainheld.",
+  "restriction_review": {
+    "learning": "All3explicitNoFail; no mandatoryscribe/minimum/class/race/quest-onlyflag. UsecanonicalComponentBagprimaryBaking60/Brewing65labels; reverseCarryallNoSkillviews samefullroles/containers and are not separatecombines.",
+    "containers": "Bakingoven15/Brewing19; genuine54256/17911ten-slotanchors unchanged.24slotcomponentbags/12slotCarryalls/ArtisanSatchel capacities unchanged.",
+    "ownership": "Baker95211andBrewer95217sharednativeLoreGroups across7levels each; existingcoreoutputLoreCheck enforcesownership note. ComponentbagsLoreGroup-1 preserved. Exactnativeguards,no itemchanges.",
+    "returns": "Onecomponentbagplusonecorrespondingcarryall fromeachArtisaninput. Perinputdistinctroute; no repeatedreverseview recipe.",
+    "identity": "6/6primaryrefs present and3selectedrole/skillmaps matchdirectprimarymanufacturingLI. ExistingBrewSatchel3093251and4fullentries guardedbefore/after.",
+    "era": "InheritedmaintainedVoA18family estimates forinputs/methods,not exactintroduction, immutableMay2013or native proof.",
+    "native_combine": false
+  }
+}

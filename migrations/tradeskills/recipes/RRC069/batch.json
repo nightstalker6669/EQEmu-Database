@@ -1,0 +1,1175 @@
+{
+  "batch": "RRC069",
+  "branch": "rof2-tradeskills",
+  "status": "SOURCE_CONTAINER_EXTENSION_NOT_APPLIED",
+  "counts": {
+    "recipes_added": 0,
+    "entries_added": 16,
+    "entries_updated": 0,
+    "recipe_definitions_preserved": 4,
+    "full_existing_entries_guarded": 19
+  },
+  "before_recipes": [
+    {
+      "id": 12745,
+      "name": "Simple Quill",
+      "tradeskill": 58,
+      "skillneeded": 0,
+      "trivial": 31,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": null,
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": -1,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 12746,
+      "name": "Simple Book Binding",
+      "tradeskill": 58,
+      "skillneeded": 0,
+      "trivial": 46,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": null,
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": -1,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 12747,
+      "name": "Simple Ink",
+      "tradeskill": 58,
+      "skillneeded": 0,
+      "trivial": 38,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": null,
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": -1,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 12748,
+      "name": "Simple Blank Book",
+      "tradeskill": 58,
+      "skillneeded": 0,
+      "trivial": 54,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": null,
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": -1,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    }
+  ],
+  "after_recipes": [
+    {
+      "id": 12745,
+      "name": "Simple Quill",
+      "tradeskill": 58,
+      "skillneeded": 0,
+      "trivial": 31,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": null,
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": -1,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 12746,
+      "name": "Simple Book Binding",
+      "tradeskill": 58,
+      "skillneeded": 0,
+      "trivial": 46,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": null,
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": -1,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 12747,
+      "name": "Simple Ink",
+      "tradeskill": 58,
+      "skillneeded": 0,
+      "trivial": 38,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": null,
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": -1,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 12748,
+      "name": "Simple Blank Book",
+      "tradeskill": 58,
+      "skillneeded": 0,
+      "trivial": 54,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": null,
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": -1,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    }
+  ],
+  "before_entries": [
+    {
+      "id": 149772,
+      "recipe_id": 12745,
+      "item_id": 98296,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 149773,
+      "recipe_id": 12745,
+      "item_id": 98297,
+      "successcount": 1,
+      "failcount": 1,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 149774,
+      "recipe_id": 12745,
+      "item_id": 98292,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 149777,
+      "recipe_id": 12745,
+      "item_id": 93492,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 149778,
+      "recipe_id": 12746,
+      "item_id": 98299,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 149779,
+      "recipe_id": 12746,
+      "item_id": 98300,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 149780,
+      "recipe_id": 12746,
+      "item_id": 98301,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 149781,
+      "recipe_id": 12746,
+      "item_id": 98294,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 149782,
+      "recipe_id": 12746,
+      "item_id": 93492,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 149783,
+      "recipe_id": 12747,
+      "item_id": 98256,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 149784,
+      "recipe_id": 12747,
+      "item_id": 98298,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 149785,
+      "recipe_id": 12747,
+      "item_id": 58145,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 149786,
+      "recipe_id": 12747,
+      "item_id": 98293,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 149787,
+      "recipe_id": 12747,
+      "item_id": 93492,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 149788,
+      "recipe_id": 12748,
+      "item_id": 98294,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 149789,
+      "recipe_id": 12748,
+      "item_id": 98302,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 149790,
+      "recipe_id": 12748,
+      "item_id": 98303,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 149791,
+      "recipe_id": 12748,
+      "item_id": 98295,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 149792,
+      "recipe_id": 12748,
+      "item_id": 93492,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    }
+  ],
+  "after_existing_entries": [
+    {
+      "id": 149772,
+      "recipe_id": 12745,
+      "item_id": 98296,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 149773,
+      "recipe_id": 12745,
+      "item_id": 98297,
+      "successcount": 1,
+      "failcount": 1,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 149774,
+      "recipe_id": 12745,
+      "item_id": 98292,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 149777,
+      "recipe_id": 12745,
+      "item_id": 93492,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 149778,
+      "recipe_id": 12746,
+      "item_id": 98299,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 149779,
+      "recipe_id": 12746,
+      "item_id": 98300,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 149780,
+      "recipe_id": 12746,
+      "item_id": 98301,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 149781,
+      "recipe_id": 12746,
+      "item_id": 98294,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 149782,
+      "recipe_id": 12746,
+      "item_id": 93492,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 149783,
+      "recipe_id": 12747,
+      "item_id": 98256,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 149784,
+      "recipe_id": 12747,
+      "item_id": 98298,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 149785,
+      "recipe_id": 12747,
+      "item_id": 58145,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 149786,
+      "recipe_id": 12747,
+      "item_id": 98293,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 149787,
+      "recipe_id": 12747,
+      "item_id": 93492,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 149788,
+      "recipe_id": 12748,
+      "item_id": 98294,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 149789,
+      "recipe_id": 12748,
+      "item_id": 98302,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 149790,
+      "recipe_id": 12748,
+      "item_id": 98303,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 149791,
+      "recipe_id": 12748,
+      "item_id": 98295,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 149792,
+      "recipe_id": 12748,
+      "item_id": 93492,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    }
+  ],
+  "new_entries": [
+    {
+      "recipe_id": 12745,
+      "item_id": 41555,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 12745,
+      "item_id": 41631,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 12745,
+      "item_id": 41632,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 12745,
+      "item_id": 41633,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 12746,
+      "item_id": 41555,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 12746,
+      "item_id": 41631,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 12746,
+      "item_id": 41632,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 12746,
+      "item_id": 41633,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 12747,
+      "item_id": 41555,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 12747,
+      "item_id": 41631,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 12747,
+      "item_id": 41632,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 12747,
+      "item_id": 41633,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 12748,
+      "item_id": 41555,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 12748,
+      "item_id": 41631,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 12748,
+      "item_id": 41632,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 12748,
+      "item_id": 41633,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    }
+  ],
+  "source_facts": [
+    {
+      "name": "Simple Blank Book",
+      "trivial_text": "54",
+      "formula": "Components: Simple Book Binding, Simple Book Binding Glue, Stack of Blank Pages\nIn: Spell Research Kit, Tome Binding Kit, Prayer Writing Kit, Hybrid Research Kit, Song Writing Kit\nYield: 1\nNotes: EQRecipeID: 36622",
+      "observed_EQTC_item_id": 27735,
+      "output_source_url": "https://www.eqtraders.com/items/show_item.php?item=27735&menustr=010000000000",
+      "source_table_index": 2,
+      "source_row_index": 3,
+      "source_cell_count": 3,
+      "field_links": [
+        {
+          "name": "Simple Book Binding",
+          "url": "https://www.eqtraders.com//items/show_item.php?item=27732",
+          "field": "Components",
+          "explicit_count": null
+        },
+        {
+          "name": "Simple Book Binding Glue",
+          "url": "https://www.eqtraders.com//items/show_item.php?item=27733",
+          "field": "Components",
+          "explicit_count": null
+        },
+        {
+          "name": "Stack of Blank Pages",
+          "url": "https://www.eqtraders.com//items/show_item.php?item=27734",
+          "field": "Components",
+          "explicit_count": null
+        },
+        {
+          "name": "Spell Research Kit",
+          "url": "https://www.eqtraders.com//items/show_item.php?item=20935",
+          "field": "In",
+          "explicit_count": null
+        },
+        {
+          "name": "Tome Binding Kit",
+          "url": "https://www.eqtraders.com//items/show_item.php?item=30867",
+          "field": "In",
+          "explicit_count": null
+        },
+        {
+          "name": "Prayer Writing Kit",
+          "url": "https://www.eqtraders.com//items/show_item.php?item=30868",
+          "field": "In",
+          "explicit_count": null
+        },
+        {
+          "name": "Hybrid Research Kit",
+          "url": "https://www.eqtraders.com//items/show_item.php?item=30869",
+          "field": "In",
+          "explicit_count": null
+        },
+        {
+          "name": "Song Writing Kit",
+          "url": "https://www.eqtraders.com//items/show_item.php?item=30870",
+          "field": "In",
+          "explicit_count": null
+        }
+      ]
+    },
+    {
+      "name": "Simple Book Binding",
+      "trivial_text": "46",
+      "formula": "Components: Simple Book Binding Leather, Simple Book Binding Lining, Simple Glue\nIn: Spell Research Kit, Tome Binding Kit, Prayer Writing Kit, Hybrid Research Kit, Song Writing Kit\nYield: 1\nNotes: EQRecipeID: 36621",
+      "observed_EQTC_item_id": 27732,
+      "output_source_url": "https://www.eqtraders.com/items/show_item.php?item=27732&menustr=010000000000",
+      "source_table_index": 2,
+      "source_row_index": 4,
+      "source_cell_count": 3,
+      "field_links": [
+        {
+          "name": "Simple Book Binding Leather",
+          "url": "https://www.eqtraders.com//items/show_item.php?item=27729",
+          "field": "Components",
+          "explicit_count": null
+        },
+        {
+          "name": "Simple Book Binding Lining",
+          "url": "https://www.eqtraders.com//items/show_item.php?item=27730",
+          "field": "Components",
+          "explicit_count": null
+        },
+        {
+          "name": "Simple Glue",
+          "url": "https://www.eqtraders.com//items/show_item.php?item=27731",
+          "field": "Components",
+          "explicit_count": null
+        },
+        {
+          "name": "Spell Research Kit",
+          "url": "https://www.eqtraders.com//items/show_item.php?item=20935",
+          "field": "In",
+          "explicit_count": null
+        },
+        {
+          "name": "Tome Binding Kit",
+          "url": "https://www.eqtraders.com//items/show_item.php?item=30867",
+          "field": "In",
+          "explicit_count": null
+        },
+        {
+          "name": "Prayer Writing Kit",
+          "url": "https://www.eqtraders.com//items/show_item.php?item=30868",
+          "field": "In",
+          "explicit_count": null
+        },
+        {
+          "name": "Hybrid Research Kit",
+          "url": "https://www.eqtraders.com//items/show_item.php?item=30869",
+          "field": "In",
+          "explicit_count": null
+        },
+        {
+          "name": "Song Writing Kit",
+          "url": "https://www.eqtraders.com//items/show_item.php?item=30870",
+          "field": "In",
+          "explicit_count": null
+        }
+      ]
+    },
+    {
+      "name": "Simple Ink",
+      "trivial_text": "38",
+      "formula": "Components: Flask of Purified Water, Simple Ink Bottle, Squid Ink\nIn: Spell Research Kit, Tome Binding Kit, Prayer Writing Kit, Hybrid Research Kit, Song Writing Kit\nYield: 1\nNotes: EQRecipeID: 36620",
+      "observed_EQTC_item_id": 27728,
+      "output_source_url": "https://www.eqtraders.com/items/show_item.php?item=27728&menustr=010000000000",
+      "source_table_index": 2,
+      "source_row_index": 5,
+      "source_cell_count": 3,
+      "field_links": [
+        {
+          "name": "Flask of Purified Water",
+          "url": "https://www.eqtraders.com//items/show_item.php?item=27103",
+          "field": "Components",
+          "explicit_count": null
+        },
+        {
+          "name": "Simple Ink Bottle",
+          "url": "https://www.eqtraders.com//items/show_item.php?item=27727",
+          "field": "Components",
+          "explicit_count": null
+        },
+        {
+          "name": "Squid Ink",
+          "url": "https://www.eqtraders.com//items/show_item.php?item=13094",
+          "field": "Components",
+          "explicit_count": null
+        },
+        {
+          "name": "Spell Research Kit",
+          "url": "https://www.eqtraders.com//items/show_item.php?item=20935",
+          "field": "In",
+          "explicit_count": null
+        },
+        {
+          "name": "Tome Binding Kit",
+          "url": "https://www.eqtraders.com//items/show_item.php?item=30867",
+          "field": "In",
+          "explicit_count": null
+        },
+        {
+          "name": "Prayer Writing Kit",
+          "url": "https://www.eqtraders.com//items/show_item.php?item=30868",
+          "field": "In",
+          "explicit_count": null
+        },
+        {
+          "name": "Hybrid Research Kit",
+          "url": "https://www.eqtraders.com//items/show_item.php?item=30869",
+          "field": "In",
+          "explicit_count": null
+        },
+        {
+          "name": "Song Writing Kit",
+          "url": "https://www.eqtraders.com//items/show_item.php?item=30870",
+          "field": "In",
+          "explicit_count": null
+        }
+      ]
+    },
+    {
+      "name": "Simple Quill",
+      "trivial_text": "31",
+      "formula": "Components: Plain Flight Feather, Simple Quill Cutting Tool\nIn: Spell Research Kit, Tome Binding Kit, Prayer Writing Kit, Hybrid Research Kit, Song Writing Kit\nYield: 1\nAlso Returns: Simple Quill Cutting Tool(1)\nOn Failure Returns: Simple Quill Cutting Tool(1)\nNotes: EQRecipeID: 36619",
+      "observed_EQTC_item_id": 27726,
+      "output_source_url": "https://www.eqtraders.com/items/show_item.php?item=27726&menustr=010000000000",
+      "source_table_index": 2,
+      "source_row_index": 6,
+      "source_cell_count": 3,
+      "field_links": [
+        {
+          "name": "Plain Flight Feather",
+          "url": "https://www.eqtraders.com//items/show_item.php?item=27725",
+          "field": "Components",
+          "explicit_count": null
+        },
+        {
+          "name": "Simple Quill Cutting Tool",
+          "url": "https://www.eqtraders.com//items/show_item.php?item=27724",
+          "field": "Components",
+          "explicit_count": null
+        },
+        {
+          "name": "Spell Research Kit",
+          "url": "https://www.eqtraders.com//items/show_item.php?item=20935",
+          "field": "In",
+          "explicit_count": null
+        },
+        {
+          "name": "Tome Binding Kit",
+          "url": "https://www.eqtraders.com//items/show_item.php?item=30867",
+          "field": "In",
+          "explicit_count": null
+        },
+        {
+          "name": "Prayer Writing Kit",
+          "url": "https://www.eqtraders.com//items/show_item.php?item=30868",
+          "field": "In",
+          "explicit_count": null
+        },
+        {
+          "name": "Hybrid Research Kit",
+          "url": "https://www.eqtraders.com//items/show_item.php?item=30869",
+          "field": "In",
+          "explicit_count": null
+        },
+        {
+          "name": "Song Writing Kit",
+          "url": "https://www.eqtraders.com//items/show_item.php?item=30870",
+          "field": "In",
+          "explicit_count": null
+        },
+        {
+          "name": "Simple Quill Cutting Tool",
+          "url": "https://www.eqtraders.com//items/show_item.php?item=27724",
+          "field": "Also Returns",
+          "explicit_count": 1
+        },
+        {
+          "name": "Simple Quill Cutting Tool",
+          "url": "https://www.eqtraders.com//items/show_item.php?item=27724",
+          "field": "On Failure Returns",
+          "explicit_count": 1
+        }
+      ]
+    }
+  ],
+  "native_capacity": [
+    {
+      "id": 41555,
+      "Name": "Tome Binding Kit",
+      "itemclass": 1,
+      "bagtype": 11,
+      "bagslots": 10,
+      "bagsize": 3,
+      "size": 3,
+      "classes": 33089,
+      "stackable": 0,
+      "maxcharges": 0
+    },
+    {
+      "id": 41631,
+      "Name": "Prayer Writing Kit",
+      "itemclass": 1,
+      "bagtype": 11,
+      "bagslots": 10,
+      "bagsize": 3,
+      "size": 3,
+      "classes": 16930,
+      "stackable": 0,
+      "maxcharges": 0
+    },
+    {
+      "id": 41632,
+      "Name": "Hybrid Research Kit",
+      "itemclass": 1,
+      "bagtype": 11,
+      "bagslots": 10,
+      "bagsize": 3,
+      "size": 3,
+      "classes": 16412,
+      "stackable": 0,
+      "maxcharges": 0
+    },
+    {
+      "id": 41633,
+      "Name": "Song Writing Kit",
+      "itemclass": 1,
+      "bagtype": 11,
+      "bagslots": 10,
+      "bagsize": 3,
+      "size": 3,
+      "classes": 128,
+      "stackable": 0,
+      "maxcharges": 0
+    },
+    {
+      "id": 93492,
+      "Name": "Spell Research Kit",
+      "itemclass": 1,
+      "bagtype": 11,
+      "bagslots": 10,
+      "bagsize": 3,
+      "size": 3,
+      "classes": 15360,
+      "stackable": 0,
+      "maxcharges": 0
+    }
+  ],
+  "ingredient_sizes": [
+    {
+      "id": 58145,
+      "Name": "Squid Ink",
+      "itemclass": 0,
+      "bagtype": 0,
+      "bagslots": 0,
+      "bagsize": 0,
+      "size": 1,
+      "classes": 65535,
+      "stackable": 1,
+      "maxcharges": 0
+    },
+    {
+      "id": 98256,
+      "Name": "Flask of Purified Water",
+      "itemclass": 0,
+      "bagtype": 0,
+      "bagslots": 0,
+      "bagsize": 0,
+      "size": 1,
+      "classes": 65535,
+      "stackable": 1,
+      "maxcharges": 0
+    },
+    {
+      "id": 98292,
+      "Name": "Simple Quill",
+      "itemclass": 0,
+      "bagtype": 0,
+      "bagslots": 0,
+      "bagsize": 0,
+      "size": 0,
+      "classes": 65535,
+      "stackable": 1,
+      "maxcharges": 0
+    },
+    {
+      "id": 98293,
+      "Name": "Simple Ink",
+      "itemclass": 0,
+      "bagtype": 0,
+      "bagslots": 0,
+      "bagsize": 0,
+      "size": 0,
+      "classes": 15360,
+      "stackable": 1,
+      "maxcharges": 0
+    },
+    {
+      "id": 98294,
+      "Name": "Simple Book Binding",
+      "itemclass": 0,
+      "bagtype": 0,
+      "bagslots": 0,
+      "bagsize": 0,
+      "size": 0,
+      "classes": 15360,
+      "stackable": 1,
+      "maxcharges": 0
+    },
+    {
+      "id": 98295,
+      "Name": "Simple Blank Book",
+      "itemclass": 0,
+      "bagtype": 0,
+      "bagslots": 0,
+      "bagsize": 0,
+      "size": 0,
+      "classes": 15360,
+      "stackable": 1,
+      "maxcharges": 0
+    },
+    {
+      "id": 98296,
+      "Name": "Plain Flight Feather",
+      "itemclass": 0,
+      "bagtype": 0,
+      "bagslots": 0,
+      "bagsize": 0,
+      "size": 0,
+      "classes": 65535,
+      "stackable": 1,
+      "maxcharges": 0
+    },
+    {
+      "id": 98297,
+      "Name": "Simple Quill Cutting Tool",
+      "itemclass": 0,
+      "bagtype": 0,
+      "bagslots": 0,
+      "bagsize": 0,
+      "size": 0,
+      "classes": 65535,
+      "stackable": 1,
+      "maxcharges": 0
+    },
+    {
+      "id": 98298,
+      "Name": "Simple Ink Bottle",
+      "itemclass": 0,
+      "bagtype": 0,
+      "bagslots": 0,
+      "bagsize": 0,
+      "size": 0,
+      "classes": 65535,
+      "stackable": 1,
+      "maxcharges": 0
+    },
+    {
+      "id": 98299,
+      "Name": "Simple Book Binding Leather",
+      "itemclass": 0,
+      "bagtype": 0,
+      "bagslots": 0,
+      "bagsize": 0,
+      "size": 0,
+      "classes": 65535,
+      "stackable": 1,
+      "maxcharges": 0
+    },
+    {
+      "id": 98300,
+      "Name": "Simple Book Binding Lining",
+      "itemclass": 0,
+      "bagtype": 0,
+      "bagslots": 0,
+      "bagsize": 0,
+      "size": 0,
+      "classes": 65535,
+      "stackable": 1,
+      "maxcharges": 0
+    },
+    {
+      "id": 98301,
+      "Name": "Simple Glue",
+      "itemclass": 0,
+      "bagtype": 0,
+      "bagslots": 0,
+      "bagsize": 0,
+      "size": 0,
+      "classes": 65535,
+      "stackable": 1,
+      "maxcharges": 0
+    },
+    {
+      "id": 98302,
+      "Name": "Simple Book Binding Glue",
+      "itemclass": 0,
+      "bagtype": 0,
+      "bagslots": 0,
+      "bagsize": 0,
+      "size": 0,
+      "classes": 65535,
+      "stackable": 1,
+      "maxcharges": 0
+    },
+    {
+      "id": 98303,
+      "Name": "Stack of Blank Pages",
+      "itemclass": 0,
+      "bagtype": 0,
+      "bagslots": 0,
+      "bagsize": 0,
+      "size": 0,
+      "classes": 65535,
+      "stackable": 1,
+      "maxcharges": 0
+    }
+  ],
+  "source_urls": [
+    "https://www.eqtraders.com/recipes/recipe_page.php?article=389&rsa=Spell+Research&sub=quest",
+    "https://www.eqtraders.com/articles/article_page.php?article=q250"
+  ],
+  "historical_qualification": "Current explicit five-kit formulas and TSS quest guide created2007/currentmodified2021 support qualified alternative-kit context, not immutable May2013 per-kit proof. Existing learning0, quantities, return roles and all other fields preserved."
+}

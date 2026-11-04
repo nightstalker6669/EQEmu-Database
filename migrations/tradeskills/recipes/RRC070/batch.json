@@ -1,0 +1,554 @@
+{
+  "batch": "RRC070",
+  "branch": "rof2-tradeskills",
+  "status": "SOURCE_PROPOSAL_NOT_APPLIED",
+  "cutoff": "2013-05-31",
+  "proposed_ids": [
+    3093614,
+    3093617
+  ],
+  "counts": {
+    "recipes": 4,
+    "entries": 24,
+    "item_dependencies": 21
+  },
+  "recipes": [
+    {
+      "id": 3093614,
+      "name": "Runed Lepertoloth Bone Segment",
+      "tradeskill": 58,
+      "skillneeded": 0,
+      "trivial": 188,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Primary Research quest formula; qualified PoP/DoDH context; RRC070.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 4,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3093615,
+      "name": "Tattered Mechanoinstruction (Configuration)",
+      "tradeskill": 58,
+      "skillneeded": 0,
+      "trivial": 15,
+      "nofail": 1,
+      "replace_container": 0,
+      "notes": "Primary Research quest formula; qualified PoP/DoDH context; RRC070.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 10,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3093616,
+      "name": "Tattered Mechanoinstruction (Mechanotablet)",
+      "tradeskill": 58,
+      "skillneeded": 0,
+      "trivial": 15,
+      "nofail": 1,
+      "replace_container": 0,
+      "notes": "Primary Research quest formula; qualified PoP/DoDH context; RRC070.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 10,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3093617,
+      "name": "Tattered Mechanoinstruction (Advisory Book)",
+      "tradeskill": 58,
+      "skillneeded": 0,
+      "trivial": 15,
+      "nofail": 1,
+      "replace_container": 0,
+      "notes": "Primary Research quest formula; qualified PoP/DoDH context; RRC070.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 10,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    }
+  ],
+  "entries": [
+    {
+      "recipe_id": 3093614,
+      "item_id": 29488,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093614,
+      "item_id": 29348,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093614,
+      "item_id": 29487,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093614,
+      "item_id": 93492,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3093614,
+      "item_id": 41555,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3093614,
+      "item_id": 41631,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3093614,
+      "item_id": 41632,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3093614,
+      "item_id": 41633,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3093615,
+      "item_id": 33297,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093615,
+      "item_id": 32737,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093615,
+      "item_id": 32735,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093615,
+      "item_id": 32736,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093615,
+      "item_id": 32734,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093615,
+      "item_id": 93492,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3093616,
+      "item_id": 33296,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093616,
+      "item_id": 32733,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093616,
+      "item_id": 32731,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093616,
+      "item_id": 32732,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093616,
+      "item_id": 93492,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3093617,
+      "item_id": 33298,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093617,
+      "item_id": 32739,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093617,
+      "item_id": 32738,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093617,
+      "item_id": 32740,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093617,
+      "item_id": 93492,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    }
+  ],
+  "source_facts": [
+    {
+      "recipe_id": 3093614,
+      "source_name": "Runed Lepertoloth Bone Segment",
+      "recipe_name": "Runed Lepertoloth Bone Segment",
+      "output_item_id": 29488,
+      "yield_count": 1,
+      "trivial": 188,
+      "nofail": 0,
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=389&rsa=Spell+Research&sub=quest",
+      "output_source_url": "https://www.eqtraders.com/items/show_item.php?item=7324&menustr=010000000000",
+      "ingredients": [
+        {
+          "item_id": 29348,
+          "name": "Blood Rune Ink",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=6424"
+        },
+        {
+          "item_id": 29487,
+          "name": "Lepertoloth Bone Segment",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=5603"
+        }
+      ],
+      "container_item_ids": [
+        93492,
+        41555,
+        41631,
+        41632,
+        41633
+      ]
+    },
+    {
+      "recipe_id": 3093615,
+      "source_name": "Tattered Mechanoinstruction",
+      "recipe_name": "Tattered Mechanoinstruction (Configuration)",
+      "output_item_id": 33297,
+      "yield_count": 1,
+      "trivial": 15,
+      "nofail": 1,
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=389&rsa=Spell+Research&sub=quest",
+      "output_source_url": "https://www.eqtraders.com/items/show_item.php?item=21058&menustr=010000000000",
+      "ingredients": [
+        {
+          "item_id": 32737,
+          "name": "Mechanoinstruction Scraps",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=20808"
+        },
+        {
+          "item_id": 32735,
+          "name": "Mechanoinstruction Scraps",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=20810"
+        },
+        {
+          "item_id": 32736,
+          "name": "Mechanoinstruction Scraps",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=20809"
+        },
+        {
+          "item_id": 32734,
+          "name": "Mechanoinstruction Scraps",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=20811"
+        }
+      ],
+      "container_item_ids": [
+        93492
+      ]
+    },
+    {
+      "recipe_id": 3093616,
+      "source_name": "Tattered Mechanoinstruction",
+      "recipe_name": "Tattered Mechanoinstruction (Mechanotablet)",
+      "output_item_id": 33296,
+      "yield_count": 1,
+      "trivial": 15,
+      "nofail": 1,
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=389&rsa=Spell+Research&sub=quest",
+      "output_source_url": "https://www.eqtraders.com/items/show_item.php?item=21057&menustr=010000000000",
+      "ingredients": [
+        {
+          "item_id": 32733,
+          "name": "Mechanoinstruction Scraps",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=20813"
+        },
+        {
+          "item_id": 32731,
+          "name": "Mechanoinstruction Scraps",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=20816"
+        },
+        {
+          "item_id": 32732,
+          "name": "Mechanoinstruction Scraps",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=20814"
+        }
+      ],
+      "container_item_ids": [
+        93492
+      ]
+    },
+    {
+      "recipe_id": 3093617,
+      "source_name": "Tattered Mechanoinstruction",
+      "recipe_name": "Tattered Mechanoinstruction (Advisory Book)",
+      "output_item_id": 33298,
+      "yield_count": 1,
+      "trivial": 15,
+      "nofail": 1,
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=389&rsa=Spell+Research&sub=quest",
+      "output_source_url": "https://www.eqtraders.com/items/show_item.php?item=21059&menustr=010000000000",
+      "ingredients": [
+        {
+          "item_id": 32739,
+          "name": "Mechanoinstruction Scraps",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=20807"
+        },
+        {
+          "item_id": 32738,
+          "name": "Mechanoinstruction Scraps",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=20815"
+        },
+        {
+          "item_id": 32740,
+          "name": "Mechanoinstruction Scraps",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=20812"
+        }
+      ],
+      "container_item_ids": [
+        93492
+      ]
+    }
+  ],
+  "item_dependencies": [
+    {
+      "id": 29348,
+      "name": "Blood Rune Ink"
+    },
+    {
+      "id": 29487,
+      "name": "Lepertoloth Bone Segment"
+    },
+    {
+      "id": 29488,
+      "name": "Runed Lepertoloth Bone Segment"
+    },
+    {
+      "id": 32731,
+      "name": "Mechanoinstruction Scraps"
+    },
+    {
+      "id": 32732,
+      "name": "Mechanoinstruction Scraps"
+    },
+    {
+      "id": 32733,
+      "name": "Mechanoinstruction Scraps"
+    },
+    {
+      "id": 32734,
+      "name": "Mechanoinstruction Scraps"
+    },
+    {
+      "id": 32735,
+      "name": "Mechanoinstruction Scraps"
+    },
+    {
+      "id": 32736,
+      "name": "Mechanoinstruction Scraps"
+    },
+    {
+      "id": 32737,
+      "name": "Mechanoinstruction Scraps"
+    },
+    {
+      "id": 32738,
+      "name": "Mechanoinstruction Scraps"
+    },
+    {
+      "id": 32739,
+      "name": "Mechanoinstruction Scraps"
+    },
+    {
+      "id": 32740,
+      "name": "Mechanoinstruction Scraps"
+    },
+    {
+      "id": 33296,
+      "name": "Tattered Mechanoinstruction"
+    },
+    {
+      "id": 33297,
+      "name": "Tattered Mechanoinstruction"
+    },
+    {
+      "id": 33298,
+      "name": "Tattered Mechanoinstruction"
+    },
+    {
+      "id": 41555,
+      "name": "Tome Binding Kit"
+    },
+    {
+      "id": 41631,
+      "name": "Prayer Writing Kit"
+    },
+    {
+      "id": 41632,
+      "name": "Hybrid Research Kit"
+    },
+    {
+      "id": 41633,
+      "name": "Song Writing Kit"
+    },
+    {
+      "id": 93492,
+      "name": "Spell Research Kit"
+    }
+  ],
+  "era_context": {
+    "bone": {
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=166&rsa=Jewelcraft&sub=pop",
+      "basis": "Maintained PoP Jewelcraft category uses RunedLepertolothBoneSegment in BoneBraceletOfCorruption. Page metadata modification2003-06-15 supplies qualified era context, not an immutable per-route record."
+    },
+    "tattered": {
+      "source_url": "https://mboards.eqtraders.com/eq/forum/tradeskills/research/24284-scrindite-s-mechanoinstruction-manual",
+      "basis": "Dated2005-09-14/20 firsthand discussion describes ten distinct scraps split3/4/3 into three named-word assemblies in SpellResearchKit, then Bellfast handin. Exact item identities/lore come from retained current primary item pages. No positional/order-specific ingredient mechanic is established by those recollections; native ordinary combine matches multisets."
+    }
+  },
+  "restriction_review": {
+    "learning": "No mandatory scribed book or recipe-learning gate specified. Tattered outputs are physical repaired scraps, not automatic manual-page awards; NPC/task handins remain separate.",
+    "class_gate": "Tattered only has exact SpellResearchKit93492 with existing INT-caster classmask15360. Bone lists all five research kits. Native kit classmasks/capacities preserved.",
+    "names": "Three outputs share displayed itemname but have distinct nativeIDs and primary itemlore words. Recipe labels disambiguate by those words; no item rename.",
+    "holds": "EngravedRune <=190 and ElectricalCharge unknown trivial not defaulted; no newNPC/task or client behavior.",
+    "historical": "Maintained formulas with qualified PoP/dated2005 context, not immutable May2013 formula exports/native acceptance.",
+    "salvage": "Nonreturned component salvage uses established local convention; not an explicit primary-source claim.",
+    "native_combine": false
+  }
+}

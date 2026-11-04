@@ -1,0 +1,652 @@
+{
+  "batch": "RRC071",
+  "branch": "rof2-tradeskills",
+  "status": "SOURCE_CONTAINER_EXTENSION_NOT_APPLIED",
+  "counts": {
+    "recipes_added": 0,
+    "entries_added": 8,
+    "entries_updated": 0,
+    "recipe_definitions_preserved": 2,
+    "full_existing_entries_guarded": 10
+  },
+  "before_recipes": [
+    {
+      "id": 12240,
+      "name": "Ink Of Decay",
+      "tradeskill": 58,
+      "skillneeded": 0,
+      "trivial": 35,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": null,
+      "must_learn": 2,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": -1,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 12244,
+      "name": "Ink Of Transformation",
+      "tradeskill": 58,
+      "skillneeded": 0,
+      "trivial": 35,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": null,
+      "must_learn": 2,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": -1,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    }
+  ],
+  "after_recipes": [
+    {
+      "id": 12240,
+      "name": "Ink Of Decay",
+      "tradeskill": 58,
+      "skillneeded": 0,
+      "trivial": 35,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": null,
+      "must_learn": 2,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": -1,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 12244,
+      "name": "Ink Of Transformation",
+      "tradeskill": 58,
+      "skillneeded": 0,
+      "trivial": 35,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": null,
+      "must_learn": 2,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": -1,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    }
+  ],
+  "before_entries": [
+    {
+      "id": 145640,
+      "recipe_id": 12240,
+      "item_id": 93609,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 145641,
+      "recipe_id": 12240,
+      "item_id": 93605,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 145642,
+      "recipe_id": 12240,
+      "item_id": 93510,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 145643,
+      "recipe_id": 12240,
+      "item_id": 38509,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 145644,
+      "recipe_id": 12240,
+      "item_id": 93492,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 145672,
+      "recipe_id": 12244,
+      "item_id": 93604,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 145673,
+      "recipe_id": 12244,
+      "item_id": 93609,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 145674,
+      "recipe_id": 12244,
+      "item_id": 93510,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 145675,
+      "recipe_id": 12244,
+      "item_id": 38510,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 145676,
+      "recipe_id": 12244,
+      "item_id": 93492,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    }
+  ],
+  "after_existing_entries": [
+    {
+      "id": 145640,
+      "recipe_id": 12240,
+      "item_id": 93609,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 145641,
+      "recipe_id": 12240,
+      "item_id": 93605,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 145642,
+      "recipe_id": 12240,
+      "item_id": 93510,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 145643,
+      "recipe_id": 12240,
+      "item_id": 38509,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 145644,
+      "recipe_id": 12240,
+      "item_id": 93492,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 145672,
+      "recipe_id": 12244,
+      "item_id": 93604,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 145673,
+      "recipe_id": 12244,
+      "item_id": 93609,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 145674,
+      "recipe_id": 12244,
+      "item_id": 93510,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 145675,
+      "recipe_id": 12244,
+      "item_id": 38510,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 145676,
+      "recipe_id": 12244,
+      "item_id": 93492,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    }
+  ],
+  "new_entries": [
+    {
+      "recipe_id": 12240,
+      "item_id": 41555,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 12240,
+      "item_id": 41631,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 12240,
+      "item_id": 41632,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 12240,
+      "item_id": 41633,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 12244,
+      "item_id": 41555,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 12244,
+      "item_id": 41631,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 12244,
+      "item_id": 41632,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 12244,
+      "item_id": 41633,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    }
+  ],
+  "source_facts": [
+    {
+      "name": "Ink of Decay",
+      "trivial_text": "35",
+      "formula": "Components: Coal Powder, Mercury Powder, Vial of Pure Water\nIn: Spell Research Kit, Tome Binding Kit, Prayer Writing Kit, Hybrid Research Kit, Song Writing Kit, Spell Research Table, Spell Research Table (placeable)\nYield: 1\nNotes: EQRecipeID: 14945",
+      "observed_EQTC_item_id": 30917,
+      "output_source_url": "https://www.eqtraders.com/items/show_item.php?item=30917&menustr=010000000000",
+      "source_table_index": 2,
+      "source_row_index": 11,
+      "source_cell_count": 3,
+      "field_links": [
+        {
+          "name": "Coal Powder",
+          "url": "https://www.eqtraders.com//items/show_item.php?item=20859",
+          "field": "Components",
+          "explicit_count": null
+        },
+        {
+          "name": "Mercury Powder",
+          "url": "https://www.eqtraders.com//items/show_item.php?item=20883",
+          "field": "Components",
+          "explicit_count": null
+        },
+        {
+          "name": "Vial of Pure Water",
+          "url": "https://www.eqtraders.com//items/show_item.php?item=20928",
+          "field": "Components",
+          "explicit_count": null
+        },
+        {
+          "name": "Spell Research Kit",
+          "url": "https://www.eqtraders.com//items/show_item.php?item=20935",
+          "field": "In",
+          "explicit_count": null
+        },
+        {
+          "name": "Tome Binding Kit",
+          "url": "https://www.eqtraders.com//items/show_item.php?item=30867",
+          "field": "In",
+          "explicit_count": null
+        },
+        {
+          "name": "Prayer Writing Kit",
+          "url": "https://www.eqtraders.com//items/show_item.php?item=30868",
+          "field": "In",
+          "explicit_count": null
+        },
+        {
+          "name": "Hybrid Research Kit",
+          "url": "https://www.eqtraders.com//items/show_item.php?item=30869",
+          "field": "In",
+          "explicit_count": null
+        },
+        {
+          "name": "Song Writing Kit",
+          "url": "https://www.eqtraders.com//items/show_item.php?item=30870",
+          "field": "In",
+          "explicit_count": null
+        },
+        {
+          "name": "Spell Research Table",
+          "url": "https://www.eqtraders.com//items/show_item.php?item=59576",
+          "field": "In",
+          "explicit_count": null
+        },
+        {
+          "name": "Spell Research Table (placeable)",
+          "url": "https://www.eqtraders.com//items/show_item.php?item=61614",
+          "field": "In",
+          "explicit_count": null
+        }
+      ]
+    },
+    {
+      "name": "Ink of Transformation",
+      "trivial_text": "35",
+      "formula": "Components: Azurite Powder, Coal Powder, Vial of Pure Water\nIn: Spell Research Kit, Tome Binding Kit, Prayer Writing Kit, Hybrid Research Kit, Song Writing Kit, Spell Research Table, Spell Research Table (placeable)\nYield: 1\nNotes: EQRecipeID: 14946",
+      "observed_EQTC_item_id": 30918,
+      "output_source_url": "https://www.eqtraders.com/items/show_item.php?item=30918&menustr=010000000000",
+      "source_table_index": 2,
+      "source_row_index": 52,
+      "source_cell_count": 3,
+      "field_links": [
+        {
+          "name": "Azurite Powder",
+          "url": "https://www.eqtraders.com//items/show_item.php?item=20854",
+          "field": "Components",
+          "explicit_count": null
+        },
+        {
+          "name": "Coal Powder",
+          "url": "https://www.eqtraders.com//items/show_item.php?item=20859",
+          "field": "Components",
+          "explicit_count": null
+        },
+        {
+          "name": "Vial of Pure Water",
+          "url": "https://www.eqtraders.com//items/show_item.php?item=20928",
+          "field": "Components",
+          "explicit_count": null
+        },
+        {
+          "name": "Spell Research Kit",
+          "url": "https://www.eqtraders.com//items/show_item.php?item=20935",
+          "field": "In",
+          "explicit_count": null
+        },
+        {
+          "name": "Tome Binding Kit",
+          "url": "https://www.eqtraders.com//items/show_item.php?item=30867",
+          "field": "In",
+          "explicit_count": null
+        },
+        {
+          "name": "Prayer Writing Kit",
+          "url": "https://www.eqtraders.com//items/show_item.php?item=30868",
+          "field": "In",
+          "explicit_count": null
+        },
+        {
+          "name": "Hybrid Research Kit",
+          "url": "https://www.eqtraders.com//items/show_item.php?item=30869",
+          "field": "In",
+          "explicit_count": null
+        },
+        {
+          "name": "Song Writing Kit",
+          "url": "https://www.eqtraders.com//items/show_item.php?item=30870",
+          "field": "In",
+          "explicit_count": null
+        },
+        {
+          "name": "Spell Research Table",
+          "url": "https://www.eqtraders.com//items/show_item.php?item=59576",
+          "field": "In",
+          "explicit_count": null
+        },
+        {
+          "name": "Spell Research Table (placeable)",
+          "url": "https://www.eqtraders.com//items/show_item.php?item=61614",
+          "field": "In",
+          "explicit_count": null
+        }
+      ]
+    }
+  ],
+  "native_capacity": [
+    {
+      "id": 41555,
+      "Name": "Tome Binding Kit",
+      "itemclass": 1,
+      "bagtype": 11,
+      "bagslots": 10,
+      "bagsize": 3,
+      "size": 3,
+      "classes": 33089,
+      "stackable": 0,
+      "maxcharges": 0
+    },
+    {
+      "id": 41631,
+      "Name": "Prayer Writing Kit",
+      "itemclass": 1,
+      "bagtype": 11,
+      "bagslots": 10,
+      "bagsize": 3,
+      "size": 3,
+      "classes": 16930,
+      "stackable": 0,
+      "maxcharges": 0
+    },
+    {
+      "id": 41632,
+      "Name": "Hybrid Research Kit",
+      "itemclass": 1,
+      "bagtype": 11,
+      "bagslots": 10,
+      "bagsize": 3,
+      "size": 3,
+      "classes": 16412,
+      "stackable": 0,
+      "maxcharges": 0
+    },
+    {
+      "id": 41633,
+      "Name": "Song Writing Kit",
+      "itemclass": 1,
+      "bagtype": 11,
+      "bagslots": 10,
+      "bagsize": 3,
+      "size": 3,
+      "classes": 128,
+      "stackable": 0,
+      "maxcharges": 0
+    },
+    {
+      "id": 93492,
+      "Name": "Spell Research Kit",
+      "itemclass": 1,
+      "bagtype": 11,
+      "bagslots": 10,
+      "bagsize": 3,
+      "size": 3,
+      "classes": 15360,
+      "stackable": 0,
+      "maxcharges": 0
+    }
+  ],
+  "ingredient_sizes": [
+    {
+      "id": 38509,
+      "Name": "Ink of Decay",
+      "itemclass": 0,
+      "bagtype": 0,
+      "bagslots": 0,
+      "bagsize": 0,
+      "size": 1,
+      "classes": 15360,
+      "stackable": 1,
+      "maxcharges": 0
+    },
+    {
+      "id": 38510,
+      "Name": "Ink of Transformation",
+      "itemclass": 0,
+      "bagtype": 0,
+      "bagslots": 0,
+      "bagsize": 0,
+      "size": 1,
+      "classes": 15360,
+      "stackable": 1,
+      "maxcharges": 0
+    },
+    {
+      "id": 93510,
+      "Name": "Vial of Pure Water",
+      "itemclass": 0,
+      "bagtype": 0,
+      "bagslots": 0,
+      "bagsize": 0,
+      "size": 1,
+      "classes": 15360,
+      "stackable": 1,
+      "maxcharges": 0
+    },
+    {
+      "id": 93604,
+      "Name": "Azurite Powder",
+      "itemclass": 0,
+      "bagtype": 0,
+      "bagslots": 0,
+      "bagsize": 0,
+      "size": 0,
+      "classes": 15360,
+      "stackable": 1,
+      "maxcharges": 0
+    },
+    {
+      "id": 93605,
+      "Name": "Mercury Powder",
+      "itemclass": 0,
+      "bagtype": 0,
+      "bagslots": 0,
+      "bagsize": 0,
+      "size": 0,
+      "classes": 15360,
+      "stackable": 1,
+      "maxcharges": 0
+    },
+    {
+      "id": 93609,
+      "Name": "Coal Powder",
+      "itemclass": 0,
+      "bagtype": 0,
+      "bagslots": 0,
+      "bagsize": 0,
+      "size": 0,
+      "classes": 15360,
+      "stackable": 1,
+      "maxcharges": 0
+    }
+  ],
+  "source_urls": [
+    "https://www.eqtraders.com/recipes/recipe_page.php?article=345&rsa=Spell+Research&sub=ink"
+  ],
+  "historical_qualification": "Maintained explicit five-kit ink formulas support qualified alternative-kit context, not immutable May2013 per-kit proof. Existing learning2, quantities, failure/salvage roles and all other fields preserved."
+}
