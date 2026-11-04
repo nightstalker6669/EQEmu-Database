@@ -1,0 +1,14 @@
+{
+  "aliases": [
+    {
+      "canonical_source_path": "utils/sql/shared_core/001_inventory_sessions.sql",
+      "retained_housing_path": "utils/sql/housing/009_inventory_session_reservation.sql",
+      "database_release_path": "migrations/housing/utils/sql/housing/009_inventory_session_reservation.sql",
+      "sha256": "3bad4d0f3a05b0e1536a30aa5b6787ef00749fc3b98438a6395c3fef3af09b64",
+      "byte_identical": true,
+      "apply_count": 1,
+      "qualification": "One canonical lease/session infrastructure; no duplicate store or replay from aliaspath."
+    }
+  ],
+  "no_player_rows": true
+}
