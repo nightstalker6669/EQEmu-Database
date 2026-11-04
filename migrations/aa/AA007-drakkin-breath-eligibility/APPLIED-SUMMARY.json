@@ -1,0 +1,98 @@
+{
+  "format_version": 1,
+  "identity": "AA007-drakkin-breath-eligibility",
+  "source_repository": "nightstalker6669/EQEmu",
+  "source_commit": "bddf6f580a3328809b2a3bf8e1e45f3e6429e94a",
+  "source_path": "utils/sql/aa/2026_11_04_drakkin_breath_eligibility.sql",
+  "source_sha256": "a55d44611d176b20c15d7b958eb1d18d3da7f9f174f65c0d5ef2d6d000d90f18",
+  "application_status": "COMMITTED_INDEPENDENT_FULL_RELEVANT_READBACK_PASS",
+  "exact_anonymous_block_invocations": 1,
+  "changed_fields": [
+    {
+      "ability_id": 590,
+      "field": "races",
+      "before": 65535,
+      "after": 32768
+    },
+    {
+      "ability_id": 590,
+      "field": "drakkin_heritage",
+      "before": 127,
+      "after": 1
+    },
+    {
+      "ability_id": 591,
+      "field": "races",
+      "before": 65535,
+      "after": 32768
+    },
+    {
+      "ability_id": 591,
+      "field": "drakkin_heritage",
+      "before": 127,
+      "after": 2
+    },
+    {
+      "ability_id": 592,
+      "field": "races",
+      "before": 65535,
+      "after": 32768
+    },
+    {
+      "ability_id": 592,
+      "field": "drakkin_heritage",
+      "before": 127,
+      "after": 4
+    },
+    {
+      "ability_id": 593,
+      "field": "races",
+      "before": 65535,
+      "after": 32768
+    },
+    {
+      "ability_id": 593,
+      "field": "drakkin_heritage",
+      "before": 127,
+      "after": 8
+    },
+    {
+      "ability_id": 594,
+      "field": "races",
+      "before": 65535,
+      "after": 32768
+    },
+    {
+      "ability_id": 594,
+      "field": "drakkin_heritage",
+      "before": 127,
+      "after": 16
+    },
+    {
+      "ability_id": 595,
+      "field": "races",
+      "before": 65535,
+      "after": 32768
+    },
+    {
+      "ability_id": 595,
+      "field": "drakkin_heritage",
+      "before": 127,
+      "after": 32
+    }
+  ],
+  "independent_full_definition_readback": true,
+  "owned_rows_preserved": 6,
+  "owned_ranks_and_charges_exact": true,
+  "player_ownership_writes": false,
+  "cache_or_client_actions_by_database": false,
+  "cache_handoff": "Build-owned AAData(1) refresh at coordinator safe checkpoint; actual cached masks and client eligibility evidence required separately.",
+  "native_acceptance": false,
+  "private_material_excluded": [
+    "player ownership records",
+    "full database backups",
+    "private rollback",
+    "credentials",
+    "temporary QA"
+  ]
+}
