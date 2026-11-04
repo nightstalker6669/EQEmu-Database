@@ -1,0 +1,16 @@
+{
+  "status": "APPLIED_VERIFIED",
+  "SQL_invocations": 1,
+  "published_commit": "5a1f0a51d40f185f03396e459e87861946dbf62e",
+  "source_sha256": "15ce9ba426c3fda4ba3aaa79a554d818b1a813038303d4bb2fbbb462d73c9435",
+  "recipes": 4,
+  "entries": 17,
+  "affected_postimages_exact": true,
+  "existing_row_changes": "No UPDATE/DELETE of existing recipes; additive exact-ID inserts only. Global old-row diff was not repeated.",
+  "batch": "RRC031",
+  "retained_APPLIED_marker_sha256": "d2b6a81aff98ea8bb1edf33da3d6b140716de187751c30929b637ba14e6fae59",
+  "source_SQL_matches_applied_hash": true,
+  "source_preparation_note": "OriginalbatchJSON/READMEstatusdescribeearlierpreparation; laterAPPLIEDmarkerrecordsactualappliedstate separately.",
+  "native_acceptance": "Do not infer nativecombine or acquisition from SQLapplication.",
+  "rollback_policy": "Exact published rollback is recovery reference only; not executed/replayed by assembly."
+}

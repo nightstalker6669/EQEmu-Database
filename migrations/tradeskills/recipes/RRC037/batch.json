@@ -1,0 +1,273 @@
+{
+  "batch": "RRC037",
+  "branch": "rof2-tradeskills",
+  "status": "SOURCE_PROPOSAL_NOT_REHEARSED_APPLIED",
+  "cutoff": "2013-05-31",
+  "proposed_ids": [
+    3092444,
+    3092446
+  ],
+  "counts": {
+    "recipes": 3,
+    "entries": 9,
+    "item_dependencies": 8
+  },
+  "source_urls": [
+    "https://www.eqtraders.com/items/show_item.php?item=28821",
+    "https://www.eqtraders.com/items/show_item.php?item=28823",
+    "https://www.eqtraders.com/items/show_item.php?item=28848"
+  ],
+  "recipes": [
+    {
+      "id": 3092444,
+      "name": "Trio Setting Tool",
+      "tradeskill": 68,
+      "skillneeded": 0,
+      "trivial": 15,
+      "nofail": 1,
+      "replace_container": 0,
+      "notes": "PoR manufacturing tools/glass; EQTC direct primary rows; RRC037.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 11,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3092445,
+      "name": "Duo Setting Tool",
+      "tradeskill": 68,
+      "skillneeded": 0,
+      "trivial": 15,
+      "nofail": 1,
+      "replace_container": 0,
+      "notes": "PoR manufacturing tools/glass; EQTC direct primary rows; RRC037.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 11,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3092446,
+      "name": "Solo Setting Tool",
+      "tradeskill": 68,
+      "skillneeded": 0,
+      "trivial": 15,
+      "nofail": 1,
+      "replace_container": 0,
+      "notes": "PoR manufacturing tools/glass; EQTC direct primary rows; RRC037.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 11,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    }
+  ],
+  "entries": [
+    {
+      "recipe_id": 3092444,
+      "item_id": 37805,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3092444,
+      "item_id": 37804,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3092444,
+      "item_id": 20,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3092445,
+      "item_id": 37804,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3092445,
+      "item_id": 37803,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3092445,
+      "item_id": 20,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3092446,
+      "item_id": 37803,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3092446,
+      "item_id": 95832,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3092446,
+      "item_id": 20,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    }
+  ],
+  "source_facts": [
+    {
+      "recipe_id": 3092444,
+      "name": "Trio Setting Tool",
+      "output_item_id": 37805,
+      "trivial": 15,
+      "yield_count": 1,
+      "nofail": 1,
+      "ingredients": [
+        {
+          "name": "Duo Setting Tool",
+          "item_id": 37804,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=28848"
+        }
+      ],
+      "also_returns": [],
+      "failure_returns": [],
+      "container_bagtype": 20,
+      "source_url": "https://www.eqtraders.com/items/show_item.php?item=28821",
+      "source_output_url": "https://www.eqtraders.com/items/show_item.php?item=28821",
+      "source_primary_html_sha256": "f8bcc08fc58c3af846680d6a006a875e90e5a7bdd1340f9b8d53919d82252da2",
+      "era_basis": "Manufactured input to maintained PoR jewellery; labelled inherited era estimate."
+    },
+    {
+      "recipe_id": 3092445,
+      "name": "Duo Setting Tool",
+      "output_item_id": 37804,
+      "trivial": 15,
+      "yield_count": 1,
+      "nofail": 1,
+      "ingredients": [
+        {
+          "name": "Solo Setting Tool",
+          "item_id": 37803,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=28823"
+        }
+      ],
+      "also_returns": [],
+      "failure_returns": [],
+      "container_bagtype": 20,
+      "source_url": "https://www.eqtraders.com/items/show_item.php?item=28848",
+      "source_output_url": "https://www.eqtraders.com/items/show_item.php?item=28848",
+      "source_primary_html_sha256": "8e7b157850edf5ca5e769d615d6770ea7c4d6709d8b876e60ce7ab7d4a6f8b31",
+      "era_basis": "Manufactured input to maintained PoR jewellery; labelled inherited era estimate."
+    },
+    {
+      "recipe_id": 3092446,
+      "name": "Solo Setting Tool",
+      "output_item_id": 37803,
+      "trivial": 15,
+      "yield_count": 1,
+      "nofail": 1,
+      "ingredients": [
+        {
+          "name": "Marquise Cut Tool",
+          "item_id": 95832,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=8288"
+        }
+      ],
+      "also_returns": [],
+      "failure_returns": [],
+      "container_bagtype": 20,
+      "source_url": "https://www.eqtraders.com/items/show_item.php?item=28823",
+      "source_output_url": "https://www.eqtraders.com/items/show_item.php?item=28823",
+      "source_primary_html_sha256": "e443f7bd65b64909a626ede5ab2e6f57ab51a84056370a5c302b7ab44eb61d92",
+      "era_basis": "Manufactured input to maintained PoR jewellery; labelled inherited era estimate."
+    }
+  ],
+  "item_dependencies": [
+    {
+      "id": 17187,
+      "name": "Collapsible Jeweler's Kit"
+    },
+    {
+      "id": 17764,
+      "name": "Planar Jeweler's Kit"
+    },
+    {
+      "id": 17912,
+      "name": "Jeweler's Kit"
+    },
+    {
+      "id": 37803,
+      "name": "Solo Setting Tool"
+    },
+    {
+      "id": 37804,
+      "name": "Duo Setting Tool"
+    },
+    {
+      "id": 37805,
+      "name": "Trio Setting Tool"
+    },
+    {
+      "id": 62480,
+      "name": "Reinforced Jeweler's Kit"
+    },
+    {
+      "id": 95832,
+      "name": "Marquise Cut Tool"
+    }
+  ],
+  "deferred_source_rows": [],
+  "restriction_review": {
+    "learning": "No mandatory scribe/class/race/explicit minimum in direct rows; skillneeded0/must_learn0.",
+    "containers": "Common Jewelry20 family;17912four-slot and17764/17187/62480six-slot kit anchors; one input unit each.",
+    "returns": "All3source15(No-Fail) setting-tool conversions yield1/nofail1. Trio fromDuo, Duo fromSolo, Solo fromMarquiseCutTool. No inferred returns.",
+    "era": "Inherited min_expansion11 from use in PoR manufacturing; labelled conservative era estimate, not immutable May2013 numeric/native proof.",
+    "identity": "Eight required native references already verified in retained primary HTML; no new network request for final three-formula assembly.",
+    "native_combine": false
+  }
+}

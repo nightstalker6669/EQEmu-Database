@@ -1,0 +1,4475 @@
+{
+  "batch": "RRC045",
+  "branch": "rof2-tradeskills",
+  "status": "SOURCE_PROPOSAL_NOT_REHEARSED_APPLIED",
+  "cutoff": "2013-05-31",
+  "proposed_ids": [
+    3092669,
+    3092707
+  ],
+  "counts": {
+    "recipes": 39,
+    "entries": 216,
+    "item_dependencies": 66
+  },
+  "source_urls": [
+    "https://www.eqtraders.com/recipes/pottery_recipe_page.php?article=407&rsa=Pottery&sub=tbs"
+  ],
+  "recipes": [
+    {
+      "id": 3092669,
+      "name": "Copper Infused Energeiac Clay",
+      "tradeskill": 69,
+      "skillneeded": 0,
+      "trivial": 210,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "TBS; EQTC article407; Energeian clay/orbs; RRC045.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 13,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3092670,
+      "name": "Iron Infused Energeiac Clay",
+      "tradeskill": 69,
+      "skillneeded": 0,
+      "trivial": 135,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "TBS; EQTC article407; Energeian clay/orbs; RRC045.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 13,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3092671,
+      "name": "Sealed Dull Energeian Air Orb",
+      "tradeskill": 69,
+      "skillneeded": 0,
+      "trivial": 135,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "TBS; EQTC article407; Energeian clay/orbs; RRC045.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 13,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3092672,
+      "name": "Unfired Dull Energeian Air Orb",
+      "tradeskill": 69,
+      "skillneeded": 0,
+      "trivial": 170,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "TBS; EQTC article407; Energeian clay/orbs; RRC045.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 13,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3092673,
+      "name": "Sealed Dull Energeian Earth Orb",
+      "tradeskill": 69,
+      "skillneeded": 0,
+      "trivial": 135,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "TBS; EQTC article407; Energeian clay/orbs; RRC045.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 13,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3092674,
+      "name": "Unfired Dull Energeian Earth Orb",
+      "tradeskill": 69,
+      "skillneeded": 0,
+      "trivial": 170,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "TBS; EQTC article407; Energeian clay/orbs; RRC045.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 13,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3092675,
+      "name": "Sealed Dull Energeian Fire Orb",
+      "tradeskill": 69,
+      "skillneeded": 0,
+      "trivial": 135,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "TBS; EQTC article407; Energeian clay/orbs; RRC045.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 13,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3092676,
+      "name": "Unfired Dull Energeian Fire Orb",
+      "tradeskill": 69,
+      "skillneeded": 0,
+      "trivial": 170,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "TBS; EQTC article407; Energeian clay/orbs; RRC045.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 13,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3092677,
+      "name": "Sealed Dull Energeian Ice Orb",
+      "tradeskill": 69,
+      "skillneeded": 0,
+      "trivial": 135,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "TBS; EQTC article407; Energeian clay/orbs; RRC045.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 13,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3092678,
+      "name": "Unfired Dull Energeian Ice Orb",
+      "tradeskill": 69,
+      "skillneeded": 0,
+      "trivial": 170,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "TBS; EQTC article407; Energeian clay/orbs; RRC045.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 13,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3092679,
+      "name": "Sealed Foggy Energeian Air Orb",
+      "tradeskill": 69,
+      "skillneeded": 0,
+      "trivial": 250,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "TBS; EQTC article407; Energeian clay/orbs; RRC045.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 13,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3092680,
+      "name": "Unfired Foggy Energeian Air Orb",
+      "tradeskill": 69,
+      "skillneeded": 0,
+      "trivial": 290,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "TBS; EQTC article407; Energeian clay/orbs; RRC045.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 13,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3092681,
+      "name": "Sealed Foggy Energeian Decay Orb",
+      "tradeskill": 69,
+      "skillneeded": 0,
+      "trivial": 263,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "TBS; EQTC article407; Energeian clay/orbs; RRC045.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 13,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3092682,
+      "name": "Unfired Foggy Energeian Decay Orb",
+      "tradeskill": 69,
+      "skillneeded": 0,
+      "trivial": 303,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "TBS; EQTC article407; Energeian clay/orbs; RRC045.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 13,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3092683,
+      "name": "Sealed Foggy Energeian Disease Orb",
+      "tradeskill": 69,
+      "skillneeded": 0,
+      "trivial": 290,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "TBS; EQTC article407; Energeian clay/orbs; RRC045.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 13,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3092684,
+      "name": "Unfired Foggy Energeian Disease Orb",
+      "tradeskill": 69,
+      "skillneeded": 0,
+      "trivial": 316,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "TBS; EQTC article407; Energeian clay/orbs; RRC045.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 13,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3092685,
+      "name": "Sealed Foggy Energeian Earth Orb",
+      "tradeskill": 69,
+      "skillneeded": 0,
+      "trivial": 250,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "TBS; EQTC article407; Energeian clay/orbs; RRC045.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 13,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3092686,
+      "name": "Unfired Foggy Energeian Earth Orb",
+      "tradeskill": 69,
+      "skillneeded": 0,
+      "trivial": 290,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "TBS; EQTC article407; Energeian clay/orbs; RRC045.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 13,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3092687,
+      "name": "Sealed Foggy Energeian Fire Orb",
+      "tradeskill": 69,
+      "skillneeded": 0,
+      "trivial": 250,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "TBS; EQTC article407; Energeian clay/orbs; RRC045.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 13,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3092688,
+      "name": "Unfired Foggy Energeian Fire Orb",
+      "tradeskill": 69,
+      "skillneeded": 0,
+      "trivial": 290,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "TBS; EQTC article407; Energeian clay/orbs; RRC045.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 13,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3092689,
+      "name": "Sealed Foggy Energeian Growth Orb",
+      "tradeskill": 69,
+      "skillneeded": 0,
+      "trivial": 263,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "TBS; EQTC article407; Energeian clay/orbs; RRC045.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 13,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3092690,
+      "name": "Unfired Foggy Energeian Growth Orb",
+      "tradeskill": 69,
+      "skillneeded": 0,
+      "trivial": 303,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "TBS; EQTC article407; Energeian clay/orbs; RRC045.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 13,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3092691,
+      "name": "Sealed Foggy Energeian Ice Orb",
+      "tradeskill": 69,
+      "skillneeded": 0,
+      "trivial": 250,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "TBS; EQTC article407; Energeian clay/orbs; RRC045.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 13,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3092692,
+      "name": "Unfired Foggy Energeian Ice Orb",
+      "tradeskill": 69,
+      "skillneeded": 0,
+      "trivial": 290,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "TBS; EQTC article407; Energeian clay/orbs; RRC045.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 13,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3092693,
+      "name": "Sealed Foggy Energeian Poison Orb",
+      "tradeskill": 69,
+      "skillneeded": 0,
+      "trivial": 290,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "TBS; EQTC article407; Energeian clay/orbs; RRC045.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 13,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3092694,
+      "name": "Unfired Foggy Energeian Poison Orb",
+      "tradeskill": 69,
+      "skillneeded": 0,
+      "trivial": 316,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "TBS; EQTC article407; Energeian clay/orbs; RRC045.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 13,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3092695,
+      "name": "Sealed Murky Energeian Air Orb",
+      "tradeskill": 69,
+      "skillneeded": 0,
+      "trivial": 210,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "TBS; EQTC article407; Energeian clay/orbs; RRC045.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 13,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3092696,
+      "name": "Unfired Murky Energeian Air Orb",
+      "tradeskill": 69,
+      "skillneeded": 0,
+      "trivial": 250,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "TBS; EQTC article407; Energeian clay/orbs; RRC045.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 13,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3092697,
+      "name": "Sealed Murky Energeian Decay Orb",
+      "tradeskill": 69,
+      "skillneeded": 0,
+      "trivial": 223,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "TBS; EQTC article407; Energeian clay/orbs; RRC045.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 13,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3092698,
+      "name": "Unfired Murky Energeian Decay Orb",
+      "tradeskill": 69,
+      "skillneeded": 0,
+      "trivial": 263,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "TBS; EQTC article407; Energeian clay/orbs; RRC045.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 13,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3092699,
+      "name": "Sealed Murky Energeian Earth Orb",
+      "tradeskill": 69,
+      "skillneeded": 0,
+      "trivial": 210,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "TBS; EQTC article407; Energeian clay/orbs; RRC045.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 13,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3092700,
+      "name": "Unfired Murky Energeian Earth Orb",
+      "tradeskill": 69,
+      "skillneeded": 0,
+      "trivial": 250,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "TBS; EQTC article407; Energeian clay/orbs; RRC045.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 13,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3092701,
+      "name": "Sealed Murky Energeian Fire Orb",
+      "tradeskill": 69,
+      "skillneeded": 0,
+      "trivial": 210,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "TBS; EQTC article407; Energeian clay/orbs; RRC045.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 13,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3092702,
+      "name": "Unfired Murky Energeian Fire Orb",
+      "tradeskill": 69,
+      "skillneeded": 0,
+      "trivial": 250,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "TBS; EQTC article407; Energeian clay/orbs; RRC045.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 13,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3092703,
+      "name": "Sealed Murky Energeian Growth Orb",
+      "tradeskill": 69,
+      "skillneeded": 0,
+      "trivial": 223,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "TBS; EQTC article407; Energeian clay/orbs; RRC045.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 13,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3092704,
+      "name": "Unfired Murky Energeian Growth Orb",
+      "tradeskill": 69,
+      "skillneeded": 0,
+      "trivial": 263,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "TBS; EQTC article407; Energeian clay/orbs; RRC045.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 13,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3092705,
+      "name": "Sealed Murky Energeian Ice Orb",
+      "tradeskill": 69,
+      "skillneeded": 0,
+      "trivial": 210,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "TBS; EQTC article407; Energeian clay/orbs; RRC045.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 13,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3092706,
+      "name": "Unfired Murky Energeian Ice Orb",
+      "tradeskill": 69,
+      "skillneeded": 0,
+      "trivial": 250,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "TBS; EQTC article407; Energeian clay/orbs; RRC045.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 13,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3092707,
+      "name": "Silver Infused Energeiac Clay",
+      "tradeskill": 69,
+      "skillneeded": 0,
+      "trivial": 290,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "TBS; EQTC article407; Energeian clay/orbs; RRC045.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 13,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    }
+  ],
+  "entries": [
+    {
+      "recipe_id": 3092669,
+      "item_id": 33827,
+      "successcount": 5,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3092669,
+      "item_id": 33788,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3092669,
+      "item_id": 16948,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3092669,
+      "item_id": 33791,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3092669,
+      "item_id": 13006,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3092669,
+      "item_id": 21,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3092670,
+      "item_id": 33826,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3092670,
+      "item_id": 33787,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3092670,
+      "item_id": 16948,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3092670,
+      "item_id": 33790,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3092670,
+      "item_id": 13006,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3092670,
+      "item_id": 21,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3092671,
+      "item_id": 41929,
+      "successcount": 5,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3092671,
+      "item_id": 33835,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3092671,
+      "item_id": 16906,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3092671,
+      "item_id": 33843,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3092671,
+      "item_id": 22,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3092672,
+      "item_id": 33843,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3092672,
+      "item_id": 33835,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3092672,
+      "item_id": 33829,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3092672,
+      "item_id": 33826,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3092672,
+      "item_id": 10250,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3092672,
+      "item_id": 21,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3092673,
+      "item_id": 41928,
+      "successcount": 5,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3092673,
+      "item_id": 33834,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3092673,
+      "item_id": 16906,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3092673,
+      "item_id": 33842,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3092673,
+      "item_id": 22,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3092674,
+      "item_id": 33842,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3092674,
+      "item_id": 33834,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3092674,
+      "item_id": 33829,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3092674,
+      "item_id": 33826,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3092674,
+      "item_id": 10250,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3092674,
+      "item_id": 21,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3092675,
+      "item_id": 41927,
+      "successcount": 5,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3092675,
+      "item_id": 33833,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3092675,
+      "item_id": 16906,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3092675,
+      "item_id": 33841,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3092675,
+      "item_id": 22,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3092676,
+      "item_id": 33841,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3092676,
+      "item_id": 33833,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3092676,
+      "item_id": 33829,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3092676,
+      "item_id": 33826,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3092676,
+      "item_id": 10250,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3092676,
+      "item_id": 21,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3092677,
+      "item_id": 41926,
+      "successcount": 5,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3092677,
+      "item_id": 33832,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3092677,
+      "item_id": 16906,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3092677,
+      "item_id": 33840,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3092677,
+      "item_id": 22,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3092678,
+      "item_id": 33840,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3092678,
+      "item_id": 33832,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3092678,
+      "item_id": 33829,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3092678,
+      "item_id": 33826,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3092678,
+      "item_id": 10250,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3092678,
+      "item_id": 21,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3092679,
+      "item_id": 41939,
+      "successcount": 5,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3092679,
+      "item_id": 33835,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3092679,
+      "item_id": 16908,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3092679,
+      "item_id": 33853,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3092679,
+      "item_id": 22,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3092680,
+      "item_id": 33853,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3092680,
+      "item_id": 33835,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3092680,
+      "item_id": 33831,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3092680,
+      "item_id": 33828,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3092680,
+      "item_id": 10252,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3092680,
+      "item_id": 21,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3092681,
+      "item_id": 41941,
+      "successcount": 5,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3092681,
+      "item_id": 33837,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3092681,
+      "item_id": 16908,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3092681,
+      "item_id": 33855,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3092681,
+      "item_id": 22,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3092682,
+      "item_id": 33855,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3092682,
+      "item_id": 33837,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3092682,
+      "item_id": 33831,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3092682,
+      "item_id": 33828,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3092682,
+      "item_id": 10252,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3092682,
+      "item_id": 21,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3092683,
+      "item_id": 41943,
+      "successcount": 5,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3092683,
+      "item_id": 33839,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3092683,
+      "item_id": 16908,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3092683,
+      "item_id": 33857,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3092683,
+      "item_id": 22,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3092684,
+      "item_id": 33857,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3092684,
+      "item_id": 33839,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3092684,
+      "item_id": 33831,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3092684,
+      "item_id": 33828,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3092684,
+      "item_id": 10252,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3092684,
+      "item_id": 21,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3092685,
+      "item_id": 41938,
+      "successcount": 5,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3092685,
+      "item_id": 33834,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3092685,
+      "item_id": 16908,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3092685,
+      "item_id": 33852,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3092685,
+      "item_id": 22,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3092686,
+      "item_id": 33852,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3092686,
+      "item_id": 33834,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3092686,
+      "item_id": 33831,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3092686,
+      "item_id": 33828,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3092686,
+      "item_id": 10252,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3092686,
+      "item_id": 21,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3092687,
+      "item_id": 41937,
+      "successcount": 5,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3092687,
+      "item_id": 33833,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3092687,
+      "item_id": 16908,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3092687,
+      "item_id": 33851,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3092687,
+      "item_id": 22,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3092688,
+      "item_id": 33851,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3092688,
+      "item_id": 33833,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3092688,
+      "item_id": 33831,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3092688,
+      "item_id": 33828,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3092688,
+      "item_id": 10252,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3092688,
+      "item_id": 21,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3092689,
+      "item_id": 41940,
+      "successcount": 5,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3092689,
+      "item_id": 33836,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3092689,
+      "item_id": 16908,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3092689,
+      "item_id": 33854,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3092689,
+      "item_id": 22,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3092690,
+      "item_id": 33854,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3092690,
+      "item_id": 33836,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3092690,
+      "item_id": 33831,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3092690,
+      "item_id": 33828,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3092690,
+      "item_id": 10252,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3092690,
+      "item_id": 21,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3092691,
+      "item_id": 41936,
+      "successcount": 5,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3092691,
+      "item_id": 33832,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3092691,
+      "item_id": 16908,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3092691,
+      "item_id": 33850,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3092691,
+      "item_id": 22,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3092692,
+      "item_id": 33850,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3092692,
+      "item_id": 33832,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3092692,
+      "item_id": 33831,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3092692,
+      "item_id": 33828,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3092692,
+      "item_id": 10252,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3092692,
+      "item_id": 21,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3092693,
+      "item_id": 41942,
+      "successcount": 5,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3092693,
+      "item_id": 33838,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3092693,
+      "item_id": 16908,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3092693,
+      "item_id": 33856,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3092693,
+      "item_id": 22,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3092694,
+      "item_id": 33856,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3092694,
+      "item_id": 33838,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3092694,
+      "item_id": 33831,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3092694,
+      "item_id": 33828,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3092694,
+      "item_id": 10252,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3092694,
+      "item_id": 21,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3092695,
+      "item_id": 41933,
+      "successcount": 5,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3092695,
+      "item_id": 33835,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3092695,
+      "item_id": 16907,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3092695,
+      "item_id": 33847,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3092695,
+      "item_id": 22,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3092696,
+      "item_id": 33847,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3092696,
+      "item_id": 33827,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3092696,
+      "item_id": 33835,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3092696,
+      "item_id": 33830,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3092696,
+      "item_id": 10251,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3092696,
+      "item_id": 21,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3092697,
+      "item_id": 41935,
+      "successcount": 5,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3092697,
+      "item_id": 33837,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3092697,
+      "item_id": 16907,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3092697,
+      "item_id": 33849,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3092697,
+      "item_id": 22,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3092698,
+      "item_id": 33849,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3092698,
+      "item_id": 33827,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3092698,
+      "item_id": 33837,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3092698,
+      "item_id": 33830,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3092698,
+      "item_id": 10251,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3092698,
+      "item_id": 21,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3092699,
+      "item_id": 41932,
+      "successcount": 5,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3092699,
+      "item_id": 33834,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3092699,
+      "item_id": 16907,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3092699,
+      "item_id": 33846,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3092699,
+      "item_id": 22,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3092700,
+      "item_id": 33846,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3092700,
+      "item_id": 33827,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3092700,
+      "item_id": 33834,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3092700,
+      "item_id": 33830,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3092700,
+      "item_id": 10251,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3092700,
+      "item_id": 21,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3092701,
+      "item_id": 41931,
+      "successcount": 5,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3092701,
+      "item_id": 33833,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3092701,
+      "item_id": 16907,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3092701,
+      "item_id": 33845,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3092701,
+      "item_id": 22,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3092702,
+      "item_id": 33845,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3092702,
+      "item_id": 33827,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3092702,
+      "item_id": 33833,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3092702,
+      "item_id": 33830,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3092702,
+      "item_id": 10251,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3092702,
+      "item_id": 21,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3092703,
+      "item_id": 41934,
+      "successcount": 5,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3092703,
+      "item_id": 33836,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3092703,
+      "item_id": 16907,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3092703,
+      "item_id": 33848,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3092703,
+      "item_id": 22,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3092704,
+      "item_id": 33848,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3092704,
+      "item_id": 33827,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3092704,
+      "item_id": 33836,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3092704,
+      "item_id": 33830,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3092704,
+      "item_id": 10251,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3092704,
+      "item_id": 21,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3092705,
+      "item_id": 41930,
+      "successcount": 5,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3092705,
+      "item_id": 33832,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3092705,
+      "item_id": 16907,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3092705,
+      "item_id": 33844,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3092705,
+      "item_id": 22,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3092706,
+      "item_id": 33844,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3092706,
+      "item_id": 33827,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3092706,
+      "item_id": 33832,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3092706,
+      "item_id": 33830,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3092706,
+      "item_id": 10251,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3092706,
+      "item_id": 21,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3092707,
+      "item_id": 33828,
+      "successcount": 5,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3092707,
+      "item_id": 33789,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3092707,
+      "item_id": 16948,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3092707,
+      "item_id": 33792,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3092707,
+      "item_id": 13006,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3092707,
+      "item_id": 21,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    }
+  ],
+  "source_facts": [
+    {
+      "recipe_id": 3092669,
+      "name": "Copper Infused Energeiac Clay",
+      "source_name": "Copper Infused Energeiac Clay",
+      "output_item_id": 33827,
+      "trivial": 210,
+      "yield_count": 5,
+      "nofail": 0,
+      "ingredients": [
+        {
+          "name": "Pure Copper Ingot",
+          "item_id": 33788,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=27456"
+        },
+        {
+          "name": "Small Block of Magic Clay",
+          "item_id": 16948,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=4956"
+        },
+        {
+          "name": "Sunshard Pebble",
+          "item_id": 33791,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=27470"
+        },
+        {
+          "name": "Water Flask",
+          "item_id": 13006,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=1001"
+        }
+      ],
+      "also_returns": [],
+      "failure_returns": [],
+      "container_bagtype": 21,
+      "source_url": "https://www.eqtraders.com/recipes/pottery_recipe_page.php?article=407&rsa=Pottery&sub=tbs",
+      "min_expansion": 13,
+      "output_link_basis": "DIRECT_CAPTURED_OUTPUT_LINK",
+      "source_output_url": "https://www.eqtraders.com/items/show_item.php?item=27469&menustr="
+    },
+    {
+      "recipe_id": 3092670,
+      "name": "Iron Infused Energeiac Clay",
+      "source_name": "Iron Infused Energeiac Clay",
+      "output_item_id": 33826,
+      "trivial": 135,
+      "yield_count": 1,
+      "nofail": 0,
+      "ingredients": [
+        {
+          "name": "Iron Ingot",
+          "item_id": 33787,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=27455"
+        },
+        {
+          "name": "Small Block of Magic Clay",
+          "item_id": 16948,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=4956"
+        },
+        {
+          "name": "Sunshard Dust",
+          "item_id": 33790,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=27461"
+        },
+        {
+          "name": "Water Flask",
+          "item_id": 13006,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=1001"
+        }
+      ],
+      "also_returns": [],
+      "failure_returns": [],
+      "container_bagtype": 21,
+      "source_url": "https://www.eqtraders.com/recipes/pottery_recipe_page.php?article=407&rsa=Pottery&sub=tbs",
+      "min_expansion": 13,
+      "output_link_basis": "DIRECT_CAPTURED_OUTPUT_LINK",
+      "source_output_url": "https://www.eqtraders.com/items/show_item.php?item=27458&menustr="
+    },
+    {
+      "recipe_id": 3092671,
+      "name": "Sealed Dull Energeian Air Orb",
+      "source_name": "Sealed Dull Energeian Air Orb",
+      "output_item_id": 41929,
+      "trivial": 135,
+      "yield_count": 5,
+      "nofail": 0,
+      "ingredients": [
+        {
+          "name": "Distilled Essence of Air",
+          "item_id": 33835,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=27430"
+        },
+        {
+          "name": "Firing Sheet",
+          "item_id": 16906,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=1332"
+        },
+        {
+          "name": "Unfired Dull Energeian Air Orb",
+          "item_id": 33843,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=27468"
+        }
+      ],
+      "also_returns": [],
+      "failure_returns": [],
+      "container_bagtype": 22,
+      "source_url": "https://www.eqtraders.com/recipes/pottery_recipe_page.php?article=407&rsa=Pottery&sub=tbs",
+      "min_expansion": 13,
+      "output_link_basis": "DIRECT_CAPTURED_OUTPUT_LINK",
+      "source_output_url": "https://www.eqtraders.com/items/show_item.php?item=30365&menustr="
+    },
+    {
+      "recipe_id": 3092672,
+      "name": "Unfired Dull Energeian Air Orb",
+      "source_name": "Unfired Dull Energeian Air Orb",
+      "output_item_id": 33843,
+      "trivial": 170,
+      "yield_count": 1,
+      "nofail": 0,
+      "ingredients": [
+        {
+          "name": "Distilled Essence of Air",
+          "item_id": 33835,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=27430"
+        },
+        {
+          "name": "Dull Energeian Sketch",
+          "item_id": 33829,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=27435"
+        },
+        {
+          "name": "Iron Infused Energeiac Clay",
+          "item_id": 33826,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=27458"
+        },
+        {
+          "name": "Vial of Viscous Mana",
+          "item_id": 10250,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=1447"
+        }
+      ],
+      "also_returns": [],
+      "failure_returns": [],
+      "container_bagtype": 21,
+      "source_url": "https://www.eqtraders.com/recipes/pottery_recipe_page.php?article=407&rsa=Pottery&sub=tbs",
+      "min_expansion": 13,
+      "output_link_basis": "DIRECT_CAPTURED_OUTPUT_LINK",
+      "source_output_url": "https://www.eqtraders.com//items/show_item.php?item=27468"
+    },
+    {
+      "recipe_id": 3092673,
+      "name": "Sealed Dull Energeian Earth Orb",
+      "source_name": "Sealed Dull Energeian Earth Orb",
+      "output_item_id": 41928,
+      "trivial": 135,
+      "yield_count": 5,
+      "nofail": 0,
+      "ingredients": [
+        {
+          "name": "Distilled Essence of Earth",
+          "item_id": 33834,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=27429"
+        },
+        {
+          "name": "Firing Sheet",
+          "item_id": 16906,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=1332"
+        },
+        {
+          "name": "Unfired Dull Energeian Earth Orb",
+          "item_id": 33842,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=27467"
+        }
+      ],
+      "also_returns": [],
+      "failure_returns": [],
+      "container_bagtype": 22,
+      "source_url": "https://www.eqtraders.com/recipes/pottery_recipe_page.php?article=407&rsa=Pottery&sub=tbs",
+      "min_expansion": 13,
+      "output_link_basis": "DIRECT_CAPTURED_OUTPUT_LINK",
+      "source_output_url": "https://www.eqtraders.com/items/show_item.php?item=30366&menustr="
+    },
+    {
+      "recipe_id": 3092674,
+      "name": "Unfired Dull Energeian Earth Orb",
+      "source_name": "Unfired Dull Energeian Earth Orb",
+      "output_item_id": 33842,
+      "trivial": 170,
+      "yield_count": 1,
+      "nofail": 0,
+      "ingredients": [
+        {
+          "name": "Distilled Essence of Earth",
+          "item_id": 33834,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=27429"
+        },
+        {
+          "name": "Dull Energeian Sketch",
+          "item_id": 33829,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=27435"
+        },
+        {
+          "name": "Iron Infused Energeiac Clay",
+          "item_id": 33826,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=27458"
+        },
+        {
+          "name": "Vial of Viscous Mana",
+          "item_id": 10250,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=1447"
+        }
+      ],
+      "also_returns": [],
+      "failure_returns": [],
+      "container_bagtype": 21,
+      "source_url": "https://www.eqtraders.com/recipes/pottery_recipe_page.php?article=407&rsa=Pottery&sub=tbs",
+      "min_expansion": 13,
+      "output_link_basis": "DIRECT_CAPTURED_OUTPUT_LINK",
+      "source_output_url": "https://www.eqtraders.com//items/show_item.php?item=27467"
+    },
+    {
+      "recipe_id": 3092675,
+      "name": "Sealed Dull Energeian Fire Orb",
+      "source_name": "Sealed Dull Energeian Fire Orb",
+      "output_item_id": 41927,
+      "trivial": 135,
+      "yield_count": 5,
+      "nofail": 0,
+      "ingredients": [
+        {
+          "name": "Distilled Essence of Fire",
+          "item_id": 33833,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=27428"
+        },
+        {
+          "name": "Firing Sheet",
+          "item_id": 16906,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=1332"
+        },
+        {
+          "name": "Unfired Dull Energeian Fire Orb",
+          "item_id": 33841,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=27466"
+        }
+      ],
+      "also_returns": [],
+      "failure_returns": [],
+      "container_bagtype": 22,
+      "source_url": "https://www.eqtraders.com/recipes/pottery_recipe_page.php?article=407&rsa=Pottery&sub=tbs",
+      "min_expansion": 13,
+      "output_link_basis": "DIRECT_CAPTURED_OUTPUT_LINK",
+      "source_output_url": "https://www.eqtraders.com/items/show_item.php?item=30367&menustr="
+    },
+    {
+      "recipe_id": 3092676,
+      "name": "Unfired Dull Energeian Fire Orb",
+      "source_name": "Unfired Dull Energeian Fire Orb",
+      "output_item_id": 33841,
+      "trivial": 170,
+      "yield_count": 1,
+      "nofail": 0,
+      "ingredients": [
+        {
+          "name": "Distilled Essence of Fire",
+          "item_id": 33833,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=27428"
+        },
+        {
+          "name": "Dull Energeian Sketch",
+          "item_id": 33829,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=27435"
+        },
+        {
+          "name": "Iron Infused Energeiac Clay",
+          "item_id": 33826,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=27458"
+        },
+        {
+          "name": "Vial of Viscous Mana",
+          "item_id": 10250,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=1447"
+        }
+      ],
+      "also_returns": [],
+      "failure_returns": [],
+      "container_bagtype": 21,
+      "source_url": "https://www.eqtraders.com/recipes/pottery_recipe_page.php?article=407&rsa=Pottery&sub=tbs",
+      "min_expansion": 13,
+      "output_link_basis": "DIRECT_CAPTURED_OUTPUT_LINK",
+      "source_output_url": "https://www.eqtraders.com//items/show_item.php?item=27466"
+    },
+    {
+      "recipe_id": 3092677,
+      "name": "Sealed Dull Energeian Ice Orb",
+      "source_name": "Sealed Dull Energeian Ice Orb",
+      "output_item_id": 41926,
+      "trivial": 135,
+      "yield_count": 5,
+      "nofail": 0,
+      "ingredients": [
+        {
+          "name": "Distilled Essence of Ice",
+          "item_id": 33832,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=27427"
+        },
+        {
+          "name": "Firing Sheet",
+          "item_id": 16906,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=1332"
+        },
+        {
+          "name": "Unfired Dull Energeian Ice Orb",
+          "item_id": 33840,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=27459"
+        }
+      ],
+      "also_returns": [],
+      "failure_returns": [],
+      "container_bagtype": 22,
+      "source_url": "https://www.eqtraders.com/recipes/pottery_recipe_page.php?article=407&rsa=Pottery&sub=tbs",
+      "min_expansion": 13,
+      "output_link_basis": "DIRECT_CAPTURED_OUTPUT_LINK",
+      "source_output_url": "https://www.eqtraders.com/items/show_item.php?item=30368&menustr="
+    },
+    {
+      "recipe_id": 3092678,
+      "name": "Unfired Dull Energeian Ice Orb",
+      "source_name": "Unfired Dull Energeian Ice Orb",
+      "output_item_id": 33840,
+      "trivial": 170,
+      "yield_count": 1,
+      "nofail": 0,
+      "ingredients": [
+        {
+          "name": "Distilled Essence of Ice",
+          "item_id": 33832,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=27427"
+        },
+        {
+          "name": "Dull Energeian Sketch",
+          "item_id": 33829,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=27435"
+        },
+        {
+          "name": "Iron Infused Energeiac Clay",
+          "item_id": 33826,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=27458"
+        },
+        {
+          "name": "Vial of Viscous Mana",
+          "item_id": 10250,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=1447"
+        }
+      ],
+      "also_returns": [],
+      "failure_returns": [],
+      "container_bagtype": 21,
+      "source_url": "https://www.eqtraders.com/recipes/pottery_recipe_page.php?article=407&rsa=Pottery&sub=tbs",
+      "min_expansion": 13,
+      "output_link_basis": "DIRECT_CAPTURED_OUTPUT_LINK",
+      "source_output_url": "https://www.eqtraders.com//items/show_item.php?item=27459"
+    },
+    {
+      "recipe_id": 3092679,
+      "name": "Sealed Foggy Energeian Air Orb",
+      "source_name": "Sealed Foggy Energeian Air Orb",
+      "output_item_id": 41939,
+      "trivial": 250,
+      "yield_count": 5,
+      "nofail": 0,
+      "ingredients": [
+        {
+          "name": "Distilled Essence of Air",
+          "item_id": 33835,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=27430"
+        },
+        {
+          "name": "High Quality Firing Sheet",
+          "item_id": 16908,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=1333"
+        },
+        {
+          "name": "Unfired Foggy Energeian Air Orb",
+          "item_id": 33853,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=27582"
+        }
+      ],
+      "also_returns": [],
+      "failure_returns": [],
+      "container_bagtype": 22,
+      "source_url": "https://www.eqtraders.com/recipes/pottery_recipe_page.php?article=407&rsa=Pottery&sub=tbs",
+      "min_expansion": 13,
+      "output_link_basis": "DIRECT_CAPTURED_OUTPUT_LINK",
+      "source_output_url": "https://www.eqtraders.com/items/show_item.php?item=30369&menustr="
+    },
+    {
+      "recipe_id": 3092680,
+      "name": "Unfired Foggy Energeian Air Orb",
+      "source_name": "Unfired Foggy Energeian Air Orb",
+      "output_item_id": 33853,
+      "trivial": 290,
+      "yield_count": 1,
+      "nofail": 0,
+      "ingredients": [
+        {
+          "name": "Distilled Essence of Air",
+          "item_id": 33835,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=27430"
+        },
+        {
+          "name": "Foggy Energeian Sketch",
+          "item_id": 33831,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=27436"
+        },
+        {
+          "name": "Silver Infused Energeiac Clay",
+          "item_id": 33828,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=27595"
+        },
+        {
+          "name": "Vial of Clear Mana",
+          "item_id": 10252,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=1445"
+        }
+      ],
+      "also_returns": [],
+      "failure_returns": [],
+      "container_bagtype": 21,
+      "source_url": "https://www.eqtraders.com/recipes/pottery_recipe_page.php?article=407&rsa=Pottery&sub=tbs",
+      "min_expansion": 13,
+      "output_link_basis": "DIRECT_CAPTURED_OUTPUT_LINK",
+      "source_output_url": "https://www.eqtraders.com//items/show_item.php?item=27582"
+    },
+    {
+      "recipe_id": 3092681,
+      "name": "Sealed Foggy Energeian Decay Orb",
+      "source_name": "Sealed Foggy Energeian Decay Orb",
+      "output_item_id": 41941,
+      "trivial": 263,
+      "yield_count": 5,
+      "nofail": 0,
+      "ingredients": [
+        {
+          "name": "Distilled Essence of Decay",
+          "item_id": 33837,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=27432"
+        },
+        {
+          "name": "High Quality Firing Sheet",
+          "item_id": 16908,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=1333"
+        },
+        {
+          "name": "Unfired Foggy Energeian Decay Orb",
+          "item_id": 33855,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=27584"
+        }
+      ],
+      "also_returns": [],
+      "failure_returns": [],
+      "container_bagtype": 22,
+      "source_url": "https://www.eqtraders.com/recipes/pottery_recipe_page.php?article=407&rsa=Pottery&sub=tbs",
+      "min_expansion": 13,
+      "output_link_basis": "DIRECT_CAPTURED_OUTPUT_LINK",
+      "source_output_url": "https://www.eqtraders.com/items/show_item.php?item=30370&menustr="
+    },
+    {
+      "recipe_id": 3092682,
+      "name": "Unfired Foggy Energeian Decay Orb",
+      "source_name": "Unfired Foggy Energeian Decay Orb",
+      "output_item_id": 33855,
+      "trivial": 303,
+      "yield_count": 1,
+      "nofail": 0,
+      "ingredients": [
+        {
+          "name": "Distilled Essence of Decay",
+          "item_id": 33837,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=27432"
+        },
+        {
+          "name": "Foggy Energeian Sketch",
+          "item_id": 33831,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=27436"
+        },
+        {
+          "name": "Silver Infused Energeiac Clay",
+          "item_id": 33828,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=27595"
+        },
+        {
+          "name": "Vial of Clear Mana",
+          "item_id": 10252,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=1445"
+        }
+      ],
+      "also_returns": [],
+      "failure_returns": [],
+      "container_bagtype": 21,
+      "source_url": "https://www.eqtraders.com/recipes/pottery_recipe_page.php?article=407&rsa=Pottery&sub=tbs",
+      "min_expansion": 13,
+      "output_link_basis": "DIRECT_CAPTURED_OUTPUT_LINK",
+      "source_output_url": "https://www.eqtraders.com//items/show_item.php?item=27584"
+    },
+    {
+      "recipe_id": 3092683,
+      "name": "Sealed Foggy Energeian Disease Orb",
+      "source_name": "Sealed Foggy Energeian Disease Orb",
+      "output_item_id": 41943,
+      "trivial": 290,
+      "yield_count": 5,
+      "nofail": 0,
+      "ingredients": [
+        {
+          "name": "Distilled Essence of Disease",
+          "item_id": 33839,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=27434"
+        },
+        {
+          "name": "High Quality Firing Sheet",
+          "item_id": 16908,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=1333"
+        },
+        {
+          "name": "Unfired Foggy Energeian Disease Orb",
+          "item_id": 33857,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=27586"
+        }
+      ],
+      "also_returns": [],
+      "failure_returns": [],
+      "container_bagtype": 22,
+      "source_url": "https://www.eqtraders.com/recipes/pottery_recipe_page.php?article=407&rsa=Pottery&sub=tbs",
+      "min_expansion": 13,
+      "output_link_basis": "DIRECT_CAPTURED_OUTPUT_LINK",
+      "source_output_url": "https://www.eqtraders.com/items/show_item.php?item=30371&menustr="
+    },
+    {
+      "recipe_id": 3092684,
+      "name": "Unfired Foggy Energeian Disease Orb",
+      "source_name": "Unfired Foggy Energeian Disease Orb",
+      "output_item_id": 33857,
+      "trivial": 316,
+      "yield_count": 1,
+      "nofail": 0,
+      "ingredients": [
+        {
+          "name": "Distilled Essence of Disease",
+          "item_id": 33839,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=27434"
+        },
+        {
+          "name": "Foggy Energeian Sketch",
+          "item_id": 33831,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=27436"
+        },
+        {
+          "name": "Silver Infused Energeiac Clay",
+          "item_id": 33828,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=27595"
+        },
+        {
+          "name": "Vial of Clear Mana",
+          "item_id": 10252,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=1445"
+        }
+      ],
+      "also_returns": [],
+      "failure_returns": [],
+      "container_bagtype": 21,
+      "source_url": "https://www.eqtraders.com/recipes/pottery_recipe_page.php?article=407&rsa=Pottery&sub=tbs",
+      "min_expansion": 13,
+      "output_link_basis": "DIRECT_CAPTURED_OUTPUT_LINK",
+      "source_output_url": "https://www.eqtraders.com//items/show_item.php?item=27586"
+    },
+    {
+      "recipe_id": 3092685,
+      "name": "Sealed Foggy Energeian Earth Orb",
+      "source_name": "Sealed Foggy Energeian Earth Orb",
+      "output_item_id": 41938,
+      "trivial": 250,
+      "yield_count": 5,
+      "nofail": 0,
+      "ingredients": [
+        {
+          "name": "Distilled Essence of Earth",
+          "item_id": 33834,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=27429"
+        },
+        {
+          "name": "High Quality Firing Sheet",
+          "item_id": 16908,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=1333"
+        },
+        {
+          "name": "Unfired Foggy Energeian Earth Orb",
+          "item_id": 33852,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=27581"
+        }
+      ],
+      "also_returns": [],
+      "failure_returns": [],
+      "container_bagtype": 22,
+      "source_url": "https://www.eqtraders.com/recipes/pottery_recipe_page.php?article=407&rsa=Pottery&sub=tbs",
+      "min_expansion": 13,
+      "output_link_basis": "DIRECT_CAPTURED_OUTPUT_LINK",
+      "source_output_url": "https://www.eqtraders.com/items/show_item.php?item=30372&menustr="
+    },
+    {
+      "recipe_id": 3092686,
+      "name": "Unfired Foggy Energeian Earth Orb",
+      "source_name": "Unfired Foggy Energeian Earth Orb",
+      "output_item_id": 33852,
+      "trivial": 290,
+      "yield_count": 1,
+      "nofail": 0,
+      "ingredients": [
+        {
+          "name": "Distilled Essence of Earth",
+          "item_id": 33834,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=27429"
+        },
+        {
+          "name": "Foggy Energeian Sketch",
+          "item_id": 33831,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=27436"
+        },
+        {
+          "name": "Silver Infused Energeiac Clay",
+          "item_id": 33828,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=27595"
+        },
+        {
+          "name": "Vial of Clear Mana",
+          "item_id": 10252,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=1445"
+        }
+      ],
+      "also_returns": [],
+      "failure_returns": [],
+      "container_bagtype": 21,
+      "source_url": "https://www.eqtraders.com/recipes/pottery_recipe_page.php?article=407&rsa=Pottery&sub=tbs",
+      "min_expansion": 13,
+      "output_link_basis": "DIRECT_CAPTURED_OUTPUT_LINK",
+      "source_output_url": "https://www.eqtraders.com//items/show_item.php?item=27581"
+    },
+    {
+      "recipe_id": 3092687,
+      "name": "Sealed Foggy Energeian Fire Orb",
+      "source_name": "Sealed Foggy Energeian Fire Orb",
+      "output_item_id": 41937,
+      "trivial": 250,
+      "yield_count": 5,
+      "nofail": 0,
+      "ingredients": [
+        {
+          "name": "Distilled Essence of Fire",
+          "item_id": 33833,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=27428"
+        },
+        {
+          "name": "High Quality Firing Sheet",
+          "item_id": 16908,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=1333"
+        },
+        {
+          "name": "Unfired Foggy Energeian Fire Orb",
+          "item_id": 33851,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=27580"
+        }
+      ],
+      "also_returns": [],
+      "failure_returns": [],
+      "container_bagtype": 22,
+      "source_url": "https://www.eqtraders.com/recipes/pottery_recipe_page.php?article=407&rsa=Pottery&sub=tbs",
+      "min_expansion": 13,
+      "output_link_basis": "DIRECT_CAPTURED_OUTPUT_LINK",
+      "source_output_url": "https://www.eqtraders.com/items/show_item.php?item=30373&menustr="
+    },
+    {
+      "recipe_id": 3092688,
+      "name": "Unfired Foggy Energeian Fire Orb",
+      "source_name": "Unfired Foggy Energeian Fire Orb",
+      "output_item_id": 33851,
+      "trivial": 290,
+      "yield_count": 1,
+      "nofail": 0,
+      "ingredients": [
+        {
+          "name": "Distilled Essence of Fire",
+          "item_id": 33833,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=27428"
+        },
+        {
+          "name": "Foggy Energeian Sketch",
+          "item_id": 33831,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=27436"
+        },
+        {
+          "name": "Silver Infused Energeiac Clay",
+          "item_id": 33828,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=27595"
+        },
+        {
+          "name": "Vial of Clear Mana",
+          "item_id": 10252,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=1445"
+        }
+      ],
+      "also_returns": [],
+      "failure_returns": [],
+      "container_bagtype": 21,
+      "source_url": "https://www.eqtraders.com/recipes/pottery_recipe_page.php?article=407&rsa=Pottery&sub=tbs",
+      "min_expansion": 13,
+      "output_link_basis": "DIRECT_CAPTURED_OUTPUT_LINK",
+      "source_output_url": "https://www.eqtraders.com//items/show_item.php?item=27580"
+    },
+    {
+      "recipe_id": 3092689,
+      "name": "Sealed Foggy Energeian Growth Orb",
+      "source_name": "Sealed Foggy Energeian Growth Orb",
+      "output_item_id": 41940,
+      "trivial": 263,
+      "yield_count": 5,
+      "nofail": 0,
+      "ingredients": [
+        {
+          "name": "Distilled Essence of Growth",
+          "item_id": 33836,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=27431"
+        },
+        {
+          "name": "High Quality Firing Sheet",
+          "item_id": 16908,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=1333"
+        },
+        {
+          "name": "Unfired Foggy Energeian Growth Orb",
+          "item_id": 33854,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=27583"
+        }
+      ],
+      "also_returns": [],
+      "failure_returns": [],
+      "container_bagtype": 22,
+      "source_url": "https://www.eqtraders.com/recipes/pottery_recipe_page.php?article=407&rsa=Pottery&sub=tbs",
+      "min_expansion": 13,
+      "output_link_basis": "DIRECT_CAPTURED_OUTPUT_LINK",
+      "source_output_url": "https://www.eqtraders.com/items/show_item.php?item=30374&menustr="
+    },
+    {
+      "recipe_id": 3092690,
+      "name": "Unfired Foggy Energeian Growth Orb",
+      "source_name": "Unfired Foggy Energeian Growth Orb",
+      "output_item_id": 33854,
+      "trivial": 303,
+      "yield_count": 1,
+      "nofail": 0,
+      "ingredients": [
+        {
+          "name": "Distilled Essence of Growth",
+          "item_id": 33836,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=27431"
+        },
+        {
+          "name": "Foggy Energeian Sketch",
+          "item_id": 33831,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=27436"
+        },
+        {
+          "name": "Silver Infused Energeiac Clay",
+          "item_id": 33828,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=27595"
+        },
+        {
+          "name": "Vial of Clear Mana",
+          "item_id": 10252,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=1445"
+        }
+      ],
+      "also_returns": [],
+      "failure_returns": [],
+      "container_bagtype": 21,
+      "source_url": "https://www.eqtraders.com/recipes/pottery_recipe_page.php?article=407&rsa=Pottery&sub=tbs",
+      "min_expansion": 13,
+      "output_link_basis": "DIRECT_CAPTURED_OUTPUT_LINK",
+      "source_output_url": "https://www.eqtraders.com//items/show_item.php?item=27583"
+    },
+    {
+      "recipe_id": 3092691,
+      "name": "Sealed Foggy Energeian Ice Orb",
+      "source_name": "Sealed Foggy Energeian Ice Orb",
+      "output_item_id": 41936,
+      "trivial": 250,
+      "yield_count": 5,
+      "nofail": 0,
+      "ingredients": [
+        {
+          "name": "Distilled Essence of Ice",
+          "item_id": 33832,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=27427"
+        },
+        {
+          "name": "High Quality Firing Sheet",
+          "item_id": 16908,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=1333"
+        },
+        {
+          "name": "Unfired Foggy Energeian Ice Orb",
+          "item_id": 33850,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=27579"
+        }
+      ],
+      "also_returns": [],
+      "failure_returns": [],
+      "container_bagtype": 22,
+      "source_url": "https://www.eqtraders.com/recipes/pottery_recipe_page.php?article=407&rsa=Pottery&sub=tbs",
+      "min_expansion": 13,
+      "output_link_basis": "DIRECT_CAPTURED_OUTPUT_LINK",
+      "source_output_url": "https://www.eqtraders.com/items/show_item.php?item=30375&menustr="
+    },
+    {
+      "recipe_id": 3092692,
+      "name": "Unfired Foggy Energeian Ice Orb",
+      "source_name": "Unfired Foggy Energeian Ice Orb",
+      "output_item_id": 33850,
+      "trivial": 290,
+      "yield_count": 1,
+      "nofail": 0,
+      "ingredients": [
+        {
+          "name": "Distilled Essence of Ice",
+          "item_id": 33832,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=27427"
+        },
+        {
+          "name": "Foggy Energeian Sketch",
+          "item_id": 33831,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=27436"
+        },
+        {
+          "name": "Silver Infused Energeiac Clay",
+          "item_id": 33828,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=27595"
+        },
+        {
+          "name": "Vial of Clear Mana",
+          "item_id": 10252,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=1445"
+        }
+      ],
+      "also_returns": [],
+      "failure_returns": [],
+      "container_bagtype": 21,
+      "source_url": "https://www.eqtraders.com/recipes/pottery_recipe_page.php?article=407&rsa=Pottery&sub=tbs",
+      "min_expansion": 13,
+      "output_link_basis": "DIRECT_CAPTURED_OUTPUT_LINK",
+      "source_output_url": "https://www.eqtraders.com//items/show_item.php?item=27579"
+    },
+    {
+      "recipe_id": 3092693,
+      "name": "Sealed Foggy Energeian Poison Orb",
+      "source_name": "Sealed Foggy Energeian Poison Orb",
+      "output_item_id": 41942,
+      "trivial": 290,
+      "yield_count": 5,
+      "nofail": 0,
+      "ingredients": [
+        {
+          "name": "Distilled Essence of Poison",
+          "item_id": 33838,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=27433"
+        },
+        {
+          "name": "High Quality Firing Sheet",
+          "item_id": 16908,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=1333"
+        },
+        {
+          "name": "Unfired Foggy Energeian Poison Orb",
+          "item_id": 33856,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=27585"
+        }
+      ],
+      "also_returns": [],
+      "failure_returns": [],
+      "container_bagtype": 22,
+      "source_url": "https://www.eqtraders.com/recipes/pottery_recipe_page.php?article=407&rsa=Pottery&sub=tbs",
+      "min_expansion": 13,
+      "output_link_basis": "DIRECT_CAPTURED_OUTPUT_LINK",
+      "source_output_url": "https://www.eqtraders.com/items/show_item.php?item=30376&menustr="
+    },
+    {
+      "recipe_id": 3092694,
+      "name": "Unfired Foggy Energeian Poison Orb",
+      "source_name": "Unfired Foggy Energeian Poison Orb",
+      "output_item_id": 33856,
+      "trivial": 316,
+      "yield_count": 1,
+      "nofail": 0,
+      "ingredients": [
+        {
+          "name": "Distilled Essence of Poison",
+          "item_id": 33838,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=27433"
+        },
+        {
+          "name": "Foggy Energeian Sketch",
+          "item_id": 33831,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=27436"
+        },
+        {
+          "name": "Silver Infused Energeiac Clay",
+          "item_id": 33828,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=27595"
+        },
+        {
+          "name": "Vial of Clear Mana",
+          "item_id": 10252,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=1445"
+        }
+      ],
+      "also_returns": [],
+      "failure_returns": [],
+      "container_bagtype": 21,
+      "source_url": "https://www.eqtraders.com/recipes/pottery_recipe_page.php?article=407&rsa=Pottery&sub=tbs",
+      "min_expansion": 13,
+      "output_link_basis": "DIRECT_CAPTURED_OUTPUT_LINK",
+      "source_output_url": "https://www.eqtraders.com//items/show_item.php?item=27585"
+    },
+    {
+      "recipe_id": 3092695,
+      "name": "Sealed Murky Energeian Air Orb",
+      "source_name": "Sealed Murky Energeian Air Orb",
+      "output_item_id": 41933,
+      "trivial": 210,
+      "yield_count": 5,
+      "nofail": 0,
+      "ingredients": [
+        {
+          "name": "Distilled Essence of Air",
+          "item_id": 33835,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=27430"
+        },
+        {
+          "name": "Quality Firing Sheet",
+          "item_id": 16907,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=1334"
+        },
+        {
+          "name": "Unfired Murky Energeian Air Orb",
+          "item_id": 33847,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=27653"
+        }
+      ],
+      "also_returns": [],
+      "failure_returns": [],
+      "container_bagtype": 22,
+      "source_url": "https://www.eqtraders.com/recipes/pottery_recipe_page.php?article=407&rsa=Pottery&sub=tbs",
+      "min_expansion": 13,
+      "output_link_basis": "DIRECT_CAPTURED_OUTPUT_LINK",
+      "source_output_url": "https://www.eqtraders.com/items/show_item.php?item=30377&menustr="
+    },
+    {
+      "recipe_id": 3092696,
+      "name": "Unfired Murky Energeian Air Orb",
+      "source_name": "Unfired Murky Energeian Air Orb",
+      "output_item_id": 33847,
+      "trivial": 250,
+      "yield_count": 1,
+      "nofail": 0,
+      "ingredients": [
+        {
+          "name": "Copper Infused Energeiac Clay",
+          "item_id": 33827,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=27469"
+        },
+        {
+          "name": "Distilled Essence of Air",
+          "item_id": 33835,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=27430"
+        },
+        {
+          "name": "Murky Energeian Sketch",
+          "item_id": 33830,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=27437"
+        },
+        {
+          "name": "Vial of Cloudy Mana",
+          "item_id": 10251,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=4950"
+        }
+      ],
+      "also_returns": [],
+      "failure_returns": [],
+      "container_bagtype": 21,
+      "source_url": "https://www.eqtraders.com/recipes/pottery_recipe_page.php?article=407&rsa=Pottery&sub=tbs",
+      "min_expansion": 13,
+      "output_link_basis": "DIRECT_CAPTURED_OUTPUT_LINK",
+      "source_output_url": "https://www.eqtraders.com//items/show_item.php?item=27653"
+    },
+    {
+      "recipe_id": 3092697,
+      "name": "Sealed Murky Energeian Decay Orb",
+      "source_name": "Sealed Murky Energeian Decay Orb",
+      "output_item_id": 41935,
+      "trivial": 223,
+      "yield_count": 5,
+      "nofail": 0,
+      "ingredients": [
+        {
+          "name": "Distilled Essence of Decay",
+          "item_id": 33837,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=27432"
+        },
+        {
+          "name": "Quality Firing Sheet",
+          "item_id": 16907,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=1334"
+        },
+        {
+          "name": "Unfired Murky Energeian Decay Orb",
+          "item_id": 33849,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=27473"
+        }
+      ],
+      "also_returns": [],
+      "failure_returns": [],
+      "container_bagtype": 22,
+      "source_url": "https://www.eqtraders.com/recipes/pottery_recipe_page.php?article=407&rsa=Pottery&sub=tbs",
+      "min_expansion": 13,
+      "output_link_basis": "DIRECT_CAPTURED_OUTPUT_LINK",
+      "source_output_url": "https://www.eqtraders.com/items/show_item.php?item=30378&menustr="
+    },
+    {
+      "recipe_id": 3092698,
+      "name": "Unfired Murky Energeian Decay Orb",
+      "source_name": "Unfired Murky Energeian Decay Orb",
+      "output_item_id": 33849,
+      "trivial": 263,
+      "yield_count": 1,
+      "nofail": 0,
+      "ingredients": [
+        {
+          "name": "Copper Infused Energeiac Clay",
+          "item_id": 33827,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=27469"
+        },
+        {
+          "name": "Distilled Essence of Decay",
+          "item_id": 33837,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=27432"
+        },
+        {
+          "name": "Murky Energeian Sketch",
+          "item_id": 33830,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=27437"
+        },
+        {
+          "name": "Vial of Cloudy Mana",
+          "item_id": 10251,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=4950"
+        }
+      ],
+      "also_returns": [],
+      "failure_returns": [],
+      "container_bagtype": 21,
+      "source_url": "https://www.eqtraders.com/recipes/pottery_recipe_page.php?article=407&rsa=Pottery&sub=tbs",
+      "min_expansion": 13,
+      "output_link_basis": "DIRECT_CAPTURED_OUTPUT_LINK",
+      "source_output_url": "https://www.eqtraders.com//items/show_item.php?item=27473"
+    },
+    {
+      "recipe_id": 3092699,
+      "name": "Sealed Murky Energeian Earth Orb",
+      "source_name": "Sealed Murky Energeian Earth Orb",
+      "output_item_id": 41932,
+      "trivial": 210,
+      "yield_count": 5,
+      "nofail": 0,
+      "ingredients": [
+        {
+          "name": "Distilled Essence of Earth",
+          "item_id": 33834,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=27429"
+        },
+        {
+          "name": "Quality Firing Sheet",
+          "item_id": 16907,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=1334"
+        },
+        {
+          "name": "Unfired Murky Energeian Earth Orb",
+          "item_id": 33846,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=27652"
+        }
+      ],
+      "also_returns": [],
+      "failure_returns": [],
+      "container_bagtype": 22,
+      "source_url": "https://www.eqtraders.com/recipes/pottery_recipe_page.php?article=407&rsa=Pottery&sub=tbs",
+      "min_expansion": 13,
+      "output_link_basis": "DIRECT_CAPTURED_OUTPUT_LINK",
+      "source_output_url": "https://www.eqtraders.com/items/show_item.php?item=30379&menustr="
+    },
+    {
+      "recipe_id": 3092700,
+      "name": "Unfired Murky Energeian Earth Orb",
+      "source_name": "Unfired Murky Energeian Earth Orb",
+      "output_item_id": 33846,
+      "trivial": 250,
+      "yield_count": 1,
+      "nofail": 0,
+      "ingredients": [
+        {
+          "name": "Copper Infused Energeiac Clay",
+          "item_id": 33827,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=27469"
+        },
+        {
+          "name": "Distilled Essence of Earth",
+          "item_id": 33834,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=27429"
+        },
+        {
+          "name": "Murky Energeian Sketch",
+          "item_id": 33830,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=27437"
+        },
+        {
+          "name": "Vial of Cloudy Mana",
+          "item_id": 10251,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=4950"
+        }
+      ],
+      "also_returns": [],
+      "failure_returns": [],
+      "container_bagtype": 21,
+      "source_url": "https://www.eqtraders.com/recipes/pottery_recipe_page.php?article=407&rsa=Pottery&sub=tbs",
+      "min_expansion": 13,
+      "output_link_basis": "DIRECT_CAPTURED_OUTPUT_LINK",
+      "source_output_url": "https://www.eqtraders.com//items/show_item.php?item=27652"
+    },
+    {
+      "recipe_id": 3092701,
+      "name": "Sealed Murky Energeian Fire Orb",
+      "source_name": "Sealed Murky Energeian Fire Orb",
+      "output_item_id": 41931,
+      "trivial": 210,
+      "yield_count": 5,
+      "nofail": 0,
+      "ingredients": [
+        {
+          "name": "Distilled Essence of Fire",
+          "item_id": 33833,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=27428"
+        },
+        {
+          "name": "Quality Firing Sheet",
+          "item_id": 16907,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=1334"
+        },
+        {
+          "name": "Unfired Murky Energeian Fire Orb",
+          "item_id": 33845,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=27658"
+        }
+      ],
+      "also_returns": [],
+      "failure_returns": [],
+      "container_bagtype": 22,
+      "source_url": "https://www.eqtraders.com/recipes/pottery_recipe_page.php?article=407&rsa=Pottery&sub=tbs",
+      "min_expansion": 13,
+      "output_link_basis": "DIRECT_CAPTURED_OUTPUT_LINK",
+      "source_output_url": "https://www.eqtraders.com/items/show_item.php?item=30380&menustr="
+    },
+    {
+      "recipe_id": 3092702,
+      "name": "Unfired Murky Energeian Fire Orb",
+      "source_name": "Unfired Murky Energeian Fire Orb",
+      "output_item_id": 33845,
+      "trivial": 250,
+      "yield_count": 1,
+      "nofail": 0,
+      "ingredients": [
+        {
+          "name": "Copper Infused Energeiac Clay",
+          "item_id": 33827,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=27469"
+        },
+        {
+          "name": "Distilled Essence of Fire",
+          "item_id": 33833,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=27428"
+        },
+        {
+          "name": "Murky Energeian Sketch",
+          "item_id": 33830,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=27437"
+        },
+        {
+          "name": "Vial of Cloudy Mana",
+          "item_id": 10251,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=4950"
+        }
+      ],
+      "also_returns": [],
+      "failure_returns": [],
+      "container_bagtype": 21,
+      "source_url": "https://www.eqtraders.com/recipes/pottery_recipe_page.php?article=407&rsa=Pottery&sub=tbs",
+      "min_expansion": 13,
+      "output_link_basis": "DIRECT_CAPTURED_OUTPUT_LINK",
+      "source_output_url": "https://www.eqtraders.com//items/show_item.php?item=27658"
+    },
+    {
+      "recipe_id": 3092703,
+      "name": "Sealed Murky Energeian Growth Orb",
+      "source_name": "Sealed Murky Energeian Growth Orb",
+      "output_item_id": 41934,
+      "trivial": 223,
+      "yield_count": 5,
+      "nofail": 0,
+      "ingredients": [
+        {
+          "name": "Distilled Essence of Growth",
+          "item_id": 33836,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=27431"
+        },
+        {
+          "name": "Quality Firing Sheet",
+          "item_id": 16907,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=1334"
+        },
+        {
+          "name": "Unfired Murky Energeian Growth Orb",
+          "item_id": 33848,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=27472"
+        }
+      ],
+      "also_returns": [],
+      "failure_returns": [],
+      "container_bagtype": 22,
+      "source_url": "https://www.eqtraders.com/recipes/pottery_recipe_page.php?article=407&rsa=Pottery&sub=tbs",
+      "min_expansion": 13,
+      "output_link_basis": "DIRECT_CAPTURED_OUTPUT_LINK",
+      "source_output_url": "https://www.eqtraders.com/items/show_item.php?item=30381&menustr="
+    },
+    {
+      "recipe_id": 3092704,
+      "name": "Unfired Murky Energeian Growth Orb",
+      "source_name": "Unfired Murky Energeian Growth Orb",
+      "output_item_id": 33848,
+      "trivial": 263,
+      "yield_count": 1,
+      "nofail": 0,
+      "ingredients": [
+        {
+          "name": "Copper Infused Energeiac Clay",
+          "item_id": 33827,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=27469"
+        },
+        {
+          "name": "Distilled Essence of Growth",
+          "item_id": 33836,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=27431"
+        },
+        {
+          "name": "Murky Energeian Sketch",
+          "item_id": 33830,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=27437"
+        },
+        {
+          "name": "Vial of Cloudy Mana",
+          "item_id": 10251,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=4950"
+        }
+      ],
+      "also_returns": [],
+      "failure_returns": [],
+      "container_bagtype": 21,
+      "source_url": "https://www.eqtraders.com/recipes/pottery_recipe_page.php?article=407&rsa=Pottery&sub=tbs",
+      "min_expansion": 13,
+      "output_link_basis": "DIRECT_CAPTURED_OUTPUT_LINK",
+      "source_output_url": "https://www.eqtraders.com//items/show_item.php?item=27472"
+    },
+    {
+      "recipe_id": 3092705,
+      "name": "Sealed Murky Energeian Ice Orb",
+      "source_name": "Sealed Murky Energeian Ice Orb",
+      "output_item_id": 41930,
+      "trivial": 210,
+      "yield_count": 5,
+      "nofail": 0,
+      "ingredients": [
+        {
+          "name": "Distilled Essence of Ice",
+          "item_id": 33832,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=27427"
+        },
+        {
+          "name": "Quality Firing Sheet",
+          "item_id": 16907,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=1334"
+        },
+        {
+          "name": "Unfired Murky Energeian Ice Orb",
+          "item_id": 33844,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=27471"
+        }
+      ],
+      "also_returns": [],
+      "failure_returns": [],
+      "container_bagtype": 22,
+      "source_url": "https://www.eqtraders.com/recipes/pottery_recipe_page.php?article=407&rsa=Pottery&sub=tbs",
+      "min_expansion": 13,
+      "output_link_basis": "DIRECT_CAPTURED_OUTPUT_LINK",
+      "source_output_url": "https://www.eqtraders.com/items/show_item.php?item=30382&menustr="
+    },
+    {
+      "recipe_id": 3092706,
+      "name": "Unfired Murky Energeian Ice Orb",
+      "source_name": "Unfired Murky Energeian Ice Orb",
+      "output_item_id": 33844,
+      "trivial": 250,
+      "yield_count": 1,
+      "nofail": 0,
+      "ingredients": [
+        {
+          "name": "Copper Infused Energeiac Clay",
+          "item_id": 33827,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=27469"
+        },
+        {
+          "name": "Distilled Essence of Ice",
+          "item_id": 33832,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=27427"
+        },
+        {
+          "name": "Murky Energeian Sketch",
+          "item_id": 33830,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=27437"
+        },
+        {
+          "name": "Vial of Cloudy Mana",
+          "item_id": 10251,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=4950"
+        }
+      ],
+      "also_returns": [],
+      "failure_returns": [],
+      "container_bagtype": 21,
+      "source_url": "https://www.eqtraders.com/recipes/pottery_recipe_page.php?article=407&rsa=Pottery&sub=tbs",
+      "min_expansion": 13,
+      "output_link_basis": "DIRECT_CAPTURED_OUTPUT_LINK",
+      "source_output_url": "https://www.eqtraders.com//items/show_item.php?item=27471"
+    },
+    {
+      "recipe_id": 3092707,
+      "name": "Silver Infused Energeiac Clay",
+      "source_name": "Silver Infused Energeiac Clay",
+      "output_item_id": 33828,
+      "trivial": 290,
+      "yield_count": 5,
+      "nofail": 0,
+      "ingredients": [
+        {
+          "name": "Pure Silver Ingot",
+          "item_id": 33789,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=27457"
+        },
+        {
+          "name": "Small Block of Magic Clay",
+          "item_id": 16948,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=4956"
+        },
+        {
+          "name": "Sunshard Ore",
+          "item_id": 33792,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=27483"
+        },
+        {
+          "name": "Water Flask",
+          "item_id": 13006,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=1001"
+        }
+      ],
+      "also_returns": [],
+      "failure_returns": [],
+      "container_bagtype": 21,
+      "source_url": "https://www.eqtraders.com/recipes/pottery_recipe_page.php?article=407&rsa=Pottery&sub=tbs",
+      "min_expansion": 13,
+      "output_link_basis": "DIRECT_CAPTURED_OUTPUT_LINK",
+      "source_output_url": "https://www.eqtraders.com/items/show_item.php?item=27595&menustr="
+    }
+  ],
+  "item_dependencies": [
+    {
+      "id": 10250,
+      "name": "Vial of Viscous Mana"
+    },
+    {
+      "id": 10251,
+      "name": "Vial of Cloudy Mana"
+    },
+    {
+      "id": 10252,
+      "name": "Vial of Clear Mana"
+    },
+    {
+      "id": 13006,
+      "name": "Water Flask"
+    },
+    {
+      "id": 16906,
+      "name": "Firing Sheet"
+    },
+    {
+      "id": 16907,
+      "name": "Quality Firing Sheet"
+    },
+    {
+      "id": 16908,
+      "name": "High Quality Firing Sheet"
+    },
+    {
+      "id": 16948,
+      "name": "Small Block of Magic Clay"
+    },
+    {
+      "id": 33787,
+      "name": "Iron Ingot"
+    },
+    {
+      "id": 33788,
+      "name": "Pure Copper Ingot"
+    },
+    {
+      "id": 33789,
+      "name": "Pure Silver Ingot"
+    },
+    {
+      "id": 33790,
+      "name": "Sunshard Dust"
+    },
+    {
+      "id": 33791,
+      "name": "Sunshard Pebble"
+    },
+    {
+      "id": 33792,
+      "name": "Sunshard Ore"
+    },
+    {
+      "id": 33826,
+      "name": "Iron Infused Energeiac Clay"
+    },
+    {
+      "id": 33827,
+      "name": "Copper Infused Energeiac Clay"
+    },
+    {
+      "id": 33828,
+      "name": "Silver Infused Energeiac Clay"
+    },
+    {
+      "id": 33829,
+      "name": "Dull Energeian Sketch"
+    },
+    {
+      "id": 33830,
+      "name": "Murky Energeian Sketch"
+    },
+    {
+      "id": 33831,
+      "name": "Foggy Energeian Sketch"
+    },
+    {
+      "id": 33832,
+      "name": "Distilled Essence of Ice"
+    },
+    {
+      "id": 33833,
+      "name": "Distilled Essence of Fire"
+    },
+    {
+      "id": 33834,
+      "name": "Distilled Essence of Earth"
+    },
+    {
+      "id": 33835,
+      "name": "Distilled Essence of Air"
+    },
+    {
+      "id": 33836,
+      "name": "Distilled Essence of Growth"
+    },
+    {
+      "id": 33837,
+      "name": "Distilled Essence of Decay"
+    },
+    {
+      "id": 33838,
+      "name": "Distilled Essence of Poison"
+    },
+    {
+      "id": 33839,
+      "name": "Distilled Essence of Disease"
+    },
+    {
+      "id": 33840,
+      "name": "Unfired Dull Energeian Ice Orb"
+    },
+    {
+      "id": 33841,
+      "name": "Unfired Dull Energeian Fire Orb"
+    },
+    {
+      "id": 33842,
+      "name": "Unfired Dull Energeian Earth Orb"
+    },
+    {
+      "id": 33843,
+      "name": "Unfired Dull Energeian Air Orb"
+    },
+    {
+      "id": 33844,
+      "name": "Unfired Murky Energeian Ice Orb"
+    },
+    {
+      "id": 33845,
+      "name": "Unfired Murky Energeian Fire Orb"
+    },
+    {
+      "id": 33846,
+      "name": "Unfired Murky Energeian Earth Orb"
+    },
+    {
+      "id": 33847,
+      "name": "Unfired Murky Energeian Air Orb"
+    },
+    {
+      "id": 33848,
+      "name": "Unfired Murky Energeian Growth Orb"
+    },
+    {
+      "id": 33849,
+      "name": "Unfired Murky Energeian Decay Orb"
+    },
+    {
+      "id": 33850,
+      "name": "Unfired Foggy Energeian Ice Orb"
+    },
+    {
+      "id": 33851,
+      "name": "Unfired Foggy Energeian Fire Orb"
+    },
+    {
+      "id": 33852,
+      "name": "Unfired Foggy Energeian Earth Orb"
+    },
+    {
+      "id": 33853,
+      "name": "Unfired Foggy Energeian Air Orb"
+    },
+    {
+      "id": 33854,
+      "name": "Unfired Foggy Energeian Growth Orb"
+    },
+    {
+      "id": 33855,
+      "name": "Unfired Foggy Energeian Decay Orb"
+    },
+    {
+      "id": 33856,
+      "name": "Unfired Foggy Energeian Poison Orb"
+    },
+    {
+      "id": 33857,
+      "name": "Unfired Foggy Energeian Disease Orb"
+    },
+    {
+      "id": 41926,
+      "name": "Sealed Dull Energeian Ice Orb"
+    },
+    {
+      "id": 41927,
+      "name": "Sealed Dull Energeian Fire Orb"
+    },
+    {
+      "id": 41928,
+      "name": "Sealed Dull Energeian Earth Orb"
+    },
+    {
+      "id": 41929,
+      "name": "Sealed Dull Energeian Air Orb"
+    },
+    {
+      "id": 41930,
+      "name": "Sealed Murky Energeian Ice Orb"
+    },
+    {
+      "id": 41931,
+      "name": "Sealed Murky Energeian Fire Orb"
+    },
+    {
+      "id": 41932,
+      "name": "Sealed Murky Energeian Earth Orb"
+    },
+    {
+      "id": 41933,
+      "name": "Sealed Murky Energeian Air Orb"
+    },
+    {
+      "id": 41934,
+      "name": "Sealed Murky Energeian Growth Orb"
+    },
+    {
+      "id": 41935,
+      "name": "Sealed Murky Energeian Decay Orb"
+    },
+    {
+      "id": 41936,
+      "name": "Sealed Foggy Energeian Ice Orb"
+    },
+    {
+      "id": 41937,
+      "name": "Sealed Foggy Energeian Fire Orb"
+    },
+    {
+      "id": 41938,
+      "name": "Sealed Foggy Energeian Earth Orb"
+    },
+    {
+      "id": 41939,
+      "name": "Sealed Foggy Energeian Air Orb"
+    },
+    {
+      "id": 41940,
+      "name": "Sealed Foggy Energeian Growth Orb"
+    },
+    {
+      "id": 41941,
+      "name": "Sealed Foggy Energeian Decay Orb"
+    },
+    {
+      "id": 41942,
+      "name": "Sealed Foggy Energeian Poison Orb"
+    },
+    {
+      "id": 41943,
+      "name": "Sealed Foggy Energeian Disease Orb"
+    },
+    {
+      "id": 54254,
+      "name": "Kiln"
+    },
+    {
+      "id": 54257,
+      "name": "Pottery Wheel"
+    }
+  ],
+  "excluded_missing_item_rows": [],
+  "restriction_review": {
+    "learning": "No mandatory scribe, explicit minimum, class/race or quest-only restriction in selected source.",
+    "containers": "Wheel21/Kiln22; native54257/54254ten-slot anchors unchanged.",
+    "identity": "All64primary native refs present; blank unfired output cells resolve only exact same-name links in paired firing rows. Current all-skill output/name queries empty.",
+    "era": "MaintainedTBS13taxonomy estimate, not immutable May2013/native evidence.",
+    "yields": "Source yields preserved, including Copper/Silver clay5 vs Iron clay1 and sealed orbs5; no power-source stats/charges changes.",
+    "native_combine": false
+  }
+}
