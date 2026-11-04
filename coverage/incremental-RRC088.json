@@ -1,0 +1,39 @@
+{
+  "format_version": 1,
+  "batch": "RRC088",
+  "source_commit": "ff03b8d9f97f9b31caa30733b29958583db35839",
+  "source_sha256": "e94aedf95ec3f84da6665c7a58aec1dd366b99c4e92f5c0c7ce5c2dd80cbf42a",
+  "application_status": "APPLIED_VERIFIED",
+  "recipes_added": 110,
+  "entries_added": 843,
+  "recipe_ids": [
+    3093785,
+    3093894
+  ],
+  "preserved_existing_prototypes": {
+    "definitions": 13,
+    "entries": 102
+  },
+  "preserved_RRC072_subset": {
+    "definitions": 5,
+    "logical_entries": 68
+  },
+  "learned_references": "Preserved per owner/coordinator receipt; no new scan.",
+  "TS_cumulative_added_through088": {
+    "recipes": 2894,
+    "entries": 16328
+  },
+  "separate_Xorbb_recipe_excluded": {
+    "recipes": 1,
+    "entries": 6
+  },
+  "held_batch": "RRC014",
+  "prior_closed_normal_SQL_path_cutoff": 410,
+  "new_normal_SQL_paths": 2,
+  "normal_SQL_paths_after_followup": 412,
+  "Scent_candidate_SQL": "Two .sql.disabled files remain separate, unexecuted/unparsed/not applied.",
+  "temporary_QA39999": "Separate QA operation excluded from production source packet/snapshot.",
+  "SQL_path_count_meaning": "Paths include apply/rollback pairs and readback SQL; not412 applications.",
+  "assembly": "Additive source/receipt packaging only; no database query/replay/rescan/tests/runtime writes or old catalog/archive changes.",
+  "full_content_snapshot_or_universal_upgrade": false
+}
