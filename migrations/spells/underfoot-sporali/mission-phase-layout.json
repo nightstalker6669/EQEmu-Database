@@ -1,0 +1,212 @@
+{
+  "status": "DISABLED_SOURCE_GRAPH_CONFIGURABLE_LOCAL_OPEN_TERMINAL",
+  "task_id": 920140,
+  "zone": 485,
+  "version": 1,
+  "dynamic_zone_template": 920140,
+  "activities": [
+    {
+      "activity_id": 0,
+      "kind": "hail",
+      "role": "grazden",
+      "count": 1,
+      "native_item_id": null,
+      "step": 0,
+      "goal_method": "METHODQUEST"
+    },
+    {
+      "activity_id": 1,
+      "kind": "explore",
+      "role": "west_farm",
+      "count": 1,
+      "native_item_id": null,
+      "step": 1,
+      "goal_method": "native_explore"
+    },
+    {
+      "activity_id": 2,
+      "kind": "kill",
+      "role": "west_guard",
+      "count": 4,
+      "native_item_id": null,
+      "step": 2,
+      "goal_method": "METHODQUEST"
+    },
+    {
+      "activity_id": 3,
+      "kind": "loot",
+      "role": "extract_chest",
+      "count": 3,
+      "native_item_id": 41310,
+      "step": 2,
+      "goal_method": "native_loot"
+    },
+    {
+      "activity_id": 4,
+      "kind": "kill",
+      "role": "kerod",
+      "count": 1,
+      "native_item_id": null,
+      "step": 2,
+      "goal_method": "METHODQUEST"
+    },
+    {
+      "activity_id": 5,
+      "kind": "kill",
+      "role": "dek",
+      "count": 1,
+      "native_item_id": null,
+      "step": 2,
+      "goal_method": "METHODQUEST"
+    },
+    {
+      "activity_id": 6,
+      "kind": "kill",
+      "role": "koryx",
+      "count": 1,
+      "native_item_id": null,
+      "step": 2,
+      "goal_method": "METHODQUEST"
+    },
+    {
+      "activity_id": 7,
+      "kind": "deliver",
+      "role": "grazden",
+      "count": 3,
+      "native_item_id": 41310,
+      "step": 3,
+      "goal_method": "native_delivery"
+    },
+    {
+      "activity_id": 8,
+      "kind": "hail",
+      "role": "grazden",
+      "count": 1,
+      "native_item_id": null,
+      "step": 4,
+      "goal_method": "METHODQUEST"
+    },
+    {
+      "activity_id": 9,
+      "kind": "hail",
+      "role": "grazden",
+      "count": 1,
+      "native_item_id": null,
+      "step": 5,
+      "goal_method": "METHODQUEST"
+    },
+    {
+      "activity_id": 10,
+      "kind": "explore",
+      "role": "east_farm",
+      "count": 1,
+      "native_item_id": null,
+      "step": 6,
+      "goal_method": "native_explore"
+    },
+    {
+      "activity_id": 11,
+      "kind": "kill",
+      "role": "east_guard",
+      "count": 4,
+      "native_item_id": null,
+      "step": 7,
+      "goal_method": "METHODQUEST"
+    },
+    {
+      "activity_id": 12,
+      "kind": "loot",
+      "role": "compound_chest",
+      "count": 1,
+      "native_item_id": 41311,
+      "step": 7,
+      "goal_method": "native_loot"
+    },
+    {
+      "activity_id": 13,
+      "kind": "kill",
+      "role": "kikivin",
+      "count": 1,
+      "native_item_id": null,
+      "step": 7,
+      "goal_method": "METHODQUEST"
+    },
+    {
+      "activity_id": 14,
+      "kind": "kill",
+      "role": "rotak",
+      "count": 1,
+      "native_item_id": null,
+      "step": 7,
+      "goal_method": "METHODQUEST"
+    },
+    {
+      "activity_id": 15,
+      "kind": "kill",
+      "role": "thaurnek",
+      "count": 1,
+      "native_item_id": null,
+      "step": 7,
+      "goal_method": "METHODQUEST"
+    },
+    {
+      "activity_id": 16,
+      "kind": "deliver",
+      "role": "grazden",
+      "count": 1,
+      "native_item_id": 41311,
+      "step": 8,
+      "goal_method": "native_delivery"
+    },
+    {
+      "activity_id": 17,
+      "kind": "hail",
+      "role": "grazden",
+      "count": 1,
+      "native_item_id": null,
+      "step": 9,
+      "goal_method": "METHODQUEST"
+    },
+    {
+      "activity_id": 18,
+      "kind": "claim_reward",
+      "role": "reward_chest",
+      "count": 1,
+      "native_item_id": null,
+      "step": 10,
+      "goal_method": "METHODQUEST",
+      "description_local": "Report to Grogald and claim the reward",
+      "original_text_qualification": "Existingfinalgoalordinal18 retained; localcombinedterminaldescription, not recoveredoriginalopen-vs-hailtext."
+    }
+  ],
+  "candidate_native_lock_activity_id": 16,
+  "lock_reason": "Delivery16 becomesactiveaftercompleteeaststep7(guards+3named+Compoundloot), allorders. No manual lockconsumer.",
+  "terminal": {
+    "activity_id": 18,
+    "kind": "native_open",
+    "configurable_local_choice": true,
+    "original_interaction_unknown": true,
+    "authorization": "JARVIS explicitlabelled-defaultpolicy Nov4; chooseopenunlessperiodsourcecontradicts",
+    "grogald_hail_completes": false,
+    "extra_activity_added": false,
+    "native_open_signature": {
+      "damage": 0,
+      "skill_id": 28,
+      "spell_valid": false
+    },
+    "attribution": "Exactownedclass62spawn+current485v1instance+actualsharedoccurrencestring/member+activefinalphase;captureopenerbeforedeathandmatchoriginalentity/killerindeathcomplete.",
+    "GM_force_caveat": "EquivalentforcedDeathsignature cannotalone provea nativepacket; actualnative/openinteraction/acceptance remains tester-owned."
+  },
+  "chest_lifecycle": {
+    "reward_chest_role": "reward_chest",
+    "native_npc": 485911,
+    "reserved_spawn_role": 304053020,
+    "activation_point_candidate": "ValidatedGrogaldstagebeforeactualterminalcompletion",
+    "spawn_condition_id": null,
+    "condition_not_reserved": true,
+    "never_replay_completed_history": true,
+    "do_not_gate_east_component_open_on_named_kills": true
+  },
+  "actor_ownership": "ExactreservedspawnID+roleNPC+nativeactiveinstance/occurrencestring, oneowneddeath->onenativememberincrement, no per-memberloop/actualGroupID.",
+  "currency_and_spell_rewards": "Separateoriginal6classscrolls+common26tokens; nineentryallocationrequestpendingroot."
+}

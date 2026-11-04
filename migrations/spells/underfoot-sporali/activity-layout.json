@@ -1,0 +1,366 @@
+{
+  "status": "CLEARED_TASK_ID_SOURCE_LAYOUT_NOT_ACTIVE_DATABASE_PAYLOAD",
+  "total_activities": 25,
+  "layouts": {
+    "abandon": {
+      "external_quest": 4966,
+      "native_task_id": 920137,
+      "task_type": "solo",
+      "activities": [
+        {
+          "activity_id": 0,
+          "kind": "explore",
+          "target": "northeast aphid farm",
+          "source_loc_yxz": [
+            820,
+            -335,
+            2
+          ],
+          "goal_count": 1,
+          "native_task_id": 920137,
+          "step": 1,
+          "req_activity_id": -1,
+          "goal_method": "native_explore"
+        },
+        {
+          "activity_id": 1,
+          "kind": "explore",
+          "target": "northwest sporali farm",
+          "source_loc_yxz": [
+            720,
+            1280,
+            5
+          ],
+          "goal_count": 1,
+          "native_task_id": 920137,
+          "step": 2,
+          "req_activity_id": -1,
+          "goal_method": "native_explore"
+        },
+        {
+          "activity_id": 2,
+          "kind": "hail",
+          "target": "Entricalla",
+          "goal_count": 1,
+          "native_task_id": 920137,
+          "step": 3,
+          "req_activity_id": -1,
+          "goal_method": "METHODQUEST"
+        },
+        {
+          "activity_id": 3,
+          "kind": "explore",
+          "target": "hive/caged Nurvin Dwalgrun",
+          "source_loc_yxz": [
+            1445,
+            1200,
+            157
+          ],
+          "goal_count": 1,
+          "native_task_id": 920137,
+          "step": 4,
+          "req_activity_id": -1,
+          "goal_method": "native_explore"
+        },
+        {
+          "activity_id": 4,
+          "kind": "explore",
+          "target": "escape hive",
+          "source_loc_yxz": [
+            1540,
+            940,
+            50
+          ],
+          "goal_count": 1,
+          "native_task_id": 920137,
+          "step": 5,
+          "req_activity_id": -1,
+          "goal_method": "native_explore"
+        },
+        {
+          "activity_id": 5,
+          "kind": "hail",
+          "target": "Mardan Howlinblade",
+          "goal_count": 1,
+          "native_task_id": 920137,
+          "step": 6,
+          "req_activity_id": -1,
+          "goal_method": "METHODQUEST"
+        }
+      ]
+    },
+    "fallen": {
+      "external_quest": 4967,
+      "native_task_id": 920138,
+      "task_type": "solo",
+      "activities": [
+        {
+          "activity_id": 0,
+          "kind": "hail",
+          "target": "Haeger Stonecracker",
+          "branch": "underquarry",
+          "goal_count": 1,
+          "native_task_id": 920138,
+          "step": 1,
+          "req_activity_id": -1,
+          "goal_method": "METHODQUEST"
+        },
+        {
+          "activity_id": 1,
+          "kind": "kill",
+          "target": "burynai",
+          "count": 10,
+          "branch": "underquarry",
+          "requires_own_initial_hail": true,
+          "goal_count": 10,
+          "native_task_id": 920138,
+          "step": 1,
+          "req_activity_id": 0,
+          "goal_method": "native_kill_match"
+        },
+        {
+          "activity_id": 2,
+          "kind": "hail",
+          "target": "Haeger Stonecracker",
+          "branch": "underquarry",
+          "requires_own_kills": true,
+          "goal_count": 1,
+          "native_task_id": 920138,
+          "step": 1,
+          "req_activity_id": 1,
+          "goal_method": "METHODQUEST"
+        },
+        {
+          "activity_id": 3,
+          "kind": "hail",
+          "target": "Borgar Rompinstomp",
+          "branch": "foundation",
+          "goal_count": 1,
+          "native_task_id": 920138,
+          "step": 1,
+          "req_activity_id": -1,
+          "goal_method": "METHODQUEST"
+        },
+        {
+          "activity_id": 4,
+          "kind": "kill",
+          "target": "small beetles",
+          "count": 5,
+          "branch": "foundation",
+          "requires_own_initial_hail": true,
+          "goal_count": 5,
+          "native_task_id": 920138,
+          "step": 1,
+          "req_activity_id": 3,
+          "goal_method": "native_kill_match"
+        },
+        {
+          "activity_id": 5,
+          "kind": "kill",
+          "target": "large beetles",
+          "count": 5,
+          "branch": "foundation",
+          "requires_own_initial_hail": true,
+          "goal_count": 5,
+          "native_task_id": 920138,
+          "step": 1,
+          "req_activity_id": 3,
+          "goal_method": "native_kill_match"
+        },
+        {
+          "activity_id": 6,
+          "kind": "hail",
+          "target": "Borgar Rompinstomp",
+          "branch": "foundation",
+          "requires_both_beetle_goals": true,
+          "goal_count": 1,
+          "native_task_id": 920138,
+          "step": 1,
+          "req_activity_id": 5,
+          "quest_hail_extra_guards": [
+            {
+              "activity_id": 4,
+              "done_count": 5
+            },
+            {
+              "activity_id": 5,
+              "done_count": 5
+            }
+          ],
+          "goal_method": "METHODQUEST"
+        },
+        {
+          "activity_id": 7,
+          "kind": "hail",
+          "target": "Foreman Gronkin",
+          "branch": "cooling",
+          "goal_count": 1,
+          "native_task_id": 920138,
+          "step": 1,
+          "req_activity_id": -1,
+          "goal_method": "METHODQUEST"
+        },
+        {
+          "activity_id": 8,
+          "kind": "kill",
+          "target": "zombies",
+          "count": 5,
+          "branch": "cooling",
+          "requires_own_initial_hail": true,
+          "goal_count": 5,
+          "native_task_id": 920138,
+          "step": 1,
+          "req_activity_id": 7,
+          "goal_method": "native_kill_match"
+        },
+        {
+          "activity_id": 9,
+          "kind": "hail",
+          "target": "Foreman Gronkin",
+          "branch": "cooling",
+          "requires_own_kills": true,
+          "goal_count": 1,
+          "native_task_id": 920138,
+          "step": 1,
+          "req_activity_id": 8,
+          "goal_method": "METHODQUEST"
+        },
+        {
+          "activity_id": 10,
+          "kind": "hail",
+          "target": "Mardan Howlinblade",
+          "requires_all_branches": true,
+          "goal_count": 1,
+          "native_task_id": 920138,
+          "step": 2,
+          "req_activity_id": -1,
+          "quest_hail_extra_guards": [
+            {
+              "activity_id": 2,
+              "done_count": 1
+            },
+            {
+              "activity_id": 6,
+              "done_count": 1
+            },
+            {
+              "activity_id": 9,
+              "done_count": 1
+            }
+          ],
+          "goal_method": "METHODQUEST"
+        }
+      ]
+    },
+    "desperate": {
+      "external_quest": 4968,
+      "native_task_id": 920139,
+      "task_type": "shared_group",
+      "activities": [
+        {
+          "activity_id": 0,
+          "kind": "owned_wave_kill",
+          "target": "a cliknar agent",
+          "count": 3,
+          "wave": 1,
+          "goal_count": 3,
+          "native_task_id": 920139,
+          "step": 1,
+          "req_activity_id": -1,
+          "goal_method": "METHODQUEST"
+        },
+        {
+          "activity_id": 1,
+          "kind": "hail",
+          "target": "Mardan Howlinblade",
+          "next_wave": 2,
+          "goal_count": 1,
+          "native_task_id": 920139,
+          "step": 2,
+          "req_activity_id": -1,
+          "goal_method": "METHODQUEST"
+        },
+        {
+          "activity_id": 2,
+          "kind": "owned_wave_kill",
+          "target": "a cliknar agent",
+          "count": 3,
+          "wave": 2,
+          "goal_count": 3,
+          "native_task_id": 920139,
+          "step": 3,
+          "req_activity_id": -1,
+          "goal_method": "METHODQUEST"
+        },
+        {
+          "activity_id": 3,
+          "kind": "hail",
+          "target": "Mardan Howlinblade",
+          "next_wave": 3,
+          "goal_count": 1,
+          "native_task_id": 920139,
+          "step": 4,
+          "req_activity_id": -1,
+          "goal_method": "METHODQUEST"
+        },
+        {
+          "activity_id": 4,
+          "kind": "owned_wave_kill",
+          "target": "a cliknar agent",
+          "count": 3,
+          "wave": 3,
+          "goal_count": 3,
+          "native_task_id": 920139,
+          "step": 5,
+          "req_activity_id": -1,
+          "goal_method": "METHODQUEST"
+        },
+        {
+          "activity_id": 5,
+          "kind": "kill",
+          "target": "nearby cliknar",
+          "count": 10,
+          "goal_count": 10,
+          "native_task_id": 920139,
+          "step": 6,
+          "req_activity_id": -1,
+          "goal_method": "native_kill_match"
+        },
+        {
+          "activity_id": 6,
+          "kind": "explore",
+          "target": "main hive in north",
+          "source_loc_yxz": [
+            1529,
+            1075,
+            50
+          ],
+          "coordinate_provenance": "2021comment, not originalgeometry",
+          "goal_count": 1,
+          "native_task_id": 920139,
+          "step": 7,
+          "req_activity_id": -1,
+          "goal_method": "native_explore"
+        },
+        {
+          "activity_id": 7,
+          "kind": "hail",
+          "target": "Mardan Howlinblade",
+          "goal_count": 1,
+          "native_task_id": 920139,
+          "step": 8,
+          "req_activity_id": -1,
+          "goal_method": "METHODQUEST"
+        }
+      ]
+    }
+  },
+  "native_semantics": "common/tasks.h GetActiveElements allows completed req_activity_id to activate a branch independent of currentstep; fallen branchrows remainstep1 and finalMardanstep2. Native eligibility plus explicitsamecontext questhailguards preservesbothbeetlegoals/allthreebranches.",
+  "unbound_dependencies": [
+    "Native task IDs now bound from exact181605clearcontract; rewardentryextensionsnotallocated.",
+    "Exploration boxes exactfloors/axisconversion",
+    "ExactnormalNPCmatchlists andworldgiverreuse",
+    "Desperate worldagentownership/idlepredicate/interwavehailtimeout/cleanup",
+    "Sporali finalchestinteraction/open-vs-hail held"
+  ]
+}

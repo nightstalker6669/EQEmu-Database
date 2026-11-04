@@ -1,0 +1,91 @@
+{
+  "status": "APPLIED_182_ROW_JOINT_STAGE_AND28FLAG_ACTIVATION_INDEPENDENTLY_VERIFIED",
+  "source_commit": "065f0307cf1a8cbec80baf85f4e2f206f61fa0fd",
+  "bundle_sha256": "251fb8a7f8ede97cbee5ab293bda11ee2b477969f2333f5a90a1cc122a27298d",
+  "helper_sha256": "4f34a1d9a04da81dbe4c85e89947dd94e186f8443eca99bff315dafe2388fbef",
+  "composition_once": {
+    "NPC_component_rows": 99,
+    "agent_component_rows": 1,
+    "Spells_task_reward_template_rows": 82,
+    "total_rows": 182
+  },
+  "rows_by_table": {
+    "loottable": 3,
+    "lootdrop": 3,
+    "loottable_entries": 3,
+    "lootdrop_entries": 13,
+    "npc_types": 14,
+    "spawngroup": 21,
+    "spawnentry": 21,
+    "spawn2": 21,
+    "spawn_conditions": 1,
+    "tasks": 4,
+    "task_activities": 44,
+    "dynamic_zone_templates": 1,
+    "rewards": 9,
+    "reward_sets": 3,
+    "reward_sources": 3,
+    "reward_options": 9,
+    "reward_option_entries": 9
+  },
+  "staging": "One successful content transaction in stage004, then fresh182-row/reference readback; task/reward flags initially disabled.",
+  "activation": "One separate transaction after27exactactivefiles installed; only28enabledfields changed0to1, allotherfields exactlypreserved; freshindependent182activepostimage/reference readback.",
+  "activation_flags_by_table": {
+    "tasks": 4,
+    "rewards": 9,
+    "reward_sets": 3,
+    "reward_sources": 3,
+    "reward_options": 9
+  },
+  "native_condition_value_after_activation": 0,
+  "receipt_bindings": {
+    "stage_completed_SHA256": "c10260346ee6d5e5ebf79b5ab750ebd7b5dfa4d2ea9e093845ac60a4350cd7fb",
+    "independent_disabled_readback_SHA256": "ea0222a5b0295f1c052eb0e447b2c589369777f29a0210c2b8588625b61eb171",
+    "activation_completed_SHA256": "0529dae70df86a8757bc2928ee5d7dd5c8f449c6a05e905263d097d905690f6c",
+    "independent_active_readback_SHA256": "704f6ee9b7f7fcdaeb8f6f1a7f9692722f94e93e60afeff8b04b41b8ca9151f3",
+    "Build_cache_ready_SHA256": "9d85bcdb43541b5c0c136ac7cb0cea412603f31d27d8c38152b5d0c7bd23e4eb"
+  },
+  "owned_routine_lifecycle": "Two pinned procedures created before any content transaction and retained/reused; not redefined after failures, no automatic drop/replace or invented cleanup mode.",
+  "historical_attempts": [
+    {
+      "stage": "001",
+      "source_commit": "f1edaa0d6d47a516a00c2d26146380b46f899bd9",
+      "outcome": "Precontent reference-comparator failure on identical timestamp representations; no content mutation."
+    },
+    {
+      "stage": "002",
+      "source_commit": "3fee45004eebf9c8ee66196468f27ffcb50d9e2f",
+      "outcome": "Mission displaylabel exceededvarchar64; fulltransaction rolledback and all182identities independentlyabsent."
+    },
+    {
+      "stage": "003",
+      "source_commit": "0fca10fd19d7e2d4be39f32a3709d42b91a2e273",
+      "outcome": "PrecommitFLOATtextreadback comparison failed; fullrollback/all182identities independentlyabsent."
+    },
+    {
+      "stage": "004",
+      "source_commit": "065f0307cf1a8cbec80baf85f4e2f206f61fa0fd",
+      "outcome": "Corrected preciseFLOATprojection retainedallcolumns/sourcecoords/tolerance; committeddisabled182 thenindependentreadbackPASS."
+    }
+  ],
+  "failed_attempt_policy": "Historical failures are not successful applications or migration steps. Each subsequent attempt had explicit coordinator authorization and new receipts; no blind retry or component replay.",
+  "runtime_cache": {
+    "status": "BUILD_ACTUAL_RUNTIME_CATALOG_READY",
+    "commands_once": [
+      22,
+      27,
+      9
+    ],
+    "actual_summary": "World4enabledtasks+template920140zone485version1;all6zone4tasks/3sets/9options/9exactrewardentriesandselectionflagsPASS.",
+    "all6_Lua_generations_changed_no_errors": true,
+    "Arthicrex_effective_LootMultiplier1": "Configuredruleset1=1 accepted. Arthicrex was not loaded; actual effective1 must be read at next fresh485boot, not inferred from unloadedVM.",
+    "source_and_cache_are_not_native_acceptance": true
+  },
+  "native_acceptance": {
+    "Sporali_completion": false,
+    "floors_geometry": false,
+    "wave_timing_and_ownership": false,
+    "delivery_and_reward_payout": false
+  },
+  "protected_state": "No Database playerprogress/custody/claims/inventory/gear/spell/rule/version writes. Physical client assets, privatebackups, credentials andplayerrows excluded. QA39999 stays separate/excluded fromproductioncollection; cleanup remains separately authorized."
+}

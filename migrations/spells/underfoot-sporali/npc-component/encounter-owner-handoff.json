@@ -1,0 +1,77 @@
+{
+  "enabled": false,
+  "task_id": 920140,
+  "zone_id": 485,
+  "zone_version": 1,
+  "prerequisites": {
+    "external": [
+      4966,
+      4967,
+      4968
+    ],
+    "reserved_native_tasks": [
+      920137,
+      920138,
+      920139
+    ]
+  },
+  "west": {
+    "guard_npc_type_ids": [
+      485901
+    ],
+    "guard_count": 4,
+    "named_npc_type_ids": [
+      485903,
+      485904,
+      485905
+    ],
+    "extract_chest_npc": 485909,
+    "item": 41310,
+    "loot_required": 3,
+    "delivery_receiver": 485900,
+    "delivery_required": 3
+  },
+  "east": {
+    "guard_npc_type_ids": [
+      485902
+    ],
+    "guard_count": 4,
+    "named_npc_type_ids": [
+      485906,
+      485907,
+      485908
+    ],
+    "compound_chest_npc": 485910,
+    "item": 41311,
+    "loot_required": 1,
+    "delivery_receiver": 485900,
+    "delivery_required": 1,
+    "compound_chest_requires_all_three_named_dead": false,
+    "compound_preloot_before_last_named_supported": true,
+    "lock": "Entireeastguard+named+componentlootset controls LOCK only; physicalCompoundchest remains available beforelastnamed"
+  },
+  "final": {
+    "instance_grogald": 485912,
+    "reward_chest": 485911,
+    "reserved_spawn_slot": 304053020,
+    "terminal_activity": 18,
+    "displayed_activities": 19,
+    "open_vs_hail": "LOCAL_CHOICE_NATIVE_OPEN; historical open-versus-hail unknown",
+    "native_condition_id": 6202,
+    "condition_initial_value": 0,
+    "condition_onchange": 3,
+    "respawntime": 86400,
+    "grogald_hail_action": "Activate owned reward chest only",
+    "terminal_producer": "Actual owned native open death/deathcomplete attribution",
+    "no_completed_history_replay": true,
+    "no_missing_entity_regrant": true,
+    "no_new_journal": true,
+    "no_whole_instance_early_expiry": true,
+    "void_setter_is_not_durable_ack": true,
+    "task_completion_on_grogald_hail": false
+  },
+  "no_wildcard_actor_matches": true,
+  "no_player_item_grants": true,
+  "no_additional_activity_invented": true,
+  "task_rows_modified": false
+}

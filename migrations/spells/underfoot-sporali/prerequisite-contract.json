@@ -1,0 +1,332 @@
+{
+  "status": "SOURCE_ONLY_NO_NATIVE_TASK_ALLOCATIONS_OR_APPLY",
+  "giver": "Mardan Howlinblade",
+  "giver_source_loc_yxz": [
+    -260,
+    940,
+    5
+  ],
+  "task_count": 3,
+  "objective_count": 25,
+  "tasks": [
+    {
+      "external_quest": 4966,
+      "title": "Abandon All Hope",
+      "type": "solo",
+      "request": "patrol",
+      "requires": [],
+      "goals": [
+        {
+          "kind": "explore",
+          "target": "northeast aphid farm",
+          "source_loc_yxz": [
+            820,
+            -335,
+            2
+          ]
+        },
+        {
+          "kind": "explore",
+          "target": "northwest sporali farm",
+          "source_loc_yxz": [
+            720,
+            1280,
+            5
+          ]
+        },
+        {
+          "kind": "hail",
+          "target": "Entricalla"
+        },
+        {
+          "kind": "explore",
+          "target": "hive/caged Nurvin Dwalgrun",
+          "source_loc_yxz": [
+            1445,
+            1200,
+            157
+          ]
+        },
+        {
+          "kind": "explore",
+          "target": "escape hive",
+          "source_loc_yxz": [
+            1540,
+            940,
+            50
+          ]
+        },
+        {
+          "kind": "hail",
+          "target": "Mardan Howlinblade"
+        }
+      ],
+      "period_support": [
+        {
+          "date": "2010-09-01",
+          "anchor": "1283367098207067131",
+          "finding": "Kaelikk reports possible withoutanykill; do not addmandatorycombat objectives.",
+          "url": "https://everquest.allakhazam.com/db/quest/4966#msg1283367098207067131"
+        },
+        {
+          "date": "2010-04-29",
+          "anchor": "1272585043308705280",
+          "finding": "13BrelliumTokens completionreport",
+          "url": "https://everquest.allakhazam.com/db/quest/4966#msg1272585043308705280"
+        },
+        {
+          "date": "2010-07-09",
+          "anchor": "1278676825310579844",
+          "finding": "Repeatable and1.30AAobservedat85; not universalXPformula.",
+          "url": "https://everquest.allakhazam.com/db/quest/4966#msg1278676825310579844"
+        }
+      ],
+      "reward_candidates": {
+        "cash_pp": 140,
+        "tokens": 13,
+        "currency_id": 21,
+        "qualification": "Cash currentguide;13tokensperiodreport. XP/admission/replayformula not recovered."
+      },
+      "source": "https://everquest.allakhazam.com/db/quest/4966",
+      "page_entered": "2009-12-21",
+      "current_body_modified": "2023-12-05"
+    },
+    {
+      "external_quest": 4967,
+      "title": "For Those Who Have Fallen",
+      "type": "solo",
+      "request": "support",
+      "requires": [
+        4966
+      ],
+      "parallel_branches": true,
+      "goals": [
+        {
+          "kind": "hail",
+          "target": "Haeger Stonecracker",
+          "branch": "underquarry"
+        },
+        {
+          "kind": "kill",
+          "target": "burynai",
+          "count": 10,
+          "branch": "underquarry",
+          "requires_own_initial_hail": true
+        },
+        {
+          "kind": "hail",
+          "target": "Haeger Stonecracker",
+          "branch": "underquarry",
+          "requires_own_kills": true
+        },
+        {
+          "kind": "hail",
+          "target": "Borgar Rompinstomp",
+          "branch": "foundation"
+        },
+        {
+          "kind": "kill",
+          "target": "small beetles",
+          "count": 5,
+          "branch": "foundation",
+          "requires_own_initial_hail": true
+        },
+        {
+          "kind": "kill",
+          "target": "large beetles",
+          "count": 5,
+          "branch": "foundation",
+          "requires_own_initial_hail": true
+        },
+        {
+          "kind": "hail",
+          "target": "Borgar Rompinstomp",
+          "branch": "foundation",
+          "requires_both_beetle_goals": true
+        },
+        {
+          "kind": "hail",
+          "target": "Foreman Gronkin",
+          "branch": "cooling"
+        },
+        {
+          "kind": "kill",
+          "target": "zombies",
+          "count": 5,
+          "branch": "cooling",
+          "requires_own_initial_hail": true
+        },
+        {
+          "kind": "hail",
+          "target": "Foreman Gronkin",
+          "branch": "cooling",
+          "requires_own_kills": true
+        },
+        {
+          "kind": "hail",
+          "target": "Mardan Howlinblade",
+          "requires_all_branches": true
+        }
+      ],
+      "period_support": [
+        {
+          "date": "2010-03-03",
+          "anchor": "126762315920329623",
+          "finding": "Zombies southernarea; not substituteeveryundead.",
+          "url": "https://everquest.allakhazam.com/db/quest/4967#msg126762315920329623"
+        },
+        {
+          "date": "2009-12-21",
+          "anchor": "1261446878181336889",
+          "finding": "Approx2AAreported; guessedcash/XPcorrelation not acceptedformula.",
+          "url": "https://everquest.allakhazam.com/db/quest/4967#msg1261446878181336889"
+        }
+      ],
+      "reward_candidates": {
+        "cash_pp": 210,
+        "tokens": null,
+        "qualification": "Currentguidecash; no originaltokenpayout recovered, do not inventone."
+      },
+      "source": "https://everquest.allakhazam.com/db/quest/4967",
+      "page_entered": "2009-12-21",
+      "current_body_modified": "2023-12-05"
+    },
+    {
+      "external_quest": 4968,
+      "title": "A Desperate Deed",
+      "type": "shared_group",
+      "request": "ready",
+      "requires": [
+        4966,
+        4967
+      ],
+      "goals": [
+        {
+          "kind": "owned_wave_kill",
+          "target": "a cliknar agent",
+          "count": 3,
+          "wave": 1
+        },
+        {
+          "kind": "hail",
+          "target": "Mardan Howlinblade",
+          "next_wave": 2
+        },
+        {
+          "kind": "owned_wave_kill",
+          "target": "a cliknar agent",
+          "count": 3,
+          "wave": 2
+        },
+        {
+          "kind": "hail",
+          "target": "Mardan Howlinblade",
+          "next_wave": 3
+        },
+        {
+          "kind": "owned_wave_kill",
+          "target": "a cliknar agent",
+          "count": 3,
+          "wave": 3
+        },
+        {
+          "kind": "kill",
+          "target": "nearby cliknar",
+          "count": 10
+        },
+        {
+          "kind": "explore",
+          "target": "main hive in north",
+          "source_loc_yxz": [
+            1529,
+            1075,
+            50
+          ],
+          "coordinate_provenance": "2021comment, not originalgeometry"
+        },
+        {
+          "kind": "hail",
+          "target": "Mardan Howlinblade"
+        }
+      ],
+      "period_support": [
+        {
+          "date": "2010-05-02",
+          "author": "nytmare",
+          "anchor": "1272844007122361570",
+          "finding": "Explicitgroup min3/max6;firstwaveonrequest;1hour;idlewarning120s/failure300s.",
+          "url": "https://everquest.allakhazam.com/db/quest/4968#msg1272844007122361570"
+        },
+        {
+          "date": "2010-02-25",
+          "anchor": "1267078031204181800",
+          "finding": "Firstwaveteleporter, secondeastofMardan, thirdnorthwall; notallwavesateleporter.",
+          "url": "https://everquest.allakhazam.com/db/quest/4968#msg1267078031204181800"
+        },
+        {
+          "date": "2010-06-19",
+          "author": "GOMN",
+          "anchor": "1276987306270595668",
+          "finding": "Waveactoractualname a cliknar agent.",
+          "url": "https://everquest.allakhazam.com/db/quest/4968#msg1276987306270595668"
+        },
+        {
+          "date": "2010-03-09",
+          "author": "Kalevalatar",
+          "anchor": "1268165247305547435",
+          "finding": "Kill10thenapproach; nearbycliknaralsocredit, nothiveonly.",
+          "url": "https://everquest.allakhazam.com/db/quest/4968#msg1268165247305547435"
+        },
+        {
+          "date": "2011-11-14",
+          "author": "Hamfiend",
+          "anchor": "1321318635271103713",
+          "finding": "Exact8objectivewording kill10beforeapproach;175pp+17tokens.",
+          "url": "https://everquest.allakhazam.com/db/quest/4968#msg1321318635271103713"
+        },
+        {
+          "date": "2010-03-09",
+          "author": "Tameron",
+          "anchor": "126817129297812165",
+          "finding": "Interwavehailhasatimelimit; exactintervalnotrecovered, do notcopyidle5minasthisseparatetimer.",
+          "url": "https://everquest.allakhazam.com/db/quest/4968#msg126817129297812165"
+        }
+      ],
+      "reward_candidates": {
+        "cash_pp": 175,
+        "tokens": 17,
+        "currency_id": 21,
+        "qualification": "Nov2011periodreport; March2010log157.5ppshowsvariation, no universalscalingformula."
+      },
+      "time_limit_seconds": 3600,
+      "min_players": 3,
+      "max_players": 6,
+      "idle_warning_seconds": 120,
+      "idle_failure_seconds": 300,
+      "admission_qualification": "PeriodMay2010report takesprecedence over modernpage solopreface. Trueoccurrences/memberownership, not actualGroupID or solo hail substitute.",
+      "source": "https://everquest.allakhazam.com/db/quest/4968",
+      "page_entered": "2009-12-21",
+      "current_body_modified": "2023-12-05"
+    }
+  ],
+  "native_implementation_constraints": [
+    "Do not collapse3parallel supportbranches orcreditkillsbeforetheir initialhail. SameNPCinitial/returnhail callbacks chooseone pre-eventstage soonehaildoesnotcascade.",
+    "Do notaddkillobjectivestoAbandon exploration/hailroute. CurrentcoordinatesrequireDBaxisconversion/bounds/nativeflooracceptance, notsilentcopiedgeometry.",
+    "DesperateDeed isrealworldgroup-wave event; bindoriginalnative sharedoccurrence/members, preserveunrelatedworldNPCs andothergroupencounters. Exactworldeventownership/admission/failurecleanupandactorprofile must becomposedwithNPCowner.",
+    "Idleagentwarning/failure supported, exactinterwavehailtimeoutunknown. Failuremuststopownedwavecredit/cleanonlyownedactors; no fakekill/update/groupglobalstate.",
+    "No newitemsoritemcustodyrequirements occurinthese25transcribedgoals; do notinventdelivery components.",
+    "Originalcurrencymapping21 reusedfromclosedUnderfootreview; no newquery. Missingtokenclaimforsecondtask not filledfromneighbors."
+  ],
+  "wiki_crosscheck": {
+    "url": "https://zoywiki.com/index.php?title=UF/Zones/arthicrex/Abandon_All_Hope&oldid=135",
+    "main_page_last_edited": "2010-05-05",
+    "qualification": "Sixgoals/requestpatrol corroborated. Embeddedsubpages/transclusionsnotfrozenmerelybymainpageoldid; no promotionofeverycurrentembeddedfieldto2010proof."
+  },
+  "actions": {
+    "database_queries": 0,
+    "database_writes": 0,
+    "tests": 0,
+    "runtime_actions": 0,
+    "new_ids": []
+  }
+}

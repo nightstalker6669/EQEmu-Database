@@ -1,0 +1,13 @@
+# Desperate Deed: separate agent definition source
+
+Disabled, reserved source only. NPC485913 belongs to normal-world Arthicrex485/version0 and task920139. Exact Database extension20261104T183444Z is pinned under inputs. This separate component emits one full npc_types row; it does not duplicate or modify the99-row Sporali mission component, its13actors, placements or condition6202. Apply each component once within owner composition.
+
+The retained exact two-name lookup found no authentic donor; no broad alias-absence claim is made. All numeric profile/model fields and nine coordinates are labelled local candidates. Initial neutral faction0/aggro0/assist0 leaves idle/combat routing to the actual encounter owner. No unproven spell list, loot, merchant, static spawn, condition or event is introduced.
+
+owner-wave-interface.json binds nine temporary native quest entities across three waves of three. The eq.spawn2 quest API does not imply database spawn2 rows. Spawn wave1 only after the actual accepted shared occurrence, never an offer. Subsequent Mardan hails require the prior three owned deaths. Min3/max6, one-hour task, ten nearby cliknar kills after wave3 before hive approach remain explicit. Idle warning120/failure300 scope and the separate interwave hail timeout remain unrecovered; no substitute deadline is invented. Original concurrent admission/outsider policy remains unknown.
+
+Native occurrence identity stays an exact string; groupID, NPC type/name/radius and reusable entityID alone cannot establish ownership. Register returned handles and validate actual occurrence/membership/stage/wave; stop on partial spawn and reconcile only known owned entities. No blind retry, fake credit, history-based recreation or cleanup of other groups/world actors. Spells owns actual accepted-occurrence/failure APIs and controller implementation; this interface does not claim they exist or have been accepted natively.
+
+apply.sql.disabled and rollback.sql.disabled define single-row routines only: no CALL, installer or transaction start/commit. Define routines before the caller transaction due to routine-DDL commit semantics. Require the caller-held transaction and @desperate_deed_agent_source_authorized=1. Apply guards exact ID and incoming references; rollback locks the complete postimage, rejects incoming references and deletes only485913. Encounter owner must first quiesce its controller/owned transient actors; database reference checks cannot prove runtime entity absence. No player/history/respawn cleanup.
+
+No new database query, namespace audit, runtime action, installation, publication or tests. Source generation asserts only exact reserved proposal pins; native geometry and controller behavior remain unaccepted.

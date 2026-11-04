@@ -1,0 +1,195 @@
+{
+  "status": "RESERVED_OWNER_INTERFACE_SOURCE_ONLY",
+  "date": "2026-11-04",
+  "task_id": 920139,
+  "external_quest": 4968,
+  "zone": "arthicrex",
+  "zone_id": 485,
+  "zone_version": 0,
+  "normal_world_not_mission_instance": true,
+  "native_npc_type_id": 485913,
+  "proposed_npc_type_id": 485913,
+  "name": "a_cliknar_agent",
+  "native_reuse_lookup": "native-agent-exact-lookup.json",
+  "absence_limit": "Only exact two-name lookup; no authentic donor recovered, no globalaliasabsenceclaim",
+  "new_definition_count": 1,
+  "additional_static_spawn_ids": [],
+  "additional_loot_ids": [],
+  "existing13mission_ids_preserved": [
+    485900,
+    485901,
+    485902,
+    485903,
+    485904,
+    485905,
+    485906,
+    485907,
+    485908,
+    485909,
+    485910,
+    485911,
+    485912
+  ],
+  "local_profile_defaults": {
+    "level": 85,
+    "race": 643,
+    "class": 1,
+    "bodytype": 1,
+    "gender": 0,
+    "texture": 0,
+    "size": 6,
+    "hp": 250000,
+    "mindmg": 600,
+    "maxdmg": 4500,
+    "AC": 600,
+    "ATK": 500,
+    "stats": 350,
+    "resists": 0,
+    "hp_regen_rate": 0,
+    "attack_delay": 30,
+    "runspeed": 1.25,
+    "Accuracy": 0,
+    "Avoidance": 0,
+    "special_abilities": "",
+    "npc_spells_id": 0,
+    "loottable_id": 0,
+    "merchant_id": 0,
+    "initial_faction": 0,
+    "historical_exact_profile": false
+  },
+  "waves": [
+    {
+      "wave": 1,
+      "count": 3,
+      "native_npc_type_id": 485913,
+      "proposed_npc_type": 485913,
+      "trigger": "Actualacceptedsharedoccurrence",
+      "placements": [
+        {
+          "x": 1153.3003,
+          "y": -171.6616,
+          "z": 6.5969,
+          "heading": 0
+        },
+        {
+          "x": 1165.3003,
+          "y": -171.6616,
+          "z": 6.5969,
+          "heading": 0
+        },
+        {
+          "x": 1177.3003,
+          "y": -171.6616,
+          "z": 6.5969,
+          "heading": 0
+        }
+      ],
+      "basis": "Localnearest FungalForestpad selection; actual period teleporter unspecified",
+      "native_geometry_accepted": false,
+      "static_spawn2_ids": [],
+      "spawngroup_ids": []
+    },
+    {
+      "wave": 2,
+      "count": 3,
+      "native_npc_type_id": 485913,
+      "proposed_npc_type": 485913,
+      "trigger": "ValidatedMardanhailafterprior3owneddeaths",
+      "placements": [
+        {
+          "x": 868,
+          "y": -260,
+          "z": 5,
+          "heading": 0
+        },
+        {
+          "x": 880,
+          "y": -260,
+          "z": 5,
+          "heading": 0
+        },
+        {
+          "x": 892,
+          "y": -260,
+          "z": 5,
+          "heading": 0
+        }
+      ],
+      "basis": "Local60unit east offset fromsourceMardan940,-260,5",
+      "native_geometry_accepted": false,
+      "static_spawn2_ids": [],
+      "spawngroup_ids": []
+    },
+    {
+      "wave": 3,
+      "count": 3,
+      "native_npc_type_id": 485913,
+      "proposed_npc_type": 485913,
+      "trigger": "ValidatedMardanhailafterprior3owneddeaths",
+      "placements": [
+        {
+          "x": 928,
+          "y": -160,
+          "z": 5,
+          "heading": 0
+        },
+        {
+          "x": 940,
+          "y": -160,
+          "z": 5,
+          "heading": 0
+        },
+        {
+          "x": 952,
+          "y": -160,
+          "z": 5,
+          "heading": 0
+        }
+      ],
+      "basis": "Local100unit north offset; exact northwall point held",
+      "native_geometry_accepted": false,
+      "static_spawn2_ids": [],
+      "spawngroup_ids": []
+    }
+  ],
+  "controller_contract": {
+    "min_players": 3,
+    "max_players": 6,
+    "time_limit_seconds": 3600,
+    "shared_occurrence_identity": "Exactnativeacceptedstring, notGroupID/Luanumericroundtrip",
+    "spawn_first_wave_on_offer": false,
+    "spawn_first_wave_after_actual_acceptance": true,
+    "idle_warning_seconds": 120,
+    "idle_failure_seconds": 300,
+    "idle_scope": null,
+    "interwave_hail_timeout_seconds": null,
+    "nearby_cliknar_kills_required_before_hive": 10,
+    "hive_approach_loc_yxz_candidate": [
+      1529,
+      1075,
+      50
+    ],
+    "hive_coordinate_date": "2021notoriginal",
+    "failure_cleanup": "Onlyconfirmedownedactorhandles, no name/type/radiuscleanup",
+    "partial_spawn_retry": false,
+    "reconnect_recreation_from_history": false,
+    "concurrent_admission_original_policy": null,
+    "native_api_ownership": "Spells via coordinator; notimplemented/enabled byNPCpacket"
+  },
+  "no_world_npc_mutations": true,
+  "no_runtime_actions": true,
+  "spawn_api_semantics": "Nine transient native quest entities (eq.spawn2 API), not rows in spawn2 table",
+  "callback_candidate": "arthicrex/485913.lua",
+  "source_definition_component": "Separate one-row component; no duplication with99-row mission component",
+  "required_owner_checks": [
+    "Actual accepted native shared-occurrence string; never groupID or lossy numeric conversion",
+    "World Arthicrex485/version0, actual membership, pre-event stage and wave",
+    "Register each actual returned native handle with occurrence/wave identity; numeric entityID alone may be reused",
+    "Three confirmed owned deaths close each wave; one pre-event stage per hail, no cascading progress",
+    "After wave3, ten eligible nearby cliknar deaths before hive approach; final agent death cannot count toward newly unlocked next goal",
+    "Partial spawn stops and reconciles exact returned owned handles; no blind retry or fake death credit",
+    "Cleanup confirmed owned handles only; preserve other world actors/groups",
+    "Unknown ownership after restart requires native occurrence reconciliation/failure; never recreate from completed history or missing local state"
+  ],
+  "implementation_owner": "Spells via coordinator; native accepted-occurrence and failure APIs not implemented by this source component"
+}

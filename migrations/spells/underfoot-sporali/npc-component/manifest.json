@@ -1,0 +1,51 @@
+{
+  "status": "DISABLED_SOURCE_BINDINGS_NOT_INSTALLABLE_OR_PUBLISHED",
+  "date": "2026-11-04",
+  "counts": {
+    "npc_bindings": 13,
+    "spawn_group_role_bindings": 21,
+    "source_component_rows": 99,
+    "definition_loot_component_rows": 35,
+    "placement_condition_rows": 64,
+    "spawn_conditions": 1,
+    "loottables": 3,
+    "lootdrops": 3,
+    "loottable_entries": 3,
+    "lootdrop_entries": 13,
+    "numeric_geometry_candidates": 21,
+    "native_geometry_accepted": 0
+  },
+  "inputs": {
+    "accepted-initial-manifest.json": "b4d8a4c51f312730b30764b0ef3cf3f63a8f6c43581cbd0ee6bfe9c6ad2e4f8e",
+    "gear-identity-map.json": "fff4bb44c582de13d45bbda4f25a8a0aa2f6f33c8ef30de9902c60354b5fc70e",
+    "loot-proposal.json": "82416a9d24006e0e96e6b9b7b2af61d84deb07df2e2a4234e5768c85036ef3db",
+    "pit-geometry-candidates.json": "aa29aaa94c120a20fc24e4a2c9c9a93d41f779c4f701cbded800daf3c5e433d1",
+    "placement-proposal.json": "0034b3b0e3fb081382523d990bf503bcaa2ffbec771a269a57d3fe7ff00aeaca",
+    "proposal.json": "ba5737a25c081f3ee70076fbdf835f78dcc2517b62eaad1ccc77f7fc981c192f",
+    "reservation-contract.json": "1f8b07250c1c722bbbc72ff2f14ef2c662d27246c4f445bdeb306c9b759c92ea",
+    "reservation-receipt.json": "e4b8f2226fa4d744542e2b06392aee70387181691709adbce06c098baf431bed",
+    "retained-condition-schema.json": "f38831f064e8427e03733f7ad02aa839d3b8ad5820427f37679639927dcb7b64",
+    "retained-schema-columns.json": "38b0ddac3f6117e5cacf316db3ae2c1c16caafb7cb22357cca0dc4db05461d86",
+    "spells-source-contract.json": "1e0cc3cba6ea148358f9eaa5b1fd29f6356d531e3388a8af7345c68e05eb02bf"
+  },
+  "outputs": {
+    "README.md": "44687d909825a6d6425be8dcaa82b0a652e56d80bbda1ba95ef0de23ff11f6c8",
+    "actor-role-bindings.json": "ef292598202390d351072d0a69b9d462f31a3513ad42e28cf11f513a13115e2b",
+    "apply.sql.disabled": "38502ca0a41c1ecfab551d82b67fc9b8e350aae7841bc357365d463152aaf26e",
+    "compose.py": "04a72701cf6e11d5f45376c8c7f120644a07697627160130320a6cf6753b3ede",
+    "encounter-owner-handoff.json": "bf08e7738f2b19d1fac1f536b3d546945633e724de5eb4a3f22b5fabdbccc4d2",
+    "payload.json": "0487b5284da687a317ab02b37dcbf1802ef537327a2958b7b89d01278dd8a5e6",
+    "placement-role-bindings.json": "d74dcb5e67b7db9672f818dcac403e83af249f3eef5a96ec78b7b3be6dd80a71",
+    "rollback.sql.disabled": "1ee6d29246f34235a4d7479656b036c9189b8f54d02f79312a90de9d6ee0ccfe"
+  },
+  "no_range_extension": true,
+  "excluded_allocations": [
+    "migration/schema journal/version IDs"
+  ],
+  "validation": "Offline exact reservation/role/count composition only; no SQL execution, DB query or runtime/test campaign",
+  "blockers": [
+    "Nativefloor/LOS/path and exactcosmetic acceptance",
+    "Runtime persistent condition acknowledgement and owned native open attribution require Spells implementation/acceptance"
+  ],
+  "terminal_choice": "Local native open of owned class62 chest completes existing activity18,19 total; historical Hail/open unresolved"
+}
