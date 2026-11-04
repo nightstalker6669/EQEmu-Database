@@ -1,0 +1,39 @@
+{
+  "format_version": 1,
+  "batch": "RRC097",
+  "source_commit": "90ba77b64aa2e5836a11686c20c3ae3298224e5c",
+  "source_sha256": "1e6d95ea6f07003fb5626950615aa3603b9cc2e86e361032c180e71ae8b98ebf",
+  "application_status": "APPLIED_VERIFIED",
+  "SQL_invocations": 1,
+  "recipes_added": 23,
+  "entries_added": 170,
+  "recipe_id_range": [
+    3093970,
+    3093992
+  ],
+  "independent_affected_postimages_exact": true,
+  "global_after_counts": {
+    "recipes": 25816,
+    "entries": 194710
+  },
+  "unchanged_legacy_recipes": [
+    650,
+    857
+  ],
+  "unchanged_legacy_entries": 14,
+  "old_prototypes_exact": true,
+  "learned_references": "Preserved per owner/coordinator receipt; rollback guards learned references.",
+  "existing_row_changes": "No UPDATE/DELETE of existing recipes; additive exact-ID inserts only. Global old-row diff was not repeated.",
+  "player_item_writes": false,
+  "native_actions": false,
+  "source_documents": "Exact original source files retain their preparation-time status; this separate summary records actual application.",
+  "era_disposition": "EXPLICITLABELLED_RECONSTRUCTION",
+  "historical_qualification": "LABELLED_RECONSTRUCTION: dated 2008 Hide-family support, not individually authenticated May2013 formulas or physical outputs; uncertainty retained. 18 absent exact source outputs and 3 class-mask differences excluded; legacy650/857 preserved.",
+  "family_context": "Dated April 2008 Hide-family support for levels1\u201349; per-formula May2013 authenticity remains uncertain.",
+  "excluded_outputs": {
+    "absent_exact_source": 18,
+    "class_mask_mismatch": 3
+  },
+  "all_formulas_historically_authenticated": false,
+  "native_craft_acceptance": false
+}
