@@ -1,0 +1,241 @@
+{
+  "batch": "RRC101",
+  "branch": "rof2-tradeskills",
+  "status": "SOURCE_PROPOSAL_NOT_APPLIED_LABELLED_RECONSTRUCTION",
+  "proposed_ids": [
+    3094018,
+    3094018
+  ],
+  "counts": {
+    "recipes": 1,
+    "entries": 9,
+    "item_dependencies": 9,
+    "unchanged_prototype_recipes": 0,
+    "unchanged_prototype_entries": 0
+  },
+  "recipes": [
+    {
+      "id": 3094018,
+      "name": "Chum",
+      "tradeskill": 55,
+      "skillneeded": 0,
+      "trivial": 75,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary Chum reconstruction; native33648; RRC101.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 13,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    }
+  ],
+  "entries": [
+    {
+      "recipe_id": 3094018,
+      "item_id": 33648,
+      "successcount": 11,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094018,
+      "item_id": 32057,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094018,
+      "item_id": 9753,
+      "successcount": 1,
+      "failcount": 1,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094018,
+      "item_id": 13019,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094018,
+      "item_id": 32062,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094018,
+      "item_id": 32058,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094018,
+      "item_id": 32063,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094018,
+      "item_id": 17048,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3094018,
+      "item_id": 17163,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    }
+  ],
+  "item_dependencies": [
+    {
+      "id": 9753,
+      "name": "Filleting Knife"
+    },
+    {
+      "id": 13019,
+      "name": "Fresh Fish"
+    },
+    {
+      "id": 17048,
+      "name": "Tackle Box"
+    },
+    {
+      "id": 17163,
+      "name": "Collapsible Tackle Box"
+    },
+    {
+      "id": 32057,
+      "name": "Barren Croaker"
+    },
+    {
+      "id": 32058,
+      "name": "Seaperch"
+    },
+    {
+      "id": 32062,
+      "name": "Herring"
+    },
+    {
+      "id": 32063,
+      "name": "Sprat"
+    },
+    {
+      "id": 33648,
+      "name": "Chum"
+    }
+  ],
+  "unchanged_prototype_recipes": [],
+  "unchanged_prototype_entries": [],
+  "source_facts": [
+    {
+      "recipe_id": 3094018,
+      "source_name": "Chum",
+      "output_item_id": 33648,
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=38&rsa=Fishing",
+      "output_source_url": "https://www.eqtraders.com/items/show_item.php?item=32793&menustr=010000000000",
+      "trivial": 75,
+      "yield_count": 11,
+      "ingredients": [
+        {
+          "item_id": 32057,
+          "name": "Barren Croaker",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=27655"
+        },
+        {
+          "item_id": 9753,
+          "name": "Filleting Knife",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=1212"
+        },
+        {
+          "item_id": 13019,
+          "name": "Fresh Fish",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=1198"
+        },
+        {
+          "item_id": 32062,
+          "name": "Herring",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=32792"
+        },
+        {
+          "item_id": 32058,
+          "name": "Seaperch",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=27504"
+        },
+        {
+          "item_id": 32063,
+          "name": "Sprat",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=32791"
+        }
+      ],
+      "container_item_ids": [
+        17048,
+        17163
+      ],
+      "held_source_furniture": [
+        {
+          "name": "Fly Making Bench (Placeable)",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34466"
+        },
+        {
+          "name": "Fly Making Bench",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34479"
+        },
+        {
+          "name": "Guild Fly Making Bench",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=38417"
+        }
+      ],
+      "source_formula": "Components: Barren Croaker, Filleting Knife, Fresh Fish, Herring, Seaperch, Sprat\nIn: Tackle Box, Collapsible Tackle Box, Fly Making Bench (Placeable), Fly Making Bench, Guild Fly Making Bench\nYield: 11\nAlso Returns: Filleting Knife(1)\nOn Failure Returns: Filleting Knife(1)\nNotes: EQRecipeID: 11296\nQuest: Fishing Supplies (Artisan's Prize)"
+    }
+  ],
+  "restriction_review": {
+    "identity": "Explicit primary Chum output33648. Native32057 is BarrenCroaker input, not output; no guessed EQTC/nativeID equivalence.",
+    "era": "LABELLED_RECONSTRUCTION: maintained current formula, no independently authenticated individual May2013 cutoff. ArtisanPrize annotation and oldTBSfish presence do not date the recipe; no specific positivepostcutoff conflict found in finite lookup.",
+    "gates": "New expansion13 is an explicit conservative configured TBSingredient-family availability floor, not a recovered introduction date. New learning0/minimum0; existing definitions/gates untouched.",
+    "quantity": "Six explicit one-unit ingredients fill six native slots and fit size2box. Yield11 fits native output stacksize20. Returned FilletingKnife success/failure1 and salvage0; other ingredient salvage1.",
+    "containers": "Only explicit17048TackleBox and17163CollapsibleTackleBox, nativebagtype46/sixslots. No inferred generic46/furniture route.",
+    "preservation": "Insert-only; no existing producer/name or complete-input/effective-kit collision. No artificial old-peer dependency. Exact target postimages and learned references guarded.",
+    "limits": "Three absent Sparkling output IDs remain held without item fabrication; Soggy147 and sourceunknowntrivial/omittedknife-return limits remain unchanged. No item/vendor/drop/skillcap/player/runtime mutation or native combine/use acceptance."
+  },
+  "source_urls": [
+    "https://www.eqtraders.com/recipes/recipe_page.php?article=38&rsa=Fishing",
+    "https://www.eqtraders.com/items/show_item.php?item=32793&menustr=010000000000"
+  ],
+  "migration_dependencies": []
+}
