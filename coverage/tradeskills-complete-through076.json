@@ -1,0 +1,4045 @@
+{
+  "format_version": 1,
+  "through075": {
+    "applied_batches": 74,
+    "added_recipes": 2628,
+    "added_entries": 14302,
+    "after_counts": {
+      "recipes": 25451,
+      "entries": 191921
+    }
+  },
+  "through076": {
+    "applied_batches": 75,
+    "added_recipes": 2632,
+    "added_entries": 14336,
+    "after_counts": {
+      "recipes": 25455,
+      "entries": 191955
+    }
+  },
+  "corrections": {
+    "ingredient_item_IDs": 18,
+    "failure_salvage_pairs": 8,
+    "return_rows_added_in_RRC073": 4
+  },
+  "ordering": "Replay committed revisions in numeric batch order, omitting held014 and all failed/preexecution attempts. Each apply is guarded for its recorded target; this index does not authorize replay against another baseline. Rollbacks reverse applied order; honor the explicit072\u2192073 dependency.",
+  "limitations": [
+    "RRC001 receipt retains abbreviated publication pin b2db1e40; no full hash invented or fetched.",
+    "Publication-manifest flags describe prepublication intent; committed receipt determines actual application.",
+    "Native combine and May2013 historical correctness are not proved by application receipts.",
+    "Registry fields can retain superseded proposal metadata; committed receipt and matching_apply_manifests take precedence."
+  ],
+  "records": [
+    {
+      "batch": "RRC001",
+      "status": "APPLIED",
+      "committed_pin": "b2db1e40",
+      "committed_apply_sha256": "e3dc3f4f0c0003d21ebe072740c799084fe36d6d5a32801a74823a7d64fd1fa6",
+      "added": {
+        "recipes": 19,
+        "entries": 104
+      },
+      "kind": "new_recipes",
+      "ordered_after": null,
+      "manifest_revisions": [
+        {
+          "recorded_branch": "rof2-tradeskills",
+          "files": {
+            "extensions/rof2/tradeskills/recipes/RRC001/README.md": {
+              "pre_sha256": null,
+              "post_sha256": "be4bb6348443810b89f64b231d51827e9df5b5ab161eef5e9167455032719290"
+            },
+            "extensions/rof2/tradeskills/recipes/RRC001/apply.sql": {
+              "pre_sha256": null,
+              "post_sha256": "e3dc3f4f0c0003d21ebe072740c799084fe36d6d5a32801a74823a7d64fd1fa6"
+            },
+            "extensions/rof2/tradeskills/recipes/RRC001/batch.json": {
+              "pre_sha256": null,
+              "post_sha256": "e4b3771561cfd306e2d8c90145ae109cf6eb1c4dfab526e7569415a65d8b9b7c"
+            },
+            "extensions/rof2/tradeskills/recipes/RRC001/rollback.sql": {
+              "pre_sha256": null,
+              "post_sha256": "83558481d8c9e8180179f6f888b6a8b9b6f89b6ae565609f062c24670e7497a9"
+            }
+          },
+          "other_batch_changes": {}
+        },
+        {
+          "recorded_branch": "rof2-tradeskills",
+          "files": {
+            "extensions/rof2/tradeskills/recipes/RRC001/VALIDATION.json": {
+              "pre_sha256": null,
+              "post_sha256": "429d88b283124163d6cd10376bbe5a847b6d31d2b56d82e5ef51f58a7f33d7bc"
+            },
+            "extensions/rof2/tradeskills/recipes/RRC001/APPLIED.json": {
+              "pre_sha256": null,
+              "post_sha256": "4e27b57a7def7e40acfd86ed075d5a82958b9f051e5c97a8834e1dfeb3967e2b"
+            }
+          },
+          "other_batch_changes": {}
+        }
+      ],
+      "attempt_history": [
+        {
+          "status": "APPLIED_VERIFIED_EXACT19RECIPES_104ENTRIES",
+          "source_sha256": "e3dc3f4f0c0003d21ebe072740c799084fe36d6d5a32801a74823a7d64fd1fa6",
+          "published_commit": "b2db1e40",
+          "SQL_client_exit": 0,
+          "source_SQL_invocations": 1,
+          "has_stop_readback": false
+        }
+      ],
+      "source_pin_limit": "Only abbreviatedb2db1e40retained; no fullcommit invented."
+    },
+    {
+      "batch": "RRC002",
+      "status": "APPLIED",
+      "committed_pin": "8d15b8ae642d0500eb48594664f99455fb953572",
+      "committed_apply_sha256": "0be685df4887c6e33a846ac9a5e15a4b337121961974227fc8ab03e875cf7aa7",
+      "added": {
+        "recipes": 10,
+        "entries": 68
+      },
+      "kind": "new_recipes",
+      "ordered_after": "RRC001",
+      "manifest_revisions": [
+        {
+          "recorded_branch": "rof2-tradeskills",
+          "files": {
+            "extensions/rof2/tradeskills/recipes/RRC002/README.md": {
+              "pre_sha256": null,
+              "post_sha256": "a3e21c383a92eb0b64e503915fecaeed970a0662a4262a5831a4d73df3b51118"
+            },
+            "extensions/rof2/tradeskills/recipes/RRC002/apply.sql": {
+              "pre_sha256": null,
+              "post_sha256": "0be685df4887c6e33a846ac9a5e15a4b337121961974227fc8ab03e875cf7aa7"
+            },
+            "extensions/rof2/tradeskills/recipes/RRC002/batch.json": {
+              "pre_sha256": null,
+              "post_sha256": "ab6ad65e66a9ab09b6213e9f93285d3927c1fa83aa222ecc9da91a6c1a127c84"
+            },
+            "extensions/rof2/tradeskills/recipes/RRC002/rollback.sql": {
+              "pre_sha256": null,
+              "post_sha256": "9b3bd1784f1495611d0b50d625e7cd8ee906b50a09c272b3162c733e981b3cf1"
+            }
+          },
+          "other_batch_changes": {
+            "extensions/rof2/tradeskills/recipes/RRC001/APPLIED.json": {
+              "pre_sha256": null,
+              "post_sha256": "4e27b57a7def7e40acfd86ed075d5a82958b9f051e5c97a8834e1dfeb3967e2b"
+            },
+            "extensions/rof2/tradeskills/recipes/RRC001/VALIDATION.json": {
+              "pre_sha256": null,
+              "post_sha256": "429d88b283124163d6cd10376bbe5a847b6d31d2b56d82e5ef51f58a7f33d7bc"
+            }
+          }
+        }
+      ],
+      "attempt_history": [
+        {
+          "status": "APPLIED_VERIFIED_EXACT10RECIPES_68ENTRIES",
+          "source_sha256": "0be685df4887c6e33a846ac9a5e15a4b337121961974227fc8ab03e875cf7aa7",
+          "published_commit": "8d15b8ae642d0500eb48594664f99455fb953572",
+          "SQL_client_exit": 0,
+          "source_SQL_invocations": 1,
+          "has_stop_readback": false
+        }
+      ]
+    },
+    {
+      "batch": "RRC003",
+      "status": "APPLIED",
+      "committed_pin": "e44b7b8ae113adfada7fa79b16ff86f8f8382f13",
+      "committed_apply_sha256": "d16076c8262676f5a7d7f6e33ff99ab96f0e45be062591b3486f49427d750700",
+      "added": {
+        "recipes": 64,
+        "entries": 354
+      },
+      "kind": "new_recipes",
+      "ordered_after": "RRC002",
+      "manifest_revisions": [
+        {
+          "recorded_branch": "rof2-tradeskills",
+          "files": {
+            "extensions/rof2/tradeskills/recipes/RRC003/README.md": {
+              "pre_sha256": null,
+              "post_sha256": "b736201a91004c9ce85d0231529347961e90ffa8051d3dc16aae86effa08e5a9"
+            },
+            "extensions/rof2/tradeskills/recipes/RRC003/apply.sql": {
+              "pre_sha256": null,
+              "post_sha256": "d16076c8262676f5a7d7f6e33ff99ab96f0e45be062591b3486f49427d750700"
+            },
+            "extensions/rof2/tradeskills/recipes/RRC003/batch.json": {
+              "pre_sha256": null,
+              "post_sha256": "7b7f475f9d401a73d1808f7ed057a6830486f0327fc7ebef65b598705a29dea6"
+            },
+            "extensions/rof2/tradeskills/recipes/RRC003/rollback.sql": {
+              "pre_sha256": null,
+              "post_sha256": "500d0daa71cbc08e452b9a2fbf3d8506a81fabfb4e54271240fb4a78fe629f63"
+            }
+          },
+          "other_batch_changes": {
+            "extensions/rof2/tradeskills/recipes/RRC002/APPLIED.json": {
+              "pre_sha256": null,
+              "post_sha256": "ba3a0d7f206db81b41e16cb3d079dd72bf55082f1068f12090ff81bbe287c1c7"
+            },
+            "extensions/rof2/tradeskills/recipes/RRC002/VALIDATION.json": {
+              "pre_sha256": null,
+              "post_sha256": "ec7f5066a4586a30716fd69269bde3098324137e10536ea203a6f7ed1c78fb38"
+            }
+          }
+        }
+      ],
+      "attempt_history": [
+        {
+          "status": "APPLIED_VERIFIED_EXACT64RECIPES_354ENTRIES",
+          "source_sha256": "d16076c8262676f5a7d7f6e33ff99ab96f0e45be062591b3486f49427d750700",
+          "published_commit": "e44b7b8ae113adfada7fa79b16ff86f8f8382f13",
+          "SQL_client_exit": 0,
+          "source_SQL_invocations": 1,
+          "has_stop_readback": false
+        }
+      ]
+    },
+    {
+      "batch": "RRC004",
+      "status": "APPLIED",
+      "committed_pin": "952a48464f73fa657e906359b048f4fa60087c12",
+      "committed_apply_sha256": "bd0489c3b9734eaa2fc7e8c4ea4713bbef31b4a3140940b31853ff2f54ad14a5",
+      "added": {
+        "recipes": 8,
+        "entries": 51
+      },
+      "kind": "new_recipes",
+      "ordered_after": "RRC003",
+      "manifest_revisions": [
+        {
+          "recorded_branch": "rof2-tradeskills",
+          "files": {
+            "extensions/rof2/tradeskills/recipes/RRC004/README.md": {
+              "pre_sha256": null,
+              "post_sha256": "015039cd7556035c8ee3829af938d78883aa62c1e6c331c6bede0eee370e4410"
+            },
+            "extensions/rof2/tradeskills/recipes/RRC004/apply.sql": {
+              "pre_sha256": null,
+              "post_sha256": "bd0489c3b9734eaa2fc7e8c4ea4713bbef31b4a3140940b31853ff2f54ad14a5"
+            },
+            "extensions/rof2/tradeskills/recipes/RRC004/batch.json": {
+              "pre_sha256": null,
+              "post_sha256": "33776946ca290b8da7be39bdb159157a8524d78663c816c2a24f1f3e3826a3e1"
+            },
+            "extensions/rof2/tradeskills/recipes/RRC004/rollback.sql": {
+              "pre_sha256": null,
+              "post_sha256": "7d02e0508e65a84819e8c2c1d9fcb547a6e41d8eef69641e2f01622c5fb15da6"
+            }
+          },
+          "other_batch_changes": {
+            "extensions/rof2/tradeskills/recipes/RRC003/APPLIED.json": {
+              "pre_sha256": null,
+              "post_sha256": "0d2a3900f3d1e5592ddc1ea61c235f9647da483354a7eb6b2460184129f7d04f"
+            },
+            "extensions/rof2/tradeskills/recipes/RRC003/VALIDATION.json": {
+              "pre_sha256": null,
+              "post_sha256": "bd33881700257115460c8e8724220c49483f2e72f1e312bbc3401616ffda90c9"
+            }
+          }
+        }
+      ],
+      "attempt_history": [
+        {
+          "status": "APPLIED_VERIFIED_EXACT8RECIPES_51ENTRIES",
+          "source_sha256": "bd0489c3b9734eaa2fc7e8c4ea4713bbef31b4a3140940b31853ff2f54ad14a5",
+          "published_commit": "952a48464f73fa657e906359b048f4fa60087c12",
+          "SQL_client_exit": 0,
+          "source_SQL_invocations": 1,
+          "has_stop_readback": false
+        }
+      ]
+    },
+    {
+      "batch": "RRC005",
+      "status": "APPLIED",
+      "committed_pin": "9d6af63a61313a621d6c40b55da49083eedecc73",
+      "committed_apply_sha256": "3a48ed44a67a33bbe028d1477a5752a9435dd6e07ecaf8bf82957eff9508db8e",
+      "added": {
+        "recipes": 9,
+        "entries": 67
+      },
+      "kind": "new_recipes",
+      "ordered_after": "RRC004",
+      "manifest_revisions": [
+        {
+          "recorded_branch": "rof2-tradeskills",
+          "files": {
+            "extensions/rof2/tradeskills/recipes/RRC005/README.md": {
+              "pre_sha256": null,
+              "post_sha256": "e3a4fecc6522ac28512971d064a91242ea02eec46ec4e120290cad287686c461"
+            },
+            "extensions/rof2/tradeskills/recipes/RRC005/apply.sql": {
+              "pre_sha256": null,
+              "post_sha256": "3a48ed44a67a33bbe028d1477a5752a9435dd6e07ecaf8bf82957eff9508db8e"
+            },
+            "extensions/rof2/tradeskills/recipes/RRC005/batch.json": {
+              "pre_sha256": null,
+              "post_sha256": "4a4ed3737cb4067bc8ec81466d547ee8bc386006638d4a0df471d42e91c8d14f"
+            },
+            "extensions/rof2/tradeskills/recipes/RRC005/rollback.sql": {
+              "pre_sha256": null,
+              "post_sha256": "88083fb1d217e3fe7bb8192c2b8671798d672fb55fabde6862c9f38ca24ed21f"
+            }
+          },
+          "other_batch_changes": {
+            "extensions/rof2/tradeskills/recipes/RRC004/APPLIED.json": {
+              "pre_sha256": null,
+              "post_sha256": "b6577b9b06b323feaa200325b551a3885cc80c9357f84dacf1cb48d7971d07be"
+            },
+            "extensions/rof2/tradeskills/recipes/RRC004/VALIDATION.json": {
+              "pre_sha256": null,
+              "post_sha256": "94736d6535fefec6b5b57089162c00d930bf3db384df719102d0220d3a602f32"
+            }
+          }
+        }
+      ],
+      "attempt_history": [
+        {
+          "status": "APPLIED_VERIFIED_EXACT9RECIPES_67ENTRIES",
+          "source_sha256": "3a48ed44a67a33bbe028d1477a5752a9435dd6e07ecaf8bf82957eff9508db8e",
+          "published_commit": "9d6af63a61313a621d6c40b55da49083eedecc73",
+          "SQL_client_exit": 0,
+          "source_SQL_invocations": 1,
+          "has_stop_readback": false
+        }
+      ]
+    },
+    {
+      "batch": "RRC006",
+      "status": "APPLIED",
+      "committed_pin": "c3d373da344fd9cb3b6090aa18fedecf42721641",
+      "committed_apply_sha256": "bb7b97e50190f45992fb964bf8c5ad125f890a7ad7a6e0bd9801ca45bec45ee0",
+      "added": {
+        "recipes": 10,
+        "entries": 50
+      },
+      "kind": "new_recipes",
+      "ordered_after": "RRC005",
+      "manifest_revisions": [
+        {
+          "recorded_branch": "rof2-tradeskills",
+          "files": {
+            "extensions/rof2/tradeskills/recipes/RRC006/README.md": {
+              "pre_sha256": null,
+              "post_sha256": "c271e7cc967aff371171c801c799e9776a518bc23b9c2d260c5b2b6ce16e9d07"
+            },
+            "extensions/rof2/tradeskills/recipes/RRC006/apply.sql": {
+              "pre_sha256": null,
+              "post_sha256": "bb7b97e50190f45992fb964bf8c5ad125f890a7ad7a6e0bd9801ca45bec45ee0"
+            },
+            "extensions/rof2/tradeskills/recipes/RRC006/batch.json": {
+              "pre_sha256": null,
+              "post_sha256": "7d77cb8afd8485e4504de5203d55faa118eac2e7aac1ef9b3d8dc29fe3f6ff9c"
+            },
+            "extensions/rof2/tradeskills/recipes/RRC006/rollback.sql": {
+              "pre_sha256": null,
+              "post_sha256": "92a69b07db5cc42d95b1b927ed97e3f3292e3ed956978d7bde9de084adde231c"
+            }
+          },
+          "other_batch_changes": {}
+        }
+      ],
+      "attempt_history": [
+        {
+          "status": "APPLIED_VERIFIED_EXACT10RECIPES_50ENTRIES",
+          "source_sha256": "bb7b97e50190f45992fb964bf8c5ad125f890a7ad7a6e0bd9801ca45bec45ee0",
+          "published_commit": "c3d373da344fd9cb3b6090aa18fedecf42721641",
+          "SQL_client_exit": 0,
+          "source_SQL_invocations": 1,
+          "has_stop_readback": false
+        }
+      ]
+    },
+    {
+      "batch": "RRC007",
+      "status": "APPLIED",
+      "committed_pin": "9b0114e6b0bbcd4832f62a530d39f8d9eb1e4029",
+      "committed_apply_sha256": "61b694ae21637836bc45eddf17ad12b1f0744f6c7f971986df1f359d7485b304",
+      "added": {
+        "recipes": 91,
+        "entries": 520
+      },
+      "kind": "new_recipes",
+      "ordered_after": "RRC006",
+      "manifest_revisions": [
+        {
+          "recorded_branch": "rof2-tradeskills",
+          "files": {
+            "extensions/rof2/tradeskills/recipes/RRC007/README.md": {
+              "pre_sha256": null,
+              "post_sha256": "42e74d76feec23686658e69606cce7626ed5de2cb09022be01904702b24ee959"
+            },
+            "extensions/rof2/tradeskills/recipes/RRC007/apply.sql": {
+              "pre_sha256": null,
+              "post_sha256": "61b694ae21637836bc45eddf17ad12b1f0744f6c7f971986df1f359d7485b304"
+            },
+            "extensions/rof2/tradeskills/recipes/RRC007/batch.json": {
+              "pre_sha256": null,
+              "post_sha256": "792b0c54c8703185cd739486e670cf3f1602a7fa4a2fdc5ee4524fb01fa51c84"
+            },
+            "extensions/rof2/tradeskills/recipes/RRC007/rollback.sql": {
+              "pre_sha256": null,
+              "post_sha256": "4e4e9cd81106e7105ef9393984f50259539576069b19f85a9ea9c0e55c34118c"
+            }
+          },
+          "other_batch_changes": {}
+        }
+      ],
+      "attempt_history": [
+        {
+          "status": "APPLIED_VERIFIED_EXACT91RECIPES_520ENTRIES",
+          "source_sha256": "61b694ae21637836bc45eddf17ad12b1f0744f6c7f971986df1f359d7485b304",
+          "published_commit": "9b0114e6b0bbcd4832f62a530d39f8d9eb1e4029",
+          "SQL_client_exit": 0,
+          "source_SQL_invocations": 1,
+          "has_stop_readback": false
+        }
+      ]
+    },
+    {
+      "batch": "RRC008",
+      "status": "APPLIED",
+      "committed_pin": "8f50f2d0084486a49940d2d0f0acaf56a9eeeb63",
+      "committed_apply_sha256": "9d4d5cfee97b63f9c207051eb1ab88efda0560b2c01ee6263b5c4ff6e39cff99",
+      "added": {
+        "recipes": 10,
+        "entries": 72
+      },
+      "kind": "new_recipes",
+      "ordered_after": "RRC007",
+      "manifest_revisions": [
+        {
+          "recorded_branch": "rof2-tradeskills",
+          "files": {
+            "extensions/rof2/tradeskills/recipes/RRC008/README.md": {
+              "pre_sha256": null,
+              "post_sha256": "b46c15eeb88626001f5b92b2f770602f250aed48d94aa2026cdb3f83d2a6d3e9"
+            },
+            "extensions/rof2/tradeskills/recipes/RRC008/apply.sql": {
+              "pre_sha256": null,
+              "post_sha256": "9d4d5cfee97b63f9c207051eb1ab88efda0560b2c01ee6263b5c4ff6e39cff99"
+            },
+            "extensions/rof2/tradeskills/recipes/RRC008/batch.json": {
+              "pre_sha256": null,
+              "post_sha256": "37fd2afbaac7b29829e96900a033b65d25179f24e2c79e98db7d6f57e0296adf"
+            },
+            "extensions/rof2/tradeskills/recipes/RRC008/rollback.sql": {
+              "pre_sha256": null,
+              "post_sha256": "c3d6699c27731fcc89990a7997e5174fc3e17177b56c44592b027b9659d96d6c"
+            }
+          },
+          "other_batch_changes": {}
+        }
+      ],
+      "attempt_history": [
+        {
+          "status": "APPLIED_VERIFIED_EXACT10RECIPES_72ENTRIES",
+          "source_sha256": "9d4d5cfee97b63f9c207051eb1ab88efda0560b2c01ee6263b5c4ff6e39cff99",
+          "published_commit": "8f50f2d0084486a49940d2d0f0acaf56a9eeeb63",
+          "SQL_client_exit": 0,
+          "source_SQL_invocations": 1,
+          "has_stop_readback": false
+        }
+      ]
+    },
+    {
+      "batch": "RRC009",
+      "status": "APPLIED",
+      "committed_pin": "ee7d9a05f87db29a850fea39f911c1d6449f1c75",
+      "committed_apply_sha256": "ba03aeadc50eef4113c620b3ad955f3bbe051d92d926c6af835b0390cf6c6c38",
+      "added": {
+        "recipes": 28,
+        "entries": 127
+      },
+      "kind": "new_recipes",
+      "ordered_after": "RRC008",
+      "manifest_revisions": [
+        {
+          "recorded_branch": "rof2-tradeskills",
+          "files": {
+            "extensions/rof2/tradeskills/recipes/RRC009/README.md": {
+              "pre_sha256": null,
+              "post_sha256": "b7c48ade7566256ae91850f64f1ce5fed3aaa9dd6f2d91de56fa5e1e4b871852"
+            },
+            "extensions/rof2/tradeskills/recipes/RRC009/apply.sql": {
+              "pre_sha256": null,
+              "post_sha256": "ba03aeadc50eef4113c620b3ad955f3bbe051d92d926c6af835b0390cf6c6c38"
+            },
+            "extensions/rof2/tradeskills/recipes/RRC009/batch.json": {
+              "pre_sha256": null,
+              "post_sha256": "8ffe11efc73b1e5536e455cde26fdb7210d29059c1238d0438856aec0e02ebb1"
+            },
+            "extensions/rof2/tradeskills/recipes/RRC009/rollback.sql": {
+              "pre_sha256": null,
+              "post_sha256": "0fd791aa55e844b8ad2f18f45fb19534956d0453c456b0b1e8c2e31f4551eb43"
+            }
+          },
+          "other_batch_changes": {}
+        }
+      ],
+      "attempt_history": [
+        {
+          "status": "APPLIED_VERIFIED_EXACT28RECIPES_127ENTRIES",
+          "source_sha256": "ba03aeadc50eef4113c620b3ad955f3bbe051d92d926c6af835b0390cf6c6c38",
+          "published_commit": "ee7d9a05f87db29a850fea39f911c1d6449f1c75",
+          "SQL_client_exit": 0,
+          "source_SQL_invocations": 1,
+          "has_stop_readback": false
+        }
+      ]
+    },
+    {
+      "batch": "RRC010",
+      "status": "APPLIED",
+      "committed_pin": "174244120a7074f1df3b4b08b9c24631ea6b4904",
+      "committed_apply_sha256": "f444d52c40b67cb4945c0509f2d52afb9db95ef7d81fae0ceb9cd590d5fc2759",
+      "added": {
+        "recipes": 8,
+        "entries": 41
+      },
+      "kind": "new_recipes",
+      "ordered_after": "RRC009",
+      "manifest_revisions": [
+        {
+          "recorded_branch": "rof2-tradeskills",
+          "files": {
+            "extensions/rof2/tradeskills/recipes/RRC010/README.md": {
+              "pre_sha256": null,
+              "post_sha256": "2e823ead851107359a40fda92def84d7bd1286401520c535daf42cc818df6e35"
+            },
+            "extensions/rof2/tradeskills/recipes/RRC010/apply.sql": {
+              "pre_sha256": null,
+              "post_sha256": "f444d52c40b67cb4945c0509f2d52afb9db95ef7d81fae0ceb9cd590d5fc2759"
+            },
+            "extensions/rof2/tradeskills/recipes/RRC010/batch.json": {
+              "pre_sha256": null,
+              "post_sha256": "2193e4836b1470eb3c4d20fa15ed10127f55751ac0c47b2723b379e32ab4a41f"
+            },
+            "extensions/rof2/tradeskills/recipes/RRC010/rollback.sql": {
+              "pre_sha256": null,
+              "post_sha256": "621e894c70ae35e5ef52abc6eb7af696b61a8907eb4834a039dc57d2eb9d2578"
+            }
+          },
+          "other_batch_changes": {}
+        }
+      ],
+      "attempt_history": [
+        {
+          "status": "APPLIED_VERIFIED_EXACT8RECIPES_41ENTRIES",
+          "source_sha256": "f444d52c40b67cb4945c0509f2d52afb9db95ef7d81fae0ceb9cd590d5fc2759",
+          "published_commit": "174244120a7074f1df3b4b08b9c24631ea6b4904",
+          "SQL_client_exit": 0,
+          "source_SQL_invocations": 1,
+          "has_stop_readback": false
+        }
+      ]
+    },
+    {
+      "batch": "RRC011",
+      "status": "APPLIED",
+      "committed_pin": "810723ffb403bebd97f9b93f27ec31c623663625",
+      "committed_apply_sha256": "a3c52be77b721ced66705ec45deee0d24f0e4251ccabdffe47996a07b8887293",
+      "added": {
+        "recipes": 9,
+        "entries": 60
+      },
+      "kind": "new_recipes",
+      "ordered_after": "RRC010",
+      "manifest_revisions": [
+        {
+          "recorded_branch": "rof2-tradeskills",
+          "files": {
+            "extensions/rof2/tradeskills/recipes/RRC011/README.md": {
+              "pre_sha256": null,
+              "post_sha256": "42b8ee733c3aa8b9d415bf85a4ecec47003ab9accc903529b5532ac4a4d62e7c"
+            },
+            "extensions/rof2/tradeskills/recipes/RRC011/apply.sql": {
+              "pre_sha256": null,
+              "post_sha256": "a3c52be77b721ced66705ec45deee0d24f0e4251ccabdffe47996a07b8887293"
+            },
+            "extensions/rof2/tradeskills/recipes/RRC011/batch.json": {
+              "pre_sha256": null,
+              "post_sha256": "021a0a11aef0e9106678e77e39c257508e61e6b624d76a7a44a0316ca1d23e78"
+            },
+            "extensions/rof2/tradeskills/recipes/RRC011/rollback.sql": {
+              "pre_sha256": null,
+              "post_sha256": "534138b86fc7475711c848255d4454439549107bb5cc1bbb56fa4e3cfd50ffb5"
+            }
+          },
+          "other_batch_changes": {}
+        }
+      ],
+      "attempt_history": [
+        {
+          "status": "APPLIED_VERIFIED_EXACT9RECIPES_60ENTRIES",
+          "source_sha256": "a3c52be77b721ced66705ec45deee0d24f0e4251ccabdffe47996a07b8887293",
+          "published_commit": "810723ffb403bebd97f9b93f27ec31c623663625",
+          "SQL_client_exit": 0,
+          "source_SQL_invocations": 1,
+          "has_stop_readback": false
+        }
+      ]
+    },
+    {
+      "batch": "RRC012",
+      "status": "APPLIED",
+      "committed_pin": "71b99f5721fac2b81f44f6878d733b1b41f30370",
+      "committed_apply_sha256": "25ad9824cd0b3f50d1651128e9f163a4dece10a07b6f627f8fd4d45be4e5c46f",
+      "added": {
+        "recipes": 9,
+        "entries": 56
+      },
+      "kind": "new_recipes",
+      "ordered_after": "RRC011",
+      "manifest_revisions": [
+        {
+          "recorded_branch": "rof2-tradeskills",
+          "files": {
+            "extensions/rof2/tradeskills/recipes/RRC012/README.md": {
+              "pre_sha256": null,
+              "post_sha256": "cafa77da2f243c41ee2d1a7363da2810f53b78b91e3c0a886b5271d80248b606"
+            },
+            "extensions/rof2/tradeskills/recipes/RRC012/apply.sql": {
+              "pre_sha256": null,
+              "post_sha256": "25ad9824cd0b3f50d1651128e9f163a4dece10a07b6f627f8fd4d45be4e5c46f"
+            },
+            "extensions/rof2/tradeskills/recipes/RRC012/batch.json": {
+              "pre_sha256": null,
+              "post_sha256": "c5146f0ab5005a2f6faa66caab07f5991b562d459eee030c073729c8445924ac"
+            },
+            "extensions/rof2/tradeskills/recipes/RRC012/rollback.sql": {
+              "pre_sha256": null,
+              "post_sha256": "75e95e233b836f8fdab1c39ce33f98ad101c4530c8621368e7c7a450648701f8"
+            }
+          },
+          "other_batch_changes": {}
+        }
+      ],
+      "attempt_history": [
+        {
+          "status": "APPLIED_VERIFIED_EXACT9RECIPES_56ENTRIES",
+          "source_sha256": "25ad9824cd0b3f50d1651128e9f163a4dece10a07b6f627f8fd4d45be4e5c46f",
+          "published_commit": "71b99f5721fac2b81f44f6878d733b1b41f30370",
+          "SQL_client_exit": 0,
+          "source_SQL_invocations": 1,
+          "has_stop_readback": false
+        }
+      ]
+    },
+    {
+      "batch": "RRC013",
+      "status": "APPLIED",
+      "committed_pin": "d9d77921036e588f5458f07e44c620602c673d2a",
+      "committed_apply_sha256": "ea013461917e0de02763156c44815ab291b0765e824c0bc8285651b3862e6b2b",
+      "added": {
+        "recipes": 8,
+        "entries": 40
+      },
+      "kind": "new_recipes",
+      "ordered_after": "RRC012",
+      "manifest_revisions": [
+        {
+          "recorded_branch": "rof2-tradeskills",
+          "files": {
+            "extensions/rof2/tradeskills/recipes/RRC013/README.md": {
+              "pre_sha256": null,
+              "post_sha256": "fd5ec7aa203d6f5d920066cd492ad4a9087bcd1f3a1b5469f9f6708307d0e565"
+            },
+            "extensions/rof2/tradeskills/recipes/RRC013/apply.sql": {
+              "pre_sha256": null,
+              "post_sha256": "ea013461917e0de02763156c44815ab291b0765e824c0bc8285651b3862e6b2b"
+            },
+            "extensions/rof2/tradeskills/recipes/RRC013/batch.json": {
+              "pre_sha256": null,
+              "post_sha256": "d262a9fdfa36b7029b24fd3db19df1e1782ba828da38f3a4574092cc08e18505"
+            },
+            "extensions/rof2/tradeskills/recipes/RRC013/rollback.sql": {
+              "pre_sha256": null,
+              "post_sha256": "8353d442c2f4a87e7e7d818cd1ed7b64190c98c7694aa54eb62a9e1b88dd4afc"
+            }
+          },
+          "other_batch_changes": {}
+        }
+      ],
+      "attempt_history": [
+        {
+          "status": "APPLIED_VERIFIED_EXACT8RECIPES_40ENTRIES",
+          "source_sha256": "ea013461917e0de02763156c44815ab291b0765e824c0bc8285651b3862e6b2b",
+          "published_commit": "d9d77921036e588f5458f07e44c620602c673d2a",
+          "SQL_client_exit": 0,
+          "source_SQL_invocations": 1,
+          "has_stop_readback": false
+        }
+      ]
+    },
+    {
+      "batch": "RRC014",
+      "status": "HELD_NOT_APPLIED",
+      "ordered_after": "RRC013",
+      "manifest_revisions": [
+        {
+          "recorded_branch": "rof2-tradeskills",
+          "files": {
+            "extensions/rof2/tradeskills/recipes/RRC014/README.md": {
+              "pre_sha256": null,
+              "post_sha256": "512f7b7c00cee661667484c582f16d911cf9f036705b09ce7daac5e8ab41f3b5"
+            },
+            "extensions/rof2/tradeskills/recipes/RRC014/STRUCTURAL-CHECKS.json": {
+              "pre_sha256": null,
+              "post_sha256": "5ef6f2e4dd8cee9e29b7c752269320f68b6b735f3084c10f5135cd78437b8510"
+            },
+            "extensions/rof2/tradeskills/recipes/RRC014/apply.sql": {
+              "pre_sha256": null,
+              "post_sha256": "e54e027fa540be0dee24bc876ae3bdb256018bee74b50879b5839d5fabaacae6"
+            },
+            "extensions/rof2/tradeskills/recipes/RRC014/batch.json": {
+              "pre_sha256": null,
+              "post_sha256": "39972a3d17bde80e63c67acd15d8c0cce0b8cf8f7b436a27c99f80be478dacda"
+            },
+            "extensions/rof2/tradeskills/recipes/RRC014/rollback.sql": {
+              "pre_sha256": null,
+              "post_sha256": "5da35d9db70de8ff1bd5ede9bd9397226649502afe8b59afdba678fa511826d1"
+            }
+          },
+          "other_batch_changes": {}
+        }
+      ],
+      "attempt_history": []
+    },
+    {
+      "batch": "RRC015",
+      "status": "APPLIED",
+      "committed_pin": "1708565bb9ae0d09dcef1c53fdc17b7f504a8c8d",
+      "committed_apply_sha256": "86f4c01b062d7e1a234b90c9f06c42f7bc384e538f617201f15fd0ab341b7e12",
+      "added": {
+        "recipes": 1,
+        "entries": 9
+      },
+      "kind": "new_recipes",
+      "ordered_after": "RRC014",
+      "note": "Attempt001 stopped before SQL; attempt002 is the only committed application. Retain preexecution receipt.",
+      "manifest_revisions": [
+        {
+          "recorded_branch": "rof2-tradeskills",
+          "files": {
+            "extensions/rof2/tradeskills/recipes/RRC015/README.md": {
+              "pre_sha256": null,
+              "post_sha256": "de202fce7238095fc3361e9ad67d1dcbdf46cd359a526a3a1b17f3f1bce33f86"
+            },
+            "extensions/rof2/tradeskills/recipes/RRC015/apply.sql": {
+              "pre_sha256": null,
+              "post_sha256": "86f4c01b062d7e1a234b90c9f06c42f7bc384e538f617201f15fd0ab341b7e12"
+            },
+            "extensions/rof2/tradeskills/recipes/RRC015/rollback.sql": {
+              "pre_sha256": null,
+              "post_sha256": "f39ac66303c6d9707d31f95a60fc7aa59d64019bad2472d5c0391bb67bf578c0"
+            },
+            "extensions/rof2/tradeskills/recipes/RRC015/batch.json": {
+              "pre_sha256": null,
+              "post_sha256": "3d7e9a6b48ec2e7e3a8bab2b11d31cf798213bb74562f7e85596ff9481aae101"
+            }
+          },
+          "other_batch_changes": {}
+        }
+      ],
+      "attempt_history": [
+        {
+          "status": "READONLY_PREFLIGHT_STOP_NO_WRITE_ATTEMPT",
+          "source_sha256": null,
+          "published_commit": null,
+          "SQL_client_exit": null,
+          "source_SQL_invocations": 0,
+          "has_stop_readback": false
+        },
+        {
+          "status": "APPLIED_VERIFIED_EXACT1RECIPE_9ENTRIES",
+          "source_sha256": "86f4c01b062d7e1a234b90c9f06c42f7bc384e538f617201f15fd0ab341b7e12",
+          "published_commit": "1708565bb9ae0d09dcef1c53fdc17b7f504a8c8d",
+          "SQL_client_exit": 0,
+          "source_SQL_invocations": 1,
+          "has_stop_readback": false
+        }
+      ]
+    },
+    {
+      "batch": "RRC016",
+      "status": "APPLIED",
+      "committed_pin": "0b1b1af1fdf5dd81c682f269ee08e539d52b2485",
+      "committed_apply_sha256": "ac7aa28ce536542e3192170142d7219795be743cf3ac87a077085c3757d464c1",
+      "added": {
+        "recipes": 22,
+        "entries": 116
+      },
+      "kind": "new_recipes",
+      "ordered_after": "RRC015",
+      "manifest_revisions": [
+        {
+          "recorded_branch": "rof2-tradeskills",
+          "files": {
+            "extensions/rof2/tradeskills/recipes/RRC016/README.md": {
+              "pre_sha256": null,
+              "post_sha256": "18d6aca48917f3775459d7835ad8352e5b9c94cd73bfe8f8c3255a0d45c4bda8"
+            },
+            "extensions/rof2/tradeskills/recipes/RRC016/apply.sql": {
+              "pre_sha256": null,
+              "post_sha256": "ac7aa28ce536542e3192170142d7219795be743cf3ac87a077085c3757d464c1"
+            },
+            "extensions/rof2/tradeskills/recipes/RRC016/rollback.sql": {
+              "pre_sha256": null,
+              "post_sha256": "533de754c30400c672f7019124d8fd20fd1c88d5273b13b3565c83fb790c5f3d"
+            },
+            "extensions/rof2/tradeskills/recipes/RRC016/batch.json": {
+              "pre_sha256": null,
+              "post_sha256": "461cbf2f36c85b412a453a94f1f69217914aead5f8cf1ccc2fce399b345238fb"
+            }
+          },
+          "other_batch_changes": {}
+        }
+      ],
+      "attempt_history": [
+        {
+          "status": "APPLIED_VERIFIED_EXACT22RECIPES_116ENTRIES",
+          "source_sha256": "ac7aa28ce536542e3192170142d7219795be743cf3ac87a077085c3757d464c1",
+          "published_commit": "0b1b1af1fdf5dd81c682f269ee08e539d52b2485",
+          "SQL_client_exit": 0,
+          "source_SQL_invocations": 1,
+          "has_stop_readback": false
+        }
+      ]
+    },
+    {
+      "batch": "RRC017",
+      "status": "APPLIED",
+      "committed_pin": "487f02e13fd033acb91882c3fb37c754559fc38b",
+      "committed_apply_sha256": "81c519ccc4505875722abde698e0bb9136ae96d18fb007de2509b686902604e9",
+      "added": {
+        "recipes": 34,
+        "entries": 192
+      },
+      "kind": "new_recipes",
+      "ordered_after": "RRC016",
+      "manifest_revisions": [
+        {
+          "recorded_branch": "rof2-tradeskills",
+          "files": {
+            "extensions/rof2/tradeskills/recipes/RRC017/README.md": {
+              "pre_sha256": null,
+              "post_sha256": "f76e54e0c7829d92464d4f9f003e4422c3cfffede5efdabcbe617388c023d875"
+            },
+            "extensions/rof2/tradeskills/recipes/RRC017/apply.sql": {
+              "pre_sha256": null,
+              "post_sha256": "81c519ccc4505875722abde698e0bb9136ae96d18fb007de2509b686902604e9"
+            },
+            "extensions/rof2/tradeskills/recipes/RRC017/rollback.sql": {
+              "pre_sha256": null,
+              "post_sha256": "17567d9e76113f28c8dc6b703076672133f7cf54ee4f53dcd12a06bf620bc432"
+            },
+            "extensions/rof2/tradeskills/recipes/RRC017/batch.json": {
+              "pre_sha256": null,
+              "post_sha256": "a545198894df169bf9c3d9bfea9e2d4d570bcc707498f155a77b0f01c292e874"
+            }
+          },
+          "other_batch_changes": {}
+        }
+      ],
+      "attempt_history": [
+        {
+          "status": "APPLIED_VERIFIED_EXACT34RECIPES_192ENTRIES",
+          "source_sha256": "81c519ccc4505875722abde698e0bb9136ae96d18fb007de2509b686902604e9",
+          "published_commit": "487f02e13fd033acb91882c3fb37c754559fc38b",
+          "SQL_client_exit": 0,
+          "source_SQL_invocations": 1,
+          "has_stop_readback": false
+        }
+      ]
+    },
+    {
+      "batch": "RRC018",
+      "status": "APPLIED",
+      "committed_pin": "5b14e1d189cca0574a5d68d7a6201560f7137425",
+      "committed_apply_sha256": "83e8e05fdce1cb585def48e8d008147df4e63b993a285b867d0054de776e9189",
+      "added": {
+        "recipes": 76,
+        "entries": 425
+      },
+      "kind": "new_recipes",
+      "ordered_after": "RRC017",
+      "manifest_revisions": [
+        {
+          "recorded_branch": "rof2-tradeskills",
+          "files": {
+            "extensions/rof2/tradeskills/recipes/RRC018/README.md": {
+              "pre_sha256": null,
+              "post_sha256": "49b06f4d4e857a17b69cc1f4c937fba1f12c30ad1fb52a8edf50ad9d41855ad0"
+            },
+            "extensions/rof2/tradeskills/recipes/RRC018/apply.sql": {
+              "pre_sha256": null,
+              "post_sha256": "83e8e05fdce1cb585def48e8d008147df4e63b993a285b867d0054de776e9189"
+            },
+            "extensions/rof2/tradeskills/recipes/RRC018/rollback.sql": {
+              "pre_sha256": null,
+              "post_sha256": "f23dbb330bd71ae32707158c13e90d665d6d5e642cfe91550927f20b8cf0266b"
+            },
+            "extensions/rof2/tradeskills/recipes/RRC018/batch.json": {
+              "pre_sha256": null,
+              "post_sha256": "f9dfd03fe026ce83a28fd258961652c19c9df01ceec18281faca85e878561597"
+            }
+          },
+          "other_batch_changes": {}
+        }
+      ],
+      "attempt_history": [
+        {
+          "status": "APPLIED_VERIFIED",
+          "source_sha256": "83e8e05fdce1cb585def48e8d008147df4e63b993a285b867d0054de776e9189",
+          "published_commit": "5b14e1d189cca0574a5d68d7a6201560f7137425",
+          "SQL_client_exit": null,
+          "source_SQL_invocations": null,
+          "has_stop_readback": false
+        }
+      ]
+    },
+    {
+      "batch": "RRC019",
+      "status": "APPLIED",
+      "committed_pin": "5b14e1d189cca0574a5d68d7a6201560f7137425",
+      "committed_apply_sha256": "e2b86564b3909e2665660a9755dea910eb6fda1fecd7e4dd1de8a9cc00e3b80c",
+      "added": {
+        "recipes": 87,
+        "entries": 490
+      },
+      "kind": "new_recipes",
+      "ordered_after": "RRC018",
+      "manifest_revisions": [
+        {
+          "recorded_branch": "rof2-tradeskills",
+          "files": {
+            "extensions/rof2/tradeskills/recipes/RRC019/README.md": {
+              "pre_sha256": null,
+              "post_sha256": "c63c66160f9901409f802b868e24a507150ff755ed91db5e1c59c5b64e9385f4"
+            },
+            "extensions/rof2/tradeskills/recipes/RRC019/apply.sql": {
+              "pre_sha256": null,
+              "post_sha256": "e2b86564b3909e2665660a9755dea910eb6fda1fecd7e4dd1de8a9cc00e3b80c"
+            },
+            "extensions/rof2/tradeskills/recipes/RRC019/rollback.sql": {
+              "pre_sha256": null,
+              "post_sha256": "5bb15fd2294dab67907a8b4f387d9b59882c56c7eb5f48acc39237ce92f2510f"
+            },
+            "extensions/rof2/tradeskills/recipes/RRC019/batch.json": {
+              "pre_sha256": null,
+              "post_sha256": "61291f64be5724a56cfbe7e8020e01632e97272ec02db7079f1aa53aab9d7a77"
+            }
+          },
+          "other_batch_changes": {}
+        }
+      ],
+      "attempt_history": [
+        {
+          "status": "APPLIED_VERIFIED",
+          "source_sha256": "e2b86564b3909e2665660a9755dea910eb6fda1fecd7e4dd1de8a9cc00e3b80c",
+          "published_commit": "5b14e1d189cca0574a5d68d7a6201560f7137425",
+          "SQL_client_exit": null,
+          "source_SQL_invocations": null,
+          "has_stop_readback": false
+        }
+      ]
+    },
+    {
+      "batch": "RRC020",
+      "status": "APPLIED",
+      "committed_pin": "1714607b4677b413919461f55f65db38b714bbfa",
+      "committed_apply_sha256": "53e6e1cada0322c5a9485211a965d41c06d93ef678fd8b8d5c9181120f3de68d",
+      "added": {
+        "recipes": 11,
+        "entries": 74
+      },
+      "kind": "new_recipes",
+      "ordered_after": "RRC019",
+      "manifest_revisions": [
+        {
+          "recorded_branch": "rof2-tradeskills",
+          "files": {
+            "extensions/rof2/tradeskills/recipes/RRC020/README.md": {
+              "pre_sha256": null,
+              "post_sha256": "cee8bf4e3b63ff23292402216e577ab623bb081ee04b2b77aae95c7dc26e9d9d"
+            },
+            "extensions/rof2/tradeskills/recipes/RRC020/apply.sql": {
+              "pre_sha256": null,
+              "post_sha256": "53e6e1cada0322c5a9485211a965d41c06d93ef678fd8b8d5c9181120f3de68d"
+            },
+            "extensions/rof2/tradeskills/recipes/RRC020/rollback.sql": {
+              "pre_sha256": null,
+              "post_sha256": "937fed00ad079477df57c0be1299084a1d7c76ccb54e8f2e1f9f4d6c3d8b36e9"
+            },
+            "extensions/rof2/tradeskills/recipes/RRC020/batch.json": {
+              "pre_sha256": null,
+              "post_sha256": "e768fbe7bb68c8420ce9c6bd9885c58939059b5ec325dea994ad517d6d1842a1"
+            }
+          },
+          "other_batch_changes": {}
+        }
+      ],
+      "attempt_history": [
+        {
+          "status": "APPLIED_VERIFIED",
+          "source_sha256": "53e6e1cada0322c5a9485211a965d41c06d93ef678fd8b8d5c9181120f3de68d",
+          "published_commit": "1714607b4677b413919461f55f65db38b714bbfa",
+          "SQL_client_exit": null,
+          "source_SQL_invocations": null,
+          "has_stop_readback": false
+        }
+      ]
+    },
+    {
+      "batch": "RRC021",
+      "status": "APPLIED",
+      "committed_pin": "c0ee8ee815a079980683a4abc145df14b4f8888a",
+      "committed_apply_sha256": "e944ec81f73e812cc7716c2f8dc1d38a9d5298b20e04adff0ce773f77708b004",
+      "added": {
+        "recipes": 22,
+        "entries": 88
+      },
+      "kind": "new_recipes",
+      "ordered_after": "RRC020",
+      "manifest_revisions": [
+        {
+          "recorded_branch": "rof2-tradeskills",
+          "files": {
+            "extensions/rof2/tradeskills/recipes/RRC021/README.md": {
+              "pre_sha256": null,
+              "post_sha256": "7b55281456c012fef3cc5ebfdbc09c7b0c77b7dad33f0b160318db4c256bb174"
+            },
+            "extensions/rof2/tradeskills/recipes/RRC021/apply.sql": {
+              "pre_sha256": null,
+              "post_sha256": "e944ec81f73e812cc7716c2f8dc1d38a9d5298b20e04adff0ce773f77708b004"
+            },
+            "extensions/rof2/tradeskills/recipes/RRC021/rollback.sql": {
+              "pre_sha256": null,
+              "post_sha256": "2c781479b46c3b131b0042b2768357a137ecb8ec00aafb2a4cd7de8b40d1e965"
+            },
+            "extensions/rof2/tradeskills/recipes/RRC021/batch.json": {
+              "pre_sha256": null,
+              "post_sha256": "74397f8993c3e602845f4117fe98667cd81c902c71b55f3fad4c14b3e3be9b01"
+            }
+          },
+          "other_batch_changes": {
+            "extensions/rof2/tradeskills/recipes/RRC020/APPLIED.json": {
+              "pre_sha256": null,
+              "post_sha256": "0f0a7fdc186e94f3c7ec0ae5de83d076c00306d658d614d91c8a9287d212b2d4"
+            }
+          }
+        }
+      ],
+      "attempt_history": [
+        {
+          "status": "APPLIED_VERIFIED",
+          "source_sha256": "e944ec81f73e812cc7716c2f8dc1d38a9d5298b20e04adff0ce773f77708b004",
+          "published_commit": "c0ee8ee815a079980683a4abc145df14b4f8888a",
+          "SQL_client_exit": null,
+          "source_SQL_invocations": null,
+          "has_stop_readback": false
+        }
+      ]
+    },
+    {
+      "batch": "RRC022",
+      "status": "APPLIED",
+      "committed_pin": "34978ad1d369465a67d4c057ef1ea4230fc5eff6",
+      "committed_apply_sha256": "bddce01ee97d9efc7e2cd2be18ffeaccbc1f77d355f7ce01e84a838ee3ab9e42",
+      "added": {
+        "recipes": 11,
+        "entries": 81
+      },
+      "kind": "new_recipes",
+      "ordered_after": "RRC021",
+      "manifest_revisions": [
+        {
+          "recorded_branch": "rof2-tradeskills",
+          "files": {
+            "extensions/rof2/tradeskills/recipes/RRC022/README.md": {
+              "pre_sha256": null,
+              "post_sha256": "a9fbaa1b571da242ee4ff36a24bf601b3420a0a1d0a9f55ffa17499357717c77"
+            },
+            "extensions/rof2/tradeskills/recipes/RRC022/apply.sql": {
+              "pre_sha256": null,
+              "post_sha256": "bddce01ee97d9efc7e2cd2be18ffeaccbc1f77d355f7ce01e84a838ee3ab9e42"
+            },
+            "extensions/rof2/tradeskills/recipes/RRC022/rollback.sql": {
+              "pre_sha256": null,
+              "post_sha256": "784f74adf00b23a1ebb30aa07f1ccd6207ac85972479696d676abd60fd055213"
+            },
+            "extensions/rof2/tradeskills/recipes/RRC022/batch.json": {
+              "pre_sha256": null,
+              "post_sha256": "baada399402f28023fecf45302b9dc4f4834497e1b91a2cd05507492f42e786a"
+            }
+          },
+          "other_batch_changes": {
+            "extensions/rof2/tradeskills/recipes/RRC021/APPLIED.json": {
+              "pre_sha256": null,
+              "post_sha256": "ea3475d2a52ef6de8a08a87eab37a166a20e44c5ed923bf7e2ac5514a1eacdb3"
+            }
+          }
+        }
+      ],
+      "attempt_history": [
+        {
+          "status": "APPLIED_VERIFIED",
+          "source_sha256": "bddce01ee97d9efc7e2cd2be18ffeaccbc1f77d355f7ce01e84a838ee3ab9e42",
+          "published_commit": "34978ad1d369465a67d4c057ef1ea4230fc5eff6",
+          "SQL_client_exit": null,
+          "source_SQL_invocations": null,
+          "has_stop_readback": false
+        }
+      ]
+    },
+    {
+      "batch": "RRC023",
+      "status": "APPLIED",
+      "committed_pin": "e444ba91a7d2c774323eacb76e46af94332a414d",
+      "committed_apply_sha256": "50bc84afa2b6f020aa7f6a0ed4b9320fc1787a8817920b3743e13ee5324e0efc",
+      "added": {
+        "recipes": 2,
+        "entries": 8
+      },
+      "kind": "new_recipes",
+      "ordered_after": "RRC022",
+      "manifest_revisions": [
+        {
+          "recorded_branch": "rof2-tradeskills",
+          "files": {
+            "extensions/rof2/tradeskills/recipes/RRC023/README.md": {
+              "pre_sha256": null,
+              "post_sha256": "7c3a0d8ee9c0e691fa3c45e93b60b7a7ad7ac0929759897427aad853c585b4d5"
+            },
+            "extensions/rof2/tradeskills/recipes/RRC023/apply.sql": {
+              "pre_sha256": null,
+              "post_sha256": "50bc84afa2b6f020aa7f6a0ed4b9320fc1787a8817920b3743e13ee5324e0efc"
+            },
+            "extensions/rof2/tradeskills/recipes/RRC023/rollback.sql": {
+              "pre_sha256": null,
+              "post_sha256": "14e2c9a8338d03465c65bfd6bf9f09d16865e1693f52d3822984000e7cf11c11"
+            },
+            "extensions/rof2/tradeskills/recipes/RRC023/batch.json": {
+              "pre_sha256": null,
+              "post_sha256": "75030c4826440bb6c79595d16284d04f22dc73b66a74520da35f2ffa651fef45"
+            }
+          },
+          "other_batch_changes": {
+            "extensions/rof2/tradeskills/recipes/RRC022/APPLIED.json": {
+              "pre_sha256": null,
+              "post_sha256": "c5847b59820781a0c662629f44b3b520a4f4929ce287966c78744faa0be73f7a"
+            }
+          }
+        }
+      ],
+      "attempt_history": [
+        {
+          "status": "APPLIED_VERIFIED",
+          "source_sha256": "50bc84afa2b6f020aa7f6a0ed4b9320fc1787a8817920b3743e13ee5324e0efc",
+          "published_commit": "e444ba91a7d2c774323eacb76e46af94332a414d",
+          "SQL_client_exit": null,
+          "source_SQL_invocations": null,
+          "has_stop_readback": false
+        }
+      ]
+    },
+    {
+      "batch": "RRC024",
+      "status": "APPLIED",
+      "committed_pin": "a623a33ec68d9745b9826c5b6660f37e89510fde",
+      "committed_apply_sha256": "728964f8c6514135247b7b9e8a52954370c6a0827a174b5dae45dd6f2f9cd4a9",
+      "added": {
+        "recipes": 27,
+        "entries": 190
+      },
+      "kind": "new_recipes",
+      "ordered_after": "RRC023",
+      "manifest_revisions": [
+        {
+          "recorded_branch": "rof2-tradeskills",
+          "files": {
+            "extensions/rof2/tradeskills/recipes/RRC024/README.md": {
+              "pre_sha256": null,
+              "post_sha256": "adce222bb87ca4da8a435a871bfac8d2e4cf67deb473d6f033eb93d84299d2ee"
+            },
+            "extensions/rof2/tradeskills/recipes/RRC024/apply.sql": {
+              "pre_sha256": null,
+              "post_sha256": "728964f8c6514135247b7b9e8a52954370c6a0827a174b5dae45dd6f2f9cd4a9"
+            },
+            "extensions/rof2/tradeskills/recipes/RRC024/rollback.sql": {
+              "pre_sha256": null,
+              "post_sha256": "4ca185fe0be485c964aca43f328b2402f1b3fdb7784dab7cc2af5dcd0b13adf5"
+            },
+            "extensions/rof2/tradeskills/recipes/RRC024/batch.json": {
+              "pre_sha256": null,
+              "post_sha256": "2f1f4f64367ca981eb17ba171fa4e9ef0005852014ac958ecfd82d4a803e10cf"
+            }
+          },
+          "other_batch_changes": {
+            "extensions/rof2/tradeskills/recipes/RRC023/APPLIED.json": {
+              "pre_sha256": null,
+              "post_sha256": "4e9d1cc23206d9f72f771b503fff3a6bdb3b2d60167b825a06b7195434b76ea5"
+            },
+            "extensions/rof2/tradeskills/recipes/coverage/PoR-Baking-2026-11-03.json": {
+              "pre_sha256": null,
+              "post_sha256": "25e9671bfdc454fe9a7146e62bf5129f8fb90c0d045e3151fb7a5675852c9909"
+            }
+          }
+        }
+      ],
+      "attempt_history": [
+        {
+          "status": "APPLIED_VERIFIED",
+          "source_sha256": "728964f8c6514135247b7b9e8a52954370c6a0827a174b5dae45dd6f2f9cd4a9",
+          "published_commit": "a623a33ec68d9745b9826c5b6660f37e89510fde",
+          "SQL_client_exit": null,
+          "source_SQL_invocations": null,
+          "has_stop_readback": false
+        }
+      ]
+    },
+    {
+      "batch": "RRC025",
+      "status": "APPLIED",
+      "committed_pin": "ba1628495c6650070138c044cc7511b200387c09",
+      "committed_apply_sha256": "eb2f23cb39f0e414559f10b9c008c258676e6caa58841a6f8bb9875d3327eab9",
+      "added": {
+        "recipes": 24,
+        "entries": 216
+      },
+      "kind": "new_recipes",
+      "ordered_after": "RRC024",
+      "manifest_revisions": [
+        {
+          "recorded_branch": "rof2-tradeskills",
+          "files": {
+            "extensions/rof2/tradeskills/recipes/RRC025/README.md": {
+              "pre_sha256": null,
+              "post_sha256": "06512e798e08cd2c445e0dd01cadd7d64943d060d0dc7578b1ae46291f78242c"
+            },
+            "extensions/rof2/tradeskills/recipes/RRC025/apply.sql": {
+              "pre_sha256": null,
+              "post_sha256": "eb2f23cb39f0e414559f10b9c008c258676e6caa58841a6f8bb9875d3327eab9"
+            },
+            "extensions/rof2/tradeskills/recipes/RRC025/rollback.sql": {
+              "pre_sha256": null,
+              "post_sha256": "750f90c42d5a5b822942d1733b51f041588968e8ba002c0d116a5725f7151e92"
+            },
+            "extensions/rof2/tradeskills/recipes/RRC025/batch.json": {
+              "pre_sha256": null,
+              "post_sha256": "7a6e210d15ada2b329c2d2b76b4103aa7cb0beea21ee7956e90c47b0d8a0f7fd"
+            }
+          },
+          "other_batch_changes": {
+            "extensions/rof2/tradeskills/recipes/RRC024/APPLIED.json": {
+              "pre_sha256": null,
+              "post_sha256": "b9fc07915d318fd263a4966b0ba0351c0841e301b09b33c48c9b84d7b57d5d9c"
+            }
+          }
+        }
+      ],
+      "attempt_history": [
+        {
+          "status": "APPLIED_VERIFIED",
+          "source_sha256": "eb2f23cb39f0e414559f10b9c008c258676e6caa58841a6f8bb9875d3327eab9",
+          "published_commit": "ba1628495c6650070138c044cc7511b200387c09",
+          "SQL_client_exit": null,
+          "source_SQL_invocations": null,
+          "has_stop_readback": false
+        }
+      ]
+    },
+    {
+      "batch": "RRC026",
+      "status": "APPLIED",
+      "committed_pin": "304b306c281015add6ce160d12b9b1c77a4fbf1d",
+      "committed_apply_sha256": "1d2ffde5baeaca60817ec11c46cf4a7cc78a47393c438eec07ae80a0d80cc18c",
+      "added": {
+        "recipes": 62,
+        "entries": 298
+      },
+      "kind": "new_recipes",
+      "ordered_after": "RRC025",
+      "manifest_revisions": [
+        {
+          "recorded_branch": "rof2-tradeskills",
+          "files": {
+            "extensions/rof2/tradeskills/recipes/RRC026/README.md": {
+              "pre_sha256": null,
+              "post_sha256": "fbee391712afcb325215ac356a60be26b461c7f2ad6debbca7d55c9cdc5b45ca"
+            },
+            "extensions/rof2/tradeskills/recipes/RRC026/apply.sql": {
+              "pre_sha256": null,
+              "post_sha256": "1d2ffde5baeaca60817ec11c46cf4a7cc78a47393c438eec07ae80a0d80cc18c"
+            },
+            "extensions/rof2/tradeskills/recipes/RRC026/rollback.sql": {
+              "pre_sha256": null,
+              "post_sha256": "d3694fe15ead0b932b3ab683f042a530405e972d09b93a9dcb882e1c99c70a0c"
+            },
+            "extensions/rof2/tradeskills/recipes/RRC026/batch.json": {
+              "pre_sha256": null,
+              "post_sha256": "8cbd430bde5e681aed8fe32912fc3dda8ae6618710863f1eab18f1cdd2431571"
+            }
+          },
+          "other_batch_changes": {
+            "extensions/rof2/tradeskills/recipes/RRC025/APPLIED.json": {
+              "pre_sha256": null,
+              "post_sha256": "d5ae59fd90841f8f7557e0e4013d398df45e2338cd17a0336d08669f31af5bce"
+            }
+          }
+        }
+      ],
+      "attempt_history": [
+        {
+          "status": "APPLIED_VERIFIED",
+          "source_sha256": "1d2ffde5baeaca60817ec11c46cf4a7cc78a47393c438eec07ae80a0d80cc18c",
+          "published_commit": "304b306c281015add6ce160d12b9b1c77a4fbf1d",
+          "SQL_client_exit": null,
+          "source_SQL_invocations": null,
+          "has_stop_readback": false
+        }
+      ]
+    },
+    {
+      "batch": "RRC027",
+      "status": "APPLIED",
+      "committed_pin": "7ac0032fe220430cdb7a39809856b30d3ca8d8c4",
+      "committed_apply_sha256": "37ebf76fd62ffbc2170afa3b5a8a7d6c734431c12d3e48917fba5b6e7eaeeaed",
+      "added": {
+        "recipes": 52,
+        "entries": 290
+      },
+      "kind": "new_recipes",
+      "ordered_after": "RRC026",
+      "manifest_revisions": [
+        {
+          "recorded_branch": "rof2-tradeskills",
+          "files": {
+            "extensions/rof2/tradeskills/recipes/RRC027/README.md": {
+              "pre_sha256": null,
+              "post_sha256": "4273542a095b7df99581517f36d06b2be69e85f8515d10c371ee8e07cecb96de"
+            },
+            "extensions/rof2/tradeskills/recipes/RRC027/apply.sql": {
+              "pre_sha256": null,
+              "post_sha256": "37ebf76fd62ffbc2170afa3b5a8a7d6c734431c12d3e48917fba5b6e7eaeeaed"
+            },
+            "extensions/rof2/tradeskills/recipes/RRC027/rollback.sql": {
+              "pre_sha256": null,
+              "post_sha256": "2541e67fd483209ff496929b120e814fc7b7da6b630af2a0cf9410a3e7c02035"
+            },
+            "extensions/rof2/tradeskills/recipes/RRC027/batch.json": {
+              "pre_sha256": null,
+              "post_sha256": "c429e354d588f9e50dcbd38b1c04cf983753b9439850ca084d4b287e39caab53"
+            }
+          },
+          "other_batch_changes": {
+            "extensions/rof2/tradeskills/recipes/RRC026/APPLIED.json": {
+              "pre_sha256": null,
+              "post_sha256": "60502bd676f643e5c9a5c15ce84af87d282604c3656404188a7c9039c4e846ce"
+            }
+          }
+        }
+      ],
+      "attempt_history": [
+        {
+          "status": "APPLIED_VERIFIED",
+          "source_sha256": "37ebf76fd62ffbc2170afa3b5a8a7d6c734431c12d3e48917fba5b6e7eaeeaed",
+          "published_commit": "7ac0032fe220430cdb7a39809856b30d3ca8d8c4",
+          "SQL_client_exit": null,
+          "source_SQL_invocations": null,
+          "has_stop_readback": false
+        }
+      ]
+    },
+    {
+      "batch": "RRC028",
+      "status": "APPLIED",
+      "committed_pin": "381ec6428eea7211fc249c0db0bb28a44fb45bd4",
+      "committed_apply_sha256": "6b2a23e1aec9e793f2ccce7ac6a5adc57c6a3ae03c5b335aa36aa9b52c374269",
+      "added": {
+        "recipes": 93,
+        "entries": 437
+      },
+      "kind": "new_recipes",
+      "ordered_after": "RRC027",
+      "manifest_revisions": [
+        {
+          "recorded_branch": "rof2-tradeskills",
+          "files": {
+            "extensions/rof2/tradeskills/recipes/RRC028/README.md": {
+              "pre_sha256": null,
+              "post_sha256": "59c5bff6e6c79b4c0e20c97edeec4770e95a96a95b746f80571a4d3d6fbc99dd"
+            },
+            "extensions/rof2/tradeskills/recipes/RRC028/apply.sql": {
+              "pre_sha256": null,
+              "post_sha256": "6b2a23e1aec9e793f2ccce7ac6a5adc57c6a3ae03c5b335aa36aa9b52c374269"
+            },
+            "extensions/rof2/tradeskills/recipes/RRC028/rollback.sql": {
+              "pre_sha256": null,
+              "post_sha256": "c599aace8adfaf38b960c2915fa943dc364dec6329ba4049a4a7843a659796f0"
+            },
+            "extensions/rof2/tradeskills/recipes/RRC028/batch.json": {
+              "pre_sha256": null,
+              "post_sha256": "1db20b8afb9263e7faf5c739387759851e4b82cb288113d7fbf0ba01cad1fbee"
+            }
+          },
+          "other_batch_changes": {
+            "extensions/rof2/tradeskills/recipes/RRC027/APPLIED.json": {
+              "pre_sha256": null,
+              "post_sha256": "b9e01400b81b32c097386bcd7bc7ac1615ad207a0028757d00c4af0057784bcd"
+            }
+          }
+        }
+      ],
+      "attempt_history": [
+        {
+          "status": "APPLIED_VERIFIED",
+          "source_sha256": "6b2a23e1aec9e793f2ccce7ac6a5adc57c6a3ae03c5b335aa36aa9b52c374269",
+          "published_commit": "381ec6428eea7211fc249c0db0bb28a44fb45bd4",
+          "SQL_client_exit": null,
+          "source_SQL_invocations": null,
+          "has_stop_readback": false
+        }
+      ]
+    },
+    {
+      "batch": "RRC029",
+      "status": "APPLIED",
+      "committed_pin": "1168f6366f154e009741389fe2085115f2f75b12",
+      "committed_apply_sha256": "625305a6142bd1efe683de9b7a068d74a82100785dbcc28c148a72143c3c069d",
+      "added": {
+        "recipes": 1,
+        "entries": 27
+      },
+      "kind": "new_recipes",
+      "ordered_after": "RRC028",
+      "manifest_revisions": [
+        {
+          "recorded_branch": "rof2-tradeskills",
+          "files": {
+            "extensions/rof2/tradeskills/recipes/RRC029/rollback.sql": {
+              "pre_sha256": null,
+              "post_sha256": "d3bd2ed0d6ddaeb0758dba69dd9893553d0d8ff2228d11854a6b97d3c526b32b"
+            },
+            "extensions/rof2/tradeskills/recipes/RRC029/apply.sql": {
+              "pre_sha256": null,
+              "post_sha256": "625305a6142bd1efe683de9b7a068d74a82100785dbcc28c148a72143c3c069d"
+            },
+            "extensions/rof2/tradeskills/recipes/RRC029/batch.json": {
+              "pre_sha256": null,
+              "post_sha256": "5a2e3cffb90dc7d73b9cd44a33153a463c4d2c9c97eb67c93196755800cdd378"
+            },
+            "extensions/rof2/tradeskills/recipes/RRC029/README.md": {
+              "pre_sha256": null,
+              "post_sha256": "af95a195af7d5ae81344464ead2b9fc6aba412470391b90b3fd49e87b25af064"
+            }
+          },
+          "other_batch_changes": {
+            "extensions/rof2/tradeskills/recipes/RRC028/APPLIED.json": {
+              "pre_sha256": null,
+              "post_sha256": "8e6f2f4b7ef05fedd71bb10cf0f3ccd00608cdd466a9b9598464ca9a9615c67e"
+            }
+          }
+        }
+      ],
+      "attempt_history": [
+        {
+          "status": "APPLIED_VERIFIED",
+          "source_sha256": "625305a6142bd1efe683de9b7a068d74a82100785dbcc28c148a72143c3c069d",
+          "published_commit": "1168f6366f154e009741389fe2085115f2f75b12",
+          "SQL_client_exit": null,
+          "source_SQL_invocations": null,
+          "has_stop_readback": false
+        }
+      ]
+    },
+    {
+      "batch": "RRC030",
+      "status": "APPLIED",
+      "committed_pin": "ed14419191e7127fbc87929a91d1021d03e5d7e1",
+      "committed_apply_sha256": "3b089120a4ef8efb22532705560c285e666c6976a8a8fa624f6b98a7bec0c58d",
+      "added": {
+        "recipes": 99,
+        "entries": 572
+      },
+      "kind": "new_recipes",
+      "ordered_after": "RRC029",
+      "manifest_revisions": [
+        {
+          "recorded_branch": "rof2-tradeskills",
+          "files": {
+            "extensions/rof2/tradeskills/recipes/RRC030/README.md": {
+              "pre_sha256": null,
+              "post_sha256": "e085bbe7d257184fc3f3dd24a14d2261afab33d97dfb16ceef566a657c14742e"
+            },
+            "extensions/rof2/tradeskills/recipes/RRC030/apply.sql": {
+              "pre_sha256": null,
+              "post_sha256": "3b089120a4ef8efb22532705560c285e666c6976a8a8fa624f6b98a7bec0c58d"
+            },
+            "extensions/rof2/tradeskills/recipes/RRC030/rollback.sql": {
+              "pre_sha256": null,
+              "post_sha256": "44a1914a5c22c94efc75fcf6a47723771bae6c1f3480367498a8dba08959a471"
+            },
+            "extensions/rof2/tradeskills/recipes/RRC030/batch.json": {
+              "pre_sha256": null,
+              "post_sha256": "cbd1261214c7e028dca72ba1e6a9a9ab0c04c8d36badb4ecc5df21f5d17c6882"
+            }
+          },
+          "other_batch_changes": {
+            "extensions/rof2/tradeskills/recipes/RRC029/APPLIED.json": {
+              "pre_sha256": null,
+              "post_sha256": "3eae29cb94db2d2bace79e269ffb99e179fd0d1a45c5b1748d8f51bda5b28ba2"
+            }
+          }
+        }
+      ],
+      "attempt_history": [
+        {
+          "status": "APPLIED_VERIFIED",
+          "source_sha256": "3b089120a4ef8efb22532705560c285e666c6976a8a8fa624f6b98a7bec0c58d",
+          "published_commit": "ed14419191e7127fbc87929a91d1021d03e5d7e1",
+          "SQL_client_exit": null,
+          "source_SQL_invocations": null,
+          "has_stop_readback": false
+        }
+      ]
+    },
+    {
+      "batch": "RRC031",
+      "status": "APPLIED",
+      "committed_pin": "5a1f0a51d40f185f03396e459e87861946dbf62e",
+      "committed_apply_sha256": "15ce9ba426c3fda4ba3aaa79a554d818b1a813038303d4bb2fbbb462d73c9435",
+      "added": {
+        "recipes": 4,
+        "entries": 17
+      },
+      "kind": "new_recipes",
+      "ordered_after": "RRC030",
+      "manifest_revisions": [
+        {
+          "recorded_branch": "rof2-tradeskills",
+          "files": {
+            "extensions/rof2/tradeskills/recipes/RRC031/README.md": {
+              "pre_sha256": null,
+              "post_sha256": "d57ba96a3dabb41027dfec1176b6e210873e01c763db262749cdf23a3ad44ab0"
+            },
+            "extensions/rof2/tradeskills/recipes/RRC031/apply.sql": {
+              "pre_sha256": null,
+              "post_sha256": "15ce9ba426c3fda4ba3aaa79a554d818b1a813038303d4bb2fbbb462d73c9435"
+            },
+            "extensions/rof2/tradeskills/recipes/RRC031/rollback.sql": {
+              "pre_sha256": null,
+              "post_sha256": "e02811703f799d23a3ed8ae2332e8477944f87ba512ec5d61d93da94c116e252"
+            },
+            "extensions/rof2/tradeskills/recipes/RRC031/batch.json": {
+              "pre_sha256": null,
+              "post_sha256": "f993e835ae90966c68d410f2132b90ea713491410dfbf2124128f3f1c38f3434"
+            }
+          },
+          "other_batch_changes": {
+            "extensions/rof2/tradeskills/recipes/RRC030/APPLIED.json": {
+              "pre_sha256": null,
+              "post_sha256": "15128bcae1fbaeffc2ff3ecc8e863a6c8884a9c6321c1e40a84f030ac0521739"
+            }
+          }
+        }
+      ],
+      "attempt_history": [
+        {
+          "status": "APPLIED_VERIFIED",
+          "source_sha256": "15ce9ba426c3fda4ba3aaa79a554d818b1a813038303d4bb2fbbb462d73c9435",
+          "published_commit": "5a1f0a51d40f185f03396e459e87861946dbf62e",
+          "SQL_client_exit": null,
+          "source_SQL_invocations": null,
+          "has_stop_readback": false
+        }
+      ]
+    },
+    {
+      "batch": "RRC032",
+      "status": "APPLIED",
+      "committed_pin": "cf648fcf716f7dc484ce33b3a2afee5a402d33af",
+      "committed_apply_sha256": "0809941a5888fc0945476e582ad6956dd742be092ec9e7f03e374927c0add3ba",
+      "added": {
+        "recipes": 126,
+        "entries": 506
+      },
+      "kind": "new_recipes",
+      "ordered_after": "RRC031",
+      "manifest_revisions": [
+        {
+          "recorded_branch": "rof2-tradeskills",
+          "files": {
+            "extensions/rof2/tradeskills/recipes/RRC032/README.md": {
+              "pre_sha256": null,
+              "post_sha256": "6d1ecd6cc3b88c0c9f11601bb17aa3f7abc777517fea6c88f687a766cc5f32df"
+            },
+            "extensions/rof2/tradeskills/recipes/RRC032/apply.sql": {
+              "pre_sha256": null,
+              "post_sha256": "0809941a5888fc0945476e582ad6956dd742be092ec9e7f03e374927c0add3ba"
+            },
+            "extensions/rof2/tradeskills/recipes/RRC032/rollback.sql": {
+              "pre_sha256": null,
+              "post_sha256": "68ec1756ae90309720026447f4172a11c6a191a6b4d0b349d270039fb8eefdf4"
+            },
+            "extensions/rof2/tradeskills/recipes/RRC032/batch.json": {
+              "pre_sha256": null,
+              "post_sha256": "68c96fd0473ca62c1dd2f5ecafc73274fcf940caa72807bb57e3a7d91389df42"
+            }
+          },
+          "other_batch_changes": {
+            "extensions/rof2/tradeskills/recipes/RRC031/APPLIED.json": {
+              "pre_sha256": null,
+              "post_sha256": "d2b6a81aff98ea8bb1edf33da3d6b140716de187751c30929b637ba14e6fae59"
+            }
+          }
+        }
+      ],
+      "attempt_history": [
+        {
+          "status": "APPLIED_VERIFIED",
+          "source_sha256": "0809941a5888fc0945476e582ad6956dd742be092ec9e7f03e374927c0add3ba",
+          "published_commit": "cf648fcf716f7dc484ce33b3a2afee5a402d33af",
+          "SQL_client_exit": null,
+          "source_SQL_invocations": null,
+          "has_stop_readback": false
+        }
+      ]
+    },
+    {
+      "batch": "RRC033",
+      "status": "APPLIED",
+      "committed_pin": "e56942d7e546f5bab06cba8eb34790e434f30ae1",
+      "committed_apply_sha256": "e6f6ebccd412f1f2508a1703ea20b205a08b20d1d4ad3aafed467d6ec6c57725",
+      "added": {
+        "recipes": 125,
+        "entries": 501
+      },
+      "kind": "new_recipes",
+      "ordered_after": "RRC032",
+      "manifest_revisions": [
+        {
+          "recorded_branch": "rof2-tradeskills",
+          "files": {
+            "extensions/rof2/tradeskills/recipes/RRC033/README.md": {
+              "pre_sha256": null,
+              "post_sha256": "ff76e2a60b3c9d26fa333fd24e4db3a23ce06d69ce6905e9ee712bf7d41d656f"
+            },
+            "extensions/rof2/tradeskills/recipes/RRC033/apply.sql": {
+              "pre_sha256": null,
+              "post_sha256": "e6f6ebccd412f1f2508a1703ea20b205a08b20d1d4ad3aafed467d6ec6c57725"
+            },
+            "extensions/rof2/tradeskills/recipes/RRC033/rollback.sql": {
+              "pre_sha256": null,
+              "post_sha256": "9f7eea76042da82fbdd13f177c33e2867ea621ec7a0629b78a04c777ed5f68bc"
+            },
+            "extensions/rof2/tradeskills/recipes/RRC033/batch.json": {
+              "pre_sha256": null,
+              "post_sha256": "6a4ad07fa2ae767be86328bbbfe90a4da70bfd8345ce4a9dbff137fbcb12b48a"
+            }
+          },
+          "other_batch_changes": {
+            "extensions/rof2/tradeskills/recipes/RRC032/APPLIED.json": {
+              "pre_sha256": null,
+              "post_sha256": "f9ddba02a2d7a4ecfa9a2b0f1b6bf476af6b28d7a8b7a4dd706be884a0ff9054"
+            }
+          }
+        }
+      ],
+      "attempt_history": [
+        {
+          "status": "APPLIED_VERIFIED",
+          "source_sha256": "e6f6ebccd412f1f2508a1703ea20b205a08b20d1d4ad3aafed467d6ec6c57725",
+          "published_commit": "e56942d7e546f5bab06cba8eb34790e434f30ae1",
+          "SQL_client_exit": null,
+          "source_SQL_invocations": null,
+          "has_stop_readback": false
+        }
+      ]
+    },
+    {
+      "batch": "RRC034",
+      "status": "APPLIED",
+      "committed_pin": "8325c984560e844b14daea2f9397ef44c5038eca",
+      "committed_apply_sha256": "2931744cd8820b29fc126bcd4f21714f3ba4535795476163fc11142341333aa8",
+      "added": {
+        "recipes": 126,
+        "entries": 505
+      },
+      "kind": "new_recipes",
+      "ordered_after": "RRC033",
+      "manifest_revisions": [
+        {
+          "recorded_branch": "rof2-tradeskills",
+          "files": {
+            "extensions/rof2/tradeskills/recipes/RRC034/README.md": {
+              "pre_sha256": null,
+              "post_sha256": "87ce6a8a142b88fe6b41a7208c6c46d57003a0b104db1d7221f8836c635e5190"
+            },
+            "extensions/rof2/tradeskills/recipes/RRC034/apply.sql": {
+              "pre_sha256": null,
+              "post_sha256": "2931744cd8820b29fc126bcd4f21714f3ba4535795476163fc11142341333aa8"
+            },
+            "extensions/rof2/tradeskills/recipes/RRC034/rollback.sql": {
+              "pre_sha256": null,
+              "post_sha256": "4cdc8c84aaef971e80cf7eea564d7884f2a30630fa35980be19572baf5ed76fa"
+            },
+            "extensions/rof2/tradeskills/recipes/RRC034/batch.json": {
+              "pre_sha256": null,
+              "post_sha256": "afe05715febae284bd8751b71f63f0128413f0b93ed5d6e107e300995cf221c4"
+            }
+          },
+          "other_batch_changes": {
+            "extensions/rof2/tradeskills/recipes/RRC033/APPLIED.json": {
+              "pre_sha256": null,
+              "post_sha256": "d6e5cd46e2ee10d976ae40a24a5665b1a5186c46dfc925ffa25e493ed434809b"
+            }
+          }
+        }
+      ],
+      "attempt_history": [
+        {
+          "status": "APPLIED_VERIFIED",
+          "source_sha256": "2931744cd8820b29fc126bcd4f21714f3ba4535795476163fc11142341333aa8",
+          "published_commit": "8325c984560e844b14daea2f9397ef44c5038eca",
+          "SQL_client_exit": null,
+          "source_SQL_invocations": null,
+          "has_stop_readback": false
+        }
+      ]
+    },
+    {
+      "batch": "RRC035",
+      "status": "APPLIED",
+      "committed_pin": "4e8225950585849bea8f08f24cfecde510996dfb",
+      "committed_apply_sha256": "6cc2b78649c6f2594e07c5350d209f418e9e73294396767e10ec3bbd4f37c35e",
+      "added": {
+        "recipes": 147,
+        "entries": 609
+      },
+      "kind": "new_recipes",
+      "ordered_after": "RRC034",
+      "manifest_revisions": [
+        {
+          "recorded_branch": "rof2-tradeskills",
+          "files": {
+            "extensions/rof2/tradeskills/recipes/RRC035/README.md": {
+              "pre_sha256": null,
+              "post_sha256": "8dc000bf8812054a41e39d37deb8024ad93a50dfcddf3854758ac2268deb5d60"
+            },
+            "extensions/rof2/tradeskills/recipes/RRC035/apply.sql": {
+              "pre_sha256": null,
+              "post_sha256": "6cc2b78649c6f2594e07c5350d209f418e9e73294396767e10ec3bbd4f37c35e"
+            },
+            "extensions/rof2/tradeskills/recipes/RRC035/rollback.sql": {
+              "pre_sha256": null,
+              "post_sha256": "eba0056082cca7adb9e50c0244d72dddb51580942decee4bc7ce97fb4ae7ed09"
+            },
+            "extensions/rof2/tradeskills/recipes/RRC035/batch.json": {
+              "pre_sha256": null,
+              "post_sha256": "a53a2828849a6ebc1a468484c135726a7a419a2b84d06d75acd23d20c3ff822a"
+            }
+          },
+          "other_batch_changes": {
+            "extensions/rof2/tradeskills/recipes/RRC034/APPLIED.json": {
+              "pre_sha256": null,
+              "post_sha256": "884fd10d1bb7f37262000bab04094da285b00335136773d77f68dba323598e55"
+            }
+          }
+        }
+      ],
+      "attempt_history": [
+        {
+          "status": "APPLIED_VERIFIED",
+          "source_sha256": "6cc2b78649c6f2594e07c5350d209f418e9e73294396767e10ec3bbd4f37c35e",
+          "published_commit": "4e8225950585849bea8f08f24cfecde510996dfb",
+          "SQL_client_exit": null,
+          "source_SQL_invocations": null,
+          "has_stop_readback": false
+        }
+      ]
+    },
+    {
+      "batch": "RRC036",
+      "status": "APPLIED",
+      "committed_pin": "49c615a3b07bd4bcb38a982077444ad191f43a54",
+      "committed_apply_sha256": "fffc94830303aeb8431ce2f989a473f38277ee0417787db8f74482b6e8a4328d",
+      "added": {
+        "recipes": 8,
+        "entries": 25
+      },
+      "kind": "new_recipes",
+      "ordered_after": "RRC035",
+      "manifest_revisions": [
+        {
+          "recorded_branch": "rof2-tradeskills",
+          "files": {
+            "extensions/rof2/tradeskills/recipes/RRC036/README.md": {
+              "pre_sha256": null,
+              "post_sha256": "ef906e4122b6da9654c01679e626f6479f70e5a29b5a9bbcd8af37a4baa17ae7"
+            },
+            "extensions/rof2/tradeskills/recipes/RRC036/apply.sql": {
+              "pre_sha256": null,
+              "post_sha256": "fffc94830303aeb8431ce2f989a473f38277ee0417787db8f74482b6e8a4328d"
+            },
+            "extensions/rof2/tradeskills/recipes/RRC036/rollback.sql": {
+              "pre_sha256": null,
+              "post_sha256": "a84686d53c914530092f376b49c0a2953bef391da4341d8ad2e01c8cd79c9596"
+            },
+            "extensions/rof2/tradeskills/recipes/RRC036/batch.json": {
+              "pre_sha256": null,
+              "post_sha256": "8290e4ce58f9f0c978c289842e4cbb3cc7c763120df6872132489e3daa8dabfc"
+            }
+          },
+          "other_batch_changes": {
+            "extensions/rof2/tradeskills/recipes/RRC035/APPLIED.json": {
+              "pre_sha256": null,
+              "post_sha256": "35e47497c9baceb798ff2d6765e08c711a4daacd7152732dc5d6437083b99d07"
+            },
+            "extensions/rof2/tradeskills/recipes/RRC035/README.md": {
+              "pre_sha256": "0142d461767bb427e0224529f2908790e2d5505fad99d11e40908fc06f9460e3",
+              "post_sha256": "8dc000bf8812054a41e39d37deb8024ad93a50dfcddf3854758ac2268deb5d60"
+            }
+          }
+        }
+      ],
+      "attempt_history": [
+        {
+          "status": "APPLIED_VERIFIED",
+          "source_sha256": "fffc94830303aeb8431ce2f989a473f38277ee0417787db8f74482b6e8a4328d",
+          "published_commit": "49c615a3b07bd4bcb38a982077444ad191f43a54",
+          "SQL_client_exit": null,
+          "source_SQL_invocations": null,
+          "has_stop_readback": false
+        }
+      ]
+    },
+    {
+      "batch": "RRC037",
+      "status": "APPLIED",
+      "committed_pin": "6b115f3abb7a8d5cf862711f7f7d4a528feaa116",
+      "committed_apply_sha256": "27013d446504e4b41ce04fc35c15fa7eb4c6a864a95bc7ec34b16c91af5f84f9",
+      "added": {
+        "recipes": 3,
+        "entries": 9
+      },
+      "kind": "new_recipes",
+      "ordered_after": "RRC036",
+      "manifest_revisions": [
+        {
+          "recorded_branch": "rof2-tradeskills",
+          "files": {
+            "extensions/rof2/tradeskills/recipes/RRC037/README.md": {
+              "pre_sha256": null,
+              "post_sha256": "d89aacb812ef8ffb9f5ff041523443a0a1cb37bf426070b503e1dd3aefa0dad2"
+            },
+            "extensions/rof2/tradeskills/recipes/RRC037/apply.sql": {
+              "pre_sha256": null,
+              "post_sha256": "27013d446504e4b41ce04fc35c15fa7eb4c6a864a95bc7ec34b16c91af5f84f9"
+            },
+            "extensions/rof2/tradeskills/recipes/RRC037/rollback.sql": {
+              "pre_sha256": null,
+              "post_sha256": "b88c4a7b3802cd8ecbdff7034651c13b69b597cfdc46d2e2ef41109985ee0e81"
+            },
+            "extensions/rof2/tradeskills/recipes/RRC037/batch.json": {
+              "pre_sha256": null,
+              "post_sha256": "403c466455beee037c2b40b814f6376bccb1355df94ab557d8faad80e2663fae"
+            }
+          },
+          "other_batch_changes": {
+            "extensions/rof2/tradeskills/recipes/RRC036/APPLIED.json": {
+              "pre_sha256": null,
+              "post_sha256": "f3ed3be1b3cb37ed1c0e465a183cfaf0ab58283b20ffed86ab88b083a4c751da"
+            }
+          }
+        }
+      ],
+      "attempt_history": [
+        {
+          "status": "APPLIED_VERIFIED",
+          "source_sha256": "27013d446504e4b41ce04fc35c15fa7eb4c6a864a95bc7ec34b16c91af5f84f9",
+          "published_commit": "6b115f3abb7a8d5cf862711f7f7d4a528feaa116",
+          "SQL_client_exit": null,
+          "source_SQL_invocations": null,
+          "has_stop_readback": false
+        }
+      ]
+    },
+    {
+      "batch": "RRC038",
+      "status": "APPLIED",
+      "committed_pin": "94ce3c271e5cd7ffc3fa1610883da96e0822bca8",
+      "committed_apply_sha256": "e3170bb68bef76f323a7417ace6fa2a5baf21ab10d3e975e47c2e22307170d60",
+      "added": {
+        "recipes": 6,
+        "entries": 39
+      },
+      "kind": "new_recipes",
+      "ordered_after": "RRC037",
+      "manifest_revisions": [
+        {
+          "recorded_branch": "rof2-tradeskills",
+          "files": {
+            "extensions/rof2/tradeskills/recipes/RRC038/README.md": {
+              "pre_sha256": null,
+              "post_sha256": "eb551d61fc1959b097fad17d33229d4de4204ed597d7f2341b0ad7363128a2e9"
+            },
+            "extensions/rof2/tradeskills/recipes/RRC038/apply.sql": {
+              "pre_sha256": null,
+              "post_sha256": "e3170bb68bef76f323a7417ace6fa2a5baf21ab10d3e975e47c2e22307170d60"
+            },
+            "extensions/rof2/tradeskills/recipes/RRC038/rollback.sql": {
+              "pre_sha256": null,
+              "post_sha256": "6146e626b8f832dd08c7384c1d5d164e6d874aeab7d8768dc5702a03131a071a"
+            },
+            "extensions/rof2/tradeskills/recipes/RRC038/batch.json": {
+              "pre_sha256": null,
+              "post_sha256": "92e5f18d4ff95883c391d24e2ee4abfcb25427a782b163bf32b4bcbb9b6e6f9e"
+            }
+          },
+          "other_batch_changes": {
+            "extensions/rof2/tradeskills/recipes/RRC037/APPLIED.json": {
+              "pre_sha256": null,
+              "post_sha256": "6f4d804a74f898fb54aad2f65703a762a9106fcb5fb3f8d5d767771de4c7706b"
+            }
+          }
+        }
+      ],
+      "attempt_history": [
+        {
+          "status": "APPLIED_VERIFIED",
+          "source_sha256": "e3170bb68bef76f323a7417ace6fa2a5baf21ab10d3e975e47c2e22307170d60",
+          "published_commit": "94ce3c271e5cd7ffc3fa1610883da96e0822bca8",
+          "SQL_client_exit": null,
+          "source_SQL_invocations": null,
+          "has_stop_readback": false
+        }
+      ]
+    },
+    {
+      "batch": "RRC039",
+      "status": "APPLIED",
+      "committed_pin": "7c2cbee11b996cca9c945f86e5d26cfda2f8e6d7",
+      "committed_apply_sha256": "e478b43a4ebef0f685ac8e297cb04bcb2b1a3c39d12c683d54479e882f1ebb66",
+      "added": {
+        "recipes": 26,
+        "entries": 161
+      },
+      "kind": "new_recipes",
+      "ordered_after": "RRC038",
+      "manifest_revisions": [
+        {
+          "recorded_branch": "rof2-tradeskills",
+          "files": {
+            "extensions/rof2/tradeskills/recipes/RRC039/README.md": {
+              "pre_sha256": null,
+              "post_sha256": "aa82b0a2ea329cbcf7e738e5e7a769c051eda7f0c9066cc0e3d8188c15326fa6"
+            },
+            "extensions/rof2/tradeskills/recipes/RRC039/apply.sql": {
+              "pre_sha256": null,
+              "post_sha256": "e478b43a4ebef0f685ac8e297cb04bcb2b1a3c39d12c683d54479e882f1ebb66"
+            },
+            "extensions/rof2/tradeskills/recipes/RRC039/rollback.sql": {
+              "pre_sha256": null,
+              "post_sha256": "c4caaec05dee6d21cc8cee8837b7c0c56436a327d91ef67c0573a6bdc58007bc"
+            },
+            "extensions/rof2/tradeskills/recipes/RRC039/batch.json": {
+              "pre_sha256": null,
+              "post_sha256": "708d58624b6bf9640033fba24cfe75ef718541af09379060bcb2b1b44940e9c2"
+            }
+          },
+          "other_batch_changes": {
+            "extensions/rof2/tradeskills/recipes/RRC038/APPLIED.json": {
+              "pre_sha256": null,
+              "post_sha256": "893a43e4b660152c4c1e9010752042b639b2e5b41b1880dce47bc88aceaff3e7"
+            }
+          }
+        }
+      ],
+      "attempt_history": [
+        {
+          "status": "APPLIED_VERIFIED",
+          "source_sha256": "e478b43a4ebef0f685ac8e297cb04bcb2b1a3c39d12c683d54479e882f1ebb66",
+          "published_commit": "7c2cbee11b996cca9c945f86e5d26cfda2f8e6d7",
+          "SQL_client_exit": null,
+          "source_SQL_invocations": null,
+          "has_stop_readback": false
+        }
+      ]
+    },
+    {
+      "batch": "RRC040",
+      "status": "APPLIED",
+      "committed_pin": "1b54bba1444ef31fc70abe65d21e3df2735feb39",
+      "committed_apply_sha256": "5c0913914fb27af1525bb46ddcf12b530a5527c64e25088736e73a516730d677",
+      "added": {
+        "recipes": 131,
+        "entries": 716
+      },
+      "kind": "new_recipes",
+      "ordered_after": "RRC039",
+      "manifest_revisions": [
+        {
+          "recorded_branch": "rof2-tradeskills",
+          "files": {
+            "extensions/rof2/tradeskills/recipes/RRC040/README.md": {
+              "pre_sha256": null,
+              "post_sha256": "68f673f9a1a3f1410c1ef713ea08cb5e8a65a3f5b9b70cc52e36dfc3ca2d8fb3"
+            },
+            "extensions/rof2/tradeskills/recipes/RRC040/apply.sql": {
+              "pre_sha256": null,
+              "post_sha256": "8b5325a101fd70055b5a0e7458711f0a9e73ce545cf888e9bfa9bb5e66c18ff2"
+            },
+            "extensions/rof2/tradeskills/recipes/RRC040/rollback.sql": {
+              "pre_sha256": null,
+              "post_sha256": "95c507b5488d323e680a9d1c90fff028a77ad5261e6edf017388caf86e3f9301"
+            },
+            "extensions/rof2/tradeskills/recipes/RRC040/batch.json": {
+              "pre_sha256": null,
+              "post_sha256": "13603ee87511c0298487af9ee55ec2c700667f6a608dc9d143d82882184006a4"
+            }
+          },
+          "other_batch_changes": {
+            "extensions/rof2/tradeskills/recipes/RRC039/APPLIED.json": {
+              "pre_sha256": null,
+              "post_sha256": "be607f76fbf5a3656f3022469cb626a6c3429343d11d5aa8b011a3125235d447"
+            }
+          }
+        },
+        {
+          "recorded_branch": "rof2-tradeskills",
+          "files": {
+            "extensions/rof2/tradeskills/recipes/RRC040/README.md": {
+              "pre_sha256": "68f673f9a1a3f1410c1ef713ea08cb5e8a65a3f5b9b70cc52e36dfc3ca2d8fb3",
+              "post_sha256": "7eb4f7bd3f0c1f0108b30791d8c1906f5d3e1b7a61c9367a87a4ba6b3cb65025"
+            },
+            "extensions/rof2/tradeskills/recipes/RRC040/apply.sql": {
+              "pre_sha256": "8b5325a101fd70055b5a0e7458711f0a9e73ce545cf888e9bfa9bb5e66c18ff2",
+              "post_sha256": "5c0913914fb27af1525bb46ddcf12b530a5527c64e25088736e73a516730d677"
+            },
+            "extensions/rof2/tradeskills/recipes/RRC040/rollback.sql": {
+              "pre_sha256": "95c507b5488d323e680a9d1c90fff028a77ad5261e6edf017388caf86e3f9301",
+              "post_sha256": "95c507b5488d323e680a9d1c90fff028a77ad5261e6edf017388caf86e3f9301"
+            },
+            "extensions/rof2/tradeskills/recipes/RRC040/batch.json": {
+              "pre_sha256": "13603ee87511c0298487af9ee55ec2c700667f6a608dc9d143d82882184006a4",
+              "post_sha256": "ed333e5df5c6447cebedd8ec5fd59ccb2e7e6e6bcca8c3ae7a8835e506dd99a6"
+            },
+            "extensions/rof2/tradeskills/recipes/RRC040/FAILED-ATTEMPT-001.json": {
+              "pre_sha256": null,
+              "post_sha256": "fc87c6bed784b5ec3d714d3babe71f50ac38bdacb2d55bed252083f0bd70fa7f"
+            }
+          },
+          "other_batch_changes": {}
+        }
+      ],
+      "attempt_history": [
+        {
+          "status": "STOPPED_NO_RETRY",
+          "source_sha256": "8b5325a101fd70055b5a0e7458711f0a9e73ce545cf888e9bfa9bb5e66c18ff2",
+          "published_commit": "fdb05687528b387d4fa3425170f945f0c7af6266",
+          "SQL_client_exit": null,
+          "source_SQL_invocations": null,
+          "has_stop_readback": true
+        },
+        {
+          "status": "APPLIED_VERIFIED",
+          "source_sha256": "5c0913914fb27af1525bb46ddcf12b530a5527c64e25088736e73a516730d677",
+          "published_commit": "1b54bba1444ef31fc70abe65d21e3df2735feb39",
+          "SQL_client_exit": null,
+          "source_SQL_invocations": null,
+          "has_stop_readback": false
+        }
+      ]
+    },
+    {
+      "batch": "RRC041",
+      "status": "APPLIED",
+      "committed_pin": "e831caccedb3354f96bd8402ab862dd4ff7439a8",
+      "committed_apply_sha256": "b45ed3cf2428801ebff04be0c90317c8b54cc67dd8f602c56eb87f5b009c3ab2",
+      "added": {
+        "recipes": 24,
+        "entries": 176
+      },
+      "kind": "new_recipes",
+      "ordered_after": "RRC040",
+      "manifest_revisions": [
+        {
+          "recorded_branch": "rof2-tradeskills",
+          "files": {
+            "extensions/rof2/tradeskills/recipes/RRC041/README.md": {
+              "pre_sha256": null,
+              "post_sha256": "f7d2f96b95a0e27f8d404f6fd1afd22f5843a595b33ea13c86c34c51b2851508"
+            },
+            "extensions/rof2/tradeskills/recipes/RRC041/apply.sql": {
+              "pre_sha256": null,
+              "post_sha256": "b45ed3cf2428801ebff04be0c90317c8b54cc67dd8f602c56eb87f5b009c3ab2"
+            },
+            "extensions/rof2/tradeskills/recipes/RRC041/rollback.sql": {
+              "pre_sha256": null,
+              "post_sha256": "7ab0bd9745a67a26a0edd939a68f66720501f2c14c7db368cb9c3dbc5ace0375"
+            },
+            "extensions/rof2/tradeskills/recipes/RRC041/batch.json": {
+              "pre_sha256": null,
+              "post_sha256": "6240d5cda5ca3488c5e3d2449ad2f9aa1ade0e6624e5af74cf201ec594c3d8bb"
+            }
+          },
+          "other_batch_changes": {
+            "extensions/rof2/tradeskills/recipes/RRC040/APPLIED.json": {
+              "pre_sha256": null,
+              "post_sha256": "0e2788c6aa7a8971c303b285761fcdd9483c7da4ac81b7ea3067003db5e9a4a9"
+            }
+          }
+        }
+      ],
+      "attempt_history": [
+        {
+          "status": "APPLIED_VERIFIED",
+          "source_sha256": "b45ed3cf2428801ebff04be0c90317c8b54cc67dd8f602c56eb87f5b009c3ab2",
+          "published_commit": "e831caccedb3354f96bd8402ab862dd4ff7439a8",
+          "SQL_client_exit": null,
+          "source_SQL_invocations": null,
+          "has_stop_readback": false
+        }
+      ]
+    },
+    {
+      "batch": "RRC042",
+      "status": "APPLIED",
+      "committed_pin": "bc241ac967b17c51b562837c8ff88b90be2d1ef5",
+      "committed_apply_sha256": "59ad6afe1191716e8ffd8f5b89582a7d193b6c24193e4b7c844ccf7008d07028",
+      "added": {
+        "recipes": 5,
+        "entries": 35
+      },
+      "kind": "new_recipes",
+      "ordered_after": "RRC041",
+      "manifest_revisions": [
+        {
+          "recorded_branch": "rof2-tradeskills",
+          "files": {
+            "extensions/rof2/tradeskills/recipes/RRC042/README.md": {
+              "pre_sha256": null,
+              "post_sha256": "36d6b2a0fec185fc249da8551cfc1da71d94b6ccb784945f72f3f679c0f2126b"
+            },
+            "extensions/rof2/tradeskills/recipes/RRC042/apply.sql": {
+              "pre_sha256": null,
+              "post_sha256": "59ad6afe1191716e8ffd8f5b89582a7d193b6c24193e4b7c844ccf7008d07028"
+            },
+            "extensions/rof2/tradeskills/recipes/RRC042/rollback.sql": {
+              "pre_sha256": null,
+              "post_sha256": "19f4805f12738b71395ee09d8c47cdd12ab7eae5a9e3f657f11c1439c8b396e6"
+            },
+            "extensions/rof2/tradeskills/recipes/RRC042/batch.json": {
+              "pre_sha256": null,
+              "post_sha256": "3dd8722849dd6005bc8f0dfda3e192fe169491c1cf9025dbc7d26b9ff887f52d"
+            }
+          },
+          "other_batch_changes": {
+            "extensions/rof2/tradeskills/recipes/RRC041/APPLIED.json": {
+              "pre_sha256": null,
+              "post_sha256": "195f40f46b021dcf9cd47a3e7d7d0e02f3b57246941f3168f665d820ba4d4010"
+            }
+          }
+        }
+      ],
+      "attempt_history": [
+        {
+          "status": "APPLIED_VERIFIED",
+          "source_sha256": "59ad6afe1191716e8ffd8f5b89582a7d193b6c24193e4b7c844ccf7008d07028",
+          "published_commit": "bc241ac967b17c51b562837c8ff88b90be2d1ef5",
+          "SQL_client_exit": null,
+          "source_SQL_invocations": null,
+          "has_stop_readback": false
+        }
+      ]
+    },
+    {
+      "batch": "RRC043",
+      "status": "APPLIED",
+      "committed_pin": "7a7bdc576a9e561f27c48a4133f5a7c8422fb86b",
+      "committed_apply_sha256": "a98fcd9e977412520e7c19812d8b5ccace33c7899e596b36342a02c3ccb98481",
+      "added": {
+        "recipes": 23,
+        "entries": 138
+      },
+      "kind": "new_recipes",
+      "ordered_after": "RRC042",
+      "manifest_revisions": [
+        {
+          "recorded_branch": "rof2-tradeskills",
+          "files": {
+            "extensions/rof2/tradeskills/recipes/RRC043/README.md": {
+              "pre_sha256": null,
+              "post_sha256": "73d80a990f92b4a402f98612ff55a4fd1b481f152e874045079b2b6ef687ff58"
+            },
+            "extensions/rof2/tradeskills/recipes/RRC043/apply.sql": {
+              "pre_sha256": null,
+              "post_sha256": "a98fcd9e977412520e7c19812d8b5ccace33c7899e596b36342a02c3ccb98481"
+            },
+            "extensions/rof2/tradeskills/recipes/RRC043/rollback.sql": {
+              "pre_sha256": null,
+              "post_sha256": "5d02e9ab5113224a01a29a381c4187f14ccfbdb7e0a7ec27dbca274282de5335"
+            },
+            "extensions/rof2/tradeskills/recipes/RRC043/batch.json": {
+              "pre_sha256": null,
+              "post_sha256": "908e56e25a7894505bbe02047487141551866c2912612b132d01c068646fb42c"
+            }
+          },
+          "other_batch_changes": {
+            "extensions/rof2/tradeskills/recipes/RRC042/APPLIED.json": {
+              "pre_sha256": null,
+              "post_sha256": "274e8d1b3475e405eee1d9781d05e82eb5263d1cb3506ae9c4b44edabc7b7457"
+            }
+          }
+        }
+      ],
+      "attempt_history": [
+        {
+          "status": "APPLIED_VERIFIED",
+          "source_sha256": "a98fcd9e977412520e7c19812d8b5ccace33c7899e596b36342a02c3ccb98481",
+          "published_commit": "7a7bdc576a9e561f27c48a4133f5a7c8422fb86b",
+          "SQL_client_exit": null,
+          "source_SQL_invocations": null,
+          "has_stop_readback": false
+        }
+      ]
+    },
+    {
+      "batch": "RRC044",
+      "status": "APPLIED",
+      "committed_pin": "0a9b70afbdc8b75cd3ada055c22b744dad98bb7a",
+      "committed_apply_sha256": "838f36c9edb56a4fad3d2085001ea36ed2f3a388fe5f6ad77fe0aca9a1cf4078",
+      "added": {
+        "recipes": 7,
+        "entries": 39
+      },
+      "kind": "new_recipes",
+      "ordered_after": "RRC043",
+      "manifest_revisions": [
+        {
+          "recorded_branch": "rof2-tradeskills",
+          "files": {
+            "extensions/rof2/tradeskills/recipes/RRC044/README.md": {
+              "pre_sha256": null,
+              "post_sha256": "eb6c9256a72b0e12ea70c72fc5635023d4bb9583bf2a87258a437ed78f46c57b"
+            },
+            "extensions/rof2/tradeskills/recipes/RRC044/apply.sql": {
+              "pre_sha256": null,
+              "post_sha256": "838f36c9edb56a4fad3d2085001ea36ed2f3a388fe5f6ad77fe0aca9a1cf4078"
+            },
+            "extensions/rof2/tradeskills/recipes/RRC044/rollback.sql": {
+              "pre_sha256": null,
+              "post_sha256": "f38018e8f441e0cc6de2a918a3fcbc32089435be3097666b5213c30a7221a76e"
+            },
+            "extensions/rof2/tradeskills/recipes/RRC044/batch.json": {
+              "pre_sha256": null,
+              "post_sha256": "090255595c5490441ea907382133c96f505048f43318383d58f0bd326b4aad0f"
+            }
+          },
+          "other_batch_changes": {
+            "extensions/rof2/tradeskills/recipes/RRC043/APPLIED.json": {
+              "pre_sha256": null,
+              "post_sha256": "be6b59b0984ddda60879efa42b5cd45d631d0921466846858b87a6c016596260"
+            }
+          }
+        }
+      ],
+      "attempt_history": [
+        {
+          "status": "APPLIED_VERIFIED",
+          "source_sha256": "838f36c9edb56a4fad3d2085001ea36ed2f3a388fe5f6ad77fe0aca9a1cf4078",
+          "published_commit": "0a9b70afbdc8b75cd3ada055c22b744dad98bb7a",
+          "SQL_client_exit": null,
+          "source_SQL_invocations": null,
+          "has_stop_readback": false
+        }
+      ]
+    },
+    {
+      "batch": "RRC045",
+      "status": "APPLIED",
+      "committed_pin": "bac75b39626633e817d2cb8fa1911ac1afd4d9e9",
+      "committed_apply_sha256": "a32ff22def2c9a426e7683d14b0800acaa534c3eca35a1d6024c12b931327743",
+      "added": {
+        "recipes": 39,
+        "entries": 216
+      },
+      "kind": "new_recipes",
+      "ordered_after": "RRC044",
+      "manifest_revisions": [
+        {
+          "recorded_branch": "rof2-tradeskills",
+          "files": {
+            "extensions/rof2/tradeskills/recipes/RRC045/README.md": {
+              "pre_sha256": null,
+              "post_sha256": "a6dfa72e279a6d507c0bead885c7df4668f77f9a39c6a8fe8d46af92e624e035"
+            },
+            "extensions/rof2/tradeskills/recipes/RRC045/apply.sql": {
+              "pre_sha256": null,
+              "post_sha256": "a32ff22def2c9a426e7683d14b0800acaa534c3eca35a1d6024c12b931327743"
+            },
+            "extensions/rof2/tradeskills/recipes/RRC045/rollback.sql": {
+              "pre_sha256": null,
+              "post_sha256": "7f3b54db7150b23447e066b488d2f10a9c0f15fbdd83bf912c645cf5efce961d"
+            },
+            "extensions/rof2/tradeskills/recipes/RRC045/batch.json": {
+              "pre_sha256": null,
+              "post_sha256": "0ddd8abece8c2bc77cb3182924d0a2d5e8bd9bc1e6bcbba3cf1a498307a3e511"
+            }
+          },
+          "other_batch_changes": {
+            "extensions/rof2/tradeskills/recipes/RRC044/APPLIED.json": {
+              "pre_sha256": null,
+              "post_sha256": "177dbdfcecdd9a377d8f7f5a5db97e5f53d6f7234ccce331161bc31b30833a9c"
+            },
+            "extensions/rof2/tradeskills/recipes/RRC043/batch.json": {
+              "pre_sha256": "908e56e25a7894505bbe02047487141551866c2912612b132d01c068646fb42c",
+              "post_sha256": "4d189058d4958e550ed8ed48c7085355e29523353fd96a474c4dc42f3ee81b2c"
+            }
+          }
+        }
+      ],
+      "attempt_history": [
+        {
+          "status": "APPLIED_VERIFIED",
+          "source_sha256": "a32ff22def2c9a426e7683d14b0800acaa534c3eca35a1d6024c12b931327743",
+          "published_commit": "bac75b39626633e817d2cb8fa1911ac1afd4d9e9",
+          "SQL_client_exit": null,
+          "source_SQL_invocations": null,
+          "has_stop_readback": false
+        }
+      ]
+    },
+    {
+      "batch": "RRC046",
+      "status": "APPLIED",
+      "committed_pin": "79be76c375cc287e8b188b05e24958ad2cda8d64",
+      "committed_apply_sha256": "a21b94f95a8f8de59ba61f9cddedf8af29dbd6712c4875f3d63679921a7ce296",
+      "added": {
+        "recipes": 39,
+        "entries": 156
+      },
+      "kind": "new_recipes",
+      "ordered_after": "RRC045",
+      "manifest_revisions": [
+        {
+          "recorded_branch": "rof2-tradeskills",
+          "files": {
+            "extensions/rof2/tradeskills/recipes/RRC046/README.md": {
+              "pre_sha256": null,
+              "post_sha256": "0f878935ad74da2da4ef1c87ab5ab22f7bc504651a572d857aa27b3309726919"
+            },
+            "extensions/rof2/tradeskills/recipes/RRC046/apply.sql": {
+              "pre_sha256": null,
+              "post_sha256": "a21b94f95a8f8de59ba61f9cddedf8af29dbd6712c4875f3d63679921a7ce296"
+            },
+            "extensions/rof2/tradeskills/recipes/RRC046/rollback.sql": {
+              "pre_sha256": null,
+              "post_sha256": "5f06157778088b9ba1a7fdc4b59c47e280a956ccff50764ee124bd195c7ccda6"
+            },
+            "extensions/rof2/tradeskills/recipes/RRC046/batch.json": {
+              "pre_sha256": null,
+              "post_sha256": "9580b974a3108abafd4ef30ad4ef33462b782c47bf5a4cbfa09a1192697797dc"
+            }
+          },
+          "other_batch_changes": {
+            "extensions/rof2/tradeskills/recipes/RRC045/APPLIED.json": {
+              "pre_sha256": null,
+              "post_sha256": "a2611bea5e0c9a5331ebb19e3504ffce9ce6e9ba3e874f33525d8a8800afae7d"
+            }
+          }
+        }
+      ],
+      "attempt_history": [
+        {
+          "status": "APPLIED_VERIFIED",
+          "source_sha256": "a21b94f95a8f8de59ba61f9cddedf8af29dbd6712c4875f3d63679921a7ce296",
+          "published_commit": "79be76c375cc287e8b188b05e24958ad2cda8d64",
+          "SQL_client_exit": null,
+          "source_SQL_invocations": null,
+          "has_stop_readback": false
+        }
+      ]
+    },
+    {
+      "batch": "RRC047",
+      "status": "APPLIED",
+      "committed_pin": "628e05d479641d446477525d010834b305cbb8f5",
+      "committed_apply_sha256": "435a1f3ffce652c1eae150350fa549611d8df45975a6c7cb9712c7163827f53a",
+      "added": {
+        "recipes": 43,
+        "entries": 187
+      },
+      "kind": "new_recipes",
+      "ordered_after": "RRC046",
+      "manifest_revisions": [
+        {
+          "recorded_branch": "rof2-tradeskills",
+          "files": {
+            "extensions/rof2/tradeskills/recipes/RRC047/README.md": {
+              "pre_sha256": null,
+              "post_sha256": "5da390daa7f7880cd99fe9706c6ce301b1b4c43fdcb75f16cae24d48fc20a468"
+            },
+            "extensions/rof2/tradeskills/recipes/RRC047/apply.sql": {
+              "pre_sha256": null,
+              "post_sha256": "435a1f3ffce652c1eae150350fa549611d8df45975a6c7cb9712c7163827f53a"
+            },
+            "extensions/rof2/tradeskills/recipes/RRC047/rollback.sql": {
+              "pre_sha256": null,
+              "post_sha256": "255cc356f930c93099e0101371ad869492d4861500fb9f507ca1e54748a27c26"
+            },
+            "extensions/rof2/tradeskills/recipes/RRC047/batch.json": {
+              "pre_sha256": null,
+              "post_sha256": "c5a0356f4749392bf23c1572cccecebe25776ae5d78add1a04f9416d4b6e6a57"
+            }
+          },
+          "other_batch_changes": {
+            "extensions/rof2/tradeskills/recipes/RRC046/APPLIED.json": {
+              "pre_sha256": null,
+              "post_sha256": "1014f827766613bcbf4d4d4a206e0046c118758df5d79d252c88944fa4837804"
+            }
+          }
+        }
+      ],
+      "attempt_history": [
+        {
+          "status": "APPLIED_VERIFIED",
+          "source_sha256": "435a1f3ffce652c1eae150350fa549611d8df45975a6c7cb9712c7163827f53a",
+          "published_commit": "628e05d479641d446477525d010834b305cbb8f5",
+          "SQL_client_exit": null,
+          "source_SQL_invocations": null,
+          "has_stop_readback": false
+        }
+      ]
+    },
+    {
+      "batch": "RRC048",
+      "status": "APPLIED",
+      "committed_pin": "0546105376c5a884e0d8861b375253a6112d9d6e",
+      "committed_apply_sha256": "2fa5ccc9b2e069d2f2f880c8d9e6968ec562c2390504ed24b94a093df5b69855",
+      "added": {
+        "recipes": 143,
+        "entries": 929
+      },
+      "kind": "new_recipes",
+      "ordered_after": "RRC047",
+      "manifest_revisions": [
+        {
+          "recorded_branch": "rof2-tradeskills",
+          "files": {
+            "extensions/rof2/tradeskills/recipes/RRC048/README.md": {
+              "pre_sha256": null,
+              "post_sha256": "a5eef6d183bb0eee08e7a3f153c909d460b1009a8132444b7f2a032c53a8578e"
+            },
+            "extensions/rof2/tradeskills/recipes/RRC048/apply.sql": {
+              "pre_sha256": null,
+              "post_sha256": "2fa5ccc9b2e069d2f2f880c8d9e6968ec562c2390504ed24b94a093df5b69855"
+            },
+            "extensions/rof2/tradeskills/recipes/RRC048/rollback.sql": {
+              "pre_sha256": null,
+              "post_sha256": "d190f5151dc05055422365639caa94c8fa152e95cc20b8cbce880b9cf0a0b306"
+            },
+            "extensions/rof2/tradeskills/recipes/RRC048/batch.json": {
+              "pre_sha256": null,
+              "post_sha256": "32b28b8208d03a7053e573bd62d8264d72b9017dc77e3bc2fae37df297af94a1"
+            }
+          },
+          "other_batch_changes": {
+            "extensions/rof2/tradeskills/recipes/RRC047/APPLIED.json": {
+              "pre_sha256": null,
+              "post_sha256": "f79cf71e918ea2a2bf9101cf24e7a802ada2c77ea5685d591176d6afdc9c27ad"
+            }
+          }
+        }
+      ],
+      "attempt_history": [
+        {
+          "status": "APPLIED_VERIFIED",
+          "source_sha256": "2fa5ccc9b2e069d2f2f880c8d9e6968ec562c2390504ed24b94a093df5b69855",
+          "published_commit": "0546105376c5a884e0d8861b375253a6112d9d6e",
+          "SQL_client_exit": null,
+          "source_SQL_invocations": null,
+          "has_stop_readback": false
+        }
+      ]
+    },
+    {
+      "batch": "RRC049",
+      "status": "APPLIED",
+      "committed_pin": "e87f7539e0cbd4b5752dba42ce6d07b5c8586067",
+      "committed_apply_sha256": "aa15311b8e6eeb36304c7c7d02c29fb79db9c1a63d31e053b8b2c208a68b1404",
+      "added": {
+        "recipes": 31,
+        "entries": 165
+      },
+      "kind": "new_recipes",
+      "ordered_after": "RRC048",
+      "manifest_revisions": [
+        {
+          "recorded_branch": "rof2-tradeskills",
+          "files": {
+            "extensions/rof2/tradeskills/recipes/RRC049/README.md": {
+              "pre_sha256": null,
+              "post_sha256": "d238afc06f8da2b07e196e4e6c174e03a80b4f59ee1b5ac375c10bf5403a8e22"
+            },
+            "extensions/rof2/tradeskills/recipes/RRC049/apply.sql": {
+              "pre_sha256": null,
+              "post_sha256": "aa15311b8e6eeb36304c7c7d02c29fb79db9c1a63d31e053b8b2c208a68b1404"
+            },
+            "extensions/rof2/tradeskills/recipes/RRC049/rollback.sql": {
+              "pre_sha256": null,
+              "post_sha256": "2f4e2b1f66ded4815f027e738e5384a403a405cf106af2cf614425c72181a830"
+            },
+            "extensions/rof2/tradeskills/recipes/RRC049/batch.json": {
+              "pre_sha256": null,
+              "post_sha256": "e8772dffaa08b7a7e6ece584f99296928404f3a89b77f5b8e2e374a965f0b6cc"
+            }
+          },
+          "other_batch_changes": {
+            "extensions/rof2/tradeskills/recipes/RRC048/APPLIED.json": {
+              "pre_sha256": null,
+              "post_sha256": "855c44625dd57491aaa311c1b1379192bf33b54aadbe758377efb49d65f08c70"
+            }
+          }
+        }
+      ],
+      "attempt_history": [
+        {
+          "status": "APPLIED_VERIFIED",
+          "source_sha256": "aa15311b8e6eeb36304c7c7d02c29fb79db9c1a63d31e053b8b2c208a68b1404",
+          "published_commit": "e87f7539e0cbd4b5752dba42ce6d07b5c8586067",
+          "SQL_client_exit": null,
+          "source_SQL_invocations": null,
+          "has_stop_readback": false
+        }
+      ]
+    },
+    {
+      "batch": "RRC050",
+      "status": "APPLIED",
+      "committed_pin": "026b49a56084a13c0225cf49125c11f0152c7e0c",
+      "committed_apply_sha256": "970a3356d1e00c7fb65b6259f9ec4145ef1a6db0c0fc625cd8be4e8d3e9bea49",
+      "added": {
+        "recipes": 0,
+        "entries": 0
+      },
+      "kind": "ingredient_id_correction",
+      "ordered_after": "RRC049",
+      "manifest_revisions": [
+        {
+          "recorded_branch": "rof2-tradeskills",
+          "files": {
+            "extensions/rof2/tradeskills/recipes/RRC050/README.md": {
+              "pre_sha256": null,
+              "post_sha256": "8241642f1528d3d9ebe6a08fe446abc2cce6d7dded35205dd0a867d0d4cbec5d"
+            },
+            "extensions/rof2/tradeskills/recipes/RRC050/apply.sql": {
+              "pre_sha256": null,
+              "post_sha256": "a954835db0d80ba4e755db14cad413e6fb29cea8eeab12f18f3aad74cdf66f47"
+            },
+            "extensions/rof2/tradeskills/recipes/RRC050/rollback.sql": {
+              "pre_sha256": null,
+              "post_sha256": "6457be8af7fe4d4f18d650b1ac3013fc323f38c8d3c3893874cc96c015163f8d"
+            },
+            "extensions/rof2/tradeskills/recipes/RRC050/batch.json": {
+              "pre_sha256": null,
+              "post_sha256": "4ab528900e10a6475103e9556a5f36c5b78b0245b02cf48e4e59f5fb0c7b5362"
+            }
+          },
+          "other_batch_changes": {
+            "extensions/rof2/tradeskills/recipes/RRC049/APPLIED.json": {
+              "pre_sha256": null,
+              "post_sha256": "aec9981b17e3d250632071eac8c9d3c6b22319d024cd7658377de3a834008d72"
+            }
+          }
+        },
+        {
+          "recorded_branch": "rof2-tradeskills",
+          "files": {
+            "extensions/rof2/tradeskills/recipes/RRC050/README.md": {
+              "pre_sha256": "8241642f1528d3d9ebe6a08fe446abc2cce6d7dded35205dd0a867d0d4cbec5d",
+              "post_sha256": "5f7aa843c4b73e1cb5aaa042d515087fa5fbd60f1cc66af7d1dc6c8d1c5dd9d3"
+            },
+            "extensions/rof2/tradeskills/recipes/RRC050/apply.sql": {
+              "pre_sha256": "a954835db0d80ba4e755db14cad413e6fb29cea8eeab12f18f3aad74cdf66f47",
+              "post_sha256": "970a3356d1e00c7fb65b6259f9ec4145ef1a6db0c0fc625cd8be4e8d3e9bea49"
+            },
+            "extensions/rof2/tradeskills/recipes/RRC050/rollback.sql": {
+              "pre_sha256": "6457be8af7fe4d4f18d650b1ac3013fc323f38c8d3c3893874cc96c015163f8d",
+              "post_sha256": "e3d9d4ae3db0e7f5b3dba3e4ed0e4317c788800455f94bfc9dc3299f3c098202"
+            },
+            "extensions/rof2/tradeskills/recipes/RRC050/batch.json": {
+              "pre_sha256": "4ab528900e10a6475103e9556a5f36c5b78b0245b02cf48e4e59f5fb0c7b5362",
+              "post_sha256": "f1a6817f9bbc655615700d7b7de901d17297a8032c408267abcceea260b9e20c"
+            },
+            "extensions/rof2/tradeskills/recipes/RRC050/FAILED-ATTEMPT-001.json": {
+              "pre_sha256": null,
+              "post_sha256": "f648b75ed016e1079cd19480aaa13f0c4aa290ab830ed4e2cd1bcd2a332ddd7b"
+            }
+          },
+          "other_batch_changes": {}
+        }
+      ],
+      "attempt_history": [
+        {
+          "status": "STOPPED_NO_RETRY",
+          "source_sha256": "a954835db0d80ba4e755db14cad413e6fb29cea8eeab12f18f3aad74cdf66f47",
+          "published_commit": "0d778c1dc490b7f24c1769459cf54dcb48db56ed",
+          "SQL_client_exit": null,
+          "source_SQL_invocations": null,
+          "has_stop_readback": true
+        },
+        {
+          "status": "APPLIED_VERIFIED",
+          "source_sha256": "970a3356d1e00c7fb65b6259f9ec4145ef1a6db0c0fc625cd8be4e8d3e9bea49",
+          "published_commit": "026b49a56084a13c0225cf49125c11f0152c7e0c",
+          "SQL_client_exit": null,
+          "source_SQL_invocations": null,
+          "has_stop_readback": false
+        }
+      ]
+    },
+    {
+      "batch": "RRC051",
+      "status": "APPLIED",
+      "committed_pin": "37e31dc7d3b9b44f13e2809eca5aa5479b295ec1",
+      "committed_apply_sha256": "873370de3f8e91fbeb4114baf0b98660e19b532a7080ba7f03bbb452460550f0",
+      "added": {
+        "recipes": 98,
+        "entries": 585
+      },
+      "kind": "new_recipes",
+      "ordered_after": "RRC050",
+      "manifest_revisions": [
+        {
+          "recorded_branch": "rof2-tradeskills",
+          "files": {
+            "extensions/rof2/tradeskills/recipes/RRC051/README.md": {
+              "pre_sha256": null,
+              "post_sha256": "b6ba30145f5beefffb16243637e123926e0d9328e23807efc7406a0ab6682238"
+            },
+            "extensions/rof2/tradeskills/recipes/RRC051/apply.sql": {
+              "pre_sha256": null,
+              "post_sha256": "873370de3f8e91fbeb4114baf0b98660e19b532a7080ba7f03bbb452460550f0"
+            },
+            "extensions/rof2/tradeskills/recipes/RRC051/rollback.sql": {
+              "pre_sha256": null,
+              "post_sha256": "aa6620fc3e37a82b7113286db289bd2f10be2b42e74281328865984cfc211e17"
+            },
+            "extensions/rof2/tradeskills/recipes/RRC051/batch.json": {
+              "pre_sha256": null,
+              "post_sha256": "2340f1364ebe509ce2e5dd93ea426a53eb5f046d3be75a83e2a5a2b9fdbf62e5"
+            }
+          },
+          "other_batch_changes": {
+            "extensions/rof2/tradeskills/recipes/RRC050/APPLIED.json": {
+              "pre_sha256": null,
+              "post_sha256": "ef6a4a480ba928a7751e0b8855a67e2192c5b8fc16321f67ca9139beefe998fc"
+            }
+          }
+        }
+      ],
+      "attempt_history": [
+        {
+          "status": "APPLIED_VERIFIED",
+          "source_sha256": "873370de3f8e91fbeb4114baf0b98660e19b532a7080ba7f03bbb452460550f0",
+          "published_commit": "37e31dc7d3b9b44f13e2809eca5aa5479b295ec1",
+          "SQL_client_exit": null,
+          "source_SQL_invocations": null,
+          "has_stop_readback": false
+        }
+      ]
+    },
+    {
+      "batch": "RRC052",
+      "status": "APPLIED",
+      "committed_pin": "96a28ee571be91378ecddeb9b5119d612cbc1b2e",
+      "committed_apply_sha256": "3e20e3afe01290ae63d3111c14e13211fbf85c38f8b8b4e7fa2b17bf3bb70bdd",
+      "added": {
+        "recipes": 138,
+        "entries": 679
+      },
+      "kind": "new_recipes",
+      "ordered_after": "RRC051",
+      "manifest_revisions": [
+        {
+          "recorded_branch": "rof2-tradeskills",
+          "files": {
+            "extensions/rof2/tradeskills/recipes/RRC052/README.md": {
+              "pre_sha256": null,
+              "post_sha256": "2c53e8f2e69b9ee6a307555ff4cef4f564182d225d28a49257892fe26b0d2eb7"
+            },
+            "extensions/rof2/tradeskills/recipes/RRC052/apply.sql": {
+              "pre_sha256": null,
+              "post_sha256": "3e20e3afe01290ae63d3111c14e13211fbf85c38f8b8b4e7fa2b17bf3bb70bdd"
+            },
+            "extensions/rof2/tradeskills/recipes/RRC052/rollback.sql": {
+              "pre_sha256": null,
+              "post_sha256": "07bb4b01f4efc01a4763945a20a08ddab94e5fdbe9ee3633b4541e359fbd0128"
+            },
+            "extensions/rof2/tradeskills/recipes/RRC052/batch.json": {
+              "pre_sha256": null,
+              "post_sha256": "2c53382e79d5dce0c60314ea31e7f169a5e137675ee8909368228d3e988c10ec"
+            }
+          },
+          "other_batch_changes": {
+            "extensions/rof2/tradeskills/recipes/RRC051/APPLIED.json": {
+              "pre_sha256": null,
+              "post_sha256": "cf6bad9e27cf4b98f719f6b533fdede6900045698ecd787bcf1889a9a35d7f41"
+            }
+          }
+        }
+      ],
+      "attempt_history": [
+        {
+          "status": "APPLIED_VERIFIED",
+          "source_sha256": "3e20e3afe01290ae63d3111c14e13211fbf85c38f8b8b4e7fa2b17bf3bb70bdd",
+          "published_commit": "96a28ee571be91378ecddeb9b5119d612cbc1b2e",
+          "SQL_client_exit": null,
+          "source_SQL_invocations": null,
+          "has_stop_readback": false
+        }
+      ]
+    },
+    {
+      "batch": "RRC053",
+      "status": "APPLIED",
+      "committed_pin": "8db4829878cddea8caafbfdb4a65f2e11d952fb8",
+      "committed_apply_sha256": "39374a90a71c3a9f7bb5b4255c992f428baab9756e35b5efdb4578860069a8ef",
+      "added": {
+        "recipes": 25,
+        "entries": 147
+      },
+      "kind": "new_recipes",
+      "ordered_after": "RRC052",
+      "manifest_revisions": [
+        {
+          "recorded_branch": "rof2-tradeskills",
+          "files": {
+            "extensions/rof2/tradeskills/recipes/RRC053/README.md": {
+              "pre_sha256": null,
+              "post_sha256": "9490ab2a64a5cd5f4a739764b66a180b89d63125ac43a845b92e24a1f6488331"
+            },
+            "extensions/rof2/tradeskills/recipes/RRC053/apply.sql": {
+              "pre_sha256": null,
+              "post_sha256": "39374a90a71c3a9f7bb5b4255c992f428baab9756e35b5efdb4578860069a8ef"
+            },
+            "extensions/rof2/tradeskills/recipes/RRC053/rollback.sql": {
+              "pre_sha256": null,
+              "post_sha256": "50df96446ef59d6e6ac375172d66d47d4420d51d2f3e0c9172a3a2c8dde059bc"
+            },
+            "extensions/rof2/tradeskills/recipes/RRC053/batch.json": {
+              "pre_sha256": null,
+              "post_sha256": "22986c1663b0e0ab5c63f256f6dc8b9bf378df9c9a3de49e9d743fe1c7ef2d8c"
+            }
+          },
+          "other_batch_changes": {
+            "extensions/rof2/tradeskills/recipes/RRC052/APPLIED.json": {
+              "pre_sha256": null,
+              "post_sha256": "7a19549ebc19370e3d31184d011c7e568b69af5abe20cdaedb3d27c1c7f6672f"
+            }
+          }
+        }
+      ],
+      "attempt_history": [
+        {
+          "status": "APPLIED_VERIFIED",
+          "source_sha256": "39374a90a71c3a9f7bb5b4255c992f428baab9756e35b5efdb4578860069a8ef",
+          "published_commit": "8db4829878cddea8caafbfdb4a65f2e11d952fb8",
+          "SQL_client_exit": null,
+          "source_SQL_invocations": null,
+          "has_stop_readback": false
+        }
+      ]
+    },
+    {
+      "batch": "RRC054",
+      "status": "APPLIED",
+      "committed_pin": "214e29b9de19b29d5dca7314d1fd287ba3450a3a",
+      "committed_apply_sha256": "7113edca7e40932341ff44ab43e8bf1efc741870d9d1bc6cdeb521f6c3230e2a",
+      "added": {
+        "recipes": 28,
+        "entries": 218
+      },
+      "kind": "new_recipes",
+      "ordered_after": "RRC053",
+      "manifest_revisions": [
+        {
+          "recorded_branch": "rof2-tradeskills",
+          "files": {
+            "extensions/rof2/tradeskills/recipes/RRC054/README.md": {
+              "pre_sha256": null,
+              "post_sha256": "fc41db5ce88c7e3da1e5f4217d710fe84c528c30b3c0b1311f76127784d48f14"
+            },
+            "extensions/rof2/tradeskills/recipes/RRC054/apply.sql": {
+              "pre_sha256": null,
+              "post_sha256": "7113edca7e40932341ff44ab43e8bf1efc741870d9d1bc6cdeb521f6c3230e2a"
+            },
+            "extensions/rof2/tradeskills/recipes/RRC054/rollback.sql": {
+              "pre_sha256": null,
+              "post_sha256": "365eedcc5af79f4d110db5164bc6c5d03737f24f1a84da350b19f7c4cbe3b3f1"
+            },
+            "extensions/rof2/tradeskills/recipes/RRC054/batch.json": {
+              "pre_sha256": null,
+              "post_sha256": "30cc85062c02607df11006ef7b5d523cb9d24c2bf3dc29db3dc2c82f2746ffb2"
+            }
+          },
+          "other_batch_changes": {
+            "extensions/rof2/tradeskills/recipes/RRC053/APPLIED.json": {
+              "pre_sha256": null,
+              "post_sha256": "557a66b0e571f0d63284396785fb52fa5f484d29635c5376807ae2a2d652c345"
+            }
+          }
+        }
+      ],
+      "attempt_history": [
+        {
+          "status": "APPLIED_VERIFIED",
+          "source_sha256": "7113edca7e40932341ff44ab43e8bf1efc741870d9d1bc6cdeb521f6c3230e2a",
+          "published_commit": "214e29b9de19b29d5dca7314d1fd287ba3450a3a",
+          "SQL_client_exit": null,
+          "source_SQL_invocations": null,
+          "has_stop_readback": false
+        }
+      ]
+    },
+    {
+      "batch": "RRC055",
+      "status": "APPLIED",
+      "committed_pin": "09c908b01c1bf2b0cbba0ae8a24fca5f73fad90a",
+      "committed_apply_sha256": "72a323eb344fc2ef0508316ddc52939c08db937fe0ac59f34c377d3c9d904323",
+      "added": {
+        "recipes": 92,
+        "entries": 534
+      },
+      "kind": "new_recipes",
+      "ordered_after": "RRC054",
+      "manifest_revisions": [
+        {
+          "recorded_branch": "rof2-tradeskills",
+          "files": {
+            "extensions/rof2/tradeskills/recipes/RRC055/README.md": {
+              "pre_sha256": null,
+              "post_sha256": "398447cfc985b547dde009a639e01df54cd2d4e3e2477a86e4271347c6d18acd"
+            },
+            "extensions/rof2/tradeskills/recipes/RRC055/apply.sql": {
+              "pre_sha256": null,
+              "post_sha256": "72a323eb344fc2ef0508316ddc52939c08db937fe0ac59f34c377d3c9d904323"
+            },
+            "extensions/rof2/tradeskills/recipes/RRC055/rollback.sql": {
+              "pre_sha256": null,
+              "post_sha256": "7808a6fedd21a638cdfeb3b6d430ae6eac379ef2531c72895d37b3c4215e9551"
+            },
+            "extensions/rof2/tradeskills/recipes/RRC055/batch.json": {
+              "pre_sha256": null,
+              "post_sha256": "a37c2290e327afbf18595d7675001656ed8e1b36d0206a05cc9f3a2948341b8b"
+            }
+          },
+          "other_batch_changes": {
+            "extensions/rof2/tradeskills/recipes/RRC054/APPLIED.json": {
+              "pre_sha256": null,
+              "post_sha256": "00ab4ae57198424d9f25573f056be19f2be0cffa21713d5e6afd7648b5a1a80a"
+            }
+          }
+        }
+      ],
+      "attempt_history": [
+        {
+          "status": "APPLIED_VERIFIED",
+          "source_sha256": "72a323eb344fc2ef0508316ddc52939c08db937fe0ac59f34c377d3c9d904323",
+          "published_commit": "09c908b01c1bf2b0cbba0ae8a24fca5f73fad90a",
+          "SQL_client_exit": null,
+          "source_SQL_invocations": null,
+          "has_stop_readback": false
+        }
+      ]
+    },
+    {
+      "batch": "RRC056",
+      "status": "APPLIED",
+      "committed_pin": "51c608ce0b18e37b7d615d94f8cc5f3fcb96ed15",
+      "committed_apply_sha256": "d5a94cb997a12752806d87bd71558a80366f1c7bd30f4dcbde58a8b03ba2aff1",
+      "added": {
+        "recipes": 96,
+        "entries": 553
+      },
+      "kind": "new_recipes",
+      "ordered_after": "RRC055",
+      "manifest_revisions": [
+        {
+          "recorded_branch": "rof2-tradeskills",
+          "files": {
+            "extensions/rof2/tradeskills/recipes/RRC056/README.md": {
+              "pre_sha256": null,
+              "post_sha256": "e25e5be88cc151feef9e78039cf948e88e25dde6feea15fe34cf48e85e88fdcd"
+            },
+            "extensions/rof2/tradeskills/recipes/RRC056/apply.sql": {
+              "pre_sha256": null,
+              "post_sha256": "d5a94cb997a12752806d87bd71558a80366f1c7bd30f4dcbde58a8b03ba2aff1"
+            },
+            "extensions/rof2/tradeskills/recipes/RRC056/rollback.sql": {
+              "pre_sha256": null,
+              "post_sha256": "5c9e0bd7dbbdbf9887dcda8cdb7696c3abf969875ccfd1bd9063c9181a276819"
+            },
+            "extensions/rof2/tradeskills/recipes/RRC056/batch.json": {
+              "pre_sha256": null,
+              "post_sha256": "8938bd44d448c0f2955d2ab6bf7f8833dfeecca9e0d6a2cf388088b7ee83d146"
+            }
+          },
+          "other_batch_changes": {
+            "extensions/rof2/tradeskills/recipes/RRC055/APPLIED.json": {
+              "pre_sha256": null,
+              "post_sha256": "af8a1636fad4ec634d095ca7c90821d439b0951b3b96d0eaf33aa43c244aced1"
+            }
+          }
+        }
+      ],
+      "attempt_history": [
+        {
+          "status": "APPLIED_VERIFIED",
+          "source_sha256": "d5a94cb997a12752806d87bd71558a80366f1c7bd30f4dcbde58a8b03ba2aff1",
+          "published_commit": "51c608ce0b18e37b7d615d94f8cc5f3fcb96ed15",
+          "SQL_client_exit": null,
+          "source_SQL_invocations": null,
+          "has_stop_readback": false
+        }
+      ]
+    },
+    {
+      "batch": "RRC057",
+      "status": "APPLIED",
+      "committed_pin": "70139815d25c94df5ad9d49161e061e0b44322ba",
+      "committed_apply_sha256": "cc28fab2ffe57a7c6842e1f37cae5ec5ec45573b82acb42fc62e4185a11e5fb0",
+      "added": {
+        "recipes": 89,
+        "entries": 502
+      },
+      "kind": "new_recipes",
+      "ordered_after": "RRC056",
+      "manifest_revisions": [
+        {
+          "recorded_branch": "rof2-tradeskills",
+          "files": {
+            "extensions/rof2/tradeskills/recipes/RRC057/README.md": {
+              "pre_sha256": null,
+              "post_sha256": "fbb952e6a822813550c29eca535d98c918fb49e41f2077e740ea161dda17f119"
+            },
+            "extensions/rof2/tradeskills/recipes/RRC057/apply.sql": {
+              "pre_sha256": null,
+              "post_sha256": "cc28fab2ffe57a7c6842e1f37cae5ec5ec45573b82acb42fc62e4185a11e5fb0"
+            },
+            "extensions/rof2/tradeskills/recipes/RRC057/rollback.sql": {
+              "pre_sha256": null,
+              "post_sha256": "0ac19c282b6a4cf306537ddee62646f95e33cc64215609ca888c314ae0d5098c"
+            },
+            "extensions/rof2/tradeskills/recipes/RRC057/batch.json": {
+              "pre_sha256": null,
+              "post_sha256": "bc4d86680f688850bd660ebb54573e59545f8281bddcdbbd95b76ce5228cfb4a"
+            }
+          },
+          "other_batch_changes": {
+            "extensions/rof2/tradeskills/recipes/RRC056/APPLIED.json": {
+              "pre_sha256": null,
+              "post_sha256": "48c390773fe045b67ab61ceec576b147a815cf1f26d0e125f4737f09fedb955c"
+            }
+          }
+        }
+      ],
+      "attempt_history": [
+        {
+          "status": "APPLIED_VERIFIED",
+          "source_sha256": "cc28fab2ffe57a7c6842e1f37cae5ec5ec45573b82acb42fc62e4185a11e5fb0",
+          "published_commit": "70139815d25c94df5ad9d49161e061e0b44322ba",
+          "SQL_client_exit": null,
+          "source_SQL_invocations": null,
+          "has_stop_readback": false
+        }
+      ]
+    },
+    {
+      "batch": "RRC058",
+      "status": "APPLIED",
+      "committed_pin": "83b4c4e6a127f3bf507f9b455b3ff9a5cd406995",
+      "committed_apply_sha256": "f4f3759030c90091399c92aa34cf9fad85f1085593856c7cb450dce85b677211",
+      "added": {
+        "recipes": 3,
+        "entries": 12
+      },
+      "kind": "new_recipes",
+      "ordered_after": "RRC057",
+      "manifest_revisions": [
+        {
+          "recorded_branch": "rof2-tradeskills",
+          "files": {
+            "extensions/rof2/tradeskills/recipes/RRC058/README.md": {
+              "pre_sha256": null,
+              "post_sha256": "544277b740caed75dfd286158ab7551dfa33a9924133ff30974b0d366f5758a2"
+            },
+            "extensions/rof2/tradeskills/recipes/RRC058/apply.sql": {
+              "pre_sha256": null,
+              "post_sha256": "f4f3759030c90091399c92aa34cf9fad85f1085593856c7cb450dce85b677211"
+            },
+            "extensions/rof2/tradeskills/recipes/RRC058/rollback.sql": {
+              "pre_sha256": null,
+              "post_sha256": "bef27967b2f456a45548d0d8253f357f3ecfc31965fb75eb0d9ab87d9d8e02b8"
+            },
+            "extensions/rof2/tradeskills/recipes/RRC058/batch.json": {
+              "pre_sha256": null,
+              "post_sha256": "d93e76a3697af5761e82bd8b46f75c1ae4e39e1eec7f57f707136f6050e77f41"
+            }
+          },
+          "other_batch_changes": {
+            "extensions/rof2/tradeskills/recipes/RRC057/APPLIED.json": {
+              "pre_sha256": null,
+              "post_sha256": "5f7617d113add3f884603b659c69ea9dd662978e39dda2c6efca458715eb768a"
+            }
+          }
+        }
+      ],
+      "attempt_history": [
+        {
+          "status": "APPLIED_VERIFIED",
+          "source_sha256": "f4f3759030c90091399c92aa34cf9fad85f1085593856c7cb450dce85b677211",
+          "published_commit": "83b4c4e6a127f3bf507f9b455b3ff9a5cd406995",
+          "SQL_client_exit": null,
+          "source_SQL_invocations": null,
+          "has_stop_readback": false
+        }
+      ]
+    },
+    {
+      "batch": "RRC059",
+      "status": "APPLIED",
+      "committed_pin": "9a5a78f3eaa6f44faca494c7ddda4b77b6cc8433",
+      "committed_apply_sha256": "a6238e6f771bb19b733abd966fabb055b8d4eee4e9a1b014ba7a1a5ae1f0743a",
+      "added": {
+        "recipes": 42,
+        "entries": 400
+      },
+      "kind": "new_recipes",
+      "ordered_after": "RRC058",
+      "manifest_revisions": [
+        {
+          "recorded_branch": "rof2-tradeskills",
+          "files": {
+            "extensions/rof2/tradeskills/recipes/RRC059/README.md": {
+              "pre_sha256": null,
+              "post_sha256": "a1bfb5dd069db6105cbef13dc3f4f8cf7a730a0b443e4ca54431797ca0287f1d"
+            },
+            "extensions/rof2/tradeskills/recipes/RRC059/apply.sql": {
+              "pre_sha256": null,
+              "post_sha256": "0f3b81b096484b93ad98c17d0e991807a357f4b985a23ba19014243b901e3764"
+            },
+            "extensions/rof2/tradeskills/recipes/RRC059/rollback.sql": {
+              "pre_sha256": null,
+              "post_sha256": "1a0cab8b588d203dfa0896fe934dbad6b9dcd7ca025584575d5a0f290a8089a4"
+            },
+            "extensions/rof2/tradeskills/recipes/RRC059/batch.json": {
+              "pre_sha256": null,
+              "post_sha256": "b8167dad633619c324edb03f53ccceff891c6e9650932255a35c0f0355a7e83b"
+            }
+          },
+          "other_batch_changes": {
+            "extensions/rof2/tradeskills/recipes/RRC058/APPLIED.json": {
+              "pre_sha256": null,
+              "post_sha256": "689cb38a3da2e9af50a79265b2cf5ca812238cb7375fc204bcf5bb400baa667c"
+            },
+            "extensions/rof2/tradeskills/recipes/RRC052/README.md": {
+              "pre_sha256": "2c53e8f2e69b9ee6a307555ff4cef4f564182d225d28a49257892fe26b0d2eb7",
+              "post_sha256": "22acd82ab5233e8f8aad6337f642921db9fc8614e2e05c6bbf3b0feb025d4d68"
+            },
+            "extensions/rof2/tradeskills/recipes/RRC052/batch.json": {
+              "pre_sha256": "2c53382e79d5dce0c60314ea31e7f169a5e137675ee8909368228d3e988c10ec",
+              "post_sha256": "d14b4a9472684809eb6fd5220bf96f76d69fea47b56069e4fe0e7c3cf636f6ba"
+            }
+          }
+        },
+        {
+          "recorded_branch": "rof2-tradeskills",
+          "files": {
+            "extensions/rof2/tradeskills/recipes/RRC059/apply.sql": {
+              "pre_sha256": "0f3b81b096484b93ad98c17d0e991807a357f4b985a23ba19014243b901e3764",
+              "post_sha256": "a6238e6f771bb19b733abd966fabb055b8d4eee4e9a1b014ba7a1a5ae1f0743a"
+            },
+            "extensions/rof2/tradeskills/recipes/RRC059/batch.json": {
+              "pre_sha256": "b8167dad633619c324edb03f53ccceff891c6e9650932255a35c0f0355a7e83b",
+              "post_sha256": "d5b49ebf1e62f3c647ba62c1eb8f565aba0e294678eabc91071f0051cb823b15"
+            },
+            "extensions/rof2/tradeskills/recipes/RRC059/README.md": {
+              "pre_sha256": "a1bfb5dd069db6105cbef13dc3f4f8cf7a730a0b443e4ca54431797ca0287f1d",
+              "post_sha256": "d1eece355b38c6bb98662471e62cb227fa3faa71aab2b4ec9515a0c3530503c4"
+            },
+            "extensions/rof2/tradeskills/recipes/RRC059/FAILED-ATTEMPT-001.json": {
+              "pre_sha256": null,
+              "post_sha256": "32ffd8b30b82f8e1eed763a5ac3200b916d6c8c872233d3431f89d3bf523312c"
+            }
+          },
+          "other_batch_changes": {}
+        }
+      ],
+      "attempt_history": [
+        {
+          "status": "STOPPED_NO_RETRY",
+          "source_sha256": "0f3b81b096484b93ad98c17d0e991807a357f4b985a23ba19014243b901e3764",
+          "published_commit": "4cac9a1b892e0899e37ffe7d45e163be2918ef33",
+          "SQL_client_exit": null,
+          "source_SQL_invocations": null,
+          "has_stop_readback": false
+        },
+        {
+          "status": "APPLIED_VERIFIED",
+          "source_sha256": "a6238e6f771bb19b733abd966fabb055b8d4eee4e9a1b014ba7a1a5ae1f0743a",
+          "published_commit": "9a5a78f3eaa6f44faca494c7ddda4b77b6cc8433",
+          "SQL_client_exit": null,
+          "source_SQL_invocations": null,
+          "has_stop_readback": false
+        }
+      ]
+    },
+    {
+      "batch": "RRC060",
+      "status": "APPLIED",
+      "committed_pin": "b8ff274771899318a13a51c253916fb2d10bda42",
+      "committed_apply_sha256": "f7d8ec9f88d2e715324d4e85c4e0a600ef80f75c2f09b065542d32e5b1228e20",
+      "added": {
+        "recipes": 6,
+        "entries": 29
+      },
+      "kind": "new_recipes",
+      "ordered_after": "RRC059",
+      "manifest_revisions": [
+        {
+          "recorded_branch": "rof2-tradeskills",
+          "files": {
+            "extensions/rof2/tradeskills/recipes/RRC060/README.md": {
+              "pre_sha256": null,
+              "post_sha256": "b272693970a1d79ba416c3ac7acf233f02092f0688213d35a36dd162b860e4b8"
+            },
+            "extensions/rof2/tradeskills/recipes/RRC060/apply.sql": {
+              "pre_sha256": null,
+              "post_sha256": "f7d8ec9f88d2e715324d4e85c4e0a600ef80f75c2f09b065542d32e5b1228e20"
+            },
+            "extensions/rof2/tradeskills/recipes/RRC060/rollback.sql": {
+              "pre_sha256": null,
+              "post_sha256": "32370e4435fad4817a5826a9fa88953f1cabec04b5d1b963388d43bd18a0aba6"
+            },
+            "extensions/rof2/tradeskills/recipes/RRC060/batch.json": {
+              "pre_sha256": null,
+              "post_sha256": "d7fd72e1a39d54df1675f1df88a8163ab86cf84bb1deda7465efd81cd103e76f"
+            }
+          },
+          "other_batch_changes": {
+            "extensions/rof2/tradeskills/recipes/RRC059/APPLIED.json": {
+              "pre_sha256": null,
+              "post_sha256": "fefaad528a6abc3c787fd2fdd6dc0c65fe362c8fcadfe8efd0d6e0d43634194e"
+            }
+          }
+        }
+      ],
+      "attempt_history": [
+        {
+          "status": "APPLIED_VERIFIED",
+          "source_sha256": "f7d8ec9f88d2e715324d4e85c4e0a600ef80f75c2f09b065542d32e5b1228e20",
+          "published_commit": "b8ff274771899318a13a51c253916fb2d10bda42",
+          "SQL_client_exit": null,
+          "source_SQL_invocations": null,
+          "has_stop_readback": false
+        }
+      ]
+    },
+    {
+      "batch": "RRC061",
+      "status": "APPLIED",
+      "committed_pin": "e3edfd8096ac28bd0c8d88449cdf62e8633efaba",
+      "committed_apply_sha256": "12427f0e059c32d4d83119ced47de1bb52fbbd000b99627e924df892a5de3ce1",
+      "added": {
+        "recipes": 24,
+        "entries": 130
+      },
+      "kind": "new_recipes",
+      "ordered_after": "RRC060",
+      "manifest_revisions": [
+        {
+          "recorded_branch": "rof2-tradeskills",
+          "files": {
+            "extensions/rof2/tradeskills/recipes/RRC061/README.md": {
+              "pre_sha256": null,
+              "post_sha256": "e1907bbf8a77fd54b02d17bf94b904ebaff7fbf3b96e66bc012dfcf7a3c325c6"
+            },
+            "extensions/rof2/tradeskills/recipes/RRC061/apply.sql": {
+              "pre_sha256": null,
+              "post_sha256": "12427f0e059c32d4d83119ced47de1bb52fbbd000b99627e924df892a5de3ce1"
+            },
+            "extensions/rof2/tradeskills/recipes/RRC061/rollback.sql": {
+              "pre_sha256": null,
+              "post_sha256": "394e7546d750d7080d47568d6252de788a5d04f97dfa498c4d64fe1d4d6a8587"
+            },
+            "extensions/rof2/tradeskills/recipes/RRC061/batch.json": {
+              "pre_sha256": null,
+              "post_sha256": "ead23aa7b4582166e2c18b05e030b5bb479d4bf0f5d772ec32109216075024a2"
+            }
+          },
+          "other_batch_changes": {
+            "extensions/rof2/tradeskills/recipes/RRC060/APPLIED.json": {
+              "pre_sha256": null,
+              "post_sha256": "93b42e26c67771e94ab63bd1db59ad6ed6b1a3340f569d65a8877eed97fc399f"
+            }
+          }
+        }
+      ],
+      "attempt_history": [
+        {
+          "status": "APPLIED_VERIFIED",
+          "source_sha256": "12427f0e059c32d4d83119ced47de1bb52fbbd000b99627e924df892a5de3ce1",
+          "published_commit": "e3edfd8096ac28bd0c8d88449cdf62e8633efaba",
+          "SQL_client_exit": null,
+          "source_SQL_invocations": null,
+          "has_stop_readback": false
+        }
+      ]
+    },
+    {
+      "batch": "RRC062",
+      "status": "APPLIED",
+      "committed_pin": "012dfe3f84232167d88bf08e6cf12996851f6061",
+      "committed_apply_sha256": "380e362183509d0003bbfc640f47c3bfc37099178fbc04465db250f44aa34fb2",
+      "added": {
+        "recipes": 0,
+        "entries": 0
+      },
+      "kind": "failure_salvage_correction",
+      "ordered_after": "RRC061",
+      "manifest_revisions": [
+        {
+          "recorded_branch": "rof2-tradeskills",
+          "files": {
+            "extensions/rof2/tradeskills/recipes/RRC062/README.md": {
+              "pre_sha256": null,
+              "post_sha256": "8273353684e39158492d426355da732591e311b4868e7b459c41160c4b0abbf6"
+            },
+            "extensions/rof2/tradeskills/recipes/RRC062/apply.sql": {
+              "pre_sha256": null,
+              "post_sha256": "380e362183509d0003bbfc640f47c3bfc37099178fbc04465db250f44aa34fb2"
+            },
+            "extensions/rof2/tradeskills/recipes/RRC062/rollback.sql": {
+              "pre_sha256": null,
+              "post_sha256": "11727ec8ad5b96639025a8f3b1a634799e60543aa59cfd335b5c96c386134c6c"
+            },
+            "extensions/rof2/tradeskills/recipes/RRC062/batch.json": {
+              "pre_sha256": null,
+              "post_sha256": "59e16d31c9cb3562cd66d20f1d8f548972459af4816df147cb38a3fc3abbc34e"
+            }
+          },
+          "other_batch_changes": {
+            "extensions/rof2/tradeskills/recipes/RRC061/APPLIED.json": {
+              "pre_sha256": null,
+              "post_sha256": "2e851acae9e9a89f0a75c6e984c1ab297acf1fc8f9c3d9d72e32f5d485074bbe"
+            }
+          }
+        }
+      ],
+      "attempt_history": [
+        {
+          "status": "APPLIED_VERIFIED",
+          "source_sha256": "380e362183509d0003bbfc640f47c3bfc37099178fbc04465db250f44aa34fb2",
+          "published_commit": "012dfe3f84232167d88bf08e6cf12996851f6061",
+          "SQL_client_exit": null,
+          "source_SQL_invocations": null,
+          "has_stop_readback": false
+        }
+      ]
+    },
+    {
+      "batch": "RRC063",
+      "status": "APPLIED",
+      "committed_pin": "e011892a8e6c0e0a1bb6d0980efa560964e9d46b",
+      "committed_apply_sha256": "21196753f5d30f1e4762e8b9a4431e5789ab49fdec59ded8fb94d0e76749b65d",
+      "added": {
+        "recipes": 3,
+        "entries": 12
+      },
+      "kind": "new_recipes",
+      "ordered_after": "RRC062",
+      "manifest_revisions": [
+        {
+          "recorded_branch": "rof2-tradeskills",
+          "files": {
+            "extensions/rof2/tradeskills/recipes/RRC063/README.md": {
+              "pre_sha256": null,
+              "post_sha256": "62646716bf2d8c5daa3a20064b150aea3c0e2a6615b3d7edee43d2956f616dd9"
+            },
+            "extensions/rof2/tradeskills/recipes/RRC063/apply.sql": {
+              "pre_sha256": null,
+              "post_sha256": "21196753f5d30f1e4762e8b9a4431e5789ab49fdec59ded8fb94d0e76749b65d"
+            },
+            "extensions/rof2/tradeskills/recipes/RRC063/rollback.sql": {
+              "pre_sha256": null,
+              "post_sha256": "3cebbfde0717bd43698cb95e9ec6e6107f0956320ac8894212c1077f02ab2764"
+            },
+            "extensions/rof2/tradeskills/recipes/RRC063/batch.json": {
+              "pre_sha256": null,
+              "post_sha256": "539f31039e161927ba79fdcd808cfefab35035ee4db8ba4928f7defed96ee8e1"
+            }
+          },
+          "other_batch_changes": {
+            "extensions/rof2/tradeskills/recipes/RRC062/APPLIED.json": {
+              "pre_sha256": null,
+              "post_sha256": "424b0855e3eab52cbf556a8d187318dfe7a29c92d1aff92feabe7541c89b2aca"
+            }
+          }
+        }
+      ],
+      "attempt_history": [
+        {
+          "status": "APPLIED_VERIFIED",
+          "source_sha256": "21196753f5d30f1e4762e8b9a4431e5789ab49fdec59ded8fb94d0e76749b65d",
+          "published_commit": "e011892a8e6c0e0a1bb6d0980efa560964e9d46b",
+          "SQL_client_exit": null,
+          "source_SQL_invocations": null,
+          "has_stop_readback": false
+        }
+      ]
+    },
+    {
+      "batch": "RRC064",
+      "status": "APPLIED",
+      "committed_pin": "5e892dc14396bf781d3507f89621dc365b3f3ce1",
+      "committed_apply_sha256": "669ea1b10645950136d692a57554fdf5882861e7b4fac459e1fb9bfa5afbcce2",
+      "added": {
+        "recipes": 0,
+        "entries": 10
+      },
+      "kind": "container_extension_with_failure_salvage_correction",
+      "ordered_after": "RRC063",
+      "manifest_revisions": [
+        {
+          "recorded_branch": "rof2-tradeskills",
+          "files": {
+            "extensions/rof2/tradeskills/recipes/RRC064/README.md": {
+              "pre_sha256": null,
+              "post_sha256": "e53f1f05a9863ebbada3759e7325f6fa9625a6138e1d43ba65ef3cd6b9f7a5cf"
+            },
+            "extensions/rof2/tradeskills/recipes/RRC064/apply.sql": {
+              "pre_sha256": null,
+              "post_sha256": "669ea1b10645950136d692a57554fdf5882861e7b4fac459e1fb9bfa5afbcce2"
+            },
+            "extensions/rof2/tradeskills/recipes/RRC064/rollback.sql": {
+              "pre_sha256": null,
+              "post_sha256": "db1178c196e52d1500d5505c0f34e5e0e59c0b064fb915b46fd7b1f21f835bfa"
+            },
+            "extensions/rof2/tradeskills/recipes/RRC064/batch.json": {
+              "pre_sha256": null,
+              "post_sha256": "75227d9b4bb26bee87d106f58a5b9726ef1dfc19d0b19b3c852b841b9674b2e1"
+            }
+          },
+          "other_batch_changes": {}
+        }
+      ],
+      "attempt_history": [
+        {
+          "status": "APPLIED_VERIFIED",
+          "source_sha256": "669ea1b10645950136d692a57554fdf5882861e7b4fac459e1fb9bfa5afbcce2",
+          "published_commit": "5e892dc14396bf781d3507f89621dc365b3f3ce1",
+          "SQL_client_exit": null,
+          "source_SQL_invocations": null,
+          "has_stop_readback": false
+        }
+      ]
+    },
+    {
+      "batch": "RRC065",
+      "status": "APPLIED",
+      "committed_pin": "b365f62ce8ebdcbb5018bf5c2732668f453e1454",
+      "committed_apply_sha256": "8585c2f200f3b3d752e3fbe60c6ae15ee3d26b91a38f692149ec2dbeca4e5112",
+      "added": {
+        "recipes": 0,
+        "entries": 1
+      },
+      "kind": "container_extension",
+      "ordered_after": "RRC064",
+      "manifest_revisions": [
+        {
+          "recorded_branch": "rof2-tradeskills",
+          "files": {
+            "extensions/rof2/tradeskills/recipes/RRC065/README.md": {
+              "pre_sha256": null,
+              "post_sha256": "260bac4f7bf8016820f5d2271560b9684d3e5bd7c96d64c6b8701606a5f3cb93"
+            },
+            "extensions/rof2/tradeskills/recipes/RRC065/apply.sql": {
+              "pre_sha256": null,
+              "post_sha256": "8585c2f200f3b3d752e3fbe60c6ae15ee3d26b91a38f692149ec2dbeca4e5112"
+            },
+            "extensions/rof2/tradeskills/recipes/RRC065/rollback.sql": {
+              "pre_sha256": null,
+              "post_sha256": "2bac4295724e898eb4a4cdba01731b5b7c22afe7d4f5cd549835d22b7e77990a"
+            },
+            "extensions/rof2/tradeskills/recipes/RRC065/batch.json": {
+              "pre_sha256": null,
+              "post_sha256": "6e2b9a8c0aa07ca5d2807ba9c4d9d807cdeb179e2887d0453a90f93f2922e840"
+            }
+          },
+          "other_batch_changes": {
+            "extensions/rof2/tradeskills/recipes/RRC064/APPLIED.json": {
+              "pre_sha256": null,
+              "post_sha256": "1aec395629e1740c02b062d36b0867341b14abb8bc04c91b17c14a0b4928aa51"
+            }
+          }
+        }
+      ],
+      "attempt_history": [
+        {
+          "status": "APPLIED_VERIFIED",
+          "source_sha256": "8585c2f200f3b3d752e3fbe60c6ae15ee3d26b91a38f692149ec2dbeca4e5112",
+          "published_commit": "b365f62ce8ebdcbb5018bf5c2732668f453e1454",
+          "SQL_client_exit": null,
+          "source_SQL_invocations": null,
+          "has_stop_readback": false
+        }
+      ]
+    },
+    {
+      "batch": "RRC066",
+      "status": "APPLIED",
+      "committed_pin": "11b17d235bdf4698c9cee8b7094f3e3da031c955",
+      "committed_apply_sha256": "54560f96e94b797a87903cbe24dad6c39d3a974e7ecb3471f640ad41170e0c75",
+      "added": {
+        "recipes": 3,
+        "entries": 18
+      },
+      "kind": "new_recipes",
+      "ordered_after": "RRC065",
+      "manifest_revisions": [
+        {
+          "recorded_branch": "rof2-tradeskills",
+          "files": {
+            "extensions/rof2/tradeskills/recipes/RRC066/README.md": {
+              "pre_sha256": null,
+              "post_sha256": "12ac111011ad3dbb0a1d7a0d94cb99c537ae7f0c5dceb25d8b99f037eb8b8b30"
+            },
+            "extensions/rof2/tradeskills/recipes/RRC066/apply.sql": {
+              "pre_sha256": null,
+              "post_sha256": "54560f96e94b797a87903cbe24dad6c39d3a974e7ecb3471f640ad41170e0c75"
+            },
+            "extensions/rof2/tradeskills/recipes/RRC066/rollback.sql": {
+              "pre_sha256": null,
+              "post_sha256": "211df31d9815359b817e0361d8ec7d8c2ecea82327574622a6fffd68bd5be912"
+            },
+            "extensions/rof2/tradeskills/recipes/RRC066/batch.json": {
+              "pre_sha256": null,
+              "post_sha256": "73f6b28cdc8cbc81159a44413da37a5d1a7359c96eba4dc41f723ade849a3ad5"
+            }
+          },
+          "other_batch_changes": {
+            "extensions/rof2/tradeskills/recipes/RRC065/APPLIED.json": {
+              "pre_sha256": null,
+              "post_sha256": "f878b7ecab711f273c6edf5da6761a9285392d8c295a7c5fb21789a63184c539"
+            }
+          }
+        }
+      ],
+      "attempt_history": [
+        {
+          "status": "APPLIED_VERIFIED",
+          "source_sha256": "54560f96e94b797a87903cbe24dad6c39d3a974e7ecb3471f640ad41170e0c75",
+          "published_commit": "11b17d235bdf4698c9cee8b7094f3e3da031c955",
+          "SQL_client_exit": null,
+          "source_SQL_invocations": null,
+          "has_stop_readback": false
+        }
+      ]
+    },
+    {
+      "batch": "RRC067",
+      "status": "APPLIED",
+      "committed_pin": "023f78374c49822e1dd5fd317e004ac8f53fc2cb",
+      "committed_apply_sha256": "ae4b1dce1d21137e1172a9faf9b678795a5c459f93c0e2ea5318a07dde6d15e0",
+      "added": {
+        "recipes": 3,
+        "entries": 20
+      },
+      "kind": "new_recipes",
+      "ordered_after": "RRC066",
+      "manifest_revisions": [
+        {
+          "recorded_branch": "rof2-tradeskills",
+          "files": {
+            "extensions/rof2/tradeskills/recipes/RRC067/README.md": {
+              "pre_sha256": null,
+              "post_sha256": "580660225e591341b4d4a9f1f74f66edc0e7e43085e5864d3d654c3e1af7eb7a"
+            },
+            "extensions/rof2/tradeskills/recipes/RRC067/apply.sql": {
+              "pre_sha256": null,
+              "post_sha256": "ae4b1dce1d21137e1172a9faf9b678795a5c459f93c0e2ea5318a07dde6d15e0"
+            },
+            "extensions/rof2/tradeskills/recipes/RRC067/rollback.sql": {
+              "pre_sha256": null,
+              "post_sha256": "23d38370ae4173b1bfe921c3cea6ab11cb667ca279dc905eadafb0f3d7de7375"
+            },
+            "extensions/rof2/tradeskills/recipes/RRC067/batch.json": {
+              "pre_sha256": null,
+              "post_sha256": "8ecca7bc5ba73ce0517f0cdbc623c62d4fd16f1198f47657cbab22d43576e68b"
+            }
+          },
+          "other_batch_changes": {
+            "extensions/rof2/tradeskills/recipes/RRC066/APPLIED.json": {
+              "pre_sha256": null,
+              "post_sha256": "65c0c926e166ac8a9c90051760586e493c17cad5ab58e673c98e6fa9dd884181"
+            }
+          }
+        }
+      ],
+      "attempt_history": [
+        {
+          "status": "APPLIED_VERIFIED",
+          "source_sha256": "ae4b1dce1d21137e1172a9faf9b678795a5c459f93c0e2ea5318a07dde6d15e0",
+          "published_commit": "023f78374c49822e1dd5fd317e004ac8f53fc2cb",
+          "SQL_client_exit": null,
+          "source_SQL_invocations": null,
+          "has_stop_readback": false
+        }
+      ]
+    },
+    {
+      "batch": "RRC068",
+      "status": "APPLIED",
+      "committed_pin": "fc5774039aba1ce16ac8bfda93e2e1265d84546a",
+      "committed_apply_sha256": "44e9833c57d933824d7fe89f795601237f9cb942a197fb81835102db01307aba",
+      "added": {
+        "recipes": 0,
+        "entries": 4
+      },
+      "kind": "container_extension",
+      "ordered_after": "RRC067",
+      "manifest_revisions": [
+        {
+          "recorded_branch": "rof2-tradeskills",
+          "files": {
+            "extensions/rof2/tradeskills/recipes/RRC068/README.md": {
+              "pre_sha256": null,
+              "post_sha256": "3f2a6b6594317efa897a84cd9dab2a3d2dab42116b756ac175e0185d20f542d2"
+            },
+            "extensions/rof2/tradeskills/recipes/RRC068/apply.sql": {
+              "pre_sha256": null,
+              "post_sha256": "44e9833c57d933824d7fe89f795601237f9cb942a197fb81835102db01307aba"
+            },
+            "extensions/rof2/tradeskills/recipes/RRC068/rollback.sql": {
+              "pre_sha256": null,
+              "post_sha256": "efc394f3fbfa74471f8835e812011c85d3e1f87f7804f4f33605a9b4504ffc7e"
+            },
+            "extensions/rof2/tradeskills/recipes/RRC068/batch.json": {
+              "pre_sha256": null,
+              "post_sha256": "eb137a37c3cd6152d6d16fd358665dade7cc099c8c31c9691ea724bfee8d35d8"
+            }
+          },
+          "other_batch_changes": {
+            "extensions/rof2/tradeskills/recipes/RRC067/APPLIED.json": {
+              "pre_sha256": null,
+              "post_sha256": "48b785abc16585a16117215c5cf1f3359f985627d399c2cd602a0a001c8cff8f"
+            }
+          }
+        }
+      ],
+      "attempt_history": [
+        {
+          "status": "APPLIED_VERIFIED",
+          "source_sha256": "44e9833c57d933824d7fe89f795601237f9cb942a197fb81835102db01307aba",
+          "published_commit": "fc5774039aba1ce16ac8bfda93e2e1265d84546a",
+          "SQL_client_exit": null,
+          "source_SQL_invocations": null,
+          "has_stop_readback": false
+        }
+      ]
+    },
+    {
+      "batch": "RRC069",
+      "status": "APPLIED",
+      "committed_pin": "7dce9537c1379b48b53e004846786929a9897168",
+      "committed_apply_sha256": "f25991dfdb682f35c3058e474039cbbf2ca2fa129f50d31185dc434f9c936149",
+      "added": {
+        "recipes": 0,
+        "entries": 16
+      },
+      "kind": "container_extension",
+      "ordered_after": "RRC068",
+      "manifest_revisions": [
+        {
+          "recorded_branch": "rof2-tradeskills",
+          "files": {
+            "extensions/rof2/tradeskills/recipes/RRC069/README.md": {
+              "pre_sha256": null,
+              "post_sha256": "3c023590220f9c362c6e2ead76d7e5fc3359be36b26fffdf7a1789613f98fc32"
+            },
+            "extensions/rof2/tradeskills/recipes/RRC069/apply.sql": {
+              "pre_sha256": null,
+              "post_sha256": "f25991dfdb682f35c3058e474039cbbf2ca2fa129f50d31185dc434f9c936149"
+            },
+            "extensions/rof2/tradeskills/recipes/RRC069/rollback.sql": {
+              "pre_sha256": null,
+              "post_sha256": "7bba28dcf7c185de23741213cae28c39d42140813dafd780e44e29d9b7396a3b"
+            },
+            "extensions/rof2/tradeskills/recipes/RRC069/batch.json": {
+              "pre_sha256": null,
+              "post_sha256": "bdc35f38154d52ec2eeff8b25e455c3c4a889d3c88e096beebaaff36d64b52e2"
+            }
+          },
+          "other_batch_changes": {}
+        }
+      ],
+      "attempt_history": [
+        {
+          "status": "APPLIED_VERIFIED",
+          "source_sha256": "f25991dfdb682f35c3058e474039cbbf2ca2fa129f50d31185dc434f9c936149",
+          "published_commit": "7dce9537c1379b48b53e004846786929a9897168",
+          "SQL_client_exit": null,
+          "source_SQL_invocations": null,
+          "has_stop_readback": false
+        }
+      ]
+    },
+    {
+      "batch": "RRC070",
+      "status": "APPLIED",
+      "committed_pin": "d3fa2c5670ae5ef8324d57ad21f803f6b182cf9f",
+      "committed_apply_sha256": "178d68df7279613a61afefceb5e0f6d73035d7ad3e79bf41d867b7903bf3a879",
+      "added": {
+        "recipes": 4,
+        "entries": 24
+      },
+      "kind": "new_recipes",
+      "ordered_after": "RRC069",
+      "manifest_revisions": [
+        {
+          "recorded_branch": "rof2-tradeskills",
+          "files": {
+            "extensions/rof2/tradeskills/recipes/RRC070/README.md": {
+              "pre_sha256": null,
+              "post_sha256": "1de36197af2148b22641a25d57ab742c8a0665262f0c8a023c1d4f931bb2816b"
+            },
+            "extensions/rof2/tradeskills/recipes/RRC070/apply.sql": {
+              "pre_sha256": null,
+              "post_sha256": "178d68df7279613a61afefceb5e0f6d73035d7ad3e79bf41d867b7903bf3a879"
+            },
+            "extensions/rof2/tradeskills/recipes/RRC070/rollback.sql": {
+              "pre_sha256": null,
+              "post_sha256": "cf9ab2c96b28d973531b85668c67079c72f73e41a97f8de3e03df2a6ab9b2695"
+            },
+            "extensions/rof2/tradeskills/recipes/RRC070/batch.json": {
+              "pre_sha256": null,
+              "post_sha256": "092a3d61893f527b59d370a447c84ca228aba722f89c0027beb8621e737ce177"
+            }
+          },
+          "other_batch_changes": {
+            "extensions/rof2/tradeskills/recipes/RRC069/APPLIED.json": {
+              "pre_sha256": null,
+              "post_sha256": "1a141d4e00ed0214614bf76d826ada90b98732f54a7e35019beb1f058cc292d5"
+            }
+          }
+        }
+      ],
+      "attempt_history": [
+        {
+          "status": "APPLIED_VERIFIED",
+          "source_sha256": "178d68df7279613a61afefceb5e0f6d73035d7ad3e79bf41d867b7903bf3a879",
+          "published_commit": "d3fa2c5670ae5ef8324d57ad21f803f6b182cf9f",
+          "SQL_client_exit": null,
+          "source_SQL_invocations": null,
+          "has_stop_readback": false
+        }
+      ]
+    },
+    {
+      "batch": "RRC071",
+      "status": "APPLIED",
+      "committed_pin": "493d05e549034baf7cfecbec63e61465d6b00892",
+      "committed_apply_sha256": "840489109d8c2b3633431b71ab01a5f23f8a409f9e6eebc65193ff4b72a268cf",
+      "added": {
+        "recipes": 0,
+        "entries": 8
+      },
+      "kind": "container_extension",
+      "ordered_after": "RRC070",
+      "manifest_revisions": [
+        {
+          "recorded_branch": "rof2-tradeskills",
+          "files": {
+            "extensions/rof2/tradeskills/recipes/RRC071/README.md": {
+              "pre_sha256": null,
+              "post_sha256": "2b33238dde0533efe0043a27e6292c6000fbe1de215bddef03f1e8ec831d81b9"
+            },
+            "extensions/rof2/tradeskills/recipes/RRC071/apply.sql": {
+              "pre_sha256": null,
+              "post_sha256": "840489109d8c2b3633431b71ab01a5f23f8a409f9e6eebc65193ff4b72a268cf"
+            },
+            "extensions/rof2/tradeskills/recipes/RRC071/rollback.sql": {
+              "pre_sha256": null,
+              "post_sha256": "32c2dcb68bb2355c17111972a9e2af3fb98939b5f171c3065629907ea492f1e4"
+            },
+            "extensions/rof2/tradeskills/recipes/RRC071/batch.json": {
+              "pre_sha256": null,
+              "post_sha256": "fd14192bd6171f30dbc5837cd32abc436b5d1e2a5e6c31c508af4b5f68b0ee3e"
+            }
+          },
+          "other_batch_changes": {
+            "extensions/rof2/tradeskills/recipes/RRC070/APPLIED.json": {
+              "pre_sha256": null,
+              "post_sha256": "2bc9b16d9f1a2e0d25c62df4754181b748cfd03f59c5868e5d27c66d41b8ab61"
+            }
+          }
+        }
+      ],
+      "attempt_history": [
+        {
+          "status": "APPLIED_VERIFIED",
+          "source_sha256": "840489109d8c2b3633431b71ab01a5f23f8a409f9e6eebc65193ff4b72a268cf",
+          "published_commit": "493d05e549034baf7cfecbec63e61465d6b00892",
+          "SQL_client_exit": null,
+          "source_SQL_invocations": null,
+          "has_stop_readback": false
+        }
+      ]
+    },
+    {
+      "batch": "RRC072",
+      "status": "APPLIED",
+      "committed_pin": "2faf814f48f75d1f2e700f5adb03476e362d79bb",
+      "committed_apply_sha256": "8c535347cd5969b428fb56775b585a72eaff5feaadcad1b22357d3be9b5c8a11",
+      "added": {
+        "recipes": 10,
+        "entries": 137
+      },
+      "kind": "new_recipes",
+      "ordered_after": "RRC071",
+      "manifest_revisions": [
+        {
+          "recorded_branch": "rof2-tradeskills",
+          "files": {
+            "extensions/rof2/tradeskills/recipes/RRC072/README.md": {
+              "pre_sha256": null,
+              "post_sha256": "0a9a637af1d5b537f8d029f77b384d1da73a5e9426563f503e91671a592b810e"
+            },
+            "extensions/rof2/tradeskills/recipes/RRC072/apply.sql": {
+              "pre_sha256": null,
+              "post_sha256": "8c535347cd5969b428fb56775b585a72eaff5feaadcad1b22357d3be9b5c8a11"
+            },
+            "extensions/rof2/tradeskills/recipes/RRC072/rollback.sql": {
+              "pre_sha256": null,
+              "post_sha256": "f6ab321c650fbc736205f4a0563d69fdfb64d4a230b35f184231c17ed1cbe781"
+            },
+            "extensions/rof2/tradeskills/recipes/RRC072/batch.json": {
+              "pre_sha256": null,
+              "post_sha256": "4ac82be4cfcc88c66da4de2e4025e9142e8bc8da61b15ef423bb62e9b6981c9a"
+            }
+          },
+          "other_batch_changes": {
+            "extensions/rof2/tradeskills/recipes/RRC071/APPLIED.json": {
+              "pre_sha256": null,
+              "post_sha256": "7c05d77f2b11d6d0fe661e86bcc7d1a180235ae2fbf4a1c0093ab89cd8187c58"
+            }
+          }
+        }
+      ],
+      "attempt_history": [
+        {
+          "status": "APPLIED_VERIFIED",
+          "source_sha256": "8c535347cd5969b428fb56775b585a72eaff5feaadcad1b22357d3be9b5c8a11",
+          "published_commit": "2faf814f48f75d1f2e700f5adb03476e362d79bb",
+          "SQL_client_exit": null,
+          "source_SQL_invocations": null,
+          "has_stop_readback": false
+        }
+      ]
+    },
+    {
+      "batch": "RRC073",
+      "status": "APPLIED",
+      "committed_pin": "c1ca581dbbca51e02bb802e00d4e06a8b8f42180",
+      "committed_apply_sha256": "80b6ef74d7771eed56c32571302bfa304e99cce56ff68886620760e8fef23e81",
+      "added": {
+        "recipes": 0,
+        "entries": 4
+      },
+      "kind": "return_extension",
+      "ordered_after": "RRC072",
+      "manifest_revisions": [
+        {
+          "recorded_branch": "rof2-tradeskills",
+          "files": {
+            "extensions/rof2/tradeskills/recipes/RRC073/README.md": {
+              "pre_sha256": null,
+              "post_sha256": "5bdcc8db735f38dceb2589a6096634c955cbfbae84235fd8d0eb8f4cc2b4e314"
+            },
+            "extensions/rof2/tradeskills/recipes/RRC073/apply.sql": {
+              "pre_sha256": null,
+              "post_sha256": "80b6ef74d7771eed56c32571302bfa304e99cce56ff68886620760e8fef23e81"
+            },
+            "extensions/rof2/tradeskills/recipes/RRC073/rollback.sql": {
+              "pre_sha256": null,
+              "post_sha256": "2737d240552042dd81f1d4348fce298ea62f2b647015f2d1b365bff4765e9258"
+            },
+            "extensions/rof2/tradeskills/recipes/RRC073/batch.json": {
+              "pre_sha256": null,
+              "post_sha256": "a91fc8d850efa73cd1e5cfcaa9c992554a85646a257a05f95f7ea18e1f3e363e"
+            }
+          },
+          "other_batch_changes": {
+            "extensions/rof2/tradeskills/recipes/RRC072/APPLIED.json": {
+              "pre_sha256": null,
+              "post_sha256": "0303c68aeed6bea68b92759426c0978e8a6e09d571a5463dd31b1003c3b38620"
+            }
+          }
+        }
+      ],
+      "attempt_history": [
+        {
+          "status": "APPLIED_VERIFIED",
+          "source_sha256": "80b6ef74d7771eed56c32571302bfa304e99cce56ff68886620760e8fef23e81",
+          "published_commit": "c1ca581dbbca51e02bb802e00d4e06a8b8f42180",
+          "SQL_client_exit": null,
+          "source_SQL_invocations": null,
+          "has_stop_readback": false
+        }
+      ]
+    },
+    {
+      "batch": "RRC074",
+      "status": "APPLIED",
+      "committed_pin": "e7284e748a05deb8ce78d93dc7f3556543945258",
+      "committed_apply_sha256": "03dcc436d0314aa8fdbcf76fa65a0ba52b77e263fb6b8ba89de22fbb7a2cb0d3",
+      "added": {
+        "recipes": 1,
+        "entries": 7
+      },
+      "kind": "new_recipes",
+      "ordered_after": "RRC073",
+      "manifest_revisions": [
+        {
+          "recorded_branch": "rof2-tradeskills",
+          "files": {
+            "extensions/rof2/tradeskills/recipes/RRC074/README.md": {
+              "pre_sha256": null,
+              "post_sha256": "bf2686f9151becdff0b4afaba50f702025dc094948704d437f2d770a234754a6"
+            },
+            "extensions/rof2/tradeskills/recipes/RRC074/apply.sql": {
+              "pre_sha256": null,
+              "post_sha256": "03dcc436d0314aa8fdbcf76fa65a0ba52b77e263fb6b8ba89de22fbb7a2cb0d3"
+            },
+            "extensions/rof2/tradeskills/recipes/RRC074/rollback.sql": {
+              "pre_sha256": null,
+              "post_sha256": "3364145fe3681fbc6bcad8871bf130724ba029cd4be8f22ffdd59c58864216da"
+            },
+            "extensions/rof2/tradeskills/recipes/RRC074/batch.json": {
+              "pre_sha256": null,
+              "post_sha256": "68a9787f8fbf4ea6d2370704b189a607b75261a8583ea0a1482e98a502717328"
+            }
+          },
+          "other_batch_changes": {}
+        }
+      ],
+      "attempt_history": [
+        {
+          "status": "APPLIED_VERIFIED",
+          "source_sha256": "03dcc436d0314aa8fdbcf76fa65a0ba52b77e263fb6b8ba89de22fbb7a2cb0d3",
+          "published_commit": "e7284e748a05deb8ce78d93dc7f3556543945258",
+          "SQL_client_exit": null,
+          "source_SQL_invocations": null,
+          "has_stop_readback": false
+        }
+      ]
+    },
+    {
+      "batch": "RRC075",
+      "status": "APPLIED",
+      "committed_pin": "5fda0f7a751fd8b41655bf046a96fc72127ed4d1",
+      "committed_apply_sha256": "3f75c19bfe668a1c35f218c1e220bd43660deac96bfe0d91e13a975a287e6eaf",
+      "added": {
+        "recipes": 0,
+        "entries": 0
+      },
+      "kind": "ingredient_id_correction",
+      "ordered_after": "RRC074",
+      "manifest_revisions": [
+        {
+          "recorded_branch": "rof2-tradeskills",
+          "files": {
+            "extensions/rof2/tradeskills/recipes/RRC075/README.md": {
+              "pre_sha256": null,
+              "post_sha256": "758a5047e3458f1372049314c8a57854bd46301f76397e44216877d35ed9bfd7"
+            },
+            "extensions/rof2/tradeskills/recipes/RRC075/apply.sql": {
+              "pre_sha256": null,
+              "post_sha256": "3f75c19bfe668a1c35f218c1e220bd43660deac96bfe0d91e13a975a287e6eaf"
+            },
+            "extensions/rof2/tradeskills/recipes/RRC075/rollback.sql": {
+              "pre_sha256": null,
+              "post_sha256": "561d6f6382c1da2c0033b3281e99040911f75174a585a9f1175fb91f91e2cd37"
+            },
+            "extensions/rof2/tradeskills/recipes/RRC075/batch.json": {
+              "pre_sha256": null,
+              "post_sha256": "1541a7972c7bba2a04e25f90e3bb8ca5bed3d1f9c0d9b66c955148babe6b014d"
+            }
+          },
+          "other_batch_changes": {
+            "extensions/rof2/tradeskills/recipes/RRC074/APPLIED.json": {
+              "pre_sha256": null,
+              "post_sha256": "0993d1b9e6c893aa8d00480ad8c7f1ddedd7664505a4091b8b6ea6757e4b1bbb"
+            }
+          }
+        }
+      ],
+      "attempt_history": [
+        {
+          "status": "APPLIED_VERIFIED",
+          "source_sha256": "3f75c19bfe668a1c35f218c1e220bd43660deac96bfe0d91e13a975a287e6eaf",
+          "published_commit": "5fda0f7a751fd8b41655bf046a96fc72127ed4d1",
+          "SQL_client_exit": null,
+          "source_SQL_invocations": null,
+          "has_stop_readback": false
+        }
+      ]
+    },
+    {
+      "batch": "RRC076",
+      "status": "APPLIED",
+      "committed_pin": "2b17c989ab6a6a12eeffc2dbf82ebf51888c869a",
+      "committed_apply_sha256": "f130f32b5eabb3344906f8147153ab480d30810d4cf219a2004a116d9f0ddde9",
+      "added": {
+        "recipes": 4,
+        "entries": 34
+      },
+      "kind": "new_recipes",
+      "ordered_after": "RRC075",
+      "manifest_revisions": [
+        {
+          "recorded_branch": "rof2-tradeskills",
+          "files": {
+            "extensions/rof2/tradeskills/recipes/RRC076/README.md": {
+              "pre_sha256": null,
+              "post_sha256": "9c6f105b4e95c7f44f02dcc7705fdd4edabb2feff1ce2667c0e56f40bfd9c901"
+            },
+            "extensions/rof2/tradeskills/recipes/RRC076/apply.sql": {
+              "pre_sha256": null,
+              "post_sha256": "f130f32b5eabb3344906f8147153ab480d30810d4cf219a2004a116d9f0ddde9"
+            },
+            "extensions/rof2/tradeskills/recipes/RRC076/rollback.sql": {
+              "pre_sha256": null,
+              "post_sha256": "8fb586ac5dcd421de6be30215c242d31c7a294a556185e4dc5e8547e66ee01a9"
+            },
+            "extensions/rof2/tradeskills/recipes/RRC076/batch.json": {
+              "pre_sha256": null,
+              "post_sha256": "9b83521c42a10af442c7fb9d846bdc53ef4ec0eb94952c7c579d4d422b5c659e"
+            }
+          },
+          "other_batch_changes": {
+            "extensions/rof2/tradeskills/recipes/RRC075/APPLIED.json": {
+              "pre_sha256": null,
+              "post_sha256": "3f4d1f7d66f47308996f1e5b54ed703f0bca41d43b383c052bca9ceb1714938a"
+            }
+          }
+        }
+      ],
+      "attempt_history": [
+        {
+          "status": "APPLIED_VERIFIED",
+          "source_sha256": "f130f32b5eabb3344906f8147153ab480d30810d4cf219a2004a116d9f0ddde9",
+          "published_commit": "2b17c989ab6a6a12eeffc2dbf82ebf51888c869a",
+          "SQL_client_exit": null,
+          "source_SQL_invocations": null,
+          "has_stop_readback": false
+        }
+      ]
+    }
+  ],
+  "source_SQL_reconciliation": "Previously staged74committedhashes match ownerindex exactly, no repeatedSQL/sourceaudit; new076hashmatched once.",
+  "active_sequence": [
+    "RRC001",
+    "RRC002",
+    "RRC003",
+    "RRC004",
+    "RRC005",
+    "RRC006",
+    "RRC007",
+    "RRC008",
+    "RRC009",
+    "RRC010",
+    "RRC011",
+    "RRC012",
+    "RRC013",
+    "RRC015",
+    "RRC016",
+    "RRC017",
+    "RRC018",
+    "RRC019",
+    "RRC020",
+    "RRC021",
+    "RRC022",
+    "RRC023",
+    "RRC024",
+    "RRC025",
+    "RRC026",
+    "RRC027",
+    "RRC028",
+    "RRC029",
+    "RRC030",
+    "RRC031",
+    "RRC032",
+    "RRC033",
+    "RRC034",
+    "RRC035",
+    "RRC036",
+    "RRC037",
+    "RRC038",
+    "RRC039",
+    "RRC040",
+    "RRC041",
+    "RRC042",
+    "RRC043",
+    "RRC044",
+    "RRC045",
+    "RRC046",
+    "RRC047",
+    "RRC048",
+    "RRC049",
+    "RRC050",
+    "RRC051",
+    "RRC052",
+    "RRC053",
+    "RRC054",
+    "RRC055",
+    "RRC056",
+    "RRC057",
+    "RRC058",
+    "RRC059",
+    "RRC060",
+    "RRC061",
+    "RRC062",
+    "RRC063",
+    "RRC064",
+    "RRC065",
+    "RRC066",
+    "RRC067",
+    "RRC068",
+    "RRC069",
+    "RRC070",
+    "RRC071",
+    "RRC072",
+    "RRC073",
+    "RRC074",
+    "RRC075",
+    "RRC076"
+  ],
+  "held": [
+    "RRC014"
+  ],
+  "mandatory_dependency": "RRC072\u2192RRC073; preserve inverse rollback order",
+  "native_acceptance": "No globalnativecombine/acquisition completeness claim."
+}

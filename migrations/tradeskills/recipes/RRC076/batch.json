@@ -1,0 +1,999 @@
+{
+  "batch": "RRC076",
+  "branch": "rof2-tradeskills",
+  "status": "SOURCE_PROPOSAL_NOT_APPLIED",
+  "proposed_ids": [
+    3093629,
+    3093632
+  ],
+  "counts": {
+    "recipes": 4,
+    "entries": 34,
+    "item_dependencies": 16,
+    "unchanged_prototype_recipes": 2,
+    "unchanged_prototype_entries": 17
+  },
+  "recipes": [
+    {
+      "id": 3093629,
+      "name": "Ability: Enchant Alaran Metal",
+      "tradeskill": 58,
+      "skillneeded": 0,
+      "trivial": 135,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Primary ability-book formula; existing Spell Research Kit route only; RRC076.",
+      "must_learn": 2,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 18,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3093630,
+      "name": "Ability: Mass Enchant Alaran Metal",
+      "tradeskill": 58,
+      "skillneeded": 0,
+      "trivial": 148,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Primary ability-book formula; existing Spell Research Kit route only; RRC076.",
+      "must_learn": 2,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 18,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3093631,
+      "name": "Ability: Enchant Planar Alloy",
+      "tradeskill": 58,
+      "skillneeded": 0,
+      "trivial": 135,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Primary ability-book formula; existing Spell Research Kit route only; RRC076.",
+      "must_learn": 2,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 19,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3093632,
+      "name": "Ability: Mass Enchant Planar Alloy",
+      "tradeskill": 58,
+      "skillneeded": 0,
+      "trivial": 148,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Primary ability-book formula; existing Spell Research Kit route only; RRC076.",
+      "must_learn": 2,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 19,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    }
+  ],
+  "entries": [
+    {
+      "recipe_id": 3093629,
+      "item_id": 64554,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093629,
+      "item_id": 64546,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093629,
+      "item_id": 93542,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093629,
+      "item_id": 93560,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093629,
+      "item_id": 93553,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093629,
+      "item_id": 93514,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093629,
+      "item_id": 93502,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093629,
+      "item_id": 93492,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3093630,
+      "item_id": 64555,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093630,
+      "item_id": 64546,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093630,
+      "item_id": 97815,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093630,
+      "item_id": 93542,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093630,
+      "item_id": 93560,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093630,
+      "item_id": 93574,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093630,
+      "item_id": 93553,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093630,
+      "item_id": 93514,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093630,
+      "item_id": 93492,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3093631,
+      "item_id": 76276,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093631,
+      "item_id": 93542,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093631,
+      "item_id": 93560,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093631,
+      "item_id": 93553,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093631,
+      "item_id": 76322,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093631,
+      "item_id": 93514,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093631,
+      "item_id": 76281,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093631,
+      "item_id": 93492,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3093632,
+      "item_id": 76277,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093632,
+      "item_id": 76282,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093632,
+      "item_id": 93542,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093632,
+      "item_id": 93560,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093632,
+      "item_id": 93574,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093632,
+      "item_id": 93553,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093632,
+      "item_id": 76322,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093632,
+      "item_id": 93514,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093632,
+      "item_id": 93492,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    }
+  ],
+  "source_facts": [
+    {
+      "recipe_id": 3093629,
+      "source_name": "Ability: Enchant Alaran Metal (x1)",
+      "recipe_name": "Ability: Enchant Alaran Metal",
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=120&rsa=Spell+Research&sub=Enchanter",
+      "output_source_url": "https://www.eqtraders.com/items/show_item.php?item=37988&menustr=010000000000",
+      "output_item_id": 64554,
+      "yield_count": 1,
+      "trivial": 135,
+      "container_item_ids": [
+        93492
+      ],
+      "held_current_other_kit_ids": [
+        41555,
+        41631,
+        41632,
+        41633
+      ],
+      "ingredients": [
+        {
+          "item_id": 64546,
+          "name": "Essence of Alaris",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=37801"
+        },
+        {
+          "item_id": 93542,
+          "name": "Ink Additive of the Nameless",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=20871"
+        },
+        {
+          "item_id": 93560,
+          "name": "Ink of Druzzil Ro",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=20970"
+        },
+        {
+          "item_id": 93553,
+          "name": "Invigorating Thickener",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=20961"
+        },
+        {
+          "item_id": 93514,
+          "name": "Quill of the Coercer",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=20941"
+        },
+        {
+          "item_id": 93502,
+          "name": "Runic Parchment",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=20921"
+        }
+      ]
+    },
+    {
+      "recipe_id": 3093630,
+      "source_name": "Ability: Enchant Alaran Metal (x10)",
+      "recipe_name": "Ability: Mass Enchant Alaran Metal",
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=120&rsa=Spell+Research&sub=Enchanter",
+      "output_source_url": "https://www.eqtraders.com/items/show_item.php?item=37989&menustr=010000000000",
+      "output_item_id": 64555,
+      "yield_count": 1,
+      "trivial": 148,
+      "container_item_ids": [
+        93492
+      ],
+      "held_current_other_kit_ids": [
+        41555,
+        41631,
+        41632,
+        41633
+      ],
+      "ingredients": [
+        {
+          "item_id": 64546,
+          "name": "Essence of Alaris",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=37801"
+        },
+        {
+          "item_id": 97815,
+          "name": "Fine Runic Parchment",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=26554"
+        },
+        {
+          "item_id": 93542,
+          "name": "Ink Additive of the Nameless",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=20871"
+        },
+        {
+          "item_id": 93560,
+          "name": "Ink of Druzzil Ro",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=20970"
+        },
+        {
+          "item_id": 93574,
+          "name": "Ink of Prexus",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=20985"
+        },
+        {
+          "item_id": 93553,
+          "name": "Invigorating Thickener",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=20961"
+        },
+        {
+          "item_id": 93514,
+          "name": "Quill of the Coercer",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=20941"
+        }
+      ]
+    },
+    {
+      "recipe_id": 3093631,
+      "source_name": "Ability: Enchant Planar Alloy (x1)",
+      "recipe_name": "Ability: Enchant Planar Alloy",
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=120&rsa=Spell+Research&sub=Enchanter",
+      "output_source_url": "https://www.eqtraders.com/items/show_item.php?item=40351&menustr=010000000000",
+      "output_item_id": 76276,
+      "yield_count": 1,
+      "trivial": 135,
+      "container_item_ids": [
+        93492
+      ],
+      "held_current_other_kit_ids": [
+        41555,
+        41631,
+        41632,
+        41633
+      ],
+      "ingredients": [
+        {
+          "item_id": 93542,
+          "name": "Ink Additive of the Nameless",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=20871"
+        },
+        {
+          "item_id": 93560,
+          "name": "Ink of Druzzil Ro",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=20970"
+        },
+        {
+          "item_id": 93553,
+          "name": "Invigorating Thickener",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=20961"
+        },
+        {
+          "item_id": 76322,
+          "name": "Planar Energy Shard",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=39568"
+        },
+        {
+          "item_id": 93514,
+          "name": "Quill of the Coercer",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=20941"
+        },
+        {
+          "item_id": 76281,
+          "name": "Runic Numen Plaque",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=39615"
+        }
+      ]
+    },
+    {
+      "recipe_id": 3093632,
+      "source_name": "Ability: Enchant Planar Alloy (x10)",
+      "recipe_name": "Ability: Mass Enchant Planar Alloy",
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=120&rsa=Spell+Research&sub=Enchanter",
+      "output_source_url": "https://www.eqtraders.com/items/show_item.php?item=40352&menustr=010000000000",
+      "output_item_id": 76277,
+      "yield_count": 1,
+      "trivial": 148,
+      "container_item_ids": [
+        93492
+      ],
+      "held_current_other_kit_ids": [
+        41555,
+        41631,
+        41632,
+        41633
+      ],
+      "ingredients": [
+        {
+          "item_id": 76282,
+          "name": "Fine Runic Numen Plaque",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=39616"
+        },
+        {
+          "item_id": 93542,
+          "name": "Ink Additive of the Nameless",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=20871"
+        },
+        {
+          "item_id": 93560,
+          "name": "Ink of Druzzil Ro",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=20970"
+        },
+        {
+          "item_id": 93574,
+          "name": "Ink of Prexus",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=20985"
+        },
+        {
+          "item_id": 93553,
+          "name": "Invigorating Thickener",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=20961"
+        },
+        {
+          "item_id": 76322,
+          "name": "Planar Energy Shard",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=39568"
+        },
+        {
+          "item_id": 93514,
+          "name": "Quill of the Coercer",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=20941"
+        }
+      ]
+    }
+  ],
+  "item_dependencies": [
+    {
+      "id": 64546,
+      "name": "Essence of Alaris"
+    },
+    {
+      "id": 64554,
+      "name": "Ability: Enchant Alaran Metal"
+    },
+    {
+      "id": 64555,
+      "name": "Ability: Mass Enchant Alaran Metal"
+    },
+    {
+      "id": 76276,
+      "name": "Ability: Enchant Planar Alloy"
+    },
+    {
+      "id": 76277,
+      "name": "Ability: Mass Enchant Planar Alloy"
+    },
+    {
+      "id": 76281,
+      "name": "Runic Numen Plaque"
+    },
+    {
+      "id": 76282,
+      "name": "Fine Runic Numen Plaque"
+    },
+    {
+      "id": 76322,
+      "name": "Planar Energy Shard"
+    },
+    {
+      "id": 93492,
+      "name": "Spell Research Kit"
+    },
+    {
+      "id": 93502,
+      "name": "Runic Parchment"
+    },
+    {
+      "id": 93514,
+      "name": "Quill of the Coercer"
+    },
+    {
+      "id": 93542,
+      "name": "Ink Additive of the Nameless"
+    },
+    {
+      "id": 93553,
+      "name": "Invigorating Thickener"
+    },
+    {
+      "id": 93560,
+      "name": "Ink of Druzzil Ro"
+    },
+    {
+      "id": 93574,
+      "name": "Ink of Prexus"
+    },
+    {
+      "id": 97815,
+      "name": "Fine Runic Parchment"
+    }
+  ],
+  "unchanged_prototype_recipes": [
+    {
+      "id": 12774,
+      "name": "Ability: Enchant Feymetal",
+      "tradeskill": 58,
+      "skillneeded": 0,
+      "trivial": 132,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": null,
+      "must_learn": 2,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": -1,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 12775,
+      "name": "Ability: Mass Enchant Feymetal",
+      "tradeskill": 58,
+      "skillneeded": 0,
+      "trivial": 144,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": null,
+      "must_learn": 2,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": -1,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    }
+  ],
+  "unchanged_prototype_entries": [
+    {
+      "id": 149994,
+      "recipe_id": 12774,
+      "item_id": 46979,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 149995,
+      "recipe_id": 12774,
+      "item_id": 93542,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 149996,
+      "recipe_id": 12774,
+      "item_id": 93560,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 149997,
+      "recipe_id": 12774,
+      "item_id": 93553,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 149998,
+      "recipe_id": 12774,
+      "item_id": 93514,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 149999,
+      "recipe_id": 12774,
+      "item_id": 93502,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 150000,
+      "recipe_id": 12774,
+      "item_id": 81136,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 150001,
+      "recipe_id": 12774,
+      "item_id": 93492,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 150002,
+      "recipe_id": 12775,
+      "item_id": 46979,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 150003,
+      "recipe_id": 12775,
+      "item_id": 97815,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 150004,
+      "recipe_id": 12775,
+      "item_id": 93542,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 150005,
+      "recipe_id": 12775,
+      "item_id": 93560,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 150006,
+      "recipe_id": 12775,
+      "item_id": 93574,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 150007,
+      "recipe_id": 12775,
+      "item_id": 93553,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 150008,
+      "recipe_id": 12775,
+      "item_id": 93514,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 150009,
+      "recipe_id": 12775,
+      "item_id": 81137,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 150010,
+      "recipe_id": 12775,
+      "item_id": 93492,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    }
+  ],
+  "native_book_metadata": [
+    {
+      "id": 64554,
+      "Name": "Ability: Enchant Alaran Metal",
+      "itemclass": 0,
+      "bagtype": 0,
+      "bagslots": 0,
+      "bagsize": 0,
+      "size": 1,
+      "classes": 8192,
+      "stackable": 1,
+      "maxcharges": 1,
+      "reqlevel": 90,
+      "clicklevel2": 80,
+      "clickeffect": 11370,
+      "clicktype": 3,
+      "ScriptFileID": 20561
+    },
+    {
+      "id": 64555,
+      "Name": "Ability: Mass Enchant Alaran Metal",
+      "itemclass": 0,
+      "bagtype": 0,
+      "bagslots": 0,
+      "bagsize": 0,
+      "size": 1,
+      "classes": 8192,
+      "stackable": 1,
+      "maxcharges": 1,
+      "reqlevel": 91,
+      "clicklevel2": 81,
+      "clickeffect": 11370,
+      "clicktype": 3,
+      "ScriptFileID": 20562
+    },
+    {
+      "id": 76276,
+      "Name": "Ability: Enchant Planar Alloy",
+      "itemclass": 0,
+      "bagtype": 0,
+      "bagslots": 0,
+      "bagsize": 0,
+      "size": 1,
+      "classes": 8192,
+      "stackable": 1,
+      "maxcharges": 1,
+      "reqlevel": 95,
+      "clicklevel2": 85,
+      "clickeffect": 11370,
+      "clicktype": 3,
+      "ScriptFileID": 22568
+    },
+    {
+      "id": 76277,
+      "Name": "Ability: Mass Enchant Planar Alloy",
+      "itemclass": 0,
+      "bagtype": 0,
+      "bagslots": 0,
+      "bagsize": 0,
+      "size": 1,
+      "classes": 8192,
+      "stackable": 1,
+      "maxcharges": 1,
+      "reqlevel": 96,
+      "clicklevel2": 86,
+      "clickeffect": 11370,
+      "clicktype": 3,
+      "ScriptFileID": 22569
+    }
+  ],
+  "restriction_review": {
+    "kits": "Only exact source-positive93492 SpellResearchKit route, matching two existingFeymetal prototype recipes. Other four modern kit links are held; no universal postJune2016 finished-spell eligibility backdated. Existing kit classmask15360 preserved; this is not a newly implemented class-enforcement mechanism.",
+    "learning": "Native prototype must_learn2/manual discovery convention retained; no source mandatoryscribe/NPCteaching gate fabricated. Ingredient salvage uses unchanged nativeFeymetal family convention, not explicit source assertion.",
+    "quantity": "Source x10 identifies Massability book; explicit Yield1 and native stackable/maxcharges1 mean ONEbook. No outputquantity10 or AApoint/grant operation.",
+    "period": "Primary VoA andRoF Jewelcraft crosslinks independently list these Research book formulas. Qualified era18/19 context, not immutable per-fieldMay2013 capture. ReproducedMarch2013patchnote is a lead, not independent proof of highermaterial manufacturing routes.",
+    "ownership": "Manufacturing only; AAowner owns itemclick handlers, class/level grant checks, currentname mapping qualification and nativeacceptance. Native book ScriptFileID/reqlevel/clicklevel fields guarded unchanged, including90/91 and95/96 requirements.",
+    "limits": "No newitem definitions/vendor/drop/NPC/task/spell/AA/player/runtime changes. Nativeinput presence does not establish acquisition/obtainability, and nativebook use remains untested."
+  },
+  "era_source_urls": [
+    "https://www.eqtraders.com/recipes/recipe_page.php?article=548&rsa=Jewelcraft&sub=VOA",
+    "https://www.eqtraders.com/recipes/recipe_page.php?article=563&rsa=Jewelcraft&sub=ROF"
+  ],
+  "modern_class_qualification_url": "https://www.eqtraders.com/articles/article_page.php?article=g342"
+}
