@@ -1,0 +1,126 @@
+{
+  "format_version": 1,
+  "package": "crescent",
+  "inspected_source_head": "aedc7e878f325a8beaffb04c932fb3c1469f69d3",
+  "source_directory": "extensions/rof2/achievements/content/crescent",
+  "source_SQL_entries": [
+    {
+      "path": "configuration/baker/content-template.sql",
+      "sha256": "fd67b4e5aede39496c29a06d2f83adb4c711b04dd41d1e31732ca6b2e2856d78",
+      "owner_manifest_sha256": "fd67b4e5aede39496c29a06d2f83adb4c711b04dd41d1e31732ca6b2e2856d78",
+      "owner_hash_matches": true,
+      "classification": "OwnerSQLsource; retain disabled/review/default/activationguards. Applied receipt reconciliation separate."
+    },
+    {
+      "path": "sql/010-crescent-catalogue.sql",
+      "sha256": "cd1df76becb1be06eba36b9cab4dc2d1fc71880ea4cbc6017af2e18f581dc9b6",
+      "owner_manifest_sha256": "cd1df76becb1be06eba36b9cab4dc2d1fc71880ea4cbc6017af2e18f581dc9b6",
+      "owner_hash_matches": true,
+      "classification": "OwnerSQLsource; retain disabled/review/default/activationguards. Applied receipt reconciliation separate."
+    },
+    {
+      "path": "sql/015-native-task-dependencies.sql",
+      "sha256": "d905db4511a1a2236aefc2a6fa386ec7392bd21bc8b4fe9a29deb1e79eedffbd",
+      "owner_manifest_sha256": "d905db4511a1a2236aefc2a6fa386ec7392bd21bc8b4fe9a29deb1e79eedffbd",
+      "owner_hash_matches": true,
+      "classification": "OwnerSQLsource; retain disabled/review/default/activationguards. Applied receipt reconciliation separate."
+    },
+    {
+      "path": "sql/020-crescent-quests.sql",
+      "sha256": "f4926b65064d5a6be3c5deddec08cbc9bf5d371df54c76dac779cfaddfdd976a",
+      "owner_manifest_sha256": "f4926b65064d5a6be3c5deddec08cbc9bf5d371df54c76dac779cfaddfdd976a",
+      "owner_hash_matches": true,
+      "classification": "OwnerSQLsource; retain disabled/review/default/activationguards. Applied receipt reconciliation separate."
+    },
+    {
+      "path": "sql/030-making-a-name.sql",
+      "sha256": "43bb03cdf6ab0dce85259ba9cf23e020dfc3d4ccf220e2152b66e066b5fcee8f",
+      "owner_manifest_sha256": "43bb03cdf6ab0dce85259ba9cf23e020dfc3d4ccf220e2152b66e066b5fcee8f",
+      "owner_hash_matches": true,
+      "classification": "OwnerSQLsource; retain disabled/review/default/activationguards. Applied receipt reconciliation separate."
+    },
+    {
+      "path": "sql/040-becoming-a-hero.sql",
+      "sha256": "42b6a79669f5828ecb5f7244cc3a48207b32d3a941f39db2ac16be496d25014a",
+      "owner_manifest_sha256": "42b6a79669f5828ecb5f7244cc3a48207b32d3a941f39db2ac16be496d25014a",
+      "owner_hash_matches": true,
+      "classification": "OwnerSQLsource; retain disabled/review/default/activationguards. Applied receipt reconciliation separate."
+    },
+    {
+      "path": "sql/050-baker-quests.sql",
+      "sha256": "ba8f1cef00b809e14ab79cf0da32693faf9717df452e7be8974838366f8c6680",
+      "owner_manifest_sha256": "ba8f1cef00b809e14ab79cf0da32693faf9717df452e7be8974838366f8c6680",
+      "owner_hash_matches": true,
+      "classification": "OwnerSQLsource; retain disabled/review/default/activationguards. Applied receipt reconciliation separate."
+    }
+  ],
+  "applied_status": "Not inferred from current source filenames or flags; retained owner application index requested.",
+  "source_order_basis": [
+    {
+      "source_path": "extensions/rof2/achievements/content/crescent/preflight.py",
+      "sha256": "a5e24a15945efb8626683bb5fa0cdd64a53ae669a66178679b4254b310c9d6be",
+      "role": "Original guarded sequencing/dependency/connectionlogic; not executed/copied as standaloneinstaller here."
+    }
+  ],
+  "required_configuration_and_provenance_references": [
+    {
+      "path": "configuration/baker/config.json",
+      "sha256": "799dd82833ad51a148888eb8faf6cbdcec8de2eec809123ad80b254dfcc3006c"
+    },
+    {
+      "path": "configuration/baker/configure.py",
+      "sha256": "4489416e06c1630ce136371b33b20197ec71d298cc7d64f72e2796432bea773f"
+    },
+    {
+      "path": "configuration/baker/content-template.sql",
+      "sha256": "fd67b4e5aede39496c29a06d2f83adb4c711b04dd41d1e31732ca6b2e2856d78"
+    },
+    {
+      "path": "configuration/becoming-hero-server-defaults.json",
+      "sha256": "ee65fc3a27d40ffbed6989e149e55b4080eef9418b9c05d6032d022abf0d8bbf"
+    },
+    {
+      "path": "configuration/making-name-making-name-server-defaults.json",
+      "sha256": "ff53da3916c700c9e688d0808b3b16e57c5ae111d93b5236aa8fd6a7dfe3ecbf"
+    },
+    {
+      "path": "provenance/baker-provenance.json",
+      "sha256": "aedcd24455a99626051fe17f50200796fd08d4b832960d8a5ce457cdee1d22c8"
+    },
+    {
+      "path": "provenance/baseline-identities.json",
+      "sha256": "700813912cf80184069be2e8350c6fdc69178af5d568e71504eea0f843e44f95"
+    },
+    {
+      "path": "provenance/becoming-a-hero-provenance.json",
+      "sha256": "20f35c590b8dd9d3d0b492c811d06fe25133b9dd88e54da8ca4c6c2afb841163"
+    },
+    {
+      "path": "provenance/crescent-quest-provenance.json",
+      "sha256": "fa25508083d22ae4b5eef50d639125d2f29335dac006540bc399f8134eb1adc8"
+    },
+    {
+      "path": "provenance/historical-identities.json",
+      "sha256": "ccb6a0f1a8212b479c84c1a4a840bfc42b5bc3e148613fc59794355364122c1f"
+    },
+    {
+      "path": "provenance/librarian-callback-selection.json",
+      "sha256": "a272c35aa45acc2f10fa6792b9ac0f768ece138761974be1284a92eff5a966f5"
+    },
+    {
+      "path": "provenance/making-a-name-provenance.json",
+      "sha256": "9af41348ffe56ba588c2b24c114edff8cc8e399b94a0bc551b3e1bc09cc0f309"
+    },
+    {
+      "path": "provenance/milestone-status.json",
+      "sha256": "2e6acc95b45f24c6643181445df9c60b5ba8aac66eb38f4dfdc533e1dd2b6dd8"
+    },
+    {
+      "path": "provenance/reward-provenance.json",
+      "sha256": "7c840cb4b4add074285912c67c87a02409059ce06c594b54ee4be021ddc9be58"
+    }
+  ],
+  "order_rule": "Owner SOURCE-README and pinned installer sequencing authoritative. This source collection does not invent a universal sorted migration order or authorize activation.",
+  "quest_and_engine_dependencies": "Matching source/code/schema + exact questmodules/hooks required; SQLalone is not complete featureinstallation.",
+  "excluded": "Runtimeplayer/custodydata, privatebackups/receipts, newdisabled9344/9345/Oculus/Gearingproposals not in this retainedsource set."
+}

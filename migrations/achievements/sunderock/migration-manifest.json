@@ -1,0 +1,62 @@
+{
+  "format_version": 1,
+  "package": "sunderock",
+  "inspected_source_head": "aedc7e878f325a8beaffb04c932fb3c1469f69d3",
+  "source_directory": "extensions/rof2/achievements/content/sunderock",
+  "source_SQL_entries": [
+    {
+      "path": "sql/015-known-owned-activity-upgrade.sql",
+      "sha256": "e3de604ae315fa637b430c305a3656a1f155ef723ad78bd68137f5614718ae91",
+      "owner_manifest_sha256": "e3de604ae315fa637b430c305a3656a1f155ef723ad78bd68137f5614718ae91",
+      "owner_hash_matches": true,
+      "classification": "OwnerSQLsource; retain disabled/review/default/activationguards. Applied receipt reconciliation separate."
+    },
+    {
+      "path": "sql/020-journal-rewards.disabled.sql",
+      "sha256": "3ff5007f2c883aea7bd09972ff36451c41929b5ca1769f637659f70847352e9d",
+      "owner_manifest_sha256": "3ff5007f2c883aea7bd09972ff36451c41929b5ca1769f637659f70847352e9d",
+      "owner_hash_matches": true,
+      "classification": "OwnerSQLsource; retain disabled/review/default/activationguards. Applied receipt reconciliation separate."
+    },
+    {
+      "path": "sql/030-world-acquisition.review-required.sql",
+      "sha256": "17d55eaaac8bcf9827a927cea43ee55e36d999fbffebb3590b89d672a780b8c0",
+      "owner_manifest_sha256": "17d55eaaac8bcf9827a927cea43ee55e36d999fbffebb3590b89d672a780b8c0",
+      "owner_hash_matches": true,
+      "classification": "OwnerSQLsource; retain disabled/review/default/activationguards. Applied receipt reconciliation separate."
+    },
+    {
+      "path": "sql/090-enable-whole-batch.sql",
+      "sha256": "6d1c32c9858043a09893b4e6f8d0f48d29a35ee5be04e9de6694b879756f0c55",
+      "owner_manifest_sha256": "6d1c32c9858043a09893b4e6f8d0f48d29a35ee5be04e9de6694b879756f0c55",
+      "owner_hash_matches": true,
+      "classification": "OwnerSQLsource; retain disabled/review/default/activationguards. Applied receipt reconciliation separate."
+    }
+  ],
+  "applied_status": "Not inferred from current source filenames or flags; retained owner application index requested.",
+  "source_order_basis": [
+    {
+      "source_path": "extensions/rof2/achievements/content/sunderock/install.py",
+      "sha256": "a86f494e2dea9b1582d53379169a7d1c471f51f611bdfdfdb70c2bb4abcd0a3c",
+      "role": "Original guarded sequencing/dependency/connectionlogic; not executed/copied as standaloneinstaller here."
+    },
+    {
+      "source_path": "extensions/rof2/achievements/content/sunderock/preflight.py",
+      "sha256": "01dbb84c7a2febea2739d525fc737adbd8508fe76abc883d36254a5a114464e2",
+      "role": "Original guarded sequencing/dependency/connectionlogic; not executed/copied as standaloneinstaller here."
+    }
+  ],
+  "required_configuration_and_provenance_references": [
+    {
+      "path": "provenance/baseline-identities.json",
+      "sha256": "37d95ae44b44ac30ac5c6832cf1532608660347264984fe0acf40fa83af42e27"
+    },
+    {
+      "path": "provenance/quest-decisions.json",
+      "sha256": "0cf5741d24f4ac87f19f84f940f71cc6389fba5d8af7a8bc4e8a278127c4700c"
+    }
+  ],
+  "order_rule": "Owner SOURCE-README and pinned installer sequencing authoritative. This source collection does not invent a universal sorted migration order or authorize activation.",
+  "quest_and_engine_dependencies": "Matching source/code/schema + exact questmodules/hooks required; SQLalone is not complete featureinstallation.",
+  "excluded": "Runtimeplayer/custodydata, privatebackups/receipts, newdisabled9344/9345/Oculus/Gearingproposals not in this retainedsource set."
+}

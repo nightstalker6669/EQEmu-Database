@@ -1,0 +1,55 @@
+{
+  "format_version": 1,
+  "package": "short-sharp-sting",
+  "inspected_source_head": "aedc7e878f325a8beaffb04c932fb3c1469f69d3",
+  "source_directory": "extensions/rof2/achievements/content/short-sharp-sting",
+  "source_SQL_entries": [
+    {
+      "path": "sql/010-factions.sql",
+      "sha256": "0795ea7b48b7f9a520c8fe11bb876861e15c701aeeab844558bf22b9ee988248",
+      "owner_manifest_sha256": "0795ea7b48b7f9a520c8fe11bb876861e15c701aeeab844558bf22b9ee988248",
+      "owner_hash_matches": true,
+      "classification": "OwnerSQLsource; retain disabled/review/default/activationguards. Applied receipt reconciliation separate."
+    },
+    {
+      "path": "sql/020-journal.sql",
+      "sha256": "50b3212cf09a5caf31bef2df6a6538381b9a007774d87c26241744d5617cef04",
+      "owner_manifest_sha256": "50b3212cf09a5caf31bef2df6a6538381b9a007774d87c26241744d5617cef04",
+      "owner_hash_matches": true,
+      "classification": "OwnerSQLsource; retain disabled/review/default/activationguards. Applied receipt reconciliation separate."
+    },
+    {
+      "path": "sql/030-avellone.sql",
+      "sha256": "27ebaf83dbd41c546bbee9f8df44e727a16b83473189457a439ea807e79388f4",
+      "owner_manifest_sha256": "27ebaf83dbd41c546bbee9f8df44e727a16b83473189457a439ea807e79388f4",
+      "owner_hash_matches": true,
+      "classification": "OwnerSQLsource; retain disabled/review/default/activationguards. Applied receipt reconciliation separate."
+    },
+    {
+      "path": "sql/040-parent-rewards.sql",
+      "sha256": "0e88a8567376fab4ffdd6c47b6ec8f5dfdb54f86f9c39d9789616e8e469cbb6a",
+      "owner_manifest_sha256": "0e88a8567376fab4ffdd6c47b6ec8f5dfdb54f86f9c39d9789616e8e469cbb6a",
+      "owner_hash_matches": true,
+      "classification": "OwnerSQLsource; retain disabled/review/default/activationguards. Applied receipt reconciliation separate."
+    },
+    {
+      "path": "sql/090-activate.sql",
+      "sha256": "f286523ea35b50ac69b74d0116b0a6ba0d5de6fba47f941eb5cfbe35e17d8b85",
+      "owner_manifest_sha256": "f286523ea35b50ac69b74d0116b0a6ba0d5de6fba47f941eb5cfbe35e17d8b85",
+      "owner_hash_matches": true,
+      "classification": "OwnerSQLsource; retain disabled/review/default/activationguards. Applied receipt reconciliation separate."
+    }
+  ],
+  "applied_status": "Not inferred from current source filenames or flags; retained owner application index requested.",
+  "source_order_basis": [
+    {
+      "source_path": "extensions/rof2/achievements/content/short-sharp-sting/install.py",
+      "sha256": "ab227892fcc2705630e50dd2bed265cc6976218349b8e8cb82028b66e021b769",
+      "role": "Original guarded sequencing/dependency/connectionlogic; not executed/copied as standaloneinstaller here."
+    }
+  ],
+  "required_configuration_and_provenance_references": [],
+  "order_rule": "Owner SOURCE-README and pinned installer sequencing authoritative. This source collection does not invent a universal sorted migration order or authorize activation.",
+  "quest_and_engine_dependencies": "Matching source/code/schema + exact questmodules/hooks required; SQLalone is not complete featureinstallation.",
+  "excluded": "Runtimeplayer/custodydata, privatebackups/receipts, newdisabled9344/9345/Oculus/Gearingproposals not in this retainedsource set."
+}

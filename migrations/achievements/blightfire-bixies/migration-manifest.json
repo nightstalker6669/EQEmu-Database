@@ -1,0 +1,67 @@
+{
+  "format_version": 1,
+  "package": "blightfire-bixies",
+  "inspected_source_head": "aedc7e878f325a8beaffb04c932fb3c1469f69d3",
+  "source_directory": "extensions/rof2/achievements/content/blightfire-bixies",
+  "source_SQL_entries": [
+    {
+      "path": "sql/010-catalogue.sql",
+      "sha256": "d4bc03f7bbc351f7ea9026da646edc51d054df569d28e276a183726c5b247e9d",
+      "owner_manifest_sha256": "d4bc03f7bbc351f7ea9026da646edc51d054df569d28e276a183726c5b247e9d",
+      "owner_hash_matches": true,
+      "classification": "OwnerSQLsource; retain disabled/review/default/activationguards. Applied receipt reconciliation separate."
+    },
+    {
+      "path": "sql/020-quests.sql",
+      "sha256": "16a1455ac89eb954bf439f376272ab7cddd2ae2b340e98bf378ad1f84273a151",
+      "owner_manifest_sha256": "16a1455ac89eb954bf439f376272ab7cddd2ae2b340e98bf378ad1f84273a151",
+      "owner_hash_matches": true,
+      "classification": "OwnerSQLsource; retain disabled/review/default/activationguards. Applied receipt reconciliation separate."
+    }
+  ],
+  "applied_status": "Not inferred from current source filenames or flags; retained owner application index requested.",
+  "source_order_basis": [
+    {
+      "source_path": "extensions/rof2/achievements/content/blightfire-bixies/preflight.py",
+      "sha256": "249b72478b02ad81017d09a87a2acd9d11820de85d8824af68dd98817f633de8",
+      "role": "Original guarded sequencing/dependency/connectionlogic; not executed/copied as standaloneinstaller here."
+    }
+  ],
+  "required_configuration_and_provenance_references": [
+    {
+      "path": "provenance/baseline-identities.json",
+      "sha256": "8e527aae7ce227c56cc5619cb7277cace08aa03be8ec84964438e5d24229f9fd"
+    },
+    {
+      "path": "provenance/bowen-research.json",
+      "sha256": "8b81ecf38c9ac124c2036cc4a986f551ffe27e4e75f720c02e5d39b57f9dc256"
+    },
+    {
+      "path": "provenance/ethaniel-fletcher-makesn-research.json",
+      "sha256": "6e82bbba0c65088e8818dc859bca01061d02f323a3462e7b252b0f98e0397fc3"
+    },
+    {
+      "path": "provenance/later-numerical-corroboration.json",
+      "sha256": "f577ed8b8a60844de2baaf6cd40b63c70ba87fe4f3e0d91ff72b15ccde1411f7"
+    },
+    {
+      "path": "provenance/new-npc-profiles.json",
+      "sha256": "b61a34af649ecb4fec636da3ee9c2234c206688d50d9dcdfa5b25ed53f47328e"
+    },
+    {
+      "path": "provenance/quest-specification.json",
+      "sha256": "aaf4d085c35c5232e6d7e9b4df0fda076eb5ad9d1a0b4b50c5747beb8d33f00c"
+    },
+    {
+      "path": "provenance/scene-configuration-provenance.json",
+      "sha256": "e4b2491e2e62742682ced4408f700a43d643403457e88ed69b00b7244a261897"
+    },
+    {
+      "path": "provenance/stock-repair-provenance.json",
+      "sha256": "d0b6ae578c0d4f4ccd56d3ea24e4cd6c66918f70d106dafbe7d9e21933c7227f"
+    }
+  ],
+  "order_rule": "Owner SOURCE-README and pinned installer sequencing authoritative. This source collection does not invent a universal sorted migration order or authorize activation.",
+  "quest_and_engine_dependencies": "Matching source/code/schema + exact questmodules/hooks required; SQLalone is not complete featureinstallation.",
+  "excluded": "Runtimeplayer/custodydata, privatebackups/receipts, newdisabled9344/9345/Oculus/Gearingproposals not in this retainedsource set."
+}

@@ -1,0 +1,36 @@
+{
+  "format_version": 1,
+  "package": "blightfire-parent-rewards",
+  "inspected_source_head": "aedc7e878f325a8beaffb04c932fb3c1469f69d3",
+  "source_directory": "extensions/rof2/achievements/content/blightfire-parent-rewards",
+  "source_SQL_entries": [
+    {
+      "path": "sql/010-parent-rewards.sql",
+      "sha256": "1e254ad1cbcde99dd3aaa58960cc2f179108b29b9b9296e15b96cbb0fd9567eb",
+      "owner_manifest_sha256": "1e254ad1cbcde99dd3aaa58960cc2f179108b29b9b9296e15b96cbb0fd9567eb",
+      "owner_hash_matches": true,
+      "classification": "OwnerSQLsource; retain disabled/review/default/activationguards. Applied receipt reconciliation separate."
+    }
+  ],
+  "applied_status": "Not inferred from current source filenames or flags; retained owner application index requested.",
+  "source_order_basis": [
+    {
+      "source_path": "extensions/rof2/achievements/content/blightfire-parent-rewards/preflight.py",
+      "sha256": "25f3975e0345d3fb805e51bcf2b1eef4cee5cb4e493b6216f45a711a8dee1f0c",
+      "role": "Original guarded sequencing/dependency/connectionlogic; not executed/copied as standaloneinstaller here."
+    }
+  ],
+  "required_configuration_and_provenance_references": [
+    {
+      "path": "provenance/class-matrix.json",
+      "sha256": "22953447b7313314978f69da70c4a5ce24bfcea9b466a825e80b2716f7365b22"
+    },
+    {
+      "path": "provenance/parent-rewards.json",
+      "sha256": "2cb7248bac3faa764d396807a62171a0663f63516f367f8a195c649bb158223b"
+    }
+  ],
+  "order_rule": "Owner SOURCE-README and pinned installer sequencing authoritative. This source collection does not invent a universal sorted migration order or authorize activation.",
+  "quest_and_engine_dependencies": "Matching source/code/schema + exact questmodules/hooks required; SQLalone is not complete featureinstallation.",
+  "excluded": "Runtimeplayer/custodydata, privatebackups/receipts, newdisabled9344/9345/Oculus/Gearingproposals not in this retainedsource set."
+}

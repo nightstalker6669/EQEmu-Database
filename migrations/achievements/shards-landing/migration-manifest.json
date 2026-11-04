@@ -1,0 +1,58 @@
+{
+  "format_version": 1,
+  "package": "shards-landing",
+  "inspected_source_head": "aedc7e878f325a8beaffb04c932fb3c1469f69d3",
+  "source_directory": "extensions/rof2/achievements/content/shards-landing",
+  "source_SQL_entries": [
+    {
+      "path": "sql/010-shards-catalogue.sql",
+      "sha256": "5cb821f887e4d8ad07aa582cbec92e8ebc586aa0a131cf1021387da3f0be17f1",
+      "owner_manifest_sha256": "5cb821f887e4d8ad07aa582cbec92e8ebc586aa0a131cf1021387da3f0be17f1",
+      "owner_hash_matches": true,
+      "classification": "OwnerSQLsource; retain disabled/review/default/activationguards. Applied receipt reconciliation separate."
+    },
+    {
+      "path": "sql/015-welcome-prerequisite.sql",
+      "sha256": "a56f17f5214a05e0814d6b4924d90d3e9b1c330abad1bd38c8a3b2002f68c055",
+      "owner_manifest_sha256": "a56f17f5214a05e0814d6b4924d90d3e9b1c330abad1bd38c8a3b2002f68c055",
+      "owner_hash_matches": true,
+      "classification": "OwnerSQLsource; retain disabled/review/default/activationguards. Applied receipt reconciliation separate."
+    },
+    {
+      "path": "sql/020-shards-partisan.sql",
+      "sha256": "0ffbd645b82e337140c5da2f8b184689acd2617d1c5952c5912c7a5e3e85e458",
+      "owner_manifest_sha256": "0ffbd645b82e337140c5da2f8b184689acd2617d1c5952c5912c7a5e3e85e458",
+      "owner_hash_matches": true,
+      "classification": "OwnerSQLsource; retain disabled/review/default/activationguards. Applied receipt reconciliation separate."
+    }
+  ],
+  "applied_status": "Not inferred from current source filenames or flags; retained owner application index requested.",
+  "source_order_basis": [
+    {
+      "source_path": "extensions/rof2/achievements/content/shards-landing/preflight.py",
+      "sha256": "d1c1fa07a597a28d1b5da16c638c7f1daa768e755bbbe59dea80d21073c5829c",
+      "role": "Original guarded sequencing/dependency/connectionlogic; not executed/copied as standaloneinstaller here."
+    }
+  ],
+  "required_configuration_and_provenance_references": [
+    {
+      "path": "configuration/reconstruction-policy.json",
+      "sha256": "e2fd45694239bb047115a38885d8e3097943407f02e975083d48324797a92287"
+    },
+    {
+      "path": "provenance/baseline-identities.json",
+      "sha256": "eb5cc7520761f22ed21391858135497b49e7e4c942b63429b5894aa86aca5761"
+    },
+    {
+      "path": "provenance/identity-provenance.json",
+      "sha256": "f664810948c9f9a6d781d14b19ace67ccc98a67c1655b4b80e36f01de2946ff4"
+    },
+    {
+      "path": "provenance/quest-provenance.json",
+      "sha256": "acbad6122e299c2778698469c27fff13b4df033318f7d9b55a981556a7b59d51"
+    }
+  ],
+  "order_rule": "Owner SOURCE-README and pinned installer sequencing authoritative. This source collection does not invent a universal sorted migration order or authorize activation.",
+  "quest_and_engine_dependencies": "Matching source/code/schema + exact questmodules/hooks required; SQLalone is not complete featureinstallation.",
+  "excluded": "Runtimeplayer/custodydata, privatebackups/receipts, newdisabled9344/9345/Oculus/Gearingproposals not in this retainedsource set."
+}

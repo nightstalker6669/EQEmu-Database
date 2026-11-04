@@ -1,0 +1,123 @@
+{
+  "format_version": 1,
+  "package": "steppes",
+  "inspected_source_head": "aedc7e878f325a8beaffb04c932fb3c1469f69d3",
+  "source_directory": "extensions/rof2/achievements/content/steppes",
+  "source_SQL_entries": [
+    {
+      "path": "sql/000-shared-reward-state.sql",
+      "sha256": "f91af00c213590852f22d23b28e05241701be5e91d1a5da4627579a7524d1dbd",
+      "owner_manifest_sha256": "f91af00c213590852f22d23b28e05241701be5e91d1a5da4627579a7524d1dbd",
+      "owner_hash_matches": true,
+      "classification": "OwnerSQLsource; retain disabled/review/default/activationguards. Applied receipt reconciliation separate."
+    },
+    {
+      "path": "sql/005-shared-admission-schema.sql",
+      "sha256": "3b4931e3b0bfeda46acf509795a1dcdcce82189298c4e832b7bd529fd2380927",
+      "owner_manifest_sha256": "3b4931e3b0bfeda46acf509795a1dcdcce82189298c4e832b7bd529fd2380927",
+      "owner_hash_matches": true,
+      "classification": "OwnerSQLsource; retain disabled/review/default/activationguards. Applied receipt reconciliation separate."
+    },
+    {
+      "path": "sql/010-catalogue.sql",
+      "sha256": "236a8e4964f6253521395de7920aaf337a40e8f0814e710adb842075c96e052b",
+      "owner_manifest_sha256": "236a8e4964f6253521395de7920aaf337a40e8f0814e710adb842075c96e052b",
+      "owner_hash_matches": true,
+      "classification": "OwnerSQLsource; retain disabled/review/default/activationguards. Applied receipt reconciliation separate."
+    },
+    {
+      "path": "sql/020-tasks-rewards.sql",
+      "sha256": "974507300bb87f72673d16075eaca589535e6125cd8541b7011bb06eafb2cff1",
+      "owner_manifest_sha256": "974507300bb87f72673d16075eaca589535e6125cd8541b7011bb06eafb2cff1",
+      "owner_hash_matches": true,
+      "classification": "OwnerSQLsource; retain disabled/review/default/activationguards. Applied receipt reconciliation separate."
+    },
+    {
+      "path": "sql/030-actors-pickups.sql",
+      "sha256": "b132fc8290870e52f3419e2d81782e2a3c68e7979df54d5f67bd8dc2ad7b4c79",
+      "owner_manifest_sha256": "b132fc8290870e52f3419e2d81782e2a3c68e7979df54d5f67bd8dc2ad7b4c79",
+      "owner_hash_matches": true,
+      "classification": "OwnerSQLsource; retain disabled/review/default/activationguards. Applied receipt reconciliation separate."
+    },
+    {
+      "path": "sql/090-enable-reviewed-content.sql",
+      "sha256": "27bd43b6f36ac1d64cc505496a51bd5e85d469d9c4c701a29bdfc57fcd88e24f",
+      "owner_manifest_sha256": "27bd43b6f36ac1d64cc505496a51bd5e85d469d9c4c701a29bdfc57fcd88e24f",
+      "owner_hash_matches": true,
+      "classification": "OwnerSQLsource; retain disabled/review/default/activationguards. Applied receipt reconciliation separate."
+    },
+    {
+      "path": "sql/095-gnoll-late-join-policy.sql",
+      "sha256": "18d23ed04edd38fa566bb06e4ad1e4de2d89a6b20b3a8280aa94a64286b215c6",
+      "owner_manifest_sha256": "18d23ed04edd38fa566bb06e4ad1e4de2d89a6b20b3a8280aa94a64286b215c6",
+      "owner_hash_matches": true,
+      "classification": "OwnerSQLsource; retain disabled/review/default/activationguards. Applied receipt reconciliation separate."
+    }
+  ],
+  "applied_status": "Not inferred from current source filenames or flags; retained owner application index requested.",
+  "source_order_basis": [
+    {
+      "source_path": "extensions/rof2/achievements/content/steppes/install.py",
+      "sha256": "e83036ba6282430d11eac2a520991d5669a2eeffdcec8847e7d8bb2ceb0f9d39",
+      "role": "Original guarded sequencing/dependency/connectionlogic; not executed/copied as standaloneinstaller here."
+    },
+    {
+      "source_path": "extensions/rof2/achievements/content/steppes/preflight.py",
+      "sha256": "14fb2e944eba28053a6d8aa0307488246f4c90f3a7dd2629ff93a810e4d5c779",
+      "role": "Original guarded sequencing/dependency/connectionlogic; not executed/copied as standaloneinstaller here."
+    }
+  ],
+  "required_configuration_and_provenance_references": [
+    {
+      "path": "provenance/baseline-identities.json",
+      "sha256": "a2fa8233f599b79031ad28445b1e56ab3079e5fcddf4b976332be10c483c332f"
+    },
+    {
+      "path": "provenance/catalogue.json",
+      "sha256": "56c49d800607e074b9289ec9f824753c166323e2eb85b00c368b9c42034b4728"
+    },
+    {
+      "path": "provenance/defaults-sources.json",
+      "sha256": "2e16c4b4b2e1b3eccd1f2f5e169870689f462e1fe488473f0c743e556db90710"
+    },
+    {
+      "path": "provenance/defaults.json",
+      "sha256": "de915e7ef18dce21216f87b1d69d00dee58b9322b3d63a3454810914b375d602"
+    },
+    {
+      "path": "provenance/effective-scene-settings.json",
+      "sha256": "74efa6da7ea09552872bce232d58bd8d7b5b3838cd903a6cddb6890f1cf8ece3"
+    },
+    {
+      "path": "provenance/grove-geometry.json",
+      "sha256": "911f6be0e30b47bc7bbf9c5971cf9a7480c0446ba11e09cdf0468251c47c70f9"
+    },
+    {
+      "path": "provenance/historical-levels-xp.json",
+      "sha256": "5ceeb48481575ac573b9e61a00fc4f94c482ec84f0dd333d0d030122161b193d"
+    },
+    {
+      "path": "provenance/page-distribution.json",
+      "sha256": "e091dfa07e631e2fab99ca3debdb59a14fee3ec891f4df86f54313cc3f33ad55"
+    },
+    {
+      "path": "provenance/parent-rewards.json",
+      "sha256": "c9cc2053c03b37375b1c6947c2a56562fa4c06112fe518b7fbd8eb056d51780b"
+    },
+    {
+      "path": "provenance/quests.json",
+      "sha256": "ef319f5aa28c63bfa8d5967c10b2eb05083906d768b12cea1a9ed2e1a7c74690"
+    },
+    {
+      "path": "provenance/rune-stone.json",
+      "sha256": "d8e303d2a24a05ce4f1c9e73c04f48891b705e22845a7f7d2195f121b62fc6c8"
+    },
+    {
+      "path": "provenance/validation.json",
+      "sha256": "f1f66cda9a2937e5effd32d5c3da74a89e4bb0facb61cc2dfede8877edf613d4"
+    }
+  ],
+  "order_rule": "Owner SOURCE-README and pinned installer sequencing authoritative. This source collection does not invent a universal sorted migration order or authorize activation.",
+  "quest_and_engine_dependencies": "Matching source/code/schema + exact questmodules/hooks required; SQLalone is not complete featureinstallation.",
+  "excluded": "Runtimeplayer/custodydata, privatebackups/receipts, newdisabled9344/9345/Oculus/Gearingproposals not in this retainedsource set."
+}

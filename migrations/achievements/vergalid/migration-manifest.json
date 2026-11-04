@@ -1,0 +1,86 @@
+{
+  "format_version": 1,
+  "package": "vergalid",
+  "inspected_source_head": "aedc7e878f325a8beaffb04c932fb3c1469f69d3",
+  "source_directory": "extensions/rof2/achievements/content/vergalid",
+  "source_SQL_entries": [
+    {
+      "path": "sql/020-journal-rewards.disabled.sql",
+      "sha256": "1176fd5a517c47ee3ea8de40482be0ca5ac9fa623d938af7ab42bce7fcca74b1",
+      "owner_manifest_sha256": "1176fd5a517c47ee3ea8de40482be0ca5ac9fa623d938af7ab42bce7fcca74b1",
+      "owner_hash_matches": true,
+      "classification": "OwnerSQLsource; retain disabled/review/default/activationguards. Applied receipt reconciliation separate."
+    },
+    {
+      "path": "sql/030-world-chest.review-required.sql",
+      "sha256": "14b35b09b7b5041aba638af6bc3b857fb1ee15a15b51874e61705b55810914b3",
+      "owner_manifest_sha256": "14b35b09b7b5041aba638af6bc3b857fb1ee15a15b51874e61705b55810914b3",
+      "owner_hash_matches": true,
+      "classification": "OwnerSQLsource; retain disabled/review/default/activationguards. Applied receipt reconciliation separate."
+    },
+    {
+      "path": "sql/040-world-actors.review-required.sql",
+      "sha256": "5f463a99f86a389a675d84d93f6f468468d94ac0e71bc7e62079095e15113e76",
+      "owner_manifest_sha256": "5f463a99f86a389a675d84d93f6f468468d94ac0e71bc7e62079095e15113e76",
+      "owner_hash_matches": true,
+      "classification": "OwnerSQLsource; retain disabled/review/default/activationguards. Applied receipt reconciliation separate."
+    },
+    {
+      "path": "sql/090-enable-whole-batch.sql",
+      "sha256": "d53345f65d179862853dbef395608b4e7a44073fb32f1d39f6b0795b1bc2383e",
+      "owner_manifest_sha256": "d53345f65d179862853dbef395608b4e7a44073fb32f1d39f6b0795b1bc2383e",
+      "owner_hash_matches": true,
+      "classification": "OwnerSQLsource; retain disabled/review/default/activationguards. Applied receipt reconciliation separate."
+    }
+  ],
+  "applied_status": "Not inferred from current source filenames or flags; retained owner application index requested.",
+  "source_order_basis": [
+    {
+      "source_path": "extensions/rof2/achievements/content/vergalid/install.py",
+      "sha256": "052773d2b05c1be569c729e91860ffd7ef2b16dee84c4a9266c10a733a08f3fd",
+      "role": "Original guarded sequencing/dependency/connectionlogic; not executed/copied as standaloneinstaller here."
+    },
+    {
+      "source_path": "extensions/rof2/achievements/content/vergalid/preflight.py",
+      "sha256": "fab03070f6cefa5b763d2f1a4a3da26377c49ea5c995e47dfb3ec87c0cd8a43b",
+      "role": "Original guarded sequencing/dependency/connectionlogic; not executed/copied as standaloneinstaller here."
+    }
+  ],
+  "required_configuration_and_provenance_references": [
+    {
+      "path": "provenance/approved-defaults.json",
+      "sha256": "250698be942e3a8e0516fd4efcc74637401c45eecff2050ad55bbc51383604da"
+    },
+    {
+      "path": "provenance/archive-reward-and-bait-review.json",
+      "sha256": "02bf6ecabd3f1858ff5c30f3db2ecfe223864d38d53315fdcd53c2e04208164a"
+    },
+    {
+      "path": "provenance/baseline-identities.json",
+      "sha256": "9608c9e2fd6ea77865808a1c0a49f4718e95988112fb7dcfa7a8ecaf43db39cd"
+    },
+    {
+      "path": "provenance/model-evidence.json",
+      "sha256": "cc9aa99ac2fc062ed121a1e25fd6cb5ab5026c521b85d5a95a91922ea8a6d03a"
+    },
+    {
+      "path": "provenance/orb-guardian-settings.json",
+      "sha256": "ddabb33e060f21fb0834d31d01cfb808410e6bc6d4522b8c0ca79b1e208e905f"
+    },
+    {
+      "path": "provenance/quest-decisions.json",
+      "sha256": "ad716947dd35e70f9280f9573f3fd51e3335b1309795c01308ca4100c5d5d523"
+    },
+    {
+      "path": "provenance/scene-geometry-settings.json",
+      "sha256": "61641a04b76d861ebe5c06835fd5e9a1eb60761f5e7354b5071622268e5f25c9"
+    },
+    {
+      "path": "provenance/world-policy.json",
+      "sha256": "167f04348034662ab8423c3f9538bdd51ddba2647c1bfd1cbb6522f64521e201"
+    }
+  ],
+  "order_rule": "Owner SOURCE-README and pinned installer sequencing authoritative. This source collection does not invent a universal sorted migration order or authorize activation.",
+  "quest_and_engine_dependencies": "Matching source/code/schema + exact questmodules/hooks required; SQLalone is not complete featureinstallation.",
+  "excluded": "Runtimeplayer/custodydata, privatebackups/receipts, newdisabled9344/9345/Oculus/Gearingproposals not in this retainedsource set."
+}

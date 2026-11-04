@@ -1,0 +1,51 @@
+{
+  "format_version": 1,
+  "package": "blightfire-moors",
+  "inspected_source_head": "aedc7e878f325a8beaffb04c932fb3c1469f69d3",
+  "source_directory": "extensions/rof2/achievements/content/blightfire-moors",
+  "source_SQL_entries": [
+    {
+      "path": "sql/010-catalogue.sql",
+      "sha256": "62219f426ccac14bff0168865bec26be00cf197b824d05ee484fe3e372d7690e",
+      "owner_manifest_sha256": "62219f426ccac14bff0168865bec26be00cf197b824d05ee484fe3e372d7690e",
+      "owner_hash_matches": true,
+      "classification": "OwnerSQLsource; retain disabled/review/default/activationguards. Applied receipt reconciliation separate."
+    },
+    {
+      "path": "sql/020-quests.sql",
+      "sha256": "0b882cc411368ee63756ca2f1b396781ee84134cfbd37c3fb039beac68e58382",
+      "owner_manifest_sha256": "0b882cc411368ee63756ca2f1b396781ee84134cfbd37c3fb039beac68e58382",
+      "owner_hash_matches": true,
+      "classification": "OwnerSQLsource; retain disabled/review/default/activationguards. Applied receipt reconciliation separate."
+    }
+  ],
+  "applied_status": "Not inferred from current source filenames or flags; retained owner application index requested.",
+  "source_order_basis": [
+    {
+      "source_path": "extensions/rof2/achievements/content/blightfire-moors/preflight.py",
+      "sha256": "7119beba8050bb98fd9a98e3470477cc3034b9140c504c618206ac63f4513041",
+      "role": "Original guarded sequencing/dependency/connectionlogic; not executed/copied as standaloneinstaller here."
+    }
+  ],
+  "required_configuration_and_provenance_references": [
+    {
+      "path": "configuration/reconstruction-policy.json",
+      "sha256": "13a66fb70081bb2f7eec36f628e525bc088e921977af03fa49e5f171fb0a0782"
+    },
+    {
+      "path": "provenance/baseline-identities.json",
+      "sha256": "4c3688d38d7362b634e8eea7980c4cd62aac5a90b316c7f99c9ec28eb5b8fd91"
+    },
+    {
+      "path": "provenance/historical-sources.json",
+      "sha256": "eb7c34b748a4c4b586dac7577e654e072ed202a22cbb4e4e3b73a462b295f194"
+    },
+    {
+      "path": "provenance/quest-specification.json",
+      "sha256": "68f87c96865243b93ab514c7e731f026cd4f8dfe6b0588155d08f7cd57dafa65"
+    }
+  ],
+  "order_rule": "Owner SOURCE-README and pinned installer sequencing authoritative. This source collection does not invent a universal sorted migration order or authorize activation.",
+  "quest_and_engine_dependencies": "Matching source/code/schema + exact questmodules/hooks required; SQLalone is not complete featureinstallation.",
+  "excluded": "Runtimeplayer/custodydata, privatebackups/receipts, newdisabled9344/9345/Oculus/Gearingproposals not in this retainedsource set."
+}

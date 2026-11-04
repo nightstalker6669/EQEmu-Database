@@ -1,0 +1,85 @@
+{
+  "format_version": 1,
+  "package": "stonehive",
+  "inspected_source_head": "aedc7e878f325a8beaffb04c932fb3c1469f69d3",
+  "source_directory": "extensions/rof2/achievements/content/stonehive",
+  "source_SQL_entries": [
+    {
+      "path": "sql/010-catalogue.sql",
+      "sha256": "17629370c7cf43e19c86b6caa966af91dbcd080ca48f4d783fd256de7d5bd210",
+      "owner_manifest_sha256": "17629370c7cf43e19c86b6caa966af91dbcd080ca48f4d783fd256de7d5bd210",
+      "owner_hash_matches": true,
+      "classification": "OwnerSQLsource; retain disabled/review/default/activationguards. Applied receipt reconciliation separate."
+    },
+    {
+      "path": "sql/020-quests.sql",
+      "sha256": "41ccf23525563b5542c44d2e6891886e3c4a027a13a10d149643f8487970ca92",
+      "owner_manifest_sha256": "41ccf23525563b5542c44d2e6891886e3c4a027a13a10d149643f8487970ca92",
+      "owner_hash_matches": true,
+      "classification": "OwnerSQLsource; retain disabled/review/default/activationguards. Applied receipt reconciliation separate."
+    },
+    {
+      "path": "sql/030-scenes.sql",
+      "sha256": "98c04dd5f2175e975c76f35154b895dd6f234b80798f50f6b8d19dd7036091ac",
+      "owner_manifest_sha256": "98c04dd5f2175e975c76f35154b895dd6f234b80798f50f6b8d19dd7036091ac",
+      "owner_hash_matches": true,
+      "classification": "OwnerSQLsource; retain disabled/review/default/activationguards. Applied receipt reconciliation separate."
+    },
+    {
+      "path": "sql/040-parent-rewards.sql",
+      "sha256": "291f6bc5d04d34b379056250cd29fa6ace465cf17aa3ad5c1bdd8701ebe2e4fd",
+      "owner_manifest_sha256": "291f6bc5d04d34b379056250cd29fa6ace465cf17aa3ad5c1bdd8701ebe2e4fd",
+      "owner_hash_matches": true,
+      "classification": "OwnerSQLsource; retain disabled/review/default/activationguards. Applied receipt reconciliation separate."
+    }
+  ],
+  "applied_status": "Not inferred from current source filenames or flags; retained owner application index requested.",
+  "source_order_basis": [
+    {
+      "source_path": "extensions/rof2/achievements/content/stonehive/preflight.py",
+      "sha256": "52dee925b34fe6f7d21bf855a387a7a34771d7bc5f71c323e00ab4f627221938",
+      "role": "Original guarded sequencing/dependency/connectionlogic; not executed/copied as standaloneinstaller here."
+    }
+  ],
+  "required_configuration_and_provenance_references": [
+    {
+      "path": "provenance/baseline-identities.json",
+      "sha256": "966d0d07e28a5de86f85f00b5ed763a3c593f2827a000cd806bcf507f1a68bd6"
+    },
+    {
+      "path": "provenance/new-npc-profiles.json",
+      "sha256": "6219bf2dadb357b04de9abaa6d69f4fa7923a7351c4197e16cf069beb0cfe4be"
+    },
+    {
+      "path": "provenance/parent-reward-class-matrix.json",
+      "sha256": "18be3ad628ede3305a9322dc3f84a2015d384bfba62586d2a752838b6f7976cc"
+    },
+    {
+      "path": "provenance/parent-rewards.json",
+      "sha256": "f5ed4aa1a47557545a65236eb41f98ff0419a6c9da89219dec36ff983e6a9cf8"
+    },
+    {
+      "path": "provenance/quest-specification.json",
+      "sha256": "a64551f5a6c2d106d60b23a6a76dd0f467bb42e98b1356951e5234ec020e39d2"
+    },
+    {
+      "path": "provenance/research-collections.json",
+      "sha256": "2aff595037fed7d8d64d42a5f74e38029f851aa0451f32228cd6335cff3d8261"
+    },
+    {
+      "path": "provenance/research-scouts.json",
+      "sha256": "94dcf3b157a3c03ddd2b7301c56ba31c9ca32045744a6b18236567e6183b2250"
+    },
+    {
+      "path": "provenance/research-warwing.json",
+      "sha256": "355aac38b2e15801f56b1f5109e33832885ad37b2fc21da7d97a4eb7d049b377"
+    },
+    {
+      "path": "provenance/scene-data.json",
+      "sha256": "eda9a0721e3ffcb04f3b5aee4e0c210afdfa37ba9769f152acc281d707ac6734"
+    }
+  ],
+  "order_rule": "Owner SOURCE-README and pinned installer sequencing authoritative. This source collection does not invent a universal sorted migration order or authorize activation.",
+  "quest_and_engine_dependencies": "Matching source/code/schema + exact questmodules/hooks required; SQLalone is not complete featureinstallation.",
+  "excluded": "Runtimeplayer/custodydata, privatebackups/receipts, newdisabled9344/9345/Oculus/Gearingproposals not in this retainedsource set."
+}

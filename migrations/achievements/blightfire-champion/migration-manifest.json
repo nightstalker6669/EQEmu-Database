@@ -1,0 +1,62 @@
+{
+  "format_version": 1,
+  "package": "blightfire-champion",
+  "inspected_source_head": "aedc7e878f325a8beaffb04c932fb3c1469f69d3",
+  "source_directory": "extensions/rof2/achievements/content/blightfire-champion",
+  "source_SQL_entries": [
+    {
+      "path": "sql/010-catalogue.sql",
+      "sha256": "ead763edb59f191148668c5b22a136b6c0eae988f20aa58f71a2d6cd82c0208e",
+      "owner_manifest_sha256": "ead763edb59f191148668c5b22a136b6c0eae988f20aa58f71a2d6cd82c0208e",
+      "owner_hash_matches": true,
+      "classification": "OwnerSQLsource; retain disabled/review/default/activationguards. Applied receipt reconciliation separate."
+    },
+    {
+      "path": "sql/020-quests.sql",
+      "sha256": "fef8937917c225992687f9170f76fd176128e0815276cbac76b8e12d230a3058",
+      "owner_manifest_sha256": "fef8937917c225992687f9170f76fd176128e0815276cbac76b8e12d230a3058",
+      "owner_hash_matches": true,
+      "classification": "OwnerSQLsource; retain disabled/review/default/activationguards. Applied receipt reconciliation separate."
+    },
+    {
+      "path": "sql/030-scenes.sql",
+      "sha256": "3dde7dbf92559fcbc517a3ce11f7f76e5461d3b32f9d0c30e9d9dc7e193dc527",
+      "owner_manifest_sha256": "3dde7dbf92559fcbc517a3ce11f7f76e5461d3b32f9d0c30e9d9dc7e193dc527",
+      "owner_hash_matches": true,
+      "classification": "OwnerSQLsource; retain disabled/review/default/activationguards. Applied receipt reconciliation separate."
+    }
+  ],
+  "applied_status": "Not inferred from current source filenames or flags; retained owner application index requested.",
+  "source_order_basis": [
+    {
+      "source_path": "extensions/rof2/achievements/content/blightfire-champion/preflight.py",
+      "sha256": "bcbfa16ab0d56813144ffb000a8d9d055df6784e0d1fda76222de3033ef720bb",
+      "role": "Original guarded sequencing/dependency/connectionlogic; not executed/copied as standaloneinstaller here."
+    }
+  ],
+  "required_configuration_and_provenance_references": [
+    {
+      "path": "provenance/baseline-identities.json",
+      "sha256": "bd6a381435aef0ad4679d8070bf0b4298e3bccf1efb802f2beb85f9c092e43a9"
+    },
+    {
+      "path": "provenance/new-npc-profiles.json",
+      "sha256": "0eb2c72620c02ef27a2fd58b50fe82e4223c0ef398d4ad2f637786ef64c690a8"
+    },
+    {
+      "path": "provenance/quest-specification.json",
+      "sha256": "eee64c4d4b80fa419997cdc392744af73954a5043ccd524d2bcfb3bc0630899c"
+    },
+    {
+      "path": "provenance/research-decisions.json",
+      "sha256": "4ea76c9dd38f9e618540ad692e304eaacf8c1e0e25fad0fba545699d3080bdc5"
+    },
+    {
+      "path": "provenance/scene-data.json",
+      "sha256": "85972bcaea16ef3705683eedc78d3f03b42bbe0b22a13829e0a6ba725d71fe56"
+    }
+  ],
+  "order_rule": "Owner SOURCE-README and pinned installer sequencing authoritative. This source collection does not invent a universal sorted migration order or authorize activation.",
+  "quest_and_engine_dependencies": "Matching source/code/schema + exact questmodules/hooks required; SQLalone is not complete featureinstallation.",
+  "excluded": "Runtimeplayer/custodydata, privatebackups/receipts, newdisabled9344/9345/Oculus/Gearingproposals not in this retainedsource set."
+}

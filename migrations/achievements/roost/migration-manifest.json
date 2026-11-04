@@ -1,0 +1,92 @@
+{
+  "format_version": 1,
+  "package": "roost",
+  "inspected_source_head": "aedc7e878f325a8beaffb04c932fb3c1469f69d3",
+  "source_directory": "extensions/rof2/achievements/content/roost",
+  "source_SQL_entries": [
+    {
+      "path": "sql/01_catalogue.sql",
+      "sha256": "446b2d03d90a9370c1912d1c65594d48736f7f6f04f3e4d795bb401231d21fa3",
+      "owner_manifest_sha256": "446b2d03d90a9370c1912d1c65594d48736f7f6f04f3e4d795bb401231d21fa3",
+      "owner_hash_matches": true,
+      "classification": "OwnerSQLsource; retain disabled/review/default/activationguards. Applied receipt reconciliation separate."
+    },
+    {
+      "path": "sql/02_acquisition.sql",
+      "sha256": "88048a63618b0455972da10b3549f127fca1533107e08c6bce98a6860425a6f7",
+      "owner_manifest_sha256": "88048a63618b0455972da10b3549f127fca1533107e08c6bce98a6860425a6f7",
+      "owner_hash_matches": true,
+      "classification": "OwnerSQLsource; retain disabled/review/default/activationguards. Applied receipt reconciliation separate."
+    },
+    {
+      "path": "sql/03_tasks.sql",
+      "sha256": "676f3a3b2382e9e391c727d4ee17bb5a8cd0225351aba486f56d0f6522f0efb0",
+      "owner_manifest_sha256": "676f3a3b2382e9e391c727d4ee17bb5a8cd0225351aba486f56d0f6522f0efb0",
+      "owner_hash_matches": true,
+      "classification": "OwnerSQLsource; retain disabled/review/default/activationguards. Applied receipt reconciliation separate."
+    },
+    {
+      "path": "sql/04_parent-rewards.sql",
+      "sha256": "2c32519b25633996a8832ff366efc7455c7d37342a48a98e52409da44ba0f937",
+      "owner_manifest_sha256": "2c32519b25633996a8832ff366efc7455c7d37342a48a98e52409da44ba0f937",
+      "owner_hash_matches": true,
+      "classification": "OwnerSQLsource; retain disabled/review/default/activationguards. Applied receipt reconciliation separate."
+    },
+    {
+      "path": "sql/05_nests.sql",
+      "sha256": "2b13692b370bbad63e20b27296e15e7858edc8d5b048817972a190aecab77b02",
+      "owner_manifest_sha256": "2b13692b370bbad63e20b27296e15e7858edc8d5b048817972a190aecab77b02",
+      "owner_hash_matches": true,
+      "classification": "OwnerSQLsource; retain disabled/review/default/activationguards. Applied receipt reconciliation separate."
+    },
+    {
+      "path": "sql/06_activation.sql",
+      "sha256": "af2178cec0e5f0d00c0b9f978ce3ec2a26e061b83460dbac6f8322cb87e31e48",
+      "owner_manifest_sha256": "af2178cec0e5f0d00c0b9f978ce3ec2a26e061b83460dbac6f8322cb87e31e48",
+      "owner_hash_matches": true,
+      "classification": "OwnerSQLsource; retain disabled/review/default/activationguards. Applied receipt reconciliation separate."
+    }
+  ],
+  "applied_status": "Not inferred from current source filenames or flags; retained owner application index requested.",
+  "source_order_basis": [
+    {
+      "source_path": "extensions/rof2/achievements/content/roost/install.py",
+      "sha256": "3ea5ba477b34ea7e8e87390a114ea4b6c302e7e80ed6f91484f779f8028a2b57",
+      "role": "Original guarded sequencing/dependency/connectionlogic; not executed/copied as standaloneinstaller here."
+    },
+    {
+      "source_path": "extensions/rof2/achievements/content/roost/preflight.py",
+      "sha256": "ff73ee7f78b85a399e258bc086a9f7859daad8031d040504d6bfe49f021d8ffa",
+      "role": "Original guarded sequencing/dependency/connectionlogic; not executed/copied as standaloneinstaller here."
+    }
+  ],
+  "required_configuration_and_provenance_references": [
+    {
+      "path": "provenance/baseline-identities.json",
+      "sha256": "1a22007ee3a633b245fc17a04cda9bd6e99a50e1b3e6f7ae0f9205ab44a581b6"
+    },
+    {
+      "path": "provenance/defaults-and-limits.json",
+      "sha256": "213062fd697577ce0b6846f65700426418ce6ab2cc373fca6128de4e5be634a2"
+    },
+    {
+      "path": "provenance/engine.json",
+      "sha256": "4d653234ba6ed69e10c577e5fa0f7e43a32c0e359590a960797a1de9dcc9cc5f"
+    },
+    {
+      "path": "provenance/parent-rewards.json",
+      "sha256": "736ee39e70600ecfe143802c3a2af0b5d22c3f40ff68303ea522af1f572b55c5"
+    },
+    {
+      "path": "provenance/quests.json",
+      "sha256": "81b307f5290f9eb90e4f759a98f54c43752422dc1130c4ebe08ecf2fb2b89c73"
+    },
+    {
+      "path": "provenance/unresolved-armour.json",
+      "sha256": "f3fac3c923cc9494833fc8dbc617f7f1c9d3c479b8a42429168d4a4452712f8d"
+    }
+  ],
+  "order_rule": "Owner SOURCE-README and pinned installer sequencing authoritative. This source collection does not invent a universal sorted migration order or authorize activation.",
+  "quest_and_engine_dependencies": "Matching source/code/schema + exact questmodules/hooks required; SQLalone is not complete featureinstallation.",
+  "excluded": "Runtimeplayer/custodydata, privatebackups/receipts, newdisabled9344/9345/Oculus/Gearingproposals not in this retainedsource set."
+}

@@ -1,0 +1,73 @@
+{
+  "format_version": 1,
+  "package": "mesa",
+  "inspected_source_head": "aedc7e878f325a8beaffb04c932fb3c1469f69d3",
+  "source_directory": "extensions/rof2/achievements/content/mesa",
+  "source_SQL_entries": [
+    {
+      "path": "sql/010-catalogue.sql",
+      "sha256": "10826a83728b1aae12c058ba4473adceb5c12f43a35c277ad7a173e5b1cb8d81",
+      "owner_manifest_sha256": "10826a83728b1aae12c058ba4473adceb5c12f43a35c277ad7a173e5b1cb8d81",
+      "owner_hash_matches": true,
+      "classification": "OwnerSQLsource; retain disabled/review/default/activationguards. Applied receipt reconciliation separate."
+    },
+    {
+      "path": "sql/020-quests.sql",
+      "sha256": "829b08c12fcbe37322b8bffc8824d892949836c22059bf4c9f5c307a314206c0",
+      "owner_manifest_sha256": "829b08c12fcbe37322b8bffc8824d892949836c22059bf4c9f5c307a314206c0",
+      "owner_hash_matches": true,
+      "classification": "OwnerSQLsource; retain disabled/review/default/activationguards. Applied receipt reconciliation separate."
+    },
+    {
+      "path": "sql/030-scenes.sql",
+      "sha256": "b1f46aa918828eb9da4e283e13936063a0f164eeea68b0cea7fc363522c7a67b",
+      "owner_manifest_sha256": "b1f46aa918828eb9da4e283e13936063a0f164eeea68b0cea7fc363522c7a67b",
+      "owner_hash_matches": true,
+      "classification": "OwnerSQLsource; retain disabled/review/default/activationguards. Applied receipt reconciliation separate."
+    },
+    {
+      "path": "sql/040-parent-rewards.sql",
+      "sha256": "9c3d60b40bd7ec74c78992996329238003f368d5fe9165071977bc7f35f723cc",
+      "owner_manifest_sha256": "9c3d60b40bd7ec74c78992996329238003f368d5fe9165071977bc7f35f723cc",
+      "owner_hash_matches": true,
+      "classification": "OwnerSQLsource; retain disabled/review/default/activationguards. Applied receipt reconciliation separate."
+    }
+  ],
+  "applied_status": "Not inferred from current source filenames or flags; retained owner application index requested.",
+  "source_order_basis": [
+    {
+      "source_path": "extensions/rof2/achievements/content/mesa/preflight.py",
+      "sha256": "53a68d8dc73c49371a415e13e8aed342205a1e6b455faf3b9c5e0fbba5d96d1f",
+      "role": "Original guarded sequencing/dependency/connectionlogic; not executed/copied as standaloneinstaller here."
+    }
+  ],
+  "required_configuration_and_provenance_references": [
+    {
+      "path": "provenance/baseline-identities.json",
+      "sha256": "0dcb05d92dda97f3ee45cccb99b2a972ae714385695988ec6238e412770b156d"
+    },
+    {
+      "path": "provenance/destructible-resources.json",
+      "sha256": "59edf15a2b2510d58318c88201052b8f6ade7c8d18c10db53ee811371ecdb45f"
+    },
+    {
+      "path": "provenance/parent-rewards.json",
+      "sha256": "13567027d951eb0f9188fafd7a6f6f8eb97693ec0ab997f5fb2ab04136c4fb84"
+    },
+    {
+      "path": "provenance/quest-specification.json",
+      "sha256": "2fe61d4d81f656a67b792d9a5402a3bc026d7d7796abf013f9d0dd59f05ba9e8"
+    },
+    {
+      "path": "provenance/research-decisions.json",
+      "sha256": "d14063274dd2cedaa11469922ac43a95400b652bcd14908539b63baa1936fed1"
+    },
+    {
+      "path": "provenance/scene-data.json",
+      "sha256": "e6de3387aa2b063324090d6490a49b6c2e7cba33ad4eb3926991e6b706db6f1a"
+    }
+  ],
+  "order_rule": "Owner SOURCE-README and pinned installer sequencing authoritative. This source collection does not invent a universal sorted migration order or authorize activation.",
+  "quest_and_engine_dependencies": "Matching source/code/schema + exact questmodules/hooks required; SQLalone is not complete featureinstallation.",
+  "excluded": "Runtimeplayer/custodydata, privatebackups/receipts, newdisabled9344/9345/Oculus/Gearingproposals not in this retainedsource set."
+}
