@@ -1,0 +1,39 @@
+{
+  "format_version": 1,
+  "batch": "RRC091",
+  "source_commit": "99e5270a28cf573a327ada0d03d4e3276ed87c7c",
+  "source_sha256": "4bc508d9e9696f7571bc124aa818825ef3bd3949f38a66db65d606cbb17af675",
+  "application_status": "APPLIED_VERIFIED",
+  "recipes_added": 10,
+  "entries_added": 77,
+  "recipe_ids": [
+    3093956,
+    3093965
+  ],
+  "preserved_existing_prototypes": {
+    "definitions": 105,
+    "entries": 825
+  },
+  "held_trivial_differences": {
+    "count": 3,
+    "disposition": "Preserved; not silently corrected by this source packet."
+  },
+  "learned_references_and_native_item_masks": "Preserved per owner/coordinator receipt; no new scan.",
+  "item41411": "BST identity retained.",
+  "TS_cumulative_added_through091": {
+    "recipes": 2965,
+    "entries": 16882
+  },
+  "separate_Xorbb_recipe_excluded": {
+    "recipes": 1,
+    "entries": 6
+  },
+  "held_batch": "RRC014",
+  "prior_closed_normal_SQL_path_cutoff": 416,
+  "new_normal_SQL_paths": 2,
+  "normal_SQL_paths_after_followup": 418,
+  "Scent_disabled_candidate_separate": true,
+  "QA39999_production_exclusion_retained": true,
+  "SQL_path_count_meaning": "Paths include apply/rollback pairs and readback SQL, not418 applications.",
+  "assembly": "No database query/replay/rescan/test/runtime or QA cleanup action, and no old archive/catalogue rewrite."
+}
