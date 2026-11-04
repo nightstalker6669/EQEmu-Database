@@ -1,0 +1,11 @@
+# Xorbb scripted objective journal correction
+
+The active crystal, phial, capture and staged dialogue objectives were authored with activity type0 (`None`). Native RoF2 testing found the current crystal objectives absent from both the task window and its objective list. The server serializes that type unchanged. Earlier EQEmu task-system guidance also warns that type0 produces bad journal results despite description overrides.
+
+This additive correction changes exactly23 existing quest-controlled objective rows to type5 (`Explore`) as a visible display carrier. It preserves `goalmethod=2`, objective IDs, descriptions, counts, phases, zone filters, script checks, inventory and character progress. The deployed `CanUpdate` guard rejects ordinary exploration updates for these quest-controlled objectives; only their existing scripts advance them. This is an emulator presentation repair, not a recovered original Live activity-type claim.
+
+Apply after the coherent Xorbb migration9345 and its separate reward-method correction. Do not rewrite either applied migration. The caller must use one strict transaction, capture the23 full preimages, require exactly23 affected rows, verify full postimages against the preimages with only `activitytype` changed, and preserve character activity rows. A mismatch requires rollback and investigation, not retry. Reload the existing task cache in the already scheduled controlled window, then reconnect the existing tester without reassigning quests. Check visible crystal counters and one real click; reuse existing evidence elsewhere.
+
+`rollback.sql` is the exact inverse guarded change. It restores the authored presentation type without resetting objectives. `readback.sql` selects full rows at only the23 affected identities. These files contain no schema, migration-journal, account, inventory or player-state writes.
+
+Sources: [EQEmu task activity types](https://docs.eqemu.dev/server/task-system-guide/task-activity-types/), [quest-controlled task goals](https://docs.eqemu.dev/server/task-system-guide/), and [original task-system developer discussion](https://www.eqemulator.org/forums/showthread.php?t=25894&page=3). The forum warning was available in the search result; direct fetch returned403. Native rendering/progress acceptance remains required after deployment.

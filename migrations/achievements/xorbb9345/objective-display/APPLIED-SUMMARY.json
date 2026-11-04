@@ -1,0 +1,33 @@
+{
+  "status": "COMMITTED_INDEPENDENT_BOUNDED_READBACK_PASS",
+  "source_commit": "a424d3fa2f816779a033fd08b9a67eff7aae0cb4",
+  "source_pins": {
+    "apply.sql": "17791228fdfe260c8f769ef6078771a97c87673d996639adfa7f7e1b7961e8a7",
+    "readback.sql": "9fb761c4f3cbbcacc7add2505ea6b9f27a153b086a10516bc6fa7d8844c6bb49",
+    "rollback.sql": "83e10406bbafce55c1e530b2b50466b07469cf8e5d43f61540d13ed7a5a53e04"
+  },
+  "SQL_invocations": 1,
+  "affected_rows": 23,
+  "authored_guard_columns": 18,
+  "operator_full_physical_columns": 25,
+  "precommit_readback": {
+    "rows": 23,
+    "activitytype5": 23,
+    "activitytype0": 0,
+    "goalmethod2": 23,
+    "full_rows_exact": true
+  },
+  "independent_readback": {
+    "rows": 23,
+    "activitytype5": 23,
+    "activitytype0": 0,
+    "goalmethod2": 23,
+    "full_rows_exact": true,
+    "file_sha256": "c17c2f6980a97274e10a1031717cbf7afef4db71c30fea7406cf9a34fbfeff1d"
+  },
+  "receipt_sha256": "2d751af788cfbd8092f58a2e2c417e0c821796c4f84e6e2ff916ef31ed1bcfe7",
+  "preservation": "Only activitytype0->5 on23 existing activities3040484..3040487; goalmethod2 and all other physical fields unchanged. No player task/progress writes or regrant, canonical9345/rewardmethod migration rewrite, schema/registry/version change.",
+  "rollback": "Exact inverse guarded rollback retained as recovery reference; not executed. No retry.",
+  "runtime_and_native_evidence": "Build freshstart/taskcatalog and native journal/click acceptance remain separate; no reload/client action performed by Database.",
+  "QA39999": "Separate temporary QA operation, excluded from this production source packet/snapshot; no QA insert performed by this correction."
+}
