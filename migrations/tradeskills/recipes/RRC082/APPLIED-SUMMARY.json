@@ -1,0 +1,26 @@
+{
+  "batch": "RRC082",
+  "status": "APPLIED_VERIFIED",
+  "SQL_invocations": 1,
+  "published_commit": "bcc22dc4b332c6e262951508eaed3b8b212f20fb",
+  "source_sha256": "895ca8ecacab38ade60cd840c160ee95579df981e8cd3bb1a2d7290741c8b482",
+  "native_actions": false,
+  "player_item_writes": false,
+  "new_rehearsal": false,
+  "recipes": 17,
+  "entries": 126,
+  "ids": [
+    3093651,
+    3093667
+  ],
+  "affected_postimages_exact": true,
+  "unchanged_prototype_recipes": 53,
+  "unchanged_prototype_entries": 410,
+  "old_prototypes_exact": true,
+  "existing_row_changes": "No UPDATE/DELETE of existing recipes; additive exact-ID inserts only. Global old-row diff was not repeated.",
+  "receipt_sha256": "8e87da91f98da09c6d2c2efe5d814e418d161497016b47760e18df09d508fff3",
+  "source_SQL_matches_applied_hash": true,
+  "dependency": "Preserve RRC078 producer prerequisite.",
+  "native_acceptance": "No native acceptance inferred from SQL application.",
+  "preparation_labels": "Original source labels describe preparation; this later summary records actual application."
+}

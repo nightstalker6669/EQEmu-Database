@@ -1,0 +1,32 @@
+{
+  "status": "COMMITTED_INDEPENDENT_BOUNDED_READBACK_PASS",
+  "published_commit": "ae80251c3451f03df448abf6ec9dfbb82eda860b",
+  "source_sha256": {
+    "apply.sql": "32c4f405ac28970cd680007fdf5801958a04780249f8087cf5a6ea65daa7b355",
+    "rollback.sql": "211c85a9d1fa04f44ead64f624c6c9644fedc081de243812f41f12ea61343b53",
+    "readback.sql": "18ba9425a6a4523b9894ac79c1374c6eb64a76821ffcf11f32e9d042ac3baf6a"
+  },
+  "SQL_invocations": 1,
+  "affected_rows": 11,
+  "source_guard_columns": 21,
+  "operator_full_physical_columns": 29,
+  "precommit_readback": [
+    {
+      "exact_method3_postimages": 11
+    },
+    {
+      "remaining_method6_preimages": 0
+    }
+  ],
+  "independent_readback": {
+    "rows": 11,
+    "method3": 11,
+    "method6": 0,
+    "full_physical_rows_exact": true,
+    "file_sha256": "ca9e0a8d5c4bbc74eb545309a204db4a219f1b2aca5ea542a74b7e5c6f5cd41a"
+  },
+  "receipt_sha256": "b20f44a743ad76535e63f0d0750d3f4b1f041ec8122ad0dbd18d893fc2d45070",
+  "preservation": "Only eleven active tasks3040477..3040487 reward_method6->3; all29 physical columns otherwise preserved, including enabled1. Three partisan tasks and all other definitions outside statement. No canonical rewrite, registry/version/player/custody/progress changes.",
+  "rollback_policy": "Exact CAS rollback3->6 retained as recovery reference, not executed; no retry.",
+  "runtime_acceptance": "Build owns one Tasks27 refresh, reusing completed Lua22/Achievements36. SQL proof is not loaded-runtime or native reward acceptance."
+}
