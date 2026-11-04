@@ -1,0 +1,5510 @@
+{
+  "batch": "RRC086",
+  "branch": "rof2-tradeskills",
+  "status": "SOURCE_PROPOSAL_NOT_APPLIED",
+  "proposed_ids": [
+    3093709,
+    3093732
+  ],
+  "counts": {
+    "recipes": 24,
+    "entries": 188,
+    "item_dependencies": 59,
+    "unchanged_prototype_recipes": 7,
+    "unchanged_prototype_entries": 56,
+    "required_dependency_recipes": 5,
+    "required_dependency_entries": 68
+  },
+  "recipes": [
+    {
+      "id": 3093709,
+      "name": "Spell: Annihilate the Aberrant Rk. II",
+      "tradeskill": 58,
+      "skillneeded": 0,
+      "trivial": 440,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Primary Magician Charta formula; existing Spell Research Kit route; RRC086.",
+      "must_learn": 2,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 17,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3093710,
+      "name": "Spell: Malosinatia Rk. II",
+      "tradeskill": 58,
+      "skillneeded": 0,
+      "trivial": 432,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Primary Magician Charta formula; existing Spell Research Kit route; RRC086.",
+      "must_learn": 2,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 17,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3093711,
+      "name": "Spell: Lavaskin Rk. II",
+      "tradeskill": 58,
+      "skillneeded": 0,
+      "trivial": 432,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Primary Magician Charta formula; existing Spell Research Kit route; RRC086.",
+      "must_learn": 2,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 17,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3093712,
+      "name": "Spell: Summon Gelid Paradox Rk. II",
+      "tradeskill": 58,
+      "skillneeded": 0,
+      "trivial": 444,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Primary Magician Charta formula; existing Spell Research Kit route; RRC086.",
+      "must_learn": 2,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 17,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3093713,
+      "name": "Spell: Prime Guard Rk. II",
+      "tradeskill": 58,
+      "skillneeded": 0,
+      "trivial": 432,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Primary Magician Charta formula; existing Spell Research Kit route; RRC086.",
+      "must_learn": 2,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 17,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3093714,
+      "name": "Spell: Bolt of Molten Dross Rk. II",
+      "tradeskill": 58,
+      "skillneeded": 0,
+      "trivial": 432,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Primary Magician Charta formula; existing Spell Research Kit route; RRC086.",
+      "must_learn": 2,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 17,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3093715,
+      "name": "Spell: Wand of Prime Transvergence Rk. II",
+      "tradeskill": 58,
+      "skillneeded": 0,
+      "trivial": 436,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Primary Magician Charta formula; existing Spell Research Kit route; RRC086.",
+      "must_learn": 2,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 17,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3093716,
+      "name": "Spell: Rain of Molten Dross Rk. II",
+      "tradeskill": 58,
+      "skillneeded": 0,
+      "trivial": 436,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Primary Magician Charta formula; existing Spell Research Kit route; RRC086.",
+      "must_learn": 2,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 17,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3093717,
+      "name": "Spell: Eidolic Guardian Rk. II",
+      "tradeskill": 58,
+      "skillneeded": 0,
+      "trivial": 436,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Primary Magician Charta formula; existing Spell Research Kit route; RRC086.",
+      "must_learn": 2,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 17,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3093718,
+      "name": "Spell: Shock of Cineral Steel Rk. II",
+      "tradeskill": 58,
+      "skillneeded": 0,
+      "trivial": 436,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Primary Magician Charta formula; existing Spell Research Kit route; RRC086.",
+      "must_learn": 2,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 17,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3093719,
+      "name": "Spell: Searing Skin Rk. II",
+      "tradeskill": 58,
+      "skillneeded": 0,
+      "trivial": 440,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Primary Magician Charta formula; existing Spell Research Kit route; RRC086.",
+      "must_learn": 2,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 17,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3093720,
+      "name": "Spell: Grounded Stance Rk. II",
+      "tradeskill": 58,
+      "skillneeded": 0,
+      "trivial": 440,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Primary Magician Charta formula; existing Spell Research Kit route; RRC086.",
+      "must_learn": 2,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 17,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3093721,
+      "name": "Spell: Burnout VII Rk. II",
+      "tradeskill": 58,
+      "skillneeded": 0,
+      "trivial": 432,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Primary Magician Charta formula; existing Spell Research Kit route; RRC086.",
+      "must_learn": 2,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 17,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3093722,
+      "name": "Spell: Scorching Sands Rk. II",
+      "tradeskill": 58,
+      "skillneeded": 0,
+      "trivial": 440,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Primary Magician Charta formula; existing Spell Research Kit route; RRC086.",
+      "must_learn": 2,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 17,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3093723,
+      "name": "Spell: Revival of Aenro Rk. II",
+      "tradeskill": 58,
+      "skillneeded": 0,
+      "trivial": 440,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Primary Magician Charta formula; existing Spell Research Kit route; RRC086.",
+      "must_learn": 2,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 17,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3093724,
+      "name": "Spell: Circle of Lavaskin Rk. II",
+      "tradeskill": 58,
+      "skillneeded": 0,
+      "trivial": 444,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Primary Magician Charta formula; existing Spell Research Kit route; RRC086.",
+      "must_learn": 2,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 17,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3093725,
+      "name": "Spell: Torrent of Thunderbolts Rk. II",
+      "tradeskill": 58,
+      "skillneeded": 0,
+      "trivial": 444,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Primary Magician Charta formula; existing Spell Research Kit route; RRC086.",
+      "must_learn": 2,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 17,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3093726,
+      "name": "Spell: Fickle Pyroclasm Rk. II",
+      "tradeskill": 58,
+      "skillneeded": 0,
+      "trivial": 450,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Primary Magician Charta formula; existing Spell Research Kit route; RRC086.",
+      "must_learn": 2,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 17,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3093727,
+      "name": "Spell: Mass Prime Transvergence Rk. II",
+      "tradeskill": 58,
+      "skillneeded": 0,
+      "trivial": 450,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Primary Magician Charta formula; existing Spell Research Kit route; RRC086.",
+      "must_learn": 2,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 17,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3093728,
+      "name": "Spell: Beam of Molten Dross Rk. II",
+      "tradeskill": 58,
+      "skillneeded": 0,
+      "trivial": 436,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Primary Magician Charta formula; existing Spell Research Kit route; RRC086.",
+      "must_learn": 2,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 17,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3093729,
+      "name": "Spell: Summon Cauldron of Many Things",
+      "tradeskill": 58,
+      "skillneeded": 0,
+      "trivial": 440,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Primary Magician Charta formula; existing Spell Research Kit route; RRC086.",
+      "must_learn": 2,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 17,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3093730,
+      "name": "Spell: Shock of Many Rk. II",
+      "tradeskill": 58,
+      "skillneeded": 0,
+      "trivial": 436,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Primary Magician Charta formula; existing Spell Research Kit route; RRC086.",
+      "must_learn": 2,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 17,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3093731,
+      "name": "Spell: Burning Brimbody Rk. II",
+      "tradeskill": 58,
+      "skillneeded": 0,
+      "trivial": 444,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Primary Magician Charta formula; existing Spell Research Kit route; RRC086.",
+      "must_learn": 2,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 17,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3093732,
+      "name": "Spell: Aegis of Kildrukaun Rk. II",
+      "tradeskill": 58,
+      "skillneeded": 0,
+      "trivial": 444,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Primary Magician Charta formula; existing Spell Research Kit route; RRC086.",
+      "must_learn": 2,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 17,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    }
+  ],
+  "entries": [
+    {
+      "recipe_id": 3093709,
+      "item_id": 115455,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093709,
+      "item_id": 93545,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093709,
+      "item_id": 90309,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093709,
+      "item_id": 93587,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 2,
+      "salvagecount": 2,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093709,
+      "item_id": 93564,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093709,
+      "item_id": 93578,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 2,
+      "salvagecount": 2,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093709,
+      "item_id": 93539,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093709,
+      "item_id": 93515,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093709,
+      "item_id": 93492,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3093710,
+      "item_id": 115660,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093710,
+      "item_id": 93555,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093710,
+      "item_id": 93560,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093710,
+      "item_id": 93559,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093710,
+      "item_id": 93558,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093710,
+      "item_id": 93562,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093710,
+      "item_id": 93578,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093710,
+      "item_id": 93539,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093710,
+      "item_id": 93515,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093710,
+      "item_id": 90307,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093710,
+      "item_id": 93492,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3093711,
+      "item_id": 115663,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093711,
+      "item_id": 93542,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093711,
+      "item_id": 93587,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093711,
+      "item_id": 93558,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093711,
+      "item_id": 93553,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093711,
+      "item_id": 93515,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093711,
+      "item_id": 90307,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093711,
+      "item_id": 93492,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3093712,
+      "item_id": 115666,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093712,
+      "item_id": 93557,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093712,
+      "item_id": 93542,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093712,
+      "item_id": 93587,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093712,
+      "item_id": 93572,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093712,
+      "item_id": 93515,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093712,
+      "item_id": 90310,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093712,
+      "item_id": 93492,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3093713,
+      "item_id": 115669,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093713,
+      "item_id": 93542,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093713,
+      "item_id": 93560,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093713,
+      "item_id": 93579,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093713,
+      "item_id": 93573,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093713,
+      "item_id": 93553,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093713,
+      "item_id": 93515,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093713,
+      "item_id": 90307,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093713,
+      "item_id": 93492,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3093714,
+      "item_id": 115673,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093714,
+      "item_id": 93545,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093714,
+      "item_id": 93587,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093714,
+      "item_id": 93515,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093714,
+      "item_id": 93537,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093714,
+      "item_id": 90307,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093714,
+      "item_id": 93492,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3093715,
+      "item_id": 115676,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093715,
+      "item_id": 90308,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093715,
+      "item_id": 93557,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093715,
+      "item_id": 93542,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093715,
+      "item_id": 93572,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093715,
+      "item_id": 93515,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093715,
+      "item_id": 93492,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3093716,
+      "item_id": 115682,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093716,
+      "item_id": 90308,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093716,
+      "item_id": 93548,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093716,
+      "item_id": 93587,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093716,
+      "item_id": 93515,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093716,
+      "item_id": 93537,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093716,
+      "item_id": 93492,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3093717,
+      "item_id": 115687,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093717,
+      "item_id": 90308,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093717,
+      "item_id": 93542,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093717,
+      "item_id": 93574,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093717,
+      "item_id": 93579,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093717,
+      "item_id": 93573,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093717,
+      "item_id": 93553,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093717,
+      "item_id": 93515,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093717,
+      "item_id": 93492,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3093718,
+      "item_id": 115691,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093718,
+      "item_id": 93545,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093718,
+      "item_id": 90308,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093718,
+      "item_id": 93587,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093718,
+      "item_id": 93539,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093718,
+      "item_id": 93515,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093718,
+      "item_id": 93492,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3093719,
+      "item_id": 115695,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093719,
+      "item_id": 90309,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093719,
+      "item_id": 93542,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093719,
+      "item_id": 93587,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093719,
+      "item_id": 93553,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093719,
+      "item_id": 93515,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093719,
+      "item_id": 93492,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3093720,
+      "item_id": 115698,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093720,
+      "item_id": 90309,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093720,
+      "item_id": 93542,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093720,
+      "item_id": 93587,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093720,
+      "item_id": 93580,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093720,
+      "item_id": 93553,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093720,
+      "item_id": 93515,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093720,
+      "item_id": 93492,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3093721,
+      "item_id": 115701,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093721,
+      "item_id": 93542,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093721,
+      "item_id": 93577,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093721,
+      "item_id": 93565,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093721,
+      "item_id": 93579,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093721,
+      "item_id": 93578,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 2,
+      "salvagecount": 2,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093721,
+      "item_id": 93553,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093721,
+      "item_id": 93515,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093721,
+      "item_id": 90307,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093721,
+      "item_id": 93492,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3093722,
+      "item_id": 115704,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093722,
+      "item_id": 93545,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093722,
+      "item_id": 90309,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093722,
+      "item_id": 93587,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093722,
+      "item_id": 93515,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093722,
+      "item_id": 93537,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093722,
+      "item_id": 93492,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3093723,
+      "item_id": 115707,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093723,
+      "item_id": 93549,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093723,
+      "item_id": 90309,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093723,
+      "item_id": 93542,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093723,
+      "item_id": 93563,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093723,
+      "item_id": 93562,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093723,
+      "item_id": 93582,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093723,
+      "item_id": 93573,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093723,
+      "item_id": 93515,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093723,
+      "item_id": 93492,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3093724,
+      "item_id": 115716,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093724,
+      "item_id": 93542,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093724,
+      "item_id": 93587,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093724,
+      "item_id": 93558,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093724,
+      "item_id": 93515,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093724,
+      "item_id": 90310,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093724,
+      "item_id": 93554,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093724,
+      "item_id": 93492,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3093725,
+      "item_id": 115719,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093725,
+      "item_id": 93548,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093725,
+      "item_id": 93587,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093725,
+      "item_id": 93539,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093725,
+      "item_id": 93515,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093725,
+      "item_id": 90310,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093725,
+      "item_id": 93492,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3093726,
+      "item_id": 115723,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093726,
+      "item_id": 93545,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093726,
+      "item_id": 90311,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093726,
+      "item_id": 93587,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093726,
+      "item_id": 93515,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093726,
+      "item_id": 93537,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093726,
+      "item_id": 93492,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3093727,
+      "item_id": 115732,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093727,
+      "item_id": 93557,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093727,
+      "item_id": 90311,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093727,
+      "item_id": 93542,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093727,
+      "item_id": 93572,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 2,
+      "salvagecount": 2,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093727,
+      "item_id": 93515,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093727,
+      "item_id": 93492,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3093728,
+      "item_id": 115739,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093728,
+      "item_id": 93546,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093728,
+      "item_id": 90308,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093728,
+      "item_id": 93587,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093728,
+      "item_id": 93515,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093728,
+      "item_id": 93537,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093728,
+      "item_id": 93492,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3093729,
+      "item_id": 115753,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093729,
+      "item_id": 93557,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093729,
+      "item_id": 90309,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093729,
+      "item_id": 93542,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093729,
+      "item_id": 93572,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093729,
+      "item_id": 93515,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093729,
+      "item_id": 93492,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3093730,
+      "item_id": 115773,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093730,
+      "item_id": 93545,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093730,
+      "item_id": 90308,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093730,
+      "item_id": 93587,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 3,
+      "salvagecount": 3,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093730,
+      "item_id": 93515,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093730,
+      "item_id": 93537,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093730,
+      "item_id": 93492,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3093731,
+      "item_id": 115779,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093731,
+      "item_id": 93542,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093731,
+      "item_id": 93587,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093731,
+      "item_id": 93553,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093731,
+      "item_id": 93515,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093731,
+      "item_id": 90310,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093731,
+      "item_id": 93492,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3093732,
+      "item_id": 115905,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093732,
+      "item_id": 93542,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093732,
+      "item_id": 93587,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093732,
+      "item_id": 93553,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093732,
+      "item_id": 93526,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093732,
+      "item_id": 90310,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093732,
+      "item_id": 93492,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    }
+  ],
+  "source_facts": [
+    {
+      "recipe_id": 3093709,
+      "source_name": "Spell: Annihilate the Aberrant Rk. II",
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=121&rsa=Spell+Research&sub=Magician",
+      "output_source_url": "https://www.eqtraders.com/items/show_item.php?item=37648&menustr=010000000000",
+      "output_item_id": 115455,
+      "yield_count": 1,
+      "trivial": 440,
+      "container_item_ids": [
+        93492
+      ],
+      "held_current_other_kit_ids": [
+        41555,
+        41631,
+        41632,
+        41633
+      ],
+      "unqualified_source_furniture": [],
+      "native_scrolleffect": 14455,
+      "native_class_id": 13,
+      "native_class_level": 78,
+      "ingredients": [
+        {
+          "item_id": 93545,
+          "name": "Arcane Thickener",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=20953"
+        },
+        {
+          "item_id": 90309,
+          "name": "Fine Charta Arcanum",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34320"
+        },
+        {
+          "item_id": 93587,
+          "name": "Ink of Pain",
+          "count": 2,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=20997"
+        },
+        {
+          "item_id": 93564,
+          "name": "Ink of Rainbows",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=20975"
+        },
+        {
+          "item_id": 93578,
+          "name": "Ink of Zek",
+          "count": 2,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=20989"
+        },
+        {
+          "item_id": 93539,
+          "name": "Luclin's Ink Additive",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=20878"
+        },
+        {
+          "item_id": 93515,
+          "name": "Quill of the Arch Convoker",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=20945"
+        }
+      ]
+    },
+    {
+      "recipe_id": 3093710,
+      "source_name": "Spell: Malosinatia Rk. II",
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=121&rsa=Spell+Research&sub=Magician",
+      "output_source_url": "https://www.eqtraders.com/items/show_item.php?item=37239&menustr=010000000000",
+      "output_item_id": 115660,
+      "yield_count": 1,
+      "trivial": 432,
+      "container_item_ids": [
+        93492
+      ],
+      "held_current_other_kit_ids": [
+        41555,
+        41631,
+        41632,
+        41633
+      ],
+      "unqualified_source_furniture": [],
+      "native_scrolleffect": 14660,
+      "native_class_id": 13,
+      "native_class_level": 76,
+      "ingredients": [
+        {
+          "item_id": 93555,
+          "name": "Debilitating Thickener",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=20963"
+        },
+        {
+          "item_id": 93560,
+          "name": "Ink of Druzzil Ro",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=20970"
+        },
+        {
+          "item_id": 93559,
+          "name": "Ink of E'ci",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=20969"
+        },
+        {
+          "item_id": 93558,
+          "name": "Ink of Ro",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=20968"
+        },
+        {
+          "item_id": 93562,
+          "name": "Ink of Saryrn",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=20972"
+        },
+        {
+          "item_id": 93578,
+          "name": "Ink of Zek",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=20989"
+        },
+        {
+          "item_id": 93539,
+          "name": "Luclin's Ink Additive",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=20878"
+        },
+        {
+          "item_id": 93515,
+          "name": "Quill of the Arch Convoker",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=20945"
+        },
+        {
+          "item_id": 90307,
+          "name": "Rough Charta Arcanum",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34321"
+        }
+      ]
+    },
+    {
+      "recipe_id": 3093711,
+      "source_name": "Spell: Lavaskin Rk. II",
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=121&rsa=Spell+Research&sub=Magician",
+      "output_source_url": "https://www.eqtraders.com/items/show_item.php?item=38288&menustr=010000000000",
+      "output_item_id": 115663,
+      "yield_count": 1,
+      "trivial": 432,
+      "container_item_ids": [
+        93492
+      ],
+      "held_current_other_kit_ids": [
+        41555,
+        41631,
+        41632,
+        41633
+      ],
+      "unqualified_source_furniture": [],
+      "native_scrolleffect": 14663,
+      "native_class_id": 13,
+      "native_class_level": 76,
+      "ingredients": [
+        {
+          "item_id": 93542,
+          "name": "Ink Additive of the Nameless",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=20871"
+        },
+        {
+          "item_id": 93587,
+          "name": "Ink of Pain",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=20997"
+        },
+        {
+          "item_id": 93558,
+          "name": "Ink of Ro",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=20968"
+        },
+        {
+          "item_id": 93553,
+          "name": "Invigorating Thickener",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=20961"
+        },
+        {
+          "item_id": 93515,
+          "name": "Quill of the Arch Convoker",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=20945"
+        },
+        {
+          "item_id": 90307,
+          "name": "Rough Charta Arcanum",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34321"
+        }
+      ]
+    },
+    {
+      "recipe_id": 3093712,
+      "source_name": "Spell: Summon Gelid Paradox Rk. II",
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=121&rsa=Spell+Research&sub=Magician",
+      "output_source_url": "https://www.eqtraders.com/items/show_item.php?item=36259&menustr=010000000000",
+      "output_item_id": 115666,
+      "yield_count": 1,
+      "trivial": 444,
+      "container_item_ids": [
+        93492
+      ],
+      "held_current_other_kit_ids": [
+        41555,
+        41631,
+        41632,
+        41633
+      ],
+      "unqualified_source_furniture": [],
+      "native_scrolleffect": 14666,
+      "native_class_id": 13,
+      "native_class_level": 79,
+      "ingredients": [
+        {
+          "item_id": 93557,
+          "name": "Conjuring Thickener",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=20965"
+        },
+        {
+          "item_id": 93542,
+          "name": "Ink Additive of the Nameless",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=20871"
+        },
+        {
+          "item_id": 93587,
+          "name": "Ink of Pain",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=20997"
+        },
+        {
+          "item_id": 93572,
+          "name": "Ink of the Nameless",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=20983"
+        },
+        {
+          "item_id": 93515,
+          "name": "Quill of the Arch Convoker",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=20945"
+        },
+        {
+          "item_id": 90310,
+          "name": "Runic Charta Arcanum",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34319"
+        }
+      ]
+    },
+    {
+      "recipe_id": 3093713,
+      "source_name": "Spell: Prime Guard Rk. II",
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=121&rsa=Spell+Research&sub=Magician",
+      "output_source_url": "https://www.eqtraders.com/items/show_item.php?item=41266&menustr=010000000000",
+      "output_item_id": 115669,
+      "yield_count": 1,
+      "trivial": 432,
+      "container_item_ids": [
+        93492
+      ],
+      "held_current_other_kit_ids": [
+        41555,
+        41631,
+        41632,
+        41633
+      ],
+      "unqualified_source_furniture": [],
+      "native_scrolleffect": 14669,
+      "native_class_id": 13,
+      "native_class_level": 76,
+      "ingredients": [
+        {
+          "item_id": 93542,
+          "name": "Ink Additive of the Nameless",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=20871"
+        },
+        {
+          "item_id": 93560,
+          "name": "Ink of Druzzil Ro",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=20970"
+        },
+        {
+          "item_id": 93579,
+          "name": "Ink of the Tribunal",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=20990"
+        },
+        {
+          "item_id": 93573,
+          "name": "Ink of Tunare",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=20984"
+        },
+        {
+          "item_id": 93553,
+          "name": "Invigorating Thickener",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=20961"
+        },
+        {
+          "item_id": 93515,
+          "name": "Quill of the Arch Convoker",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=20945"
+        },
+        {
+          "item_id": 90307,
+          "name": "Rough Charta Arcanum",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34321"
+        }
+      ]
+    },
+    {
+      "recipe_id": 3093714,
+      "source_name": "Spell: Bolt of Molten Dross Rk. II",
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=121&rsa=Spell+Research&sub=Magician",
+      "output_source_url": "https://www.eqtraders.com/items/show_item.php?item=36249&menustr=010000000000",
+      "output_item_id": 115673,
+      "yield_count": 1,
+      "trivial": 432,
+      "container_item_ids": [
+        93492
+      ],
+      "held_current_other_kit_ids": [
+        41555,
+        41631,
+        41632,
+        41633
+      ],
+      "unqualified_source_furniture": [],
+      "native_scrolleffect": 14673,
+      "native_class_id": 13,
+      "native_class_level": 76,
+      "ingredients": [
+        {
+          "item_id": 93545,
+          "name": "Arcane Thickener",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=20953"
+        },
+        {
+          "item_id": 93587,
+          "name": "Ink of Pain",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=20997"
+        },
+        {
+          "item_id": 93515,
+          "name": "Quill of the Arch Convoker",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=20945"
+        },
+        {
+          "item_id": 93537,
+          "name": "Ro's Ink Additive",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=20886"
+        },
+        {
+          "item_id": 90307,
+          "name": "Rough Charta Arcanum",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34321"
+        }
+      ]
+    },
+    {
+      "recipe_id": 3093715,
+      "source_name": "Spell: Wand of Prime Transvergence Rk. II",
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=121&rsa=Spell+Research&sub=Magician",
+      "output_source_url": "https://www.eqtraders.com/items/show_item.php?item=51896&menustr=010000000000",
+      "output_item_id": 115676,
+      "yield_count": 1,
+      "trivial": 436,
+      "container_item_ids": [
+        93492
+      ],
+      "held_current_other_kit_ids": [
+        41555,
+        41631,
+        41632,
+        41633
+      ],
+      "unqualified_source_furniture": [],
+      "native_scrolleffect": 14676,
+      "native_class_id": 13,
+      "native_class_level": 77,
+      "ingredients": [
+        {
+          "item_id": 90308,
+          "name": "Charta Arcanum",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34317"
+        },
+        {
+          "item_id": 93557,
+          "name": "Conjuring Thickener",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=20965"
+        },
+        {
+          "item_id": 93542,
+          "name": "Ink Additive of the Nameless",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=20871"
+        },
+        {
+          "item_id": 93572,
+          "name": "Ink of the Nameless",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=20983"
+        },
+        {
+          "item_id": 93515,
+          "name": "Quill of the Arch Convoker",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=20945"
+        }
+      ]
+    },
+    {
+      "recipe_id": 3093716,
+      "source_name": "Spell: Rain of Molten Dross Rk. II",
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=121&rsa=Spell+Research&sub=Magician",
+      "output_source_url": "https://www.eqtraders.com/items/show_item.php?item=39102&menustr=010000000000",
+      "output_item_id": 115682,
+      "yield_count": 1,
+      "trivial": 436,
+      "container_item_ids": [
+        93492
+      ],
+      "held_current_other_kit_ids": [
+        41555,
+        41631,
+        41632,
+        41633
+      ],
+      "unqualified_source_furniture": [],
+      "native_scrolleffect": 14682,
+      "native_class_id": 13,
+      "native_class_level": 77,
+      "ingredients": [
+        {
+          "item_id": 90308,
+          "name": "Charta Arcanum",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34317"
+        },
+        {
+          "item_id": 93548,
+          "name": "Expatiating Thickener",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=20956"
+        },
+        {
+          "item_id": 93587,
+          "name": "Ink of Pain",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=20997"
+        },
+        {
+          "item_id": 93515,
+          "name": "Quill of the Arch Convoker",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=20945"
+        },
+        {
+          "item_id": 93537,
+          "name": "Ro's Ink Additive",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=20886"
+        }
+      ]
+    },
+    {
+      "recipe_id": 3093717,
+      "source_name": "Spell: Eidolic Guardian Rk. II",
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=121&rsa=Spell+Research&sub=Magician",
+      "output_source_url": "https://www.eqtraders.com/items/show_item.php?item=37241&menustr=010000000000",
+      "output_item_id": 115687,
+      "yield_count": 1,
+      "trivial": 436,
+      "container_item_ids": [
+        93492
+      ],
+      "held_current_other_kit_ids": [
+        41555,
+        41631,
+        41632,
+        41633
+      ],
+      "unqualified_source_furniture": [],
+      "native_scrolleffect": 14687,
+      "native_class_id": 13,
+      "native_class_level": 77,
+      "ingredients": [
+        {
+          "item_id": 90308,
+          "name": "Charta Arcanum",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34317"
+        },
+        {
+          "item_id": 93542,
+          "name": "Ink Additive of the Nameless",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=20871"
+        },
+        {
+          "item_id": 93574,
+          "name": "Ink of Prexus",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=20985"
+        },
+        {
+          "item_id": 93579,
+          "name": "Ink of the Tribunal",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=20990"
+        },
+        {
+          "item_id": 93573,
+          "name": "Ink of Tunare",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=20984"
+        },
+        {
+          "item_id": 93553,
+          "name": "Invigorating Thickener",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=20961"
+        },
+        {
+          "item_id": 93515,
+          "name": "Quill of the Arch Convoker",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=20945"
+        }
+      ]
+    },
+    {
+      "recipe_id": 3093718,
+      "source_name": "Spell: Shock of Cineral Steel Rk. II",
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=121&rsa=Spell+Research&sub=Magician",
+      "output_source_url": "https://www.eqtraders.com/items/show_item.php?item=37235&menustr=010000000000",
+      "output_item_id": 115691,
+      "yield_count": 1,
+      "trivial": 436,
+      "container_item_ids": [
+        93492
+      ],
+      "held_current_other_kit_ids": [
+        41555,
+        41631,
+        41632,
+        41633
+      ],
+      "unqualified_source_furniture": [],
+      "native_scrolleffect": 14691,
+      "native_class_id": 13,
+      "native_class_level": 77,
+      "ingredients": [
+        {
+          "item_id": 93545,
+          "name": "Arcane Thickener",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=20953"
+        },
+        {
+          "item_id": 90308,
+          "name": "Charta Arcanum",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34317"
+        },
+        {
+          "item_id": 93587,
+          "name": "Ink of Pain",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=20997"
+        },
+        {
+          "item_id": 93539,
+          "name": "Luclin's Ink Additive",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=20878"
+        },
+        {
+          "item_id": 93515,
+          "name": "Quill of the Arch Convoker",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=20945"
+        }
+      ]
+    },
+    {
+      "recipe_id": 3093719,
+      "source_name": "Spell: Searing Skin Rk. II",
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=121&rsa=Spell+Research&sub=Magician",
+      "output_source_url": "https://www.eqtraders.com/items/show_item.php?item=37649&menustr=010000000000",
+      "output_item_id": 115695,
+      "yield_count": 1,
+      "trivial": 440,
+      "container_item_ids": [
+        93492
+      ],
+      "held_current_other_kit_ids": [
+        41555,
+        41631,
+        41632,
+        41633
+      ],
+      "unqualified_source_furniture": [],
+      "native_scrolleffect": 14695,
+      "native_class_id": 13,
+      "native_class_level": 78,
+      "ingredients": [
+        {
+          "item_id": 90309,
+          "name": "Fine Charta Arcanum",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34320"
+        },
+        {
+          "item_id": 93542,
+          "name": "Ink Additive of the Nameless",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=20871"
+        },
+        {
+          "item_id": 93587,
+          "name": "Ink of Pain",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=20997"
+        },
+        {
+          "item_id": 93553,
+          "name": "Invigorating Thickener",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=20961"
+        },
+        {
+          "item_id": 93515,
+          "name": "Quill of the Arch Convoker",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=20945"
+        }
+      ]
+    },
+    {
+      "recipe_id": 3093720,
+      "source_name": "Spell: Grounded Stance Rk. II",
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=121&rsa=Spell+Research&sub=Magician",
+      "output_source_url": "https://www.eqtraders.com/items/show_item.php?item=37650&menustr=010000000000",
+      "output_item_id": 115698,
+      "yield_count": 1,
+      "trivial": 440,
+      "container_item_ids": [
+        93492
+      ],
+      "held_current_other_kit_ids": [
+        41555,
+        41631,
+        41632,
+        41633
+      ],
+      "unqualified_source_furniture": [],
+      "native_scrolleffect": 14698,
+      "native_class_id": 13,
+      "native_class_level": 78,
+      "ingredients": [
+        {
+          "item_id": 90309,
+          "name": "Fine Charta Arcanum",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34320"
+        },
+        {
+          "item_id": 93542,
+          "name": "Ink Additive of the Nameless",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=20871"
+        },
+        {
+          "item_id": 93587,
+          "name": "Ink of Pain",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=20997"
+        },
+        {
+          "item_id": 93580,
+          "name": "Ink of the Listless",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=20991"
+        },
+        {
+          "item_id": 93553,
+          "name": "Invigorating Thickener",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=20961"
+        },
+        {
+          "item_id": 93515,
+          "name": "Quill of the Arch Convoker",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=20945"
+        }
+      ]
+    },
+    {
+      "recipe_id": 3093721,
+      "source_name": "Spell: Burnout VII Rk. II",
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=121&rsa=Spell+Research&sub=Magician",
+      "output_source_url": "https://www.eqtraders.com/items/show_item.php?item=37238&menustr=010000000000",
+      "output_item_id": 115701,
+      "yield_count": 1,
+      "trivial": 432,
+      "container_item_ids": [
+        93492
+      ],
+      "held_current_other_kit_ids": [
+        41555,
+        41631,
+        41632,
+        41633
+      ],
+      "unqualified_source_furniture": [],
+      "native_scrolleffect": 14701,
+      "native_class_id": 13,
+      "native_class_level": 76,
+      "ingredients": [
+        {
+          "item_id": 93542,
+          "name": "Ink Additive of the Nameless",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=20871"
+        },
+        {
+          "item_id": 93577,
+          "name": "Ink of Alacrity",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=20988"
+        },
+        {
+          "item_id": 93565,
+          "name": "Ink of the Rhino",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=20976"
+        },
+        {
+          "item_id": 93579,
+          "name": "Ink of the Tribunal",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=20990"
+        },
+        {
+          "item_id": 93578,
+          "name": "Ink of Zek",
+          "count": 2,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=20989"
+        },
+        {
+          "item_id": 93553,
+          "name": "Invigorating Thickener",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=20961"
+        },
+        {
+          "item_id": 93515,
+          "name": "Quill of the Arch Convoker",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=20945"
+        },
+        {
+          "item_id": 90307,
+          "name": "Rough Charta Arcanum",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34321"
+        }
+      ]
+    },
+    {
+      "recipe_id": 3093722,
+      "source_name": "Spell: Scorching Sands Rk. II",
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=121&rsa=Spell+Research&sub=Magician",
+      "output_source_url": "https://www.eqtraders.com/items/show_item.php?item=37237&menustr=010000000000",
+      "output_item_id": 115704,
+      "yield_count": 1,
+      "trivial": 440,
+      "container_item_ids": [
+        93492
+      ],
+      "held_current_other_kit_ids": [
+        41555,
+        41631,
+        41632,
+        41633
+      ],
+      "unqualified_source_furniture": [],
+      "native_scrolleffect": 14704,
+      "native_class_id": 13,
+      "native_class_level": 78,
+      "ingredients": [
+        {
+          "item_id": 93545,
+          "name": "Arcane Thickener",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=20953"
+        },
+        {
+          "item_id": 90309,
+          "name": "Fine Charta Arcanum",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34320"
+        },
+        {
+          "item_id": 93587,
+          "name": "Ink of Pain",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=20997"
+        },
+        {
+          "item_id": 93515,
+          "name": "Quill of the Arch Convoker",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=20945"
+        },
+        {
+          "item_id": 93537,
+          "name": "Ro's Ink Additive",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=20886"
+        }
+      ]
+    },
+    {
+      "recipe_id": 3093723,
+      "source_name": "Spell: Revival of Aenro Rk. II",
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=121&rsa=Spell+Research&sub=Magician",
+      "output_source_url": "https://www.eqtraders.com/items/show_item.php?item=37633&menustr=010000000000",
+      "output_item_id": 115707,
+      "yield_count": 1,
+      "trivial": 440,
+      "container_item_ids": [
+        93492
+      ],
+      "held_current_other_kit_ids": [
+        41555,
+        41631,
+        41632,
+        41633
+      ],
+      "unqualified_source_furniture": [],
+      "native_scrolleffect": 14707,
+      "native_class_id": 13,
+      "native_class_level": 78,
+      "ingredients": [
+        {
+          "item_id": 93549,
+          "name": "Ameliorating Thickener",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=20957"
+        },
+        {
+          "item_id": 90309,
+          "name": "Fine Charta Arcanum",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34320"
+        },
+        {
+          "item_id": 93542,
+          "name": "Ink Additive of the Nameless",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=20871"
+        },
+        {
+          "item_id": 93563,
+          "name": "Ink of Bertoxxulous",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=20973"
+        },
+        {
+          "item_id": 93562,
+          "name": "Ink of Saryrn",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=20972"
+        },
+        {
+          "item_id": 93582,
+          "name": "Ink of Terris-Thule",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=20974"
+        },
+        {
+          "item_id": 93573,
+          "name": "Ink of Tunare",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=20984"
+        },
+        {
+          "item_id": 93515,
+          "name": "Quill of the Arch Convoker",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=20945"
+        }
+      ]
+    },
+    {
+      "recipe_id": 3093724,
+      "source_name": "Spell: Circle of Lavaskin Rk. II",
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=121&rsa=Spell+Research&sub=Magician",
+      "output_source_url": "https://www.eqtraders.com/items/show_item.php?item=36260&menustr=010000000000",
+      "output_item_id": 115716,
+      "yield_count": 1,
+      "trivial": 444,
+      "container_item_ids": [
+        93492
+      ],
+      "held_current_other_kit_ids": [
+        41555,
+        41631,
+        41632,
+        41633
+      ],
+      "unqualified_source_furniture": [],
+      "native_scrolleffect": 14716,
+      "native_class_id": 13,
+      "native_class_level": 79,
+      "ingredients": [
+        {
+          "item_id": 93542,
+          "name": "Ink Additive of the Nameless",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=20871"
+        },
+        {
+          "item_id": 93587,
+          "name": "Ink of Pain",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=20997"
+        },
+        {
+          "item_id": 93558,
+          "name": "Ink of Ro",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=20968"
+        },
+        {
+          "item_id": 93515,
+          "name": "Quill of the Arch Convoker",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=20945"
+        },
+        {
+          "item_id": 90310,
+          "name": "Runic Charta Arcanum",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34319"
+        },
+        {
+          "item_id": 93554,
+          "name": "Talisman Thickener",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=20962"
+        }
+      ]
+    },
+    {
+      "recipe_id": 3093725,
+      "source_name": "Spell: Torrent of Thunderbolts Rk. II",
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=121&rsa=Spell+Research&sub=Magician",
+      "output_source_url": "https://www.eqtraders.com/items/show_item.php?item=37236&menustr=010000000000",
+      "output_item_id": 115719,
+      "yield_count": 1,
+      "trivial": 444,
+      "container_item_ids": [
+        93492
+      ],
+      "held_current_other_kit_ids": [
+        41555,
+        41631,
+        41632,
+        41633
+      ],
+      "unqualified_source_furniture": [],
+      "native_scrolleffect": 14719,
+      "native_class_id": 13,
+      "native_class_level": 79,
+      "ingredients": [
+        {
+          "item_id": 93548,
+          "name": "Expatiating Thickener",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=20956"
+        },
+        {
+          "item_id": 93587,
+          "name": "Ink of Pain",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=20997"
+        },
+        {
+          "item_id": 93539,
+          "name": "Luclin's Ink Additive",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=20878"
+        },
+        {
+          "item_id": 93515,
+          "name": "Quill of the Arch Convoker",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=20945"
+        },
+        {
+          "item_id": 90310,
+          "name": "Runic Charta Arcanum",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34319"
+        }
+      ]
+    },
+    {
+      "recipe_id": 3093726,
+      "source_name": "Spell: Fickle Pyroclasm Rk. II",
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=121&rsa=Spell+Research&sub=Magician",
+      "output_source_url": "https://www.eqtraders.com/items/show_item.php?item=36247&menustr=010000000000",
+      "output_item_id": 115723,
+      "yield_count": 1,
+      "trivial": 450,
+      "container_item_ids": [
+        93492
+      ],
+      "held_current_other_kit_ids": [
+        41555,
+        41631,
+        41632,
+        41633
+      ],
+      "unqualified_source_furniture": [],
+      "native_scrolleffect": 14723,
+      "native_class_id": 13,
+      "native_class_level": 80,
+      "ingredients": [
+        {
+          "item_id": 93545,
+          "name": "Arcane Thickener",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=20953"
+        },
+        {
+          "item_id": 90311,
+          "name": "Fine Runic Charta Arcanum",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34318"
+        },
+        {
+          "item_id": 93587,
+          "name": "Ink of Pain",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=20997"
+        },
+        {
+          "item_id": 93515,
+          "name": "Quill of the Arch Convoker",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=20945"
+        },
+        {
+          "item_id": 93537,
+          "name": "Ro's Ink Additive",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=20886"
+        }
+      ]
+    },
+    {
+      "recipe_id": 3093727,
+      "source_name": "Spell: Mass Prime Transvergence Rk. II",
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=121&rsa=Spell+Research&sub=Magician",
+      "output_source_url": "https://www.eqtraders.com/items/show_item.php?item=36947&menustr=010000000000",
+      "output_item_id": 115732,
+      "yield_count": 1,
+      "trivial": 450,
+      "container_item_ids": [
+        93492
+      ],
+      "held_current_other_kit_ids": [
+        41555,
+        41631,
+        41632,
+        41633
+      ],
+      "unqualified_source_furniture": [],
+      "native_scrolleffect": 14732,
+      "native_class_id": 13,
+      "native_class_level": 80,
+      "ingredients": [
+        {
+          "item_id": 93557,
+          "name": "Conjuring Thickener",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=20965"
+        },
+        {
+          "item_id": 90311,
+          "name": "Fine Runic Charta Arcanum",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34318"
+        },
+        {
+          "item_id": 93542,
+          "name": "Ink Additive of the Nameless",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=20871"
+        },
+        {
+          "item_id": 93572,
+          "name": "Ink of the Nameless",
+          "count": 2,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=20983"
+        },
+        {
+          "item_id": 93515,
+          "name": "Quill of the Arch Convoker",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=20945"
+        }
+      ]
+    },
+    {
+      "recipe_id": 3093728,
+      "source_name": "Spell: Beam of Molten Dross Rk. II",
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=121&rsa=Spell+Research&sub=Magician",
+      "output_source_url": "https://www.eqtraders.com/items/show_item.php?item=39111&menustr=010000000000",
+      "output_item_id": 115739,
+      "yield_count": 1,
+      "trivial": 436,
+      "container_item_ids": [
+        93492
+      ],
+      "held_current_other_kit_ids": [
+        41555,
+        41631,
+        41632,
+        41633
+      ],
+      "unqualified_source_furniture": [],
+      "native_scrolleffect": 14739,
+      "native_class_id": 13,
+      "native_class_level": 77,
+      "ingredients": [
+        {
+          "item_id": 93546,
+          "name": "Al'Kabor Thickener",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=20954"
+        },
+        {
+          "item_id": 90308,
+          "name": "Charta Arcanum",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34317"
+        },
+        {
+          "item_id": 93587,
+          "name": "Ink of Pain",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=20997"
+        },
+        {
+          "item_id": 93515,
+          "name": "Quill of the Arch Convoker",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=20945"
+        },
+        {
+          "item_id": 93537,
+          "name": "Ro's Ink Additive",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=20886"
+        }
+      ]
+    },
+    {
+      "recipe_id": 3093729,
+      "source_name": "Spell: Summon Cauldron of Many Things",
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=121&rsa=Spell+Research&sub=Magician",
+      "output_source_url": "https://www.eqtraders.com/items/show_item.php?item=37475&menustr=010000000000",
+      "output_item_id": 115753,
+      "yield_count": 1,
+      "trivial": 440,
+      "container_item_ids": [
+        93492
+      ],
+      "held_current_other_kit_ids": [
+        41555,
+        41631,
+        41632,
+        41633
+      ],
+      "unqualified_source_furniture": [],
+      "native_scrolleffect": 14753,
+      "native_class_id": 13,
+      "native_class_level": 78,
+      "ingredients": [
+        {
+          "item_id": 93557,
+          "name": "Conjuring Thickener",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=20965"
+        },
+        {
+          "item_id": 90309,
+          "name": "Fine Charta Arcanum",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34320"
+        },
+        {
+          "item_id": 93542,
+          "name": "Ink Additive of the Nameless",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=20871"
+        },
+        {
+          "item_id": 93572,
+          "name": "Ink of the Nameless",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=20983"
+        },
+        {
+          "item_id": 93515,
+          "name": "Quill of the Arch Convoker",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=20945"
+        }
+      ]
+    },
+    {
+      "recipe_id": 3093730,
+      "source_name": "Spell: Shock of Many Rk. II",
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=121&rsa=Spell+Research&sub=Magician",
+      "output_source_url": "https://www.eqtraders.com/items/show_item.php?item=36963&menustr=010000000000",
+      "output_item_id": 115773,
+      "yield_count": 1,
+      "trivial": 436,
+      "container_item_ids": [
+        93492
+      ],
+      "held_current_other_kit_ids": [
+        41555,
+        41631,
+        41632,
+        41633
+      ],
+      "unqualified_source_furniture": [],
+      "native_scrolleffect": 14773,
+      "native_class_id": 13,
+      "native_class_level": 77,
+      "ingredients": [
+        {
+          "item_id": 93545,
+          "name": "Arcane Thickener",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=20953"
+        },
+        {
+          "item_id": 90308,
+          "name": "Charta Arcanum",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34317"
+        },
+        {
+          "item_id": 93587,
+          "name": "Ink of Pain",
+          "count": 3,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=20997"
+        },
+        {
+          "item_id": 93515,
+          "name": "Quill of the Arch Convoker",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=20945"
+        },
+        {
+          "item_id": 93537,
+          "name": "Ro's Ink Additive",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=20886"
+        }
+      ]
+    },
+    {
+      "recipe_id": 3093731,
+      "source_name": "Spell: Burning Brimbody Rk. II",
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=121&rsa=Spell+Research&sub=Magician",
+      "output_source_url": "https://www.eqtraders.com/items/show_item.php?item=36944&menustr=010000000000",
+      "output_item_id": 115779,
+      "yield_count": 1,
+      "trivial": 444,
+      "container_item_ids": [
+        93492
+      ],
+      "held_current_other_kit_ids": [
+        41555,
+        41631,
+        41632,
+        41633
+      ],
+      "unqualified_source_furniture": [],
+      "native_scrolleffect": 14779,
+      "native_class_id": 13,
+      "native_class_level": 79,
+      "ingredients": [
+        {
+          "item_id": 93542,
+          "name": "Ink Additive of the Nameless",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=20871"
+        },
+        {
+          "item_id": 93587,
+          "name": "Ink of Pain",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=20997"
+        },
+        {
+          "item_id": 93553,
+          "name": "Invigorating Thickener",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=20961"
+        },
+        {
+          "item_id": 93515,
+          "name": "Quill of the Arch Convoker",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=20945"
+        },
+        {
+          "item_id": 90310,
+          "name": "Runic Charta Arcanum",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34319"
+        }
+      ]
+    },
+    {
+      "recipe_id": 3093732,
+      "source_name": "Spell: Aegis of Kildrukaun Rk. II",
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=121&rsa=Spell+Research&sub=Magician",
+      "output_source_url": "https://www.eqtraders.com/items/show_item.php?item=36257&menustr=010000000000",
+      "output_item_id": 115905,
+      "yield_count": 1,
+      "trivial": 444,
+      "container_item_ids": [
+        93492
+      ],
+      "held_current_other_kit_ids": [
+        41555,
+        41631,
+        41632,
+        41633
+      ],
+      "unqualified_source_furniture": [],
+      "native_scrolleffect": 14905,
+      "native_class_id": 13,
+      "native_class_level": 79,
+      "ingredients": [
+        {
+          "item_id": 93542,
+          "name": "Ink Additive of the Nameless",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=20871"
+        },
+        {
+          "item_id": 93587,
+          "name": "Ink of Pain",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=20997"
+        },
+        {
+          "item_id": 93553,
+          "name": "Invigorating Thickener",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=20961"
+        },
+        {
+          "item_id": 93526,
+          "name": "Quill of the Arcane",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=20947"
+        },
+        {
+          "item_id": 90310,
+          "name": "Runic Charta Arcanum",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34319"
+        }
+      ]
+    }
+  ],
+  "item_dependencies": [
+    {
+      "id": 90307,
+      "name": "Rough Charta Arcanum"
+    },
+    {
+      "id": 90308,
+      "name": "Charta Arcanum"
+    },
+    {
+      "id": 90309,
+      "name": "Fine Charta Arcanum"
+    },
+    {
+      "id": 90310,
+      "name": "Runic Charta Arcanum"
+    },
+    {
+      "id": 90311,
+      "name": "Fine Runic Charta Arcanum"
+    },
+    {
+      "id": 93492,
+      "name": "Spell Research Kit"
+    },
+    {
+      "id": 93515,
+      "name": "Quill of the Arch Convoker"
+    },
+    {
+      "id": 93526,
+      "name": "Quill of the Arcane"
+    },
+    {
+      "id": 93537,
+      "name": "Ro's Ink Additive"
+    },
+    {
+      "id": 93539,
+      "name": "Luclin's Ink Additive"
+    },
+    {
+      "id": 93542,
+      "name": "Ink Additive of the Nameless"
+    },
+    {
+      "id": 93545,
+      "name": "Arcane Thickener"
+    },
+    {
+      "id": 93546,
+      "name": "Al'Kabor Thickener"
+    },
+    {
+      "id": 93548,
+      "name": "Expatiating Thickener"
+    },
+    {
+      "id": 93549,
+      "name": "Ameliorating Thickener"
+    },
+    {
+      "id": 93553,
+      "name": "Invigorating Thickener"
+    },
+    {
+      "id": 93554,
+      "name": "Talisman Thickener"
+    },
+    {
+      "id": 93555,
+      "name": "Debilitating Thickener"
+    },
+    {
+      "id": 93557,
+      "name": "Conjuring Thickener"
+    },
+    {
+      "id": 93558,
+      "name": "Ink of Ro"
+    },
+    {
+      "id": 93559,
+      "name": "Ink of E'ci"
+    },
+    {
+      "id": 93560,
+      "name": "Ink of Druzzil Ro"
+    },
+    {
+      "id": 93562,
+      "name": "Ink of Saryrn"
+    },
+    {
+      "id": 93563,
+      "name": "Ink of Bertoxxulous"
+    },
+    {
+      "id": 93564,
+      "name": "Ink of Rainbows"
+    },
+    {
+      "id": 93565,
+      "name": "Ink of the Rhino"
+    },
+    {
+      "id": 93572,
+      "name": "Ink of the Nameless"
+    },
+    {
+      "id": 93573,
+      "name": "Ink of Tunare"
+    },
+    {
+      "id": 93574,
+      "name": "Ink of Prexus"
+    },
+    {
+      "id": 93577,
+      "name": "Ink of Alacrity"
+    },
+    {
+      "id": 93578,
+      "name": "Ink of Zek"
+    },
+    {
+      "id": 93579,
+      "name": "Ink of the Tribunal"
+    },
+    {
+      "id": 93580,
+      "name": "Ink of the Listless"
+    },
+    {
+      "id": 93582,
+      "name": "Ink of Terris-Thule"
+    },
+    {
+      "id": 93587,
+      "name": "Ink of Pain"
+    },
+    {
+      "id": 115455,
+      "name": "Spell: Annihilate the Aberrant Rk. II"
+    },
+    {
+      "id": 115660,
+      "name": "Spell: Malosinatia Rk. II"
+    },
+    {
+      "id": 115663,
+      "name": "Spell: Lavaskin Rk. II"
+    },
+    {
+      "id": 115666,
+      "name": "Spell: Summon Gelid Paradox Rk. II"
+    },
+    {
+      "id": 115669,
+      "name": "Spell: Prime Guard Rk. II"
+    },
+    {
+      "id": 115673,
+      "name": "Spell: Bolt of Molten Dross Rk. II"
+    },
+    {
+      "id": 115676,
+      "name": "Spell: Wand of Prime Transvergence Rk. II"
+    },
+    {
+      "id": 115682,
+      "name": "Spell: Rain of Molten Dross Rk. II"
+    },
+    {
+      "id": 115687,
+      "name": "Spell: Eidolic Guardian Rk. II"
+    },
+    {
+      "id": 115691,
+      "name": "Spell: Shock of Cineral Steel Rk. II"
+    },
+    {
+      "id": 115695,
+      "name": "Spell: Searing Skin Rk. II"
+    },
+    {
+      "id": 115698,
+      "name": "Spell: Grounded Stance Rk. II"
+    },
+    {
+      "id": 115701,
+      "name": "Spell: Burnout VII Rk. II"
+    },
+    {
+      "id": 115704,
+      "name": "Spell: Scorching Sands Rk. II"
+    },
+    {
+      "id": 115707,
+      "name": "Spell: Revival of Aenro Rk. II"
+    },
+    {
+      "id": 115716,
+      "name": "Spell: Circle of Lavaskin Rk. II"
+    },
+    {
+      "id": 115719,
+      "name": "Spell: Torrent of Thunderbolts Rk. II"
+    },
+    {
+      "id": 115723,
+      "name": "Spell: Fickle Pyroclasm Rk. II"
+    },
+    {
+      "id": 115732,
+      "name": "Spell: Mass Prime Transvergence Rk. II"
+    },
+    {
+      "id": 115739,
+      "name": "Spell: Beam of Molten Dross Rk. II"
+    },
+    {
+      "id": 115753,
+      "name": "Spell: Summon Cauldron of Many Things"
+    },
+    {
+      "id": 115773,
+      "name": "Spell: Shock of Many Rk. II"
+    },
+    {
+      "id": 115779,
+      "name": "Spell: Burning Brimbody Rk. II"
+    },
+    {
+      "id": 115905,
+      "name": "Spell: Aegis of Kildrukaun Rk. II"
+    }
+  ],
+  "unchanged_prototype_recipes": [
+    {
+      "id": 12796,
+      "name": "Spell: Prime Symbiosis Rk. Ii",
+      "tradeskill": 58,
+      "skillneeded": 0,
+      "trivial": 450,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": null,
+      "must_learn": 2,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": -1,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 12798,
+      "name": "Spell: Rancorous Servant Rk. Ii",
+      "tradeskill": 58,
+      "skillneeded": 0,
+      "trivial": 450,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": null,
+      "must_learn": 2,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": -1,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 12805,
+      "name": "Rough Charta Arcanum",
+      "tradeskill": 58,
+      "skillneeded": 0,
+      "trivial": 243,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": null,
+      "must_learn": 2,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": -1,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 12806,
+      "name": "Charta Arcanum",
+      "tradeskill": 58,
+      "skillneeded": 0,
+      "trivial": 243,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": null,
+      "must_learn": 2,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": -1,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 12807,
+      "name": "Fine Charta Arcanum",
+      "tradeskill": 58,
+      "skillneeded": 0,
+      "trivial": 243,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": null,
+      "must_learn": 2,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": -1,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 12808,
+      "name": "Runic Charta Arcanum",
+      "tradeskill": 58,
+      "skillneeded": 0,
+      "trivial": 243,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": null,
+      "must_learn": 2,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": -1,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 12809,
+      "name": "Fine Runic Charta Arcanum",
+      "tradeskill": 58,
+      "skillneeded": 0,
+      "trivial": 243,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": null,
+      "must_learn": 2,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": -1,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    }
+  ],
+  "unchanged_prototype_entries": [
+    {
+      "id": 150164,
+      "recipe_id": 12796,
+      "item_id": 93619,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 150165,
+      "recipe_id": 12796,
+      "item_id": 90311,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 150166,
+      "recipe_id": 12796,
+      "item_id": 93542,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 150167,
+      "recipe_id": 12796,
+      "item_id": 93587,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 150168,
+      "recipe_id": 12796,
+      "item_id": 93574,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 150169,
+      "recipe_id": 12796,
+      "item_id": 93515,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 150170,
+      "recipe_id": 12796,
+      "item_id": 115726,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 150171,
+      "recipe_id": 12796,
+      "item_id": 93492,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 150179,
+      "recipe_id": 12798,
+      "item_id": 93557,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 150180,
+      "recipe_id": 12798,
+      "item_id": 90311,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 150181,
+      "recipe_id": 12798,
+      "item_id": 93542,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 150182,
+      "recipe_id": 12798,
+      "item_id": 93587,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 150183,
+      "recipe_id": 12798,
+      "item_id": 93583,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 150184,
+      "recipe_id": 12798,
+      "item_id": 93515,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 150185,
+      "recipe_id": 12798,
+      "item_id": 115748,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 150186,
+      "recipe_id": 12798,
+      "item_id": 93492,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 150236,
+      "recipe_id": 12805,
+      "item_id": 93617,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 150237,
+      "recipe_id": 12805,
+      "item_id": 90317,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 150238,
+      "recipe_id": 12805,
+      "item_id": 90322,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 150239,
+      "recipe_id": 12805,
+      "item_id": 93492,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 150240,
+      "recipe_id": 12805,
+      "item_id": 90307,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 150241,
+      "recipe_id": 12805,
+      "item_id": 41555,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 150242,
+      "recipe_id": 12805,
+      "item_id": 41631,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 150243,
+      "recipe_id": 12805,
+      "item_id": 41632,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 150244,
+      "recipe_id": 12806,
+      "item_id": 93617,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 150245,
+      "recipe_id": 12806,
+      "item_id": 90318,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 150246,
+      "recipe_id": 12806,
+      "item_id": 90323,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 150247,
+      "recipe_id": 12806,
+      "item_id": 90308,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 150248,
+      "recipe_id": 12806,
+      "item_id": 93492,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 150249,
+      "recipe_id": 12806,
+      "item_id": 41555,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 150250,
+      "recipe_id": 12806,
+      "item_id": 41631,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 150251,
+      "recipe_id": 12806,
+      "item_id": 41632,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 150252,
+      "recipe_id": 12807,
+      "item_id": 93617,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 150253,
+      "recipe_id": 12807,
+      "item_id": 90319,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 150254,
+      "recipe_id": 12807,
+      "item_id": 90324,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 150255,
+      "recipe_id": 12807,
+      "item_id": 90309,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 150256,
+      "recipe_id": 12807,
+      "item_id": 93492,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 150257,
+      "recipe_id": 12807,
+      "item_id": 41555,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 150258,
+      "recipe_id": 12807,
+      "item_id": 41631,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 150259,
+      "recipe_id": 12807,
+      "item_id": 41632,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 150260,
+      "recipe_id": 12808,
+      "item_id": 93617,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 150261,
+      "recipe_id": 12808,
+      "item_id": 90320,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 150262,
+      "recipe_id": 12808,
+      "item_id": 90325,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 150263,
+      "recipe_id": 12808,
+      "item_id": 90310,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 150264,
+      "recipe_id": 12808,
+      "item_id": 93492,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 150265,
+      "recipe_id": 12808,
+      "item_id": 41555,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 150266,
+      "recipe_id": 12808,
+      "item_id": 41631,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 150267,
+      "recipe_id": 12808,
+      "item_id": 41632,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 150268,
+      "recipe_id": 12809,
+      "item_id": 93617,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 150269,
+      "recipe_id": 12809,
+      "item_id": 90321,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 150270,
+      "recipe_id": 12809,
+      "item_id": 90326,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 150271,
+      "recipe_id": 12809,
+      "item_id": 90311,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 150272,
+      "recipe_id": 12809,
+      "item_id": 93492,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 150273,
+      "recipe_id": 12809,
+      "item_id": 41555,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 150274,
+      "recipe_id": 12809,
+      "item_id": 41631,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 150275,
+      "recipe_id": 12809,
+      "item_id": 41632,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    }
+  ],
+  "required_RRC072_Charta_recipes": [
+    {
+      "id": 3093618,
+      "name": "Charta Arcanum Solution",
+      "tradeskill": 58,
+      "skillneeded": 0,
+      "trivial": 243,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Primary solution formula; qualified by-HoT/VoA context; RRC072.",
+      "must_learn": 2,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 17,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3093619,
+      "name": "Fine Charta Arcanum Solution",
+      "tradeskill": 58,
+      "skillneeded": 0,
+      "trivial": 243,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Primary solution formula; qualified by-HoT/VoA context; RRC072.",
+      "must_learn": 2,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 17,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3093620,
+      "name": "Fine Runic Charta Arcanum Solution",
+      "tradeskill": 58,
+      "skillneeded": 0,
+      "trivial": 243,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Primary solution formula; qualified by-HoT/VoA context; RRC072.",
+      "must_learn": 2,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 17,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3093623,
+      "name": "Rough Charta Arcanum Solution",
+      "tradeskill": 58,
+      "skillneeded": 0,
+      "trivial": 243,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Primary solution formula; qualified by-HoT/VoA context; RRC072.",
+      "must_learn": 2,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 17,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3093625,
+      "name": "Runic Charta Arcanum Solution",
+      "tradeskill": 58,
+      "skillneeded": 0,
+      "trivial": 243,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Primary solution formula; qualified by-HoT/VoA context; RRC072.",
+      "must_learn": 2,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 17,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    }
+  ],
+  "required_RRC072_Charta_entries": [
+    {
+      "recipe_id": 3093618,
+      "item_id": 90318,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093618,
+      "item_id": 93508,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093618,
+      "item_id": 10035,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 3,
+      "salvagecount": 3,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093618,
+      "item_id": 10032,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093618,
+      "item_id": 10025,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093618,
+      "item_id": 93509,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093618,
+      "item_id": 93510,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093618,
+      "item_id": 10062,
+      "successcount": 1,
+      "failcount": 1,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093618,
+      "item_id": 93618,
+      "successcount": 2,
+      "failcount": 2,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093618,
+      "item_id": 93492,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3093618,
+      "item_id": 41555,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3093618,
+      "item_id": 41631,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3093618,
+      "item_id": 41632,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3093618,
+      "item_id": 41633,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3093619,
+      "item_id": 90319,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093619,
+      "item_id": 93508,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093619,
+      "item_id": 10033,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093619,
+      "item_id": 10035,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 3,
+      "salvagecount": 3,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093619,
+      "item_id": 10025,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093619,
+      "item_id": 93509,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093619,
+      "item_id": 93510,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093619,
+      "item_id": 10062,
+      "successcount": 1,
+      "failcount": 1,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093619,
+      "item_id": 93618,
+      "successcount": 2,
+      "failcount": 2,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093619,
+      "item_id": 93492,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3093619,
+      "item_id": 41555,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3093619,
+      "item_id": 41631,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3093619,
+      "item_id": 41632,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3093619,
+      "item_id": 41633,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3093620,
+      "item_id": 90321,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093620,
+      "item_id": 93508,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093620,
+      "item_id": 10035,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 4,
+      "salvagecount": 4,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093620,
+      "item_id": 10025,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093620,
+      "item_id": 93509,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093620,
+      "item_id": 93510,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093620,
+      "item_id": 10062,
+      "successcount": 1,
+      "failcount": 1,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093620,
+      "item_id": 93618,
+      "successcount": 2,
+      "failcount": 2,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093620,
+      "item_id": 93492,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3093620,
+      "item_id": 41555,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3093620,
+      "item_id": 41631,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3093620,
+      "item_id": 41632,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3093620,
+      "item_id": 41633,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3093623,
+      "item_id": 90317,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093623,
+      "item_id": 93508,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093623,
+      "item_id": 10031,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093623,
+      "item_id": 10035,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 3,
+      "salvagecount": 3,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093623,
+      "item_id": 93509,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093623,
+      "item_id": 93510,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093623,
+      "item_id": 10062,
+      "successcount": 1,
+      "failcount": 1,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093623,
+      "item_id": 93618,
+      "successcount": 2,
+      "failcount": 2,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093623,
+      "item_id": 93492,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3093623,
+      "item_id": 41555,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3093623,
+      "item_id": 41631,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3093623,
+      "item_id": 41632,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3093623,
+      "item_id": 41633,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3093625,
+      "item_id": 90320,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093625,
+      "item_id": 93508,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093625,
+      "item_id": 10028,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093625,
+      "item_id": 10035,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 3,
+      "salvagecount": 3,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093625,
+      "item_id": 10034,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093625,
+      "item_id": 93509,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093625,
+      "item_id": 93510,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093625,
+      "item_id": 10062,
+      "successcount": 1,
+      "failcount": 1,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093625,
+      "item_id": 93618,
+      "successcount": 2,
+      "failcount": 2,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093625,
+      "item_id": 93492,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3093625,
+      "item_id": 41555,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3093625,
+      "item_id": 41631,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3093625,
+      "item_id": 41632,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3093625,
+      "item_id": 41633,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    }
+  ],
+  "native_output_bindings": {
+    "scope": "Current item/classlevel/scrolleffect only, not historicintroduction/native scribe-cast proof.",
+    "outputs": [
+      {
+        "source_name": "Spell: Aegis of Kildrukaun Rk. II",
+        "item_id": 115905,
+        "class_id": 13,
+        "scrolleffect": 14905,
+        "native_level": 79
+      },
+      {
+        "source_name": "Spell: Annihilate the Aberrant Rk. II",
+        "item_id": 115455,
+        "class_id": 13,
+        "scrolleffect": 14455,
+        "native_level": 78
+      },
+      {
+        "source_name": "Spell: Beam of Molten Dross Rk. II",
+        "item_id": 115739,
+        "class_id": 13,
+        "scrolleffect": 14739,
+        "native_level": 77
+      },
+      {
+        "source_name": "Spell: Bolt of Molten Dross Rk. II",
+        "item_id": 115673,
+        "class_id": 13,
+        "scrolleffect": 14673,
+        "native_level": 76
+      },
+      {
+        "source_name": "Spell: Burning Brimbody Rk. II",
+        "item_id": 115779,
+        "class_id": 13,
+        "scrolleffect": 14779,
+        "native_level": 79
+      },
+      {
+        "source_name": "Spell: Burnout VII Rk. II",
+        "item_id": 115701,
+        "class_id": 13,
+        "scrolleffect": 14701,
+        "native_level": 76
+      },
+      {
+        "source_name": "Spell: Circle of Lavaskin Rk. II",
+        "item_id": 115716,
+        "class_id": 13,
+        "scrolleffect": 14716,
+        "native_level": 79
+      },
+      {
+        "source_name": "Spell: Eidolic Guardian Rk. II",
+        "item_id": 115687,
+        "class_id": 13,
+        "scrolleffect": 14687,
+        "native_level": 77
+      },
+      {
+        "source_name": "Spell: Fickle Pyroclasm Rk. II",
+        "item_id": 115723,
+        "class_id": 13,
+        "scrolleffect": 14723,
+        "native_level": 80
+      },
+      {
+        "source_name": "Spell: Grounded Stance Rk. II",
+        "item_id": 115698,
+        "class_id": 13,
+        "scrolleffect": 14698,
+        "native_level": 78
+      },
+      {
+        "source_name": "Spell: Lavaskin Rk. II",
+        "item_id": 115663,
+        "class_id": 13,
+        "scrolleffect": 14663,
+        "native_level": 76
+      },
+      {
+        "source_name": "Spell: Malosinatia Rk. II",
+        "item_id": 115660,
+        "class_id": 13,
+        "scrolleffect": 14660,
+        "native_level": 76
+      },
+      {
+        "source_name": "Spell: Mass Prime Transvergence Rk. II",
+        "item_id": 115732,
+        "class_id": 13,
+        "scrolleffect": 14732,
+        "native_level": 80
+      },
+      {
+        "source_name": "Spell: Prime Guard Rk. II",
+        "item_id": 115669,
+        "class_id": 13,
+        "scrolleffect": 14669,
+        "native_level": 76
+      },
+      {
+        "source_name": "Spell: Rain of Molten Dross Rk. II",
+        "item_id": 115682,
+        "class_id": 13,
+        "scrolleffect": 14682,
+        "native_level": 77
+      },
+      {
+        "source_name": "Spell: Revival of Aenro Rk. II",
+        "item_id": 115707,
+        "class_id": 13,
+        "scrolleffect": 14707,
+        "native_level": 78
+      },
+      {
+        "source_name": "Spell: Scorching Sands Rk. II",
+        "item_id": 115704,
+        "class_id": 13,
+        "scrolleffect": 14704,
+        "native_level": 78
+      },
+      {
+        "source_name": "Spell: Searing Skin Rk. II",
+        "item_id": 115695,
+        "class_id": 13,
+        "scrolleffect": 14695,
+        "native_level": 78
+      },
+      {
+        "source_name": "Spell: Shock of Cineral Steel Rk. II",
+        "item_id": 115691,
+        "class_id": 13,
+        "scrolleffect": 14691,
+        "native_level": 77
+      },
+      {
+        "source_name": "Spell: Shock of Many Rk. II",
+        "item_id": 115773,
+        "class_id": 13,
+        "scrolleffect": 14773,
+        "native_level": 77
+      },
+      {
+        "source_name": "Spell: Summon Cauldron of Many Things",
+        "item_id": 115753,
+        "class_id": 13,
+        "scrolleffect": 14753,
+        "native_level": 78
+      },
+      {
+        "source_name": "Spell: Summon Gelid Paradox Rk. II",
+        "item_id": 115666,
+        "class_id": 13,
+        "scrolleffect": 14666,
+        "native_level": 79
+      },
+      {
+        "source_name": "Spell: Torrent of Thunderbolts Rk. II",
+        "item_id": 115719,
+        "class_id": 13,
+        "scrolleffect": 14719,
+        "native_level": 79
+      },
+      {
+        "source_name": "Spell: Wand of Prime Transvergence Rk. II",
+        "item_id": 115676,
+        "class_id": 13,
+        "scrolleffect": 14676,
+        "native_level": 77
+      }
+    ],
+    "spells": [
+      {
+        "id": 14455,
+        "name": "Annihilate the Aberrant Rk. II",
+        "classes13": 78
+      },
+      {
+        "id": 14660,
+        "name": "Malosinatia Rk. II",
+        "classes13": 76
+      },
+      {
+        "id": 14663,
+        "name": "Lavaskin Rk. II",
+        "classes13": 76
+      },
+      {
+        "id": 14666,
+        "name": "Summon Gelid Paradox Rk. II",
+        "classes13": 79
+      },
+      {
+        "id": 14669,
+        "name": "Prime Guard Rk. II",
+        "classes13": 76
+      },
+      {
+        "id": 14673,
+        "name": "Bolt of Molten Dross Rk. II",
+        "classes13": 76
+      },
+      {
+        "id": 14676,
+        "name": "Wand of Prime Transvergence Rk. II",
+        "classes13": 77
+      },
+      {
+        "id": 14682,
+        "name": "Rain of Molten Dross Rk. II",
+        "classes13": 77
+      },
+      {
+        "id": 14687,
+        "name": "Eidolic Guardian Rk. II",
+        "classes13": 77
+      },
+      {
+        "id": 14691,
+        "name": "Shock of Cineral Steel Rk. II",
+        "classes13": 77
+      },
+      {
+        "id": 14695,
+        "name": "Searing Skin Rk. II",
+        "classes13": 78
+      },
+      {
+        "id": 14698,
+        "name": "Grounded Stance Rk. II",
+        "classes13": 78
+      },
+      {
+        "id": 14701,
+        "name": "Burnout VII Rk. II",
+        "classes13": 76
+      },
+      {
+        "id": 14704,
+        "name": "Scorching Sands Rk. II",
+        "classes13": 78
+      },
+      {
+        "id": 14707,
+        "name": "Revival of Aenro Rk. II",
+        "classes13": 78
+      },
+      {
+        "id": 14716,
+        "name": "Circle of Lavaskin Rk. II",
+        "classes13": 79
+      },
+      {
+        "id": 14719,
+        "name": "Torrent of Thunderbolts Rk. II",
+        "classes13": 79
+      },
+      {
+        "id": 14723,
+        "name": "Fickle Pyroclasm Rk. II",
+        "classes13": 80
+      },
+      {
+        "id": 14732,
+        "name": "Mass Prime Transvergence Rk. II",
+        "classes13": 80
+      },
+      {
+        "id": 14739,
+        "name": "Beam of Molten Dross Rk. II",
+        "classes13": 77
+      },
+      {
+        "id": 14753,
+        "name": "Summon Cauldron of Many Things",
+        "classes13": 78
+      },
+      {
+        "id": 14773,
+        "name": "Shock of Many Rk. II",
+        "classes13": 77
+      },
+      {
+        "id": 14779,
+        "name": "Burning Brimbody Rk. II",
+        "classes13": 79
+      },
+      {
+        "id": 14905,
+        "name": "Aegis of Kildrukaun Rk. II",
+        "classes13": 79
+      }
+    ]
+  },
+  "restriction_review": {
+    "scope": "24MagicianCharta regularspell formulas have nativeoutputs and no allskillnetproducer. Existing12784Iceflameingredientextension belongsseparate085, not thisinsert-onlyscope.",
+    "kits": "Only explicit93492SpellResearchKit; native15360maskunchanged/no newclassenforcement. Other4physicalkits/furniture held. Dated2012guide permitsINTcasters anyspell/song; no June2016universalbehavior backdated.",
+    "learning": "must_learn2, salvage1 and newminimum0 are localfamilyencoding, no positiveoldgatezeroed or mandatoryNPC/scribegateinvented.",
+    "quantity": "One existingtype20/maxcharges0 scroll each; preserve19stackable/5nonstackable definitions, includingmulticlass masks. Specificsourceingredientcounts fit10slotkit.",
+    "period": "Current exactprimary formulas/currentMage13levels76\u201380 plus dated2010Charta familycontext supportqualifiedHoT17. Not independenthistoricproof of every24formula/numeric or immutableMay2013records.",
+    "preservation": "TwootherMage source-exactpeers+5Charta refiners:7defs/56entries remainexact. Separate085target12784 is neither readasaprecondition nor modified; no artificial085dependency. Completed072Charta subset5defs/68logicalentries requiredbefore/after without autoentryIDcoupling.",
+    "limits": "Manufacturing only, notnative scribe/casting/summoneditem acceptance. No item/vendor/drop/NPC/task/spell/AA/player/runtimechanges or highermaterialactivation."
+  },
+  "source_urls": [
+    "https://www.eqtraders.com/recipes/recipe_page.php?article=121&rsa=Spell+Research&sub=Magician",
+    "https://mboards.eqtraders.com/eq/forum/tradeskills/research/35190-dnc-charta-arcanum-solution-recipes",
+    "https://mboards.eqtraders.com/eq/forum/tradeskills/tradeskill-guides-and-ui-mods/36211-the-ultimate-eq-tradeskill-guide"
+  ],
+  "migration_dependencies": [
+    "RRC072 Charta subset"
+  ]
+}
