@@ -1,0 +1,52 @@
+{
+  "format_version": 1,
+  "batch": "RRC090",
+  "source_commit": "e23465daea6343d29cb2edc96d65f1f0a04ac094",
+  "source_sha256": "4ee9f6b6d6e1b316269909a9699b3f4ff5b230ea3b2db1e7d359e3e6601eafbe",
+  "application_status": "APPLIED_VERIFIED",
+  "recipes_added": 61,
+  "entries_added": 476,
+  "recipe_ids": [
+    3093895,
+    3093955
+  ],
+  "preserved_existing_prototypes": {
+    "definitions": 14,
+    "entries": 111
+  },
+  "preserved_RRC072_subset": {
+    "definitions": 5,
+    "logical_entries": 68
+  },
+  "learned_references": "Preserved per owner/coordinator receipt; no new scan.",
+  "TS_cumulative_added_through090": {
+    "recipes": 2955,
+    "entries": 16805
+  },
+  "separate_Xorbb_recipe_excluded": {
+    "recipes": 1,
+    "entries": 6
+  },
+  "held_batch": "RRC014",
+  "prior_closed_normal_SQL_path_cutoff": 414,
+  "new_normal_SQL_paths": 2,
+  "normal_SQL_paths_after_followup": 416,
+  "selected_twelve_class_clean_Charta_checkpoint": {
+    "checkpoint_sha256": "2514a6e269c03d5e3a477737bd9546c33ea4d97bc43a67c861d7b345cf5c8872",
+    "basis": "Owner/coordinator selected research checkpoint; not a new Database scan.",
+    "unique_views": 312,
+    "qualified_represented": 311,
+    "represented_old": 28,
+    "represented_new": 283,
+    "excluded": {
+      "count": 1,
+      "item_id": 36389,
+      "reason": "2017 content"
+    },
+    "qualification": "Selected subset completeness only. Does not establish all-game or whole-class completeness, native acceptance, or immutable May2013 per-field proof."
+  },
+  "Scent_disabled_candidate_separate": true,
+  "QA39999_production_exclusion_retained": true,
+  "SQL_path_count_meaning": "Paths include apply/rollback pairs and readback SQL, not416 database applications.",
+  "assembly": "No database query/replay/rescan/test/runtime action or old archive/catalogue rewrite."
+}
