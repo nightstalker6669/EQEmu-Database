@@ -1,0 +1,386 @@
+{
+  "batch": "RRC104",
+  "branch": "rof2-tradeskills",
+  "status": "SOURCE_PROPOSAL_NOT_APPLIED_LABELLED_RECONSTRUCTION",
+  "proposed_ids": [
+    3094026,
+    3094027
+  ],
+  "counts": {
+    "recipes": 2,
+    "entries": 16,
+    "item_dependencies": 10,
+    "unchanged_prototype_recipes": 0,
+    "unchanged_prototype_entries": 0
+  },
+  "recipes": [
+    {
+      "id": 3094026,
+      "name": "Wood Strips",
+      "tradeskill": 64,
+      "skillneeded": 0,
+      "trivial": 17,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary10thAnniversary Fletching reconstruction; RRC104.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 15,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3094027,
+      "name": "Woven Basket",
+      "tradeskill": 64,
+      "skillneeded": 0,
+      "trivial": 17,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary10thAnniversary Fletching reconstruction; RRC104.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 15,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    }
+  ],
+  "entries": [
+    {
+      "recipe_id": 3094026,
+      "item_id": 42895,
+      "successcount": 4,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094026,
+      "item_id": 42898,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094026,
+      "item_id": 8080,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094026,
+      "item_id": 8086,
+      "successcount": 1,
+      "failcount": 1,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094026,
+      "item_id": 75856,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094026,
+      "item_id": 13006,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094026,
+      "item_id": 17189,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3094026,
+      "item_id": 17762,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3094026,
+      "item_id": 17910,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3094027,
+      "item_id": 42896,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094027,
+      "item_id": 75856,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094027,
+      "item_id": 13006,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094027,
+      "item_id": 42895,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 4,
+      "salvagecount": 4,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094027,
+      "item_id": 17189,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3094027,
+      "item_id": 17762,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3094027,
+      "item_id": 17910,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    }
+  ],
+  "item_dependencies": [
+    {
+      "id": 8080,
+      "name": "Hickory Bow Staff"
+    },
+    {
+      "id": 8086,
+      "name": "Planing Tool"
+    },
+    {
+      "id": 13006,
+      "name": "Water Flask"
+    },
+    {
+      "id": 17189,
+      "name": "Collapsible Fletching Kit"
+    },
+    {
+      "id": 17762,
+      "name": "Planar Fletching Kit"
+    },
+    {
+      "id": 17910,
+      "name": "Fletching Kit"
+    },
+    {
+      "id": 42895,
+      "name": "Wood Strips"
+    },
+    {
+      "id": 42896,
+      "name": "Woven Basket"
+    },
+    {
+      "id": 42898,
+      "name": "Consigned Tanaan Ginko"
+    },
+    {
+      "id": 75856,
+      "name": "Rock Salt"
+    }
+  ],
+  "unchanged_prototype_recipes": [],
+  "unchanged_prototype_entries": [],
+  "source_facts": [
+    {
+      "recipe_id": 3094026,
+      "source_name": "Wood Strips",
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=381&rsa=Fletching&sub=quest",
+      "output_source_url": "https://www.eqtraders.com/items/show_item.php?item=57770&menustr=010000000000",
+      "output_item_id": 42895,
+      "trivial": 17,
+      "yield_count": 4,
+      "ingredients": [
+        {
+          "item_id": 42898,
+          "name": "Consigned Tanaan Ginko",
+          "count": 1
+        },
+        {
+          "item_id": 8080,
+          "name": "Hickory Bowstave",
+          "count": 1
+        },
+        {
+          "item_id": 8086,
+          "name": "Planing Tool",
+          "count": 1
+        },
+        {
+          "item_id": 75856,
+          "name": "Rock Salt",
+          "count": 1
+        },
+        {
+          "item_id": 13006,
+          "name": "Water Flask",
+          "count": 1
+        }
+      ],
+      "container_item_ids": [
+        17189,
+        17762,
+        17910
+      ],
+      "held_source_containers": [
+        {
+          "name": "Feir`Dal Fletching Kit",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=7858"
+        },
+        {
+          "name": "Surefall Fletching Kit",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=9604"
+        },
+        {
+          "name": "Fletching Table (Placeable)",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34388"
+        },
+        {
+          "name": "Fletching Table",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34483"
+        },
+        {
+          "name": "Guild Fletching Table",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=38416"
+        }
+      ],
+      "source_formula": "Components: Consigned Tanaan Ginko, Hickory Bowstave, Planing Tool, Rock Salt, Water Flask\nIn: Fletching Kit, Planar Fletching Kit, Collapsible Fletching Kit, Feir`Dal Fletching Kit, Surefall Fletching Kit, Fletching Table (Placeable), Fletching Table, Guild Fletching Table\nYield: 4\nAlso Returns: Planing Tool(1)\nOn Failure Returns: Planing Tool(1)\nNotes: EQRecipeID: 11923\nQuest: Crafting a Party - Brell's Favor"
+    },
+    {
+      "recipe_id": 3094027,
+      "source_name": "Woven Basket",
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=381&rsa=Fletching&sub=quest",
+      "output_source_url": "https://www.eqtraders.com/items/show_item.php?item=57782&menustr=010000000000",
+      "output_item_id": 42896,
+      "trivial": 17,
+      "yield_count": 1,
+      "ingredients": [
+        {
+          "item_id": 75856,
+          "name": "Rock Salt",
+          "count": 1
+        },
+        {
+          "item_id": 13006,
+          "name": "Water Flask",
+          "count": 1
+        },
+        {
+          "item_id": 42895,
+          "name": "Wood Strips",
+          "count": 4
+        }
+      ],
+      "container_item_ids": [
+        17189,
+        17762,
+        17910
+      ],
+      "held_source_containers": [
+        {
+          "name": "Feir`Dal Fletching Kit",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=7858"
+        },
+        {
+          "name": "Surefall Fletching Kit",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=9604"
+        },
+        {
+          "name": "Fletching Table (Placeable)",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34388"
+        },
+        {
+          "name": "Fletching Table",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34483"
+        },
+        {
+          "name": "Guild Fletching Table",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=38416"
+        }
+      ],
+      "source_formula": "Components: Rock Salt, Water Flask, Wood Strips (4)\nIn: Fletching Kit, Planar Fletching Kit, Collapsible Fletching Kit, Feir`Dal Fletching Kit, Surefall Fletching Kit, Fletching Table (Placeable), Fletching Table, Guild Fletching Table\nYield: 1\nNotes: EQrecipeID: 11923\nQuest: Crafting a Party - Brell's Favor"
+    }
+  ],
+  "restriction_review": {
+    "scope": "Two absent Fletching64 routes3094026/27: WoodStrips42895x4 and ordinary empty WovenBasket42896x1. No PartyBasket recipe or container-content consumption/replace_container step included.",
+    "era": "LABELLED_RECONSTRUCTION: April5,2009 first-hand CraftingAParty writeup positively supports period quest/body. Native authored BrellPartyPlans42899/book10AVBrellBook explicitly says four strips perstaff and fourstrips+water+salt forbasket. Current maintained source supplies numerical17, toolreturns and3portablekits; no immutableMay2013 perfield/cutoff/nativeplay proof. Four NPC hails in period guide do not override authored yield4.",
+    "gates": "New min_expansion15 is explicit configured SoD/April2009family availability floor, not recovered introduction or seasonal gate. New learning0/minimum0/minmax15/-1 as ordinary lowlevel quest convention; no oldgate change, NPCactivation/supply or new carriedbook requirement.",
+    "quantity": "WoodStrips uses5oneunit inputs with PlaningTool8086 returned success/failure1/salvage0. Basket consumes WoodStrips4 +Water1 +RockSalt1. Fits8slot/size3kits; HickoryStaff size3 exactfits and nativeWoodStrips stack20 supports4. Basket is existing sixslot/size2/bagtype13 physicalcontainer produced empty, not an itemproperty rewrite.",
+    "containers": "Only explicit ordinary17910/17762/17189, nativebagtype18/eightslots/size3. FeirDal/Surefall and furniture held; no generic18/racialkit inference.",
+    "preservation": "Current output/name producer read and2allskill completeinput checks empty. No artificial oldpeer dependency. Exact itemsemantics/target postimages/rowdelta/learnedrollback guards retained.",
+    "limits": "No vendor/NPCginko grants, annualactivation, questacceptance/completion/reward, filledbasket transfer, unrelated recipe/item/player/runtime mutation or actualnativecombine/useacceptance."
+  },
+  "source_urls": [
+    "https://www.eqtraders.com/recipes/recipe_page.php?article=381&rsa=Fletching&sub=quest",
+    "https://www.eqtraders.com/items/show_item.php?item=57782",
+    "https://sugikiyo.blog.shinobi.jp/%E6%9C%9F%E9%96%93%E9%99%90%E5%AE%9A%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88%E7%AD%89/%E3%80%90crafting%20a%20party%20-%20brell%20sersilis-%20favor%E3%80%91"
+  ],
+  "native_authored_context": {
+    "book_item_id": 42899,
+    "filename": "10AVBrellBook",
+    "text_sha256": "0adcee6280ffcd00e1dd1a57ee0ef17c0af844a04327125b9687cee058636a2e",
+    "role": "Evidence only; not a consumed/carried/scribed dependency.",
+    "yield_excerpt": "You will be able to make four from each staff."
+  },
+  "migration_dependencies": []
+}

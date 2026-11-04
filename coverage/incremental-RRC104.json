@@ -1,0 +1,67 @@
+{
+  "format_version": 1,
+  "batch": "RRC104",
+  "source_commit": "ff133cf9518c9b9fbdc5755eb391e6ac16274ae6",
+  "source_sha256": "d9872dde38a1474ea2ebef5c005714a8fd84fc52a8fa7e810ae752f7c9b1fdf9",
+  "application_status": "APPLIED_VERIFIED",
+  "recipes_added": 2,
+  "entries_added": 16,
+  "TS_cumulative_added_through104": {
+    "recipes": 3027,
+    "entries": 17323
+  },
+  "cumulative_basis": "Derived from published prior3025/17307 plus actual2/16 delta.",
+  "new_recipe_batches": 88,
+  "TS_cumulative_ingredient_ID_corrections": 28,
+  "separate_Xorbb_recipe_excluded": {
+    "recipes": 1,
+    "entries": 6
+  },
+  "held_batch": "RRC014",
+  "prior_closed_normal_SQL_path_cutoff": 446,
+  "new_normal_SQL_paths": 2,
+  "normal_SQL_paths_after_publication": 448,
+  "SQL_path_count_meaning": "Source paths including apply/rollback/readback SQL, not applications.",
+  "prior_sources_archives_preserved": true,
+  "Scent_disabled_candidate_separate": true,
+  "QA39999_production_exclusion_retained": true,
+  "assembly": "No SQL replay, database queries, tests, runtime actions or archive rewrite.",
+  "era_disposition": "LABELLED_RECONSTRUCTION",
+  "historical_qualification": "LABELLED_RECONSTRUCTION: April2009 primary quest context/native authored book supports fourstrips perstaff and fourstrips basket. Currentsource17/toolreturns/threeportablekits not immutableMay2013. New minexp15 policy/learning0/minimum0; no oldgates or seasonalNPC changes. WoodStrips42895yield4, PlaningToolreturn success/failure1; empty WovenBasket42896yield1, no PartyBasket/filledcontainer recipe. Only17910/17762/17189; racial/furniture held; no nativeplayacceptance.",
+  "dated_body_context": "April5,2009 quest writeup and native authored book support four strips per staff and four strips/water/salt basket body.",
+  "maintained_source_uncertainty": "Trivial17, tool returns and three portable kits are not immutable May2013 per-field authentication.",
+  "configured_policy": {
+    "min_expansion": 15,
+    "max_expansion": -1,
+    "learning": 0,
+    "minimum": 0,
+    "meaning": "Explicit SoD/April2009-family availability POLICY, not recovered introduction date or seasonal gate."
+  },
+  "outputs": {
+    "Wood_Strips": {
+      "item_id": 42895,
+      "yield": 4
+    },
+    "ordinary_Woven_Basket": {
+      "item_id": 42896,
+      "yield": 1,
+      "empty": true
+    }
+  },
+  "basket_scope": "No PartyBasket recipe, filled basket, content consumption or replace_container step.",
+  "ordinary_portable_kit_ids": [
+    17910,
+    17762,
+    17189
+  ],
+  "held_kits": "FeirDal/Surefall and furniture held; no generic18/racialkit inferred.",
+  "no_claims": [
+    "seasonal grant",
+    "annual activation",
+    "NPC supply/activation",
+    "quest acceptance/completion/reward",
+    "new carried-book requirement",
+    "filled-basket transfer",
+    "native combine/use acceptance"
+  ]
+}
