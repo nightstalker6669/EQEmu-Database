@@ -1,0 +1,716 @@
+{
+  "batch": "RRC102",
+  "branch": "rof2-tradeskills",
+  "status": "SOURCE_PROPOSAL_NOT_APPLIED_LABELLED_RECONSTRUCTION",
+  "proposed_ids": [
+    3094019,
+    3094021
+  ],
+  "counts": {
+    "recipes": 3,
+    "entries": 18,
+    "item_dependencies": 8,
+    "unchanged_prototype_recipes": 3,
+    "unchanged_prototype_entries": 24
+  },
+  "recipes": [
+    {
+      "id": 3094019,
+      "name": "Fishbone Darts (Green Gill Bones)",
+      "tradeskill": 64,
+      "skillneeded": 0,
+      "trivial": 162,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary Fishbone Dart input route; RRC102.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": -1,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3094020,
+      "name": "Fishbone Darts (Thunder Salmon Bones)",
+      "tradeskill": 64,
+      "skillneeded": 0,
+      "trivial": 162,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary Fishbone Dart input route; RRC102.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": -1,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3094021,
+      "name": "Fishbone Darts (Nightmare Cichlid Bones)",
+      "tradeskill": 64,
+      "skillneeded": 0,
+      "trivial": 162,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary Fishbone Dart input route; RRC102.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": -1,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    }
+  ],
+  "entries": [
+    {
+      "recipe_id": 3094019,
+      "item_id": 23578,
+      "successcount": 5,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094019,
+      "item_id": 23577,
+      "successcount": 1,
+      "failcount": 1,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094019,
+      "item_id": 24494,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094019,
+      "item_id": 17189,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3094019,
+      "item_id": 17762,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3094019,
+      "item_id": 17910,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3094020,
+      "item_id": 23578,
+      "successcount": 5,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094020,
+      "item_id": 23577,
+      "successcount": 1,
+      "failcount": 1,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094020,
+      "item_id": 24495,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094020,
+      "item_id": 17189,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3094020,
+      "item_id": 17762,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3094020,
+      "item_id": 17910,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3094021,
+      "item_id": 23578,
+      "successcount": 5,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094021,
+      "item_id": 23577,
+      "successcount": 1,
+      "failcount": 1,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094021,
+      "item_id": 29171,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094021,
+      "item_id": 17189,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3094021,
+      "item_id": 17762,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3094021,
+      "item_id": 17910,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    }
+  ],
+  "item_dependencies": [
+    {
+      "id": 17189,
+      "name": "Collapsible Fletching Kit"
+    },
+    {
+      "id": 17762,
+      "name": "Planar Fletching Kit"
+    },
+    {
+      "id": 17910,
+      "name": "Fletching Kit"
+    },
+    {
+      "id": 23577,
+      "name": "Fishbone Dart Tool"
+    },
+    {
+      "id": 23578,
+      "name": "Fishbone Darts"
+    },
+    {
+      "id": 24494,
+      "name": "Green Gill Bones"
+    },
+    {
+      "id": 24495,
+      "name": "Thunder Salmon Bones"
+    },
+    {
+      "id": 29171,
+      "name": "Nightmare Cichlid Bones"
+    }
+  ],
+  "unchanged_prototype_recipes": [
+    {
+      "id": 7311,
+      "name": "Fishbone Darts",
+      "tradeskill": 64,
+      "skillneeded": 0,
+      "trivial": 162,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": null,
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": -1,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 7312,
+      "name": "Fishbone Darts",
+      "tradeskill": 64,
+      "skillneeded": 0,
+      "trivial": 162,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": null,
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": -1,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 7544,
+      "name": "Whittled Fishbone Darts",
+      "tradeskill": 64,
+      "skillneeded": 0,
+      "trivial": 182,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": null,
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": -1,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    }
+  ],
+  "unchanged_prototype_entries": [
+    {
+      "id": 69112,
+      "recipe_id": 7311,
+      "item_id": 23577,
+      "successcount": 1,
+      "failcount": 1,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 69113,
+      "recipe_id": 7311,
+      "item_id": 24497,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 69114,
+      "recipe_id": 7311,
+      "item_id": 23578,
+      "successcount": 5,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 69117,
+      "recipe_id": 7311,
+      "item_id": 17128,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 69118,
+      "recipe_id": 7311,
+      "item_id": 17189,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 69119,
+      "recipe_id": 7311,
+      "item_id": 17762,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 69120,
+      "recipe_id": 7311,
+      "item_id": 17910,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 69121,
+      "recipe_id": 7311,
+      "item_id": 66163,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 69122,
+      "recipe_id": 7312,
+      "item_id": 23577,
+      "successcount": 1,
+      "failcount": 1,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 69123,
+      "recipe_id": 7312,
+      "item_id": 29173,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 69124,
+      "recipe_id": 7312,
+      "item_id": 23578,
+      "successcount": 5,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 69127,
+      "recipe_id": 7312,
+      "item_id": 17128,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 69128,
+      "recipe_id": 7312,
+      "item_id": 17189,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 69129,
+      "recipe_id": 7312,
+      "item_id": 17762,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 69130,
+      "recipe_id": 7312,
+      "item_id": 17910,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 69131,
+      "recipe_id": 7312,
+      "item_id": 66163,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 71065,
+      "recipe_id": 7544,
+      "item_id": 23577,
+      "successcount": 1,
+      "failcount": 1,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 71066,
+      "recipe_id": 7544,
+      "item_id": 24496,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 71067,
+      "recipe_id": 7544,
+      "item_id": 23579,
+      "successcount": 5,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 71070,
+      "recipe_id": 7544,
+      "item_id": 17128,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 71071,
+      "recipe_id": 7544,
+      "item_id": 17189,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 71072,
+      "recipe_id": 7544,
+      "item_id": 17762,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 71073,
+      "recipe_id": 7544,
+      "item_id": 17910,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 71074,
+      "recipe_id": 7544,
+      "item_id": 66163,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    }
+  ],
+  "source_facts": [
+    {
+      "recipe_id": 3094019,
+      "source_name": "Fishbone Darts",
+      "recipe_name": "Fishbone Darts (Green Gill Bones)",
+      "output_item_id": 23578,
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=42&rsa=Fletching&sub=other",
+      "output_source_url": "https://www.eqtraders.com/items/show_item.php?item=1203&menustr=010000000000",
+      "yield_count": 5,
+      "trivial": 162,
+      "ingredients": [
+        {
+          "item_id": 23577,
+          "name": "Fishbone Dart Tool",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=1207"
+        },
+        {
+          "item_id": 24494,
+          "name": "Green Gill Bones",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=2881"
+        }
+      ],
+      "container_item_ids": [
+        17189,
+        17762,
+        17910
+      ],
+      "held_source_containers": [
+        {
+          "name": "Surefall Fletching Kit",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=9604"
+        },
+        {
+          "name": "Fletching Table (Placeable)",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34388"
+        },
+        {
+          "name": "Fletching Table",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34483"
+        },
+        {
+          "name": "Guild Fletching Table",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=38416"
+        }
+      ],
+      "source_formula": "Components: Fishbone Dart Tool, Green Gill Bones\nIn: Fletching Kit, Planar Fletching Kit, Collapsible Fletching Kit, Surefall Fletching Kit, Fletching Table (Placeable), Fletching Table, Guild Fletching Table\nYield: 5\nAlso Returns: Fishbone Dart Tool(1)\nOn Failure Returns: Fishbone Dart Tool(1)"
+    },
+    {
+      "recipe_id": 3094020,
+      "source_name": "Fishbone Darts",
+      "recipe_name": "Fishbone Darts (Thunder Salmon Bones)",
+      "output_item_id": 23578,
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=42&rsa=Fletching&sub=other",
+      "output_source_url": "https://www.eqtraders.com/items/show_item.php?item=1203&menustr=010000000000",
+      "yield_count": 5,
+      "trivial": 162,
+      "ingredients": [
+        {
+          "item_id": 23577,
+          "name": "Fishbone Dart Tool",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=1207"
+        },
+        {
+          "item_id": 24495,
+          "name": "Thunder Salmon Bones",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=1215"
+        }
+      ],
+      "container_item_ids": [
+        17189,
+        17762,
+        17910
+      ],
+      "held_source_containers": [
+        {
+          "name": "Surefall Fletching Kit",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=9604"
+        }
+      ],
+      "source_formula": "Components: Fishbone Dart Tool, Thunder Salmon Bones\nIn: Fletching Kit, Planar Fletching Kit, Collapsible Fletching Kit, Surefall Fletching Kit\nYield: 5\nAlso Returns: Fishbone Dart Tool(1)\nOn Failure Returns: Fishbone Dart Tool(1)"
+    },
+    {
+      "recipe_id": 3094021,
+      "source_name": "Fishbone Darts",
+      "recipe_name": "Fishbone Darts (Nightmare Cichlid Bones)",
+      "output_item_id": 23578,
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=42&rsa=Fletching&sub=other",
+      "output_source_url": "https://www.eqtraders.com/items/show_item.php?item=1203&menustr=010000000000",
+      "yield_count": 5,
+      "trivial": 162,
+      "ingredients": [
+        {
+          "item_id": 23577,
+          "name": "Fishbone Dart Tool",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=1207"
+        },
+        {
+          "item_id": 29171,
+          "name": "Nightmare Cichlid Bones",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=5917"
+        }
+      ],
+      "container_item_ids": [
+        17189,
+        17762,
+        17910
+      ],
+      "held_source_containers": [
+        {
+          "name": "Surefall Fletching Kit",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=9604"
+        },
+        {
+          "name": "Fletching Table (Placeable)",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34388"
+        },
+        {
+          "name": "Fletching Table",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34483"
+        },
+        {
+          "name": "Guild Fletching Table",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=38416"
+        }
+      ],
+      "source_formula": "Components: Fishbone Dart Tool, Nightmare Cichlid Bones\nIn: Fletching Kit, Planar Fletching Kit, Collapsible Fletching Kit, Surefall Fletching Kit, Fletching Table (Placeable), Fletching Table, Guild Fletching Table\nYield: 5\nAlso Returns: Fishbone Dart Tool(1)\nOn Failure Returns: Fishbone Dart Tool(1)"
+    }
+  ],
+  "restriction_review": {
+    "scope": "Three absent input routes for existing FishboneDarts23578, not missing physical outputs. All13references in sixviewaudit present; oldFishBones/Vallorian/Whittled formulas preserved.",
+    "era": "LABELLED_RECONSTRUCTION: primary first-hand July7,2003 post5 supports NightmareCichlid and Vallorian bones for darts plus five-dartbatch context. It does not independently authenticate GreenGill/Thunder variants, trivial162, all tool returns or each kit. Current maintained source supplies those fields; no blanket use of mutable2003page timestamp as recipe date.",
+    "gates": "New must_learn0/minimum0/minmaxexpansion-1 follows existing low-level dart records; no inferred introduction date or oldgate change.",
+    "containers": "Only explicit ordinary FletchingKit17910/Planar17762/Collapsible17189, bagtype18/eightslots/size3. Surefall66163 remains held as a specialized kit; no generic18/furniture/extra racial kit inserted.",
+    "quantity": "Two one-unit inputs, yield5fits native stack100. DartTool23577 returns success/failure1 with salvage0; bone salvage1. No output substitution or charge interpretation.",
+    "preservation": "Exact3oldproducer definitions24entries and learnedrefs guarded; complete all-skill input checks found0. Shared output collisions allow only those exact peers and exact batch range.",
+    "limits": "No item/vendor/drop/skillcap/player/runtime mutation or nativecombine/useacceptance; source-only pending coordinator disposition and individual exact published SQL GO."
+  },
+  "source_urls": [
+    "https://www.eqtraders.com/recipes/recipe_page.php?article=42&rsa=Fletching&sub=other",
+    "https://mboards.eqtraders.com/eq/forum/tradeskills/fishing/5884-fishbone-darts"
+  ],
+  "migration_dependencies": []
+}
