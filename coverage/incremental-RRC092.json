@@ -1,0 +1,35 @@
+{
+  "format_version": 1,
+  "batch": "RRC092",
+  "source_commit": "4ed5c012fddc0e4bc56f93f177cd5b3ebb6b940a",
+  "source_sha256": "ad616db91b620a288ce988170a3b1d73a1aa2019346f55dec4d597d38ecce935",
+  "application_status": "APPLIED_VERIFIED",
+  "recipes_added": 2,
+  "entries_added": 15,
+  "recipe_ids": [
+    3093966,
+    3093967
+  ],
+  "preserved_existing_prototypes": {
+    "definitions": 106,
+    "entries": 878
+  },
+  "held_recipe12482_trivial": "Preserved; no correction inferred.",
+  "learned_references_and_native_outputs": "Preserved per owner/coordinator receipt; no new scan.",
+  "TS_cumulative_added_through092": {
+    "recipes": 2967,
+    "entries": 16897
+  },
+  "separate_Xorbb_recipe_excluded": {
+    "recipes": 1,
+    "entries": 6
+  },
+  "held_batch": "RRC014",
+  "prior_closed_normal_SQL_path_cutoff": 418,
+  "new_normal_SQL_paths": 2,
+  "normal_SQL_paths_after_followup": 420,
+  "Scent_disabled_candidate_separate": true,
+  "QA39999_production_exclusion_retained": true,
+  "SQL_path_count_meaning": "Paths include apply/rollback pairs and readback SQL, not420 applications.",
+  "assembly": "No database query/replay/rescan/test/runtime or QA cleanup action, and no old archive/catalogue rewrite."
+}

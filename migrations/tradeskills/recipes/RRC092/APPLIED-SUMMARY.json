@@ -1,0 +1,28 @@
+{
+  "batch": "RRC092",
+  "status": "APPLIED_VERIFIED",
+  "SQL_invocations": 1,
+  "published_commit": "4ed5c012fddc0e4bc56f93f177cd5b3ebb6b940a",
+  "source_sha256": "ad616db91b620a288ce988170a3b1d73a1aa2019346f55dec4d597d38ecce935",
+  "native_actions": false,
+  "player_item_writes": false,
+  "new_rehearsal": false,
+  "recipes": 2,
+  "entries": 15,
+  "ids": [
+    3093966,
+    3093967
+  ],
+  "affected_postimages_exact": true,
+  "unchanged_prototype_recipes": 106,
+  "unchanged_prototype_entries": 878,
+  "old_prototypes_exact": true,
+  "existing_row_changes": "No UPDATE/DELETE of existing recipes; additive exact-ID inserts only. Global old-row diff was not repeated.",
+  "receipt_sha256": "5dc15fd7702fec527bf0d3d0d7122270e8bfb65dbdeb81831bf7669aea085bcd",
+  "source_SQL_matches_applied_hash": true,
+  "preservation_report": "Owner/coordinator reports106older definitions/878entries, held recipe12482 trivial difference, learned references and native outputs preserved. No new scan by Database packaging.",
+  "preparation_labels": "Original source metadata describes preparation; this later summary records actual application.",
+  "rollback_policy": "Exact published rollback retained as recovery source; not executed during packaging.",
+  "native_acceptance": "No native acceptance inferred from SQL application.",
+  "QA39999_excluded": "TemporaryQA remains outside production source packet/snapshot; no QA cleanup write."
+}
