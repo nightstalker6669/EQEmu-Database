@@ -1,0 +1,84 @@
+{
+  "format_version": 1,
+  "updated_date": "2026-11-04",
+  "all_project_SQL_in_repository": false,
+  "completion_rule": "All owning-area applied and source migration indices reconciled to publication manifests, with explicit unapplied/engine/script distinctions; selected row counts are not a project denominator.",
+  "areas": {
+    "tradeskills": {
+      "public_database_coverage": "Not yet published in this repository",
+      "applied_owner_report": "2628added recipes/14302entries through075; existing-row corrections also required",
+      "next": "Exact applied recipe index and final SQL revisions; do not include076unless applied receipt exists."
+    },
+    "housing": {
+      "source_batch": "FOUNDATION-SQL-publication-manifest.private.json",
+      "staged_SQL_files": 90,
+      "ordering": "89ownerinstaller entries plus separate guarded personalmarker correction",
+      "applied_status": "Retained per-migration owner receipt index requested; no new runtime audit",
+      "next": "Reconcile89sequence+corrections+laterhousingchanges/relocations to owner records."
+    },
+    "achievements": {
+      "public_database_coverage": "Missing main achievement packages",
+      "source_available": "16versioned content directories plus canonical engine schema prerequisites",
+      "applied_status": "Need owner package/receipt index; disabledfilename alone is not applied status",
+      "excluded_unapplied": [
+        "Xorbb9344/9345source packages",
+        "Other reserved proposals until receipt supplied"
+      ],
+      "next": "Preserve owner package dependency order and activation/install receipts; separate NPCcontributions and scripts."
+    },
+    "spells": {
+      "public_database_coverage": "Selected merchant guarded tools/contracts only; broader acquisition SQL incomplete",
+      "published_selected_merchant_inserts": 109,
+      "unpublished_applied_supplement_inserts": 3,
+      "applied_status": "Selected receipts matched; broader owner index requested",
+      "next": "Acquisition/vendor/faction/rune/scrollitem/content migrations and finalhelper chains, no NPCdoublecount."
+    },
+    "aas": {
+      "public_database_coverage": "Five applied SQL batches001/003/004/005/008 published",
+      "published_selected_insert_rows": 260,
+      "sql_vs_scripts": "006/009/010Lua installed separately per Build, not SQL insert batches",
+      "held_or_proposed": [
+        "007unapplied preference work",
+        "Banestrike missingpet/grant dependencies"
+      ],
+      "next": "Reconcile any later ownerSQL batches; preserve cumulative accounting not doublecount."
+    },
+    "fellowship": {
+      "source_batch": "FOUNDATION-SQL-publication-manifest.private.json",
+      "staged_SQL_files": 4,
+      "ordering": "001,002,003,004",
+      "applied_status": "Owner retainedreceipt index requested",
+      "next": "Character/runtime storage vs campsite content597; source/code/quest dependencies separate."
+    },
+    "mercenaries": {
+      "source_batch": "FOUNDATION-SQL-publication-manifest.private.json",
+      "staged_SQL_files": 4,
+      "ordering": "001,003,004,002; actual runtime/contentconnection split mandatory",
+      "applied_status": "Owner retainedreceipt index requested",
+      "next": "Optionalcatalogue+laterJourneyman restore deltas; exclude destructiveupstreambootstrap and owned mercrows."
+    },
+    "shrouds": {
+      "source_batch": "FOUNDATION-SQL-publication-manifest.private.json",
+      "staged_SQL_files": 13,
+      "ordering": "Explicit owner list001,003..009,011..015; no002test/010research",
+      "applied_status": "Owner retainedreceipt index requested",
+      "next": "Separate template/AAdefinitions from runtime snapshot/escrow schemas and populatedstate; later corrections."
+    }
+  },
+  "published_receipts": [
+    {
+      "commit": "090a05cc32ec7a7af6fe25951767ee5aabfe5544",
+      "scope": "4baselineprovenancefiles"
+    },
+    {
+      "commit": "02aeb6ab9334f83fbca95be73aa8727498303e73",
+      "scope": "28partialtool/contractfiles"
+    },
+    {
+      "commit": "1820b5e1805ca11ccaff0887a688f47457bbe035",
+      "scope": "14AAsupplementfiles"
+    }
+  ],
+  "baseline_limitations": "Exactinitialclone and upstreamarchive redistribution terms unresolved. These do NOT block publication of our own SQL source changes.",
+  "runtime_actions": false
+}
