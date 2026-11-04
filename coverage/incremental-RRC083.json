@@ -1,0 +1,32 @@
+{
+  "format_version": 1,
+  "batch": "RRC083",
+  "source_commit": "9cf1a427b6503e9ef9cc39f8d8a8a5e67755c5cf",
+  "source_sha256": "64dd76184379fb73a9d963aab2872a28ee67cea641c71b5151436df24379eace",
+  "application_status": "APPLIED_VERIFIED",
+  "recipes_added": 5,
+  "entries_added": 39,
+  "recipe_ids": [
+    3093668,
+    3093672
+  ],
+  "preserved_existing_prototypes": {
+    "recipes": 11,
+    "entries": 95
+  },
+  "TS_cumulative_added_through083": {
+    "recipes": 2672,
+    "entries": 14611
+  },
+  "separate_Xorbb_recipe_excluded": {
+    "recipes": 1,
+    "entries": 6
+  },
+  "held_batch": "RRC014",
+  "prior_closed_SQL_source_path_cutoff": 397,
+  "new_SQL_source_paths": 2,
+  "SQL_source_paths_after_followup": 399,
+  "SQL_path_count_meaning": "Source paths include apply/rollback pairs, disabled sources and readback SQL; not399 distinct applications.",
+  "assembly": "Source/receipt packaging only. No SQL replay, database query, rescan, test, old catalog rewrite or archive change.",
+  "full_content_snapshot_or_universal_upgrade": false
+}

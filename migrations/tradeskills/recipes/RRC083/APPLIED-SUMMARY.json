@@ -1,0 +1,28 @@
+{
+  "batch": "RRC083",
+  "status": "APPLIED_VERIFIED",
+  "SQL_invocations": 1,
+  "published_commit": "9cf1a427b6503e9ef9cc39f8d8a8a5e67755c5cf",
+  "source_sha256": "64dd76184379fb73a9d963aab2872a28ee67cea641c71b5151436df24379eace",
+  "native_actions": false,
+  "player_item_writes": false,
+  "new_rehearsal": false,
+  "recipes": 5,
+  "entries": 39,
+  "ids": [
+    3093668,
+    3093672
+  ],
+  "affected_postimages_exact": true,
+  "unchanged_prototype_recipes": 11,
+  "unchanged_prototype_entries": 95,
+  "old_prototypes_exact": true,
+  "existing_row_changes": "No UPDATE/DELETE of existing recipes; additive exact-ID inserts only. Global old-row diff was not repeated.",
+  "receipt_sha256": "bb82d7c18bc38b4409b4cc58fdf85e00288f61ff80a054764c57ae5368db8cac",
+  "source_SQL_matches_applied_hash": true,
+  "dependency": "Retain RRC078 producer dependency.",
+  "learned_references": "Coordinator reports unchanged; no new scan performed by Database assembly.",
+  "preparation_labels": "Original source metadata records preparation; this later summary records actual application.",
+  "rollback_policy": "Exact published rollback retained as recovery source; not executed or replayed for packaging.",
+  "native_acceptance": "No native acceptance inferred from SQL application."
+}
