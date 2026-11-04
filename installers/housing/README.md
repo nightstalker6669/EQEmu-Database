@@ -1,0 +1,13 @@
+# Fresh-target Housing installer source contract
+
+This kit packages the three existing geometry/capacity policy JSON inputs, the Housing owner's portable contract and exact source/resource manifests. It documents the existing runnable reconstruction path in the companion integrated EQEmu source. It is not a standalone installer, production database export or replacement for that full checkout. No installer code, SQL payload or generator was changed or executed to assemble it.
+
+Use the matching integrated source and normal build dependencies, following `docs/rof2/INSTALL.md`. The entry point is `extensions/rof2/housing/tools/install_housing.py --integrated-source`; its explicit ordered migration manifest, tools, quest overlay/protocol metadata, integrated housing/world/zone/shared-core code and submodules must travel together. `source-inputs.json` binds the inspected source and policy bytes. The policy copies preserve researched versus configurable-default provenance; do not overwrite a newer reviewed checkout with these copies blindly.
+
+Operators supply the matching original client profile, archives/ZON members and collision maps in `operator-resources.json`: twelve interior archive/map pairs plus `neighborhood.map` and moving-crate resources. Expected hashes come from the existing source registries and geometry JSON. The mesh importer does not create missing maps. Assets/maps are not included, and this assembly makes no claim about their presence or distribution rights on another host.
+
+The existing installer imports private geometry sidecars, generates house/room manifests and registries plus a catalogue proposal, registers capacity templates and allocates the target neighborhood/plots/native estate graph through existing services. On a fresh target with no owned rooms, capacity registration upgrades zero owned-room ledgers; no new tool mode or projection is required. Existing-server capacity upgrades stay separate and preserve local player/custody/history state.
+
+Bootstrap blobs contain catalogue definition/region/price IDs, not allocated native estate IDs. Those native IDs are in the node graph. Rebuild bundle and graph through the services; do not copy a production graph or globally renumber a dump. Local receipts, allocated IDs, owned profiles, custody/player data and QA rows are excluded from this source contract.
+
+The already published 392 SQL source paths remain unchanged. These documents complete the narrow fresh-target generated-content packaging contract; runnable installation still requires the operator's matching resources, compatible target schema/configuration and full integrated source/build. SQL application, deployment/cache freshness and native acceptance are separate evidence.

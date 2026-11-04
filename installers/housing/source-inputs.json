@@ -1,0 +1,198 @@
+{
+  "format_version": 1,
+  "kind": "Existing integrated installer and source input bindings; no generated or production data",
+  "integrated_source_repository": "https://github.com/nightstalker6669/EQEmu",
+  "source_reference_commit": "aedc7e878f325a8beaffb04c932fb3c1469f69d3",
+  "source_reference_basis": "Local integrated source HEAD captured for assembly; coordinator/GitHub owns publication confirmation. Per-file SHA bindings identify inspected source bytes.",
+  "required_full_checkout": true,
+  "checkout_dependencies": [
+    "extensions/rof2/housing installer, ordered migrations, tools, quest overlay, protocol metadata",
+    "common/shared_core plus integrated housing/world/zone implementations",
+    "normal integrated build dependencies and submodules"
+  ],
+  "entrypoint": "extensions/rof2/housing/tools/install_housing.py --integrated-source",
+  "ordered_migration_manifest": "extensions/rof2/housing/installer-migrations.json",
+  "source_bindings": {
+    "common/housing/anchor_geometry.inc": {
+      "sha256": "53e64f380225ea29a9ac5ba1a2798d594bb117778b4bce26e54664cf612c6eb7",
+      "bytes": 1292
+    },
+    "common/housing/catalog_service.cpp": {
+      "sha256": "dab01aedafbd6dc27fe04a8b9d597d063ece664fb1b606f5d98da47b758a7365",
+      "bytes": 25905
+    },
+    "common/housing/crate_geometry_registry.h": {
+      "sha256": "dade607928efc9ca87da3c7ed9575cd532ea1742251ce2fa4c7d9c562d10ab40",
+      "bytes": 1762
+    },
+    "common/housing/house_geometry_registry.h": {
+      "sha256": "21b2afd88825f3fcdc471a5b0514e416a9d51c9478cfc7ac6904e60ed7e677af",
+      "bytes": 66908
+    },
+    "common/housing/house_geometry_variant_aliases.inc": {
+      "sha256": "803635a4b4158dc0d2b5bddf35c4b521462f56f061c36803a8ff0507386858d3",
+      "bytes": 10800
+    },
+    "common/housing/house_manor_aliases.inc": {
+      "sha256": "6b27af3f5f8003cc585079c06a71c57ddd5e3e98fb668d905115dbd8f72dd99d",
+      "bytes": 751
+    },
+    "common/housing/house_template_registry.h": {
+      "sha256": "687c2c5fef2d388bbdc07fca39089cd445572fe079af93adabb545d2d8c725b5",
+      "bytes": 6073
+    },
+    "common/housing/house_variant_capacities.json": {
+      "sha256": "8dddca436f85ca7685139c96e000f4f7f033ee420834b4328721227d387b81e6",
+      "bytes": 42689
+    },
+    "common/housing/house_variant_capacity_defaults.json": {
+      "sha256": "189c71bee758a031a7a4f59d6e15f667c95b48caa556186ce33134264520391e",
+      "bytes": 54972
+    },
+    "common/housing/house_variant_geometry.json": {
+      "sha256": "b82a86e6c8d43f93c32cc6b676f10e3d845f72efbdbd3da25f953bb776dff22e",
+      "bytes": 471703
+    },
+    "common/housing/install/capacity_install.cpp": {
+      "sha256": "a4cad4278f1ffc52a86253f49604982ab399bea0c510ff437d67f77be2ab1865",
+      "bytes": 10014
+    },
+    "common/housing/install/content_install.cpp": {
+      "sha256": "8a43bdcf71ba91d971311b36319312c52f21f9da7697bdeb205f3246d7bcc705",
+      "bytes": 12854
+    },
+    "common/housing/interior_capacity_policy_db.h": {
+      "sha256": "3fb7daa1b93ec9f47b9135b14e1d95370741c658aeeddf61388a4ebc9bc109b1",
+      "bytes": 19829
+    },
+    "common/housing/original_furniture_source_catalog.h": {
+      "sha256": "374870c25149f5d06a291b270c273f8bce656c59d4594b806fc26ed81ced5e78",
+      "bytes": 209446
+    },
+    "common/housing/original_mesh_catalog.h": {
+      "sha256": "f08235752fc38ad9a023599e85cd8c2bdb986e7f97ce948bf75c6fa3cc9db8b9",
+      "bytes": 1264
+    },
+    "common/housing/original_terrain_source.h": {
+      "sha256": "988482291a99448160427b5328f129433efdf8d9531c64fbd339ce8920469ba9",
+      "bytes": 6267
+    },
+    "common/housing/original_variant_terrain.inc": {
+      "sha256": "f5b19f3c3a3a4416d183762550c39c689ece129685da039637cd94b3353cf934",
+      "bytes": 1263
+    },
+    "common/housing/original_zon_authored_actor_catalog.h": {
+      "sha256": "dbf544fb13a7061738cde360f8f43f5dac1e8a7a83d336f51973049b71b7e5ae",
+      "bytes": 48350
+    },
+    "common/housing/original_zon_personal_door_catalog.h": {
+      "sha256": "29620fb5601adc867d22fc560ef1723141027451f76c096c681c46b7ca42053a",
+      "bytes": 3098
+    },
+    "common/housing/original_zon_variant_actors.inc": {
+      "sha256": "4eb081b22ddb251841bee1ece9554ace79067ebec3b6dcf6a92dc8d0bf202219",
+      "bytes": 11589
+    },
+    "common/housing/persistence_service.cpp": {
+      "sha256": "989f7823a9161f6227db00fd6c39fc2d9374bf0d2477dfd7c00bc61578af9214",
+      "bytes": 39519
+    },
+    "common/housing/selected_wall_cache_data.h": {
+      "sha256": "34697322586a97e5be65a9d495f7a557d06cf6a9e2c850d678c1c39c16a9f724",
+      "bytes": 19893
+    },
+    "common/housing/static_furniture_class.inc": {
+      "sha256": "642ebd51474309dbac511b85139be6cedc7e7bbef2d9f825dd5ab04bb5ec8e67",
+      "bytes": 252834
+    },
+    "common/housing/static_furniture_mounts.inc": {
+      "sha256": "0611f7a77a46ce7cde76f1d28f15d401b9078793506109dadaeb3ec15cf4c1bd",
+      "bytes": 32713
+    },
+    "common/housing/static_furniture_personal_trophies.inc": {
+      "sha256": "901d8d51dcce8b0d5b09553cee2a6a2d8f6f75d522ea6fa12d1cffb6656e7028",
+      "bytes": 898
+    },
+    "common/housing/static_furniture_registry.h": {
+      "sha256": "3a2ed6b55bd4c1e1206cb0d9504f923ae465de08c0788bc5007c0e5b0bc179f3",
+      "bytes": 4108
+    },
+    "common/housing/static_furniture_rigid_extension.inc": {
+      "sha256": "d4aab56fc5c85197278dc9dc7b4254ad5c093830cdc73f41653d79d0d477f6e5",
+      "bytes": 44942
+    },
+    "common/housing/sunrise_neighborhood_defaults.h": {
+      "sha256": "38eea5cc956dbe223008aee0d0759ae8207e423252ba697660909b05e4736ee4",
+      "bytes": 7929
+    },
+    "docs/rof2/INSTALL.md": {
+      "sha256": "2673c6083c4946aa2e6e2947e4190823216c7bbccfccbbe263d58f1408398363",
+      "bytes": 13201
+    },
+    "extensions/rof2/housing/docs/INSTALL.md": {
+      "sha256": "4bb8e4f45ae28734a39b89761e7f9627c17a88365e2fc9404e3e5479a8cd0a88",
+      "bytes": 11673
+    },
+    "extensions/rof2/housing/installer-migrations.json": {
+      "sha256": "d3822fd26bdcfb72937e7c6cda4a56075bc529bcb683d451ac1c64f4af33f73d",
+      "bytes": 59547
+    },
+    "extensions/rof2/housing/quest-overlay-manifest.json": {
+      "sha256": "188465f9bc76003ac9427ead81b7e30bb95d18159a6c75e1e3b5002563543900",
+      "bytes": 296
+    },
+    "extensions/rof2/housing/source-manifest.json": {
+      "sha256": "9ce2ab78d41fd1ba3d7987cd15249ddd6eff65815a07cf27f5243e9fe2a3996a",
+      "bytes": 95314
+    },
+    "extensions/rof2/housing/tools/apply_overlay.py": {
+      "sha256": "069606f9b26fccb254163f1fead115a421df5a298add356f3d42b928415da89b",
+      "bytes": 2457
+    },
+    "extensions/rof2/housing/tools/generate_house_variant_content.py": {
+      "sha256": "a2032b113fde9e2df9027fae1d56c2f05e573de42ea087cf1443b094528b6fd0",
+      "bytes": 25425
+    },
+    "extensions/rof2/housing/tools/housing_catalog_repairs.py": {
+      "sha256": "dfc84470914c2cadc23db06503532340b22592a8796788c3c6a5706e4ae76bb9",
+      "bytes": 5128
+    },
+    "extensions/rof2/housing/tools/housing_platform.py": {
+      "sha256": "829a8a41c84510b8cd5f5ae08af73029ed3423713cb3633139ffe3a266e40e4e",
+      "bytes": 18340
+    },
+    "extensions/rof2/housing/tools/housing_schema_contract.py": {
+      "sha256": "49f2a65f5f93559c812fbada9d2edb6bb7ec9a00244e62943090faeabfc68237",
+      "bytes": 15204
+    },
+    "extensions/rof2/housing/tools/install_housing.py": {
+      "sha256": "2efa7062ece5200c636b520bbda6de09e698075a3797537ad61f838250acc587",
+      "bytes": 45325
+    },
+    "extensions/rof2/housing/tools/install_original_geometry.py": {
+      "sha256": "260e51aee3bbf473b4f6252f59392f838f33b4853f383d539cfe75b490e0c4af",
+      "bytes": 15774
+    },
+    "extensions/rof2/housing/tools/restore_housing.py": {
+      "sha256": "cb686f639c73d2516fe474caa41598d038c8069c701c3080b62a84bbf95768e6",
+      "bytes": 6085
+    }
+  },
+  "policy_copies": {
+    "house_variant_geometry.json": "policy/house_variant_geometry.json",
+    "house_variant_capacities.json": "policy/house_variant_capacities.json",
+    "house_variant_capacity_defaults.json": "policy/house_variant_capacity_defaults.json"
+  },
+  "fresh_target": "No owned house/interior records: current capacity installer registers templates and upgrades zero owned rooms. No new mode or projection is required.",
+  "existing_server": "Preserve local ownership/custody and separate guarded capacity ledger upgrades; this package is not a production exporter.",
+  "identity_contract": "Bootstrap blobs use definition/region/price IDs. Allocated native estate IDs are stored in the node graph. Reconstruct target bundle and graph through existing services.",
+  "generated_outputs": [
+    "private original mesh sidecars",
+    "per-item house/room manifests",
+    "personal/guild registries",
+    "housing-catalogue-proposal.json",
+    "capacity policy/template registrations",
+    "target-local neighborhood/plots/native estate graph and completion receipt"
+  ],
+  "source_SQL_release": "392 SQLsource paths through RRC081 and Xorbb activation remain frozen; no migration payload rewrite in this package."
+}

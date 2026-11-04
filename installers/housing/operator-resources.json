@@ -1,0 +1,126 @@
+{
+  "format_version": 1,
+  "status": "Required identities from source, not current-host existence or rights proof",
+  "resources_included_in_package": false,
+  "matching_client_profile": [
+    {
+      "relative_path": "eqgame.exe",
+      "expected_sha256": "2a8702ad9f722704f01355c0750be7d6f164a8b9c9128ba0cf286ea32b405b0e"
+    },
+    {
+      "relative_path": "eqgraphicsdx9.dll",
+      "expected_sha256": "ade556b68e98f6f39c5578f70431e11c0b9babcc15b8571eb22cf1e2b654417e"
+    },
+    {
+      "relative_path": "Resources/OnDemandResources.txt",
+      "expected_sha256": "213cf4a17de6676490f9da97afe330cfb4a317ca156089f398c9521c346c7619"
+    },
+    {
+      "relative_path": "Resources/actortaginfo.txt",
+      "expected_sha256": "985ae82cbc2937a6d723e7a662e7b04eb4e9b77a524d5fbd326b02888e9b5f54"
+    }
+  ],
+  "required_interior_archive_map_pairs": [
+    {
+      "zone_id": 714,
+      "archive": "phinterior3a1.eqg",
+      "archive_expected_sha256": "7bb719cfb1301d17dfbeab4888b42385bbb6f12ef758c797fe57f2cb24a601f1",
+      "collision_map": "phinterior3a1.map",
+      "map_expected_sha256": "e725a2ed41219d77236d516662f52074696ea2ff98d652ee44f1173bc1e1238d"
+    },
+    {
+      "zone_id": 715,
+      "archive": "phinterior1a1.eqg",
+      "archive_expected_sha256": "202d7fb69594fa8dc1b1ca1c5699e99587465a85ae525068bae685b9d67efc21",
+      "collision_map": "phinterior1a1.map",
+      "map_expected_sha256": "e9723b133abc4591f62d1d3cdebfa6630c270c2a72ee1aeb0e8e12a02884d339"
+    },
+    {
+      "zone_id": 716,
+      "archive": "phinterior3a2.eqg",
+      "archive_expected_sha256": "68ce4785a02b54b1e2d153378b32ef22914af148b9caaf0bfdf2c77e4dc8bfbb",
+      "collision_map": "phinterior3a2.map",
+      "map_expected_sha256": "e725a2ed41219d77236d516662f52074696ea2ff98d652ee44f1173bc1e1238d"
+    },
+    {
+      "zone_id": 717,
+      "archive": "phinterior3a3.eqg",
+      "archive_expected_sha256": "45b81431734c0babbf4c22c45bf7e21dbd684f2c7b871bf7ab125f7fefd5e9e2",
+      "collision_map": "phinterior3a3.map",
+      "map_expected_sha256": "1c7edc48e5e88636c984607d1bea18492c4fdbca6ff551a03ddc738b8aef486c"
+    },
+    {
+      "zone_id": 718,
+      "archive": "phinterior1a2.eqg",
+      "archive_expected_sha256": "a44a450f5e20377a045ab564297eca47a766da51a9f90b17566436631e009beb",
+      "collision_map": "phinterior1a2.map",
+      "map_expected_sha256": "e9723b133abc4591f62d1d3cdebfa6630c270c2a72ee1aeb0e8e12a02884d339"
+    },
+    {
+      "zone_id": 719,
+      "archive": "phinterior1a3.eqg",
+      "archive_expected_sha256": "9d44db9ddf3df695af6ca72d97fad2c784df315da6de65d5daa7ce96fab83c01",
+      "collision_map": "phinterior1a3.map",
+      "map_expected_sha256": "e9723b133abc4591f62d1d3cdebfa6630c270c2a72ee1aeb0e8e12a02884d339"
+    },
+    {
+      "zone_id": 345,
+      "archive": "guildhall.eqg",
+      "archive_expected_sha256": "086b30c6236546054fde24efea0274b0c34e561320935809afa74a9a03182416",
+      "collision_map": "guildhall.map",
+      "map_expected_sha256": "6af6b64420b29eeb146545a704758ab11e996ee2056c4f7e4446f5fad39c2030"
+    },
+    {
+      "zone_id": 751,
+      "archive": "guildhall3.eqg",
+      "archive_expected_sha256": "fe3ecd056c2b199ad26c1ea3d7a06bac48be827a030e2150ebe7cc732826a0b8",
+      "collision_map": "guildhall3.map",
+      "map_expected_sha256": "633f3123081aeb7158cfbd57874e6f0baf966bd56ba12b5bfc2dc0d4799ad222"
+    },
+    {
+      "zone_id": 737,
+      "archive": "guildhalllrg.eqg",
+      "archive_expected_sha256": "66840bd528fe9a214e8d3029399cd24c80687773f67026967d5508ac5d2ab6da",
+      "collision_map": "guildhalllrg.map",
+      "map_expected_sha256": "ec5e8c1d3a5ea6ff0506e608921c0fa271b098db0b1e087717f9e919670ed541"
+    },
+    {
+      "zone_id": 738,
+      "archive": "guildhallsml.eqg",
+      "archive_expected_sha256": "f33bc06d3415b07e8745bea7d7802297b3049ce7aa4d4ccdc3f3d45f9942daef",
+      "collision_map": "guildhallsml.map",
+      "map_expected_sha256": "0988ed865a30e778a4522cddb7015c8d143a4104b8ca9637d525840156002119"
+    },
+    {
+      "zone_id": 766,
+      "archive": "phinteriortree.eqg",
+      "archive_expected_sha256": "972d4f955d583a5e82668e35e94a2b3072076389a1ba0975962a37ab0e7730bd",
+      "collision_map": "phinteriortree.map",
+      "map_expected_sha256": "9834f7f44e98597da319f7711c5300373405b1ff79ba3f6fee003b0216c7d4bb"
+    },
+    {
+      "zone_id": 723,
+      "archive": "phinterior1d1.eqg",
+      "archive_expected_sha256": "3692e070adc32533afdf5fad7b39f290fb610785371771a29e71299d78dfd354",
+      "collision_map": "phinterior1d1.map",
+      "map_expected_sha256": "fb8a1ea99fcfcb2497a209e4d5238c458136cd9e376d998e0d2d31868ee50aae"
+    }
+  ],
+  "neighborhood_collision_map": {
+    "relative_path": "maps/base/neighborhood.map",
+    "expected_sha256": "d16b27d7c3a07797a45b2900017652d58875207122e7df9e0a506b270d5b6f14"
+  },
+  "moving_crate": {
+    "archive": "furniture06.eqg",
+    "archive_expected_sha256": "d73ffa6a7aa461066079d5fc7bc171399285f7570b16350adfcb73fc3b05b884",
+    "member_expected_sha256": "c7a3bb27f59a3e6b546e7ec2531068d3192fdd92cd9e11122633e4e29a100f36",
+    "item_template_id": 62586,
+    "model": "IT20028",
+    "definition_id": 174,
+    "additional_metadata": "Existing compatible items row required; installer checks idfile/UNK224/UNK227/UNK228/UNK229."
+  },
+  "additional_archives_and_ZON_members": "Resolve exact required members and archive hashes from bound compiled original source registries; this twelve-pair list does not replace full mesh/furniture catalogue authentication.",
+  "collision_map_provision": "Operators must supply reviewed maps. Original mesh importer creates sidecars, not missing collision maps.",
+  "lawful_supply": "Operator provides matching original assets/maps under their own rights; this source kit neither distributes them nor establishes availability/redistribution rights.",
+  "target_paths": "Set explicit client/server/map paths in the integrated installer. Existing user client installation is reused; no full test-client copy or launch is required by this package."
+}
