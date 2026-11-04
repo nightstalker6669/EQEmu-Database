@@ -1,0 +1,33 @@
+{
+  "status": "COMMITTED_INDEPENDENT_BOUNDED_READBACK_PASS",
+  "source_commit": "5619064770dcf33ce3166412e3d82cae2150e387",
+  "source_pins": {
+    "apply.sql": "6f951bca6248589de342d7ea517b49f5ecc72d677a07f8864f0a7fed27955c84",
+    "rollback.sql": "f8d73a64fcf4c7d1f99440e1af6f918d043c61e11cf7a057ae7eaac4a14925e9",
+    "readback.sql": "2af11e51dcb6de7418ac7be94a6712b4cf4e8d5ce2d7672b70dbf1538f880d05",
+    "README.md": "8029ab914620c7991eb346057a39976d2b9c1222e03cbbdf69205f1e0e9039fd"
+  },
+  "UPDATE_invocations": 2,
+  "affected_rows": [
+    3,
+    4
+  ],
+  "source_guard_columns": {
+    "tasks": 21,
+    "task_activities": 18
+  },
+  "operator_full_physical_columns": {
+    "tasks": 29,
+    "task_activities": 25
+  },
+  "precommit_full_postimages_exact": true,
+  "independent_postimages_SHA256": "4c261b7aef7730279ec6ff238b91e39cf2172b737c5efab89a28c8bd02074b2b",
+  "application_receipt_SHA256": "2d0f5471b14b28be83f1da671d54c7e97775d518c650f865131f8adeda60ab5c",
+  "preservation": "Three tasks3040474..3040476 remainenabled0;parent2075325fullrowenabled0unchanged. Only reward_method6->3 on3tasks andactivitytype0->5 on4exactobjectives;goalmethod2/allotherfields unchanged.",
+  "activation_or_cache_or_restart": false,
+  "canonical9345_source_rewritten": false,
+  "player_progress_reset_or_regrant": false,
+  "rollback": "Exact inverse guarded source retained, not executed; no automatic retry.",
+  "native_acceptance": false,
+  "source_preparation_labels": "Original source-only README labels precede application and are retained exactly; this summary records actual application."
+}
