@@ -1,0 +1,56 @@
+{
+  "format_version": 1,
+  "scope": "Combined additive applied source RRC093\u2013094",
+  "entries": [
+    {
+      "batch": "RRC093",
+      "source_commit": "bfd78e2c17b9334c8aff0af299fba81d4abe4cbf",
+      "source_sha256": "a16a3b857005ccb02575ce160edefd928259e9bf6e534e13aff9fe49c6f1546e",
+      "application_status": "APPLIED_VERIFIED",
+      "recipes_added": 0,
+      "entries_added": 1,
+      "change": "Only ingredient93542 component1/salvage1 on12743. Fullrecipe/all8oldentries/output79412/trivial418/learning2/kit93492/learnedrefs preserved per owner receipt."
+    },
+    {
+      "batch": "RRC094",
+      "source_commit": "2937e87a1801681ef6bd8d64f6b92638eccbecde",
+      "source_sha256": "48e65f21bbae85beb865daf1f86c966a4e39f39deec73c25af902baed2928258",
+      "application_status": "APPLIED_VERIFIED",
+      "recipes_added": 2,
+      "entries_added": 17,
+      "recipe_ids": [
+        3093968,
+        3093969
+      ],
+      "preservation": "64older definitions/553entries, held12664trivial, learnedrefs/nativeoutputs preserved;12743 untouched per owner receipt."
+    }
+  ],
+  "TS_cumulative_added_through094": {
+    "recipes": 2969,
+    "entries": 16915
+  },
+  "separate_Xorbb_recipe_excluded": {
+    "recipes": 1,
+    "entries": 6
+  },
+  "held_batch": "RRC014",
+  "prior_closed_normal_SQL_path_cutoff": 420,
+  "new_normal_SQL_paths": 4,
+  "normal_SQL_paths_after_followup": 424,
+  "selected_twelve_class_paper_checkpoint": {
+    "checkpoint_sha256": "4dd26cb715e40007db36e59ad4ba313d5d0bb5b31d2a71938279b836f4628a80",
+    "basis": "Owner/coordinator selected checkpoint; no new Database scan.",
+    "unique_views": 275,
+    "producers_represented": 275,
+    "role_and_numeric_match": 270,
+    "held_trivial_differences": 5,
+    "new_recipe_subset": 14,
+    "new_recipe_subset_entries": 109,
+    "missing_ingredient_corrections": 1,
+    "qualification": "Selected subset completeness only; not all-game or whole-class completeness, native acceptance, or immutable May2013 per-field proof. These subset counts are not additional rows beyond the batch totals."
+  },
+  "Scent_disabled_candidate_separate": true,
+  "QA39999_production_exclusion_retained": true,
+  "SQL_path_count_meaning": "Paths include apply/rollback pairs and readback SQL, not424 applications.",
+  "assembly": "No database query/replay/rescan/test/runtime or QA cleanup action; old archives/catalogues unchanged. Source and receipt bytes reused exactly."
+}
