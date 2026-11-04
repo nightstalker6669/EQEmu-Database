@@ -1,0 +1,39 @@
+{
+  "format_version": 1,
+  "batch": "RRC084",
+  "source_commit": "a11d78c2137c01a132998697a53d6304273c73c7",
+  "source_sha256": "f323a3c11bd4dee5cda2e29d3f439fc7acb84300f8cf456a06506faf07eb5ff4",
+  "application_status": "APPLIED_VERIFIED",
+  "recipes_added": 36,
+  "entries_added": 281,
+  "recipe_ids": [
+    3093673,
+    3093708
+  ],
+  "preserved_existing_prototypes": {
+    "definitions": 6,
+    "entries": 50
+  },
+  "preserved_RRC072_subset": {
+    "definitions": 5,
+    "logical_entries": 68
+  },
+  "learned_references": "Preserved per owner/coordinator receipt; no new scan.",
+  "TS_cumulative_added_through084": {
+    "recipes": 2708,
+    "entries": 14892
+  },
+  "separate_Xorbb_recipe_excluded": {
+    "recipes": 1,
+    "entries": 6
+  },
+  "held_batch": "RRC014",
+  "excluded_recipe_36389": "2017 exclusion retained.",
+  "prior_closed_normal_SQL_path_cutoff": 399,
+  "new_normal_SQL_paths": 2,
+  "normal_SQL_paths_after_followup": 401,
+  "Scent_candidate_SQL": "Two .sql.disabled source files remain separate, unexecuted/unparsed/not applied.",
+  "SQL_path_count_meaning": "Paths include apply/rollback pairs and readback SQL; not401 database applications.",
+  "assembly": "Additive source/receipt packaging only; no database query/replay/rescan/tests/runtime writes or old catalog/archive changes.",
+  "full_content_snapshot_or_universal_upgrade": false
+}
