@@ -1,0 +1,115 @@
+{
+  "format_version": 1,
+  "date": "2026-11-04",
+  "original_baseline_sha256": "ac8649f23d2c3aea2cade138dfe10d46d1b21ad1a80d08ca95f5434fab7f218d",
+  "status": "Offline assembled partial applied-content segment; no runtime execution/publication",
+  "baseline_to_segment_chain_complete": false,
+  "prerequisites": [
+    {
+      "id": "merchant-language-schema9336-and-matching-code",
+      "source_path": "utils/sql/git/2026_11_01_merchant_language_requirements.sql",
+      "sha256": "05b9848e2e9a23b652d7c20c521c1f2ebbf2b9926c9fec348e6583c4fba1f59c",
+      "registry_version": 9336,
+      "registry_source_head": "aedc7e878f325a8beaffb04c932fb3c1469f69d3",
+      "qualification": "Schema/code prerequisite only. Not duplicated as a content insert migration, not permission to apply DDL or advance db_version."
+    },
+    {
+      "id": "feature-specific-exact-preimages",
+      "status": "Pinned original feature payload and guards; complete prior content chain still being assembled."
+    }
+  ],
+  "assembly_order": [
+    "pok-existing",
+    "pok-tomes",
+    "pok-new",
+    "rof-extraordinary-velocity",
+    "voa-matima-two",
+    "pok-rogue-three",
+    "voa-gouging-blade",
+    "aa003"
+  ],
+  "order_qualification": "PoK components preserve actual order; other components touch independent content keys and listed order is deterministic assembly only, not invented dependency. AA has independent exact preimage contract.",
+  "contracts": [
+    {
+      "id": "rof-extraordinary-velocity",
+      "file": "rof-extraordinary-velocity.json",
+      "requires": [
+        "merchant-language-schema9336-and-matching-code",
+        "feature-specific-exact-preimages"
+      ],
+      "row_count": 1
+    },
+    {
+      "id": "voa-matima-two",
+      "file": "voa-matima-two.json",
+      "requires": [
+        "merchant-language-schema9336-and-matching-code",
+        "feature-specific-exact-preimages"
+      ],
+      "row_count": 2
+    },
+    {
+      "id": "pok-rogue-three",
+      "file": "pok-rogue-three.json",
+      "requires": [
+        "merchant-language-schema9336-and-matching-code",
+        "feature-specific-exact-preimages"
+      ],
+      "row_count": 3
+    },
+    {
+      "id": "voa-gouging-blade",
+      "file": "voa-gouging-blade.json",
+      "requires": [
+        "merchant-language-schema9336-and-matching-code",
+        "feature-specific-exact-preimages"
+      ],
+      "row_count": 1
+    },
+    {
+      "id": "pok-existing",
+      "file": "pok-existing.json",
+      "requires": [
+        "merchant-language-schema9336-and-matching-code",
+        "feature-specific-exact-preimages"
+      ],
+      "row_count": 9
+    },
+    {
+      "id": "pok-tomes",
+      "file": "pok-tomes.json",
+      "requires": [
+        "merchant-language-schema9336-and-matching-code",
+        "feature-specific-exact-preimages"
+      ],
+      "row_count": 2
+    },
+    {
+      "id": "pok-new",
+      "file": "pok-new.json",
+      "requires": [
+        "merchant-language-schema9336-and-matching-code",
+        "feature-specific-exact-preimages",
+        "pok-existing",
+        "pok-tomes"
+      ],
+      "row_count": 91
+    },
+    {
+      "id": "aa003",
+      "file": "aa003.json",
+      "requires": [
+        "exact guarded AA content preimages"
+      ],
+      "row_count": 3
+    }
+  ],
+  "total_intended_insert_rows": 112,
+  "excluded": [
+    "Player/account/inventory/custody rows",
+    "Credentials/private config/logs",
+    "Full database backups",
+    "Disabled/proposed AA004 and unrelated research"
+  ],
+  "validation": "Offline payload canonical hashes match all7 component application/readback references; PoK final helper hash matches actual combined receipt; AA SQL bytes match applied published SQL hash. No new database/client testing."
+}

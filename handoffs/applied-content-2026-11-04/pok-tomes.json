@@ -1,0 +1,80 @@
+{
+  "id": "pok-tomes",
+  "kind": "content-row-handoff",
+  "execution_ready": false,
+  "requires": [
+    "merchant-language-schema9336-and-matching-code",
+    "feature-specific-exact-preimages"
+  ],
+  "assembly_order_qualification": "Existing, tomes, new preserves actual application sequence; these are independently guarded components, not a newly asserted engine dependency.",
+  "source": {
+    "repository": "nightstalker6669/EQEmu",
+    "commit_chain": [
+      "5249882840b4b03c9a7f7f5e8beef82c5f9e8c52",
+      "6016d96348534ba9419f45e9ceb3a51c8734b8e2",
+      "3b223c05f2447f7278411346e006124fab0bbf9a"
+    ],
+    "final_helper_sha256": "d5b8dc40d5061fccee4611f7752b9d9723104c6d8244ce5eb45c4a019ed3796b",
+    "payload_file_sha256": "df67340a8afd6f2eab6fb5ac9a522c56c8fd682286243fbcc13050f3b557ac82",
+    "payload_canonical_sha256": "d2aede2fd52367dd4524072ddff75a7babc2ddab0af2325536d44acd569759c3",
+    "payload_url": "https://github.com/nightstalker6669/EQEmu/blob/3b223c05f2447f7278411346e006124fab0bbf9a/extensions/rof2/spells/reconstructions/pok-underfoot-rank1/existing-tomes.json"
+  },
+  "applied_status": {
+    "application_status": "COMMITTED_TOMES_POK_COMPONENT",
+    "completed_sha256": "01ede566de196924ff6e5b7cc51432130fffdeddba096dd2d3e594df0ffec2ca",
+    "readback_status": "INDEPENDENT_FULL_POSTIMAGE_READBACK_PASS",
+    "readback_sha256": "8d7af88330b8015707e9e0763c5b3a1c59b4e11fb22a1eb8344d94ade014bc39",
+    "combined_receipt_sha256": "1b7decde2249bcb29568b81465c233dbc2ef69975dcda29f7aa605e910b9ef2f",
+    "native_acceptance": false
+  },
+  "writes": {
+    "merchantlist": [
+      {
+        "merchantid": 202161,
+        "slot": 9,
+        "item": 119709,
+        "faction_required": -1100,
+        "level_required": 0,
+        "min_status": 0,
+        "max_status": 255,
+        "alt_currency_cost": 0,
+        "classes_required": 65535,
+        "probability": 100,
+        "bucket_name": "",
+        "bucket_value": "",
+        "bucket_comparison": 0,
+        "min_expansion": 18,
+        "max_expansion": -1,
+        "content_flags": null,
+        "content_flags_disabled": null,
+        "language_required": -1,
+        "language_skill_required": 0
+      },
+      {
+        "merchantid": 202308,
+        "slot": 9,
+        "item": 119633,
+        "faction_required": -1100,
+        "level_required": 0,
+        "min_status": 0,
+        "max_status": 255,
+        "alt_currency_cost": 0,
+        "classes_required": 65535,
+        "probability": 100,
+        "bucket_name": "",
+        "bucket_value": "",
+        "bucket_comparison": 0,
+        "min_expansion": 18,
+        "max_expansion": -1,
+        "content_flags": null,
+        "content_flags_disabled": null,
+        "language_required": -1,
+        "language_skill_required": 0
+      }
+    ]
+  },
+  "historical_qualification": "Period provider membership/rollout research plus explicitly qualified actor reconstruction; use final source README/provenance and binding corrections. New actors are reconstructed, not recovered original rows.",
+  "content_qualification": "All54stock and new12parent spawns gated min_expansion18; Ulin202161/119709 and Zhao202308/119633 bindings retained. Rogue3 was held in this batch and is a later separate handoff.",
+  "preimage_qualification": "Final helper exact column-set and timestamp comparison corrections required. Full original-baseline-to-preimage chain not asserted complete.",
+  "portable_sql_remaining": "Preserve final helper semantics, namespace checks, original preimages and child receipts; no bare INSERT replay."
+}

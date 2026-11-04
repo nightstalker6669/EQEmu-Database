@@ -1,0 +1,88 @@
+{
+  "id": "voa-matima-two",
+  "kind": "content-row-handoff",
+  "execution_ready": false,
+  "applied_status": {
+    "application_status": "COMMITTED_TWO_MATIMA_STOCK_ROWS_QUALIFIED_LANGUAGE50_DEFAULT",
+    "application_receipt_sha256": "e1eb5da539b0ffc75341c97d2e08ac159f4055dff7f1907b9a3dea5d959aaf6b",
+    "readback_status": "INDEPENDENT_FULL_POSTIMAGE_READBACK_PASS",
+    "readback_receipt_sha256": "95c93471269c3c86a204ad53eb658f5b208bdd202eba5adf35ddf9c5a740e012",
+    "native_acceptance": false,
+    "scope": "Retained receipts, not fresh runtime readback."
+  },
+  "source": {
+    "repository": "nightstalker6669/EQEmu",
+    "commit": "1ca42d25c39a7a7aa8b6384ab8c2ac3bf4c8c612",
+    "directory_url": "https://github.com/nightstalker6669/EQEmu/tree/1ca42d25c39a7a7aa8b6384ab8c2ac3bf4c8c612/extensions/rof2/spells/reconstructions/voa-matima-two",
+    "payload_file_sha256": "b7164744bd0a08db57e95e9e8ddccf3f3f025b915dbca366f42cc8a1d3791a89",
+    "payload_canonical_sha256": "e51656a253590371afc572663041adbe6a1f23df405a29bb7dff8e4f89e3b198",
+    "helper_sha256": "f02e110f2898ec6219df2620f6b5f456fe8b2454ea246895312f619e876c3edc"
+  },
+  "requires": [
+    "merchant-language-schema9336-and-matching-code",
+    "feature-specific-exact-preimages"
+  ],
+  "preconditions": {
+    "full_source_payload_reference": "https://github.com/nightstalker6669/EQEmu/tree/1ca42d25c39a7a7aa8b6384ab8c2ac3bf4c8c612/extensions/rof2/spells/reconstructions/voa-matima-two/data.json",
+    "preserve_exact_source_guards": true,
+    "expected_existing_stock_rows": 71,
+    "guarded_content_domains": [
+      "npc_types",
+      "merchantlist",
+      "items",
+      "spells_new"
+    ],
+    "preimage_qualification": "Preimages are from the modified runtime at application, not asserted to equal raw schema9328 baseline. Full baseline-to-preimage delta chain remains to assemble."
+  },
+  "writes": {
+    "merchantlist": [
+      {
+        "merchantid": 724039,
+        "slot": 103,
+        "item": 131772,
+        "faction_required": -1100,
+        "level_required": 0,
+        "min_status": 0,
+        "max_status": 255,
+        "alt_currency_cost": 0,
+        "classes_required": 65535,
+        "probability": 100,
+        "bucket_name": "",
+        "bucket_value": "",
+        "bucket_comparison": 0,
+        "min_expansion": 18,
+        "max_expansion": -1,
+        "content_flags": null,
+        "content_flags_disabled": null,
+        "language_required": 25,
+        "language_skill_required": 50
+      },
+      {
+        "merchantid": 724039,
+        "slot": 104,
+        "item": 131958,
+        "faction_required": -1100,
+        "level_required": 0,
+        "min_status": 0,
+        "max_status": 255,
+        "alt_currency_cost": 0,
+        "classes_required": 65535,
+        "probability": 100,
+        "bucket_name": "",
+        "bucket_value": "",
+        "bucket_comparison": 0,
+        "min_expansion": 18,
+        "max_expansion": -1,
+        "content_flags": null,
+        "content_flags_disabled": null,
+        "language_required": 25,
+        "language_skill_required": 50
+      }
+    ]
+  },
+  "historical_qualification": "Dated2011vendor membership; exact per-scroll language threshold unresolved,50explicit localdefault",
+  "selected_local_default": 50,
+  "preservation": "Existing stock, item/spell prices and identities, other consumers, player state preserved.",
+  "source_status_qualification": "Original source provenance files describe preparation state; retained later completed/readback receipts establish applied status separately.",
+  "portable_sql_remaining": "Convert owner full preimage guards into target-database-independent migration without weakening guards; do not run bare INSERT projections."
+}

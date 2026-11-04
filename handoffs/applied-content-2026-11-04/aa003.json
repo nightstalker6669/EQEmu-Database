@@ -1,0 +1,53 @@
+{
+  "id": "aa003",
+  "kind": "owner-guarded-sql",
+  "execution_ready": "Only on exact guarded preimages, not a complete schema9328 upgrade",
+  "source_commit": "238b135ad1ca9992b330b32619423ffee9f604e9",
+  "sql_file": "aa003/2026_11_04_kerafyrm_favor.sql",
+  "sql_sha256": "9416a21cc1e93383e4786a4a269889627ea686c1736b0379f309ad884a9fa2b4",
+  "application_receipt_sha256": "f626128e060d2a8c97a4b51d5d6f32e70fdb9a20f3b6702d63b5d2af8083ae9b",
+  "status": "COMMITTED",
+  "committed_readback_matches": true,
+  "qualification": "Selected local reconstruction defaults: cost2/level90/exp17/template/no-op/prereq5081, not recovered original period record. No native purchase/activation acceptance.",
+  "writes": {
+    "aa_ranks": [
+      {
+        "id": 12891,
+        "upper_hotkey_sid": -1,
+        "lower_hotkey_sid": -1,
+        "title_sid": 12889,
+        "desc_sid": 12889,
+        "cost": 2,
+        "level_req": 90,
+        "spell": -1,
+        "spell_type": 0,
+        "recast_time": 0,
+        "expansion": 17,
+        "prev_id": 12890,
+        "next_id": -1
+      }
+    ],
+    "aa_rank_effects": [
+      {
+        "rank_id": 12891,
+        "slot": 1,
+        "effect_id": 10,
+        "base1": 0,
+        "base2": 0
+      }
+    ],
+    "aa_rank_prereqs": [
+      {
+        "rank_id": 12891,
+        "aa_id": 508,
+        "points": 1
+      }
+    ]
+  },
+  "requires": [
+    "MariaDB compound-block support",
+    "transactional target content tables",
+    "exact guarded AA content preimages"
+  ],
+  "native_acceptance": false
+}

@@ -1,0 +1,67 @@
+{
+  "id": "rof-extraordinary-velocity",
+  "kind": "content-row-handoff",
+  "execution_ready": false,
+  "applied_status": {
+    "application_status": "COMMITTED_ONE_QUALIFIED_EXTRAORDINARY_VELOCITY_STOCK_ROW",
+    "application_receipt_sha256": "1e4577907aa4ad6b48ec1302c2359fcb36f674860bdf8b6ed39c48c7050132d4",
+    "readback_status": "INDEPENDENT_FULL_POSTIMAGE_READBACK_PASS",
+    "readback_receipt_sha256": "4a26224d6cd69a2860763956651e45dbc5a59f9ab860891380a90cf8d2a1d411",
+    "native_acceptance": false,
+    "scope": "Retained receipts, not fresh runtime readback."
+  },
+  "source": {
+    "repository": "nightstalker6669/EQEmu",
+    "commit": "0332a883e3876ecbffd7d456a6f9592f589f08f9",
+    "directory_url": "https://github.com/nightstalker6669/EQEmu/tree/0332a883e3876ecbffd7d456a6f9592f589f08f9/extensions/rof2/spells/reconstructions/rof-extraordinary-velocity",
+    "payload_file_sha256": "d714f39f2bcf8d872544a7b9f3d1d4682526eceafebc22c540d129199cf3a216",
+    "payload_canonical_sha256": "24228dbada93aca089947d9323bc7fd57e282fbc51e0b834e45e413118f3998c",
+    "helper_sha256": "096a3fe54121b297990a2ea10c3b22446241fb52e64a1eda53196b832f5c88e8"
+  },
+  "requires": [
+    "merchant-language-schema9336-and-matching-code",
+    "feature-specific-exact-preimages"
+  ],
+  "preconditions": {
+    "full_source_payload_reference": "https://github.com/nightstalker6669/EQEmu/tree/0332a883e3876ecbffd7d456a6f9592f589f08f9/extensions/rof2/spells/reconstructions/rof-extraordinary-velocity/data.json",
+    "preserve_exact_source_guards": true,
+    "expected_existing_stock_rows": 73,
+    "guarded_content_domains": [
+      "npc_types",
+      "merchantlist",
+      "items",
+      "spells_new"
+    ],
+    "preimage_qualification": "Preimages are from the modified runtime at application, not asserted to equal raw schema9328 baseline. Full baseline-to-preimage delta chain remains to assemble."
+  },
+  "writes": {
+    "merchantlist": [
+      {
+        "merchantid": 752137,
+        "slot": 74,
+        "item": 138370,
+        "faction_required": -100,
+        "level_required": 0,
+        "min_status": 0,
+        "max_status": 255,
+        "alt_currency_cost": 0,
+        "classes_required": 65535,
+        "probability": 100,
+        "bucket_name": "",
+        "bucket_value": "",
+        "bucket_comparison": 0,
+        "min_expansion": 19,
+        "max_expansion": -1,
+        "content_flags": null,
+        "content_flags_disabled": null,
+        "language_required": -1,
+        "language_skill_required": 0
+      }
+    ]
+  },
+  "historical_qualification": "Periodspell/provider+currentnamedstock inference, not independentlydatedmerchantrow",
+  "selected_local_default": null,
+  "preservation": "Existing stock, item/spell prices and identities, other consumers, player state preserved.",
+  "source_status_qualification": "Original source provenance files describe preparation state; retained later completed/readback receipts establish applied status separately.",
+  "portable_sql_remaining": "Convert owner full preimage guards into target-database-independent migration without weakening guards; do not run bare INSERT projections."
+}

@@ -1,0 +1,67 @@
+{
+  "id": "voa-gouging-blade",
+  "kind": "content-row-handoff",
+  "execution_ready": false,
+  "applied_status": {
+    "application_status": "COMMITTED_ONE_ORIGINAL_GOUGING_BLADE_STOCK_ROW_LOCAL_LANGUAGE25_DEFAULT",
+    "application_receipt_sha256": "8fc4d3793016878ad27066c1b069c80b5eef706770414cc04751d5aa43a7afb6",
+    "readback_status": "INDEPENDENT_FULL_POSTIMAGE_READBACK_PASS",
+    "readback_receipt_sha256": "36e9dd1a1be051e74fe8f25adb1069551fa77c2304b9b143851a249303c8e51a",
+    "native_acceptance": false,
+    "scope": "Retained receipts, not fresh runtime readback."
+  },
+  "source": {
+    "repository": "nightstalker6669/EQEmu",
+    "commit": "3fd8045a8acfb69416c1f09213f4c576144dd4f0",
+    "directory_url": "https://github.com/nightstalker6669/EQEmu/tree/3fd8045a8acfb69416c1f09213f4c576144dd4f0/extensions/rof2/spells/reconstructions/voa-gouging-blade",
+    "payload_file_sha256": "8e73dd0032b45c052d835260ed03ab23bf2320a4761c190e6aabd9d64ef94026",
+    "payload_canonical_sha256": "f5da408733c1384d8cb3a58f389d04a63282b7a4e76496665323c2475147eecf",
+    "helper_sha256": "51698fdf3fa336f54f3f20979e9719e63332f627e3f74bd8f4a034e1f1a4aed6"
+  },
+  "requires": [
+    "merchant-language-schema9336-and-matching-code",
+    "feature-specific-exact-preimages"
+  ],
+  "preconditions": {
+    "full_source_payload_reference": "https://github.com/nightstalker6669/EQEmu/tree/3fd8045a8acfb69416c1f09213f4c576144dd4f0/extensions/rof2/spells/reconstructions/voa-gouging-blade/data.json",
+    "preserve_exact_source_guards": true,
+    "expected_existing_stock_rows": 78,
+    "guarded_content_domains": [
+      "npc_types",
+      "merchantlist",
+      "items",
+      "spells_new"
+    ],
+    "preimage_qualification": "Preimages are from the modified runtime at application, not asserted to equal raw schema9328 baseline. Full baseline-to-preimage delta chain remains to assemble."
+  },
+  "writes": {
+    "merchantlist": [
+      {
+        "merchantid": 724022,
+        "slot": 127,
+        "item": 130687,
+        "faction_required": -1100,
+        "level_required": 0,
+        "min_status": 0,
+        "max_status": 255,
+        "alt_currency_cost": 0,
+        "classes_required": 65535,
+        "probability": 100,
+        "bucket_name": "",
+        "bucket_value": "",
+        "bucket_comparison": 0,
+        "min_expansion": 18,
+        "max_expansion": -1,
+        "content_flags": null,
+        "content_flags_disabled": null,
+        "language_required": 25,
+        "language_skill_required": 25
+      }
+    ]
+  },
+  "historical_qualification": "Jan1,2012namedvendor inventory; exact per-scroll languagegateunknown",
+  "selected_local_default": 25,
+  "preservation": "Existing stock, item/spell prices and identities, other consumers, player state preserved.",
+  "source_status_qualification": "Original source provenance files describe preparation state; retained later completed/readback receipts establish applied status separately.",
+  "portable_sql_remaining": "Convert owner full preimage guards into target-database-independent migration without weakening guards; do not run bare INSERT projections."
+}

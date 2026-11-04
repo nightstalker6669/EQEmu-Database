@@ -1,0 +1,168 @@
+{
+  "format_version": 1,
+  "date": "2026-11-04",
+  "status": "Prepared portable target-name adaptations; no database execution. Not a complete baseline installer or SQL migration replacement.",
+  "source_and_applied_contracts": "../../handoffs/applied-content-2026-11-04/segment-manifest.json",
+  "mandatory_preconditions": "Original full content/schema/engine/namespace preimages and final PoK corrections retained; require matching code/schema9336+ and exact feature preimages. New database name alone is insufficient.",
+  "dependencies": [
+    "Python3",
+    "PyMySQL only for explicitly selected apply/readback actions",
+    "matching schema and code",
+    "private configuration supplied by deploying owner"
+  ],
+  "source_helpers_mutated": false,
+  "entries": [
+    {
+      "id": "rof-extraordinary-velocity",
+      "original_helper_sha256": "096a3fe54121b297990a2ea10c3b22446241fb52e64a1eda53196b832f5c88e8",
+      "portable_helper_sha256": "39a3ad93b19180b50ff75cdd86fcea54df7a825fa4f9290573d2a551da42dc87",
+      "adaptation": "Only explicit required --database argument and replacement of two fixed target-name equality checks. All other source AST unchanged.",
+      "reverse_ast_comparison": "PASS",
+      "offline_plan_results": [
+        {
+          "mode": "offline_plan",
+          "database_connected": false,
+          "inserts": 1,
+          "item": 138370,
+          "spell": 36370,
+          "class": "BST98",
+          "cost": "existingpositiveitemprice/nativeplatinumcalculation"
+        }
+      ],
+      "payloads": [
+        {
+          "path": "rof-extraordinary-velocity/data.json",
+          "sha256": "d714f39f2bcf8d872544a7b9f3d1d4682526eceafebc22c540d129199cf3a216"
+        }
+      ]
+    },
+    {
+      "id": "voa-matima-two",
+      "original_helper_sha256": "f02e110f2898ec6219df2620f6b5f456fe8b2454ea246895312f619e876c3edc",
+      "portable_helper_sha256": "14ca670f66211a7742a8ef731ef03b88f14efd38aaa2c21b72f4812e8af1d993",
+      "adaptation": "Only explicit required --database argument and replacement of two fixed target-name equality checks. All other source AST unchanged.",
+      "reverse_ast_comparison": "PASS",
+      "offline_plan_results": [
+        {
+          "mode": "offline_plan",
+          "database_connected": false,
+          "inserts": 2,
+          "before_stock_rows": 71,
+          "after_stock_rows": 73,
+          "new_slots": [
+            103,
+            104
+          ],
+          "language_skill_default": 50,
+          "original_threshold_verified": false
+        }
+      ],
+      "payloads": [
+        {
+          "path": "voa-matima-two/data.json",
+          "sha256": "b7164744bd0a08db57e95e9e8ddccf3f3f025b915dbca366f42cc8a1d3791a89"
+        }
+      ]
+    },
+    {
+      "id": "pok-rogue-three",
+      "original_helper_sha256": "c09febde10b94b10ebdbdd1084f09d54ec4bad7769bbadcb27d33bda1e847ba0",
+      "portable_helper_sha256": "2fe2e3a30927a0fbdf76c587c8f5d28f10f7d86a6a8cca17d95d231fd712e482",
+      "adaptation": "Only explicit required --database argument and replacement of two fixed target-name equality checks. All other source AST unchanged.",
+      "reverse_ast_comparison": "PASS",
+      "offline_plan_results": [
+        {
+          "mode": "offline_plan",
+          "database_connected": false,
+          "inserts": 3,
+          "before_stock_rows": 28,
+          "after_stock_rows": 31,
+          "new_slots": [
+            29,
+            30,
+            31
+          ],
+          "min_expansion": 18,
+          "membership_qualification": "periodrole_lineage_plus_currentnamedstock_inference"
+        }
+      ],
+      "payloads": [
+        {
+          "path": "pok-rogue-three/data.json",
+          "sha256": "89af49d652d77423adc64a09699cb880cd4d01173181be03cc3e15bca314bbff"
+        }
+      ]
+    },
+    {
+      "id": "voa-gouging-blade",
+      "original_helper_sha256": "51698fdf3fa336f54f3f20979e9719e63332f627e3f74bd8f4a034e1f1a4aed6",
+      "portable_helper_sha256": "9f2df7b85a513902ce19513e076d0aade8f49adf84da1a48f37131d8b747f13e",
+      "adaptation": "Only explicit required --database argument and replacement of two fixed target-name equality checks. All other source AST unchanged.",
+      "reverse_ast_comparison": "PASS",
+      "offline_plan_results": [
+        {
+          "mode": "offline_plan",
+          "database_connected": false,
+          "inserts": 1,
+          "item": 130687,
+          "spell": 28687,
+          "class": "SHD92",
+          "cost": "existingpositiveitemprice/nativeplatinumcalculation"
+        }
+      ],
+      "payloads": [
+        {
+          "path": "voa-gouging-blade/data.json",
+          "sha256": "8e73dd0032b45c052d835260ed03ab23bf2320a4761c190e6aabd9d64ef94026"
+        }
+      ]
+    },
+    {
+      "id": "pok-underfoot-rank1",
+      "original_helper_sha256": "d5b8dc40d5061fccee4611f7752b9d9723104c6d8244ce5eb45c4a019ed3796b",
+      "portable_helper_sha256": "c8ea4d6387fc32eb2f4405095c1bd7c9ae83713167c4edb9928d6a94cf51fd62",
+      "adaptation": "Only explicit required --database argument and replacement of two fixed target-name equality checks. All other source AST unchanged.",
+      "reverse_ast_comparison": "PASS",
+      "offline_plan_results": [
+        {
+          "mode": "offline_plan",
+          "database_connected": false,
+          "component": "existing",
+          "stock_inserts": 9,
+          "actor_inserts": 0,
+          "total_inserts": 9
+        },
+        {
+          "mode": "offline_plan",
+          "database_connected": false,
+          "component": "tomes",
+          "stock_inserts": 2,
+          "actor_inserts": 0,
+          "total_inserts": 2
+        },
+        {
+          "mode": "offline_plan",
+          "database_connected": false,
+          "component": "new",
+          "stock_inserts": 43,
+          "actor_inserts": 48,
+          "total_inserts": 91
+        }
+      ],
+      "payloads": [
+        {
+          "path": "pok-underfoot-rank1/existing-vendors.json",
+          "sha256": "4278e861bd51db4f8e3b1d02999e033aa2cab8f5fb1fa6e9033a5a3cb26e679e"
+        },
+        {
+          "path": "pok-underfoot-rank1/existing-tomes.json",
+          "sha256": "df67340a8afd6f2eab6fb5ac9a522c56c8fd682286243fbcc13050f3b557ac82"
+        },
+        {
+          "path": "pok-underfoot-rank1/new-providers.json",
+          "sha256": "f44cd049c3981f99b3a8e1a2849e2c7ad289535b469346dc32dfaf35afdc44a2"
+        }
+      ]
+    }
+  ]
+}

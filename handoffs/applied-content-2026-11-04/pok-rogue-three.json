@@ -1,0 +1,109 @@
+{
+  "id": "pok-rogue-three",
+  "kind": "content-row-handoff",
+  "execution_ready": false,
+  "applied_status": {
+    "application_status": "COMMITTED_THREE_QUALIFIED_POK_ROGUE_STOCK_ROWS",
+    "application_receipt_sha256": "8e7d2e96384fe2ea8f05c2fd52b735932dbde0c1fb3b610325d3c5b20209dd70",
+    "readback_status": "INDEPENDENT_FULL_POSTIMAGE_READBACK_PASS",
+    "readback_receipt_sha256": "98c23ab7627e5ee996fc607cd370604d128697146d14f1f246fad25d8321f089",
+    "native_acceptance": false,
+    "scope": "Retained receipts, not fresh runtime readback."
+  },
+  "source": {
+    "repository": "nightstalker6669/EQEmu",
+    "commit": "71cc1fdae08ee8a0463f3f4c70e0f568b59e04e4",
+    "directory_url": "https://github.com/nightstalker6669/EQEmu/tree/71cc1fdae08ee8a0463f3f4c70e0f568b59e04e4/extensions/rof2/spells/reconstructions/pok-rogue-three",
+    "payload_file_sha256": "89af49d652d77423adc64a09699cb880cd4d01173181be03cc3e15bca314bbff",
+    "payload_canonical_sha256": "6df1b327e8eb176fdb488794c994e6a8b87077a2825b0afc9082fe3f5fa43869",
+    "helper_sha256": "c09febde10b94b10ebdbdd1084f09d54ec4bad7769bbadcb27d33bda1e847ba0"
+  },
+  "requires": [
+    "merchant-language-schema9336-and-matching-code",
+    "feature-specific-exact-preimages"
+  ],
+  "preconditions": {
+    "full_source_payload_reference": "https://github.com/nightstalker6669/EQEmu/tree/71cc1fdae08ee8a0463f3f4c70e0f568b59e04e4/extensions/rof2/spells/reconstructions/pok-rogue-three/data.json",
+    "preserve_exact_source_guards": true,
+    "expected_existing_stock_rows": 28,
+    "guarded_content_domains": [
+      "npc_types",
+      "merchantlist",
+      "items",
+      "spells_new"
+    ],
+    "preimage_qualification": "Preimages are from the modified runtime at application, not asserted to equal raw schema9328 baseline. Full baseline-to-preimage delta chain remains to assemble."
+  },
+  "writes": {
+    "merchantlist": [
+      {
+        "merchantid": 202156,
+        "slot": 29,
+        "item": 119621,
+        "faction_required": -1100,
+        "level_required": 0,
+        "min_status": 0,
+        "max_status": 255,
+        "alt_currency_cost": 0,
+        "classes_required": 65535,
+        "probability": 100,
+        "bucket_name": "",
+        "bucket_value": "",
+        "bucket_comparison": 0,
+        "min_expansion": 18,
+        "max_expansion": -1,
+        "content_flags": null,
+        "content_flags_disabled": null,
+        "language_required": -1,
+        "language_skill_required": 0
+      },
+      {
+        "merchantid": 202156,
+        "slot": 30,
+        "item": 119624,
+        "faction_required": -1100,
+        "level_required": 0,
+        "min_status": 0,
+        "max_status": 255,
+        "alt_currency_cost": 0,
+        "classes_required": 65535,
+        "probability": 100,
+        "bucket_name": "",
+        "bucket_value": "",
+        "bucket_comparison": 0,
+        "min_expansion": 18,
+        "max_expansion": -1,
+        "content_flags": null,
+        "content_flags_disabled": null,
+        "language_required": -1,
+        "language_skill_required": 0
+      },
+      {
+        "merchantid": 202156,
+        "slot": 31,
+        "item": 119715,
+        "faction_required": -1100,
+        "level_required": 0,
+        "min_status": 0,
+        "max_status": 255,
+        "alt_currency_cost": 0,
+        "classes_required": 65535,
+        "probability": 100,
+        "bucket_name": "",
+        "bucket_value": "",
+        "bucket_comparison": 0,
+        "min_expansion": 18,
+        "max_expansion": -1,
+        "content_flags": null,
+        "content_flags_disabled": null,
+        "language_required": -1,
+        "language_skill_required": 0
+      }
+    ]
+  },
+  "historical_qualification": "Originalprovider lineage/currentnamedstock+2012rollout inference",
+  "selected_local_default": null,
+  "preservation": "Existing stock, item/spell prices and identities, other consumers, player state preserved.",
+  "source_status_qualification": "Original source provenance files describe preparation state; retained later completed/readback receipts establish applied status separately.",
+  "portable_sql_remaining": "Convert owner full preimage guards into target-database-independent migration without weakening guards; do not run bare INSERT projections."
+}
