@@ -2,7 +2,7 @@
   "format_version": 1,
   "prepared_date": "2026-11-04",
   "all_project_SQL_certified_complete": false,
-  "scope": "Comprehensive retainedsource catch-up across8owningareas; publicationcatch-up and historicalreceipt gaps explicit. Not an original9328-to-current executableinstaller or rawliveDBsnapshot.",
+  "scope": "Known supplied source indexes captured across eight areas, plus additive Tradeskills077\u2013081 and actual Xorbb9345 application and controlled flag activation. Historical applied-hash uncertainty remains explicit.",
   "areas": [
     "Tradeskills",
     "Housing",
@@ -16,33 +16,98 @@
   "published_receipts": [
     {
       "commit": "090a05cc32ec7a7af6fe25951767ee5aabfe5544",
-      "scope": "baselineprovenance4files"
+      "scope": "Initial four-file baseline provenance package"
     },
     {
       "commit": "02aeb6ab9334f83fbca95be73aa8727498303e73",
-      "scope": "selectedmerchantpartialtools28paths"
+      "scope": "28-path partial guarded tools and112-row contracts; not complete baseline installer"
     },
     {
       "commit": "1820b5e1805ca11ccaff0887a688f47457bbe035",
-      "scope": "AAsupplement14paths,selectedAA260rows"
+      "scope": "14-file applied AA supplement,257 additional inserts, AA003 referenced rather than duplicated; cumulative selected AA260",
+      "preservation": "All32 prior files unchanged per coordinator",
+      "exact_AA001_guarded_transaction_sha256": "974a604f7e04eceadb3601f0c2f75054134510f073bd2b7877c8820ad086c7de"
+    },
+    {
+      "commit": "df2046f6ddc73dd2e197034ed80567a20583c07c",
+      "scope": "Tradeskills001\u2013025",
+      "basis": "Coordinatorpublicationreceipt, no repeatremotecheck"
+    },
+    {
+      "commit": "a53722d3e74da2428f9def09a12555788321997c",
+      "scope": "Tradeskills026\u2013050",
+      "basis": "Coordinatorpublicationreceipt, no repeatremotecheck"
+    },
+    {
+      "commit": "71daa187323692d5e16f2ef1d41c68e0f4776e2c",
+      "scope": "Tradeskills051\u2013075",
+      "basis": "Coordinatorpublicationreceipt, no repeatremotecheck"
+    },
+    {
+      "commit": "cd1cfa59bcd49a99b9bf595d9937e4f8e5a366b4",
+      "scope": "Achievement65SQL",
+      "basis": "Coordinatorpublicationreceipt, no repeatremotecheck"
+    },
+    {
+      "commit": "a3938fd7f3c54266a37e412b3b484bb0bbde04dd",
+      "scope": "Spells80paths",
+      "basis": "Coordinatorpublicationreceipt, no repeatremotecheck"
+    },
+    {
+      "commit": "7d19182543a601946aeec0edc8da1e4e04d0d14b",
+      "scope": "Engine13SQL",
+      "basis": "Coordinatorpublicationreceipt, no repeatremotecheck"
+    },
+    {
+      "commit": "62192ebcb81ad0e3fc85542a8e983291ef6d132c",
+      "scope": "Tradeskills076history",
+      "basis": "Coordinatorpublicationreceipt, no repeatremotecheck"
     },
     {
       "commit": "618115ae1b477d1ac4f3d57b1edfa6c55cc0027c",
-      "scope": "foundation111SQLsource"
+      "scope": "Foundation119paths/111SQL",
+      "basis": "Coordinator publication receipt; no repeat remote check"
     },
     {
       "commit": "4581da171537fea3c4ba72fc3286a08de92e076b",
-      "scope": "coverage/snapshotproposed_scope"
+      "scope": "Initial coverage",
+      "basis": "Coordinator publication receipt; no repeat remote check"
     },
     {
       "commit": "f8ff84ba540c72e6d4fc62e7ecd2ed0271ac9ef5",
-      "scope": "Merc005source+ordercorrection,foundation112SQL"
+      "scope": "Mercenary005 follow-up",
+      "basis": "Coordinator publication receipt; no repeat remote check"
+    },
+    {
+      "commit": "80f68b1c2d105509addc8e233590918376ca44ce",
+      "scope": "Coverage reconciliation",
+      "basis": "Coordinator publication receipt; no repeat remote check"
+    },
+    {
+      "commit": "be79aa855724e44e4969a02a197aafcf2430e000",
+      "scope": "Late Achievement35SQL/49paths",
+      "basis": "Coordinator publication receipt; no repeat remote check"
+    },
+    {
+      "commit": "83f60df29269d0fa6a9316bcd7f6d20ed8121e7c",
+      "scope": "Assembly catalog4paths",
+      "basis": "Coordinator publication receipt; no repeat remote check"
+    },
+    {
+      "commit": "05fa8dba916b7e5f1447848e5f500552719d5cf1",
+      "scope": "Retained software notices3paths",
+      "basis": "Coordinator publication receipt; no repeat remote check"
+    },
+    {
+      "commit": "cfe27589e8c330a0a9ec16425273768f96aacfd7",
+      "scope": "Additive077\u2013081 and Xorbb9345 canonical application/activation,32paths/12SQL",
+      "basis": "Coordinator publication receipt"
     }
   ],
   "catch_up_batches": [
     {
       "batch": "FOUNDATION-SQL",
-      "publication_status": "Coordinatorreceiptconfirmedpublished",
+      "publication_status": "Coordinator receipt confirms publication",
       "public_paths": [
         "migrations/housing/utils/sql/housing/001_milestone_b_persistence.sql",
         "migrations/housing/utils/sql/housing/002_vendor_prices.sql",
@@ -179,7 +244,7 @@
     },
     {
       "batch": "MERCENARY-005",
-      "publication_status": "Coordinatorreceiptconfirmedpublished",
+      "publication_status": "Coordinator receipt confirms publication",
       "public_paths": [
         "migrations/mercenary/utils/sql/mercenary/005_complete_journeyman_ranks.sql",
         "migrations/mercenary/migration-manifest.json",
@@ -191,7 +256,7 @@
     },
     {
       "batch": "ACHIEVEMENT-SQL",
-      "publication_status": "Stagedandhandedtocoordinator; publicationreceiptawaited",
+      "publication_status": "Coordinator receipt confirms publication",
       "public_paths": [
         "migrations/achievements/blightfire-bixies/sql/010-catalogue.sql",
         "migrations/achievements/blightfire-bixies/sql/020-quests.sql",
@@ -305,7 +370,7 @@
     },
     {
       "batch": "ACHIEVEMENT-FOLLOWUPS",
-      "publication_status": "Stagedandhandedtocoordinator; publicationreceiptawaited",
+      "publication_status": "Coordinator receipt confirms publication",
       "public_paths": [
         "migrations/achievements/buriedsea/sql/001-catalogue.disabled.sql",
         "migrations/achievements/buriedsea/sql/010-journal.disabled.sql",
@@ -366,7 +431,7 @@
     },
     {
       "batch": "TRADESKILLS-RRC001-025",
-      "publication_status": "Stagedandhandedtocoordinator; publicationreceiptawaited",
+      "publication_status": "Coordinator receipt confirms publication",
       "public_paths": [
         "migrations/tradeskills/recipes/RRC001/apply.sql",
         "migrations/tradeskills/recipes/RRC001/rollback.sql",
@@ -501,7 +566,7 @@
     },
     {
       "batch": "TRADESKILLS-RRC026-050",
-      "publication_status": "Stagedandhandedtocoordinator; publicationreceiptawaited",
+      "publication_status": "Coordinator receipt confirms publication",
       "public_paths": [
         "migrations/tradeskills/recipes/RRC026/apply.sql",
         "migrations/tradeskills/recipes/RRC026/rollback.sql",
@@ -641,7 +706,7 @@
     },
     {
       "batch": "TRADESKILLS-RRC051-075",
-      "publication_status": "Stagedandhandedtocoordinator; publicationreceiptawaited",
+      "publication_status": "Coordinator receipt confirms publication",
       "public_paths": [
         "migrations/tradeskills/recipes/RRC051/apply.sql",
         "migrations/tradeskills/recipes/RRC051/rollback.sql",
@@ -781,7 +846,7 @@
     },
     {
       "batch": "TRADESKILLS-076-HISTORY",
-      "publication_status": "Stagedandhandedtocoordinator; publicationreceiptawaited",
+      "publication_status": "Coordinator receipt confirms publication",
       "public_paths": [
         "migrations/tradeskills/recipes/RRC076/apply.sql",
         "migrations/tradeskills/recipes/RRC076/rollback.sql",
@@ -796,7 +861,7 @@
     },
     {
       "batch": "SPELLS-SOURCE",
-      "publication_status": "Stagedandhandedtocoordinator; publicationreceiptawaited",
+      "publication_status": "Coordinator receipt confirms publication",
       "public_paths": [
         "migrations/spells/original/data/001-exigent-items.json",
         "migrations/spells/original/data/002-rank1-vendors.json",
@@ -888,7 +953,7 @@
     },
     {
       "batch": "ENGINE-SCHEMA",
-      "publication_status": "Stagedandhandedtocoordinator; publicationreceiptawaited",
+      "publication_status": "Coordinator receipt confirms publication",
       "public_paths": [
         "engine-schema/registry/9329_2026_04_27_spell_id_type_correction.sql",
         "engine-schema/registry/9330_2026_04_30_buffdurations.sql",
@@ -915,7 +980,7 @@
     },
     {
       "batch": "COVERAGE-RECONCILIATION",
-      "publication_status": "Stagedandhandedtocoordinator; publicationreceiptawaited",
+      "publication_status": "Coordinator receipt confirms publication",
       "public_paths": [
         "coverage/housing-retained-application.json",
         "coverage/shroud-retained-application.json",
@@ -925,25 +990,73 @@
       ],
       "SQL_file_count": 0,
       "scope": "REVIEWABLE_OWNER_RECEIPT_RECONCILIATION_AND_CURRENT_COVERAGE"
+    },
+    {
+      "batch": "INCREMENTAL-077-081-XORBB",
+      "publication_status": "Coordinator receipt confirms publication",
+      "commit": "cfe27589e8c330a0a9ec16425273768f96aacfd7",
+      "public_paths": [
+        "migrations/tradeskills/recipes/RRC077/apply.sql",
+        "migrations/tradeskills/recipes/RRC077/rollback.sql",
+        "migrations/tradeskills/recipes/RRC077/batch.json",
+        "migrations/tradeskills/recipes/RRC077/README.md",
+        "migrations/tradeskills/recipes/RRC077/APPLIED-SUMMARY.json",
+        "migrations/tradeskills/recipes/RRC078/apply.sql",
+        "migrations/tradeskills/recipes/RRC078/rollback.sql",
+        "migrations/tradeskills/recipes/RRC078/batch.json",
+        "migrations/tradeskills/recipes/RRC078/README.md",
+        "migrations/tradeskills/recipes/RRC078/APPLIED-SUMMARY.json",
+        "migrations/tradeskills/recipes/RRC079/apply.sql",
+        "migrations/tradeskills/recipes/RRC079/rollback.sql",
+        "migrations/tradeskills/recipes/RRC079/batch.json",
+        "migrations/tradeskills/recipes/RRC079/README.md",
+        "migrations/tradeskills/recipes/RRC079/APPLIED-SUMMARY.json",
+        "migrations/tradeskills/recipes/RRC080/apply.sql",
+        "migrations/tradeskills/recipes/RRC080/rollback.sql",
+        "migrations/tradeskills/recipes/RRC080/batch.json",
+        "migrations/tradeskills/recipes/RRC080/README.md",
+        "migrations/tradeskills/recipes/RRC080/APPLIED-SUMMARY.json",
+        "migrations/tradeskills/recipes/RRC081/apply.sql",
+        "migrations/tradeskills/recipes/RRC081/rollback.sql",
+        "migrations/tradeskills/recipes/RRC081/batch.json",
+        "migrations/tradeskills/recipes/RRC081/README.md",
+        "migrations/tradeskills/recipes/RRC081/APPLIED-SUMMARY.json",
+        "coverage/tradeskills-RRC077-081.json",
+        "docs/TRADESKILLS-RRC077-081.md",
+        "migrations/achievements/xorbb9345/2026_11_04_xorbb_mercenary_required.sql",
+        "migrations/achievements/xorbb9345/activation-contract.json",
+        "migrations/achievements/xorbb9345/activation-statements.sql",
+        "migrations/achievements/xorbb9345/APPLIED-SUMMARY.json",
+        "migrations/achievements/xorbb9345/README.md"
+      ]
     }
   ],
   "recipe_cutoff": {
-    "numbered_records": 76,
-    "committed_batches": 75,
+    "numbered_records": 81,
+    "committed_batches": 80,
     "held": [
       "014"
     ],
-    "added_recipes": 2632,
-    "added_entries": 14336,
+    "added_recipes": 2650,
+    "added_entries": 14446,
+    "separate_Xorbb_recipe_excluded": {
+      "recipes": 1,
+      "entries": 6
+    },
+    "RRC080": "One existing entry ingredient correction, no count delta",
     "historical_recipe_completeness": false
   },
   "coverage_limits": [
     "Sourcecollections do not prove every SQL revision installed/current",
     "Housingemptyapplicationmarkers unknown; generatedcontent requires integratedinstaller/resources",
     "Shroud012export vsappliedrevision mismatch explicit",
-    "Alaran9343candidate disabled; Xorbb9344/9345unapplied",
     "Actualcontent/runtimeconnectionroles and prerequisitecode/scripts must match",
-    "Originalclone/archive redistribution gaps do not block ownSQLsourcepublication"
+    "Originalclone/archive redistribution gaps do not block ownSQLsourcepublication",
+    "Alaran9343 retained candidate is disabled. Xorbb9345 canonical SQL and exact mercenary flags are committed with independent bounded readback; three partisan tasks and their parent remain disabled. Build script/cache evidence and native acceptance remain separate."
   ],
-  "snapshot": "No snapshot generated. Explicitdefault-denytable/column/row policy in coverage/snapshot-scope.json; runtimeplayer/custody/QAexcluded."
+  "snapshot": "No snapshot generated. Explicitdefault-denytable/column/row policy in coverage/snapshot-scope.json; runtimeplayer/custody/QAexcluded.",
+  "known_source_capture_complete": true,
+  "source_SQL_file_paths": 392,
+  "source_capture_cutoff": "Supplied owner indexes plus RRC081 and Xorbb activation completed2026-11-04T16:55Z. Later applications require additive follow-ups.",
+  "universal_upgrade_or_snapshot_ready": false
 }

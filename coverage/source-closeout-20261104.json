@@ -1,0 +1,52 @@
+{
+  "format_version": 1,
+  "known_source_capture_complete": true,
+  "areas": [
+    "Tradeskills",
+    "Housing",
+    "Achievements",
+    "Spells",
+    "AAs",
+    "Fellowship",
+    "Mercenaries",
+    "Shrouds"
+  ],
+  "SQL_source_paths": 392,
+  "count_meaning": "Paths include apply/rollback pairs, schema changes, disabled candidates and historical activation statements; not392 distinct database applications.",
+  "cutoff": "Supplied owner indexes plus RRC081 and Xorbb activation completed2026-11-04T16:55Z. Later applications require additive follow-ups.",
+  "incremental_publication_commit": "cfe27589e8c330a0a9ec16425273768f96aacfd7",
+  "prior_source_publication_receipts_closed": true,
+  "applied_receipt_unknowns_are_missing_source": false,
+  "TS": {
+    "numbered_records": 81,
+    "committed_batches": 80,
+    "held": [
+      "014"
+    ],
+    "added_recipes": 2650,
+    "added_entries": 14446,
+    "separate_Xorbb_recipe_excluded": {
+      "recipes": 1,
+      "entries": 6
+    },
+    "RRC080": "One existing entry ingredient correction, no count delta",
+    "historical_recipe_completeness": false
+  },
+  "Xorbb9345": {
+    "canonical_applied_once": true,
+    "controlled_activation_committed_once": true,
+    "independent_bounded_readback": "PASS",
+    "version_or_registry_bump": false,
+    "native_acceptance": false
+  },
+  "generated_content_gap": "Housing geometry, variants, capacity and neighborhood outputs require integrated installer and its resource inputs. SQLsource collection is not those rendered outputs.",
+  "upgrade_or_full_content_snapshot_ready": false,
+  "snapshot": "No raw live database export. Requires exact intended content table/column/row scope, matched code and exclusion of runtime/player/custody/QA data.",
+  "evidence_limits": [
+    "Housing empty markers do not prove application",
+    "Fellowship historical applied summary lacks immutable per-file execution ledger",
+    "Mercenary005 final guard postdates first import",
+    "Shroud012 exported and located applied hashes differ"
+  ],
+  "source_redistribution": "Original clone receipt and original archive terms unresolved; own source publication proceeded separately."
+}
