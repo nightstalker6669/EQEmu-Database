@@ -1,0 +1,62 @@
+{
+  "read_only": true,
+  "scope": "Task/reward/DZ/version reservations only; NPCowner owns NPC/spawn/lootnumericnamespace checks. Existingversion_spawns checked only asversionoccupancy, no fullNPCaudit. No playerrows queried.",
+  "checks": {
+    "tasks": {
+      "query": "SELECT * FROM tasks WHERE id=920136 OR title='Scent of a Woman' OR replay_timer_group=920136 OR request_timer_group=920136 OR dz_template_id=920136",
+      "rows": []
+    },
+    "task_activities": {
+      "query": "SELECT * FROM task_activities WHERE taskid=920136",
+      "rows": []
+    },
+    "tasksets": {
+      "query": "SELECT * FROM tasksets WHERE taskid=920136",
+      "rows": []
+    },
+    "reward_sets": {
+      "query": "SELECT * FROM reward_sets WHERE reward_set_id=920136",
+      "rows": []
+    },
+    "reward_options": {
+      "query": "SELECT * FROM reward_options WHERE reward_set_id=920136",
+      "rows": []
+    },
+    "reward_option_entries": {
+      "query": "SELECT * FROM reward_option_entries WHERE reward_set_id=920136 OR reward_id IN (3839201361,3839201362,3839201363,3839201364,3839201365,3839201366)",
+      "rows": []
+    },
+    "rewards": {
+      "query": "SELECT * FROM rewards WHERE reward_id IN (3839201361,3839201362,3839201363,3839201364,3839201365,3839201366)",
+      "rows": []
+    },
+    "reward_sources": {
+      "query": "SELECT * FROM reward_sources WHERE reward_set_id=920136 OR(source_type=2 AND source_id=920136)",
+      "rows": []
+    },
+    "reward_source_entries": {
+      "query": "SELECT * FROM reward_source_entries WHERE(source_type=2 AND source_id=920136) OR reward_id IN (3839201361,3839201362,3839201363,3839201364,3839201365,3839201366)",
+      "rows": []
+    },
+    "dynamic_zone_templates": {
+      "query": "SELECT * FROM dynamic_zone_templates WHERE id=920136 OR(zone_id=482 AND zone_version=1)",
+      "rows": []
+    },
+    "zone_version": {
+      "query": "SELECT zoneidnumber,short_name,version,long_name FROM zone WHERE zoneidnumber=482 AND version=1",
+      "rows": []
+    },
+    "version_spawns": {
+      "query": "SELECT id,spawngroupID FROM spawn2 WHERE zone='underquarry' AND version=1",
+      "rows": []
+    },
+    "version_instances": {
+      "query": "SELECT id,zone,version FROM instance_list WHERE zone=482 AND version=1",
+      "rows": []
+    },
+    "active_dynamic_zone_instances": {
+      "query": "SELECT dz.id,dz.instance_id,il.zone,il.version FROM dynamic_zones dz JOIN instance_list il ON il.id=dz.instance_id WHERE il.zone=482 AND il.version=1",
+      "rows": []
+    }
+  }
+}

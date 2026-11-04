@@ -1,0 +1,114 @@
+{
+  "format_version": 1,
+  "component": "Underfoot Scent of a Woman mission reconstruction",
+  "classification": "PUBLISHED_SOURCE_CANDIDATE_UNEXECUTED_UNPARSED_NOT_APPLIED",
+  "source_repository": "nightstalker6669/EQEmu",
+  "source_branch": "rof2-spells",
+  "source_commit": "4752fad30cd69c4950533f3134dd5c527689db50",
+  "source_component_paths": 30,
+  "captured_database_source_contract_paths": 13,
+  "published_source_bytes_match_manifest": true,
+  "captured_bindings": {
+    "candidates/spells/underfoot-scent-mission/README.md": {
+      "source_path": "extensions/rof2/spells/reconstructions/underfoot-scent-mission/README.md",
+      "source_sha256": "9cfc855a4bfce877bbddcb87780425704396d45f1304c321dd57524d2e497f9b"
+    },
+    "candidates/spells/underfoot-scent-mission/CALLBACK-CONTRACT.md": {
+      "source_path": "extensions/rof2/spells/reconstructions/underfoot-scent-mission/CALLBACK-CONTRACT.md",
+      "source_sha256": "37f65dfe0970cf18a6035f51c91bdf97826799422da7ba01a4239866606e84d6"
+    },
+    "candidates/spells/underfoot-scent-mission/apply_database.py": {
+      "source_path": "extensions/rof2/spells/reconstructions/underfoot-scent-mission/apply_database.py",
+      "source_sha256": "69346657959ab36949294eef9fdc91b793a4bf2238bf15dd708bf1a48cea8a2c"
+    },
+    "candidates/spells/underfoot-scent-mission/combined-data.draft.json": {
+      "source_path": "extensions/rof2/spells/reconstructions/underfoot-scent-mission/combined-data.draft.json",
+      "source_sha256": "8d12f5ff5b72511b1df1f22d53e88ed84dc7fd8033c5c1bcae36548b77605764"
+    },
+    "candidates/spells/underfoot-scent-mission/task-reward-data.json": {
+      "source_path": "extensions/rof2/spells/reconstructions/underfoot-scent-mission/task-reward-data.json",
+      "source_sha256": "c29b7f0f4d1b205ad0f2c6a134ebc39d90c9bda665c9d66116fe4f611d6dd55a"
+    },
+    "candidates/spells/underfoot-scent-mission/integration-source-index.json": {
+      "source_path": "extensions/rof2/spells/reconstructions/underfoot-scent-mission/integration-source-index.json",
+      "source_sha256": "11a37e2817d805091f5134e47d18cd49817ee1b862f3e37cfa632849be23a174"
+    },
+    "candidates/spells/underfoot-scent-mission/reference-preimages.json": {
+      "source_path": "extensions/rof2/spells/reconstructions/underfoot-scent-mission/reference-preimages.json",
+      "source_sha256": "473a8951a1c1615888e4214cdd2984c6a3f2814ac0d1e3b3e2ad8b92e4f802cd"
+    },
+    "candidates/spells/underfoot-scent-mission/namespace-preimages.json": {
+      "source_path": "extensions/rof2/spells/reconstructions/underfoot-scent-mission/namespace-preimages.json",
+      "source_sha256": "82bee7629b369b6803ef04d8c9e373c55e42e84055c53ebfe0992d2bb9cbaba7"
+    },
+    "candidates/spells/underfoot-scent-mission/npc-component/apply.sql.disabled": {
+      "source_path": "extensions/rof2/spells/reconstructions/underfoot-scent-mission/npc-component/apply.sql.disabled",
+      "source_sha256": "be75bdbad4dbbebbddccd8f4ab39c80d10f37bd81efa3d7a13e5634d3fbfb672"
+    },
+    "candidates/spells/underfoot-scent-mission/npc-component/rollback.sql.disabled": {
+      "source_path": "extensions/rof2/spells/reconstructions/underfoot-scent-mission/npc-component/rollback.sql.disabled",
+      "source_sha256": "9b9d432a9ee8e41055ca358234335f4f70850946320bbfec64f60e875b90b521"
+    },
+    "candidates/spells/underfoot-scent-mission/npc-component/payload.json": {
+      "source_path": "extensions/rof2/spells/reconstructions/underfoot-scent-mission/npc-component/payload.json",
+      "source_sha256": "ca8d6e07eec4bc1c53b903eba025485a22ab486b2ba71de148d34cb030f55097"
+    },
+    "candidates/spells/underfoot-scent-mission/npc-component/manifest.json": {
+      "source_path": "extensions/rof2/spells/reconstructions/underfoot-scent-mission/npc-component/manifest.json",
+      "source_sha256": "ea3dc155d36db3d7f61ff7ea6e19af21e922fb7bdf131ccd9400a897e5358aa0"
+    },
+    "candidates/spells/underfoot-scent-mission/bundle-manifest.json": {
+      "source_path": "extensions/rof2/spells/reconstructions/underfoot-scent-mission/bundle-manifest.json",
+      "source_sha256": "7ac5210c9d14034e529d3bd383cb2a7c989177bbd068ac68cb52ffc6af81b3de"
+    }
+  },
+  "quest_source_references_not_copied": {
+    "extensions/rof2/spells/reconstructions/underfoot-scent-mission/quests/lua_modules/rof2_underquarry_scent.lua": "2f741fe61d3c1e1d20ff3dc943452d9fc0998b8925f4631879f7d3890a6964dc",
+    "extensions/rof2/spells/reconstructions/underfoot-scent-mission/quests/lua_modules/rof2_underquarry_scent_access.lua": "d84b8479cb38e9aaf834a79acb7ad3b422a17ae0659c53c0b0a08c244afbfeea",
+    "extensions/rof2/spells/reconstructions/underfoot-scent-mission/quests/lua_modules/rof2_underquarry_scent_spawns.lua": "ddc57a26f0e0c7e680f536a46b8cedf8518cdc8a3bd01a7eb5efa17c78b6e2ca",
+    "extensions/rof2/spells/reconstructions/underfoot-scent-mission/quests/underquarry/482186.lua": "48b932d211b936cf0a4a0230b24ceebc4d719eb18448dc0d7dda5f68a21c1b94",
+    "extensions/rof2/spells/reconstructions/underfoot-scent-mission/quests/underquarry/482900.lua": "83d968cef7d75eeade410a90c67fab3bae153545c5b412f50f887eed9f047a78",
+    "extensions/rof2/spells/reconstructions/underfoot-scent-mission/quests/underquarry/482901.lua": "b69bc8f5735935b589190205ce5203b409ebfcbaf459d6467613211701857d88",
+    "extensions/rof2/spells/reconstructions/underfoot-scent-mission/quests/underquarry/482902.lua": "e428b5dd75839764463d836e0cf13759f1c01b6c1fdc2fe579c623cdf6bbd590",
+    "extensions/rof2/spells/reconstructions/underfoot-scent-mission/quests/underquarry/482903.lua": "e428b5dd75839764463d836e0cf13759f1c01b6c1fdc2fe579c623cdf6bbd590",
+    "extensions/rof2/spells/reconstructions/underfoot-scent-mission/quests/underquarry/482904.lua": "e428b5dd75839764463d836e0cf13759f1c01b6c1fdc2fe579c623cdf6bbd590",
+    "extensions/rof2/spells/reconstructions/underfoot-scent-mission/quests/underquarry/482905.lua": "e428b5dd75839764463d836e0cf13759f1c01b6c1fdc2fe579c623cdf6bbd590",
+    "extensions/rof2/spells/reconstructions/underfoot-scent-mission/quests/underquarry/482906.lua": "e428b5dd75839764463d836e0cf13759f1c01b6c1fdc2fe579c623cdf6bbd590",
+    "extensions/rof2/spells/reconstructions/underfoot-scent-mission/quests/underquarry/482907.lua": "e428b5dd75839764463d836e0cf13759f1c01b6c1fdc2fe579c623cdf6bbd590",
+    "extensions/rof2/spells/reconstructions/underfoot-scent-mission/quests/underquarry/482908.lua": "e428b5dd75839764463d836e0cf13759f1c01b6c1fdc2fe579c623cdf6bbd590",
+    "extensions/rof2/spells/reconstructions/underfoot-scent-mission/quests/underquarry/482909.lua": "e428b5dd75839764463d836e0cf13759f1c01b6c1fdc2fe579c623cdf6bbd590",
+    "extensions/rof2/spells/reconstructions/underfoot-scent-mission/quests/underquarry/482910.lua": "eebaabcdacf6592510ce04c67170ce360f00b8152441342c2a290bee22456c3b",
+    "extensions/rof2/spells/reconstructions/underfoot-scent-mission/quests/underquarry/482911.lua": "bd6bed2729f747824b48b50ef16822b719020256c251a9b5147ccae658dbba7b",
+    "extensions/rof2/spells/reconstructions/underfoot-scent-mission/quests/underquarry/player.lua": "765f4d805b088edf3f37dfff6dd467ab9ed20e71cf909b64805e4c2e7b08cbdc"
+  },
+  "separate_prerequisite_commit": "2c975f1f8757c810778312ba587fa4730cec9232",
+  "prerequisites": "Four tasks/56 source rows in separate prerequisite component; do not reinsert through this mission component.",
+  "claimed_source_composition": {
+    "NPC_rows": 131,
+    "task_reward_template_rows": 42,
+    "total": 173,
+    "tables": 17,
+    "objectives": 20,
+    "quest_files": 17
+  },
+  "NPC_apply_SQL_SHA256": "be75bdbad4dbbebbddccd8f4ab39c80d10f37bd81efa3d7a13e5634d3fbfb672",
+  "source_revision": "Corrected class62 chest; supersedes127rowdynamicchest and class1drafts, not additive alongside them.",
+  "application_status": "NOT_APPLIED_NO_AUTHORIZATION_NO_EXECUTION_RECEIPT",
+  "installer": "Exact published apply_database.py retained as unexecuted source, not invoked. Future procedure DDL and caller transaction contract remain in original source documentation.",
+  "rollback_limit": "NPC rollback covers only its131 definitions; not a complete173row rollback or permission to delete active content.",
+  "historical_qualification": "Period evidence, guide observations, configurable defaults and reconstruction limitations remain distinct in original README/contracts.",
+  "not_established": [
+    "SQL or language parser validation",
+    "successful application or schema/procedure readiness",
+    "quest installation/cache freshness",
+    "native combat, acquisition or payout acceptance"
+  ],
+  "packaging_actions": {
+    "DB_queries": 0,
+    "SQL_DDL_replay": 0,
+    "parser_or_test_runs": 0,
+    "runtime_or_native_actions": 0,
+    "archive_rewrites": 0
+  },
+  "prior_closed_cutoff": "399 .sql source paths throughRRC083 remain unchanged. This new candidate preserves two .sql.disabled files separately; no apply-status promotion or filename normalization."
+}

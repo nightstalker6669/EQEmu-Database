@@ -1,0 +1,58 @@
+{
+  "status": "SOURCE_ASSEMBLY_FOR_PUBLICATION_NOT_APPLIED",
+  "npc_component": {
+    "path": "npc-component",
+    "pins": {
+      "apply.sql.disabled": "be75bdbad4dbbebbddccd8f4ab39c80d10f37bd81efa3d7a13e5634d3fbfb672",
+      "rollback.sql.disabled": "9b9d432a9ee8e41055ca358234335f4f70850946320bbfec64f60e875b90b521",
+      "manifest.json": "ea3dc155d36db3d7f61ff7ea6e19af21e922fb7bdf131ccd9400a897e5358aa0"
+    },
+    "rows": 131,
+    "supersedes": "127-row dynamicchest source; use onlycombined131",
+    "status": "CORRECTED_CLASS62_SOURCE_INTEGRATED_ONCE_NOT_APPLIED",
+    "previous_source": "Oldclass1source archived OUTSIDEcandidatefolder; neverapplyboth"
+  },
+  "spells_component": {
+    "path": "task-reward-data.json",
+    "rows": 42
+  },
+  "combined_rows": 173,
+  "tables": {
+    "npc_types": 12,
+    "spawngroup": 28,
+    "spawnentry": 28,
+    "spawn2": 28,
+    "loottable": 6,
+    "loottable_entries": 6,
+    "lootdrop": 6,
+    "lootdrop_entries": 16,
+    "spawn_conditions": 1,
+    "dynamic_zone_templates": 1,
+    "tasks": 1,
+    "task_activities": 20,
+    "rewards": 6,
+    "reward_sets": 1,
+    "reward_sources": 1,
+    "reward_options": 6,
+    "reward_option_entries": 6
+  },
+  "prerequisites": "Separate published2c975f1f8757c810778312ba587fa4730cec9232,56rows/fourtaskdefinitions; not includedagain",
+  "source_apply_order": [
+    "Exactcompletepublication beforeanyapply",
+    "DefineNPCstoredroutine outside callertransaction; CREATEPROCEDURE DDLcancommitimplicitly. Never executeDDLinsidejointtransaction",
+    "Onecaller-ownedMariaDBtransaction afterruntimeownerwindow/relevantfreshguards: nativeNPC131routine +Spells42rows withdurableprepared/fullpostimages",
+    "Commitonce/fullindependentreadback; source/runtimeownerexclusivequestinstallationreceipts; Buildcatalogue/freshVM freshness separately",
+    "Do not run old127routine or replay131separately afterjointinstall; stop/reconcileprepared-onlyoruncertainstate"
+  ],
+  "required_runtime_conditions": [
+    "Effective Zone:GlobalLootMultiplier1, no proposedglobalruleedit",
+    "NativeSoloCollectforpublishedprerequisites; no fakeinventoryprogress",
+    "Currentnativeinstance membership forpostcompletionchest, not anactiveSharedTaskID",
+    "Nativeownedcondition6201 activation0to1onlyafterfreshvalidatedfinaldelivery/completion; neverreplayfromcompletedhistory",
+    "NPCphaseprotection/combat/disable/restore profiles andexactcallbackownership composedbeforefinalpublication"
+  ],
+  "remaining_source_work": [
+    "Coordinator/GitHub source publication handoff; application and native acceptance remain separate."
+  ],
+  "hold": "XORBB9345 hold explicitly released. Scent application remains unauthorized; no SQL/runtime action in source assembly."
+}
