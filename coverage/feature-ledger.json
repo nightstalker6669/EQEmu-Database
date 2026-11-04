@@ -7,31 +7,54 @@
     "tradeskills": {
       "public_database_coverage": "Not yet published in this repository",
       "applied_owner_report": "2628added recipes/14302entries through075; existing-row corrections also required",
-      "next": "Exact applied recipe index and final SQL revisions; do not include076unless applied receipt exists."
+      "next": "Awaitpublicationreceipts; incrementalnewownerbatches after076 not part ofthis frozen scope",
+      "applied_batches": 75,
+      "numbered_records": 76,
+      "held": [
+        "014"
+      ],
+      "added_recipes": 2632,
+      "added_entries": 14336,
+      "source_batches": [
+        "TRADESKILLS-RRC001-025",
+        "TRADESKILLS-RRC026-050",
+        "TRADESKILLS-RRC051-075",
+        "TRADESKILLS-076-HISTORY"
+      ],
+      "applied_status": "Consolidatedownerindex through076; previouslystaged74hashes agree,001pin abbreviatedonly"
     },
     "housing": {
       "source_batch": "FOUNDATION-SQL-publication-manifest.private.json",
       "staged_SQL_files": 90,
       "ordering": "89ownerinstaller entries plus separate guarded personalmarker correction",
-      "applied_status": "Retained per-migration owner receipt index requested; no new runtime audit",
-      "next": "Reconcile89sequence+corrections+laterhousingchanges/relocations to owner records."
+      "applied_status": "89installerorder/18namedapplicationartifacts;14empty markers not successproof; no completeproductionledger",
+      "next": "Reconcile89sequence+corrections+laterhousingchanges/relocations to owner records.",
+      "public_database_coverage": "90SQLsourcepublished;per-migrationhistoricalapplication qualified"
     },
     "achievements": {
       "public_database_coverage": "Missing main achievement packages",
       "source_available": "16versioned content directories plus canonical engine schema prerequisites",
-      "applied_status": "Need owner package/receipt index; disabledfilename alone is not applied status",
+      "applied_status": "Owner9group retainedindex reconciled: Gearing8applied; Mesa installed/acceptancequalifications; remainingexactreceiptcompleteness unknown; no source-onlypromotion.",
       "excluded_unapplied": [
         "Xorbb9344/9345source packages",
         "Other reserved proposals until receipt supplied"
       ],
-      "next": "Preserve owner package dependency order and activation/install receipts; separate NPCcontributions and scripts."
+      "next": "Preserve owner package dependency order and activation/install receipts; separate NPCcontributions and scripts.",
+      "staged_SQL_files": 65,
+      "staged_packages": 17,
+      "source_batch": "ACHIEVEMENT-SQL-publication-manifest.private.json"
     },
     "spells": {
       "public_database_coverage": "Selected merchant guarded tools/contracts only; broader acquisition SQL incomplete",
       "published_selected_merchant_inserts": 109,
-      "unpublished_applied_supplement_inserts": 3,
+      "unpublished_applied_supplement_inserts": "Included in newly staged fullSpellscomponentcollection, not doublecounted as independent batch",
       "applied_status": "Selected receipts matched; broader owner index requested",
-      "next": "Acquisition/vendor/faction/rune/scrollitem/content migrations and finalhelper chains, no NPCdoublecount."
+      "next": "Publication and remaining SQL-source contract/receipt gaps, no genericflattening ofownerJSONmigrations",
+      "staged_source_batch": "SPELLS-SOURCE-publication-manifest.private.json",
+      "retained_components": 37,
+      "retained_initial_stages": 11,
+      "held_initial_stage": "003petsandauras",
+      "later_applied_components": 16
     },
     "aas": {
       "public_database_coverage": "Five applied SQL batches001/003/004/005/008 published",
@@ -47,22 +70,26 @@
       "source_batch": "FOUNDATION-SQL-publication-manifest.private.json",
       "staged_SQL_files": 4,
       "ordering": "001,002,003,004",
-      "applied_status": "Owner retainedreceipt index requested",
-      "next": "Character/runtime storage vs campsite content597; source/code/quest dependencies separate."
+      "applied_status": "All4historicallyapplied perownerSTATUS/597catalogue; separateSQLexecution/checksumledgerunknown, currentDBunqueried",
+      "next": "Character/runtime storage vs campsite content597; source/code/quest dependencies separate.",
+      "public_database_coverage": "4SQLsourcepublished;all4historicalSTATUSapplied, immutableledgerunknown"
     },
     "mercenaries": {
       "source_batch": "FOUNDATION-SQL-publication-manifest.private.json",
-      "staged_SQL_files": 4,
-      "ordering": "001,003,004,002; actual runtime/contentconnection split mandatory",
-      "applied_status": "Owner retainedreceipt index requested",
-      "next": "Optionalcatalogue+laterJourneyman restore deltas; exclude destructiveupstreambootstrap and owned mercrows."
+      "staged_SQL_files": 5,
+      "ordering": "001\u2192003\u2192004\u2192005\u2192reviewed002",
+      "applied_status": "Historical ownerappliedall5; immutableSQLledgerlimits and005sourcepostimportguardqualification retained",
+      "next": "Optionalcatalogue+laterJourneyman restore deltas; exclude destructiveupstreambootstrap and owned mercrows.",
+      "followup_manifest": "MERCENARY-005-publication-manifest.private.json",
+      "public_database_coverage": "5SQLsourcepublished after005followup, final005sourcevsfirstimportqualified"
     },
     "shrouds": {
       "source_batch": "FOUNDATION-SQL-publication-manifest.private.json",
       "staged_SQL_files": 13,
       "ordering": "Explicit owner list001,003..009,011..015; no002test/010research",
-      "applied_status": "Owner retainedreceipt index requested",
-      "next": "Separate template/AAdefinitions from runtime snapshot/escrow schemas and populatedstate; later corrections."
+      "applied_status": "13ownerstatuses retained;012exportd164674 differs locatedapplied356412, exactexportapplicationUNKNOWN; othersreceiptextentqualified",
+      "next": "Separate template/AAdefinitions from runtime snapshot/escrow schemas and populatedstate; later corrections.",
+      "public_database_coverage": "13SQLsourcepublished;per-fileappliedstatusqualified,012revisionmismatchexplicit"
     }
   },
   "published_receipts": [
@@ -77,8 +104,21 @@
     {
       "commit": "1820b5e1805ca11ccaff0887a688f47457bbe035",
       "scope": "14AAsupplementfiles"
+    },
+    {
+      "commit": "618115ae1b477d1ac4f3d57b1edfa6c55cc0027c",
+      "scope": "Foundation111SQLsource"
+    },
+    {
+      "commit": "4581da171537fea3c4ba72fc3286a08de92e076b",
+      "scope": "Initialcoverageledger/snapshotscope"
+    },
+    {
+      "commit": "f8ff84ba540c72e6d4fc62e7ecd2ed0271ac9ef5",
+      "scope": "Mercenary005correction,foundation112SQL/merc5"
     }
   ],
   "baseline_limitations": "Exactinitialclone and upstreamarchive redistribution terms unresolved. These do NOT block publication of our own SQL source changes.",
-  "runtime_actions": false
+  "runtime_actions": false,
+  "primary_assembly_status": "All8areasnow have retainedsource/applied/unknown index coverage; recipes75committed through076 and65AchievementSQL/37Spellscomponents/schema13source staged. Publicationcatch-up and remaining latefeature sources stillongoing; NOTallprojectSQLclaimedcomplete."
 }

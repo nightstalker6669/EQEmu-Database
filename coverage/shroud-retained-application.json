@@ -1,0 +1,116 @@
+{
+  "basis": "Retained owner metadata, not currentruntimequery",
+  "migrations": [
+    {
+      "order": 1,
+      "sha256": "72819211f1c7357fdbe819551ab4958cd670a4f00289420ae4663d2414133452",
+      "historical_application": "UNKNOWN_DIRECT_RECEIPT_NOT_LOCATED",
+      "current_live_database_state": "NOT_QUERIED",
+      "file": "001_storage.sql"
+    },
+    {
+      "order": 2,
+      "sha256": "e93ab66bfba6edcbf4b11a994a4cc1f498f52c01d5b62d2d2adf291e083297f5",
+      "historical_application": "UNKNOWN_DIRECT_RECEIPT_NOT_LOCATED",
+      "current_live_database_state": "NOT_QUERIED",
+      "file": "003_parity_storage.sql"
+    },
+    {
+      "order": 3,
+      "sha256": "eac1516c0ab60cfbc855730e39a95f7141c14b71c3d479b047368fdabbd4d0ca",
+      "historical_application": "RETAINED_EXIT_0_RECEIPT",
+      "current_live_database_state": "NOT_QUERIED",
+      "receipt_binds_exact_current_file_hash": false,
+      "file": "004_live_imp_wizard.sql"
+    },
+    {
+      "order": 4,
+      "sha256": "73a9915699d17d6f2ba87f47a4a803b62dc4856830dda5bf1daf117513cf4ef9",
+      "historical_application": "RETAINED_EXIT_0_RECEIPT",
+      "current_live_database_state": "NOT_QUERIED",
+      "receipt_binds_exact_current_file_hash": false,
+      "file": "005_experience_settlement.sql"
+    },
+    {
+      "order": 5,
+      "sha256": "f5e36ed594bbda98df994fad2c141964645a5a28e4485bb0479dd2017781a53b",
+      "historical_application": "RETAINED_EXIT_0_RECEIPT",
+      "current_live_database_state": "NOT_QUERIED",
+      "receipt_binds_exact_current_file_hash": false,
+      "file": "006_starter_inventory.sql"
+    },
+    {
+      "order": 6,
+      "sha256": "bf0d518ab6894b499bf85e3553f2543a4e050186991f5e5edeae0617b4437616",
+      "historical_application": "UNKNOWN_DIRECT_RECEIPT_NOT_LOCATED",
+      "current_live_database_state": "NOT_QUERIED",
+      "file": "007_rof2_enumerable_aa.sql"
+    },
+    {
+      "order": 7,
+      "sha256": "3c9a69422945f41178f9f9acb0a9aec2a849e1d90e53e705336e9082795e18f1",
+      "historical_application": "UNKNOWN_DIRECT_RECEIPT_NOT_LOCATED",
+      "current_live_database_state": "NOT_QUERIED",
+      "file": "008_starter_identity.sql"
+    },
+    {
+      "order": 8,
+      "sha256": "1a358075d4fb9a7498d9ea42e61167866f5024147ecd1453c2b7ac8b8041155f",
+      "historical_application": "UNKNOWN_DIRECT_RECEIPT_NOT_LOCATED",
+      "current_live_database_state": "NOT_QUERIED",
+      "file": "009_live_captured_catalog.sql"
+    },
+    {
+      "order": 9,
+      "sha256": "8f9038b3cd02a4c4388429d5c6fbb608006a13014ac7dbdaf9dca9a32d719723",
+      "historical_application": "RETAINED_APPLIED_TRUE_RECEIPT",
+      "current_live_database_state": "NOT_QUERIED",
+      "recorded_applied_sha256": "8f9038b3cd02a4c4388429d5c6fbb608006a13014ac7dbdaf9dca9a32d719723",
+      "receipt_binds_exact_current_file_hash": true,
+      "file": "011_live_lower_level_forms.sql"
+    },
+    {
+      "order": 10,
+      "sha256": "d1646741121e0b393efe6a292e61dee4aa64fce455934be2729b47609e47711e",
+      "historical_application": "RETAINED_APPLIED_TRUE_RECEIPT_FILE_REVISION_MISMATCH",
+      "current_live_database_state": "NOT_QUERIED",
+      "recorded_applied_sha256": "356412bdeed73d754c286f15d6c5752756d73489f13bb17056fa50ffcae3f8c9",
+      "receipt_binds_exact_current_file_hash": false,
+      "unresolved": "Retained application receipt names356412... while exported file isd164674... . No later matching apply receipt located in the narrow retained metadata search. Application of this exact exported revision is UNKNOWN; no migration rerun or live query performed.",
+      "file": "012_live_paid_monster_rank_chains.sql"
+    },
+    {
+      "order": 11,
+      "sha256": "64319d68a76e10607e632d487e0a00185bf394152146e6cb8517095ac2901e4a",
+      "historical_application": "RETAINED_BATCH_APPLICATION_RECEIPT",
+      "current_live_database_state": "NOT_QUERIED",
+      "recorded_applied_sha256": "64319d68a76e10607e632d487e0a00185bf394152146e6cb8517095ac2901e4a",
+      "receipt_binds_exact_current_file_hash": true,
+      "file": "013_remaining_monster_aa.sql"
+    },
+    {
+      "order": 12,
+      "sha256": "b4b8b9698f82ead1709901a66965b03965acdc1b46a3e91505244c80e6666574",
+      "historical_application": "RETAINED_BATCH_APPLICATION_RECEIPT",
+      "current_live_database_state": "NOT_QUERIED",
+      "recorded_applied_sha256": "b4b8b9698f82ead1709901a66965b03965acdc1b46a3e91505244c80e6666574",
+      "receipt_binds_exact_current_file_hash": true,
+      "file": "014_death_resurrection_accounting.sql"
+    },
+    {
+      "order": 13,
+      "sha256": "6d97d2a0323ddc8b9ef81c5307b6807456264f8681933b9f210a1c74bca5c52a",
+      "historical_application": "RETAINED_BATCH_APPLICATION_RECEIPT",
+      "current_live_database_state": "NOT_QUERIED",
+      "recorded_applied_sha256": "6d97d2a0323ddc8b9ef81c5307b6807456264f8681933b9f210a1c74bca5c52a",
+      "receipt_binds_exact_current_file_hash": true,
+      "file": "015_system_interactions.sql"
+    }
+  ],
+  "limits": [
+    "Exact012exported source d164674... differs located applied356412...; application ofexactexportrevisionUNKNOWN",
+    "Earlymarkers or batchreceipts do not universally bind currentSQLhashes",
+    "Currentdatabase notqueried; source/execution/cache/native layersdistinct"
+  ],
+  "runtime_data": "No originals/shroudstate/escrow/bank/fees/ownership/progression rows exported"
+}

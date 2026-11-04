@@ -1,20 +1,20 @@
-# Database release coverage — incomplete
+# Database release coverage — catch-up in progress
 
-**EQEmu-Database does not yet include all project SQL changes.** Its initial publications cover baseline provenance, selected merchant tools/contracts and five applied AA batches. These are selected segments, not a complete server database release.
+**EQEmu-Database is not yet certified to contain all project SQL changes.** Foundation and selectedAA/merchant source have been published; comprehensive Tradeskills, Achievement, Spells and engine/schema batches are staged for publication. No complete content snapshot or universal original9328-to-current installer is claimed.
 
-| Area | Current database-release coverage | Remaining reconciliation |
+| Area | Covered source and retained application inventory | Remaining limit |
 |---|---|---|
-| Tradeskills | Missing; owner reports2628added recipes/14302entries through075 | Exact applied revisions/order, corrections and later batches |
-| Housing |111filefoundation batch includes90housingSQL source files | Owner applied receipts, corrections and later changes |
-| Achievements | Main content packages missing | Full package dependency/install/activation ledger; disabledproposals separate |
-| Spells | Selected109merchant inserts represented;3later inserts staged | Full acquisition/faction/rune/item migrations and corrected helpers |
-| AAs |001/003/004/005/008 applied SQL published,260selected rows | Later SQL updates;006/009/010installedLua/code tracked separately |
-| Fellowship |4SQL source migrations staged | Applied receipt mapping and policy/code dependencies |
-| Mercenaries |4SQL source migrations staged | Catalogue/Journeyman deltas and runtime/content role mapping |
-| Shrouds |13SQL source migrations staged | Applied receipts, templates/AA corrections, runtime-state exclusions |
+| Tradeskills |75committed batches through076;2632added recipes/14336entries plus recordedcorrections;014held | Four sourcepublicationsegments queued;001pin abbreviated only; no allhistoricalrecipe claim |
+| Housing |90SQLsourcepublished:89explicitinstallerorder+separatemarker correction |14empty markers notsuccessproof; generatedgeometry/variants/neighborhoodcontent remains a separate installer dependency |
+| Achievements |65SQL/17sourcepackages staged plus9ownerstatusgroups;GearingUp applied/acceptedqualified | Other exact appliedreceipts may beunknown; latepackagescatch-up continues;Xorbb9344/9345unapplied |
+| Spells |37ownercomponents indexed; original001–011 and16laterappliedcomponent sources/contracts staged |003pets/aurasheld; eventlocalcustodyimplementationexcluded; dataguarded migrations not inventedflatSQL |
+| AAs |001/003/004/005/008appliedSQLpublished,260selected rows |006/009/010installedLua/code separate;007unapplied; no Banestrikegrant/petinvention |
+| Fellowship |4orderedSQLpublished; historicalSTATUSall4applied/597catalogue | Separate immutable perSQLexecutionledger/currentruntime verification unknown |
+| Mercenaries |5SQLpublished,001→003→004→005→reviewed002 | Final005subtypeguardpostdatesfirstimport; mixedcontent/runtimeconnectionroles retained |
+| Shrouds |13orderedSQLpublished with perfile retainedstatus |012exportd164674 differs locatedapplied356412; exactexportapplicationUNKNOWN |
 
-Source staging, publication, SQL application, engine/schema readiness, installed scripts/cache and native acceptance are distinct. This ledger does not infer installation from source presence or treat every disabled SQL filename as an unapplied proposal. Retained owner receipts determine applied status. Xorbb9345 is reviewed/syntax-valid but remains unapplied and outside the applied release.
+Engine/schema9329–9338 exact sourceSQL and3supplements form a separate staged prerequisite batch. Publishing state-table DDL is not exporting populated player/state tables. Sourcepublication, application, code/scripts, cache freshness and native acceptance remain distinct. See individual retainedapplication JSONs for receipt strength rather than treating sourcepresence, empty markers or schema9338 as universal installation proof.
 
-NPC contributions stay with their owning content packages: PoK providers with Spells; unappliedXorbb profiles with Achievements. They must not be counted as independent extra migrations. Housing/session infrastructure precedes Fellowship/Mercenary/Shroud code paths; content_db and actual runtime schemas can differ.
+NPCcontributions remain inside owningfeaturepackages to avoid doublecounting. Existing SQL/JSON/helper guards, correctedrevisions and original defaults/history/eligibility qualifications are retained. Failedrecipesource attempts remain history; active sequence uses committed revisions, including072→073 and inverse rollback order.
 
-Our own SQL updates can be published independently of unresolved original clone/archive redistribution terms. A complete content snapshot needs the explicit table/row scope described in SNAPSHOT-SCOPE.md; no raw live dump, account, character, inventory, custody, credential or QA state will be published. No runtime actions or new fixtures are part of release assembly.
+OwnSQLsource publication proceeds independently of unresolved originalclone/archive redistribution. Fullcontentsnapshot awaits exact table/column/row scope; player/account/inventory/object_contents/custody/ownership/QAdata are excluded. No liveaudit, SQLreplay/import, newfixtures or native reruns are part of this assembly.
