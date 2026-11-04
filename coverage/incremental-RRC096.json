@@ -1,0 +1,30 @@
+{
+  "format_version": 1,
+  "batch": "RRC096",
+  "source_commit": "6307e4b23aabae40f169f85e88f43909c26e2cf0",
+  "source_sha256": "8adbbb2065401ab9df11f0fa37392379d6fbbd10910567e9859c157f5e24c255",
+  "application_status": "APPLIED_VERIFIED",
+  "recipes_added": 0,
+  "entries_added": 0,
+  "ingredient_ID_updates": 5,
+  "change": "Only five reviewed ingredientitem_id97767->97768 fields.",
+  "preserved": "Five full definitions/35 entries and learned references exact aside from selected item IDs, per owner/coordinator receipt.",
+  "TS_cumulative_added_through096": {
+    "recipes": 2969,
+    "entries": 16915
+  },
+  "TS_cumulative_ingredient_ID_corrections": 28,
+  "separate_Xorbb_recipe_excluded": {
+    "recipes": 1,
+    "entries": 6
+  },
+  "held_batch": "RRC014",
+  "prior_closed_normal_SQL_path_cutoff": 426,
+  "new_normal_SQL_paths": 2,
+  "normal_SQL_paths_after_followup": 428,
+  "applied_Sporali_source_publication_preserved": "8d0e336adf9aab827d09067e32f324b1335ba284",
+  "Scent_disabled_candidate_separate": true,
+  "QA39999_production_exclusion_retained": true,
+  "SQL_path_count_meaning": "Paths include apply/rollback pairs and readback SQL, not428 applications.",
+  "assembly": "No database query/replay/rescan/test/runtime or QA cleanup action, and no old archive/catalogue rewrite."
+}
