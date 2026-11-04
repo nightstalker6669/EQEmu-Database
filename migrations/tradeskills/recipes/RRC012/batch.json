@@ -1,0 +1,1341 @@
+{
+  "batch": "RRC012",
+  "branch": "rof2-tradeskills",
+  "status": "SOURCE_PROPOSAL_NOT_REHEARSED_APPLIED",
+  "cutoff": "2013-05-31",
+  "proposed_ids": [
+    3091267,
+    3091275
+  ],
+  "counts": {
+    "recipes": 9,
+    "entries": 56,
+    "item_dependencies": 42
+  },
+  "by_skill": {
+    "Baking": 1,
+    "Brewing": 2,
+    "Smithing": 1,
+    "Tailoring": 2,
+    "Tinkering": 2,
+    "Alchemy": 1
+  },
+  "recipes": [
+    {
+      "id": 3091267,
+      "name": "Merchant's Feast",
+      "tradeskill": 60,
+      "skillneeded": 300,
+      "trivial": 415,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "RoF; Merchant Alliance Tradebook; RRC012.",
+      "must_learn": 1,
+      "learned_by_item_id": 81108,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 19,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3091268,
+      "name": "Alliance Elixir",
+      "tradeskill": 65,
+      "skillneeded": 300,
+      "trivial": 402,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "RoF; Merchant Alliance Tradebook; RRC012.",
+      "must_learn": 1,
+      "learned_by_item_id": 81108,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 19,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3091269,
+      "name": "Merchant's Brew",
+      "tradeskill": 65,
+      "skillneeded": 300,
+      "trivial": 382,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "RoF; Merchant Alliance Tradebook; RRC012.",
+      "must_learn": 1,
+      "learned_by_item_id": 81108,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 19,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3091270,
+      "name": "Black Powder Bomb",
+      "tradeskill": 63,
+      "skillneeded": 300,
+      "trivial": 335,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "RoF; Merchant Alliance Tradebook; RRC012.",
+      "must_learn": 1,
+      "learned_by_item_id": 81108,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 19,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3091271,
+      "name": "Combat Spellbook",
+      "tradeskill": 61,
+      "skillneeded": 300,
+      "trivial": 375,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "RoF; Merchant Alliance Tradebook; RRC012.",
+      "must_learn": 1,
+      "learned_by_item_id": 81108,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 19,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3091272,
+      "name": "Equipment Belt",
+      "tradeskill": 61,
+      "skillneeded": 300,
+      "trivial": 322,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "RoF; Merchant Alliance Tradebook; RRC012.",
+      "must_learn": 1,
+      "learned_by_item_id": 81108,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 19,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3091273,
+      "name": "Black Powder Bomb",
+      "tradeskill": 57,
+      "skillneeded": 0,
+      "trivial": 335,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "RoF; Merchant Alliance Tradebook; RRC012.",
+      "must_learn": 1,
+      "learned_by_item_id": 81108,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 19,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3091274,
+      "name": "Repeating Crossbow",
+      "tradeskill": 57,
+      "skillneeded": 0,
+      "trivial": 375,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "RoF; Merchant Alliance Tradebook; RRC012.",
+      "must_learn": 1,
+      "learned_by_item_id": 81108,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 19,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3091275,
+      "name": "Alliance Elixir",
+      "tradeskill": 59,
+      "skillneeded": 0,
+      "trivial": 402,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "RoF; Merchant Alliance Tradebook; RRC012.",
+      "must_learn": 1,
+      "learned_by_item_id": 81108,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 19,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    }
+  ],
+  "entries": [
+    {
+      "recipe_id": 3091267,
+      "item_id": 81124,
+      "successcount": 3,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091267,
+      "item_id": 81128,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091267,
+      "item_id": 13427,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091267,
+      "item_id": 13015,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091267,
+      "item_id": 16593,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091267,
+      "item_id": 13425,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091267,
+      "item_id": 15,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3091268,
+      "item_id": 81123,
+      "successcount": 3,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091268,
+      "item_id": 16527,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091268,
+      "item_id": 16598,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091268,
+      "item_id": 14219,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091268,
+      "item_id": 81127,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091268,
+      "item_id": 13006,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091268,
+      "item_id": 19,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3091269,
+      "item_id": 81125,
+      "successcount": 3,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091269,
+      "item_id": 16580,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091269,
+      "item_id": 15961,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091269,
+      "item_id": 16592,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091269,
+      "item_id": 81129,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091269,
+      "item_id": 13006,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091269,
+      "item_id": 19,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3091270,
+      "item_id": 81121,
+      "successcount": 25,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091270,
+      "item_id": 81133,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091270,
+      "item_id": 81322,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091270,
+      "item_id": 12003,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091270,
+      "item_id": 17,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3091271,
+      "item_id": 81122,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091271,
+      "item_id": 14246,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091271,
+      "item_id": 13063,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 5,
+      "salvagecount": 5,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091271,
+      "item_id": 81132,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091271,
+      "item_id": 16,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3091272,
+      "item_id": 81126,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091272,
+      "item_id": 81162,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091272,
+      "item_id": 16857,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091272,
+      "item_id": 34496,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091272,
+      "item_id": 34914,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091272,
+      "item_id": 16,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3091273,
+      "item_id": 81121,
+      "successcount": 25,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091273,
+      "item_id": 81133,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091273,
+      "item_id": 81322,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091273,
+      "item_id": 12003,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091273,
+      "item_id": 10,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3091274,
+      "item_id": 81119,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091274,
+      "item_id": 16858,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091274,
+      "item_id": 81130,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091274,
+      "item_id": 16855,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091274,
+      "item_id": 16857,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091274,
+      "item_id": 8086,
+      "successcount": 1,
+      "failcount": 1,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091274,
+      "item_id": 10,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3091275,
+      "item_id": 81123,
+      "successcount": 3,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091275,
+      "item_id": 16527,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091275,
+      "item_id": 16598,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091275,
+      "item_id": 14219,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091275,
+      "item_id": 81127,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091275,
+      "item_id": 13006,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091275,
+      "item_id": 9,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    }
+  ],
+  "source_facts": [
+    {
+      "recipe_id": 3091267,
+      "name": "Merchant's Feast",
+      "source_skill": "Baking",
+      "output_item_id": 81124,
+      "tradeskill": 60,
+      "trivial": 415,
+      "yield_count": 3,
+      "skillneeded": 300,
+      "must_learn": 1,
+      "learned_by_item_id": 81108,
+      "container_bagtype": 15,
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=560&rsa=Baking&sub=ROF",
+      "source_output_url": "https://www.eqtraders.com/items/show_item.php?item=40426&menustr=010000000000",
+      "ingredients": [
+        {
+          "name": "Fresh Meat",
+          "item_id": 81128,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=40364"
+        },
+        {
+          "name": "Jug of Sauces",
+          "item_id": 13427,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=1105"
+        },
+        {
+          "name": "Loaf of Bread",
+          "item_id": 13015,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=1135"
+        },
+        {
+          "name": "Rice",
+          "item_id": 16593,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=5165"
+        },
+        {
+          "name": "Spices",
+          "item_id": 13425,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=1011"
+        }
+      ],
+      "also_returns": [],
+      "failure_returns": []
+    },
+    {
+      "recipe_id": 3091268,
+      "name": "Alliance Elixir",
+      "source_skill": "Brewing",
+      "output_item_id": 81123,
+      "tradeskill": 65,
+      "trivial": 402,
+      "yield_count": 3,
+      "skillneeded": 300,
+      "must_learn": 1,
+      "learned_by_item_id": 81108,
+      "container_bagtype": 19,
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=561&rsa=Brewing&sub=ROF",
+      "source_output_url": "https://www.eqtraders.com/items/show_item.php?item=40427&menustr=010000000000",
+      "ingredients": [
+        {
+          "name": "Balm Leaves",
+          "item_id": 16527,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=1672"
+        },
+        {
+          "name": "Bottle",
+          "item_id": 16598,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=1285"
+        },
+        {
+          "name": "Mandrake Root",
+          "item_id": 14219,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=1166"
+        },
+        {
+          "name": "Medicinal Herbs",
+          "item_id": 81127,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=40428"
+        },
+        {
+          "name": "Water Flask",
+          "item_id": 13006,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=1001"
+        }
+      ],
+      "also_returns": [],
+      "failure_returns": []
+    },
+    {
+      "recipe_id": 3091269,
+      "name": "Merchant's Brew",
+      "source_skill": "Brewing",
+      "output_item_id": 81125,
+      "tradeskill": 65,
+      "trivial": 382,
+      "yield_count": 3,
+      "skillneeded": 300,
+      "must_learn": 1,
+      "learned_by_item_id": 81108,
+      "container_bagtype": 19,
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=561&rsa=Brewing&sub=ROF",
+      "source_output_url": "https://www.eqtraders.com/items/show_item.php?item=40409&menustr=010000000000",
+      "ingredients": [
+        {
+          "name": "Cask",
+          "item_id": 16580,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=1295"
+        },
+        {
+          "name": "Cup of Sugar",
+          "item_id": 15961,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=6472"
+        },
+        {
+          "name": "Grapes",
+          "item_id": 16592,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=1682"
+        },
+        {
+          "name": "Natural Spices",
+          "item_id": 81129,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=40363"
+        },
+        {
+          "name": "Water Flask",
+          "item_id": 13006,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=1001"
+        }
+      ],
+      "also_returns": [],
+      "failure_returns": []
+    },
+    {
+      "recipe_id": 3091270,
+      "name": "Black Powder Bomb",
+      "source_skill": "Smithing",
+      "output_item_id": 81121,
+      "tradeskill": 63,
+      "trivial": 335,
+      "yield_count": 25,
+      "skillneeded": 300,
+      "must_learn": 1,
+      "learned_by_item_id": 81108,
+      "container_bagtype": 17,
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=568&rsa=Smithing&sub=ROF",
+      "source_output_url": "https://www.eqtraders.com/items/show_item.php?item=40422&menustr=010000000000",
+      "ingredients": [
+        {
+          "name": "Black Powder Pouch",
+          "item_id": 81133,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=40431"
+        },
+        {
+          "name": "Linens",
+          "item_id": 81322,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34387"
+        },
+        {
+          "name": "Sheet Metal",
+          "item_id": 12003,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=1421"
+        }
+      ],
+      "also_returns": [],
+      "failure_returns": []
+    },
+    {
+      "recipe_id": 3091271,
+      "name": "Combat Spellbook",
+      "source_skill": "Tailoring",
+      "output_item_id": 81122,
+      "tradeskill": 61,
+      "trivial": 375,
+      "yield_count": 1,
+      "skillneeded": 300,
+      "must_learn": 1,
+      "learned_by_item_id": 81108,
+      "container_bagtype": 16,
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=565&rsa=Tailoring&sub=ROF",
+      "source_output_url": "https://www.eqtraders.com/items/show_item.php?item=40423&menustr=010000000000",
+      "ingredients": [
+        {
+          "name": "Mystic Ash",
+          "item_id": 14246,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=1154"
+        },
+        {
+          "name": "Piece of Parchment",
+          "item_id": 13063,
+          "count": 5,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=7411"
+        },
+        {
+          "name": "Writing Ink",
+          "item_id": 81132,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=40432"
+        }
+      ],
+      "also_returns": [],
+      "failure_returns": []
+    },
+    {
+      "recipe_id": 3091272,
+      "name": "Equipment Belt",
+      "source_skill": "Tailoring",
+      "output_item_id": 81126,
+      "tradeskill": 61,
+      "trivial": 322,
+      "yield_count": 1,
+      "skillneeded": 300,
+      "must_learn": 1,
+      "learned_by_item_id": 81108,
+      "container_bagtype": 16,
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=565&rsa=Tailoring&sub=ROF",
+      "source_output_url": "https://www.eqtraders.com/items/show_item.php?item=40421&menustr=010000000000",
+      "ingredients": [
+        {
+          "name": "Leather Roll",
+          "item_id": 81162,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=40430"
+        },
+        {
+          "name": "Metal Twine",
+          "item_id": 16857,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=1238"
+        },
+        {
+          "name": "Reinforced Filament",
+          "item_id": 34496,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34179"
+        },
+        {
+          "name": "Simple Sewing Needle",
+          "item_id": 34914,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=27868"
+        }
+      ],
+      "also_returns": [],
+      "failure_returns": []
+    },
+    {
+      "recipe_id": 3091273,
+      "name": "Black Powder Bomb",
+      "source_skill": "Tinkering",
+      "output_item_id": 81121,
+      "tradeskill": 57,
+      "trivial": 335,
+      "yield_count": 25,
+      "skillneeded": 0,
+      "must_learn": 1,
+      "learned_by_item_id": 81108,
+      "container_bagtype": 10,
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=566&rsa=Tinkering&sub=ROF",
+      "source_output_url": "https://www.eqtraders.com/items/show_item.php?item=40422&menustr=010000000000",
+      "ingredients": [
+        {
+          "name": "Black Powder Pouch",
+          "item_id": 81133,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=40431"
+        },
+        {
+          "name": "Linens",
+          "item_id": 81322,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34387"
+        },
+        {
+          "name": "Sheet Metal",
+          "item_id": 12003,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=1421"
+        }
+      ],
+      "also_returns": [],
+      "failure_returns": []
+    },
+    {
+      "recipe_id": 3091274,
+      "name": "Repeating Crossbow",
+      "source_skill": "Tinkering",
+      "output_item_id": 81119,
+      "tradeskill": 57,
+      "trivial": 375,
+      "yield_count": 1,
+      "skillneeded": 0,
+      "must_learn": 1,
+      "learned_by_item_id": 81108,
+      "container_bagtype": 10,
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=566&rsa=Tinkering&sub=ROF",
+      "source_output_url": "https://www.eqtraders.com/items/show_item.php?item=40424&menustr=010000000000",
+      "ingredients": [
+        {
+          "name": "Gears",
+          "item_id": 16858,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=1239"
+        },
+        {
+          "name": "Lumber Plank",
+          "item_id": 81130,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=40433"
+        },
+        {
+          "name": "Metal Shaft",
+          "item_id": 16855,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=1236"
+        },
+        {
+          "name": "Metal Twine",
+          "item_id": 16857,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=1238"
+        },
+        {
+          "name": "Planing Tool",
+          "item_id": 8086,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=1387"
+        }
+      ],
+      "also_returns": [
+        {
+          "name": "Planing Tool",
+          "item_id": 8086,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=1387"
+        }
+      ],
+      "failure_returns": [
+        {
+          "name": "Planing Tool",
+          "item_id": 8086,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=1387"
+        }
+      ]
+    },
+    {
+      "recipe_id": 3091275,
+      "name": "Alliance Elixir",
+      "source_skill": "Alchemy",
+      "output_item_id": 81123,
+      "tradeskill": 59,
+      "trivial": 402,
+      "yield_count": 3,
+      "skillneeded": 0,
+      "must_learn": 1,
+      "learned_by_item_id": 81108,
+      "container_bagtype": 9,
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=29&rsa=Alchemy",
+      "source_output_url": "https://www.eqtraders.com/items/show_item.php?item=40427&menustr=010000000000",
+      "ingredients": [
+        {
+          "name": "Balm Leaves",
+          "item_id": 16527,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=1672"
+        },
+        {
+          "name": "Bottle",
+          "item_id": 16598,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=1285"
+        },
+        {
+          "name": "Mandrake Root",
+          "item_id": 14219,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=1166"
+        },
+        {
+          "name": "Medicinal Herbs",
+          "item_id": 81127,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=40428"
+        },
+        {
+          "name": "Water Flask",
+          "item_id": 13006,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=1001"
+        }
+      ],
+      "also_returns": [],
+      "failure_returns": []
+    }
+  ],
+  "item_dependencies": [
+    {
+      "id": 8086,
+      "name": "Planing Tool"
+    },
+    {
+      "id": 12003,
+      "name": "Sheet Metal"
+    },
+    {
+      "id": 13006,
+      "name": "Water Flask"
+    },
+    {
+      "id": 13015,
+      "name": "Loaf of Bread"
+    },
+    {
+      "id": 13063,
+      "name": "Piece of Parchment"
+    },
+    {
+      "id": 13425,
+      "name": "Spices"
+    },
+    {
+      "id": 13427,
+      "name": "Jug of Sauces"
+    },
+    {
+      "id": 14219,
+      "name": "Mandrake Root"
+    },
+    {
+      "id": 14246,
+      "name": "Mystic Ash"
+    },
+    {
+      "id": 15961,
+      "name": "Cup of Sugar"
+    },
+    {
+      "id": 16527,
+      "name": "Balm Leaves"
+    },
+    {
+      "id": 16580,
+      "name": "Cask"
+    },
+    {
+      "id": 16592,
+      "name": "Grapes"
+    },
+    {
+      "id": 16593,
+      "name": "Rice"
+    },
+    {
+      "id": 16598,
+      "name": "Bottle"
+    },
+    {
+      "id": 16855,
+      "name": "Metal Shaft"
+    },
+    {
+      "id": 16857,
+      "name": "Metal Twine"
+    },
+    {
+      "id": 16858,
+      "name": "Gears"
+    },
+    {
+      "id": 17877,
+      "name": "Deluxe Toolbox"
+    },
+    {
+      "id": 17901,
+      "name": "Medicine Bag"
+    },
+    {
+      "id": 17909,
+      "name": "Forge"
+    },
+    {
+      "id": 17911,
+      "name": "Brewing Barrel"
+    },
+    {
+      "id": 17966,
+      "name": "Deluxe Sewing Kit"
+    },
+    {
+      "id": 34496,
+      "name": "Reinforced Filament"
+    },
+    {
+      "id": 34914,
+      "name": "Simple Sewing Needle"
+    },
+    {
+      "id": 54256,
+      "name": "Oven"
+    },
+    {
+      "id": 81108,
+      "name": "Merchant Alliance Tradebook"
+    },
+    {
+      "id": 81119,
+      "name": "Repeating Crossbow"
+    },
+    {
+      "id": 81121,
+      "name": "Black Powder Bomb"
+    },
+    {
+      "id": 81122,
+      "name": "Combat Spellbook"
+    },
+    {
+      "id": 81123,
+      "name": "Alliance Elixir"
+    },
+    {
+      "id": 81124,
+      "name": "Merchant's Feast"
+    },
+    {
+      "id": 81125,
+      "name": "Merchant's Brew"
+    },
+    {
+      "id": 81126,
+      "name": "Equipment Belt"
+    },
+    {
+      "id": 81127,
+      "name": "Medicinal Herbs"
+    },
+    {
+      "id": 81128,
+      "name": "Fresh Meat"
+    },
+    {
+      "id": 81129,
+      "name": "Natural Spices"
+    },
+    {
+      "id": 81130,
+      "name": "Lumber Plank"
+    },
+    {
+      "id": 81132,
+      "name": "Writing Ink"
+    },
+    {
+      "id": 81133,
+      "name": "Black Powder Pouch"
+    },
+    {
+      "id": 81162,
+      "name": "Leather Roll"
+    },
+    {
+      "id": 81322,
+      "name": "Linens"
+    }
+  ],
+  "excluded": [
+    {
+      "name": "Repeating Crossbow Bolts",
+      "variants": [
+        "Fletching",
+        "Tinkering"
+      ],
+      "reason": "Game book says100arrows, maintained catalogue/item page yield10; numeric historical yield unresolved. Do not flatten or choose silently."
+    },
+    {
+      "name": "Combat Spellbook",
+      "variants": [
+        "Spell Research"
+      ],
+      "reason": "Gamebook confirms research method, separately captured itempage confirms current formula; research kit/class restrictions and full captured catalogue review pending."
+    },
+    {
+      "name": "Repeating Crossbow",
+      "variants": [
+        "Fletching"
+      ],
+      "reason": "Fletching source returns Planing Tool on success but omits failure return; Tinkering variant explicitly returns it on both. Review before deciding whether omission is meaningful."
+    }
+  ],
+  "alternate_skill_output_pairs": [
+    {
+      "output_item_id": 81123,
+      "recipe_ids": [
+        3091268,
+        3091275
+      ]
+    },
+    {
+      "output_item_id": 81121,
+      "recipe_ids": [
+        3091270,
+        3091273
+      ]
+    }
+  ],
+  "availability_evidence": {
+    "book_item_id": 81108,
+    "book_name": "Merchant Alliance Tradebook",
+    "books_id": 5243,
+    "book_filename": "TSQMATradebook",
+    "book_text_sha256": "efdd1ec66b883d1133aec1c25be242b07d8b6f1073c96f51509985074b986a1e",
+    "book_facts": "Current game-authored book names all selected product families, ingredients and methods. Bolts yield100prose versus current source10is held separately.",
+    "period_source": "https://pixelnomad.ca/2013/04/",
+    "period_source_facts": "Player post displayedApril29,2013reports completing Merchant Alliance prequest and receiving this book; current page also displays later2019edit. Supports book/task availability, not all numeric formula values.",
+    "historical_limit": "Maintained RoF/formula pages and current book corroborate content; no immutable May2013 per-formula numeric or native receipt."
+  },
+  "restriction_review": {
+    "learning": "All9must_learn1/learned_by_item_id81108. Current source explicitly says must scribe. Engine experiment/auto paths gate unlearned recipes and ReadBook exposes scribing when a matching book association exists. Static source, not native bookclick proof.",
+    "minimum": "Six ordinary main-skill variants retain explicit300minimum; twoTinkering and oneAlchemy have no explicit minimum and remain0. Existing GetSkill-based enforcement retained; no base-skill/cap/rule change.",
+    "containers": "Ordinary classes9Medicine/10Toolbox/15Oven/16Sewing/17Forge/19Barrel; six concrete capacity dependencies guarded. No cultural kit/race narrowing or broadening.",
+    "class_race": "Existing engine ShamanAlchemy and GnomeTinkering checks preserved for both manual/auto paths; not newly native-tested.",
+    "returns": "SelectedTinkeringcrossbow returns PlaningTool8086on success/failure, salvage0. Fletchingvariant held due omitted failure-return note.",
+    "quest": "Normal outputs remainquest0. Book reward and Merchant Alliance/Shawl3.0quest access remain coordinator/Achievements scope, no freebook or learntrecipe grants.",
+    "shared_outputs": "Only exact target output pairs for same-product alternate skills may coexist; all target16field/7field postimages remain checked. Other recipe/output collisions still refuse.",
+    "salvage": "Ordinary consumable component-count convention; no per-recipe historical AA proof.",
+    "native_combine": false,
+    "native_book_scribing": false
+  }
+}

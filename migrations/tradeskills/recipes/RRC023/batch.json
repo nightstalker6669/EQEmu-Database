@@ -1,0 +1,289 @@
+{
+  "batch": "RRC023",
+  "branch": "rof2-tradeskills",
+  "proposed_ids": [
+    3091548,
+    3091549
+  ],
+  "counts": {
+    "recipes": 2,
+    "entries": 8,
+    "item_dependencies": 6
+  },
+  "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=373&rsa=Baking&sub=por",
+  "recipes": [
+    {
+      "id": 3091548,
+      "name": "Taelosian Dough (2)",
+      "tradeskill": 60,
+      "skillneeded": 0,
+      "trivial": 28,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "PoR; EQTC article373 double-yield dough; RRC023.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 11,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3091549,
+      "name": "Taelosian Mountain Dough (2)",
+      "tradeskill": 60,
+      "skillneeded": 0,
+      "trivial": 38,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "PoR; EQTC article373 double-yield dough; RRC023.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 11,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    }
+  ],
+  "entries": [
+    {
+      "recipe_id": 3091548,
+      "item_id": 96732,
+      "successcount": 2,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091548,
+      "item_id": 67741,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 2,
+      "salvagecount": 2,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091548,
+      "item_id": 58155,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 2,
+      "salvagecount": 2,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091548,
+      "item_id": 14,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3091549,
+      "item_id": 96734,
+      "successcount": 2,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091549,
+      "item_id": 67741,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 2,
+      "salvagecount": 2,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091549,
+      "item_id": 58150,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 2,
+      "salvagecount": 2,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091549,
+      "item_id": 14,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    }
+  ],
+  "item_dependencies": [
+    {
+      "id": 17906,
+      "name": "Mixing Bowl"
+    },
+    {
+      "id": 58150,
+      "name": "Taelosian Mountain Wheat Flour"
+    },
+    {
+      "id": 58155,
+      "name": "Taelosian Wheat Flour"
+    },
+    {
+      "id": 67741,
+      "name": "Egg Batter"
+    },
+    {
+      "id": 96732,
+      "name": "Taelosian Dough"
+    },
+    {
+      "id": 96734,
+      "name": "Taelosian Mountain Dough"
+    }
+  ],
+  "source_facts": [
+    {
+      "recipe_id": 3091548,
+      "name": "Taelosian Dough (2)",
+      "source_name": "Taelosian Dough",
+      "output_item_id": 96732,
+      "yield_count": 2,
+      "trivial": 28,
+      "source_formula": "Components: Egg Batter (2), Taelosian Wheat Flour (2)\nIn: Mixing Bowl (Portable), Collapsible Mixing Bowl\nYield: 2",
+      "source_output_url": "https://www.eqtraders.com/items/show_item.php?item=22421&menustr=010000000000",
+      "preserved_single_yield_recipe_id": 3091508
+    },
+    {
+      "recipe_id": 3091549,
+      "name": "Taelosian Mountain Dough (2)",
+      "source_name": "Taelosian Mountain Dough",
+      "output_item_id": 96734,
+      "yield_count": 2,
+      "trivial": 38,
+      "source_formula": "Components: Egg Batter (2), Taelosian Mountain Wheat Flour (2)\nIn: Mixing Bowl (Portable), Collapsible Mixing Bowl\nYield: 2",
+      "source_output_url": "https://www.eqtraders.com/items/show_item.php?item=16810&menustr=010000000000",
+      "preserved_single_yield_recipe_id": 3091513
+    }
+  ],
+  "exact_existing_producer_recipes": [
+    {
+      "id": 3091508,
+      "name": "Taelosian Dough",
+      "tradeskill": 60,
+      "skillneeded": 0,
+      "trivial": 28,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "PoR; EQTC article373; Taelosian bread; RRC020.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 11,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3091513,
+      "name": "Taelosian Mountain Dough",
+      "tradeskill": 60,
+      "skillneeded": 0,
+      "trivial": 38,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "PoR; EQTC article373; Taelosian bread; RRC020.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 11,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    }
+  ],
+  "exact_existing_producer_entries": [
+    {
+      "recipe_id": 3091508,
+      "item_id": 96732,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091508,
+      "item_id": 67741,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091508,
+      "item_id": 58155,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091508,
+      "item_id": 14,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3091513,
+      "item_id": 96734,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091513,
+      "item_id": 67741,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091513,
+      "item_id": 58150,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091513,
+      "item_id": 14,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    }
+  ],
+  "notes": "Two explicit double-quantity/yield rows, different four-slot input multiset from existing two-slot single-yield recipes. UI suffix(2) distinguishes quantity. Existing one-unit variants are untouched and exact-guarded. Primary identities and source context reused from RRC020; maintained PoR provenance is not immutable May2013 numeric/native proof."
+}

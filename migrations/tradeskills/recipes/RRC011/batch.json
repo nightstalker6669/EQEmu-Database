@@ -1,0 +1,1367 @@
+{
+  "batch": "RRC011",
+  "branch": "rof2-tradeskills",
+  "status": "SOURCE_PROPOSAL_NOT_REHEARSED_APPLIED",
+  "cutoff": "2013-05-31",
+  "proposed_ids": [
+    3091258,
+    3091266
+  ],
+  "counts": {
+    "recipes": 9,
+    "entries": 60,
+    "item_dependencies": 38,
+    "existing_producer_recipes": 2,
+    "existing_producer_entries": 8
+  },
+  "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=560&rsa=Baking&sub=ROF",
+  "source_category_rows_observed": 96,
+  "recipes": [
+    {
+      "id": 3091258,
+      "name": "Chocolate Planar Pie",
+      "tradeskill": 60,
+      "skillneeded": 0,
+      "trivial": 412,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "RoF; EQTC article560; Planar Delights specials; RRC011.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 19,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3091259,
+      "name": "Deluxe Planar Goo Omelet",
+      "tradeskill": 60,
+      "skillneeded": 0,
+      "trivial": 428,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "RoF; EQTC article560; Planar Delights specials; RRC011.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 19,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3091260,
+      "name": "Grilled Goo Salad",
+      "tradeskill": 60,
+      "skillneeded": 0,
+      "trivial": 418,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "RoF; EQTC article560; Planar Delights specials; RRC011.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 19,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3091261,
+      "name": "Planar Donuts",
+      "tradeskill": 60,
+      "skillneeded": 0,
+      "trivial": 415,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "RoF; EQTC article560; Planar Delights specials; RRC011.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 19,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3091262,
+      "name": "Planar Goo Omelet",
+      "tradeskill": 60,
+      "skillneeded": 0,
+      "trivial": 402,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "RoF; EQTC article560; Planar Delights specials; RRC011.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 19,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3091263,
+      "name": "Planar Goo Omelet with Cheese",
+      "tradeskill": 60,
+      "skillneeded": 0,
+      "trivial": 422,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "RoF; EQTC article560; Planar Delights specials; RRC011.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 19,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3091264,
+      "name": "Spicy Planar Chili",
+      "tradeskill": 60,
+      "skillneeded": 0,
+      "trivial": 422,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "RoF; EQTC article560; Planar Delights specials; RRC011.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 19,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3091265,
+      "name": "Stew of Fear",
+      "tradeskill": 60,
+      "skillneeded": 0,
+      "trivial": 423,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "RoF; EQTC article560; Planar Delights specials; RRC011.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 19,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3091266,
+      "name": "Terror Fish Sushi Rolls",
+      "tradeskill": 60,
+      "skillneeded": 0,
+      "trivial": 420,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "RoF; EQTC article560; Planar Delights specials; RRC011.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 19,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    }
+  ],
+  "entries": [
+    {
+      "recipe_id": 3091258,
+      "item_id": 76426,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091258,
+      "item_id": 25759,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091258,
+      "item_id": 13193,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091258,
+      "item_id": 76404,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 2,
+      "salvagecount": 2,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091258,
+      "item_id": 75856,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091258,
+      "item_id": 13006,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091258,
+      "item_id": 15,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3091259,
+      "item_id": 76375,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091259,
+      "item_id": 29742,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091259,
+      "item_id": 8160,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091259,
+      "item_id": 45573,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091259,
+      "item_id": 67741,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 2,
+      "salvagecount": 2,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091259,
+      "item_id": 76386,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091259,
+      "item_id": 13419,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091259,
+      "item_id": 15,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3091260,
+      "item_id": 76427,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091260,
+      "item_id": 29766,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091260,
+      "item_id": 76386,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091260,
+      "item_id": 13976,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091260,
+      "item_id": 58284,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091260,
+      "item_id": 96811,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091260,
+      "item_id": 15,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3091261,
+      "item_id": 76425,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091261,
+      "item_id": 15961,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091261,
+      "item_id": 96736,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091261,
+      "item_id": 76404,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 2,
+      "salvagecount": 2,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091261,
+      "item_id": 15,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3091262,
+      "item_id": 76337,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091262,
+      "item_id": 29742,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091262,
+      "item_id": 45573,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091262,
+      "item_id": 67741,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 2,
+      "salvagecount": 2,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091262,
+      "item_id": 76386,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091262,
+      "item_id": 15,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3091263,
+      "item_id": 76338,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091263,
+      "item_id": 29742,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091263,
+      "item_id": 8160,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091263,
+      "item_id": 45573,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091263,
+      "item_id": 67741,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 2,
+      "salvagecount": 2,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091263,
+      "item_id": 76386,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091263,
+      "item_id": 15,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3091264,
+      "item_id": 76429,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091264,
+      "item_id": 98218,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091264,
+      "item_id": 58287,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091264,
+      "item_id": 58284,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091264,
+      "item_id": 76404,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 3,
+      "salvagecount": 3,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091264,
+      "item_id": 58286,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091264,
+      "item_id": 15,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3091265,
+      "item_id": 76430,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091265,
+      "item_id": 8160,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091265,
+      "item_id": 58282,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091265,
+      "item_id": 76404,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 3,
+      "salvagecount": 3,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091265,
+      "item_id": 75856,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091265,
+      "item_id": 13419,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091265,
+      "item_id": 15,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3091266,
+      "item_id": 76428,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091266,
+      "item_id": 76424,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091266,
+      "item_id": 16593,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091266,
+      "item_id": 13425,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091266,
+      "item_id": 76423,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091266,
+      "item_id": 15,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    }
+  ],
+  "source_facts": [
+    {
+      "recipe_id": 3091258,
+      "name": "Chocolate Planar Pie",
+      "output_item_id": 76426,
+      "yield_count": 1,
+      "trivial": 412,
+      "ingredients": [
+        {
+          "name": "Chocolate",
+          "item_id": 25759,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=11763"
+        },
+        {
+          "name": "Cup of Flour",
+          "item_id": 13193,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=1010"
+        },
+        {
+          "name": "Prepared Planar Goo",
+          "item_id": 76404,
+          "count": 2,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=39574"
+        },
+        {
+          "name": "Rock Salt",
+          "item_id": 75856,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=7719"
+        },
+        {
+          "name": "Water Flask",
+          "item_id": 13006,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=1001"
+        }
+      ],
+      "container_bagtype": 15,
+      "source_output_url": "https://www.eqtraders.com/items/show_item.php?item=39636&menustr=010000000000"
+    },
+    {
+      "recipe_id": 3091259,
+      "name": "Deluxe Planar Goo Omelet",
+      "output_item_id": 76375,
+      "yield_count": 1,
+      "trivial": 428,
+      "ingredients": [
+        {
+          "name": "Butter",
+          "item_id": 29742,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=4483"
+        },
+        {
+          "name": "Cheese",
+          "item_id": 8160,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=3010"
+        },
+        {
+          "name": "Coarse Salt",
+          "item_id": 45573,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=17437"
+        },
+        {
+          "name": "Egg Batter",
+          "item_id": 67741,
+          "count": 2,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=12834"
+        },
+        {
+          "name": "Grilled Planar Goo",
+          "item_id": 76386,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=39684"
+        },
+        {
+          "name": "Vegetables",
+          "item_id": 13419,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=1635"
+        }
+      ],
+      "container_bagtype": 15,
+      "source_output_url": "https://www.eqtraders.com/items/show_item.php?item=40542&menustr=010000000000"
+    },
+    {
+      "recipe_id": 3091260,
+      "name": "Grilled Goo Salad",
+      "output_item_id": 76427,
+      "yield_count": 1,
+      "trivial": 418,
+      "ingredients": [
+        {
+          "name": "Dressing",
+          "item_id": 29766,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=6473"
+        },
+        {
+          "name": "Grilled Planar Goo",
+          "item_id": 76386,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=39684"
+        },
+        {
+          "name": "Lettuce",
+          "item_id": 13976,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=2015"
+        },
+        {
+          "name": "Onion",
+          "item_id": 58284,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=17468"
+        },
+        {
+          "name": "Tomato",
+          "item_id": 96811,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=22441"
+        }
+      ],
+      "container_bagtype": 15,
+      "source_output_url": "https://www.eqtraders.com/items/show_item.php?item=39637&menustr=010000000000"
+    },
+    {
+      "recipe_id": 3091261,
+      "name": "Planar Donuts",
+      "output_item_id": 76425,
+      "yield_count": 1,
+      "trivial": 415,
+      "ingredients": [
+        {
+          "name": "Cup of Sugar",
+          "item_id": 15961,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=6472"
+        },
+        {
+          "name": "Pastry Dough",
+          "item_id": 96736,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=22428"
+        },
+        {
+          "name": "Prepared Planar Goo",
+          "item_id": 76404,
+          "count": 2,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=39574"
+        }
+      ],
+      "container_bagtype": 15,
+      "source_output_url": "https://www.eqtraders.com/items/show_item.php?item=39575&menustr=010000000000"
+    },
+    {
+      "recipe_id": 3091262,
+      "name": "Planar Goo Omelet",
+      "output_item_id": 76337,
+      "yield_count": 1,
+      "trivial": 402,
+      "ingredients": [
+        {
+          "name": "Butter",
+          "item_id": 29742,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=4483"
+        },
+        {
+          "name": "Coarse Salt",
+          "item_id": 45573,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=17437"
+        },
+        {
+          "name": "Egg Batter",
+          "item_id": 67741,
+          "count": 2,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=12834"
+        },
+        {
+          "name": "Grilled Planar Goo",
+          "item_id": 76386,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=39684"
+        }
+      ],
+      "container_bagtype": 15,
+      "source_output_url": "https://www.eqtraders.com/items/show_item.php?item=40544&menustr=010000000000"
+    },
+    {
+      "recipe_id": 3091263,
+      "name": "Planar Goo Omelet with Cheese",
+      "output_item_id": 76338,
+      "yield_count": 1,
+      "trivial": 422,
+      "ingredients": [
+        {
+          "name": "Butter",
+          "item_id": 29742,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=4483"
+        },
+        {
+          "name": "Cheese",
+          "item_id": 8160,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=3010"
+        },
+        {
+          "name": "Coarse Salt",
+          "item_id": 45573,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=17437"
+        },
+        {
+          "name": "Egg Batter",
+          "item_id": 67741,
+          "count": 2,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=12834"
+        },
+        {
+          "name": "Grilled Planar Goo",
+          "item_id": 76386,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=39684"
+        }
+      ],
+      "container_bagtype": 15,
+      "source_output_url": "https://www.eqtraders.com/items/show_item.php?item=40545&menustr=010000000000"
+    },
+    {
+      "recipe_id": 3091264,
+      "name": "Spicy Planar Chili",
+      "output_item_id": 76429,
+      "yield_count": 1,
+      "trivial": 422,
+      "ingredients": [
+        {
+          "name": "Cup of Red Beans",
+          "item_id": 98218,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=27188"
+        },
+        {
+          "name": "Hot Red Pepper",
+          "item_id": 58287,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=22426"
+        },
+        {
+          "name": "Onion",
+          "item_id": 58284,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=17468"
+        },
+        {
+          "name": "Prepared Planar Goo",
+          "item_id": 76404,
+          "count": 3,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=39574"
+        },
+        {
+          "name": "Sweet Green Pepper",
+          "item_id": 58286,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=17489"
+        }
+      ],
+      "container_bagtype": 15,
+      "source_output_url": "https://www.eqtraders.com/items/show_item.php?item=39638&menustr=010000000000"
+    },
+    {
+      "recipe_id": 3091265,
+      "name": "Stew of Fear",
+      "output_item_id": 76430,
+      "yield_count": 1,
+      "trivial": 423,
+      "ingredients": [
+        {
+          "name": "Cheese",
+          "item_id": 8160,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=3010"
+        },
+        {
+          "name": "Ground Pepper",
+          "item_id": 58282,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=11830"
+        },
+        {
+          "name": "Prepared Planar Goo",
+          "item_id": 76404,
+          "count": 3,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=39574"
+        },
+        {
+          "name": "Rock Salt",
+          "item_id": 75856,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=7719"
+        },
+        {
+          "name": "Vegetables",
+          "item_id": 13419,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=1635"
+        }
+      ],
+      "container_bagtype": 15,
+      "source_output_url": "https://www.eqtraders.com/items/show_item.php?item=39639&menustr=010000000000"
+    },
+    {
+      "recipe_id": 3091266,
+      "name": "Terror Fish Sushi Rolls",
+      "output_item_id": 76428,
+      "yield_count": 1,
+      "trivial": 420,
+      "ingredients": [
+        {
+          "name": "Energized Seaweed",
+          "item_id": 76424,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=39642"
+        },
+        {
+          "name": "Rice",
+          "item_id": 16593,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=5165"
+        },
+        {
+          "name": "Spices",
+          "item_id": 13425,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=1011"
+        },
+        {
+          "name": "Terror Fish",
+          "item_id": 76423,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=39641"
+        }
+      ],
+      "container_bagtype": 15,
+      "source_output_url": "https://www.eqtraders.com/items/show_item.php?item=39640&menustr=010000000000"
+    }
+  ],
+  "item_dependencies": [
+    {
+      "id": 8160,
+      "name": "Cheese"
+    },
+    {
+      "id": 13006,
+      "name": "Water Flask"
+    },
+    {
+      "id": 13193,
+      "name": "Cup of Flour"
+    },
+    {
+      "id": 13419,
+      "name": "Vegetables"
+    },
+    {
+      "id": 13425,
+      "name": "Spices"
+    },
+    {
+      "id": 13976,
+      "name": "Lettuce"
+    },
+    {
+      "id": 15961,
+      "name": "Cup of Sugar"
+    },
+    {
+      "id": 16593,
+      "name": "Rice"
+    },
+    {
+      "id": 17906,
+      "name": "Mixing Bowl"
+    },
+    {
+      "id": 25759,
+      "name": "Chocolate"
+    },
+    {
+      "id": 29742,
+      "name": "Butter"
+    },
+    {
+      "id": 29766,
+      "name": "Dressing"
+    },
+    {
+      "id": 45573,
+      "name": "Coarse Salt"
+    },
+    {
+      "id": 54256,
+      "name": "Oven"
+    },
+    {
+      "id": 58265,
+      "name": "Grilling Sauce"
+    },
+    {
+      "id": 58282,
+      "name": "Ground Pepper"
+    },
+    {
+      "id": 58284,
+      "name": "Onion"
+    },
+    {
+      "id": 58286,
+      "name": "Sweet Green Pepper"
+    },
+    {
+      "id": 58287,
+      "name": "Hot Red Pepper"
+    },
+    {
+      "id": 67741,
+      "name": "Egg Batter"
+    },
+    {
+      "id": 75856,
+      "name": "Rock Salt"
+    },
+    {
+      "id": 76336,
+      "name": "Planar Goo"
+    },
+    {
+      "id": 76337,
+      "name": "Planar Goo Omelet"
+    },
+    {
+      "id": 76338,
+      "name": "Planar Goo Omelet with Cheese"
+    },
+    {
+      "id": 76375,
+      "name": "Deluxe Planar Goo Omelet"
+    },
+    {
+      "id": 76386,
+      "name": "Grilled Planar Goo"
+    },
+    {
+      "id": 76404,
+      "name": "Prepared Planar Goo"
+    },
+    {
+      "id": 76423,
+      "name": "Terror Fish"
+    },
+    {
+      "id": 76424,
+      "name": "Energized Seaweed"
+    },
+    {
+      "id": 76425,
+      "name": "Planar Donuts"
+    },
+    {
+      "id": 76426,
+      "name": "Chocolate Planar Pie"
+    },
+    {
+      "id": 76427,
+      "name": "Grilled Goo Salad"
+    },
+    {
+      "id": 76428,
+      "name": "Terror Fish Sushi Rolls"
+    },
+    {
+      "id": 76429,
+      "name": "Spicy Planar Chili"
+    },
+    {
+      "id": 76430,
+      "name": "Stew of Fear"
+    },
+    {
+      "id": 96736,
+      "name": "Pastry Dough"
+    },
+    {
+      "id": 96811,
+      "name": "Tomato"
+    },
+    {
+      "id": 98218,
+      "name": "Cup of Red Beans"
+    }
+  ],
+  "exact_existing_producer_recipes": [
+    {
+      "id": 3091001,
+      "name": "Prepared Planar Goo",
+      "tradeskill": 60,
+      "skillneeded": 0,
+      "trivial": 95,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "RoF; EQTC article560; RRC001. See public batch provenance.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 19,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3091058,
+      "name": "Grilled Planar Goo",
+      "tradeskill": 60,
+      "skillneeded": 0,
+      "trivial": 155,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "RoF; EQTC article560; RRC003. See public batch provenance.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 19,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    }
+  ],
+  "exact_existing_producer_entries": [
+    {
+      "recipe_id": 3091001,
+      "item_id": 76404,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091001,
+      "item_id": 76336,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091001,
+      "item_id": 13006,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091001,
+      "item_id": 14,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3091058,
+      "item_id": 76386,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091058,
+      "item_id": 58265,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091058,
+      "item_id": 76404,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091058,
+      "item_id": 14,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    }
+  ],
+  "availability_evidence": {
+    "book_item_id": 76335,
+    "book_name": "Planar Delights",
+    "books_id": 5514,
+    "book_filename": "TSSKU20S20Baking",
+    "book_text_sha256": "11c8f389a9442df8311552802e4ec097d365ff67c7b40c99497c9b1fd79191ae",
+    "book_facts": "Current read-only game-authored book explicitly lists six named special dishes and their ingredient quantities, and includes the omelet preparation family. Maintained RoF catalogue supplies the three omelet variants and numeric values.",
+    "historical_limit": "Maintained RoF category/current book corroborate content; frozen May2013 per-formula numeric trivial/yield receipts unavailable."
+  },
+  "restriction_review": {
+    "container": "Ordinary Oven/Spit BagType15; actual10slot Oven54256 and transitive10slot Mixing Bowl17906/14 guarded. Max7final ingredient units; existing native slot limits retained.",
+    "learning": "Ordinary experimentable recipes; no mandatory book/class/race/minimum-skill gate asserted. No cap changes.",
+    "producer_dependencies": "Apply and exact reapply require full16field recipe and full logical4entry postimage for existing3091001Prepared and3091058Grilled Planar Goo. These two producers are never inserted/updated/deleted by this batch; rollback concerns only new target recipes.",
+    "salvage": "Ordinary consumable quantities follow metadata convention, not historical AA proof.",
+    "acquisition": "Natural Planar Goo/Energy Shard acquisition remains unresolved separately; no grants or loot writes.",
+    "deferred_source_rows": [
+      "Dreamy Fine Cheese",
+      "Exotic Full-Flavored Sausage",
+      "Merchant's Feast",
+      "Rotting Feast"
+    ],
+    "native_combine": false
+  }
+}

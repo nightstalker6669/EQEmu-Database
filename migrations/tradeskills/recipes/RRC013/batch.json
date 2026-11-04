@@ -1,0 +1,863 @@
+{
+  "batch": "RRC013",
+  "branch": "rof2-tradeskills",
+  "status": "SOURCE_PROPOSAL_NOT_REHEARSED_APPLIED",
+  "cutoff": "2013-05-31",
+  "proposed_ids": [
+    3091276,
+    3091283
+  ],
+  "counts": {
+    "recipes": 8,
+    "entries": 40,
+    "item_dependencies": 19
+  },
+  "source_url": "https://www.eqtraders.com/recipes/pottery_recipe_page.php?article=564&rsa=Pottery&sub=ROF",
+  "recipes": [
+    {
+      "id": 3091276,
+      "name": "Corrupted Formed Potion Vial",
+      "tradeskill": 69,
+      "skillneeded": 0,
+      "trivial": 17,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "RoF; Planar Potions vial chains; RRC013.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 19,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3091277,
+      "name": "Unfired Corrupted Formed Potion Vial Set",
+      "tradeskill": 69,
+      "skillneeded": 0,
+      "trivial": 159,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "RoF; Planar Potions vial chains; RRC013.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 19,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3091278,
+      "name": "Corrupted Friable Potion Vial",
+      "tradeskill": 69,
+      "skillneeded": 0,
+      "trivial": 17,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "RoF; Planar Potions vial chains; RRC013.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 19,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3091279,
+      "name": "Unfired Corrupted Friable Potion Vial Set",
+      "tradeskill": 69,
+      "skillneeded": 0,
+      "trivial": 148,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "RoF; Planar Potions vial chains; RRC013.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 19,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3091280,
+      "name": "Corrupted Shaped Potion Vial",
+      "tradeskill": 69,
+      "skillneeded": 0,
+      "trivial": 17,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "RoF; Planar Potions vial chains; RRC013.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 19,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3091281,
+      "name": "Unfired Corrupted Shaped Potion Vial Set",
+      "tradeskill": 69,
+      "skillneeded": 0,
+      "trivial": 155,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "RoF; Planar Potions vial chains; RRC013.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 19,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3091282,
+      "name": "Corrupted Worked Potion Vial",
+      "tradeskill": 69,
+      "skillneeded": 0,
+      "trivial": 17,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "RoF; Planar Potions vial chains; RRC013.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 19,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3091283,
+      "name": "Unfired Corrupted Worked Potion Vial Set",
+      "tradeskill": 69,
+      "skillneeded": 0,
+      "trivial": 152,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "RoF; Planar Potions vial chains; RRC013.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 19,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    }
+  ],
+  "entries": [
+    {
+      "recipe_id": 3091276,
+      "item_id": 135392,
+      "successcount": 3,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091276,
+      "item_id": 16908,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091276,
+      "item_id": 135396,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091276,
+      "item_id": 22,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3091277,
+      "item_id": 135396,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091277,
+      "item_id": 96903,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091277,
+      "item_id": 135397,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091277,
+      "item_id": 96904,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 3,
+      "salvagecount": 3,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091277,
+      "item_id": 38340,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 3,
+      "salvagecount": 3,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091277,
+      "item_id": 16902,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091277,
+      "item_id": 21,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3091278,
+      "item_id": 135389,
+      "successcount": 3,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091278,
+      "item_id": 16908,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091278,
+      "item_id": 135393,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091278,
+      "item_id": 22,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3091279,
+      "item_id": 135393,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091279,
+      "item_id": 96894,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091279,
+      "item_id": 135397,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091279,
+      "item_id": 38340,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 3,
+      "salvagecount": 3,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091279,
+      "item_id": 16902,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 2,
+      "salvagecount": 2,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091279,
+      "item_id": 21,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3091280,
+      "item_id": 135391,
+      "successcount": 3,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091280,
+      "item_id": 16908,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091280,
+      "item_id": 135395,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091280,
+      "item_id": 22,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3091281,
+      "item_id": 135395,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091281,
+      "item_id": 96900,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091281,
+      "item_id": 135397,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091281,
+      "item_id": 96904,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 2,
+      "salvagecount": 2,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091281,
+      "item_id": 38340,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 3,
+      "salvagecount": 3,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091281,
+      "item_id": 21,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3091282,
+      "item_id": 135390,
+      "successcount": 3,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091282,
+      "item_id": 16908,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091282,
+      "item_id": 135394,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091282,
+      "item_id": 22,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3091283,
+      "item_id": 135394,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091283,
+      "item_id": 96897,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091283,
+      "item_id": 135397,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091283,
+      "item_id": 38340,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 3,
+      "salvagecount": 3,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091283,
+      "item_id": 21,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    }
+  ],
+  "source_facts": [
+    {
+      "recipe_id": 3091276,
+      "name": "Corrupted Formed Potion Vial",
+      "output_item_id": 135392,
+      "yield_count": 3,
+      "trivial": 17,
+      "ingredients": [
+        {
+          "name": "High Quality Firing Sheet",
+          "item_id": 16908,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=1333"
+        },
+        {
+          "name": "Unfired Corrupted Formed Potion Vial Set",
+          "item_id": 135396,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=40912"
+        }
+      ],
+      "container_bagtype": 22,
+      "source_output_url": "https://www.eqtraders.com/items/show_item.php?item=40908&menustr=",
+      "output_link_basis": "DIRECT_CAPTURED_OUTPUT_LINK"
+    },
+    {
+      "recipe_id": 3091277,
+      "name": "Unfired Corrupted Formed Potion Vial Set",
+      "output_item_id": 135396,
+      "yield_count": 1,
+      "trivial": 159,
+      "ingredients": [
+        {
+          "name": "Advanced Formed Potion Vial Sketch",
+          "item_id": 96903,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=22378"
+        },
+        {
+          "name": "Corrupted Gem Dust",
+          "item_id": 135397,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=39734"
+        },
+        {
+          "name": "Gem Powder",
+          "item_id": 96904,
+          "count": 3,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=22762"
+        },
+        {
+          "name": "Huge Block of Clay",
+          "item_id": 38340,
+          "count": 3,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=19405"
+        },
+        {
+          "name": "Large Block of Clay",
+          "item_id": 16902,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=1301"
+        }
+      ],
+      "container_bagtype": 21,
+      "source_output_url": "https://www.eqtraders.com//items/show_item.php?item=40912",
+      "output_link_basis": "EXACT_NAME_LINK_FROM_SAME_CAPTURED_FIRED_RECIPE_COMPONENT"
+    },
+    {
+      "recipe_id": 3091278,
+      "name": "Corrupted Friable Potion Vial",
+      "output_item_id": 135389,
+      "yield_count": 3,
+      "trivial": 17,
+      "ingredients": [
+        {
+          "name": "High Quality Firing Sheet",
+          "item_id": 16908,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=1333"
+        },
+        {
+          "name": "Unfired Corrupted Friable Potion Vial Set",
+          "item_id": 135393,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=40913"
+        }
+      ],
+      "container_bagtype": 22,
+      "source_output_url": "https://www.eqtraders.com/items/show_item.php?item=40909&menustr=",
+      "output_link_basis": "DIRECT_CAPTURED_OUTPUT_LINK"
+    },
+    {
+      "recipe_id": 3091279,
+      "name": "Unfired Corrupted Friable Potion Vial Set",
+      "output_item_id": 135393,
+      "yield_count": 1,
+      "trivial": 148,
+      "ingredients": [
+        {
+          "name": "Advanced Friable Potion Vial Sketch",
+          "item_id": 96894,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=22377"
+        },
+        {
+          "name": "Corrupted Gem Dust",
+          "item_id": 135397,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=39734"
+        },
+        {
+          "name": "Huge Block of Clay",
+          "item_id": 38340,
+          "count": 3,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=19405"
+        },
+        {
+          "name": "Large Block of Clay",
+          "item_id": 16902,
+          "count": 2,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=1301"
+        }
+      ],
+      "container_bagtype": 21,
+      "source_output_url": "https://www.eqtraders.com//items/show_item.php?item=40913",
+      "output_link_basis": "EXACT_NAME_LINK_FROM_SAME_CAPTURED_FIRED_RECIPE_COMPONENT"
+    },
+    {
+      "recipe_id": 3091280,
+      "name": "Corrupted Shaped Potion Vial",
+      "output_item_id": 135391,
+      "yield_count": 3,
+      "trivial": 17,
+      "ingredients": [
+        {
+          "name": "High Quality Firing Sheet",
+          "item_id": 16908,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=1333"
+        },
+        {
+          "name": "Unfired Corrupted Shaped Potion Vial Set",
+          "item_id": 135395,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=40914"
+        }
+      ],
+      "container_bagtype": 22,
+      "source_output_url": "https://www.eqtraders.com/items/show_item.php?item=40910&menustr=",
+      "output_link_basis": "DIRECT_CAPTURED_OUTPUT_LINK"
+    },
+    {
+      "recipe_id": 3091281,
+      "name": "Unfired Corrupted Shaped Potion Vial Set",
+      "output_item_id": 135395,
+      "yield_count": 1,
+      "trivial": 155,
+      "ingredients": [
+        {
+          "name": "Advanced Shaped Potion Vial Sketch",
+          "item_id": 96900,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=22363"
+        },
+        {
+          "name": "Corrupted Gem Dust",
+          "item_id": 135397,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=39734"
+        },
+        {
+          "name": "Gem Powder",
+          "item_id": 96904,
+          "count": 2,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=22762"
+        },
+        {
+          "name": "Huge Block of Clay",
+          "item_id": 38340,
+          "count": 3,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=19405"
+        }
+      ],
+      "container_bagtype": 21,
+      "source_output_url": "https://www.eqtraders.com//items/show_item.php?item=40914",
+      "output_link_basis": "EXACT_NAME_LINK_FROM_SAME_CAPTURED_FIRED_RECIPE_COMPONENT"
+    },
+    {
+      "recipe_id": 3091282,
+      "name": "Corrupted Worked Potion Vial",
+      "output_item_id": 135390,
+      "yield_count": 3,
+      "trivial": 17,
+      "ingredients": [
+        {
+          "name": "High Quality Firing Sheet",
+          "item_id": 16908,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=1333"
+        },
+        {
+          "name": "Unfired Corrupted Worked Potion Vial Set",
+          "item_id": 135394,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=40915"
+        }
+      ],
+      "container_bagtype": 22,
+      "source_output_url": "https://www.eqtraders.com/items/show_item.php?item=40911&menustr=",
+      "output_link_basis": "DIRECT_CAPTURED_OUTPUT_LINK"
+    },
+    {
+      "recipe_id": 3091283,
+      "name": "Unfired Corrupted Worked Potion Vial Set",
+      "output_item_id": 135394,
+      "yield_count": 1,
+      "trivial": 152,
+      "ingredients": [
+        {
+          "name": "Advanced Worked Potion Vial Sketch",
+          "item_id": 96897,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=22379"
+        },
+        {
+          "name": "Corrupted Gem Dust",
+          "item_id": 135397,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=39734"
+        },
+        {
+          "name": "Huge Block of Clay",
+          "item_id": 38340,
+          "count": 3,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=19405"
+        }
+      ],
+      "container_bagtype": 21,
+      "source_output_url": "https://www.eqtraders.com//items/show_item.php?item=40915",
+      "output_link_basis": "EXACT_NAME_LINK_FROM_SAME_CAPTURED_FIRED_RECIPE_COMPONENT"
+    }
+  ],
+  "item_dependencies": [
+    {
+      "id": 16902,
+      "name": "Large Block of Clay"
+    },
+    {
+      "id": 16908,
+      "name": "High Quality Firing Sheet"
+    },
+    {
+      "id": 38340,
+      "name": "Huge Block of Clay"
+    },
+    {
+      "id": 54254,
+      "name": "Kiln"
+    },
+    {
+      "id": 54257,
+      "name": "Pottery Wheel"
+    },
+    {
+      "id": 96894,
+      "name": "Advanced Friable Potion Vial Sketch"
+    },
+    {
+      "id": 96897,
+      "name": "Advanced Worked Potion Vial Sketch"
+    },
+    {
+      "id": 96900,
+      "name": "Advanced Shaped Potion Vial Sketch"
+    },
+    {
+      "id": 96903,
+      "name": "Advanced Formed Potion Vial Sketch"
+    },
+    {
+      "id": 96904,
+      "name": "Gem Powder"
+    },
+    {
+      "id": 135389,
+      "name": "Corrupted Friable Potion Vial"
+    },
+    {
+      "id": 135390,
+      "name": "Corrupted Worked Potion Vial"
+    },
+    {
+      "id": 135391,
+      "name": "Corrupted Shaped Potion Vial"
+    },
+    {
+      "id": 135392,
+      "name": "Corrupted Formed Potion Vial"
+    },
+    {
+      "id": 135393,
+      "name": "Unfired Corrupted Friable Potion Vial Set"
+    },
+    {
+      "id": 135394,
+      "name": "Unfired Corrupted Worked Potion Vial Set"
+    },
+    {
+      "id": 135395,
+      "name": "Unfired Corrupted Shaped Potion Vial Set"
+    },
+    {
+      "id": 135396,
+      "name": "Unfired Corrupted Formed Potion Vial Set"
+    },
+    {
+      "id": 135397,
+      "name": "Corrupted Gem Dust"
+    }
+  ],
+  "availability_evidence": {
+    "book_item_id": 135398,
+    "book_name": "Planar Potions",
+    "books_id": 5513,
+    "book_filename": "TSSKU20S20Alchemy",
+    "book_text_sha256": "eee1c60e50d187a0b78c2b3055cbb29132276b1bf277952bf5c426ee9fd54d2e",
+    "book_facts": "Current game-authored book explicitly describes new potion vials using Corrupted Gem Dust in place of Metallic Gem Dust. It does not give exact clay quantities or trivials; maintained RoF pottery supplies these.",
+    "historical_limit": "Current RoF catalogue and game book are corroborating context, not immutable May2013 per-formula numeric receipts."
+  },
+  "restriction_review": {
+    "learning": "Ordinary pottery metadata, no mandatory scribe association asserted by selected source rows; provenance book is not installed as a learning dependency.",
+    "container": "Four wheel21 unfired-set formulas and four kiln22 firing formulas, actual10slot54257/54254 guards. Largest combine9units. Every firing consumes one set and one HighQualityFiringSheet, yields3vials.",
+    "identity": "All17formula output/component refs explicitly match native IDs. Four unlinked unfired output cells are resolved through exact-name component links in their paired captured firing rows, not guessed URLs or name-only item assignment.",
+    "salvage": "Ordinary consumable component-count convention; no historical AA/native trophy proof.",
+    "acquisition": "CorruptedGemDust item existence does not prove natural acquisition; no loot/rate/grant writes.",
+    "native_combine": false,
+    "skill_cap_change": false,
+    "other_recipe_scope": "CorruptedPotionVial135388 is a separate Alchemy item, not one of these four fired potency forms."
+  }
+}

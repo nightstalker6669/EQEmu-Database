@@ -1,0 +1,1098 @@
+{
+  "batch": "RRC010",
+  "branch": "rof2-tradeskills",
+  "status": "SOURCE_PROPOSAL_NOT_REHEARSED_APPLIED",
+  "cutoff": "2013-05-31",
+  "proposed_ids": [
+    3091250,
+    3091257
+  ],
+  "counts": {
+    "recipes": 8,
+    "entries": 41,
+    "item_dependencies": 24
+  },
+  "by_skill": {
+    "Fletching": 5,
+    "Smithing": 2,
+    "Tailoring": 1
+  },
+  "recipes": [
+    {
+      "id": 3091250,
+      "name": "Regal Haft",
+      "tradeskill": 64,
+      "skillneeded": 0,
+      "trivial": 282,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "RoF; Compendiums Regal Weapon Creation PtII; RRC010.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 19,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3091251,
+      "name": "Regal Handle",
+      "tradeskill": 64,
+      "skillneeded": 0,
+      "trivial": 282,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "RoF; Compendiums Regal Weapon Creation PtII; RRC010.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 19,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3091252,
+      "name": "Regal Long Haft",
+      "tradeskill": 64,
+      "skillneeded": 0,
+      "trivial": 282,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "RoF; Compendiums Regal Weapon Creation PtII; RRC010.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 19,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3091253,
+      "name": "Regal Short Haft",
+      "tradeskill": 64,
+      "skillneeded": 0,
+      "trivial": 282,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "RoF; Compendiums Regal Weapon Creation PtII; RRC010.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 19,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3091254,
+      "name": "Regal Staff",
+      "tradeskill": 64,
+      "skillneeded": 0,
+      "trivial": 284,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "RoF; Compendiums Regal Weapon Creation PtII; RRC010.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 19,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3091255,
+      "name": "Scorched Barbs",
+      "tradeskill": 63,
+      "skillneeded": 0,
+      "trivial": 282,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "RoF; Compendiums Regal Weapon Creation PtII; RRC010.",
+      "must_learn": 0,
+      "learned_by_item_id": 135562,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 19,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3091256,
+      "name": "Scorched Studs",
+      "tradeskill": 63,
+      "skillneeded": 0,
+      "trivial": 282,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "RoF; Compendiums Regal Weapon Creation PtII; RRC010.",
+      "must_learn": 0,
+      "learned_by_item_id": 135562,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 19,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3091257,
+      "name": "Befouled Hilt Wrap",
+      "tradeskill": 61,
+      "skillneeded": 0,
+      "trivial": 282,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "RoF; Compendiums Regal Weapon Creation PtII; RRC010.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 19,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    }
+  ],
+  "entries": [
+    {
+      "recipe_id": 3091250,
+      "item_id": 135437,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091250,
+      "item_id": 38513,
+      "successcount": 1,
+      "failcount": 1,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091250,
+      "item_id": 134653,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091250,
+      "item_id": 8084,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091250,
+      "item_id": 8086,
+      "successcount": 1,
+      "failcount": 1,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091250,
+      "item_id": 18,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3091251,
+      "item_id": 135441,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091251,
+      "item_id": 38511,
+      "successcount": 1,
+      "failcount": 1,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091251,
+      "item_id": 134653,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091251,
+      "item_id": 8084,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091251,
+      "item_id": 8086,
+      "successcount": 1,
+      "failcount": 1,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091251,
+      "item_id": 18,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3091252,
+      "item_id": 135438,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091252,
+      "item_id": 38515,
+      "successcount": 1,
+      "failcount": 1,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091252,
+      "item_id": 134653,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091252,
+      "item_id": 8084,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091252,
+      "item_id": 8086,
+      "successcount": 1,
+      "failcount": 1,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091252,
+      "item_id": 18,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3091253,
+      "item_id": 135436,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091253,
+      "item_id": 38512,
+      "successcount": 1,
+      "failcount": 1,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091253,
+      "item_id": 134653,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091253,
+      "item_id": 8084,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091253,
+      "item_id": 8086,
+      "successcount": 1,
+      "failcount": 1,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091253,
+      "item_id": 18,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3091254,
+      "item_id": 135440,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091254,
+      "item_id": 134653,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091254,
+      "item_id": 8084,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091254,
+      "item_id": 8086,
+      "successcount": 1,
+      "failcount": 1,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091254,
+      "item_id": 18,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3091255,
+      "item_id": 135432,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091255,
+      "item_id": 12011,
+      "successcount": 1,
+      "failcount": 1,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091255,
+      "item_id": 134654,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091255,
+      "item_id": 17,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3091256,
+      "item_id": 135433,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091256,
+      "item_id": 134654,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091256,
+      "item_id": 10489,
+      "successcount": 1,
+      "failcount": 1,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091256,
+      "item_id": 17,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3091257,
+      "item_id": 135435,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091257,
+      "item_id": 134652,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091257,
+      "item_id": 65259,
+      "successcount": 1,
+      "failcount": 1,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091257,
+      "item_id": 16,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    }
+  ],
+  "source_facts": [
+    {
+      "recipe_id": 3091250,
+      "name": "Regal Haft",
+      "output_item_id": 135437,
+      "tradeskill": 64,
+      "trivial": 282,
+      "yield_count": 1,
+      "ingredients": [
+        {
+          "name": "4 Knot Measuring String",
+          "item_id": 38513,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=30921"
+        },
+        {
+          "name": "Befouled Silk",
+          "item_id": 134653,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=39565"
+        },
+        {
+          "name": "Darkwood Bowstave",
+          "item_id": 8084,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=1287"
+        },
+        {
+          "name": "Planing Tool",
+          "item_id": 8086,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=1387"
+        }
+      ],
+      "also_returns": [
+        {
+          "name": "Planing Tool",
+          "item_id": 8086,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=1387"
+        },
+        {
+          "name": "4 Knot Measuring String",
+          "item_id": 38513,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=30921"
+        }
+      ],
+      "failure_returns": [
+        {
+          "name": "Planing Tool",
+          "item_id": 8086,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=1387"
+        },
+        {
+          "name": "4 Knot Measuring String",
+          "item_id": 38513,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=30921"
+        }
+      ],
+      "container_bagtype": 18,
+      "optional_scribe_item_id": 0,
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=562&rsa=Fletching&sub=ROF",
+      "source_output_url": "https://www.eqtraders.com/items/show_item.php?item=39857&menustr=010000000000"
+    },
+    {
+      "recipe_id": 3091251,
+      "name": "Regal Handle",
+      "output_item_id": 135441,
+      "tradeskill": 64,
+      "trivial": 282,
+      "yield_count": 1,
+      "ingredients": [
+        {
+          "name": "2 Knot Measuring String",
+          "item_id": 38511,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=30919"
+        },
+        {
+          "name": "Befouled Silk",
+          "item_id": 134653,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=39565"
+        },
+        {
+          "name": "Darkwood Bowstave",
+          "item_id": 8084,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=1287"
+        },
+        {
+          "name": "Planing Tool",
+          "item_id": 8086,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=1387"
+        }
+      ],
+      "also_returns": [
+        {
+          "name": "Planing Tool",
+          "item_id": 8086,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=1387"
+        },
+        {
+          "name": "2 Knot Measuring String",
+          "item_id": 38511,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=30919"
+        }
+      ],
+      "failure_returns": [
+        {
+          "name": "Planing Tool",
+          "item_id": 8086,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=1387"
+        },
+        {
+          "name": "2 Knot Measuring String",
+          "item_id": 38511,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=30919"
+        }
+      ],
+      "container_bagtype": 18,
+      "optional_scribe_item_id": 0,
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=562&rsa=Fletching&sub=ROF",
+      "source_output_url": "https://www.eqtraders.com/items/show_item.php?item=39859&menustr=010000000000"
+    },
+    {
+      "recipe_id": 3091252,
+      "name": "Regal Long Haft",
+      "output_item_id": 135438,
+      "tradeskill": 64,
+      "trivial": 282,
+      "yield_count": 1,
+      "ingredients": [
+        {
+          "name": "6 Knot Measuring String",
+          "item_id": 38515,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=30923"
+        },
+        {
+          "name": "Befouled Silk",
+          "item_id": 134653,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=39565"
+        },
+        {
+          "name": "Darkwood Bowstave",
+          "item_id": 8084,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=1287"
+        },
+        {
+          "name": "Planing Tool",
+          "item_id": 8086,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=1387"
+        }
+      ],
+      "also_returns": [
+        {
+          "name": "Planing Tool",
+          "item_id": 8086,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=1387"
+        },
+        {
+          "name": "6 Knot Measuring String",
+          "item_id": 38515,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=30923"
+        }
+      ],
+      "failure_returns": [
+        {
+          "name": "Planing Tool",
+          "item_id": 8086,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=1387"
+        },
+        {
+          "name": "6 Knot Measuring String",
+          "item_id": 38515,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=30923"
+        }
+      ],
+      "container_bagtype": 18,
+      "optional_scribe_item_id": 0,
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=562&rsa=Fletching&sub=ROF",
+      "source_output_url": "https://www.eqtraders.com/items/show_item.php?item=39855&menustr=010000000000"
+    },
+    {
+      "recipe_id": 3091253,
+      "name": "Regal Short Haft",
+      "output_item_id": 135436,
+      "tradeskill": 64,
+      "trivial": 282,
+      "yield_count": 1,
+      "ingredients": [
+        {
+          "name": "3 Knot Measuring String",
+          "item_id": 38512,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=30920"
+        },
+        {
+          "name": "Befouled Silk",
+          "item_id": 134653,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=39565"
+        },
+        {
+          "name": "Darkwood Bowstave",
+          "item_id": 8084,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=1287"
+        },
+        {
+          "name": "Planing Tool",
+          "item_id": 8086,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=1387"
+        }
+      ],
+      "also_returns": [
+        {
+          "name": "Planing Tool",
+          "item_id": 8086,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=1387"
+        },
+        {
+          "name": "3 Knot Measuring String",
+          "item_id": 38512,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=30920"
+        }
+      ],
+      "failure_returns": [
+        {
+          "name": "Planing Tool",
+          "item_id": 8086,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=1387"
+        },
+        {
+          "name": "3 Knot Measuring String",
+          "item_id": 38512,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=30920"
+        }
+      ],
+      "container_bagtype": 18,
+      "optional_scribe_item_id": 0,
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=562&rsa=Fletching&sub=ROF",
+      "source_output_url": "https://www.eqtraders.com/items/show_item.php?item=39856&menustr=010000000000"
+    },
+    {
+      "recipe_id": 3091254,
+      "name": "Regal Staff",
+      "output_item_id": 135440,
+      "tradeskill": 64,
+      "trivial": 284,
+      "yield_count": 1,
+      "ingredients": [
+        {
+          "name": "Befouled Silk",
+          "item_id": 134653,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=39565"
+        },
+        {
+          "name": "Darkwood Bowstave",
+          "item_id": 8084,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=1287"
+        },
+        {
+          "name": "Planing Tool",
+          "item_id": 8086,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=1387"
+        }
+      ],
+      "also_returns": [
+        {
+          "name": "Planing Tool",
+          "item_id": 8086,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=1387"
+        }
+      ],
+      "failure_returns": [
+        {
+          "name": "Planing Tool",
+          "item_id": 8086,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=1387"
+        }
+      ],
+      "container_bagtype": 18,
+      "optional_scribe_item_id": 0,
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=562&rsa=Fletching&sub=ROF",
+      "source_output_url": "https://www.eqtraders.com/items/show_item.php?item=39860&menustr=010000000000"
+    },
+    {
+      "recipe_id": 3091255,
+      "name": "Scorched Barbs",
+      "output_item_id": 135432,
+      "tradeskill": 63,
+      "trivial": 282,
+      "yield_count": 1,
+      "ingredients": [
+        {
+          "name": "File",
+          "item_id": 12011,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=1331"
+        },
+        {
+          "name": "Scorched Ore",
+          "item_id": 134654,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=39569"
+        }
+      ],
+      "also_returns": [
+        {
+          "name": "File",
+          "item_id": 12011,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=1331"
+        }
+      ],
+      "failure_returns": [
+        {
+          "name": "File",
+          "item_id": 12011,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=1331"
+        }
+      ],
+      "container_bagtype": 17,
+      "optional_scribe_item_id": 135562,
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=568&rsa=Smithing&sub=ROF",
+      "source_output_url": "https://www.eqtraders.com/items/show_item.php?item=39692&menustr=010000000000"
+    },
+    {
+      "recipe_id": 3091256,
+      "name": "Scorched Studs",
+      "output_item_id": 135433,
+      "tradeskill": 63,
+      "trivial": 282,
+      "yield_count": 1,
+      "ingredients": [
+        {
+          "name": "Scorched Ore",
+          "item_id": 134654,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=39569"
+        },
+        {
+          "name": "Smithy Hammer",
+          "item_id": 10489,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=3086"
+        }
+      ],
+      "also_returns": [
+        {
+          "name": "Smithy Hammer",
+          "item_id": 10489,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=3086"
+        }
+      ],
+      "failure_returns": [
+        {
+          "name": "Smithy Hammer",
+          "item_id": 10489,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=3086"
+        }
+      ],
+      "container_bagtype": 17,
+      "optional_scribe_item_id": 135562,
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=568&rsa=Smithing&sub=ROF",
+      "source_output_url": "https://www.eqtraders.com/items/show_item.php?item=39688&menustr=010000000000"
+    },
+    {
+      "recipe_id": 3091257,
+      "name": "Befouled Hilt Wrap",
+      "output_item_id": 135435,
+      "tradeskill": 61,
+      "trivial": 282,
+      "yield_count": 1,
+      "ingredients": [
+        {
+          "name": "Befouled Animal Pelt",
+          "item_id": 134652,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=39563"
+        },
+        {
+          "name": "Hickory Handled Shears",
+          "item_id": 65259,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=8212"
+        }
+      ],
+      "also_returns": [
+        {
+          "name": "Hickory Handled Shears",
+          "item_id": 65259,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=8212"
+        }
+      ],
+      "failure_returns": [
+        {
+          "name": "Hickory Handled Shears",
+          "item_id": 65259,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=8212"
+        }
+      ],
+      "container_bagtype": 16,
+      "optional_scribe_item_id": 0,
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=565&rsa=Tailoring&sub=ROF",
+      "source_output_url": "https://www.eqtraders.com/items/show_item.php?item=39948&menustr=010000000000"
+    }
+  ],
+  "item_dependencies": [
+    {
+      "id": 8084,
+      "name": "Darkwood Bow Staff"
+    },
+    {
+      "id": 8086,
+      "name": "Planing Tool"
+    },
+    {
+      "id": 10489,
+      "name": "Smithy Hammer"
+    },
+    {
+      "id": 12011,
+      "name": "File"
+    },
+    {
+      "id": 17908,
+      "name": "Small Sewing Kit"
+    },
+    {
+      "id": 17909,
+      "name": "Forge"
+    },
+    {
+      "id": 17910,
+      "name": "Fletching Kit"
+    },
+    {
+      "id": 38511,
+      "name": "2 Knot Measuring String"
+    },
+    {
+      "id": 38512,
+      "name": "3 Knot Measuring String"
+    },
+    {
+      "id": 38513,
+      "name": "4 Knot Measuring String"
+    },
+    {
+      "id": 38515,
+      "name": "6 Knot Measuring String"
+    },
+    {
+      "id": 65259,
+      "name": "Hickory Handled Shears"
+    },
+    {
+      "id": 134652,
+      "name": "Befouled Animal Pelt"
+    },
+    {
+      "id": 134653,
+      "name": "Befouled Silk"
+    },
+    {
+      "id": 134654,
+      "name": "Scorched Ore"
+    },
+    {
+      "id": 135432,
+      "name": "Scorched Barbs"
+    },
+    {
+      "id": 135433,
+      "name": "Scorched Studs"
+    },
+    {
+      "id": 135435,
+      "name": "Befouled Hilt Wrap"
+    },
+    {
+      "id": 135436,
+      "name": "Regal Short Haft"
+    },
+    {
+      "id": 135437,
+      "name": "Regal Haft"
+    },
+    {
+      "id": 135438,
+      "name": "Regal Long Haft"
+    },
+    {
+      "id": 135440,
+      "name": "Regal Staff"
+    },
+    {
+      "id": 135441,
+      "name": "Regal Handle"
+    },
+    {
+      "id": 135562,
+      "name": "Regal Weapon Smithing"
+    }
+  ],
+  "excluded": {
+    "Regal Recurve Bowstring": "Current catalogue labels Fletching; current compendium places this line under Tailors. Skill assignment needs separate review.",
+    "Scorched Filler": "Maintained source has explicit2022behavior note; historical formula requires separate numeric review."
+  },
+  "availability_evidence": {
+    "book_item_id": 135400,
+    "book_name": "Compendiums on Regal Weapon Creation Pt.II",
+    "books_id": 5506,
+    "book_filename": "TSSKU20CultWep100-t2",
+    "book_text_sha256": "748b8948d29db31cf72c1ab8b44fb5c5f8b2fc5497427baa88dff1772ce126c3",
+    "book_facts": "Current game-authored compendium explicitly lists these components, quantities and tools and says components do not require schematic scribing; source catalogue can-scribe notes additionally associate two smithing components with Regal Weapon Smithing.",
+    "historical_limit": "Maintained RoF catalogues and current game-authored books corroborate content; frozen May2013 numeric trivial/yield/container receipts unavailable."
+  },
+  "restriction_review": {
+    "learning": "All eight experimentable, must_learn0. Only two smithing recipes optionally learn from native book135562 (Regal Weapon Smithing); finished weapon mandatory learning remains unaffected. Compendium135400 is read-only provenance, not a learning dependency.",
+    "containers": "Ordinary18Fletching Kit17910/8slots,17Forge17909/10slots,16Small Sewing Kit17908/2slots. Max4units for fletching,2smithing,2tailoring. No racial cultural kit collapsed into a generic type.",
+    "returns": "Planing Tool and measuring strings, File, Smithy Hammer and Hickory Handled Shears return on both success/failure; returned tools salvage0. Consumable salvage is metadata convention.",
+    "quest": "Merchant Alliance association on Scorched Studs/Befouled Hilt Wrap is not evidence these common components are quest-only; compendium explicitly teaches ordinary construction.",
+    "source_conflicts": "Regal Recurve Bowstring held: catalogueFletching vs compendiumTailors. Scorched Filler held: explicit2022maintained behavior note needs historical review.",
+    "native_combine": false,
+    "book_scribing_native_validated": false,
+    "no_cap_change": true
+  }
+}

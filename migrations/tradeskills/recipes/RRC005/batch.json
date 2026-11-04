@@ -1,0 +1,1373 @@
+{
+  "batch": "RRC005",
+  "branch": "rof2-tradeskills",
+  "status": "SOURCE_PROPOSAL_NOT_REHEARSED_APPLIED",
+  "cutoff": "2013-05-31",
+  "proposed_ids": [
+    3091102,
+    3091110
+  ],
+  "counts": {
+    "recipes": 9,
+    "entries": 67,
+    "item_dependencies": 30
+  },
+  "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=566&rsa=Tinkering&sb=item&sub=ROF&menustr=080120000000&printer=normal",
+  "source_page_modified_label": "2013-01-22",
+  "source_category_rows_observed": 159,
+  "formula_rows_captured": 9,
+  "recipes": [
+    {
+      "id": 3091102,
+      "name": "Goo Gun",
+      "tradeskill": 57,
+      "skillneeded": 0,
+      "trivial": 368,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "RoF; EQTC article566; Fun with Fear Machines; RRC005.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 19,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3091103,
+      "name": "Goo Gun Ammunition",
+      "tradeskill": 57,
+      "skillneeded": 0,
+      "trivial": 168,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "RoF; EQTC article566; Fun with Fear Machines; RRC005.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 19,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3091104,
+      "name": "Instant Beverage Brewer",
+      "tradeskill": 57,
+      "skillneeded": 0,
+      "trivial": 335,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "RoF; EQTC article566; Fun with Fear Machines; RRC005.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 19,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3091105,
+      "name": "Planar Distortion Device",
+      "tradeskill": 57,
+      "skillneeded": 0,
+      "trivial": 395,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "RoF; EQTC article566; Fun with Fear Machines; RRC005.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 19,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3091106,
+      "name": "SteamJet Pack",
+      "tradeskill": 57,
+      "skillneeded": 0,
+      "trivial": 402,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "RoF; EQTC article566; Fun with Fear Machines; RRC005.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 19,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3091107,
+      "name": "Terror Steamblade",
+      "tradeskill": 57,
+      "skillneeded": 0,
+      "trivial": 428,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "RoF; EQTC article566; Fun with Fear Machines; RRC005.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 19,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3091108,
+      "name": "Tick Tock Blast Bomb",
+      "tradeskill": 57,
+      "skillneeded": 0,
+      "trivial": 335,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "RoF; EQTC article566; Fun with Fear Machines; RRC005.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 19,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3091109,
+      "name": "Tick Tock Fear Bomb",
+      "tradeskill": 57,
+      "skillneeded": 0,
+      "trivial": 335,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "RoF; EQTC article566; Fun with Fear Machines; RRC005.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 19,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3091110,
+      "name": "Tick Tock Sticky Bomb",
+      "tradeskill": 57,
+      "skillneeded": 0,
+      "trivial": 335,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "RoF; EQTC article566; Fun with Fear Machines; RRC005.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 19,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    }
+  ],
+  "entries": [
+    {
+      "recipe_id": 3091102,
+      "item_id": 76435,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091102,
+      "item_id": 16598,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091102,
+      "item_id": 16858,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091102,
+      "item_id": 10481,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091102,
+      "item_id": 72016,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091102,
+      "item_id": 16850,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091102,
+      "item_id": 76322,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091102,
+      "item_id": 72046,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091102,
+      "item_id": 9194,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091102,
+      "item_id": 10,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3091103,
+      "item_id": 76436,
+      "successcount": 25,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091103,
+      "item_id": 16598,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091103,
+      "item_id": 76336,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 3,
+      "salvagecount": 3,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091103,
+      "item_id": 13006,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 3,
+      "salvagecount": 3,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091103,
+      "item_id": 10,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3091104,
+      "item_id": 76434,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091104,
+      "item_id": 63244,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091104,
+      "item_id": 10481,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 3,
+      "salvagecount": 3,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091104,
+      "item_id": 72016,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091104,
+      "item_id": 9181,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091104,
+      "item_id": 16850,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091104,
+      "item_id": 76322,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091104,
+      "item_id": 72046,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091104,
+      "item_id": 10,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3091105,
+      "item_id": 76437,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091105,
+      "item_id": 7483,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091105,
+      "item_id": 63244,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091105,
+      "item_id": 10481,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091105,
+      "item_id": 72016,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091105,
+      "item_id": 16888,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091105,
+      "item_id": 16850,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091105,
+      "item_id": 76322,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 3,
+      "salvagecount": 3,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091105,
+      "item_id": 16860,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091105,
+      "item_id": 10,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3091106,
+      "item_id": 76432,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091106,
+      "item_id": 16858,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091106,
+      "item_id": 63244,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 2,
+      "salvagecount": 2,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091106,
+      "item_id": 10481,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091106,
+      "item_id": 13004,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091106,
+      "item_id": 76322,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091106,
+      "item_id": 16891,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 2,
+      "salvagecount": 2,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091106,
+      "item_id": 10,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3091107,
+      "item_id": 76433,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091107,
+      "item_id": 7483,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091107,
+      "item_id": 46979,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 3,
+      "salvagecount": 3,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091107,
+      "item_id": 16858,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091107,
+      "item_id": 10481,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091107,
+      "item_id": 16888,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091107,
+      "item_id": 76322,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 3,
+      "salvagecount": 3,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091107,
+      "item_id": 10,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3091108,
+      "item_id": 76440,
+      "successcount": 10,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091108,
+      "item_id": 93664,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 3,
+      "salvagecount": 3,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091108,
+      "item_id": 76322,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 2,
+      "salvagecount": 2,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091108,
+      "item_id": 34469,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 3,
+      "salvagecount": 3,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091108,
+      "item_id": 10,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3091109,
+      "item_id": 76438,
+      "successcount": 10,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091109,
+      "item_id": 46979,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091109,
+      "item_id": 93664,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 3,
+      "salvagecount": 3,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091109,
+      "item_id": 76322,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091109,
+      "item_id": 34469,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 3,
+      "salvagecount": 3,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091109,
+      "item_id": 10,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3091110,
+      "item_id": 76439,
+      "successcount": 10,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091110,
+      "item_id": 93664,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 3,
+      "salvagecount": 3,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091110,
+      "item_id": 76322,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091110,
+      "item_id": 76336,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091110,
+      "item_id": 34469,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 3,
+      "salvagecount": 3,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091110,
+      "item_id": 10,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    }
+  ],
+  "source_facts": [
+    {
+      "name": "Goo Gun",
+      "tradeskill": 57,
+      "trivial": 368,
+      "yield_count": 1,
+      "source_recipe_id": 49165,
+      "ingredients": [
+        {
+          "name": "Bottle",
+          "count": 1
+        },
+        {
+          "name": "Gears",
+          "count": 1
+        },
+        {
+          "name": "High Quality Sheet Metal",
+          "count": 1
+        },
+        {
+          "name": "Magnetized Bolts",
+          "count": 1
+        },
+        {
+          "name": "Metal Rod",
+          "count": 1
+        },
+        {
+          "name": "Planar Energy Shard",
+          "count": 1
+        },
+        {
+          "name": "Steam-powered Piston",
+          "count": 1
+        },
+        {
+          "name": "Steel Casing",
+          "count": 1
+        }
+      ],
+      "containers": [
+        "Deluxe Toolbox",
+        "Tinkering Table (Placeable)",
+        "Guild Tinkering Table",
+        "Tinkering Table"
+      ],
+      "required_skill": 0,
+      "race": "Gnome",
+      "notes": "No mandatory scribe or special quest note on these ordinary rows.",
+      "output_candidates": [
+        76435
+      ],
+      "current_result_recipes": [],
+      "recipe_id": 3091102,
+      "output_item_id": 76435,
+      "container_bagtype": 10
+    },
+    {
+      "name": "Goo Gun Ammunition",
+      "tradeskill": 57,
+      "trivial": 168,
+      "yield_count": 25,
+      "source_recipe_id": 49166,
+      "ingredients": [
+        {
+          "name": "Bottle",
+          "count": 1
+        },
+        {
+          "name": "Planar Goo",
+          "count": 3
+        },
+        {
+          "name": "Water Flask",
+          "count": 3
+        }
+      ],
+      "containers": [
+        "Toolbox",
+        "Deluxe Toolbox",
+        "Collapsible Toolbox",
+        "Tinkering Table (Placeable)",
+        "Guild Tinkering Table",
+        "Tinkering Table"
+      ],
+      "required_skill": 0,
+      "race": "Gnome",
+      "notes": "No mandatory scribe or special quest note on these ordinary rows.",
+      "output_candidates": [
+        76436
+      ],
+      "current_result_recipes": [],
+      "recipe_id": 3091103,
+      "output_item_id": 76436,
+      "container_bagtype": 10
+    },
+    {
+      "name": "Instant Beverage Brewer",
+      "tradeskill": 57,
+      "trivial": 335,
+      "yield_count": 1,
+      "source_recipe_id": 49162,
+      "ingredients": [
+        {
+          "name": "Gnomish Heat Source",
+          "count": 1
+        },
+        {
+          "name": "High Quality Sheet Metal",
+          "count": 3
+        },
+        {
+          "name": "Magnetized Bolts",
+          "count": 1
+        },
+        {
+          "name": "Mana Battery - Class Six",
+          "count": 1
+        },
+        {
+          "name": "Metal Rod",
+          "count": 1
+        },
+        {
+          "name": "Planar Energy Shard",
+          "count": 1
+        },
+        {
+          "name": "Steam-powered Piston",
+          "count": 1
+        }
+      ],
+      "containers": [
+        "Deluxe Toolbox",
+        "Tinkering Table (Placeable)",
+        "Guild Tinkering Table",
+        "Tinkering Table"
+      ],
+      "required_skill": 0,
+      "race": "Gnome",
+      "notes": "No mandatory scribe or special quest note on these ordinary rows.",
+      "output_candidates": [
+        76434
+      ],
+      "current_result_recipes": [],
+      "recipe_id": 3091104,
+      "output_item_id": 76434,
+      "container_bagtype": 10
+    },
+    {
+      "name": "Planar Distortion Device",
+      "tradeskill": 57,
+      "trivial": 395,
+      "yield_count": 1,
+      "source_recipe_id": 49167,
+      "ingredients": [
+        {
+          "name": "Cured Leather Tubing",
+          "count": 1
+        },
+        {
+          "name": "Gnomish Heat Source",
+          "count": 1
+        },
+        {
+          "name": "High Quality Sheet Metal",
+          "count": 1
+        },
+        {
+          "name": "Magnetized Bolts",
+          "count": 1
+        },
+        {
+          "name": "Metal Fastening",
+          "count": 1
+        },
+        {
+          "name": "Metal Rod",
+          "count": 1
+        },
+        {
+          "name": "Planar Energy Shard",
+          "count": 3
+        },
+        {
+          "name": "Reflective Shard",
+          "count": 1
+        }
+      ],
+      "containers": [
+        "Deluxe Toolbox",
+        "Tinkering Table (Placeable)",
+        "Guild Tinkering Table",
+        "Tinkering Table"
+      ],
+      "required_skill": 0,
+      "race": "Gnome",
+      "notes": "No mandatory scribe or special quest note on these ordinary rows.",
+      "output_candidates": [
+        76437
+      ],
+      "current_result_recipes": [],
+      "recipe_id": 3091105,
+      "output_item_id": 76437,
+      "container_bagtype": 10
+    },
+    {
+      "name": "SteamJet Pack",
+      "tradeskill": 57,
+      "trivial": 402,
+      "yield_count": 1,
+      "source_recipe_id": 49160,
+      "ingredients": [
+        {
+          "name": "Gears",
+          "count": 1
+        },
+        {
+          "name": "Gnomish Heat Source",
+          "count": 2
+        },
+        {
+          "name": "High Quality Sheet Metal",
+          "count": 1
+        },
+        {
+          "name": "Large Lantern",
+          "count": 1
+        },
+        {
+          "name": "Planar Energy Shard",
+          "count": 1
+        },
+        {
+          "name": "Sharkskin Tubing",
+          "count": 2
+        }
+      ],
+      "containers": [
+        "Deluxe Toolbox",
+        "Tinkering Table (Placeable)",
+        "Guild Tinkering Table",
+        "Tinkering Table"
+      ],
+      "required_skill": 0,
+      "race": "Gnome",
+      "notes": "No mandatory scribe or special quest note on these ordinary rows.",
+      "output_candidates": [
+        76432
+      ],
+      "current_result_recipes": [],
+      "identity_source": "https://www.eqtraders.com/items/show_item.php?item=39840&menustr=080120000000",
+      "identity_method": "Chrome direct visible EQ item ID76432; native name spacing differs",
+      "recipe_id": 3091106,
+      "output_item_id": 76432,
+      "container_bagtype": 10
+    },
+    {
+      "name": "Terror Steamblade",
+      "tradeskill": 57,
+      "trivial": 428,
+      "yield_count": 1,
+      "source_recipe_id": 49161,
+      "ingredients": [
+        {
+          "name": "Cured Leather Tubing",
+          "count": 1
+        },
+        {
+          "name": "Dream Dust",
+          "count": 3
+        },
+        {
+          "name": "Gears",
+          "count": 1
+        },
+        {
+          "name": "High Quality Sheet Metal",
+          "count": 1
+        },
+        {
+          "name": "Metal Fastening",
+          "count": 1
+        },
+        {
+          "name": "Planar Energy Shard",
+          "count": 3
+        }
+      ],
+      "containers": [
+        "Deluxe Toolbox",
+        "Tinkering Table (Placeable)",
+        "Guild Tinkering Table",
+        "Tinkering Table"
+      ],
+      "required_skill": 0,
+      "race": "Gnome",
+      "notes": "No mandatory scribe or special quest note on these ordinary rows.",
+      "output_candidates": [
+        76433
+      ],
+      "current_result_recipes": [],
+      "recipe_id": 3091107,
+      "output_item_id": 76433,
+      "container_bagtype": 10
+    },
+    {
+      "name": "Tick Tock Blast Bomb",
+      "tradeskill": 57,
+      "trivial": 335,
+      "yield_count": 10,
+      "source_recipe_id": 49170,
+      "ingredients": [
+        {
+          "name": "High Quality Carbon Powder",
+          "count": 3
+        },
+        {
+          "name": "Planar Energy Shard",
+          "count": 2
+        },
+        {
+          "name": "Sulfurous Coal",
+          "count": 3
+        }
+      ],
+      "containers": [
+        "Toolbox",
+        "Deluxe Toolbox",
+        "Collapsible Toolbox",
+        "Tinkering Table (Placeable)",
+        "Guild Tinkering Table",
+        "Tinkering Table"
+      ],
+      "required_skill": 0,
+      "race": "Gnome",
+      "notes": "No mandatory scribe or special quest note on these ordinary rows.",
+      "output_candidates": [
+        76440
+      ],
+      "current_result_recipes": [],
+      "recipe_id": 3091108,
+      "output_item_id": 76440,
+      "container_bagtype": 10
+    },
+    {
+      "name": "Tick Tock Fear Bomb",
+      "tradeskill": 57,
+      "trivial": 335,
+      "yield_count": 10,
+      "source_recipe_id": 49168,
+      "ingredients": [
+        {
+          "name": "Dream Dust",
+          "count": 1
+        },
+        {
+          "name": "High Quality Carbon Powder",
+          "count": 3
+        },
+        {
+          "name": "Planar Energy Shard",
+          "count": 1
+        },
+        {
+          "name": "Sulfurous Coal",
+          "count": 3
+        }
+      ],
+      "containers": [
+        "Toolbox",
+        "Deluxe Toolbox",
+        "Collapsible Toolbox",
+        "Tinkering Table (Placeable)",
+        "Guild Tinkering Table",
+        "Tinkering Table"
+      ],
+      "required_skill": 0,
+      "race": "Gnome",
+      "notes": "No mandatory scribe or special quest note on these ordinary rows.",
+      "output_candidates": [
+        76438
+      ],
+      "current_result_recipes": [],
+      "recipe_id": 3091109,
+      "output_item_id": 76438,
+      "container_bagtype": 10
+    },
+    {
+      "name": "Tick Tock Sticky Bomb",
+      "tradeskill": 57,
+      "trivial": 335,
+      "yield_count": 10,
+      "source_recipe_id": 49169,
+      "ingredients": [
+        {
+          "name": "High Quality Carbon Powder",
+          "count": 3
+        },
+        {
+          "name": "Planar Energy Shard",
+          "count": 1
+        },
+        {
+          "name": "Planar Goo",
+          "count": 1
+        },
+        {
+          "name": "Sulfurous Coal",
+          "count": 3
+        }
+      ],
+      "containers": [
+        "Toolbox",
+        "Deluxe Toolbox",
+        "Collapsible Toolbox",
+        "Tinkering Table (Placeable)",
+        "Guild Tinkering Table",
+        "Tinkering Table"
+      ],
+      "required_skill": 0,
+      "race": "Gnome",
+      "notes": "No mandatory scribe or special quest note on these ordinary rows.",
+      "output_candidates": [
+        76439
+      ],
+      "current_result_recipes": [],
+      "recipe_id": 3091110,
+      "output_item_id": 76439,
+      "container_bagtype": 10
+    }
+  ],
+  "item_dependencies": [
+    {
+      "id": 7483,
+      "name": "Cured Leather Tubing"
+    },
+    {
+      "id": 9181,
+      "name": "Mana Battery - Class Six"
+    },
+    {
+      "id": 9194,
+      "name": "Steel Casing"
+    },
+    {
+      "id": 10481,
+      "name": "High Quality Sheet Metal"
+    },
+    {
+      "id": 13004,
+      "name": "Large Lantern"
+    },
+    {
+      "id": 13006,
+      "name": "Water Flask"
+    },
+    {
+      "id": 16598,
+      "name": "Bottle"
+    },
+    {
+      "id": 16850,
+      "name": "Metal Rod"
+    },
+    {
+      "id": 16858,
+      "name": "Gears"
+    },
+    {
+      "id": 16860,
+      "name": "Reflective Shard"
+    },
+    {
+      "id": 16888,
+      "name": "Metal Fastening"
+    },
+    {
+      "id": 16891,
+      "name": "Sharkskin Tubing"
+    },
+    {
+      "id": 17877,
+      "name": "Deluxe Toolbox"
+    },
+    {
+      "id": 34469,
+      "name": "Sulfurous Coal"
+    },
+    {
+      "id": 46979,
+      "name": "Dream Dust"
+    },
+    {
+      "id": 63244,
+      "name": "Gnomish Heat Source"
+    },
+    {
+      "id": 72016,
+      "name": "Magnetized Bolts"
+    },
+    {
+      "id": 72046,
+      "name": "Steam-powered Piston"
+    },
+    {
+      "id": 76322,
+      "name": "Planar Energy Shard"
+    },
+    {
+      "id": 76336,
+      "name": "Planar Goo"
+    },
+    {
+      "id": 76432,
+      "name": "Steamjet Pack"
+    },
+    {
+      "id": 76433,
+      "name": "Terror Steamblade"
+    },
+    {
+      "id": 76434,
+      "name": "Instant Beverage Brewer"
+    },
+    {
+      "id": 76435,
+      "name": "Goo Gun"
+    },
+    {
+      "id": 76436,
+      "name": "Goo Gun Ammunition"
+    },
+    {
+      "id": 76437,
+      "name": "Planar Distortion Device"
+    },
+    {
+      "id": 76438,
+      "name": "Tick Tock Fear Bomb"
+    },
+    {
+      "id": 76439,
+      "name": "Tick Tock Sticky Bomb"
+    },
+    {
+      "id": 76440,
+      "name": "Tick Tock Blast Bomb"
+    },
+    {
+      "id": 93664,
+      "name": "High Quality Carbon Powder"
+    }
+  ],
+  "availability_evidence": {
+    "guide": "https://www.eqtraders.com/articles/article_page.php?article=g567",
+    "guide_created": "2012-12-16",
+    "book_item_id": 76431,
+    "book_name": "Fun with Fear Machines",
+    "books_id": 5521,
+    "book_filename": "TSSKU20S20Tinkering",
+    "book_text_sha256": "b18fb781bfa8f669fc780f9661007b345ef9969e85a62818009d4a2a6b64e57b",
+    "book_facts": "Current game-authored read-only book describes the three bomb variants, brewer, jet pack, gun, ammunition, steamblade and distortion device, with their ingredients. The basic bomb description is a shared base formula, not a tenth named catalogue row.",
+    "historical_limit": "Maintained EQTC rows and current PEQ book corroborate content; no frozen May2013 per-formula numeric trivial/yield/container receipts. Other150 source rows are not formula-reconciled."
+  },
+  "restriction_review": {
+    "tradeskill": 57,
+    "race": "Source Gnome-only restriction retained by existing engine SkillTinkering gate in both combine paths; static source review only, no native acceptance claim.",
+    "container": "Ordinary BagType10; genuine Deluxe Toolbox17877, ten slots. Source formulas require up to ten ingredient units. Native slot enforcement retained.",
+    "learning": "Guide lists Fun with Fear Machines as read-only; Black Powder Bomb mandatory-scribing row, cultural recipes and Repeating Crossbow quests excluded.",
+    "salvage": "Ordinary consumable component quantities follow existing metadata convention; translation inference, not recipe-by-recipe Live AA proof.",
+    "identity_overrides": {
+      "Bottle": {
+        "id": 16598,
+        "source": "https://www.eqtraders.com/items/show_item.php?item=1285"
+      },
+      "Water Flask": {
+        "id": 13006,
+        "source": "https://www.eqtraders.com/items/show_item.php?item=1001"
+      }
+    },
+    "acquisition": "Planar Goo/Energy Shard distribution unresolved separately; installed recipes do not prove natural acquisition.",
+    "no_cap_change": true
+  }
+}

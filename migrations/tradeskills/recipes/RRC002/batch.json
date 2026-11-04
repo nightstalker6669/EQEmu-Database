@@ -1,0 +1,1486 @@
+{
+  "batch": "RRC002",
+  "branch": "rof2-tradeskills",
+  "status": "SOURCE_PROPOSAL_NOT_REHEARSED_APPLIED",
+  "cutoff": "2013-05-31",
+  "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=561&rsa=Brewing&sub=ROF",
+  "source_page_modified_label": "2012-12-09 10:47:17",
+  "source_denominator": 16,
+  "selected_book_recipes": 10,
+  "counts": {
+    "recipes": 10,
+    "entries": 68,
+    "item_dependencies": 31
+  },
+  "identity_overrides": {
+    "Bottle": {
+      "id": 16598,
+      "source": "https://www.eqtraders.com/items/show_item.php?item=1285",
+      "verified": "Chrome visible EQ item ID"
+    },
+    "Cork": {
+      "id": 16851,
+      "source": "https://www.eqtraders.com/items/show_item.php?item=1233",
+      "verified": "Chrome visible EQ item ID"
+    },
+    "Water Flask": {
+      "id": 13006,
+      "source": "https://www.eqtraders.com/items/show_item.php?item=1001",
+      "verified": "Chrome visible EQ item ID"
+    }
+  },
+  "availability_evidence": {
+    "period_context_guide": "https://www.eqtraders.com/articles/article_page.php?article=g567",
+    "guide_created": "2012-12-16",
+    "book_item_id": 76323,
+    "book_name": "Divine Drinks",
+    "book_filename": "TSSKU20S20Brewing",
+    "books_id": 5515,
+    "book_text_sha256": "59874aee1b82b5f3b6936eb84ba15655ca23b9a01c4dbf396624316da8778f0a",
+    "book_facts": "All10 target names, ingredient names and quantities appear explicitly in this game-authored read-only book. Current PEQ copy corroborates formula facts but is not an archived May2013 runtime receipt.",
+    "quest_note_caution": "Cazic's Blood later use in Artisan's Prize does not imply it was introduced in2016; it already appears in the RoF Divine Drinks book. No other modern quest gating is copied.",
+    "historical_limit": "No independently archived pre-cutoff copy of every numeric trivial/container restriction has yet been obtained."
+  },
+  "restriction_review": {
+    "tradeskill": 65,
+    "skillneeded": 0,
+    "nofail": 0,
+    "replace_container": 0,
+    "quest": 0,
+    "must_learn": 0,
+    "learned_by_item_id": 0,
+    "min_expansion": 19,
+    "max_expansion": -1,
+    "learn_source": "Guide lists Divine Drinks as read-only, distinct from mandatory scribing books.",
+    "skill_cap": "No cap change; recipe trivials up to475 do not set minimum attempt skill.",
+    "container": "Existing ordinary Brew Barrel class BagType19; existing container slot capacity remains enforced.10-slot barrel dependency bound to item17911.",
+    "salvage": "Existing ordinary consumable metadata convention, labelled translation inference; not new per-recipe Live AA validation.",
+    "class_race": "No special class/race gating asserted for ordinary Brewing; existing engine gates remain."
+  },
+  "recipes": [
+    {
+      "id": 3091020,
+      "name": "Brew of the Planes",
+      "tradeskill": 65,
+      "skillneeded": 0,
+      "trivial": 402,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "RoF; EQTC article561; Divine Drinks; RRC002 provenance.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 19,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3091021,
+      "name": "Cazic's Blood",
+      "tradeskill": 65,
+      "skillneeded": 0,
+      "trivial": 448,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "RoF; EQTC article561; Divine Drinks; RRC002 provenance.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 19,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3091022,
+      "name": "Planar Energy Ale",
+      "tradeskill": 65,
+      "skillneeded": 0,
+      "trivial": 155,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "RoF; EQTC article561; Divine Drinks; RRC002 provenance.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 19,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3091023,
+      "name": "Planar Energy Coffee",
+      "tradeskill": 65,
+      "skillneeded": 0,
+      "trivial": 148,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "RoF; EQTC article561; Divine Drinks; RRC002 provenance.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 19,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3091024,
+      "name": "Planar Energy Juice",
+      "tradeskill": 65,
+      "skillneeded": 0,
+      "trivial": 148,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "RoF; EQTC article561; Divine Drinks; RRC002 provenance.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 19,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3091025,
+      "name": "Planar Energy Nostrum",
+      "tradeskill": 65,
+      "skillneeded": 0,
+      "trivial": 475,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "RoF; EQTC article561; Divine Drinks; RRC002 provenance.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 19,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3091026,
+      "name": "Planar Energy Spirits",
+      "tradeskill": 65,
+      "skillneeded": 0,
+      "trivial": 162,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "RoF; EQTC article561; Divine Drinks; RRC002 provenance.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 19,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3091027,
+      "name": "Planar Energy Tea",
+      "tradeskill": 65,
+      "skillneeded": 0,
+      "trivial": 122,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "RoF; EQTC article561; Divine Drinks; RRC002 provenance.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 19,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3091028,
+      "name": "Planar Overdose",
+      "tradeskill": 65,
+      "skillneeded": 0,
+      "trivial": 415,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "RoF; EQTC article561; Divine Drinks; RRC002 provenance.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 19,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3091029,
+      "name": "Tea of the Shard",
+      "tradeskill": 65,
+      "skillneeded": 0,
+      "trivial": 382,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "RoF; EQTC article561; Divine Drinks; RRC002 provenance.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 19,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    }
+  ],
+  "entries": [
+    {
+      "recipe_id": 3091020,
+      "item_id": 76330,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091020,
+      "item_id": 15961,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091020,
+      "item_id": 13046,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091020,
+      "item_id": 76322,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 2,
+      "salvagecount": 2,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091020,
+      "item_id": 13425,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091020,
+      "item_id": 58153,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091020,
+      "item_id": 13006,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091020,
+      "item_id": 19,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3091021,
+      "item_id": 76333,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091021,
+      "item_id": 16598,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091021,
+      "item_id": 16851,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091021,
+      "item_id": 46979,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 2,
+      "salvagecount": 2,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091021,
+      "item_id": 13046,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091021,
+      "item_id": 16592,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091021,
+      "item_id": 76322,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 3,
+      "salvagecount": 3,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091021,
+      "item_id": 16597,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091021,
+      "item_id": 19,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3091022,
+      "item_id": 76324,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091022,
+      "item_id": 16590,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091022,
+      "item_id": 16598,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091022,
+      "item_id": 16851,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091022,
+      "item_id": 16595,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091022,
+      "item_id": 76322,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091022,
+      "item_id": 13006,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091022,
+      "item_id": 19,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3091023,
+      "item_id": 76325,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091023,
+      "item_id": 13087,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091023,
+      "item_id": 15961,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091023,
+      "item_id": 60294,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091023,
+      "item_id": 76322,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091023,
+      "item_id": 13006,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091023,
+      "item_id": 19,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3091024,
+      "item_id": 76326,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091024,
+      "item_id": 13045,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 2,
+      "salvagecount": 2,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091024,
+      "item_id": 16592,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 2,
+      "salvagecount": 2,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091024,
+      "item_id": 76322,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091024,
+      "item_id": 19,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3091025,
+      "item_id": 76329,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091025,
+      "item_id": 76322,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091025,
+      "item_id": 37537,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091025,
+      "item_id": 9644,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091025,
+      "item_id": 16582,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091025,
+      "item_id": 13006,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091025,
+      "item_id": 19,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3091026,
+      "item_id": 76327,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091026,
+      "item_id": 16590,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091026,
+      "item_id": 16598,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091026,
+      "item_id": 16851,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091026,
+      "item_id": 76322,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091026,
+      "item_id": 13006,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091026,
+      "item_id": 19,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3091027,
+      "item_id": 76328,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091027,
+      "item_id": 76322,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091027,
+      "item_id": 58153,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091027,
+      "item_id": 13006,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091027,
+      "item_id": 19,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3091028,
+      "item_id": 76332,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091028,
+      "item_id": 16590,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091028,
+      "item_id": 76322,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 3,
+      "salvagecount": 3,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091028,
+      "item_id": 16599,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091028,
+      "item_id": 13006,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091028,
+      "item_id": 19,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3091029,
+      "item_id": 76334,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091029,
+      "item_id": 58281,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091029,
+      "item_id": 76322,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 3,
+      "salvagecount": 3,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091029,
+      "item_id": 58153,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091029,
+      "item_id": 13006,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091029,
+      "item_id": 19,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    }
+  ],
+  "source_facts": [
+    {
+      "name": "Brew of the Planes",
+      "tradeskill": 65,
+      "source_line_start": 67,
+      "source_line_end": 77,
+      "raw_fact_lines": [
+        "Components: \u301060\u2020Cup of Sugar\u3011, \u301061\u2020Fruit\u3011, \u301062\u2020Planar Energy Shard\u3011 (2), \u301063\u2020Spices\u3011, \u301064\u2020Taelosian Tea Leaves\u3011, \u301054\u2020Water Flask\u3011",
+        "In: \u301055\u2020Brew Barrel\u3011, \u301056\u2020Tanaan Brew Barrel\u3011, \u301057\u2020Brewing Barrel (Placeable)\u3011, \u301058\u2020Guild Brewing Barrel (Placeable)\u3011",
+        "Yield: 1",
+        "Notes: EQRecipeID: 49063 402"
+      ],
+      "item_candidates": [
+        76330
+      ],
+      "current_result_recipes": [],
+      "recipe_id": 3091020,
+      "output_item_id": 76330,
+      "ingredients": [
+        {
+          "name": "Cup of Sugar",
+          "count": 1
+        },
+        {
+          "name": "Fruit",
+          "count": 1
+        },
+        {
+          "name": "Planar Energy Shard",
+          "count": 2
+        },
+        {
+          "name": "Spices",
+          "count": 1
+        },
+        {
+          "name": "Taelosian Tea Leaves",
+          "count": 1
+        },
+        {
+          "name": "Water Flask",
+          "count": 1
+        }
+      ],
+      "containers": [
+        "Brew Barrel",
+        "Tanaan Brew Barrel",
+        "Brewing Barrel (Placeable)",
+        "Guild Brewing Barrel (Placeable)"
+      ],
+      "yield_count": 1,
+      "trivial": 402,
+      "also_returns": [],
+      "failure_returns": [],
+      "container_bagtype": 19
+    },
+    {
+      "name": "Cazic's Blood",
+      "tradeskill": 65,
+      "source_line_start": 78,
+      "source_line_end": 88,
+      "raw_fact_lines": [
+        "Components: \u301051\u2020Bottle\u3011, \u301066\u2020Cork\u3011, \u301067\u2020Dream Dust\u3011 (2), \u301061\u2020Fruit\u3011, \u301068\u2020Grapes\u3011, \u301062\u2020Planar Energy Shard\u3011 (3), \u301069\u2020Wine Yeast\u3011",
+        "In: \u301055\u2020Brew Barrel\u3011, \u301056\u2020Tanaan Brew Barrel\u3011, \u301057\u2020Brewing Barrel (Placeable)\u3011, \u301058\u2020Guild Brewing Barrel (Placeable)\u3011",
+        "Yield: 1",
+        "Notes: EQRecipeID: 49066 Quest: Brewing Supplies (Artisan's Prize) 448"
+      ],
+      "item_candidates": [
+        76333
+      ],
+      "current_result_recipes": [],
+      "recipe_id": 3091021,
+      "output_item_id": 76333,
+      "ingredients": [
+        {
+          "name": "Bottle",
+          "count": 1
+        },
+        {
+          "name": "Cork",
+          "count": 1
+        },
+        {
+          "name": "Dream Dust",
+          "count": 2
+        },
+        {
+          "name": "Fruit",
+          "count": 1
+        },
+        {
+          "name": "Grapes",
+          "count": 1
+        },
+        {
+          "name": "Planar Energy Shard",
+          "count": 3
+        },
+        {
+          "name": "Wine Yeast",
+          "count": 1
+        }
+      ],
+      "containers": [
+        "Brew Barrel",
+        "Tanaan Brew Barrel",
+        "Brewing Barrel (Placeable)",
+        "Guild Brewing Barrel (Placeable)"
+      ],
+      "yield_count": 1,
+      "trivial": 448,
+      "also_returns": [],
+      "failure_returns": [],
+      "container_bagtype": 19
+    },
+    {
+      "name": "Planar Energy Ale",
+      "tradeskill": 65,
+      "source_line_start": 131,
+      "source_line_end": 138,
+      "raw_fact_lines": [
+        "Components: \u301076\u2020Barley\u3011, \u301051\u2020Bottle\u3011, \u301066\u2020Cork\u3011, \u301085\u2020Malt\u3011, \u301062\u2020Planar Energy Shard\u3011, \u301054\u2020Water Flask\u3011",
+        "In: \u301055\u2020Brew Barrel\u3011, \u301056\u2020Tanaan Brew Barrel\u3011, \u301057\u2020Brewing Barrel (Placeable)\u3011, \u301058\u2020Guild Brewing Barrel (Placeable)\u3011",
+        "Yield: 1",
+        "Notes: EQRecipeID: 49057 155"
+      ],
+      "item_candidates": [
+        76324
+      ],
+      "current_result_recipes": [],
+      "recipe_id": 3091022,
+      "output_item_id": 76324,
+      "ingredients": [
+        {
+          "name": "Barley",
+          "count": 1
+        },
+        {
+          "name": "Bottle",
+          "count": 1
+        },
+        {
+          "name": "Cork",
+          "count": 1
+        },
+        {
+          "name": "Malt",
+          "count": 1
+        },
+        {
+          "name": "Planar Energy Shard",
+          "count": 1
+        },
+        {
+          "name": "Water Flask",
+          "count": 1
+        }
+      ],
+      "containers": [
+        "Brew Barrel",
+        "Tanaan Brew Barrel",
+        "Brewing Barrel (Placeable)",
+        "Guild Brewing Barrel (Placeable)"
+      ],
+      "yield_count": 1,
+      "trivial": 155,
+      "also_returns": [],
+      "failure_returns": [],
+      "container_bagtype": 19
+    },
+    {
+      "name": "Planar Energy Coffee",
+      "tradeskill": 65,
+      "source_line_start": 139,
+      "source_line_end": 150,
+      "raw_fact_lines": [
+        "Components: \u301087\u2020Bottle of Milk\u3011, \u301060\u2020Cup of Sugar\u3011, \u301088\u2020Generic Coffee Beans\u3011, \u301062\u2020Planar Energy Shard\u3011, \u301054\u2020Water Flask\u3011",
+        "In: \u301055\u2020Brew Barrel\u3011, \u301056\u2020Tanaan Brew Barrel\u3011, \u301057\u2020Brewing Barrel (Placeable)\u3011, \u301058\u2020Guild Brewing Barrel (Placeable)\u3011",
+        "Yield: 1",
+        "Notes: EQRecipeID: 49058 148"
+      ],
+      "item_candidates": [
+        76325
+      ],
+      "current_result_recipes": [],
+      "recipe_id": 3091023,
+      "output_item_id": 76325,
+      "ingredients": [
+        {
+          "name": "Bottle of Milk",
+          "count": 1
+        },
+        {
+          "name": "Cup of Sugar",
+          "count": 1
+        },
+        {
+          "name": "Generic Coffee Beans",
+          "count": 1
+        },
+        {
+          "name": "Planar Energy Shard",
+          "count": 1
+        },
+        {
+          "name": "Water Flask",
+          "count": 1
+        }
+      ],
+      "containers": [
+        "Brew Barrel",
+        "Tanaan Brew Barrel",
+        "Brewing Barrel (Placeable)",
+        "Guild Brewing Barrel (Placeable)"
+      ],
+      "yield_count": 1,
+      "trivial": 148,
+      "also_returns": [],
+      "failure_returns": [],
+      "container_bagtype": 19
+    },
+    {
+      "name": "Planar Energy Juice",
+      "tradeskill": 65,
+      "source_line_start": 151,
+      "source_line_end": 162,
+      "raw_fact_lines": [
+        "Components: \u301090\u2020Berries\u3011 (2), \u301068\u2020Grapes\u3011 (2), \u301062\u2020Planar Energy Shard\u3011",
+        "In: \u301055\u2020Brew Barrel\u3011, \u301056\u2020Tanaan Brew Barrel\u3011, \u301057\u2020Brewing Barrel (Placeable)\u3011, \u301058\u2020Guild Brewing Barrel (Placeable)\u3011",
+        "Yield: 1",
+        "Notes: EQRecipeID: 49059 148"
+      ],
+      "item_candidates": [
+        76326
+      ],
+      "current_result_recipes": [],
+      "recipe_id": 3091024,
+      "output_item_id": 76326,
+      "ingredients": [
+        {
+          "name": "Berries",
+          "count": 2
+        },
+        {
+          "name": "Grapes",
+          "count": 2
+        },
+        {
+          "name": "Planar Energy Shard",
+          "count": 1
+        }
+      ],
+      "containers": [
+        "Brew Barrel",
+        "Tanaan Brew Barrel",
+        "Brewing Barrel (Placeable)",
+        "Guild Brewing Barrel (Placeable)"
+      ],
+      "yield_count": 1,
+      "trivial": 148,
+      "also_returns": [],
+      "failure_returns": [],
+      "container_bagtype": 19
+    },
+    {
+      "name": "Planar Energy Nostrum",
+      "tradeskill": 65,
+      "source_line_start": 163,
+      "source_line_end": 173,
+      "raw_fact_lines": [
+        "Components: \u301062\u2020Planar Energy Shard\u3011, \u301092\u2020Quinine\u3011, \u301093\u2020Soda Water\u3011, \u301094\u2020Vodka\u3011, \u301054\u2020Water Flask\u3011",
+        "In: \u301055\u2020Brew Barrel\u3011, \u301056\u2020Tanaan Brew Barrel\u3011, \u301057\u2020Brewing Barrel (Placeable)\u3011, \u301058\u2020Guild Brewing Barrel (Placeable)\u3011",
+        "Yield: 1",
+        "Notes: EQRecipeID: 49062 475"
+      ],
+      "item_candidates": [
+        76329
+      ],
+      "current_result_recipes": [],
+      "recipe_id": 3091025,
+      "output_item_id": 76329,
+      "ingredients": [
+        {
+          "name": "Planar Energy Shard",
+          "count": 1
+        },
+        {
+          "name": "Quinine",
+          "count": 1
+        },
+        {
+          "name": "Soda Water",
+          "count": 1
+        },
+        {
+          "name": "Vodka",
+          "count": 1
+        },
+        {
+          "name": "Water Flask",
+          "count": 1
+        }
+      ],
+      "containers": [
+        "Brew Barrel",
+        "Tanaan Brew Barrel",
+        "Brewing Barrel (Placeable)",
+        "Guild Brewing Barrel (Placeable)"
+      ],
+      "yield_count": 1,
+      "trivial": 475,
+      "also_returns": [],
+      "failure_returns": [],
+      "container_bagtype": 19
+    },
+    {
+      "name": "Planar Energy Spirits",
+      "tradeskill": 65,
+      "source_line_start": 174,
+      "source_line_end": 181,
+      "raw_fact_lines": [
+        "Components: \u301076\u2020Barley\u3011, \u301051\u2020Bottle\u3011, \u301066\u2020Cork\u3011, \u301062\u2020Planar Energy Shard\u3011, \u301054\u2020Water Flask\u3011",
+        "In: \u301055\u2020Brew Barrel\u3011, \u301056\u2020Tanaan Brew Barrel\u3011, \u301057\u2020Brewing Barrel (Placeable)\u3011, \u301058\u2020Guild Brewing Barrel (Placeable)\u3011",
+        "Yield: 1",
+        "Notes: EQRecipeID: 49060 162"
+      ],
+      "item_candidates": [
+        76327
+      ],
+      "current_result_recipes": [],
+      "recipe_id": 3091026,
+      "output_item_id": 76327,
+      "ingredients": [
+        {
+          "name": "Barley",
+          "count": 1
+        },
+        {
+          "name": "Bottle",
+          "count": 1
+        },
+        {
+          "name": "Cork",
+          "count": 1
+        },
+        {
+          "name": "Planar Energy Shard",
+          "count": 1
+        },
+        {
+          "name": "Water Flask",
+          "count": 1
+        }
+      ],
+      "containers": [
+        "Brew Barrel",
+        "Tanaan Brew Barrel",
+        "Brewing Barrel (Placeable)",
+        "Guild Brewing Barrel (Placeable)"
+      ],
+      "yield_count": 1,
+      "trivial": 162,
+      "also_returns": [],
+      "failure_returns": [],
+      "container_bagtype": 19
+    },
+    {
+      "name": "Planar Energy Tea",
+      "tradeskill": 65,
+      "source_line_start": 182,
+      "source_line_end": 193,
+      "raw_fact_lines": [
+        "Components: \u301062\u2020Planar Energy Shard\u3011, \u301064\u2020Taelosian Tea Leaves\u3011, \u301054\u2020Water Flask\u3011",
+        "In: \u301055\u2020Brew Barrel\u3011, \u301056\u2020Tanaan Brew Barrel\u3011, \u301057\u2020Brewing Barrel (Placeable)\u3011, \u301058\u2020Guild Brewing Barrel (Placeable)\u3011",
+        "Yield: 1",
+        "Notes: EQRecipeID: 49061 Quest: The New Tanaan Merchant Alliance 122"
+      ],
+      "item_candidates": [
+        76328
+      ],
+      "current_result_recipes": [],
+      "recipe_id": 3091027,
+      "output_item_id": 76328,
+      "ingredients": [
+        {
+          "name": "Planar Energy Shard",
+          "count": 1
+        },
+        {
+          "name": "Taelosian Tea Leaves",
+          "count": 1
+        },
+        {
+          "name": "Water Flask",
+          "count": 1
+        }
+      ],
+      "containers": [
+        "Brew Barrel",
+        "Tanaan Brew Barrel",
+        "Brewing Barrel (Placeable)",
+        "Guild Brewing Barrel (Placeable)"
+      ],
+      "yield_count": 1,
+      "trivial": 122,
+      "also_returns": [],
+      "failure_returns": [],
+      "container_bagtype": 19
+    },
+    {
+      "name": "Planar Overdose",
+      "tradeskill": 65,
+      "source_line_start": 194,
+      "source_line_end": 204,
+      "raw_fact_lines": [
+        "Components: \u301076\u2020Barley\u3011, \u301062\u2020Planar Energy Shard\u3011 (3), \u301098\u2020Shotglass\u3011, \u301054\u2020Water Flask\u3011",
+        "In: \u301055\u2020Brew Barrel\u3011, \u301056\u2020Tanaan Brew Barrel\u3011, \u301057\u2020Brewing Barrel (Placeable)\u3011, \u301058\u2020Guild Brewing Barrel (Placeable)\u3011",
+        "Yield: 1",
+        "Notes: EQRecipeID: 49065 415"
+      ],
+      "item_candidates": [
+        76332
+      ],
+      "current_result_recipes": [],
+      "recipe_id": 3091028,
+      "output_item_id": 76332,
+      "ingredients": [
+        {
+          "name": "Barley",
+          "count": 1
+        },
+        {
+          "name": "Planar Energy Shard",
+          "count": 3
+        },
+        {
+          "name": "Shotglass",
+          "count": 1
+        },
+        {
+          "name": "Water Flask",
+          "count": 1
+        }
+      ],
+      "containers": [
+        "Brew Barrel",
+        "Tanaan Brew Barrel",
+        "Brewing Barrel (Placeable)",
+        "Guild Brewing Barrel (Placeable)"
+      ],
+      "yield_count": 1,
+      "trivial": 415,
+      "also_returns": [],
+      "failure_returns": [],
+      "container_bagtype": 19
+    },
+    {
+      "name": "Tea of the Shard",
+      "tradeskill": 65,
+      "source_line_start": 214,
+      "source_line_end": 226,
+      "raw_fact_lines": [
+        "Components: \u3010104\u2020Lemon\u3011, \u301062\u2020Planar Energy Shard\u3011 (3), \u301064\u2020Taelosian Tea Leaves\u3011, \u301054\u2020Water Flask\u3011",
+        "In: \u301055\u2020Brew Barrel\u3011, \u301056\u2020Tanaan Brew Barrel\u3011, \u301057\u2020Brewing Barrel (Placeable)\u3011, \u301058\u2020Guild Brewing Barrel (Placeable)\u3011",
+        "Yield: 1",
+        "Notes: EQRecipeID: 49067 382"
+      ],
+      "item_candidates": [
+        76334
+      ],
+      "current_result_recipes": [],
+      "recipe_id": 3091029,
+      "output_item_id": 76334,
+      "ingredients": [
+        {
+          "name": "Lemon",
+          "count": 1
+        },
+        {
+          "name": "Planar Energy Shard",
+          "count": 3
+        },
+        {
+          "name": "Taelosian Tea Leaves",
+          "count": 1
+        },
+        {
+          "name": "Water Flask",
+          "count": 1
+        }
+      ],
+      "containers": [
+        "Brew Barrel",
+        "Tanaan Brew Barrel",
+        "Brewing Barrel (Placeable)",
+        "Guild Brewing Barrel (Placeable)"
+      ],
+      "yield_count": 1,
+      "trivial": 382,
+      "also_returns": [],
+      "failure_returns": [],
+      "container_bagtype": 19
+    }
+  ],
+  "item_dependencies": [
+    {
+      "id": 9644,
+      "name": "Soda Water"
+    },
+    {
+      "id": 13006,
+      "name": "Water Flask"
+    },
+    {
+      "id": 13045,
+      "name": "Berries"
+    },
+    {
+      "id": 13046,
+      "name": "Fruit"
+    },
+    {
+      "id": 13087,
+      "name": "Bottle of Milk"
+    },
+    {
+      "id": 13425,
+      "name": "Spices"
+    },
+    {
+      "id": 15961,
+      "name": "Cup of Sugar"
+    },
+    {
+      "id": 16582,
+      "name": "Vodka"
+    },
+    {
+      "id": 16590,
+      "name": "Barley"
+    },
+    {
+      "id": 16592,
+      "name": "Grapes"
+    },
+    {
+      "id": 16595,
+      "name": "Malt"
+    },
+    {
+      "id": 16597,
+      "name": "Wine Yeast"
+    },
+    {
+      "id": 16598,
+      "name": "Bottle"
+    },
+    {
+      "id": 16599,
+      "name": "Shotglass"
+    },
+    {
+      "id": 16851,
+      "name": "Cork"
+    },
+    {
+      "id": 37537,
+      "name": "Quinine"
+    },
+    {
+      "id": 46979,
+      "name": "Dream Dust"
+    },
+    {
+      "id": 58153,
+      "name": "Taelosian Tea Leaves"
+    },
+    {
+      "id": 58281,
+      "name": "Lemon"
+    },
+    {
+      "id": 60294,
+      "name": "Generic Coffee Beans"
+    },
+    {
+      "id": 76322,
+      "name": "Planar Energy Shard"
+    },
+    {
+      "id": 76324,
+      "name": "Planar Energy Ale"
+    },
+    {
+      "id": 76325,
+      "name": "Planar Energy Coffee"
+    },
+    {
+      "id": 76326,
+      "name": "Planar Energy Juice"
+    },
+    {
+      "id": 76327,
+      "name": "Planar Energy Spirits"
+    },
+    {
+      "id": 76328,
+      "name": "Planar Energy Tea"
+    },
+    {
+      "id": 76329,
+      "name": "Planar Energy Nostrum"
+    },
+    {
+      "id": 76330,
+      "name": "Brew of the Planes"
+    },
+    {
+      "id": 76332,
+      "name": "Planar Overdose"
+    },
+    {
+      "id": 76333,
+      "name": "Cazic's Blood"
+    },
+    {
+      "id": 76334,
+      "name": "Tea of the Shard"
+    }
+  ]
+}

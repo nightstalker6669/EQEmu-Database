@@ -1,0 +1,289 @@
+{
+  "batch": "RRC015",
+  "branch": "rof2-tradeskills",
+  "status": "SOURCE_PROPOSAL_NOT_REHEARSED_APPLIED",
+  "cutoff": "2013-05-31",
+  "proposed_ids": [
+    3091284,
+    3091284
+  ],
+  "counts": {
+    "recipes": 1,
+    "entries": 9,
+    "item_dependencies": 10
+  },
+  "recipes": [
+    {
+      "id": 3091284,
+      "name": "Combat Spellbook",
+      "tradeskill": 58,
+      "skillneeded": 0,
+      "trivial": 375,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "RoF; Merchant Alliance Tradebook Research; RRC015.",
+      "must_learn": 1,
+      "learned_by_item_id": 81108,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 19,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    }
+  ],
+  "entries": [
+    {
+      "recipe_id": 3091284,
+      "item_id": 81122,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091284,
+      "item_id": 14246,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091284,
+      "item_id": 13063,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 5,
+      "salvagecount": 5,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091284,
+      "item_id": 81132,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091284,
+      "item_id": 93492,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3091284,
+      "item_id": 41555,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3091284,
+      "item_id": 41631,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3091284,
+      "item_id": 41632,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3091284,
+      "item_id": 41633,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    }
+  ],
+  "item_dependencies": [
+    {
+      "id": 13063,
+      "name": "Piece of Parchment"
+    },
+    {
+      "id": 14246,
+      "name": "Mystic Ash"
+    },
+    {
+      "id": 41555,
+      "name": "Tome Binding Kit"
+    },
+    {
+      "id": 41631,
+      "name": "Prayer Writing Kit"
+    },
+    {
+      "id": 41632,
+      "name": "Hybrid Research Kit"
+    },
+    {
+      "id": 41633,
+      "name": "Song Writing Kit"
+    },
+    {
+      "id": 81108,
+      "name": "Merchant Alliance Tradebook"
+    },
+    {
+      "id": 81122,
+      "name": "Combat Spellbook"
+    },
+    {
+      "id": 81132,
+      "name": "Writing Ink"
+    },
+    {
+      "id": 93492,
+      "name": "Spell Research Kit"
+    }
+  ],
+  "source_facts": [
+    {
+      "recipe_id": 3091284,
+      "name": "Combat Spellbook",
+      "tradeskill": 58,
+      "trivial": 375,
+      "skillneeded": 0,
+      "yield_count": 1,
+      "must_learn": 1,
+      "learned_by_item_id": 81108,
+      "ingredients": [
+        {
+          "item_id": 14246,
+          "count": 1,
+          "name": "Mystic Ash",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=1154"
+        },
+        {
+          "item_id": 13063,
+          "count": 5,
+          "name": "Piece of Parchment",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=7411"
+        },
+        {
+          "item_id": 81132,
+          "count": 1,
+          "name": "Writing Ink",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=40432"
+        }
+      ],
+      "exact_container_item_ids": [
+        93492,
+        41555,
+        41631,
+        41632,
+        41633
+      ],
+      "source_url": "https://www.eqtraders.com/items/show_item.php?item=40423"
+    }
+  ],
+  "exact_existing_counterpart_recipes": [
+    {
+      "id": 3091271,
+      "name": "Combat Spellbook",
+      "tradeskill": 61,
+      "skillneeded": 300,
+      "trivial": 375,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "RoF; Merchant Alliance Tradebook; RRC012.",
+      "must_learn": 1,
+      "learned_by_item_id": 81108,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 19,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    }
+  ],
+  "exact_existing_counterpart_entries": [
+    {
+      "recipe_id": 3091271,
+      "item_id": 81122,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091271,
+      "item_id": 14246,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091271,
+      "item_id": 13063,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 5,
+      "salvagecount": 5,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091271,
+      "item_id": 81132,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091271,
+      "item_id": 16,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    }
+  ],
+  "availability_evidence": {
+    "book_item_id": 81108,
+    "book_name": "Merchant Alliance Tradebook",
+    "books_id": 5243,
+    "book_filename": "TSQMATradebook",
+    "book_text_sha256": "efdd1ec66b883d1133aec1c25be242b07d8b6f1073c96f51509985074b986a1e",
+    "book_facts": "Current game-authored book names all selected product families, ingredients and methods. Bolts yield100prose versus current source10is held separately.",
+    "period_source": "https://pixelnomad.ca/2013/04/",
+    "period_source_facts": "Player post displayedApril29,2013reports completing Merchant Alliance prequest and receiving this book; current page also displays later2019edit. Supports book/task availability, not all numeric formula values.",
+    "historical_limit": "Maintained RoF/formula pages and current book corroborate content; no immutable May2013 per-formula numeric or native receipt."
+  },
+  "restriction_review": {
+    "containers": "Five source-linked native item IDs only; no generic BagType11 or legacy research kits. Each kit retains itemclass1, BagType11, ten slots and its exact class/race masks. Seven component units must occupy seven slots.",
+    "minimum": "Research source gives no explicit minimum: skillneeded0. Tailoring counterpart explicit300 is not copied.",
+    "learning": "Must scribe book81108, ordinary quest0; no learned-reference or book grants and no retroactive scribing backfill.",
+    "counterpart": "Only existing Tailoring3091271 may share output81122. Apply/reapply guard its full16 recipe fields and five logical entries before and after insertion; never modify it. Rollback only owns new3091284.",
+    "identity": "Four formula refs have retained direct HTML; four kits use cached primary item pages and Song kit retained direct HTML. Cached/current sources are not immutable May2013 numeric receipts.",
+    "class_race": "Existing kit class/race metadata preserved; no native permission acceptance claimed.",
+    "native_combine": false,
+    "native_book_scribing": false,
+    "skill_cap_change": false
+  }
+}

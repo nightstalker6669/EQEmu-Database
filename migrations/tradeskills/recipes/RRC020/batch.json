@@ -1,0 +1,1561 @@
+{
+  "batch": "RRC020",
+  "branch": "rof2-tradeskills",
+  "status": "SOURCE_PROPOSAL_NOT_REHEARSED_APPLIED",
+  "cutoff": "2013-05-31",
+  "proposed_ids": [
+    3091504,
+    3091514
+  ],
+  "counts": {
+    "recipes": 11,
+    "entries": 74,
+    "item_dependencies": 29
+  },
+  "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=373&rsa=Baking&sub=por",
+  "recipes": [
+    {
+      "id": 3091504,
+      "name": "Loaf of Taelosian Bread",
+      "tradeskill": 60,
+      "skillneeded": 0,
+      "trivial": 100,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "PoR; EQTC article373; Taelosian bread; RRC020.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 11,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3091505,
+      "name": "Loaf of Taelosian Mountain Bread",
+      "tradeskill": 60,
+      "skillneeded": 0,
+      "trivial": 114,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "PoR; EQTC article373; Taelosian bread; RRC020.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 11,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3091506,
+      "name": "Taelosian Cheesy Tomato Bread",
+      "tradeskill": 60,
+      "skillneeded": 0,
+      "trivial": 95,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "PoR; EQTC article373; Taelosian bread; RRC020.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 11,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3091507,
+      "name": "Taelosian Cheesy Tomato Mountain Bread",
+      "tradeskill": 60,
+      "skillneeded": 0,
+      "trivial": 108,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "PoR; EQTC article373; Taelosian bread; RRC020.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 11,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3091508,
+      "name": "Taelosian Dough",
+      "tradeskill": 60,
+      "skillneeded": 0,
+      "trivial": 28,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "PoR; EQTC article373; Taelosian bread; RRC020.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 11,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3091509,
+      "name": "Taelosian Flat Bread",
+      "tradeskill": 60,
+      "skillneeded": 0,
+      "trivial": 87,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "PoR; EQTC article373; Taelosian bread; RRC020.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 11,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3091510,
+      "name": "Taelosian Flat Mountain Bread",
+      "tradeskill": 60,
+      "skillneeded": 0,
+      "trivial": 100,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "PoR; EQTC article373; Taelosian bread; RRC020.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 11,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3091511,
+      "name": "Taelosian Garlic Bread",
+      "tradeskill": 60,
+      "skillneeded": 0,
+      "trivial": 102,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "PoR; EQTC article373; Taelosian bread; RRC020.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 11,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3091512,
+      "name": "Taelosian Garlic Mountain Bread",
+      "tradeskill": 60,
+      "skillneeded": 0,
+      "trivial": 115,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "PoR; EQTC article373; Taelosian bread; RRC020.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 11,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3091513,
+      "name": "Taelosian Mountain Dough",
+      "tradeskill": 60,
+      "skillneeded": 0,
+      "trivial": 38,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "PoR; EQTC article373; Taelosian bread; RRC020.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 11,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3091514,
+      "name": "Tomato Sauce",
+      "tradeskill": 60,
+      "skillneeded": 0,
+      "trivial": 26,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "PoR; EQTC article373; Taelosian bread; RRC020.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 11,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    }
+  ],
+  "entries": [
+    {
+      "recipe_id": 3091504,
+      "item_id": 96775,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091504,
+      "item_id": 13087,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091504,
+      "item_id": 13440,
+      "successcount": 1,
+      "failcount": 1,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091504,
+      "item_id": 29742,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091504,
+      "item_id": 15961,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091504,
+      "item_id": 75856,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091504,
+      "item_id": 58155,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 3,
+      "salvagecount": 3,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091504,
+      "item_id": 13006,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091504,
+      "item_id": 16596,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091504,
+      "item_id": 15,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3091505,
+      "item_id": 96776,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091505,
+      "item_id": 13087,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091505,
+      "item_id": 13440,
+      "successcount": 1,
+      "failcount": 1,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091505,
+      "item_id": 29742,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091505,
+      "item_id": 15961,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091505,
+      "item_id": 75856,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091505,
+      "item_id": 58150,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 3,
+      "salvagecount": 3,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091505,
+      "item_id": 13006,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091505,
+      "item_id": 16596,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091505,
+      "item_id": 15,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3091506,
+      "item_id": 96804,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091506,
+      "item_id": 8160,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091506,
+      "item_id": 67741,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091506,
+      "item_id": 58155,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091506,
+      "item_id": 96806,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091506,
+      "item_id": 15,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3091507,
+      "item_id": 96805,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091507,
+      "item_id": 8160,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091507,
+      "item_id": 67741,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091507,
+      "item_id": 58150,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091507,
+      "item_id": 96806,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091507,
+      "item_id": 15,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3091508,
+      "item_id": 96732,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091508,
+      "item_id": 67741,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091508,
+      "item_id": 58155,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091508,
+      "item_id": 14,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3091509,
+      "item_id": 96800,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091509,
+      "item_id": 67741,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091509,
+      "item_id": 58155,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091509,
+      "item_id": 15,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3091510,
+      "item_id": 96801,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091510,
+      "item_id": 67741,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091510,
+      "item_id": 58150,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091510,
+      "item_id": 15,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3091511,
+      "item_id": 96802,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091511,
+      "item_id": 13087,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091511,
+      "item_id": 13440,
+      "successcount": 1,
+      "failcount": 1,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091511,
+      "item_id": 29742,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091511,
+      "item_id": 15961,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091511,
+      "item_id": 58269,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091511,
+      "item_id": 58155,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 3,
+      "salvagecount": 3,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091511,
+      "item_id": 13006,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091511,
+      "item_id": 16596,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091511,
+      "item_id": 15,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3091512,
+      "item_id": 96803,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091512,
+      "item_id": 13087,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091512,
+      "item_id": 13440,
+      "successcount": 1,
+      "failcount": 1,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091512,
+      "item_id": 29742,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091512,
+      "item_id": 15961,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091512,
+      "item_id": 58269,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091512,
+      "item_id": 58150,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 3,
+      "salvagecount": 3,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091512,
+      "item_id": 13006,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091512,
+      "item_id": 16596,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091512,
+      "item_id": 15,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3091513,
+      "item_id": 96734,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091513,
+      "item_id": 67741,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091513,
+      "item_id": 58150,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091513,
+      "item_id": 14,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3091514,
+      "item_id": 96806,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091514,
+      "item_id": 13432,
+      "successcount": 1,
+      "failcount": 1,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091514,
+      "item_id": 13425,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091514,
+      "item_id": 96811,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 3,
+      "salvagecount": 3,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091514,
+      "item_id": 13006,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091514,
+      "item_id": 15,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    }
+  ],
+  "source_facts": [
+    {
+      "recipe_id": 3091504,
+      "name": "Loaf of Taelosian Bread",
+      "output_item_id": 96775,
+      "trivial": 100,
+      "yield_count": 1,
+      "nofail": 0,
+      "ingredients": [
+        {
+          "name": "Bottle of Milk",
+          "item_id": 13087,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=1009"
+        },
+        {
+          "name": "Bread Tin",
+          "item_id": 13440,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=2123"
+        },
+        {
+          "name": "Butter",
+          "item_id": 29742,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=4483"
+        },
+        {
+          "name": "Cup of Sugar",
+          "item_id": 15961,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=6472"
+        },
+        {
+          "name": "Rock Salt",
+          "item_id": 75856,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=7719"
+        },
+        {
+          "name": "Taelosian Wheat Flour",
+          "item_id": 58155,
+          "count": 3,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=12773"
+        },
+        {
+          "name": "Water Flask",
+          "item_id": 13006,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=1001"
+        },
+        {
+          "name": "Yeast",
+          "item_id": 16596,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=4984"
+        }
+      ],
+      "also_returns": [
+        {
+          "name": "Bread Tin",
+          "item_id": 13440,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=2123"
+        }
+      ],
+      "failure_returns": [
+        {
+          "name": "Bread Tin",
+          "item_id": 13440,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=2123"
+        }
+      ],
+      "container_bagtype": 15,
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=373&rsa=Baking&sub=por",
+      "source_output_url": "https://www.eqtraders.com/items/show_item.php?item=22433&menustr=010000000000"
+    },
+    {
+      "recipe_id": 3091505,
+      "name": "Loaf of Taelosian Mountain Bread",
+      "output_item_id": 96776,
+      "trivial": 114,
+      "yield_count": 1,
+      "nofail": 0,
+      "ingredients": [
+        {
+          "name": "Bottle of Milk",
+          "item_id": 13087,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=1009"
+        },
+        {
+          "name": "Bread Tin",
+          "item_id": 13440,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=2123"
+        },
+        {
+          "name": "Butter",
+          "item_id": 29742,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=4483"
+        },
+        {
+          "name": "Cup of Sugar",
+          "item_id": 15961,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=6472"
+        },
+        {
+          "name": "Rock Salt",
+          "item_id": 75856,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=7719"
+        },
+        {
+          "name": "Taelosian Mountain Wheat Flour",
+          "item_id": 58150,
+          "count": 3,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=11851"
+        },
+        {
+          "name": "Water Flask",
+          "item_id": 13006,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=1001"
+        },
+        {
+          "name": "Yeast",
+          "item_id": 16596,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=4984"
+        }
+      ],
+      "also_returns": [
+        {
+          "name": "Bread Tin",
+          "item_id": 13440,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=2123"
+        }
+      ],
+      "failure_returns": [
+        {
+          "name": "Bread Tin",
+          "item_id": 13440,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=2123"
+        }
+      ],
+      "container_bagtype": 15,
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=373&rsa=Baking&sub=por",
+      "source_output_url": "https://www.eqtraders.com/items/show_item.php?item=22434&menustr=010000000000"
+    },
+    {
+      "recipe_id": 3091506,
+      "name": "Taelosian Cheesy Tomato Bread",
+      "output_item_id": 96804,
+      "trivial": 95,
+      "yield_count": 1,
+      "nofail": 0,
+      "ingredients": [
+        {
+          "name": "Cheese",
+          "item_id": 8160,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=3010"
+        },
+        {
+          "name": "Egg Batter",
+          "item_id": 67741,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=12834"
+        },
+        {
+          "name": "Taelosian Wheat Flour",
+          "item_id": 58155,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=12773"
+        },
+        {
+          "name": "Tomato Sauce",
+          "item_id": 96806,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=22440"
+        }
+      ],
+      "also_returns": [],
+      "failure_returns": [],
+      "container_bagtype": 15,
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=373&rsa=Baking&sub=por",
+      "source_output_url": "https://www.eqtraders.com/items/show_item.php?item=22823&menustr=010000000000"
+    },
+    {
+      "recipe_id": 3091507,
+      "name": "Taelosian Cheesy Tomato Mountain Bread",
+      "output_item_id": 96805,
+      "trivial": 108,
+      "yield_count": 1,
+      "nofail": 0,
+      "ingredients": [
+        {
+          "name": "Cheese",
+          "item_id": 8160,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=3010"
+        },
+        {
+          "name": "Egg Batter",
+          "item_id": 67741,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=12834"
+        },
+        {
+          "name": "Taelosian Mountain Wheat Flour",
+          "item_id": 58150,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=11851"
+        },
+        {
+          "name": "Tomato Sauce",
+          "item_id": 96806,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=22440"
+        }
+      ],
+      "also_returns": [],
+      "failure_returns": [],
+      "container_bagtype": 15,
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=373&rsa=Baking&sub=por",
+      "source_output_url": "https://www.eqtraders.com/items/show_item.php?item=22821&menustr=010000000000"
+    },
+    {
+      "recipe_id": 3091508,
+      "name": "Taelosian Dough",
+      "output_item_id": 96732,
+      "trivial": 28,
+      "yield_count": 1,
+      "nofail": 0,
+      "ingredients": [
+        {
+          "name": "Egg Batter",
+          "item_id": 67741,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=12834"
+        },
+        {
+          "name": "Taelosian Wheat Flour",
+          "item_id": 58155,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=12773"
+        }
+      ],
+      "also_returns": [],
+      "failure_returns": [],
+      "container_bagtype": 14,
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=373&rsa=Baking&sub=por",
+      "source_output_url": "https://www.eqtraders.com/items/show_item.php?item=22421&menustr=010000000000"
+    },
+    {
+      "recipe_id": 3091509,
+      "name": "Taelosian Flat Bread",
+      "output_item_id": 96800,
+      "trivial": 87,
+      "yield_count": 1,
+      "nofail": 0,
+      "ingredients": [
+        {
+          "name": "Egg Batter",
+          "item_id": 67741,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=12834"
+        },
+        {
+          "name": "Taelosian Wheat Flour",
+          "item_id": 58155,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=12773"
+        }
+      ],
+      "also_returns": [],
+      "failure_returns": [],
+      "container_bagtype": 15,
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=373&rsa=Baking&sub=por",
+      "source_output_url": "https://www.eqtraders.com/items/show_item.php?item=22420&menustr=010000000000"
+    },
+    {
+      "recipe_id": 3091510,
+      "name": "Taelosian Flat Mountain Bread",
+      "output_item_id": 96801,
+      "trivial": 100,
+      "yield_count": 1,
+      "nofail": 0,
+      "ingredients": [
+        {
+          "name": "Egg Batter",
+          "item_id": 67741,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=12834"
+        },
+        {
+          "name": "Taelosian Mountain Wheat Flour",
+          "item_id": 58150,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=11851"
+        }
+      ],
+      "also_returns": [],
+      "failure_returns": [],
+      "container_bagtype": 15,
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=373&rsa=Baking&sub=por",
+      "source_output_url": "https://www.eqtraders.com/items/show_item.php?item=22442&menustr=010000000000"
+    },
+    {
+      "recipe_id": 3091511,
+      "name": "Taelosian Garlic Bread",
+      "output_item_id": 96802,
+      "trivial": 102,
+      "yield_count": 1,
+      "nofail": 0,
+      "ingredients": [
+        {
+          "name": "Bottle of Milk",
+          "item_id": 13087,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=1009"
+        },
+        {
+          "name": "Bread Tin",
+          "item_id": 13440,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=2123"
+        },
+        {
+          "name": "Butter",
+          "item_id": 29742,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=4483"
+        },
+        {
+          "name": "Cup of Sugar",
+          "item_id": 15961,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=6472"
+        },
+        {
+          "name": "Garlic-Butter Sauce",
+          "item_id": 58269,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=10646"
+        },
+        {
+          "name": "Taelosian Wheat Flour",
+          "item_id": 58155,
+          "count": 3,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=12773"
+        },
+        {
+          "name": "Water Flask",
+          "item_id": 13006,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=1001"
+        },
+        {
+          "name": "Yeast",
+          "item_id": 16596,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=4984"
+        }
+      ],
+      "also_returns": [
+        {
+          "name": "Bread Tin",
+          "item_id": 13440,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=2123"
+        }
+      ],
+      "failure_returns": [
+        {
+          "name": "Bread Tin",
+          "item_id": 13440,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=2123"
+        }
+      ],
+      "container_bagtype": 15,
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=373&rsa=Baking&sub=por",
+      "source_output_url": "https://www.eqtraders.com/items/show_item.php?item=22438&menustr=010000000000"
+    },
+    {
+      "recipe_id": 3091512,
+      "name": "Taelosian Garlic Mountain Bread",
+      "output_item_id": 96803,
+      "trivial": 115,
+      "yield_count": 1,
+      "nofail": 0,
+      "ingredients": [
+        {
+          "name": "Bottle of Milk",
+          "item_id": 13087,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=1009"
+        },
+        {
+          "name": "Bread Tin",
+          "item_id": 13440,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=2123"
+        },
+        {
+          "name": "Butter",
+          "item_id": 29742,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=4483"
+        },
+        {
+          "name": "Cup of Sugar",
+          "item_id": 15961,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=6472"
+        },
+        {
+          "name": "Garlic-Butter Sauce",
+          "item_id": 58269,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=10646"
+        },
+        {
+          "name": "Taelosian Mountain Wheat Flour",
+          "item_id": 58150,
+          "count": 3,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=11851"
+        },
+        {
+          "name": "Water Flask",
+          "item_id": 13006,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=1001"
+        },
+        {
+          "name": "Yeast",
+          "item_id": 16596,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=4984"
+        }
+      ],
+      "also_returns": [
+        {
+          "name": "Bread Tin",
+          "item_id": 13440,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=2123"
+        }
+      ],
+      "failure_returns": [
+        {
+          "name": "Bread Tin",
+          "item_id": 13440,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=2123"
+        }
+      ],
+      "container_bagtype": 15,
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=373&rsa=Baking&sub=por",
+      "source_output_url": "https://www.eqtraders.com/items/show_item.php?item=22439&menustr=010000000000"
+    },
+    {
+      "recipe_id": 3091513,
+      "name": "Taelosian Mountain Dough",
+      "output_item_id": 96734,
+      "trivial": 38,
+      "yield_count": 1,
+      "nofail": 0,
+      "ingredients": [
+        {
+          "name": "Egg Batter",
+          "item_id": 67741,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=12834"
+        },
+        {
+          "name": "Taelosian Mountain Wheat Flour",
+          "item_id": 58150,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=11851"
+        }
+      ],
+      "also_returns": [],
+      "failure_returns": [],
+      "container_bagtype": 14,
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=373&rsa=Baking&sub=por",
+      "source_output_url": "https://www.eqtraders.com/items/show_item.php?item=16810&menustr=010000000000"
+    },
+    {
+      "recipe_id": 3091514,
+      "name": "Tomato Sauce",
+      "output_item_id": 96806,
+      "trivial": 26,
+      "yield_count": 1,
+      "nofail": 0,
+      "ingredients": [
+        {
+          "name": "Pot",
+          "item_id": 13432,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=1815"
+        },
+        {
+          "name": "Spices",
+          "item_id": 13425,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=1011"
+        },
+        {
+          "name": "Tomato",
+          "item_id": 96811,
+          "count": 3,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=22441"
+        },
+        {
+          "name": "Water Flask",
+          "item_id": 13006,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=1001"
+        }
+      ],
+      "also_returns": [
+        {
+          "name": "Pot",
+          "item_id": 13432,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=1815"
+        }
+      ],
+      "failure_returns": [
+        {
+          "name": "Pot",
+          "item_id": 13432,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=1815"
+        }
+      ],
+      "container_bagtype": 15,
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=373&rsa=Baking&sub=por",
+      "source_output_url": "https://www.eqtraders.com/items/show_item.php?item=22440&menustr=010000000000"
+    }
+  ],
+  "item_dependencies": [
+    {
+      "id": 8160,
+      "name": "Cheese"
+    },
+    {
+      "id": 13006,
+      "name": "Water Flask"
+    },
+    {
+      "id": 13087,
+      "name": "Bottle of Milk"
+    },
+    {
+      "id": 13425,
+      "name": "Spices"
+    },
+    {
+      "id": 13432,
+      "name": "Pot"
+    },
+    {
+      "id": 13440,
+      "name": "Bread Tin"
+    },
+    {
+      "id": 15961,
+      "name": "Cup of Sugar"
+    },
+    {
+      "id": 16596,
+      "name": "Yeast"
+    },
+    {
+      "id": 17164,
+      "name": "Collapsible Spit"
+    },
+    {
+      "id": 17906,
+      "name": "Mixing Bowl"
+    },
+    {
+      "id": 29742,
+      "name": "Butter"
+    },
+    {
+      "id": 54256,
+      "name": "Oven"
+    },
+    {
+      "id": 58150,
+      "name": "Taelosian Mountain Wheat Flour"
+    },
+    {
+      "id": 58155,
+      "name": "Taelosian Wheat Flour"
+    },
+    {
+      "id": 58269,
+      "name": "Garlic-Butter Sauce"
+    },
+    {
+      "id": 67741,
+      "name": "Egg Batter"
+    },
+    {
+      "id": 75856,
+      "name": "Rock Salt"
+    },
+    {
+      "id": 96732,
+      "name": "Taelosian Dough"
+    },
+    {
+      "id": 96734,
+      "name": "Taelosian Mountain Dough"
+    },
+    {
+      "id": 96775,
+      "name": "Loaf of Taelosian Bread"
+    },
+    {
+      "id": 96776,
+      "name": "Loaf of Taelosian Mountain Bread"
+    },
+    {
+      "id": 96800,
+      "name": "Taelosian Flat Bread"
+    },
+    {
+      "id": 96801,
+      "name": "Taelosian Flat Mountain Bread"
+    },
+    {
+      "id": 96802,
+      "name": "Taelosian Garlic Bread"
+    },
+    {
+      "id": 96803,
+      "name": "Taelosian Garlic Mountain Bread"
+    },
+    {
+      "id": 96804,
+      "name": "Taelosian Cheesy Tomato Bread"
+    },
+    {
+      "id": 96805,
+      "name": "Taelosian Cheesy Tomato Mountain Bread"
+    },
+    {
+      "id": 96806,
+      "name": "Tomato Sauce"
+    },
+    {
+      "id": 96811,
+      "name": "Tomato"
+    }
+  ],
+  "excluded_missing_item_rows": [],
+  "restriction_review": {
+    "learning": "No mandatory scribe or explicit minimum in selected source; ordinary metadata.",
+    "containers": "Two dough recipes use MixingBowl14; nine bread/sauce recipes use Oven15. Concrete ten-slot bowl/oven and six-slot spit capacity preserved. Largest10units; only source-listed small recipes use portable spit.",
+    "returns": "Four loaf/garlic recipes return BreadTin13440, sauce returnsPot13432, once on success/failure; salvage0.",
+    "yield_count": "All11selected formulas yield1. Two alternate double-quantity dough source rows are outside this batch.",
+    "era": "Maintained PoR source/current primary pages, not immutable May2013 numeric/native receipts.",
+    "identity": "All required native IDs explicitly verified through retained primary HTML; sauce producer included for cheesy breads.",
+    "native_combine": false
+  }
+}

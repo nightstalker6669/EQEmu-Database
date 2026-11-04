@@ -1,0 +1,9 @@
+# RRC006: ordinary Planar Pottery
+
+Adds ten ordinary Rain of Fear pottery recipes: Planar Infused Clay, three Energized Clay Pots and six Planar Clay Seals. The proposed batch has 50 logical entries, 24 existing-item dependencies and recipe IDs 3091111–3091120. It changes only the recipe and entry tables.
+
+[EQ Traders RoF pottery catalogue](https://www.eqtraders.com/recipes/pottery_recipe_page.php?article=564&rsa=Pottery&sub=ROF) and the current game-authored Planar Pottery book (item 76872) corroborate the formulas. The catalogue explicitly says that book cannot be scribed. Output and component identities were checked against each public item's native EQ item ID; Mistletoe is 13082. Maintained labels and current book content do not establish frozen May 2013 numeric receipts or comprehensive historical coverage.
+
+The clay combines in a wheel (BagType 21); the other nine combine in a kiln (BagType 22). Both actual ten-slot container dependencies are guarded. No class, race, base-cap or engine changes are included. Kiln source rows state they do not advance a pottery trophy; trophy progression is not validated by this recipe batch. Planar Goo and Energy Shard natural acquisition remains unresolved separately.
+
+Apply requires a dedicated fresh strict MariaDB 10.11 session and coordinated authorization. It accepts only wholly absent or exact existing batch state, refuses conflicting IDs, names, outputs, dependencies or partial state, and checks complete postimages and row deltas before commit. Reapply is idempotent. Rollback requires the exact postimage and no character learned-recipe references; it does not undo crafted items or rewind IDs. Source proposal only at publication preparation: rehearsal and production receipts must be tracked separately. No native combine acceptance is claimed.

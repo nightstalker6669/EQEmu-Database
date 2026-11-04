@@ -1,0 +1,1418 @@
+{
+  "batch": "RRC008",
+  "branch": "rof2-tradeskills",
+  "status": "SOURCE_PROPOSAL_NOT_REHEARSED_APPLIED",
+  "cutoff": "2013-05-31",
+  "proposed_ids": [
+    3091212,
+    3091221
+  ],
+  "counts": {
+    "recipes": 10,
+    "entries": 72,
+    "item_dependencies": 30
+  },
+  "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=546&rsa=Brewing&sub=VoA",
+  "source_category_rows_observed": 12,
+  "excluded_source_rows": 2,
+  "excluded": {
+    "Brewmaster's Component Bag": "Inventory conversion/Carry-All mechanic requires separate review.",
+    "Shreddergut Booze": "Distinct non-book formula deferred for separate source/availability review."
+  },
+  "recipes": [
+    {
+      "id": 3091212,
+      "name": "Alaran Ale",
+      "tradeskill": 65,
+      "skillneeded": 0,
+      "trivial": 148,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "VoA; EQTC article546; Alaris' Brews; RRC008.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 18,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3091213,
+      "name": "Alaran Coffee",
+      "tradeskill": 65,
+      "skillneeded": 0,
+      "trivial": 142,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "VoA; EQTC article546; Alaris' Brews; RRC008.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 18,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3091214,
+      "name": "Alaran Juice",
+      "tradeskill": 65,
+      "skillneeded": 0,
+      "trivial": 142,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "VoA; EQTC article546; Alaris' Brews; RRC008.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 18,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3091215,
+      "name": "Alaran Medicinal Tonic",
+      "tradeskill": 65,
+      "skillneeded": 0,
+      "trivial": 448,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "VoA; EQTC article546; Alaris' Brews; RRC008.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 18,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3091216,
+      "name": "Alaran Nostrum",
+      "tradeskill": 65,
+      "skillneeded": 0,
+      "trivial": 475,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "VoA; EQTC article546; Alaris' Brews; RRC008.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 18,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3091217,
+      "name": "Alaran Spirits",
+      "tradeskill": 65,
+      "skillneeded": 0,
+      "trivial": 155,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "VoA; EQTC article546; Alaris' Brews; RRC008.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 18,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3091218,
+      "name": "Alaran Tea",
+      "tradeskill": 65,
+      "skillneeded": 0,
+      "trivial": 115,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "VoA; EQTC article546; Alaris' Brews; RRC008.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 18,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3091219,
+      "name": "Argath Brandy",
+      "tradeskill": 65,
+      "skillneeded": 0,
+      "trivial": 148,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "VoA; EQTC article546; Alaris' Brews; RRC008.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 18,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3091220,
+      "name": "Bronze Ale",
+      "tradeskill": 65,
+      "skillneeded": 0,
+      "trivial": 148,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "VoA; EQTC article546; Alaris' Brews; RRC008.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 18,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3091221,
+      "name": "Sarith Rum",
+      "tradeskill": 65,
+      "skillneeded": 0,
+      "trivial": 148,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "VoA; EQTC article546; Alaris' Brews; RRC008.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 18,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    }
+  ],
+  "entries": [
+    {
+      "recipe_id": 3091212,
+      "item_id": 64512,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091212,
+      "item_id": 16590,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091212,
+      "item_id": 16598,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091212,
+      "item_id": 16851,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091212,
+      "item_id": 64546,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091212,
+      "item_id": 16595,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091212,
+      "item_id": 13006,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091212,
+      "item_id": 19,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3091213,
+      "item_id": 64513,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091213,
+      "item_id": 13087,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091213,
+      "item_id": 15961,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091213,
+      "item_id": 64546,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091213,
+      "item_id": 60294,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091213,
+      "item_id": 13006,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091213,
+      "item_id": 19,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3091214,
+      "item_id": 64514,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091214,
+      "item_id": 13045,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 2,
+      "salvagecount": 2,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091214,
+      "item_id": 64546,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091214,
+      "item_id": 16592,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 2,
+      "salvagecount": 2,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091214,
+      "item_id": 19,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3091215,
+      "item_id": 64515,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091215,
+      "item_id": 16598,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091215,
+      "item_id": 13087,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091215,
+      "item_id": 16851,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091215,
+      "item_id": 64546,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 3,
+      "salvagecount": 3,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091215,
+      "item_id": 13425,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091215,
+      "item_id": 58153,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091215,
+      "item_id": 13006,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091215,
+      "item_id": 19,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3091216,
+      "item_id": 64519,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091216,
+      "item_id": 64546,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091216,
+      "item_id": 37537,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091216,
+      "item_id": 9644,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091216,
+      "item_id": 16582,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091216,
+      "item_id": 13006,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091216,
+      "item_id": 19,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3091217,
+      "item_id": 64516,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091217,
+      "item_id": 16590,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091217,
+      "item_id": 16598,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091217,
+      "item_id": 16851,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091217,
+      "item_id": 64546,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091217,
+      "item_id": 13006,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091217,
+      "item_id": 19,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3091218,
+      "item_id": 64517,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091218,
+      "item_id": 64546,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091218,
+      "item_id": 58153,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091218,
+      "item_id": 13006,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091218,
+      "item_id": 19,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3091219,
+      "item_id": 64556,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091219,
+      "item_id": 16598,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091219,
+      "item_id": 16851,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091219,
+      "item_id": 64546,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091219,
+      "item_id": 13046,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091219,
+      "item_id": 16592,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091219,
+      "item_id": 16597,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091219,
+      "item_id": 19,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3091220,
+      "item_id": 64520,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091220,
+      "item_id": 16590,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091220,
+      "item_id": 16598,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091220,
+      "item_id": 16851,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091220,
+      "item_id": 64546,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091220,
+      "item_id": 58287,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091220,
+      "item_id": 16595,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091220,
+      "item_id": 19,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3091221,
+      "item_id": 64521,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091221,
+      "item_id": 16590,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091221,
+      "item_id": 16598,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091221,
+      "item_id": 16851,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091221,
+      "item_id": 15961,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091221,
+      "item_id": 64546,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091221,
+      "item_id": 13006,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091221,
+      "item_id": 19,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    }
+  ],
+  "source_facts": [
+    {
+      "recipe_id": 3091212,
+      "name": "Alaran Ale",
+      "output_item_id": 64512,
+      "yield_count": 1,
+      "trivial": 148,
+      "ingredients": [
+        {
+          "name": "Barley",
+          "item_id": 16590,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=1726"
+        },
+        {
+          "name": "Bottle",
+          "item_id": 16598,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=1285"
+        },
+        {
+          "name": "Cork",
+          "item_id": 16851,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=1233"
+        },
+        {
+          "name": "Essence of Alaris",
+          "item_id": 64546,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=37801"
+        },
+        {
+          "name": "Malt",
+          "item_id": 16595,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=4982"
+        },
+        {
+          "name": "Water Flask",
+          "item_id": 13006,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=1001"
+        }
+      ],
+      "container_bagtype": 19,
+      "source_output_url": "https://www.eqtraders.com/items/show_item.php?item=37990&menustr=010000000000"
+    },
+    {
+      "recipe_id": 3091213,
+      "name": "Alaran Coffee",
+      "output_item_id": 64513,
+      "yield_count": 1,
+      "trivial": 142,
+      "ingredients": [
+        {
+          "name": "Bottle of Milk",
+          "item_id": 13087,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=1009"
+        },
+        {
+          "name": "Cup of Sugar",
+          "item_id": 15961,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=6472"
+        },
+        {
+          "name": "Essence of Alaris",
+          "item_id": 64546,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=37801"
+        },
+        {
+          "name": "Generic Coffee Beans",
+          "item_id": 60294,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=16338"
+        },
+        {
+          "name": "Water Flask",
+          "item_id": 13006,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=1001"
+        }
+      ],
+      "container_bagtype": 19,
+      "source_output_url": "https://www.eqtraders.com/items/show_item.php?item=37991&menustr=010000000000"
+    },
+    {
+      "recipe_id": 3091214,
+      "name": "Alaran Juice",
+      "output_item_id": 64514,
+      "yield_count": 1,
+      "trivial": 142,
+      "ingredients": [
+        {
+          "name": "Berries",
+          "item_id": 13045,
+          "count": 2,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=1637"
+        },
+        {
+          "name": "Essence of Alaris",
+          "item_id": 64546,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=37801"
+        },
+        {
+          "name": "Grapes",
+          "item_id": 16592,
+          "count": 2,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=1682"
+        }
+      ],
+      "container_bagtype": 19,
+      "source_output_url": "https://www.eqtraders.com/items/show_item.php?item=37992&menustr=010000000000"
+    },
+    {
+      "recipe_id": 3091215,
+      "name": "Alaran Medicinal Tonic",
+      "output_item_id": 64515,
+      "yield_count": 1,
+      "trivial": 448,
+      "ingredients": [
+        {
+          "name": "Bottle",
+          "item_id": 16598,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=1285"
+        },
+        {
+          "name": "Bottle of Milk",
+          "item_id": 13087,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=1009"
+        },
+        {
+          "name": "Cork",
+          "item_id": 16851,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=1233"
+        },
+        {
+          "name": "Essence of Alaris",
+          "item_id": 64546,
+          "count": 3,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=37801"
+        },
+        {
+          "name": "Spices",
+          "item_id": 13425,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=1011"
+        },
+        {
+          "name": "Taelosian Tea Leaves",
+          "item_id": 58153,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=12768"
+        },
+        {
+          "name": "Water Flask",
+          "item_id": 13006,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=1001"
+        }
+      ],
+      "container_bagtype": 19,
+      "source_output_url": "https://www.eqtraders.com/items/show_item.php?item=37993&menustr=010000000000"
+    },
+    {
+      "recipe_id": 3091216,
+      "name": "Alaran Nostrum",
+      "output_item_id": 64519,
+      "yield_count": 1,
+      "trivial": 475,
+      "ingredients": [
+        {
+          "name": "Essence of Alaris",
+          "item_id": 64546,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=37801"
+        },
+        {
+          "name": "Quinine",
+          "item_id": 37537,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=27795"
+        },
+        {
+          "name": "Soda Water",
+          "item_id": 9644,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=1465"
+        },
+        {
+          "name": "Vodka",
+          "item_id": 16582,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=2249"
+        },
+        {
+          "name": "Water Flask",
+          "item_id": 13006,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=1001"
+        }
+      ],
+      "container_bagtype": 19,
+      "source_output_url": "https://www.eqtraders.com/items/show_item.php?item=37994&menustr=010000000000"
+    },
+    {
+      "recipe_id": 3091217,
+      "name": "Alaran Spirits",
+      "output_item_id": 64516,
+      "yield_count": 1,
+      "trivial": 155,
+      "ingredients": [
+        {
+          "name": "Barley",
+          "item_id": 16590,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=1726"
+        },
+        {
+          "name": "Bottle",
+          "item_id": 16598,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=1285"
+        },
+        {
+          "name": "Cork",
+          "item_id": 16851,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=1233"
+        },
+        {
+          "name": "Essence of Alaris",
+          "item_id": 64546,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=37801"
+        },
+        {
+          "name": "Water Flask",
+          "item_id": 13006,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=1001"
+        }
+      ],
+      "container_bagtype": 19,
+      "source_output_url": "https://www.eqtraders.com/items/show_item.php?item=37995&menustr=010000000000"
+    },
+    {
+      "recipe_id": 3091218,
+      "name": "Alaran Tea",
+      "output_item_id": 64517,
+      "yield_count": 1,
+      "trivial": 115,
+      "ingredients": [
+        {
+          "name": "Essence of Alaris",
+          "item_id": 64546,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=37801"
+        },
+        {
+          "name": "Taelosian Tea Leaves",
+          "item_id": 58153,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=12768"
+        },
+        {
+          "name": "Water Flask",
+          "item_id": 13006,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=1001"
+        }
+      ],
+      "container_bagtype": 19,
+      "source_output_url": "https://www.eqtraders.com/items/show_item.php?item=37996&menustr=010000000000"
+    },
+    {
+      "recipe_id": 3091219,
+      "name": "Argath Brandy",
+      "output_item_id": 64556,
+      "yield_count": 1,
+      "trivial": 148,
+      "ingredients": [
+        {
+          "name": "Bottle",
+          "item_id": 16598,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=1285"
+        },
+        {
+          "name": "Cork",
+          "item_id": 16851,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=1233"
+        },
+        {
+          "name": "Essence of Alaris",
+          "item_id": 64546,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=37801"
+        },
+        {
+          "name": "Fruit",
+          "item_id": 13046,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=1636"
+        },
+        {
+          "name": "Grapes",
+          "item_id": 16592,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=1682"
+        },
+        {
+          "name": "Wine Yeast",
+          "item_id": 16597,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=4983"
+        }
+      ],
+      "container_bagtype": 19,
+      "source_output_url": "https://www.eqtraders.com/items/show_item.php?item=37997&menustr=010000000000"
+    },
+    {
+      "recipe_id": 3091220,
+      "name": "Bronze Ale",
+      "output_item_id": 64520,
+      "yield_count": 1,
+      "trivial": 148,
+      "ingredients": [
+        {
+          "name": "Barley",
+          "item_id": 16590,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=1726"
+        },
+        {
+          "name": "Bottle",
+          "item_id": 16598,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=1285"
+        },
+        {
+          "name": "Cork",
+          "item_id": 16851,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=1233"
+        },
+        {
+          "name": "Essence of Alaris",
+          "item_id": 64546,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=37801"
+        },
+        {
+          "name": "Hot Red Pepper",
+          "item_id": 58287,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=22426"
+        },
+        {
+          "name": "Malt",
+          "item_id": 16595,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=4982"
+        }
+      ],
+      "container_bagtype": 19,
+      "source_output_url": "https://www.eqtraders.com/items/show_item.php?item=37999&menustr=010000000000"
+    },
+    {
+      "recipe_id": 3091221,
+      "name": "Sarith Rum",
+      "output_item_id": 64521,
+      "yield_count": 1,
+      "trivial": 148,
+      "ingredients": [
+        {
+          "name": "Barley",
+          "item_id": 16590,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=1726"
+        },
+        {
+          "name": "Bottle",
+          "item_id": 16598,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=1285"
+        },
+        {
+          "name": "Cork",
+          "item_id": 16851,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=1233"
+        },
+        {
+          "name": "Cup of Sugar",
+          "item_id": 15961,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=6472"
+        },
+        {
+          "name": "Essence of Alaris",
+          "item_id": 64546,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=37801"
+        },
+        {
+          "name": "Water Flask",
+          "item_id": 13006,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=1001"
+        }
+      ],
+      "container_bagtype": 19,
+      "source_output_url": "https://www.eqtraders.com/items/show_item.php?item=37998&menustr=010000000000"
+    }
+  ],
+  "item_dependencies": [
+    {
+      "id": 9644,
+      "name": "Soda Water"
+    },
+    {
+      "id": 13006,
+      "name": "Water Flask"
+    },
+    {
+      "id": 13045,
+      "name": "Berries"
+    },
+    {
+      "id": 13046,
+      "name": "Fruit"
+    },
+    {
+      "id": 13087,
+      "name": "Bottle of Milk"
+    },
+    {
+      "id": 13425,
+      "name": "Spices"
+    },
+    {
+      "id": 15961,
+      "name": "Cup of Sugar"
+    },
+    {
+      "id": 16582,
+      "name": "Vodka"
+    },
+    {
+      "id": 16590,
+      "name": "Barley"
+    },
+    {
+      "id": 16592,
+      "name": "Grapes"
+    },
+    {
+      "id": 16595,
+      "name": "Malt"
+    },
+    {
+      "id": 16597,
+      "name": "Wine Yeast"
+    },
+    {
+      "id": 16598,
+      "name": "Bottle"
+    },
+    {
+      "id": 16851,
+      "name": "Cork"
+    },
+    {
+      "id": 17911,
+      "name": "Brewing Barrel"
+    },
+    {
+      "id": 37537,
+      "name": "Quinine"
+    },
+    {
+      "id": 58153,
+      "name": "Taelosian Tea Leaves"
+    },
+    {
+      "id": 58287,
+      "name": "Hot Red Pepper"
+    },
+    {
+      "id": 60294,
+      "name": "Generic Coffee Beans"
+    },
+    {
+      "id": 64512,
+      "name": "Alaran Ale"
+    },
+    {
+      "id": 64513,
+      "name": "Alaran Coffee"
+    },
+    {
+      "id": 64514,
+      "name": "Alaran Juice"
+    },
+    {
+      "id": 64515,
+      "name": "Alaran Medicinal Tonic"
+    },
+    {
+      "id": 64516,
+      "name": "Alaran Spirits"
+    },
+    {
+      "id": 64517,
+      "name": "Alaran Tea"
+    },
+    {
+      "id": 64519,
+      "name": "Alaran Nostrum"
+    },
+    {
+      "id": 64520,
+      "name": "Bronze Ale"
+    },
+    {
+      "id": 64521,
+      "name": "Sarith Rum"
+    },
+    {
+      "id": 64546,
+      "name": "Essence of Alaris"
+    },
+    {
+      "id": 64556,
+      "name": "Argath Brandy"
+    }
+  ],
+  "availability_evidence": {
+    "book_item_id": 64518,
+    "book_name": "Alaris' Brews",
+    "books_id": 5439,
+    "book_filename": "TSSku19Brewing",
+    "book_text_sha256": "f256d46d4aa30b9bed633152a9e58ed86a9c218366a2b4eb090a7e58de2173c2",
+    "book_facts": "Current read-only game-authored book explicitly names all ten drinks and their ingredients, including3essence for tonic and2each grapes/berries for juice.",
+    "historical_limit": "Maintained VoA category and current book corroborate content; no frozen May2013 per-formula numeric trivial/yield receipts. Page labels and item import dates are not recipe birth proof."
+  },
+  "restriction_review": {
+    "tradeskill": 65,
+    "container": "Ordinary BagType19, actual10slot Brewing Barrel17911. Medicinal tonic requires9ingredient units; normal native slot capacity remains enforced.",
+    "learning": "No selected row states mandatory scribing, class/race or required-skill gate; must_learn0,learned_by_item_id0,skillneeded0. No base-cap changes.",
+    "identity": "All29 distinct selected output/component source references directly verified to existing native IDs; Bottle16598 and Water13006 explicit.",
+    "salvage": "Ordinary consumable quantities follow existing metadata convention; translation inference, not historical Live AA rate proof.",
+    "acquisition": "Essence of Alaris natural acquisition requires separate intake; no grants/loot writes in this batch.",
+    "native_combine": false
+  }
+}

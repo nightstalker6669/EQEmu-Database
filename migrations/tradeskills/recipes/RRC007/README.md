@@ -1,0 +1,11 @@
+# RRC007: ordinary Alaran Delicacies
+
+Proposes 91 Veil of Alaris baking recipes with 520 logical entries and 137 existing-item dependencies, using IDs 3091121–3091211. Includes Prepared Al-Metes, basic preparation chains and regional dishes. Output and ingredient native EQ item IDs were directly verified from their source references. The local read-only Alaran Delicacies book (item 64417) corroborates the recipe families.
+
+[EQ Traders VoA baking catalogue](https://www.eqtraders.com/recipes/recipe_page.php?article=545&rsa=Baking&sub=VOA) has 95 raw rows. Two omelets are excluded because output items 64419 and 64420 are absent. Two Denmother Carry-All conversion formulas require separate inventory/mechanic review and are excluded. No absent item definitions are fabricated.
+
+Source mixing-bowl BagType14 and oven/spit BagType15 categories are preserved. Actual ten-slot Mixing Bowl17906 and Oven54256 dependencies are guarded. The selected mixing formulas use at most three ingredient units; oven formulas use at most eight. Native six-slot spits remain too small for larger formulas. Smoker, Skewers and Pot success/failure returns are preserved, with no additional salvage of returned tools. Ordinary consumable salvage counts follow existing metadata convention and are not historical AA rate proof.
+
+No selected row states a class/race, scribing or skill-cap gate. No engine, base-cap, learning framework, build or client changes are included. Maintained expansion labels, current book content and the page introduction's 2012 modification label do not establish frozen May 2013 per-formula numeric receipts. Installation does not establish natural ingredient acquisition or native combine acceptance.
+
+Apply requires a fresh strict MariaDB 10.11 session and coordinated authorization. It accepts only a wholly absent or exact existing batch, rejects conflicting IDs/names/outputs/dependencies or partial state, checks all recipe and logical entry fields and count deltas, and commits its transaction explicitly. Exact reapply is idempotent. Rollback requires the exact postimage and no learned-recipe references; it does not undo crafted items or rewind IDs. This publication preparation is source-only; rehearsal/application receipts are separate.

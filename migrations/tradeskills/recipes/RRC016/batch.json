@@ -1,0 +1,2475 @@
+{
+  "batch": "RRC016",
+  "branch": "rof2-tradeskills",
+  "status": "SOURCE_PROPOSAL_NOT_REHEARSED_APPLIED",
+  "cutoff": "2013-05-31",
+  "proposed_ids": [
+    3091285,
+    3091306
+  ],
+  "counts": {
+    "recipes": 22,
+    "entries": 116,
+    "item_dependencies": 42
+  },
+  "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=373&rsa=Baking&sub=por",
+  "recipes": [
+    {
+      "id": 3091285,
+      "name": "Apple Filling",
+      "tradeskill": 60,
+      "skillneeded": 0,
+      "trivial": 21,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "PoR; EQTC article373; fruit baking; RRC016.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 11,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3091286,
+      "name": "Apple Pie",
+      "tradeskill": 60,
+      "skillneeded": 0,
+      "trivial": 94,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "PoR; EQTC article373; fruit baking; RRC016.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 11,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3091287,
+      "name": "Apple Tart",
+      "tradeskill": 60,
+      "skillneeded": 0,
+      "trivial": 30,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "PoR; EQTC article373; fruit baking; RRC016.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 11,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3091288,
+      "name": "Cherry Filling",
+      "tradeskill": 60,
+      "skillneeded": 0,
+      "trivial": 21,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "PoR; EQTC article373; fruit baking; RRC016.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 11,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3091289,
+      "name": "Cherry Pie",
+      "tradeskill": 60,
+      "skillneeded": 0,
+      "trivial": 95,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "PoR; EQTC article373; fruit baking; RRC016.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 11,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3091290,
+      "name": "Cherry Tart",
+      "tradeskill": 60,
+      "skillneeded": 0,
+      "trivial": 31,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "PoR; EQTC article373; fruit baking; RRC016.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 11,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3091291,
+      "name": "Lemon Filling",
+      "tradeskill": 60,
+      "skillneeded": 0,
+      "trivial": 21,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "PoR; EQTC article373; fruit baking; RRC016.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 11,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3091292,
+      "name": "Lemon Meringue Pie",
+      "tradeskill": 60,
+      "skillneeded": 0,
+      "trivial": 200,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "PoR; EQTC article373; fruit baking; RRC016.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 11,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3091293,
+      "name": "Lemon Pie",
+      "tradeskill": 60,
+      "skillneeded": 0,
+      "trivial": 94,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "PoR; EQTC article373; fruit baking; RRC016.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 11,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3091294,
+      "name": "Lemon Tart",
+      "tradeskill": 60,
+      "skillneeded": 0,
+      "trivial": 30,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "PoR; EQTC article373; fruit baking; RRC016.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 11,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3091295,
+      "name": "Lemon-Orange Filling",
+      "tradeskill": 60,
+      "skillneeded": 0,
+      "trivial": 21,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "PoR; EQTC article373; fruit baking; RRC016.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 11,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3091296,
+      "name": "Lemon-Orange Pie",
+      "tradeskill": 60,
+      "skillneeded": 0,
+      "trivial": 94,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "PoR; EQTC article373; fruit baking; RRC016.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 11,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3091297,
+      "name": "Lemon-Orange Tart",
+      "tradeskill": 60,
+      "skillneeded": 0,
+      "trivial": 30,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "PoR; EQTC article373; fruit baking; RRC016.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 11,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3091298,
+      "name": "Slice of Apple Pie",
+      "tradeskill": 60,
+      "skillneeded": 0,
+      "trivial": 15,
+      "nofail": 1,
+      "replace_container": 0,
+      "notes": "PoR; EQTC article373; fruit baking; RRC016.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 11,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3091299,
+      "name": "Slice of Cherry Pie",
+      "tradeskill": 60,
+      "skillneeded": 0,
+      "trivial": 15,
+      "nofail": 1,
+      "replace_container": 0,
+      "notes": "PoR; EQTC article373; fruit baking; RRC016.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 11,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3091300,
+      "name": "Slice of Lemon Meringue Pie",
+      "tradeskill": 60,
+      "skillneeded": 0,
+      "trivial": 15,
+      "nofail": 1,
+      "replace_container": 0,
+      "notes": "PoR; EQTC article373; fruit baking; RRC016.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 11,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3091301,
+      "name": "Slice of Lemon Pie",
+      "tradeskill": 60,
+      "skillneeded": 0,
+      "trivial": 15,
+      "nofail": 1,
+      "replace_container": 0,
+      "notes": "PoR; EQTC article373; fruit baking; RRC016.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 11,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3091302,
+      "name": "Slice of Lemon-Orange Pie",
+      "tradeskill": 60,
+      "skillneeded": 0,
+      "trivial": 15,
+      "nofail": 1,
+      "replace_container": 0,
+      "notes": "PoR; EQTC article373; fruit baking; RRC016.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 11,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3091303,
+      "name": "Slice of Wildberry Pie",
+      "tradeskill": 60,
+      "skillneeded": 0,
+      "trivial": 15,
+      "nofail": 1,
+      "replace_container": 0,
+      "notes": "PoR; EQTC article373; fruit baking; RRC016.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 11,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3091304,
+      "name": "Wildberry Filling",
+      "tradeskill": 60,
+      "skillneeded": 0,
+      "trivial": 21,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "PoR; EQTC article373; fruit baking; RRC016.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 11,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3091305,
+      "name": "Wildberry Pie",
+      "tradeskill": 60,
+      "skillneeded": 0,
+      "trivial": 96,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "PoR; EQTC article373; fruit baking; RRC016.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 11,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3091306,
+      "name": "Wildberry Tart",
+      "tradeskill": 60,
+      "skillneeded": 0,
+      "trivial": 32,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "PoR; EQTC article373; fruit baking; RRC016.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 11,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    }
+  ],
+  "entries": [
+    {
+      "recipe_id": 3091285,
+      "item_id": 96737,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091285,
+      "item_id": 14954,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091285,
+      "item_id": 15961,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091285,
+      "item_id": 97126,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091285,
+      "item_id": 14,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3091286,
+      "item_id": 96757,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091286,
+      "item_id": 96737,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 4,
+      "salvagecount": 4,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091286,
+      "item_id": 13087,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091286,
+      "item_id": 13193,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091286,
+      "item_id": 15961,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091286,
+      "item_id": 67741,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 2,
+      "salvagecount": 2,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091286,
+      "item_id": 15,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3091287,
+      "item_id": 96742,
+      "successcount": 6,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091287,
+      "item_id": 96737,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 3,
+      "salvagecount": 3,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091287,
+      "item_id": 13429,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091287,
+      "item_id": 13437,
+      "successcount": 1,
+      "failcount": 1,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091287,
+      "item_id": 96736,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 3,
+      "salvagecount": 3,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091287,
+      "item_id": 15,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3091288,
+      "item_id": 96738,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091288,
+      "item_id": 15961,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091288,
+      "item_id": 14969,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 2,
+      "salvagecount": 2,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091288,
+      "item_id": 14,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3091289,
+      "item_id": 96758,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091289,
+      "item_id": 13087,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091289,
+      "item_id": 96738,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 4,
+      "salvagecount": 4,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091289,
+      "item_id": 13193,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091289,
+      "item_id": 15961,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091289,
+      "item_id": 67741,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 2,
+      "salvagecount": 2,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091289,
+      "item_id": 15,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3091290,
+      "item_id": 96743,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091290,
+      "item_id": 96738,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 3,
+      "salvagecount": 3,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091290,
+      "item_id": 13429,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091290,
+      "item_id": 13437,
+      "successcount": 1,
+      "failcount": 1,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091290,
+      "item_id": 96736,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 3,
+      "salvagecount": 3,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091290,
+      "item_id": 15,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3091291,
+      "item_id": 96739,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091291,
+      "item_id": 15961,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091291,
+      "item_id": 58281,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 2,
+      "salvagecount": 2,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091291,
+      "item_id": 14,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3091292,
+      "item_id": 96772,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091292,
+      "item_id": 13087,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091292,
+      "item_id": 13193,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091292,
+      "item_id": 15961,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 2,
+      "salvagecount": 2,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091292,
+      "item_id": 72090,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091292,
+      "item_id": 67741,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 2,
+      "salvagecount": 2,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091292,
+      "item_id": 96729,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091292,
+      "item_id": 96730,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091292,
+      "item_id": 96739,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091292,
+      "item_id": 15,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3091293,
+      "item_id": 96759,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091293,
+      "item_id": 13087,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091293,
+      "item_id": 13193,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091293,
+      "item_id": 15961,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091293,
+      "item_id": 67741,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 2,
+      "salvagecount": 2,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091293,
+      "item_id": 96739,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 4,
+      "salvagecount": 4,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091293,
+      "item_id": 15,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3091294,
+      "item_id": 96744,
+      "successcount": 6,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091294,
+      "item_id": 13429,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091294,
+      "item_id": 96739,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 3,
+      "salvagecount": 3,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091294,
+      "item_id": 13437,
+      "successcount": 1,
+      "failcount": 1,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091294,
+      "item_id": 96736,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 3,
+      "salvagecount": 3,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091294,
+      "item_id": 15,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3091295,
+      "item_id": 96740,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091295,
+      "item_id": 15961,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091295,
+      "item_id": 12767,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091295,
+      "item_id": 58281,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091295,
+      "item_id": 14,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3091296,
+      "item_id": 96760,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091296,
+      "item_id": 13087,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091296,
+      "item_id": 13193,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091296,
+      "item_id": 15961,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091296,
+      "item_id": 67741,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 2,
+      "salvagecount": 2,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091296,
+      "item_id": 96740,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 4,
+      "salvagecount": 4,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091296,
+      "item_id": 15,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3091297,
+      "item_id": 96745,
+      "successcount": 6,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091297,
+      "item_id": 13429,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091297,
+      "item_id": 96740,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 3,
+      "salvagecount": 3,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091297,
+      "item_id": 13437,
+      "successcount": 1,
+      "failcount": 1,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091297,
+      "item_id": 96736,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 3,
+      "salvagecount": 3,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091297,
+      "item_id": 15,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3091298,
+      "item_id": 96777,
+      "successcount": 8,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091298,
+      "item_id": 96757,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091298,
+      "item_id": 15,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3091299,
+      "item_id": 96778,
+      "successcount": 8,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091299,
+      "item_id": 96758,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091299,
+      "item_id": 15,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3091300,
+      "item_id": 96792,
+      "successcount": 8,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091300,
+      "item_id": 96772,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091300,
+      "item_id": 15,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3091301,
+      "item_id": 96779,
+      "successcount": 8,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091301,
+      "item_id": 96759,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091301,
+      "item_id": 15,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3091302,
+      "item_id": 96780,
+      "successcount": 8,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091302,
+      "item_id": 96760,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091302,
+      "item_id": 15,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3091303,
+      "item_id": 96781,
+      "successcount": 8,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091303,
+      "item_id": 96761,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091303,
+      "item_id": 15,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3091304,
+      "item_id": 96741,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091304,
+      "item_id": 15961,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091304,
+      "item_id": 14906,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091304,
+      "item_id": 14948,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091304,
+      "item_id": 14,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3091305,
+      "item_id": 96761,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091305,
+      "item_id": 13087,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091305,
+      "item_id": 13193,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091305,
+      "item_id": 15961,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091305,
+      "item_id": 67741,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 2,
+      "salvagecount": 2,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091305,
+      "item_id": 96741,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 4,
+      "salvagecount": 4,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091305,
+      "item_id": 15,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3091306,
+      "item_id": 96746,
+      "successcount": 6,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091306,
+      "item_id": 13429,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091306,
+      "item_id": 13437,
+      "successcount": 1,
+      "failcount": 1,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091306,
+      "item_id": 96736,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 3,
+      "salvagecount": 3,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091306,
+      "item_id": 96741,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 3,
+      "salvagecount": 3,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091306,
+      "item_id": 15,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    }
+  ],
+  "source_facts": [
+    {
+      "recipe_id": 3091285,
+      "name": "Apple Filling",
+      "output_item_id": 96737,
+      "trivial": 21,
+      "yield_count": 1,
+      "nofail": 0,
+      "ingredients": [
+        {
+          "name": "Cinnamon Sticks",
+          "item_id": 14954,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=2296"
+        },
+        {
+          "name": "Cup of Sugar",
+          "item_id": 15961,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=6472"
+        },
+        {
+          "name": "Green Apple",
+          "item_id": 97126,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=22707"
+        }
+      ],
+      "also_returns": [],
+      "failure_returns": [],
+      "container_bagtype": 14,
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=373&rsa=Baking&sub=por",
+      "source_output_url": "https://www.eqtraders.com/items/show_item.php?item=22708&menustr=010000000000"
+    },
+    {
+      "recipe_id": 3091286,
+      "name": "Apple Pie",
+      "output_item_id": 96757,
+      "trivial": 94,
+      "yield_count": 1,
+      "nofail": 0,
+      "ingredients": [
+        {
+          "name": "Apple Filling",
+          "item_id": 96737,
+          "count": 4,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=22708"
+        },
+        {
+          "name": "Bottle of Milk",
+          "item_id": 13087,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=1009"
+        },
+        {
+          "name": "Cup of Flour",
+          "item_id": 13193,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=1010"
+        },
+        {
+          "name": "Cup of Sugar",
+          "item_id": 15961,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=6472"
+        },
+        {
+          "name": "Egg Batter",
+          "item_id": 67741,
+          "count": 2,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=12834"
+        }
+      ],
+      "also_returns": [],
+      "failure_returns": [],
+      "container_bagtype": 15,
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=373&rsa=Baking&sub=por",
+      "source_output_url": "https://www.eqtraders.com/items/show_item.php?item=22709&menustr=010000000000"
+    },
+    {
+      "recipe_id": 3091287,
+      "name": "Apple Tart",
+      "output_item_id": 96742,
+      "trivial": 30,
+      "yield_count": 6,
+      "nofail": 0,
+      "ingredients": [
+        {
+          "name": "Apple Filling",
+          "item_id": 96737,
+          "count": 3,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=22708"
+        },
+        {
+          "name": "Frosting",
+          "item_id": 13429,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=4071"
+        },
+        {
+          "name": "Muffin Tin",
+          "item_id": 13437,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=2377"
+        },
+        {
+          "name": "Pastry Dough",
+          "item_id": 96736,
+          "count": 3,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=22428"
+        }
+      ],
+      "also_returns": [
+        {
+          "name": "Muffin Tin",
+          "item_id": 13437,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=2377"
+        }
+      ],
+      "failure_returns": [
+        {
+          "name": "Muffin Tin",
+          "item_id": 13437,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=2377"
+        }
+      ],
+      "container_bagtype": 15,
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=373&rsa=Baking&sub=por",
+      "source_output_url": "https://www.eqtraders.com/items/show_item.php?item=23388&menustr=010000000000"
+    },
+    {
+      "recipe_id": 3091288,
+      "name": "Cherry Filling",
+      "output_item_id": 96738,
+      "trivial": 21,
+      "yield_count": 1,
+      "nofail": 0,
+      "ingredients": [
+        {
+          "name": "Cup of Sugar",
+          "item_id": 15961,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=6472"
+        },
+        {
+          "name": "Marr Cherries",
+          "item_id": 14969,
+          "count": 2,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=2376"
+        }
+      ],
+      "also_returns": [],
+      "failure_returns": [],
+      "container_bagtype": 14,
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=373&rsa=Baking&sub=por",
+      "source_output_url": "https://www.eqtraders.com/items/show_item.php?item=22711&menustr=010000000000"
+    },
+    {
+      "recipe_id": 3091289,
+      "name": "Cherry Pie",
+      "output_item_id": 96758,
+      "trivial": 95,
+      "yield_count": 1,
+      "nofail": 0,
+      "ingredients": [
+        {
+          "name": "Bottle of Milk",
+          "item_id": 13087,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=1009"
+        },
+        {
+          "name": "Cherry Filling",
+          "item_id": 96738,
+          "count": 4,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=22711"
+        },
+        {
+          "name": "Cup of Flour",
+          "item_id": 13193,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=1010"
+        },
+        {
+          "name": "Cup of Sugar",
+          "item_id": 15961,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=6472"
+        },
+        {
+          "name": "Egg Batter",
+          "item_id": 67741,
+          "count": 2,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=12834"
+        }
+      ],
+      "also_returns": [],
+      "failure_returns": [],
+      "container_bagtype": 15,
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=373&rsa=Baking&sub=por",
+      "source_output_url": "https://www.eqtraders.com/items/show_item.php?item=22796&menustr=010000000000"
+    },
+    {
+      "recipe_id": 3091290,
+      "name": "Cherry Tart",
+      "output_item_id": 96743,
+      "trivial": 31,
+      "yield_count": 1,
+      "nofail": 0,
+      "ingredients": [
+        {
+          "name": "Cherry Filling",
+          "item_id": 96738,
+          "count": 3,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=22711"
+        },
+        {
+          "name": "Frosting",
+          "item_id": 13429,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=4071"
+        },
+        {
+          "name": "Muffin Tin",
+          "item_id": 13437,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=2377"
+        },
+        {
+          "name": "Pastry Dough",
+          "item_id": 96736,
+          "count": 3,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=22428"
+        }
+      ],
+      "also_returns": [
+        {
+          "name": "Muffin Tin",
+          "item_id": 13437,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=2377"
+        }
+      ],
+      "failure_returns": [
+        {
+          "name": "Muffin Tin",
+          "item_id": 13437,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=2377"
+        }
+      ],
+      "container_bagtype": 15,
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=373&rsa=Baking&sub=por",
+      "source_output_url": "https://www.eqtraders.com/items/show_item.php?item=23390&menustr=010000000000"
+    },
+    {
+      "recipe_id": 3091291,
+      "name": "Lemon Filling",
+      "output_item_id": 96739,
+      "trivial": 21,
+      "yield_count": 1,
+      "nofail": 0,
+      "ingredients": [
+        {
+          "name": "Cup of Sugar",
+          "item_id": 15961,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=6472"
+        },
+        {
+          "name": "Lemon",
+          "item_id": 58281,
+          "count": 2,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=11765"
+        }
+      ],
+      "also_returns": [],
+      "failure_returns": [],
+      "container_bagtype": 14,
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=373&rsa=Baking&sub=por",
+      "source_output_url": "https://www.eqtraders.com/items/show_item.php?item=22422&menustr=010000000000"
+    },
+    {
+      "recipe_id": 3091292,
+      "name": "Lemon Meringue Pie",
+      "output_item_id": 96772,
+      "trivial": 200,
+      "yield_count": 1,
+      "nofail": 0,
+      "ingredients": [
+        {
+          "name": "Bottle of Milk",
+          "item_id": 13087,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=1009"
+        },
+        {
+          "name": "Cup of Flour",
+          "item_id": 13193,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=1010"
+        },
+        {
+          "name": "Cup of Sugar",
+          "item_id": 15961,
+          "count": 2,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=6472"
+        },
+        {
+          "name": "Dried Vanilla Beans",
+          "item_id": 72090,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=7720"
+        },
+        {
+          "name": "Egg Batter",
+          "item_id": 67741,
+          "count": 2,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=12834"
+        },
+        {
+          "name": "Egg White",
+          "item_id": 96729,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=22416"
+        },
+        {
+          "name": "Egg Yolk",
+          "item_id": 96730,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=22417"
+        },
+        {
+          "name": "Lemon Filling",
+          "item_id": 96739,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=22422"
+        }
+      ],
+      "also_returns": [],
+      "failure_returns": [],
+      "container_bagtype": 15,
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=373&rsa=Baking&sub=por",
+      "source_output_url": "https://www.eqtraders.com/items/show_item.php?item=22487&menustr=010000000000"
+    },
+    {
+      "recipe_id": 3091293,
+      "name": "Lemon Pie",
+      "output_item_id": 96759,
+      "trivial": 94,
+      "yield_count": 1,
+      "nofail": 0,
+      "ingredients": [
+        {
+          "name": "Bottle of Milk",
+          "item_id": 13087,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=1009"
+        },
+        {
+          "name": "Cup of Flour",
+          "item_id": 13193,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=1010"
+        },
+        {
+          "name": "Cup of Sugar",
+          "item_id": 15961,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=6472"
+        },
+        {
+          "name": "Egg Batter",
+          "item_id": 67741,
+          "count": 2,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=12834"
+        },
+        {
+          "name": "Lemon Filling",
+          "item_id": 96739,
+          "count": 4,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=22422"
+        }
+      ],
+      "also_returns": [],
+      "failure_returns": [],
+      "container_bagtype": 15,
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=373&rsa=Baking&sub=por",
+      "source_output_url": "https://www.eqtraders.com/items/show_item.php?item=22430&menustr=010000000000"
+    },
+    {
+      "recipe_id": 3091294,
+      "name": "Lemon Tart",
+      "output_item_id": 96744,
+      "trivial": 30,
+      "yield_count": 6,
+      "nofail": 0,
+      "ingredients": [
+        {
+          "name": "Frosting",
+          "item_id": 13429,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=4071"
+        },
+        {
+          "name": "Lemon Filling",
+          "item_id": 96739,
+          "count": 3,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=22422"
+        },
+        {
+          "name": "Muffin Tin",
+          "item_id": 13437,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=2377"
+        },
+        {
+          "name": "Pastry Dough",
+          "item_id": 96736,
+          "count": 3,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=22428"
+        }
+      ],
+      "also_returns": [
+        {
+          "name": "Muffin Tin",
+          "item_id": 13437,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=2377"
+        }
+      ],
+      "failure_returns": [
+        {
+          "name": "Muffin Tin",
+          "item_id": 13437,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=2377"
+        }
+      ],
+      "container_bagtype": 15,
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=373&rsa=Baking&sub=por",
+      "source_output_url": "https://www.eqtraders.com/items/show_item.php?item=23386&menustr=010000000000"
+    },
+    {
+      "recipe_id": 3091295,
+      "name": "Lemon-Orange Filling",
+      "output_item_id": 96740,
+      "trivial": 21,
+      "yield_count": 1,
+      "nofail": 0,
+      "ingredients": [
+        {
+          "name": "Cup of Sugar",
+          "item_id": 15961,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=6472"
+        },
+        {
+          "name": "Emerald Orange",
+          "item_id": 12767,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=2521"
+        },
+        {
+          "name": "Lemon",
+          "item_id": 58281,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=11765"
+        }
+      ],
+      "also_returns": [],
+      "failure_returns": [],
+      "container_bagtype": 14,
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=373&rsa=Baking&sub=por",
+      "source_output_url": "https://www.eqtraders.com/items/show_item.php?item=22799&menustr=010000000000"
+    },
+    {
+      "recipe_id": 3091296,
+      "name": "Lemon-Orange Pie",
+      "output_item_id": 96760,
+      "trivial": 94,
+      "yield_count": 1,
+      "nofail": 0,
+      "ingredients": [
+        {
+          "name": "Bottle of Milk",
+          "item_id": 13087,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=1009"
+        },
+        {
+          "name": "Cup of Flour",
+          "item_id": 13193,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=1010"
+        },
+        {
+          "name": "Cup of Sugar",
+          "item_id": 15961,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=6472"
+        },
+        {
+          "name": "Egg Batter",
+          "item_id": 67741,
+          "count": 2,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=12834"
+        },
+        {
+          "name": "Lemon-Orange Filling",
+          "item_id": 96740,
+          "count": 4,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=22799"
+        }
+      ],
+      "also_returns": [],
+      "failure_returns": [],
+      "container_bagtype": 15,
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=373&rsa=Baking&sub=por",
+      "source_output_url": "https://www.eqtraders.com/items/show_item.php?item=22805&menustr=010000000000"
+    },
+    {
+      "recipe_id": 3091297,
+      "name": "Lemon-Orange Tart",
+      "output_item_id": 96745,
+      "trivial": 30,
+      "yield_count": 6,
+      "nofail": 0,
+      "ingredients": [
+        {
+          "name": "Frosting",
+          "item_id": 13429,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=4071"
+        },
+        {
+          "name": "Lemon-Orange Filling",
+          "item_id": 96740,
+          "count": 3,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=22799"
+        },
+        {
+          "name": "Muffin Tin",
+          "item_id": 13437,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=2377"
+        },
+        {
+          "name": "Pastry Dough",
+          "item_id": 96736,
+          "count": 3,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=22428"
+        }
+      ],
+      "also_returns": [
+        {
+          "name": "Muffin Tin",
+          "item_id": 13437,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=2377"
+        }
+      ],
+      "failure_returns": [
+        {
+          "name": "Muffin Tin",
+          "item_id": 13437,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=2377"
+        }
+      ],
+      "container_bagtype": 15,
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=373&rsa=Baking&sub=por",
+      "source_output_url": "https://www.eqtraders.com/items/show_item.php?item=23387&menustr=010000000000"
+    },
+    {
+      "recipe_id": 3091298,
+      "name": "Slice of Apple Pie",
+      "output_item_id": 96777,
+      "trivial": 15,
+      "yield_count": 8,
+      "nofail": 1,
+      "ingredients": [
+        {
+          "name": "Apple Pie",
+          "item_id": 96757,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=22709"
+        }
+      ],
+      "also_returns": [],
+      "failure_returns": [],
+      "container_bagtype": 15,
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=373&rsa=Baking&sub=por",
+      "source_output_url": "https://www.eqtraders.com/items/show_item.php?item=22710&menustr=010000000000"
+    },
+    {
+      "recipe_id": 3091299,
+      "name": "Slice of Cherry Pie",
+      "output_item_id": 96778,
+      "trivial": 15,
+      "yield_count": 8,
+      "nofail": 1,
+      "ingredients": [
+        {
+          "name": "Cherry Pie",
+          "item_id": 96758,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=22796"
+        }
+      ],
+      "also_returns": [],
+      "failure_returns": [],
+      "container_bagtype": 15,
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=373&rsa=Baking&sub=por",
+      "source_output_url": "https://www.eqtraders.com/items/show_item.php?item=22797&menustr=010000000000"
+    },
+    {
+      "recipe_id": 3091300,
+      "name": "Slice of Lemon Meringue Pie",
+      "output_item_id": 96792,
+      "trivial": 15,
+      "yield_count": 8,
+      "nofail": 1,
+      "ingredients": [
+        {
+          "name": "Lemon Meringue Pie",
+          "item_id": 96772,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=22487"
+        }
+      ],
+      "also_returns": [],
+      "failure_returns": [],
+      "container_bagtype": 15,
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=373&rsa=Baking&sub=por",
+      "source_output_url": "https://www.eqtraders.com/items/show_item.php?item=22746&menustr=010000000000"
+    },
+    {
+      "recipe_id": 3091301,
+      "name": "Slice of Lemon Pie",
+      "output_item_id": 96779,
+      "trivial": 15,
+      "yield_count": 8,
+      "nofail": 1,
+      "ingredients": [
+        {
+          "name": "Lemon Pie",
+          "item_id": 96759,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=22430"
+        }
+      ],
+      "also_returns": [],
+      "failure_returns": [],
+      "container_bagtype": 15,
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=373&rsa=Baking&sub=por",
+      "source_output_url": "https://www.eqtraders.com/items/show_item.php?item=22435&menustr=010000000000"
+    },
+    {
+      "recipe_id": 3091302,
+      "name": "Slice of Lemon-Orange Pie",
+      "output_item_id": 96780,
+      "trivial": 15,
+      "yield_count": 8,
+      "nofail": 1,
+      "ingredients": [
+        {
+          "name": "Lemon-Orange Pie",
+          "item_id": 96760,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=22805"
+        }
+      ],
+      "also_returns": [],
+      "failure_returns": [],
+      "container_bagtype": 15,
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=373&rsa=Baking&sub=por",
+      "source_output_url": "https://www.eqtraders.com/items/show_item.php?item=22806&menustr=010000000000"
+    },
+    {
+      "recipe_id": 3091303,
+      "name": "Slice of Wildberry Pie",
+      "output_item_id": 96781,
+      "trivial": 15,
+      "yield_count": 8,
+      "nofail": 1,
+      "ingredients": [
+        {
+          "name": "Wildberry Pie",
+          "item_id": 96761,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=23380"
+        }
+      ],
+      "also_returns": [],
+      "failure_returns": [],
+      "container_bagtype": 15,
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=373&rsa=Baking&sub=por",
+      "source_output_url": "https://www.eqtraders.com/items/show_item.php?item=23381&menustr=010000000000"
+    },
+    {
+      "recipe_id": 3091304,
+      "name": "Wildberry Filling",
+      "output_item_id": 96741,
+      "trivial": 21,
+      "yield_count": 1,
+      "nofail": 0,
+      "ingredients": [
+        {
+          "name": "Cup of Sugar",
+          "item_id": 15961,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=6472"
+        },
+        {
+          "name": "Wild Blueberries",
+          "item_id": 14906,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=9331"
+        },
+        {
+          "name": "Wild Crimson Berries",
+          "item_id": 14948,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=6668"
+        }
+      ],
+      "also_returns": [],
+      "failure_returns": [],
+      "container_bagtype": 14,
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=373&rsa=Baking&sub=por",
+      "source_output_url": "https://www.eqtraders.com/items/show_item.php?item=23116&menustr=010000000000"
+    },
+    {
+      "recipe_id": 3091305,
+      "name": "Wildberry Pie",
+      "output_item_id": 96761,
+      "trivial": 96,
+      "yield_count": 1,
+      "nofail": 0,
+      "ingredients": [
+        {
+          "name": "Bottle of Milk",
+          "item_id": 13087,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=1009"
+        },
+        {
+          "name": "Cup of Flour",
+          "item_id": 13193,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=1010"
+        },
+        {
+          "name": "Cup of Sugar",
+          "item_id": 15961,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=6472"
+        },
+        {
+          "name": "Egg Batter",
+          "item_id": 67741,
+          "count": 2,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=12834"
+        },
+        {
+          "name": "Wildberry Filling",
+          "item_id": 96741,
+          "count": 4,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=23116"
+        }
+      ],
+      "also_returns": [],
+      "failure_returns": [],
+      "container_bagtype": 15,
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=373&rsa=Baking&sub=por",
+      "source_output_url": "https://www.eqtraders.com/items/show_item.php?item=23380&menustr=010000000000"
+    },
+    {
+      "recipe_id": 3091306,
+      "name": "Wildberry Tart",
+      "output_item_id": 96746,
+      "trivial": 32,
+      "yield_count": 6,
+      "nofail": 0,
+      "ingredients": [
+        {
+          "name": "Frosting",
+          "item_id": 13429,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=4071"
+        },
+        {
+          "name": "Muffin Tin",
+          "item_id": 13437,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=2377"
+        },
+        {
+          "name": "Pastry Dough",
+          "item_id": 96736,
+          "count": 3,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=22428"
+        },
+        {
+          "name": "Wildberry Filling",
+          "item_id": 96741,
+          "count": 3,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=23116"
+        }
+      ],
+      "also_returns": [
+        {
+          "name": "Muffin Tin",
+          "item_id": 13437,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=2377"
+        }
+      ],
+      "failure_returns": [
+        {
+          "name": "Muffin Tin",
+          "item_id": 13437,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=2377"
+        }
+      ],
+      "container_bagtype": 15,
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=373&rsa=Baking&sub=por",
+      "source_output_url": "https://www.eqtraders.com/items/show_item.php?item=23389&menustr=010000000000"
+    }
+  ],
+  "item_dependencies": [
+    {
+      "id": 12767,
+      "name": "Emerald Orange"
+    },
+    {
+      "id": 13087,
+      "name": "Bottle of Milk"
+    },
+    {
+      "id": 13193,
+      "name": "Cup of Flour"
+    },
+    {
+      "id": 13429,
+      "name": "Frosting"
+    },
+    {
+      "id": 13437,
+      "name": "Muffin Tin"
+    },
+    {
+      "id": 14906,
+      "name": "Wild Blueberries"
+    },
+    {
+      "id": 14948,
+      "name": "Wild Crimson Berries"
+    },
+    {
+      "id": 14954,
+      "name": "Cinnamon Sticks"
+    },
+    {
+      "id": 14969,
+      "name": "Marr Cherries"
+    },
+    {
+      "id": 15961,
+      "name": "Cup of Sugar"
+    },
+    {
+      "id": 17164,
+      "name": "Collapsible Spit"
+    },
+    {
+      "id": 17906,
+      "name": "Mixing Bowl"
+    },
+    {
+      "id": 54256,
+      "name": "Oven"
+    },
+    {
+      "id": 58281,
+      "name": "Lemon"
+    },
+    {
+      "id": 67741,
+      "name": "Egg Batter"
+    },
+    {
+      "id": 72090,
+      "name": "Dried Vanilla Beans"
+    },
+    {
+      "id": 96729,
+      "name": "Egg White"
+    },
+    {
+      "id": 96730,
+      "name": "Egg Yolk"
+    },
+    {
+      "id": 96736,
+      "name": "Pastry Dough"
+    },
+    {
+      "id": 96737,
+      "name": "Apple Filling"
+    },
+    {
+      "id": 96738,
+      "name": "Cherry Filling"
+    },
+    {
+      "id": 96739,
+      "name": "Lemon Filling"
+    },
+    {
+      "id": 96740,
+      "name": "Lemon-Orange Filling"
+    },
+    {
+      "id": 96741,
+      "name": "Wildberry Filling"
+    },
+    {
+      "id": 96742,
+      "name": "Apple Tart"
+    },
+    {
+      "id": 96743,
+      "name": "Cherry Tart"
+    },
+    {
+      "id": 96744,
+      "name": "Lemon Tart"
+    },
+    {
+      "id": 96745,
+      "name": "Lemon-Orange Tart"
+    },
+    {
+      "id": 96746,
+      "name": "Wildberry Tart"
+    },
+    {
+      "id": 96757,
+      "name": "Apple Pie"
+    },
+    {
+      "id": 96758,
+      "name": "Cherry Pie"
+    },
+    {
+      "id": 96759,
+      "name": "Lemon Pie"
+    },
+    {
+      "id": 96760,
+      "name": "Lemon-Orange Pie"
+    },
+    {
+      "id": 96761,
+      "name": "Wildberry Pie"
+    },
+    {
+      "id": 96772,
+      "name": "Lemon Meringue Pie"
+    },
+    {
+      "id": 96777,
+      "name": "Slice of Apple Pie"
+    },
+    {
+      "id": 96778,
+      "name": "Slice of Cherry Pie"
+    },
+    {
+      "id": 96779,
+      "name": "Slice of Lemon Pie"
+    },
+    {
+      "id": 96780,
+      "name": "Slice of Lemon-Orange Pie"
+    },
+    {
+      "id": 96781,
+      "name": "Slice of Wildberry Pie"
+    },
+    {
+      "id": 96792,
+      "name": "Slice of Lemon Meringue Pie"
+    },
+    {
+      "id": 97126,
+      "name": "Green Apple"
+    }
+  ],
+  "restriction_review": {
+    "learning": "No mandatory scribe or explicit minimum skill in selected maintained source; ordinary experimentable metadata.",
+    "containers": "Five fillings use MixingBowl14; seventeen baking/slicing recipes use Oven/Spit15. Concrete10slot17906/54256 and6slot17164 guards. Spit is source-listed only on one-unit slicing recipes. Stationary Oven source page has no native-ID field; it is not an unresolved ingredient identity.",
+    "yield_outlier": "CherryTart source yield1 retained; four other tarts yield6. No normalization.",
+    "returns": "Five tarts return MuffinTin13437 once on success and failure, salvage0. Returns share the component row; no duplicated tool entries.",
+    "slicing": "Six source15 No-Fail slicing formulas yield8; nofail1 preserves no-fail behavior without changing skill/rules.",
+    "era": "Maintained Prophecy of Ro category context, not immutable2006/May2013 numeric or native proof; min_expansion11 follows source category.",
+    "identity": "All41 output/component/return/portable-container references explicitly match native IDs. World Oven page separately classified, not a missing item definition.",
+    "native_combine": false,
+    "skill_cap_change": false
+  }
+}

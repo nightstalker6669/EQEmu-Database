@@ -1,0 +1,1736 @@
+{
+  "batch": "RRC022",
+  "branch": "rof2-tradeskills",
+  "status": "SOURCE_PROPOSAL_NOT_REHEARSED_APPLIED",
+  "cutoff": "2013-05-31",
+  "proposed_ids": [
+    3091537,
+    3091547
+  ],
+  "counts": {
+    "recipes": 11,
+    "entries": 81,
+    "item_dependencies": 54
+  },
+  "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=373&rsa=Baking&sub=por",
+  "recipes": [
+    {
+      "id": 3091537,
+      "name": "Blood Sausage",
+      "tradeskill": 60,
+      "skillneeded": 0,
+      "trivial": 107,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "PoR; EQTC article373; remaining foods; RRC022.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 11,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3091538,
+      "name": "Bristlebane's Challenge",
+      "tradeskill": 60,
+      "skillneeded": 0,
+      "trivial": 250,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "PoR; EQTC article373; remaining foods; RRC022.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 11,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3091539,
+      "name": "Bristlebane's Challenge Cheeses",
+      "tradeskill": 60,
+      "skillneeded": 0,
+      "trivial": 200,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "PoR; EQTC article373; remaining foods; RRC022.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 11,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3091540,
+      "name": "Bristlebane's Challenge Meats",
+      "tradeskill": 60,
+      "skillneeded": 0,
+      "trivial": 200,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "PoR; EQTC article373; remaining foods; RRC022.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 11,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3091541,
+      "name": "Bristlebane's Challenge Sauces",
+      "tradeskill": 60,
+      "skillneeded": 0,
+      "trivial": 200,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "PoR; EQTC article373; remaining foods; RRC022.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 11,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3091542,
+      "name": "Bristlebane's Challenge Vegetables",
+      "tradeskill": 60,
+      "skillneeded": 0,
+      "trivial": 200,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "PoR; EQTC article373; remaining foods; RRC022.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 11,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3091543,
+      "name": "Chopped Blood Sausage",
+      "tradeskill": 60,
+      "skillneeded": 0,
+      "trivial": 15,
+      "nofail": 1,
+      "replace_container": 0,
+      "notes": "PoR; EQTC article373; remaining foods; RRC022.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 11,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3091544,
+      "name": "Chopped Spiced Blood Sausage",
+      "tradeskill": 60,
+      "skillneeded": 0,
+      "trivial": 15,
+      "nofail": 1,
+      "replace_container": 0,
+      "notes": "PoR; EQTC article373; remaining foods; RRC022.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 11,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3091545,
+      "name": "Grilled Green Peppers",
+      "tradeskill": 60,
+      "skillneeded": 0,
+      "trivial": 41,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "PoR; EQTC article373; remaining foods; RRC022.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 11,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3091546,
+      "name": "Grilled Red Peppers",
+      "tradeskill": 60,
+      "skillneeded": 0,
+      "trivial": 41,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "PoR; EQTC article373; remaining foods; RRC022.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 11,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3091547,
+      "name": "Spiced Blood Sausage",
+      "tradeskill": 60,
+      "skillneeded": 0,
+      "trivial": 107,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "PoR; EQTC article373; remaining foods; RRC022.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 11,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    }
+  ],
+  "entries": [
+    {
+      "recipe_id": 3091537,
+      "item_id": 98224,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091537,
+      "item_id": 29742,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091537,
+      "item_id": 9726,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091537,
+      "item_id": 58282,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091537,
+      "item_id": 98226,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091537,
+      "item_id": 58284,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091537,
+      "item_id": 97138,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091537,
+      "item_id": 75856,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091537,
+      "item_id": 45572,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091537,
+      "item_id": 13425,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091537,
+      "item_id": 15,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3091538,
+      "item_id": 96795,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091538,
+      "item_id": 3457,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091538,
+      "item_id": 96797,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091538,
+      "item_id": 96796,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091538,
+      "item_id": 96799,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091538,
+      "item_id": 96798,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091538,
+      "item_id": 25182,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091538,
+      "item_id": 96810,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091538,
+      "item_id": 96804,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091538,
+      "item_id": 96803,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 2,
+      "salvagecount": 2,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091538,
+      "item_id": 15,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3091539,
+      "item_id": 96797,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091539,
+      "item_id": 8160,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 2,
+      "salvagecount": 2,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091539,
+      "item_id": 8199,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091539,
+      "item_id": 9659,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 2,
+      "salvagecount": 2,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091539,
+      "item_id": 15,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3091540,
+      "item_id": 96796,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091540,
+      "item_id": 33533,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091540,
+      "item_id": 96648,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091540,
+      "item_id": 58474,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091540,
+      "item_id": 58557,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091540,
+      "item_id": 96728,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091540,
+      "item_id": 45564,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091540,
+      "item_id": 19996,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091540,
+      "item_id": 96642,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091540,
+      "item_id": 52266,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091540,
+      "item_id": 15,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3091541,
+      "item_id": 96799,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091541,
+      "item_id": 9743,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091541,
+      "item_id": 96809,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091541,
+      "item_id": 58277,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091541,
+      "item_id": 13427,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091541,
+      "item_id": 20386,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091541,
+      "item_id": 15,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3091542,
+      "item_id": 96798,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091542,
+      "item_id": 32697,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 4,
+      "salvagecount": 4,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091542,
+      "item_id": 96808,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091542,
+      "item_id": 13976,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 3,
+      "salvagecount": 3,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091542,
+      "item_id": 45587,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091542,
+      "item_id": 96811,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091542,
+      "item_id": 15,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3091543,
+      "item_id": 98227,
+      "successcount": 10,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091543,
+      "item_id": 98224,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091543,
+      "item_id": 9753,
+      "successcount": 1,
+      "failcount": 1,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091543,
+      "item_id": 14,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3091544,
+      "item_id": 98228,
+      "successcount": 10,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091544,
+      "item_id": 9753,
+      "successcount": 1,
+      "failcount": 1,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091544,
+      "item_id": 98225,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091544,
+      "item_id": 14,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3091545,
+      "item_id": 96807,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091545,
+      "item_id": 58265,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091545,
+      "item_id": 8174,
+      "successcount": 1,
+      "failcount": 1,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091545,
+      "item_id": 58286,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091545,
+      "item_id": 15,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3091546,
+      "item_id": 96808,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091546,
+      "item_id": 58265,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091546,
+      "item_id": 58287,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091546,
+      "item_id": 8174,
+      "successcount": 1,
+      "failcount": 1,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091546,
+      "item_id": 15,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3091547,
+      "item_id": 98225,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091547,
+      "item_id": 29742,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091547,
+      "item_id": 9726,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091547,
+      "item_id": 58282,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091547,
+      "item_id": 98226,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091547,
+      "item_id": 58284,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091547,
+      "item_id": 97138,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091547,
+      "item_id": 75856,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091547,
+      "item_id": 45572,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091547,
+      "item_id": 13425,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 2,
+      "salvagecount": 2,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091547,
+      "item_id": 15,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    }
+  ],
+  "source_facts": [
+    {
+      "recipe_id": 3091537,
+      "name": "Blood Sausage",
+      "output_item_id": 98224,
+      "trivial": 107,
+      "yield_count": 1,
+      "nofail": 0,
+      "ingredients": [
+        {
+          "name": "Butter",
+          "item_id": 29742,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=4483"
+        },
+        {
+          "name": "Cream",
+          "item_id": 9726,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=1124"
+        },
+        {
+          "name": "Ground Pepper",
+          "item_id": 58282,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=11830"
+        },
+        {
+          "name": "Lard",
+          "item_id": 98226,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=26680"
+        },
+        {
+          "name": "Onion",
+          "item_id": 58284,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=17468"
+        },
+        {
+          "name": "Pod of Blood",
+          "item_id": 97138,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=27317"
+        },
+        {
+          "name": "Rock Salt",
+          "item_id": 75856,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=7719"
+        },
+        {
+          "name": "Sausage Casing",
+          "item_id": 45572,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=17089"
+        },
+        {
+          "name": "Spices",
+          "item_id": 13425,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=1011"
+        }
+      ],
+      "also_returns": [],
+      "failure_returns": [],
+      "container_bagtype": 15,
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=373&rsa=Baking&sub=por",
+      "source_output_url": "https://www.eqtraders.com/items/show_item.php?item=27318&menustr=010000000000"
+    },
+    {
+      "recipe_id": 3091538,
+      "name": "Bristlebane's Challenge",
+      "output_item_id": 96795,
+      "trivial": 250,
+      "yield_count": 1,
+      "nofail": 0,
+      "ingredients": [
+        {
+          "name": "Boiled Rockhopper Egg",
+          "item_id": 3457,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=2424"
+        },
+        {
+          "name": "Bristlebane's Challenge Cheeses",
+          "item_id": 96797,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=22868"
+        },
+        {
+          "name": "Bristlebane's Challenge Meats",
+          "item_id": 96796,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=2873"
+        },
+        {
+          "name": "Bristlebane's Challenge Sauces",
+          "item_id": 96799,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=22721"
+        },
+        {
+          "name": "Bristlebane's Challenge Vegetables",
+          "item_id": 96798,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=22852"
+        },
+        {
+          "name": "Coldain Pickles",
+          "item_id": 25182,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=23339"
+        },
+        {
+          "name": "Deep Fried Treant Heart",
+          "item_id": 96810,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=22848"
+        },
+        {
+          "name": "Taelosian Cheesy Tomato Bread",
+          "item_id": 96804,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=22823"
+        },
+        {
+          "name": "Taelosian Garlic Mountain Bread",
+          "item_id": 96803,
+          "count": 2,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=22439"
+        }
+      ],
+      "also_returns": [],
+      "failure_returns": [],
+      "container_bagtype": 15,
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=373&rsa=Baking&sub=por",
+      "source_output_url": "https://www.eqtraders.com/items/show_item.php?item=23338&menustr=010000000000"
+    },
+    {
+      "recipe_id": 3091539,
+      "name": "Bristlebane's Challenge Cheeses",
+      "output_item_id": 96797,
+      "trivial": 200,
+      "yield_count": 1,
+      "nofail": 0,
+      "ingredients": [
+        {
+          "name": "Cheese",
+          "item_id": 8160,
+          "count": 2,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=3010"
+        },
+        {
+          "name": "Dryad Pate",
+          "item_id": 8199,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=4150"
+        },
+        {
+          "name": "Mature Cheese",
+          "item_id": 9659,
+          "count": 2,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=1134"
+        }
+      ],
+      "also_returns": [],
+      "failure_returns": [],
+      "container_bagtype": 15,
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=373&rsa=Baking&sub=por",
+      "source_output_url": "https://www.eqtraders.com/items/show_item.php?item=22868&menustr=010000000000"
+    },
+    {
+      "recipe_id": 3091540,
+      "name": "Bristlebane's Challenge Meats",
+      "output_item_id": 96796,
+      "trivial": 200,
+      "yield_count": 1,
+      "nofail": 0,
+      "ingredients": [
+        {
+          "name": "Darkhollow Basilisk Sausage",
+          "item_id": 33533,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=21047"
+        },
+        {
+          "name": "Garlic-Buttered Horse Meat",
+          "item_id": 96648,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=23245"
+        },
+        {
+          "name": "Grilled Cragbeast Meat",
+          "item_id": 58474,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=10492"
+        },
+        {
+          "name": "Grilled Hynid Meat",
+          "item_id": 58557,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=10501"
+        },
+        {
+          "name": "Horse Meat Sausage",
+          "item_id": 96728,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=3359"
+        },
+        {
+          "name": "Nest Drake Sausage",
+          "item_id": 45564,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=17086"
+        },
+        {
+          "name": "Sea Dragon Steaks",
+          "item_id": 19996,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=12855"
+        },
+        {
+          "name": "Treant Vegetable Sausage",
+          "item_id": 96642,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=23098"
+        },
+        {
+          "name": "Turepta Liver",
+          "item_id": 52266,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=3313"
+        }
+      ],
+      "also_returns": [],
+      "failure_returns": [],
+      "container_bagtype": 15,
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=373&rsa=Baking&sub=por",
+      "source_output_url": "https://www.eqtraders.com/items/show_item.php?item=2873&menustr=010000000000"
+    },
+    {
+      "recipe_id": 3091541,
+      "name": "Bristlebane's Challenge Sauces",
+      "output_item_id": 96799,
+      "trivial": 200,
+      "yield_count": 1,
+      "nofail": 0,
+      "ingredients": [
+        {
+          "name": "Creamy Fennel Sauce",
+          "item_id": 9743,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=1126"
+        },
+        {
+          "name": "Dragon Mayonnaise",
+          "item_id": 96809,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=22418"
+        },
+        {
+          "name": "Dwarven Dressing",
+          "item_id": 58277,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=10643"
+        },
+        {
+          "name": "Jug of Sauces",
+          "item_id": 13427,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=1105"
+        },
+        {
+          "name": "Vegetable Oil",
+          "item_id": 20386,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=2333"
+        }
+      ],
+      "also_returns": [],
+      "failure_returns": [],
+      "container_bagtype": 15,
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=373&rsa=Baking&sub=por",
+      "source_output_url": "https://www.eqtraders.com/items/show_item.php?item=22721&menustr=010000000000"
+    },
+    {
+      "recipe_id": 3091542,
+      "name": "Bristlebane's Challenge Vegetables",
+      "output_item_id": 96798,
+      "trivial": 200,
+      "yield_count": 1,
+      "nofail": 0,
+      "ingredients": [
+        {
+          "name": "Exquisite Deep Mushroom",
+          "item_id": 32697,
+          "count": 4,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=20792"
+        },
+        {
+          "name": "Grilled Red Peppers",
+          "item_id": 96808,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=22425"
+        },
+        {
+          "name": "Lettuce",
+          "item_id": 13976,
+          "count": 3,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=2015"
+        },
+        {
+          "name": "Olive",
+          "item_id": 45587,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=17467"
+        },
+        {
+          "name": "Tomato",
+          "item_id": 96811,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=22441"
+        }
+      ],
+      "also_returns": [],
+      "failure_returns": [],
+      "container_bagtype": 15,
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=373&rsa=Baking&sub=por",
+      "source_output_url": "https://www.eqtraders.com/items/show_item.php?item=22852&menustr=010000000000"
+    },
+    {
+      "recipe_id": 3091543,
+      "name": "Chopped Blood Sausage",
+      "output_item_id": 98227,
+      "trivial": 15,
+      "yield_count": 10,
+      "nofail": 1,
+      "ingredients": [
+        {
+          "name": "Blood Sausage",
+          "item_id": 98224,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=27318"
+        },
+        {
+          "name": "Filleting Knife",
+          "item_id": 9753,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=1212"
+        }
+      ],
+      "also_returns": [],
+      "failure_returns": [],
+      "container_bagtype": 14,
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=373&rsa=Baking&sub=por",
+      "source_output_url": "https://www.eqtraders.com/items/show_item.php?item=27353&menustr=010000000000",
+      "inferred_tool_return": {
+        "item_id": 9753,
+        "successcount": 1,
+        "failcount": 1,
+        "basis": "All116 existing recipes using this tool return it on success; conservative player-tool preservation where source omits returns. Historical estimate, not direct per-recipe May2013 proof."
+      }
+    },
+    {
+      "recipe_id": 3091544,
+      "name": "Chopped Spiced Blood Sausage",
+      "output_item_id": 98228,
+      "trivial": 15,
+      "yield_count": 10,
+      "nofail": 1,
+      "ingredients": [
+        {
+          "name": "Filleting Knife",
+          "item_id": 9753,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=1212"
+        },
+        {
+          "name": "Spiced Blood Sausage",
+          "item_id": 98225,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=27319"
+        }
+      ],
+      "also_returns": [],
+      "failure_returns": [],
+      "container_bagtype": 14,
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=373&rsa=Baking&sub=por",
+      "source_output_url": "https://www.eqtraders.com/items/show_item.php?item=27354&menustr=010000000000",
+      "inferred_tool_return": {
+        "item_id": 9753,
+        "successcount": 1,
+        "failcount": 1,
+        "basis": "All116 existing recipes using this tool return it on success; conservative player-tool preservation where source omits returns. Historical estimate, not direct per-recipe May2013 proof."
+      }
+    },
+    {
+      "recipe_id": 3091545,
+      "name": "Grilled Green Peppers",
+      "output_item_id": 96807,
+      "trivial": 41,
+      "yield_count": 1,
+      "nofail": 0,
+      "ingredients": [
+        {
+          "name": "Grilling Sauce",
+          "item_id": 58265,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=10647"
+        },
+        {
+          "name": "Non-Stick Frying Pan",
+          "item_id": 8174,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=3011"
+        },
+        {
+          "name": "Sweet Green Pepper",
+          "item_id": 58286,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=17489"
+        }
+      ],
+      "also_returns": [
+        {
+          "name": "Non-Stick Frying Pan",
+          "item_id": 8174,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=3011"
+        }
+      ],
+      "failure_returns": [
+        {
+          "name": "Non-Stick Frying Pan",
+          "item_id": 8174,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=3011"
+        }
+      ],
+      "container_bagtype": 15,
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=373&rsa=Baking&sub=por",
+      "source_output_url": "https://www.eqtraders.com/items/show_item.php?item=22419&menustr=010000000000"
+    },
+    {
+      "recipe_id": 3091546,
+      "name": "Grilled Red Peppers",
+      "output_item_id": 96808,
+      "trivial": 41,
+      "yield_count": 1,
+      "nofail": 0,
+      "ingredients": [
+        {
+          "name": "Grilling Sauce",
+          "item_id": 58265,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=10647"
+        },
+        {
+          "name": "Hot Red Pepper",
+          "item_id": 58287,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=22426"
+        },
+        {
+          "name": "Non-Stick Frying Pan",
+          "item_id": 8174,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=3011"
+        }
+      ],
+      "also_returns": [
+        {
+          "name": "Non-Stick Frying Pan",
+          "item_id": 8174,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=3011"
+        }
+      ],
+      "failure_returns": [
+        {
+          "name": "Non-Stick Frying Pan",
+          "item_id": 8174,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=3011"
+        }
+      ],
+      "container_bagtype": 15,
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=373&rsa=Baking&sub=por",
+      "source_output_url": "https://www.eqtraders.com/items/show_item.php?item=22425&menustr=010000000000"
+    },
+    {
+      "recipe_id": 3091547,
+      "name": "Spiced Blood Sausage",
+      "output_item_id": 98225,
+      "trivial": 107,
+      "yield_count": 1,
+      "nofail": 0,
+      "ingredients": [
+        {
+          "name": "Butter",
+          "item_id": 29742,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=4483"
+        },
+        {
+          "name": "Cream",
+          "item_id": 9726,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=1124"
+        },
+        {
+          "name": "Ground Pepper",
+          "item_id": 58282,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=11830"
+        },
+        {
+          "name": "Lard",
+          "item_id": 98226,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=26680"
+        },
+        {
+          "name": "Onion",
+          "item_id": 58284,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=17468"
+        },
+        {
+          "name": "Pod of Blood",
+          "item_id": 97138,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=27317"
+        },
+        {
+          "name": "Rock Salt",
+          "item_id": 75856,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=7719"
+        },
+        {
+          "name": "Sausage Casing",
+          "item_id": 45572,
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=17089"
+        },
+        {
+          "name": "Spices",
+          "item_id": 13425,
+          "count": 2,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=1011"
+        }
+      ],
+      "also_returns": [],
+      "failure_returns": [],
+      "container_bagtype": 15,
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=373&rsa=Baking&sub=por",
+      "source_output_url": "https://www.eqtraders.com/items/show_item.php?item=27319&menustr=010000000000"
+    }
+  ],
+  "item_dependencies": [
+    {
+      "id": 3457,
+      "name": "Boiled Rockhopper Egg"
+    },
+    {
+      "id": 8160,
+      "name": "Cheese"
+    },
+    {
+      "id": 8174,
+      "name": "Non-Stick Frying Pan"
+    },
+    {
+      "id": 8199,
+      "name": "Dryad Pate"
+    },
+    {
+      "id": 9659,
+      "name": "Mature Cheese"
+    },
+    {
+      "id": 9726,
+      "name": "Cream"
+    },
+    {
+      "id": 9743,
+      "name": "Creamy Fennel Sauce"
+    },
+    {
+      "id": 9753,
+      "name": "Filleting Knife"
+    },
+    {
+      "id": 13425,
+      "name": "Spices"
+    },
+    {
+      "id": 13427,
+      "name": "Jug of Sauces"
+    },
+    {
+      "id": 13976,
+      "name": "Lettuce"
+    },
+    {
+      "id": 17164,
+      "name": "Collapsible Spit"
+    },
+    {
+      "id": 17906,
+      "name": "Mixing Bowl"
+    },
+    {
+      "id": 19996,
+      "name": "Sea Dragon Steaks"
+    },
+    {
+      "id": 20386,
+      "name": "Vegetable Oil"
+    },
+    {
+      "id": 25182,
+      "name": "Coldain Pickles"
+    },
+    {
+      "id": 29742,
+      "name": "Butter"
+    },
+    {
+      "id": 32697,
+      "name": "Exquisite Deep Mushroom"
+    },
+    {
+      "id": 33533,
+      "name": "Darkhollow Basilisk Sausage"
+    },
+    {
+      "id": 45564,
+      "name": "Nest Drake Sausage"
+    },
+    {
+      "id": 45572,
+      "name": "Sausage Casing"
+    },
+    {
+      "id": 45587,
+      "name": "Olive"
+    },
+    {
+      "id": 52266,
+      "name": "Turepta Liver"
+    },
+    {
+      "id": 54256,
+      "name": "Oven"
+    },
+    {
+      "id": 58265,
+      "name": "Grilling Sauce"
+    },
+    {
+      "id": 58277,
+      "name": "Dwarven Dressing"
+    },
+    {
+      "id": 58282,
+      "name": "Ground Pepper"
+    },
+    {
+      "id": 58284,
+      "name": "Onion"
+    },
+    {
+      "id": 58286,
+      "name": "Sweet Green Pepper"
+    },
+    {
+      "id": 58287,
+      "name": "Hot Red Pepper"
+    },
+    {
+      "id": 58474,
+      "name": "Grilled Cragbeast Meat"
+    },
+    {
+      "id": 58557,
+      "name": "Grilled Hynid Meat"
+    },
+    {
+      "id": 75856,
+      "name": "Rock Salt"
+    },
+    {
+      "id": 96642,
+      "name": "Treant Vegetable Sausage"
+    },
+    {
+      "id": 96648,
+      "name": "Garlic-Buttered Horse Meat"
+    },
+    {
+      "id": 96728,
+      "name": "Horse Meat Sausage"
+    },
+    {
+      "id": 96795,
+      "name": "Bristlebane's Challenge"
+    },
+    {
+      "id": 96796,
+      "name": "Bristlebane's Challenge Meats"
+    },
+    {
+      "id": 96797,
+      "name": "Bristlebane's Challenge Cheeses"
+    },
+    {
+      "id": 96798,
+      "name": "Bristlebane's Challenge Vegetables"
+    },
+    {
+      "id": 96799,
+      "name": "Bristlebane's Challenge Sauces"
+    },
+    {
+      "id": 96803,
+      "name": "Taelosian Garlic Mountain Bread"
+    },
+    {
+      "id": 96804,
+      "name": "Taelosian Cheesy Tomato Bread"
+    },
+    {
+      "id": 96807,
+      "name": "Grilled Green Peppers"
+    },
+    {
+      "id": 96808,
+      "name": "Grilled Red Peppers"
+    },
+    {
+      "id": 96809,
+      "name": "Dragon Mayonnaise"
+    },
+    {
+      "id": 96810,
+      "name": "Deep Fried Treant Heart"
+    },
+    {
+      "id": 96811,
+      "name": "Tomato"
+    },
+    {
+      "id": 97138,
+      "name": "Pod of Blood"
+    },
+    {
+      "id": 98224,
+      "name": "Blood Sausage"
+    },
+    {
+      "id": 98225,
+      "name": "Spiced Blood Sausage"
+    },
+    {
+      "id": 98226,
+      "name": "Lard"
+    },
+    {
+      "id": 98227,
+      "name": "Chopped Blood Sausage"
+    },
+    {
+      "id": 98228,
+      "name": "Chopped Spiced Blood Sausage"
+    }
+  ],
+  "excluded_missing_item_rows": [],
+  "restriction_review": {
+    "learning": "No mandatory scribe or explicit minimum in selected ordinary source.",
+    "containers": "Source-listed bowl14 or oven15, concrete ten-slot bowl/oven and six-slot spit retained; largest10units requires source-listed ten-slot option.",
+    "returns": "Explicit source tool returns retained. Two no-fail chopped sausages preserve FilletingKnife9753 on success/failure by conservative inference from116/116 existing recipes, salvage0; source omits these returns, historical estimate labelled in facts.",
+    "nofail": "Two source15(No-Fail) chopped recipes yield10; other nine yield1.",
+    "era": "Maintained PoR source/current item pages, not immutable May2013 numeric/native evidence.",
+    "deferred": "Dragon Mayonnaise minimum80percent failure needs server behavior support; its recipe remains held. No natural-material availability claim.",
+    "native_combine": false
+  }
+}

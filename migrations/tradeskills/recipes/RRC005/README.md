@@ -1,0 +1,11 @@
+# RRC005: Fun with Fear Machines
+
+This additive proposal supplies nine ordinary RoF tinkering recipes: Goo Gun, Goo Gun Ammunition, Instant Beverage Brewer, Planar Distortion Device, SteamJet Pack, Terror Steamblade, and the Tick Tock Blast/Fear/Sticky Bombs. It adds9 recipes/67 logical entries with30 item dependencies, proposing IDs3091102–3091110.
+
+The [maintained RoF tinkering category](https://www.eqtraders.com/recipes/recipe_page.php?article=566&rsa=Tinkering&sub=ROF), labelled January22,2013, supplies numeric formulas. The [RoF guide](https://www.eqtraders.com/articles/article_page.php?article=g567), created December16,2012, distinguishes read-only Fun with Fear Machines from mandatory scribing. Its game-authored book text describes these nine products and ingredients. The bomb base description does not establish a separate tenth named recipe. The category has159 observed rows; only these nine formulas were captured/reconciled for this batch, with the other150 still unreviewed.
+
+The existing Gnome-only tinkering gate is retained through SkillTinkering57. Ordinary BagType10 and a genuine ten-slot Deluxe Toolbox17877 are checked; formulas require up to ten ingredient units. Bottle16598 and Water Flask13006 are resolved through their explicit source item IDs. Consumable salvage metadata follows the existing convention and remains a translation inference. Black Powder Bomb, cultural scribing and Repeating Crossbow quest rows are excluded.
+
+**Status: source proposal, not rehearsed or applied.** Maintained rows/current PEQ book are not frozen May2013 per-formula receipts. No native combine, complete historical catalogue, or natural ingredient acquisition is claimed. Planar Goo and Planar Energy Shard distribution remain separate unresolved dependencies.
+
+Use a fresh strict MariaDB10.11 native client session supporting DELIMITER/anonymous BEGIN NOT ATOMIC, within a coordinator-authorized window. Apply accepts whole absence or the exact whole batch, checks identities/collisions, verifies exact postimages/counts, then explicitly commits. Rollback requires the exact postimage and refuses learned references; it does not undo crafts or reset auto-increment. SQL changes only recipe and entry rows; publication does not authorize application.

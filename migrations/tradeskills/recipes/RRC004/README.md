@@ -1,0 +1,11 @@
+# RRC004: Fear Powered Fletching
+
+This additive proposal supplies the six groove variants of CLASS 9 Steel Fearbone/Shardpoint Arrows, Terror Crossbow, and Terror Crossbow Bolts: 8 recipes, 51 logical entries, 22 item dependencies. IDs 3091094–3091101 are proposed for coordinator reservation.
+
+The [maintained RoF fletching category](https://www.eqtraders.com/recipes/recipe_page.php?article=562&rsa=Fletching&sub=ROF) supplies numeric formulas. The [RoF guide](https://www.eqtraders.com/articles/article_page.php?article=g567), created December 16, 2012, lists Fear Powered Fletching separately as a read-only book. Its game-authored text names these families and ingredients. Six item pages explicitly establish each groove-specific native output ID; Darkwood Bowstave maps to native 8084, Darkwood Bow Staff. Details and source links are in batch.json.
+
+Only these ordinary book recipes are included. Cultural scribing and Alliance recipes remain outside this batch. Ordinary BagType18 is retained; a genuine ten-slot kit dependency is checked because the crossbow consumes ten units. Planing Tool8086 returns on success and failure. Consumable salvage metadata follows the existing ordinary recipe convention and remains a translation inference.
+
+**Status: source proposal; not rehearsed or applied.** Maintained source rows and the current PEQ book are not frozen May2013 per-formula receipts. All-recipe completeness and native combines are unproven. Item existence does not establish natural acquisition; Planar Energy Shard distribution is separately unresolved.
+
+Use a dedicated fresh strict MariaDB10.11 native client session supporting DELIMITER and anonymous BEGIN NOT ATOMIC, only in a coordinator-authorized content window. Apply accepts only whole absence or an exact whole batch, checks dependencies and collisions, and verifies all logical fields/counts before explicit commit. Its main-output guard uses role metadata so groove aliases cannot evade collision detection. Rollback requires the exact installed postimage and refuses learned references; it does not undo crafts or reset auto-increment. Neither SQL file changes engine rules, item data, player data, schema, or updater/version metadata. Publication does not authorize application.

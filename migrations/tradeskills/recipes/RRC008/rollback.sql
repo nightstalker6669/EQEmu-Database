@@ -1,0 +1,160 @@
+-- RRC008: MariaDB10.11, dedicated fresh admin session; manual coordinated application only.
+-- Source recipe facts/provenance: batch.public.json. No engine/updater/version/rule changes.
+-- Anonymous compound block: no permanent helper procedure or migration table.
+DELIMITER //
+BEGIN NOT ATOMIC
+ DECLARE own_transaction BOOLEAN DEFAULT FALSE;
+ DECLARE already_present INT DEFAULT 0;
+ DECLARE recipes_before BIGINT DEFAULT 0;
+ DECLARE entries_before BIGINT DEFAULT 0;
+ DECLARE EXIT HANDLER FOR SQLEXCEPTION
+ BEGIN
+  IF own_transaction THEN ROLLBACK; END IF;
+  RESIGNAL;
+ END;
+ IF @@in_transaction <> 0 THEN SIGNAL SQLSTATE '45000' SET MESSAGE_TEXT='RRC008 requires fresh transaction-free session'; END IF;
+ IF FIND_IN_SET('STRICT_ALL_TABLES',@@SESSION.sql_mode)=0 AND FIND_IN_SET('STRICT_TRANS_TABLES',@@SESSION.sql_mode)=0 THEN SIGNAL SQLSTATE '45000' SET MESSAGE_TEXT='RRC008 strict SQL mode required'; END IF;
+ IF (SELECT COUNT(*) FROM information_schema.TABLES WHERE TABLE_SCHEMA=DATABASE() AND TABLE_NAME IN ('tradeskill_recipe','tradeskill_recipe_entries','items') AND ENGINE='InnoDB')<>3 THEN SIGNAL SQLSTATE '45000' SET MESSAGE_TEXT='RRC008 InnoDB foundation mismatch'; END IF;
+ IF (SELECT COUNT(*) FROM information_schema.COLUMNS WHERE TABLE_SCHEMA=DATABASE() AND TABLE_NAME='tradeskill_recipe')<>16 OR (SELECT COUNT(*) FROM information_schema.COLUMNS WHERE TABLE_SCHEMA=DATABASE() AND TABLE_NAME='tradeskill_recipe_entries')<>8 THEN SIGNAL SQLSTATE '45000' SET MESSAGE_TEXT='RRC008 recipe schema column-count mismatch'; END IF;
+ CREATE TEMPORARY TABLE rrc008_recipes LIKE tradeskill_recipe;
+ CREATE TEMPORARY TABLE rrc008_entries LIKE tradeskill_recipe_entries;
+ CREATE TEMPORARY TABLE rrc008_items(id INT PRIMARY KEY,name VARCHAR(64) NOT NULL) ENGINE=InnoDB;
+INSERT INTO rrc008_recipes (`id`,`name`,`tradeskill`,`skillneeded`,`trivial`,`nofail`,`replace_container`,`notes`,`must_learn`,`learned_by_item_id`,`quest`,`enabled`,`min_expansion`,`max_expansion`,`content_flags`,`content_flags_disabled`) VALUES
+(3091212,CONVERT(0x416c6172616e20416c65 USING utf8mb4),65,0,148,0,0,CONVERT(0x566f413b20455154432061727469636c653534363b20416c61726973272042726577733b205252433030382e USING utf8mb4),0,0,0,1,18,-1,NULL,NULL),
+(3091213,CONVERT(0x416c6172616e20436f66666565 USING utf8mb4),65,0,142,0,0,CONVERT(0x566f413b20455154432061727469636c653534363b20416c61726973272042726577733b205252433030382e USING utf8mb4),0,0,0,1,18,-1,NULL,NULL),
+(3091214,CONVERT(0x416c6172616e204a75696365 USING utf8mb4),65,0,142,0,0,CONVERT(0x566f413b20455154432061727469636c653534363b20416c61726973272042726577733b205252433030382e USING utf8mb4),0,0,0,1,18,-1,NULL,NULL),
+(3091215,CONVERT(0x416c6172616e204d65646963696e616c20546f6e6963 USING utf8mb4),65,0,448,0,0,CONVERT(0x566f413b20455154432061727469636c653534363b20416c61726973272042726577733b205252433030382e USING utf8mb4),0,0,0,1,18,-1,NULL,NULL),
+(3091216,CONVERT(0x416c6172616e204e6f737472756d USING utf8mb4),65,0,475,0,0,CONVERT(0x566f413b20455154432061727469636c653534363b20416c61726973272042726577733b205252433030382e USING utf8mb4),0,0,0,1,18,-1,NULL,NULL),
+(3091217,CONVERT(0x416c6172616e2053706972697473 USING utf8mb4),65,0,155,0,0,CONVERT(0x566f413b20455154432061727469636c653534363b20416c61726973272042726577733b205252433030382e USING utf8mb4),0,0,0,1,18,-1,NULL,NULL),
+(3091218,CONVERT(0x416c6172616e20546561 USING utf8mb4),65,0,115,0,0,CONVERT(0x566f413b20455154432061727469636c653534363b20416c61726973272042726577733b205252433030382e USING utf8mb4),0,0,0,1,18,-1,NULL,NULL),
+(3091219,CONVERT(0x417267617468204272616e6479 USING utf8mb4),65,0,148,0,0,CONVERT(0x566f413b20455154432061727469636c653534363b20416c61726973272042726577733b205252433030382e USING utf8mb4),0,0,0,1,18,-1,NULL,NULL),
+(3091220,CONVERT(0x42726f6e7a6520416c65 USING utf8mb4),65,0,148,0,0,CONVERT(0x566f413b20455154432061727469636c653534363b20416c61726973272042726577733b205252433030382e USING utf8mb4),0,0,0,1,18,-1,NULL,NULL),
+(3091221,CONVERT(0x5361726974682052756d USING utf8mb4),65,0,148,0,0,CONVERT(0x566f413b20455154432061727469636c653534363b20416c61726973272042726577733b205252433030382e USING utf8mb4),0,0,0,1,18,-1,NULL,NULL);
+INSERT INTO rrc008_entries (`recipe_id`,`item_id`,`successcount`,`failcount`,`componentcount`,`salvagecount`,`iscontainer`) VALUES
+(3091212,64512,1,0,0,0,0),
+(3091212,16590,0,0,1,1,0),
+(3091212,16598,0,0,1,1,0),
+(3091212,16851,0,0,1,1,0),
+(3091212,64546,0,0,1,1,0),
+(3091212,16595,0,0,1,1,0),
+(3091212,13006,0,0,1,1,0),
+(3091212,19,0,0,0,0,1),
+(3091213,64513,1,0,0,0,0),
+(3091213,13087,0,0,1,1,0),
+(3091213,15961,0,0,1,1,0),
+(3091213,64546,0,0,1,1,0),
+(3091213,60294,0,0,1,1,0),
+(3091213,13006,0,0,1,1,0),
+(3091213,19,0,0,0,0,1),
+(3091214,64514,1,0,0,0,0),
+(3091214,13045,0,0,2,2,0),
+(3091214,64546,0,0,1,1,0),
+(3091214,16592,0,0,2,2,0),
+(3091214,19,0,0,0,0,1),
+(3091215,64515,1,0,0,0,0),
+(3091215,16598,0,0,1,1,0),
+(3091215,13087,0,0,1,1,0),
+(3091215,16851,0,0,1,1,0),
+(3091215,64546,0,0,3,3,0),
+(3091215,13425,0,0,1,1,0),
+(3091215,58153,0,0,1,1,0),
+(3091215,13006,0,0,1,1,0),
+(3091215,19,0,0,0,0,1),
+(3091216,64519,1,0,0,0,0),
+(3091216,64546,0,0,1,1,0),
+(3091216,37537,0,0,1,1,0),
+(3091216,9644,0,0,1,1,0),
+(3091216,16582,0,0,1,1,0),
+(3091216,13006,0,0,1,1,0),
+(3091216,19,0,0,0,0,1),
+(3091217,64516,1,0,0,0,0),
+(3091217,16590,0,0,1,1,0),
+(3091217,16598,0,0,1,1,0),
+(3091217,16851,0,0,1,1,0),
+(3091217,64546,0,0,1,1,0),
+(3091217,13006,0,0,1,1,0),
+(3091217,19,0,0,0,0,1),
+(3091218,64517,1,0,0,0,0),
+(3091218,64546,0,0,1,1,0),
+(3091218,58153,0,0,1,1,0),
+(3091218,13006,0,0,1,1,0),
+(3091218,19,0,0,0,0,1),
+(3091219,64556,1,0,0,0,0),
+(3091219,16598,0,0,1,1,0),
+(3091219,16851,0,0,1,1,0),
+(3091219,64546,0,0,1,1,0),
+(3091219,13046,0,0,1,1,0),
+(3091219,16592,0,0,1,1,0),
+(3091219,16597,0,0,1,1,0),
+(3091219,19,0,0,0,0,1),
+(3091220,64520,1,0,0,0,0),
+(3091220,16590,0,0,1,1,0),
+(3091220,16598,0,0,1,1,0),
+(3091220,16851,0,0,1,1,0),
+(3091220,64546,0,0,1,1,0),
+(3091220,58287,0,0,1,1,0),
+(3091220,16595,0,0,1,1,0),
+(3091220,19,0,0,0,0,1),
+(3091221,64521,1,0,0,0,0),
+(3091221,16590,0,0,1,1,0),
+(3091221,16598,0,0,1,1,0),
+(3091221,16851,0,0,1,1,0),
+(3091221,15961,0,0,1,1,0),
+(3091221,64546,0,0,1,1,0),
+(3091221,13006,0,0,1,1,0),
+(3091221,19,0,0,0,0,1);
+INSERT INTO rrc008_items (`id`,`name`) VALUES
+(9644,CONVERT(0x536f6461205761746572 USING utf8mb4)),
+(13006,CONVERT(0x576174657220466c61736b USING utf8mb4)),
+(13045,CONVERT(0x42657272696573 USING utf8mb4)),
+(13046,CONVERT(0x4672756974 USING utf8mb4)),
+(13087,CONVERT(0x426f74746c65206f66204d696c6b USING utf8mb4)),
+(13425,CONVERT(0x537069636573 USING utf8mb4)),
+(15961,CONVERT(0x437570206f66205375676172 USING utf8mb4)),
+(16582,CONVERT(0x566f646b61 USING utf8mb4)),
+(16590,CONVERT(0x4261726c6579 USING utf8mb4)),
+(16592,CONVERT(0x477261706573 USING utf8mb4)),
+(16595,CONVERT(0x4d616c74 USING utf8mb4)),
+(16597,CONVERT(0x57696e65205965617374 USING utf8mb4)),
+(16598,CONVERT(0x426f74746c65 USING utf8mb4)),
+(16851,CONVERT(0x436f726b USING utf8mb4)),
+(17911,CONVERT(0x42726577696e672042617272656c USING utf8mb4)),
+(37537,CONVERT(0x5175696e696e65 USING utf8mb4)),
+(58153,CONVERT(0x5461656c6f7369616e20546561204c6561766573 USING utf8mb4)),
+(58287,CONVERT(0x486f742052656420506570706572 USING utf8mb4)),
+(60294,CONVERT(0x47656e6572696320436f66666565204265616e73 USING utf8mb4)),
+(64512,CONVERT(0x416c6172616e20416c65 USING utf8mb4)),
+(64513,CONVERT(0x416c6172616e20436f66666565 USING utf8mb4)),
+(64514,CONVERT(0x416c6172616e204a75696365 USING utf8mb4)),
+(64515,CONVERT(0x416c6172616e204d65646963696e616c20546f6e6963 USING utf8mb4)),
+(64516,CONVERT(0x416c6172616e2053706972697473 USING utf8mb4)),
+(64517,CONVERT(0x416c6172616e20546561 USING utf8mb4)),
+(64519,CONVERT(0x416c6172616e204e6f737472756d USING utf8mb4)),
+(64520,CONVERT(0x42726f6e7a6520416c65 USING utf8mb4)),
+(64521,CONVERT(0x5361726974682052756d USING utf8mb4)),
+(64546,CONVERT(0x457373656e6365206f6620416c61726973 USING utf8mb4)),
+(64556,CONVERT(0x417267617468204272616e6479 USING utf8mb4));
+ START TRANSACTION;
+ SET own_transaction=TRUE;
+ SELECT COUNT(*) INTO recipes_before FROM tradeskill_recipe;
+ SELECT COUNT(*) INTO entries_before FROM tradeskill_recipe_entries;
+ SELECT COUNT(*) INTO already_present FROM tradeskill_recipe r JOIN rrc008_recipes e ON r.id=e.id FOR UPDATE;
+ IF EXISTS(SELECT 1 FROM rrc008_items e LEFT JOIN items i ON i.id=e.id WHERE i.id IS NULL OR BINARY i.Name<>BINARY e.name) THEN SIGNAL SQLSTATE '45000' SET MESSAGE_TEXT='RRC008 item identity/dependency mismatch'; END IF;
+ IF NOT EXISTS(SELECT 1 FROM items WHERE id=17911 AND itemclass=1 AND bagtype=19 AND bagslots=10) THEN SIGNAL SQLSTATE '45000' SET MESSAGE_TEXT='RRC008 ordinary10-slot Brewing Barrel dependency mismatch'; END IF;
+ IF already_present<>10 THEN SIGNAL SQLSTATE '45000' SET MESSAGE_TEXT='RRC008 rollback requires exact whole installed batch'; END IF;
+ IF EXISTS(SELECT 1 FROM rrc008_recipes e LEFT JOIN tradeskill_recipe r ON r.id=e.id WHERE r.id IS NULL OR NOT(r.`id` <=> e.`id` AND r.`name` <=> e.`name` AND r.`tradeskill` <=> e.`tradeskill` AND r.`skillneeded` <=> e.`skillneeded` AND r.`trivial` <=> e.`trivial` AND r.`nofail` <=> e.`nofail` AND r.`replace_container` <=> e.`replace_container` AND r.`notes` <=> e.`notes` AND r.`must_learn` <=> e.`must_learn` AND r.`learned_by_item_id` <=> e.`learned_by_item_id` AND r.`quest` <=> e.`quest` AND r.`enabled` <=> e.`enabled` AND r.`min_expansion` <=> e.`min_expansion` AND r.`max_expansion` <=> e.`max_expansion` AND r.`content_flags` <=> e.`content_flags` AND r.`content_flags_disabled` <=> e.`content_flags_disabled`)) THEN SIGNAL SQLSTATE '45000' SET MESSAGE_TEXT='RRC008 recipe postimage mismatch'; END IF;
+ IF EXISTS(SELECT 1 FROM rrc008_entries e LEFT JOIN tradeskill_recipe_entries r ON r.`recipe_id` <=> e.`recipe_id` AND r.`item_id` <=> e.`item_id` AND r.`successcount` <=> e.`successcount` AND r.`failcount` <=> e.`failcount` AND r.`componentcount` <=> e.`componentcount` AND r.`salvagecount` <=> e.`salvagecount` AND r.`iscontainer` <=> e.`iscontainer` WHERE r.id IS NULL) THEN SIGNAL SQLSTATE '45000' SET MESSAGE_TEXT='RRC008 expected entry absent'; END IF;
+ IF EXISTS(SELECT 1 FROM tradeskill_recipe_entries r JOIN rrc008_recipes q ON q.id=r.recipe_id LEFT JOIN rrc008_entries e ON r.`recipe_id` <=> e.`recipe_id` AND r.`item_id` <=> e.`item_id` AND r.`successcount` <=> e.`successcount` AND r.`failcount` <=> e.`failcount` AND r.`componentcount` <=> e.`componentcount` AND r.`salvagecount` <=> e.`salvagecount` AND r.`iscontainer` <=> e.`iscontainer` WHERE e.id IS NULL) THEN SIGNAL SQLSTATE '45000' SET MESSAGE_TEXT='RRC008 foreign/different target entries'; END IF;
+ IF (SELECT COUNT(*) FROM tradeskill_recipe_entries r JOIN rrc008_recipes q ON q.id=r.recipe_id)<>72 THEN SIGNAL SQLSTATE '45000' SET MESSAGE_TEXT='RRC008 target entry multiplicity mismatch'; END IF;
+ IF EXISTS(SELECT 1 FROM char_recipe_list c JOIN rrc008_recipes e ON c.recipe_id=e.id) THEN SIGNAL SQLSTATE '45000' SET MESSAGE_TEXT='RRC008 rollback refused: learned recipe references exist'; END IF;
+ DELETE r FROM tradeskill_recipe_entries r JOIN rrc008_recipes e ON r.recipe_id=e.id;
+ DELETE r FROM tradeskill_recipe r JOIN rrc008_recipes e ON r.id=e.id;
+ IF (SELECT COUNT(*) FROM tradeskill_recipe)<>recipes_before-10 OR (SELECT COUNT(*) FROM tradeskill_recipe_entries)<>entries_before-72 THEN SIGNAL SQLSTATE '45000' SET MESSAGE_TEXT='RRC008 rollback count mismatch'; END IF;
+ DROP TEMPORARY TABLE rrc008_entries;
+ DROP TEMPORARY TABLE rrc008_recipes;
+ DROP TEMPORARY TABLE rrc008_items;
+ COMMIT;
+ SET own_transaction=FALSE;
+ SELECT 'RRC008' AS batch,already_present AS previous_recipe_count,recipes_before AS recipes_before,(SELECT COUNT(*) FROM tradeskill_recipe) AS recipes_after,entries_before AS entries_before,(SELECT COUNT(*) FROM tradeskill_recipe_entries) AS entries_after,@@in_transaction AS in_transaction;
+END//
+DELIMITER ;

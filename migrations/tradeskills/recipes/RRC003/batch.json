@@ -1,0 +1,8328 @@
+{
+  "batch": "RRC003",
+  "branch": "rof2-tradeskills",
+  "cutoff": "2013-05-31",
+  "status": "SOURCE_SQL_PROPOSAL_NOT_APPLIED_OR_MARIADB_TESTED",
+  "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=560&menustr=080020000000&rsa=Baking&sb=item&sub=ROF",
+  "source_page_date_label": "2012-12-09",
+  "era_evidence": "December2012 RoF category/guide, in-universe Planar Delights basic families, and per-recipe source row spans. Exact archived numeric formula copies remain outstanding.",
+  "identity_overrides": {
+    "Water Flask": {
+      "id": 13006,
+      "source": "https://www.eqtraders.com/items/show_item.php?item=1001",
+      "verified": "Chrome visible EQ item ID"
+    },
+    "Cup of Flour": {
+      "id": 13193,
+      "source": "https://www.eqtraders.com/items/show_item.php?item=1010",
+      "verified": "Chrome visible EQ item ID"
+    },
+    "Loaf of Bread": {
+      "id": 13015,
+      "source": "https://www.eqtraders.com/items/show_item.php?item=1135",
+      "verified": "Chrome visible EQ item ID"
+    }
+  },
+  "translation_policy": {
+    "skillneeded": 0,
+    "nofail": 0,
+    "quest": 0,
+    "must_learn": 0,
+    "learned_by_item_id": 0,
+    "min_expansion": 19,
+    "max_expansion": -1,
+    "container": "source ordinary bowl/oven map to existing BagType14/15, not item IDs14/15",
+    "salvage": "existing ordinary baking analogues: consumable quantity, returned utensil0; translation inference, not independently observed Live failure AA result"
+  },
+  "counts": {
+    "recipes": 64,
+    "entries": 354,
+    "items_required": 86
+  },
+  "recipes": [
+    {
+      "id": 3091030,
+      "name": "Beer-Braised Planar Goo",
+      "tradeskill": 60,
+      "skillneeded": 0,
+      "trivial": 195,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "RoF; EQTC article560; RRC003. See public batch provenance.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 19,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3091031,
+      "name": "Beer-Braised Planar Goo Jerky",
+      "tradeskill": 60,
+      "skillneeded": 0,
+      "trivial": 335,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "RoF; EQTC article560; RRC003. See public batch provenance.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 19,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3091032,
+      "name": "Beer-Braised Planar Goo Kabobs",
+      "tradeskill": 60,
+      "skillneeded": 0,
+      "trivial": 348,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "RoF; EQTC article560; RRC003. See public batch provenance.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 19,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3091033,
+      "name": "Beer-Braised Planar Goo Pie",
+      "tradeskill": 60,
+      "skillneeded": 0,
+      "trivial": 382,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "RoF; EQTC article560; RRC003. See public batch provenance.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 19,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3091034,
+      "name": "Beer-Braised Planar Goo Sandwich",
+      "tradeskill": 60,
+      "skillneeded": 0,
+      "trivial": 288,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "RoF; EQTC article560; RRC003. See public batch provenance.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 19,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3091035,
+      "name": "Beer-Braised Planar Goo Souffle",
+      "tradeskill": 60,
+      "skillneeded": 0,
+      "trivial": 395,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "RoF; EQTC article560; RRC003. See public batch provenance.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 19,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3091036,
+      "name": "Beer-Braised Planar Goo Soup",
+      "tradeskill": 60,
+      "skillneeded": 0,
+      "trivial": 322,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "RoF; EQTC article560; RRC003. See public batch provenance.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 19,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3091037,
+      "name": "Beer-Braised Planar Goo Steaks",
+      "tradeskill": 60,
+      "skillneeded": 0,
+      "trivial": 362,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "RoF; EQTC article560; RRC003. See public batch provenance.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 19,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3091038,
+      "name": "Beer-Braised Planar Goo Stew",
+      "tradeskill": 60,
+      "skillneeded": 0,
+      "trivial": 302,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "RoF; EQTC article560; RRC003. See public batch provenance.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 19,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3091039,
+      "name": "Buttered Planar Goo",
+      "tradeskill": 60,
+      "skillneeded": 0,
+      "trivial": 175,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "RoF; EQTC article560; RRC003. See public batch provenance.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 19,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3091040,
+      "name": "Buttered Planar Goo Jerky",
+      "tradeskill": 60,
+      "skillneeded": 0,
+      "trivial": 315,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "RoF; EQTC article560; RRC003. See public batch provenance.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 19,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3091041,
+      "name": "Buttered Planar Goo Kabobs",
+      "tradeskill": 60,
+      "skillneeded": 0,
+      "trivial": 328,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "RoF; EQTC article560; RRC003. See public batch provenance.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 19,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3091042,
+      "name": "Buttered Planar Goo Pie",
+      "tradeskill": 60,
+      "skillneeded": 0,
+      "trivial": 362,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "RoF; EQTC article560; RRC003. See public batch provenance.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 19,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3091043,
+      "name": "Buttered Planar Goo Sandwich",
+      "tradeskill": 60,
+      "skillneeded": 0,
+      "trivial": 268,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "RoF; EQTC article560; RRC003. See public batch provenance.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 19,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3091044,
+      "name": "Buttered Planar Goo Souffle",
+      "tradeskill": 60,
+      "skillneeded": 0,
+      "trivial": 375,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "RoF; EQTC article560; RRC003. See public batch provenance.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 19,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3091045,
+      "name": "Buttered Planar Goo Soup",
+      "tradeskill": 60,
+      "skillneeded": 0,
+      "trivial": 302,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "RoF; EQTC article560; RRC003. See public batch provenance.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 19,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3091046,
+      "name": "Buttered Planar Goo Steaks",
+      "tradeskill": 60,
+      "skillneeded": 0,
+      "trivial": 342,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "RoF; EQTC article560; RRC003. See public batch provenance.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 19,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3091047,
+      "name": "Buttered Planar Goo Stew",
+      "tradeskill": 60,
+      "skillneeded": 0,
+      "trivial": 282,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "RoF; EQTC article560; RRC003. See public batch provenance.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 19,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3091048,
+      "name": "Dried Planar Goo",
+      "tradeskill": 60,
+      "skillneeded": 0,
+      "trivial": 148,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "RoF; EQTC article560; RRC003. See public batch provenance.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 19,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3091049,
+      "name": "Garlic-Buttered Planar Goo",
+      "tradeskill": 60,
+      "skillneeded": 0,
+      "trivial": 175,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "RoF; EQTC article560; RRC003. See public batch provenance.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 19,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3091050,
+      "name": "Garlic-Buttered Planar Goo Jerky",
+      "tradeskill": 60,
+      "skillneeded": 0,
+      "trivial": 322,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "RoF; EQTC article560; RRC003. See public batch provenance.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 19,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3091051,
+      "name": "Garlic-Buttered Planar Goo Kabobs",
+      "tradeskill": 60,
+      "skillneeded": 0,
+      "trivial": 335,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "RoF; EQTC article560; RRC003. See public batch provenance.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 19,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3091052,
+      "name": "Garlic-Buttered Planar Goo Pie",
+      "tradeskill": 60,
+      "skillneeded": 0,
+      "trivial": 362,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "RoF; EQTC article560; RRC003. See public batch provenance.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 19,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3091053,
+      "name": "Garlic-Buttered Planar Goo Sandwich",
+      "tradeskill": 60,
+      "skillneeded": 0,
+      "trivial": 275,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "RoF; EQTC article560; RRC003. See public batch provenance.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 19,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3091054,
+      "name": "Garlic-Buttered Planar Goo Souffle",
+      "tradeskill": 60,
+      "skillneeded": 0,
+      "trivial": 382,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "RoF; EQTC article560; RRC003. See public batch provenance.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 19,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3091055,
+      "name": "Garlic-Buttered Planar Goo Soup",
+      "tradeskill": 60,
+      "skillneeded": 0,
+      "trivial": 302,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "RoF; EQTC article560; RRC003. See public batch provenance.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 19,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3091056,
+      "name": "Garlic-Buttered Planar Goo Steaks",
+      "tradeskill": 60,
+      "skillneeded": 0,
+      "trivial": 348,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "RoF; EQTC article560; RRC003. See public batch provenance.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 19,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3091057,
+      "name": "Garlic-Buttered Planar Goo Stew",
+      "tradeskill": 60,
+      "skillneeded": 0,
+      "trivial": 288,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "RoF; EQTC article560; RRC003. See public batch provenance.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 19,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3091058,
+      "name": "Grilled Planar Goo",
+      "tradeskill": 60,
+      "skillneeded": 0,
+      "trivial": 155,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "RoF; EQTC article560; RRC003. See public batch provenance.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 19,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3091059,
+      "name": "Grilled Planar Goo Jerky",
+      "tradeskill": 60,
+      "skillneeded": 0,
+      "trivial": 302,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "RoF; EQTC article560; RRC003. See public batch provenance.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 19,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3091060,
+      "name": "Grilled Planar Goo Kabobs",
+      "tradeskill": 60,
+      "skillneeded": 0,
+      "trivial": 315,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "RoF; EQTC article560; RRC003. See public batch provenance.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 19,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3091061,
+      "name": "Grilled Planar Goo Pie",
+      "tradeskill": 60,
+      "skillneeded": 0,
+      "trivial": 342,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "RoF; EQTC article560; RRC003. See public batch provenance.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 19,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3091062,
+      "name": "Grilled Planar Goo Sandwich",
+      "tradeskill": 60,
+      "skillneeded": 0,
+      "trivial": 255,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "RoF; EQTC article560; RRC003. See public batch provenance.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 19,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3091063,
+      "name": "Grilled Planar Goo Souffle",
+      "tradeskill": 60,
+      "skillneeded": 0,
+      "trivial": 362,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "RoF; EQTC article560; RRC003. See public batch provenance.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 19,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3091064,
+      "name": "Grilled Planar Goo Soup",
+      "tradeskill": 60,
+      "skillneeded": 0,
+      "trivial": 282,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "RoF; EQTC article560; RRC003. See public batch provenance.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 19,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3091065,
+      "name": "Grilled Planar Goo Steaks",
+      "tradeskill": 60,
+      "skillneeded": 0,
+      "trivial": 328,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "RoF; EQTC article560; RRC003. See public batch provenance.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 19,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3091066,
+      "name": "Grilled Planar Goo Stew",
+      "tradeskill": 60,
+      "skillneeded": 0,
+      "trivial": 268,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "RoF; EQTC article560; RRC003. See public batch provenance.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 19,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3091067,
+      "name": "Lemon-Buttered Planar Goo",
+      "tradeskill": 60,
+      "skillneeded": 0,
+      "trivial": 182,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "RoF; EQTC article560; RRC003. See public batch provenance.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 19,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3091068,
+      "name": "Lemon-Buttered Planar Goo Jerky",
+      "tradeskill": 60,
+      "skillneeded": 0,
+      "trivial": 322,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "RoF; EQTC article560; RRC003. See public batch provenance.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 19,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3091069,
+      "name": "Lemon-Buttered Planar Goo Kabobs",
+      "tradeskill": 60,
+      "skillneeded": 0,
+      "trivial": 342,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "RoF; EQTC article560; RRC003. See public batch provenance.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 19,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3091070,
+      "name": "Lemon-Buttered Planar Goo Pie",
+      "tradeskill": 60,
+      "skillneeded": 0,
+      "trivial": 368,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "RoF; EQTC article560; RRC003. See public batch provenance.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 19,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3091071,
+      "name": "Lemon-Buttered Planar Goo Sandwich",
+      "tradeskill": 60,
+      "skillneeded": 0,
+      "trivial": 282,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "RoF; EQTC article560; RRC003. See public batch provenance.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 19,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3091072,
+      "name": "Lemon-Buttered Planar Goo Souffle",
+      "tradeskill": 60,
+      "skillneeded": 0,
+      "trivial": 382,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "RoF; EQTC article560; RRC003. See public batch provenance.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 19,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3091073,
+      "name": "Lemon-Buttered Planar Goo Soup",
+      "tradeskill": 60,
+      "skillneeded": 0,
+      "trivial": 308,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "RoF; EQTC article560; RRC003. See public batch provenance.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 19,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3091074,
+      "name": "Lemon-Buttered Planar Goo Steaks",
+      "tradeskill": 60,
+      "skillneeded": 0,
+      "trivial": 355,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "RoF; EQTC article560; RRC003. See public batch provenance.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 19,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3091075,
+      "name": "Lemon-Buttered Planar Goo Stew",
+      "tradeskill": 60,
+      "skillneeded": 0,
+      "trivial": 295,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "RoF; EQTC article560; RRC003. See public batch provenance.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 19,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3091076,
+      "name": "Smoked Planar Goo",
+      "tradeskill": 60,
+      "skillneeded": 0,
+      "trivial": 168,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "RoF; EQTC article560; RRC003. See public batch provenance.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 19,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3091077,
+      "name": "Smoked Planar Goo Jerky",
+      "tradeskill": 60,
+      "skillneeded": 0,
+      "trivial": 308,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "RoF; EQTC article560; RRC003. See public batch provenance.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 19,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3091078,
+      "name": "Smoked Planar Goo Kabobs",
+      "tradeskill": 60,
+      "skillneeded": 0,
+      "trivial": 322,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "RoF; EQTC article560; RRC003. See public batch provenance.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 19,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3091079,
+      "name": "Smoked Planar Goo Pie",
+      "tradeskill": 60,
+      "skillneeded": 0,
+      "trivial": 355,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "RoF; EQTC article560; RRC003. See public batch provenance.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 19,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3091080,
+      "name": "Smoked Planar Goo Sandwich",
+      "tradeskill": 60,
+      "skillneeded": 0,
+      "trivial": 262,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "RoF; EQTC article560; RRC003. See public batch provenance.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 19,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3091081,
+      "name": "Smoked Planar Goo Souffle",
+      "tradeskill": 60,
+      "skillneeded": 0,
+      "trivial": 368,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "RoF; EQTC article560; RRC003. See public batch provenance.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 19,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3091082,
+      "name": "Smoked Planar Goo Soup",
+      "tradeskill": 60,
+      "skillneeded": 0,
+      "trivial": 295,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "RoF; EQTC article560; RRC003. See public batch provenance.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 19,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3091083,
+      "name": "Smoked Planar Goo Steaks",
+      "tradeskill": 60,
+      "skillneeded": 0,
+      "trivial": 342,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "RoF; EQTC article560; RRC003. See public batch provenance.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 19,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3091084,
+      "name": "Smoked Planar Goo Stew",
+      "tradeskill": 60,
+      "skillneeded": 0,
+      "trivial": 282,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "RoF; EQTC article560; RRC003. See public batch provenance.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 19,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3091085,
+      "name": "Spiced Planar Goo",
+      "tradeskill": 60,
+      "skillneeded": 0,
+      "trivial": 162,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "RoF; EQTC article560; RRC003. See public batch provenance.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 19,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3091086,
+      "name": "Spiced Planar Goo Jerky",
+      "tradeskill": 60,
+      "skillneeded": 0,
+      "trivial": 302,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "RoF; EQTC article560; RRC003. See public batch provenance.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 19,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3091087,
+      "name": "Spiced Planar Goo Kabobs",
+      "tradeskill": 60,
+      "skillneeded": 0,
+      "trivial": 322,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "RoF; EQTC article560; RRC003. See public batch provenance.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 19,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3091088,
+      "name": "Spiced Planar Goo Pie",
+      "tradeskill": 60,
+      "skillneeded": 0,
+      "trivial": 348,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "RoF; EQTC article560; RRC003. See public batch provenance.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 19,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3091089,
+      "name": "Spiced Planar Goo Sandwich",
+      "tradeskill": 60,
+      "skillneeded": 0,
+      "trivial": 262,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "RoF; EQTC article560; RRC003. See public batch provenance.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 19,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3091090,
+      "name": "Spiced Planar Goo Souffle",
+      "tradeskill": 60,
+      "skillneeded": 0,
+      "trivial": 362,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "RoF; EQTC article560; RRC003. See public batch provenance.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 19,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3091091,
+      "name": "Spiced Planar Goo Soup",
+      "tradeskill": 60,
+      "skillneeded": 0,
+      "trivial": 288,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "RoF; EQTC article560; RRC003. See public batch provenance.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 19,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3091092,
+      "name": "Spiced Planar Goo Steaks",
+      "tradeskill": 60,
+      "skillneeded": 0,
+      "trivial": 335,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "RoF; EQTC article560; RRC003. See public batch provenance.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 19,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3091093,
+      "name": "Spiced Planar Goo Stew",
+      "tradeskill": 60,
+      "skillneeded": 0,
+      "trivial": 275,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "RoF; EQTC article560; RRC003. See public batch provenance.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 19,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    }
+  ],
+  "entries": [
+    {
+      "recipe_id": 3091030,
+      "item_id": 76357,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091030,
+      "item_id": 58272,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091030,
+      "item_id": 76404,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091030,
+      "item_id": 14,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3091031,
+      "item_id": 76358,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091031,
+      "item_id": 76357,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091031,
+      "item_id": 13427,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091031,
+      "item_id": 13431,
+      "successcount": 1,
+      "failcount": 1,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091031,
+      "item_id": 15,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3091032,
+      "item_id": 76359,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091032,
+      "item_id": 76357,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091032,
+      "item_id": 13427,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091032,
+      "item_id": 13430,
+      "successcount": 1,
+      "failcount": 1,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091032,
+      "item_id": 13419,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091032,
+      "item_id": 15,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3091033,
+      "item_id": 76360,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091033,
+      "item_id": 76357,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091033,
+      "item_id": 13087,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091033,
+      "item_id": 13193,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091033,
+      "item_id": 15961,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091033,
+      "item_id": 67741,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 2,
+      "salvagecount": 2,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091033,
+      "item_id": 13419,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091033,
+      "item_id": 15,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3091034,
+      "item_id": 76361,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091034,
+      "item_id": 76357,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091034,
+      "item_id": 13015,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091034,
+      "item_id": 15,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3091035,
+      "item_id": 76362,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091035,
+      "item_id": 76357,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091035,
+      "item_id": 13090,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091035,
+      "item_id": 67741,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 2,
+      "salvagecount": 2,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091035,
+      "item_id": 13419,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091035,
+      "item_id": 15,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3091036,
+      "item_id": 76363,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091036,
+      "item_id": 76357,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091036,
+      "item_id": 13427,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091036,
+      "item_id": 13432,
+      "successcount": 1,
+      "failcount": 1,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091036,
+      "item_id": 13006,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091036,
+      "item_id": 15,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3091037,
+      "item_id": 76364,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091037,
+      "item_id": 76357,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091037,
+      "item_id": 13427,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091037,
+      "item_id": 13425,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091037,
+      "item_id": 15,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3091038,
+      "item_id": 76365,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091038,
+      "item_id": 76357,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091038,
+      "item_id": 13432,
+      "successcount": 1,
+      "failcount": 1,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091038,
+      "item_id": 13419,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091038,
+      "item_id": 13006,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091038,
+      "item_id": 15,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3091039,
+      "item_id": 76366,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091039,
+      "item_id": 58268,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091039,
+      "item_id": 76404,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091039,
+      "item_id": 14,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3091040,
+      "item_id": 76367,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091040,
+      "item_id": 76366,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091040,
+      "item_id": 13427,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091040,
+      "item_id": 13431,
+      "successcount": 1,
+      "failcount": 1,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091040,
+      "item_id": 15,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3091041,
+      "item_id": 76368,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091041,
+      "item_id": 76366,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091041,
+      "item_id": 13427,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091041,
+      "item_id": 13430,
+      "successcount": 1,
+      "failcount": 1,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091041,
+      "item_id": 13419,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091041,
+      "item_id": 15,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3091042,
+      "item_id": 76369,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091042,
+      "item_id": 13087,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091042,
+      "item_id": 76366,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091042,
+      "item_id": 13193,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091042,
+      "item_id": 15961,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091042,
+      "item_id": 67741,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 2,
+      "salvagecount": 2,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091042,
+      "item_id": 13419,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091042,
+      "item_id": 15,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3091043,
+      "item_id": 76370,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091043,
+      "item_id": 76366,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091043,
+      "item_id": 13015,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091043,
+      "item_id": 15,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3091044,
+      "item_id": 76371,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091044,
+      "item_id": 76366,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091044,
+      "item_id": 13090,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091044,
+      "item_id": 67741,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 2,
+      "salvagecount": 2,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091044,
+      "item_id": 13419,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091044,
+      "item_id": 15,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3091045,
+      "item_id": 76372,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091045,
+      "item_id": 76366,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091045,
+      "item_id": 13427,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091045,
+      "item_id": 13432,
+      "successcount": 1,
+      "failcount": 1,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091045,
+      "item_id": 13006,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091045,
+      "item_id": 15,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3091046,
+      "item_id": 76373,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091046,
+      "item_id": 76366,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091046,
+      "item_id": 13427,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091046,
+      "item_id": 13425,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091046,
+      "item_id": 15,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3091047,
+      "item_id": 76374,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091047,
+      "item_id": 76366,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091047,
+      "item_id": 13432,
+      "successcount": 1,
+      "failcount": 1,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091047,
+      "item_id": 13419,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091047,
+      "item_id": 13006,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091047,
+      "item_id": 15,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3091048,
+      "item_id": 76376,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091048,
+      "item_id": 76404,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091048,
+      "item_id": 14,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3091049,
+      "item_id": 76377,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091049,
+      "item_id": 58269,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091049,
+      "item_id": 76404,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091049,
+      "item_id": 14,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3091050,
+      "item_id": 76378,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091050,
+      "item_id": 76377,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091050,
+      "item_id": 13427,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091050,
+      "item_id": 13431,
+      "successcount": 1,
+      "failcount": 1,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091050,
+      "item_id": 15,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3091051,
+      "item_id": 76379,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091051,
+      "item_id": 76377,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091051,
+      "item_id": 13427,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091051,
+      "item_id": 13430,
+      "successcount": 1,
+      "failcount": 1,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091051,
+      "item_id": 13419,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091051,
+      "item_id": 15,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3091052,
+      "item_id": 76380,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091052,
+      "item_id": 13087,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091052,
+      "item_id": 13193,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091052,
+      "item_id": 15961,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091052,
+      "item_id": 67741,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 2,
+      "salvagecount": 2,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091052,
+      "item_id": 76377,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091052,
+      "item_id": 13419,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091052,
+      "item_id": 15,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3091053,
+      "item_id": 76381,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091053,
+      "item_id": 76377,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091053,
+      "item_id": 13015,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091053,
+      "item_id": 15,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3091054,
+      "item_id": 76382,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091054,
+      "item_id": 13090,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091054,
+      "item_id": 67741,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 2,
+      "salvagecount": 2,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091054,
+      "item_id": 76377,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091054,
+      "item_id": 13419,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091054,
+      "item_id": 15,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3091055,
+      "item_id": 76383,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091055,
+      "item_id": 76377,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091055,
+      "item_id": 13427,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091055,
+      "item_id": 13432,
+      "successcount": 1,
+      "failcount": 1,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091055,
+      "item_id": 13006,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091055,
+      "item_id": 15,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3091056,
+      "item_id": 76384,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091056,
+      "item_id": 76377,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091056,
+      "item_id": 13427,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091056,
+      "item_id": 13425,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091056,
+      "item_id": 15,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3091057,
+      "item_id": 76385,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091057,
+      "item_id": 76377,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091057,
+      "item_id": 13432,
+      "successcount": 1,
+      "failcount": 1,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091057,
+      "item_id": 13419,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091057,
+      "item_id": 13006,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091057,
+      "item_id": 15,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3091058,
+      "item_id": 76386,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091058,
+      "item_id": 58265,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091058,
+      "item_id": 76404,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091058,
+      "item_id": 14,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3091059,
+      "item_id": 76387,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091059,
+      "item_id": 76386,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091059,
+      "item_id": 13427,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091059,
+      "item_id": 13431,
+      "successcount": 1,
+      "failcount": 1,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091059,
+      "item_id": 15,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3091060,
+      "item_id": 76388,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091060,
+      "item_id": 76386,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091060,
+      "item_id": 13427,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091060,
+      "item_id": 13430,
+      "successcount": 1,
+      "failcount": 1,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091060,
+      "item_id": 13419,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091060,
+      "item_id": 15,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3091061,
+      "item_id": 76389,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091061,
+      "item_id": 13087,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091061,
+      "item_id": 13193,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091061,
+      "item_id": 15961,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091061,
+      "item_id": 67741,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 2,
+      "salvagecount": 2,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091061,
+      "item_id": 76386,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091061,
+      "item_id": 13419,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091061,
+      "item_id": 15,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3091062,
+      "item_id": 76390,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091062,
+      "item_id": 76386,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091062,
+      "item_id": 13015,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091062,
+      "item_id": 15,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3091063,
+      "item_id": 76391,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091063,
+      "item_id": 13090,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091063,
+      "item_id": 67741,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 2,
+      "salvagecount": 2,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091063,
+      "item_id": 76386,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091063,
+      "item_id": 13419,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091063,
+      "item_id": 15,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3091064,
+      "item_id": 76392,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091064,
+      "item_id": 76386,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091064,
+      "item_id": 13427,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091064,
+      "item_id": 13432,
+      "successcount": 1,
+      "failcount": 1,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091064,
+      "item_id": 13006,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091064,
+      "item_id": 15,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3091065,
+      "item_id": 76393,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091065,
+      "item_id": 76386,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091065,
+      "item_id": 13427,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091065,
+      "item_id": 13425,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091065,
+      "item_id": 15,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3091066,
+      "item_id": 76394,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091066,
+      "item_id": 76386,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091066,
+      "item_id": 13432,
+      "successcount": 1,
+      "failcount": 1,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091066,
+      "item_id": 13419,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091066,
+      "item_id": 13006,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091066,
+      "item_id": 15,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3091067,
+      "item_id": 76395,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091067,
+      "item_id": 58270,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091067,
+      "item_id": 76404,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091067,
+      "item_id": 14,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3091068,
+      "item_id": 76396,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091068,
+      "item_id": 13427,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091068,
+      "item_id": 76395,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091068,
+      "item_id": 13431,
+      "successcount": 1,
+      "failcount": 1,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091068,
+      "item_id": 15,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3091069,
+      "item_id": 76397,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091069,
+      "item_id": 13427,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091069,
+      "item_id": 76395,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091069,
+      "item_id": 13430,
+      "successcount": 1,
+      "failcount": 1,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091069,
+      "item_id": 13419,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091069,
+      "item_id": 15,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3091070,
+      "item_id": 76398,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091070,
+      "item_id": 13087,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091070,
+      "item_id": 13193,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091070,
+      "item_id": 15961,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091070,
+      "item_id": 67741,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 2,
+      "salvagecount": 2,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091070,
+      "item_id": 76395,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091070,
+      "item_id": 13419,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091070,
+      "item_id": 15,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3091071,
+      "item_id": 76399,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091071,
+      "item_id": 76395,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091071,
+      "item_id": 13015,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091071,
+      "item_id": 15,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3091072,
+      "item_id": 76400,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091072,
+      "item_id": 13090,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091072,
+      "item_id": 67741,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 2,
+      "salvagecount": 2,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091072,
+      "item_id": 76395,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091072,
+      "item_id": 13419,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091072,
+      "item_id": 15,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3091073,
+      "item_id": 76401,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091073,
+      "item_id": 13427,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091073,
+      "item_id": 76395,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091073,
+      "item_id": 13432,
+      "successcount": 1,
+      "failcount": 1,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091073,
+      "item_id": 13006,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091073,
+      "item_id": 15,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3091074,
+      "item_id": 76402,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091074,
+      "item_id": 13427,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091074,
+      "item_id": 76395,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091074,
+      "item_id": 13425,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091074,
+      "item_id": 15,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3091075,
+      "item_id": 76403,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091075,
+      "item_id": 76395,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091075,
+      "item_id": 13432,
+      "successcount": 1,
+      "failcount": 1,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091075,
+      "item_id": 13419,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091075,
+      "item_id": 13006,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091075,
+      "item_id": 15,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3091076,
+      "item_id": 76405,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091076,
+      "item_id": 76404,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091076,
+      "item_id": 13431,
+      "successcount": 1,
+      "failcount": 1,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091076,
+      "item_id": 58267,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091076,
+      "item_id": 14,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3091077,
+      "item_id": 76406,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091077,
+      "item_id": 13427,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091077,
+      "item_id": 76405,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091077,
+      "item_id": 13431,
+      "successcount": 1,
+      "failcount": 1,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091077,
+      "item_id": 15,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3091078,
+      "item_id": 76407,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091078,
+      "item_id": 13427,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091078,
+      "item_id": 13430,
+      "successcount": 1,
+      "failcount": 1,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091078,
+      "item_id": 76405,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091078,
+      "item_id": 13419,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091078,
+      "item_id": 15,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3091079,
+      "item_id": 76408,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091079,
+      "item_id": 13087,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091079,
+      "item_id": 13193,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091079,
+      "item_id": 15961,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091079,
+      "item_id": 67741,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 2,
+      "salvagecount": 2,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091079,
+      "item_id": 76405,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091079,
+      "item_id": 13419,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091079,
+      "item_id": 15,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3091080,
+      "item_id": 76409,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091080,
+      "item_id": 13015,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091080,
+      "item_id": 76405,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091080,
+      "item_id": 15,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3091081,
+      "item_id": 76410,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091081,
+      "item_id": 13090,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091081,
+      "item_id": 67741,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 2,
+      "salvagecount": 2,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091081,
+      "item_id": 76405,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091081,
+      "item_id": 13419,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091081,
+      "item_id": 15,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3091082,
+      "item_id": 76411,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091082,
+      "item_id": 13427,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091082,
+      "item_id": 13432,
+      "successcount": 1,
+      "failcount": 1,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091082,
+      "item_id": 76405,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091082,
+      "item_id": 13006,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091082,
+      "item_id": 15,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3091083,
+      "item_id": 76412,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091083,
+      "item_id": 13427,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091083,
+      "item_id": 76405,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091083,
+      "item_id": 13425,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091083,
+      "item_id": 15,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3091084,
+      "item_id": 76413,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091084,
+      "item_id": 13432,
+      "successcount": 1,
+      "failcount": 1,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091084,
+      "item_id": 76405,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091084,
+      "item_id": 13419,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091084,
+      "item_id": 13006,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091084,
+      "item_id": 15,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3091085,
+      "item_id": 76414,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091085,
+      "item_id": 76404,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091085,
+      "item_id": 58266,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091085,
+      "item_id": 14,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3091086,
+      "item_id": 76415,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091086,
+      "item_id": 13427,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091086,
+      "item_id": 13431,
+      "successcount": 1,
+      "failcount": 1,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091086,
+      "item_id": 76414,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091086,
+      "item_id": 15,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3091087,
+      "item_id": 76416,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091087,
+      "item_id": 13427,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091087,
+      "item_id": 13430,
+      "successcount": 1,
+      "failcount": 1,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091087,
+      "item_id": 76414,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091087,
+      "item_id": 13419,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091087,
+      "item_id": 15,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3091088,
+      "item_id": 76417,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091088,
+      "item_id": 13087,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091088,
+      "item_id": 13193,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091088,
+      "item_id": 15961,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091088,
+      "item_id": 67741,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 2,
+      "salvagecount": 2,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091088,
+      "item_id": 76414,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091088,
+      "item_id": 13419,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091088,
+      "item_id": 15,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3091089,
+      "item_id": 76418,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091089,
+      "item_id": 13015,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091089,
+      "item_id": 76414,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091089,
+      "item_id": 15,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3091090,
+      "item_id": 76419,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091090,
+      "item_id": 13090,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091090,
+      "item_id": 67741,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 2,
+      "salvagecount": 2,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091090,
+      "item_id": 76414,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091090,
+      "item_id": 13419,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091090,
+      "item_id": 15,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3091091,
+      "item_id": 76420,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091091,
+      "item_id": 13427,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091091,
+      "item_id": 13432,
+      "successcount": 1,
+      "failcount": 1,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091091,
+      "item_id": 76414,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091091,
+      "item_id": 13006,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091091,
+      "item_id": 15,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3091092,
+      "item_id": 76421,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091092,
+      "item_id": 13427,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091092,
+      "item_id": 76414,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091092,
+      "item_id": 13425,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091092,
+      "item_id": 15,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3091093,
+      "item_id": 76422,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091093,
+      "item_id": 13432,
+      "successcount": 1,
+      "failcount": 1,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091093,
+      "item_id": 76414,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091093,
+      "item_id": 13419,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091093,
+      "item_id": 13006,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3091093,
+      "item_id": 15,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    }
+  ],
+  "source_facts": [
+    {
+      "name": "Beer-Braised Planar Goo",
+      "tradeskill": 60,
+      "expansion": "Rain of Fear",
+      "source_line_start": 291,
+      "source_line_end": 302,
+      "ingredients": [
+        {
+          "name": "Beer Braising Sauce",
+          "count": 1
+        },
+        {
+          "name": "Prepared Planar Goo",
+          "count": 1
+        }
+      ],
+      "containers": [
+        {
+          "name": "Mixing Bowl (Portable)",
+          "count": 1
+        },
+        {
+          "name": "Collapsible Mixing Bowl",
+          "count": 1
+        },
+        {
+          "name": "Mixing Bowl (Placeable)",
+          "count": 1
+        },
+        {
+          "name": "Guild Mixing Bowl (Placeable)",
+          "count": 1
+        }
+      ],
+      "yield": 1,
+      "also_returns": [],
+      "failure_returns": [],
+      "trivial": 195,
+      "nofail": false,
+      "required_skill": 0,
+      "notes": "EQRecipeID: 49088  195",
+      "recipe_id": 3091030,
+      "output_item_id": 76357,
+      "container_bagtype": 14
+    },
+    {
+      "name": "Beer-Braised Planar Goo Jerky",
+      "tradeskill": 60,
+      "expansion": "Rain of Fear",
+      "source_line_start": 303,
+      "source_line_end": 316,
+      "ingredients": [
+        {
+          "name": "Beer-Braised Planar Goo",
+          "count": 1
+        },
+        {
+          "name": "Jug of Sauces",
+          "count": 1
+        },
+        {
+          "name": "Smoker",
+          "count": 1
+        }
+      ],
+      "containers": [
+        {
+          "name": "Oven (Stationary)",
+          "count": 1
+        },
+        {
+          "name": "Tanaan Oven (Stationary)",
+          "count": 1
+        },
+        {
+          "name": "Oven (Placeable)",
+          "count": 1
+        },
+        {
+          "name": "Guild Oven (Placeable)",
+          "count": 1
+        }
+      ],
+      "yield": 1,
+      "also_returns": [
+        {
+          "name": "Smoker",
+          "count": 1
+        }
+      ],
+      "failure_returns": [
+        {
+          "name": "Smoker",
+          "count": 1
+        }
+      ],
+      "trivial": 335,
+      "nofail": false,
+      "required_skill": 0,
+      "notes": null,
+      "recipe_id": 3091031,
+      "output_item_id": 76358,
+      "container_bagtype": 15
+    },
+    {
+      "name": "Beer-Braised Planar Goo Kabobs",
+      "tradeskill": 60,
+      "expansion": "Rain of Fear",
+      "source_line_start": 317,
+      "source_line_end": 330,
+      "ingredients": [
+        {
+          "name": "Beer-Braised Planar Goo",
+          "count": 1
+        },
+        {
+          "name": "Jug of Sauces",
+          "count": 1
+        },
+        {
+          "name": "Skewers",
+          "count": 1
+        },
+        {
+          "name": "Vegetables",
+          "count": 1
+        }
+      ],
+      "containers": [
+        {
+          "name": "Oven (Stationary)",
+          "count": 1
+        },
+        {
+          "name": "Tanaan Oven (Stationary)",
+          "count": 1
+        },
+        {
+          "name": "Oven (Placeable)",
+          "count": 1
+        },
+        {
+          "name": "Guild Oven (Placeable)",
+          "count": 1
+        }
+      ],
+      "yield": 1,
+      "also_returns": [
+        {
+          "name": "Skewers",
+          "count": 1
+        }
+      ],
+      "failure_returns": [
+        {
+          "name": "Skewers",
+          "count": 1
+        }
+      ],
+      "trivial": 348,
+      "nofail": false,
+      "required_skill": 0,
+      "notes": null,
+      "recipe_id": 3091032,
+      "output_item_id": 76359,
+      "container_bagtype": 15
+    },
+    {
+      "name": "Beer-Braised Planar Goo Pie",
+      "tradeskill": 60,
+      "expansion": "Rain of Fear",
+      "source_line_start": 331,
+      "source_line_end": 342,
+      "ingredients": [
+        {
+          "name": "Beer-Braised Planar Goo",
+          "count": 1
+        },
+        {
+          "name": "Bottle of Milk",
+          "count": 1
+        },
+        {
+          "name": "Cup of Flour",
+          "count": 1
+        },
+        {
+          "name": "Cup of Sugar",
+          "count": 1
+        },
+        {
+          "name": "Egg Batter",
+          "count": 2
+        },
+        {
+          "name": "Vegetables",
+          "count": 1
+        }
+      ],
+      "containers": [
+        {
+          "name": "Oven (Stationary)",
+          "count": 1
+        },
+        {
+          "name": "Tanaan Oven (Stationary)",
+          "count": 1
+        },
+        {
+          "name": "Oven (Placeable)",
+          "count": 1
+        },
+        {
+          "name": "Guild Oven (Placeable)",
+          "count": 1
+        }
+      ],
+      "yield": 1,
+      "also_returns": [],
+      "failure_returns": [],
+      "trivial": 382,
+      "nofail": false,
+      "required_skill": 0,
+      "notes": null,
+      "recipe_id": 3091033,
+      "output_item_id": 76360,
+      "container_bagtype": 15
+    },
+    {
+      "name": "Beer-Braised Planar Goo Sandwich",
+      "tradeskill": 60,
+      "expansion": "Rain of Fear",
+      "source_line_start": 343,
+      "source_line_end": 354,
+      "ingredients": [
+        {
+          "name": "Beer-Braised Planar Goo",
+          "count": 1
+        },
+        {
+          "name": "Loaf of Bread",
+          "count": 1
+        }
+      ],
+      "containers": [
+        {
+          "name": "Oven (Stationary)",
+          "count": 1
+        },
+        {
+          "name": "Tanaan Oven (Stationary)",
+          "count": 1
+        },
+        {
+          "name": "Oven (Placeable)",
+          "count": 1
+        },
+        {
+          "name": "Guild Oven (Placeable)",
+          "count": 1
+        }
+      ],
+      "yield": 1,
+      "also_returns": [],
+      "failure_returns": [],
+      "trivial": 288,
+      "nofail": false,
+      "required_skill": 0,
+      "notes": null,
+      "recipe_id": 3091034,
+      "output_item_id": 76361,
+      "container_bagtype": 15
+    },
+    {
+      "name": "Beer-Braised Planar Goo Souffle",
+      "tradeskill": 60,
+      "expansion": "Rain of Fear",
+      "source_line_start": 355,
+      "source_line_end": 366,
+      "ingredients": [
+        {
+          "name": "Beer-Braised Planar Goo",
+          "count": 1
+        },
+        {
+          "name": "Clump of Dough",
+          "count": 1
+        },
+        {
+          "name": "Egg Batter",
+          "count": 2
+        },
+        {
+          "name": "Vegetables",
+          "count": 1
+        }
+      ],
+      "containers": [
+        {
+          "name": "Oven (Stationary)",
+          "count": 1
+        },
+        {
+          "name": "Tanaan Oven (Stationary)",
+          "count": 1
+        },
+        {
+          "name": "Oven (Placeable)",
+          "count": 1
+        },
+        {
+          "name": "Guild Oven (Placeable)",
+          "count": 1
+        }
+      ],
+      "yield": 1,
+      "also_returns": [],
+      "failure_returns": [],
+      "trivial": 395,
+      "nofail": false,
+      "required_skill": 0,
+      "notes": null,
+      "recipe_id": 3091035,
+      "output_item_id": 76362,
+      "container_bagtype": 15
+    },
+    {
+      "name": "Beer-Braised Planar Goo Soup",
+      "tradeskill": 60,
+      "expansion": "Rain of Fear",
+      "source_line_start": 367,
+      "source_line_end": 380,
+      "ingredients": [
+        {
+          "name": "Beer-Braised Planar Goo",
+          "count": 1
+        },
+        {
+          "name": "Jug of Sauces",
+          "count": 1
+        },
+        {
+          "name": "Pot",
+          "count": 1
+        },
+        {
+          "name": "Water Flask",
+          "count": 1
+        }
+      ],
+      "containers": [
+        {
+          "name": "Oven (Stationary)",
+          "count": 1
+        },
+        {
+          "name": "Tanaan Oven (Stationary)",
+          "count": 1
+        },
+        {
+          "name": "Oven (Placeable)",
+          "count": 1
+        },
+        {
+          "name": "Guild Oven (Placeable)",
+          "count": 1
+        }
+      ],
+      "yield": 1,
+      "also_returns": [
+        {
+          "name": "Pot",
+          "count": 1
+        }
+      ],
+      "failure_returns": [
+        {
+          "name": "Pot",
+          "count": 1
+        }
+      ],
+      "trivial": 322,
+      "nofail": false,
+      "required_skill": 0,
+      "notes": null,
+      "recipe_id": 3091036,
+      "output_item_id": 76363,
+      "container_bagtype": 15
+    },
+    {
+      "name": "Beer-Braised Planar Goo Steaks",
+      "tradeskill": 60,
+      "expansion": "Rain of Fear",
+      "source_line_start": 381,
+      "source_line_end": 392,
+      "ingredients": [
+        {
+          "name": "Beer-Braised Planar Goo",
+          "count": 1
+        },
+        {
+          "name": "Jug of Sauces",
+          "count": 1
+        },
+        {
+          "name": "Spices",
+          "count": 1
+        }
+      ],
+      "containers": [
+        {
+          "name": "Oven (Stationary)",
+          "count": 1
+        },
+        {
+          "name": "Tanaan Oven (Stationary)",
+          "count": 1
+        },
+        {
+          "name": "Oven (Placeable)",
+          "count": 1
+        },
+        {
+          "name": "Guild Oven (Placeable)",
+          "count": 1
+        }
+      ],
+      "yield": 1,
+      "also_returns": [],
+      "failure_returns": [],
+      "trivial": 362,
+      "nofail": false,
+      "required_skill": 0,
+      "notes": null,
+      "recipe_id": 3091037,
+      "output_item_id": 76364,
+      "container_bagtype": 15
+    },
+    {
+      "name": "Beer-Braised Planar Goo Stew",
+      "tradeskill": 60,
+      "expansion": "Rain of Fear",
+      "source_line_start": 393,
+      "source_line_end": 406,
+      "ingredients": [
+        {
+          "name": "Beer-Braised Planar Goo",
+          "count": 1
+        },
+        {
+          "name": "Pot",
+          "count": 1
+        },
+        {
+          "name": "Vegetables",
+          "count": 1
+        },
+        {
+          "name": "Water Flask",
+          "count": 1
+        }
+      ],
+      "containers": [
+        {
+          "name": "Oven (Stationary)",
+          "count": 1
+        },
+        {
+          "name": "Tanaan Oven (Stationary)",
+          "count": 1
+        },
+        {
+          "name": "Oven (Placeable)",
+          "count": 1
+        },
+        {
+          "name": "Guild Oven (Placeable)",
+          "count": 1
+        }
+      ],
+      "yield": 1,
+      "also_returns": [
+        {
+          "name": "Pot",
+          "count": 1
+        }
+      ],
+      "failure_returns": [
+        {
+          "name": "Pot",
+          "count": 1
+        }
+      ],
+      "trivial": 302,
+      "nofail": false,
+      "required_skill": 0,
+      "notes": null,
+      "recipe_id": 3091038,
+      "output_item_id": 76365,
+      "container_bagtype": 15
+    },
+    {
+      "name": "Buttered Planar Goo",
+      "tradeskill": 60,
+      "expansion": "Rain of Fear",
+      "source_line_start": 407,
+      "source_line_end": 419,
+      "ingredients": [
+        {
+          "name": "Butter Sauce",
+          "count": 1
+        },
+        {
+          "name": "Prepared Planar Goo",
+          "count": 1
+        }
+      ],
+      "containers": [
+        {
+          "name": "Mixing Bowl (Portable)",
+          "count": 1
+        },
+        {
+          "name": "Collapsible Mixing Bowl",
+          "count": 1
+        },
+        {
+          "name": "Mixing Bowl (Placeable)",
+          "count": 1
+        },
+        {
+          "name": "Guild Mixing Bowl (Placeable)",
+          "count": 1
+        }
+      ],
+      "yield": 1,
+      "also_returns": [],
+      "failure_returns": [],
+      "trivial": 175,
+      "nofail": false,
+      "required_skill": 0,
+      "notes": "EQRecipeID: 49097  175",
+      "recipe_id": 3091039,
+      "output_item_id": 76366,
+      "container_bagtype": 14
+    },
+    {
+      "name": "Buttered Planar Goo Jerky",
+      "tradeskill": 60,
+      "expansion": "Rain of Fear",
+      "source_line_start": 420,
+      "source_line_end": 433,
+      "ingredients": [
+        {
+          "name": "Buttered Planar Goo",
+          "count": 1
+        },
+        {
+          "name": "Jug of Sauces",
+          "count": 1
+        },
+        {
+          "name": "Smoker",
+          "count": 1
+        }
+      ],
+      "containers": [
+        {
+          "name": "Oven (Stationary)",
+          "count": 1
+        },
+        {
+          "name": "Tanaan Oven (Stationary)",
+          "count": 1
+        },
+        {
+          "name": "Oven (Placeable)",
+          "count": 1
+        },
+        {
+          "name": "Guild Oven (Placeable)",
+          "count": 1
+        }
+      ],
+      "yield": 1,
+      "also_returns": [
+        {
+          "name": "Smoker",
+          "count": 1
+        }
+      ],
+      "failure_returns": [
+        {
+          "name": "Smoker",
+          "count": 1
+        }
+      ],
+      "trivial": 315,
+      "nofail": false,
+      "required_skill": 0,
+      "notes": null,
+      "recipe_id": 3091040,
+      "output_item_id": 76367,
+      "container_bagtype": 15
+    },
+    {
+      "name": "Buttered Planar Goo Kabobs",
+      "tradeskill": 60,
+      "expansion": "Rain of Fear",
+      "source_line_start": 434,
+      "source_line_end": 447,
+      "ingredients": [
+        {
+          "name": "Buttered Planar Goo",
+          "count": 1
+        },
+        {
+          "name": "Jug of Sauces",
+          "count": 1
+        },
+        {
+          "name": "Skewers",
+          "count": 1
+        },
+        {
+          "name": "Vegetables",
+          "count": 1
+        }
+      ],
+      "containers": [
+        {
+          "name": "Oven (Stationary)",
+          "count": 1
+        },
+        {
+          "name": "Tanaan Oven (Stationary)",
+          "count": 1
+        },
+        {
+          "name": "Oven (Placeable)",
+          "count": 1
+        },
+        {
+          "name": "Guild Oven (Placeable)",
+          "count": 1
+        }
+      ],
+      "yield": 1,
+      "also_returns": [
+        {
+          "name": "Skewers",
+          "count": 1
+        }
+      ],
+      "failure_returns": [
+        {
+          "name": "Skewers",
+          "count": 1
+        }
+      ],
+      "trivial": 328,
+      "nofail": false,
+      "required_skill": 0,
+      "notes": null,
+      "recipe_id": 3091041,
+      "output_item_id": 76368,
+      "container_bagtype": 15
+    },
+    {
+      "name": "Buttered Planar Goo Pie",
+      "tradeskill": 60,
+      "expansion": "Rain of Fear",
+      "source_line_start": 448,
+      "source_line_end": 459,
+      "ingredients": [
+        {
+          "name": "Bottle of Milk",
+          "count": 1
+        },
+        {
+          "name": "Buttered Planar Goo",
+          "count": 1
+        },
+        {
+          "name": "Cup of Flour",
+          "count": 1
+        },
+        {
+          "name": "Cup of Sugar",
+          "count": 1
+        },
+        {
+          "name": "Egg Batter",
+          "count": 2
+        },
+        {
+          "name": "Vegetables",
+          "count": 1
+        }
+      ],
+      "containers": [
+        {
+          "name": "Oven (Stationary)",
+          "count": 1
+        },
+        {
+          "name": "Tanaan Oven (Stationary)",
+          "count": 1
+        },
+        {
+          "name": "Oven (Placeable)",
+          "count": 1
+        },
+        {
+          "name": "Guild Oven (Placeable)",
+          "count": 1
+        }
+      ],
+      "yield": 1,
+      "also_returns": [],
+      "failure_returns": [],
+      "trivial": 362,
+      "nofail": false,
+      "required_skill": 0,
+      "notes": null,
+      "recipe_id": 3091042,
+      "output_item_id": 76369,
+      "container_bagtype": 15
+    },
+    {
+      "name": "Buttered Planar Goo Sandwich",
+      "tradeskill": 60,
+      "expansion": "Rain of Fear",
+      "source_line_start": 460,
+      "source_line_end": 471,
+      "ingredients": [
+        {
+          "name": "Buttered Planar Goo",
+          "count": 1
+        },
+        {
+          "name": "Loaf of Bread",
+          "count": 1
+        }
+      ],
+      "containers": [
+        {
+          "name": "Oven (Stationary)",
+          "count": 1
+        },
+        {
+          "name": "Tanaan Oven (Stationary)",
+          "count": 1
+        },
+        {
+          "name": "Oven (Placeable)",
+          "count": 1
+        },
+        {
+          "name": "Guild Oven (Placeable)",
+          "count": 1
+        }
+      ],
+      "yield": 1,
+      "also_returns": [],
+      "failure_returns": [],
+      "trivial": 268,
+      "nofail": false,
+      "required_skill": 0,
+      "notes": null,
+      "recipe_id": 3091043,
+      "output_item_id": 76370,
+      "container_bagtype": 15
+    },
+    {
+      "name": "Buttered Planar Goo Souffle",
+      "tradeskill": 60,
+      "expansion": "Rain of Fear",
+      "source_line_start": 472,
+      "source_line_end": 483,
+      "ingredients": [
+        {
+          "name": "Buttered Planar Goo",
+          "count": 1
+        },
+        {
+          "name": "Clump of Dough",
+          "count": 1
+        },
+        {
+          "name": "Egg Batter",
+          "count": 2
+        },
+        {
+          "name": "Vegetables",
+          "count": 1
+        }
+      ],
+      "containers": [
+        {
+          "name": "Oven (Stationary)",
+          "count": 1
+        },
+        {
+          "name": "Tanaan Oven (Stationary)",
+          "count": 1
+        },
+        {
+          "name": "Oven (Placeable)",
+          "count": 1
+        },
+        {
+          "name": "Guild Oven (Placeable)",
+          "count": 1
+        }
+      ],
+      "yield": 1,
+      "also_returns": [],
+      "failure_returns": [],
+      "trivial": 375,
+      "nofail": false,
+      "required_skill": 0,
+      "notes": null,
+      "recipe_id": 3091044,
+      "output_item_id": 76371,
+      "container_bagtype": 15
+    },
+    {
+      "name": "Buttered Planar Goo Soup",
+      "tradeskill": 60,
+      "expansion": "Rain of Fear",
+      "source_line_start": 484,
+      "source_line_end": 497,
+      "ingredients": [
+        {
+          "name": "Buttered Planar Goo",
+          "count": 1
+        },
+        {
+          "name": "Jug of Sauces",
+          "count": 1
+        },
+        {
+          "name": "Pot",
+          "count": 1
+        },
+        {
+          "name": "Water Flask",
+          "count": 1
+        }
+      ],
+      "containers": [
+        {
+          "name": "Oven (Stationary)",
+          "count": 1
+        },
+        {
+          "name": "Tanaan Oven (Stationary)",
+          "count": 1
+        },
+        {
+          "name": "Oven (Placeable)",
+          "count": 1
+        },
+        {
+          "name": "Guild Oven (Placeable)",
+          "count": 1
+        }
+      ],
+      "yield": 1,
+      "also_returns": [
+        {
+          "name": "Pot",
+          "count": 1
+        }
+      ],
+      "failure_returns": [
+        {
+          "name": "Pot",
+          "count": 1
+        }
+      ],
+      "trivial": 302,
+      "nofail": false,
+      "required_skill": 0,
+      "notes": null,
+      "recipe_id": 3091045,
+      "output_item_id": 76372,
+      "container_bagtype": 15
+    },
+    {
+      "name": "Buttered Planar Goo Steaks",
+      "tradeskill": 60,
+      "expansion": "Rain of Fear",
+      "source_line_start": 498,
+      "source_line_end": 509,
+      "ingredients": [
+        {
+          "name": "Buttered Planar Goo",
+          "count": 1
+        },
+        {
+          "name": "Jug of Sauces",
+          "count": 1
+        },
+        {
+          "name": "Spices",
+          "count": 1
+        }
+      ],
+      "containers": [
+        {
+          "name": "Oven (Stationary)",
+          "count": 1
+        },
+        {
+          "name": "Tanaan Oven (Stationary)",
+          "count": 1
+        },
+        {
+          "name": "Oven (Placeable)",
+          "count": 1
+        },
+        {
+          "name": "Guild Oven (Placeable)",
+          "count": 1
+        }
+      ],
+      "yield": 1,
+      "also_returns": [],
+      "failure_returns": [],
+      "trivial": 342,
+      "nofail": false,
+      "required_skill": 0,
+      "notes": null,
+      "recipe_id": 3091046,
+      "output_item_id": 76373,
+      "container_bagtype": 15
+    },
+    {
+      "name": "Buttered Planar Goo Stew",
+      "tradeskill": 60,
+      "expansion": "Rain of Fear",
+      "source_line_start": 510,
+      "source_line_end": 523,
+      "ingredients": [
+        {
+          "name": "Buttered Planar Goo",
+          "count": 1
+        },
+        {
+          "name": "Pot",
+          "count": 1
+        },
+        {
+          "name": "Vegetables",
+          "count": 1
+        },
+        {
+          "name": "Water Flask",
+          "count": 1
+        }
+      ],
+      "containers": [
+        {
+          "name": "Oven (Stationary)",
+          "count": 1
+        },
+        {
+          "name": "Tanaan Oven (Stationary)",
+          "count": 1
+        },
+        {
+          "name": "Oven (Placeable)",
+          "count": 1
+        },
+        {
+          "name": "Guild Oven (Placeable)",
+          "count": 1
+        }
+      ],
+      "yield": 1,
+      "also_returns": [
+        {
+          "name": "Pot",
+          "count": 1
+        }
+      ],
+      "failure_returns": [
+        {
+          "name": "Pot",
+          "count": 1
+        }
+      ],
+      "trivial": 282,
+      "nofail": false,
+      "required_skill": 0,
+      "notes": null,
+      "recipe_id": 3091047,
+      "output_item_id": 76374,
+      "container_bagtype": 15
+    },
+    {
+      "name": "Dried Planar Goo",
+      "tradeskill": 60,
+      "expansion": "Rain of Fear",
+      "source_line_start": 564,
+      "source_line_end": 576,
+      "ingredients": [
+        {
+          "name": "Prepared Planar Goo",
+          "count": 1
+        }
+      ],
+      "containers": [
+        {
+          "name": "Mixing Bowl (Portable)",
+          "count": 1
+        },
+        {
+          "name": "Collapsible Mixing Bowl",
+          "count": 1
+        },
+        {
+          "name": "Mixing Bowl (Placeable)",
+          "count": 1
+        },
+        {
+          "name": "Guild Mixing Bowl (Placeable)",
+          "count": 1
+        }
+      ],
+      "yield": 1,
+      "also_returns": [],
+      "failure_returns": [],
+      "trivial": 148,
+      "nofail": false,
+      "required_skill": 0,
+      "notes": "EQRecipeID: 49107 148",
+      "recipe_id": 3091048,
+      "output_item_id": 76376,
+      "container_bagtype": 14
+    },
+    {
+      "name": "Garlic-Buttered Planar Goo",
+      "tradeskill": 60,
+      "expansion": "Rain of Fear",
+      "source_line_start": 588,
+      "source_line_end": 599,
+      "ingredients": [
+        {
+          "name": "Garlic-Butter Sauce",
+          "count": 1
+        },
+        {
+          "name": "Prepared Planar Goo",
+          "count": 1
+        }
+      ],
+      "containers": [
+        {
+          "name": "Mixing Bowl (Portable)",
+          "count": 1
+        },
+        {
+          "name": "Collapsible Mixing Bowl",
+          "count": 1
+        },
+        {
+          "name": "Mixing Bowl (Placeable)",
+          "count": 1
+        },
+        {
+          "name": "Guild Mixing Bowl (Placeable)",
+          "count": 1
+        }
+      ],
+      "yield": 1,
+      "also_returns": [],
+      "failure_returns": [],
+      "trivial": 175,
+      "nofail": false,
+      "required_skill": 0,
+      "notes": null,
+      "recipe_id": 3091049,
+      "output_item_id": 76377,
+      "container_bagtype": 14
+    },
+    {
+      "name": "Garlic-Buttered Planar Goo Jerky",
+      "tradeskill": 60,
+      "expansion": "Rain of Fear",
+      "source_line_start": 600,
+      "source_line_end": 613,
+      "ingredients": [
+        {
+          "name": "Garlic-Buttered Planar Goo",
+          "count": 1
+        },
+        {
+          "name": "Jug of Sauces",
+          "count": 1
+        },
+        {
+          "name": "Smoker",
+          "count": 1
+        }
+      ],
+      "containers": [
+        {
+          "name": "Oven (Stationary)",
+          "count": 1
+        },
+        {
+          "name": "Tanaan Oven (Stationary)",
+          "count": 1
+        },
+        {
+          "name": "Oven (Placeable)",
+          "count": 1
+        },
+        {
+          "name": "Guild Oven (Placeable)",
+          "count": 1
+        }
+      ],
+      "yield": 1,
+      "also_returns": [
+        {
+          "name": "Smoker",
+          "count": 1
+        }
+      ],
+      "failure_returns": [
+        {
+          "name": "Smoker",
+          "count": 1
+        }
+      ],
+      "trivial": 322,
+      "nofail": false,
+      "required_skill": 0,
+      "notes": null,
+      "recipe_id": 3091050,
+      "output_item_id": 76378,
+      "container_bagtype": 15
+    },
+    {
+      "name": "Garlic-Buttered Planar Goo Kabobs",
+      "tradeskill": 60,
+      "expansion": "Rain of Fear",
+      "source_line_start": 614,
+      "source_line_end": 627,
+      "ingredients": [
+        {
+          "name": "Garlic-Buttered Planar Goo",
+          "count": 1
+        },
+        {
+          "name": "Jug of Sauces",
+          "count": 1
+        },
+        {
+          "name": "Skewers",
+          "count": 1
+        },
+        {
+          "name": "Vegetables",
+          "count": 1
+        }
+      ],
+      "containers": [
+        {
+          "name": "Oven (Stationary)",
+          "count": 1
+        },
+        {
+          "name": "Tanaan Oven (Stationary)",
+          "count": 1
+        },
+        {
+          "name": "Oven (Placeable)",
+          "count": 1
+        },
+        {
+          "name": "Guild Oven (Placeable)",
+          "count": 1
+        }
+      ],
+      "yield": 1,
+      "also_returns": [
+        {
+          "name": "Skewers",
+          "count": 1
+        }
+      ],
+      "failure_returns": [
+        {
+          "name": "Skewers",
+          "count": 1
+        }
+      ],
+      "trivial": 335,
+      "nofail": false,
+      "required_skill": 0,
+      "notes": null,
+      "recipe_id": 3091051,
+      "output_item_id": 76379,
+      "container_bagtype": 15
+    },
+    {
+      "name": "Garlic-Buttered Planar Goo Pie",
+      "tradeskill": 60,
+      "expansion": "Rain of Fear",
+      "source_line_start": 628,
+      "source_line_end": 639,
+      "ingredients": [
+        {
+          "name": "Bottle of Milk",
+          "count": 1
+        },
+        {
+          "name": "Cup of Flour",
+          "count": 1
+        },
+        {
+          "name": "Cup of Sugar",
+          "count": 1
+        },
+        {
+          "name": "Egg Batter",
+          "count": 2
+        },
+        {
+          "name": "Garlic-Buttered Planar Goo",
+          "count": 1
+        },
+        {
+          "name": "Vegetables",
+          "count": 1
+        }
+      ],
+      "containers": [
+        {
+          "name": "Oven (Stationary)",
+          "count": 1
+        },
+        {
+          "name": "Tanaan Oven (Stationary)",
+          "count": 1
+        },
+        {
+          "name": "Oven (Placeable)",
+          "count": 1
+        },
+        {
+          "name": "Guild Oven (Placeable)",
+          "count": 1
+        }
+      ],
+      "yield": 1,
+      "also_returns": [],
+      "failure_returns": [],
+      "trivial": 362,
+      "nofail": false,
+      "required_skill": 0,
+      "notes": null,
+      "recipe_id": 3091052,
+      "output_item_id": 76380,
+      "container_bagtype": 15
+    },
+    {
+      "name": "Garlic-Buttered Planar Goo Sandwich",
+      "tradeskill": 60,
+      "expansion": "Rain of Fear",
+      "source_line_start": 640,
+      "source_line_end": 651,
+      "ingredients": [
+        {
+          "name": "Garlic-Buttered Planar Goo",
+          "count": 1
+        },
+        {
+          "name": "Loaf of Bread",
+          "count": 1
+        }
+      ],
+      "containers": [
+        {
+          "name": "Oven (Stationary)",
+          "count": 1
+        },
+        {
+          "name": "Tanaan Oven (Stationary)",
+          "count": 1
+        },
+        {
+          "name": "Oven (Placeable)",
+          "count": 1
+        },
+        {
+          "name": "Guild Oven (Placeable)",
+          "count": 1
+        }
+      ],
+      "yield": 1,
+      "also_returns": [],
+      "failure_returns": [],
+      "trivial": 275,
+      "nofail": false,
+      "required_skill": 0,
+      "notes": null,
+      "recipe_id": 3091053,
+      "output_item_id": 76381,
+      "container_bagtype": 15
+    },
+    {
+      "name": "Garlic-Buttered Planar Goo Souffle",
+      "tradeskill": 60,
+      "expansion": "Rain of Fear",
+      "source_line_start": 652,
+      "source_line_end": 663,
+      "ingredients": [
+        {
+          "name": "Clump of Dough",
+          "count": 1
+        },
+        {
+          "name": "Egg Batter",
+          "count": 2
+        },
+        {
+          "name": "Garlic-Buttered Planar Goo",
+          "count": 1
+        },
+        {
+          "name": "Vegetables",
+          "count": 1
+        }
+      ],
+      "containers": [
+        {
+          "name": "Oven (Stationary)",
+          "count": 1
+        },
+        {
+          "name": "Tanaan Oven (Stationary)",
+          "count": 1
+        },
+        {
+          "name": "Oven (Placeable)",
+          "count": 1
+        },
+        {
+          "name": "Guild Oven (Placeable)",
+          "count": 1
+        }
+      ],
+      "yield": 1,
+      "also_returns": [],
+      "failure_returns": [],
+      "trivial": 382,
+      "nofail": false,
+      "required_skill": 0,
+      "notes": null,
+      "recipe_id": 3091054,
+      "output_item_id": 76382,
+      "container_bagtype": 15
+    },
+    {
+      "name": "Garlic-Buttered Planar Goo Soup",
+      "tradeskill": 60,
+      "expansion": "Rain of Fear",
+      "source_line_start": 664,
+      "source_line_end": 677,
+      "ingredients": [
+        {
+          "name": "Garlic-Buttered Planar Goo",
+          "count": 1
+        },
+        {
+          "name": "Jug of Sauces",
+          "count": 1
+        },
+        {
+          "name": "Pot",
+          "count": 1
+        },
+        {
+          "name": "Water Flask",
+          "count": 1
+        }
+      ],
+      "containers": [
+        {
+          "name": "Oven (Stationary)",
+          "count": 1
+        },
+        {
+          "name": "Tanaan Oven (Stationary)",
+          "count": 1
+        },
+        {
+          "name": "Oven (Placeable)",
+          "count": 1
+        },
+        {
+          "name": "Guild Oven (Placeable)",
+          "count": 1
+        }
+      ],
+      "yield": 1,
+      "also_returns": [
+        {
+          "name": "Pot",
+          "count": 1
+        }
+      ],
+      "failure_returns": [
+        {
+          "name": "Pot",
+          "count": 1
+        }
+      ],
+      "trivial": 302,
+      "nofail": false,
+      "required_skill": 0,
+      "notes": null,
+      "recipe_id": 3091055,
+      "output_item_id": 76383,
+      "container_bagtype": 15
+    },
+    {
+      "name": "Garlic-Buttered Planar Goo Steaks",
+      "tradeskill": 60,
+      "expansion": "Rain of Fear",
+      "source_line_start": 678,
+      "source_line_end": 689,
+      "ingredients": [
+        {
+          "name": "Garlic-Buttered Planar Goo",
+          "count": 1
+        },
+        {
+          "name": "Jug of Sauces",
+          "count": 1
+        },
+        {
+          "name": "Spices",
+          "count": 1
+        }
+      ],
+      "containers": [
+        {
+          "name": "Oven (Stationary)",
+          "count": 1
+        },
+        {
+          "name": "Tanaan Oven (Stationary)",
+          "count": 1
+        },
+        {
+          "name": "Oven (Placeable)",
+          "count": 1
+        },
+        {
+          "name": "Guild Oven (Placeable)",
+          "count": 1
+        }
+      ],
+      "yield": 1,
+      "also_returns": [],
+      "failure_returns": [],
+      "trivial": 348,
+      "nofail": false,
+      "required_skill": 0,
+      "notes": null,
+      "recipe_id": 3091056,
+      "output_item_id": 76384,
+      "container_bagtype": 15
+    },
+    {
+      "name": "Garlic-Buttered Planar Goo Stew",
+      "tradeskill": 60,
+      "expansion": "Rain of Fear",
+      "source_line_start": 690,
+      "source_line_end": 703,
+      "ingredients": [
+        {
+          "name": "Garlic-Buttered Planar Goo",
+          "count": 1
+        },
+        {
+          "name": "Pot",
+          "count": 1
+        },
+        {
+          "name": "Vegetables",
+          "count": 1
+        },
+        {
+          "name": "Water Flask",
+          "count": 1
+        }
+      ],
+      "containers": [
+        {
+          "name": "Oven (Stationary)",
+          "count": 1
+        },
+        {
+          "name": "Tanaan Oven (Stationary)",
+          "count": 1
+        },
+        {
+          "name": "Oven (Placeable)",
+          "count": 1
+        },
+        {
+          "name": "Guild Oven (Placeable)",
+          "count": 1
+        }
+      ],
+      "yield": 1,
+      "also_returns": [
+        {
+          "name": "Pot",
+          "count": 1
+        }
+      ],
+      "failure_returns": [
+        {
+          "name": "Pot",
+          "count": 1
+        }
+      ],
+      "trivial": 288,
+      "nofail": false,
+      "required_skill": 0,
+      "notes": null,
+      "recipe_id": 3091057,
+      "output_item_id": 76385,
+      "container_bagtype": 15
+    },
+    {
+      "name": "Grilled Planar Goo",
+      "tradeskill": 60,
+      "expansion": "Rain of Fear",
+      "source_line_start": 718,
+      "source_line_end": 726,
+      "ingredients": [
+        {
+          "name": "Grilling Sauce",
+          "count": 1
+        },
+        {
+          "name": "Prepared Planar Goo",
+          "count": 1
+        }
+      ],
+      "containers": [
+        {
+          "name": "Collapsible Mixing Bowl",
+          "count": 1
+        },
+        {
+          "name": "Mixing Bowl (Placeable)",
+          "count": 1
+        },
+        {
+          "name": "Guild Mixing Bowl (Placeable)",
+          "count": 1
+        }
+      ],
+      "yield": 1,
+      "also_returns": [],
+      "failure_returns": [],
+      "trivial": 155,
+      "nofail": false,
+      "required_skill": 0,
+      "notes": "EQRecipeID: 49117  155",
+      "recipe_id": 3091058,
+      "output_item_id": 76386,
+      "container_bagtype": 14
+    },
+    {
+      "name": "Grilled Planar Goo Jerky",
+      "tradeskill": 60,
+      "expansion": "Rain of Fear",
+      "source_line_start": 727,
+      "source_line_end": 740,
+      "ingredients": [
+        {
+          "name": "Grilled Planar Goo",
+          "count": 1
+        },
+        {
+          "name": "Jug of Sauces",
+          "count": 1
+        },
+        {
+          "name": "Smoker",
+          "count": 1
+        }
+      ],
+      "containers": [
+        {
+          "name": "Oven (Stationary)",
+          "count": 1
+        },
+        {
+          "name": "Tanaan Oven (Stationary)",
+          "count": 1
+        },
+        {
+          "name": "Oven (Placeable)",
+          "count": 1
+        },
+        {
+          "name": "Guild Oven (Placeable)",
+          "count": 1
+        }
+      ],
+      "yield": 1,
+      "also_returns": [
+        {
+          "name": "Smoker",
+          "count": 1
+        }
+      ],
+      "failure_returns": [
+        {
+          "name": "Smoker",
+          "count": 1
+        }
+      ],
+      "trivial": 302,
+      "nofail": false,
+      "required_skill": 0,
+      "notes": null,
+      "recipe_id": 3091059,
+      "output_item_id": 76387,
+      "container_bagtype": 15
+    },
+    {
+      "name": "Grilled Planar Goo Kabobs",
+      "tradeskill": 60,
+      "expansion": "Rain of Fear",
+      "source_line_start": 741,
+      "source_line_end": 754,
+      "ingredients": [
+        {
+          "name": "Grilled Planar Goo",
+          "count": 1
+        },
+        {
+          "name": "Jug of Sauces",
+          "count": 1
+        },
+        {
+          "name": "Skewers",
+          "count": 1
+        },
+        {
+          "name": "Vegetables",
+          "count": 1
+        }
+      ],
+      "containers": [
+        {
+          "name": "Oven (Stationary)",
+          "count": 1
+        },
+        {
+          "name": "Tanaan Oven (Stationary)",
+          "count": 1
+        },
+        {
+          "name": "Oven (Placeable)",
+          "count": 1
+        },
+        {
+          "name": "Guild Oven (Placeable)",
+          "count": 1
+        }
+      ],
+      "yield": 1,
+      "also_returns": [
+        {
+          "name": "Skewers",
+          "count": 1
+        }
+      ],
+      "failure_returns": [
+        {
+          "name": "Skewers",
+          "count": 1
+        }
+      ],
+      "trivial": 315,
+      "nofail": false,
+      "required_skill": 0,
+      "notes": null,
+      "recipe_id": 3091060,
+      "output_item_id": 76388,
+      "container_bagtype": 15
+    },
+    {
+      "name": "Grilled Planar Goo Pie",
+      "tradeskill": 60,
+      "expansion": "Rain of Fear",
+      "source_line_start": 755,
+      "source_line_end": 766,
+      "ingredients": [
+        {
+          "name": "Bottle of Milk",
+          "count": 1
+        },
+        {
+          "name": "Cup of Flour",
+          "count": 1
+        },
+        {
+          "name": "Cup of Sugar",
+          "count": 1
+        },
+        {
+          "name": "Egg Batter",
+          "count": 2
+        },
+        {
+          "name": "Grilled Planar Goo",
+          "count": 1
+        },
+        {
+          "name": "Vegetables",
+          "count": 1
+        }
+      ],
+      "containers": [
+        {
+          "name": "Oven (Stationary)",
+          "count": 1
+        },
+        {
+          "name": "Tanaan Oven (Stationary)",
+          "count": 1
+        },
+        {
+          "name": "Oven (Placeable)",
+          "count": 1
+        },
+        {
+          "name": "Guild Oven (Placeable)",
+          "count": 1
+        }
+      ],
+      "yield": 1,
+      "also_returns": [],
+      "failure_returns": [],
+      "trivial": 342,
+      "nofail": false,
+      "required_skill": 0,
+      "notes": null,
+      "recipe_id": 3091061,
+      "output_item_id": 76389,
+      "container_bagtype": 15
+    },
+    {
+      "name": "Grilled Planar Goo Sandwich",
+      "tradeskill": 60,
+      "expansion": "Rain of Fear",
+      "source_line_start": 767,
+      "source_line_end": 778,
+      "ingredients": [
+        {
+          "name": "Grilled Planar Goo",
+          "count": 1
+        },
+        {
+          "name": "Loaf of Bread",
+          "count": 1
+        }
+      ],
+      "containers": [
+        {
+          "name": "Oven (Stationary)",
+          "count": 1
+        },
+        {
+          "name": "Tanaan Oven (Stationary)",
+          "count": 1
+        },
+        {
+          "name": "Oven (Placeable)",
+          "count": 1
+        },
+        {
+          "name": "Guild Oven (Placeable)",
+          "count": 1
+        }
+      ],
+      "yield": 1,
+      "also_returns": [],
+      "failure_returns": [],
+      "trivial": 255,
+      "nofail": false,
+      "required_skill": 0,
+      "notes": null,
+      "recipe_id": 3091062,
+      "output_item_id": 76390,
+      "container_bagtype": 15
+    },
+    {
+      "name": "Grilled Planar Goo Souffle",
+      "tradeskill": 60,
+      "expansion": "Rain of Fear",
+      "source_line_start": 779,
+      "source_line_end": 790,
+      "ingredients": [
+        {
+          "name": "Clump of Dough",
+          "count": 1
+        },
+        {
+          "name": "Egg Batter",
+          "count": 2
+        },
+        {
+          "name": "Grilled Planar Goo",
+          "count": 1
+        },
+        {
+          "name": "Vegetables",
+          "count": 1
+        }
+      ],
+      "containers": [
+        {
+          "name": "Oven (Stationary)",
+          "count": 1
+        },
+        {
+          "name": "Tanaan Oven (Stationary)",
+          "count": 1
+        },
+        {
+          "name": "Oven (Placeable)",
+          "count": 1
+        },
+        {
+          "name": "Guild Oven (Placeable)",
+          "count": 1
+        }
+      ],
+      "yield": 1,
+      "also_returns": [],
+      "failure_returns": [],
+      "trivial": 362,
+      "nofail": false,
+      "required_skill": 0,
+      "notes": null,
+      "recipe_id": 3091063,
+      "output_item_id": 76391,
+      "container_bagtype": 15
+    },
+    {
+      "name": "Grilled Planar Goo Soup",
+      "tradeskill": 60,
+      "expansion": "Rain of Fear",
+      "source_line_start": 791,
+      "source_line_end": 804,
+      "ingredients": [
+        {
+          "name": "Grilled Planar Goo",
+          "count": 1
+        },
+        {
+          "name": "Jug of Sauces",
+          "count": 1
+        },
+        {
+          "name": "Pot",
+          "count": 1
+        },
+        {
+          "name": "Water Flask",
+          "count": 1
+        }
+      ],
+      "containers": [
+        {
+          "name": "Oven (Stationary)",
+          "count": 1
+        },
+        {
+          "name": "Tanaan Oven (Stationary)",
+          "count": 1
+        },
+        {
+          "name": "Oven (Placeable)",
+          "count": 1
+        },
+        {
+          "name": "Guild Oven (Placeable)",
+          "count": 1
+        }
+      ],
+      "yield": 1,
+      "also_returns": [
+        {
+          "name": "Pot",
+          "count": 1
+        }
+      ],
+      "failure_returns": [
+        {
+          "name": "Pot",
+          "count": 1
+        }
+      ],
+      "trivial": 282,
+      "nofail": false,
+      "required_skill": 0,
+      "notes": null,
+      "recipe_id": 3091064,
+      "output_item_id": 76392,
+      "container_bagtype": 15
+    },
+    {
+      "name": "Grilled Planar Goo Steaks",
+      "tradeskill": 60,
+      "expansion": "Rain of Fear",
+      "source_line_start": 805,
+      "source_line_end": 816,
+      "ingredients": [
+        {
+          "name": "Grilled Planar Goo",
+          "count": 1
+        },
+        {
+          "name": "Jug of Sauces",
+          "count": 1
+        },
+        {
+          "name": "Spices",
+          "count": 1
+        }
+      ],
+      "containers": [
+        {
+          "name": "Oven (Stationary)",
+          "count": 1
+        },
+        {
+          "name": "Tanaan Oven (Stationary)",
+          "count": 1
+        },
+        {
+          "name": "Oven (Placeable)",
+          "count": 1
+        },
+        {
+          "name": "Guild Oven (Placeable)",
+          "count": 1
+        }
+      ],
+      "yield": 1,
+      "also_returns": [],
+      "failure_returns": [],
+      "trivial": 328,
+      "nofail": false,
+      "required_skill": 0,
+      "notes": null,
+      "recipe_id": 3091065,
+      "output_item_id": 76393,
+      "container_bagtype": 15
+    },
+    {
+      "name": "Grilled Planar Goo Stew",
+      "tradeskill": 60,
+      "expansion": "Rain of Fear",
+      "source_line_start": 817,
+      "source_line_end": 830,
+      "ingredients": [
+        {
+          "name": "Grilled Planar Goo",
+          "count": 1
+        },
+        {
+          "name": "Pot",
+          "count": 1
+        },
+        {
+          "name": "Vegetables",
+          "count": 1
+        },
+        {
+          "name": "Water Flask",
+          "count": 1
+        }
+      ],
+      "containers": [
+        {
+          "name": "Oven (Stationary)",
+          "count": 1
+        },
+        {
+          "name": "Tanaan Oven (Stationary)",
+          "count": 1
+        },
+        {
+          "name": "Oven (Placeable)",
+          "count": 1
+        },
+        {
+          "name": "Guild Oven (Placeable)",
+          "count": 1
+        }
+      ],
+      "yield": 1,
+      "also_returns": [
+        {
+          "name": "Pot",
+          "count": 1
+        }
+      ],
+      "failure_returns": [
+        {
+          "name": "Pot",
+          "count": 1
+        }
+      ],
+      "trivial": 268,
+      "nofail": false,
+      "required_skill": 0,
+      "notes": null,
+      "recipe_id": 3091066,
+      "output_item_id": 76394,
+      "container_bagtype": 15
+    },
+    {
+      "name": "Lemon-Buttered Planar Goo",
+      "tradeskill": 60,
+      "expansion": "Rain of Fear",
+      "source_line_start": 831,
+      "source_line_end": 843,
+      "ingredients": [
+        {
+          "name": "Lemon-Butter Sauce",
+          "count": 1
+        },
+        {
+          "name": "Prepared Planar Goo",
+          "count": 1
+        }
+      ],
+      "containers": [
+        {
+          "name": "Mixing Bowl (Portable)",
+          "count": 1
+        },
+        {
+          "name": "Collapsible Mixing Bowl",
+          "count": 1
+        },
+        {
+          "name": "Mixing Bowl (Placeable)",
+          "count": 1
+        },
+        {
+          "name": "Guild Mixing Bowl (Placeable)",
+          "count": 1
+        }
+      ],
+      "yield": 1,
+      "also_returns": [],
+      "failure_returns": [],
+      "trivial": 182,
+      "nofail": false,
+      "required_skill": 0,
+      "notes": "EQRecipeID: 49126  182",
+      "recipe_id": 3091067,
+      "output_item_id": 76395,
+      "container_bagtype": 14
+    },
+    {
+      "name": "Lemon-Buttered Planar Goo Jerky",
+      "tradeskill": 60,
+      "expansion": "Rain of Fear",
+      "source_line_start": 844,
+      "source_line_end": 857,
+      "ingredients": [
+        {
+          "name": "Jug of Sauces",
+          "count": 1
+        },
+        {
+          "name": "Lemon-Buttered Planar Goo",
+          "count": 1
+        },
+        {
+          "name": "Smoker",
+          "count": 1
+        }
+      ],
+      "containers": [
+        {
+          "name": "Oven (Stationary)",
+          "count": 1
+        },
+        {
+          "name": "Tanaan Oven (Stationary)",
+          "count": 1
+        },
+        {
+          "name": "Oven (Placeable)",
+          "count": 1
+        },
+        {
+          "name": "Guild Oven (Placeable)",
+          "count": 1
+        }
+      ],
+      "yield": 1,
+      "also_returns": [
+        {
+          "name": "Smoker",
+          "count": 1
+        }
+      ],
+      "failure_returns": [
+        {
+          "name": "Smoker",
+          "count": 1
+        }
+      ],
+      "trivial": 322,
+      "nofail": false,
+      "required_skill": 0,
+      "notes": null,
+      "recipe_id": 3091068,
+      "output_item_id": 76396,
+      "container_bagtype": 15
+    },
+    {
+      "name": "Lemon-Buttered Planar Goo Kabobs",
+      "tradeskill": 60,
+      "expansion": "Rain of Fear",
+      "source_line_start": 858,
+      "source_line_end": 871,
+      "ingredients": [
+        {
+          "name": "Jug of Sauces",
+          "count": 1
+        },
+        {
+          "name": "Lemon-Buttered Planar Goo",
+          "count": 1
+        },
+        {
+          "name": "Skewers",
+          "count": 1
+        },
+        {
+          "name": "Vegetables",
+          "count": 1
+        }
+      ],
+      "containers": [
+        {
+          "name": "Oven (Stationary)",
+          "count": 1
+        },
+        {
+          "name": "Tanaan Oven (Stationary)",
+          "count": 1
+        },
+        {
+          "name": "Oven (Placeable)",
+          "count": 1
+        },
+        {
+          "name": "Guild Oven (Placeable)",
+          "count": 1
+        }
+      ],
+      "yield": 1,
+      "also_returns": [
+        {
+          "name": "Skewers",
+          "count": 1
+        }
+      ],
+      "failure_returns": [
+        {
+          "name": "Skewers",
+          "count": 1
+        }
+      ],
+      "trivial": 342,
+      "nofail": false,
+      "required_skill": 0,
+      "notes": null,
+      "recipe_id": 3091069,
+      "output_item_id": 76397,
+      "container_bagtype": 15
+    },
+    {
+      "name": "Lemon-Buttered Planar Goo Pie",
+      "tradeskill": 60,
+      "expansion": "Rain of Fear",
+      "source_line_start": 872,
+      "source_line_end": 883,
+      "ingredients": [
+        {
+          "name": "Bottle of Milk",
+          "count": 1
+        },
+        {
+          "name": "Cup of Flour",
+          "count": 1
+        },
+        {
+          "name": "Cup of Sugar",
+          "count": 1
+        },
+        {
+          "name": "Egg Batter",
+          "count": 2
+        },
+        {
+          "name": "Lemon-Buttered Planar Goo",
+          "count": 1
+        },
+        {
+          "name": "Vegetables",
+          "count": 1
+        }
+      ],
+      "containers": [
+        {
+          "name": "Oven (Stationary)",
+          "count": 1
+        },
+        {
+          "name": "Tanaan Oven (Stationary)",
+          "count": 1
+        },
+        {
+          "name": "Oven (Placeable)",
+          "count": 1
+        },
+        {
+          "name": "Guild Oven (Placeable)",
+          "count": 1
+        }
+      ],
+      "yield": 1,
+      "also_returns": [],
+      "failure_returns": [],
+      "trivial": 368,
+      "nofail": false,
+      "required_skill": 0,
+      "notes": null,
+      "recipe_id": 3091070,
+      "output_item_id": 76398,
+      "container_bagtype": 15
+    },
+    {
+      "name": "Lemon-Buttered Planar Goo Sandwich",
+      "tradeskill": 60,
+      "expansion": "Rain of Fear",
+      "source_line_start": 884,
+      "source_line_end": 895,
+      "ingredients": [
+        {
+          "name": "Lemon-Buttered Planar Goo",
+          "count": 1
+        },
+        {
+          "name": "Loaf of Bread",
+          "count": 1
+        }
+      ],
+      "containers": [
+        {
+          "name": "Oven (Stationary)",
+          "count": 1
+        },
+        {
+          "name": "Tanaan Oven (Stationary)",
+          "count": 1
+        },
+        {
+          "name": "Oven (Placeable)",
+          "count": 1
+        },
+        {
+          "name": "Guild Oven (Placeable)",
+          "count": 1
+        }
+      ],
+      "yield": 1,
+      "also_returns": [],
+      "failure_returns": [],
+      "trivial": 282,
+      "nofail": false,
+      "required_skill": 0,
+      "notes": null,
+      "recipe_id": 3091071,
+      "output_item_id": 76399,
+      "container_bagtype": 15
+    },
+    {
+      "name": "Lemon-Buttered Planar Goo Souffle",
+      "tradeskill": 60,
+      "expansion": "Rain of Fear",
+      "source_line_start": 896,
+      "source_line_end": 907,
+      "ingredients": [
+        {
+          "name": "Clump of Dough",
+          "count": 1
+        },
+        {
+          "name": "Egg Batter",
+          "count": 2
+        },
+        {
+          "name": "Lemon-Buttered Planar Goo",
+          "count": 1
+        },
+        {
+          "name": "Vegetables",
+          "count": 1
+        }
+      ],
+      "containers": [
+        {
+          "name": "Oven (Stationary)",
+          "count": 1
+        },
+        {
+          "name": "Tanaan Oven (Stationary)",
+          "count": 1
+        },
+        {
+          "name": "Oven (Placeable)",
+          "count": 1
+        },
+        {
+          "name": "Guild Oven (Placeable)",
+          "count": 1
+        }
+      ],
+      "yield": 1,
+      "also_returns": [],
+      "failure_returns": [],
+      "trivial": 382,
+      "nofail": false,
+      "required_skill": 0,
+      "notes": null,
+      "recipe_id": 3091072,
+      "output_item_id": 76400,
+      "container_bagtype": 15
+    },
+    {
+      "name": "Lemon-Buttered Planar Goo Soup",
+      "tradeskill": 60,
+      "expansion": "Rain of Fear",
+      "source_line_start": 908,
+      "source_line_end": 921,
+      "ingredients": [
+        {
+          "name": "Jug of Sauces",
+          "count": 1
+        },
+        {
+          "name": "Lemon-Buttered Planar Goo",
+          "count": 1
+        },
+        {
+          "name": "Pot",
+          "count": 1
+        },
+        {
+          "name": "Water Flask",
+          "count": 1
+        }
+      ],
+      "containers": [
+        {
+          "name": "Oven (Stationary)",
+          "count": 1
+        },
+        {
+          "name": "Tanaan Oven (Stationary)",
+          "count": 1
+        },
+        {
+          "name": "Oven (Placeable)",
+          "count": 1
+        },
+        {
+          "name": "Guild Oven (Placeable)",
+          "count": 1
+        }
+      ],
+      "yield": 1,
+      "also_returns": [
+        {
+          "name": "Pot",
+          "count": 1
+        }
+      ],
+      "failure_returns": [
+        {
+          "name": "Pot",
+          "count": 1
+        }
+      ],
+      "trivial": 308,
+      "nofail": false,
+      "required_skill": 0,
+      "notes": null,
+      "recipe_id": 3091073,
+      "output_item_id": 76401,
+      "container_bagtype": 15
+    },
+    {
+      "name": "Lemon-Buttered Planar Goo Steaks",
+      "tradeskill": 60,
+      "expansion": "Rain of Fear",
+      "source_line_start": 922,
+      "source_line_end": 933,
+      "ingredients": [
+        {
+          "name": "Jug of Sauces",
+          "count": 1
+        },
+        {
+          "name": "Lemon-Buttered Planar Goo",
+          "count": 1
+        },
+        {
+          "name": "Spices",
+          "count": 1
+        }
+      ],
+      "containers": [
+        {
+          "name": "Oven (Stationary)",
+          "count": 1
+        },
+        {
+          "name": "Tanaan Oven (Stationary)",
+          "count": 1
+        },
+        {
+          "name": "Oven (Placeable)",
+          "count": 1
+        },
+        {
+          "name": "Guild Oven (Placeable)",
+          "count": 1
+        }
+      ],
+      "yield": 1,
+      "also_returns": [],
+      "failure_returns": [],
+      "trivial": 355,
+      "nofail": false,
+      "required_skill": 0,
+      "notes": null,
+      "recipe_id": 3091074,
+      "output_item_id": 76402,
+      "container_bagtype": 15
+    },
+    {
+      "name": "Lemon-Buttered Planar Goo Stew",
+      "tradeskill": 60,
+      "expansion": "Rain of Fear",
+      "source_line_start": 934,
+      "source_line_end": 947,
+      "ingredients": [
+        {
+          "name": "Lemon-Buttered Planar Goo",
+          "count": 1
+        },
+        {
+          "name": "Pot",
+          "count": 1
+        },
+        {
+          "name": "Vegetables",
+          "count": 1
+        },
+        {
+          "name": "Water Flask",
+          "count": 1
+        }
+      ],
+      "containers": [
+        {
+          "name": "Oven (Stationary)",
+          "count": 1
+        },
+        {
+          "name": "Tanaan Oven (Stationary)",
+          "count": 1
+        },
+        {
+          "name": "Oven (Placeable)",
+          "count": 1
+        },
+        {
+          "name": "Guild Oven (Placeable)",
+          "count": 1
+        }
+      ],
+      "yield": 1,
+      "also_returns": [
+        {
+          "name": "Pot",
+          "count": 1
+        }
+      ],
+      "failure_returns": [
+        {
+          "name": "Pot",
+          "count": 1
+        }
+      ],
+      "trivial": 295,
+      "nofail": false,
+      "required_skill": 0,
+      "notes": null,
+      "recipe_id": 3091075,
+      "output_item_id": 76403,
+      "container_bagtype": 15
+    },
+    {
+      "name": "Smoked Planar Goo",
+      "tradeskill": 60,
+      "expansion": "Rain of Fear",
+      "source_line_start": 1023,
+      "source_line_end": 1037,
+      "ingredients": [
+        {
+          "name": "Prepared Planar Goo",
+          "count": 1
+        },
+        {
+          "name": "Smoker",
+          "count": 1
+        },
+        {
+          "name": "Smoking Sauce",
+          "count": 1
+        }
+      ],
+      "containers": [
+        {
+          "name": "Mixing Bowl (Portable)",
+          "count": 1
+        },
+        {
+          "name": "Collapsible Mixing Bowl",
+          "count": 1
+        },
+        {
+          "name": "Mixing Bowl (Placeable)",
+          "count": 1
+        },
+        {
+          "name": "Guild Mixing Bowl (Placeable)",
+          "count": 1
+        }
+      ],
+      "yield": 1,
+      "also_returns": [
+        {
+          "name": "Smoker",
+          "count": 1
+        }
+      ],
+      "failure_returns": [
+        {
+          "name": "Smoker",
+          "count": 1
+        }
+      ],
+      "trivial": 168,
+      "nofail": false,
+      "required_skill": 0,
+      "notes": "EQRecipeID: 49136  168",
+      "recipe_id": 3091076,
+      "output_item_id": 76405,
+      "container_bagtype": 14
+    },
+    {
+      "name": "Smoked Planar Goo Jerky",
+      "tradeskill": 60,
+      "expansion": "Rain of Fear",
+      "source_line_start": 1038,
+      "source_line_end": 1051,
+      "ingredients": [
+        {
+          "name": "Jug of Sauces",
+          "count": 1
+        },
+        {
+          "name": "Smoked Planar Goo",
+          "count": 1
+        },
+        {
+          "name": "Smoker",
+          "count": 1
+        }
+      ],
+      "containers": [
+        {
+          "name": "Oven (Stationary)",
+          "count": 1
+        },
+        {
+          "name": "Tanaan Oven (Stationary)",
+          "count": 1
+        },
+        {
+          "name": "Oven (Placeable)",
+          "count": 1
+        },
+        {
+          "name": "Guild Oven (Placeable)",
+          "count": 1
+        }
+      ],
+      "yield": 1,
+      "also_returns": [
+        {
+          "name": "Smoker",
+          "count": 1
+        }
+      ],
+      "failure_returns": [
+        {
+          "name": "Smoker",
+          "count": 1
+        }
+      ],
+      "trivial": 308,
+      "nofail": false,
+      "required_skill": 0,
+      "notes": null,
+      "recipe_id": 3091077,
+      "output_item_id": 76406,
+      "container_bagtype": 15
+    },
+    {
+      "name": "Smoked Planar Goo Kabobs",
+      "tradeskill": 60,
+      "expansion": "Rain of Fear",
+      "source_line_start": 1052,
+      "source_line_end": 1065,
+      "ingredients": [
+        {
+          "name": "Jug of Sauces",
+          "count": 1
+        },
+        {
+          "name": "Skewers",
+          "count": 1
+        },
+        {
+          "name": "Smoked Planar Goo",
+          "count": 1
+        },
+        {
+          "name": "Vegetables",
+          "count": 1
+        }
+      ],
+      "containers": [
+        {
+          "name": "Oven (Stationary)",
+          "count": 1
+        },
+        {
+          "name": "Tanaan Oven (Stationary)",
+          "count": 1
+        },
+        {
+          "name": "Oven (Placeable)",
+          "count": 1
+        },
+        {
+          "name": "Guild Oven (Placeable)",
+          "count": 1
+        }
+      ],
+      "yield": 1,
+      "also_returns": [
+        {
+          "name": "Skewers",
+          "count": 1
+        }
+      ],
+      "failure_returns": [
+        {
+          "name": "Skewers",
+          "count": 1
+        }
+      ],
+      "trivial": 322,
+      "nofail": false,
+      "required_skill": 0,
+      "notes": null,
+      "recipe_id": 3091078,
+      "output_item_id": 76407,
+      "container_bagtype": 15
+    },
+    {
+      "name": "Smoked Planar Goo Pie",
+      "tradeskill": 60,
+      "expansion": "Rain of Fear",
+      "source_line_start": 1066,
+      "source_line_end": 1077,
+      "ingredients": [
+        {
+          "name": "Bottle of Milk",
+          "count": 1
+        },
+        {
+          "name": "Cup of Flour",
+          "count": 1
+        },
+        {
+          "name": "Cup of Sugar",
+          "count": 1
+        },
+        {
+          "name": "Egg Batter",
+          "count": 2
+        },
+        {
+          "name": "Smoked Planar Goo",
+          "count": 1
+        },
+        {
+          "name": "Vegetables",
+          "count": 1
+        }
+      ],
+      "containers": [
+        {
+          "name": "Oven (Stationary)",
+          "count": 1
+        },
+        {
+          "name": "Tanaan Oven (Stationary)",
+          "count": 1
+        },
+        {
+          "name": "Oven (Placeable)",
+          "count": 1
+        },
+        {
+          "name": "Guild Oven (Placeable)",
+          "count": 1
+        }
+      ],
+      "yield": 1,
+      "also_returns": [],
+      "failure_returns": [],
+      "trivial": 355,
+      "nofail": false,
+      "required_skill": 0,
+      "notes": null,
+      "recipe_id": 3091079,
+      "output_item_id": 76408,
+      "container_bagtype": 15
+    },
+    {
+      "name": "Smoked Planar Goo Sandwich",
+      "tradeskill": 60,
+      "expansion": "Rain of Fear",
+      "source_line_start": 1078,
+      "source_line_end": 1089,
+      "ingredients": [
+        {
+          "name": "Loaf of Bread",
+          "count": 1
+        },
+        {
+          "name": "Smoked Planar Goo",
+          "count": 1
+        }
+      ],
+      "containers": [
+        {
+          "name": "Oven (Stationary)",
+          "count": 1
+        },
+        {
+          "name": "Tanaan Oven (Stationary)",
+          "count": 1
+        },
+        {
+          "name": "Oven (Placeable)",
+          "count": 1
+        },
+        {
+          "name": "Guild Oven (Placeable)",
+          "count": 1
+        }
+      ],
+      "yield": 1,
+      "also_returns": [],
+      "failure_returns": [],
+      "trivial": 262,
+      "nofail": false,
+      "required_skill": 0,
+      "notes": null,
+      "recipe_id": 3091080,
+      "output_item_id": 76409,
+      "container_bagtype": 15
+    },
+    {
+      "name": "Smoked Planar Goo Souffle",
+      "tradeskill": 60,
+      "expansion": "Rain of Fear",
+      "source_line_start": 1090,
+      "source_line_end": 1101,
+      "ingredients": [
+        {
+          "name": "Clump of Dough",
+          "count": 1
+        },
+        {
+          "name": "Egg Batter",
+          "count": 2
+        },
+        {
+          "name": "Smoked Planar Goo",
+          "count": 1
+        },
+        {
+          "name": "Vegetables",
+          "count": 1
+        }
+      ],
+      "containers": [
+        {
+          "name": "Oven (Stationary)",
+          "count": 1
+        },
+        {
+          "name": "Tanaan Oven (Stationary)",
+          "count": 1
+        },
+        {
+          "name": "Oven (Placeable)",
+          "count": 1
+        },
+        {
+          "name": "Guild Oven (Placeable)",
+          "count": 1
+        }
+      ],
+      "yield": 1,
+      "also_returns": [],
+      "failure_returns": [],
+      "trivial": 368,
+      "nofail": false,
+      "required_skill": 0,
+      "notes": null,
+      "recipe_id": 3091081,
+      "output_item_id": 76410,
+      "container_bagtype": 15
+    },
+    {
+      "name": "Smoked Planar Goo Soup",
+      "tradeskill": 60,
+      "expansion": "Rain of Fear",
+      "source_line_start": 1102,
+      "source_line_end": 1115,
+      "ingredients": [
+        {
+          "name": "Jug of Sauces",
+          "count": 1
+        },
+        {
+          "name": "Pot",
+          "count": 1
+        },
+        {
+          "name": "Smoked Planar Goo",
+          "count": 1
+        },
+        {
+          "name": "Water Flask",
+          "count": 1
+        }
+      ],
+      "containers": [
+        {
+          "name": "Oven (Stationary)",
+          "count": 1
+        },
+        {
+          "name": "Tanaan Oven (Stationary)",
+          "count": 1
+        },
+        {
+          "name": "Oven (Placeable)",
+          "count": 1
+        },
+        {
+          "name": "Guild Oven (Placeable)",
+          "count": 1
+        }
+      ],
+      "yield": 1,
+      "also_returns": [
+        {
+          "name": "Pot",
+          "count": 1
+        }
+      ],
+      "failure_returns": [
+        {
+          "name": "Pot",
+          "count": 1
+        }
+      ],
+      "trivial": 295,
+      "nofail": false,
+      "required_skill": 0,
+      "notes": null,
+      "recipe_id": 3091082,
+      "output_item_id": 76411,
+      "container_bagtype": 15
+    },
+    {
+      "name": "Smoked Planar Goo Steaks",
+      "tradeskill": 60,
+      "expansion": "Rain of Fear",
+      "source_line_start": 1116,
+      "source_line_end": 1127,
+      "ingredients": [
+        {
+          "name": "Jug of Sauces",
+          "count": 1
+        },
+        {
+          "name": "Smoked Planar Goo",
+          "count": 1
+        },
+        {
+          "name": "Spices",
+          "count": 1
+        }
+      ],
+      "containers": [
+        {
+          "name": "Oven (Stationary)",
+          "count": 1
+        },
+        {
+          "name": "Tanaan Oven (Stationary)",
+          "count": 1
+        },
+        {
+          "name": "Oven (Placeable)",
+          "count": 1
+        },
+        {
+          "name": "Guild Oven (Placeable)",
+          "count": 1
+        }
+      ],
+      "yield": 1,
+      "also_returns": [],
+      "failure_returns": [],
+      "trivial": 342,
+      "nofail": false,
+      "required_skill": 0,
+      "notes": null,
+      "recipe_id": 3091083,
+      "output_item_id": 76412,
+      "container_bagtype": 15
+    },
+    {
+      "name": "Smoked Planar Goo Stew",
+      "tradeskill": 60,
+      "expansion": "Rain of Fear",
+      "source_line_start": 1128,
+      "source_line_end": 1141,
+      "ingredients": [
+        {
+          "name": "Pot",
+          "count": 1
+        },
+        {
+          "name": "Smoked Planar Goo",
+          "count": 1
+        },
+        {
+          "name": "Vegetables",
+          "count": 1
+        },
+        {
+          "name": "Water Flask",
+          "count": 1
+        }
+      ],
+      "containers": [
+        {
+          "name": "Oven (Stationary)",
+          "count": 1
+        },
+        {
+          "name": "Tanaan Oven (Stationary)",
+          "count": 1
+        },
+        {
+          "name": "Oven (Placeable)",
+          "count": 1
+        },
+        {
+          "name": "Guild Oven (Placeable)",
+          "count": 1
+        }
+      ],
+      "yield": 1,
+      "also_returns": [
+        {
+          "name": "Pot",
+          "count": 1
+        }
+      ],
+      "failure_returns": [
+        {
+          "name": "Pot",
+          "count": 1
+        }
+      ],
+      "trivial": 282,
+      "nofail": false,
+      "required_skill": 0,
+      "notes": null,
+      "recipe_id": 3091084,
+      "output_item_id": 76413,
+      "container_bagtype": 15
+    },
+    {
+      "name": "Spiced Planar Goo",
+      "tradeskill": 60,
+      "expansion": "Rain of Fear",
+      "source_line_start": 1142,
+      "source_line_end": 1154,
+      "ingredients": [
+        {
+          "name": "Prepared Planar Goo",
+          "count": 1
+        },
+        {
+          "name": "Spiced Sauce",
+          "count": 1
+        }
+      ],
+      "containers": [
+        {
+          "name": "Mixing Bowl (Portable)",
+          "count": 1
+        },
+        {
+          "name": "Collapsible Mixing Bowl",
+          "count": 1
+        },
+        {
+          "name": "Mixing Bowl (Placeable)",
+          "count": 1
+        },
+        {
+          "name": "Guild Mixing Bowl (Placeable)",
+          "count": 1
+        }
+      ],
+      "yield": 1,
+      "also_returns": [],
+      "failure_returns": [],
+      "trivial": 162,
+      "nofail": false,
+      "required_skill": 0,
+      "notes": "EQRecipeID: 49145  162",
+      "recipe_id": 3091085,
+      "output_item_id": 76414,
+      "container_bagtype": 14
+    },
+    {
+      "name": "Spiced Planar Goo Jerky",
+      "tradeskill": 60,
+      "expansion": "Rain of Fear",
+      "source_line_start": 1155,
+      "source_line_end": 1168,
+      "ingredients": [
+        {
+          "name": "Jug of Sauces",
+          "count": 1
+        },
+        {
+          "name": "Smoker",
+          "count": 1
+        },
+        {
+          "name": "Spiced Planar Goo",
+          "count": 1
+        }
+      ],
+      "containers": [
+        {
+          "name": "Oven (Stationary)",
+          "count": 1
+        },
+        {
+          "name": "Tanaan Oven (Stationary)",
+          "count": 1
+        },
+        {
+          "name": "Oven (Placeable)",
+          "count": 1
+        },
+        {
+          "name": "Guild Oven (Placeable)",
+          "count": 1
+        }
+      ],
+      "yield": 1,
+      "also_returns": [
+        {
+          "name": "Smoker",
+          "count": 1
+        }
+      ],
+      "failure_returns": [
+        {
+          "name": "Smoker",
+          "count": 1
+        }
+      ],
+      "trivial": 302,
+      "nofail": false,
+      "required_skill": 0,
+      "notes": null,
+      "recipe_id": 3091086,
+      "output_item_id": 76415,
+      "container_bagtype": 15
+    },
+    {
+      "name": "Spiced Planar Goo Kabobs",
+      "tradeskill": 60,
+      "expansion": "Rain of Fear",
+      "source_line_start": 1169,
+      "source_line_end": 1182,
+      "ingredients": [
+        {
+          "name": "Jug of Sauces",
+          "count": 1
+        },
+        {
+          "name": "Skewers",
+          "count": 1
+        },
+        {
+          "name": "Spiced Planar Goo",
+          "count": 1
+        },
+        {
+          "name": "Vegetables",
+          "count": 1
+        }
+      ],
+      "containers": [
+        {
+          "name": "Oven (Stationary)",
+          "count": 1
+        },
+        {
+          "name": "Tanaan Oven (Stationary)",
+          "count": 1
+        },
+        {
+          "name": "Oven (Placeable)",
+          "count": 1
+        },
+        {
+          "name": "Guild Oven (Placeable)",
+          "count": 1
+        }
+      ],
+      "yield": 1,
+      "also_returns": [
+        {
+          "name": "Skewers",
+          "count": 1
+        }
+      ],
+      "failure_returns": [
+        {
+          "name": "Skewers",
+          "count": 1
+        }
+      ],
+      "trivial": 322,
+      "nofail": false,
+      "required_skill": 0,
+      "notes": null,
+      "recipe_id": 3091087,
+      "output_item_id": 76416,
+      "container_bagtype": 15
+    },
+    {
+      "name": "Spiced Planar Goo Pie",
+      "tradeskill": 60,
+      "expansion": "Rain of Fear",
+      "source_line_start": 1183,
+      "source_line_end": 1194,
+      "ingredients": [
+        {
+          "name": "Bottle of Milk",
+          "count": 1
+        },
+        {
+          "name": "Cup of Flour",
+          "count": 1
+        },
+        {
+          "name": "Cup of Sugar",
+          "count": 1
+        },
+        {
+          "name": "Egg Batter",
+          "count": 2
+        },
+        {
+          "name": "Spiced Planar Goo",
+          "count": 1
+        },
+        {
+          "name": "Vegetables",
+          "count": 1
+        }
+      ],
+      "containers": [
+        {
+          "name": "Oven (Stationary)",
+          "count": 1
+        },
+        {
+          "name": "Tanaan Oven (Stationary)",
+          "count": 1
+        },
+        {
+          "name": "Oven (Placeable)",
+          "count": 1
+        },
+        {
+          "name": "Guild Oven (Placeable)",
+          "count": 1
+        }
+      ],
+      "yield": 1,
+      "also_returns": [],
+      "failure_returns": [],
+      "trivial": 348,
+      "nofail": false,
+      "required_skill": 0,
+      "notes": null,
+      "recipe_id": 3091088,
+      "output_item_id": 76417,
+      "container_bagtype": 15
+    },
+    {
+      "name": "Spiced Planar Goo Sandwich",
+      "tradeskill": 60,
+      "expansion": "Rain of Fear",
+      "source_line_start": 1195,
+      "source_line_end": 1206,
+      "ingredients": [
+        {
+          "name": "Loaf of Bread",
+          "count": 1
+        },
+        {
+          "name": "Spiced Planar Goo",
+          "count": 1
+        }
+      ],
+      "containers": [
+        {
+          "name": "Oven (Stationary)",
+          "count": 1
+        },
+        {
+          "name": "Tanaan Oven (Stationary)",
+          "count": 1
+        },
+        {
+          "name": "Oven (Placeable)",
+          "count": 1
+        },
+        {
+          "name": "Guild Oven (Placeable)",
+          "count": 1
+        }
+      ],
+      "yield": 1,
+      "also_returns": [],
+      "failure_returns": [],
+      "trivial": 262,
+      "nofail": false,
+      "required_skill": 0,
+      "notes": null,
+      "recipe_id": 3091089,
+      "output_item_id": 76418,
+      "container_bagtype": 15
+    },
+    {
+      "name": "Spiced Planar Goo Souffle",
+      "tradeskill": 60,
+      "expansion": "Rain of Fear",
+      "source_line_start": 1207,
+      "source_line_end": 1218,
+      "ingredients": [
+        {
+          "name": "Clump of Dough",
+          "count": 1
+        },
+        {
+          "name": "Egg Batter",
+          "count": 2
+        },
+        {
+          "name": "Spiced Planar Goo",
+          "count": 1
+        },
+        {
+          "name": "Vegetables",
+          "count": 1
+        }
+      ],
+      "containers": [
+        {
+          "name": "Oven (Stationary)",
+          "count": 1
+        },
+        {
+          "name": "Tanaan Oven (Stationary)",
+          "count": 1
+        },
+        {
+          "name": "Oven (Placeable)",
+          "count": 1
+        },
+        {
+          "name": "Guild Oven (Placeable)",
+          "count": 1
+        }
+      ],
+      "yield": 1,
+      "also_returns": [],
+      "failure_returns": [],
+      "trivial": 362,
+      "nofail": false,
+      "required_skill": 0,
+      "notes": null,
+      "recipe_id": 3091090,
+      "output_item_id": 76419,
+      "container_bagtype": 15
+    },
+    {
+      "name": "Spiced Planar Goo Soup",
+      "tradeskill": 60,
+      "expansion": "Rain of Fear",
+      "source_line_start": 1219,
+      "source_line_end": 1232,
+      "ingredients": [
+        {
+          "name": "Jug of Sauces",
+          "count": 1
+        },
+        {
+          "name": "Pot",
+          "count": 1
+        },
+        {
+          "name": "Spiced Planar Goo",
+          "count": 1
+        },
+        {
+          "name": "Water Flask",
+          "count": 1
+        }
+      ],
+      "containers": [
+        {
+          "name": "Oven (Stationary)",
+          "count": 1
+        },
+        {
+          "name": "Tanaan Oven (Stationary)",
+          "count": 1
+        },
+        {
+          "name": "Oven (Placeable)",
+          "count": 1
+        },
+        {
+          "name": "Guild Oven (Placeable)",
+          "count": 1
+        }
+      ],
+      "yield": 1,
+      "also_returns": [
+        {
+          "name": "Pot",
+          "count": 1
+        }
+      ],
+      "failure_returns": [
+        {
+          "name": "Pot",
+          "count": 1
+        }
+      ],
+      "trivial": 288,
+      "nofail": false,
+      "required_skill": 0,
+      "notes": null,
+      "recipe_id": 3091091,
+      "output_item_id": 76420,
+      "container_bagtype": 15
+    },
+    {
+      "name": "Spiced Planar Goo Steaks",
+      "tradeskill": 60,
+      "expansion": "Rain of Fear",
+      "source_line_start": 1233,
+      "source_line_end": 1244,
+      "ingredients": [
+        {
+          "name": "Jug of Sauces",
+          "count": 1
+        },
+        {
+          "name": "Spiced Planar Goo",
+          "count": 1
+        },
+        {
+          "name": "Spices",
+          "count": 1
+        }
+      ],
+      "containers": [
+        {
+          "name": "Oven (Stationary)",
+          "count": 1
+        },
+        {
+          "name": "Tanaan Oven (Stationary)",
+          "count": 1
+        },
+        {
+          "name": "Oven (Placeable)",
+          "count": 1
+        },
+        {
+          "name": "Guild Oven (Placeable)",
+          "count": 1
+        }
+      ],
+      "yield": 1,
+      "also_returns": [],
+      "failure_returns": [],
+      "trivial": 335,
+      "nofail": false,
+      "required_skill": 0,
+      "notes": null,
+      "recipe_id": 3091092,
+      "output_item_id": 76421,
+      "container_bagtype": 15
+    },
+    {
+      "name": "Spiced Planar Goo Stew",
+      "tradeskill": 60,
+      "expansion": "Rain of Fear",
+      "source_line_start": 1245,
+      "source_line_end": 1258,
+      "ingredients": [
+        {
+          "name": "Pot",
+          "count": 1
+        },
+        {
+          "name": "Spiced Planar Goo",
+          "count": 1
+        },
+        {
+          "name": "Vegetables",
+          "count": 1
+        },
+        {
+          "name": "Water Flask",
+          "count": 1
+        }
+      ],
+      "containers": [
+        {
+          "name": "Oven (Stationary)",
+          "count": 1
+        },
+        {
+          "name": "Tanaan Oven (Stationary)",
+          "count": 1
+        },
+        {
+          "name": "Oven (Placeable)",
+          "count": 1
+        },
+        {
+          "name": "Guild Oven (Placeable)",
+          "count": 1
+        }
+      ],
+      "yield": 1,
+      "also_returns": [
+        {
+          "name": "Pot",
+          "count": 1
+        }
+      ],
+      "failure_returns": [
+        {
+          "name": "Pot",
+          "count": 1
+        }
+      ],
+      "trivial": 275,
+      "nofail": false,
+      "required_skill": 0,
+      "notes": null,
+      "recipe_id": 3091093,
+      "output_item_id": 76422,
+      "container_bagtype": 15
+    }
+  ],
+  "item_dependencies": [
+    {
+      "id": 13006,
+      "name": "Water Flask"
+    },
+    {
+      "id": 13015,
+      "name": "Loaf of Bread"
+    },
+    {
+      "id": 13087,
+      "name": "Bottle of Milk"
+    },
+    {
+      "id": 13090,
+      "name": "Clump of Dough"
+    },
+    {
+      "id": 13193,
+      "name": "Cup of Flour"
+    },
+    {
+      "id": 13419,
+      "name": "Vegetables"
+    },
+    {
+      "id": 13425,
+      "name": "Spices"
+    },
+    {
+      "id": 13427,
+      "name": "Jug of Sauces"
+    },
+    {
+      "id": 13430,
+      "name": "Skewers"
+    },
+    {
+      "id": 13431,
+      "name": "Smoker"
+    },
+    {
+      "id": 13432,
+      "name": "Pot"
+    },
+    {
+      "id": 15961,
+      "name": "Cup of Sugar"
+    },
+    {
+      "id": 58265,
+      "name": "Grilling Sauce"
+    },
+    {
+      "id": 58266,
+      "name": "Spiced Sauce"
+    },
+    {
+      "id": 58267,
+      "name": "Smoking Sauce"
+    },
+    {
+      "id": 58268,
+      "name": "Butter Sauce"
+    },
+    {
+      "id": 58269,
+      "name": "Garlic-Butter Sauce"
+    },
+    {
+      "id": 58270,
+      "name": "Lemon-Butter Sauce"
+    },
+    {
+      "id": 58272,
+      "name": "Beer Braising Sauce"
+    },
+    {
+      "id": 67741,
+      "name": "Egg Batter"
+    },
+    {
+      "id": 76336,
+      "name": "Planar Goo"
+    },
+    {
+      "id": 76357,
+      "name": "Beer-Braised Planar Goo"
+    },
+    {
+      "id": 76358,
+      "name": "Beer-Braised Planar Goo Jerky"
+    },
+    {
+      "id": 76359,
+      "name": "Beer-Braised Planar Goo Kabobs"
+    },
+    {
+      "id": 76360,
+      "name": "Beer-Braised Planar Goo Pie"
+    },
+    {
+      "id": 76361,
+      "name": "Beer-Braised Planar Goo Sandwich"
+    },
+    {
+      "id": 76362,
+      "name": "Beer-Braised Planar Goo Souffle"
+    },
+    {
+      "id": 76363,
+      "name": "Beer-Braised Planar Goo Soup"
+    },
+    {
+      "id": 76364,
+      "name": "Beer-Braised Planar Goo Steaks"
+    },
+    {
+      "id": 76365,
+      "name": "Beer-Braised Planar Goo Stew"
+    },
+    {
+      "id": 76366,
+      "name": "Buttered Planar Goo"
+    },
+    {
+      "id": 76367,
+      "name": "Buttered Planar Goo Jerky"
+    },
+    {
+      "id": 76368,
+      "name": "Buttered Planar Goo Kabobs"
+    },
+    {
+      "id": 76369,
+      "name": "Buttered Planar Goo Pie"
+    },
+    {
+      "id": 76370,
+      "name": "Buttered Planar Goo Sandwich"
+    },
+    {
+      "id": 76371,
+      "name": "Buttered Planar Goo Souffle"
+    },
+    {
+      "id": 76372,
+      "name": "Buttered Planar Goo Soup"
+    },
+    {
+      "id": 76373,
+      "name": "Buttered Planar Goo Steaks"
+    },
+    {
+      "id": 76374,
+      "name": "Buttered Planar Goo Stew"
+    },
+    {
+      "id": 76376,
+      "name": "Dried Planar Goo"
+    },
+    {
+      "id": 76377,
+      "name": "Garlic-Buttered Planar Goo"
+    },
+    {
+      "id": 76378,
+      "name": "Garlic-Buttered Planar Goo Jerky"
+    },
+    {
+      "id": 76379,
+      "name": "Garlic-Buttered Planar Goo Kabobs"
+    },
+    {
+      "id": 76380,
+      "name": "Garlic-Buttered Planar Goo Pie"
+    },
+    {
+      "id": 76381,
+      "name": "Garlic-Buttered Planar Goo Sandwich"
+    },
+    {
+      "id": 76382,
+      "name": "Garlic-Buttered Planar Goo Souffle"
+    },
+    {
+      "id": 76383,
+      "name": "Garlic-Buttered Planar Goo Soup"
+    },
+    {
+      "id": 76384,
+      "name": "Garlic-Buttered Planar Goo Steaks"
+    },
+    {
+      "id": 76385,
+      "name": "Garlic-Buttered Planar Goo Stew"
+    },
+    {
+      "id": 76386,
+      "name": "Grilled Planar Goo"
+    },
+    {
+      "id": 76387,
+      "name": "Grilled Planar Goo Jerky"
+    },
+    {
+      "id": 76388,
+      "name": "Grilled Planar Goo Kabobs"
+    },
+    {
+      "id": 76389,
+      "name": "Grilled Planar Goo Pie"
+    },
+    {
+      "id": 76390,
+      "name": "Grilled Planar Goo Sandwich"
+    },
+    {
+      "id": 76391,
+      "name": "Grilled Planar Goo Souffle"
+    },
+    {
+      "id": 76392,
+      "name": "Grilled Planar Goo Soup"
+    },
+    {
+      "id": 76393,
+      "name": "Grilled Planar Goo Steaks"
+    },
+    {
+      "id": 76394,
+      "name": "Grilled Planar Goo Stew"
+    },
+    {
+      "id": 76395,
+      "name": "Lemon-Buttered Planar Goo"
+    },
+    {
+      "id": 76396,
+      "name": "Lemon-Buttered Planar Goo Jerky"
+    },
+    {
+      "id": 76397,
+      "name": "Lemon-Buttered Planar Goo Kabobs"
+    },
+    {
+      "id": 76398,
+      "name": "Lemon-Buttered Planar Goo Pie"
+    },
+    {
+      "id": 76399,
+      "name": "Lemon-Buttered Planar Goo Sandwich"
+    },
+    {
+      "id": 76400,
+      "name": "Lemon-Buttered Planar Goo Souffle"
+    },
+    {
+      "id": 76401,
+      "name": "Lemon-Buttered Planar Goo Soup"
+    },
+    {
+      "id": 76402,
+      "name": "Lemon-Buttered Planar Goo Steaks"
+    },
+    {
+      "id": 76403,
+      "name": "Lemon-Buttered Planar Goo Stew"
+    },
+    {
+      "id": 76404,
+      "name": "Prepared Planar Goo"
+    },
+    {
+      "id": 76405,
+      "name": "Smoked Planar Goo"
+    },
+    {
+      "id": 76406,
+      "name": "Smoked Planar Goo Jerky"
+    },
+    {
+      "id": 76407,
+      "name": "Smoked Planar Goo Kabobs"
+    },
+    {
+      "id": 76408,
+      "name": "Smoked Planar Goo Pie"
+    },
+    {
+      "id": 76409,
+      "name": "Smoked Planar Goo Sandwich"
+    },
+    {
+      "id": 76410,
+      "name": "Smoked Planar Goo Souffle"
+    },
+    {
+      "id": 76411,
+      "name": "Smoked Planar Goo Soup"
+    },
+    {
+      "id": 76412,
+      "name": "Smoked Planar Goo Steaks"
+    },
+    {
+      "id": 76413,
+      "name": "Smoked Planar Goo Stew"
+    },
+    {
+      "id": 76414,
+      "name": "Spiced Planar Goo"
+    },
+    {
+      "id": 76415,
+      "name": "Spiced Planar Goo Jerky"
+    },
+    {
+      "id": 76416,
+      "name": "Spiced Planar Goo Kabobs"
+    },
+    {
+      "id": 76417,
+      "name": "Spiced Planar Goo Pie"
+    },
+    {
+      "id": 76418,
+      "name": "Spiced Planar Goo Sandwich"
+    },
+    {
+      "id": 76419,
+      "name": "Spiced Planar Goo Souffle"
+    },
+    {
+      "id": 76420,
+      "name": "Spiced Planar Goo Soup"
+    },
+    {
+      "id": 76421,
+      "name": "Spiced Planar Goo Steaks"
+    },
+    {
+      "id": 76422,
+      "name": "Spiced Planar Goo Stew"
+    }
+  ],
+  "availability_evidence": {
+    "period_context_guide": {
+      "url": "https://www.eqtraders.com/articles/article_page.php?article=g567",
+      "created": "2012-12-16",
+      "observed_last_modified": "2022-11-21",
+      "relevant_fact": "Planar Delights is listed as a read-only Rain of Fear recipe book, separately from books requiring scribing."
+    },
+    "in_universe_book": {
+      "item_id": 76335,
+      "title": "Planar Delights",
+      "filename": "TSSKU20S20Baking",
+      "books_id": 5514,
+      "text_sha256": "11c8f389a9442df8311552802e4ec097d365ff67c7b40c99497c9b1fd79191ae",
+      "relevant_fact": "Book explicitly describes mixing Planar Goo with a Water Flask and lists Barbequed/Beer-Battered basic families. Current PEQ book copy is corroboration, not a captured May2013 client/server receipt."
+    },
+    "contemporaneous_observation": {
+      "url": "https://pixelnomad.ca/2013/04/03/brewing-and-housing-and-levels-oh-my-everquest/",
+      "published": "2013-04-03",
+      "relevant_fact": "Author describes Planar Goo and Planar Energy Shard gathering for then-current crafting. This is general availability evidence, not numeric formula proof for each derivative."
+    },
+    "per_recipe_source": "Each source_facts entry binds the exact current RoF category row line span, ingredients, quantities, returns, yield and trivial. All19 have explicit named rows; no recipe formula inferred from a name or adjacent ID.",
+    "historical_limit": "No archived pre-May31,2013 capture of each numeric derivative formula has yet been obtained. Source publication can record this; production acceptance must retain the distinction."
+  },
+  "restriction_review": {
+    "skill": "Baking60 verified from common/skills.h, not erroneous MCP skill examples.",
+    "cap": "Ordinary RoF crafting cap is separate from recipe trivial; these recipes include trivials above300 and are not excluded for that reason. No cap rule is modified.",
+    "learn": "Planar Delights is in the source guide read-only list; no scribing requirement asserted for these19 ordinary recipes. Merchant Alliance/quest-special recipes are outside this batch.",
+    "class_race": "No special recipe-level race/class requirement is listed. Some subcombine output definitions show ClassNONE/RaceNONE; all existing item definitions and edibility behavior are preserved.",
+    "containers": "Current engine interprets bag type tokens and inventory item IDs. Source ordinary mixing bowls/ovens use BagType14/15; no broader custom container or cultural equivalence invented. Basic oven slot capacity is not increased.",
+    "utensils": "Pot/Smoker/Skewers are consumed as input and returned on both success and failure where source explicitly lists them; no salvage double-return."
+  },
+  "requires": {
+    "batch": "RRC001",
+    "commit": "b2db1e40",
+    "recipe_id": 3091001,
+    "output_item_id": 76404,
+    "requirement": "Exact installed Prepared Planar Goo recipe plus four logical entry rows before application. Roll back RRC003 before RRC001 in a coordinated reversal."
+  }
+}

@@ -1,0 +1,11 @@
+# RRC009: Regal pottery mold components
+
+Proposes fourteen paired mold chains: fourteen unfired wheel combines and fourteen fired kiln combines. The batch has 28 recipes, 127 logical entries, 48 existing-item dependencies and IDs 3091222–3091249. Every selected output/component native EQ item ID was directly verified. Unlinked unfired output labels were resolved through their paired fired recipe's explicit component link.
+
+[EQ Traders RoF pottery catalogue](https://www.eqtraders.com/recipes/pottery_recipe_page.php?article=564&rsa=Pottery&sub=ROF) and the current game-authored Compendiums on Regal Weapon Creation Pt. II (item 135400) corroborate the mold recipes. That book explicitly distinguishes components from final weapons and says component schematics need not be scribed. These ordinary components therefore use must_learn0 and learned_by_item_id0; finished weapon learning requirements are unaffected.
+
+Wheel BagType21 and kiln BagType22 are preserved, with actual ten-slot Pottery Wheel54257 and Kiln54254 dependency guards. The largest formula uses six ingredient units. Clay, sketch and Befouled Silk quantities are preserved; firing consumes the matching unfired mold and high quality firing sheet. Numeric source trivials are retained; guaranteed success is not asserted. Ordinary salvage quantities follow current metadata convention, not historical AA rate proof. No class/race, cap, engine or framework changes are included.
+
+Maintained category and current book content do not establish frozen May 2013 numeric trivial/yield receipts, natural material acquisition or native trophy/combine acceptance. This is one reviewed component batch, not comprehensive historical coverage.
+
+Apply requires a fresh strict MariaDB 10.11 session and coordinated authorization. It accepts wholly absent or exact existing state, rejects conflicting IDs/names/outputs/dependencies or partial state, verifies every recipe and logical entry field and exact row deltas, and commits explicitly. Exact reapply is idempotent. Rollback requires the exact postimage and no learned-recipe references; it does not undo crafted items or rewind IDs. Source proposal only at publication preparation; finite rehearsal and production receipts are separate.

@@ -1,0 +1,7 @@
+# RRC017 Taelosian fruit baking and pastry dough
+
+Adds34 ordinary PoR-category formulas:31Taelosian fruit variants and three pastry dough producers. Source quantities, yields, returned MuffinTin13437 and no-fail slicing metadata are retained. Slice of Taelosian Lemon-Orange Pie lists yield1 while eight other slices list8; this is confirmed by both catalogue and direct item page. Taelosian Lemon-Orange Tart and Taelosian Wildberry Mountain Tart list yield1; other tarts list6. No mandatory learning/minimum skill is asserted by selected rows.
+
+Source: https://www.eqtraders.com/recipes/recipe_page.php?article=373&rsa=Baking&sub=por . All53 output/component/return/portable-container IDs are verified through retained hashed primary HTML. Maintained category/current item pages support content but are not immutable May2013 numeric/native evidence.
+
+Source-only MariaDB10.11 guarded additive proposal, IDs3091307-3091340 proposed/not reserved. Apply/reapply preserves and guards all five RRC016 fillings before/after insertion. Rollback owns only this new batch and refuses learned refs. Three missing pastry dough producers are included. Ten-slot bowl/oven and six-slot spit metadata retained; only one-unit slicing rows list spit. No item, character, rule, cap, source or runtime edits. No SQL execution or native acceptance. Require current dependencies/collisions and RRC016 producer postimages before rehearsal/application.
