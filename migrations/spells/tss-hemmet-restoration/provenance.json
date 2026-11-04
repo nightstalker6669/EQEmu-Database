@@ -1,0 +1,155 @@
+{
+  "classification": "Original vendor/stock restoration; existing positive price baseline retained, exact historical price parity unclaimed",
+  "source": {
+    "url": "https://everquest.allakhazam.com/db/npc/22418#msg1166280414165521327",
+    "date": "2006-12-16",
+    "type": "period merchant chat transcript",
+    "stock_count": 15
+  },
+  "corroboration": {
+    "url": "https://everquest.allakhazam.com/db/npc/22418",
+    "NPC_added": "2006-09-20",
+    "current_table_count": 15,
+    "later_reprice_log": "2013-06-05; excluded as May2013priceauthority"
+  },
+  "native_binding": {
+    "npc_id": 399084,
+    "npc_name": "Hemmet,_Master_Sureshot",
+    "zone_id": 399,
+    "existing_spawngroup": 72578,
+    "before_merchant": 999999,
+    "after_merchant": 399084,
+    "reservation": "JARVIS provisionallyreserved399084; actualabsence/consumercheckrequired"
+  },
+  "items": [
+    {
+      "item_id": 78426,
+      "name": "Spell: Cloud of Wasps",
+      "spell_id": 10089,
+      "ranger_level": 71,
+      "rank": 1
+    },
+    {
+      "item_id": 78483,
+      "name": "Spell: Consumed by the Hunt",
+      "spell_id": 10146,
+      "ranger_level": 75,
+      "rank": 1
+    },
+    {
+      "item_id": 78477,
+      "name": "Spell: Eyes of the Owl",
+      "spell_id": 10140,
+      "ranger_level": 74,
+      "rank": 1
+    },
+    {
+      "item_id": 78456,
+      "name": "Spell: Heartshot",
+      "spell_id": 10119,
+      "ranger_level": 75,
+      "rank": 1
+    },
+    {
+      "item_id": 78441,
+      "name": "Spell: Icefall Chill",
+      "spell_id": 10104,
+      "ranger_level": 72,
+      "rank": 1
+    },
+    {
+      "item_id": 78465,
+      "name": "Spell: Obsidian Skin",
+      "spell_id": 10128,
+      "ranger_level": 74,
+      "rank": 1
+    },
+    {
+      "item_id": 78414,
+      "name": "Spell: Potameid Salve",
+      "spell_id": 10077,
+      "ranger_level": 73,
+      "rank": 1
+    },
+    {
+      "item_id": 78468,
+      "name": "Spell: Protection of the Minohten",
+      "spell_id": 10131,
+      "ranger_level": 75,
+      "rank": 1
+    },
+    {
+      "item_id": 78417,
+      "name": "Spell: Shield of Needles",
+      "spell_id": 10080,
+      "ranger_level": 71,
+      "rank": 1
+    },
+    {
+      "item_id": 78450,
+      "name": "Spell: Snarl of the Predator",
+      "spell_id": 10113,
+      "ranger_level": 73,
+      "rank": 1
+    },
+    {
+      "item_id": 78435,
+      "name": "Spell: Strength of the Forest Stalker",
+      "spell_id": 10098,
+      "ranger_level": 72,
+      "rank": 1
+    },
+    {
+      "item_id": 78459,
+      "name": "Spell: Summer's Dew",
+      "spell_id": 10122,
+      "ranger_level": 74,
+      "rank": 1
+    },
+    {
+      "item_id": 78429,
+      "name": "Spell: Sunderock Springwater",
+      "spell_id": 10092,
+      "ranger_level": 71,
+      "rank": 1
+    },
+    {
+      "item_id": 78453,
+      "name": "Spell: Volcanic Ash",
+      "spell_id": 10116,
+      "ranger_level": 73,
+      "rank": 1
+    },
+    {
+      "item_id": 78423,
+      "name": "Tome of Jolting Kicks",
+      "spell_id": 10086,
+      "ranger_level": 72,
+      "rank": 1
+    }
+  ],
+  "parameter_policy": {
+    "prices": "Retain current positive item baseprices and native merchant charisma/faction calculation; not claimed exactMay2013prices",
+    "stock_policy": "Normal merchant defaults; allclasses maypurchase, item/spell controlslearning. No inventedlanguage/progression/classpurchasegate."
+  },
+  "scope": {
+    "merchant_inserts": 15,
+    "npc_binding_updates": 1,
+    "item_spell_spawn_player_writes": false,
+    "shared999999_writes": false
+  },
+  "validation": {
+    "python_syntax": "ASTparsed",
+    "offline_plan": "PASS/noDBconnection",
+    "native_purchase": false
+  },
+  "applied": true,
+  "applied_status": {
+    "date": "2026-11-04",
+    "database": "Committed15stock+1NPCbinding, fullpostimages and independentRNG71\u201375/itemjoin passed",
+    "runtime_freshness": "BuildHEMMET-CACHE-FRESHNESS-001 confirmsSteppes399unloaded; deployedZoneInitLoadMerchants readszoneSpawn->NPCmerchantbinding->stockDBjoin. Nextnormalfreshbootready. Noextra reload/restart.",
+    "native_purchase": false,
+    "shared999999_and_all_other_NPCs": "Unchanged",
+    "player_item_spell_spawn_writes": false
+  }
+}

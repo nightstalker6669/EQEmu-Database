@@ -1,0 +1,515 @@
+{
+  "target_database": "peq_housing_test",
+  "inserts": {
+    "tasks": [
+      {
+        "id": 920131,
+        "type": 2,
+        "duration": 0,
+        "duration_code": 0,
+        "title": "An Expedition Gone Awry",
+        "description": "Find the missing froglok expedition, recover its journal and report to Rupkerr.",
+        "reward_text": "Experience, coin, Dream Delvers faction and 5 Dream Motes",
+        "reward_id_list": "",
+        "cash_reward": 158000,
+        "exp_reward": -8501,
+        "reward_method": 3,
+        "reward_points": 0,
+        "reward_point_type": 0,
+        "min_level": 80,
+        "max_level": 0,
+        "level_spread": 0,
+        "min_players": 1,
+        "max_players": 1,
+        "repeatable": 0,
+        "faction_reward": 680,
+        "completion_emote": "",
+        "replay_timer_group": 920131,
+        "replay_timer_seconds": 21600,
+        "request_timer_group": 0,
+        "request_timer_seconds": 0,
+        "dz_template_id": 0,
+        "lock_activity_id": -1,
+        "faction_amount": 10,
+        "enabled": 1
+      }
+    ],
+    "task_activities": [
+      {
+        "taskid": 920131,
+        "req_activity_id": -1,
+        "goalmethod": 0,
+        "goalcount": 1,
+        "item_list": "",
+        "dz_switch_id": 0,
+        "min_x": -2940.0,
+        "min_y": 900.0,
+        "min_z": -30.0,
+        "max_x": -2580.0,
+        "max_y": 1220.0,
+        "max_z": 40.0,
+        "skill_list": "-1",
+        "spell_list": "0",
+        "zones": "700",
+        "zone_version": 0,
+        "optional": 0,
+        "list_group": 0,
+        "activityid": 0,
+        "activitytype": 5,
+        "npc_match_list": null,
+        "item_id_list": null,
+        "target_name": "Find the missing froglok expeditionary force",
+        "description_override": "Find the missing froglok expeditionary force",
+        "step": 0
+      },
+      {
+        "taskid": 920131,
+        "req_activity_id": -1,
+        "goalmethod": 0,
+        "goalcount": 1,
+        "item_list": "",
+        "dz_switch_id": 0,
+        "min_x": 0.0,
+        "min_y": 0.0,
+        "min_z": 0.0,
+        "max_x": 0.0,
+        "max_y": 0.0,
+        "max_z": 0.0,
+        "skill_list": "-1",
+        "spell_list": "0",
+        "zones": "700",
+        "zone_version": 0,
+        "optional": 0,
+        "list_group": 0,
+        "activityid": 1,
+        "activitytype": 3,
+        "npc_match_list": null,
+        "item_id_list": "49186",
+        "target_name": "Search the froglok corpses for proof of the missing expedition",
+        "description_override": "Search the froglok corpses for proof of the missing expedition",
+        "step": 0
+      },
+      {
+        "taskid": 920131,
+        "req_activity_id": -1,
+        "goalmethod": 0,
+        "goalcount": 1,
+        "item_list": "",
+        "dz_switch_id": 0,
+        "min_x": 0.0,
+        "min_y": 0.0,
+        "min_z": 0.0,
+        "max_x": 0.0,
+        "max_y": 0.0,
+        "max_z": 0.0,
+        "skill_list": "-1",
+        "spell_list": "0",
+        "zones": "700",
+        "zone_version": 0,
+        "optional": 0,
+        "list_group": 0,
+        "activityid": 2,
+        "activitytype": 2,
+        "npc_match_list": "700047|700056|700062|700142",
+        "item_id_list": null,
+        "target_name": "Defend yourself from the Lizardman Patroller",
+        "description_override": "Defend yourself from the Lizardman Patroller",
+        "step": 0
+      },
+      {
+        "taskid": 920131,
+        "req_activity_id": -1,
+        "goalmethod": 0,
+        "goalcount": 1,
+        "item_list": "",
+        "dz_switch_id": 0,
+        "min_x": 0.0,
+        "min_y": 0.0,
+        "min_z": 0.0,
+        "max_x": 0.0,
+        "max_y": 0.0,
+        "max_z": 0.0,
+        "skill_list": "-1",
+        "spell_list": "0",
+        "zones": "700",
+        "zone_version": 0,
+        "optional": 0,
+        "list_group": 0,
+        "activityid": 3,
+        "activitytype": 1,
+        "npc_match_list": "700075",
+        "item_id_list": "49186",
+        "target_name": "Deliver the expedition journal to Rupkerr",
+        "description_override": "Deliver the expedition journal to Rupkerr",
+        "step": 1
+      }
+    ],
+    "rewards": [
+      {
+        "reward_id": 3839201311,
+        "reward_type": 4,
+        "reward_data_id": 22,
+        "amount": 5,
+        "description": "5 Dream Motes",
+        "enabled": 1
+      }
+    ],
+    "reward_options": [
+      {
+        "reward_set_id": 920131,
+        "option_id": 1,
+        "sequence": 1,
+        "label": "Dream Motes",
+        "common_to_all": 1,
+        "flags": 0,
+        "enabled": 1,
+        "class_mask": 65535
+      }
+    ],
+    "reward_option_entries": [
+      {
+        "reward_set_id": 920131,
+        "option_id": 1,
+        "sequence": 1,
+        "reward_id": 3839201311
+      }
+    ],
+    "reward_sets": [
+      {
+        "reward_set_id": 920131,
+        "title": "An Expedition Gone Awry",
+        "enabled": 1
+      }
+    ],
+    "reward_sources": [
+      {
+        "source_type": 2,
+        "source_id": 920131,
+        "reward_set_id": 920131,
+        "enabled": 1
+      }
+    ]
+  },
+  "required_actors": [
+    {
+      "id": 700047,
+      "name": "a_lizardman_patroller",
+      "class": 1,
+      "level": 84,
+      "race": 51,
+      "loottable_id": 95444
+    },
+    {
+      "id": 700056,
+      "name": "a_lizardman_patroller",
+      "class": 1,
+      "level": 83,
+      "race": 51,
+      "loottable_id": 95444
+    },
+    {
+      "id": 700062,
+      "name": "a_lizardman_patroller",
+      "class": 1,
+      "level": 85,
+      "race": 51,
+      "loottable_id": 95444
+    },
+    {
+      "id": 700075,
+      "name": "#Rupkerr",
+      "class": 1,
+      "level": 90,
+      "race": 330,
+      "loottable_id": 0
+    },
+    {
+      "id": 700141,
+      "name": "a_froglok_corpse",
+      "class": 62,
+      "level": 1,
+      "race": 330,
+      "loottable_id": 95436
+    },
+    {
+      "id": 700142,
+      "name": "a_lizardman_patroller",
+      "class": 1,
+      "level": 85,
+      "race": 51,
+      "loottable_id": 95444
+    }
+  ],
+  "required_items": [
+    {
+      "id": 49186,
+      "Name": "Tattered Expedition Journal",
+      "itemtype": 11
+    },
+    {
+      "id": 52149,
+      "Name": "Dream Mote",
+      "itemtype": 63
+    }
+  ],
+  "required_currency": {
+    "id": 22,
+    "item_id": 52149
+  },
+  "required_faction": {
+    "id": 680,
+    "name": "Dream Delvers",
+    "base": 0
+  },
+  "required_faction_mods": [
+    {
+      "id": 4441,
+      "faction_id": 680,
+      "mod": -100,
+      "mod_name": "r1"
+    },
+    {
+      "id": 4442,
+      "faction_id": 680,
+      "mod": -100,
+      "mod_name": "r2"
+    },
+    {
+      "id": 4443,
+      "faction_id": 680,
+      "mod": -100,
+      "mod_name": "r3"
+    },
+    {
+      "id": 4444,
+      "faction_id": 680,
+      "mod": -100,
+      "mod_name": "r4"
+    },
+    {
+      "id": 4445,
+      "faction_id": 680,
+      "mod": -100,
+      "mod_name": "r5"
+    },
+    {
+      "id": 4446,
+      "faction_id": 680,
+      "mod": -100,
+      "mod_name": "r6"
+    },
+    {
+      "id": 4447,
+      "faction_id": 680,
+      "mod": -100,
+      "mod_name": "r7"
+    },
+    {
+      "id": 4448,
+      "faction_id": 680,
+      "mod": -100,
+      "mod_name": "r8"
+    },
+    {
+      "id": 4449,
+      "faction_id": 680,
+      "mod": -100,
+      "mod_name": "r9"
+    },
+    {
+      "id": 4450,
+      "faction_id": 680,
+      "mod": -100,
+      "mod_name": "r10"
+    },
+    {
+      "id": 4451,
+      "faction_id": 680,
+      "mod": -100,
+      "mod_name": "r11"
+    },
+    {
+      "id": 4452,
+      "faction_id": 680,
+      "mod": -100,
+      "mod_name": "r12"
+    },
+    {
+      "id": 4453,
+      "faction_id": 680,
+      "mod": -100,
+      "mod_name": "r128"
+    },
+    {
+      "id": 4454,
+      "faction_id": 680,
+      "mod": -100,
+      "mod_name": "r130"
+    },
+    {
+      "id": 4455,
+      "faction_id": 680,
+      "mod": -100,
+      "mod_name": "r330"
+    },
+    {
+      "id": 4456,
+      "faction_id": 680,
+      "mod": -100,
+      "mod_name": "r522"
+    }
+  ],
+  "preserved_zone": {
+    "zoneidnumber": 700,
+    "short_name": "feerrott2",
+    "min_status": 80
+  },
+  "preserved_corpse_spawns": [
+    {
+      "id": 138826,
+      "npcID": 700141,
+      "zone": "feerrott2",
+      "version": 0,
+      "x": -2887.25,
+      "y": 1155.5,
+      "z": 4.0,
+      "heading": 403.0
+    },
+    {
+      "id": 138828,
+      "npcID": 700141,
+      "zone": "feerrott2",
+      "version": 0,
+      "x": -2839.0,
+      "y": 1168.0,
+      "z": 4.0,
+      "heading": 511.0
+    },
+    {
+      "id": 138832,
+      "npcID": 700141,
+      "zone": "feerrott2",
+      "version": 0,
+      "x": -2704.0,
+      "y": 1151.25,
+      "z": 4.0,
+      "heading": 440.0
+    },
+    {
+      "id": 138837,
+      "npcID": 700141,
+      "zone": "feerrott2",
+      "version": 0,
+      "x": -2668.25,
+      "y": 1102.375,
+      "z": 4.0,
+      "heading": 491.0
+    },
+    {
+      "id": 138840,
+      "npcID": 700141,
+      "zone": "feerrott2",
+      "version": 0,
+      "x": -2724.375,
+      "y": 953.125,
+      "z": 4.0,
+      "heading": 256.0
+    },
+    {
+      "id": 138845,
+      "npcID": 700141,
+      "zone": "feerrott2",
+      "version": 0,
+      "x": -2783.75,
+      "y": 1089.5,
+      "z": 4.0,
+      "heading": 430.0
+    },
+    {
+      "id": 138848,
+      "npcID": 700141,
+      "zone": "feerrott2",
+      "version": 0,
+      "x": -2635.375,
+      "y": 1046.125,
+      "z": 4.0,
+      "heading": 340.0
+    },
+    {
+      "id": 138858,
+      "npcID": 700141,
+      "zone": "feerrott2",
+      "version": 0,
+      "x": -2719.75,
+      "y": 1078.625,
+      "z": 4.0,
+      "heading": 499.0
+    }
+  ],
+  "required_journal_loot_entries": [
+    {
+      "lootdrop_id": 117544,
+      "item_id": 49186,
+      "item_charges": 1,
+      "equip_item": 1,
+      "chance": 39.779,
+      "disabled_chance": 0.0,
+      "trivial_min_level": 0,
+      "trivial_max_level": 0,
+      "multiplier": 1,
+      "npc_min_level": 0,
+      "npc_max_level": 0,
+      "min_expansion": -1,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    }
+  ],
+  "required_delivery_helper_sha256": "85eeb3d426a98e70dd923e9e2bf87ff344c0bf24ecc54ab6d6edc84e924f71a9",
+  "required_absent_runtime_paths": [
+    "feerrott2/700075.lua",
+    "feerrott2/700075.pl",
+    "feerrott2/#Rupkerr.lua",
+    "feerrott2/#Rupkerr.pl",
+    "feerrott2/Rupkerr.lua",
+    "feerrott2/Rupkerr.pl",
+    "feerrott2/player.lua",
+    "feerrott2/player.pl",
+    "feerrott2/player_v0.lua",
+    "feerrott2/player_v0.pl",
+    "feerrott2/v0/player.lua",
+    "feerrott2/v0/player.pl",
+    "global/player.lua",
+    "global/player.pl",
+    "lua_modules/rof2_hot_expedition.lua",
+    "feerrott2/v0/700075.lua",
+    "feerrott2/v0/700075.pl",
+    "feerrott2/v0/#Rupkerr.lua",
+    "feerrott2/v0/#Rupkerr.pl",
+    "feerrott2/v0/Rupkerr.lua",
+    "feerrott2/v0/Rupkerr.pl"
+  ],
+  "parameter_policy": {
+    "minimum80": "Period2011accepted80/refused79",
+    "reward5Motes": "Period2010reported; chosen nativecurrency22commonledgerrepresentation, noextra physicalMote award",
+    "faction10": "Currentguide+dated2011generalnonkilltasktable; modifiersnative",
+    "cash158pp": "CurrentAlla158versusEQResource315conflict; explicit158default, notoriginalnumericclaim",
+    "xp": "Configurable1%levelbasedcap85(-8501), notoriginalnumericclaim",
+    "timer6hours": "DatedJan27,2013reportpreferred overcurrentguide5h; originalclockstartunknown/nativecompletionclockconfigured",
+    "replay": "FIRSTCOMPLETIONONLY; no reofferuntiloriginalchainreplayconditionimplemented; doesnotclaimoriginalquestneverrepeatable",
+    "exploration": "Configurableboxaroundall8existingcorpseplacements+margin; notexactrecoveredoriginaltrigger",
+    "phases": "ConfigurableinitialExplore/Loot/KillparallelthenDeliver; exactperiodunlockorderunknown",
+    "patroller": "Existing700142Lizardmanfamilytemplate; spawnatlooterperDec2012report, noNPCdefinition/stat/placementchange; fourexistingfamilytypesacceptedperregularpatrollerkillreport"
+  },
+  "ordinary_access": "GM80andoriginalchainprogressionunfinished; nofakeunlock",
+  "spawn_contract": "Zone-localEVENT_TASK_UPDATEtask920131/activity1/count1 runsafterinventory-call/nativeLootcredit; extraCountItempresencecheck; normalnativepathNOTcrashatomic/GUIDreceiptproof",
+  "no_global_script_or_item_script_edits": true,
+  "source_stage_registered": false,
+  "required_task_completion_rules": [
+    {
+      "ruleset_id": 1,
+      "rule_name": "TaskSystem:RecordCompletedTasks",
+      "rule_value": "true"
+    }
+  ]
+}

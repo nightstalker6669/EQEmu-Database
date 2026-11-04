@@ -1,0 +1,72 @@
+{
+  "classification": "Original NPC/nativecurrency restoration; explicit price estimate and reversible preservation filter",
+  "identity": {
+    "npc_id": 700070,
+    "merchant_id": 700070,
+    "zone_id": 700,
+    "currency_id": 22,
+    "currency_item_id": 52149,
+    "currency_item_name": "Dream Mote",
+    "npc_faction_group": 920680,
+    "primary_faction": 680
+  },
+  "stock": {
+    "verified_items": 197,
+    "rankI_count": 194,
+    "illusion_count": 3,
+    "existing_spell_updates": 150,
+    "spell_inserts": 47,
+    "preserved_unavailable_nonspell_rows": 158,
+    "total_after": 355
+  },
+  "sources": {
+    "originalNPC": "https://everquest.allakhazam.com/db/npc/35714",
+    "period_general_rankI": "https://www.eqmagetower.com/forums/viewtopic.php?t=3346#p19219",
+    "per_item_metadata": "Retained197sourcecatalogue matches allnativeitem/spell/classlevels; individualsourceURLs retained in original research",
+    "period_illusion_corroboration": "Retained2012Fanrarevision/2010NPCcomments; currentper-rowtable not independentlydatedforeachitem"
+  },
+  "price_policy": {
+    "rilfed_item126130_cost": {
+      "selected": 30,
+      "unit": "DreamMotes",
+      "source_table": 0,
+      "reason": "Source0conflictswithordinary30periodguide/current200generalguide; explicitlyconfigurable30default, nofreepriceinferred"
+    },
+    "other_costs": "30fromsourceperrow/periodgeneralrankIreports",
+    "faction_thresholds": "194Indifferent0;ScarecrowAmiable100,AmygdalanKindly500,RoyalGuardianWarmly750;currentperrowtable withperiodRoyalcorroboration, notallindependentlydated"
+  },
+  "faction_policy": "Preserve faction680base0/all16race-100mods andexisting920680primary680; use standardnative numeric standing checks, no permanentfaction writes",
+  "nonspell_filter": {
+    "flag": "rof2_hot_nonspell_verified",
+    "baseline": "class70/currency0 blocked in AltCurrencyMerchantRequest and Purchase; normalShopRequest/ShopPlayerBuy requireclass41; noRothquestoverride,solemerchantconsumer",
+    "loader": "zone/zone.cpp LoadMerchants/LoadNewMerchantData apply ContentFilterCriteria before client alternate lists/purchase lookup",
+    "original_flags": "All158rowsNULL/NULL; exactrows preserved in data/receipt",
+    "meaning": "Implementation availability filter only; no original progression claim. Never enable as a substitute for full original rules."
+  },
+  "source_contract_paths": [
+    "zone/client_packet.cpp Handle_OP_AltCurrencyMerchantRequest/AltCurrencyPurchase/ShopRequest/ShopPlayerBuy",
+    "zone/zone.cpp LoadMerchants/LoadNewMerchantData",
+    "common/repositories/criteria/content_filter_criteria.h"
+  ],
+  "validation": {
+    "python_syntax": "ASTparsed",
+    "offline_plan": "PASS/noDBconnection",
+    "native_purchase": false,
+    "new_test_suite": false
+  },
+  "applied": true,
+  "remaining": [
+    "Original non-spell costs/progression",
+    "Unqualified exact Rilfedprice and per-item historical gates",
+    "Natural original DreamMote quest acquisition",
+    "Nativepurchase/currencydebit acceptance"
+  ],
+  "applied_status": {
+    "date": "2026-11-04",
+    "database": "COMMITTED356writes; fullpostimages and independentNPC/355stockgroupreadbackpassed",
+    "availability": "197cost30spellrows;194standing0andoneeach100/500/750;158nonspellrowsretainedandfiltered, pendingflagundefined",
+    "runtime_freshness": "BuildROTH-CACHE-FRESHNESS-001 confirmsFeerrott700unloaded andall6liveprocesscontentflagcacheslackpendingflag; exactdeployedfilteradmits197andexcludes158. Nextordinaryfreshbootready, noextra reload/restart.",
+    "native_purchase_or_currency_debit_observed": false,
+    "faction_base_race_mods_other_consumers_player_state": "Unchanged"
+  }
+}

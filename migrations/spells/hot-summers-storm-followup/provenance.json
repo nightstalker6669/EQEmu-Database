@@ -1,0 +1,59 @@
+{
+  "status": "SOURCE_READY_NOT_APPLIED",
+  "period_source": {
+    "date": "2010-11-10",
+    "url": "https://bastiongame.com/library/patches/2010-11-10-1",
+    "archive_kind": "Modern preservation of original patch notes; two file occurrences listed",
+    "fact": "Rotharran adds rankI Summers Storm scroll"
+  },
+  "native_identity": {
+    "item_id": 125184,
+    "spell_id": 25495,
+    "class": "Ranger",
+    "level": 89,
+    "rank": 1
+  },
+  "write_scope": {
+    "merchantlist_inserts": 1,
+    "merchant_id": 700070,
+    "slot": 356
+  },
+  "parameters": {
+    "alt_currency_cost": {
+      "value": 30,
+      "status": "configurable reconstruction default"
+    },
+    "faction_required": {
+      "value": 0,
+      "status": "configurable reconstruction default"
+    }
+  },
+  "preserved": [
+    "355existingstockrows",
+    "158pendingnonspellsfiltered",
+    "nativeitems/spells/currency/NPC/faction",
+    "GM80access",
+    "playerproperty"
+  ],
+  "validation": {
+    "offline_plan": "PASS/noDBconnection",
+    "python_syntax": "ASTparsed",
+    "newtestsuite": false,
+    "native_purchase": false
+  },
+  "remaining": [
+    "Exactindividualprice/standing",
+    "Nativepurchase/debit"
+  ],
+  "applied": true,
+  "applied_status": {
+    "date": "2026-11-04",
+    "database": "One row merchant700070slot356/item125184 committed; full356stockpostimage+independentreadbackPASS",
+    "existing_stock": "Prior355exactunchanged;198spellrows/158pendingnonspellsfiltered",
+    "runtime_freshness": "BuildSUMMER-STORM-CACHE-FRESHNESS-001: actualnativefilter198cost30spellrows/158heldexcluded;125184->25495/gate0verified;Feerrott700unloaded,nextordinaryfreshbootready,noreload/restartrequired",
+    "native_purchase_debit_observed": false,
+    "cost_gate": "30Motes/Indifferentlabelledconfigurabledefaults",
+    "period_corroboration": "https://www.redguides.com/community/threads/everquest-game-update-notes-november-10-2010.23163/post-186930 contemporaryNov10,2010repost",
+    "later_managed_start": "BuildXORBB-CLEANUP-EXPEDITION-001 confirms198spell/158heldfilterretained in freshnormalpool, affectedFeerrottunloaded"
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "status": "SOURCE_ONLY_UNAPPLIED",
+  "database_writes": 0,
+  "native_acceptance": false,
+  "merchant": 724039,
+  "before_stock_rows": 71,
+  "before_last_slot": 102,
+  "after_stock_rows": 73,
+  "new_slots": [
+    103,
+    104
+  ],
+  "native_targets": [
+    {
+      "item": 131772,
+      "spell": 29772,
+      "class": "WIZ94rankI",
+      "price_unchanged": 1223131
+    },
+    {
+      "item": 131958,
+      "spell": 29958,
+      "class": "MAG94rankI",
+      "price_unchanged": 1223925
+    }
+  ],
+  "original_membership_verified_by_dated_inventory": true,
+  "per_scroll_original_language_threshold_verified": false,
+  "selected_language_skill_default": 50,
+  "language_database_id": 25,
+  "min_expansion": 18,
+  "default_authority": "JARVIS applies standing user configurable numerical-default policy; do not claim recovered original threshold.",
+  "sources": [
+    {
+      "url": "https://everquest.allakhazam.com/db/npc/38162#msg1321672908254769711",
+      "finding": "November18,2011log explicitly lists both released scrolls"
+    },
+    {
+      "url": "https://everquest.allakhazam.com/db/spell/29772",
+      "finding": "publicSoldBynamesMatima/WIZ94"
+    },
+    {
+      "url": "https://www.raspersrealm.com/Everquest/VoA/miscSpells.html",
+      "finding": "MAG/WIZ94/Matima50rows use ScaldingBurst/Flashfires; unresolvedalias, qualifiedsupportonly"
+    },
+    {
+      "url": "https://voa.eqresource.com/spells.php",
+      "finding": "generalcommon25/uncommon50for94\u201395; no individualscrollclassification"
+    },
+    {
+      "url": "https://lucy.allakhazam.com/spellhistory.html?id=29958&source=Live",
+      "finding": "initial2011-11-14,norecoveredlateraliaslink"
+    }
+  ],
+  "preservation": "Original71stock/mixedlanguagegates, NPC/soleconsumer, nativeitemspells/prices/levels/playerstate unchanged. No rankII/III edits."
+}

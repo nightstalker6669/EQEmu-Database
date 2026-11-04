@@ -1,0 +1,87 @@
+{
+  "classification": "OriginalHoTfactiontaskcomponent withlabelledXP/phase/currentguideparameters",
+  "original_quest": {
+    "id": 5133,
+    "url": "https://everquest.allakhazam.com/db/quest/5133",
+    "period_transcript": "https://everquest.allakhazam.com/db/quest/5133#msg128754977813724180",
+    "date": "2010-10-20",
+    "facts": {
+      "giver": "Lerg",
+      "keyword": "join",
+      "matron_kills": 2,
+      "patriarch_kills": 7,
+      "meat_loot": 3,
+      "meat_deliver": 3
+    }
+  },
+  "guide_sources": [
+    "https://hot.eqresource.com/meatforeat.php",
+    "https://www.eqmagetower.com/forums/viewtopic.php?t=3346#p19219"
+  ],
+  "native_task": 920130,
+  "actors": [
+    {
+      "id": 700000,
+      "name": "#Lerg"
+    },
+    {
+      "id": 700013,
+      "name": "a_gorilla_patriarch"
+    },
+    {
+      "id": 700016,
+      "name": "a_gorilla_matron"
+    }
+  ],
+  "item": {
+    "id": 17576,
+    "Name": "Gorilla Meat"
+  },
+  "parameter_policy": {
+    "min_level80_replay5hours": "CurrentEQResourceguide specifies80/unlimited/5hour; notindependentlydatedfield-by-field",
+    "xp": "Explicitconfigurable1percentlevel-basedexperiencecappedat85; encoded-8501pernativeRewardTask, nothistoricalnumericclaim",
+    "cash": "0; currentguidelistsExperienceandfactiononly",
+    "activity_order": "Configurableparallelkills/lootstep0thenfinaldeliverstep1; exactperiodunlockorderunrecovered",
+    "faction5": "Currentguide+datedMay21,2011killtaskfactiontable; noMoteaward"
+  },
+  "no_motes": true,
+  "native_delivery_dependency": {
+    "module": "achievement_native_delivery_handin.lua",
+    "sha256": "85eeb3d426a98e70dd923e9e2bf87ff344c0bf24ecc54ab6d6edc84e924f71a9",
+    "reused_unchanged": true,
+    "core_fix": "94e5f72768635a504c9b13feed093ddcef81d82b",
+    "scope": "NormaltaskDeliverreturn-custody; notgenericmidstageatomicaward/crashconservation",
+    "deployment_evidence": "JARVISreportsreviewedrunningdescendantc18225a9 andexistingGearingpartialnativehandinproof; no newtestfromSpells"
+  },
+  "cache_requirement": "TaskManagerprocess-localcatalogmustload920130; freshFeerrottVMaloneisinsufficient",
+  "preserved": [
+    "FeerrottGM80",
+    "actors/placements/drops",
+    "helperimplementation",
+    "achievementcriteria",
+    "factionbase/racemods",
+    "playerstate"
+  ],
+  "validation": {
+    "python_syntax": "ASTparsed",
+    "offline_plan": "Runseparately/noDBconnection",
+    "native_task_or_reward": false,
+    "new_test_suite": false
+  },
+  "applied": true,
+  "remaining": [
+    "ExactoriginalnumericXP/phaseordering/periodguidefielddates",
+    "OrdinaryHoTzoneaccess",
+    "FullnaturalDreamMotequestacquisition",
+    "Nativequestacceptance/reward/replay"
+  ],
+  "applied_status": {
+    "date": "2026-11-04",
+    "database": "COMMITTED5inserts:task920130+4activities; fullpostimages and independentreadbackpassed",
+    "runtime": "Exclusivefeerrott2/700000.lua installed; reviewed85eeb3 deliveryhelper unchanged",
+    "runtime_catalogs": "BuildMEAT-FOR-EAT-CATALOG-001 authenticatedapi27 actualworld+all6taskcatalogs task920130/exact4activities and rewardcatalogs loaded; Feerrottunloaded nextordinaryfreshVM",
+    "reward": "Nativefaction680+5; NO DreamMotes",
+    "preserved": "Player/global/actor/loot/GM80 unchanged",
+    "native_quest_or_handin_observed": false
+  }
+}

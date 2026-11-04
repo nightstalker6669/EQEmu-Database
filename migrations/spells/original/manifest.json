@@ -1,0 +1,217 @@
+{
+  "format": 1,
+  "source_base": "c9c8747ac949deddb140d196d241fa4e777500c7",
+  "reward_engine_branch": "rof2-shared-core",
+  "reward_engine_commit": "b3f795ea642d810d0af75dca39d6dd1f28826385",
+  "stages": [
+    {
+      "name": "001-exigent-items",
+      "path": "data/001-exigent-items.json",
+      "contains_estimates": false,
+      "sha256": "0d23ee1c09e08513b48a14a5b528df4dca555aaa379f4179fba58e96ecfa1641"
+    },
+    {
+      "name": "002-rank1-vendors",
+      "path": "data/002-rank1-vendors.json",
+      "contains_estimates": false,
+      "sha256": "e0d504f20f99201a1baa3ad055f3c16d6255507dfb3952468a40513620821568"
+    },
+    {
+      "name": "003-pets-and-auras",
+      "path": "data/003-pets-and-auras.json",
+      "contains_estimates": true,
+      "sha256": "3df6035895af0ba9121d0f7ce5b0d8543176216d86b09560b6f51a05365296d7"
+    },
+    {
+      "name": "004-kerk-motes",
+      "path": "data/004-kerk-motes.json",
+      "contains_estimates": false,
+      "sha256": "ad47744c023a594b4776d4ecc00892084eac0bc6b6fe27e1ceadc6af9c6f4850"
+    },
+    {
+      "name": "005-voa-language",
+      "path": "data/005-voa-language.json",
+      "contains_estimates": false,
+      "sha256": "c3ae9d2671b8db0268b4fb6fdddb732a466466cfb2aef0f49edde275ccdbeb5b"
+    },
+    {
+      "name": "006-ordered-runes",
+      "path": "data/006-ordered-runes.json",
+      "contains_estimates": false,
+      "sha256": "09957269c316e5bba413110d0a127b8b63fec1f4e15e11b8ca34588a20162716"
+    },
+    {
+      "name": "007-voa-scrolls-and-tasks",
+      "path": "data/007-voa-scrolls-and-tasks.json",
+      "contains_estimates": false,
+      "sha256": "41d9d58d4f0b269c444c90a26f497ef8e6204ed75b0a0234493b9654d094c61b"
+    },
+    {
+      "name": "008-hot-fragment-exchanges",
+      "path": "data/008-hot-fragment-exchanges.json",
+      "contains_estimates": false,
+      "sha256": "ac2cbc6ec3d8d7ddee9b1e2defdc70a40b07e8d366986aaf4f0f31213111c4f2"
+    },
+    {
+      "name": "009-legacy-exchanges",
+      "path": "data/009-legacy-exchanges.json",
+      "contains_estimates": false,
+      "sha256": "e3e3c68dc84b417f2ccee65f55a12a86da99589806985754a366233a5ec8f84d"
+    },
+    {
+      "name": "010-sod-runes-and-downgrades",
+      "path": "data/010-sod-runes-and-downgrades.json",
+      "contains_estimates": false,
+      "sha256": "1461744c2beba82be1e4e6cdd41b499b2adc2ec3287b283777ddf7c1381681ca"
+    },
+    {
+      "name": "011-sof-faction-merchants",
+      "path": "data/011-sof-faction-merchants.json",
+      "contains_estimates": false,
+      "sha256": "8f556cf14c66b4ab1231f7b0213b111ce71cc6f5727e8c7ccc45f44195dcd067"
+    }
+  ],
+  "primary_keys": {
+    "items": [
+      "id"
+    ],
+    "npc_faction": [
+      "id"
+    ],
+    "merchantlist": [
+      "merchantid",
+      "slot"
+    ],
+    "npc_spells": [
+      "id"
+    ],
+    "npc_spells_entries": [
+      "id"
+    ],
+    "npc_types": [
+      "id"
+    ],
+    "pets": [
+      "id"
+    ],
+    "auras": [
+      "type"
+    ],
+    "tasks": [
+      "id"
+    ],
+    "task_activities": [
+      "taskid",
+      "activityid"
+    ],
+    "reward_sets": [
+      "reward_set_id"
+    ],
+    "reward_sources": [
+      "source_type",
+      "source_id"
+    ],
+    "reward_options": [
+      "reward_set_id",
+      "option_id"
+    ],
+    "rewards": [
+      "reward_id"
+    ],
+    "reward_option_entries": [
+      "reward_set_id",
+      "option_id",
+      "reward_id"
+    ],
+    "task_spell_exchange_policies": [
+      "task_id"
+    ],
+    "spawngroup": [
+      "id"
+    ],
+    "spawnentry": [
+      "spawngroupID",
+      "npcID"
+    ],
+    "spawn2": [
+      "id"
+    ],
+    "tradeskill_recipe": [
+      "id"
+    ],
+    "tradeskill_recipe_entries": [
+      "id"
+    ]
+  },
+  "shared_core_base": "b3f795ea642d810d0af75dca39d6dd1f28826385",
+  "required_schema_version": 9338,
+  "quest_files": [
+    {
+      "stage": "004-kerk-motes",
+      "path": "quests/shardslanding/#Tomekeeper_Kerkaz.lua",
+      "npc_id": 752146
+    },
+    {
+      "stage": "006-ordered-runes",
+      "path": "quests/brellsrest/#Dwekvard_Gravelpick.lua",
+      "npc_id": 480107
+    },
+    {
+      "stage": "006-ordered-runes",
+      "path": "quests/dragonscale/Kalim`Kar_the_Gold.lua",
+      "npc_id": 442026
+    },
+    {
+      "stage": "006-ordered-runes",
+      "path": "quests/lua_modules/rof2_spell_rune_data.lua",
+      "previous_sha256": [
+        "f1a978e0fcabd6f024ddf5674dacb7cbde2537689c3d6a92a0233acee3f35124"
+      ]
+    },
+    {
+      "stage": "006-ordered-runes",
+      "path": "quests/lua_modules/rof2_spell_runes.lua",
+      "previous_sha256": [
+        "ff0955f65f6443cedc5526894dbb8d20206a8d24e94d71d561d203133d3b763a"
+      ]
+    },
+    {
+      "stage": "007-voa-scrolls-and-tasks",
+      "path": "quests/beastdomain/The_Sklyg.lua",
+      "npc_id": 728000
+    },
+    {
+      "stage": "008-hot-fragment-exchanges",
+      "path": "quests/feerrott2/#Kaelynn_Stearns.lua",
+      "npc_id": 700076
+    },
+    {
+      "stage": "008-hot-fragment-exchanges",
+      "path": "quests/housegarden/#Spensur.lua",
+      "npc_id": 703037
+    },
+    {
+      "stage": "009-legacy-exchanges",
+      "path": "quests/ashengate/Kalim`Kar_the_Gold.lua",
+      "npc_id": 406000
+    },
+    {
+      "stage": "009-legacy-exchanges",
+      "path": "quests/brellsrest/#Holdegar_Bairdun.lua",
+      "npc_id": 480104
+    },
+    {
+      "stage": "009-legacy-exchanges",
+      "path": "quests/lua_modules/rof2_legacy_spell_data.lua"
+    },
+    {
+      "stage": "010-sod-runes-and-downgrades",
+      "path": "quests/potimea/Kalim`Kar_the_Gold.lua",
+      "npc_id": 219900
+    },
+    {
+      "stage": "010-sod-runes-and-downgrades",
+      "path": "quests/lua_modules/rof2_sod_rune_data.lua"
+    }
+  ]
+}

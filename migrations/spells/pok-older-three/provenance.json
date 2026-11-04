@@ -1,0 +1,67 @@
+{
+  "status": "SOURCE_ONLY_QUALIFIED_INFERENCE_CANDIDATE_UNAPPLIED",
+  "database_writes": 0,
+  "native_acceptance": false,
+  "individual_period_inventory_verified": false,
+  "original_rankI_quest_or_drop_implemented": false,
+  "new_rows": 3,
+  "selected_current_era_npcs": [
+    202175,
+    202185,
+    202215
+  ],
+  "old_era_variants_preserved": [
+    202338,
+    202499,
+    202504
+  ],
+  "prior_selected_merchant_rows": 0,
+  "new_stock_min_expansion": 18,
+  "targets": [
+    {
+      "item": 78613,
+      "spell": 10276,
+      "merchant": 202185,
+      "class": "SHD73rankI",
+      "native_price_preserved": 246416
+    },
+    {
+      "item": 115358,
+      "spell": 14358,
+      "merchant": 202215,
+      "class": "DRU80rankI",
+      "native_price_preserved": 392568
+    },
+    {
+      "item": 116477,
+      "spell": 15477,
+      "merchant": 202175,
+      "class": "WIZ80rankI",
+      "native_price_preserved": 393888
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://everquest.allakhazam.com/db/npc/10098#msg134184046066561692",
+      "finding": "July9,2012Praden71\u201380role; currentnamedDrinkstock"
+    },
+    {
+      "url": "https://everquest.allakhazam.com/wiki/EQ_Mob:Wanderer_Thermon?oldid=422349",
+      "finding": "April17,2012Druid71\u201380role; currentNPC10184Naturestock"
+    },
+    {
+      "url": "https://everquest.allakhazam.com/wiki/EQ_Mob:Channeler_Keatrem?oldid=422080",
+      "finding": "April15,2012Wizard71\u201380role; currentNPC10077Tanglestock"
+    },
+    {
+      "url": "https://www.redguides.com/community/threads/big-everquest-patch-march-16-2012.24356/post-195066",
+      "finding": "most ordinary base-rank PoK vendor expansion; not per-item proof"
+    }
+  ],
+  "excluded": {
+    "spell": 10224,
+    "reason": "Wraithguard positivecut/late2016reports; no modernstock\u2192RoFactivation"
+  },
+  "policy_qualification": "Ordinary PoK stock cohort numerical defaults chosen explicitly for empty dedicated merchants; preserve native item prices/spell levels. No new Alaran or advanced-rank entitlement.",
+  "preservation": "No NPC/spawn/item/spell/old-era stock/task/achievement/player changes."
+}

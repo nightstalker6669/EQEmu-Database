@@ -1,0 +1,1128 @@
+{
+  "format_version": 1,
+  "components": [
+    {
+      "component": "Original schema/core prerequisites",
+      "retained_status": "HISTORICAL_SOURCE_PIN_NOT_A_CURRENT_BUILD_VERDICT",
+      "dependency_order": 0,
+      "qualification": "Historicalsharedcore b3f795ea642d810d0af75dca39d6dd1f28826385 onupstreamc9c8747ac949deddb140d196d241fa4e777500c7; schema9331\u20139338 plus three supplemental SQL. Database/Build must assemble their actual current ordered sharedcore migrations, never replay oldsourceoverlay. Native-delivery scripts later require sharedcore94e5f72768635a504c9b13feed093ddcef81d82b or accepted descendant.",
+      "artifact_hash_references": [
+        {
+          "file": "manifest.json",
+          "sha256": "19ed2f3fab7bcd43d7d535eea8df5af4553e75f76bd0c704807b54c530e8819c",
+          "role": "Retainedownerreference; rawprivateartifactnotincluded"
+        },
+        {
+          "file": "README.md",
+          "sha256": "e50f5e4ab17aa6470c7250521f461551cc9880397ce911e4f45616de520a5e47",
+          "role": "Retainedownerreference; rawprivateartifactnotincluded"
+        },
+        {
+          "file": "SHARED-REWARDS.md",
+          "sha256": "33c489bf44d599c90283415f3748769855f661a028cea0876e5c76add6aeb6e4",
+          "role": "Retainedownerreference; rawprivateartifactnotincluded"
+        },
+        {
+          "file": "source-adoption.json",
+          "sha256": "37f958832180bc27e8d381a9070bf53a34853c5f64103b5a0f3dd184964646c2",
+          "role": "Retainedownerreference; rawprivateartifactnotincluded"
+        },
+        {
+          "file": "engine.patch",
+          "sha256": "0083707df282fd0c62dbb6df4d27918ea5fcde2e98af380e275448b8ce42779b",
+          "role": "Retainedownerreference; rawprivateartifactnotincluded"
+        }
+      ]
+    },
+    {
+      "component": "001-exigent-items",
+      "retained_status": "APPLIED_RETAINED_MARKER_SEE_INSTALLATION_RECEIPTS",
+      "dependency_order": 1,
+      "qualification": "Content is ordered declarativeJSON plus guarded installer, not a guessed flatSQLmigration. ExactpayloadSHA256 0d23ee1c09e08513b48a14a5b528df4dca555aaa379f4179fba58e96ecfa1641. Initial/staged receipts include previouslyinstallednoops; do not doubleapply. 003 pets/auras remains held/proposed, not applied.",
+      "artifact_hash_references": [
+        {
+          "file": "001-exigent-items.json",
+          "sha256": "0d23ee1c09e08513b48a14a5b528df4dca555aaa379f4179fba58e96ecfa1641",
+          "role": "Retainedownerreference; rawprivateartifactnotincluded"
+        },
+        {
+          "file": "install.py",
+          "sha256": "b68bfc43608e92f3b7c467addaa401cd89787ce42714f7e6e18bf57eb36d19bb",
+          "role": "Retainedownerreference; rawprivateartifactnotincluded"
+        },
+        {
+          "file": "content-installation.json",
+          "sha256": "0663a510dd3653582febc7d50bc301b12720a9fbea83b5ec861581aa73395b43",
+          "role": "Retainedownerreference; rawprivateartifactnotincluded"
+        },
+        {
+          "file": "content-installation.json",
+          "sha256": "4b28722bdd786e83008134bf64578f06cd0aa18e6fc9004477176940b238b750",
+          "role": "Retainedownerreference; rawprivateartifactnotincluded"
+        }
+      ]
+    },
+    {
+      "component": "002-rank1-vendors",
+      "retained_status": "APPLIED_RETAINED_MARKER_SEE_INSTALLATION_RECEIPTS",
+      "dependency_order": 2,
+      "qualification": "Content is ordered declarativeJSON plus guarded installer, not a guessed flatSQLmigration. ExactpayloadSHA256 e0d504f20f99201a1baa3ad055f3c16d6255507dfb3952468a40513620821568. Initial/staged receipts include previouslyinstallednoops; do not doubleapply. 003 pets/auras remains held/proposed, not applied.",
+      "artifact_hash_references": [
+        {
+          "file": "002-rank1-vendors.json",
+          "sha256": "e0d504f20f99201a1baa3ad055f3c16d6255507dfb3952468a40513620821568",
+          "role": "Retainedownerreference; rawprivateartifactnotincluded"
+        },
+        {
+          "file": "install.py",
+          "sha256": "b68bfc43608e92f3b7c467addaa401cd89787ce42714f7e6e18bf57eb36d19bb",
+          "role": "Retainedownerreference; rawprivateartifactnotincluded"
+        },
+        {
+          "file": "content-installation.json",
+          "sha256": "0663a510dd3653582febc7d50bc301b12720a9fbea83b5ec861581aa73395b43",
+          "role": "Retainedownerreference; rawprivateartifactnotincluded"
+        },
+        {
+          "file": "content-installation.json",
+          "sha256": "4b28722bdd786e83008134bf64578f06cd0aa18e6fc9004477176940b238b750",
+          "role": "Retainedownerreference; rawprivateartifactnotincluded"
+        }
+      ]
+    },
+    {
+      "component": "003-pets-and-auras",
+      "retained_status": "DISABLED_NOT_IN_RETAINED_INSTALLATION_RECEIPTS",
+      "dependency_order": 3,
+      "qualification": "Content is ordered declarativeJSON plus guarded installer, not a guessed flatSQLmigration. ExactpayloadSHA256 3df6035895af0ba9121d0f7ce5b0d8543176216d86b09560b6f51a05365296d7. Initial/staged receipts include previouslyinstallednoops; do not doubleapply. 003 pets/auras remains held/proposed, not applied.",
+      "artifact_hash_references": [
+        {
+          "file": "003-pets-and-auras.json",
+          "sha256": "3df6035895af0ba9121d0f7ce5b0d8543176216d86b09560b6f51a05365296d7",
+          "role": "Retainedownerreference; rawprivateartifactnotincluded"
+        },
+        {
+          "file": "install.py",
+          "sha256": "b68bfc43608e92f3b7c467addaa401cd89787ce42714f7e6e18bf57eb36d19bb",
+          "role": "Retainedownerreference; rawprivateartifactnotincluded"
+        },
+        {
+          "file": "content-installation.json",
+          "sha256": "0663a510dd3653582febc7d50bc301b12720a9fbea83b5ec861581aa73395b43",
+          "role": "Retainedownerreference; rawprivateartifactnotincluded"
+        },
+        {
+          "file": "content-installation.json",
+          "sha256": "4b28722bdd786e83008134bf64578f06cd0aa18e6fc9004477176940b238b750",
+          "role": "Retainedownerreference; rawprivateartifactnotincluded"
+        }
+      ]
+    },
+    {
+      "component": "004-kerk-motes",
+      "retained_status": "APPLIED_RETAINED_MARKER_SEE_INSTALLATION_RECEIPTS",
+      "dependency_order": 4,
+      "qualification": "Content is ordered declarativeJSON plus guarded installer, not a guessed flatSQLmigration. ExactpayloadSHA256 ad47744c023a594b4776d4ecc00892084eac0bc6b6fe27e1ceadc6af9c6f4850. Initial/staged receipts include previouslyinstallednoops; do not doubleapply. 003 pets/auras remains held/proposed, not applied.",
+      "artifact_hash_references": [
+        {
+          "file": "004-kerk-motes.json",
+          "sha256": "ad47744c023a594b4776d4ecc00892084eac0bc6b6fe27e1ceadc6af9c6f4850",
+          "role": "Retainedownerreference; rawprivateartifactnotincluded"
+        },
+        {
+          "file": "install.py",
+          "sha256": "b68bfc43608e92f3b7c467addaa401cd89787ce42714f7e6e18bf57eb36d19bb",
+          "role": "Retainedownerreference; rawprivateartifactnotincluded"
+        },
+        {
+          "file": "content-installation.json",
+          "sha256": "0663a510dd3653582febc7d50bc301b12720a9fbea83b5ec861581aa73395b43",
+          "role": "Retainedownerreference; rawprivateartifactnotincluded"
+        },
+        {
+          "file": "content-installation.json",
+          "sha256": "4b28722bdd786e83008134bf64578f06cd0aa18e6fc9004477176940b238b750",
+          "role": "Retainedownerreference; rawprivateartifactnotincluded"
+        }
+      ]
+    },
+    {
+      "component": "005-voa-language",
+      "retained_status": "APPLIED_RETAINED_MARKER_SEE_INSTALLATION_RECEIPTS",
+      "dependency_order": 5,
+      "qualification": "Content is ordered declarativeJSON plus guarded installer, not a guessed flatSQLmigration. ExactpayloadSHA256 c3ae9d2671b8db0268b4fb6fdddb732a466466cfb2aef0f49edde275ccdbeb5b. Initial/staged receipts include previouslyinstallednoops; do not doubleapply. 003 pets/auras remains held/proposed, not applied.",
+      "artifact_hash_references": [
+        {
+          "file": "005-voa-language.json",
+          "sha256": "c3ae9d2671b8db0268b4fb6fdddb732a466466cfb2aef0f49edde275ccdbeb5b",
+          "role": "Retainedownerreference; rawprivateartifactnotincluded"
+        },
+        {
+          "file": "install.py",
+          "sha256": "b68bfc43608e92f3b7c467addaa401cd89787ce42714f7e6e18bf57eb36d19bb",
+          "role": "Retainedownerreference; rawprivateartifactnotincluded"
+        },
+        {
+          "file": "content-installation.json",
+          "sha256": "0663a510dd3653582febc7d50bc301b12720a9fbea83b5ec861581aa73395b43",
+          "role": "Retainedownerreference; rawprivateartifactnotincluded"
+        },
+        {
+          "file": "content-installation.json",
+          "sha256": "4b28722bdd786e83008134bf64578f06cd0aa18e6fc9004477176940b238b750",
+          "role": "Retainedownerreference; rawprivateartifactnotincluded"
+        }
+      ]
+    },
+    {
+      "component": "006-ordered-runes",
+      "retained_status": "APPLIED_RETAINED_MARKER_SEE_INSTALLATION_RECEIPTS",
+      "dependency_order": 6,
+      "qualification": "Content is ordered declarativeJSON plus guarded installer, not a guessed flatSQLmigration. ExactpayloadSHA256 09957269c316e5bba413110d0a127b8b63fec1f4e15e11b8ca34588a20162716. Initial/staged receipts include previouslyinstallednoops; do not doubleapply. 003 pets/auras remains held/proposed, not applied.",
+      "artifact_hash_references": [
+        {
+          "file": "006-ordered-runes.json",
+          "sha256": "09957269c316e5bba413110d0a127b8b63fec1f4e15e11b8ca34588a20162716",
+          "role": "Retainedownerreference; rawprivateartifactnotincluded"
+        },
+        {
+          "file": "install.py",
+          "sha256": "b68bfc43608e92f3b7c467addaa401cd89787ce42714f7e6e18bf57eb36d19bb",
+          "role": "Retainedownerreference; rawprivateartifactnotincluded"
+        },
+        {
+          "file": "content-installation.json",
+          "sha256": "0663a510dd3653582febc7d50bc301b12720a9fbea83b5ec861581aa73395b43",
+          "role": "Retainedownerreference; rawprivateartifactnotincluded"
+        },
+        {
+          "file": "content-installation.json",
+          "sha256": "4b28722bdd786e83008134bf64578f06cd0aa18e6fc9004477176940b238b750",
+          "role": "Retainedownerreference; rawprivateartifactnotincluded"
+        }
+      ]
+    },
+    {
+      "component": "007-voa-scrolls-and-tasks",
+      "retained_status": "APPLIED_RETAINED_MARKER_SEE_INSTALLATION_RECEIPTS",
+      "dependency_order": 7,
+      "qualification": "Content is ordered declarativeJSON plus guarded installer, not a guessed flatSQLmigration. ExactpayloadSHA256 41d9d58d4f0b269c444c90a26f497ef8e6204ed75b0a0234493b9654d094c61b. Initial/staged receipts include previouslyinstallednoops; do not doubleapply. 003 pets/auras remains held/proposed, not applied.",
+      "artifact_hash_references": [
+        {
+          "file": "007-voa-scrolls-and-tasks.json",
+          "sha256": "41d9d58d4f0b269c444c90a26f497ef8e6204ed75b0a0234493b9654d094c61b",
+          "role": "Retainedownerreference; rawprivateartifactnotincluded"
+        },
+        {
+          "file": "install.py",
+          "sha256": "b68bfc43608e92f3b7c467addaa401cd89787ce42714f7e6e18bf57eb36d19bb",
+          "role": "Retainedownerreference; rawprivateartifactnotincluded"
+        },
+        {
+          "file": "content-installation.json",
+          "sha256": "0663a510dd3653582febc7d50bc301b12720a9fbea83b5ec861581aa73395b43",
+          "role": "Retainedownerreference; rawprivateartifactnotincluded"
+        },
+        {
+          "file": "content-installation.json",
+          "sha256": "4b28722bdd786e83008134bf64578f06cd0aa18e6fc9004477176940b238b750",
+          "role": "Retainedownerreference; rawprivateartifactnotincluded"
+        }
+      ]
+    },
+    {
+      "component": "008-hot-fragment-exchanges",
+      "retained_status": "APPLIED_RETAINED_MARKER_SEE_INSTALLATION_RECEIPTS",
+      "dependency_order": 8,
+      "qualification": "Content is ordered declarativeJSON plus guarded installer, not a guessed flatSQLmigration. ExactpayloadSHA256 ac2cbc6ec3d8d7ddee9b1e2defdc70a40b07e8d366986aaf4f0f31213111c4f2. Initial/staged receipts include previouslyinstallednoops; do not doubleapply. 003 pets/auras remains held/proposed, not applied.",
+      "artifact_hash_references": [
+        {
+          "file": "008-hot-fragment-exchanges.json",
+          "sha256": "ac2cbc6ec3d8d7ddee9b1e2defdc70a40b07e8d366986aaf4f0f31213111c4f2",
+          "role": "Retainedownerreference; rawprivateartifactnotincluded"
+        },
+        {
+          "file": "install.py",
+          "sha256": "b68bfc43608e92f3b7c467addaa401cd89787ce42714f7e6e18bf57eb36d19bb",
+          "role": "Retainedownerreference; rawprivateartifactnotincluded"
+        },
+        {
+          "file": "content-installation.json",
+          "sha256": "0663a510dd3653582febc7d50bc301b12720a9fbea83b5ec861581aa73395b43",
+          "role": "Retainedownerreference; rawprivateartifactnotincluded"
+        },
+        {
+          "file": "content-installation.json",
+          "sha256": "4b28722bdd786e83008134bf64578f06cd0aa18e6fc9004477176940b238b750",
+          "role": "Retainedownerreference; rawprivateartifactnotincluded"
+        }
+      ]
+    },
+    {
+      "component": "009-legacy-exchanges",
+      "retained_status": "APPLIED_RETAINED_MARKER_SEE_INSTALLATION_RECEIPTS",
+      "dependency_order": 9,
+      "qualification": "Content is ordered declarativeJSON plus guarded installer, not a guessed flatSQLmigration. ExactpayloadSHA256 e3e3c68dc84b417f2ccee65f55a12a86da99589806985754a366233a5ec8f84d. Initial/staged receipts include previouslyinstallednoops; do not doubleapply. 003 pets/auras remains held/proposed, not applied.",
+      "artifact_hash_references": [
+        {
+          "file": "009-legacy-exchanges.json",
+          "sha256": "e3e3c68dc84b417f2ccee65f55a12a86da99589806985754a366233a5ec8f84d",
+          "role": "Retainedownerreference; rawprivateartifactnotincluded"
+        },
+        {
+          "file": "install.py",
+          "sha256": "b68bfc43608e92f3b7c467addaa401cd89787ce42714f7e6e18bf57eb36d19bb",
+          "role": "Retainedownerreference; rawprivateartifactnotincluded"
+        },
+        {
+          "file": "content-installation.json",
+          "sha256": "0663a510dd3653582febc7d50bc301b12720a9fbea83b5ec861581aa73395b43",
+          "role": "Retainedownerreference; rawprivateartifactnotincluded"
+        },
+        {
+          "file": "content-installation.json",
+          "sha256": "4b28722bdd786e83008134bf64578f06cd0aa18e6fc9004477176940b238b750",
+          "role": "Retainedownerreference; rawprivateartifactnotincluded"
+        }
+      ]
+    },
+    {
+      "component": "010-sod-runes-and-downgrades",
+      "retained_status": "APPLIED_RETAINED_MARKER_SEE_INSTALLATION_RECEIPTS",
+      "dependency_order": 10,
+      "qualification": "Content is ordered declarativeJSON plus guarded installer, not a guessed flatSQLmigration. ExactpayloadSHA256 1461744c2beba82be1e4e6cdd41b499b2adc2ec3287b283777ddf7c1381681ca. Initial/staged receipts include previouslyinstallednoops; do not doubleapply. 003 pets/auras remains held/proposed, not applied.",
+      "artifact_hash_references": [
+        {
+          "file": "010-sod-runes-and-downgrades.json",
+          "sha256": "1461744c2beba82be1e4e6cdd41b499b2adc2ec3287b283777ddf7c1381681ca",
+          "role": "Retainedownerreference; rawprivateartifactnotincluded"
+        },
+        {
+          "file": "install.py",
+          "sha256": "b68bfc43608e92f3b7c467addaa401cd89787ce42714f7e6e18bf57eb36d19bb",
+          "role": "Retainedownerreference; rawprivateartifactnotincluded"
+        },
+        {
+          "file": "content-installation.json",
+          "sha256": "0663a510dd3653582febc7d50bc301b12720a9fbea83b5ec861581aa73395b43",
+          "role": "Retainedownerreference; rawprivateartifactnotincluded"
+        },
+        {
+          "file": "content-installation.json",
+          "sha256": "4b28722bdd786e83008134bf64578f06cd0aa18e6fc9004477176940b238b750",
+          "role": "Retainedownerreference; rawprivateartifactnotincluded"
+        }
+      ]
+    },
+    {
+      "component": "011-sof-faction-merchants",
+      "retained_status": "APPLIED_RETAINED_MARKER_SEE_INSTALLATION_RECEIPTS",
+      "dependency_order": 11,
+      "qualification": "Content is ordered declarativeJSON plus guarded installer, not a guessed flatSQLmigration. ExactpayloadSHA256 8f556cf14c66b4ab1231f7b0213b111ce71cc6f5727e8c7ccc45f44195dcd067. Initial/staged receipts include previouslyinstallednoops; do not doubleapply. 003 pets/auras remains held/proposed, not applied.",
+      "artifact_hash_references": [
+        {
+          "file": "011-sof-faction-merchants.json",
+          "sha256": "8f556cf14c66b4ab1231f7b0213b111ce71cc6f5727e8c7ccc45f44195dcd067",
+          "role": "Retainedownerreference; rawprivateartifactnotincluded"
+        },
+        {
+          "file": "install.py",
+          "sha256": "b68bfc43608e92f3b7c467addaa401cd89787ce42714f7e6e18bf57eb36d19bb",
+          "role": "Retainedownerreference; rawprivateartifactnotincluded"
+        },
+        {
+          "file": "receipt.json",
+          "sha256": "39035987c80fd5727c2e9da19afeb9580edcabda31ff5746161660ee97937a8d",
+          "role": "Retainedownerreference; rawprivateartifactnotincluded"
+        },
+        {
+          "file": "verification.json",
+          "sha256": "b4735eb31d60457bf1a10fc499d42e7c4b7880b88b1759a65ee81374997dbc71",
+          "role": "Retainedownerreference; rawprivateartifactnotincluded"
+        }
+      ]
+    },
+    {
+      "component": "event-family-relocation",
+      "retained_status": "APPLIED_COMPLETED_RECEIPT_PRESENT",
+      "dependency_order": null,
+      "qualification": "Onlyretainedcompletedreceipts establishappliedmarker; localtop-levelprovenance may be historicalapplied=false. Readers/runtime/catalogue are separate evidence. Prepared-only failedattempts are not migrations. CanonicalcustomitemIDrelocation BEFORE installoriginal132477SharedSavageryIII BEFORE rewardactivation. Activecustody/playerpreservation operations are LOCALONLY and excluded fromportablecontentrelease; do not copyplayerreferencepatches or QAstate.",
+      "artifact_hash_references": [
+        {
+          "file": "archive-event-definitions.json",
+          "sha256": "69eab26774ac41e87c1a1ef4182abd78078a37f08d5312efb3a562e87d2e3e2d",
+          "role": "Retainedownerreference; rawprivateartifactnotincluded"
+        },
+        {
+          "file": "provenance.json",
+          "sha256": "e43fa2d7f0d614b92e7bcc29068232bfde164dec5b19f2158c04b1241f6e2024",
+          "role": "Retainedownerreference; rawprivateartifactnotincluded"
+        },
+        {
+          "file": "migration-contract.json",
+          "sha256": "b2b8ebe79915df4e814023fe556d22c9fbfef6204f2c65abd09e5a52cd9d52c4",
+          "role": "Retainedownerreference; rawprivateartifactnotincluded"
+        },
+        {
+          "file": "data.json",
+          "sha256": "09557171a325edee23dbca53c7691a6aa4a1bc97361e00d64fe3ce4cdf793fc0",
+          "role": "Retainedownerreference; rawprivateartifactnotincluded"
+        },
+        {
+          "file": "mysql_migration.py",
+          "sha256": "1d329a4d3e696af0935526bc5e193268ec9fa1c35f2b4fb0d10108635cb7cf9d",
+          "role": "Retainedownerreference; rawprivateartifactnotincluded"
+        },
+        {
+          "file": "activate_reward.py",
+          "sha256": "71a309b4aa91253ab4fd51e505aca3e268f4a0968b7611db3bc980e05cc695f6",
+          "role": "Retainedownerreference; rawprivateartifactnotincluded"
+        },
+        {
+          "file": "activation-89815ec704954671878b6e7a604f7b01.completed.json",
+          "sha256": "bba163ae8c86553f540f1446e36afae71fe6aff2052bf4e4228d8dca91b63bde",
+          "role": "Retainedownerreference; rawprivateartifactnotincluded"
+        },
+        {
+          "file": "c16183b5200c4c9796a4eb67c58d1ed3.completed.json",
+          "sha256": "52163571dc230cb983eda8740650cb9c7a21a10ec16464909c5d4b8d8e5391bd",
+          "role": "Retainedownerreference; rawprivateartifactnotincluded"
+        },
+        {
+          "file": "activation-readback.json",
+          "sha256": "f960dc36d57d36f50a10d667264f4839fe92976e17c662fb3910e627c679172a",
+          "role": "Retainedownerreference; rawprivateartifactnotincluded"
+        },
+        {
+          "file": "readback.json",
+          "sha256": "a8477ead4a084c5386d3648d4138d4eabf6fad88c34ade5dc8619af4501c38b0",
+          "role": "Retainedownerreference; rawprivateartifactnotincluded"
+        }
+      ],
+      "package_type": "Content-only contract; runtimecustodyimplementation excluded"
+    },
+    {
+      "component": "hot-paladin90-audit",
+      "retained_status": "APPLIED_COMPLETED_RECEIPT_PRESENT",
+      "dependency_order": null,
+      "qualification": "Onlyretainedcompletedreceipts establishappliedmarker; localtop-levelprovenance may be historicalapplied=false. Readers/runtime/catalogue are separate evidence. Prepared-only failedattempts are not migrations.",
+      "artifact_hash_references": [
+        {
+          "file": "completed.json",
+          "sha256": "beaa31be5557175967b3ce196bce3e7d0948ffaeb123a6e2eeb51e41612fe7bc",
+          "role": "Retainedownerreference; rawprivateartifactnotincluded"
+        },
+        {
+          "file": "readback.json",
+          "sha256": "a38c0ed02a4029a701d59395633b099d86fb6e120b013c9647948c9475bc3cc8",
+          "role": "Retainedownerreference; rawprivateartifactnotincluded"
+        }
+      ],
+      "package_type": "Appliedcanonicalitemcontract, missionproposalexcluded"
+    },
+    {
+      "component": "hot-roth-spells-restoration",
+      "retained_status": "APPLIED_COMPLETED_RECEIPT_PRESENT",
+      "dependency_order": null,
+      "qualification": "Onlyretainedcompletedreceipts establishappliedmarker; localtop-levelprovenance may be historicalapplied=false. Readers/runtime/catalogue are separate evidence. Prepared-only failedattempts are not migrations.",
+      "artifact_hash_references": [
+        {
+          "file": "data.json",
+          "sha256": "f7c91915553cac315f84f1686366902cb0670a19fc77f265636e63ebfe01957c",
+          "role": "Retainedownerreference; rawprivateartifactnotincluded"
+        },
+        {
+          "file": "apply_database.py",
+          "sha256": "4123c397cb0b795f51534b5b6990f2dbfd6acc8e2b4fc65416d140fb465fc28d",
+          "role": "Retainedownerreference; rawprivateartifactnotincluded"
+        },
+        {
+          "file": "provenance.json",
+          "sha256": "2554951a0257972c551754abc5e362b1610664ebfe481e1e8ac8be11c062b42b",
+          "role": "Retainedownerreference; rawprivateartifactnotincluded"
+        },
+        {
+          "file": "README.md",
+          "sha256": "d4767c713ce2c0aaa7bb95df8d48fec03e2ca0a34a8af0dd1833cfe093e59eb6",
+          "role": "Retainedownerreference; rawprivateartifactnotincluded"
+        },
+        {
+          "file": "completed.json",
+          "sha256": "acbcc218f170306e0511d7fb245c07ff64180e4359d94f6367e04df9ac06ef62",
+          "role": "Retainedownerreference; rawprivateartifactnotincluded"
+        },
+        {
+          "file": "readback.json",
+          "sha256": "285f1588ca093a81f9a813c33f2d1cff123644109f7c9c7bd33be87b0531c703",
+          "role": "Retainedownerreference; rawprivateartifactnotincluded"
+        }
+      ],
+      "package_type": "Ownerguardedsource/data withlaterappliedmetadata overlay where retained"
+    },
+    {
+      "component": "rof-cragbeak-reconstruction",
+      "retained_status": "APPLIED_COMPLETED_RECEIPT_PRESENT",
+      "dependency_order": null,
+      "qualification": "Onlyretainedcompletedreceipts establishappliedmarker; localtop-levelprovenance may be historicalapplied=false. Readers/runtime/catalogue are separate evidence. Prepared-only failedattempts are not migrations.",
+      "artifact_hash_references": [
+        {
+          "file": "data.json",
+          "sha256": "f53cfd918255da9376e9085559bd6fc040d248c13eb1bbb9d91ddf7cee16b144",
+          "role": "Retainedownerreference; rawprivateartifactnotincluded"
+        },
+        {
+          "file": "apply_database.py",
+          "sha256": "23cdbce26cf3133533773a8e0cabd7654d805001b9a4e4274e536bb279fa89a1",
+          "role": "Retainedownerreference; rawprivateartifactnotincluded"
+        },
+        {
+          "file": "provenance.json",
+          "sha256": "aa5fbdf83c626cdc7b5877e52584beb46f521de33d1af9aee088c9732658410f",
+          "role": "Retainedownerreference; rawprivateartifactnotincluded"
+        },
+        {
+          "file": "README.md",
+          "sha256": "75b634eb9e2cd3e40b8bf577adecc4bc30250d3de668c55c294dce318750cfc5",
+          "role": "Retainedownerreference; rawprivateartifactnotincluded"
+        },
+        {
+          "file": "completed.json",
+          "sha256": "79661fe5f6f03dcf2e4ae39dd7ba265ea7aab0e16f59565e6996ed7349e699b7",
+          "role": "Retainedownerreference; rawprivateartifactnotincluded"
+        },
+        {
+          "file": "readback.json",
+          "sha256": "5f06a0299b0f3bff59400a6490b4b061531d9f2272cf08c809b200b4a770844f",
+          "role": "Retainedownerreference; rawprivateartifactnotincluded"
+        },
+        {
+          "file": "completed.json",
+          "sha256": "6506b1f0a4bfcb5c058c2051b37ca531f55d59f1e913686e60533f52a9f0d7bc",
+          "role": "Retainedownerreference; rawprivateartifactnotincluded"
+        }
+      ],
+      "package_type": "Ownerguardedsource/data withlaterappliedmetadata overlay where retained"
+    },
+    {
+      "component": "hot-meat-for-eat-restoration",
+      "retained_status": "APPLIED_COMPLETED_RECEIPT_PRESENT",
+      "dependency_order": null,
+      "qualification": "Onlyretainedcompletedreceipts establishappliedmarker; localtop-levelprovenance may be historicalapplied=false. Readers/runtime/catalogue are separate evidence. Prepared-only failedattempts are not migrations.",
+      "artifact_hash_references": [
+        {
+          "file": "data.json",
+          "sha256": "eb761a3eb3aedd90192869bd6d061fbfe511fb147f76c0f1828c6c5194971b38",
+          "role": "Retainedownerreference; rawprivateartifactnotincluded"
+        },
+        {
+          "file": "apply_database.py",
+          "sha256": "e3158e7151b0356c8b9916ca4b2d911afda608a43f44521057890e4712637397",
+          "role": "Retainedownerreference; rawprivateartifactnotincluded"
+        },
+        {
+          "file": "provenance.json",
+          "sha256": "f8aa8733f254f31b8cebfda10db46937d3c9444cb23f02c41f63864fa091e296",
+          "role": "Retainedownerreference; rawprivateartifactnotincluded"
+        },
+        {
+          "file": "README.md",
+          "sha256": "e15fcd3eca2b0831eef3606c189e5964e9367597cd69a734d2d1a31d753b10ff",
+          "role": "Retainedownerreference; rawprivateartifactnotincluded"
+        },
+        {
+          "file": "completed.json",
+          "sha256": "a68867a68da45f8b9d691bf7b0099ed507c62f7cb04aefabb6a39f4974aa59cd",
+          "role": "Retainedownerreference; rawprivateartifactnotincluded"
+        },
+        {
+          "file": "readback.json",
+          "sha256": "5d8c65d601cc4e5f249132f75cf6ad073f3320055547858d8faaedc78c90baff",
+          "role": "Retainedownerreference; rawprivateartifactnotincluded"
+        },
+        {
+          "file": "completed.json",
+          "sha256": "6ec7e7ed698cc1aed7395485a1834a81ba25ad95d43a5a0730cb922f229a01f3",
+          "role": "Retainedownerreference; rawprivateartifactnotincluded"
+        }
+      ],
+      "package_type": "Ownerguardedsource/data withlaterappliedmetadata overlay where retained"
+    },
+    {
+      "component": "sod-void-rank1-restoration",
+      "retained_status": "APPLIED_COMPLETED_RECEIPT_PRESENT",
+      "dependency_order": null,
+      "qualification": "Onlyretainedcompletedreceipts establishappliedmarker; localtop-levelprovenance may be historicalapplied=false. Readers/runtime/catalogue are separate evidence. Prepared-only failedattempts are not migrations.",
+      "artifact_hash_references": [
+        {
+          "file": "data.json",
+          "sha256": "b60a36cc055e2d4581a53c27784333de8505dd8a9acc8cd8d5cb3912221015d0",
+          "role": "Retainedownerreference; rawprivateartifactnotincluded"
+        },
+        {
+          "file": "apply_database.py",
+          "sha256": "ef5f97957591bcb408bcc492fcf03855d318156eafaf2c8ccaeab02f431aadaf",
+          "role": "Retainedownerreference; rawprivateartifactnotincluded"
+        },
+        {
+          "file": "provenance.json",
+          "sha256": "c63bea0cad5cdf2366f602da75e93dffe015e08b9cbc9b47116072d77fbd2ae8",
+          "role": "Retainedownerreference; rawprivateartifactnotincluded"
+        },
+        {
+          "file": "README.md",
+          "sha256": "178d8dd27586df54709291ca4274417c4249557e202575f98140de4eb19f7805",
+          "role": "Retainedownerreference; rawprivateartifactnotincluded"
+        },
+        {
+          "file": "completed.json",
+          "sha256": "7845320ad8fb731934979b3c0fc0d98c7886fbb7aaa04817e84146065107d559",
+          "role": "Retainedownerreference; rawprivateartifactnotincluded"
+        },
+        {
+          "file": "readback.json",
+          "sha256": "533b21da4d76fa24dcdc76b14e3beeb09b976e3b4565804aeed2510221c18afa",
+          "role": "Retainedownerreference; rawprivateartifactnotincluded"
+        }
+      ],
+      "package_type": "Ownerguardedsource/data withlaterappliedmetadata overlay where retained"
+    },
+    {
+      "component": "tss-hemmet-restoration",
+      "retained_status": "APPLIED_COMPLETED_RECEIPT_PRESENT",
+      "dependency_order": null,
+      "qualification": "Onlyretainedcompletedreceipts establishappliedmarker; localtop-levelprovenance may be historicalapplied=false. Readers/runtime/catalogue are separate evidence. Prepared-only failedattempts are not migrations.",
+      "artifact_hash_references": [
+        {
+          "file": "data.json",
+          "sha256": "a36e898dcd987173e0dc9c97b64c6cf4c5c4f79d9a2926b924999b6c2f9a93a0",
+          "role": "Retainedownerreference; rawprivateartifactnotincluded"
+        },
+        {
+          "file": "apply_database.py",
+          "sha256": "ad7b2647749b30c8fd11f05dc2c4f4bfeb92f1f91f7f251e44517677a79ed697",
+          "role": "Retainedownerreference; rawprivateartifactnotincluded"
+        },
+        {
+          "file": "provenance.json",
+          "sha256": "f831ac698c9449a98cce7078559d23b40fe6fdaa77d0acdbbffb900b70252937",
+          "role": "Retainedownerreference; rawprivateartifactnotincluded"
+        },
+        {
+          "file": "README.md",
+          "sha256": "e1e30b6c296aabc0877c4b37dcf6f8da0c540f8b149fa4e12b42de815d3f4ac8",
+          "role": "Retainedownerreference; rawprivateartifactnotincluded"
+        },
+        {
+          "file": "completed.json",
+          "sha256": "d58b441be881ff0730bf8dd0e29d46bc2568dff2d2333de88f1b770ae01c763c",
+          "role": "Retainedownerreference; rawprivateartifactnotincluded"
+        },
+        {
+          "file": "readback.json",
+          "sha256": "9c24a14cdf90f8eb00b791d3ae329eac8541b471af2be13e6f1e108326854973",
+          "role": "Retainedownerreference; rawprivateartifactnotincluded"
+        }
+      ],
+      "package_type": "Ownerguardedsource/data withlaterappliedmetadata overlay where retained"
+    },
+    {
+      "component": "hot-expedition-restoration",
+      "retained_status": "APPLIED_COMPLETED_RECEIPT_PRESENT",
+      "dependency_order": null,
+      "qualification": "Onlyretainedcompletedreceipts establishappliedmarker; localtop-levelprovenance may be historicalapplied=false. Readers/runtime/catalogue are separate evidence. Prepared-only failedattempts are not migrations. Base8rows THEN repair_reward_bindings.py2bindings (completefreshpayload10rows). Freshinstallationmustusecorrected10rowpackage, not historical8rowfailure. Nativepayoutuntested.",
+      "artifact_hash_references": [
+        {
+          "file": "data.json",
+          "sha256": "44eca6506c6eccc08cb6a6f39e9f5459dc66146d96ad7ae793ba322dacd8b37c",
+          "role": "Retainedownerreference; rawprivateartifactnotincluded"
+        },
+        {
+          "file": "apply_database.py",
+          "sha256": "3a68f8a01a22080a83ff96a7c1eaeb95736d11beddda140c839438fcb75c8f95",
+          "role": "Retainedownerreference; rawprivateartifactnotincluded"
+        },
+        {
+          "file": "provenance.json",
+          "sha256": "9f11597b4a7304a5eddd0d5206f52ce64749ac45e623bc961766aeb1bbaf087d",
+          "role": "Retainedownerreference; rawprivateartifactnotincluded"
+        },
+        {
+          "file": "README.md",
+          "sha256": "7d8dc7fd5269545dbdbba6cc11e2b52f155c39f56ce3d975f7d58e7059051ff9",
+          "role": "Retainedownerreference; rawprivateartifactnotincluded"
+        },
+        {
+          "file": "repair_reward_bindings.py",
+          "sha256": "696da51bcaf82064fa9ad3e91fa2fec8fd82f83c2d7c8963173c791761a7225e",
+          "role": "Retainedownerreference; rawprivateartifactnotincluded"
+        },
+        {
+          "file": "completed.json",
+          "sha256": "b85085a843bf1c5fde84bf3552ed08a882ac051219990c9af4514a74be04e3c0",
+          "role": "Retainedownerreference; rawprivateartifactnotincluded"
+        },
+        {
+          "file": "completed.json",
+          "sha256": "93bfa363811a435d045fd47a3041fbc008a1294d2d075594d809e1a983e51ad5",
+          "role": "Retainedownerreference; rawprivateartifactnotincluded"
+        },
+        {
+          "file": "readback.json",
+          "sha256": "d46d48db7dafee8ae4936522ac65c98cb4849e2078d49aa1b9d2bf598765d039",
+          "role": "Retainedownerreference; rawprivateartifactnotincluded"
+        },
+        {
+          "file": "readback.json",
+          "sha256": "851f1b45d3cde4df2653e62cb34c140010988feed9d752809249c7b2d9b1f70a",
+          "role": "Retainedownerreference; rawprivateartifactnotincluded"
+        },
+        {
+          "file": "completed.json",
+          "sha256": "6ac323ad3716cda352cccf67a04f6db06099722334306381365fb6300c80fc39",
+          "role": "Retainedownerreference; rawprivateartifactnotincluded"
+        }
+      ],
+      "package_type": "Ownerguardedsource/data withlaterappliedmetadata overlay where retained"
+    },
+    {
+      "component": "hot-summers-storm-followup",
+      "retained_status": "APPLIED_COMPLETED_RECEIPT_PRESENT",
+      "dependency_order": null,
+      "qualification": "Onlyretainedcompletedreceipts establishappliedmarker; localtop-levelprovenance may be historicalapplied=false. Readers/runtime/catalogue are separate evidence. Prepared-only failedattempts are not migrations.",
+      "artifact_hash_references": [
+        {
+          "file": "data.json",
+          "sha256": "cdbf21bf3d522fb3b1efb3d2b31d28d4a1286ef8fd205e850edf093041bd6185",
+          "role": "Retainedownerreference; rawprivateartifactnotincluded"
+        },
+        {
+          "file": "apply_database.py",
+          "sha256": "edaadac94241a0229508e65507fec58cdb065caa15114ccdfffa011c914f6bf3",
+          "role": "Retainedownerreference; rawprivateartifactnotincluded"
+        },
+        {
+          "file": "provenance.json",
+          "sha256": "367a8d81c0b4eb55dd827c6c3d2df8d2201bb37287b0cedb56128ab4c3a05fc8",
+          "role": "Retainedownerreference; rawprivateartifactnotincluded"
+        },
+        {
+          "file": "README.md",
+          "sha256": "338517bff05c8adf90cdc38da49ba4ed29fe95add94f148ac85face5156c7a6d",
+          "role": "Retainedownerreference; rawprivateartifactnotincluded"
+        },
+        {
+          "file": "completed.json",
+          "sha256": "fd3a149b74d68d9ce07fa72f8737132f8521979f2e3b60903af7d0c2be88a32f",
+          "role": "Retainedownerreference; rawprivateartifactnotincluded"
+        },
+        {
+          "file": "readback.json",
+          "sha256": "89835aa6b122a9ac595e320fb6dd9805d217480df08c948fb6ece5ac6bbf9e25",
+          "role": "Retainedownerreference; rawprivateartifactnotincluded"
+        }
+      ],
+      "package_type": "Ownerguardedsource/data withlaterappliedmetadata overlay where retained"
+    },
+    {
+      "component": "hot-protection-vale-followup",
+      "retained_status": "APPLIED_COMPLETED_RECEIPT_PRESENT",
+      "dependency_order": null,
+      "qualification": "Onlyretainedcompletedreceipts establishappliedmarker; localtop-levelprovenance may be historicalapplied=false. Readers/runtime/catalogue are separate evidence. Prepared-only failedattempts are not migrations.",
+      "artifact_hash_references": [
+        {
+          "file": "data.json",
+          "sha256": "d0c4dfb7eb1acb250bc04cad747f5fccb2f00107fa9348ea9c186d04f12cd639",
+          "role": "Retainedownerreference; rawprivateartifactnotincluded"
+        },
+        {
+          "file": "apply_database.py",
+          "sha256": "8ad68b3bcf2fef83713907066c626af9cb2129ef0d11627eb7f49971734c0ee0",
+          "role": "Retainedownerreference; rawprivateartifactnotincluded"
+        },
+        {
+          "file": "provenance.json",
+          "sha256": "d67a684eb426ec46f5aa5cf28428555a6ce29ec3a7f3c1a4a8d07584306b88fa",
+          "role": "Retainedownerreference; rawprivateartifactnotincluded"
+        },
+        {
+          "file": "README.md",
+          "sha256": "befca6649151cf0999d091c34605671d0dc1ab0f9a4692924ea43dffd0f4eaff",
+          "role": "Retainedownerreference; rawprivateartifactnotincluded"
+        },
+        {
+          "file": "completed.json",
+          "sha256": "284062cd962400eda150576920868b0d36415f598bcb7a0f43136895616d9b69",
+          "role": "Retainedownerreference; rawprivateartifactnotincluded"
+        },
+        {
+          "file": "readback.json",
+          "sha256": "a03146df41954fff283bd369e7f48247c2be0493d91b7775c28cde2ef86a8102",
+          "role": "Retainedownerreference; rawprivateartifactnotincluded"
+        }
+      ],
+      "package_type": "Ownerguardedsource/data withlaterappliedmetadata overlay where retained"
+    },
+    {
+      "component": "pok-period-vendors",
+      "retained_status": "APPLIED_COMPLETED_RECEIPT_PRESENT",
+      "dependency_order": null,
+      "qualification": "Onlyretainedcompletedreceipts establishappliedmarker; localtop-levelprovenance may be historicalapplied=false. Readers/runtime/catalogue are separate evidence. Prepared-only failedattempts are not migrations. Finalhelper3b223c05f2447f7278411346e006124fab0bbf9a only: existing9 THEN tomes2 THEN new12actors/43stock. Earlyattempt001/002 were no-writefailures. Sourceinitial54cohort then siblingRogue3, not two copiesofsame54.",
+      "artifact_hash_references": [
+        {
+          "file": "completed.json",
+          "sha256": "c64fe9dd389a9168647978f359ee81750d0f7c34fb7f1d0744774f7ab03294a3",
+          "role": "Retainedownerreference; rawprivateartifactnotincluded"
+        },
+        {
+          "file": "completed.json",
+          "sha256": "70be4767742bda8fe670274c81e4ca21b0fa788e020c65cc27bd533bfaa4932a",
+          "role": "Retainedownerreference; rawprivateartifactnotincluded"
+        },
+        {
+          "file": "completed.json",
+          "sha256": "01ede566de196924ff6e5b7cc51432130fffdeddba096dd2d3e594df0ffec2ca",
+          "role": "Retainedownerreference; rawprivateartifactnotincluded"
+        },
+        {
+          "file": "readback.json",
+          "sha256": "14fc0f8b820fe0841ffee932277217efffdbcaf84ef85c625f6560e372c97ad0",
+          "role": "Retainedownerreference; rawprivateartifactnotincluded"
+        },
+        {
+          "file": "readback.json",
+          "sha256": "65894fb6c2d9314409bd366d4b21bb7c1587bd83931ea5336946d138163ea91d",
+          "role": "Retainedownerreference; rawprivateartifactnotincluded"
+        },
+        {
+          "file": "readback.json",
+          "sha256": "8d7af88330b8015707e9e0763c5b3a1c59b4e11fb22a1eb8344d94ade014bc39",
+          "role": "Retainedownerreference; rawprivateartifactnotincluded"
+        }
+      ],
+      "correction_chain": [
+        "5249882840b4b03c9a7f7f5e8beef82c5f9e8c52",
+        "6016d96348534ba9419f45e9ceb3a51c8734b8e2",
+        "3b223c05f2447f7278411346e006124fab0bbf9a"
+      ],
+      "package_type": "Ownerguardedsource/data withlaterappliedmetadata overlay where retained"
+    },
+    {
+      "component": "rof-extraordinary-velocity",
+      "retained_status": "APPLIED_COMPLETED_RECEIPT_PRESENT",
+      "dependency_order": null,
+      "qualification": "Onlyretainedcompletedreceipts establishappliedmarker; localtop-levelprovenance may be historicalapplied=false. Readers/runtime/catalogue are separate evidence. Prepared-only failedattempts are not migrations.",
+      "artifact_hash_references": [
+        {
+          "file": "data.json",
+          "sha256": "d714f39f2bcf8d872544a7b9f3d1d4682526eceafebc22c540d129199cf3a216",
+          "role": "Retainedownerreference; rawprivateartifactnotincluded"
+        },
+        {
+          "file": "apply_database.py",
+          "sha256": "096a3fe54121b297990a2ea10c3b22446241fb52e64a1eda53196b832f5c88e8",
+          "role": "Retainedownerreference; rawprivateartifactnotincluded"
+        },
+        {
+          "file": "provenance.json",
+          "sha256": "c10438b144574a49fc6f74faf02558c5ae26f89e82bfc958921c02eebf8b5b7d",
+          "role": "Retainedownerreference; rawprivateartifactnotincluded"
+        },
+        {
+          "file": "README.md",
+          "sha256": "922a66a473db3c685553e33de1beba2153e58b123edb3fba6baa72dfe7e954ab",
+          "role": "Retainedownerreference; rawprivateartifactnotincluded"
+        },
+        {
+          "file": "completed.json",
+          "sha256": "1e4577907aa4ad6b48ec1302c2359fcb36f674860bdf8b6ed39c48c7050132d4",
+          "role": "Retainedownerreference; rawprivateartifactnotincluded"
+        },
+        {
+          "file": "readback.json",
+          "sha256": "4a26224d6cd69a2860763956651e45dbc5a59f9ab860891380a90cf8d2a1d411",
+          "role": "Retainedownerreference; rawprivateartifactnotincluded"
+        }
+      ],
+      "package_type": "Ownerguardedsource/data withlaterappliedmetadata overlay where retained"
+    },
+    {
+      "component": "voa-matima-two",
+      "retained_status": "APPLIED_COMPLETED_RECEIPT_PRESENT",
+      "dependency_order": null,
+      "qualification": "Onlyretainedcompletedreceipts establishappliedmarker; localtop-levelprovenance may be historicalapplied=false. Readers/runtime/catalogue are separate evidence. Prepared-only failedattempts are not migrations.",
+      "artifact_hash_references": [
+        {
+          "file": "data.json",
+          "sha256": "b7164744bd0a08db57e95e9e8ddccf3f3f025b915dbca366f42cc8a1d3791a89",
+          "role": "Retainedownerreference; rawprivateartifactnotincluded"
+        },
+        {
+          "file": "apply_database.py",
+          "sha256": "f02e110f2898ec6219df2620f6b5f456fe8b2454ea246895312f619e876c3edc",
+          "role": "Retainedownerreference; rawprivateartifactnotincluded"
+        },
+        {
+          "file": "provenance.json",
+          "sha256": "732407921dd794bb6073e86b317036bfe22d1a05c52ba955a9e8a35823eaa496",
+          "role": "Retainedownerreference; rawprivateartifactnotincluded"
+        },
+        {
+          "file": "README.md",
+          "sha256": "4425c1dbb5e9e90b7cc3421d4f8f16baa32646b36055e151d2c940f61bdc53c7",
+          "role": "Retainedownerreference; rawprivateartifactnotincluded"
+        },
+        {
+          "file": "completed.json",
+          "sha256": "e1eb5da539b0ffc75341c97d2e08ac159f4055dff7f1907b9a3dea5d959aaf6b",
+          "role": "Retainedownerreference; rawprivateartifactnotincluded"
+        },
+        {
+          "file": "readback.json",
+          "sha256": "95c93471269c3c86a204ad53eb658f5b208bdd202eba5adf35ddf9c5a740e012",
+          "role": "Retainedownerreference; rawprivateartifactnotincluded"
+        }
+      ],
+      "package_type": "Ownerguardedsource/data withlaterappliedmetadata overlay where retained"
+    },
+    {
+      "component": "pok-rogue-three",
+      "retained_status": "APPLIED_COMPLETED_RECEIPT_PRESENT",
+      "dependency_order": null,
+      "qualification": "Onlyretainedcompletedreceipts establishappliedmarker; localtop-levelprovenance may be historicalapplied=false. Readers/runtime/catalogue are separate evidence. Prepared-only failedattempts are not migrations.",
+      "artifact_hash_references": [
+        {
+          "file": "data.json",
+          "sha256": "89af49d652d77423adc64a09699cb880cd4d01173181be03cc3e15bca314bbff",
+          "role": "Retainedownerreference; rawprivateartifactnotincluded"
+        },
+        {
+          "file": "apply_database.py",
+          "sha256": "c09febde10b94b10ebdbdd1084f09d54ec4bad7769bbadcb27d33bda1e847ba0",
+          "role": "Retainedownerreference; rawprivateartifactnotincluded"
+        },
+        {
+          "file": "provenance.json",
+          "sha256": "52696e7665973f05046d5797e19e3f63bb8d01f3eb93be726997593075a73404",
+          "role": "Retainedownerreference; rawprivateartifactnotincluded"
+        },
+        {
+          "file": "README.md",
+          "sha256": "5e23208e91d3f2f4126c7de3a01c5cbaac723230a6c86e8ea40e70af65f265e9",
+          "role": "Retainedownerreference; rawprivateartifactnotincluded"
+        },
+        {
+          "file": "completed.json",
+          "sha256": "8e7d2e96384fe2ea8f05c2fd52b735932dbde0c1fb3b610325d3c5b20209dd70",
+          "role": "Retainedownerreference; rawprivateartifactnotincluded"
+        },
+        {
+          "file": "readback.json",
+          "sha256": "98c23ab7627e5ee996fc607cd370604d128697146d14f1f246fad25d8321f089",
+          "role": "Retainedownerreference; rawprivateartifactnotincluded"
+        }
+      ],
+      "package_type": "Ownerguardedsource/data withlaterappliedmetadata overlay where retained"
+    },
+    {
+      "component": "voa-gouging-blade",
+      "retained_status": "APPLIED_COMPLETED_RECEIPT_PRESENT",
+      "dependency_order": null,
+      "qualification": "Onlyretainedcompletedreceipts establishappliedmarker; localtop-levelprovenance may be historicalapplied=false. Readers/runtime/catalogue are separate evidence. Prepared-only failedattempts are not migrations.",
+      "artifact_hash_references": [
+        {
+          "file": "data.json",
+          "sha256": "8e73dd0032b45c052d835260ed03ab23bf2320a4761c190e6aabd9d64ef94026",
+          "role": "Retainedownerreference; rawprivateartifactnotincluded"
+        },
+        {
+          "file": "apply_database.py",
+          "sha256": "51698fdf3fa336f54f3f20979e9719e63332f627e3f74bd8f4a034e1f1a4aed6",
+          "role": "Retainedownerreference; rawprivateartifactnotincluded"
+        },
+        {
+          "file": "provenance.json",
+          "sha256": "b1aca6a51310eb53c3ce20f84881a8dd30cb575133f5857b19204cda238e25bd",
+          "role": "Retainedownerreference; rawprivateartifactnotincluded"
+        },
+        {
+          "file": "README.md",
+          "sha256": "4845e47a2157f7956ec97f34a99047b6e6144fcaedf728750e88dcfa3d41013c",
+          "role": "Retainedownerreference; rawprivateartifactnotincluded"
+        },
+        {
+          "file": "completed.json",
+          "sha256": "8fc4d3793016878ad27066c1b069c80b5eef706770414cc04751d5aa43a7afb6",
+          "role": "Retainedownerreference; rawprivateartifactnotincluded"
+        },
+        {
+          "file": "readback.json",
+          "sha256": "36e9dd1a1be051e74fe8f25adb1069551fa77c2304b9b143851a249303c8e51a",
+          "role": "Retainedownerreference; rawprivateartifactnotincluded"
+        }
+      ],
+      "package_type": "Ownerguardedsource/data withlaterappliedmetadata overlay where retained"
+    },
+    {
+      "component": "pok-older-three",
+      "retained_status": "APPLIED_COMPLETED_RECEIPT_PRESENT",
+      "dependency_order": null,
+      "qualification": "Onlyretainedcompletedreceipts establishappliedmarker; localtop-levelprovenance may be historicalapplied=false. Readers/runtime/catalogue are separate evidence. Prepared-only failedattempts are not migrations.",
+      "artifact_hash_references": [
+        {
+          "file": "data.json",
+          "sha256": "f5808a9b9a2862819c8814fa2de80153200fce4c505c40f2c2539b07ab7f8d39",
+          "role": "Retainedownerreference; rawprivateartifactnotincluded"
+        },
+        {
+          "file": "apply_database.py",
+          "sha256": "5eb88cf223840567c8f491501a1475215fd0b102696f9f2f6e5af391b2d75888",
+          "role": "Retainedownerreference; rawprivateartifactnotincluded"
+        },
+        {
+          "file": "provenance.json",
+          "sha256": "04adbb6cc177f281f64045242049c9a17ddd04b8b0f02ef2ef8e29cffe0ce76d",
+          "role": "Retainedownerreference; rawprivateartifactnotincluded"
+        },
+        {
+          "file": "README.md",
+          "sha256": "b15a3627627aec443082dd5e2a2cc51f0b7317a96a40cad683919cfcda8dd8b9",
+          "role": "Retainedownerreference; rawprivateartifactnotincluded"
+        },
+        {
+          "file": "completed.json",
+          "sha256": "98b9532dfc75d66b4a6dca6513464e2f578d2cbdffe1c9345c4545458ef2eccd",
+          "role": "Retainedownerreference; rawprivateartifactnotincluded"
+        },
+        {
+          "file": "readback.json",
+          "sha256": "ddb7a7822caccc29bfc3efd9f2af5aa8ff1c6eb2fd40cb8c9d25012a2b233add",
+          "role": "Retainedownerreference; rawprivateartifactnotincluded"
+        }
+      ],
+      "package_type": "Ownerguardedsource/data withlaterappliedmetadata overlay where retained"
+    },
+    {
+      "component": "Underfoot NEC rune source correction",
+      "retained_status": "APPLIED_DISK_ONLY_NO_SQL_DELTA",
+      "dependency_order": null,
+      "qualification": "Source5923597c67e3e3bd0228738fb76a78b9f5bc6344; preserveexactexecutedhelper/contractrecord. Lua data ordering only; no new nativeSQL migration or generic nativeacceptanceclaim.",
+      "artifact_hash_references": [
+        {
+          "file": "complete-publication-manifest.json",
+          "sha256": "ea0e66bb14817ebd9718107d33f9c5759d8262dfccbf1c1348318c6a99e23f88",
+          "role": "Retainedownerreference; rawprivateartifactnotincluded"
+        },
+        {
+          "file": "COMPLETE.json",
+          "sha256": "da957ace5c2aa58eab72ed92be7d2f37ffe3087231ac7298641f0b99b448d938",
+          "role": "Retainedownerreference; rawprivateartifactnotincluded"
+        },
+        {
+          "file": "independent-verification.json",
+          "sha256": "83017fed890679203d9082dce22d3ffa3850b6f60227f0ec815fe7e274043d38",
+          "role": "Retainedownerreference; rawprivateartifactnotincluded"
+        },
+        {
+          "file": "REVISION-RECORD.json",
+          "sha256": "85299c17e54ecf82a46bfe7463a89e023f31b2c1a44a7eb2ba8f90c93292c752",
+          "role": "Retainedownerreference; rawprivateartifactnotincluded"
+        }
+      ]
+    },
+    {
+      "component": "underfoot-fungal-bloom",
+      "retained_status": "RESEARCH_OR_PROPOSED_DO_NOT_AUTO_APPLY",
+      "dependency_order": null,
+      "qualification": "Not an appliedmission/pet/AI/choiceinstallation. Scent920132\u2013135 namespaces reserved/sourcepreparingonly. PAL90canonicalitemsappliedcomponentabove doesnotauthorize unknownoriginalIIIgrouping.",
+      "artifact_hash_references": []
+    },
+    {
+      "component": "underfoot-destroyer",
+      "retained_status": "RESEARCH_OR_PROPOSED_DO_NOT_AUTO_APPLY",
+      "dependency_order": null,
+      "qualification": "Not an appliedmission/pet/AI/choiceinstallation. Scent920132\u2013135 namespaces reserved/sourcepreparingonly. PAL90canonicalitemsappliedcomponentabove doesnotauthorize unknownoriginalIIIgrouping.",
+      "artifact_hash_references": []
+    },
+    {
+      "component": "underfoot-scent",
+      "retained_status": "RESEARCH_OR_PROPOSED_DO_NOT_AUTO_APPLY",
+      "dependency_order": null,
+      "qualification": "Not an appliedmission/pet/AI/choiceinstallation. Scent920132\u2013135 namespaces reserved/sourcepreparingonly. PAL90canonicalitemsappliedcomponentabove doesnotauthorize unknownoriginalIIIgrouping.",
+      "artifact_hash_references": []
+    },
+    {
+      "component": "xorbb-caster-ai/fallback-source",
+      "retained_status": "RESEARCH_OR_PROPOSED_DO_NOT_AUTO_APPLY",
+      "dependency_order": null,
+      "qualification": "Not an appliedmission/pet/AI/choiceinstallation. Scent920132\u2013135 namespaces reserved/sourcepreparingonly. PAL90canonicalitemsappliedcomponentabove doesnotauthorize unknownoriginalIIIgrouping.",
+      "artifact_hash_references": []
+    },
+    {
+      "component": "banestrike-original-contract",
+      "retained_status": "RESEARCH_OR_PROPOSED_DO_NOT_AUTO_APPLY",
+      "dependency_order": null,
+      "qualification": "Not an appliedmission/pet/AI/choiceinstallation. Scent920132\u2013135 namespaces reserved/sourcepreparingonly. PAL90canonicalitemsappliedcomponentabove doesnotauthorize unknownoriginalIIIgrouping.",
+      "artifact_hash_references": []
+    },
+    {
+      "component": "sod-audit",
+      "retained_status": "RESEARCH_OR_PROPOSED_DO_NOT_AUTO_APPLY",
+      "dependency_order": null,
+      "qualification": "Not an appliedmission/pet/AI/choiceinstallation. Scent920132\u2013135 namespaces reserved/sourcepreparingonly. PAL90canonicalitemsappliedcomponentabove doesnotauthorize unknownoriginalIIIgrouping.",
+      "artifact_hash_references": []
+    },
+    {
+      "component": "voa-audit",
+      "retained_status": "RESEARCH_OR_PROPOSED_DO_NOT_AUTO_APPLY",
+      "dependency_order": null,
+      "qualification": "Not an appliedmission/pet/AI/choiceinstallation. Scent920132\u2013135 namespaces reserved/sourcepreparingonly. PAL90canonicalitemsappliedcomponentabove doesnotauthorize unknownoriginalIIIgrouping.",
+      "artifact_hash_references": []
+    },
+    {
+      "component": "hot-paladin90-audit/content-candidate",
+      "retained_status": "RESEARCH_OR_PROPOSED_DO_NOT_AUTO_APPLY",
+      "dependency_order": null,
+      "qualification": "Not an appliedmission/pet/AI/choiceinstallation. Scent920132\u2013135 namespaces reserved/sourcepreparingonly. PAL90canonicalitemsappliedcomponentabove doesnotauthorize unknownoriginalIIIgrouping.",
+      "artifact_hash_references": []
+    }
+  ],
+  "source_pin_notes": {
+    "source_leases": "Initialmanifest/datahashes are historicalauthoritativeperreceipt. Laterpublishedstatus/manifests in per-componentfolders provideversionpins; unknownfullcommitIDs must be resolvedbyGitHubowner ratherthan guessed fromlocalHEAD.",
+    "known_later_full_pins": {
+      "sof_stage011": "ea518eb4b6b0aa8fe9259106d855e6262d716665",
+      "pok_final_helper": "3b223c05f2447f7278411346e006124fab0bbf9a",
+      "varille": "0332a883e3876ecbffd7d456a6f9592f589f08f9",
+      "matima": "1ca42d25c39a7a7aa8b6384ab8c2ac3bf4c8c612",
+      "danibi": "3fd8045a8acfb69416c1f09213f4c576144dd4f0",
+      "rogue": "71cc1fdae08ee8a0463f3f4c70e0f568b59e04e4",
+      "older3": "714b8d142d7229ccd34e488fb315f58f3faa3b28",
+      "xorbb_source_only": "e5de8074ea90dbefb91fd04a90564e01bc153503",
+      "research83_only": "1b1a8329c92507aa20848c756bd8ed37306febb0",
+      "scent_research_only": "f93ec72010582ba1682d1ed30480c6da28f0ca66",
+      "protection_vale": "d3af7a6673bf16f965e12a5d3785b044d5e2c72e"
+    },
+    "pin_verification": "Retainedcoordination/sourcepins; no freshGitremotequery inthismetadatahandoff."
+  },
+  "unknowns": [
+    "Notexhaustivehistoricalreceiptvalidation; pathpresenceisnotproofreceiptsemanticsmatchcurrentserver",
+    "FullpublishedpinsforoldernewcomponentsnotexplicitlystoredhereareUNKNOWN;usecomponentpublicationreceipts/GitHubowner",
+    "Permission-deniedlegacybackupdirectoriesnotopened; noescalationforcontentrelease",
+    "FreshDBupdater/schemaapplicationperversionnotestablishedfromcontentreceiptsalone"
+  ],
+  "source_omissions": [],
+  "basis": "Retainedowner37componentindex; no newruntimeaudit/SQLexecution. Component applied markers are not automatic freshsourcehash/nativeproof.",
+  "schema_dependencies": {
+    "initial_order": "Matchingcoreupdater9331\u20139338andoriginalsupplementalSQL BEFORE orderedcontentstages. Latercoremigrationorder belongsDatabase/Build currentmanifests.",
+    "supplemental_sql": [
+      "utils/sql/git/2026_10_27_achievement_reward_classes.sql",
+      "utils/sql/git/2026_10_30_shared_task_reward_identity.sql",
+      "utils/sql/git/2026_10_30_shared_task_admission_policies.sql"
+    ],
+    "schema9335": "2026_11_01_shared_task_average_levels.sql originalregistrationretained",
+    "schema9337_9338": [
+      "2026_11_02_task_spell_exchange_policies.sql",
+      "2026_11_02_task_spell_reward_policy_state.sql"
+    ],
+    "required_runtime_scripts": "Initialmanifest.quest_files plusper-componentruntimecompletedreceipts; sharednative_delivery_handin helperunchanged. NativequestVM/cataloguerefresh isBuildowned; disk/sourceisnotnativeacceptance."
+  }
+}

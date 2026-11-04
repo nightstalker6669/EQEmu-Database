@@ -1,0 +1,282 @@
+{
+  "target_database": "peq_housing_test",
+  "task": {
+    "id": 920130,
+    "type": 2,
+    "duration": 0,
+    "duration_code": 0,
+    "title": "Meat for Eat",
+    "description": "Help Lerg hunt gorillas and gather meat in the Feerrott.",
+    "reward_text": "Experience and Dream Delvers faction",
+    "reward_id_list": "",
+    "cash_reward": 0,
+    "exp_reward": -8501,
+    "reward_method": 0,
+    "reward_points": 0,
+    "reward_point_type": 0,
+    "min_level": 80,
+    "max_level": 0,
+    "level_spread": 0,
+    "min_players": 1,
+    "max_players": 1,
+    "repeatable": 1,
+    "faction_reward": 680,
+    "completion_emote": "",
+    "replay_timer_group": 920130,
+    "replay_timer_seconds": 18000,
+    "request_timer_group": 0,
+    "request_timer_seconds": 0,
+    "dz_template_id": 0,
+    "lock_activity_id": -1,
+    "faction_amount": 5,
+    "enabled": 1
+  },
+  "activities": [
+    {
+      "taskid": 920130,
+      "req_activity_id": -1,
+      "goalmethod": 0,
+      "item_list": "",
+      "dz_switch_id": 0,
+      "min_x": 0.0,
+      "min_y": 0.0,
+      "min_z": 0.0,
+      "max_x": 0.0,
+      "max_y": 0.0,
+      "max_z": 0.0,
+      "skill_list": "-1",
+      "spell_list": "0",
+      "zones": "700",
+      "zone_version": 0,
+      "optional": 0,
+      "list_group": 0,
+      "activityid": 0,
+      "activitytype": 2,
+      "goalcount": 2,
+      "npc_match_list": "700016",
+      "item_id_list": null,
+      "target_name": "Kill gorilla matrons and search the corpses",
+      "description_override": "Kill gorilla matrons and search the corpses",
+      "step": 0
+    },
+    {
+      "taskid": 920130,
+      "req_activity_id": -1,
+      "goalmethod": 0,
+      "item_list": "",
+      "dz_switch_id": 0,
+      "min_x": 0.0,
+      "min_y": 0.0,
+      "min_z": 0.0,
+      "max_x": 0.0,
+      "max_y": 0.0,
+      "max_z": 0.0,
+      "skill_list": "-1",
+      "spell_list": "0",
+      "zones": "700",
+      "zone_version": 0,
+      "optional": 0,
+      "list_group": 0,
+      "activityid": 1,
+      "activitytype": 2,
+      "goalcount": 7,
+      "npc_match_list": "700013",
+      "item_id_list": null,
+      "target_name": "Kill gorilla patriarchs and search the corpses",
+      "description_override": "Kill gorilla patriarchs and search the corpses",
+      "step": 0
+    },
+    {
+      "taskid": 920130,
+      "req_activity_id": -1,
+      "goalmethod": 0,
+      "item_list": "",
+      "dz_switch_id": 0,
+      "min_x": 0.0,
+      "min_y": 0.0,
+      "min_z": 0.0,
+      "max_x": 0.0,
+      "max_y": 0.0,
+      "max_z": 0.0,
+      "skill_list": "-1",
+      "spell_list": "0",
+      "zones": "700",
+      "zone_version": 0,
+      "optional": 0,
+      "list_group": 0,
+      "activityid": 2,
+      "activitytype": 3,
+      "goalcount": 3,
+      "npc_match_list": null,
+      "item_id_list": "17576",
+      "target_name": "Gather meat for Lerg",
+      "description_override": "Gather meat for Lerg",
+      "step": 0
+    },
+    {
+      "taskid": 920130,
+      "req_activity_id": -1,
+      "goalmethod": 0,
+      "item_list": "",
+      "dz_switch_id": 0,
+      "min_x": 0.0,
+      "min_y": 0.0,
+      "min_z": 0.0,
+      "max_x": 0.0,
+      "max_y": 0.0,
+      "max_z": 0.0,
+      "skill_list": "-1",
+      "spell_list": "0",
+      "zones": "700",
+      "zone_version": 0,
+      "optional": 0,
+      "list_group": 0,
+      "activityid": 3,
+      "activitytype": 1,
+      "goalcount": 3,
+      "npc_match_list": "700000",
+      "item_id_list": "17576",
+      "target_name": "Give Lerg the gorilla meat",
+      "description_override": "Give Lerg the gorilla meat",
+      "step": 1
+    }
+  ],
+  "required_actors": [
+    {
+      "id": 700000,
+      "name": "#Lerg"
+    },
+    {
+      "id": 700013,
+      "name": "a_gorilla_patriarch"
+    },
+    {
+      "id": 700016,
+      "name": "a_gorilla_matron"
+    }
+  ],
+  "required_item": {
+    "id": 17576,
+    "Name": "Gorilla Meat"
+  },
+  "required_faction": {
+    "id": 680,
+    "name": "Dream Delvers",
+    "base": 0
+  },
+  "required_faction_mods": [
+    {
+      "id": 4441,
+      "faction_id": 680,
+      "mod": -100,
+      "mod_name": "r1"
+    },
+    {
+      "id": 4442,
+      "faction_id": 680,
+      "mod": -100,
+      "mod_name": "r2"
+    },
+    {
+      "id": 4443,
+      "faction_id": 680,
+      "mod": -100,
+      "mod_name": "r3"
+    },
+    {
+      "id": 4444,
+      "faction_id": 680,
+      "mod": -100,
+      "mod_name": "r4"
+    },
+    {
+      "id": 4445,
+      "faction_id": 680,
+      "mod": -100,
+      "mod_name": "r5"
+    },
+    {
+      "id": 4446,
+      "faction_id": 680,
+      "mod": -100,
+      "mod_name": "r6"
+    },
+    {
+      "id": 4447,
+      "faction_id": 680,
+      "mod": -100,
+      "mod_name": "r7"
+    },
+    {
+      "id": 4448,
+      "faction_id": 680,
+      "mod": -100,
+      "mod_name": "r8"
+    },
+    {
+      "id": 4449,
+      "faction_id": 680,
+      "mod": -100,
+      "mod_name": "r9"
+    },
+    {
+      "id": 4450,
+      "faction_id": 680,
+      "mod": -100,
+      "mod_name": "r10"
+    },
+    {
+      "id": 4451,
+      "faction_id": 680,
+      "mod": -100,
+      "mod_name": "r11"
+    },
+    {
+      "id": 4452,
+      "faction_id": 680,
+      "mod": -100,
+      "mod_name": "r12"
+    },
+    {
+      "id": 4453,
+      "faction_id": 680,
+      "mod": -100,
+      "mod_name": "r128"
+    },
+    {
+      "id": 4454,
+      "faction_id": 680,
+      "mod": -100,
+      "mod_name": "r130"
+    },
+    {
+      "id": 4455,
+      "faction_id": 680,
+      "mod": -100,
+      "mod_name": "r330"
+    },
+    {
+      "id": 4456,
+      "faction_id": 680,
+      "mod": -100,
+      "mod_name": "r522"
+    }
+  ],
+  "preserved_zone": {
+    "zoneidnumber": 700,
+    "short_name": "feerrott2",
+    "min_status": 80
+  },
+  "required_delivery_helper_sha256": "85eeb3d426a98e70dd923e9e2bf87ff344c0bf24ecc54ab6d6edc84e924f71a9",
+  "parameter_policy": {
+    "min_level80_replay5hours": "CurrentEQResourceguide specifies80/unlimited/5hour; notindependentlydatedfield-by-field",
+    "xp": "Explicitconfigurable1percentlevel-basedexperiencecappedat85; encoded-8501pernativeRewardTask, nothistoricalnumericclaim",
+    "cash": "0; currentguidelistsExperienceandfactiononly",
+    "activity_order": "Configurableparallelkills/lootstep0thenfinaldeliverstep1; exactperiodunlockorderunrecovered",
+    "faction5": "Currentguide+datedMay21,2011killtaskfactiontable; noMoteaward"
+  },
+  "ordinary_access": "FeerrottGM80unchanged; taskcomponentalone doesnotcompletealloriginalHoTaccess/acquisition",
+  "no_dream_mote_reward": true,
+  "source_stage_registered": false,
+  "no_item_npc_spawn_currency_player_or_lease_writes": true
+}

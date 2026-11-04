@@ -1,0 +1,75 @@
+{
+  "classification": "Configurable reconstruction; no exact original balance/rate claim",
+  "verified_identity": {
+    "npc_id": 752234,
+    "name": "#Cragbeak",
+    "zone": 752,
+    "spell_id": 33544,
+    "spell_name": "Echoing Screech",
+    "targettype": 32,
+    "motes": [
+      76550,
+      76551,
+      76552,
+      76553
+    ]
+  },
+  "period_source": {
+    "url": "https://everquest.allakhazam.com/wiki/EQ_Mob:Cragbeak?oldid=451419",
+    "revision": "2012-11-30 03:24:59",
+    "facts": [
+      "25second repeat",
+      "damage increases with distance"
+    ]
+  },
+  "period_balance_observation": {
+    "url": "https://everquest.allakhazam.com/db/npc/41144#msg1361630047126992379",
+    "date": "2013-02-23",
+    "rough_hp": 4300000,
+    "observed_mitigated_maximum_hit": 12569,
+    "qualifications": "Neither figure is recovered exact raw NPC data; minimum2500 is a configurable balance estimate"
+  },
+  "modern_loot_association": {
+    "url": "https://everquest.allakhazam.com/db/npc/41144",
+    "motes": "Minor,Lesser,Median,Greater",
+    "original_rate_and_weights": "Unknown; configured25percent, equalweights are estimates"
+  },
+  "parameter_labels": "data.json reconstruction_estimates; initialtimer in rof2_cragbeak_config.lua",
+  "source_api_review": [
+    "zone/lua_mob.cpp CastSpell(int,int) and IsEngaged bindings",
+    "zone/spells.cpp native ST_AETargetHateList target dispatch",
+    "zone/loot.cpp droplimit/mindrop weighted item selection"
+  ],
+  "validation": {
+    "python_syntax": "AST parsed",
+    "offline_plan": "PASS/noDBconnection",
+    "lua_compilation": false,
+    "build": false,
+    "native_encounter": false
+  },
+  "shared_ownership": "JARVIS provisionally reserved table30396003/drop30397002; helper requires exact actual absence. No max+1 fallback.",
+  "not_changed": [
+    "Iremaw",
+    "spawns",
+    "otherNPCs",
+    "players",
+    "leases",
+    "global_loot",
+    "existinglootrows",
+    "spell33544definition"
+  ],
+  "remaining": [
+    "Exact original balance/drop distribution",
+    "Original non-mote equipment/cash loot",
+    "Native encounter/drop acceptance"
+  ],
+  "applied": true,
+  "applied_status": {
+    "date": "2026-11-04",
+    "database": "COMMITTED8writes; exactfullpostimages and independentreadbackpassed",
+    "runtime_files": "Twoabsenttargets exclusivelycreated/readbackmatched; nooverwrite",
+    "freshness": "BuildCRAGBEAK-CACHE-FRESHNESS-001 confirmsShard752unloaded/all6Zonepointersnull; nextordinaryinit/spawnloadsDBstats/loottableandfreshLuaVM",
+    "native_spawn_cast_or_drop_observed": false,
+    "player_or_lease_writes": false
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "status": "SOURCE_READY_NOT_APPLIED",
+  "period_source": {
+    "date": "2010-12-08",
+    "url": "https://bastiongame.com/library/patches/2010-12-08-1",
+    "fact": "Kyluc adds Protection of the Vale",
+    "kind": "Preserved original patch text; modern archive,twofileoccurrences",
+    "archive_displayed_sha256_not_independently_computed": "09b07725cf58f86aebfbe4eb45dd22ce0dba50807eed798eb653570b3a3e4bd6"
+  },
+  "corroboration": {
+    "current_spell_vendor": "https://everquest.allakhazam.com/db/spell/25522",
+    "earlier_missing_report": "https://everquest.allakhazam.com/db/spell/25522#msg1288189834168794983",
+    "earlier_date": "2010-10-27",
+    "chronology": "MissingreportpredatesDecember8fix; notgroundsforpermanentwithholding"
+  },
+  "native": {
+    "npc": 700122,
+    "merchant": 700122,
+    "class": 41,
+    "item": 125211,
+    "spell": 25522,
+    "class_level": "RNG90",
+    "rank": 1
+  },
+  "writes": {
+    "merchantlist_inserts": 1,
+    "slot": 65
+  },
+  "pricing": "Existingpositiveitemprice729098copperpreserved/nativeCHARfactioncalculation; no exacthistoricalnumericpriceclaim",
+  "standing_policy": "Existingcohort-1100preservedasstockdefault; no inventedprogression",
+  "validation": {
+    "offline_plan": "PASS/noDBconnection",
+    "python_syntax": "ASTparsed",
+    "native_purchase": false,
+    "newtestsuite": false
+  },
+  "applied": false,
+  "remaining": [
+    "Guardedapply",
+    "Affectedmerchantcachefreshness",
+    "Nativepurchase/learnacceptance"
+  ]
+}

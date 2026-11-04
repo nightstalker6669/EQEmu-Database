@@ -1,0 +1,141 @@
+{
+  "classification": "Originalfirst-completionquestcomponent; repeat-chainconditionunfinished",
+  "original_quest": {
+    "id": 5125,
+    "url": "https://everquest.allakhazam.com/db/quest/5125",
+    "period_facts": [
+      {
+        "date": "2010-10",
+        "fact": "Nativejournal49186/lootedpatrollerencounter/regularpatrollerkillalternative/5Motes",
+        "sources": [
+          "https://everquest.allakhazam.com/db/quest/5125#msg128724406611707174",
+          "https://everquest.allakhazam.com/db/quest/5125#msg128741661626445329"
+        ]
+      },
+      {
+        "date": "2011-10-05",
+        "fact": "Accepted80/refused79"
+      },
+      {
+        "date": "2012-12-09",
+        "fact": "Attackeratlooterwhenjournalpickedup",
+        "source": "https://everquest.allakhazam.com/db/quest/5125#msg135505482229683422"
+      },
+      {
+        "date": "2013-01-27",
+        "fact": "Six-hourtasktimer",
+        "source": "https://everquest.allakhazam.com/db/quest/5125#msg135932003155047940"
+      }
+    ]
+  },
+  "current_guide": "https://hot.eqresource.com/anexpeditiongoneawry.php",
+  "native_task": 920131,
+  "reward": {
+    "set_id": 920131,
+    "option_id": 1,
+    "entry_id": 3839201311,
+    "type": 4,
+    "currency_id": 22,
+    "amount": 5,
+    "physical_duplicate": false,
+    "direct_task_points": 0
+  },
+  "original_actor_component": {
+    "giver": 700075,
+    "journal": 49186,
+    "excluded_follow_on_journal": 49187,
+    "corpse": 700141,
+    "corpse_class": 62,
+    "existing_corpse_placements": 8,
+    "attacker_template": 700142,
+    "accepted_regular_patrollers": [
+      700047,
+      700056,
+      700062,
+      700142
+    ],
+    "NPC_definitions_stats_loot_persistent_placements_changed": false
+  },
+  "source_event_contract": {
+    "notification": "Zone-localEVENT_TASK_UPDATE920131/activity1/count1",
+    "source_order": "InventorycallthenUpdateTasksOnLootthenEVENT_TASK_UPDATE; extraCountItem49186presencecheck",
+    "preloot_event_used": false,
+    "global_player_hooks": "Stillautomaticallydispatchedseparately; nooverride/manualsecondcall",
+    "runtime_patroller_owner_tags": [
+      "rof2_spells_task_id",
+      "rof2_spells_owner_character_id"
+    ],
+    "proof_limit": "Ordinarynativeevent/in-memorypresence, notdurableGUIDreceipt/crashatomicproof"
+  },
+  "native_delivery_helper": {
+    "name": "achievement_native_delivery_handin.lua",
+    "sha256": "85eeb3d426a98e70dd923e9e2bf87ff344c0bf24ecc54ab6d6edc84e924f71a9",
+    "reused_unchanged": true,
+    "core": "94e5f727custodyfix/runningrevieweddescendantc18225a9reportedbyJARVIS"
+  },
+  "parameters": {
+    "minimum80": "Period2011accepted80/refused79",
+    "reward5Motes": "Period2010reported; chosen nativecurrency22commonledgerrepresentation, noextra physicalMote award",
+    "faction10": "Currentguide+dated2011generalnonkilltasktable; modifiersnative",
+    "cash158pp": "CurrentAlla158versusEQResource315conflict; explicit158default, notoriginalnumericclaim",
+    "xp": "Configurable1%levelbasedcap85(-8501), notoriginalnumericclaim",
+    "timer6hours": "DatedJan27,2013reportpreferred overcurrentguide5h; originalclockstartunknown/nativecompletionclockconfigured",
+    "replay": "FIRSTCOMPLETIONONLY; no reofferuntiloriginalchainreplayconditionimplemented; doesnotclaimoriginalquestneverrepeatable",
+    "exploration": "Configurableboxaroundall8existingcorpseplacements+margin; notexactrecoveredoriginaltrigger",
+    "phases": "ConfigurableinitialExplore/Loot/KillparallelthenDeliver; exactperiodunlockorderunknown",
+    "patroller": "Existing700142Lizardmanfamilytemplate; spawnatlooterperDec2012report, noNPCdefinition/stat/placementchange; fourexistingfamilytypesacceptedperregularpatrollerkillreport"
+  },
+  "configured_native_completed_task_recording": [
+    {
+      "ruleset_id": 1,
+      "rule_name": "TaskSystem:RecordCompletedTasks",
+      "rule_value": "true"
+    }
+  ],
+  "preserved": [
+    "GM80zoneaccess",
+    "factionbase/racemods",
+    "actors/loot/placements",
+    "existingglobal/local/fallbackcallbacks",
+    "sharedhelper",
+    "achievementcriteria",
+    "playerstate"
+  ],
+  "validation": {
+    "python_syntax": "ASTparsed",
+    "offline_plan": "PASS/noDBconnection for correctedfresh10rowhelper and2rowrepairhelper",
+    "Lua_API": "Readsourcebindings/dispatchorder; noLuac/compiler/nativeexecution",
+    "native_quest_spawn_payout": false,
+    "new_test_suite": false
+  },
+  "applied": true,
+  "remaining": [
+    "Authenticfullchainrepeateligibility",
+    "ExactXP/cash/exploration/phaseoriginalparameters",
+    "OrdinaryHoTzoneaccess/remainingoriginalquestchain",
+    "Nativequest/spawn/reward/persistenceacceptance"
+  ],
+  "catalog_binding_correction": {
+    "first_attempt": "Eight rows installed but native catalog had has_reward_selection=false: explicit reward_sets/reward_sources missing",
+    "required_set": 920131,
+    "required_source_type": 2,
+    "required_source_id": 920131,
+    "fresh_install_total_rows": 10,
+    "installed_component_repair_rows": 2,
+    "existing_eight_rows": "must remain exact",
+    "native_reward_acceptance": false,
+    "source_contract": [
+      "zone/task_manager.cpp LoadTaskRewardSets",
+      "zone/reward_selection_catalog.cpp LoadRewardSelectionCatalog",
+      "common/reward_selection.h Task=2"
+    ]
+  },
+  "applied_status": {
+    "date": "2026-11-04",
+    "database": "First8inserts committed; actualcatalogfailure exposed missingnativebindings; corrected2bindingtransaction committed; all10fullpostimages+independentreadbackPASS",
+    "runtime_files": "3exclusiveLua files installed/hashmatched; reviewedhelperunchanged/globalplayerdispatchpreserved",
+    "runtime_catalog": "BuildXORBB-CLEANUP-EXPEDITION-001 actualworld+all6zones task920131/fouractivities loaded; all6rewardselectiontrue/commonoption1->3839201311/type4/currency22/amount5,140sets. Managednormalstartup2026-11-04T11:35:18Z; api27 NOTissued/no redundantreload. Feerrott700unloaded,nextordinarybootfreshVM.",
+    "native_quest_payout_observed": false,
+    "repeat": "Firstcompletiononly; originalcompletechainreplayunimplemented"
+  }
+}

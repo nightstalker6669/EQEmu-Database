@@ -1,0 +1,60 @@
+{
+  "status": "SOURCE_ONLY_UNAPPLIED_RESEARCH_QUALIFIED_CANDIDATE",
+  "database_writes": 0,
+  "native_acceptance": false,
+  "npc": 202156,
+  "merchant": 202156,
+  "before_rows": 28,
+  "after_rows": 31,
+  "new_slots": [
+    29,
+    30,
+    31
+  ],
+  "min_expansion": 18,
+  "targets": [
+    {
+      "item": 119621,
+      "spell": 19871,
+      "level": 83,
+      "price_preserved": 503919
+    },
+    {
+      "item": 119624,
+      "spell": 19874,
+      "level": 85,
+      "price_preserved": 547231
+    },
+    {
+      "item": 119715,
+      "spell": 22540,
+      "level": 85,
+      "price_preserved": 544290
+    }
+  ],
+  "class": "ROG/rankI",
+  "individual_period_item_stock_proven": false,
+  "membership_qualification": "periodproviderrole/legacyquestlineage+March2012globalrollout+currentnamedstock inference; not dated eachrowinventory",
+  "sources": [
+    {
+      "url": "https://everquest.allakhazam.com/db/quest/3156",
+      "finding": "RogueTomesofKnowledge entered2005, guide namesBlanevendor; mainmodified2023 qualifier"
+    },
+    {
+      "url": "https://everquest.allakhazam.com/wiki/EQ_Mob:Blane_Darkblade?oldid=439013",
+      "finding": "August2012location/source lineage; role not explicitly stated there"
+    },
+    {
+      "url": "https://everquest.allakhazam.com/db/npc/15759",
+      "finding": "currentRogueTomesrole/exactthreeinventory; 2018TLPcomment alone not2012proof"
+    },
+    {
+      "url": "https://www.redguides.com/community/threads/big-everquest-patch-march-16-2012.24356/post-195066",
+      "finding": "contemporaryoriginalPoKrollouttext ordinarybase/rankI, noadvancedranks"
+    }
+  ],
+  "native_legacy_task_reference": 5723,
+  "legacy_tasks_achievements_modified": false,
+  "numeric_policy": "Preserve native positive prices, inherit ordinary standing-1100/standardstatus/class defaults; gate newroute18.",
+  "original_missions_preserved": true
+}
