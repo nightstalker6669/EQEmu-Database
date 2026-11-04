@@ -1,0 +1,29 @@
+{
+  "package": "mesa-bring-friends",
+  "SQL_files": [
+    {
+      "path": "sql/010-bring-friends.sql",
+      "sha256": "9685317fe7a669070c8f1b2e11c9afe3ef6f47eec803ebeb4817cae52c5a2fb5",
+      "role": "Exactsource; apply/rollback/disable/enable distinguishedbyownerfilenameandguide, not allforwardphases."
+    },
+    {
+      "path": "sql/020-rollback-staged.sql",
+      "sha256": "74772f78634d7276c9c9653a3e33ad5deb533c076f526bd49f3382446b8fd318",
+      "role": "Exactsource; apply/rollback/disable/enable distinguishedbyownerfilenameandguide, not allforwardphases."
+    },
+    {
+      "path": "sql/030-enable-bring-friends.sql",
+      "sha256": "8e142ce51bc527915c4313627f469c77060bb5241999f9581e3253e9f0166b62",
+      "role": "Exactsource; apply/rollback/disable/enable distinguishedbyownerfilenameandguide, not allforwardphases."
+    },
+    {
+      "path": "sql/040-disable-bring-friends.sql",
+      "sha256": "d6298829c36fad11a1a0b87850bcc9294c509416739d073495b66053183d9970",
+      "role": "Exactsource; apply/rollback/disable/enable distinguishedbyownerfilenameandguide, not allforwardphases."
+    }
+  ],
+  "applied_status": "Historicalcombinedninequestinstallreceipt confirms4tasks/15activities/4criteria+scripts installed; latercollision/routemodulefixes separate, nativependingatreceipt.",
+  "order": "OriginalownerREADME/guardedinstaller definesrequiredorder; rollback/disablefilesarenotappend-forwardphases.",
+  "required_source": "Matchingcode/schema/quests/composableglobalhooks/defaults, not standaloneSQLinstaller",
+  "exclusions": "No privateplayerrestoration/QA/fixtureSQLorcurrentstatecopied"
+}

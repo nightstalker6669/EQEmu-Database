@@ -1,0 +1,64 @@
+{
+  "package": "buriedsea",
+  "SQL_files": [
+    {
+      "path": "sql/001-catalogue.disabled.sql",
+      "sha256": "15ea662133439ad7ba319e13ec9f0b0a088c009c2b9c4235e0883bfbf818465c",
+      "role": "Exactsource; apply/rollback/disable/enable distinguishedbyownerfilenameandguide, not allforwardphases."
+    },
+    {
+      "path": "sql/010-journal.disabled.sql",
+      "sha256": "6a7a646157bac93688abe38450a8efa3977ed7530a132034650fe5ab51fe5a34",
+      "role": "Exactsource; apply/rollback/disable/enable distinguishedbyownerfilenameandguide, not allforwardphases."
+    },
+    {
+      "path": "sql/020-progression-rewards.disabled.sql",
+      "sha256": "8e753a39a606bcd68ac49133dcc983b85917f00525a4480609381f599b98c46d",
+      "role": "Exactsource; apply/rollback/disable/enable distinguishedbyownerfilenameandguide, not allforwardphases."
+    },
+    {
+      "path": "sql/030-bone-recipes.sql",
+      "sha256": "8d3dfc75652d2d2ae53de09c4ee71d54dc48f4986c74bdc8aa519af66f35f50a",
+      "role": "Exactsource; apply/rollback/disable/enable distinguishedbyownerfilenameandguide, not allforwardphases."
+    },
+    {
+      "path": "sql/040-encounter-npcs.disabled.sql",
+      "sha256": "0cb10aefd1277c6e7d7fb78d00fd6a7733487466bc58682af83abaae9118c7f8",
+      "role": "Exactsource; apply/rollback/disable/enable distinguishedbyownerfilenameandguide, not allforwardphases."
+    },
+    {
+      "path": "sql/050-quest-chest-respawn.disabled.sql",
+      "sha256": "dfc9ea3e06a19ba57276febc2b8692c7e5de5276c688f6979d42036d94976245",
+      "role": "Exactsource; apply/rollback/disable/enable distinguishedbyownerfilenameandguide, not allforwardphases."
+    },
+    {
+      "path": "sql/060-halon-complete-stock.disabled.sql",
+      "sha256": "7ae073d5b8dfce105e8391e13fe77e266413f0099b254293c514aa9ee7757183",
+      "role": "Exactsource; apply/rollback/disable/enable distinguishedbyownerfilenameandguide, not allforwardphases."
+    },
+    {
+      "path": "sql/070-totem-world-sources.disabled.sql",
+      "sha256": "8244864c03f17ec4927e0fc87c3e23b522e7afd77eabb54f18667eb8171d0b62",
+      "role": "Exactsource; apply/rollback/disable/enable distinguishedbyownerfilenameandguide, not allforwardphases."
+    },
+    {
+      "path": "sql/080-mer-mission.disabled.sql",
+      "sha256": "df59f170d559addd46967b33b1ef881921b0b00096df004ff72fa7a51d713b5c",
+      "role": "Exactsource; apply/rollback/disable/enable distinguishedbyownerfilenameandguide, not allforwardphases."
+    },
+    {
+      "path": "sql/085-parent-rewards-hand.disabled.sql",
+      "sha256": "4455fb92942d1d80cf22a0876075250c21b72e4ddec142d4036a173f33b84eb3",
+      "role": "Exactsource; apply/rollback/disable/enable distinguishedbyownerfilenameandguide, not allforwardphases."
+    },
+    {
+      "path": "sql/090-enable-whole-batch.sql",
+      "sha256": "e64ca89ae014fd13fadf5ccbec403a1a2dbe450011c23c80d31e3f9693c472e4",
+      "role": "Exactsource; apply/rollback/disable/enable distinguishedbyownerfilenameandguide, not allforwardphases."
+    }
+  ],
+  "applied_status": "Ownerpublishedsource; exactapplicationstatusUNKNOWN; disabled/review/activationguardsretained.",
+  "order": "OriginalownerREADME/guardedinstaller definesrequiredorder; rollback/disablefilesarenotappend-forwardphases.",
+  "required_source": "Matchingcode/schema/quests/composableglobalhooks/defaults, not standaloneSQLinstaller",
+  "exclusions": "No privateplayerrestoration/QA/fixtureSQLorcurrentstatecopied"
+}

@@ -1,0 +1,49 @@
+{
+  "package": "mesa-centaur",
+  "SQL_files": [
+    {
+      "path": "sql/010-centaur-chain.sql",
+      "sha256": "da0bc71c6d0015ad68346b8d15dc71005c7cd8b26da7f0e48fa840c33bef2201",
+      "role": "Exactsource; apply/rollback/disable/enable distinguishedbyownerfilenameandguide, not allforwardphases."
+    },
+    {
+      "path": "sql/020-rollback-staged-chain.sql",
+      "sha256": "7fd1571d3122c72d18ed4923039f7876627e8feca252ba45d5c8f81a2ad38013",
+      "role": "Exactsource; apply/rollback/disable/enable distinguishedbyownerfilenameandguide, not allforwardphases."
+    },
+    {
+      "path": "sql/030-corruption-internal-factions.sql",
+      "sha256": "7ff13e7f149b43c14403810bcbe50c3b320ce78aacc78a1a8a8c9ac1f007e924",
+      "role": "Exactsource; apply/rollback/disable/enable distinguishedbyownerfilenameandguide, not allforwardphases."
+    },
+    {
+      "path": "sql/040-rollback-internal-factions.sql",
+      "sha256": "9ddc2a62f9b8c57d76640d6ebd31cc758da1f234b3358385626b235cb67dd531",
+      "role": "Exactsource; apply/rollback/disable/enable distinguishedbyownerfilenameandguide, not allforwardphases."
+    },
+    {
+      "path": "sql/050-shade-profile.sql",
+      "sha256": "e6df0d1c016aeb72a57bd8113dd082c5bab0d042e8e2ab2ac347e7357c317398",
+      "role": "Exactsource; apply/rollback/disable/enable distinguishedbyownerfilenameandguide, not allforwardphases."
+    },
+    {
+      "path": "sql/060-rollback-shade-profile.sql",
+      "sha256": "fa1e0246011083d1804e5d6dbf0afc64f4f76c6dde87a6ed7de51cfae2d19529",
+      "role": "Exactsource; apply/rollback/disable/enable distinguishedbyownerfilenameandguide, not allforwardphases."
+    },
+    {
+      "path": "sql/070-enable-centaur-chain.sql",
+      "sha256": "8d628a0cfcb836d7f8bdda60806cd9f5602c594e3306e8df93aee19e8895b425",
+      "role": "Exactsource; apply/rollback/disable/enable distinguishedbyownerfilenameandguide, not allforwardphases."
+    },
+    {
+      "path": "sql/080-disable-centaur-chain.sql",
+      "sha256": "e597bfba8de64b50427d179dcd80a1254d693b513a648db6996bcf1bf0a9d965",
+      "role": "Exactsource; apply/rollback/disable/enable distinguishedbyownerfilenameandguide, not allforwardphases."
+    }
+  ],
+  "applied_status": "Exactr4sourcepublicationreviewatthatpoint notapplied/native. LatergroupedMesa13checkpointdoesnotbindthisexactr4SQLhash; currentexactrevisionapplicationUNKNOWN.",
+  "order": "OriginalownerREADME/guardedinstaller definesrequiredorder; rollback/disablefilesarenotappend-forwardphases.",
+  "required_source": "Matchingcode/schema/quests/composableglobalhooks/defaults, not standaloneSQLinstaller",
+  "exclusions": "No privateplayerrestoration/QA/fixtureSQLorcurrentstatecopied"
+}

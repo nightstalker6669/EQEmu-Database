@@ -1,0 +1,34 @@
+{
+  "package": "dragonscale",
+  "SQL_files": [
+    {
+      "path": "sql/010-journal.disabled.sql",
+      "sha256": "939f6efc20e28208a09ea48431fa9136db246362b5114be720acf85ebba51c11",
+      "role": "Exactsource; apply/rollback/disable/enable distinguishedbyownerfilenameandguide, not allforwardphases."
+    },
+    {
+      "path": "sql/020-groundspawn-bindings.sql",
+      "sha256": "77d190f54a89da0d699ab1d998ad64e800fc14ab363c90cb63f116c630bc8f6e",
+      "role": "Exactsource; apply/rollback/disable/enable distinguishedbyownerfilenameandguide, not allforwardphases."
+    },
+    {
+      "path": "sql/030-world-restoration.sql",
+      "sha256": "e22c5ac00d8c84e5f6678b12440960aed8d45a5cfb784951935d961894875d79",
+      "role": "Exactsource; apply/rollback/disable/enable distinguishedbyownerfilenameandguide, not allforwardphases."
+    },
+    {
+      "path": "sql/040-faction-restoration.sql",
+      "sha256": "8b8387b6850f93b8daaf00d832450f785440dc6dacc9b277e3fa71b6dc26e4a8",
+      "role": "Exactsource; apply/rollback/disable/enable distinguishedbyownerfilenameandguide, not allforwardphases."
+    },
+    {
+      "path": "sql/090-enable-whole-batch.sql",
+      "sha256": "96250aedc07a9b5fd31ac247cf70f5797cf597a9a57470ea0d3c594b31cf7043",
+      "role": "Exactsource; apply/rollback/disable/enable distinguishedbyownerfilenameandguide, not allforwardphases."
+    }
+  ],
+  "applied_status": "Ownerpublishedsource5e459f6f; exactapplicationstatusUNKNOWN.",
+  "order": "OriginalownerREADME/guardedinstaller definesrequiredorder; rollback/disablefilesarenotappend-forwardphases.",
+  "required_source": "Matchingcode/schema/quests/composableglobalhooks/defaults, not standaloneSQLinstaller",
+  "exclusions": "No privateplayerrestoration/QA/fixtureSQLorcurrentstatecopied"
+}

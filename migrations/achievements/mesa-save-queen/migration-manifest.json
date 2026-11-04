@@ -1,0 +1,29 @@
+{
+  "package": "mesa-save-queen",
+  "SQL_files": [
+    {
+      "path": "sql/010-save-queen.sql",
+      "sha256": "200e011b121fc82170f68e74e8427b0fbacde1802bd581daeeae388ab4de293b",
+      "role": "Exactsource; apply/rollback/disable/enable distinguishedbyownerfilenameandguide, not allforwardphases."
+    },
+    {
+      "path": "sql/020-rollback-staged.sql",
+      "sha256": "fbe524186fc85ea3c908f8129240d074886deee4faf6fe4c420d0dd259524893",
+      "role": "Exactsource; apply/rollback/disable/enable distinguishedbyownerfilenameandguide, not allforwardphases."
+    },
+    {
+      "path": "sql/030-enable-save-queen.sql",
+      "sha256": "6efb0853cdb5c3e6fef3aa2d2ace30710ef33477b404e1c115aab5fc982a3656",
+      "role": "Exactsource; apply/rollback/disable/enable distinguishedbyownerfilenameandguide, not allforwardphases."
+    },
+    {
+      "path": "sql/040-disable-save-queen.sql",
+      "sha256": "f48edf17f9587644f8f316e6d7d3c0b0e2c511f5cf1a18ed41d362d3c7995c26",
+      "role": "Exactsource; apply/rollback/disable/enable distinguishedbyownerfilenameandguide, not allforwardphases."
+    }
+  ],
+  "applied_status": "Historicalcombinedninequestinstallreceipt confirms5tasks/22activities/5criteria+scripts installed; nativeacceptancepending atreceipt.",
+  "order": "OriginalownerREADME/guardedinstaller definesrequiredorder; rollback/disablefilesarenotappend-forwardphases.",
+  "required_source": "Matchingcode/schema/quests/composableglobalhooks/defaults, not standaloneSQLinstaller",
+  "exclusions": "No privateplayerrestoration/QA/fixtureSQLorcurrentstatecopied"
+}
