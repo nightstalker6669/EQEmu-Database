@@ -1,0 +1,99 @@
+{
+  "format_version": 1,
+  "prepared_date": "2026-11-04",
+  "distribution_role": "downstream provenance and migration documentation; not an upstream fork",
+  "proposed_repository": "nightstalker6669/EQEmu-Database",
+  "baseline": {
+    "source_url": "https://gitlab.com/TheGrandLibrary/db.projecteq.net-dumps/-/package_files/232952944/download",
+    "bytes": 32150987,
+    "sha256": "ac8649f23d2c3aea2cade138dfe10d46d1b21ad1a80d08ca95f5434fab7f218d",
+    "upstream_published_checksum": null,
+    "dump_date": "2025-09-28",
+    "dump_time_note": "system footer 03:00:10; ZIP members 04:00; timezone unspecified",
+    "db_version": [
+      9328,
+      0,
+      0
+    ],
+    "local_import_date": "2026-10-12",
+    "original_database": "peq",
+    "matched_initial_server_release": "v23.10.3",
+    "matched_initial_source_commit": "8175ae61874cbf20d7b05102821f6f8a4f4d1c39"
+  },
+  "archive_members": [
+    {
+      "path": "peq-dump/create_all_tables.sql",
+      "bytes": 164,
+      "sha256": "df474dc70ff380d941275744d8137c21ae082b7658498145259d4a7d8954d6db"
+    },
+    {
+      "path": "peq-dump/create_tables_content.sql",
+      "bytes": 272797766,
+      "sha256": "7f5c2fd53c79c804f743cd57ca3a6161254cb74394f64714797e98b65e431290"
+    },
+    {
+      "path": "peq-dump/create_tables_login.sql",
+      "bytes": 4636,
+      "sha256": "96b79baca1327ceb25a876a65f13e16042d5e9b63ea632fe920aea21fb1894bb"
+    },
+    {
+      "path": "peq-dump/create_tables_player.sql",
+      "bytes": 65111,
+      "sha256": "b82344cb636ff6314cef613dae30c2d426b3a02580b4f066fc9af640262d714d"
+    },
+    {
+      "path": "peq-dump/create_tables_state.sql",
+      "bytes": 46570,
+      "sha256": "dc009b311095bf60873f6fb20e266c9ca99d101db91506b21a22d88e73af2449"
+    },
+    {
+      "path": "peq-dump/create_tables_system.sql",
+      "bytes": 6672001,
+      "sha256": "a9814ec520ea21c299cb4caec5c61140d76cf095dd15840760cbdd8a0da8d276"
+    },
+    {
+      "path": "peq-dump/drop_all_tables.sql",
+      "bytes": 154,
+      "sha256": "f7df89ffcdcd0e25b6e9462f69b9f619cfe513996d1e2d584c5d4c8c3054ed5b"
+    },
+    {
+      "path": "peq-dump/drop_tables_content.sql",
+      "bytes": 2776,
+      "sha256": "8f5b64cdcfa86bc318aa4276dadeafdcc23ff4fb064b6fd2fab3b678534eb407"
+    },
+    {
+      "path": "peq-dump/drop_tables_login.sql",
+      "bytes": 216,
+      "sha256": "e29a50a588b656ca3acf0acb9dc02e027f448fb7951d706a3465201424eee33b"
+    },
+    {
+      "path": "peq-dump/drop_tables_player.sql",
+      "bytes": 3061,
+      "sha256": "79886341eeb3c586e93e1c96f92688e9adfec76205fbe74db185bd0df0296114"
+    },
+    {
+      "path": "peq-dump/drop_tables_state.sql",
+      "bytes": 2160,
+      "sha256": "4314353b8bcb2ab39e5ef74e7d18a301f1aeb99c8a7c63a2f80e3107693b9896"
+    },
+    {
+      "path": "peq-dump/drop_tables_system.sql",
+      "bytes": 849,
+      "sha256": "346dec161c418046b6df2672fcd5f45edb93a2ebf5e5a1abf67e49ff58aecc97"
+    }
+  ],
+  "import_member_order": [
+    "peq-dump/create_tables_content.sql",
+    "peq-dump/create_tables_login.sql",
+    "peq-dump/create_tables_player.sql",
+    "peq-dump/create_tables_state.sql",
+    "peq-dump/create_tables_system.sql"
+  ],
+  "lineage_qualification": "Original peq bootstrap archive identified. Exact initial peq-to-housing database clone/import receipt pending. Subsequent consolidation on 2026-10-15 documented without data replacement.",
+  "package_scope": "Documentation and hash inventories only. No baseline archive, current SQL dump, player data or QA data included.",
+  "upstream_project": {
+    "url": "https://gitlab.com/TheGrandLibrary/db.projecteq.net-dumps",
+    "project_id": 74855690,
+    "repository_observation": "Empty repository observed 2026-11-04; package artifact, no established source commit."
+  }
+}
