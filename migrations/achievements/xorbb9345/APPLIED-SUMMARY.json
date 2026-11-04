@@ -1,0 +1,35 @@
+{
+  "canonical_source_commit": "ca2b5935b0e60780d63e0a6a16636f9079086d7e",
+  "canonical_source_sha256": "8c5450a65bda941580e2f569ac47f3b49c53543d998fd3e90136277f68c1afc1",
+  "canonical_application_status": "COMMITTED_INDEPENDENT_BOUNDED_READBACK_PASS",
+  "canonical_CALL_attempts": 1,
+  "canonical_receipt_sha256": "d8d63fa9618bce8407a2c5b7e0b6cd4a5661eeb596aa9c4dfdf8a53ce4c48142",
+  "canonical_preparation_labels": "Original SQL header is retained byte-for-byte and predates actual application.",
+  "activation_status": "COMMITTED_INDEPENDENT_BOUNDED_READBACK_PASS",
+  "activation_receipt_sha256": "e53e3ff93831f137d8ffc9478e1277cc7ee29e38a2cf604a444f70120cd19378",
+  "activation_contract_sha256": "37ec7d3e98e0a5c7db518b58f5acc796c937f2925b6e0d5d8f73a51be7ab6622",
+  "activation_mutations": {
+    "tasks": 11,
+    "reward_sets": 11,
+    "reward_sources": 11,
+    "reward_options": 11,
+    "rewards": 27,
+    "achievement_criteria": 11,
+    "tradeskill_recipe": 1,
+    "achievements": {
+      "2075310": "0->1",
+      "2075325": "1->0"
+    }
+  },
+  "bounded_preimages_sha256": "684d4d3457e23842dbc47b6aa9cd77740e69fd74f0d0852bb5615b255d268e09",
+  "bounded_independent_postimages_sha256": "3d5ca959ab6ce13471357d3cd24fd463961a15531559da4800e734add8491153",
+  "preservation": "Full bounded rows matched canonical preimages and exact expected postimages. All fields other than enumerated enabled flags preserved; has_reward unchanged. Prior three partisan tasks, rewards and criteria remained disabled.",
+  "excluded_writes": [
+    "registry/version",
+    "player/progress",
+    "custody",
+    "reward claims"
+  ],
+  "native_acceptance": false,
+  "runtime_readiness": "Build installation, five overlays and cache/VM freshness are separate evidence."
+}

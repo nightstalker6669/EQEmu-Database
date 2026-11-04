@@ -1,0 +1,9 @@
+# Xorbb9345 source and application record
+
+The canonical SQL at source commit ca2b5935b0e60780d63e0a6a16636f9079086d7e was applied once, with independent bounded readback. Its original source-only header is preserved byte-for-byte as historical source metadata. The reserved9345 label was not registered as an engine/database version. The temporary installation routine was removed after application.
+
+The canonical application installed disabled definitions and the combined prerequisite9344 content. A separately authorized guarded transaction enabled the eleven mercenary tasks3040477–3040487, eleven matching reward sets/sources/options, 27 rewards, eleven criteria under2075310 and recipe3040485. Parent2075310 changed0 to1. Existing partisan parent2075325 was found enabled1; the coordinator explicitly authorized1 to0. Both parents retain has_reward1 and every other field. The three partisan tasks3040474–3040476 and their rewards/criteria remain disabled while their geometry is unresolved.
+
+activation-statements.sql records the exact statements executed inside the operator's full-row guarded transaction. It is not a standalone replay installer: the operator durably captured full preimages, locked and compared the bounded populations against canonical postimages, asserted all affected counts and complete expected postimages, committed once and verified through a new read-only connection. Private full backups and receipts stay outside this repository; their hashes bind the curated summary.
+
+Matching engine capabilities, quest installation, controlled Lua overlays and cache freshness are separate Build responsibilities. No player progress, custody, reward claim, version or registry writes occurred in activation. Database application and flag readiness do not establish native acceptance. Do not replay the canonical procedure or activation record against an already installed database.

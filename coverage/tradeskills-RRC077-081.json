@@ -1,0 +1,62 @@
+{
+  "format_version": 1,
+  "entries": [
+    {
+      "batch": "RRC077",
+      "status": "APPLIED_VERIFIED",
+      "source_commit": "518e227712c42ea6ca4e13afb23505bc5b891da9",
+      "source_sha256": "f8bb9d5fe2300898e5f0beb96e31df6b487f990e0ca880d80ca59f44a63f8ea6",
+      "recipes_added": 5,
+      "entries_added": 25,
+      "entries_updated": 0
+    },
+    {
+      "batch": "RRC078",
+      "status": "APPLIED_VERIFIED",
+      "source_commit": "ad5f7c9ac3a9bfb061b926908de4ed32ccde8ac1",
+      "source_sha256": "996f40e81f1e608b8b583463b7854c5e72cd19d736258d1545cc6d9bf9a5c46f",
+      "recipes_added": 5,
+      "entries_added": 30,
+      "entries_updated": 0
+    },
+    {
+      "batch": "RRC079",
+      "status": "APPLIED_VERIFIED",
+      "source_commit": "a4ace227bc269d8c15e290c72d36c22b45c5c217",
+      "source_sha256": "b1507606bb87ad0dba3b8b071bd28b1cc19915473bd2382f6471c8e2c2466a96",
+      "recipes_added": 1,
+      "entries_added": 4,
+      "entries_updated": 0
+    },
+    {
+      "batch": "RRC080",
+      "status": "APPLIED_VERIFIED",
+      "source_commit": "65e71b912968e39d15595eeada898ef8f4e93f9d",
+      "source_sha256": "12dd05526db7f0ae90628dcb49ae7e5a5303072259032434a927efa41b019868",
+      "recipes_added": 0,
+      "entries_added": 0,
+      "entries_updated": 1
+    },
+    {
+      "batch": "RRC081",
+      "status": "APPLIED_VERIFIED",
+      "source_commit": "2ef982fa2f6611288af6ba190719a14942e1e63a",
+      "source_sha256": "6e18f549bba313751ab0a4bef51c7ad3cde9e13dce02c7a324dc43712753a65a",
+      "recipes_added": 7,
+      "entries_added": 51,
+      "entries_updated": 0
+    }
+  ],
+  "application_order": "077, 078, 079, 080, 081. Preserve 078 dependency for 081.",
+  "added": {
+    "recipes": 18,
+    "entries": 110
+  },
+  "existing_entry_updates": 1,
+  "cumulative_TS_through081": {
+    "recipes_added": 2650,
+    "entries_added": 14446
+  },
+  "separate_Xorbb_recipe": "Xorbb3040485 adds 1 recipe and 6 entries; excluded from Tradeskills totals.",
+  "limits": "No repeated scan, replay or native acceptance. RRC080 changes only recipe12129 entry144751 item97767 to97768; preserves definitions, eight guarded entries and learned references."
+}

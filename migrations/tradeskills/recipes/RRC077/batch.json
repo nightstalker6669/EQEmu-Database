@@ -1,0 +1,1104 @@
+{
+  "batch": "RRC077",
+  "branch": "rof2-tradeskills",
+  "status": "SOURCE_PROPOSAL_NOT_APPLIED",
+  "proposed_ids": [
+    3093633,
+    3093637
+  ],
+  "counts": {
+    "recipes": 5,
+    "entries": 25,
+    "item_dependencies": 17,
+    "unchanged_prototype_recipes": 5,
+    "unchanged_prototype_entries": 40
+  },
+  "recipes": [
+    {
+      "id": 3093633,
+      "name": "Rough Spell Tablet",
+      "tradeskill": 58,
+      "skillneeded": 0,
+      "trivial": 243,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Primary tablet refinement; existing Spell Research Kit route only; RRC077.",
+      "must_learn": 2,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 18,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3093634,
+      "name": "Spell Tablet",
+      "tradeskill": 58,
+      "skillneeded": 0,
+      "trivial": 243,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Primary tablet refinement; existing Spell Research Kit route only; RRC077.",
+      "must_learn": 2,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 18,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3093635,
+      "name": "Fine Spell Tablet",
+      "tradeskill": 58,
+      "skillneeded": 0,
+      "trivial": 243,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Primary tablet refinement; existing Spell Research Kit route only; RRC077.",
+      "must_learn": 2,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 18,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3093636,
+      "name": "Runic Spell Tablet",
+      "tradeskill": 58,
+      "skillneeded": 0,
+      "trivial": 243,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Primary tablet refinement; existing Spell Research Kit route only; RRC077.",
+      "must_learn": 2,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 18,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3093637,
+      "name": "Fine Runic Spell Tablet",
+      "tradeskill": 58,
+      "skillneeded": 0,
+      "trivial": 243,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Primary tablet refinement; existing Spell Research Kit route only; RRC077.",
+      "must_learn": 2,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 18,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    }
+  ],
+  "entries": [
+    {
+      "recipe_id": 3093633,
+      "item_id": 64900,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093633,
+      "item_id": 93617,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093633,
+      "item_id": 64910,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093633,
+      "item_id": 64915,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093633,
+      "item_id": 93492,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3093634,
+      "item_id": 64901,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093634,
+      "item_id": 93617,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093634,
+      "item_id": 64916,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093634,
+      "item_id": 64911,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093634,
+      "item_id": 93492,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3093635,
+      "item_id": 64902,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093635,
+      "item_id": 93617,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093635,
+      "item_id": 64912,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093635,
+      "item_id": 64917,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093635,
+      "item_id": 93492,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3093636,
+      "item_id": 64903,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093636,
+      "item_id": 93617,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093636,
+      "item_id": 64913,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093636,
+      "item_id": 64918,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093636,
+      "item_id": 93492,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3093637,
+      "item_id": 64904,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093637,
+      "item_id": 93617,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093637,
+      "item_id": 64914,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093637,
+      "item_id": 64919,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3093637,
+      "item_id": 93492,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    }
+  ],
+  "source_facts": [
+    {
+      "recipe_id": 3093633,
+      "source_name": "Rough Spell Tablet",
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=525&rsa=Spell+Research&sub=basic",
+      "output_source_url": "https://www.eqtraders.com/items/show_item.php?item=38059&menustr=010000000000",
+      "output_item_id": 64900,
+      "yield_count": 1,
+      "trivial": 243,
+      "container_item_ids": [
+        93492
+      ],
+      "held_current_other_kit_ids": [
+        41555,
+        41631,
+        41632,
+        41633
+      ],
+      "ingredients": [
+        {
+          "item_id": 93617,
+          "name": "Celestial Cleanser",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=20927"
+        },
+        {
+          "item_id": 64910,
+          "name": "Rough Spell Tablet Solution",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=37929"
+        },
+        {
+          "item_id": 64915,
+          "name": "Smudged Rough Spell Tablet",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=37934"
+        }
+      ]
+    },
+    {
+      "recipe_id": 3093634,
+      "source_name": "Spell Tablet",
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=525&rsa=Spell+Research&sub=basic",
+      "output_source_url": "https://www.eqtraders.com/items/show_item.php?item=38061&menustr=010000000000",
+      "output_item_id": 64901,
+      "yield_count": 1,
+      "trivial": 243,
+      "container_item_ids": [
+        93492
+      ],
+      "held_current_other_kit_ids": [
+        41555,
+        41631,
+        41632,
+        41633
+      ],
+      "ingredients": [
+        {
+          "item_id": 93617,
+          "name": "Celestial Cleanser",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=20927"
+        },
+        {
+          "item_id": 64916,
+          "name": "Sooty Spell Tablet",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=37936"
+        },
+        {
+          "item_id": 64911,
+          "name": "Spell Tablet Solution",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=37931"
+        }
+      ]
+    },
+    {
+      "recipe_id": 3093635,
+      "source_name": "Fine Spell Tablet",
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=525&rsa=Spell+Research&sub=basic",
+      "output_source_url": "https://www.eqtraders.com/items/show_item.php?item=38058&menustr=010000000000",
+      "output_item_id": 64902,
+      "yield_count": 1,
+      "trivial": 243,
+      "container_item_ids": [
+        93492
+      ],
+      "held_current_other_kit_ids": [
+        41555,
+        41631,
+        41632,
+        41633
+      ],
+      "ingredients": [
+        {
+          "item_id": 93617,
+          "name": "Celestial Cleanser",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=20927"
+        },
+        {
+          "item_id": 64912,
+          "name": "Fine Spell Tablet Solution",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=37928"
+        },
+        {
+          "item_id": 64917,
+          "name": "Sooty Fine Spell Tablet",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=37933"
+        }
+      ]
+    },
+    {
+      "recipe_id": 3093636,
+      "source_name": "Runic Spell Tablet",
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=525&rsa=Spell+Research&sub=basic",
+      "output_source_url": "https://www.eqtraders.com/items/show_item.php?item=38060&menustr=010000000000",
+      "output_item_id": 64903,
+      "yield_count": 1,
+      "trivial": 243,
+      "container_item_ids": [
+        93492
+      ],
+      "held_current_other_kit_ids": [
+        41555,
+        41631,
+        41632,
+        41633
+      ],
+      "ingredients": [
+        {
+          "item_id": 93617,
+          "name": "Celestial Cleanser",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=20927"
+        },
+        {
+          "item_id": 64913,
+          "name": "Runic Spell Tablet Solution",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=37930"
+        },
+        {
+          "item_id": 64918,
+          "name": "Smudged Runic Spell Tablet",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=37935"
+        }
+      ]
+    },
+    {
+      "recipe_id": 3093637,
+      "source_name": "Fine Runic Spell Tablet",
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=525&rsa=Spell+Research&sub=basic",
+      "output_source_url": "https://www.eqtraders.com/items/show_item.php?item=38057&menustr=010000000000",
+      "output_item_id": 64904,
+      "yield_count": 1,
+      "trivial": 243,
+      "container_item_ids": [
+        93492
+      ],
+      "held_current_other_kit_ids": [
+        41555,
+        41631,
+        41632,
+        41633
+      ],
+      "ingredients": [
+        {
+          "item_id": 93617,
+          "name": "Celestial Cleanser",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=20927"
+        },
+        {
+          "item_id": 64914,
+          "name": "Fine Runic Spell Tablet Solution",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=37927"
+        },
+        {
+          "item_id": 64919,
+          "name": "Stained Fine Runic Spell Tablet",
+          "count": 1,
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=37932"
+        }
+      ]
+    }
+  ],
+  "item_dependencies": [
+    {
+      "id": 64900,
+      "name": "Rough Spell Tablet"
+    },
+    {
+      "id": 64901,
+      "name": "Spell Tablet"
+    },
+    {
+      "id": 64902,
+      "name": "Fine Spell Tablet"
+    },
+    {
+      "id": 64903,
+      "name": "Runic Spell Tablet"
+    },
+    {
+      "id": 64904,
+      "name": "Fine Runic Spell Tablet"
+    },
+    {
+      "id": 64910,
+      "name": "Rough Spell Tablet Solution"
+    },
+    {
+      "id": 64911,
+      "name": "Spell Tablet Solution"
+    },
+    {
+      "id": 64912,
+      "name": "Fine Spell Tablet Solution"
+    },
+    {
+      "id": 64913,
+      "name": "Runic Spell Tablet Solution"
+    },
+    {
+      "id": 64914,
+      "name": "Fine Runic Spell Tablet Solution"
+    },
+    {
+      "id": 64915,
+      "name": "Smudged Rough Spell Tablet"
+    },
+    {
+      "id": 64916,
+      "name": "Sooty Spell Tablet"
+    },
+    {
+      "id": 64917,
+      "name": "Sooty Fine Spell Tablet"
+    },
+    {
+      "id": 64918,
+      "name": "Smudged Runic Spell Tablet"
+    },
+    {
+      "id": 64919,
+      "name": "Stained Fine Runic Spell Tablet"
+    },
+    {
+      "id": 93492,
+      "name": "Spell Research Kit"
+    },
+    {
+      "id": 93617,
+      "name": "Celestial Cleanser"
+    }
+  ],
+  "unchanged_prototype_recipes": [
+    {
+      "id": 12805,
+      "name": "Rough Charta Arcanum",
+      "tradeskill": 58,
+      "skillneeded": 0,
+      "trivial": 243,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": null,
+      "must_learn": 2,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": -1,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 12806,
+      "name": "Charta Arcanum",
+      "tradeskill": 58,
+      "skillneeded": 0,
+      "trivial": 243,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": null,
+      "must_learn": 2,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": -1,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 12807,
+      "name": "Fine Charta Arcanum",
+      "tradeskill": 58,
+      "skillneeded": 0,
+      "trivial": 243,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": null,
+      "must_learn": 2,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": -1,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 12808,
+      "name": "Runic Charta Arcanum",
+      "tradeskill": 58,
+      "skillneeded": 0,
+      "trivial": 243,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": null,
+      "must_learn": 2,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": -1,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 12809,
+      "name": "Fine Runic Charta Arcanum",
+      "tradeskill": 58,
+      "skillneeded": 0,
+      "trivial": 243,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": null,
+      "must_learn": 2,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": -1,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    }
+  ],
+  "unchanged_prototype_entries": [
+    {
+      "id": 150236,
+      "recipe_id": 12805,
+      "item_id": 93617,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 150237,
+      "recipe_id": 12805,
+      "item_id": 90317,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 150238,
+      "recipe_id": 12805,
+      "item_id": 90322,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 150239,
+      "recipe_id": 12805,
+      "item_id": 93492,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 150240,
+      "recipe_id": 12805,
+      "item_id": 90307,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 150241,
+      "recipe_id": 12805,
+      "item_id": 41555,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 150242,
+      "recipe_id": 12805,
+      "item_id": 41631,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 150243,
+      "recipe_id": 12805,
+      "item_id": 41632,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 150244,
+      "recipe_id": 12806,
+      "item_id": 93617,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 150245,
+      "recipe_id": 12806,
+      "item_id": 90318,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 150246,
+      "recipe_id": 12806,
+      "item_id": 90323,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 150247,
+      "recipe_id": 12806,
+      "item_id": 90308,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 150248,
+      "recipe_id": 12806,
+      "item_id": 93492,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 150249,
+      "recipe_id": 12806,
+      "item_id": 41555,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 150250,
+      "recipe_id": 12806,
+      "item_id": 41631,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 150251,
+      "recipe_id": 12806,
+      "item_id": 41632,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 150252,
+      "recipe_id": 12807,
+      "item_id": 93617,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 150253,
+      "recipe_id": 12807,
+      "item_id": 90319,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 150254,
+      "recipe_id": 12807,
+      "item_id": 90324,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 150255,
+      "recipe_id": 12807,
+      "item_id": 90309,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 150256,
+      "recipe_id": 12807,
+      "item_id": 93492,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 150257,
+      "recipe_id": 12807,
+      "item_id": 41555,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 150258,
+      "recipe_id": 12807,
+      "item_id": 41631,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 150259,
+      "recipe_id": 12807,
+      "item_id": 41632,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 150260,
+      "recipe_id": 12808,
+      "item_id": 93617,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 150261,
+      "recipe_id": 12808,
+      "item_id": 90320,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 150262,
+      "recipe_id": 12808,
+      "item_id": 90325,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 150263,
+      "recipe_id": 12808,
+      "item_id": 90310,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 150264,
+      "recipe_id": 12808,
+      "item_id": 93492,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 150265,
+      "recipe_id": 12808,
+      "item_id": 41555,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 150266,
+      "recipe_id": 12808,
+      "item_id": 41631,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 150267,
+      "recipe_id": 12808,
+      "item_id": 41632,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 150268,
+      "recipe_id": 12809,
+      "item_id": 93617,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 150269,
+      "recipe_id": 12809,
+      "item_id": 90321,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 150270,
+      "recipe_id": 12809,
+      "item_id": 90326,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 150271,
+      "recipe_id": 12809,
+      "item_id": 90311,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 150272,
+      "recipe_id": 12809,
+      "item_id": 93492,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 150273,
+      "recipe_id": 12809,
+      "item_id": 41555,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 150274,
+      "recipe_id": 12809,
+      "item_id": 41631,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 150275,
+      "recipe_id": 12809,
+      "item_id": 41632,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    }
+  ],
+  "restriction_review": {
+    "kits": "Only explicit93492 route matching31 existing refinements. Other4 modern physical kits and furniture held for period/class review. Native kit mask15360 unchanged; no new class enforcement.",
+    "learning": "Existing refinement family must_learn2 and ingredient salvage1 are local conventions. No mandatory scribe/NPC gate fabricated.",
+    "quantity": "Three ingredient units produce one stackable clean tablet; no source success/failure returns listed. Distinct from solution manufacture, which returns vials.",
+    "period": "DatedMay2012 guide lists all5 tablet media, raw media and solution costs. Its table is labelled Spells Table and numbers432\u2013450 refer to spells; they do not establish refinement trivial. Current Basic primary formula243 supplies numeric value; historic243 is qualified, not immutable2013 proof. Qualified byVoA context18.",
+    "limits": "Other15 higher media and all existing kit changes remain held. No item/vendor/drop/AA/player/runtime writes or native crafting claim."
+  },
+  "source_urls": [
+    "https://www.eqtraders.com/recipes/recipe_page.php?article=525&rsa=Spell+Research&sub=basic",
+    "https://mboards.eqtraders.com/eq/forum/tradeskills/tradeskill-guides-and-ui-mods/36211-the-ultimate-eq-tradeskill-guide",
+    "https://www.eqtraders.com/articles/article_page.php?article=g342"
+  ],
+  "migration_dependency": "RRC072 supplies5 Tablet solutions. Apply after072; no full material obtainability claim."
+}

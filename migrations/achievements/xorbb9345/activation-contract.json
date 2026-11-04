@@ -1,0 +1,418 @@
+{
+  "source_commit": "ca2b5935b0e60780d63e0a6a16636f9079086d7e",
+  "mode": "controlled mercenary11 trial; not native acceptance",
+  "database_enable_rows": [
+    {
+      "table": "tasks",
+      "keys": [
+        "id"
+      ],
+      "rows": [
+        {
+          "id": "3040477"
+        },
+        {
+          "id": "3040478"
+        },
+        {
+          "id": "3040479"
+        },
+        {
+          "id": "3040480"
+        },
+        {
+          "id": "3040481"
+        },
+        {
+          "id": "3040482"
+        },
+        {
+          "id": "3040483"
+        },
+        {
+          "id": "3040484"
+        },
+        {
+          "id": "3040485"
+        },
+        {
+          "id": "3040486"
+        },
+        {
+          "id": "3040487"
+        }
+      ],
+      "column": "enabled",
+      "before": 0,
+      "after": 1,
+      "expected_count": 11
+    },
+    {
+      "table": "reward_sets",
+      "keys": [
+        "reward_set_id"
+      ],
+      "rows": [
+        {
+          "reward_set_id": "3040477"
+        },
+        {
+          "reward_set_id": "3040478"
+        },
+        {
+          "reward_set_id": "3040479"
+        },
+        {
+          "reward_set_id": "3040480"
+        },
+        {
+          "reward_set_id": "3040481"
+        },
+        {
+          "reward_set_id": "3040482"
+        },
+        {
+          "reward_set_id": "3040483"
+        },
+        {
+          "reward_set_id": "3040484"
+        },
+        {
+          "reward_set_id": "3040485"
+        },
+        {
+          "reward_set_id": "3040486"
+        },
+        {
+          "reward_set_id": "3040487"
+        }
+      ],
+      "column": "enabled",
+      "before": 0,
+      "after": 1,
+      "expected_count": 11
+    },
+    {
+      "table": "reward_sources",
+      "keys": [
+        "source_type",
+        "source_id",
+        "reward_set_id"
+      ],
+      "rows": [
+        {
+          "source_type": "2",
+          "source_id": "3040477",
+          "reward_set_id": "3040477"
+        },
+        {
+          "source_type": "2",
+          "source_id": "3040478",
+          "reward_set_id": "3040478"
+        },
+        {
+          "source_type": "2",
+          "source_id": "3040479",
+          "reward_set_id": "3040479"
+        },
+        {
+          "source_type": "2",
+          "source_id": "3040480",
+          "reward_set_id": "3040480"
+        },
+        {
+          "source_type": "2",
+          "source_id": "3040481",
+          "reward_set_id": "3040481"
+        },
+        {
+          "source_type": "2",
+          "source_id": "3040482",
+          "reward_set_id": "3040482"
+        },
+        {
+          "source_type": "2",
+          "source_id": "3040483",
+          "reward_set_id": "3040483"
+        },
+        {
+          "source_type": "2",
+          "source_id": "3040484",
+          "reward_set_id": "3040484"
+        },
+        {
+          "source_type": "2",
+          "source_id": "3040485",
+          "reward_set_id": "3040485"
+        },
+        {
+          "source_type": "2",
+          "source_id": "3040486",
+          "reward_set_id": "3040486"
+        },
+        {
+          "source_type": "2",
+          "source_id": "3040487",
+          "reward_set_id": "3040487"
+        }
+      ],
+      "column": "enabled",
+      "before": 0,
+      "after": 1,
+      "expected_count": 11
+    },
+    {
+      "table": "reward_options",
+      "keys": [
+        "reward_set_id",
+        "option_id"
+      ],
+      "rows": [
+        {
+          "reward_set_id": "3040477",
+          "option_id": "1"
+        },
+        {
+          "reward_set_id": "3040478",
+          "option_id": "1"
+        },
+        {
+          "reward_set_id": "3040479",
+          "option_id": "1"
+        },
+        {
+          "reward_set_id": "3040480",
+          "option_id": "1"
+        },
+        {
+          "reward_set_id": "3040481",
+          "option_id": "1"
+        },
+        {
+          "reward_set_id": "3040482",
+          "option_id": "1"
+        },
+        {
+          "reward_set_id": "3040483",
+          "option_id": "1"
+        },
+        {
+          "reward_set_id": "3040484",
+          "option_id": "1"
+        },
+        {
+          "reward_set_id": "3040485",
+          "option_id": "1"
+        },
+        {
+          "reward_set_id": "3040486",
+          "option_id": "1"
+        },
+        {
+          "reward_set_id": "3040487",
+          "option_id": "1"
+        }
+      ],
+      "column": "enabled",
+      "before": 0,
+      "after": 1,
+      "expected_count": 11
+    },
+    {
+      "table": "rewards",
+      "keys": [
+        "reward_id"
+      ],
+      "rows": [
+        {
+          "reward_id": "304047701"
+        },
+        {
+          "reward_id": "304047702"
+        },
+        {
+          "reward_id": "304047801"
+        },
+        {
+          "reward_id": "304047802"
+        },
+        {
+          "reward_id": "304047901"
+        },
+        {
+          "reward_id": "304047902"
+        },
+        {
+          "reward_id": "304048001"
+        },
+        {
+          "reward_id": "304048002"
+        },
+        {
+          "reward_id": "304048101"
+        },
+        {
+          "reward_id": "304048102"
+        },
+        {
+          "reward_id": "304048201"
+        },
+        {
+          "reward_id": "304048202"
+        },
+        {
+          "reward_id": "304048301"
+        },
+        {
+          "reward_id": "304048302"
+        },
+        {
+          "reward_id": "304048303"
+        },
+        {
+          "reward_id": "304048401"
+        },
+        {
+          "reward_id": "304048402"
+        },
+        {
+          "reward_id": "304048403"
+        },
+        {
+          "reward_id": "304048501"
+        },
+        {
+          "reward_id": "304048502"
+        },
+        {
+          "reward_id": "304048601"
+        },
+        {
+          "reward_id": "304048602"
+        },
+        {
+          "reward_id": "304048603"
+        },
+        {
+          "reward_id": "304048701"
+        },
+        {
+          "reward_id": "304048702"
+        },
+        {
+          "reward_id": "304048703"
+        },
+        {
+          "reward_id": "304048704"
+        }
+      ],
+      "column": "enabled",
+      "before": 0,
+      "after": 1,
+      "expected_count": 27
+    },
+    {
+      "table": "achievement_criteria",
+      "keys": [
+        "achievement_id",
+        "component_type",
+        "component_sequence",
+        "component_id"
+      ],
+      "rows": [
+        {
+          "achievement_id": "2075310",
+          "component_type": "1",
+          "component_sequence": "1",
+          "component_id": "2075310"
+        },
+        {
+          "achievement_id": "2075310",
+          "component_type": "1",
+          "component_sequence": "2",
+          "component_id": "2075311"
+        },
+        {
+          "achievement_id": "2075310",
+          "component_type": "1",
+          "component_sequence": "3",
+          "component_id": "2075312"
+        },
+        {
+          "achievement_id": "2075310",
+          "component_type": "1",
+          "component_sequence": "4",
+          "component_id": "2075313"
+        },
+        {
+          "achievement_id": "2075310",
+          "component_type": "1",
+          "component_sequence": "5",
+          "component_id": "2075314"
+        },
+        {
+          "achievement_id": "2075310",
+          "component_type": "1",
+          "component_sequence": "6",
+          "component_id": "2075315"
+        },
+        {
+          "achievement_id": "2075310",
+          "component_type": "1",
+          "component_sequence": "7",
+          "component_id": "2075316"
+        },
+        {
+          "achievement_id": "2075310",
+          "component_type": "1",
+          "component_sequence": "8",
+          "component_id": "2075317"
+        },
+        {
+          "achievement_id": "2075310",
+          "component_type": "1",
+          "component_sequence": "9",
+          "component_id": "2075318"
+        },
+        {
+          "achievement_id": "2075310",
+          "component_type": "1",
+          "component_sequence": "10",
+          "component_id": "2075319"
+        },
+        {
+          "achievement_id": "2075310",
+          "component_type": "1",
+          "component_sequence": "11",
+          "component_id": "2075320"
+        }
+      ],
+      "column": "enabled",
+      "before": 0,
+      "after": 1,
+      "expected_count": 11
+    },
+    {
+      "table": "tradeskill_recipe",
+      "keys": [
+        "id"
+      ],
+      "rows": [
+        {
+          "id": "3040485"
+        }
+      ],
+      "column": "enabled",
+      "before": 0,
+      "after": 1,
+      "expected_count": 1
+    }
+  ],
+  "parent_decision": {
+    "2075310": "enabled0->1",
+    "2075325": "enabled1->0",
+    "other_parent_fields": "Preserved, including has_reward=1 for both."
+  },
+  "prior_partisan": "Tasks3040474..3040476 and all their reward/criteria flags remain disabled.",
+  "required_external_dependencies": "Matching installed quest scripts, five controlled Lua data overlays and runtime/cache handling owned by Build."
+}
