@@ -1,0 +1,378 @@
+{
+  "batch": "RRC174",
+  "branch": "rof2-tradeskills",
+  "status": "SOURCE_PROPOSAL_NOT_APPLIED_LABELLED_RECONSTRUCTION",
+  "proposed_ids": [
+    3096160,
+    3096161
+  ],
+  "counts": {
+    "recipes": 2,
+    "entries": 13,
+    "item_dependencies": 10,
+    "unchanged_prototype_recipes": 0,
+    "unchanged_prototype_entries": 0
+  },
+  "recipes": [
+    {
+      "id": 3096160,
+      "name": "Repeating Crossbow Bolts (Tinkering)",
+      "tradeskill": 57,
+      "skillneeded": 0,
+      "trivial": 335,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary finite weapon reconstruction; RRC174.",
+      "must_learn": 1,
+      "learned_by_item_id": 81108,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 19,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3096161,
+      "name": "Repeating Crossbow Bolts (Fletching)",
+      "tradeskill": 64,
+      "skillneeded": 300,
+      "trivial": 335,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary finite weapon reconstruction; RRC174.",
+      "must_learn": 1,
+      "learned_by_item_id": 81108,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 19,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    }
+  ],
+  "entries": [
+    {
+      "recipe_id": 3096160,
+      "item_id": 8057,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096160,
+      "item_id": 8063,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096160,
+      "item_id": 81120,
+      "successcount": 10,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096160,
+      "item_id": 81131,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096160,
+      "item_id": 17276,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3096160,
+      "item_id": 17877,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3096161,
+      "item_id": 8057,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096161,
+      "item_id": 8063,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096161,
+      "item_id": 81120,
+      "successcount": 10,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096161,
+      "item_id": 81131,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096161,
+      "item_id": 17189,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3096161,
+      "item_id": 17762,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3096161,
+      "item_id": 17910,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    }
+  ],
+  "item_dependencies": [
+    {
+      "id": 8057,
+      "name": "Silver Tipped Arrowheads"
+    },
+    {
+      "id": 8063,
+      "name": "Bundled Steel Arrow Shafts"
+    },
+    {
+      "id": 17189,
+      "name": "Collapsible Fletching Kit"
+    },
+    {
+      "id": 17276,
+      "name": "Collapsible Toolbox"
+    },
+    {
+      "id": 17762,
+      "name": "Planar Fletching Kit"
+    },
+    {
+      "id": 17877,
+      "name": "Deluxe Toolbox"
+    },
+    {
+      "id": 17910,
+      "name": "Fletching Kit"
+    },
+    {
+      "id": 81108,
+      "name": "Merchant Alliance Tradebook"
+    },
+    {
+      "id": 81120,
+      "name": "Repeating Crossbow Bolts"
+    },
+    {
+      "id": 81131,
+      "name": "Fine Feathers"
+    }
+  ],
+  "unchanged_prototype_recipes": [],
+  "unchanged_prototype_entries": [],
+  "source_facts": [
+    {
+      "recipe_id": 3096160,
+      "source_name": "Repeating Crossbow Bolts",
+      "source_view_id": 2188,
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=566&rsa=Tinkering&sub=ROF",
+      "source_formula": "Components: Bundled Steel Arrow Shafts, Fine Feathers, Silver Tipped Arrowheads\nIn: Deluxe Toolbox, Collapsible Toolbox, Tinkering Table (Placeable), Guild Tinkering Table\nYield: 10\nThis combine may only be made by Gnomes\nNotes: Must scribe to learn: Merchant Alliance Tradebook",
+      "source_catalogue_sha256": "f09bce6f81826bc28bca94547171f29ada8a484a632fbce3257dce7b00ec5651",
+      "output_item_id": 81120,
+      "yield_count": 10,
+      "trivial": 335,
+      "ingredients": [
+        {
+          "item_id": 8057,
+          "name": "Silver Tipped Arrowheads",
+          "count": 1
+        },
+        {
+          "item_id": 8063,
+          "name": "Bundled Steel Arrow Shafts",
+          "count": 1
+        },
+        {
+          "item_id": 81131,
+          "name": "Fine Feathers",
+          "count": 1
+        }
+      ],
+      "success_roles": {
+        "81120": 10
+      },
+      "failure_roles": {},
+      "container_item_ids": [
+        17276,
+        17877
+      ],
+      "held_source_stations": [
+        {
+          "name": "Tinkering Table (Placeable)",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34406",
+          "reason": "Racial/named/world/furniture station not separately qualified"
+        },
+        {
+          "name": "Guild Tinkering Table",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=38427",
+          "reason": "Racial/named/world/furniture station not separately qualified"
+        }
+      ],
+      "min_expansion": 19,
+      "skillneeded": 0,
+      "must_learn": 1,
+      "learned_by_item_id": 81108,
+      "source_minimum_explicit": false,
+      "source_book_explicit": true,
+      "learning_origin": "EXPLICIT_BOOK81108_MIN300_FLETCH_EXPLICIT_MIN0_TINKER_OMISSION_POLICY",
+      "era_origin": "REUSED_ACCEPTED_MAINTAINED_VOA18_ROF19_FAMILY_POLICY_NOT_EXACT_INTRODUCTION",
+      "May2013_exact_fields_verified": false,
+      "identity_assurance": "ALL_REFERENCES_EXPLICIT_PRIMARY_IDS",
+      "identity_profile_qualification": null
+    },
+    {
+      "recipe_id": 3096161,
+      "source_name": "Repeating Crossbow Bolts",
+      "source_view_id": 686,
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=562&rsa=Fletching&sub=ROF",
+      "source_formula": "Components: Bundled Steel Arrow Shafts, Fine Feathers, Silver Tipped Arrowheads\nIn: Fletching Kit, Planar Fletching Kit, Collapsible Fletching Kit, Feir`Dal Fletching Kit, Surefall Fletching Kit, Fletching Table (Placeable), Fletching Table, Guild Fletching Table\nYield: 10\nRequired Skill Level: 300\nNotes: Must scribe to learn: Merchant Alliance Tradebook",
+      "source_catalogue_sha256": "7a07742102430664dbc21764380b5089d1f203724b214f675c6e72629f074c50",
+      "output_item_id": 81120,
+      "yield_count": 10,
+      "trivial": 335,
+      "ingredients": [
+        {
+          "item_id": 8057,
+          "name": "Silver Tipped Arrowheads",
+          "count": 1
+        },
+        {
+          "item_id": 8063,
+          "name": "Bundled Steel Arrow Shafts",
+          "count": 1
+        },
+        {
+          "item_id": 81131,
+          "name": "Fine Feathers",
+          "count": 1
+        }
+      ],
+      "success_roles": {
+        "81120": 10
+      },
+      "failure_roles": {},
+      "container_item_ids": [
+        17189,
+        17762,
+        17910
+      ],
+      "held_source_stations": [
+        {
+          "name": "Feir`Dal Fletching Kit",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=7858",
+          "reason": "Racial/named/world/furniture station not separately qualified"
+        },
+        {
+          "name": "Surefall Fletching Kit",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=9604",
+          "reason": "Racial/named/world/furniture station not separately qualified"
+        },
+        {
+          "name": "Fletching Table (Placeable)",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34388",
+          "reason": "Racial/named/world/furniture station not separately qualified"
+        },
+        {
+          "name": "Fletching Table",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34483",
+          "reason": "Racial/named/world/furniture station not separately qualified"
+        },
+        {
+          "name": "Guild Fletching Table",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=38416",
+          "reason": "Racial/named/world/furniture station not separately qualified"
+        }
+      ],
+      "min_expansion": 19,
+      "skillneeded": 300,
+      "must_learn": 1,
+      "learned_by_item_id": 81108,
+      "source_minimum_explicit": true,
+      "source_book_explicit": true,
+      "learning_origin": "EXPLICIT_BOOK81108_MIN300_FLETCH_EXPLICIT_MIN0_TINKER_OMISSION_POLICY",
+      "era_origin": "REUSED_ACCEPTED_MAINTAINED_VOA18_ROF19_FAMILY_POLICY_NOT_EXACT_INTRODUCTION",
+      "May2013_exact_fields_verified": false,
+      "identity_assurance": "ALL_REFERENCES_EXPLICIT_PRIMARY_IDS",
+      "identity_profile_qualification": null
+    }
+  ],
+  "restriction_review": {
+    "scope": "18Transcendent Vicious JC symbols:17newlycorroboratedidentity+1alreadyexplicitmatchingJudgmentcontrol;45profilemismatches held, including2otherexplicitJudgmentcontrols. Or2RepeatingCrossbowBolts skill routes, samefull3inputs/output81120yield10.",
+    "identity": "JC17unique native names plus complete OBSERVED primary profile and effect names match exactly; omitted labels remain unknown. Corroborated identity, not direct EQ item ID or historical2013 stat proof. Full source profile and native field guards retained; no item normalization. Crossbow all roles direct primary IDs.",
+    "learning": "JC mandatory book135564 Transcendent Weapon Augmenting/min300 is coordinatoraccepted authored-native-family POLICY; source omits both. RoF19 source context bounds era, not bookIDalone. Crossbow source explicit mandatory81108 in BOTH views;Fletch minimum300explicit,Tinker sourceomission minimum0policy. No-fail0/quest0/enabled1 and consumed salvage=component new-record conventions.",
+    "quantities": "JC physical yield1 plus Half-Moon Cut Tool component/success/failure return. Crossbow literal yield10 selected by coordinator from BOTH skill formula views;nativebook81108 prose100 remains explicit unresolved historical discrepancy, not rewritten or claimed exact historical quantity.",
+    "containers": "JC exact positive Planar17764/Collapsible17187/Reinforced62480 bag20 only. Fletch17910/17762/17189 bag18;Tinker17877/17276 bag10. Actual effective container types and IDs disjoint; each view actual sizes/capacity. Other racial/named/world/furniture links held. Native existing Tinkering actor gate supplies Gnome restriction, no book/kitmask substitute.",
+    "partner_exception": "RRC174ONLY atomic new3096160Tinkering/3096161Fletching exactsame fullinputsignature andoutput81120yield10. All-state current lookup found no existing route. Inputguard excludes exactlyown identified partner; inherited exact full2recipe/completeentry staging+pre/postimage guards protect knownpartnerstate; partialpreexisting packet refused. Every third input collision rejected. No global guard weakening. RRC173 retains ordinary collisionguards.",
+    "preservation": "No existing recipes/items/player/quest mutation. NewIDs/fullinput signatures/output-use universe/dependencies/booktext hashes/rowdeltas/fullpostimages/learnedrefs rollback guarded. Most native dependency fields freshly read; matching identity profile fields reused from immediately preceding bounded closed profile receipt.",
+    "execution": "Source proposal only, publication plus separate exact SQLGO required. No builds/runtime/native combines. Research160,45statmismatches,other charged/era/probability/sourceholds retained;all recipe scope incomplete."
+  },
+  "source_urls": [
+    "https://www.eqtraders.com/recipes/recipe_page.php?article=562&rsa=Fletching&sub=ROF",
+    "https://www.eqtraders.com/recipes/recipe_page.php?article=566&rsa=Tinkering&sub=ROF"
+  ],
+  "supplemental_primary_identity_sources": [],
+  "native_authored_context": [
+    {
+      "item_id": 81108,
+      "name": "Merchant Alliance Tradebook",
+      "filename": "TSQMATradebook",
+      "text_sha256": "efdd1ec66b883d1133aec1c25be242b07d8b6f1073c96f51509985074b986a1e"
+    }
+  ],
+  "migration_dependencies": [],
+  "held_source_rows": []
+}
