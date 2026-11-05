@@ -1,0 +1,64 @@
+{
+  "format_version": 1,
+  "batches": [
+    "RRC190",
+    "RRC191"
+  ],
+  "source_commit": "51e2d01c2f65e2f6c0930647e806a7d5a8ad0523",
+  "package_manifest_sha256": "cbe627bd1d6a623e05cca0df3a01658d2dbf2a55fb511017257f823633d03623",
+  "application_status": "APPLIED_VERIFIED",
+  "recipes_added": 48,
+  "entries_added": 306,
+  "global_actual_counts": {
+    "recipes": 28021,
+    "entries": 213638
+  },
+  "TS_cumulative_added_current": {
+    "recipes": 5197,
+    "entries": 36013
+  },
+  "cumulative_basis": "Prior5149/35707 actual after189 plus48/306.",
+  "new_recipe_batches": 144,
+  "historical_qualification": {
+    "RRC190": {
+      "scope": "24 source views:6 Cloudy-orb and18 Misty-orb forming/firing bodies. All29 previous unresolved item identities have primary EQ item IDs and exact titles:27 newly observed,2 prior observations reused with pinned provenance. Literal numeric trivials/fullquantities/returns retained.",
+      "quantities": "Everyformingbody yieldsONE unfired orb. Cloudyfiring yieldsFOUR physical sealedunits; Mistyfiring yieldsTHREE. Eachselectedsealedprimaryprofile explicitly hasCharges1 andStackable20; native maxcharges1/stackable1/stacksize>=literalquantity guarded. Successcount3/4 is physicalstackquantity, not initialclickcharges in one nonstackable object. Nonstackablechargeholds unchanged; no quantity default or normalization.",
+      "native_semantics": "Read-only current source inspection:tradeskillonsuccess passesitscount toSummonItem; positivecount isretained;stackableinventorycounts treatinstancecharges as physicalstackquantity;MaxChargesdefault applies only to omitted -1. Static source evidence only, NOT newbuild/nativecombine/activation acceptance.",
+      "gates": "Source omits mandatorylearning/minimum/actor/questgates;ordinaryskillneeded0/must_learn0/book0/no-fail0/quest0/enabled1/consumedsalvage acceptedlabelledpolicies. Sealed itemlevel65Cloudy/70Misty/effectActivatePowerSource/classNONE/raceNONE describeUSE metadata, notnewmanufacturinggates. Existingitemfields unchanged; no actorpolicy inferred from masks.",
+      "book_context": "Retainednative FurtherEnergeiacDiscoveries41241/TSSku16Pottery describesCloudyClearMana andMistyDistilledMana/clay/essence/forming/firing context. Book iscontextonly/type31, not a learned/carried/consumed dependency. ItsPureOrbSolterisrestrictionconcernsUSE and explicitly permitsmanufacturewithouttasks; no suchgate extrapolatedtoCloudy/Misty. No source/bookrewrite or unseal/nativeuse claim.",
+      "era": "Positive maintainedSoD15Pottery family/manufacturingcontext with authoredEnergeiac context; configuredfloor15/max-1reconstructionpolicy, notimmutableMay2013perfield/introductionproof. No modernResearch160book/Compendiumsubstitution.",
+      "containers": "Eachview positiveordinaryWheel8 orKiln9 only. Fullsourcequantitiesfit10units;all selected fullinputs fit their source genericcontainer. Tanaan/placeable/guildstationlinksheld, no availabilityinferred.",
+      "preservation": "41 nativeitemdependencies/newIDs/currentallstatefullinputs/output-useuniverse/names/fullpostimages/deltas/learnedrefs guarded. Existingrecipes/items/player/quest/core unchanged. Priorimmutable fields reused where captured;only missingitemrowsfreshlyread, allfields remainapplyguards.",
+      "execution": "Sourceproposalonly,accepted physical-stack quantity semantics/publication/separateexactSQLGO. Allreaders/researchtabclosed;noSQLwrites/tests/build/runtime/nativecombines/activationacceptance. Othercharged/era/actor/sourceholds retained;fullrecipescopeincomplete."
+    },
+    "RRC191": {
+      "scope": "24 source views:8 Misty-orb and16 Pure-orb forming/firing bodies. All28 previous unresolved item identities have primary EQ item IDs and exact titles:25 newly observed,3 prior observations reused with pinned provenance. Literal numeric trivials/fullquantities/returns retained.",
+      "quantities": "Everyformingbody yieldsONE unfired orb. Mistyfiring yieldsTHREE physical sealedunits; Purefiring yieldsONE. Eachselectedsealedprimaryprofile explicitly hasCharges1 andStackable20; native maxcharges1/stackable1/stacksize>=literalquantity guarded. Successcount1/3 is physicalstackquantity, not initialclickcharges in one nonstackable object. Nonstackablechargeholds unchanged; no quantity default or normalization.",
+      "native_semantics": "Read-only current source inspection:tradeskillonsuccess passesitscount toSummonItem; positivecount isretained;stackableinventorycounts treatinstancecharges as physicalstackquantity;MaxChargesdefault applies only to omitted -1. Static source evidence only, NOT newbuild/nativecombine/activation acceptance.",
+      "gates": "Source omits mandatorylearning/minimum/actor/questgates;ordinaryskillneeded0/must_learn0/book0/no-fail0/quest0/enabled1/consumedsalvage acceptedlabelledpolicies. Sealed itemlevel70Misty/75Pure/effectActivatePowerSource/classNONE/raceNONE describeUSE metadata, notnewmanufacturinggates. Existingitemfields unchanged; no actorpolicy inferred from masks.",
+      "book_context": "Retainednative FurtherEnergeiacDiscoveries41241/TSSku16Pottery describesMistyDistilledMana andPurePurifiedMana/Ruby/ChronalResonanceDust/clay/essence/forming/firing context. Book iscontextonly/type31, not a learned/carried/consumed dependency. ItsPureOrbSolterisrestrictionconcernsUNSEAL/USE and explicitly permitsmanufacturewithouttasks. That use restriction is retained; no task/questflag/craftinggate is invented or removed. Activation/nativeuse remainsUNVERIFIED. No source/bookrewrite or unseal/nativeuse claim.",
+      "era": "Positive maintainedSoD15Pottery family/manufacturingcontext with authoredEnergeiac context; configuredfloor15/max-1reconstructionpolicy, notimmutableMay2013perfield/introductionproof. No modernResearch160book/Compendiumsubstitution.",
+      "containers": "Eachview positiveordinaryWheel8 orKiln9 only. Fullsourcequantitiesfit10units;all selected fullinputs fit their source genericcontainer. Tanaan/placeable/guildstationlinksheld, no availabilityinferred.",
+      "preservation": "41 nativeitemdependencies/newIDs/currentallstatefullinputs/output-useuniverse/names/fullpostimages/deltas/learnedrefs guarded. Existingrecipes/items/player/quest/core unchanged. Priorimmutable fields reused where captured;only missingitemrowsfreshlyread, allfields remainapplyguards.",
+      "execution": "Sourceproposalonly,accepted physical-stack quantity semantics/publication/separateexactSQLGO. Allreaders/researchtabclosed;noSQLwrites/tests/build/runtime/nativecombines/activationacceptance. Othercharged/era/actor/sourceholds retained;fullrecipescopeincomplete."
+    }
+  },
+  "held_batches": [
+    "RRC014",
+    "RRC160"
+  ],
+  "all_scope_complete": false,
+  "separate_Xorbb_recipe_excluded": {
+    "recipes": 1,
+    "entries": 6
+  },
+  "prior_locally_confirmed_published_normal_SQL_source_paths": 616,
+  "earlier_pending_normal_SQL_source_paths": 0,
+  "new_normal_SQL_source_paths": 4,
+  "normal_SQL_source_paths_after_all_pending_publications": 620,
+  "SQL_path_count_meaning": "Source paths, not application count.",
+  "history_archives_preserved": true,
+  "QA39999_production_exclusion_retained": true,
+  "assembly": "No SQL/query/replay/tests/runtime/receipt-only publication.",
+  "source_documents": "Exact source files retained verbatim; preparation-time labels historical; actual application confirmed separately in per-batch summaries."
+}
