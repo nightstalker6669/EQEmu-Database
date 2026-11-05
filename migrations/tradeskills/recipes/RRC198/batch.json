@@ -1,0 +1,771 @@
+{
+  "batch": "RRC198",
+  "branch": "rof2-tradeskills",
+  "status": "SOURCE_PROPOSAL_NOT_APPLIED_LABELLED_RECONSTRUCTION",
+  "proposed_ids": [
+    3096585,
+    3096588
+  ],
+  "counts": {
+    "recipes": 4,
+    "entries": 27,
+    "item_dependencies": 18,
+    "unchanged_prototype_recipes": 0,
+    "unchanged_prototype_entries": 0
+  },
+  "recipes": [
+    {
+      "id": 3096585,
+      "name": "Nail Gut",
+      "tradeskill": 65,
+      "skillneeded": 0,
+      "trivial": 335,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary RoF Brewing reconstruction; RRC198.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 19,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3096586,
+      "name": "Goblin Eye Special",
+      "tradeskill": 65,
+      "skillneeded": 300,
+      "trivial": 302,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary RoF Brewing reconstruction; RRC198.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 19,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3096587,
+      "name": "Spiced Sewer Ale",
+      "tradeskill": 65,
+      "skillneeded": 0,
+      "trivial": 328,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary RoF Brewing reconstruction; RRC198.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 19,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3096588,
+      "name": "Liquid Death",
+      "tradeskill": 65,
+      "skillneeded": 0,
+      "trivial": 368,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary RoF Brewing reconstruction; RRC198.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 19,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    }
+  ],
+  "entries": [
+    {
+      "recipe_id": 3096585,
+      "item_id": 13006,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096585,
+      "item_id": 16590,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096585,
+      "item_id": 22133,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 3,
+      "salvagecount": 3,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096585,
+      "item_id": 59862,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096585,
+      "item_id": 79477,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096585,
+      "item_id": 19,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3096586,
+      "item_id": 13006,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096586,
+      "item_id": 13038,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096586,
+      "item_id": 13040,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096586,
+      "item_id": 27652,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096586,
+      "item_id": 79478,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096586,
+      "item_id": 19,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3096587,
+      "item_id": 13006,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096587,
+      "item_id": 13101,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096587,
+      "item_id": 16590,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096587,
+      "item_id": 16595,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096587,
+      "item_id": 71192,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096587,
+      "item_id": 76336,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096587,
+      "item_id": 79479,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096587,
+      "item_id": 19,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3096588,
+      "item_id": 13006,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096588,
+      "item_id": 16590,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096588,
+      "item_id": 46979,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096588,
+      "item_id": 64546,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096588,
+      "item_id": 76322,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096588,
+      "item_id": 79480,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096588,
+      "item_id": 19,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    }
+  ],
+  "item_dependencies": [
+    {
+      "id": 13006,
+      "name": "Water Flask"
+    },
+    {
+      "id": 13038,
+      "name": "Ogre Swill"
+    },
+    {
+      "id": 13040,
+      "name": "Fish Wine"
+    },
+    {
+      "id": 13101,
+      "name": "Fishing Bait"
+    },
+    {
+      "id": 16590,
+      "name": "Barley"
+    },
+    {
+      "id": 16595,
+      "name": "Malt"
+    },
+    {
+      "id": 22133,
+      "name": "Jar of Acid"
+    },
+    {
+      "id": 27652,
+      "name": "Goblin Parts"
+    },
+    {
+      "id": 46979,
+      "name": "Dream Dust"
+    },
+    {
+      "id": 59862,
+      "name": "Filthy Ape Liver"
+    },
+    {
+      "id": 64546,
+      "name": "Essence of Alaris"
+    },
+    {
+      "id": 71192,
+      "name": "Strip of Swinetor Flesh"
+    },
+    {
+      "id": 76322,
+      "name": "Planar Energy Shard"
+    },
+    {
+      "id": 76336,
+      "name": "Planar Goo"
+    },
+    {
+      "id": 79477,
+      "name": "Nail Gut"
+    },
+    {
+      "id": 79478,
+      "name": "Goblin Eye Special"
+    },
+    {
+      "id": 79479,
+      "name": "Spiced Sewer Ale"
+    },
+    {
+      "id": 79480,
+      "name": "Liquid Death"
+    }
+  ],
+  "unchanged_prototype_recipes": [],
+  "unchanged_prototype_entries": [],
+  "source_facts": [
+    {
+      "recipe_id": 3096585,
+      "source_name": "Nail Gut",
+      "source_view_id": 656,
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=561&rsa=Brewing&sub=ROF",
+      "source_formula": "Components: Barley, Filthy Ape Liver, Jar of Acid (3), Water Flask\nIn: Brew Barrel, Tanaan Brew Barrel, Brewing Barrel (Placeable), Guild Brewing Barrel\nYield: 1\nNotes: EQRecipeID: 4953",
+      "source_catalogue_sha256": "1a4471a19af09022d34321bb9e206e202a0204d073aa23da99c9657feb0ee702",
+      "output_item_id": 79477,
+      "yield_count": 1,
+      "trivial": 335,
+      "ingredients": [
+        {
+          "item_id": 13006,
+          "name": "Water Flask",
+          "count": 1
+        },
+        {
+          "item_id": 16590,
+          "name": "Barley",
+          "count": 1
+        },
+        {
+          "item_id": 22133,
+          "name": "Jar of Acid",
+          "count": 3
+        },
+        {
+          "item_id": 59862,
+          "name": "Filthy Ape Liver",
+          "count": 1
+        }
+      ],
+      "success_roles": {
+        "79477": 1
+      },
+      "failure_roles": {},
+      "container_item_ids": [
+        19
+      ],
+      "held_source_stations": [
+        {
+          "name": "Tanaan Brew Barrel",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=5497",
+          "reason": "Named/furniture/guild station not separately qualified"
+        },
+        {
+          "name": "Brewing Barrel (Placeable)",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34384",
+          "reason": "Named/furniture/guild station not separately qualified"
+        },
+        {
+          "name": "Guild Brewing Barrel",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=38415",
+          "reason": "Named/furniture/guild station not separately qualified"
+        }
+      ],
+      "min_expansion": 19,
+      "skillneeded": 0,
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "learning_origin": "ORDINARY_ZERO_POLICY_SOURCE_OMITS_MANDATORY_BOOK_MINIMUM",
+      "era_origin": "MAINTAINED_ROF19_FAMILY_POLICY_NOT_EXACT_INTRODUCTION",
+      "May2013_exact_fields_verified": false,
+      "identity_assurance": "ALL_NATIVE_ITEM_REFERENCES_PRIMARY_EQ_ITEM_ID_AUTHENTICATED",
+      "unlinked_named_output_qualification": null
+    },
+    {
+      "recipe_id": 3096586,
+      "source_name": "Goblin Eye Special",
+      "source_view_id": 653,
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=561&rsa=Brewing&sub=ROF",
+      "source_formula": "Components: Fish Wine, Goblin Parts, Ogre Swill, Water Flask\nIn: Brew Barrel, Tanaan Brew Barrel, Brewing Barrel (Placeable), Guild Brewing Barrel, Brewing Barrel\nYield: 1\nRequired Skill Level: 300\nNotes: EQRecipeID: 4954\nQuest: Coldain Shawl 3.0 #2 - Intoxicating Bribes\nThis recipe requires a modified skill of 300 in order to attempt.",
+      "source_catalogue_sha256": "1a4471a19af09022d34321bb9e206e202a0204d073aa23da99c9657feb0ee702",
+      "output_item_id": 79478,
+      "yield_count": 1,
+      "trivial": 302,
+      "ingredients": [
+        {
+          "item_id": 13006,
+          "name": "Water Flask",
+          "count": 1
+        },
+        {
+          "item_id": 13038,
+          "name": "Ogre Swill",
+          "count": 1
+        },
+        {
+          "item_id": 13040,
+          "name": "Fish Wine",
+          "count": 1
+        },
+        {
+          "item_id": 27652,
+          "name": "Goblin Parts",
+          "count": 1
+        }
+      ],
+      "success_roles": {
+        "79478": 1
+      },
+      "failure_roles": {},
+      "container_item_ids": [
+        19
+      ],
+      "held_source_stations": [
+        {
+          "name": "Tanaan Brew Barrel",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=5497",
+          "reason": "Named/furniture/guild station not separately qualified"
+        },
+        {
+          "name": "Brewing Barrel (Placeable)",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34384",
+          "reason": "Named/furniture/guild station not separately qualified"
+        },
+        {
+          "name": "Guild Brewing Barrel",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=38415",
+          "reason": "Named/furniture/guild station not separately qualified"
+        },
+        {
+          "name": "Brewing Barrel",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=40974",
+          "reason": "Named/furniture/guild station not separately qualified"
+        }
+      ],
+      "min_expansion": 19,
+      "skillneeded": 300,
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "learning_origin": "EXPLICIT_MODIFIED_SKILL_300_NATIVE_GETSKILL_MAPPING",
+      "era_origin": "MAINTAINED_ROF19_FAMILY_POLICY_NOT_EXACT_INTRODUCTION",
+      "May2013_exact_fields_verified": false,
+      "identity_assurance": "ALL_NATIVE_ITEM_REFERENCES_PRIMARY_EQ_ITEM_ID_AUTHENTICATED",
+      "unlinked_named_output_qualification": null
+    },
+    {
+      "recipe_id": 3096587,
+      "source_name": "Spiced Sewer Ale",
+      "source_view_id": 664,
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=561&rsa=Brewing&sub=ROF",
+      "source_formula": "Components: Barley, Fishing Bait, Malt, Planar Goo, Strip of Swinetor Flesh, Water Flask\nIn: Brew Barrel, Tanaan Brew Barrel, Brewing Barrel (Placeable), Guild Brewing Barrel\nYield: 1\nNotes: EQRecipeID: 4955",
+      "source_catalogue_sha256": "1a4471a19af09022d34321bb9e206e202a0204d073aa23da99c9657feb0ee702",
+      "output_item_id": 79479,
+      "yield_count": 1,
+      "trivial": 328,
+      "ingredients": [
+        {
+          "item_id": 13006,
+          "name": "Water Flask",
+          "count": 1
+        },
+        {
+          "item_id": 13101,
+          "name": "Fishing Bait",
+          "count": 1
+        },
+        {
+          "item_id": 16590,
+          "name": "Barley",
+          "count": 1
+        },
+        {
+          "item_id": 16595,
+          "name": "Malt",
+          "count": 1
+        },
+        {
+          "item_id": 71192,
+          "name": "Strip of Swinetor Flesh",
+          "count": 1
+        },
+        {
+          "item_id": 76336,
+          "name": "Planar Goo",
+          "count": 1
+        }
+      ],
+      "success_roles": {
+        "79479": 1
+      },
+      "failure_roles": {},
+      "container_item_ids": [
+        19
+      ],
+      "held_source_stations": [
+        {
+          "name": "Tanaan Brew Barrel",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=5497",
+          "reason": "Named/furniture/guild station not separately qualified"
+        },
+        {
+          "name": "Brewing Barrel (Placeable)",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34384",
+          "reason": "Named/furniture/guild station not separately qualified"
+        },
+        {
+          "name": "Guild Brewing Barrel",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=38415",
+          "reason": "Named/furniture/guild station not separately qualified"
+        }
+      ],
+      "min_expansion": 19,
+      "skillneeded": 0,
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "learning_origin": "ORDINARY_ZERO_POLICY_SOURCE_OMITS_MANDATORY_BOOK_MINIMUM",
+      "era_origin": "MAINTAINED_ROF19_FAMILY_POLICY_NOT_EXACT_INTRODUCTION",
+      "May2013_exact_fields_verified": false,
+      "identity_assurance": "ALL_NATIVE_ITEM_REFERENCES_PRIMARY_EQ_ITEM_ID_AUTHENTICATED",
+      "unlinked_named_output_qualification": null
+    },
+    {
+      "recipe_id": 3096588,
+      "source_name": "Liquid Death",
+      "source_view_id": 654,
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=561&rsa=Brewing&sub=ROF",
+      "source_formula": "Components: Barley, Dream Dust, Essence of Alaris, Planar Energy Shard, Water Flask\nIn: Brew Barrel, Tanaan Brew Barrel, Brewing Barrel (Placeable), Guild Brewing Barrel\nYield: 1\nNotes: EQRecipeID: 4956",
+      "source_catalogue_sha256": "1a4471a19af09022d34321bb9e206e202a0204d073aa23da99c9657feb0ee702",
+      "output_item_id": 79480,
+      "yield_count": 1,
+      "trivial": 368,
+      "ingredients": [
+        {
+          "item_id": 13006,
+          "name": "Water Flask",
+          "count": 1
+        },
+        {
+          "item_id": 16590,
+          "name": "Barley",
+          "count": 1
+        },
+        {
+          "item_id": 46979,
+          "name": "Dream Dust",
+          "count": 1
+        },
+        {
+          "item_id": 64546,
+          "name": "Essence of Alaris",
+          "count": 1
+        },
+        {
+          "item_id": 76322,
+          "name": "Planar Energy Shard",
+          "count": 1
+        }
+      ],
+      "success_roles": {
+        "79480": 1
+      },
+      "failure_roles": {},
+      "container_item_ids": [
+        19
+      ],
+      "held_source_stations": [
+        {
+          "name": "Tanaan Brew Barrel",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=5497",
+          "reason": "Named/furniture/guild station not separately qualified"
+        },
+        {
+          "name": "Brewing Barrel (Placeable)",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34384",
+          "reason": "Named/furniture/guild station not separately qualified"
+        },
+        {
+          "name": "Guild Brewing Barrel",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=38415",
+          "reason": "Named/furniture/guild station not separately qualified"
+        }
+      ],
+      "min_expansion": 19,
+      "skillneeded": 0,
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "learning_origin": "ORDINARY_ZERO_POLICY_SOURCE_OMITS_MANDATORY_BOOK_MINIMUM",
+      "era_origin": "MAINTAINED_ROF19_FAMILY_POLICY_NOT_EXACT_INTRODUCTION",
+      "May2013_exact_fields_verified": false,
+      "identity_assurance": "ALL_NATIVE_ITEM_REFERENCES_PRIMARY_EQ_ITEM_ID_AUTHENTICATED",
+      "unlinked_named_output_qualification": null
+    }
+  ],
+  "restriction_review": {
+    "scope": "Four existing retained RoF Brewing candidates: Goblin Eye Special, Liquid Death, Nail Gut, Spiced Sewer Ale. Nine previous name-only item identities directly authenticated by exact primary titles and EQ item IDs. These are all four unresolved name-candidate groups in the retained RoF Brewing listing, not a claim that all Brewing work is complete.",
+    "identity": "Chrome rendered all9 observed primary links. Every candidate EQ ID matched. Source numeric trivial/yield fields match selected bodies. Exact native item fields retained, no stack/stat normalization.",
+    "quantities": "Every selected recipe yields one uncharged physical drink. Nail Gut retains3 Jars of Acid; remaining exact input counts preserved, all full units fit ten. Repeated inputs guarded against actual native stack fields. No tool returns or coproducts invented.",
+    "era": "Positive maintained RoF19 Brewing manufacturing family. Floor19/max-1 labelled reconstruction, not immutable May2013 per-field or exact introduction proof. Ingredients are the literal retained source formula; no modern fortified-material substitution.",
+    "skill_gate": "Goblin Eye Special explicitly requires a MODIFIED skill of300. Its native skillneeded field is300, not0. Static inspection of current source confirms both normal and auto-combine gates call Client::GetSkill, whose implementation includes item skill modifiers and caps. This implements the stated threshold without changing core. Static source mapping only; no build/runtime/native-combine acceptance claim. Other3 source bodies omit a minimum and use labelled ordinary0 policy.",
+    "quest_context": "Goblin Eye Special source explicitly associates Coldain Shawl3.0 number2 Intoxicating Bribes. This is preserved as quest-use context; source does not state an additional actor/task prerequisite to manufacture. Native quest0 preserves normal manufactured output and does not claim quest credit or task availability. No quest/player/core edits.",
+    "learning": "Sources omit mandatory learning/book gates; must_learn0/book0/nofail0/enabled1 and consumed-salvage are labelled ordinary new-record policies. Existing item restrictions unchanged.",
+    "containers": "Each source explicitly permits ordinary Brew Barrel world-container type19. Tanaan, placeable, guild and unspecified Brewing Barrel links held separately; full source input quantities fit ten. No world access, population or supply inferred.",
+    "preservation": "18 exact native item dependencies guarded,16 fresh/2 pinned reused. All4 retained queue signatures checked with necessary current all-state/all-skill full-input/name/output-use queries: zero peers/matches. New IDs, exact full postimages, deltas and learned refs guarded; existing recipe/item/player/core unchanged.",
+    "execution": "Source proposal only pending publication and separate exact coordinator SQL GO. Reader/research tab closed. No tests/build/runtime/nativecombines or quest acceptance. All prior source/era/identity/actor/charge holds retained; full scope incomplete."
+  },
+  "source_urls": [
+    "https://www.eqtraders.com/recipes/recipe_page.php?article=561&rsa=Brewing&sub=ROF"
+  ],
+  "supplemental_primary_identity_sources": [
+    {
+      "source_url": "https://www.eqtraders.com/items/show_item.php?item=40405",
+      "source_item_id": 40405,
+      "explicit_EQ_item_ID": 79478,
+      "observed_primary_title": "EQTC - Item: Goblin Eye Special"
+    },
+    {
+      "source_url": "https://www.eqtraders.com/items/show_item.php?item=1526",
+      "source_item_id": 1526,
+      "explicit_EQ_item_ID": 13040,
+      "observed_primary_title": "EQTC - Item: Fish Wine"
+    },
+    {
+      "source_url": "https://www.eqtraders.com/items/show_item.php?item=32016",
+      "source_item_id": 32016,
+      "explicit_EQ_item_ID": 27652,
+      "observed_primary_title": "EQTC - Item: Goblin Parts"
+    },
+    {
+      "source_url": "https://www.eqtraders.com/items/show_item.php?item=1519",
+      "source_item_id": 1519,
+      "explicit_EQ_item_ID": 13038,
+      "observed_primary_title": "EQTC - Item: Ogre Swill"
+    },
+    {
+      "source_url": "https://www.eqtraders.com/items/show_item.php?item=40404",
+      "source_item_id": 40404,
+      "explicit_EQ_item_ID": 79480,
+      "observed_primary_title": "EQTC - Item: Liquid Death"
+    },
+    {
+      "source_url": "https://www.eqtraders.com/items/show_item.php?item=40407",
+      "source_item_id": 40407,
+      "explicit_EQ_item_ID": 79477,
+      "observed_primary_title": "EQTC - Item: Nail Gut"
+    },
+    {
+      "source_url": "https://www.eqtraders.com/items/show_item.php?item=40414",
+      "source_item_id": 40414,
+      "explicit_EQ_item_ID": 59862,
+      "observed_primary_title": "EQTC - Item: Filthy Ape Liver"
+    },
+    {
+      "source_url": "https://www.eqtraders.com/items/show_item.php?item=40406",
+      "source_item_id": 40406,
+      "explicit_EQ_item_ID": 79479,
+      "observed_primary_title": "EQTC - Item: Spiced Sewer Ale"
+    },
+    {
+      "source_url": "https://www.eqtraders.com/items/show_item.php?item=40415",
+      "source_item_id": 40415,
+      "explicit_EQ_item_ID": 71192,
+      "observed_primary_title": "EQTC - Item: Strip of Swinetor Flesh"
+    }
+  ],
+  "native_authored_context": [],
+  "migration_dependencies": [],
+  "held_source_rows": []
+}
