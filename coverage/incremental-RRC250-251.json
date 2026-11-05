@@ -1,0 +1,97 @@
+{
+  "format_version": 1,
+  "batches": [
+    "RRC250",
+    "RRC251"
+  ],
+  "application_order": [
+    "RRC250",
+    "RRC251"
+  ],
+  "source_packages": {
+    "RRC250": {
+      "source_commit": "ca353d42261fa92c22b2643ef08cf90909ac5edd",
+      "apply_sha256": "496a7d2cf59b325fa3f29187f81661aa47341e0348ed748a2ef19f92510e299c",
+      "package_manifest_sha256": "a9b9c8b88749ca3a4e2847c3559e6b3d3230f95fee4966dc4d388da63faf69c3"
+    },
+    "RRC251": {
+      "source_commit": "e951dfd6b724f4dd9da093c57c842b6027293777",
+      "apply_sha256": "97c8493806591a3d275333250bb8a5f911433ead047da163602a469ea2488a51",
+      "package_manifest_sha256": "be3ba22dcbcae6cfe63676f044f43f131ffaf85e00673590937cee7a3197bbeb"
+    }
+  },
+  "application_status": "BOTH_APPLIED_VERIFIED_SEQUENTIAL_CLOSED",
+  "recipes_added": 83,
+  "entries_added": 545,
+  "existing_recipe_definitions_updated": 0,
+  "existing_entry_rows_updated": 0,
+  "global_actual_counts": {
+    "recipes": 29180,
+    "entries": 221559
+  },
+  "TS_cumulative_added_current": {
+    "recipes": 6356,
+    "entries": 43934
+  },
+  "cumulative_basis": "Prior 6273/43389 actual after RRC249 plus 83/545.",
+  "new_recipe_batches": 200,
+  "historical_qualification": {
+    "RRC250": {
+      "scope": "Twenty directly observed ordinary VoA source bodies:13 AlaranMetal jewelry, five AlarisGemstone cuts, SocketMount and MercenarySignetRing. Other AlaranMetal shapes already represented in prior coverage are not inferred/duplicated. Current22rawHTTPprofiles plus retainedhashcheckedidentities authenticate allreferences; all20complete literalroles/trivials/yields/gateomissionsmatch.",
+      "historical": "Maintained VoA Jewelcraftcategory548 directlylists these bodies. floor18/max-1 labelledcategory reconstruction, not exactintroduction/immutableMay2013. SocketMount listedhere doesnotassert originalintroductionVoA.",
+      "quantity": "All20yield1/nativeMax0. Fullsourceinputsets1(SocketMount),3(metal/cuts)or4(compartmented/signet)units. Jewelrysettingtoolreturnsboth/moldsuccessonly; gemcuts andSignetcuttingtool+glassreturnboth; SocketMountnoreturns. Native itemmetadata preserved, includingstacklimits.",
+      "containers": "All20individuallysourcepermit exactCollapsibleJewelerKit17187 nativebag20/sixslots/LARGE. Everyfullinputset/sizefits. Otherkits/stationsnotexpanded.",
+      "gates": "OrdinaryJewelryMaking68. Sourcebook/formalminimum/actorgatesomitted\u2192labelledminimum0/must0/book0/quest0/enabled1policies. MercenarySignetRing has authenticated numeric15(No-Fail):native trivial15/nofail1, notunknowntrivialdefault0. Remaining19numericnofail0. Questassociation doesnotsetnativequest1/suppress normaloutputs.",
+      "preservation": "40exact18fielddeps23fresh17reused. No currentall-state/all-skill full-input/name matches; proposed3097534\u20133097553/entries/learned0.563positive-success output-use peers/3612entries fullguardscurrentafteractual249 (including newMarquisepeers). Readerclosed/no existingrecipe/item/book/playerwrites.",
+      "execution": "SourceonlypendingnormalGitHub/exactCoordinatoroneuseSQLGO. Namedcountcontract. No tests/rehearsal/build/runtimecampaign or wholeVoAcataloguecompletionclaim."
+    },
+    "RRC251": {
+      "scope": "63 separately captured literal Numinous bodies:21 eachNimble/Penetrating/Vicious.65currentrawHTTPprofiles authenticate63outputs+Diamond+ExoticSpinneretFluid; retainedhashcheckedprimaryreferences reused for others. Actual output IDs129746/129747/129748 authenticate sourceJudgment/nativeJudgement aliases; no newitems.60trackedgroups+3outsidequeue bodies.",
+      "historical": "Direct maintainedVoAJewelcraftcategory548; floor18/max-1 labelledcategoryreconstruction, not exactintroduction or immutableMay2013fieldproof.",
+      "gates": "All63sourceMUSTfalse/formalminimumomitted.55explicitlyCANpurchase/scribeNuminousWeaponAugmenting without experimentation; eightViciousbodies omitbookannotationentirely. Bothuse labelledminimum0/must0/book0 ordinarypolicy; no requiredbook inheritedfromIllustrious. Per-rowoptional/omissionoriginretained. No actorclass/race requirement invented.",
+      "quantity": "Five individually observed inputs perbody:appropriateblessedwater/Diamond/ExoticSpinneretFluid/PurifiedMana/cuttingtool.21NimbleTrillion/21PenetratingMarquise/21ViciousHalfMoon; eachtoolreturnedonsuccessandfailure. NativeMax0outputyield1. Numerictrivials499/503/508independent. No quantities/tool/fluid substitutedfromsiblings.",
+      "containers": "Every individualcurrentprimaryexplicitlypermits exact17187CollapsibleJewelerKit nativebag20/sixslots/LARGE; allfivephysicalunits/sizesfit. Otherkits/stationsnotexpanded.",
+      "preservation": "Threefinite21nativecomparisonsafteractual250 merged onlywhenallshared itemfields/recipeheaders/entrypreimages agree.91exact18deps63fresh28reuse.112positive-success output-use peers/750entries unionguardedunchanged, includescurrentIllustrioustoolpeers. Eachrange/input/name/learnedquery0. Proposed3097554\u20133097616. Readerconnectionsclosed; no existingrecipe/item/book/playerwrites.",
+      "execution": "One63sourceproposal pendingnormalGitHub/exactCoordinatoroneuseSQLGO. Namedcountcontract; finitehelpercap30unchanged. PreliminarysourceassertexpectedallCANcaught8bookomissionsbeforeanynativeIO; correctedper-rowannotationclassification, no SQLfailure/retry. No tests/rehearsal/build/runtimecampaign or wholeVoAcompletionclaim."
+    }
+  },
+  "peer_cutoffs": {
+    "RRC250": {
+      "definitions": 563,
+      "entry_IDs": 3612,
+      "exact": true
+    },
+    "RRC251": {
+      "definitions": 112,
+      "entry_IDs": 750,
+      "exact": true
+    }
+  },
+  "Numinous_book_policy": {
+    "selected_bodies": 63,
+    "explicit_CAN_optional": 55,
+    "Vicious_book_annotation_omitted": 8,
+    "manufacturing_MUST": 0,
+    "policy": "All63 minimum0/must0/book0 ordinary reconstruction policy, with per-row optional versus omission origins preserved; no Illustrious required-book inheritance.",
+    "catalogue_completion": false
+  },
+  "qualification_failure_boundary": "Preliminary source-only all-CAN assertion found eight omitted book annotations before native I/O; corrected per-row classification. Not an SQL failure or retry.",
+  "held_batches": [
+    "RRC014",
+    "RRC160"
+  ],
+  "prior_holds_preserved": true,
+  "all_scope_complete": false,
+  "separate_Xorbb_recipe_excluded": {
+    "recipes": 1,
+    "entries": 6
+  },
+  "prior_locally_confirmed_published_normal_SQL_source_paths": 750,
+  "earlier_pending_normal_SQL_source_paths": 0,
+  "new_normal_SQL_source_paths": 4,
+  "normal_SQL_source_paths_after_all_pending_publications": 754,
+  "SQL_path_count_meaning": "Source paths, not application count.",
+  "history_archives_preserved": true,
+  "QA39999_production_exclusion_retained": true,
+  "assembly": "Reused staged RRC250 unchanged; no SQL/query/replay/tests/runtime/receipt-only publication."
+}
