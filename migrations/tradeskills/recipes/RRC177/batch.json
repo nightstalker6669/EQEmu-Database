@@ -1,0 +1,1460 @@
+{
+  "batch": "RRC177",
+  "branch": "rof2-tradeskills",
+  "status": "SOURCE_PROPOSAL_NOT_APPLIED_LABELLED_RECONSTRUCTION",
+  "proposed_ids": [
+    3096185,
+    3096185
+  ],
+  "counts": {
+    "recipes": 1,
+    "entries": 4,
+    "item_dependencies": 4,
+    "unchanged_prototype_recipes": 17,
+    "unchanged_prototype_entries": 98
+  },
+  "recipes": [
+    {
+      "id": 3096185,
+      "name": "Egg Batter (Nest Drake Egg)",
+      "tradeskill": 60,
+      "skillneeded": 0,
+      "trivial": 28,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary Nest Drake Egg input reconstruction; RRC177.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 7,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    }
+  ],
+  "entries": [
+    {
+      "recipe_id": 3096185,
+      "item_id": 13087,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096185,
+      "item_id": 45376,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096185,
+      "item_id": 67741,
+      "successcount": 18,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096185,
+      "item_id": 17906,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    }
+  ],
+  "item_dependencies": [
+    {
+      "id": 13087,
+      "name": "Bottle of Milk"
+    },
+    {
+      "id": 17906,
+      "name": "Mixing Bowl"
+    },
+    {
+      "id": 45376,
+      "name": "Nest Drake Egg"
+    },
+    {
+      "id": 67741,
+      "name": "Egg Batter"
+    }
+  ],
+  "unchanged_prototype_recipes": [
+    {
+      "id": 1859,
+      "name": "Egg Batter",
+      "tradeskill": 60,
+      "skillneeded": 0,
+      "trivial": 15,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": null,
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": -1,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 1860,
+      "name": "Egg Batter",
+      "tradeskill": 60,
+      "skillneeded": 0,
+      "trivial": 15,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": null,
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": -1,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 1861,
+      "name": "Egg Batter",
+      "tradeskill": 60,
+      "skillneeded": 0,
+      "trivial": 15,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": null,
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": -1,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 1862,
+      "name": "Egg Batter",
+      "tradeskill": 60,
+      "skillneeded": 0,
+      "trivial": 15,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": null,
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": -1,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 1863,
+      "name": "Egg Batter",
+      "tradeskill": 60,
+      "skillneeded": 0,
+      "trivial": 15,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": null,
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": -1,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 1864,
+      "name": "Egg Batter",
+      "tradeskill": 60,
+      "skillneeded": 0,
+      "trivial": 15,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": null,
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": -1,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 1865,
+      "name": "Egg Batter",
+      "tradeskill": 60,
+      "skillneeded": 0,
+      "trivial": 17,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": null,
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": -1,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 1866,
+      "name": "Egg Batter",
+      "tradeskill": 60,
+      "skillneeded": 0,
+      "trivial": 15,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": null,
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": -1,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 1867,
+      "name": "Egg Batter",
+      "tradeskill": 60,
+      "skillneeded": 0,
+      "trivial": 28,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": null,
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": -1,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 1868,
+      "name": "Egg Batter",
+      "tradeskill": 60,
+      "skillneeded": 0,
+      "trivial": 28,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": null,
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": -1,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 1869,
+      "name": "Egg Batter",
+      "tradeskill": 60,
+      "skillneeded": 0,
+      "trivial": 15,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": null,
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": -1,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 1870,
+      "name": "Egg Batter",
+      "tradeskill": 60,
+      "skillneeded": 0,
+      "trivial": 28,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": null,
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": -1,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 1871,
+      "name": "Egg Batter",
+      "tradeskill": 60,
+      "skillneeded": 0,
+      "trivial": 15,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": null,
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": -1,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 27944,
+      "name": "Egg Batter",
+      "tradeskill": 60,
+      "skillneeded": 0,
+      "trivial": 17,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Dragons of Norrath - Baking (eqtraders import) ",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 0,
+      "min_expansion": 9,
+      "max_expansion": 99,
+      "content_flags": "",
+      "content_flags_disabled": ""
+    },
+    {
+      "id": 3091909,
+      "name": "Egg Batter (Stone Snake Egg)",
+      "tradeskill": 60,
+      "skillneeded": 0,
+      "trivial": 17,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "DoDH; EQTC article346; dough/egg input variants; RRC031.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 10,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3091910,
+      "name": "Egg Batter (Sand Snake Egg)",
+      "tradeskill": 60,
+      "skillneeded": 0,
+      "trivial": 17,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "DoDH; EQTC article346; dough/egg input variants; RRC031.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 10,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3095815,
+      "name": "Egg Batter (Green Snake Egg)",
+      "tradeskill": 60,
+      "skillneeded": 0,
+      "trivial": 17,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary ordinary input reconstruction; RRC165.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 10,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    }
+  ],
+  "unchanged_prototype_entries": [
+    {
+      "id": 13914,
+      "recipe_id": 1859,
+      "item_id": 13087,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 13915,
+      "recipe_id": 1859,
+      "item_id": 13088,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 13916,
+      "recipe_id": 1859,
+      "item_id": 67741,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 13917,
+      "recipe_id": 1859,
+      "item_id": 15,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 13918,
+      "recipe_id": 1859,
+      "item_id": 17162,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 13919,
+      "recipe_id": 1859,
+      "item_id": 17906,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 13920,
+      "recipe_id": 1860,
+      "item_id": 3458,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 13921,
+      "recipe_id": 1860,
+      "item_id": 13087,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 13922,
+      "recipe_id": 1860,
+      "item_id": 67741,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 13923,
+      "recipe_id": 1860,
+      "item_id": 15,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 13924,
+      "recipe_id": 1860,
+      "item_id": 17162,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 13925,
+      "recipe_id": 1860,
+      "item_id": 17906,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 13926,
+      "recipe_id": 1861,
+      "item_id": 13087,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 13927,
+      "recipe_id": 1861,
+      "item_id": 14968,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 13928,
+      "recipe_id": 1861,
+      "item_id": 67741,
+      "successcount": 5,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 13929,
+      "recipe_id": 1861,
+      "item_id": 15,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 13930,
+      "recipe_id": 1861,
+      "item_id": 17162,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 13931,
+      "recipe_id": 1861,
+      "item_id": 17906,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 13932,
+      "recipe_id": 1862,
+      "item_id": 13087,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 13933,
+      "recipe_id": 1862,
+      "item_id": 65489,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 13934,
+      "recipe_id": 1862,
+      "item_id": 67741,
+      "successcount": 5,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 13935,
+      "recipe_id": 1862,
+      "item_id": 15,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 13936,
+      "recipe_id": 1862,
+      "item_id": 17162,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 13937,
+      "recipe_id": 1862,
+      "item_id": 17906,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 13938,
+      "recipe_id": 1863,
+      "item_id": 12787,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 13939,
+      "recipe_id": 1863,
+      "item_id": 13087,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 13940,
+      "recipe_id": 1863,
+      "item_id": 67741,
+      "successcount": 5,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 13941,
+      "recipe_id": 1863,
+      "item_id": 15,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 13942,
+      "recipe_id": 1863,
+      "item_id": 17162,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 13943,
+      "recipe_id": 1863,
+      "item_id": 17906,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 13944,
+      "recipe_id": 1864,
+      "item_id": 13087,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 13945,
+      "recipe_id": 1864,
+      "item_id": 14950,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 13946,
+      "recipe_id": 1864,
+      "item_id": 67741,
+      "successcount": 5,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 13947,
+      "recipe_id": 1864,
+      "item_id": 15,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 13948,
+      "recipe_id": 1864,
+      "item_id": 17162,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 13949,
+      "recipe_id": 1864,
+      "item_id": 17906,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 13950,
+      "recipe_id": 1865,
+      "item_id": 13087,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 13951,
+      "recipe_id": 1865,
+      "item_id": 14947,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 13952,
+      "recipe_id": 1865,
+      "item_id": 67741,
+      "successcount": 5,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 13953,
+      "recipe_id": 1865,
+      "item_id": 15,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 13954,
+      "recipe_id": 1865,
+      "item_id": 17162,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 13955,
+      "recipe_id": 1865,
+      "item_id": 17906,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 13956,
+      "recipe_id": 1866,
+      "item_id": 13087,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 13957,
+      "recipe_id": 1866,
+      "item_id": 14922,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 13958,
+      "recipe_id": 1866,
+      "item_id": 67741,
+      "successcount": 7,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 13959,
+      "recipe_id": 1866,
+      "item_id": 15,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 13960,
+      "recipe_id": 1866,
+      "item_id": 17162,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 13961,
+      "recipe_id": 1866,
+      "item_id": 17906,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 13962,
+      "recipe_id": 1867,
+      "item_id": 13087,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 13963,
+      "recipe_id": 1867,
+      "item_id": 19137,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 13964,
+      "recipe_id": 1867,
+      "item_id": 67741,
+      "successcount": 12,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 13965,
+      "recipe_id": 1867,
+      "item_id": 15,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 13966,
+      "recipe_id": 1867,
+      "item_id": 17162,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 13967,
+      "recipe_id": 1867,
+      "item_id": 17906,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 13968,
+      "recipe_id": 1868,
+      "item_id": 13087,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 13969,
+      "recipe_id": 1868,
+      "item_id": 19138,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 13970,
+      "recipe_id": 1868,
+      "item_id": 67741,
+      "successcount": 14,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 13971,
+      "recipe_id": 1868,
+      "item_id": 15,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 13972,
+      "recipe_id": 1868,
+      "item_id": 17162,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 13973,
+      "recipe_id": 1868,
+      "item_id": 17906,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 13974,
+      "recipe_id": 1869,
+      "item_id": 13087,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 13975,
+      "recipe_id": 1869,
+      "item_id": 13164,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 13976,
+      "recipe_id": 1869,
+      "item_id": 67741,
+      "successcount": 15,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 13977,
+      "recipe_id": 1869,
+      "item_id": 15,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 13978,
+      "recipe_id": 1869,
+      "item_id": 17162,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 13979,
+      "recipe_id": 1869,
+      "item_id": 17906,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 13980,
+      "recipe_id": 1870,
+      "item_id": 13087,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 13981,
+      "recipe_id": 1870,
+      "item_id": 19139,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 13982,
+      "recipe_id": 1870,
+      "item_id": 67741,
+      "successcount": 20,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 13983,
+      "recipe_id": 1870,
+      "item_id": 15,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 13984,
+      "recipe_id": 1870,
+      "item_id": 17162,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 13985,
+      "recipe_id": 1870,
+      "item_id": 17906,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 13986,
+      "recipe_id": 1871,
+      "item_id": 10160,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 13987,
+      "recipe_id": 1871,
+      "item_id": 13087,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 13988,
+      "recipe_id": 1871,
+      "item_id": 67741,
+      "successcount": 10,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 13989,
+      "recipe_id": 1871,
+      "item_id": 15,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 13990,
+      "recipe_id": 1871,
+      "item_id": 17162,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 13991,
+      "recipe_id": 1871,
+      "item_id": 17906,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 278812,
+      "recipe_id": 27944,
+      "item_id": 13087,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 278813,
+      "recipe_id": 27944,
+      "item_id": 3458,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 278814,
+      "recipe_id": 27944,
+      "item_id": 17906,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 278815,
+      "recipe_id": 27944,
+      "item_id": 17162,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 278816,
+      "recipe_id": 27944,
+      "item_id": 54442,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 278817,
+      "recipe_id": 27944,
+      "item_id": 66635,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 278818,
+      "recipe_id": 27944,
+      "item_id": 15,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 278819,
+      "recipe_id": 27944,
+      "item_id": 67741,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 30410673,
+      "recipe_id": 3091909,
+      "item_id": 67741,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 30410674,
+      "recipe_id": 3091909,
+      "item_id": 13087,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30410675,
+      "recipe_id": 3091909,
+      "item_id": 32643,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30410676,
+      "recipe_id": 3091909,
+      "item_id": 14,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 30410677,
+      "recipe_id": 3091910,
+      "item_id": 67741,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 30410678,
+      "recipe_id": 3091910,
+      "item_id": 13087,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30410679,
+      "recipe_id": 3091910,
+      "item_id": 32645,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30410680,
+      "recipe_id": 3091910,
+      "item_id": 14,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 30450808,
+      "recipe_id": 3095815,
+      "item_id": 13087,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30450809,
+      "recipe_id": 3095815,
+      "item_id": 32644,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30450810,
+      "recipe_id": 3095815,
+      "item_id": 67741,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 30450811,
+      "recipe_id": 3095815,
+      "item_id": 17906,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    }
+  ],
+  "source_facts": [
+    {
+      "recipe_id": 3096185,
+      "source_name": "Egg Batter",
+      "source_view_id": 16588,
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=228&rsa=Baking&sub=GoD",
+      "source_formula": "Components: Bottle of Milk, Nest Drake Egg\nIn: Mixing Bowl (Portable), Collapsible Mixing Bowl, Mixing Bowl (Placeable), Guild Mixing Bowl, Mixing Bowl\nYield: 18\nNotes: Learned as: Egg Batter (Nest Drake Egg)",
+      "source_catalogue_sha256": "828753819031fd0090555c67de57bc75e997273b3b9f6bfcc5b1b2f18f746e98",
+      "output_item_id": 67741,
+      "yield_count": 18,
+      "trivial": 28,
+      "ingredients": [
+        {
+          "item_id": 13087,
+          "name": "Bottle of Milk",
+          "count": 1
+        },
+        {
+          "item_id": 45376,
+          "name": "Nest Drake Egg",
+          "count": 1
+        }
+      ],
+      "success_roles": {
+        "67741": 18
+      },
+      "failure_roles": {},
+      "container_item_ids": [
+        17906
+      ],
+      "held_source_stations": [
+        {
+          "name": "Collapsible Mixing Bowl",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=7338",
+          "reason": "Unresolved/collapsible/world/furniture mixing bowl not separately qualified"
+        },
+        {
+          "name": "Mixing Bowl (Placeable)",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34468",
+          "reason": "Unresolved/collapsible/world/furniture mixing bowl not separately qualified"
+        },
+        {
+          "name": "Guild Mixing Bowl",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=38423",
+          "reason": "Unresolved/collapsible/world/furniture mixing bowl not separately qualified"
+        },
+        {
+          "name": "Mixing Bowl",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=40976",
+          "reason": "Unresolved/collapsible/world/furniture mixing bowl not separately qualified"
+        }
+      ],
+      "min_expansion": 7,
+      "skillneeded": 0,
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "learning_origin": "ORDINARY_ZERO_POLICY_SOURCE_OMITS_MANDATORY_BOOK_MINIMUM",
+      "era_origin": "MAINTAINED_GOD7_FAMILY_POLICY_NOT_EXACT_INTRODUCTION",
+      "May2013_exact_fields_verified": false,
+      "identity_assurance": "ALL_REFERENCES_EXPLICIT_PRIMARY_IDS_AFTER_TARGETED_PRIMARY_PAGE_OBSERVATIONS"
+    }
+  ],
+  "restriction_review": {
+    "scope": "One absent full-input route:EggBatter with BottleofMilk and NestDrakeEgg. ExactallprimaryroleIDs/numerictrivial28/physicalyield18/sourceLearned-asdisplayname.",
+    "alternatives": "17currentoutput-use peerdefs/98fullentryIDs guarded unchanged. Independent source egg/inputquantity routes; currentnativeall-state fullinputlookup absent. Existing source28vspriortrivials not corrected; no duplicatedinputroute.",
+    "learning": "No mandatorybook/minimum/quest/race sourcegate;ordinaryskillneeded0/must_learn0/book0 acceptedsourceomissionpolicy. No-fail0/quest0/enabled1/consumedsalvage conventions. Output67741EggBatter unchargedstackable,18fitsnativestacksize.",
+    "era": "MaintainedGoD7sourcecontext/floor7max-1routinefamilyreconstructionpolicy, not immutableMay2013numericor exactintroductionproof.",
+    "containers": "OnlypositivelylistedportableMixingBowl17906/bag14,nativecapacity/sizechecked. UnresolvedCollapsibleMixingBowl/world/furniture/guildlinks held, no addedavailabilityinferred.",
+    "preservation": "Four exactnative dependencies/newID/allstatefullinputs/output-useuniverse/17peerfullpostimages+98entryIDs/deltas/learnedrefs guarded. No existingrecipe/item/player/questmutations.",
+    "execution": "Sourceproposalonly;publication plusseparateexactSQLGO required. Allboundedreadersclosed/noSQLwrites/tests/build/runtime/nativecombines. Otherera/charged/probability/sourceholds retained; fullrecipe scope incomplete."
+  },
+  "source_urls": [
+    "https://www.eqtraders.com/recipes/recipe_page.php?article=228&rsa=Baking&sub=GoD"
+  ],
+  "supplemental_primary_identity_sources": [],
+  "native_authored_context": [],
+  "migration_dependencies": [],
+  "held_source_rows": []
+}
