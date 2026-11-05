@@ -1,0 +1,1497 @@
+{
+  "batch": "RRC116",
+  "branch": "rof2-tradeskills",
+  "status": "SOURCE_PROPOSAL_NOT_PUBLISHED_NOT_APPLIED",
+  "counts": {
+    "recipes_added": 0,
+    "entries_added": 5,
+    "recipe_definitions_preserved": 5,
+    "old_entries_guarded": 35,
+    "post_entries": 40,
+    "item_dependencies": 24
+  },
+  "before_recipes": [
+    {
+      "id": 7309,
+      "name": "Featherwood Compound Bow",
+      "tradeskill": 64,
+      "skillneeded": 0,
+      "trivial": 335,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": null,
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": -1,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 7327,
+      "name": "Nightmarewood Compound Bow",
+      "tradeskill": 64,
+      "skillneeded": 0,
+      "trivial": 295,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": null,
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": -1,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 7328,
+      "name": "Obsidianwood Compound Bow",
+      "tradeskill": 64,
+      "skillneeded": 0,
+      "trivial": 335,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": null,
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": -1,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 7333,
+      "name": "Primordial Driftwood Compound Bow",
+      "tradeskill": 64,
+      "skillneeded": 0,
+      "trivial": 335,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": null,
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": -1,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 7535,
+      "name": "Stonewood Compound Bow",
+      "tradeskill": 64,
+      "skillneeded": 0,
+      "trivial": 335,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": null,
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": -1,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    }
+  ],
+  "before_entries": [
+    {
+      "id": 69093,
+      "recipe_id": 7309,
+      "item_id": 30482,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 2,
+      "salvagecount": 2,
+      "iscontainer": 0
+    },
+    {
+      "id": 69094,
+      "recipe_id": 7309,
+      "item_id": 8086,
+      "successcount": 1,
+      "failcount": 1,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 69095,
+      "recipe_id": 7309,
+      "item_id": 29997,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 69096,
+      "recipe_id": 7309,
+      "item_id": 30194,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 69098,
+      "recipe_id": 7309,
+      "item_id": 29598,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 69100,
+      "recipe_id": 7309,
+      "item_id": 17189,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 69101,
+      "recipe_id": 7309,
+      "item_id": 17762,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 69241,
+      "recipe_id": 7327,
+      "item_id": 30197,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 2,
+      "salvagecount": 2,
+      "iscontainer": 0
+    },
+    {
+      "id": 69242,
+      "recipe_id": 7327,
+      "item_id": 8086,
+      "successcount": 1,
+      "failcount": 1,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 69243,
+      "recipe_id": 7327,
+      "item_id": 29999,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 69244,
+      "recipe_id": 7327,
+      "item_id": 30196,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 69246,
+      "recipe_id": 7327,
+      "item_id": 29627,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 69248,
+      "recipe_id": 7327,
+      "item_id": 17189,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 69249,
+      "recipe_id": 7327,
+      "item_id": 17762,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 69250,
+      "recipe_id": 7328,
+      "item_id": 30480,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 2,
+      "salvagecount": 2,
+      "iscontainer": 0
+    },
+    {
+      "id": 69251,
+      "recipe_id": 7328,
+      "item_id": 8086,
+      "successcount": 1,
+      "failcount": 1,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 69252,
+      "recipe_id": 7328,
+      "item_id": 29995,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 69253,
+      "recipe_id": 7328,
+      "item_id": 30192,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 69255,
+      "recipe_id": 7328,
+      "item_id": 29596,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 69257,
+      "recipe_id": 7328,
+      "item_id": 17189,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 69258,
+      "recipe_id": 7328,
+      "item_id": 17762,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 69287,
+      "recipe_id": 7333,
+      "item_id": 30483,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 2,
+      "salvagecount": 2,
+      "iscontainer": 0
+    },
+    {
+      "id": 69288,
+      "recipe_id": 7333,
+      "item_id": 8086,
+      "successcount": 1,
+      "failcount": 1,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 69289,
+      "recipe_id": 7333,
+      "item_id": 29998,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 69290,
+      "recipe_id": 7333,
+      "item_id": 30195,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 69292,
+      "recipe_id": 7333,
+      "item_id": 29599,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 69294,
+      "recipe_id": 7333,
+      "item_id": 17189,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 69295,
+      "recipe_id": 7333,
+      "item_id": 17762,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 71001,
+      "recipe_id": 7535,
+      "item_id": 30481,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 2,
+      "salvagecount": 2,
+      "iscontainer": 0
+    },
+    {
+      "id": 71002,
+      "recipe_id": 7535,
+      "item_id": 8086,
+      "successcount": 1,
+      "failcount": 1,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 71003,
+      "recipe_id": 7535,
+      "item_id": 29996,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 71004,
+      "recipe_id": 7535,
+      "item_id": 30193,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 71006,
+      "recipe_id": 7535,
+      "item_id": 29597,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 71008,
+      "recipe_id": 7535,
+      "item_id": 17189,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 71009,
+      "recipe_id": 7535,
+      "item_id": 17762,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    }
+  ],
+  "added_entries": [
+    {
+      "recipe_id": 7309,
+      "item_id": 17910,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 7327,
+      "item_id": 17910,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 7328,
+      "item_id": 17910,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 7333,
+      "item_id": 17910,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 7535,
+      "item_id": 17910,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    }
+  ],
+  "native_items": [
+    {
+      "id": 8086,
+      "Name": "Planing Tool",
+      "size": 1,
+      "itemclass": 0,
+      "itemtype": 10,
+      "stackable": 0,
+      "stacksize": 1,
+      "maxcharges": 0,
+      "bagtype": 0,
+      "bagslots": 0,
+      "bagsize": 0,
+      "classes": 65535,
+      "races": 65535,
+      "deity": 0,
+      "damage": 0,
+      "range": 0,
+      "reqlevel": 0,
+      "reclevel": 0,
+      "loregroup": 0
+    },
+    {
+      "id": 17189,
+      "Name": "Collapsible Fletching Kit",
+      "size": 1,
+      "itemclass": 1,
+      "itemtype": 11,
+      "stackable": 0,
+      "stacksize": 1,
+      "maxcharges": 0,
+      "bagtype": 18,
+      "bagslots": 8,
+      "bagsize": 3,
+      "classes": 65535,
+      "races": 131071,
+      "deity": 0,
+      "damage": 0,
+      "range": 0,
+      "reqlevel": 0,
+      "reclevel": 0,
+      "loregroup": -1
+    },
+    {
+      "id": 17762,
+      "Name": "Planar Fletching Kit",
+      "size": 1,
+      "itemclass": 1,
+      "itemtype": 11,
+      "stackable": 0,
+      "stacksize": 1,
+      "maxcharges": 0,
+      "bagtype": 18,
+      "bagslots": 8,
+      "bagsize": 3,
+      "classes": 65535,
+      "races": 131071,
+      "deity": 0,
+      "damage": 0,
+      "range": 0,
+      "reqlevel": 0,
+      "reclevel": 0,
+      "loregroup": 0
+    },
+    {
+      "id": 17910,
+      "Name": "Fletching Kit",
+      "size": 1,
+      "itemclass": 1,
+      "itemtype": 11,
+      "stackable": 0,
+      "stacksize": 1,
+      "maxcharges": 0,
+      "bagtype": 18,
+      "bagslots": 8,
+      "bagsize": 3,
+      "classes": 65535,
+      "races": 131071,
+      "deity": 0,
+      "damage": 0,
+      "range": 0,
+      "reqlevel": 0,
+      "reclevel": 0,
+      "loregroup": 0
+    },
+    {
+      "id": 29596,
+      "Name": "Obsidianwood Compound Bow",
+      "size": 3,
+      "itemclass": 0,
+      "itemtype": 5,
+      "stackable": 0,
+      "stacksize": 1,
+      "maxcharges": 0,
+      "bagtype": 0,
+      "bagslots": 0,
+      "bagsize": 0,
+      "classes": 285,
+      "races": 65535,
+      "deity": 0,
+      "damage": 36,
+      "range": 220,
+      "reqlevel": 61,
+      "reclevel": 63,
+      "loregroup": 0
+    },
+    {
+      "id": 29597,
+      "Name": "Stonewood Compound Bow",
+      "size": 3,
+      "itemclass": 0,
+      "itemtype": 5,
+      "stackable": 0,
+      "stacksize": 1,
+      "maxcharges": 0,
+      "bagtype": 0,
+      "bagslots": 0,
+      "bagsize": 0,
+      "classes": 285,
+      "races": 65535,
+      "deity": 0,
+      "damage": 42,
+      "range": 220,
+      "reqlevel": 61,
+      "reclevel": 63,
+      "loregroup": 0
+    },
+    {
+      "id": 29598,
+      "Name": "Featherwood Compound Bow",
+      "size": 3,
+      "itemclass": 0,
+      "itemtype": 5,
+      "stackable": 0,
+      "stacksize": 1,
+      "maxcharges": 0,
+      "bagtype": 0,
+      "bagslots": 0,
+      "bagsize": 0,
+      "classes": 285,
+      "races": 65535,
+      "deity": 0,
+      "damage": 24,
+      "range": 220,
+      "reqlevel": 61,
+      "reclevel": 63,
+      "loregroup": 0
+    },
+    {
+      "id": 29599,
+      "Name": "Primordial Driftwood Compound Bow",
+      "size": 3,
+      "itemclass": 0,
+      "itemtype": 5,
+      "stackable": 0,
+      "stacksize": 1,
+      "maxcharges": 0,
+      "bagtype": 0,
+      "bagslots": 0,
+      "bagsize": 0,
+      "classes": 285,
+      "races": 65535,
+      "deity": 0,
+      "damage": 29,
+      "range": 220,
+      "reqlevel": 61,
+      "reclevel": 63,
+      "loregroup": 0
+    },
+    {
+      "id": 29627,
+      "Name": "Nightmarewood Compound Bow",
+      "size": 3,
+      "itemclass": 0,
+      "itemtype": 5,
+      "stackable": 0,
+      "stacksize": 1,
+      "maxcharges": 0,
+      "bagtype": 0,
+      "bagslots": 0,
+      "bagsize": 0,
+      "classes": 285,
+      "races": 65535,
+      "deity": 0,
+      "damage": 30,
+      "range": 190,
+      "reqlevel": 46,
+      "reclevel": 61,
+      "loregroup": 0
+    },
+    {
+      "id": 29995,
+      "Name": "Fiend Gut String",
+      "size": 1,
+      "itemclass": 0,
+      "itemtype": 10,
+      "stackable": 1,
+      "stacksize": 20,
+      "maxcharges": 0,
+      "bagtype": 0,
+      "bagslots": 0,
+      "bagsize": 0,
+      "classes": 65535,
+      "races": 65535,
+      "deity": 0,
+      "damage": 0,
+      "range": 0,
+      "reqlevel": 0,
+      "reclevel": 0,
+      "loregroup": 0
+    },
+    {
+      "id": 29996,
+      "Name": "Vegerog Fiber String",
+      "size": 1,
+      "itemclass": 0,
+      "itemtype": 10,
+      "stackable": 1,
+      "stacksize": 20,
+      "maxcharges": 0,
+      "bagtype": 0,
+      "bagslots": 0,
+      "bagsize": 0,
+      "classes": 65535,
+      "races": 65535,
+      "deity": 0,
+      "damage": 0,
+      "range": 0,
+      "reqlevel": 0,
+      "reclevel": 0,
+      "loregroup": 0
+    },
+    {
+      "id": 29997,
+      "Name": "Air Arachnid Silk String",
+      "size": 1,
+      "itemclass": 0,
+      "itemtype": 10,
+      "stackable": 1,
+      "stacksize": 20,
+      "maxcharges": 0,
+      "bagtype": 0,
+      "bagslots": 0,
+      "bagsize": 0,
+      "classes": 65535,
+      "races": 65535,
+      "deity": 0,
+      "damage": 0,
+      "range": 0,
+      "reqlevel": 0,
+      "reclevel": 0,
+      "loregroup": 0
+    },
+    {
+      "id": 29998,
+      "Name": "Slarghilug Kelp String",
+      "size": 1,
+      "itemclass": 0,
+      "itemtype": 10,
+      "stackable": 1,
+      "stacksize": 20,
+      "maxcharges": 0,
+      "bagtype": 0,
+      "bagslots": 0,
+      "bagsize": 0,
+      "classes": 65535,
+      "races": 65535,
+      "deity": 0,
+      "damage": 0,
+      "range": 0,
+      "reqlevel": 0,
+      "reclevel": 0,
+      "loregroup": 0
+    },
+    {
+      "id": 29999,
+      "Name": "Nightmare Silk String",
+      "size": 1,
+      "itemclass": 0,
+      "itemtype": 10,
+      "stackable": 1,
+      "stacksize": 20,
+      "maxcharges": 0,
+      "bagtype": 0,
+      "bagslots": 0,
+      "bagsize": 0,
+      "classes": 65535,
+      "races": 65535,
+      "deity": 0,
+      "damage": 0,
+      "range": 0,
+      "reqlevel": 0,
+      "reclevel": 0,
+      "loregroup": 0
+    },
+    {
+      "id": 30192,
+      "Name": "Obsidianwood Bow Staff",
+      "size": 3,
+      "itemclass": 0,
+      "itemtype": 10,
+      "stackable": 1,
+      "stacksize": 10,
+      "maxcharges": 0,
+      "bagtype": 0,
+      "bagslots": 0,
+      "bagsize": 0,
+      "classes": 65535,
+      "races": 65535,
+      "deity": 0,
+      "damage": 0,
+      "range": 0,
+      "reqlevel": 0,
+      "reclevel": 0,
+      "loregroup": 0
+    },
+    {
+      "id": 30193,
+      "Name": "Stonewood Bow Staff",
+      "size": 3,
+      "itemclass": 0,
+      "itemtype": 10,
+      "stackable": 1,
+      "stacksize": 10,
+      "maxcharges": 0,
+      "bagtype": 0,
+      "bagslots": 0,
+      "bagsize": 0,
+      "classes": 65535,
+      "races": 65535,
+      "deity": 0,
+      "damage": 0,
+      "range": 0,
+      "reqlevel": 0,
+      "reclevel": 0,
+      "loregroup": 0
+    },
+    {
+      "id": 30194,
+      "Name": "Featherwood Bow Staff",
+      "size": 3,
+      "itemclass": 0,
+      "itemtype": 10,
+      "stackable": 1,
+      "stacksize": 10,
+      "maxcharges": 0,
+      "bagtype": 0,
+      "bagslots": 0,
+      "bagsize": 0,
+      "classes": 65535,
+      "races": 65535,
+      "deity": 0,
+      "damage": 0,
+      "range": 0,
+      "reqlevel": 0,
+      "reclevel": 0,
+      "loregroup": 0
+    },
+    {
+      "id": 30195,
+      "Name": "Primordial Driftwood Bow Staff",
+      "size": 3,
+      "itemclass": 0,
+      "itemtype": 10,
+      "stackable": 1,
+      "stacksize": 10,
+      "maxcharges": 0,
+      "bagtype": 0,
+      "bagslots": 0,
+      "bagsize": 0,
+      "classes": 65535,
+      "races": 65535,
+      "deity": 0,
+      "damage": 0,
+      "range": 0,
+      "reqlevel": 0,
+      "reclevel": 0,
+      "loregroup": 0
+    },
+    {
+      "id": 30196,
+      "Name": "Nightmarewood Bow Staff",
+      "size": 3,
+      "itemclass": 0,
+      "itemtype": 10,
+      "stackable": 1,
+      "stacksize": 10,
+      "maxcharges": 0,
+      "bagtype": 0,
+      "bagslots": 0,
+      "bagsize": 0,
+      "classes": 65535,
+      "races": 65535,
+      "deity": 0,
+      "damage": 0,
+      "range": 0,
+      "reqlevel": 0,
+      "reclevel": 0,
+      "loregroup": 0
+    },
+    {
+      "id": 30197,
+      "Name": "Innovative Bow Cam",
+      "size": 1,
+      "itemclass": 0,
+      "itemtype": 17,
+      "stackable": 1,
+      "stacksize": 20,
+      "maxcharges": 0,
+      "bagtype": 0,
+      "bagslots": 0,
+      "bagsize": 0,
+      "classes": 65535,
+      "races": 65535,
+      "deity": 0,
+      "damage": 0,
+      "range": 0,
+      "reqlevel": 0,
+      "reclevel": 0,
+      "loregroup": 0
+    },
+    {
+      "id": 30480,
+      "Name": "Molten Metal Bow Cam",
+      "size": 1,
+      "itemclass": 0,
+      "itemtype": 17,
+      "stackable": 1,
+      "stacksize": 20,
+      "maxcharges": 0,
+      "bagtype": 0,
+      "bagslots": 0,
+      "bagsize": 0,
+      "classes": 65535,
+      "races": 65535,
+      "deity": 0,
+      "damage": 0,
+      "range": 0,
+      "reqlevel": 0,
+      "reclevel": 0,
+      "loregroup": 0
+    },
+    {
+      "id": 30481,
+      "Name": "Planar Steel Bow Cam",
+      "size": 1,
+      "itemclass": 0,
+      "itemtype": 17,
+      "stackable": 1,
+      "stacksize": 20,
+      "maxcharges": 0,
+      "bagtype": 0,
+      "bagslots": 0,
+      "bagsize": 0,
+      "classes": 65535,
+      "races": 65535,
+      "deity": 0,
+      "damage": 0,
+      "range": 0,
+      "reqlevel": 0,
+      "reclevel": 0,
+      "loregroup": 0
+    },
+    {
+      "id": 30482,
+      "Name": "Wind Metal Bow Cam",
+      "size": 1,
+      "itemclass": 0,
+      "itemtype": 17,
+      "stackable": 1,
+      "stacksize": 20,
+      "maxcharges": 0,
+      "bagtype": 0,
+      "bagslots": 0,
+      "bagsize": 0,
+      "classes": 65535,
+      "races": 65535,
+      "deity": 0,
+      "damage": 0,
+      "range": 0,
+      "reqlevel": 0,
+      "reclevel": 0,
+      "loregroup": 0
+    },
+    {
+      "id": 30483,
+      "Name": "E'cian Ice Bow Cam",
+      "size": 1,
+      "itemclass": 0,
+      "itemtype": 17,
+      "stackable": 1,
+      "stacksize": 20,
+      "maxcharges": 0,
+      "bagtype": 0,
+      "bagslots": 0,
+      "bagsize": 0,
+      "classes": 65535,
+      "races": 65535,
+      "deity": 0,
+      "damage": 0,
+      "range": 0,
+      "reqlevel": 0,
+      "reclevel": 0,
+      "loregroup": 0
+    }
+  ],
+  "source_facts": [
+    {
+      "name": "Featherwood Compound Bow",
+      "trivial_text": "335",
+      "formula": "Components: Air Arachnid Silk String, Featherwood Bowstave, Planing Tool, Wind Metal Bow Cam (2)\nIn: Fletching Kit, Planar Fletching Kit, Collapsible Fletching Kit, Feir`Dal Fletching Kit, Surefall Fletching Kit, Fletching Table (Placeable), Fletching Table, Guild Fletching Table\nYield: 1\nAlso Returns: Planing Tool(1)\nOn Failure Returns: Planing Tool(1)\nNotes: EQRecipeID: 4119",
+      "observed_EQTC_item_id": 6401,
+      "output_source_url": "https://www.eqtraders.com/items/show_item.php?item=6401&menustr=010000000000",
+      "source_table_index": 2,
+      "source_row_index": 52,
+      "source_cell_count": 3,
+      "field_links": [
+        {
+          "name": "Air Arachnid Silk String",
+          "url": "https://www.eqtraders.com//items/show_item.php?item=6403",
+          "field": "Components",
+          "explicit_count": null
+        },
+        {
+          "name": "Featherwood Bowstave",
+          "url": "https://www.eqtraders.com//items/show_item.php?item=6402",
+          "field": "Components",
+          "explicit_count": null
+        },
+        {
+          "name": "Planing Tool",
+          "url": "https://www.eqtraders.com//items/show_item.php?item=1387",
+          "field": "Components",
+          "explicit_count": null
+        },
+        {
+          "name": "Wind Metal Bow Cam",
+          "url": "https://www.eqtraders.com//items/show_item.php?item=6404",
+          "field": "Components",
+          "explicit_count": 2
+        },
+        {
+          "name": "Fletching Kit",
+          "url": "https://www.eqtraders.com//items/show_item.php?item=1772",
+          "field": "In",
+          "explicit_count": null
+        },
+        {
+          "name": "Planar Fletching Kit",
+          "url": "https://www.eqtraders.com//items/show_item.php?item=5493",
+          "field": "In",
+          "explicit_count": null
+        },
+        {
+          "name": "Collapsible Fletching Kit",
+          "url": "https://www.eqtraders.com//items/show_item.php?item=7336",
+          "field": "In",
+          "explicit_count": null
+        },
+        {
+          "name": "Feir`Dal Fletching Kit",
+          "url": "https://www.eqtraders.com//items/show_item.php?item=7858",
+          "field": "In",
+          "explicit_count": null
+        },
+        {
+          "name": "Surefall Fletching Kit",
+          "url": "https://www.eqtraders.com//items/show_item.php?item=9604",
+          "field": "In",
+          "explicit_count": null
+        },
+        {
+          "name": "Fletching Table (Placeable)",
+          "url": "https://www.eqtraders.com//items/show_item.php?item=34388",
+          "field": "In",
+          "explicit_count": null
+        },
+        {
+          "name": "Fletching Table",
+          "url": "https://www.eqtraders.com//items/show_item.php?item=34483",
+          "field": "In",
+          "explicit_count": null
+        },
+        {
+          "name": "Guild Fletching Table",
+          "url": "https://www.eqtraders.com//items/show_item.php?item=38416",
+          "field": "In",
+          "explicit_count": null
+        },
+        {
+          "name": "Planing Tool",
+          "url": "https://www.eqtraders.com//items/show_item.php?item=1387",
+          "field": "Also Returns",
+          "explicit_count": 1
+        },
+        {
+          "name": "Planing Tool",
+          "url": "https://www.eqtraders.com//items/show_item.php?item=1387",
+          "field": "On Failure Returns",
+          "explicit_count": 1
+        }
+      ]
+    },
+    {
+      "name": "Nightmarewood Compound Bow",
+      "trivial_text": "295",
+      "formula": "Components: Innovative Bow Cam (2), Nightmare Silk String, Nightmarewood Bowstave, Planing Tool\nIn: Fletching Kit, Planar Fletching Kit, Collapsible Fletching Kit, Feir`Dal Fletching Kit, Surefall Fletching Kit, Fletching Table (Placeable), Fletching Table, Guild Fletching Table\nYield: 1\nAlso Returns: Planing Tool(1)\nOn Failure Returns: Planing Tool(1)\nRequired Skill Level: 201\nNotes: EQRecipeID: 4121",
+      "observed_EQTC_item_id": 5919,
+      "output_source_url": "https://www.eqtraders.com/items/show_item.php?item=5919&menustr=010000000000",
+      "source_table_index": 2,
+      "source_row_index": 53,
+      "source_cell_count": 3,
+      "field_links": [
+        {
+          "name": "Innovative Bow Cam",
+          "url": "https://www.eqtraders.com//items/show_item.php?item=6120",
+          "field": "Components",
+          "explicit_count": 2
+        },
+        {
+          "name": "Nightmare Silk String",
+          "url": "https://www.eqtraders.com//items/show_item.php?item=6119",
+          "field": "Components",
+          "explicit_count": null
+        },
+        {
+          "name": "Nightmarewood Bowstave",
+          "url": "https://www.eqtraders.com//items/show_item.php?item=5608",
+          "field": "Components",
+          "explicit_count": null
+        },
+        {
+          "name": "Planing Tool",
+          "url": "https://www.eqtraders.com//items/show_item.php?item=1387",
+          "field": "Components",
+          "explicit_count": null
+        },
+        {
+          "name": "Fletching Kit",
+          "url": "https://www.eqtraders.com//items/show_item.php?item=1772",
+          "field": "In",
+          "explicit_count": null
+        },
+        {
+          "name": "Planar Fletching Kit",
+          "url": "https://www.eqtraders.com//items/show_item.php?item=5493",
+          "field": "In",
+          "explicit_count": null
+        },
+        {
+          "name": "Collapsible Fletching Kit",
+          "url": "https://www.eqtraders.com//items/show_item.php?item=7336",
+          "field": "In",
+          "explicit_count": null
+        },
+        {
+          "name": "Feir`Dal Fletching Kit",
+          "url": "https://www.eqtraders.com//items/show_item.php?item=7858",
+          "field": "In",
+          "explicit_count": null
+        },
+        {
+          "name": "Surefall Fletching Kit",
+          "url": "https://www.eqtraders.com//items/show_item.php?item=9604",
+          "field": "In",
+          "explicit_count": null
+        },
+        {
+          "name": "Fletching Table (Placeable)",
+          "url": "https://www.eqtraders.com//items/show_item.php?item=34388",
+          "field": "In",
+          "explicit_count": null
+        },
+        {
+          "name": "Fletching Table",
+          "url": "https://www.eqtraders.com//items/show_item.php?item=34483",
+          "field": "In",
+          "explicit_count": null
+        },
+        {
+          "name": "Guild Fletching Table",
+          "url": "https://www.eqtraders.com//items/show_item.php?item=38416",
+          "field": "In",
+          "explicit_count": null
+        },
+        {
+          "name": "Planing Tool",
+          "url": "https://www.eqtraders.com//items/show_item.php?item=1387",
+          "field": "Also Returns",
+          "explicit_count": 1
+        },
+        {
+          "name": "Planing Tool",
+          "url": "https://www.eqtraders.com//items/show_item.php?item=1387",
+          "field": "On Failure Returns",
+          "explicit_count": 1
+        }
+      ]
+    },
+    {
+      "name": "Obsidianwood Compound Bow",
+      "trivial_text": "335",
+      "formula": "Components: Fiend Gut String, Molten Metal Bow Cam (2), Obsidianwood Bowstave, Planing Tool\nIn: Fletching Kit, Planar Fletching Kit, Collapsible Fletching Kit, Feir`Dal Fletching Kit, Surefall Fletching Kit, Fletching Table (Placeable), Fletching Table, Guild Fletching Table\nYield: 1\nAlso Returns: Planing Tool(1)\nOn Failure Returns: Planing Tool(1)\nNotes: EQRecipeID: 4117",
+      "observed_EQTC_item_id": 6572,
+      "output_source_url": "https://www.eqtraders.com/items/show_item.php?item=6572&menustr=010000000000",
+      "source_table_index": 2,
+      "source_row_index": 61,
+      "source_cell_count": 3,
+      "field_links": [
+        {
+          "name": "Fiend Gut String",
+          "url": "https://www.eqtraders.com//items/show_item.php?item=6573",
+          "field": "Components",
+          "explicit_count": null
+        },
+        {
+          "name": "Molten Metal Bow Cam",
+          "url": "https://www.eqtraders.com//items/show_item.php?item=6574",
+          "field": "Components",
+          "explicit_count": 2
+        },
+        {
+          "name": "Obsidianwood Bowstave",
+          "url": "https://www.eqtraders.com//items/show_item.php?item=6571",
+          "field": "Components",
+          "explicit_count": null
+        },
+        {
+          "name": "Planing Tool",
+          "url": "https://www.eqtraders.com//items/show_item.php?item=1387",
+          "field": "Components",
+          "explicit_count": null
+        },
+        {
+          "name": "Fletching Kit",
+          "url": "https://www.eqtraders.com//items/show_item.php?item=1772",
+          "field": "In",
+          "explicit_count": null
+        },
+        {
+          "name": "Planar Fletching Kit",
+          "url": "https://www.eqtraders.com//items/show_item.php?item=5493",
+          "field": "In",
+          "explicit_count": null
+        },
+        {
+          "name": "Collapsible Fletching Kit",
+          "url": "https://www.eqtraders.com//items/show_item.php?item=7336",
+          "field": "In",
+          "explicit_count": null
+        },
+        {
+          "name": "Feir`Dal Fletching Kit",
+          "url": "https://www.eqtraders.com//items/show_item.php?item=7858",
+          "field": "In",
+          "explicit_count": null
+        },
+        {
+          "name": "Surefall Fletching Kit",
+          "url": "https://www.eqtraders.com//items/show_item.php?item=9604",
+          "field": "In",
+          "explicit_count": null
+        },
+        {
+          "name": "Fletching Table (Placeable)",
+          "url": "https://www.eqtraders.com//items/show_item.php?item=34388",
+          "field": "In",
+          "explicit_count": null
+        },
+        {
+          "name": "Fletching Table",
+          "url": "https://www.eqtraders.com//items/show_item.php?item=34483",
+          "field": "In",
+          "explicit_count": null
+        },
+        {
+          "name": "Guild Fletching Table",
+          "url": "https://www.eqtraders.com//items/show_item.php?item=38416",
+          "field": "In",
+          "explicit_count": null
+        },
+        {
+          "name": "Planing Tool",
+          "url": "https://www.eqtraders.com//items/show_item.php?item=1387",
+          "field": "Also Returns",
+          "explicit_count": 1
+        },
+        {
+          "name": "Planing Tool",
+          "url": "https://www.eqtraders.com//items/show_item.php?item=1387",
+          "field": "On Failure Returns",
+          "explicit_count": 1
+        }
+      ]
+    },
+    {
+      "name": "Primordial Driftwood Compound Bow",
+      "trivial_text": "335",
+      "formula": "Components: E'cian Ice Bow Cam (2), Planing Tool, Primordial Driftwood Bowstave, Slarghilug Kelp String\nIn: Fletching Kit, Planar Fletching Kit, Collapsible Fletching Kit, Feir`Dal Fletching Kit, Surefall Fletching Kit, Fletching Table (Placeable), Fletching Table, Guild Fletching Table\nYield: 1\nAlso Returns: Planing Tool(1)\nOn Failure Returns: Planing Tool(1)\nNotes: EQRecipeID: 4120",
+      "observed_EQTC_item_id": 6397,
+      "output_source_url": "https://www.eqtraders.com/items/show_item.php?item=6397&menustr=010000000000",
+      "source_table_index": 2,
+      "source_row_index": 62,
+      "source_cell_count": 3,
+      "field_links": [
+        {
+          "name": "E'cian Ice Bow Cam",
+          "url": "https://www.eqtraders.com//items/show_item.php?item=6400",
+          "field": "Components",
+          "explicit_count": 2
+        },
+        {
+          "name": "Planing Tool",
+          "url": "https://www.eqtraders.com//items/show_item.php?item=1387",
+          "field": "Components",
+          "explicit_count": null
+        },
+        {
+          "name": "Primordial Driftwood Bowstave",
+          "url": "https://www.eqtraders.com//items/show_item.php?item=6398",
+          "field": "Components",
+          "explicit_count": null
+        },
+        {
+          "name": "Slarghilug Kelp String",
+          "url": "https://www.eqtraders.com//items/show_item.php?item=6399",
+          "field": "Components",
+          "explicit_count": null
+        },
+        {
+          "name": "Fletching Kit",
+          "url": "https://www.eqtraders.com//items/show_item.php?item=1772",
+          "field": "In",
+          "explicit_count": null
+        },
+        {
+          "name": "Planar Fletching Kit",
+          "url": "https://www.eqtraders.com//items/show_item.php?item=5493",
+          "field": "In",
+          "explicit_count": null
+        },
+        {
+          "name": "Collapsible Fletching Kit",
+          "url": "https://www.eqtraders.com//items/show_item.php?item=7336",
+          "field": "In",
+          "explicit_count": null
+        },
+        {
+          "name": "Feir`Dal Fletching Kit",
+          "url": "https://www.eqtraders.com//items/show_item.php?item=7858",
+          "field": "In",
+          "explicit_count": null
+        },
+        {
+          "name": "Surefall Fletching Kit",
+          "url": "https://www.eqtraders.com//items/show_item.php?item=9604",
+          "field": "In",
+          "explicit_count": null
+        },
+        {
+          "name": "Fletching Table (Placeable)",
+          "url": "https://www.eqtraders.com//items/show_item.php?item=34388",
+          "field": "In",
+          "explicit_count": null
+        },
+        {
+          "name": "Fletching Table",
+          "url": "https://www.eqtraders.com//items/show_item.php?item=34483",
+          "field": "In",
+          "explicit_count": null
+        },
+        {
+          "name": "Guild Fletching Table",
+          "url": "https://www.eqtraders.com//items/show_item.php?item=38416",
+          "field": "In",
+          "explicit_count": null
+        },
+        {
+          "name": "Planing Tool",
+          "url": "https://www.eqtraders.com//items/show_item.php?item=1387",
+          "field": "Also Returns",
+          "explicit_count": 1
+        },
+        {
+          "name": "Planing Tool",
+          "url": "https://www.eqtraders.com//items/show_item.php?item=1387",
+          "field": "On Failure Returns",
+          "explicit_count": 1
+        }
+      ]
+    },
+    {
+      "name": "Stonewood Compound Bow",
+      "trivial_text": "335",
+      "formula": "Components: Planar Steel Bow Cam (2), Planing Tool, Stonewood Bowstave, Vegerog Fiber String\nIn: Fletching Kit, Planar Fletching Kit, Collapsible Fletching Kit, Feir`Dal Fletching Kit, Surefall Fletching Kit, Fletching Table (Placeable), Fletching Table, Guild Fletching Table\nYield: 1\nAlso Returns: Planing Tool(1)\nOn Failure Returns: Planing Tool(1)\nNotes: EQRecipeID: 4118",
+      "observed_EQTC_item_id": 6567,
+      "output_source_url": "https://www.eqtraders.com/items/show_item.php?item=6567&menustr=010000000000",
+      "source_table_index": 2,
+      "source_row_index": 123,
+      "source_cell_count": 3,
+      "field_links": [
+        {
+          "name": "Planar Steel Bow Cam",
+          "url": "https://www.eqtraders.com//items/show_item.php?item=6570",
+          "field": "Components",
+          "explicit_count": 2
+        },
+        {
+          "name": "Planing Tool",
+          "url": "https://www.eqtraders.com//items/show_item.php?item=1387",
+          "field": "Components",
+          "explicit_count": null
+        },
+        {
+          "name": "Stonewood Bowstave",
+          "url": "https://www.eqtraders.com//items/show_item.php?item=6568",
+          "field": "Components",
+          "explicit_count": null
+        },
+        {
+          "name": "Vegerog Fiber String",
+          "url": "https://www.eqtraders.com//items/show_item.php?item=6569",
+          "field": "Components",
+          "explicit_count": null
+        },
+        {
+          "name": "Fletching Kit",
+          "url": "https://www.eqtraders.com//items/show_item.php?item=1772",
+          "field": "In",
+          "explicit_count": null
+        },
+        {
+          "name": "Planar Fletching Kit",
+          "url": "https://www.eqtraders.com//items/show_item.php?item=5493",
+          "field": "In",
+          "explicit_count": null
+        },
+        {
+          "name": "Collapsible Fletching Kit",
+          "url": "https://www.eqtraders.com//items/show_item.php?item=7336",
+          "field": "In",
+          "explicit_count": null
+        },
+        {
+          "name": "Feir`Dal Fletching Kit",
+          "url": "https://www.eqtraders.com//items/show_item.php?item=7858",
+          "field": "In",
+          "explicit_count": null
+        },
+        {
+          "name": "Surefall Fletching Kit",
+          "url": "https://www.eqtraders.com//items/show_item.php?item=9604",
+          "field": "In",
+          "explicit_count": null
+        },
+        {
+          "name": "Fletching Table (Placeable)",
+          "url": "https://www.eqtraders.com//items/show_item.php?item=34388",
+          "field": "In",
+          "explicit_count": null
+        },
+        {
+          "name": "Fletching Table",
+          "url": "https://www.eqtraders.com//items/show_item.php?item=34483",
+          "field": "In",
+          "explicit_count": null
+        },
+        {
+          "name": "Guild Fletching Table",
+          "url": "https://www.eqtraders.com//items/show_item.php?item=38416",
+          "field": "In",
+          "explicit_count": null
+        },
+        {
+          "name": "Planing Tool",
+          "url": "https://www.eqtraders.com//items/show_item.php?item=1387",
+          "field": "Also Returns",
+          "explicit_count": 1
+        },
+        {
+          "name": "Planing Tool",
+          "url": "https://www.eqtraders.com//items/show_item.php?item=1387",
+          "field": "On Failure Returns",
+          "explicit_count": 1
+        }
+      ]
+    }
+  ],
+  "source_urls": [
+    "https://www.eqtraders.com/recipes/recipe_page.php?article=41&rsa=Fletching&sub=bow"
+  ],
+  "new_effective_kit_collision_matches": [],
+  "historical_qualification": "Maintained-primary explicit container-link reconstruction, not immutableMay2013 or native combine acceptance. Add ONLY ordinaryFletchingKit17910 to five existing exact source bodies; preserve old17762/17189/metadata/output/input/yield/trivial/return/salvage/minimum/learning/gates/IDs/playerrecords. No new recipe/genericbag18/racial/furniture link, item mutation, inventory grant or compensation."
+}

@@ -1,0 +1,211 @@
+{
+  "batch": "RRC117",
+  "branch": "rof2-tradeskills",
+  "status": "SOURCE_PROPOSAL_NOT_APPLIED_LABELLED_RECONSTRUCTION",
+  "proposed_ids": [
+    3094479,
+    3094479
+  ],
+  "counts": {
+    "recipes": 1,
+    "entries": 7,
+    "item_dependencies": 7,
+    "unchanged_prototype_recipes": 0,
+    "unchanged_prototype_entries": 0
+  },
+  "recipes": [
+    {
+      "id": 3094479,
+      "name": "Carved Shadewood Recurve Bow (sinew)",
+      "tradeskill": 64,
+      "skillneeded": 0,
+      "trivial": 255,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary Omens-associated Fletching reconstruction; RRC117.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 8,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    }
+  ],
+  "entries": [
+    {
+      "recipe_id": 3094479,
+      "item_id": 75725,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094479,
+      "item_id": 72094,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094479,
+      "item_id": 10917,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094479,
+      "item_id": 8085,
+      "successcount": 1,
+      "failcount": 1,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094479,
+      "item_id": 17189,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3094479,
+      "item_id": 17762,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3094479,
+      "item_id": 17910,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    }
+  ],
+  "item_dependencies": [
+    {
+      "id": 8085,
+      "name": "Whittling Blade"
+    },
+    {
+      "id": 10917,
+      "name": "Shadewood Bow Staff"
+    },
+    {
+      "id": 17189,
+      "name": "Collapsible Fletching Kit"
+    },
+    {
+      "id": 17762,
+      "name": "Planar Fletching Kit"
+    },
+    {
+      "id": 17910,
+      "name": "Fletching Kit"
+    },
+    {
+      "id": 72094,
+      "name": "Murkglider Sinew"
+    },
+    {
+      "id": 75725,
+      "name": "Carved Shadewood Recurve Bow"
+    }
+  ],
+  "unchanged_prototype_recipes": [],
+  "unchanged_prototype_entries": [],
+  "source_facts": [
+    {
+      "recipe_id": 3094479,
+      "source_name": "Carved Shadewood Recurve Bow (sinew)",
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=41&rsa=Fletching&sub=bow",
+      "output_source_url": "https://www.eqtraders.com/items/show_item.php?item=23254&menustr=010000000000",
+      "output_item_id": 75725,
+      "trivial": 255,
+      "yield_count": 1,
+      "ingredients": [
+        {
+          "item_id": 72094,
+          "name": "Murkglider Sinew",
+          "count": 1
+        },
+        {
+          "item_id": 10917,
+          "name": "Shadewood Bowstave",
+          "count": 1
+        },
+        {
+          "item_id": 8085,
+          "name": "Whittling Blade",
+          "count": 1
+        }
+      ],
+      "container_item_ids": [
+        17189,
+        17762,
+        17910
+      ],
+      "held_source_containers": [
+        {
+          "name": "Feir`Dal Fletching Kit",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=7858"
+        },
+        {
+          "name": "Surefall Fletching Kit",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=9604"
+        },
+        {
+          "name": "Fletching Table (Placeable)",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34388"
+        },
+        {
+          "name": "Fletching Table",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34483"
+        },
+        {
+          "name": "Guild Fletching Table",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=38416"
+        }
+      ],
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "source_formula": "Components: Murkglider Sinew, Shadewood Bowstave, Whittling Blade\nIn: Fletching Kit, Planar Fletching Kit, Collapsible Fletching Kit, Feir`Dal Fletching Kit, Surefall Fletching Kit, Fletching Table (Placeable), Fletching Table, Guild Fletching Table\nYield: 1\nAlso Returns: Whittling Blade(1)\nOn Failure Returns: Whittling Blade(1)\nNotes: EQRecipeID: 73374"
+    }
+  ],
+  "restriction_review": {
+    "scope": "One absentCarvedShadewoodRecurveBow(sinew) route3094479 producing75725, not a duplicate existing output recipe or verified alternative formula.",
+    "era": "LABELLED_RECONSTRUCTION from maintainedgenericBows primary formula/physicalIDs. Newfloor8configuredOmens-associatedavailabilityPOLICY/min0/mustlearn0/no book proposed; not immutableMay2013 per-field/introduction/nativecraftproof. MurkgliderSinew ingredient association is not itself exact-dateproof. No period claim from ID/EQRecipeID/nativecreated/header.",
+    "quantity": "LiteralYield1/trivial255; WhittlingBlade8085 explicitlyreturned1success/failure withsalvage0. Allthree inputquantities1, no defaultquantity or toolconsumption inferred.",
+    "containers": "Exactpositive17910/17762/17189links; existingnativebag18/eightslots/size3 and inputsize fit. Racial/furniture links unqualified, no generic18widening.",
+    "preservation": "188primaryIDs reviewed in finiteBasicBows131. Onlytwo qualifiedresidual fullinputchecks needed; this route0 acrossallskills and0expectedoutputproducer. Savedname147snapshot plus actual110-115affectedpostimages exclude exactname conflict. Sevennativephysicaldependencies pinned. DullEnergeiacBow separatelyheld for era/policydisposition; no genericfloor0default.",
+    "query_guard": "Necessary indexed physicalinput anchor/fullmultiset/effectivekit/self-ID/enabledguard; unchangedten-second sessionbound, fullnewpostimages and learnedrefrollbackguard. No rehearsal or SQL invocation.",
+    "limits": "Source-only proposal requires exact Coordinator reconstruction/floor8disposition/GitHubpublication/separateSQLGO. No item/player/vendor/quest/spell/AA/build/runtime/nativecombine or historical-universe closure."
+  },
+  "held_source_rows": [
+    {
+      "name": "Dull Energeiac Bow",
+      "reason": "Zero current input/output matches and explicit formula; independent throughRoF/currentavailability policy still needs source disposition, no genericfloor0 default."
+    }
+  ],
+  "source_urls": [
+    "https://www.eqtraders.com/recipes/recipe_page.php?article=41&rsa=Fletching&sub=bow"
+  ],
+  "source_arrow_yield1_flags": [],
+  "migration_dependencies": []
+}
