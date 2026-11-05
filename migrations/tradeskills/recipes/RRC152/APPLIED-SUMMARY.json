@@ -1,0 +1,92 @@
+{
+  "format_version": 1,
+  "batch": "RRC152",
+  "source_commit": "8ed66003e6ac7263e11ce96bfcf7d4f736dfe89b",
+  "source_package_revision": 2,
+  "source_package_manifest_sha256": "85a1afe4125bc90e7ca5c0e45978b578c7368e9e32417ed12b3d47c3e6372a0a",
+  "source_sha256": "9c99e91092fbf30220ee96011f1f1bb63e689cae2b7cc7a87532b3309999d51a",
+  "application_status": "APPLIED_VERIFIED",
+  "SQL_invocations": 1,
+  "transaction_state_after": 0,
+  "recipes_added": 0,
+  "entries_added": 0,
+  "existing_recipe_definitions_updated": 12,
+  "existing_entry_rows_updated": 0,
+  "affected_recipe_ids": [
+    3537,
+    3539,
+    3546,
+    3547,
+    5066,
+    5068,
+    5074,
+    5075,
+    6050,
+    6052,
+    6058,
+    6059
+  ],
+  "exact_postimages": true,
+  "learned_references_unchanged": true,
+  "global_after_counts": {
+    "recipes": 26732,
+    "entries": 202912
+  },
+  "historical_qualification": "Twelve existing Acrylia Chain armor trivial corrections, individually sourced on small/medium/large variants: Bracelet156 to155, Coif205 to206, Skirt194 to195, Sleeves203 to202. Existing full ingredient/success/failure roles and common Forge17 match. Only trivial changes; all definitions/entryIDs/quantities/returns/salvage/kits/minimum/learning/availability/playerdata preserved. Current-primary reconstruction, not immutable2013/native combine proof. No sibling numeric inference: each of the12 source views explicitly supplies its value.",
+  "original_source_batch_scope": {
+    "batch": "RRC152",
+    "apply_sha256": "9c99e91092fbf30220ee96011f1f1bb63e689cae2b7cc7a87532b3309999d51a",
+    "rollback_sha256": "a020cba877137a225e76cdf7aff21bf40f5e49b46e3669257a216151378e26da",
+    "original_manifest": "outputs/recipe-publication-RRC152/PUBLIC-MANIFEST.json",
+    "original_manifest_sha256": "733e2a14e3665acdf8190688e06cf8c96a895c52bf28c9a416ff0f5bf8e05b66",
+    "counts": {
+      "new_recipes": 0,
+      "new_entries": 0,
+      "existing_recipe_definitions_updated": 12,
+      "existing_entry_rows_updated": 0
+    },
+    "source_counts": {
+      "recipes_added": 0,
+      "entries_added": 0,
+      "definitions_updated": 12,
+      "full_entries_preserved": 72
+    },
+    "changed_recipe_fields": {
+      "trivial": 12
+    },
+    "declared_migration_dependencies": [],
+    "proposed_ids": null,
+    "affected_existing_recipe_ids": [
+      3537,
+      3539,
+      3546,
+      3547,
+      5066,
+      5068,
+      5074,
+      5075,
+      6050,
+      6052,
+      6058,
+      6059
+    ]
+  },
+  "original_source_policy_dispositions": {
+    "ordinary": "Specified new expansion floors and ordinary minimum/learning/quest/salvage conventions accepted as configured reconstruction policies, not recovered historical facts.",
+    "RRC132_RRC135": "Current-primary ingredients selected; contradictory native book prose remains historically unresolved.",
+    "RRC136": "must_learn1/book134651 accepted as native-family reconstruction POLICY; missing-parts Boot remains excluded.",
+    "RRC138": "Enable101 canonical definitions only; unchanged peers preserved.",
+    "RRC153": "Recharge count5 encodes one fully charged helm; initial manufacturing charges remain held.",
+    "other_holds": "All original exclusions, missing native items, era, charge, chance, return omissions, quest/racial/station and actor limitations remain."
+  },
+  "declared_dependency_order": {
+    "row_preimage_overlaps": [],
+    "declared_batch_dependencies": [],
+    "explanation": "No cross-batch definition/entry write versus declared full preimage overlap. Ascending apply/reverse rollback is the conservative sequence. Existing unchanged-peer, native dependency, input/output collision and learned-reference guards remain in each original SQL file; no guard is waived."
+  },
+  "player_item_writes": false,
+  "native_actions": false,
+  "native_acceptance": false,
+  "source_documents": "Four original source files preserved verbatim; preparation-time labels remain historical. This separate summary records actual closed application.",
+  "private_backup_and_authorization_material_excluded": true
+}

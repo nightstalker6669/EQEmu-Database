@@ -1,0 +1,99 @@
+{
+  "format_version": 1,
+  "batch": "RRC132",
+  "source_commit": "8ed66003e6ac7263e11ce96bfcf7d4f736dfe89b",
+  "source_package_revision": 2,
+  "source_package_manifest_sha256": "85a1afe4125bc90e7ca5c0e45978b578c7368e9e32417ed12b3d47c3e6372a0a",
+  "source_sha256": "24b1af113b965113abd0aedeb98adb1b4692f24b791a8c2c402a5b4ade733d82",
+  "application_status": "APPLIED_VERIFIED",
+  "SQL_invocations": 1,
+  "transaction_state_after": 0,
+  "recipes_added": 21,
+  "entries_added": 224,
+  "existing_recipe_definitions_updated": 0,
+  "existing_entry_rows_updated": 0,
+  "affected_recipe_ids": [
+    3094593,
+    3094594,
+    3094595,
+    3094596,
+    3094597,
+    3094598,
+    3094599,
+    3094600,
+    3094601,
+    3094602,
+    3094603,
+    3094604,
+    3094605,
+    3094606,
+    3094607,
+    3094608,
+    3094609,
+    3094610,
+    3094611,
+    3094612,
+    3094613
+  ],
+  "exact_postimages": true,
+  "learned_references_unchanged": true,
+  "global_after_counts": {
+    "recipes": 26437,
+    "entries": 199944
+  },
+  "historical_qualification": {
+    "scope": "21 absent Glorious Gnomish armor bodies, IDs3094593\u20133094613.",
+    "learning": "All21 explicitly must scribe Glorious Gnomish Cultural Tinkering, bound to existing native112584/class2/type60/filename TSCultTinkeringGNM95 with its text hash guarded. Seven Autoactuated plate views explicitly require skill300; the other14 omit a minimum and propose skillneeded0 as a policy choice requiring Coordinator acceptance. Do not infer a common minimum or remove book gating.",
+    "book_conflicts": "Explicit disposition required: current primary plate/chain bodies use Glossy Fortified Bronze and Shiny Coal, while native book prose says Indurate Fortified Bronze and Purified Coal; primary cloth uses Exotic Spinneret Fluid while the book says Fantastic. Book correctly names palladium/exotic templates and some new materials but mixes older descriptions. Proposed bodies select current primary ingredients; preserve the text and disclose these conflicts as historically unresolved.",
+    "containers": "All21 explicitly list only Deluxe Toolbox17877 among portable kits. Plate/chain/cloth need10/9/8 units. No Collapsible or ordinary Toolbox link is inferred from the related HoT family.",
+    "era": "Maintained-primary VoA reconstruction. Expansion floor18 is proposed configured availability POLICY, maximum-1, not authenticated introduction or immutable2013 per-field/native proof. Do not use item IDs, native creation times or current category labels as exact dating receipts.",
+    "quantity": "All selected views explicitly yield1 with numeric trivials and positive component quantities. No success/failure tool-return fields occur in these views, so none are invented. New consumed-component salvagecount=componentcount is local policy, not historical salvage authentication.",
+    "preservation": "268 primary references resolved and270 selected native dependencies including both books read fresh for the finite158-view review. All158 all-skill/all-state full-input checks are0 and selected output/name producer snapshots are empty. This packet guards only its used dependencies/new targets, with indexed total/per-itemSUM effective-kit collision guards before/after. Existing items/recipes/books/gates/player learning/inventory/quests are unchanged.",
+    "limits": "Source proposal only pending Coordinator floor18/current-primary/minimum/book/typo/kit dispositions as applicable, exact GitHub publication and separate SQL GO. No SQL invocation/rehearsal/tests/build/runtime/client/schema/API change, native actor acceptance or historical-universe closure."
+  },
+  "original_source_batch_scope": {
+    "batch": "RRC132",
+    "apply_sha256": "24b1af113b965113abd0aedeb98adb1b4692f24b791a8c2c402a5b4ade733d82",
+    "rollback_sha256": "d21e056de2899d063b1dca7c621dcaee887b686ce4ee0974376ffaa8224b6f7d",
+    "original_manifest": "outputs/recipe-publication-RRC132/PUBLIC-MANIFEST.json",
+    "original_manifest_sha256": "a0c1502055acf680b7e0d5cff82e78f90482cb23da45742bc0e982acf3f5a552",
+    "counts": {
+      "new_recipes": 21,
+      "new_entries": 224,
+      "existing_recipe_definitions_updated": 0,
+      "existing_entry_rows_updated": 0
+    },
+    "source_counts": {
+      "recipes": 21,
+      "entries": 224,
+      "item_dependencies": 71,
+      "unchanged_prototype_recipes": 0,
+      "unchanged_prototype_entries": 0
+    },
+    "changed_recipe_fields": {},
+    "declared_migration_dependencies": [],
+    "proposed_ids": [
+      3094593,
+      3094613
+    ],
+    "affected_existing_recipe_ids": []
+  },
+  "original_source_policy_dispositions": {
+    "ordinary": "Specified new expansion floors and ordinary minimum/learning/quest/salvage conventions accepted as configured reconstruction policies, not recovered historical facts.",
+    "RRC132_RRC135": "Current-primary ingredients selected; contradictory native book prose remains historically unresolved.",
+    "RRC136": "must_learn1/book134651 accepted as native-family reconstruction POLICY; missing-parts Boot remains excluded.",
+    "RRC138": "Enable101 canonical definitions only; unchanged peers preserved.",
+    "RRC153": "Recharge count5 encodes one fully charged helm; initial manufacturing charges remain held.",
+    "other_holds": "All original exclusions, missing native items, era, charge, chance, return omissions, quest/racial/station and actor limitations remain."
+  },
+  "declared_dependency_order": {
+    "row_preimage_overlaps": [],
+    "declared_batch_dependencies": [],
+    "explanation": "No cross-batch definition/entry write versus declared full preimage overlap. Ascending apply/reverse rollback is the conservative sequence. Existing unchanged-peer, native dependency, input/output collision and learned-reference guards remain in each original SQL file; no guard is waived."
+  },
+  "player_item_writes": false,
+  "native_actions": false,
+  "native_acceptance": false,
+  "source_documents": "Four original source files preserved verbatim; preparation-time labels remain historical. This separate summary records actual closed application.",
+  "private_backup_and_authorization_material_excluded": true
+}

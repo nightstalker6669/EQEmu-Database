@@ -1,0 +1,7 @@
+# RRC138 DoN Tinkering availability
+
+Enable101 existing DoN canonical Tinkering recipes28645–28745 whose complete primary ingredient/success/failure/numeric/positive kit roles already match. ONLY enabled0→1 changes. All202 definitions otherwise and1975 entryIDs are pinned;101 other producer peers remain unchanged. Existing minimum0/learning0/book0/minexp9/max99/quest0/content flags and native Gnome skill/race access are preserved, not reconstructed from source omissions. Native item masks, player learning/inventory and quest data remain unchanged. Maintained-primary availability restoration, not original2013/nativecraft acceptance. Current DoN header2005 is context, not immutable per-field dating.
+
+84armor routes in four grades and17Sacredglove symbols are present but disabled. All101 selected all-skill/all-state full-input reads identify only their canonical route; no new body is added.250 primary/native dependencies pinned, capacity/kit/item semantics guarded. Full202 definitions/1975entries and selected output-producer universe guarded before/after; indexed101 full-input/effective-kit predicates. Explicit heat-source success/failure returns and existing salvage are preserved. Zero global rowdelta. No broad re-audit, refetch, SQL invocation, rehearsal/tests, compilation or runtime actions. Requires Coordinator exact activation disposition, publication and separate SQL GO.
+
+Source: https://www.eqtraders.com/recipes/recipe_page.php?article=297&rsa=Tinkering&sub=dron

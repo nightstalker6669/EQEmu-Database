@@ -1,0 +1,5606 @@
+{
+  "batch": "RRC130",
+  "branch": "rof2-tradeskills",
+  "status": "SOURCE_PROPOSAL_NOT_APPLIED_LABELLED_RECONSTRUCTION",
+  "proposed_ids": [
+    3094542,
+    3094571
+  ],
+  "counts": {
+    "recipes": 30,
+    "entries": 303,
+    "item_dependencies": 101,
+    "unchanged_prototype_recipes": 0,
+    "unchanged_prototype_entries": 0
+  },
+  "recipes": [
+    {
+      "id": 3094542,
+      "name": "Cosgrite Gear Assembly",
+      "tradeskill": 57,
+      "skillneeded": 0,
+      "trivial": 255,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary Underfoot Tinkering reconstruction; RRC130.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 16,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3094543,
+      "name": "Collapsed Chronal Transmutation Device",
+      "tradeskill": 57,
+      "skillneeded": 0,
+      "trivial": 402,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary Underfoot Tinkering reconstruction; RRC130.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 16,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3094544,
+      "name": "Stalwart Servolinked Cuirass",
+      "tradeskill": 57,
+      "skillneeded": 300,
+      "trivial": 526,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary Underfoot Tinkering reconstruction; RRC130.",
+      "must_learn": 1,
+      "learned_by_item_id": 50668,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 16,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3094545,
+      "name": "Stalwart Metalofiber Robes",
+      "tradeskill": 57,
+      "skillneeded": 300,
+      "trivial": 526,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary Underfoot Tinkering reconstruction; RRC130.",
+      "must_learn": 1,
+      "learned_by_item_id": 50668,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 16,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3094546,
+      "name": "Stalwart Autoactuated Cuirass",
+      "tradeskill": 57,
+      "skillneeded": 300,
+      "trivial": 526,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary Underfoot Tinkering reconstruction; RRC130.",
+      "must_learn": 1,
+      "learned_by_item_id": 50668,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 16,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3094547,
+      "name": "Stalwart Servolinked Greaves",
+      "tradeskill": 57,
+      "skillneeded": 300,
+      "trivial": 520,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary Underfoot Tinkering reconstruction; RRC130.",
+      "must_learn": 1,
+      "learned_by_item_id": 50668,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 16,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3094548,
+      "name": "Stalwart Metalofiber Breeches",
+      "tradeskill": 57,
+      "skillneeded": 300,
+      "trivial": 520,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary Underfoot Tinkering reconstruction; RRC130.",
+      "must_learn": 1,
+      "learned_by_item_id": 50668,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 16,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3094549,
+      "name": "Stalwart Autoactuated Greaves",
+      "tradeskill": 57,
+      "skillneeded": 300,
+      "trivial": 520,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary Underfoot Tinkering reconstruction; RRC130.",
+      "must_learn": 1,
+      "learned_by_item_id": 50668,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 16,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3094550,
+      "name": "Stalwart Servolinked Boots",
+      "tradeskill": 57,
+      "skillneeded": 300,
+      "trivial": 510,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary Underfoot Tinkering reconstruction; RRC130.",
+      "must_learn": 1,
+      "learned_by_item_id": 50668,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 16,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3094551,
+      "name": "Stalwart Metalofiber Boots",
+      "tradeskill": 57,
+      "skillneeded": 300,
+      "trivial": 510,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary Underfoot Tinkering reconstruction; RRC130.",
+      "must_learn": 1,
+      "learned_by_item_id": 50668,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 16,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3094552,
+      "name": "Stalwart Autoactuated Boots",
+      "tradeskill": 57,
+      "skillneeded": 300,
+      "trivial": 510,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary Underfoot Tinkering reconstruction; RRC130.",
+      "must_learn": 1,
+      "learned_by_item_id": 50668,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 16,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3094553,
+      "name": "Stalwart Servolinked Sleeves",
+      "tradeskill": 57,
+      "skillneeded": 300,
+      "trivial": 515,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary Underfoot Tinkering reconstruction; RRC130.",
+      "must_learn": 1,
+      "learned_by_item_id": 50668,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 16,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3094554,
+      "name": "Stalwart Metalofiber Sleeves",
+      "tradeskill": 57,
+      "skillneeded": 300,
+      "trivial": 515,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary Underfoot Tinkering reconstruction; RRC130.",
+      "must_learn": 1,
+      "learned_by_item_id": 50668,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 16,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3094555,
+      "name": "Stalwart Autoactuated Sleeves",
+      "tradeskill": 57,
+      "skillneeded": 300,
+      "trivial": 515,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary Underfoot Tinkering reconstruction; RRC130.",
+      "must_learn": 1,
+      "learned_by_item_id": 50668,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 16,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3094556,
+      "name": "Stalwart Servolinked Armband",
+      "tradeskill": 57,
+      "skillneeded": 300,
+      "trivial": 495,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary Underfoot Tinkering reconstruction; RRC130.",
+      "must_learn": 1,
+      "learned_by_item_id": 50668,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 16,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3094557,
+      "name": "Stalwart Metalofiber Armband",
+      "tradeskill": 57,
+      "skillneeded": 300,
+      "trivial": 495,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary Underfoot Tinkering reconstruction; RRC130.",
+      "must_learn": 1,
+      "learned_by_item_id": 50668,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 16,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3094558,
+      "name": "Stalwart Autoactuated Armband",
+      "tradeskill": 57,
+      "skillneeded": 300,
+      "trivial": 495,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary Underfoot Tinkering reconstruction; RRC130.",
+      "must_learn": 1,
+      "learned_by_item_id": 50668,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 16,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3094559,
+      "name": "Stalwart Servolinked Gloves",
+      "tradeskill": 57,
+      "skillneeded": 300,
+      "trivial": 500,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary Underfoot Tinkering reconstruction; RRC130.",
+      "must_learn": 1,
+      "learned_by_item_id": 50668,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 16,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3094560,
+      "name": "Stalwart Metalofiber Gloves",
+      "tradeskill": 57,
+      "skillneeded": 300,
+      "trivial": 500,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary Underfoot Tinkering reconstruction; RRC130.",
+      "must_learn": 1,
+      "learned_by_item_id": 50668,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 16,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3094561,
+      "name": "Stalwart Autoactuated Gloves",
+      "tradeskill": 57,
+      "skillneeded": 300,
+      "trivial": 500,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary Underfoot Tinkering reconstruction; RRC130.",
+      "must_learn": 1,
+      "learned_by_item_id": 50668,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 16,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3094562,
+      "name": "Stalwart Servolinked Helm",
+      "tradeskill": 57,
+      "skillneeded": 300,
+      "trivial": 504,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary Underfoot Tinkering reconstruction; RRC130.",
+      "must_learn": 1,
+      "learned_by_item_id": 50668,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 16,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3094563,
+      "name": "Stalwart Metalofiber Cap",
+      "tradeskill": 57,
+      "skillneeded": 300,
+      "trivial": 504,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary Underfoot Tinkering reconstruction; RRC130.",
+      "must_learn": 1,
+      "learned_by_item_id": 50668,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 16,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3094564,
+      "name": "Stalwart Autoactuated Helm",
+      "tradeskill": 57,
+      "skillneeded": 300,
+      "trivial": 504,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary Underfoot Tinkering reconstruction; RRC130.",
+      "must_learn": 1,
+      "learned_by_item_id": 50668,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 16,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3094565,
+      "name": "Cosgrove Chest Seal",
+      "tradeskill": 57,
+      "skillneeded": 0,
+      "trivial": 463,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary Underfoot Tinkering reconstruction; RRC130.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 16,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3094566,
+      "name": "Cosgrove Legging Seal",
+      "tradeskill": 57,
+      "skillneeded": 0,
+      "trivial": 451,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary Underfoot Tinkering reconstruction; RRC130.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 16,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3094567,
+      "name": "Cosgrove Boot Seal",
+      "tradeskill": 57,
+      "skillneeded": 0,
+      "trivial": 450,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary Underfoot Tinkering reconstruction; RRC130.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 16,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3094568,
+      "name": "Cosgrove Sleeve Seal",
+      "tradeskill": 57,
+      "skillneeded": 0,
+      "trivial": 447,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary Underfoot Tinkering reconstruction; RRC130.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 16,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3094569,
+      "name": "Cosgrove Wrist Seal",
+      "tradeskill": 57,
+      "skillneeded": 0,
+      "trivial": 442,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary Underfoot Tinkering reconstruction; RRC130.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 16,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3094570,
+      "name": "Cosgrove Glove Seal",
+      "tradeskill": 57,
+      "skillneeded": 0,
+      "trivial": 443,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary Underfoot Tinkering reconstruction; RRC130.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 16,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3094571,
+      "name": "Cosgrove Helm Seal",
+      "tradeskill": 57,
+      "skillneeded": 0,
+      "trivial": 446,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary Underfoot Tinkering reconstruction; RRC130.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 16,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    }
+  ],
+  "entries": [
+    {
+      "recipe_id": 3094542,
+      "item_id": 39659,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094542,
+      "item_id": 32614,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 2,
+      "salvagecount": 2,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094542,
+      "item_id": 45952,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094542,
+      "item_id": 63244,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 2,
+      "salvagecount": 2,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094542,
+      "item_id": 17276,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3094542,
+      "item_id": 17877,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3094542,
+      "item_id": 17902,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3094543,
+      "item_id": 48095,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094543,
+      "item_id": 40581,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094543,
+      "item_id": 34032,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094543,
+      "item_id": 16861,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094543,
+      "item_id": 65430,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 2,
+      "salvagecount": 2,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094543,
+      "item_id": 9181,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094543,
+      "item_id": 17276,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3094543,
+      "item_id": 17877,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3094543,
+      "item_id": 17902,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3094544,
+      "item_id": 49214,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094544,
+      "item_id": 34480,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094544,
+      "item_id": 16858,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094544,
+      "item_id": 63244,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094544,
+      "item_id": 38905,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094544,
+      "item_id": 48956,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094544,
+      "item_id": 16859,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094544,
+      "item_id": 49920,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094544,
+      "item_id": 49874,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094544,
+      "item_id": 13006,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094544,
+      "item_id": 17877,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3094545,
+      "item_id": 49215,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094545,
+      "item_id": 34495,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094545,
+      "item_id": 63244,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094545,
+      "item_id": 49850,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094545,
+      "item_id": 48908,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094545,
+      "item_id": 16888,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094545,
+      "item_id": 38800,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094545,
+      "item_id": 49904,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094545,
+      "item_id": 13006,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094545,
+      "item_id": 17877,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3094546,
+      "item_id": 49216,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094546,
+      "item_id": 34480,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094546,
+      "item_id": 29513,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094546,
+      "item_id": 65451,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 2,
+      "salvagecount": 2,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094546,
+      "item_id": 63244,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094546,
+      "item_id": 38905,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094546,
+      "item_id": 48956,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094546,
+      "item_id": 49920,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094546,
+      "item_id": 49886,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094546,
+      "item_id": 13006,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094546,
+      "item_id": 17877,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3094547,
+      "item_id": 49258,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094547,
+      "item_id": 34480,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094547,
+      "item_id": 16858,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094547,
+      "item_id": 63244,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094547,
+      "item_id": 38906,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094547,
+      "item_id": 48956,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094547,
+      "item_id": 16859,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094547,
+      "item_id": 49920,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094547,
+      "item_id": 49881,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094547,
+      "item_id": 13006,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094547,
+      "item_id": 17877,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3094548,
+      "item_id": 49259,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094548,
+      "item_id": 34495,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094548,
+      "item_id": 63244,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094548,
+      "item_id": 49857,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094548,
+      "item_id": 48908,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094548,
+      "item_id": 16888,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094548,
+      "item_id": 38801,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094548,
+      "item_id": 49904,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094548,
+      "item_id": 13006,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094548,
+      "item_id": 17877,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3094549,
+      "item_id": 49260,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094549,
+      "item_id": 34480,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094549,
+      "item_id": 29513,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094549,
+      "item_id": 65451,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 2,
+      "salvagecount": 2,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094549,
+      "item_id": 63244,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094549,
+      "item_id": 38906,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094549,
+      "item_id": 48956,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094549,
+      "item_id": 49920,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094549,
+      "item_id": 49893,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094549,
+      "item_id": 13006,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094549,
+      "item_id": 17877,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3094550,
+      "item_id": 49302,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094550,
+      "item_id": 34480,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094550,
+      "item_id": 16858,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094550,
+      "item_id": 63244,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094550,
+      "item_id": 38903,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094550,
+      "item_id": 48956,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094550,
+      "item_id": 16859,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094550,
+      "item_id": 49920,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094550,
+      "item_id": 49882,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094550,
+      "item_id": 13006,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094550,
+      "item_id": 17877,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3094551,
+      "item_id": 49303,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094551,
+      "item_id": 34495,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094551,
+      "item_id": 63244,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094551,
+      "item_id": 49858,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094551,
+      "item_id": 48908,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094551,
+      "item_id": 16888,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094551,
+      "item_id": 38798,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094551,
+      "item_id": 49904,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094551,
+      "item_id": 13006,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094551,
+      "item_id": 17877,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3094552,
+      "item_id": 49304,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094552,
+      "item_id": 34480,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094552,
+      "item_id": 29513,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094552,
+      "item_id": 65451,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 2,
+      "salvagecount": 2,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094552,
+      "item_id": 63244,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094552,
+      "item_id": 38903,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094552,
+      "item_id": 48956,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094552,
+      "item_id": 49920,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094552,
+      "item_id": 49894,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094552,
+      "item_id": 13006,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094552,
+      "item_id": 17877,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3094553,
+      "item_id": 49346,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094553,
+      "item_id": 34480,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094553,
+      "item_id": 16858,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094553,
+      "item_id": 63244,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094553,
+      "item_id": 38901,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094553,
+      "item_id": 48956,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094553,
+      "item_id": 16859,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094553,
+      "item_id": 49920,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094553,
+      "item_id": 49878,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094553,
+      "item_id": 13006,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094553,
+      "item_id": 17877,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3094554,
+      "item_id": 49347,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094554,
+      "item_id": 34495,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094554,
+      "item_id": 63244,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094554,
+      "item_id": 49854,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094554,
+      "item_id": 48908,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094554,
+      "item_id": 16888,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094554,
+      "item_id": 38796,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094554,
+      "item_id": 49904,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094554,
+      "item_id": 13006,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094554,
+      "item_id": 17877,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3094555,
+      "item_id": 49348,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094555,
+      "item_id": 34480,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094555,
+      "item_id": 29513,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094555,
+      "item_id": 65451,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 2,
+      "salvagecount": 2,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094555,
+      "item_id": 63244,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094555,
+      "item_id": 38901,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094555,
+      "item_id": 48956,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094555,
+      "item_id": 49920,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094555,
+      "item_id": 49890,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094555,
+      "item_id": 13006,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094555,
+      "item_id": 17877,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3094556,
+      "item_id": 49390,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094556,
+      "item_id": 34480,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094556,
+      "item_id": 16858,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094556,
+      "item_id": 63244,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094556,
+      "item_id": 38900,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094556,
+      "item_id": 48956,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094556,
+      "item_id": 16859,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094556,
+      "item_id": 49920,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094556,
+      "item_id": 49879,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094556,
+      "item_id": 13006,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094556,
+      "item_id": 17877,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3094557,
+      "item_id": 49391,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094557,
+      "item_id": 34495,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094557,
+      "item_id": 63244,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094557,
+      "item_id": 49855,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094557,
+      "item_id": 48908,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094557,
+      "item_id": 16888,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094557,
+      "item_id": 38795,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094557,
+      "item_id": 49904,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094557,
+      "item_id": 13006,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094557,
+      "item_id": 17877,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3094558,
+      "item_id": 49392,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094558,
+      "item_id": 34480,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094558,
+      "item_id": 29513,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094558,
+      "item_id": 65451,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 2,
+      "salvagecount": 2,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094558,
+      "item_id": 63244,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094558,
+      "item_id": 38900,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094558,
+      "item_id": 48956,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094558,
+      "item_id": 49920,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094558,
+      "item_id": 49891,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094558,
+      "item_id": 13006,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094558,
+      "item_id": 17877,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3094559,
+      "item_id": 49434,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094559,
+      "item_id": 34480,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094559,
+      "item_id": 16858,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094559,
+      "item_id": 63244,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094559,
+      "item_id": 38902,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094559,
+      "item_id": 48956,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094559,
+      "item_id": 16859,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094559,
+      "item_id": 49920,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094559,
+      "item_id": 49880,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094559,
+      "item_id": 13006,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094559,
+      "item_id": 17877,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3094560,
+      "item_id": 49435,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094560,
+      "item_id": 34495,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094560,
+      "item_id": 63244,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094560,
+      "item_id": 49856,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094560,
+      "item_id": 48908,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094560,
+      "item_id": 16888,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094560,
+      "item_id": 38797,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094560,
+      "item_id": 49904,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094560,
+      "item_id": 13006,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094560,
+      "item_id": 17877,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3094561,
+      "item_id": 49436,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094561,
+      "item_id": 34480,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094561,
+      "item_id": 29513,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094561,
+      "item_id": 65451,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 2,
+      "salvagecount": 2,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094561,
+      "item_id": 63244,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094561,
+      "item_id": 38902,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094561,
+      "item_id": 48956,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094561,
+      "item_id": 49920,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094561,
+      "item_id": 49892,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094561,
+      "item_id": 13006,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094561,
+      "item_id": 17877,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3094562,
+      "item_id": 49478,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094562,
+      "item_id": 34480,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094562,
+      "item_id": 16858,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094562,
+      "item_id": 63244,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094562,
+      "item_id": 38904,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094562,
+      "item_id": 48956,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094562,
+      "item_id": 16859,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094562,
+      "item_id": 49920,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094562,
+      "item_id": 49871,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094562,
+      "item_id": 13006,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094562,
+      "item_id": 17877,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3094563,
+      "item_id": 49479,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094563,
+      "item_id": 34495,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094563,
+      "item_id": 63244,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094563,
+      "item_id": 49846,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094563,
+      "item_id": 48908,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094563,
+      "item_id": 16888,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094563,
+      "item_id": 38799,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094563,
+      "item_id": 49904,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094563,
+      "item_id": 13006,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094563,
+      "item_id": 17877,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3094564,
+      "item_id": 49480,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094564,
+      "item_id": 34480,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094564,
+      "item_id": 29513,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094564,
+      "item_id": 65451,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 2,
+      "salvagecount": 2,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094564,
+      "item_id": 63244,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094564,
+      "item_id": 38904,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094564,
+      "item_id": 48956,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094564,
+      "item_id": 49920,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094564,
+      "item_id": 49883,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094564,
+      "item_id": 13006,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094564,
+      "item_id": 17877,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3094565,
+      "item_id": 49926,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094565,
+      "item_id": 34525,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094565,
+      "item_id": 49933,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094565,
+      "item_id": 63244,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 3,
+      "salvagecount": 3,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094565,
+      "item_id": 16503,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 2,
+      "salvagecount": 2,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094565,
+      "item_id": 33439,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094565,
+      "item_id": 48162,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094565,
+      "item_id": 10254,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094565,
+      "item_id": 17877,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3094566,
+      "item_id": 49927,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094566,
+      "item_id": 34532,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094566,
+      "item_id": 49933,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094566,
+      "item_id": 63244,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 3,
+      "salvagecount": 3,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094566,
+      "item_id": 16503,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 2,
+      "salvagecount": 2,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094566,
+      "item_id": 33439,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094566,
+      "item_id": 48162,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094566,
+      "item_id": 10254,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094566,
+      "item_id": 17877,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3094567,
+      "item_id": 49928,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094567,
+      "item_id": 34533,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094567,
+      "item_id": 49933,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094567,
+      "item_id": 63244,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 3,
+      "salvagecount": 3,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094567,
+      "item_id": 16503,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 2,
+      "salvagecount": 2,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094567,
+      "item_id": 33439,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094567,
+      "item_id": 48162,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094567,
+      "item_id": 10254,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094567,
+      "item_id": 17877,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3094568,
+      "item_id": 49929,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094568,
+      "item_id": 34529,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094568,
+      "item_id": 49933,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094568,
+      "item_id": 63244,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 3,
+      "salvagecount": 3,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094568,
+      "item_id": 16503,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 2,
+      "salvagecount": 2,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094568,
+      "item_id": 33439,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094568,
+      "item_id": 48162,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094568,
+      "item_id": 10254,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094568,
+      "item_id": 17877,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3094569,
+      "item_id": 49930,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094569,
+      "item_id": 34530,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094569,
+      "item_id": 49933,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094569,
+      "item_id": 63244,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 3,
+      "salvagecount": 3,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094569,
+      "item_id": 16503,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 2,
+      "salvagecount": 2,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094569,
+      "item_id": 33439,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094569,
+      "item_id": 48162,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094569,
+      "item_id": 10254,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094569,
+      "item_id": 17877,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3094570,
+      "item_id": 49931,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094570,
+      "item_id": 34531,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094570,
+      "item_id": 49933,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094570,
+      "item_id": 63244,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 3,
+      "salvagecount": 3,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094570,
+      "item_id": 16503,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 2,
+      "salvagecount": 2,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094570,
+      "item_id": 33439,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094570,
+      "item_id": 48162,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094570,
+      "item_id": 10254,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094570,
+      "item_id": 17877,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3094571,
+      "item_id": 49932,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094571,
+      "item_id": 34522,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094571,
+      "item_id": 49933,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094571,
+      "item_id": 63244,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 3,
+      "salvagecount": 3,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094571,
+      "item_id": 16503,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 2,
+      "salvagecount": 2,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094571,
+      "item_id": 33439,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094571,
+      "item_id": 48162,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094571,
+      "item_id": 10254,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094571,
+      "item_id": 17877,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    }
+  ],
+  "item_dependencies": [
+    {
+      "id": 9181,
+      "name": "Mana Battery - Class Six"
+    },
+    {
+      "id": 10254,
+      "name": "Vial of Purified Mana"
+    },
+    {
+      "id": 13006,
+      "name": "Water Flask"
+    },
+    {
+      "id": 16503,
+      "name": "Platinum Bar"
+    },
+    {
+      "id": 16858,
+      "name": "Gears"
+    },
+    {
+      "id": 16859,
+      "name": "Sprockets"
+    },
+    {
+      "id": 16861,
+      "name": "Gnomish Bolts"
+    },
+    {
+      "id": 16888,
+      "name": "Metal Fastening"
+    },
+    {
+      "id": 17276,
+      "name": "Collapsible Toolbox"
+    },
+    {
+      "id": 17877,
+      "name": "Deluxe Toolbox"
+    },
+    {
+      "id": 17902,
+      "name": "Toolbox"
+    },
+    {
+      "id": 29513,
+      "name": "Cogs"
+    },
+    {
+      "id": 32614,
+      "name": "Clockwork Gnome Spring"
+    },
+    {
+      "id": 33439,
+      "name": "Seal Pattern"
+    },
+    {
+      "id": 34032,
+      "name": "Collapsed Gnomish Recharging Kit"
+    },
+    {
+      "id": 34480,
+      "name": "Brimstone Coal"
+    },
+    {
+      "id": 34495,
+      "name": "Faysilk Filament"
+    },
+    {
+      "id": 34522,
+      "name": "Chainmail Coif Template Pattern"
+    },
+    {
+      "id": 34525,
+      "name": "Chainmail Chestguard Template Pattern"
+    },
+    {
+      "id": 34529,
+      "name": "Chainmail Arms Template Pattern"
+    },
+    {
+      "id": 34530,
+      "name": "Chainmail Bracer Template Pattern"
+    },
+    {
+      "id": 34531,
+      "name": "Chainmail Gloves Template Pattern"
+    },
+    {
+      "id": 34532,
+      "name": "Chainmail Legplates Template Pattern"
+    },
+    {
+      "id": 34533,
+      "name": "Chainmail Boots Template Pattern"
+    },
+    {
+      "id": 38795,
+      "name": "Pattern for Gnomish Wristguards"
+    },
+    {
+      "id": 38796,
+      "name": "Pattern for Gnomish Sleeves"
+    },
+    {
+      "id": 38797,
+      "name": "Pattern for Gnomish Gloves"
+    },
+    {
+      "id": 38798,
+      "name": "Pattern for Gnomish Boots"
+    },
+    {
+      "id": 38799,
+      "name": "Pattern for Gnomish Helms"
+    },
+    {
+      "id": 38800,
+      "name": "Pattern for Gnomish Tunics"
+    },
+    {
+      "id": 38801,
+      "name": "Pattern for Gnomish Leggings"
+    },
+    {
+      "id": 38900,
+      "name": "Mold for Gnomish Wristguards"
+    },
+    {
+      "id": 38901,
+      "name": "Mold for Gnomish Sleeves"
+    },
+    {
+      "id": 38902,
+      "name": "Mold for Gnomish Gloves"
+    },
+    {
+      "id": 38903,
+      "name": "Mold for Gnomish Boots"
+    },
+    {
+      "id": 38904,
+      "name": "Mold for Gnomish Helms"
+    },
+    {
+      "id": 38905,
+      "name": "Mold for Gnomish Chestplates"
+    },
+    {
+      "id": 38906,
+      "name": "Mold for Gnomish Leggings"
+    },
+    {
+      "id": 39659,
+      "name": "Cosgrite Gear Assembly"
+    },
+    {
+      "id": 40581,
+      "name": "Chronal Resonance Dust"
+    },
+    {
+      "id": 45952,
+      "name": "Cosgrite Bar"
+    },
+    {
+      "id": 48095,
+      "name": "Collapsed Chronal Transmutation Device"
+    },
+    {
+      "id": 48162,
+      "name": "Vanadium Ore"
+    },
+    {
+      "id": 48908,
+      "name": "Immaculate Spinneret Fluid"
+    },
+    {
+      "id": 48956,
+      "name": "Spongy Loam"
+    },
+    {
+      "id": 49214,
+      "name": "Stalwart Servolinked Cuirass"
+    },
+    {
+      "id": 49215,
+      "name": "Stalwart Metalofiber Robes"
+    },
+    {
+      "id": 49216,
+      "name": "Stalwart Autoactuated Cuirass"
+    },
+    {
+      "id": 49258,
+      "name": "Stalwart Servolinked Greaves"
+    },
+    {
+      "id": 49259,
+      "name": "Stalwart Metalofiber Breeches"
+    },
+    {
+      "id": 49260,
+      "name": "Stalwart Autoactuated Greaves"
+    },
+    {
+      "id": 49302,
+      "name": "Stalwart Servolinked Boots"
+    },
+    {
+      "id": 49303,
+      "name": "Stalwart Metalofiber Boots"
+    },
+    {
+      "id": 49304,
+      "name": "Stalwart Autoactuated Boots"
+    },
+    {
+      "id": 49346,
+      "name": "Stalwart Servolinked Sleeves"
+    },
+    {
+      "id": 49347,
+      "name": "Stalwart Metalofiber Sleeves"
+    },
+    {
+      "id": 49348,
+      "name": "Stalwart Autoactuated Sleeves"
+    },
+    {
+      "id": 49390,
+      "name": "Stalwart Servolinked Armband"
+    },
+    {
+      "id": 49391,
+      "name": "Stalwart Metalofiber Armband"
+    },
+    {
+      "id": 49392,
+      "name": "Stalwart Autoactuated Armband"
+    },
+    {
+      "id": 49434,
+      "name": "Stalwart Servolinked Gloves"
+    },
+    {
+      "id": 49435,
+      "name": "Stalwart Metalofiber Gloves"
+    },
+    {
+      "id": 49436,
+      "name": "Stalwart Autoactuated Gloves"
+    },
+    {
+      "id": 49478,
+      "name": "Stalwart Servolinked Helm"
+    },
+    {
+      "id": 49479,
+      "name": "Stalwart Metalofiber Cap"
+    },
+    {
+      "id": 49480,
+      "name": "Stalwart Autoactuated Helm"
+    },
+    {
+      "id": 49846,
+      "name": "Immaculate Silk Cap Template"
+    },
+    {
+      "id": 49850,
+      "name": "Immaculate Silk Robe Template"
+    },
+    {
+      "id": 49854,
+      "name": "Immaculate Silk Sleeve Template"
+    },
+    {
+      "id": 49855,
+      "name": "Immaculate Silk Wristband Template"
+    },
+    {
+      "id": 49856,
+      "name": "Immaculate Silk Glove Template"
+    },
+    {
+      "id": 49857,
+      "name": "Immaculate Silk Pant Template"
+    },
+    {
+      "id": 49858,
+      "name": "Immaculate Silk Boot Template"
+    },
+    {
+      "id": 49871,
+      "name": "Vanadium Chain Coif Template"
+    },
+    {
+      "id": 49874,
+      "name": "Vanadium Chain Chestguard Template"
+    },
+    {
+      "id": 49878,
+      "name": "Vanadium Chain Arms Template"
+    },
+    {
+      "id": 49879,
+      "name": "Vanadium Chain Bracer Template"
+    },
+    {
+      "id": 49880,
+      "name": "Vanadium Chain Gloves Template"
+    },
+    {
+      "id": 49881,
+      "name": "Vanadium Chain Legplates Template"
+    },
+    {
+      "id": 49882,
+      "name": "Vanadium Chain Boots Template"
+    },
+    {
+      "id": 49883,
+      "name": "Vanadium Plate Helm Template"
+    },
+    {
+      "id": 49886,
+      "name": "Vanadium Breastplate Template"
+    },
+    {
+      "id": 49890,
+      "name": "Vanadium Plate Vambrace Template"
+    },
+    {
+      "id": 49891,
+      "name": "Vanadium Plate Bracer Template"
+    },
+    {
+      "id": 49892,
+      "name": "Vanadium Plate Gauntlet Template"
+    },
+    {
+      "id": 49893,
+      "name": "Vanadium Plate Greaves Template"
+    },
+    {
+      "id": 49894,
+      "name": "Vanadium Plate Boot Template"
+    },
+    {
+      "id": 49904,
+      "name": "Steely Fortified Bronze Thread"
+    },
+    {
+      "id": 49920,
+      "name": "Steely Fortified Bronze"
+    },
+    {
+      "id": 49926,
+      "name": "Cosgrove Chest Seal"
+    },
+    {
+      "id": 49927,
+      "name": "Cosgrove Legging Seal"
+    },
+    {
+      "id": 49928,
+      "name": "Cosgrove Boot Seal"
+    },
+    {
+      "id": 49929,
+      "name": "Cosgrove Sleeve Seal"
+    },
+    {
+      "id": 49930,
+      "name": "Cosgrove Wrist Seal"
+    },
+    {
+      "id": 49931,
+      "name": "Cosgrove Glove Seal"
+    },
+    {
+      "id": 49932,
+      "name": "Cosgrove Helm Seal"
+    },
+    {
+      "id": 49933,
+      "name": "Cosgrove Water"
+    },
+    {
+      "id": 50668,
+      "name": "Stalwart Gnomish Cultural Tinkering"
+    },
+    {
+      "id": 63244,
+      "name": "Gnomish Heat Source"
+    },
+    {
+      "id": 65430,
+      "name": "Infused Gears"
+    },
+    {
+      "id": 65451,
+      "name": "Contraption Parts"
+    }
+  ],
+  "unchanged_prototype_recipes": [],
+  "unchanged_prototype_entries": [],
+  "source_facts": [
+    {
+      "recipe_id": 3094542,
+      "source_name": "Cosgrite Gear Assembly",
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=442&rsa=Tinkering&sub=UF",
+      "output_source_url": "https://www.eqtraders.com/items/show_item.php?item=32903&menustr=010000000000",
+      "output_item_id": 39659,
+      "trivial": 255,
+      "yield_count": 1,
+      "ingredients": [
+        {
+          "item_id": 32614,
+          "name": "Clockwork Gnome Spring",
+          "count": 2
+        },
+        {
+          "item_id": 45952,
+          "name": "Cosgrite Bar",
+          "count": 1
+        },
+        {
+          "item_id": 63244,
+          "name": "Gnomish Heat Source",
+          "count": 2
+        }
+      ],
+      "container_item_ids": [
+        17276,
+        17877,
+        17902
+      ],
+      "held_source_containers": [
+        {
+          "name": "Tinkering Table (Placeable)",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34406"
+        },
+        {
+          "name": "Guild Tinkering Table",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=38427"
+        },
+        {
+          "name": "Tinkering Table",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=40975"
+        }
+      ],
+      "skillneeded": 0,
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "source_formula": "Components: Clockwork Gnome Spring (2), Cosgrite Bar, Gnomish Heat Source (2)\nIn: Toolbox, Deluxe Toolbox, Collapsible Toolbox, Tinkering Table (Placeable), Guild Tinkering Table, Tinkering Table\nYield: 1\nThis combine may only be made by Gnomes\nNotes: EQRecipeID: 1836\nQuest: Tinkering Supplies (Artisan's Prize)"
+    },
+    {
+      "recipe_id": 3094543,
+      "source_name": "Collapsed Chronal Transmutation Device",
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=442&rsa=Tinkering&sub=UF",
+      "output_source_url": "https://www.eqtraders.com/items/show_item.php?item=33194&menustr=010000000000",
+      "output_item_id": 48095,
+      "trivial": 402,
+      "yield_count": 1,
+      "ingredients": [
+        {
+          "item_id": 40581,
+          "name": "Chronal Resonance Dust",
+          "count": 1
+        },
+        {
+          "item_id": 34032,
+          "name": "Collapsed Gnomish Recharging Kit",
+          "count": 1
+        },
+        {
+          "item_id": 16861,
+          "name": "Gnomish Bolts",
+          "count": 1
+        },
+        {
+          "item_id": 65430,
+          "name": "Infused Gears",
+          "count": 2
+        },
+        {
+          "item_id": 9181,
+          "name": "Mana Battery - Class Six",
+          "count": 1
+        }
+      ],
+      "container_item_ids": [
+        17276,
+        17877,
+        17902
+      ],
+      "held_source_containers": [
+        {
+          "name": "Tinkering Table (Placeable)",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34406"
+        },
+        {
+          "name": "Guild Tinkering Table",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=38427"
+        },
+        {
+          "name": "Tinkering Table",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=40975"
+        }
+      ],
+      "skillneeded": 0,
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "source_formula": "Components: Chronal Resonance Dust, Collapsed Gnomish Recharging Kit, Gnomish Bolts, Infused Gears (2), Mana Battery - Class Six\nIn: Toolbox, Deluxe Toolbox, Collapsible Toolbox, Tinkering Table (Placeable), Guild Tinkering Table, Tinkering Table\nYield: 1\nThis combine may only be made by Gnomes\nNotes: EQRecipeID: 1898"
+    },
+    {
+      "recipe_id": 3094544,
+      "source_name": "Stalwart Servolinked Cuirass",
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=442&rsa=Tinkering&sub=UF",
+      "output_source_url": "https://www.eqtraders.com/items/show_item.php?item=32927&menustr=010000000000",
+      "output_item_id": 49214,
+      "trivial": 526,
+      "yield_count": 1,
+      "ingredients": [
+        {
+          "item_id": 34480,
+          "name": "Brimstone Coal",
+          "count": 1
+        },
+        {
+          "item_id": 16858,
+          "name": "Gears",
+          "count": 1
+        },
+        {
+          "item_id": 63244,
+          "name": "Gnomish Heat Source",
+          "count": 1
+        },
+        {
+          "item_id": 38905,
+          "name": "Mold for Gnomish Chestplates",
+          "count": 1
+        },
+        {
+          "item_id": 48956,
+          "name": "Spongy Loam",
+          "count": 1
+        },
+        {
+          "item_id": 16859,
+          "name": "Sprockets",
+          "count": 1
+        },
+        {
+          "item_id": 49920,
+          "name": "Steely Fortified Bronze",
+          "count": 1
+        },
+        {
+          "item_id": 49874,
+          "name": "Vanadium Chain Chestguard Template",
+          "count": 1
+        },
+        {
+          "item_id": 13006,
+          "name": "Water Flask",
+          "count": 1
+        }
+      ],
+      "container_item_ids": [
+        17877
+      ],
+      "held_source_containers": [],
+      "skillneeded": 300,
+      "must_learn": 1,
+      "learned_by_item_id": 50668,
+      "source_formula": "Components: Brimstone Coal, Gears, Gnomish Heat Source, Mold for Gnomish Chestplates, Spongy Loam, Sprockets, Steely Fortified Bronze, Vanadium Chain Chestguard Template, Water Flask\nIn: Deluxe Toolbox\nYield: 1\nRequired Skill Level: 300\nThis combine may only be made by Gnomes\nNotes: You must purchase and scribe the 'Stalwart Gnomish Cultural Tinkering' scroll from a cultural tinkering historian at -145,735,3 outside the Library Entrance in the Plane of Knowledge in order to make any stalwart cultural armor."
+    },
+    {
+      "recipe_id": 3094545,
+      "source_name": "Stalwart Metalofiber Robes",
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=442&rsa=Tinkering&sub=UF",
+      "output_source_url": "https://www.eqtraders.com/items/show_item.php?item=32931&menustr=010000000000",
+      "output_item_id": 49215,
+      "trivial": 526,
+      "yield_count": 1,
+      "ingredients": [
+        {
+          "item_id": 34495,
+          "name": "Faysilk Filament",
+          "count": 1
+        },
+        {
+          "item_id": 63244,
+          "name": "Gnomish Heat Source",
+          "count": 1
+        },
+        {
+          "item_id": 49850,
+          "name": "Immaculate Silk Robe Template",
+          "count": 1
+        },
+        {
+          "item_id": 48908,
+          "name": "Immaculate Spinneret Fluid",
+          "count": 1
+        },
+        {
+          "item_id": 16888,
+          "name": "Metal Fastening",
+          "count": 1
+        },
+        {
+          "item_id": 38800,
+          "name": "Pattern for Gnomish Tunics",
+          "count": 1
+        },
+        {
+          "item_id": 49904,
+          "name": "Steely Fortified Bronze Thread",
+          "count": 1
+        },
+        {
+          "item_id": 13006,
+          "name": "Water Flask",
+          "count": 1
+        }
+      ],
+      "container_item_ids": [
+        17877
+      ],
+      "held_source_containers": [],
+      "skillneeded": 300,
+      "must_learn": 1,
+      "learned_by_item_id": 50668,
+      "source_formula": "Components: Faysilk Filament, Gnomish Heat Source, Immaculate Silk Robe Template, Immaculate Spinneret Fluid, Metal Fastening, Pattern for Gnomish Tunics, Steely Fortified Bronze Thread, Water Flask\nIn: Deluxe Toolbox\nYield: 1\nRequired Skill Level: 300\nThis combine may only be made by Gnomes\nNotes: You must purchase and scribe the 'Stalwart Gnomish Cultural Tinkering' scroll from a cultural tinkering historian at -145,735,3 outside the Library Entrance in the Plane of Knowledge in order to make any stalwart cultural armor."
+    },
+    {
+      "recipe_id": 3094546,
+      "source_name": "Stalwart Autoactuated Cuirass",
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=442&rsa=Tinkering&sub=UF",
+      "output_source_url": "https://www.eqtraders.com/items/show_item.php?item=32939&menustr=010000000000",
+      "output_item_id": 49216,
+      "trivial": 526,
+      "yield_count": 1,
+      "ingredients": [
+        {
+          "item_id": 34480,
+          "name": "Brimstone Coal",
+          "count": 1
+        },
+        {
+          "item_id": 29513,
+          "name": "Cogs",
+          "count": 1
+        },
+        {
+          "item_id": 65451,
+          "name": "Contraption Parts",
+          "count": 2
+        },
+        {
+          "item_id": 63244,
+          "name": "Gnomish Heat Source",
+          "count": 1
+        },
+        {
+          "item_id": 38905,
+          "name": "Mold for Gnomish Chestplates",
+          "count": 1
+        },
+        {
+          "item_id": 48956,
+          "name": "Spongy Loam",
+          "count": 1
+        },
+        {
+          "item_id": 49920,
+          "name": "Steely Fortified Bronze",
+          "count": 1
+        },
+        {
+          "item_id": 49886,
+          "name": "Vanadium Breastplate Template",
+          "count": 1
+        },
+        {
+          "item_id": 13006,
+          "name": "Water Flask",
+          "count": 1
+        }
+      ],
+      "container_item_ids": [
+        17877
+      ],
+      "held_source_containers": [],
+      "skillneeded": 300,
+      "must_learn": 1,
+      "learned_by_item_id": 50668,
+      "source_formula": "Components: Brimstone Coal, Cogs, Contraption Parts (2), Gnomish Heat Source, Mold for Gnomish Chestplates, Spongy Loam, Steely Fortified Bronze, Vanadium Breastplate Template, Water Flask\nIn: Deluxe Toolbox\nYield: 1\nRequired Skill Level: 300\nThis combine may only be made by Gnomes\nNotes: You must purchase and scribe the 'Stalwart Gnomish Cultural Tinkering' scroll from a cultural tinkering historian at -145,735,3 outside the Library Entrance in the Plane of Knowledge in order to make any stalwart cultural armor."
+    },
+    {
+      "recipe_id": 3094547,
+      "source_name": "Stalwart Servolinked Greaves",
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=442&rsa=Tinkering&sub=UF",
+      "output_source_url": "https://www.eqtraders.com/items/show_item.php?item=32929&menustr=010000000000",
+      "output_item_id": 49258,
+      "trivial": 520,
+      "yield_count": 1,
+      "ingredients": [
+        {
+          "item_id": 34480,
+          "name": "Brimstone Coal",
+          "count": 1
+        },
+        {
+          "item_id": 16858,
+          "name": "Gears",
+          "count": 1
+        },
+        {
+          "item_id": 63244,
+          "name": "Gnomish Heat Source",
+          "count": 1
+        },
+        {
+          "item_id": 38906,
+          "name": "Mold for Gnomish Leggings",
+          "count": 1
+        },
+        {
+          "item_id": 48956,
+          "name": "Spongy Loam",
+          "count": 1
+        },
+        {
+          "item_id": 16859,
+          "name": "Sprockets",
+          "count": 1
+        },
+        {
+          "item_id": 49920,
+          "name": "Steely Fortified Bronze",
+          "count": 1
+        },
+        {
+          "item_id": 49881,
+          "name": "Vanadium Chain Legplates Template",
+          "count": 1
+        },
+        {
+          "item_id": 13006,
+          "name": "Water Flask",
+          "count": 1
+        }
+      ],
+      "container_item_ids": [
+        17877
+      ],
+      "held_source_containers": [],
+      "skillneeded": 300,
+      "must_learn": 1,
+      "learned_by_item_id": 50668,
+      "source_formula": "Components: Brimstone Coal, Gears, Gnomish Heat Source, Mold for Gnomish Leggings, Spongy Loam, Sprockets, Steely Fortified Bronze, Vanadium Chain Legplates Template, Water Flask\nIn: Deluxe Toolbox\nYield: 1\nRequired Skill Level: 300\nThis combine may only be made by Gnomes\nNotes: You must purchase and scribe the 'Stalwart Gnomish Cultural Tinkering' scroll from a cultural tinkering historian at -145,735,3 outside the Library Entrance in the Plane of Knowledge in order to make any stalwart cultural armor."
+    },
+    {
+      "recipe_id": 3094548,
+      "source_name": "Stalwart Metalofiber Breeches",
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=442&rsa=Tinkering&sub=UF",
+      "output_source_url": "https://www.eqtraders.com/items/show_item.php?item=32934&menustr=010000000000",
+      "output_item_id": 49259,
+      "trivial": 520,
+      "yield_count": 1,
+      "ingredients": [
+        {
+          "item_id": 34495,
+          "name": "Faysilk Filament",
+          "count": 1
+        },
+        {
+          "item_id": 63244,
+          "name": "Gnomish Heat Source",
+          "count": 1
+        },
+        {
+          "item_id": 49857,
+          "name": "Immaculate Silk Pant Template",
+          "count": 1
+        },
+        {
+          "item_id": 48908,
+          "name": "Immaculate Spinneret Fluid",
+          "count": 1
+        },
+        {
+          "item_id": 16888,
+          "name": "Metal Fastening",
+          "count": 1
+        },
+        {
+          "item_id": 38801,
+          "name": "Pattern for Gnomish Leggings",
+          "count": 1
+        },
+        {
+          "item_id": 49904,
+          "name": "Steely Fortified Bronze Thread",
+          "count": 1
+        },
+        {
+          "item_id": 13006,
+          "name": "Water Flask",
+          "count": 1
+        }
+      ],
+      "container_item_ids": [
+        17877
+      ],
+      "held_source_containers": [],
+      "skillneeded": 300,
+      "must_learn": 1,
+      "learned_by_item_id": 50668,
+      "source_formula": "Components: Faysilk Filament, Gnomish Heat Source, Immaculate Silk Pant Template, Immaculate Spinneret Fluid, Metal Fastening, Pattern for Gnomish Leggings, Steely Fortified Bronze Thread, Water Flask\nIn: Deluxe Toolbox\nYield: 1\nRequired Skill Level: 300\nThis combine may only be made by Gnomes\nNotes: You must purchase and scribe the 'Stalwart Gnomish Cultural Tinkering' scroll from a cultural tinkering historian at -145,735,3 outside the Library Entrance in the Plane of Knowledge in order to make any stalwart cultural armor."
+    },
+    {
+      "recipe_id": 3094549,
+      "source_name": "Stalwart Autoactuated Greaves",
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=442&rsa=Tinkering&sub=UF",
+      "output_source_url": "https://www.eqtraders.com/items/show_item.php?item=32937&menustr=010000000000",
+      "output_item_id": 49260,
+      "trivial": 520,
+      "yield_count": 1,
+      "ingredients": [
+        {
+          "item_id": 34480,
+          "name": "Brimstone Coal",
+          "count": 1
+        },
+        {
+          "item_id": 29513,
+          "name": "Cogs",
+          "count": 1
+        },
+        {
+          "item_id": 65451,
+          "name": "Contraption Parts",
+          "count": 2
+        },
+        {
+          "item_id": 63244,
+          "name": "Gnomish Heat Source",
+          "count": 1
+        },
+        {
+          "item_id": 38906,
+          "name": "Mold for Gnomish Leggings",
+          "count": 1
+        },
+        {
+          "item_id": 48956,
+          "name": "Spongy Loam",
+          "count": 1
+        },
+        {
+          "item_id": 49920,
+          "name": "Steely Fortified Bronze",
+          "count": 1
+        },
+        {
+          "item_id": 49893,
+          "name": "Vanadium Plate Greaves Template",
+          "count": 1
+        },
+        {
+          "item_id": 13006,
+          "name": "Water Flask",
+          "count": 1
+        }
+      ],
+      "container_item_ids": [
+        17877
+      ],
+      "held_source_containers": [],
+      "skillneeded": 300,
+      "must_learn": 1,
+      "learned_by_item_id": 50668,
+      "source_formula": "Components: Brimstone Coal, Cogs, Contraption Parts (2), Gnomish Heat Source, Mold for Gnomish Leggings, Spongy Loam, Steely Fortified Bronze, Vanadium Plate Greaves Template, Water Flask\nIn: Deluxe Toolbox\nYield: 1\nRequired Skill Level: 300\nThis combine may only be made by Gnomes\nNotes: You must purchase and scribe the 'Stalwart Gnomish Cultural Tinkering' scroll from a cultural tinkering historian at -145,735,3 outside the Library Entrance in the Plane of Knowledge in order to make any stalwart cultural armor."
+    },
+    {
+      "recipe_id": 3094550,
+      "source_name": "Stalwart Servolinked Boots",
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=442&rsa=Tinkering&sub=UF",
+      "output_source_url": "https://www.eqtraders.com/items/show_item.php?item=32928&menustr=010000000000",
+      "output_item_id": 49302,
+      "trivial": 510,
+      "yield_count": 1,
+      "ingredients": [
+        {
+          "item_id": 34480,
+          "name": "Brimstone Coal",
+          "count": 1
+        },
+        {
+          "item_id": 16858,
+          "name": "Gears",
+          "count": 1
+        },
+        {
+          "item_id": 63244,
+          "name": "Gnomish Heat Source",
+          "count": 1
+        },
+        {
+          "item_id": 38903,
+          "name": "Mold for Gnomish Boots",
+          "count": 1
+        },
+        {
+          "item_id": 48956,
+          "name": "Spongy Loam",
+          "count": 1
+        },
+        {
+          "item_id": 16859,
+          "name": "Sprockets",
+          "count": 1
+        },
+        {
+          "item_id": 49920,
+          "name": "Steely Fortified Bronze",
+          "count": 1
+        },
+        {
+          "item_id": 49882,
+          "name": "Vanadium Chain Boots Template",
+          "count": 1
+        },
+        {
+          "item_id": 13006,
+          "name": "Water Flask",
+          "count": 1
+        }
+      ],
+      "container_item_ids": [
+        17877
+      ],
+      "held_source_containers": [],
+      "skillneeded": 300,
+      "must_learn": 1,
+      "learned_by_item_id": 50668,
+      "source_formula": "Components: Brimstone Coal, Gears, Gnomish Heat Source, Mold for Gnomish Boots, Spongy Loam, Sprockets, Steely Fortified Bronze, Vanadium Chain Boots Template, Water Flask\nIn: Deluxe Toolbox\nYield: 1\nRequired Skill Level: 300\nThis combine may only be made by Gnomes\nNotes: You must purchase and scribe the 'Stalwart Gnomish Cultural Tinkering' scroll from a cultural tinkering historian at -145,735,3 outside the Library Entrance in the Plane of Knowledge in order to make any stalwart cultural armor."
+    },
+    {
+      "recipe_id": 3094551,
+      "source_name": "Stalwart Metalofiber Boots",
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=442&rsa=Tinkering&sub=UF",
+      "output_source_url": "https://www.eqtraders.com/items/show_item.php?item=32935&menustr=010000000000",
+      "output_item_id": 49303,
+      "trivial": 510,
+      "yield_count": 1,
+      "ingredients": [
+        {
+          "item_id": 34495,
+          "name": "Faysilk Filament",
+          "count": 1
+        },
+        {
+          "item_id": 63244,
+          "name": "Gnomish Heat Source",
+          "count": 1
+        },
+        {
+          "item_id": 49858,
+          "name": "Immaculate Silk Boot Template",
+          "count": 1
+        },
+        {
+          "item_id": 48908,
+          "name": "Immaculate Spinneret Fluid",
+          "count": 1
+        },
+        {
+          "item_id": 16888,
+          "name": "Metal Fastening",
+          "count": 1
+        },
+        {
+          "item_id": 38798,
+          "name": "Pattern for Gnomish Boots",
+          "count": 1
+        },
+        {
+          "item_id": 49904,
+          "name": "Steely Fortified Bronze Thread",
+          "count": 1
+        },
+        {
+          "item_id": 13006,
+          "name": "Water Flask",
+          "count": 1
+        }
+      ],
+      "container_item_ids": [
+        17877
+      ],
+      "held_source_containers": [],
+      "skillneeded": 300,
+      "must_learn": 1,
+      "learned_by_item_id": 50668,
+      "source_formula": "Components: Faysilk Filament, Gnomish Heat Source, Immaculate Silk Boot Template, Immaculate Spinneret Fluid, Metal Fastening, Pattern for Gnomish Boots, Steely Fortified Bronze Thread, Water Flask\nIn: Deluxe Toolbox\nYield: 1\nRequired Skill Level: 300\nThis combine may only be made by Gnomes\nNotes: You must purchase and scribe the 'Stalwart Gnomish Cultural Tinkering' scroll from a cultural tinkering historian at -145,735,3 outside the Library Entrance in the Plane of Knowledge in order to make any stalwart cultural armor."
+    },
+    {
+      "recipe_id": 3094552,
+      "source_name": "Stalwart Autoactuated Boots",
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=442&rsa=Tinkering&sub=UF",
+      "output_source_url": "https://www.eqtraders.com/items/show_item.php?item=32942&menustr=010000000000",
+      "output_item_id": 49304,
+      "trivial": 510,
+      "yield_count": 1,
+      "ingredients": [
+        {
+          "item_id": 34480,
+          "name": "Brimstone Coal",
+          "count": 1
+        },
+        {
+          "item_id": 29513,
+          "name": "Cogs",
+          "count": 1
+        },
+        {
+          "item_id": 65451,
+          "name": "Contraption Parts",
+          "count": 2
+        },
+        {
+          "item_id": 63244,
+          "name": "Gnomish Heat Source",
+          "count": 1
+        },
+        {
+          "item_id": 38903,
+          "name": "Mold for Gnomish Boots",
+          "count": 1
+        },
+        {
+          "item_id": 48956,
+          "name": "Spongy Loam",
+          "count": 1
+        },
+        {
+          "item_id": 49920,
+          "name": "Steely Fortified Bronze",
+          "count": 1
+        },
+        {
+          "item_id": 49894,
+          "name": "Vanadium Plate Boot Template",
+          "count": 1
+        },
+        {
+          "item_id": 13006,
+          "name": "Water Flask",
+          "count": 1
+        }
+      ],
+      "container_item_ids": [
+        17877
+      ],
+      "held_source_containers": [],
+      "skillneeded": 300,
+      "must_learn": 1,
+      "learned_by_item_id": 50668,
+      "source_formula": "Components: Brimstone Coal, Cogs, Contraption Parts (2), Gnomish Heat Source, Mold for Gnomish Boots, Spongy Loam, Steely Fortified Bronze, Vanadium Plate Boot Template, Water Flask\nIn: Deluxe Toolbox\nYield: 1\nRequired Skill Level: 300\nThis combine may only be made by Gnomes\nNotes: You must purchase and scribe the 'Stalwart Gnomish Cultural Tinkering' scroll from a cultural tinkering historian at -145,735,3 outside the Library Entrance in the Plane of Knowledge in order to make any stalwart cultural armor."
+    },
+    {
+      "recipe_id": 3094553,
+      "source_name": "Stalwart Servolinked Sleeves",
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=442&rsa=Tinkering&sub=UF",
+      "output_source_url": "https://www.eqtraders.com/items/show_item.php?item=32924&menustr=010000000000",
+      "output_item_id": 49346,
+      "trivial": 515,
+      "yield_count": 1,
+      "ingredients": [
+        {
+          "item_id": 34480,
+          "name": "Brimstone Coal",
+          "count": 1
+        },
+        {
+          "item_id": 16858,
+          "name": "Gears",
+          "count": 1
+        },
+        {
+          "item_id": 63244,
+          "name": "Gnomish Heat Source",
+          "count": 1
+        },
+        {
+          "item_id": 38901,
+          "name": "Mold for Gnomish Sleeves",
+          "count": 1
+        },
+        {
+          "item_id": 48956,
+          "name": "Spongy Loam",
+          "count": 1
+        },
+        {
+          "item_id": 16859,
+          "name": "Sprockets",
+          "count": 1
+        },
+        {
+          "item_id": 49920,
+          "name": "Steely Fortified Bronze",
+          "count": 1
+        },
+        {
+          "item_id": 49878,
+          "name": "Vanadium Chain Arms Template",
+          "count": 1
+        },
+        {
+          "item_id": 13006,
+          "name": "Water Flask",
+          "count": 1
+        }
+      ],
+      "container_item_ids": [
+        17877
+      ],
+      "held_source_containers": [],
+      "skillneeded": 300,
+      "must_learn": 1,
+      "learned_by_item_id": 50668,
+      "source_formula": "Components: Brimstone Coal, Gears, Gnomish Heat Source, Mold for Gnomish Sleeves, Spongy Loam, Sprockets, Steely Fortified Bronze, Vanadium Chain Arms Template, Water Flask\nIn: Deluxe Toolbox\nYield: 1\nRequired Skill Level: 300\nThis combine may only be made by Gnomes\nNotes: You must purchase and scribe the 'Stalwart Gnomish Cultural Tinkering' scroll from a cultural tinkering historian at -145,735,3 outside the Library Entrance in the Plane of Knowledge in order to make any stalwart cultural armor."
+    },
+    {
+      "recipe_id": 3094554,
+      "source_name": "Stalwart Metalofiber Sleeves",
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=442&rsa=Tinkering&sub=UF",
+      "output_source_url": "https://www.eqtraders.com/items/show_item.php?item=32930&menustr=010000000000",
+      "output_item_id": 49347,
+      "trivial": 515,
+      "yield_count": 1,
+      "ingredients": [
+        {
+          "item_id": 34495,
+          "name": "Faysilk Filament",
+          "count": 1
+        },
+        {
+          "item_id": 63244,
+          "name": "Gnomish Heat Source",
+          "count": 1
+        },
+        {
+          "item_id": 49854,
+          "name": "Immaculate Silk Sleeve Template",
+          "count": 1
+        },
+        {
+          "item_id": 48908,
+          "name": "Immaculate Spinneret Fluid",
+          "count": 1
+        },
+        {
+          "item_id": 16888,
+          "name": "Metal Fastening",
+          "count": 1
+        },
+        {
+          "item_id": 38796,
+          "name": "Pattern for Gnomish Sleeves",
+          "count": 1
+        },
+        {
+          "item_id": 49904,
+          "name": "Steely Fortified Bronze Thread",
+          "count": 1
+        },
+        {
+          "item_id": 13006,
+          "name": "Water Flask",
+          "count": 1
+        }
+      ],
+      "container_item_ids": [
+        17877
+      ],
+      "held_source_containers": [],
+      "skillneeded": 300,
+      "must_learn": 1,
+      "learned_by_item_id": 50668,
+      "source_formula": "Components: Faysilk Filament, Gnomish Heat Source, Immaculate Silk Sleeve Template, Immaculate Spinneret Fluid, Metal Fastening, Pattern for Gnomish Sleeves, Steely Fortified Bronze Thread, Water Flask\nIn: Deluxe Toolbox\nYield: 1\nRequired Skill Level: 300\nThis combine may only be made by Gnomes\nNotes: You must purchase and scribe the 'Stalwart Gnomish Cultural Tinkering' scroll from a cultural tinkering historian at -145,735,3 outside the Library Entrance in the Plane of Knowledge in order to make any stalwart cultural armor."
+    },
+    {
+      "recipe_id": 3094555,
+      "source_name": "Stalwart Autoactuated Sleeves",
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=442&rsa=Tinkering&sub=UF",
+      "output_source_url": "https://www.eqtraders.com/items/show_item.php?item=32941&menustr=010000000000",
+      "output_item_id": 49348,
+      "trivial": 515,
+      "yield_count": 1,
+      "ingredients": [
+        {
+          "item_id": 34480,
+          "name": "Brimstone Coal",
+          "count": 1
+        },
+        {
+          "item_id": 29513,
+          "name": "Cogs",
+          "count": 1
+        },
+        {
+          "item_id": 65451,
+          "name": "Contraption Parts",
+          "count": 2
+        },
+        {
+          "item_id": 63244,
+          "name": "Gnomish Heat Source",
+          "count": 1
+        },
+        {
+          "item_id": 38901,
+          "name": "Mold for Gnomish Sleeves",
+          "count": 1
+        },
+        {
+          "item_id": 48956,
+          "name": "Spongy Loam",
+          "count": 1
+        },
+        {
+          "item_id": 49920,
+          "name": "Steely Fortified Bronze",
+          "count": 1
+        },
+        {
+          "item_id": 49890,
+          "name": "Vanadium Plate Vambrace Template",
+          "count": 1
+        },
+        {
+          "item_id": 13006,
+          "name": "Water Flask",
+          "count": 1
+        }
+      ],
+      "container_item_ids": [
+        17877
+      ],
+      "held_source_containers": [],
+      "skillneeded": 300,
+      "must_learn": 1,
+      "learned_by_item_id": 50668,
+      "source_formula": "Components: Brimstone Coal, Cogs, Contraption Parts (2), Gnomish Heat Source, Mold for Gnomish Sleeves, Spongy Loam, Steely Fortified Bronze, Vanadium Plate Vambrace Template, Water Flask\nIn: Deluxe Toolbox\nYield: 1\nRequired Skill Level: 300\nThis combine may only be made by Gnomes\nNotes: You must purchase and scribe the 'Stalwart Gnomish Cultural Tinkering' scroll from a cultural tinkering historian at -145,735,3 outside the Library Entrance in the Plane of Knowledge in order to make any stalwart cultural armor."
+    },
+    {
+      "recipe_id": 3094556,
+      "source_name": "Stalwart Servolinked Armband",
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=442&rsa=Tinkering&sub=UF",
+      "output_source_url": "https://www.eqtraders.com/items/show_item.php?item=32923&menustr=010000000000",
+      "output_item_id": 49390,
+      "trivial": 495,
+      "yield_count": 1,
+      "ingredients": [
+        {
+          "item_id": 34480,
+          "name": "Brimstone Coal",
+          "count": 1
+        },
+        {
+          "item_id": 16858,
+          "name": "Gears",
+          "count": 1
+        },
+        {
+          "item_id": 63244,
+          "name": "Gnomish Heat Source",
+          "count": 1
+        },
+        {
+          "item_id": 38900,
+          "name": "Mold for Gnomish Wristguards",
+          "count": 1
+        },
+        {
+          "item_id": 48956,
+          "name": "Spongy Loam",
+          "count": 1
+        },
+        {
+          "item_id": 16859,
+          "name": "Sprockets",
+          "count": 1
+        },
+        {
+          "item_id": 49920,
+          "name": "Steely Fortified Bronze",
+          "count": 1
+        },
+        {
+          "item_id": 49879,
+          "name": "Vanadium Chain Bracer Template",
+          "count": 1
+        },
+        {
+          "item_id": 13006,
+          "name": "Water Flask",
+          "count": 1
+        }
+      ],
+      "container_item_ids": [
+        17877
+      ],
+      "held_source_containers": [],
+      "skillneeded": 300,
+      "must_learn": 1,
+      "learned_by_item_id": 50668,
+      "source_formula": "Components: Brimstone Coal, Gears, Gnomish Heat Source, Mold for Gnomish Wristguards, Spongy Loam, Sprockets, Steely Fortified Bronze, Vanadium Chain Bracer Template, Water Flask\nIn: Deluxe Toolbox\nYield: 1\nRequired Skill Level: 300\nThis combine may only be made by Gnomes\nNotes: You must purchase and scribe the 'Stalwart Gnomish Cultural Tinkering' scroll from a cultural tinkering historian at -145,735,3 outside the Library Entrance in the Plane of Knowledge in order to make any stalwart cultural armor."
+    },
+    {
+      "recipe_id": 3094557,
+      "source_name": "Stalwart Metalofiber Armband",
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=442&rsa=Tinkering&sub=UF",
+      "output_source_url": "https://www.eqtraders.com/items/show_item.php?item=32936&menustr=010000000000",
+      "output_item_id": 49391,
+      "trivial": 495,
+      "yield_count": 1,
+      "ingredients": [
+        {
+          "item_id": 34495,
+          "name": "Faysilk Filament",
+          "count": 1
+        },
+        {
+          "item_id": 63244,
+          "name": "Gnomish Heat Source",
+          "count": 1
+        },
+        {
+          "item_id": 49855,
+          "name": "Immaculate Silk Wristband Template",
+          "count": 1
+        },
+        {
+          "item_id": 48908,
+          "name": "Immaculate Spinneret Fluid",
+          "count": 1
+        },
+        {
+          "item_id": 16888,
+          "name": "Metal Fastening",
+          "count": 1
+        },
+        {
+          "item_id": 38795,
+          "name": "Pattern for Gnomish Wristguards",
+          "count": 1
+        },
+        {
+          "item_id": 49904,
+          "name": "Steely Fortified Bronze Thread",
+          "count": 1
+        },
+        {
+          "item_id": 13006,
+          "name": "Water Flask",
+          "count": 1
+        }
+      ],
+      "container_item_ids": [
+        17877
+      ],
+      "held_source_containers": [],
+      "skillneeded": 300,
+      "must_learn": 1,
+      "learned_by_item_id": 50668,
+      "source_formula": "Components: Faysilk Filament, Gnomish Heat Source, Immaculate Silk Wristband Template, Immaculate Spinneret Fluid, Metal Fastening, Pattern for Gnomish Wristguards, Steely Fortified Bronze Thread, Water Flask\nIn: Deluxe Toolbox\nYield: 1\nRequired Skill Level: 300\nThis combine may only be made by Gnomes\nNotes: You must purchase and scribe the 'Stalwart Gnomish Cultural Tinkering' scroll from a cultural tinkering historian at -145,735,3 outside the Library Entrance in the Plane of Knowledge in order to make any stalwart cultural armor."
+    },
+    {
+      "recipe_id": 3094558,
+      "source_name": "Stalwart Autoactuated Armband",
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=442&rsa=Tinkering&sub=UF",
+      "output_source_url": "https://www.eqtraders.com/items/show_item.php?item=32943&menustr=010000000000",
+      "output_item_id": 49392,
+      "trivial": 495,
+      "yield_count": 1,
+      "ingredients": [
+        {
+          "item_id": 34480,
+          "name": "Brimstone Coal",
+          "count": 1
+        },
+        {
+          "item_id": 29513,
+          "name": "Cogs",
+          "count": 1
+        },
+        {
+          "item_id": 65451,
+          "name": "Contraption Parts",
+          "count": 2
+        },
+        {
+          "item_id": 63244,
+          "name": "Gnomish Heat Source",
+          "count": 1
+        },
+        {
+          "item_id": 38900,
+          "name": "Mold for Gnomish Wristguards",
+          "count": 1
+        },
+        {
+          "item_id": 48956,
+          "name": "Spongy Loam",
+          "count": 1
+        },
+        {
+          "item_id": 49920,
+          "name": "Steely Fortified Bronze",
+          "count": 1
+        },
+        {
+          "item_id": 49891,
+          "name": "Vanadium Plate Bracer Template",
+          "count": 1
+        },
+        {
+          "item_id": 13006,
+          "name": "Water Flask",
+          "count": 1
+        }
+      ],
+      "container_item_ids": [
+        17877
+      ],
+      "held_source_containers": [],
+      "skillneeded": 300,
+      "must_learn": 1,
+      "learned_by_item_id": 50668,
+      "source_formula": "Components: Brimstone Coal, Cogs, Contraption Parts (2), Gnomish Heat Source, Mold for Gnomish Wristguards, Spongy Loam, Steely Fortified Bronze, Vanadium Plate Bracer Template, Water Flask\nIn: Deluxe Toolbox\nYield: 1\nRequired Skill Level: 300\nThis combine may only be made by Gnomes\nNotes: You must purchase and scribe the 'Stalwart Gnomish Cultural Tinkering' scroll from a cultural tinkering historian at -145,735,3 outside the Library Entrance in the Plane of Knowledge in order to make any stalwart cultural armor."
+    },
+    {
+      "recipe_id": 3094559,
+      "source_name": "Stalwart Servolinked Gloves",
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=442&rsa=Tinkering&sub=UF",
+      "output_source_url": "https://www.eqtraders.com/items/show_item.php?item=32926&menustr=010000000000",
+      "output_item_id": 49434,
+      "trivial": 500,
+      "yield_count": 1,
+      "ingredients": [
+        {
+          "item_id": 34480,
+          "name": "Brimstone Coal",
+          "count": 1
+        },
+        {
+          "item_id": 16858,
+          "name": "Gears",
+          "count": 1
+        },
+        {
+          "item_id": 63244,
+          "name": "Gnomish Heat Source",
+          "count": 1
+        },
+        {
+          "item_id": 38902,
+          "name": "Mold for Gnomish Gloves",
+          "count": 1
+        },
+        {
+          "item_id": 48956,
+          "name": "Spongy Loam",
+          "count": 1
+        },
+        {
+          "item_id": 16859,
+          "name": "Sprockets",
+          "count": 1
+        },
+        {
+          "item_id": 49920,
+          "name": "Steely Fortified Bronze",
+          "count": 1
+        },
+        {
+          "item_id": 49880,
+          "name": "Vanadium Chain Gloves Template",
+          "count": 1
+        },
+        {
+          "item_id": 13006,
+          "name": "Water Flask",
+          "count": 1
+        }
+      ],
+      "container_item_ids": [
+        17877
+      ],
+      "held_source_containers": [],
+      "skillneeded": 300,
+      "must_learn": 1,
+      "learned_by_item_id": 50668,
+      "source_formula": "Components: Brimstone Coal, Gears, Gnomish Heat Source, Mold for Gnomish Gloves, Spongy Loam, Sprockets, Steely Fortified Bronze, Vanadium Chain Gloves Template, Water Flask\nIn: Deluxe Toolbox\nYield: 1\nRequired Skill Level: 300\nThis combine may only be made by Gnomes\nNotes: You must purchase and scribe the 'Stalwart Gnomish Cultural Tinkering' scroll from a cultural tinkering historian at -145,735,3 outside the Library Entrance in the Plane of Knowledge in order to make any stalwart cultural armor."
+    },
+    {
+      "recipe_id": 3094560,
+      "source_name": "Stalwart Metalofiber Gloves",
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=442&rsa=Tinkering&sub=UF",
+      "output_source_url": "https://www.eqtraders.com/items/show_item.php?item=32932&menustr=010000000000",
+      "output_item_id": 49435,
+      "trivial": 500,
+      "yield_count": 1,
+      "ingredients": [
+        {
+          "item_id": 34495,
+          "name": "Faysilk Filament",
+          "count": 1
+        },
+        {
+          "item_id": 63244,
+          "name": "Gnomish Heat Source",
+          "count": 1
+        },
+        {
+          "item_id": 49856,
+          "name": "Immaculate Silk Glove Template",
+          "count": 1
+        },
+        {
+          "item_id": 48908,
+          "name": "Immaculate Spinneret Fluid",
+          "count": 1
+        },
+        {
+          "item_id": 16888,
+          "name": "Metal Fastening",
+          "count": 1
+        },
+        {
+          "item_id": 38797,
+          "name": "Pattern for Gnomish Gloves",
+          "count": 1
+        },
+        {
+          "item_id": 49904,
+          "name": "Steely Fortified Bronze Thread",
+          "count": 1
+        },
+        {
+          "item_id": 13006,
+          "name": "Water Flask",
+          "count": 1
+        }
+      ],
+      "container_item_ids": [
+        17877
+      ],
+      "held_source_containers": [],
+      "skillneeded": 300,
+      "must_learn": 1,
+      "learned_by_item_id": 50668,
+      "source_formula": "Components: Faysilk Filament, Gnomish Heat Source, Immaculate Silk Glove Template, Immaculate Spinneret Fluid, Metal Fastening, Pattern for Gnomish Gloves, Steely Fortified Bronze Thread, Water Flask\nIn: Deluxe Toolbox\nYield: 1\nRequired Skill Level: 300\nThis combine may only be made by Gnomes\nNotes: You must purchase and scribe the 'Stalwart Gnomish Cultural Tinkering' scroll from a cultural tinkering historian at -145,735,3 outside the Library Entrance in the Plane of Knowledge in order to make any stalwart cultural armor."
+    },
+    {
+      "recipe_id": 3094561,
+      "source_name": "Stalwart Autoactuated Gloves",
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=442&rsa=Tinkering&sub=UF",
+      "output_source_url": "https://www.eqtraders.com/items/show_item.php?item=32938&menustr=010000000000",
+      "output_item_id": 49436,
+      "trivial": 500,
+      "yield_count": 1,
+      "ingredients": [
+        {
+          "item_id": 34480,
+          "name": "Brimstone Coal",
+          "count": 1
+        },
+        {
+          "item_id": 29513,
+          "name": "Cogs",
+          "count": 1
+        },
+        {
+          "item_id": 65451,
+          "name": "Contraption Parts",
+          "count": 2
+        },
+        {
+          "item_id": 63244,
+          "name": "Gnomish Heat Source",
+          "count": 1
+        },
+        {
+          "item_id": 38902,
+          "name": "Mold for Gnomish Gloves",
+          "count": 1
+        },
+        {
+          "item_id": 48956,
+          "name": "Spongy Loam",
+          "count": 1
+        },
+        {
+          "item_id": 49920,
+          "name": "Steely Fortified Bronze",
+          "count": 1
+        },
+        {
+          "item_id": 49892,
+          "name": "Vanadium Plate Gauntlet Template",
+          "count": 1
+        },
+        {
+          "item_id": 13006,
+          "name": "Water Flask",
+          "count": 1
+        }
+      ],
+      "container_item_ids": [
+        17877
+      ],
+      "held_source_containers": [],
+      "skillneeded": 300,
+      "must_learn": 1,
+      "learned_by_item_id": 50668,
+      "source_formula": "Components: Brimstone Coal, Cogs, Contraption Parts (2), Gnomish Heat Source, Mold for Gnomish Gloves, Spongy Loam, Steely Fortified Bronze, Vanadium Plate Gauntlet Template, Water Flask\nIn: Deluxe Toolbox\nYield: 1\nRequired Skill Level: 300\nThis combine may only be made by Gnomes\nNotes: You must purchase and scribe the 'Stalwart Gnomish Cultural Tinkering' scroll from a cultural tinkering historian at -145,735,3 outside the Library Entrance in the Plane of Knowledge in order to make any stalwart cultural armor."
+    },
+    {
+      "recipe_id": 3094562,
+      "source_name": "Stalwart Servolinked Helm",
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=442&rsa=Tinkering&sub=UF",
+      "output_source_url": "https://www.eqtraders.com/items/show_item.php?item=32925&menustr=010000000000",
+      "output_item_id": 49478,
+      "trivial": 504,
+      "yield_count": 1,
+      "ingredients": [
+        {
+          "item_id": 34480,
+          "name": "Brimstone Coal",
+          "count": 1
+        },
+        {
+          "item_id": 16858,
+          "name": "Gears",
+          "count": 1
+        },
+        {
+          "item_id": 63244,
+          "name": "Gnomish Heat Source",
+          "count": 1
+        },
+        {
+          "item_id": 38904,
+          "name": "Mold for Gnomish Helms",
+          "count": 1
+        },
+        {
+          "item_id": 48956,
+          "name": "Spongy Loam",
+          "count": 1
+        },
+        {
+          "item_id": 16859,
+          "name": "Sprockets",
+          "count": 1
+        },
+        {
+          "item_id": 49920,
+          "name": "Steely Fortified Bronze",
+          "count": 1
+        },
+        {
+          "item_id": 49871,
+          "name": "Vanadium Chain Coif Template",
+          "count": 1
+        },
+        {
+          "item_id": 13006,
+          "name": "Water Flask",
+          "count": 1
+        }
+      ],
+      "container_item_ids": [
+        17877
+      ],
+      "held_source_containers": [],
+      "skillneeded": 300,
+      "must_learn": 1,
+      "learned_by_item_id": 50668,
+      "source_formula": "Components: Brimstone Coal, Gears, Gnomish Heat Source, Mold for Gnomish Helms, Spongy Loam, Sprockets, Steely Fortified Bronze, Vanadium Chain Coif Template, Water Flask\nIn: Deluxe Toolbox\nYield: 1\nRequired Skill Level: 300\nThis combine may only be made by Gnomes\nNotes: You must purchase and scribe the 'Stalwart Gnomish Cultural Tinkering' scroll from a cultural tinkering historian at -145,735,3 outside the Library Entrance in the Plane of Knowledge in order to make any stalwart cultural armor."
+    },
+    {
+      "recipe_id": 3094563,
+      "source_name": "Stalwart Metalofiber Cap",
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=442&rsa=Tinkering&sub=UF",
+      "output_source_url": "https://www.eqtraders.com/items/show_item.php?item=32933&menustr=010000000000",
+      "output_item_id": 49479,
+      "trivial": 504,
+      "yield_count": 1,
+      "ingredients": [
+        {
+          "item_id": 34495,
+          "name": "Faysilk Filament",
+          "count": 1
+        },
+        {
+          "item_id": 63244,
+          "name": "Gnomish Heat Source",
+          "count": 1
+        },
+        {
+          "item_id": 49846,
+          "name": "Immaculate Silk Cap Template",
+          "count": 1
+        },
+        {
+          "item_id": 48908,
+          "name": "Immaculate Spinneret Fluid",
+          "count": 1
+        },
+        {
+          "item_id": 16888,
+          "name": "Metal Fastening",
+          "count": 1
+        },
+        {
+          "item_id": 38799,
+          "name": "Pattern for Gnomish Helms",
+          "count": 1
+        },
+        {
+          "item_id": 49904,
+          "name": "Steely Fortified Bronze Thread",
+          "count": 1
+        },
+        {
+          "item_id": 13006,
+          "name": "Water Flask",
+          "count": 1
+        }
+      ],
+      "container_item_ids": [
+        17877
+      ],
+      "held_source_containers": [],
+      "skillneeded": 300,
+      "must_learn": 1,
+      "learned_by_item_id": 50668,
+      "source_formula": "Components: Faysilk Filament, Gnomish Heat Source, Immaculate Silk Cap Template, Immaculate Spinneret Fluid, Metal Fastening, Pattern for Gnomish Helms, Steely Fortified Bronze Thread, Water Flask\nIn: Deluxe Toolbox\nYield: 1\nRequired Skill Level: 300\nThis combine may only be made by Gnomes\nNotes: You must purchase and scribe the 'Stalwart Gnomish Cultural Tinkering' scroll from a cultural tinkering historian at -145,735,3 outside the Library Entrance in the Plane of Knowledge in order to make any stalwart cultural armor."
+    },
+    {
+      "recipe_id": 3094564,
+      "source_name": "Stalwart Autoactuated Helm",
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=442&rsa=Tinkering&sub=UF",
+      "output_source_url": "https://www.eqtraders.com/items/show_item.php?item=32940&menustr=010000000000",
+      "output_item_id": 49480,
+      "trivial": 504,
+      "yield_count": 1,
+      "ingredients": [
+        {
+          "item_id": 34480,
+          "name": "Brimstone Coal",
+          "count": 1
+        },
+        {
+          "item_id": 29513,
+          "name": "Cogs",
+          "count": 1
+        },
+        {
+          "item_id": 65451,
+          "name": "Contraption Parts",
+          "count": 2
+        },
+        {
+          "item_id": 63244,
+          "name": "Gnomish Heat Source",
+          "count": 1
+        },
+        {
+          "item_id": 38904,
+          "name": "Mold for Gnomish Helms",
+          "count": 1
+        },
+        {
+          "item_id": 48956,
+          "name": "Spongy Loam",
+          "count": 1
+        },
+        {
+          "item_id": 49920,
+          "name": "Steely Fortified Bronze",
+          "count": 1
+        },
+        {
+          "item_id": 49883,
+          "name": "Vanadium Plate Helm Template",
+          "count": 1
+        },
+        {
+          "item_id": 13006,
+          "name": "Water Flask",
+          "count": 1
+        }
+      ],
+      "container_item_ids": [
+        17877
+      ],
+      "held_source_containers": [],
+      "skillneeded": 300,
+      "must_learn": 1,
+      "learned_by_item_id": 50668,
+      "source_formula": "Components: Brimstone Coal, Cogs, Contraption Parts (2), Gnomish Heat Source, Mold for Gnomish Helms, Spongy Loam, Steely Fortified Bronze, Vanadium Plate Helm Template, Water Flask\nIn: Deluxe Toolbox\nYield: 1\nRequired Skill Level: 300\nThis combine may only be made by Gnomes\nNotes: You must purchase and scribe the 'Stalwart Gnomish Cultural Tinkering' scroll from a cultural tinkering historian at -145,735,3 outside the Library Entrance in the Plane of Knowledge in order to make any stalwart cultural armor."
+    },
+    {
+      "recipe_id": 3094565,
+      "source_name": "Cosgrove Chest Seal",
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=442&rsa=Tinkering&sub=UF",
+      "output_source_url": "https://www.eqtraders.com/items/show_item.php?item=33069&menustr=010000000000",
+      "output_item_id": 49926,
+      "trivial": 463,
+      "yield_count": 1,
+      "ingredients": [
+        {
+          "item_id": 34525,
+          "name": "Chainmail Chestguard Template Pattern",
+          "count": 1
+        },
+        {
+          "item_id": 49933,
+          "name": "Cosgrove Water",
+          "count": 1
+        },
+        {
+          "item_id": 63244,
+          "name": "Gnomish Heat Source",
+          "count": 3
+        },
+        {
+          "item_id": 16503,
+          "name": "Platinum Bar",
+          "count": 2
+        },
+        {
+          "item_id": 33439,
+          "name": "Seal Pattern",
+          "count": 1
+        },
+        {
+          "item_id": 48162,
+          "name": "Vanadium Ore",
+          "count": 1
+        },
+        {
+          "item_id": 10254,
+          "name": "Vial of Purified Mana",
+          "count": 1
+        }
+      ],
+      "container_item_ids": [
+        17877
+      ],
+      "held_source_containers": [
+        {
+          "name": "Tinkering Table (Placeable)",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34406"
+        },
+        {
+          "name": "Guild Tinkering Table",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=38427"
+        },
+        {
+          "name": "Tinkering Table",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=40975"
+        }
+      ],
+      "skillneeded": 0,
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "source_formula": "Components: Chainmail Chestguard Template Pattern, Cosgrove Water, Gnomish Heat Source (3), Platinum Bar (2), Seal Pattern, Vanadium Ore, Vial of Purified Mana\nIn: Deluxe Toolbox, Tinkering Table (Placeable), Guild Tinkering Table, Tinkering Table\nYield: 1\nThis combine may only be made by Gnomes\nNotes: EQRecipeID: 24996"
+    },
+    {
+      "recipe_id": 3094566,
+      "source_name": "Cosgrove Legging Seal",
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=442&rsa=Tinkering&sub=UF",
+      "output_source_url": "https://www.eqtraders.com/items/show_item.php?item=33033&menustr=010000000000",
+      "output_item_id": 49927,
+      "trivial": 451,
+      "yield_count": 1,
+      "ingredients": [
+        {
+          "item_id": 34532,
+          "name": "Chainmail Legplates Template Pattern",
+          "count": 1
+        },
+        {
+          "item_id": 49933,
+          "name": "Cosgrove Water",
+          "count": 1
+        },
+        {
+          "item_id": 63244,
+          "name": "Gnomish Heat Source",
+          "count": 3
+        },
+        {
+          "item_id": 16503,
+          "name": "Platinum Bar",
+          "count": 2
+        },
+        {
+          "item_id": 33439,
+          "name": "Seal Pattern",
+          "count": 1
+        },
+        {
+          "item_id": 48162,
+          "name": "Vanadium Ore",
+          "count": 1
+        },
+        {
+          "item_id": 10254,
+          "name": "Vial of Purified Mana",
+          "count": 1
+        }
+      ],
+      "container_item_ids": [
+        17877
+      ],
+      "held_source_containers": [
+        {
+          "name": "Tinkering Table (Placeable)",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34406"
+        },
+        {
+          "name": "Guild Tinkering Table",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=38427"
+        },
+        {
+          "name": "Tinkering Table",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=40975"
+        }
+      ],
+      "skillneeded": 0,
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "source_formula": "Components: Chainmail Legplates Template Pattern, Cosgrove Water, Gnomish Heat Source (3), Platinum Bar (2), Seal Pattern, Vanadium Ore, Vial of Purified Mana\nIn: Deluxe Toolbox, Tinkering Table (Placeable), Guild Tinkering Table, Tinkering Table\nYield: 1\nThis combine may only be made by Gnomes\nNotes: EQRecipeID: 24997"
+    },
+    {
+      "recipe_id": 3094567,
+      "source_name": "Cosgrove Boot Seal",
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=442&rsa=Tinkering&sub=UF",
+      "output_source_url": "https://www.eqtraders.com/items/show_item.php?item=33072&menustr=010000000000",
+      "output_item_id": 49928,
+      "trivial": 450,
+      "yield_count": 1,
+      "ingredients": [
+        {
+          "item_id": 34533,
+          "name": "Chainmail Boots Template Pattern",
+          "count": 1
+        },
+        {
+          "item_id": 49933,
+          "name": "Cosgrove Water",
+          "count": 1
+        },
+        {
+          "item_id": 63244,
+          "name": "Gnomish Heat Source",
+          "count": 3
+        },
+        {
+          "item_id": 16503,
+          "name": "Platinum Bar",
+          "count": 2
+        },
+        {
+          "item_id": 33439,
+          "name": "Seal Pattern",
+          "count": 1
+        },
+        {
+          "item_id": 48162,
+          "name": "Vanadium Ore",
+          "count": 1
+        },
+        {
+          "item_id": 10254,
+          "name": "Vial of Purified Mana",
+          "count": 1
+        }
+      ],
+      "container_item_ids": [
+        17877
+      ],
+      "held_source_containers": [
+        {
+          "name": "Tinkering Table (Placeable)",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34406"
+        },
+        {
+          "name": "Guild Tinkering Table",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=38427"
+        },
+        {
+          "name": "Tinkering Table",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=40975"
+        }
+      ],
+      "skillneeded": 0,
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "source_formula": "Components: Chainmail Boots Template Pattern, Cosgrove Water, Gnomish Heat Source (3), Platinum Bar (2), Seal Pattern, Vanadium Ore, Vial of Purified Mana\nIn: Deluxe Toolbox, Tinkering Table (Placeable), Guild Tinkering Table, Tinkering Table\nYield: 1\nThis combine may only be made by Gnomes\nNotes: EQRecipeID: 24998"
+    },
+    {
+      "recipe_id": 3094568,
+      "source_name": "Cosgrove Sleeve Seal",
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=442&rsa=Tinkering&sub=UF",
+      "output_source_url": "https://www.eqtraders.com/items/show_item.php?item=33073&menustr=010000000000",
+      "output_item_id": 49929,
+      "trivial": 447,
+      "yield_count": 1,
+      "ingredients": [
+        {
+          "item_id": 34529,
+          "name": "Chainmail Arms Template Pattern",
+          "count": 1
+        },
+        {
+          "item_id": 49933,
+          "name": "Cosgrove Water",
+          "count": 1
+        },
+        {
+          "item_id": 63244,
+          "name": "Gnomish Heat Source",
+          "count": 3
+        },
+        {
+          "item_id": 16503,
+          "name": "Platinum Bar",
+          "count": 2
+        },
+        {
+          "item_id": 33439,
+          "name": "Seal Pattern",
+          "count": 1
+        },
+        {
+          "item_id": 48162,
+          "name": "Vanadium Ore",
+          "count": 1
+        },
+        {
+          "item_id": 10254,
+          "name": "Vial of Purified Mana",
+          "count": 1
+        }
+      ],
+      "container_item_ids": [
+        17877
+      ],
+      "held_source_containers": [
+        {
+          "name": "Tinkering Table (Placeable)",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34406"
+        },
+        {
+          "name": "Guild Tinkering Table",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=38427"
+        },
+        {
+          "name": "Tinkering Table",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=40975"
+        }
+      ],
+      "skillneeded": 0,
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "source_formula": "Components: Chainmail Arms Template Pattern, Cosgrove Water, Gnomish Heat Source (3), Platinum Bar (2), Seal Pattern, Vanadium Ore, Vial of Purified Mana\nIn: Deluxe Toolbox, Tinkering Table (Placeable), Guild Tinkering Table, Tinkering Table\nYield: 1\nThis combine may only be made by Gnomes\nNotes: EQRecipeID: 14999"
+    },
+    {
+      "recipe_id": 3094569,
+      "source_name": "Cosgrove Wrist Seal",
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=442&rsa=Tinkering&sub=UF",
+      "output_source_url": "https://www.eqtraders.com/items/show_item.php?item=33071&menustr=010000000000",
+      "output_item_id": 49930,
+      "trivial": 442,
+      "yield_count": 1,
+      "ingredients": [
+        {
+          "item_id": 34530,
+          "name": "Chainmail Bracer Template Pattern",
+          "count": 1
+        },
+        {
+          "item_id": 49933,
+          "name": "Cosgrove Water",
+          "count": 1
+        },
+        {
+          "item_id": 63244,
+          "name": "Gnomish Heat Source",
+          "count": 3
+        },
+        {
+          "item_id": 16503,
+          "name": "Platinum Bar",
+          "count": 2
+        },
+        {
+          "item_id": 33439,
+          "name": "Seal Pattern",
+          "count": 1
+        },
+        {
+          "item_id": 48162,
+          "name": "Vanadium Ore",
+          "count": 1
+        },
+        {
+          "item_id": 10254,
+          "name": "Vial of Purified Mana",
+          "count": 1
+        }
+      ],
+      "container_item_ids": [
+        17877
+      ],
+      "held_source_containers": [
+        {
+          "name": "Tinkering Table (Placeable)",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34406"
+        },
+        {
+          "name": "Guild Tinkering Table",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=38427"
+        },
+        {
+          "name": "Tinkering Table",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=40975"
+        }
+      ],
+      "skillneeded": 0,
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "source_formula": "Components: Chainmail Bracer Template Pattern, Cosgrove Water, Gnomish Heat Source (3), Platinum Bar (2), Seal Pattern, Vanadium Ore, Vial of Purified Mana\nIn: Deluxe Toolbox, Tinkering Table (Placeable), Guild Tinkering Table, Tinkering Table\nYield: 1\nThis combine may only be made by Gnomes\nNotes: EQRecipeID: 25000"
+    },
+    {
+      "recipe_id": 3094570,
+      "source_name": "Cosgrove Glove Seal",
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=442&rsa=Tinkering&sub=UF",
+      "output_source_url": "https://www.eqtraders.com/items/show_item.php?item=33074&menustr=010000000000",
+      "output_item_id": 49931,
+      "trivial": 443,
+      "yield_count": 1,
+      "ingredients": [
+        {
+          "item_id": 34531,
+          "name": "Chainmail Gloves Template Pattern",
+          "count": 1
+        },
+        {
+          "item_id": 49933,
+          "name": "Cosgrove Water",
+          "count": 1
+        },
+        {
+          "item_id": 63244,
+          "name": "Gnomish Heat Source",
+          "count": 3
+        },
+        {
+          "item_id": 16503,
+          "name": "Platinum Bar",
+          "count": 2
+        },
+        {
+          "item_id": 33439,
+          "name": "Seal Pattern",
+          "count": 1
+        },
+        {
+          "item_id": 48162,
+          "name": "Vanadium Ore",
+          "count": 1
+        },
+        {
+          "item_id": 10254,
+          "name": "Vial of Purified Mana",
+          "count": 1
+        }
+      ],
+      "container_item_ids": [
+        17877
+      ],
+      "held_source_containers": [
+        {
+          "name": "Tinkering Table (Placeable)",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34406"
+        },
+        {
+          "name": "Guild Tinkering Table",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=38427"
+        },
+        {
+          "name": "Tinkering Table",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=40975"
+        }
+      ],
+      "skillneeded": 0,
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "source_formula": "Components: Chainmail Gloves Template Pattern, Cosgrove Water, Gnomish Heat Source (3), Platinum Bar (2), Seal Pattern, Vanadium Ore, Vial of Purified Mana\nIn: Deluxe Toolbox, Tinkering Table (Placeable), Guild Tinkering Table, Tinkering Table\nYield: 1\nThis combine may only be made by Gnomes\nNotes: EQRecipeID: 25001"
+    },
+    {
+      "recipe_id": 3094571,
+      "source_name": "Cosgrove Helm Seal",
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=442&rsa=Tinkering&sub=UF",
+      "output_source_url": "https://www.eqtraders.com/items/show_item.php?item=33070&menustr=010000000000",
+      "output_item_id": 49932,
+      "trivial": 446,
+      "yield_count": 1,
+      "ingredients": [
+        {
+          "item_id": 34522,
+          "name": "Chainmail Coif Template Pattern",
+          "count": 1
+        },
+        {
+          "item_id": 49933,
+          "name": "Cosgrove Water",
+          "count": 1
+        },
+        {
+          "item_id": 63244,
+          "name": "Gnomish Heat Source",
+          "count": 3
+        },
+        {
+          "item_id": 16503,
+          "name": "Platinum Bar",
+          "count": 2
+        },
+        {
+          "item_id": 33439,
+          "name": "Seal Pattern",
+          "count": 1
+        },
+        {
+          "item_id": 48162,
+          "name": "Vanadium Ore",
+          "count": 1
+        },
+        {
+          "item_id": 10254,
+          "name": "Vial of Purified Mana",
+          "count": 1
+        }
+      ],
+      "container_item_ids": [
+        17877
+      ],
+      "held_source_containers": [
+        {
+          "name": "Tinkering Table (Placeable)",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34406"
+        },
+        {
+          "name": "Guild Tinkering Table",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=38427"
+        },
+        {
+          "name": "Tinkering Table",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=40975"
+        }
+      ],
+      "skillneeded": 0,
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "source_formula": "Components: Chainmail Coif Template Pattern, Cosgrove Water, Gnomish Heat Source (3), Platinum Bar (2), Seal Pattern, Vanadium Ore, Vial of Purified Mana\nIn: Deluxe Toolbox, Tinkering Table (Placeable), Guild Tinkering Table, Tinkering Table\nYield: 1\nThis combine may only be made by Gnomes\nNotes: EQRecipeID: 25002"
+    }
+  ],
+  "restriction_review": {
+    "scope": "Thirty absent Underfoot Tinkering input bodies, IDs3094542\u20133094571: one Collapsed Chronal Transmutation Device, Cosgrite Gear Assembly, seven Cosgrove slot seals and 21 Stalwart cultural armor pieces. All30 selected full-input signatures are absent across skills and enabled/disabled states; selected output/name snapshots are also empty.",
+    "era": "Maintained-primary reconstruction. Expansion floor16 is a proposed configured availability POLICY based on the current Underfoot catalogue, with maximum-1. It is not a recovered introduction date or immutable2013 formula receipt. Recipe/item numbers, native creation timestamps and the later Artisan Prize association on Cosgrite Gear Assembly do not authenticate introduction. No earlier-family availability is inferred.",
+    "learning": "All21 Stalwart armor views explicitly require skill300 and purchasing/scribing Stalwart Gnomish Cultural Tinkering. Preserve skillneeded300, must_learn1 and learned_by_item_id50668. The other nine views propose ordinary minimum0/must_learn0/book0; no quest-only gate is inferred from a later quest association. The book is a learning dependency, not a combine ingredient. No player learning, book supply, vendor, UI or native acceptance is claimed.",
+    "authored_context": "Native book50668 is class2/type60, filename TSCultTinkeringGNM85. Its retained text describes vanadium/immaculate templates, steely fortified bronze, spongy loam/brimstone fuel, gears/sprockets or cogs/two contraption parts, and the cloth thread/fluid/filament context. The book authenticates this native learning context, while the primary catalogue supplies individual quantities, trivials and kit lists. The text is pinned by hash and remains unchanged.",
+    "quantity": "All30 views explicitly yield1 and provide exact numeric trivials. Positive component quantities, including repeated heat sources/parts, are retained. There are no source success/failure tool-return fields, so none are invented. Consumed-component salvagecount=componentcount follows local policy for new rows, not historical salvage authentication.",
+    "containers": "Positive per-view physical kit links only. Collapsed Chronal Transmutation Device and Cosgrite Gear Assembly each list Toolbox17902, Deluxe Toolbox17877 and Collapsible Toolbox17276. Seven Cosgrove seals and21 armor formulas list only Deluxe Toolbox17877 among the selected portable kits. Native ordinary/collapsible kits have8 slots and Deluxe has10; all have size4/bagtype10. Every selected body fits its listed kit. No generic10 entry, inferred extra portable kit or optional world-table link is added.",
+    "preservation": "100 primary item references resolved, then101 selected native dependencies including the learning book read fresh. All30 full-input multiset checks use an indexed required positive component and aggregate totals/per-item sums; no global scan. New IDs/entries only; native items, existing recipes, character learning, inventory, quest data and race/skill access stay untouched.",
+    "limits": "Source proposal only, pending Coordinator floor16/current-primary/gate/kit dispositions, exact GitHub publication and separate SQL GO. No SQL invocation, rehearsal, new tests, compilation, runtime, client, schema or API changes. Data source matching is not Gnome actor eligibility, actual crafting or historical-universe closure."
+  },
+  "native_authored_context": [
+    {
+      "item_id": 50668,
+      "name": "Stalwart Gnomish Cultural Tinkering",
+      "filename": "TSCultTinkeringGNM85",
+      "text_sha256": "ad638b020db7ea9fa9bcdbd825fdccc1bec57e12b7805263186af7240926ec74"
+    }
+  ],
+  "held_source_rows": [],
+  "source_urls": [
+    "https://www.eqtraders.com/recipes/recipe_page.php?article=442&rsa=Tinkering&sub=UF"
+  ],
+  "migration_dependencies": []
+}

@@ -1,0 +1,152 @@
+{
+  "batch": "RRC148",
+  "branch": "rof2-tradeskills",
+  "status": "SOURCE_PROPOSAL_NOT_APPLIED",
+  "counts": {
+    "recipes_added": 0,
+    "entries_added": 0,
+    "definitions_updated": 1,
+    "full_entries_preserved": 4
+  },
+  "before_recipes": [
+    {
+      "id": 5400,
+      "name": "Lizardscale Plate Sheet",
+      "tradeskill": 63,
+      "skillneeded": 0,
+      "trivial": 15,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": null,
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": -1,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    }
+  ],
+  "after_recipes": [
+    {
+      "id": 5400,
+      "name": "Lizardscale Plate Sheet",
+      "tradeskill": 63,
+      "skillneeded": 0,
+      "trivial": 15,
+      "nofail": 1,
+      "replace_container": 0,
+      "notes": null,
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": -1,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    }
+  ],
+  "before_entries": [
+    {
+      "id": 52372,
+      "recipe_id": 5400,
+      "item_id": 27752,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 2,
+      "salvagecount": 2,
+      "iscontainer": 0
+    },
+    {
+      "id": 52373,
+      "recipe_id": 5400,
+      "item_id": 27756,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 52374,
+      "recipe_id": 5400,
+      "item_id": 27759,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 52375,
+      "recipe_id": 5400,
+      "item_id": 17,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    }
+  ],
+  "after_entries": [
+    {
+      "id": 52372,
+      "recipe_id": 5400,
+      "item_id": 27752,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 2,
+      "salvagecount": 2,
+      "iscontainer": 0
+    },
+    {
+      "id": 52373,
+      "recipe_id": 5400,
+      "item_id": 27756,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 52374,
+      "recipe_id": 5400,
+      "item_id": 27759,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 52375,
+      "recipe_id": 5400,
+      "item_id": 17,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    }
+  ],
+  "affected_recipe_ids": [
+    5400
+  ],
+  "source_facts": [
+    {
+      "recipe_id": 5400,
+      "name": "Lizardscale Plate Sheet",
+      "old_nofail": 0,
+      "primary_nofail": 1,
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=58&rsa=Smithing&sub=basic",
+      "source_trivial_text": "15 (No-Fail)",
+      "formula": "Components: Lizard Blood Temper, Pristine Tae Ew Scale (2)\nIn: Forge\nYield: 1",
+      "output_source_url": "https://www.eqtraders.com/items/show_item.php?item=7939&menustr=010000000000"
+    }
+  ],
+  "historical_qualification": "Lizardscale Plate Sheet5400: retained primary explicitly states15(No-Fail), existing trivial15/ingredient/output/Forge17 already match but nofail is0. Propose only nofail0 to1. Full definition/four entryIDs/trivial15/quantities/salvage/kits/minimum/learning/availability/playerdata preserved. This is positive explicit no-fail authority, not a flag inferred from omitted notes or a zero trivial. Current-primary reconstruction, not immutable2013/native combine proof. No new body, guaranteed actor eligibility, kit widening or other chance/failure normalization.",
+  "migration_dependencies": []
+}

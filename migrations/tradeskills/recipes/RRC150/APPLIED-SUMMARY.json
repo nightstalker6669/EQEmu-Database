@@ -1,0 +1,72 @@
+{
+  "format_version": 1,
+  "batch": "RRC150",
+  "source_commit": "8ed66003e6ac7263e11ce96bfcf7d4f736dfe89b",
+  "source_package_revision": 2,
+  "source_package_manifest_sha256": "85a1afe4125bc90e7ca5c0e45978b578c7368e9e32417ed12b3d47c3e6372a0a",
+  "source_sha256": "974896d3ea12673762471c046430eaf78aa9d8fefa19cd3fb3193dc5b9536c4b",
+  "application_status": "APPLIED_VERIFIED",
+  "SQL_invocations": 1,
+  "transaction_state_after": 0,
+  "recipes_added": 0,
+  "entries_added": 1,
+  "existing_recipe_definitions_updated": 1,
+  "existing_entry_rows_updated": 0,
+  "affected_recipe_ids": [
+    4507
+  ],
+  "exact_postimages": true,
+  "learned_references_unchanged": true,
+  "global_after_counts": {
+    "recipes": 26727,
+    "entries": 202881
+  },
+  "historical_qualification": "Existing Forged Velium Short Sword4507 is missing the source-explicit Pommel Mold and has trivial70 instead of explicit108. Propose one guarded transaction adding only that component1/salvage1 and correcting only trivial70 to108. Output30278/yield1/Forge17/all six old entryIDs/other definition fields/minimum/learning/availability stay exact. New consumed-component salvage1 is labelled local convention, not historical salvage proof. Old four-input body is unique4507; full five-input source body absent across states/skills. No new recipe, alternative route, return inference, item fabrication or playerdata correction. Current-primary reconstruction, not immutable2013/native combine acceptance.",
+  "original_source_batch_scope": {
+    "batch": "RRC150",
+    "apply_sha256": "974896d3ea12673762471c046430eaf78aa9d8fefa19cd3fb3193dc5b9536c4b",
+    "rollback_sha256": "83dc57a62069142bf29c309b03ce00c84ef00aa31c7fc413d07208a651faabbc",
+    "original_manifest": "outputs/recipe-publication-RRC150/PUBLIC-MANIFEST.json",
+    "original_manifest_sha256": "eacf9cf77ef4d5c618e61955c786947cd47b198e2f260182cdfd00cb2a1574c4",
+    "counts": {
+      "new_recipes": 0,
+      "new_entries": 1,
+      "existing_recipe_definitions_updated": 1,
+      "existing_entry_rows_updated": 0
+    },
+    "source_counts": {
+      "recipes_added": 0,
+      "entries_added": 1,
+      "recipe_definitions_updated": 1,
+      "old_entries_guarded": 6,
+      "post_entries": 7,
+      "item_dependencies": 6
+    },
+    "changed_recipe_fields": {
+      "trivial": 1
+    },
+    "declared_migration_dependencies": [],
+    "proposed_ids": null,
+    "affected_existing_recipe_ids": [
+      4507
+    ]
+  },
+  "original_source_policy_dispositions": {
+    "ordinary": "Specified new expansion floors and ordinary minimum/learning/quest/salvage conventions accepted as configured reconstruction policies, not recovered historical facts.",
+    "RRC132_RRC135": "Current-primary ingredients selected; contradictory native book prose remains historically unresolved.",
+    "RRC136": "must_learn1/book134651 accepted as native-family reconstruction POLICY; missing-parts Boot remains excluded.",
+    "RRC138": "Enable101 canonical definitions only; unchanged peers preserved.",
+    "RRC153": "Recharge count5 encodes one fully charged helm; initial manufacturing charges remain held.",
+    "other_holds": "All original exclusions, missing native items, era, charge, chance, return omissions, quest/racial/station and actor limitations remain."
+  },
+  "declared_dependency_order": {
+    "row_preimage_overlaps": [],
+    "declared_batch_dependencies": [],
+    "explanation": "No cross-batch definition/entry write versus declared full preimage overlap. Ascending apply/reverse rollback is the conservative sequence. Existing unchanged-peer, native dependency, input/output collision and learned-reference guards remain in each original SQL file; no guard is waived."
+  },
+  "player_item_writes": false,
+  "native_actions": false,
+  "native_acceptance": false,
+  "source_documents": "Four original source files preserved verbatim; preparation-time labels remain historical. This separate summary records actual closed application.",
+  "private_backup_and_authorization_material_excluded": true
+}

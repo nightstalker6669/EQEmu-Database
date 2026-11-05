@@ -1,0 +1,76 @@
+{
+  "format_version": 1,
+  "batch": "RRC149",
+  "source_commit": "8ed66003e6ac7263e11ce96bfcf7d4f736dfe89b",
+  "source_package_revision": 2,
+  "source_package_manifest_sha256": "85a1afe4125bc90e7ca5c0e45978b578c7368e9e32417ed12b3d47c3e6372a0a",
+  "source_sha256": "452aee3ab5aff8c94c35a2aec69fd746c51d6fbcf959b3a6d595f3726c0401b5",
+  "application_status": "APPLIED_VERIFIED",
+  "SQL_invocations": 1,
+  "transaction_state_after": 0,
+  "recipes_added": 0,
+  "entries_added": 0,
+  "existing_recipe_definitions_updated": 4,
+  "existing_entry_rows_updated": 0,
+  "affected_recipe_ids": [
+    4508,
+    4509,
+    4510,
+    4511
+  ],
+  "exact_postimages": true,
+  "learned_references_unchanged": true,
+  "global_after_counts": {
+    "recipes": 26727,
+    "entries": 202880
+  },
+  "historical_qualification": "Four existing Forged Velium throwing-weapon trivial corrections from explicit maintained-primary values: Shuriken4508:90 to104, Axe4509:107 to102, Knife4510:79 to98, Spear4511:105 to106. Existing complete ingredient/success/failure roles match, including literal stack yields20/15/20/15. Only trivial fields change; all definitions/entryIDs/quantities/kits/minimum/learning/availability/playerdata preserved. Legacy pricing/shawl material-family context is distinct from immutable original numeric/body proof; current-primary reconstruction, no native combine/use acceptance.",
+  "original_source_batch_scope": {
+    "batch": "RRC149",
+    "apply_sha256": "452aee3ab5aff8c94c35a2aec69fd746c51d6fbcf959b3a6d595f3726c0401b5",
+    "rollback_sha256": "a6635398bd152956ea40a0f79d428e82481fb0cefae01cb05fa1f0006d24486c",
+    "original_manifest": "outputs/recipe-publication-RRC149/PUBLIC-MANIFEST.json",
+    "original_manifest_sha256": "9fbc38189d08bfeb988cd14d1a3fa2923a566ab385b4b0667c8d3398b64f1cfc",
+    "counts": {
+      "new_recipes": 0,
+      "new_entries": 0,
+      "existing_recipe_definitions_updated": 4,
+      "existing_entry_rows_updated": 0
+    },
+    "source_counts": {
+      "recipes_added": 0,
+      "entries_added": 0,
+      "definitions_updated": 4,
+      "full_entries_preserved": 20
+    },
+    "changed_recipe_fields": {
+      "trivial": 4
+    },
+    "declared_migration_dependencies": [],
+    "proposed_ids": null,
+    "affected_existing_recipe_ids": [
+      4508,
+      4509,
+      4510,
+      4511
+    ]
+  },
+  "original_source_policy_dispositions": {
+    "ordinary": "Specified new expansion floors and ordinary minimum/learning/quest/salvage conventions accepted as configured reconstruction policies, not recovered historical facts.",
+    "RRC132_RRC135": "Current-primary ingredients selected; contradictory native book prose remains historically unresolved.",
+    "RRC136": "must_learn1/book134651 accepted as native-family reconstruction POLICY; missing-parts Boot remains excluded.",
+    "RRC138": "Enable101 canonical definitions only; unchanged peers preserved.",
+    "RRC153": "Recharge count5 encodes one fully charged helm; initial manufacturing charges remain held.",
+    "other_holds": "All original exclusions, missing native items, era, charge, chance, return omissions, quest/racial/station and actor limitations remain."
+  },
+  "declared_dependency_order": {
+    "row_preimage_overlaps": [],
+    "declared_batch_dependencies": [],
+    "explanation": "No cross-batch definition/entry write versus declared full preimage overlap. Ascending apply/reverse rollback is the conservative sequence. Existing unchanged-peer, native dependency, input/output collision and learned-reference guards remain in each original SQL file; no guard is waived."
+  },
+  "player_item_writes": false,
+  "native_actions": false,
+  "native_acceptance": false,
+  "source_documents": "Four original source files preserved verbatim; preparation-time labels remain historical. This separate summary records actual closed application.",
+  "private_backup_and_authorization_material_excluded": true
+}

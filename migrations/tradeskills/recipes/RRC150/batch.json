@@ -1,0 +1,379 @@
+{
+  "batch": "RRC150",
+  "branch": "rof2-tradeskills",
+  "status": "SOURCE_PROPOSAL_NOT_APPLIED",
+  "counts": {
+    "recipes_added": 0,
+    "entries_added": 1,
+    "recipe_definitions_updated": 1,
+    "old_entries_guarded": 6,
+    "post_entries": 7,
+    "item_dependencies": 6
+  },
+  "before_recipes": [
+    {
+      "id": 4507,
+      "name": "Forged Velium Short Sword",
+      "tradeskill": 63,
+      "skillneeded": 0,
+      "trivial": 70,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": null,
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": -1,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    }
+  ],
+  "after_recipes": [
+    {
+      "id": 4507,
+      "name": "Forged Velium Short Sword",
+      "tradeskill": 63,
+      "skillneeded": 0,
+      "trivial": 108,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": null,
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": -1,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    }
+  ],
+  "before_entries": [
+    {
+      "id": 44031,
+      "recipe_id": 4507,
+      "item_id": 12046,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 44032,
+      "recipe_id": 4507,
+      "item_id": 22076,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 44033,
+      "recipe_id": 4507,
+      "item_id": 22095,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 44034,
+      "recipe_id": 4507,
+      "item_id": 22564,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 44035,
+      "recipe_id": 4507,
+      "item_id": 30278,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 44036,
+      "recipe_id": 4507,
+      "item_id": 17,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    }
+  ],
+  "added_entries": [
+    {
+      "recipe_id": 4507,
+      "item_id": 12060,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    }
+  ],
+  "native_items": [
+    {
+      "id": 12046,
+      "Name": "Hilt Mold",
+      "size": 0,
+      "itemclass": 0,
+      "itemtype": 11,
+      "stackable": 0,
+      "stacksize": 1,
+      "maxcharges": 0,
+      "bagtype": 0,
+      "bagslots": 0,
+      "bagsize": 0,
+      "classes": 65535,
+      "races": 65535,
+      "deity": 0,
+      "damage": 0,
+      "delay": 0,
+      "range": 0,
+      "slots": 0,
+      "purity": 0,
+      "augtype": 0,
+      "reqlevel": 0,
+      "reclevel": 0,
+      "loregroup": 0,
+      "filename": "",
+      "booktype": 0
+    },
+    {
+      "id": 12060,
+      "Name": "Pommel Mold",
+      "size": 0,
+      "itemclass": 0,
+      "itemtype": 11,
+      "stackable": 0,
+      "stacksize": 1,
+      "maxcharges": 0,
+      "bagtype": 0,
+      "bagslots": 0,
+      "bagsize": 0,
+      "classes": 65535,
+      "races": 65535,
+      "deity": 0,
+      "damage": 0,
+      "delay": 0,
+      "range": 0,
+      "slots": 0,
+      "purity": 0,
+      "augtype": 0,
+      "reqlevel": 0,
+      "reclevel": 0,
+      "loregroup": 0,
+      "filename": "",
+      "booktype": 0
+    },
+    {
+      "id": 22076,
+      "Name": "Short Blade Mold",
+      "size": 0,
+      "itemclass": 0,
+      "itemtype": 11,
+      "stackable": 0,
+      "stacksize": 1,
+      "maxcharges": 0,
+      "bagtype": 0,
+      "bagslots": 0,
+      "bagsize": 0,
+      "classes": 65535,
+      "races": 65535,
+      "deity": 0,
+      "damage": 0,
+      "delay": 0,
+      "range": 0,
+      "slots": 0,
+      "purity": 0,
+      "augtype": 0,
+      "reqlevel": 0,
+      "reclevel": 0,
+      "loregroup": 0,
+      "filename": "",
+      "booktype": 0
+    },
+    {
+      "id": 22095,
+      "Name": "Sheet of Velium",
+      "size": 1,
+      "itemclass": 0,
+      "itemtype": 17,
+      "stackable": 1,
+      "stacksize": 20,
+      "maxcharges": 0,
+      "bagtype": 0,
+      "bagslots": 0,
+      "bagsize": 0,
+      "classes": 65535,
+      "races": 65535,
+      "deity": 0,
+      "damage": 0,
+      "delay": 0,
+      "range": 0,
+      "slots": 0,
+      "purity": 0,
+      "augtype": 0,
+      "reqlevel": 0,
+      "reclevel": 0,
+      "loregroup": 0,
+      "filename": "",
+      "booktype": 0
+    },
+    {
+      "id": 22564,
+      "Name": "Coldain Velium Temper",
+      "size": 0,
+      "itemclass": 0,
+      "itemtype": 17,
+      "stackable": 1,
+      "stacksize": 20,
+      "maxcharges": 0,
+      "bagtype": 0,
+      "bagslots": 0,
+      "bagsize": 0,
+      "classes": 65535,
+      "races": 65535,
+      "deity": 0,
+      "damage": 0,
+      "delay": 0,
+      "range": 0,
+      "slots": 0,
+      "purity": 0,
+      "augtype": 0,
+      "reqlevel": 0,
+      "reclevel": 0,
+      "loregroup": 0,
+      "filename": "",
+      "booktype": 0
+    },
+    {
+      "id": 30278,
+      "Name": "Forged Velium Short Sword",
+      "size": 2,
+      "itemclass": 0,
+      "itemtype": 0,
+      "stackable": 0,
+      "stacksize": 1,
+      "maxcharges": 0,
+      "bagtype": 0,
+      "bagslots": 0,
+      "bagsize": 0,
+      "classes": 413,
+      "races": 65535,
+      "deity": 0,
+      "damage": 5,
+      "delay": 23,
+      "range": 0,
+      "slots": 24576,
+      "purity": 0,
+      "augtype": 0,
+      "reqlevel": 0,
+      "reclevel": 0,
+      "loregroup": 0,
+      "filename": "",
+      "booktype": 0
+    }
+  ],
+  "source_facts": [
+    {
+      "name": "Forged Velium Short Sword",
+      "trivial_text": "108",
+      "formula": "Components: Coldain Velium Temper, Hilt Mold, Pommel Mold, Sheet of Velium, Short Blade Mold\nIn: Forge, Tanaan Forge, Forge - Floor, Forge - Standing, Guild Forge\nYield: 1\nNotes: EQRecipeID: 13690",
+      "observed_EQTC_item_id": 2887,
+      "output_source_url": "https://www.eqtraders.com/items/show_item.php?item=2887&menustr=010000000000",
+      "source_table_index": 2,
+      "source_row_index": 9,
+      "source_cell_count": 3,
+      "field_links": [
+        {
+          "name": "Coldain Velium Temper",
+          "url": "https://www.eqtraders.com//items/show_item.php?item=1305",
+          "field": "Components",
+          "explicit_count": null
+        },
+        {
+          "name": "Hilt Mold",
+          "url": "https://www.eqtraders.com//items/show_item.php?item=1786",
+          "field": "Components",
+          "explicit_count": null
+        },
+        {
+          "name": "Pommel Mold",
+          "url": "https://www.eqtraders.com//items/show_item.php?item=1789",
+          "field": "Components",
+          "explicit_count": null
+        },
+        {
+          "name": "Sheet of Velium",
+          "url": "https://www.eqtraders.com//items/show_item.php?item=1555",
+          "field": "Components",
+          "explicit_count": null
+        },
+        {
+          "name": "Short Blade Mold",
+          "url": "https://www.eqtraders.com//items/show_item.php?item=2071",
+          "field": "Components",
+          "explicit_count": null
+        },
+        {
+          "name": "Forge",
+          "url": "https://www.eqtraders.com//items/show_item.php?item=1610",
+          "field": "In",
+          "explicit_count": null
+        },
+        {
+          "name": "Tanaan Forge",
+          "url": "https://www.eqtraders.com//items/show_item.php?item=5499",
+          "field": "In",
+          "explicit_count": null
+        },
+        {
+          "name": "Forge - Floor",
+          "url": "https://www.eqtraders.com//items/show_item.php?item=34389",
+          "field": "In",
+          "explicit_count": null
+        },
+        {
+          "name": "Forge - Standing",
+          "url": "https://www.eqtraders.com//items/show_item.php?item=34390",
+          "field": "In",
+          "explicit_count": null
+        },
+        {
+          "name": "Guild Forge",
+          "url": "https://www.eqtraders.com//items/show_item.php?item=38418",
+          "field": "In",
+          "explicit_count": null
+        }
+      ],
+      "old_trivial": 70,
+      "primary_trivial": 108
+    }
+  ],
+  "source_native_identity_bindings": [
+    {
+      "source_url": "https://www.eqtraders.com/items/show_item.php?item=1789",
+      "native_item_id": 12060,
+      "raw_html_sha256": "a44fdedb0d3969029296cf34fe084c828db9a90406419e748d0a53af56c0795a"
+    }
+  ],
+  "source_urls": [
+    "https://www.eqtraders.com/recipes/recipe_page.php?article=1457&rsa=Smithing&sub=SoV"
+  ],
+  "new_full_input_allstate_allskill_matches": [],
+  "historical_qualification": "Existing Forged Velium Short Sword4507 is missing the source-explicit Pommel Mold and has trivial70 instead of explicit108. Propose one guarded transaction adding only that component1/salvage1 and correcting only trivial70 to108. Output30278/yield1/Forge17/all six old entryIDs/other definition fields/minimum/learning/availability stay exact. New consumed-component salvage1 is labelled local convention, not historical salvage proof. Old four-input body is unique4507; full five-input source body absent across states/skills. No new recipe, alternative route, return inference, item fabrication or playerdata correction. Current-primary reconstruction, not immutable2013/native combine acceptance.",
+  "migration_dependencies": []
+}

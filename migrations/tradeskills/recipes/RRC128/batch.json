@@ -1,0 +1,227 @@
+{
+  "batch": "RRC128",
+  "branch": "rof2-tradeskills",
+  "status": "SOURCE_PROPOSAL_NOT_APPLIED",
+  "counts": {
+    "recipes_added": 0,
+    "entries_added": 0,
+    "definitions_updated": 1,
+    "full_entries_preserved": 6
+  },
+  "before_recipes": [
+    {
+      "id": 7302,
+      "name": "Corrupted Shissar Bow",
+      "tradeskill": 64,
+      "skillneeded": 0,
+      "trivial": 0,
+      "nofail": 1,
+      "replace_container": 0,
+      "notes": "Created by ylosh",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": -1,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    }
+  ],
+  "after_recipes": [
+    {
+      "id": 7302,
+      "name": "Corrupted Shissar Bow",
+      "tradeskill": 64,
+      "skillneeded": 0,
+      "trivial": 15,
+      "nofail": 1,
+      "replace_container": 0,
+      "notes": "Created by ylosh",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": -1,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    }
+  ],
+  "before_entries": [
+    {
+      "id": 69036,
+      "recipe_id": 7302,
+      "item_id": 7966,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 69037,
+      "recipe_id": 7302,
+      "item_id": 9241,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 69038,
+      "recipe_id": 7302,
+      "item_id": 9242,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 69039,
+      "recipe_id": 7302,
+      "item_id": 17189,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 69040,
+      "recipe_id": 7302,
+      "item_id": 17762,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 69041,
+      "recipe_id": 7302,
+      "item_id": 17910,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    }
+  ],
+  "after_entries": [
+    {
+      "id": 69036,
+      "recipe_id": 7302,
+      "item_id": 7966,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 69037,
+      "recipe_id": 7302,
+      "item_id": 9241,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 69038,
+      "recipe_id": 7302,
+      "item_id": 9242,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 69039,
+      "recipe_id": 7302,
+      "item_id": 17189,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 69040,
+      "recipe_id": 7302,
+      "item_id": 17762,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 69041,
+      "recipe_id": 7302,
+      "item_id": 17910,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    }
+  ],
+  "affected_recipe_ids": [
+    7302
+  ],
+  "source_facts": [
+    {
+      "name": "Corrupted Shissar Bow",
+      "trivial_text": "15 (No-Fail)",
+      "formula": "Components: Shissar Bow, Strange Green Metal\nIn: Fletching Kit, Planar Fletching Kit, Collapsible Fletching Kit\nYield: 1\nNotes: This recipe is not \"learned\" after making it.",
+      "observed_EQTC_item_id": 20642,
+      "output_source_url": "https://www.eqtraders.com/items/show_item.php?item=20642&menustr=010000000000",
+      "source_table_index": 2,
+      "source_row_index": 4,
+      "source_cell_count": 3,
+      "field_links": [
+        {
+          "name": "Shissar Bow",
+          "url": "https://www.eqtraders.com//items/show_item.php?item=20649",
+          "field": "Components",
+          "explicit_count": null
+        },
+        {
+          "name": "Strange Green Metal",
+          "url": "https://www.eqtraders.com//items/show_item.php?item=20655",
+          "field": "Components",
+          "explicit_count": null
+        },
+        {
+          "name": "Fletching Kit",
+          "url": "https://www.eqtraders.com//items/show_item.php?item=1772",
+          "field": "In",
+          "explicit_count": null
+        },
+        {
+          "name": "Planar Fletching Kit",
+          "url": "https://www.eqtraders.com//items/show_item.php?item=5493",
+          "field": "In",
+          "explicit_count": null
+        },
+        {
+          "name": "Collapsible Fletching Kit",
+          "url": "https://www.eqtraders.com//items/show_item.php?item=7336",
+          "field": "In",
+          "explicit_count": null
+        }
+      ]
+    }
+  ],
+  "source_urls": [
+    "https://www.eqtraders.com/recipes/recipe_page.php?article=381&rsa=Fletching&sub=quest"
+  ],
+  "historical_qualification": "Oneexisting CorruptedShissarBow7302trivial0to15 as explicit maintainedprimary15(No-Fail). Native nofail1 remains1 and allingredients/outputs/entryIDs/kits/learning/quest/contentgates remain unchanged. Source notlearned prose retained without learningflag/UI/madecount normalization. Thisnumericdata choice doesnot make a new failurechance/questacceptance claim and is not immutable2013proof. No otherformula/actor/inventory/playerdata changes.",
+  "migration_dependencies": []
+}

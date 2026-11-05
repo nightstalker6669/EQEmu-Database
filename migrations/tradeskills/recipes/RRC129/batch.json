@@ -1,0 +1,347 @@
+{
+  "batch": "RRC129",
+  "branch": "rof2-tradeskills",
+  "status": "SOURCE_PROPOSAL_NOT_APPLIED",
+  "counts": {
+    "recipes_added": 0,
+    "entries_added": 1,
+    "recipe_definitions_preserved": 1,
+    "old_entries_guarded": 8,
+    "post_entries": 9,
+    "item_dependencies": 9
+  },
+  "before_recipes": [
+    {
+      "id": 7545,
+      "name": "Xakra Tooth Dart",
+      "tradeskill": 64,
+      "skillneeded": 0,
+      "trivial": 46,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": null,
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": -1,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    }
+  ],
+  "before_entries": [
+    {
+      "id": 71075,
+      "recipe_id": 7545,
+      "item_id": 3467,
+      "successcount": 1,
+      "failcount": 1,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 71076,
+      "recipe_id": 7545,
+      "item_id": 3468,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 71077,
+      "recipe_id": 7545,
+      "item_id": 3463,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 71080,
+      "recipe_id": 7545,
+      "item_id": 17128,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 71081,
+      "recipe_id": 7545,
+      "item_id": 17189,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 71082,
+      "recipe_id": 7545,
+      "item_id": 17762,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 71083,
+      "recipe_id": 7545,
+      "item_id": 17910,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 71084,
+      "recipe_id": 7545,
+      "item_id": 66163,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    }
+  ],
+  "added_entries": [
+    {
+      "recipe_id": 7545,
+      "item_id": 3462,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    }
+  ],
+  "native_items": [
+    {
+      "id": 3462,
+      "Name": "Xakra tooth",
+      "size": 1,
+      "itemclass": 0,
+      "itemtype": 11,
+      "stackable": 0,
+      "stacksize": 1,
+      "maxcharges": 0,
+      "bagtype": 0,
+      "bagslots": 0,
+      "bagsize": 0,
+      "races": 0,
+      "classes": 0,
+      "deity": 0
+    },
+    {
+      "id": 3463,
+      "Name": "Xakra tooth dart",
+      "size": 0,
+      "itemclass": 0,
+      "itemtype": 19,
+      "stackable": 1,
+      "stacksize": 100,
+      "maxcharges": 0,
+      "bagtype": 0,
+      "bagslots": 0,
+      "bagsize": 0,
+      "races": 13066,
+      "classes": 65535,
+      "deity": 0
+    },
+    {
+      "id": 3467,
+      "Name": "Xakra Dart Crafting Tool",
+      "size": 1,
+      "itemclass": 0,
+      "itemtype": 11,
+      "stackable": 0,
+      "stacksize": 1,
+      "maxcharges": 0,
+      "bagtype": 0,
+      "bagslots": 0,
+      "bagsize": 0,
+      "races": 0,
+      "classes": 0,
+      "deity": 0
+    },
+    {
+      "id": 3468,
+      "Name": "Grimling Bone Shaft",
+      "size": 0,
+      "itemclass": 0,
+      "itemtype": 17,
+      "stackable": 1,
+      "stacksize": 20,
+      "maxcharges": 0,
+      "bagtype": 0,
+      "bagslots": 0,
+      "bagsize": 0,
+      "races": 0,
+      "classes": 0,
+      "deity": 0
+    },
+    {
+      "id": 17128,
+      "Name": "Feir`Dal Fletching Kit",
+      "size": 4,
+      "itemclass": 1,
+      "itemtype": 11,
+      "stackable": 0,
+      "stacksize": 1,
+      "maxcharges": 0,
+      "bagtype": 18,
+      "bagslots": 10,
+      "bagsize": 3,
+      "races": 65544,
+      "classes": 65535,
+      "deity": 0
+    },
+    {
+      "id": 17189,
+      "Name": "Collapsible Fletching Kit",
+      "size": 1,
+      "itemclass": 1,
+      "itemtype": 11,
+      "stackable": 0,
+      "stacksize": 1,
+      "maxcharges": 0,
+      "bagtype": 18,
+      "bagslots": 8,
+      "bagsize": 3,
+      "races": 131071,
+      "classes": 65535,
+      "deity": 0
+    },
+    {
+      "id": 17762,
+      "Name": "Planar Fletching Kit",
+      "size": 1,
+      "itemclass": 1,
+      "itemtype": 11,
+      "stackable": 0,
+      "stacksize": 1,
+      "maxcharges": 0,
+      "bagtype": 18,
+      "bagslots": 8,
+      "bagsize": 3,
+      "races": 131071,
+      "classes": 65535,
+      "deity": 0
+    },
+    {
+      "id": 17910,
+      "Name": "Fletching Kit",
+      "size": 1,
+      "itemclass": 1,
+      "itemtype": 11,
+      "stackable": 0,
+      "stacksize": 1,
+      "maxcharges": 0,
+      "bagtype": 18,
+      "bagslots": 8,
+      "bagsize": 3,
+      "races": 131071,
+      "classes": 65535,
+      "deity": 0
+    },
+    {
+      "id": 66163,
+      "Name": "Surefall Fletching Kit",
+      "size": 1,
+      "itemclass": 1,
+      "itemtype": 11,
+      "stackable": 0,
+      "stacksize": 1,
+      "maxcharges": 0,
+      "bagtype": 18,
+      "bagslots": 8,
+      "bagsize": 4,
+      "races": 131071,
+      "classes": 65535,
+      "deity": 128
+    }
+  ],
+  "source_facts": [
+    {
+      "name": "Xakra tooth dart",
+      "trivial_text": "46",
+      "formula": "Components: Grimling Bone Shaft, Xakra Dart Crafting Tool, Xakra tooth\nIn: Fletching Kit, Planar Fletching Kit, Collapsible Fletching Kit\nYield: 1\nAlso Returns: Xakra Dart Crafting Tool(1)\nOn Failure Returns: Xakra Dart Crafting Tool(1)",
+      "observed_EQTC_item_id": 9297,
+      "output_source_url": "https://www.eqtraders.com/items/show_item.php?item=9297&menustr=010000000000",
+      "source_table_index": 2,
+      "source_row_index": 23,
+      "source_cell_count": 3,
+      "field_links": [
+        {
+          "name": "Grimling Bone Shaft",
+          "url": "https://www.eqtraders.com//items/show_item.php?item=5113",
+          "field": "Components",
+          "explicit_count": null
+        },
+        {
+          "name": "Xakra Dart Crafting Tool",
+          "url": "https://www.eqtraders.com//items/show_item.php?item=3929",
+          "field": "Components",
+          "explicit_count": null
+        },
+        {
+          "name": "Xakra tooth",
+          "url": "https://www.eqtraders.com//items/show_item.php?item=9298",
+          "field": "Components",
+          "explicit_count": null
+        },
+        {
+          "name": "Fletching Kit",
+          "url": "https://www.eqtraders.com//items/show_item.php?item=1772",
+          "field": "In",
+          "explicit_count": null
+        },
+        {
+          "name": "Planar Fletching Kit",
+          "url": "https://www.eqtraders.com//items/show_item.php?item=5493",
+          "field": "In",
+          "explicit_count": null
+        },
+        {
+          "name": "Collapsible Fletching Kit",
+          "url": "https://www.eqtraders.com//items/show_item.php?item=7336",
+          "field": "In",
+          "explicit_count": null
+        },
+        {
+          "name": "Xakra Dart Crafting Tool",
+          "url": "https://www.eqtraders.com//items/show_item.php?item=3929",
+          "field": "Also Returns",
+          "explicit_count": 1
+        },
+        {
+          "name": "Xakra Dart Crafting Tool",
+          "url": "https://www.eqtraders.com//items/show_item.php?item=3929",
+          "field": "On Failure Returns",
+          "explicit_count": 1
+        }
+      ]
+    }
+  ],
+  "source_native_identity_bindings": [
+    {
+      "source_url": "https://www.eqtraders.com/items/show_item.php?item=9298",
+      "native_item_id": 3462,
+      "raw_html_sha256": "1a4a3098f80ffcb417845716953df5b495e4f0cb9b2e9a3f4cc7b68e3defe19a"
+    }
+  ],
+  "source_urls": [
+    "https://www.eqtraders.com/recipes/recipe_page.php?article=381&rsa=Fletching&sub=quest"
+  ],
+  "new_full_input_allstate_allskill_matches": [],
+  "historical_qualification": "Add oneexplicit source Xakratooth3462component to existingXakraToothDart7545, which currently consumes only GrimlingBoneShaft3468 while returning XakraDartCraftingTool3467 and yields3463. Primarybody explicitly requires allthree. Existing full definition/trivial46/learning/quest/gates,8oldentryIDs/outputyield1/toolsuccess1/failure1/salvage0 andall5existingkitlinks preserved. New consumedtooth componentcount1/salvagecount1 followslocalnewcomponent policy, not historicalsalvageauthentication. No newrecipe/output or inferred extra kit; existing racialkitsemantics preserved/actoruntested. Currentprimaryreconstruction, notimmutable2013/nativecombineproof. No retroactive inventorydebit/grants/refunds or nativequestacceptanceclaim.",
+  "migration_dependencies": []
+}

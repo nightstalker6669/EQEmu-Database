@@ -1,0 +1,99 @@
+{
+  "format_version": 1,
+  "batch": "RRC135",
+  "source_commit": "8ed66003e6ac7263e11ce96bfcf7d4f736dfe89b",
+  "source_package_revision": 2,
+  "source_package_manifest_sha256": "85a1afe4125bc90e7ca5c0e45978b578c7368e9e32417ed12b3d47c3e6372a0a",
+  "source_sha256": "11b084f107a97b9d9322998ec6244ab85b011ed9ee0088a66a80b125e293f41d",
+  "application_status": "APPLIED_VERIFIED",
+  "SQL_invocations": 1,
+  "transaction_state_after": 0,
+  "recipes_added": 21,
+  "entries_added": 224,
+  "existing_recipe_definitions_updated": 0,
+  "existing_entry_rows_updated": 0,
+  "affected_recipe_ids": [
+    3094744,
+    3094745,
+    3094746,
+    3094747,
+    3094748,
+    3094749,
+    3094750,
+    3094751,
+    3094752,
+    3094753,
+    3094754,
+    3094755,
+    3094756,
+    3094757,
+    3094758,
+    3094759,
+    3094760,
+    3094761,
+    3094762,
+    3094763,
+    3094764
+  ],
+  "exact_postimages": true,
+  "learned_references_unchanged": true,
+  "global_after_counts": {
+    "recipes": 26588,
+    "entries": 201564
+  },
+  "historical_qualification": {
+    "scope": "21 absent Regal Gnomish cultural armor bodies, IDs3094744\u20133094764.",
+    "learning": "All21 source views explicitly require skill300 and purchasing/scribing Regal Gnomish Cultural Tinkering. Preserve skillneeded300/must_learn1/learned_by_item_id134633. Existing native class2/type60 title, filename TSSKU20CTnkGNM100 and text hash are pinned; no new book/vendor/player-learning grant is claimed.",
+    "book_conflicts": "Explicit disposition required: current primary cloth bodies use Befouled Spinneret Fluid while native Regal book prose says Fantastic. The book also omits the plate/chain fortified-bronze grade adjective; primary bodies explicitly use Luminescent Fortified Bronze. Select current primary ingredients while preserving the text and historically unresolved qualification. Other matching family context does not authenticate every field.",
+    "containers": "All21 list only Deluxe Toolbox17877 among portable kits and need10/9/8 units for plate/chain/cloth. No ordinary/collapsible kit, generic10 or optional world-table link is inferred.",
+    "era": "Maintained-primary Rain of Fear reconstruction, proposed expansion floor19 as configured availability POLICY, maximum-1. Maintained page header2013-01-22 gives context only, not an immutable per-field introduction or native acceptance receipt. Do not date formulas by item numbers or native creation timestamps.",
+    "quantity": "All selected new bodies explicitly yield1 with exact numeric trivials and positive component quantities. No source tool-return fields occur in these selected bodies; none are invented. New consumed salvagecount=componentcount follows local policy, not historical salvage authentication.",
+    "preservation": "271 primary references resolved and274 selected native dependencies including three context books read fresh for159 views.148 input signatures absent;11 views represented by existing Tinkering bodies, plus a separate same-input Smithing Bomb peer. This packet guards only selected new IDs/dependencies and indexed full-input/effective-kit predicates before/after. Existing recipes/items/books/character learning/inventory/quests/gates remain unchanged.",
+    "limits": "Source proposal only pending Coordinator floor19 and explicit minimum/book-policy/material/kit dispositions, exact GitHub publication and separate SQL GO. No SQL invocation/rehearsal/tests/build/runtime/client/schema/API changes or historical-universe/native acceptance closure."
+  },
+  "original_source_batch_scope": {
+    "batch": "RRC135",
+    "apply_sha256": "11b084f107a97b9d9322998ec6244ab85b011ed9ee0088a66a80b125e293f41d",
+    "rollback_sha256": "87aa8305010fe7c1981e60101310a4371a55c4698b0c6f416125323b7cf8bceb",
+    "original_manifest": "outputs/recipe-publication-RRC135/PUBLIC-MANIFEST.json",
+    "original_manifest_sha256": "77e00f9f416b8552aa32d8731fb500ae64fef0e37db038deeb145d3aa370eb64",
+    "counts": {
+      "new_recipes": 21,
+      "new_entries": 224,
+      "existing_recipe_definitions_updated": 0,
+      "existing_entry_rows_updated": 0
+    },
+    "source_counts": {
+      "recipes": 21,
+      "entries": 224,
+      "item_dependencies": 70,
+      "unchanged_prototype_recipes": 0,
+      "unchanged_prototype_entries": 0
+    },
+    "changed_recipe_fields": {},
+    "declared_migration_dependencies": [],
+    "proposed_ids": [
+      3094744,
+      3094764
+    ],
+    "affected_existing_recipe_ids": []
+  },
+  "original_source_policy_dispositions": {
+    "ordinary": "Specified new expansion floors and ordinary minimum/learning/quest/salvage conventions accepted as configured reconstruction policies, not recovered historical facts.",
+    "RRC132_RRC135": "Current-primary ingredients selected; contradictory native book prose remains historically unresolved.",
+    "RRC136": "must_learn1/book134651 accepted as native-family reconstruction POLICY; missing-parts Boot remains excluded.",
+    "RRC138": "Enable101 canonical definitions only; unchanged peers preserved.",
+    "RRC153": "Recharge count5 encodes one fully charged helm; initial manufacturing charges remain held.",
+    "other_holds": "All original exclusions, missing native items, era, charge, chance, return omissions, quest/racial/station and actor limitations remain."
+  },
+  "declared_dependency_order": {
+    "row_preimage_overlaps": [],
+    "declared_batch_dependencies": [],
+    "explanation": "No cross-batch definition/entry write versus declared full preimage overlap. Ascending apply/reverse rollback is the conservative sequence. Existing unchanged-peer, native dependency, input/output collision and learned-reference guards remain in each original SQL file; no guard is waived."
+  },
+  "player_item_writes": false,
+  "native_actions": false,
+  "native_acceptance": false,
+  "source_documents": "Four original source files preserved verbatim; preparation-time labels remain historical. This separate summary records actual closed application.",
+  "private_backup_and_authorization_material_excluded": true
+}

@@ -1,0 +1,78 @@
+{
+  "format_version": 1,
+  "batch": "RRC153",
+  "source_commit": "8ed66003e6ac7263e11ce96bfcf7d4f736dfe89b",
+  "source_package_revision": 2,
+  "source_package_manifest_sha256": "85a1afe4125bc90e7ca5c0e45978b578c7368e9e32417ed12b3d47c3e6372a0a",
+  "source_sha256": "f1446e75e731cbacb3a10bc4b421a07af9a768913270d9cc13b722a536a9bc9d",
+  "application_status": "APPLIED_VERIFIED",
+  "SQL_invocations": 1,
+  "transaction_state_after": 0,
+  "recipes_added": 2,
+  "entries_added": 13,
+  "existing_recipe_definitions_updated": 0,
+  "existing_entry_rows_updated": 0,
+  "affected_recipe_ids": [
+    3094909,
+    3094910
+  ],
+  "exact_postimages": true,
+  "learned_references_unchanged": true,
+  "global_after_counts": {
+    "recipes": 26734,
+    "entries": 202925
+  },
+  "historical_qualification": {
+    "scope": "Two absent Luclin Shadowscream source bodies: Helm recharge188 and Veil manufacture248, proposed3094909\u20133094910. Existing native outputs/inputs; no new item definitions or old recipe mutation.",
+    "charges": "Recharge source explicitly says a full set of charges. Positive Helm item page and native nonstackable profile specify five; matching native success path passes successcount to SummonItem as charges. Native successcount5 creates one fully charged helmet, not five physical helmets. Veil maxcharges0 uses count1. Initial manufacture charges are not independently established by item maximum: the separate Helm manufacture view is HELD, not defaulted to1or5.",
+    "gates": "New minimum0/learning0/book0/quest0/nofail0 ordinary conventions are proposed policy; source gives numeric188/248 and does not assert no-fail. Existing required Humming Luclinite Mallet/Vah Shir Anvil inputs and explicit success/failure returns are retained. No new quest credit, race eligibility, original instance continuity or native recharge acceptance claimed.",
+    "era": "Maintained Luclin category context; proposed availability floor3 is configured POLICY, not recovered per-view introduction date or immutableMay2013 body/numeric proof.",
+    "containers": "Explicit Forge access uses existing type17; no new physical/racial/named-station links. Recharge five input units and Veil manufacture eight units fit ten world slots; no source tool-return or quantity default.",
+    "preservation": "All-state/all-skill full-input/output/name checks empty, IDs/entries/learned references absent. Eight native dependencies/full target postimages/deltas guarded; rollback refuses learned references. No SQL invocation, tests, compilation, runtime or player grants/refunds."
+  },
+  "original_source_batch_scope": {
+    "batch": "RRC153",
+    "apply_sha256": "f1446e75e731cbacb3a10bc4b421a07af9a768913270d9cc13b722a536a9bc9d",
+    "rollback_sha256": "a4447f18924424bc6350388993a36bb820d80d660c3ff8e0de50f4fcbf7b19ca",
+    "original_manifest": "outputs/recipe-publication-RRC153/PUBLIC-MANIFEST.json",
+    "original_manifest_sha256": "7a6df1c7dd06f55859cbbfa23a5c9dcfd4b1833206639d527c8b24e0d9758c29",
+    "counts": {
+      "new_recipes": 2,
+      "new_entries": 13,
+      "existing_recipe_definitions_updated": 0,
+      "existing_entry_rows_updated": 0
+    },
+    "source_counts": {
+      "recipes": 2,
+      "entries": 13,
+      "item_dependencies": 8,
+      "unchanged_prototype_recipes": 0,
+      "unchanged_prototype_entries": 0
+    },
+    "changed_recipe_fields": {},
+    "declared_migration_dependencies": [],
+    "proposed_ids": [
+      3094909,
+      3094910
+    ],
+    "affected_existing_recipe_ids": []
+  },
+  "original_source_policy_dispositions": {
+    "ordinary": "Specified new expansion floors and ordinary minimum/learning/quest/salvage conventions accepted as configured reconstruction policies, not recovered historical facts.",
+    "RRC132_RRC135": "Current-primary ingredients selected; contradictory native book prose remains historically unresolved.",
+    "RRC136": "must_learn1/book134651 accepted as native-family reconstruction POLICY; missing-parts Boot remains excluded.",
+    "RRC138": "Enable101 canonical definitions only; unchanged peers preserved.",
+    "RRC153": "Recharge count5 encodes one fully charged helm; initial manufacturing charges remain held.",
+    "other_holds": "All original exclusions, missing native items, era, charge, chance, return omissions, quest/racial/station and actor limitations remain."
+  },
+  "declared_dependency_order": {
+    "row_preimage_overlaps": [],
+    "declared_batch_dependencies": [],
+    "explanation": "No cross-batch definition/entry write versus declared full preimage overlap. Ascending apply/reverse rollback is the conservative sequence. Existing unchanged-peer, native dependency, input/output collision and learned-reference guards remain in each original SQL file; no guard is waived."
+  },
+  "player_item_writes": false,
+  "native_actions": false,
+  "native_acceptance": false,
+  "source_documents": "Four original source files preserved verbatim; preparation-time labels remain historical. This separate summary records actual closed application.",
+  "private_backup_and_authorization_material_excluded": true
+}

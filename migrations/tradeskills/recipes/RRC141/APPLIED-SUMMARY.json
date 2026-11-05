@@ -1,0 +1,69 @@
+{
+  "format_version": 1,
+  "batch": "RRC141",
+  "source_commit": "8ed66003e6ac7263e11ce96bfcf7d4f736dfe89b",
+  "source_package_revision": 2,
+  "source_package_manifest_sha256": "85a1afe4125bc90e7ca5c0e45978b578c7368e9e32417ed12b3d47c3e6372a0a",
+  "source_sha256": "1403c10f0e21e73b699300922821b24cabdd7c22df36a1def3aff0410168b0fc",
+  "application_status": "APPLIED_VERIFIED",
+  "SQL_invocations": 1,
+  "transaction_state_after": 0,
+  "recipes_added": 0,
+  "entries_added": 0,
+  "existing_recipe_definitions_updated": 0,
+  "existing_entry_rows_updated": 1,
+  "affected_recipe_ids": [
+    7258
+  ],
+  "exact_postimages": true,
+  "learned_references_unchanged": true,
+  "global_after_counts": {
+    "recipes": 26713,
+    "entries": 202807
+  },
+  "historical_qualification": "Existing OoW CLASS6 Dragorn Discord Tip Arrow Small7258 has Bundled Ceramic Arrow Shafts8062 alongside Dragorn Wing Bones72092. Both maintained category and exact output item page specify Set of Ceramic Arrow Vanes8069 instead. Change only item_id on component entry68605:8062 to8069, preserving componentcount1/salvage1 and every other field. Output75589 yield10/trivial228/all10entryIDs/five existing kit links/minimum/learning/availability remain unchanged. Fresh all-state/all-skill full-input reads find only7258 for old body and zero for source body; no new recipe or unverified alternate formula. Current primary reconstruction, not immutable2013/native combine proof. No output swap, default quantity, race/kit widening or playerdata correction.",
+  "original_source_batch_scope": {
+    "batch": "RRC141",
+    "apply_sha256": "1403c10f0e21e73b699300922821b24cabdd7c22df36a1def3aff0410168b0fc",
+    "rollback_sha256": "059a5b505ebeab4038b562676f9703cccf84ed39a946fa84584feed0084580b4",
+    "original_manifest": "outputs/recipe-publication-RRC141/PUBLIC-MANIFEST.json",
+    "original_manifest_sha256": "46e32d4448cefe5edd9402daa37672c2e1e6188a6609acd22672837e2b4ea59a",
+    "counts": {
+      "new_recipes": 0,
+      "new_entries": 0,
+      "existing_recipe_definitions_updated": 0,
+      "existing_entry_rows_updated": 1
+    },
+    "source_counts": {
+      "recipes_added": 0,
+      "entries_added": 0,
+      "entries_updated": 1,
+      "affected_recipe_definitions": 1,
+      "full_entries_guarded": 10
+    },
+    "changed_recipe_fields": {},
+    "declared_migration_dependencies": [],
+    "proposed_ids": null,
+    "affected_existing_recipe_ids": [
+      7258
+    ]
+  },
+  "original_source_policy_dispositions": {
+    "ordinary": "Specified new expansion floors and ordinary minimum/learning/quest/salvage conventions accepted as configured reconstruction policies, not recovered historical facts.",
+    "RRC132_RRC135": "Current-primary ingredients selected; contradictory native book prose remains historically unresolved.",
+    "RRC136": "must_learn1/book134651 accepted as native-family reconstruction POLICY; missing-parts Boot remains excluded.",
+    "RRC138": "Enable101 canonical definitions only; unchanged peers preserved.",
+    "RRC153": "Recharge count5 encodes one fully charged helm; initial manufacturing charges remain held.",
+    "other_holds": "All original exclusions, missing native items, era, charge, chance, return omissions, quest/racial/station and actor limitations remain."
+  },
+  "declared_dependency_order": {
+    "row_preimage_overlaps": [],
+    "declared_batch_dependencies": [],
+    "explanation": "No cross-batch definition/entry write versus declared full preimage overlap. Ascending apply/reverse rollback is the conservative sequence. Existing unchanged-peer, native dependency, input/output collision and learned-reference guards remain in each original SQL file; no guard is waived."
+  },
+  "player_item_writes": false,
+  "native_actions": false,
+  "native_acceptance": false,
+  "source_documents": "Four original source files preserved verbatim; preparation-time labels remain historical. This separate summary records actual closed application.",
+  "private_backup_and_authorization_material_excluded": true
+}

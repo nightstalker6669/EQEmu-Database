@@ -1,0 +1,95 @@
+{
+  "format_version": 1,
+  "batch": "RRC134",
+  "source_commit": "8ed66003e6ac7263e11ce96bfcf7d4f736dfe89b",
+  "source_package_revision": 2,
+  "source_package_manifest_sha256": "85a1afe4125bc90e7ca5c0e45978b578c7368e9e32417ed12b3d47c3e6372a0a",
+  "source_sha256": "153f1b80c71d1e2e201ddd6e566b469bec4f2f2b6d54c8d0805b32a57d2269cd",
+  "application_status": "APPLIED_VERIFIED",
+  "SQL_invocations": 1,
+  "transaction_state_after": 0,
+  "recipes_added": 17,
+  "entries_added": 153,
+  "existing_recipe_definitions_updated": 0,
+  "existing_entry_rows_updated": 0,
+  "affected_recipe_ids": [
+    3094727,
+    3094728,
+    3094729,
+    3094730,
+    3094731,
+    3094732,
+    3094733,
+    3094734,
+    3094735,
+    3094736,
+    3094737,
+    3094738,
+    3094739,
+    3094740,
+    3094741,
+    3094742,
+    3094743
+  ],
+  "exact_postimages": true,
+  "learned_references_unchanged": true,
+  "global_after_counts": {
+    "recipes": 26567,
+    "entries": 201340
+  },
+  "historical_qualification": {
+    "scope": "17 absent ordinary numeric VoA formulas, IDs3094733\u20133094749: Alaran Throwing Blade Stamper, five prism goggles, Clockwork Fortune Teller, Gnomish Handcannon/ammunition, manufacturing Potion Maker Kit and seven Veiled slot seals.",
+    "learning": "All17 omit a mandatory book and explicit minimum; propose must_learn0/book0/skillneeded0/quest0 as ordinary current-primary data policy. Do not inherit300 or a book from cultural siblings, or infer a craft-only quest condition. Native Tinkering access/race/skill rules remain untouched.",
+    "book_conflicts": "The second Potion Maker Kit view is a distinct no-fail-only recharge and is excluded. No exact trivial is invented for it, and no charged-item debit/recharge/replay mechanism is implemented. Manufacturing a physical kit is not proof that its clicks, summoned potions or recharge work.",
+    "containers": "Positive per-view portable kit lists only, checked against native8-slot ordinary/collapsible and10-slot Deluxe capacity. Gnomish Handcannon Ammunition explicitly yields1; do not substitute an assumed ammunition yield. Physical item creation does not certify click effects, housing placement or device acceptance.",
+    "era": "Maintained-primary VoA reconstruction. Expansion floor18 is proposed configured availability POLICY, maximum-1, not authenticated introduction or immutable2013 per-field/native proof. Do not use item IDs, native creation times or current category labels as exact dating receipts.",
+    "quantity": "All selected views explicitly yield1 with numeric trivials and positive component quantities. No success/failure tool-return fields occur in these views, so none are invented. New consumed-component salvagecount=componentcount is local policy, not historical salvage authentication.",
+    "preservation": "268 primary references resolved and270 selected native dependencies including both books read fresh for the finite158-view review. All158 all-skill/all-state full-input checks are0 and selected output/name producer snapshots are empty. This packet guards only its used dependencies/new targets, with indexed total/per-itemSUM effective-kit collision guards before/after. Existing items/recipes/books/gates/player learning/inventory/quests are unchanged.",
+    "limits": "Source proposal only pending Coordinator floor18/current-primary/minimum/book/typo/kit dispositions as applicable, exact GitHub publication and separate SQL GO. No SQL invocation/rehearsal/tests/build/runtime/client/schema/API change, native actor acceptance or historical-universe closure."
+  },
+  "original_source_batch_scope": {
+    "batch": "RRC134",
+    "apply_sha256": "153f1b80c71d1e2e201ddd6e566b469bec4f2f2b6d54c8d0805b32a57d2269cd",
+    "rollback_sha256": "867e7a64b6118603ab6f4798edb6ce0b88b5c6b15674ebac2b4e14b2a5d3a232",
+    "original_manifest": "outputs/recipe-publication-RRC134/PUBLIC-MANIFEST.json",
+    "original_manifest_sha256": "c9bf20b26f208f3f0defef48b8cde35eb00e1518b984b3d3e9535543182188c1",
+    "counts": {
+      "new_recipes": 17,
+      "new_entries": 153,
+      "existing_recipe_definitions_updated": 0,
+      "existing_entry_rows_updated": 0
+    },
+    "source_counts": {
+      "recipes": 17,
+      "entries": 153,
+      "item_dependencies": 58,
+      "unchanged_prototype_recipes": 0,
+      "unchanged_prototype_entries": 0
+    },
+    "changed_recipe_fields": {},
+    "declared_migration_dependencies": [],
+    "proposed_ids": [
+      3094727,
+      3094743
+    ],
+    "affected_existing_recipe_ids": []
+  },
+  "original_source_policy_dispositions": {
+    "ordinary": "Specified new expansion floors and ordinary minimum/learning/quest/salvage conventions accepted as configured reconstruction policies, not recovered historical facts.",
+    "RRC132_RRC135": "Current-primary ingredients selected; contradictory native book prose remains historically unresolved.",
+    "RRC136": "must_learn1/book134651 accepted as native-family reconstruction POLICY; missing-parts Boot remains excluded.",
+    "RRC138": "Enable101 canonical definitions only; unchanged peers preserved.",
+    "RRC153": "Recharge count5 encodes one fully charged helm; initial manufacturing charges remain held.",
+    "other_holds": "All original exclusions, missing native items, era, charge, chance, return omissions, quest/racial/station and actor limitations remain."
+  },
+  "declared_dependency_order": {
+    "row_preimage_overlaps": [],
+    "declared_batch_dependencies": [],
+    "explanation": "No cross-batch definition/entry write versus declared full preimage overlap. Ascending apply/reverse rollback is the conservative sequence. Existing unchanged-peer, native dependency, input/output collision and learned-reference guards remain in each original SQL file; no guard is waived."
+  },
+  "player_item_writes": false,
+  "native_actions": false,
+  "native_acceptance": false,
+  "source_documents": "Four original source files preserved verbatim; preparation-time labels remain historical. This separate summary records actual closed application.",
+  "private_backup_and_authorization_material_excluded": true
+}

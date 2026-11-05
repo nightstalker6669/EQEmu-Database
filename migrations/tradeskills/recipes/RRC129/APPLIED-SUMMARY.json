@@ -1,0 +1,70 @@
+{
+  "format_version": 1,
+  "batch": "RRC129",
+  "source_commit": "8ed66003e6ac7263e11ce96bfcf7d4f736dfe89b",
+  "source_package_revision": 2,
+  "source_package_manifest_sha256": "85a1afe4125bc90e7ca5c0e45978b578c7368e9e32417ed12b3d47c3e6372a0a",
+  "source_sha256": "955ea02d29209e604bba63a65027f1d85444bd2cee980ac6901b84cf4f48e4a2",
+  "application_status": "APPLIED_VERIFIED",
+  "SQL_invocations": 1,
+  "transaction_state_after": 0,
+  "recipes_added": 0,
+  "entries_added": 1,
+  "existing_recipe_definitions_updated": 0,
+  "existing_entry_rows_updated": 0,
+  "affected_recipe_ids": [
+    7545
+  ],
+  "exact_postimages": true,
+  "learned_references_unchanged": true,
+  "global_after_counts": {
+    "recipes": 26365,
+    "entries": 199186
+  },
+  "historical_qualification": "Add oneexplicit source Xakratooth3462component to existingXakraToothDart7545, which currently consumes only GrimlingBoneShaft3468 while returning XakraDartCraftingTool3467 and yields3463. Primarybody explicitly requires allthree. Existing full definition/trivial46/learning/quest/gates,8oldentryIDs/outputyield1/toolsuccess1/failure1/salvage0 andall5existingkitlinks preserved. New consumedtooth componentcount1/salvagecount1 followslocalnewcomponent policy, not historicalsalvageauthentication. No newrecipe/output or inferred extra kit; existing racialkitsemantics preserved/actoruntested. Currentprimaryreconstruction, notimmutable2013/nativecombineproof. No retroactive inventorydebit/grants/refunds or nativequestacceptanceclaim.",
+  "original_source_batch_scope": {
+    "batch": "RRC129",
+    "apply_sha256": "955ea02d29209e604bba63a65027f1d85444bd2cee980ac6901b84cf4f48e4a2",
+    "rollback_sha256": "a4386fda1a90a70189d09bb4cb32dcfde6a57d277fe7fed7fa593b32006c4989",
+    "original_manifest": "outputs/recipe-publication-RRC129/PUBLIC-MANIFEST.json",
+    "original_manifest_sha256": "8cd3209c7cb1fc6a7c81f6530e0556df2718e297e9a47df41af1cb1c9adcf0c3",
+    "counts": {
+      "new_recipes": 0,
+      "new_entries": 1,
+      "existing_recipe_definitions_updated": 0,
+      "existing_entry_rows_updated": 0
+    },
+    "source_counts": {
+      "recipes_added": 0,
+      "entries_added": 1,
+      "recipe_definitions_preserved": 1,
+      "old_entries_guarded": 8,
+      "post_entries": 9,
+      "item_dependencies": 9
+    },
+    "changed_recipe_fields": {},
+    "declared_migration_dependencies": [],
+    "proposed_ids": null,
+    "affected_existing_recipe_ids": [
+      7545
+    ]
+  },
+  "original_source_policy_dispositions": {
+    "ordinary": "Specified new expansion floors and ordinary minimum/learning/quest/salvage conventions accepted as configured reconstruction policies, not recovered historical facts.",
+    "RRC132_RRC135": "Current-primary ingredients selected; contradictory native book prose remains historically unresolved.",
+    "RRC136": "must_learn1/book134651 accepted as native-family reconstruction POLICY; missing-parts Boot remains excluded.",
+    "RRC138": "Enable101 canonical definitions only; unchanged peers preserved.",
+    "RRC153": "Recharge count5 encodes one fully charged helm; initial manufacturing charges remain held.",
+    "other_holds": "All original exclusions, missing native items, era, charge, chance, return omissions, quest/racial/station and actor limitations remain."
+  },
+  "declared_dependency_order": {
+    "row_preimage_overlaps": [],
+    "declared_batch_dependencies": [],
+    "explanation": "No cross-batch definition/entry write versus declared full preimage overlap. Ascending apply/reverse rollback is the conservative sequence. Existing unchanged-peer, native dependency, input/output collision and learned-reference guards remain in each original SQL file; no guard is waived."
+  },
+  "player_item_writes": false,
+  "native_actions": false,
+  "native_acceptance": false,
+  "source_documents": "Four original source files preserved verbatim; preparation-time labels remain historical. This separate summary records actual closed application.",
+  "private_backup_and_authorization_material_excluded": true
+}

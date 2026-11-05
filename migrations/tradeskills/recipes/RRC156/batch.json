@@ -1,0 +1,204 @@
+{
+  "batch": "RRC156",
+  "branch": "rof2-tradeskills",
+  "status": "SOURCE_PROPOSAL_NOT_APPLIED_LABELLED_RECONSTRUCTION",
+  "proposed_ids": [
+    3094911,
+    3094911
+  ],
+  "counts": {
+    "recipes": 1,
+    "entries": 8,
+    "item_dependencies": 7,
+    "unchanged_prototype_recipes": 0,
+    "unchanged_prototype_entries": 0
+  },
+  "recipes": [
+    {
+      "id": 3094911,
+      "name": "Small Acrylia Plate Gauntlets",
+      "tradeskill": 63,
+      "skillneeded": 0,
+      "trivial": 228,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary Acrylia Smithing reconstruction; RRC156.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 3,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    }
+  ],
+  "entries": [
+    {
+      "recipe_id": 3094911,
+      "item_id": 22450,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094911,
+      "item_id": 11398,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094911,
+      "item_id": 11590,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094911,
+      "item_id": 11397,
+      "successcount": 1,
+      "failcount": 1,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094911,
+      "item_id": 23535,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 2,
+      "salvagecount": 2,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094911,
+      "item_id": 16488,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094911,
+      "item_id": 22030,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094911,
+      "item_id": 17,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    }
+  ],
+  "item_dependencies": [
+    {
+      "id": 11397,
+      "name": "Combine Smithy Hammer"
+    },
+    {
+      "id": 11398,
+      "name": "Acrylia Chain Jointing"
+    },
+    {
+      "id": 11590,
+      "name": "Combine Acrylia Temper"
+    },
+    {
+      "id": 16488,
+      "name": "Leather Padding"
+    },
+    {
+      "id": 22030,
+      "name": "Small Plate Gauntlet Mold"
+    },
+    {
+      "id": 22450,
+      "name": "Small Acrylia Plate Gauntlets"
+    },
+    {
+      "id": 23535,
+      "name": "Folded Sheet of Acrylia"
+    }
+  ],
+  "unchanged_prototype_recipes": [],
+  "unchanged_prototype_entries": [],
+  "source_facts": [
+    {
+      "recipe_id": 3094911,
+      "source_name": "Small Acrylia Plate Gauntlets",
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=129&rsa=Smithing&sub=lplate",
+      "output_source_url": "https://www.eqtraders.com/items/show_item.php?item=2822&menustr=010000000000",
+      "output_item_id": 22450,
+      "trivial": 228,
+      "yield_count": 1,
+      "ingredients": [
+        {
+          "item_id": 11398,
+          "name": "Acrylia Chain Jointing",
+          "count": 1
+        },
+        {
+          "item_id": 11590,
+          "name": "Combine Acrylia Temper",
+          "count": 1
+        },
+        {
+          "item_id": 11397,
+          "name": "Combine Smithy Hammer",
+          "count": 1
+        },
+        {
+          "item_id": 23535,
+          "name": "Folded Sheet of Acrylia",
+          "count": 2
+        },
+        {
+          "item_id": 16488,
+          "name": "Leather Padding",
+          "count": 1
+        },
+        {
+          "item_id": 22030,
+          "name": "Small Plate Gauntlet Mold",
+          "count": 1
+        }
+      ],
+      "container_types": [
+        17
+      ],
+      "source_furniture_not_separately_added": [],
+      "source_formula": "Components: Acrylia Chain Jointing, Combine Acrylia Temper, Combine Smithy Hammer, Folded Sheet of Acrylia (2), Leather Padding, Small Plate Gauntlet Mold\nIn: Forge, Tanaan Forge\nYield: 1\nAlso Returns: Combine Smithy Hammer(1)\nOn Failure Returns: Combine Smithy Hammer(1)",
+      "availability_origin": "PROPOSED_FLOOR3_POLICY_NOT_RECOVERED_INTRODUCTION_DATE",
+      "minimum_learning_origin": "PROPOSED_ORDINARY_ZERO_CONVENTION_SOURCE_OMITS_REQUIRED_MINIMUM_BOOK",
+      "exact_per_view_May2013_fields_verified": false
+    }
+  ],
+  "restriction_review": {
+    "scope": "One absent Small Acrylia Plate Gauntlets body, proposed3094911/+8entries/seven native dependencies. All-state/all-skill full input and selected output/name producer checks empty; no existing same-output or asserted alternative formula.",
+    "era": "Maintained Luclin catalogue context; floor3 is proposed configured availability POLICY, not recovered introduction date or immutableMay2013 per-view fields.",
+    "gates": "Proposed minimum0/learning0/book0/quest0/nofail0 ordinary new-record conventions need Coordinator disposition. Source explicitly provides trivial228, physical yield1, two Folded Sheets of Acrylia and returned Combine Smithy Hammer1 on success/failure. New consumed inputs salvage1 and returned hammer salvage0 are labelled local conventions.",
+    "containers": "Explicit Forge access uses existing type17; no extra racial/named/furniture link or actor/quest acceptance inferred. Seven ingredient units fit ten world slots. All seven native item definitions already exist, no material fabrication.",
+    "preservation": "Exact native dependencies and full new postimages/collisions/row deltas guarded; IDs/entries/learned references absent, rollback refuses learned references. No old recipe/entry/item/player mutation, SQL invocation, test, compilation or runtime."
+  },
+  "source_urls": [
+    "https://www.eqtraders.com/recipes/recipe_page.php?article=129&rsa=Smithing&sub=lplate"
+  ],
+  "migration_dependencies": []
+}

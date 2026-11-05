@@ -1,0 +1,327 @@
+{
+  "batch": "RRC155",
+  "branch": "rof2-tradeskills",
+  "status": "SOURCE_PROPOSAL_NOT_APPLIED",
+  "counts": {
+    "recipes_added": 0,
+    "entries_added": 0,
+    "entries_updated": 1,
+    "affected_recipe_definitions": 1,
+    "full_entries_guarded": 5,
+    "native_dependencies": 5
+  },
+  "before_recipes": [
+    {
+      "id": 3785,
+      "name": "Bloodling Plate Belt",
+      "tradeskill": 63,
+      "skillneeded": 0,
+      "trivial": 26,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": null,
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": -1,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    }
+  ],
+  "after_recipes": [
+    {
+      "id": 3785,
+      "name": "Bloodling Plate Belt",
+      "tradeskill": 63,
+      "skillneeded": 0,
+      "trivial": 26,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": null,
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": -1,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    }
+  ],
+  "before_entries": [
+    {
+      "id": 38224,
+      "recipe_id": 3785,
+      "item_id": 12042,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 38225,
+      "recipe_id": 3785,
+      "item_id": 30523,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 38226,
+      "recipe_id": 3785,
+      "item_id": 30602,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 38227,
+      "recipe_id": 3785,
+      "item_id": 30652,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 38228,
+      "recipe_id": 3785,
+      "item_id": 17,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    }
+  ],
+  "after_entries": [
+    {
+      "id": 38224,
+      "recipe_id": 3785,
+      "item_id": 12042,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 38225,
+      "recipe_id": 3785,
+      "item_id": 30523,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 38226,
+      "recipe_id": 3785,
+      "item_id": 30664,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 38227,
+      "recipe_id": 3785,
+      "item_id": 30652,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 38228,
+      "recipe_id": 3785,
+      "item_id": 17,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    }
+  ],
+  "changed_entry_ids": [
+    38226
+  ],
+  "affected_recipe_ids": [
+    3785
+  ],
+  "native_items": [
+    {
+      "id": 12042,
+      "Name": "Belt Sectional Mold",
+      "size": 0,
+      "itemclass": 0,
+      "itemtype": 11,
+      "stackable": 0,
+      "stacksize": 1,
+      "maxcharges": 0,
+      "bagtype": 0,
+      "bagslots": 0,
+      "bagsize": 0,
+      "classes": 65535,
+      "races": 65535,
+      "deity": 0,
+      "damage": 0,
+      "delay": 0,
+      "range": 0,
+      "slots": 0,
+      "purity": 0,
+      "augtype": 0,
+      "reqlevel": 0,
+      "reclevel": 0,
+      "loregroup": 0,
+      "filename": "",
+      "booktype": 0
+    },
+    {
+      "id": 30523,
+      "Name": "Nepeta Oil Extract",
+      "size": 1,
+      "itemclass": 0,
+      "itemtype": 38,
+      "stackable": 1,
+      "stacksize": 20,
+      "maxcharges": 0,
+      "bagtype": 0,
+      "bagslots": 0,
+      "bagsize": 0,
+      "classes": 65535,
+      "races": 65535,
+      "deity": 0,
+      "damage": 0,
+      "delay": 0,
+      "range": 0,
+      "slots": 0,
+      "purity": 0,
+      "augtype": 0,
+      "reqlevel": 0,
+      "reclevel": 0,
+      "loregroup": 0,
+      "filename": "",
+      "booktype": 0
+    },
+    {
+      "id": 30602,
+      "Name": "Bloodling Carapace",
+      "size": 1,
+      "itemclass": 0,
+      "itemtype": 11,
+      "stackable": 0,
+      "stacksize": 1,
+      "maxcharges": 0,
+      "bagtype": 0,
+      "bagslots": 0,
+      "bagsize": 0,
+      "classes": 65535,
+      "races": 65535,
+      "deity": 0,
+      "damage": 0,
+      "delay": 0,
+      "range": 0,
+      "slots": 0,
+      "purity": 0,
+      "augtype": 0,
+      "reqlevel": 0,
+      "reclevel": 0,
+      "loregroup": 0,
+      "filename": "",
+      "booktype": 0
+    },
+    {
+      "id": 30652,
+      "Name": "Bloodling Plate Belt",
+      "size": 1,
+      "itemclass": 0,
+      "itemtype": 10,
+      "stackable": 0,
+      "stacksize": 1,
+      "maxcharges": 0,
+      "bagtype": 0,
+      "bagslots": 0,
+      "bagsize": 0,
+      "classes": 33695,
+      "races": 61567,
+      "deity": 0,
+      "damage": 0,
+      "delay": 0,
+      "range": 0,
+      "slots": 1048576,
+      "purity": 0,
+      "augtype": 0,
+      "reqlevel": 0,
+      "reclevel": 0,
+      "loregroup": 0,
+      "filename": "",
+      "booktype": 0
+    },
+    {
+      "id": 30664,
+      "Name": "Bloodling Carapace Plate",
+      "size": 2,
+      "itemclass": 0,
+      "itemtype": 11,
+      "stackable": 0,
+      "stacksize": 1,
+      "maxcharges": 0,
+      "bagtype": 0,
+      "bagslots": 0,
+      "bagsize": 0,
+      "classes": 65535,
+      "races": 65535,
+      "deity": 0,
+      "damage": 0,
+      "delay": 0,
+      "range": 0,
+      "slots": 0,
+      "purity": 0,
+      "augtype": 0,
+      "reqlevel": 0,
+      "reclevel": 0,
+      "loregroup": 0,
+      "filename": "",
+      "booktype": 0
+    }
+  ],
+  "source_facts": [
+    {
+      "recipe_id": 3785,
+      "name": "Bloodling Plate Belt",
+      "formula": "Components: Belt Sectional Mold, Bloodling Carapace Plate, Nepeta Oil Extract\nIn: Forge, Tanaan Forge, Forge - Floor, Forge - Standing, Guild Forge\nYield: 1\nNotes: EQRecipeID: 9984",
+      "old_component": 30602,
+      "primary_component": 30664,
+      "output_source_url": "https://www.eqtraders.com/items/show_item.php?item=16695&menustr=010000000000"
+    }
+  ],
+  "source_native_identity_bindings": [
+    {
+      "source_url": "https://www.eqtraders.com/items/show_item.php?item=16695",
+      "native_item_id": 30652,
+      "raw_html_sha256": "10755131608b740671b72ad1b73e453435e1c7a2eae380e326ebe4c73133149e"
+    },
+    {
+      "source_url": "https://www.eqtraders.com/items/show_item.php?item=6332",
+      "native_item_id": 30664,
+      "raw_html_sha256": "96fd59c2e15ad00c663523f1ce61bdb132ae0965119896a646963841474df622"
+    }
+  ],
+  "source_urls": [
+    "https://www.eqtraders.com/recipes/recipe_page.php?article=129&rsa=Smithing&sub=lplate"
+  ],
+  "historical_qualification": "Bloodling Plate Belt3785 currently consumes raw Bloodling Carapace30602; maintained primary explicitly requires Bloodling Carapace Plate30664. Correct only that component item_id, preserving component1/salvage1, all five entryIDs, full definition/trivial26/output30652/yield1/Forge17/minimum/learning/availability/playerdata. Native definitions distinguish raw Carapace from Carapace Plate; not a display-name alias or new alternate body. Old full input body unique3785; source full input absent across states/skills. Current-primary reconstruction, not immutable2013/native combine/quest proof. No item fabrication or retroactive grants.",
+  "migration_dependencies": []
+}
