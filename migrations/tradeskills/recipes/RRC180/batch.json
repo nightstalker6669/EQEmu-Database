@@ -1,0 +1,179 @@
+{
+  "batch": "RRC180",
+  "branch": "rof2-tradeskills",
+  "status": "SOURCE_PROPOSAL_NOT_APPLIED_LABELLED_RECONSTRUCTION",
+  "proposed_ids": [
+    3096189,
+    3096189
+  ],
+  "counts": {
+    "recipes": 1,
+    "entries": 6,
+    "item_dependencies": 6,
+    "unchanged_prototype_recipes": 0,
+    "unchanged_prototype_entries": 0
+  },
+  "recipes": [
+    {
+      "id": 3096189,
+      "name": "Infused Gears",
+      "tradeskill": 57,
+      "skillneeded": 0,
+      "trivial": 191,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary pre-cutoff-qualified Infused Gears; RRC180.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 19,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    }
+  ],
+  "entries": [
+    {
+      "recipe_id": 3096189,
+      "item_id": 16858,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096189,
+      "item_id": 23542,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096189,
+      "item_id": 65430,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096189,
+      "item_id": 17276,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3096189,
+      "item_id": 17877,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3096189,
+      "item_id": 17902,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    }
+  ],
+  "item_dependencies": [
+    {
+      "id": 16858,
+      "name": "Gears"
+    },
+    {
+      "id": 17276,
+      "name": "Collapsible Toolbox"
+    },
+    {
+      "id": 17877,
+      "name": "Deluxe Toolbox"
+    },
+    {
+      "id": 17902,
+      "name": "Toolbox"
+    },
+    {
+      "id": 23542,
+      "name": "Celestial Temper"
+    },
+    {
+      "id": 65430,
+      "name": "Infused Gears"
+    }
+  ],
+  "unchanged_prototype_recipes": [],
+  "unchanged_prototype_entries": [],
+  "source_facts": [
+    {
+      "recipe_id": 3096189,
+      "source_name": "Infused Gears",
+      "source_view_id": 23732,
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=140&rc=GNM&rsa=Tinkering&sub=armor",
+      "source_formula": "Components: Celestial Temper, Gears\nIn: Toolbox, Deluxe Toolbox, Collapsible Toolbox\nYield: 1\nThis combine may only be made by Gnomes",
+      "source_catalogue_sha256": "e1ff52ec94b4f448999f924d837567e85dba6313974f41a1f1a23f56a564b7e5",
+      "output_item_id": 65430,
+      "yield_count": 1,
+      "trivial": 191,
+      "ingredients": [
+        {
+          "item_id": 16858,
+          "name": "Gears",
+          "count": 1
+        },
+        {
+          "item_id": 23542,
+          "name": "Celestial Temper",
+          "count": 1
+        }
+      ],
+      "success_roles": {
+        "65430": 1
+      },
+      "failure_roles": {},
+      "container_item_ids": [
+        17276,
+        17877,
+        17902
+      ],
+      "held_source_stations": [],
+      "min_expansion": 19,
+      "skillneeded": 0,
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "learning_origin": "ORDINARY_ZERO_POLICY_SOURCE_OMITS_MANDATORY_BOOK_MINIMUM",
+      "era_origin": "FIRSTHAND_2008_MANUFACTURE_CONTEXT_WITH_CONSERVATIVE_ROF19_POLICY_NOT_INTRODUCTION",
+      "May2013_exact_fields_verified": false,
+      "identity_assurance": "ALL_REFERENCES_EXPLICIT_PRIMARY_IDS_AFTER_TARGETED_PRIMARY_PAGE_OBSERVATIONS"
+    }
+  ],
+  "restriction_review": {
+    "scope": "One explicit-primary fullinputbody InfusedGears:CelestialTemper+Gears,numerictrivial191/physicalyield1. AllrolesdirectprimaryIDs;unchargednativeoutput65430.",
+    "era": "Positivepre-cutoffmanufacturecontext from EQTCforum AAAAstepbystepguide:Catweazel2008-01-04/edited2008-01-16 andGrimwoodCT2008-01-11/edited2008-01-13 firsthandtoolboxmanufacturingguides describe brewingCelestialTemper/obtainingGears/makingInfusedGears. This qualifies pre-cutoff family, NOT everycurrentfield/exactintroduction. Configuredconservativefloor19/max-1POLICY,not blanketunknown-era backport. Currentprimarybody independently suppliesliteralquantities/trivial/toolkits.",
+    "gates": "CurrentprimaryGnomesOnly preserved through existingnativeTinkering57actorrestriction/manual+auto; no book/kitmask proxy. Sourceomitsminimum/book;ordinaryskillneeded0/must_learn0/book0/no-fail0/quest0/enabled1/consumedsalvage policies. No toolkit/race/trophy frameworkchanges.",
+    "containers": "ExactpositiveToolbox17902/Deluxe17877/Collapsible17276bag10 actualcapacities/sizeschecked;noextra stations added. Yield1/no returnedtools inferred.",
+    "preservation": "Sixnativeitemdependencies/newID/allstatefullinputs/currentoutput-useuniverse/deltas/fullpostimages/learnedrefs guarded. Existingrecipes/items/player/quest/core unchanged.",
+    "execution": "Sourceproposalonly,separatepublication/exactSQLGO. Necessaryfinitecurrentreaderclosed,noSQLwrites/tests/build/runtime/nativecombines;othersevengenericera candidates stillheld, nohistoricalprooffromnames/IDs alone."
+  },
+  "source_urls": [
+    "https://mboards.eqtraders.com/eq/forum/tradeskills/tinkering/32197-aaaa-s-a-step-by-step-guide",
+    "https://www.eqtraders.com/recipes/recipe_page.php?article=140&rc=GNM&rsa=Tinkering&sub=armor"
+  ],
+  "supplemental_primary_identity_sources": [],
+  "native_authored_context": [],
+  "migration_dependencies": [],
+  "held_source_rows": []
+}
