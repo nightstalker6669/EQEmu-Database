@@ -1,0 +1,74 @@
+{
+  "format_version": 1,
+  "feature": "AA015",
+  "source_commit": "b0e1e24ca4ea302d7e45027bf87347978183928c",
+  "forward_sha256": "6141cf4eef9d1142818235b479301f80eac956767e046afadc888f78c3b31604",
+  "application_status": "APPLIED_VERIFIED_INDEPENDENT_FULL_POSTIMAGES",
+  "SQL_invocations": 1,
+  "ranks_added": 1,
+  "effects_added": 1,
+  "prereqs_added": 0,
+  "existing_rows_updated": 0,
+  "new_rank_id": 13282,
+  "ability_id": 348,
+  "predecessor_id": 13281,
+  "ability_predecessor_effect_and_prereqs_unchanged": true,
+  "independent_full_postimages_verified": true,
+  "connections_closed_before_next_application": true,
+  "player_ownership_points_charges_writes": 0,
+  "runtime_cache_actions": 0,
+  "qualified_encoding": "Item mana regeneration capbonus32;cost12/level92/VoA18;inheritedSPA318slot1/base2=0;next=-1finite boundary,not historicalterminalproof;ranks33..35nativeidentityheld.",
+  "accepted_defaults": [
+    "Retain predecessor passive fields and SPA318 slot1/base2=0; change only item mana regen cap bonus31 to period-supported32.",
+    "Use explicit predecessor target13282; no sequential ID allocation.",
+    "next_id=-1 is a finite reconstruction boundary, not a historical terminal claim. Ranks33 through35 remains held for native identity."
+  ],
+  "period_source": {
+    "url": "https://everquest.allakhazam.com/wiki/EQ:Expansive_Mind?oldid=451576",
+    "revision": "2012-11-30 22:44:19",
+    "method": "Actual Chrome wiki History and rendered dated revision read.",
+    "description": "Item mana regeneration cap increases1point per rank.",
+    "values": [
+      {
+        "rank": 31,
+        "cost": 12,
+        "level": 91,
+        "expansion": "Veil of Alaris",
+        "item_mana_regen_cap_bonus": 31
+      },
+      {
+        "rank": 32,
+        "cost": 12,
+        "level": 92,
+        "expansion": "Veil of Alaris",
+        "item_mana_regen_cap_bonus": 32
+      },
+      {
+        "rank": 33,
+        "cost": 12,
+        "level": 93,
+        "expansion": "Veil of Alaris",
+        "item_mana_regen_cap_bonus": 33
+      },
+      {
+        "rank": 34,
+        "cost": 12,
+        "level": 94,
+        "expansion": "Veil of Alaris",
+        "item_mana_regen_cap_bonus": 34
+      },
+      {
+        "rank": 35,
+        "cost": 12,
+        "level": 95,
+        "expansion": "Veil of Alaris",
+        "item_mana_regen_cap_bonus": 35
+      }
+    ],
+    "limit": "Ranks36..38 RoF requirements unknown in pinned revision, excluded."
+  },
+  "native_acceptance": false,
+  "cache_status": "Separate coordinator/Build availability batch;no refresh established by database receipt.",
+  "source_documents": "Three published source files retained verbatim;proposal-only labels historical. This summary records the later authorized actual application.",
+  "recovery": "Exact target postimages, zero target prereqs, no character root1072 rank32 or higher. Delete only newly added rank/effect; never edit player data. Inverse not invoked; separate GO only;no player-data rollback or automatic retry."
+}

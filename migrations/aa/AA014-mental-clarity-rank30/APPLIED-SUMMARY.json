@@ -1,0 +1,74 @@
+{
+  "format_version": 1,
+  "feature": "AA014",
+  "source_commit": "b0e1e24ca4ea302d7e45027bf87347978183928c",
+  "forward_sha256": "cd94332cf6e21a638d0fe3506510f6990b4ae60a150591129eb449a772f7fdf4",
+  "application_status": "APPLIED_VERIFIED_INDEPENDENT_FULL_POSTIMAGES",
+  "SQL_invocations": 1,
+  "ranks_added": 1,
+  "effects_added": 1,
+  "prereqs_added": 0,
+  "existing_rows_updated": 0,
+  "new_rank_id": 13314,
+  "ability_id": 224,
+  "predecessor_id": 13313,
+  "ability_predecessor_effect_and_prereqs_unchanged": true,
+  "independent_full_postimages_verified": true,
+  "connections_closed_before_next_application": true,
+  "player_ownership_points_charges_writes": 0,
+  "runtime_cache_actions": 0,
+  "qualified_encoding": "Natural mana regeneration30;cost8/level91/VoA18;inheritedSPA15slot1/base2=0;next=-1finite boundary,not historicalterminalproof;ranks31..33nativeidentityheld.",
+  "accepted_defaults": [
+    "Retain predecessor passive fields and SPA15 slot1/base2=0; change only natural mana regen29 to period-supported30.",
+    "Use explicit predecessor target13314; no sequential ID allocation.",
+    "next_id=-1 is a finite reconstruction boundary, not a historical terminal claim. Ranks31 through33 remains held for native identity."
+  ],
+  "period_source": {
+    "url": "https://everquest.allakhazam.com/wiki/EQ:Mental_Clarity?oldid=454892",
+    "revision": "2013-01-06 07:51:33",
+    "method": "Actual Chrome wiki History and rendered dated revision.",
+    "description": "Natural mana regeneration increases1point per ability level.",
+    "values": [
+      {
+        "rank": 29,
+        "cost": 8,
+        "level": 91,
+        "expansion": "Veil of Alaris",
+        "natural_mana_regen": 29
+      },
+      {
+        "rank": 30,
+        "cost": 8,
+        "level": 91,
+        "expansion": "Veil of Alaris",
+        "natural_mana_regen": 30
+      },
+      {
+        "rank": 31,
+        "cost": 8,
+        "level": 92,
+        "expansion": "Veil of Alaris",
+        "natural_mana_regen": 31
+      },
+      {
+        "rank": 32,
+        "cost": 8,
+        "level": 93,
+        "expansion": "Veil of Alaris",
+        "natural_mana_regen": 32
+      },
+      {
+        "rank": 33,
+        "cost": 8,
+        "level": 94,
+        "expansion": "Veil of Alaris",
+        "natural_mana_regen": 33
+      }
+    ],
+    "limit": "Use displayed rank30level91, do not substitute92 by assumption. Ranks34..38 RoF requirements unknown and excluded."
+  },
+  "native_acceptance": false,
+  "cache_status": "Separate coordinator/Build availability batch;no refresh established by database receipt.",
+  "source_documents": "Three published source files retained verbatim;proposal-only labels historical. This summary records the later authorized actual application.",
+  "recovery": "Exact target postimages, zero target prereqs, no character root658 rank30 or higher. Delete only newly added rank/effect; never edit player data. Inverse not invoked; separate GO only;no player-data rollback or automatic retry."
+}

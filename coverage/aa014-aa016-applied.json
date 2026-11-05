@@ -1,0 +1,46 @@
+{
+  "format_version": 1,
+  "features": [
+    "AA014",
+    "AA015",
+    "AA016"
+  ],
+  "application_order": [
+    "AA014",
+    "AA015",
+    "AA016"
+  ],
+  "application_status": "ALL_THREE_APPLIED_VERIFIED_INDEPENDENT_FULL_POSTIMAGES_SEQUENTIAL_CLOSED",
+  "SQL_invocations": {
+    "AA014": 1,
+    "AA015": 1,
+    "AA016": 1
+  },
+  "ranks_added": 3,
+  "effects_added": 3,
+  "prereqs_added": 0,
+  "existing_rows_updated": 0,
+  "player_ownership_points_charges_writes": 0,
+  "runtime_cache_actions": 0,
+  "qualified_encodings": {
+    "AA014": "Natural mana regeneration30;cost8/level91/VoA18;inheritedSPA15slot1/base2=0;next=-1finite boundary,not historicalterminalproof;ranks31..33nativeidentityheld.",
+    "AA015": "Item mana regeneration capbonus32;cost12/level92/VoA18;inheritedSPA318slot1/base2=0;next=-1finite boundary,not historicalterminalproof;ranks33..35nativeidentityheld.",
+    "AA016": "Death threshold bonus1700 derived from periodformula30*50+(rank-30)*100;cost10/level92/VoA18;inheritedSPA328slot1/base2=0;period unconsciousness atzero remains;next=-1finite boundary/not historicalterminalproof;ranks33..35nativeidentityheld."
+  },
+  "native_acceptance": false,
+  "scope_complete": false,
+  "later_native_identities_held": true,
+  "prior_locally_confirmed_published_normal_SQL_source_paths": 674,
+  "earlier_pending_normal_SQL_source_paths": 0,
+  "new_normal_SQL_source_paths": 6,
+  "normal_SQL_source_paths_after_all_pending_publications": 680,
+  "SQL_path_count_meaning": "Source paths,not application count.",
+  "history_archives_preserved": true,
+  "QA39999_production_exclusion_retained": true,
+  "assembly": "Exact source+actual summaries only;noadditionalSQL/runtime/cache.",
+  "source_commits": {
+    "AA014": "b0e1e24ca4ea302d7e45027bf87347978183928c",
+    "AA015": "b0e1e24ca4ea302d7e45027bf87347978183928c",
+    "AA016": "ea091cd3228a727b2c311e8973bf06bceee1cf27"
+  }
+}

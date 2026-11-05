@@ -1,0 +1,75 @@
+{
+  "format_version": 1,
+  "feature": "AA016",
+  "source_commit": "ea091cd3228a727b2c311e8973bf06bceee1cf27",
+  "forward_sha256": "8028d168610c1adb9425605989f654af06ba623aa76ea9064e01b2bb070d8504",
+  "application_status": "APPLIED_VERIFIED_INDEPENDENT_FULL_POSTIMAGES",
+  "SQL_invocations": 1,
+  "ranks_added": 1,
+  "effects_added": 1,
+  "prereqs_added": 0,
+  "existing_rows_updated": 0,
+  "new_rank_id": 8431,
+  "ability_id": 335,
+  "predecessor_id": 8430,
+  "ability_predecessor_effect_and_prereqs_unchanged": true,
+  "independent_full_postimages_verified": true,
+  "connections_closed_before_next_application": true,
+  "player_ownership_points_charges_writes": 0,
+  "runtime_cache_actions": 0,
+  "qualified_encoding": "Death threshold bonus1700 derived from periodformula30*50+(rank-30)*100;cost10/level92/VoA18;inheritedSPA328slot1/base2=0;period unconsciousness atzero remains;next=-1finite boundary/not historicalterminalproof;ranks33..35nativeidentityheld.",
+  "accepted_defaults": [
+    "Retain predecessor passive fields and SPA328 slot1/base2=0; change only death threshold bonus1600 to period-supported1700.",
+    "Use explicit predecessor target8431; no sequential ID allocation.",
+    "next_id=-1 is a finite reconstruction boundary, not a historical terminal claim. Ranks33 through35 remains held for native identity."
+  ],
+  "period_source": {
+    "url": "https://everquest.allakhazam.com/wiki/EQ:Delay_Death?oldid=463609",
+    "revision": "2013-05-10 21:19:35",
+    "method": "Actual Chrome wiki History and rendered period revision read.",
+    "description": "Deaththresholdbelowzero+50HP/rank throughrank30,+100HP/rank31andup; unconsciousness atzero remains.",
+    "values": [
+      {
+        "rank": 31,
+        "cost": 10,
+        "level": 91,
+        "expansion": "Veil of Alaris",
+        "death_threshold_bonus": 1600
+      },
+      {
+        "rank": 32,
+        "cost": 10,
+        "level": 92,
+        "expansion": "Veil of Alaris",
+        "death_threshold_bonus": 1700
+      },
+      {
+        "rank": 33,
+        "cost": 10,
+        "level": 93,
+        "expansion": "Veil of Alaris",
+        "death_threshold_bonus": 1800
+      },
+      {
+        "rank": 34,
+        "cost": 10,
+        "level": 94,
+        "expansion": "Veil of Alaris",
+        "death_threshold_bonus": 1900
+      },
+      {
+        "rank": 35,
+        "cost": 10,
+        "level": 95,
+        "expansion": "Veil of Alaris",
+        "death_threshold_bonus": 2000
+      }
+    ],
+    "derivation": "Bonuses derived directly from period described formula30*50+(rank-30)*100, matching loaded31=1600.",
+    "limit": "Later36..40 requirementsunknown; July2013 history explicitly extrapolated39..40, excluded."
+  },
+  "native_acceptance": false,
+  "cache_status": "Separate coordinator/Build availability batch;database receipt establishes no refresh.",
+  "source_documents": "Three published sourcefiles retainedverbatim;proposal-only labels historical. Summaryrecords later authorizedactualapplication.",
+  "recovery": "Exact target postimages, zero target prereqs, no character root1026 rank32 or higher. Delete only newly added rank/effect; never edit player data. Inverse notinvoked;separateGO only,noautomaticretry/playerrollback."
+}
