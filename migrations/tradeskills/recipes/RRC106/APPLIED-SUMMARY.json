@@ -1,0 +1,70 @@
+{
+  "format_version": 1,
+  "batch": "RRC106",
+  "source_commit": "9ed3aa4db24cdd5629002c17e445456e903098ac",
+  "source_sha256": "eabc5e55d8e2371c77fa3d6d341a994585e37f1d0960d57abda827f44e760f53",
+  "application_status": "APPLIED_VERIFIED",
+  "SQL_invocations": 1,
+  "recipes_added": 14,
+  "entries_added": 110,
+  "recipe_id_range": [
+    3094055,
+    3094068
+  ],
+  "affected_postimages_exact": true,
+  "global_after_counts": {
+    "recipes": 25892,
+    "entries": 195295
+  },
+  "unchanged_prototype_recipes": 0,
+  "unchanged_prototype_entries": 0,
+  "learned_references": "Target learned references unchanged per coordinator handoff; rollback refuses learned references.",
+  "transaction_state_after": 0,
+  "existing_row_changes": "No UPDATE/DELETE of existing recipes; additive exact-ID inserts only. Global old-row diff was not repeated.",
+  "player_item_writes": false,
+  "native_actions": false,
+  "source_documents": "Exact source files retain preparation-time status; separate summary records actual application.",
+  "era_disposition": "LABELLED_RECONSTRUCTION",
+  "historical_qualification": "LABELLED_RECONSTRUCTION maintained Underfoot catalogue; minexp16 configured policy/minimum0;7explicit mandatory bows45867/must_learn1,7strings0/no binding. SimpleRecurveBow17910only;other13explicit3kits. Native45867 authored body supports assembly context, not numerical/date proof; book text unchanged/hash-pinned. Existing scribing consumes physical book separately from learning insert; no atomic guarantee or nativeUI/vendor/combine acceptance.",
+  "configured_policy": {
+    "min_expansion": 16,
+    "minimum": 0,
+    "maximum_expansion": -1,
+    "meaning": "Underfoot-family floor POLICY, not recovered introduction date or immutable individual May2013 field proof."
+  },
+  "book_bindings": {
+    "bows": {
+      "rows": 7,
+      "book_id": 45867,
+      "must_learn": 1,
+      "explicit_mandatory": true
+    },
+    "bowstrings": {
+      "rows": 7,
+      "must_learn": 0,
+      "book_id": null,
+      "no_inferred_binding_from_prose": true
+    },
+    "scribing": "Existing handler consumes ONE physical book separately from learned-row insert; no atomic learning-consumption guarantee or scribing action here.",
+    "combine": "Book is not a combine ingredient and need not remain carried after learning."
+  },
+  "native_book_context": "45867 exact title/filename/itemtype/text identifies native book and assembly context, not externally verified EQID mapping/numerical trivials or era proof. Text unchanged/hash-pinned.",
+  "kit_scope": {
+    "Simple_Recurve_Bow": [
+      17910
+    ],
+    "other13routes": [
+      17910,
+      17762,
+      17189
+    ],
+    "no_sibling_inference": true,
+    "held": "Racial/furniture; no generic18/access inference."
+  },
+  "no_claims": [
+    "native scribing UI acceptance",
+    "vendor supply",
+    "native combine/use acceptance",
+    "historical-universe closure"
+  ]
+}
