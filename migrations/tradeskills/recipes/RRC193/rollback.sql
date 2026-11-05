@@ -1,0 +1,299 @@
+-- RRC193: MariaDB10.11, dedicated fresh admin session; manual coordinated application only.
+-- Source recipe facts/provenance: batch.public.json. No engine/updater/version/rule changes.
+-- Anonymous compound block: no permanent helper procedure or migration table.
+DELIMITER //
+BEGIN NOT ATOMIC
+ DECLARE own_transaction BOOLEAN DEFAULT FALSE;
+ DECLARE already_present INT DEFAULT 0;
+ DECLARE recipes_before BIGINT DEFAULT 0;
+ DECLARE entries_before BIGINT DEFAULT 0;
+ DECLARE EXIT HANDLER FOR SQLEXCEPTION
+ BEGIN
+  IF own_transaction THEN ROLLBACK; END IF;
+  RESIGNAL;
+ END;
+ IF @@in_transaction <> 0 THEN SIGNAL SQLSTATE '45000' SET MESSAGE_TEXT='RRC193 requires fresh transaction-free session'; END IF;
+ IF FIND_IN_SET('STRICT_ALL_TABLES',@@SESSION.sql_mode)=0 AND FIND_IN_SET('STRICT_TRANS_TABLES',@@SESSION.sql_mode)=0 THEN SIGNAL SQLSTATE '45000' SET MESSAGE_TEXT='RRC193 strict SQL mode required'; END IF;
+ IF (SELECT COUNT(*) FROM information_schema.TABLES WHERE TABLE_SCHEMA=DATABASE() AND TABLE_NAME IN ('tradeskill_recipe','tradeskill_recipe_entries','items') AND ENGINE='InnoDB')<>3 THEN SIGNAL SQLSTATE '45000' SET MESSAGE_TEXT='RRC193 InnoDB foundation mismatch'; END IF;
+ IF (SELECT COUNT(*) FROM information_schema.COLUMNS WHERE TABLE_SCHEMA=DATABASE() AND TABLE_NAME='tradeskill_recipe')<>16 OR (SELECT COUNT(*) FROM information_schema.COLUMNS WHERE TABLE_SCHEMA=DATABASE() AND TABLE_NAME='tradeskill_recipe_entries')<>8 THEN SIGNAL SQLSTATE '45000' SET MESSAGE_TEXT='RRC193 recipe schema column-count mismatch'; END IF;
+ CREATE TEMPORARY TABLE rrc193_recipes LIKE tradeskill_recipe;
+ CREATE TEMPORARY TABLE rrc193_entries LIKE tradeskill_recipe_entries;
+ CREATE TEMPORARY TABLE rrc193_items(id INT PRIMARY KEY,name VARCHAR(64) NOT NULL) ENGINE=InnoDB;
+INSERT INTO rrc193_recipes (`id`,`name`,`tradeskill`,`skillneeded`,`trivial`,`nofail`,`replace_container`,`notes`,`must_learn`,`learned_by_item_id`,`quest`,`enabled`,`min_expansion`,`max_expansion`,`content_flags`,`content_flags_disabled`) VALUES
+(3096484,CONVERT(0x556e6669726564205472616e736c7563656e7420456e6572676569616e20496365204f7262 USING utf8mb4),69,0,410,0,0,CONVERT(0x4d61696e7461696e65642d7072696d61727920536f44205472616e736c7563656e742d6f7262207265636f6e737472756374696f6e3b205252433139332e USING utf8mb4),0,0,0,1,15,-1,NULL,NULL),
+(3096485,CONVERT(0x556e6669726564205472616e736c7563656e7420456e6572676569616e2046697265204f7262 USING utf8mb4),69,0,410,0,0,CONVERT(0x4d61696e7461696e65642d7072696d61727920536f44205472616e736c7563656e742d6f7262207265636f6e737472756374696f6e3b205252433139332e USING utf8mb4),0,0,0,1,15,-1,NULL,NULL),
+(3096486,CONVERT(0x556e6669726564205472616e736c7563656e7420456e6572676569616e2047726f777468204f7262 USING utf8mb4),69,0,423,0,0,CONVERT(0x4d61696e7461696e65642d7072696d61727920536f44205472616e736c7563656e742d6f7262207265636f6e737472756374696f6e3b205252433139332e USING utf8mb4),0,0,0,1,15,-1,NULL,NULL),
+(3096487,CONVERT(0x556e6669726564205472616e736c7563656e7420456e6572676569616e20506f69736f6e204f7262 USING utf8mb4),69,0,436,0,0,CONVERT(0x4d61696e7461696e65642d7072696d61727920536f44205472616e736c7563656e742d6f7262207265636f6e737472756374696f6e3b205252433139332e USING utf8mb4),0,0,0,1,15,-1,NULL,NULL),
+(3096488,CONVERT(0x556e6669726564205472616e736c7563656e7420456e6572676569616e205761746572204f7262 USING utf8mb4),69,0,436,0,0,CONVERT(0x4d61696e7461696e65642d7072696d61727920536f44205472616e736c7563656e742d6f7262207265636f6e737472756374696f6e3b205252433139332e USING utf8mb4),0,0,0,1,15,-1,NULL,NULL),
+(3096489,CONVERT(0x556e6669726564205472616e736c7563656e7420456e6572676569616e20536861646f77204f7262 USING utf8mb4),69,0,436,0,0,CONVERT(0x4d61696e7461696e65642d7072696d61727920536f44205472616e736c7563656e742d6f7262207265636f6e737472756374696f6e3b205252433139332e USING utf8mb4),0,0,0,1,15,-1,NULL,NULL),
+(3096490,CONVERT(0x556e6669726564205472616e736c7563656e7420456e6572676569616e204c69676874204f7262 USING utf8mb4),69,0,436,0,0,CONVERT(0x4d61696e7461696e65642d7072696d61727920536f44205472616e736c7563656e742d6f7262207265636f6e737472756374696f6e3b205252433139332e USING utf8mb4),0,0,0,1,15,-1,NULL,NULL),
+(3096491,CONVERT(0x556e6669726564205472616e736c7563656e7420456e6572676569616e20537465616d204f7262 USING utf8mb4),69,0,450,0,0,CONVERT(0x4d61696e7461696e65642d7072696d61727920536f44205472616e736c7563656e742d6f7262207265636f6e737472756374696f6e3b205252433139332e USING utf8mb4),0,0,0,1,15,-1,NULL,NULL),
+(3096492,CONVERT(0x556e6669726564205472616e736c7563656e7420456e6572676569616e2053746f6e65204f7262 USING utf8mb4),69,0,450,0,0,CONVERT(0x4d61696e7461696e65642d7072696d61727920536f44205472616e736c7563656e742d6f7262207265636f6e737472756374696f6e3b205252433139332e USING utf8mb4),0,0,0,1,15,-1,NULL,NULL),
+(3096493,CONVERT(0x556e6669726564205472616e736c7563656e7420456e6572676569616e20457468657265616c204f7262 USING utf8mb4),69,0,450,0,0,CONVERT(0x4d61696e7461696e65642d7072696d61727920536f44205472616e736c7563656e742d6f7262207265636f6e737472756374696f6e3b205252433139332e USING utf8mb4),0,0,0,1,15,-1,NULL,NULL),
+(3096494,CONVERT(0x556e6669726564205472616e736c7563656e7420456e6572676569616e20456c656d656e74616c204f7262 USING utf8mb4),69,0,450,0,0,CONVERT(0x4d61696e7461696e65642d7072696d61727920536f44205472616e736c7563656e742d6f7262207265636f6e737472756374696f6e3b205252433139332e USING utf8mb4),0,0,0,1,15,-1,NULL,NULL),
+(3096495,CONVERT(0x5365616c6564205472616e736c7563656e7420456e6572676569616e20496365204f7262 USING utf8mb4),69,0,356,0,0,CONVERT(0x4d61696e7461696e65642d7072696d61727920536f44205472616e736c7563656e742d6f7262207265636f6e737472756374696f6e3b205252433139332e USING utf8mb4),0,0,0,1,15,-1,NULL,NULL),
+(3096496,CONVERT(0x5365616c6564205472616e736c7563656e7420456e6572676569616e2046697265204f7262 USING utf8mb4),69,0,356,0,0,CONVERT(0x4d61696e7461696e65642d7072696d61727920536f44205472616e736c7563656e742d6f7262207265636f6e737472756374696f6e3b205252433139332e USING utf8mb4),0,0,0,1,15,-1,NULL,NULL),
+(3096497,CONVERT(0x5365616c6564205472616e736c7563656e7420456e6572676569616e2047726f777468204f7262 USING utf8mb4),69,0,370,0,0,CONVERT(0x4d61696e7461696e65642d7072696d61727920536f44205472616e736c7563656e742d6f7262207265636f6e737472756374696f6e3b205252433139332e USING utf8mb4),0,0,0,1,15,-1,NULL,NULL),
+(3096498,CONVERT(0x5365616c6564205472616e736c7563656e7420456e6572676569616e20506f69736f6e204f7262 USING utf8mb4),69,0,383,0,0,CONVERT(0x4d61696e7461696e65642d7072696d61727920536f44205472616e736c7563656e742d6f7262207265636f6e737472756374696f6e3b205252433139332e USING utf8mb4),0,0,0,1,15,-1,NULL,NULL),
+(3096499,CONVERT(0x5365616c6564205472616e736c7563656e7420456e6572676569616e205761746572204f7262 USING utf8mb4),69,0,383,0,0,CONVERT(0x4d61696e7461696e65642d7072696d61727920536f44205472616e736c7563656e742d6f7262207265636f6e737472756374696f6e3b205252433139332e USING utf8mb4),0,0,0,1,15,-1,NULL,NULL),
+(3096500,CONVERT(0x5365616c6564205472616e736c7563656e7420456e6572676569616e20536861646f77204f7262 USING utf8mb4),69,0,383,0,0,CONVERT(0x4d61696e7461696e65642d7072696d61727920536f44205472616e736c7563656e742d6f7262207265636f6e737472756374696f6e3b205252433139332e USING utf8mb4),0,0,0,1,15,-1,NULL,NULL),
+(3096501,CONVERT(0x5365616c6564205472616e736c7563656e7420456e6572676569616e204c69676874204f7262 USING utf8mb4),69,0,383,0,0,CONVERT(0x4d61696e7461696e65642d7072696d61727920536f44205472616e736c7563656e742d6f7262207265636f6e737472756374696f6e3b205252433139332e USING utf8mb4),0,0,0,1,15,-1,NULL,NULL),
+(3096502,CONVERT(0x5365616c6564205472616e736c7563656e7420456e6572676569616e20537465616d204f7262 USING utf8mb4),69,0,396,0,0,CONVERT(0x4d61696e7461696e65642d7072696d61727920536f44205472616e736c7563656e742d6f7262207265636f6e737472756374696f6e3b205252433139332e USING utf8mb4),0,0,0,1,15,-1,NULL,NULL),
+(3096503,CONVERT(0x5365616c6564205472616e736c7563656e7420456e6572676569616e2053746f6e65204f7262 USING utf8mb4),69,0,396,0,0,CONVERT(0x4d61696e7461696e65642d7072696d61727920536f44205472616e736c7563656e742d6f7262207265636f6e737472756374696f6e3b205252433139332e USING utf8mb4),0,0,0,1,15,-1,NULL,NULL),
+(3096504,CONVERT(0x5365616c6564205472616e736c7563656e7420456e6572676569616e20457468657265616c204f7262 USING utf8mb4),69,0,396,0,0,CONVERT(0x4d61696e7461696e65642d7072696d61727920536f44205472616e736c7563656e742d6f7262207265636f6e737472756374696f6e3b205252433139332e USING utf8mb4),0,0,0,1,15,-1,NULL,NULL),
+(3096505,CONVERT(0x5365616c6564205472616e736c7563656e7420456e6572676569616e20456c656d656e74616c204f7262 USING utf8mb4),69,0,396,0,0,CONVERT(0x4d61696e7461696e65642d7072696d61727920536f44205472616e736c7563656e742d6f7262207265636f6e737472756374696f6e3b205252433139332e USING utf8mb4),0,0,0,1,15,-1,NULL,NULL);
+INSERT INTO rrc193_entries (`recipe_id`,`item_id`,`successcount`,`failcount`,`componentcount`,`salvagecount`,`iscontainer`) VALUES
+(3096484,10035,0,0,2,2,0),
+(3096484,10253,0,0,1,1,0),
+(3096484,33828,0,0,1,1,0),
+(3096484,33832,0,0,1,1,0),
+(3096484,41809,0,0,1,1,0),
+(3096484,41838,1,0,0,0,0),
+(3096484,8,0,0,0,0,1),
+(3096485,10035,0,0,2,2,0),
+(3096485,10253,0,0,1,1,0),
+(3096485,33828,0,0,1,1,0),
+(3096485,33833,0,0,1,1,0),
+(3096485,41809,0,0,1,1,0),
+(3096485,41839,1,0,0,0,0),
+(3096485,8,0,0,0,0,1),
+(3096486,10035,0,0,2,2,0),
+(3096486,10253,0,0,1,1,0),
+(3096486,33828,0,0,1,1,0),
+(3096486,33836,0,0,1,1,0),
+(3096486,41809,0,0,1,1,0),
+(3096486,41842,1,0,0,0,0),
+(3096486,8,0,0,0,0,1),
+(3096487,10035,0,0,2,2,0),
+(3096487,10253,0,0,1,1,0),
+(3096487,33828,0,0,1,1,0),
+(3096487,33838,0,0,1,1,0),
+(3096487,41809,0,0,1,1,0),
+(3096487,41844,1,0,0,0,0),
+(3096487,8,0,0,0,0,1),
+(3096488,10035,0,0,2,2,0),
+(3096488,10253,0,0,1,1,0),
+(3096488,33828,0,0,1,1,0),
+(3096488,41809,0,0,1,1,0),
+(3096488,41811,0,0,1,1,0),
+(3096488,41846,1,0,0,0,0),
+(3096488,8,0,0,0,0,1),
+(3096489,10035,0,0,2,2,0),
+(3096489,10253,0,0,1,1,0),
+(3096489,33828,0,0,1,1,0),
+(3096489,41809,0,0,1,1,0),
+(3096489,41813,0,0,1,1,0),
+(3096489,41847,1,0,0,0,0),
+(3096489,8,0,0,0,0,1),
+(3096490,10035,0,0,2,2,0),
+(3096490,10253,0,0,1,1,0),
+(3096490,33828,0,0,1,1,0),
+(3096490,41809,0,0,1,1,0),
+(3096490,41812,0,0,1,1,0),
+(3096490,41848,1,0,0,0,0),
+(3096490,8,0,0,0,0,1),
+(3096491,10035,0,0,2,2,0),
+(3096491,10253,0,0,1,1,0),
+(3096491,33828,0,0,1,1,0),
+(3096491,33833,0,0,1,1,0),
+(3096491,41809,0,0,1,1,0),
+(3096491,41811,0,0,1,1,0),
+(3096491,41849,1,0,0,0,0),
+(3096491,8,0,0,0,0,1),
+(3096492,10035,0,0,2,2,0),
+(3096492,10253,0,0,1,1,0),
+(3096492,33828,0,0,1,1,0),
+(3096492,33834,0,0,1,1,0),
+(3096492,33836,0,0,1,1,0),
+(3096492,41809,0,0,1,1,0),
+(3096492,41850,1,0,0,0,0),
+(3096492,8,0,0,0,0,1),
+(3096493,10035,0,0,2,2,0),
+(3096493,10253,0,0,1,1,0),
+(3096493,33828,0,0,1,1,0),
+(3096493,33833,0,0,1,1,0),
+(3096493,33835,0,0,1,1,0),
+(3096493,41809,0,0,1,1,0),
+(3096493,41813,0,0,1,1,0),
+(3096493,41851,1,0,0,0,0),
+(3096493,8,0,0,0,0,1),
+(3096494,10035,0,0,2,2,0),
+(3096494,10253,0,0,1,1,0),
+(3096494,33828,0,0,1,1,0),
+(3096494,33832,0,0,1,1,0),
+(3096494,33833,0,0,1,1,0),
+(3096494,33834,0,0,1,1,0),
+(3096494,33835,0,0,1,1,0),
+(3096494,41809,0,0,1,1,0),
+(3096494,41852,1,0,0,0,0),
+(3096494,8,0,0,0,0,1),
+(3096495,16908,0,0,1,1,0),
+(3096495,33832,0,0,1,1,0),
+(3096495,41838,0,0,1,1,0),
+(3096495,41894,2,0,0,0,0),
+(3096495,9,0,0,0,0,1),
+(3096496,16908,0,0,1,1,0),
+(3096496,33833,0,0,1,1,0),
+(3096496,41839,0,0,1,1,0),
+(3096496,41895,2,0,0,0,0),
+(3096496,9,0,0,0,0,1),
+(3096497,16908,0,0,1,1,0),
+(3096497,33836,0,0,1,1,0),
+(3096497,41842,0,0,1,1,0),
+(3096497,41898,2,0,0,0,0),
+(3096497,9,0,0,0,0,1),
+(3096498,16908,0,0,1,1,0),
+(3096498,33838,0,0,1,1,0),
+(3096498,41844,0,0,1,1,0),
+(3096498,41900,2,0,0,0,0),
+(3096498,9,0,0,0,0,1),
+(3096499,16908,0,0,1,1,0),
+(3096499,41811,0,0,1,1,0),
+(3096499,41846,0,0,1,1,0),
+(3096499,41902,2,0,0,0,0),
+(3096499,9,0,0,0,0,1),
+(3096500,16908,0,0,1,1,0),
+(3096500,41813,0,0,1,1,0),
+(3096500,41847,0,0,1,1,0),
+(3096500,41903,2,0,0,0,0),
+(3096500,9,0,0,0,0,1),
+(3096501,16908,0,0,1,1,0),
+(3096501,41812,0,0,1,1,0),
+(3096501,41848,0,0,1,1,0),
+(3096501,41904,2,0,0,0,0),
+(3096501,9,0,0,0,0,1),
+(3096502,16908,0,0,1,1,0),
+(3096502,33833,0,0,1,1,0),
+(3096502,41811,0,0,1,1,0),
+(3096502,41849,0,0,1,1,0),
+(3096502,41905,2,0,0,0,0),
+(3096502,9,0,0,0,0,1),
+(3096503,16908,0,0,1,1,0),
+(3096503,33834,0,0,1,1,0),
+(3096503,33836,0,0,1,1,0),
+(3096503,41850,0,0,1,1,0),
+(3096503,41906,2,0,0,0,0),
+(3096503,9,0,0,0,0,1),
+(3096504,16908,0,0,1,1,0),
+(3096504,33833,0,0,1,1,0),
+(3096504,33835,0,0,1,1,0),
+(3096504,41813,0,0,1,1,0),
+(3096504,41851,0,0,1,1,0),
+(3096504,41907,2,0,0,0,0),
+(3096504,9,0,0,0,0,1),
+(3096505,16908,0,0,1,1,0),
+(3096505,33832,0,0,1,1,0),
+(3096505,33833,0,0,1,1,0),
+(3096505,33834,0,0,1,1,0),
+(3096505,33835,0,0,1,1,0),
+(3096505,41852,0,0,1,1,0),
+(3096505,41908,2,0,0,0,0),
+(3096505,9,0,0,0,0,1);
+INSERT INTO rrc193_items (`id`,`name`) VALUES
+(10035,CONVERT(0x52756279 USING utf8mb4)),
+(10253,CONVERT(0x5669616c206f662044697374696c6c6564204d616e61 USING utf8mb4)),
+(16908,CONVERT(0x48696768205175616c69747920466972696e67205368656574 USING utf8mb4)),
+(33828,CONVERT(0x53696c76657220496e667573656420456e6572676569616320436c6179 USING utf8mb4)),
+(33832,CONVERT(0x44697374696c6c656420457373656e6365206f6620496365 USING utf8mb4)),
+(33833,CONVERT(0x44697374696c6c656420457373656e6365206f662046697265 USING utf8mb4)),
+(33834,CONVERT(0x44697374696c6c656420457373656e6365206f66204561727468 USING utf8mb4)),
+(33835,CONVERT(0x44697374696c6c656420457373656e6365206f6620416972 USING utf8mb4)),
+(33836,CONVERT(0x44697374696c6c656420457373656e6365206f662047726f777468 USING utf8mb4)),
+(33838,CONVERT(0x44697374696c6c656420457373656e6365206f6620506f69736f6e USING utf8mb4)),
+(41809,CONVERT(0x5472616e736c7563656e7420456e6572676569616e20536b65746368 USING utf8mb4)),
+(41811,CONVERT(0x44697374696c6c656420457373656e6365206f66205761746572 USING utf8mb4)),
+(41812,CONVERT(0x44697374696c6c656420457373656e6365206f66204c69676874 USING utf8mb4)),
+(41813,CONVERT(0x44697374696c6c656420457373656e6365206f6620536861646f77 USING utf8mb4)),
+(41838,CONVERT(0x556e6669726564205472616e736c7563656e7420456e6572676569616e20496365204f7262 USING utf8mb4)),
+(41839,CONVERT(0x556e6669726564205472616e736c7563656e7420456e6572676569616e2046697265204f7262 USING utf8mb4)),
+(41842,CONVERT(0x556e6669726564205472616e736c7563656e7420456e6572676569616e2047726f777468204f7262 USING utf8mb4)),
+(41844,CONVERT(0x556e6669726564205472616e736c7563656e7420456e6572676569616e20506f69736f6e204f7262 USING utf8mb4)),
+(41846,CONVERT(0x556e6669726564205472616e736c7563656e7420456e6572676569616e205761746572204f7262 USING utf8mb4)),
+(41847,CONVERT(0x556e6669726564205472616e736c7563656e7420456e6572676569616e20536861646f77204f7262 USING utf8mb4)),
+(41848,CONVERT(0x556e6669726564205472616e736c7563656e7420456e6572676569616e204c69676874204f7262 USING utf8mb4)),
+(41849,CONVERT(0x556e6669726564205472616e736c7563656e7420456e6572676569616e20537465616d204f7262 USING utf8mb4)),
+(41850,CONVERT(0x556e6669726564205472616e736c7563656e7420456e6572676569616e2053746f6e65204f7262 USING utf8mb4)),
+(41851,CONVERT(0x556e6669726564205472616e736c7563656e7420456e6572676569616e20457468657265616c204f7262 USING utf8mb4)),
+(41852,CONVERT(0x556e6669726564205472616e736c7563656e7420456e6572676569616e20456c656d656e74616c204f7262 USING utf8mb4)),
+(41894,CONVERT(0x5365616c6564205472616e736c7563656e7420456e6572676569616e20496365204f7262 USING utf8mb4)),
+(41895,CONVERT(0x5365616c6564205472616e736c7563656e7420456e6572676569616e2046697265204f7262 USING utf8mb4)),
+(41898,CONVERT(0x5365616c6564205472616e736c7563656e7420456e6572676569616e2047726f777468204f7262 USING utf8mb4)),
+(41900,CONVERT(0x5365616c6564205472616e736c7563656e7420456e6572676569616e20506f69736f6e204f7262 USING utf8mb4)),
+(41902,CONVERT(0x5365616c6564205472616e736c7563656e7420456e6572676569616e205761746572204f7262 USING utf8mb4)),
+(41903,CONVERT(0x5365616c6564205472616e736c7563656e7420456e6572676569616e20536861646f77204f7262 USING utf8mb4)),
+(41904,CONVERT(0x5365616c6564205472616e736c7563656e7420456e6572676569616e204c69676874204f7262 USING utf8mb4)),
+(41905,CONVERT(0x5365616c6564205472616e736c7563656e7420456e6572676569616e20537465616d204f7262 USING utf8mb4)),
+(41906,CONVERT(0x5365616c6564205472616e736c7563656e7420456e6572676569616e2053746f6e65204f7262 USING utf8mb4)),
+(41907,CONVERT(0x5365616c6564205472616e736c7563656e7420456e6572676569616e20457468657265616c204f7262 USING utf8mb4)),
+(41908,CONVERT(0x5365616c6564205472616e736c7563656e7420456e6572676569616e20456c656d656e74616c204f7262 USING utf8mb4));
+ CREATE TEMPORARY TABLE rrc193_peer_recipes LIKE tradeskill_recipe;
+ CREATE TEMPORARY TABLE rrc193_peer_entries LIKE tradeskill_recipe_entries;
+ START TRANSACTION;
+ SET own_transaction=TRUE;
+ IF DATABASE()<>'peq_housing_test' THEN SIGNAL SQLSTATE '45000' SET MESSAGE_TEXT='RRC193 target database mismatch'; END IF;
+ IF (SELECT COUNT(*)FROM items WHERE id=10035 AND `itemclass` <=> 0 AND `itemtype` <=> 17 AND `size` <=> 0 AND `maxcharges` <=> 0 AND `stackable` <=> 1 AND `stacksize` <=> 100 AND `bagtype` <=> 0 AND `bagslots` <=> 0 AND `bagsize` <=> 0 AND `classes` <=> 65535 AND `races` <=> 65535 AND `deity` <=> 0 AND `reqlevel` <=> 0 AND `reclevel` <=> 0 AND `filename` <=> '' AND `booktype` <=> 0)<>1 THEN SIGNAL SQLSTATE '45000' SET MESSAGE_TEXT='RRC193 native item semantics mismatch'; END IF;
+ IF (SELECT COUNT(*)FROM items WHERE id=10253 AND `itemclass` <=> 0 AND `itemtype` <=> 17 AND `size` <=> 0 AND `maxcharges` <=> 0 AND `stackable` <=> 1 AND `stacksize` <=> 20 AND `bagtype` <=> 0 AND `bagslots` <=> 0 AND `bagsize` <=> 0 AND `classes` <=> 65535 AND `races` <=> 65535 AND `deity` <=> 0 AND `reqlevel` <=> 0 AND `reclevel` <=> 0 AND `filename` <=> '' AND `booktype` <=> 0)<>1 THEN SIGNAL SQLSTATE '45000' SET MESSAGE_TEXT='RRC193 native item semantics mismatch'; END IF;
+ IF (SELECT COUNT(*)FROM items WHERE id=16908 AND `itemclass` <=> 0 AND `itemtype` <=> 17 AND `size` <=> 0 AND `maxcharges` <=> 0 AND `stackable` <=> 1 AND `stacksize` <=> 20 AND `bagtype` <=> 0 AND `bagslots` <=> 0 AND `bagsize` <=> 0 AND `classes` <=> 65535 AND `races` <=> 65535 AND `deity` <=> 0 AND `reqlevel` <=> 0 AND `reclevel` <=> 0 AND `filename` <=> '' AND `booktype` <=> 0)<>1 THEN SIGNAL SQLSTATE '45000' SET MESSAGE_TEXT='RRC193 native item semantics mismatch'; END IF;
+ IF (SELECT COUNT(*)FROM items WHERE id=33828 AND `itemclass` <=> 0 AND `itemtype` <=> 17 AND `size` <=> 0 AND `maxcharges` <=> 0 AND `stackable` <=> 1 AND `stacksize` <=> 20 AND `bagtype` <=> 0 AND `bagslots` <=> 0 AND `bagsize` <=> 0 AND `classes` <=> 65535 AND `races` <=> 65535 AND `deity` <=> 0 AND `reqlevel` <=> 0 AND `reclevel` <=> 0 AND `filename` <=> '' AND `booktype` <=> 0)<>1 THEN SIGNAL SQLSTATE '45000' SET MESSAGE_TEXT='RRC193 native item semantics mismatch'; END IF;
+ IF (SELECT COUNT(*)FROM items WHERE id=33832 AND `itemclass` <=> 0 AND `itemtype` <=> 17 AND `size` <=> 0 AND `maxcharges` <=> 0 AND `stackable` <=> 1 AND `stacksize` <=> 20 AND `bagtype` <=> 0 AND `bagslots` <=> 0 AND `bagsize` <=> 0 AND `classes` <=> 65535 AND `races` <=> 65535 AND `deity` <=> 0 AND `reqlevel` <=> 0 AND `reclevel` <=> 0 AND `filename` <=> '' AND `booktype` <=> 0)<>1 THEN SIGNAL SQLSTATE '45000' SET MESSAGE_TEXT='RRC193 native item semantics mismatch'; END IF;
+ IF (SELECT COUNT(*)FROM items WHERE id=33833 AND `itemclass` <=> 0 AND `itemtype` <=> 17 AND `size` <=> 0 AND `maxcharges` <=> 0 AND `stackable` <=> 1 AND `stacksize` <=> 20 AND `bagtype` <=> 0 AND `bagslots` <=> 0 AND `bagsize` <=> 0 AND `classes` <=> 65535 AND `races` <=> 65535 AND `deity` <=> 0 AND `reqlevel` <=> 0 AND `reclevel` <=> 0 AND `filename` <=> '' AND `booktype` <=> 0)<>1 THEN SIGNAL SQLSTATE '45000' SET MESSAGE_TEXT='RRC193 native item semantics mismatch'; END IF;
+ IF (SELECT COUNT(*)FROM items WHERE id=33834 AND `itemclass` <=> 0 AND `itemtype` <=> 17 AND `size` <=> 0 AND `maxcharges` <=> 0 AND `stackable` <=> 1 AND `stacksize` <=> 20 AND `bagtype` <=> 0 AND `bagslots` <=> 0 AND `bagsize` <=> 0 AND `classes` <=> 65535 AND `races` <=> 65535 AND `deity` <=> 0 AND `reqlevel` <=> 0 AND `reclevel` <=> 0 AND `filename` <=> '' AND `booktype` <=> 0)<>1 THEN SIGNAL SQLSTATE '45000' SET MESSAGE_TEXT='RRC193 native item semantics mismatch'; END IF;
+ IF (SELECT COUNT(*)FROM items WHERE id=33835 AND `itemclass` <=> 0 AND `itemtype` <=> 17 AND `size` <=> 0 AND `maxcharges` <=> 0 AND `stackable` <=> 1 AND `stacksize` <=> 20 AND `bagtype` <=> 0 AND `bagslots` <=> 0 AND `bagsize` <=> 0 AND `classes` <=> 65535 AND `races` <=> 65535 AND `deity` <=> 0 AND `reqlevel` <=> 0 AND `reclevel` <=> 0 AND `filename` <=> '' AND `booktype` <=> 0)<>1 THEN SIGNAL SQLSTATE '45000' SET MESSAGE_TEXT='RRC193 native item semantics mismatch'; END IF;
+ IF (SELECT COUNT(*)FROM items WHERE id=33836 AND `itemclass` <=> 0 AND `itemtype` <=> 17 AND `size` <=> 0 AND `maxcharges` <=> 0 AND `stackable` <=> 1 AND `stacksize` <=> 20 AND `bagtype` <=> 0 AND `bagslots` <=> 0 AND `bagsize` <=> 0 AND `classes` <=> 65535 AND `races` <=> 65535 AND `deity` <=> 0 AND `reqlevel` <=> 0 AND `reclevel` <=> 0 AND `filename` <=> '' AND `booktype` <=> 0)<>1 THEN SIGNAL SQLSTATE '45000' SET MESSAGE_TEXT='RRC193 native item semantics mismatch'; END IF;
+ IF (SELECT COUNT(*)FROM items WHERE id=33838 AND `itemclass` <=> 0 AND `itemtype` <=> 17 AND `size` <=> 0 AND `maxcharges` <=> 0 AND `stackable` <=> 1 AND `stacksize` <=> 20 AND `bagtype` <=> 0 AND `bagslots` <=> 0 AND `bagsize` <=> 0 AND `classes` <=> 65535 AND `races` <=> 65535 AND `deity` <=> 0 AND `reqlevel` <=> 0 AND `reclevel` <=> 0 AND `filename` <=> '' AND `booktype` <=> 0)<>1 THEN SIGNAL SQLSTATE '45000' SET MESSAGE_TEXT='RRC193 native item semantics mismatch'; END IF;
+ IF (SELECT COUNT(*)FROM items WHERE id=41809 AND `itemclass` <=> 0 AND `itemtype` <=> 17 AND `size` <=> 0 AND `maxcharges` <=> 0 AND `stackable` <=> 1 AND `stacksize` <=> 20 AND `bagtype` <=> 0 AND `bagslots` <=> 0 AND `bagsize` <=> 0 AND `classes` <=> 65535 AND `races` <=> 65535 AND `deity` <=> 0 AND `reqlevel` <=> 0 AND `reclevel` <=> 0 AND `filename` <=> '' AND `booktype` <=> 0)<>1 THEN SIGNAL SQLSTATE '45000' SET MESSAGE_TEXT='RRC193 native item semantics mismatch'; END IF;
+ IF (SELECT COUNT(*)FROM items WHERE id=41811 AND `itemclass` <=> 0 AND `itemtype` <=> 17 AND `size` <=> 0 AND `maxcharges` <=> 0 AND `stackable` <=> 1 AND `stacksize` <=> 20 AND `bagtype` <=> 0 AND `bagslots` <=> 0 AND `bagsize` <=> 0 AND `classes` <=> 65535 AND `races` <=> 65535 AND `deity` <=> 0 AND `reqlevel` <=> 0 AND `reclevel` <=> 0 AND `filename` <=> '' AND `booktype` <=> 0)<>1 THEN SIGNAL SQLSTATE '45000' SET MESSAGE_TEXT='RRC193 native item semantics mismatch'; END IF;
+ IF (SELECT COUNT(*)FROM items WHERE id=41812 AND `itemclass` <=> 0 AND `itemtype` <=> 17 AND `size` <=> 0 AND `maxcharges` <=> 0 AND `stackable` <=> 1 AND `stacksize` <=> 20 AND `bagtype` <=> 0 AND `bagslots` <=> 0 AND `bagsize` <=> 0 AND `classes` <=> 65535 AND `races` <=> 65535 AND `deity` <=> 0 AND `reqlevel` <=> 0 AND `reclevel` <=> 0 AND `filename` <=> '' AND `booktype` <=> 0)<>1 THEN SIGNAL SQLSTATE '45000' SET MESSAGE_TEXT='RRC193 native item semantics mismatch'; END IF;
+ IF (SELECT COUNT(*)FROM items WHERE id=41813 AND `itemclass` <=> 0 AND `itemtype` <=> 17 AND `size` <=> 0 AND `maxcharges` <=> 0 AND `stackable` <=> 1 AND `stacksize` <=> 20 AND `bagtype` <=> 0 AND `bagslots` <=> 0 AND `bagsize` <=> 0 AND `classes` <=> 65535 AND `races` <=> 65535 AND `deity` <=> 0 AND `reqlevel` <=> 0 AND `reclevel` <=> 0 AND `filename` <=> '' AND `booktype` <=> 0)<>1 THEN SIGNAL SQLSTATE '45000' SET MESSAGE_TEXT='RRC193 native item semantics mismatch'; END IF;
+ IF (SELECT COUNT(*)FROM items WHERE id=41838 AND `itemclass` <=> 0 AND `itemtype` <=> 17 AND `size` <=> 0 AND `maxcharges` <=> 0 AND `stackable` <=> 1 AND `stacksize` <=> 20 AND `bagtype` <=> 0 AND `bagslots` <=> 0 AND `bagsize` <=> 0 AND `classes` <=> 65535 AND `races` <=> 65535 AND `deity` <=> 0 AND `reqlevel` <=> 0 AND `reclevel` <=> 0 AND `filename` <=> '' AND `booktype` <=> 0)<>1 THEN SIGNAL SQLSTATE '45000' SET MESSAGE_TEXT='RRC193 native item semantics mismatch'; END IF;
+ IF (SELECT COUNT(*)FROM items WHERE id=41839 AND `itemclass` <=> 0 AND `itemtype` <=> 17 AND `size` <=> 0 AND `maxcharges` <=> 0 AND `stackable` <=> 1 AND `stacksize` <=> 20 AND `bagtype` <=> 0 AND `bagslots` <=> 0 AND `bagsize` <=> 0 AND `classes` <=> 65535 AND `races` <=> 65535 AND `deity` <=> 0 AND `reqlevel` <=> 0 AND `reclevel` <=> 0 AND `filename` <=> '' AND `booktype` <=> 0)<>1 THEN SIGNAL SQLSTATE '45000' SET MESSAGE_TEXT='RRC193 native item semantics mismatch'; END IF;
+ IF (SELECT COUNT(*)FROM items WHERE id=41842 AND `itemclass` <=> 0 AND `itemtype` <=> 17 AND `size` <=> 0 AND `maxcharges` <=> 0 AND `stackable` <=> 1 AND `stacksize` <=> 20 AND `bagtype` <=> 0 AND `bagslots` <=> 0 AND `bagsize` <=> 0 AND `classes` <=> 65535 AND `races` <=> 65535 AND `deity` <=> 0 AND `reqlevel` <=> 0 AND `reclevel` <=> 0 AND `filename` <=> '' AND `booktype` <=> 0)<>1 THEN SIGNAL SQLSTATE '45000' SET MESSAGE_TEXT='RRC193 native item semantics mismatch'; END IF;
+ IF (SELECT COUNT(*)FROM items WHERE id=41844 AND `itemclass` <=> 0 AND `itemtype` <=> 17 AND `size` <=> 0 AND `maxcharges` <=> 0 AND `stackable` <=> 1 AND `stacksize` <=> 20 AND `bagtype` <=> 0 AND `bagslots` <=> 0 AND `bagsize` <=> 0 AND `classes` <=> 65535 AND `races` <=> 65535 AND `deity` <=> 0 AND `reqlevel` <=> 0 AND `reclevel` <=> 0 AND `filename` <=> '' AND `booktype` <=> 0)<>1 THEN SIGNAL SQLSTATE '45000' SET MESSAGE_TEXT='RRC193 native item semantics mismatch'; END IF;
+ IF (SELECT COUNT(*)FROM items WHERE id=41846 AND `itemclass` <=> 0 AND `itemtype` <=> 17 AND `size` <=> 0 AND `maxcharges` <=> 0 AND `stackable` <=> 1 AND `stacksize` <=> 20 AND `bagtype` <=> 0 AND `bagslots` <=> 0 AND `bagsize` <=> 0 AND `classes` <=> 65535 AND `races` <=> 65535 AND `deity` <=> 0 AND `reqlevel` <=> 0 AND `reclevel` <=> 0 AND `filename` <=> '' AND `booktype` <=> 0)<>1 THEN SIGNAL SQLSTATE '45000' SET MESSAGE_TEXT='RRC193 native item semantics mismatch'; END IF;
+ IF (SELECT COUNT(*)FROM items WHERE id=41847 AND `itemclass` <=> 0 AND `itemtype` <=> 17 AND `size` <=> 0 AND `maxcharges` <=> 0 AND `stackable` <=> 1 AND `stacksize` <=> 20 AND `bagtype` <=> 0 AND `bagslots` <=> 0 AND `bagsize` <=> 0 AND `classes` <=> 65535 AND `races` <=> 65535 AND `deity` <=> 0 AND `reqlevel` <=> 0 AND `reclevel` <=> 0 AND `filename` <=> '' AND `booktype` <=> 0)<>1 THEN SIGNAL SQLSTATE '45000' SET MESSAGE_TEXT='RRC193 native item semantics mismatch'; END IF;
+ IF (SELECT COUNT(*)FROM items WHERE id=41848 AND `itemclass` <=> 0 AND `itemtype` <=> 17 AND `size` <=> 0 AND `maxcharges` <=> 0 AND `stackable` <=> 1 AND `stacksize` <=> 20 AND `bagtype` <=> 0 AND `bagslots` <=> 0 AND `bagsize` <=> 0 AND `classes` <=> 65535 AND `races` <=> 65535 AND `deity` <=> 0 AND `reqlevel` <=> 0 AND `reclevel` <=> 0 AND `filename` <=> '' AND `booktype` <=> 0)<>1 THEN SIGNAL SQLSTATE '45000' SET MESSAGE_TEXT='RRC193 native item semantics mismatch'; END IF;
+ IF (SELECT COUNT(*)FROM items WHERE id=41849 AND `itemclass` <=> 0 AND `itemtype` <=> 17 AND `size` <=> 0 AND `maxcharges` <=> 0 AND `stackable` <=> 1 AND `stacksize` <=> 20 AND `bagtype` <=> 0 AND `bagslots` <=> 0 AND `bagsize` <=> 0 AND `classes` <=> 65535 AND `races` <=> 65535 AND `deity` <=> 0 AND `reqlevel` <=> 0 AND `reclevel` <=> 0 AND `filename` <=> '' AND `booktype` <=> 0)<>1 THEN SIGNAL SQLSTATE '45000' SET MESSAGE_TEXT='RRC193 native item semantics mismatch'; END IF;
+ IF (SELECT COUNT(*)FROM items WHERE id=41850 AND `itemclass` <=> 0 AND `itemtype` <=> 17 AND `size` <=> 0 AND `maxcharges` <=> 0 AND `stackable` <=> 1 AND `stacksize` <=> 20 AND `bagtype` <=> 0 AND `bagslots` <=> 0 AND `bagsize` <=> 0 AND `classes` <=> 65535 AND `races` <=> 65535 AND `deity` <=> 0 AND `reqlevel` <=> 0 AND `reclevel` <=> 0 AND `filename` <=> '' AND `booktype` <=> 0)<>1 THEN SIGNAL SQLSTATE '45000' SET MESSAGE_TEXT='RRC193 native item semantics mismatch'; END IF;
+ IF (SELECT COUNT(*)FROM items WHERE id=41851 AND `itemclass` <=> 0 AND `itemtype` <=> 17 AND `size` <=> 0 AND `maxcharges` <=> 0 AND `stackable` <=> 1 AND `stacksize` <=> 20 AND `bagtype` <=> 0 AND `bagslots` <=> 0 AND `bagsize` <=> 0 AND `classes` <=> 65535 AND `races` <=> 65535 AND `deity` <=> 0 AND `reqlevel` <=> 0 AND `reclevel` <=> 0 AND `filename` <=> '' AND `booktype` <=> 0)<>1 THEN SIGNAL SQLSTATE '45000' SET MESSAGE_TEXT='RRC193 native item semantics mismatch'; END IF;
+ IF (SELECT COUNT(*)FROM items WHERE id=41852 AND `itemclass` <=> 0 AND `itemtype` <=> 17 AND `size` <=> 0 AND `maxcharges` <=> 0 AND `stackable` <=> 1 AND `stacksize` <=> 20 AND `bagtype` <=> 0 AND `bagslots` <=> 0 AND `bagsize` <=> 0 AND `classes` <=> 65535 AND `races` <=> 65535 AND `deity` <=> 0 AND `reqlevel` <=> 0 AND `reclevel` <=> 0 AND `filename` <=> '' AND `booktype` <=> 0)<>1 THEN SIGNAL SQLSTATE '45000' SET MESSAGE_TEXT='RRC193 native item semantics mismatch'; END IF;
+ IF (SELECT COUNT(*)FROM items WHERE id=41894 AND `itemclass` <=> 0 AND `itemtype` <=> 17 AND `size` <=> 0 AND `maxcharges` <=> 1 AND `stackable` <=> 1 AND `stacksize` <=> 20 AND `bagtype` <=> 0 AND `bagslots` <=> 0 AND `bagsize` <=> 0 AND `classes` <=> 0 AND `races` <=> 0 AND `deity` <=> 0 AND `reqlevel` <=> 75 AND `reclevel` <=> 0 AND `filename` <=> '' AND `booktype` <=> 0)<>1 THEN SIGNAL SQLSTATE '45000' SET MESSAGE_TEXT='RRC193 native item semantics mismatch'; END IF;
+ IF (SELECT COUNT(*)FROM items WHERE id=41895 AND `itemclass` <=> 0 AND `itemtype` <=> 17 AND `size` <=> 0 AND `maxcharges` <=> 1 AND `stackable` <=> 1 AND `stacksize` <=> 20 AND `bagtype` <=> 0 AND `bagslots` <=> 0 AND `bagsize` <=> 0 AND `classes` <=> 0 AND `races` <=> 0 AND `deity` <=> 0 AND `reqlevel` <=> 75 AND `reclevel` <=> 0 AND `filename` <=> '' AND `booktype` <=> 0)<>1 THEN SIGNAL SQLSTATE '45000' SET MESSAGE_TEXT='RRC193 native item semantics mismatch'; END IF;
+ IF (SELECT COUNT(*)FROM items WHERE id=41898 AND `itemclass` <=> 0 AND `itemtype` <=> 17 AND `size` <=> 0 AND `maxcharges` <=> 1 AND `stackable` <=> 1 AND `stacksize` <=> 20 AND `bagtype` <=> 0 AND `bagslots` <=> 0 AND `bagsize` <=> 0 AND `classes` <=> 0 AND `races` <=> 0 AND `deity` <=> 0 AND `reqlevel` <=> 75 AND `reclevel` <=> 0 AND `filename` <=> '' AND `booktype` <=> 0)<>1 THEN SIGNAL SQLSTATE '45000' SET MESSAGE_TEXT='RRC193 native item semantics mismatch'; END IF;
+ IF (SELECT COUNT(*)FROM items WHERE id=41900 AND `itemclass` <=> 0 AND `itemtype` <=> 17 AND `size` <=> 0 AND `maxcharges` <=> 1 AND `stackable` <=> 1 AND `stacksize` <=> 20 AND `bagtype` <=> 0 AND `bagslots` <=> 0 AND `bagsize` <=> 0 AND `classes` <=> 0 AND `races` <=> 0 AND `deity` <=> 0 AND `reqlevel` <=> 75 AND `reclevel` <=> 0 AND `filename` <=> '' AND `booktype` <=> 0)<>1 THEN SIGNAL SQLSTATE '45000' SET MESSAGE_TEXT='RRC193 native item semantics mismatch'; END IF;
+ IF (SELECT COUNT(*)FROM items WHERE id=41902 AND `itemclass` <=> 0 AND `itemtype` <=> 17 AND `size` <=> 0 AND `maxcharges` <=> 1 AND `stackable` <=> 1 AND `stacksize` <=> 20 AND `bagtype` <=> 0 AND `bagslots` <=> 0 AND `bagsize` <=> 0 AND `classes` <=> 0 AND `races` <=> 0 AND `deity` <=> 0 AND `reqlevel` <=> 75 AND `reclevel` <=> 0 AND `filename` <=> '' AND `booktype` <=> 0)<>1 THEN SIGNAL SQLSTATE '45000' SET MESSAGE_TEXT='RRC193 native item semantics mismatch'; END IF;
+ IF (SELECT COUNT(*)FROM items WHERE id=41903 AND `itemclass` <=> 0 AND `itemtype` <=> 17 AND `size` <=> 0 AND `maxcharges` <=> 1 AND `stackable` <=> 1 AND `stacksize` <=> 20 AND `bagtype` <=> 0 AND `bagslots` <=> 0 AND `bagsize` <=> 0 AND `classes` <=> 0 AND `races` <=> 0 AND `deity` <=> 0 AND `reqlevel` <=> 75 AND `reclevel` <=> 0 AND `filename` <=> '' AND `booktype` <=> 0)<>1 THEN SIGNAL SQLSTATE '45000' SET MESSAGE_TEXT='RRC193 native item semantics mismatch'; END IF;
+ IF (SELECT COUNT(*)FROM items WHERE id=41904 AND `itemclass` <=> 0 AND `itemtype` <=> 17 AND `size` <=> 0 AND `maxcharges` <=> 1 AND `stackable` <=> 1 AND `stacksize` <=> 20 AND `bagtype` <=> 0 AND `bagslots` <=> 0 AND `bagsize` <=> 0 AND `classes` <=> 0 AND `races` <=> 0 AND `deity` <=> 0 AND `reqlevel` <=> 75 AND `reclevel` <=> 0 AND `filename` <=> '' AND `booktype` <=> 0)<>1 THEN SIGNAL SQLSTATE '45000' SET MESSAGE_TEXT='RRC193 native item semantics mismatch'; END IF;
+ IF (SELECT COUNT(*)FROM items WHERE id=41905 AND `itemclass` <=> 0 AND `itemtype` <=> 17 AND `size` <=> 0 AND `maxcharges` <=> 1 AND `stackable` <=> 1 AND `stacksize` <=> 20 AND `bagtype` <=> 0 AND `bagslots` <=> 0 AND `bagsize` <=> 0 AND `classes` <=> 0 AND `races` <=> 0 AND `deity` <=> 0 AND `reqlevel` <=> 75 AND `reclevel` <=> 0 AND `filename` <=> '' AND `booktype` <=> 0)<>1 THEN SIGNAL SQLSTATE '45000' SET MESSAGE_TEXT='RRC193 native item semantics mismatch'; END IF;
+ IF (SELECT COUNT(*)FROM items WHERE id=41906 AND `itemclass` <=> 0 AND `itemtype` <=> 17 AND `size` <=> 0 AND `maxcharges` <=> 1 AND `stackable` <=> 1 AND `stacksize` <=> 20 AND `bagtype` <=> 0 AND `bagslots` <=> 0 AND `bagsize` <=> 0 AND `classes` <=> 0 AND `races` <=> 0 AND `deity` <=> 0 AND `reqlevel` <=> 75 AND `reclevel` <=> 0 AND `filename` <=> '' AND `booktype` <=> 0)<>1 THEN SIGNAL SQLSTATE '45000' SET MESSAGE_TEXT='RRC193 native item semantics mismatch'; END IF;
+ IF (SELECT COUNT(*)FROM items WHERE id=41907 AND `itemclass` <=> 0 AND `itemtype` <=> 17 AND `size` <=> 0 AND `maxcharges` <=> 1 AND `stackable` <=> 1 AND `stacksize` <=> 20 AND `bagtype` <=> 0 AND `bagslots` <=> 0 AND `bagsize` <=> 0 AND `classes` <=> 0 AND `races` <=> 0 AND `deity` <=> 0 AND `reqlevel` <=> 75 AND `reclevel` <=> 0 AND `filename` <=> '' AND `booktype` <=> 0)<>1 THEN SIGNAL SQLSTATE '45000' SET MESSAGE_TEXT='RRC193 native item semantics mismatch'; END IF;
+ IF (SELECT COUNT(*)FROM items WHERE id=41908 AND `itemclass` <=> 0 AND `itemtype` <=> 17 AND `size` <=> 0 AND `maxcharges` <=> 1 AND `stackable` <=> 1 AND `stacksize` <=> 20 AND `bagtype` <=> 0 AND `bagslots` <=> 0 AND `bagsize` <=> 0 AND `classes` <=> 0 AND `races` <=> 0 AND `deity` <=> 0 AND `reqlevel` <=> 75 AND `reclevel` <=> 0 AND `filename` <=> '' AND `booktype` <=> 0)<>1 THEN SIGNAL SQLSTATE '45000' SET MESSAGE_TEXT='RRC193 native item semantics mismatch'; END IF;
+ IF EXISTS(SELECT 1 FROM rrc193_peer_recipes e LEFT JOIN tradeskill_recipe r ON r.id=e.id WHERE r.id IS NULL OR NOT(r.`id` <=> e.`id` AND BINARY r.`name` <=> BINARY e.`name` AND r.`tradeskill` <=> e.`tradeskill` AND r.`skillneeded` <=> e.`skillneeded` AND r.`trivial` <=> e.`trivial` AND r.`nofail` <=> e.`nofail` AND r.`replace_container` <=> e.`replace_container` AND BINARY r.`notes` <=> BINARY e.`notes` AND r.`must_learn` <=> e.`must_learn` AND r.`learned_by_item_id` <=> e.`learned_by_item_id` AND r.`quest` <=> e.`quest` AND r.`enabled` <=> e.`enabled` AND r.`min_expansion` <=> e.`min_expansion` AND r.`max_expansion` <=> e.`max_expansion` AND BINARY r.`content_flags` <=> BINARY e.`content_flags` AND BINARY r.`content_flags_disabled` <=> BINARY e.`content_flags_disabled`)) THEN SIGNAL SQLSTATE '45000' SET MESSAGE_TEXT='RRC193 existing output-use peer definition drift'; END IF;
+ IF EXISTS(SELECT 1 FROM rrc193_peer_entries e LEFT JOIN tradeskill_recipe_entries r ON r.id=e.id WHERE r.id IS NULL OR NOT(r.`id` <=> e.`id` AND r.`recipe_id` <=> e.`recipe_id` AND r.`item_id` <=> e.`item_id` AND r.`successcount` <=> e.`successcount` AND r.`failcount` <=> e.`failcount` AND r.`componentcount` <=> e.`componentcount` AND r.`salvagecount` <=> e.`salvagecount` AND r.`iscontainer` <=> e.`iscontainer`)) OR (SELECT COUNT(*)FROM tradeskill_recipe_entries r JOIN rrc193_peer_recipes p ON p.id=r.recipe_id)<>0 THEN SIGNAL SQLSTATE '45000' SET MESSAGE_TEXT='RRC193 existing output-use peer entry drift'; END IF;
+ IF EXISTS(SELECT 1 FROM tradeskill_recipe_entries r JOIN rrc193_entries e ON r.item_id=e.item_id AND e.successcount>e.componentcount AND e.iscontainer=0 WHERE r.successcount>0 AND r.iscontainer=0 AND NOT EXISTS(SELECT 1 FROM rrc193_recipes n WHERE n.id=r.recipe_id) AND NOT EXISTS(SELECT 1 FROM rrc193_peer_recipes p WHERE p.id=r.recipe_id)) THEN SIGNAL SQLSTATE '45000' SET MESSAGE_TEXT='RRC193 output producer universe changed'; END IF;
+
+ SELECT COUNT(*) INTO recipes_before FROM tradeskill_recipe;
+ SELECT COUNT(*) INTO entries_before FROM tradeskill_recipe_entries;
+ SELECT COUNT(*) INTO already_present FROM tradeskill_recipe r JOIN rrc193_recipes e ON r.id=e.id FOR UPDATE;
+ IF EXISTS(SELECT 1 FROM rrc193_items e LEFT JOIN items i ON i.id=e.id WHERE i.id IS NULL OR BINARY i.Name<>BINARY e.name) THEN SIGNAL SQLSTATE '45000' SET MESSAGE_TEXT='RRC193 item identity/dependency mismatch'; END IF;
+ IF already_present<>22 THEN SIGNAL SQLSTATE '45000' SET MESSAGE_TEXT='RRC193 rollback requires exact whole installed batch'; END IF;
+ IF EXISTS(SELECT 1 FROM rrc193_recipes e LEFT JOIN tradeskill_recipe r ON r.id=e.id WHERE r.id IS NULL OR NOT(r.`id` <=> e.`id` AND r.`name` <=> e.`name` AND r.`tradeskill` <=> e.`tradeskill` AND r.`skillneeded` <=> e.`skillneeded` AND r.`trivial` <=> e.`trivial` AND r.`nofail` <=> e.`nofail` AND r.`replace_container` <=> e.`replace_container` AND r.`notes` <=> e.`notes` AND r.`must_learn` <=> e.`must_learn` AND r.`learned_by_item_id` <=> e.`learned_by_item_id` AND r.`quest` <=> e.`quest` AND r.`enabled` <=> e.`enabled` AND r.`min_expansion` <=> e.`min_expansion` AND r.`max_expansion` <=> e.`max_expansion` AND r.`content_flags` <=> e.`content_flags` AND r.`content_flags_disabled` <=> e.`content_flags_disabled`)) THEN SIGNAL SQLSTATE '45000' SET MESSAGE_TEXT='RRC193 recipe postimage mismatch'; END IF;
+ IF EXISTS(SELECT 1 FROM rrc193_entries e LEFT JOIN tradeskill_recipe_entries r ON r.`recipe_id` <=> e.`recipe_id` AND r.`item_id` <=> e.`item_id` AND r.`successcount` <=> e.`successcount` AND r.`failcount` <=> e.`failcount` AND r.`componentcount` <=> e.`componentcount` AND r.`salvagecount` <=> e.`salvagecount` AND r.`iscontainer` <=> e.`iscontainer` WHERE r.id IS NULL) THEN SIGNAL SQLSTATE '45000' SET MESSAGE_TEXT='RRC193 expected entry absent'; END IF;
+ IF EXISTS(SELECT 1 FROM tradeskill_recipe_entries r JOIN rrc193_recipes q ON q.id=r.recipe_id LEFT JOIN rrc193_entries e ON r.`recipe_id` <=> e.`recipe_id` AND r.`item_id` <=> e.`item_id` AND r.`successcount` <=> e.`successcount` AND r.`failcount` <=> e.`failcount` AND r.`componentcount` <=> e.`componentcount` AND r.`salvagecount` <=> e.`salvagecount` AND r.`iscontainer` <=> e.`iscontainer` WHERE e.id IS NULL) THEN SIGNAL SQLSTATE '45000' SET MESSAGE_TEXT='RRC193 foreign/different target entries'; END IF;
+ IF (SELECT COUNT(*) FROM tradeskill_recipe_entries r JOIN rrc193_recipes q ON q.id=r.recipe_id)<>146 THEN SIGNAL SQLSTATE '45000' SET MESSAGE_TEXT='RRC193 target entry multiplicity mismatch'; END IF;
+ IF EXISTS(SELECT 1 FROM char_recipe_list c JOIN rrc193_recipes e ON c.recipe_id=e.id) THEN SIGNAL SQLSTATE '45000' SET MESSAGE_TEXT='RRC193 rollback refused: learned recipe references exist'; END IF;
+ DELETE r FROM tradeskill_recipe_entries r JOIN rrc193_recipes e ON r.recipe_id=e.id;
+ DELETE r FROM tradeskill_recipe r JOIN rrc193_recipes e ON r.id=e.id;
+ IF (SELECT COUNT(*) FROM tradeskill_recipe)<>recipes_before-22 OR (SELECT COUNT(*) FROM tradeskill_recipe_entries)<>entries_before-146 THEN SIGNAL SQLSTATE '45000' SET MESSAGE_TEXT='RRC193 rollback count mismatch'; END IF;
+ IF EXISTS(SELECT 1 FROM rrc193_peer_recipes e LEFT JOIN tradeskill_recipe r ON r.id=e.id WHERE r.id IS NULL OR NOT(r.`id` <=> e.`id` AND BINARY r.`name` <=> BINARY e.`name` AND r.`tradeskill` <=> e.`tradeskill` AND r.`skillneeded` <=> e.`skillneeded` AND r.`trivial` <=> e.`trivial` AND r.`nofail` <=> e.`nofail` AND r.`replace_container` <=> e.`replace_container` AND BINARY r.`notes` <=> BINARY e.`notes` AND r.`must_learn` <=> e.`must_learn` AND r.`learned_by_item_id` <=> e.`learned_by_item_id` AND r.`quest` <=> e.`quest` AND r.`enabled` <=> e.`enabled` AND r.`min_expansion` <=> e.`min_expansion` AND r.`max_expansion` <=> e.`max_expansion` AND BINARY r.`content_flags` <=> BINARY e.`content_flags` AND BINARY r.`content_flags_disabled` <=> BINARY e.`content_flags_disabled`)) THEN SIGNAL SQLSTATE '45000' SET MESSAGE_TEXT='RRC193 existing output-use peer definition drift'; END IF;
+ IF EXISTS(SELECT 1 FROM rrc193_peer_entries e LEFT JOIN tradeskill_recipe_entries r ON r.id=e.id WHERE r.id IS NULL OR NOT(r.`id` <=> e.`id` AND r.`recipe_id` <=> e.`recipe_id` AND r.`item_id` <=> e.`item_id` AND r.`successcount` <=> e.`successcount` AND r.`failcount` <=> e.`failcount` AND r.`componentcount` <=> e.`componentcount` AND r.`salvagecount` <=> e.`salvagecount` AND r.`iscontainer` <=> e.`iscontainer`)) OR (SELECT COUNT(*)FROM tradeskill_recipe_entries r JOIN rrc193_peer_recipes p ON p.id=r.recipe_id)<>0 THEN SIGNAL SQLSTATE '45000' SET MESSAGE_TEXT='RRC193 existing output-use peer entry drift'; END IF;
+ IF EXISTS(SELECT 1 FROM tradeskill_recipe_entries r JOIN rrc193_entries e ON r.item_id=e.item_id AND e.successcount>e.componentcount AND e.iscontainer=0 WHERE r.successcount>0 AND r.iscontainer=0 AND NOT EXISTS(SELECT 1 FROM rrc193_recipes n WHERE n.id=r.recipe_id) AND NOT EXISTS(SELECT 1 FROM rrc193_peer_recipes p WHERE p.id=r.recipe_id)) THEN SIGNAL SQLSTATE '45000' SET MESSAGE_TEXT='RRC193 output producer universe changed'; END IF;
+ DROP TEMPORARY TABLE rrc193_peer_entries;
+ DROP TEMPORARY TABLE rrc193_peer_recipes;
+ DROP TEMPORARY TABLE rrc193_entries;
+ DROP TEMPORARY TABLE rrc193_recipes;
+ DROP TEMPORARY TABLE rrc193_items;
+ COMMIT;
+ SET own_transaction=FALSE;
+ SELECT 'RRC193' AS batch,already_present AS previous_recipe_count,recipes_before AS recipes_before,(SELECT COUNT(*) FROM tradeskill_recipe) AS recipes_after,entries_before AS entries_before,(SELECT COUNT(*) FROM tradeskill_recipe_entries) AS entries_after,@@in_transaction AS in_transaction;
+END//
+DELIMITER ;

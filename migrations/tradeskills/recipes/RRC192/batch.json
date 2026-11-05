@@ -1,0 +1,4270 @@
+{
+  "batch": "RRC192",
+  "branch": "rof2-tradeskills",
+  "status": "SOURCE_PROPOSAL_NOT_APPLIED_LABELLED_RECONSTRUCTION",
+  "proposed_ids": [
+    3096458,
+    3096483
+  ],
+  "counts": {
+    "recipes": 26,
+    "entries": 180,
+    "item_dependencies": 45,
+    "unchanged_prototype_recipes": 0,
+    "unchanged_prototype_entries": 0
+  },
+  "recipes": [
+    {
+      "id": 3096458,
+      "name": "Unfired Translucent Energeian Earth Orb",
+      "tradeskill": 69,
+      "skillneeded": 0,
+      "trivial": 410,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary SoD Pure/Translucent-orb reconstruction; RRC192.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 15,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3096459,
+      "name": "Unfired Translucent Energeian Air Orb",
+      "tradeskill": 69,
+      "skillneeded": 0,
+      "trivial": 410,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary SoD Pure/Translucent-orb reconstruction; RRC192.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 15,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3096460,
+      "name": "Unfired Translucent Energeian Decay Orb",
+      "tradeskill": 69,
+      "skillneeded": 0,
+      "trivial": 423,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary SoD Pure/Translucent-orb reconstruction; RRC192.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 15,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3096461,
+      "name": "Unfired Translucent Energeian Disease Orb",
+      "tradeskill": 69,
+      "skillneeded": 0,
+      "trivial": 436,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary SoD Pure/Translucent-orb reconstruction; RRC192.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 15,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3096462,
+      "name": "Unfired Pure Energeian Ice Orb",
+      "tradeskill": 69,
+      "skillneeded": 0,
+      "trivial": 423,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary SoD Pure/Translucent-orb reconstruction; RRC192.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 15,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3096463,
+      "name": "Unfired Pure Energeian Growth Orb",
+      "tradeskill": 69,
+      "skillneeded": 0,
+      "trivial": 436,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary SoD Pure/Translucent-orb reconstruction; RRC192.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 15,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3096464,
+      "name": "Unfired Pure Energeian Poison Orb",
+      "tradeskill": 69,
+      "skillneeded": 0,
+      "trivial": 450,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary SoD Pure/Translucent-orb reconstruction; RRC192.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 15,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3096465,
+      "name": "Unfired Pure Energeian Water Orb",
+      "tradeskill": 69,
+      "skillneeded": 0,
+      "trivial": 450,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary SoD Pure/Translucent-orb reconstruction; RRC192.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 15,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3096466,
+      "name": "Unfired Pure Energeian Shadow Orb",
+      "tradeskill": 69,
+      "skillneeded": 0,
+      "trivial": 450,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary SoD Pure/Translucent-orb reconstruction; RRC192.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 15,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3096467,
+      "name": "Unfired Pure Energeian Light Orb",
+      "tradeskill": 69,
+      "skillneeded": 0,
+      "trivial": 450,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary SoD Pure/Translucent-orb reconstruction; RRC192.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 15,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3096468,
+      "name": "Unfired Pure Energeian Steam Orb",
+      "tradeskill": 69,
+      "skillneeded": 0,
+      "trivial": 463,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary SoD Pure/Translucent-orb reconstruction; RRC192.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 15,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3096469,
+      "name": "Unfired Pure Energeian Stone Orb",
+      "tradeskill": 69,
+      "skillneeded": 0,
+      "trivial": 463,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary SoD Pure/Translucent-orb reconstruction; RRC192.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 15,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3096470,
+      "name": "Unfired Pure Energeian Metal Orb",
+      "tradeskill": 69,
+      "skillneeded": 0,
+      "trivial": 463,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary SoD Pure/Translucent-orb reconstruction; RRC192.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 15,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3096471,
+      "name": "Sealed Translucent Energeian Earth Orb",
+      "tradeskill": 69,
+      "skillneeded": 0,
+      "trivial": 356,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary SoD Pure/Translucent-orb reconstruction; RRC192.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 15,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3096472,
+      "name": "Sealed Translucent Energeian Air Orb",
+      "tradeskill": 69,
+      "skillneeded": 0,
+      "trivial": 356,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary SoD Pure/Translucent-orb reconstruction; RRC192.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 15,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3096473,
+      "name": "Sealed Translucent Energeian Decay Orb",
+      "tradeskill": 69,
+      "skillneeded": 0,
+      "trivial": 370,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary SoD Pure/Translucent-orb reconstruction; RRC192.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 15,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3096474,
+      "name": "Sealed Translucent Energeian Disease Orb",
+      "tradeskill": 69,
+      "skillneeded": 0,
+      "trivial": 383,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary SoD Pure/Translucent-orb reconstruction; RRC192.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 15,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3096475,
+      "name": "Sealed Pure Energeian Ice Orb",
+      "tradeskill": 69,
+      "skillneeded": 0,
+      "trivial": 356,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary SoD Pure/Translucent-orb reconstruction; RRC192.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 15,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3096476,
+      "name": "Sealed Pure Energeian Growth Orb",
+      "tradeskill": 69,
+      "skillneeded": 0,
+      "trivial": 370,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary SoD Pure/Translucent-orb reconstruction; RRC192.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 15,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3096477,
+      "name": "Sealed Pure Energeian Poison Orb",
+      "tradeskill": 69,
+      "skillneeded": 0,
+      "trivial": 383,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary SoD Pure/Translucent-orb reconstruction; RRC192.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 15,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3096478,
+      "name": "Sealed Pure Energeian Water Orb",
+      "tradeskill": 69,
+      "skillneeded": 0,
+      "trivial": 383,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary SoD Pure/Translucent-orb reconstruction; RRC192.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 15,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3096479,
+      "name": "Sealed Pure Energeian Shadow Orb",
+      "tradeskill": 69,
+      "skillneeded": 0,
+      "trivial": 383,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary SoD Pure/Translucent-orb reconstruction; RRC192.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 15,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3096480,
+      "name": "Sealed Pure Energeian Light Orb",
+      "tradeskill": 69,
+      "skillneeded": 0,
+      "trivial": 383,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary SoD Pure/Translucent-orb reconstruction; RRC192.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 15,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3096481,
+      "name": "Sealed Pure Energeian Steam Orb",
+      "tradeskill": 69,
+      "skillneeded": 0,
+      "trivial": 396,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary SoD Pure/Translucent-orb reconstruction; RRC192.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 15,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3096482,
+      "name": "Sealed Pure Energeian Stone Orb",
+      "tradeskill": 69,
+      "skillneeded": 0,
+      "trivial": 396,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary SoD Pure/Translucent-orb reconstruction; RRC192.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 15,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3096483,
+      "name": "Sealed Pure Energeian Metal Orb",
+      "tradeskill": 69,
+      "skillneeded": 0,
+      "trivial": 396,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary SoD Pure/Translucent-orb reconstruction; RRC192.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 15,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    }
+  ],
+  "entries": [
+    {
+      "recipe_id": 3096458,
+      "item_id": 10035,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 2,
+      "salvagecount": 2,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096458,
+      "item_id": 10253,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096458,
+      "item_id": 33828,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096458,
+      "item_id": 33834,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096458,
+      "item_id": 41809,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096458,
+      "item_id": 41840,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096458,
+      "item_id": 8,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3096459,
+      "item_id": 10035,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 2,
+      "salvagecount": 2,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096459,
+      "item_id": 10253,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096459,
+      "item_id": 33828,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096459,
+      "item_id": 33835,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096459,
+      "item_id": 41809,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096459,
+      "item_id": 41841,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096459,
+      "item_id": 8,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3096460,
+      "item_id": 10035,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 2,
+      "salvagecount": 2,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096460,
+      "item_id": 10253,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096460,
+      "item_id": 33828,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096460,
+      "item_id": 33837,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096460,
+      "item_id": 41809,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096460,
+      "item_id": 41843,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096460,
+      "item_id": 8,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3096461,
+      "item_id": 10035,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 2,
+      "salvagecount": 2,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096461,
+      "item_id": 10253,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096461,
+      "item_id": 33828,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096461,
+      "item_id": 33839,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096461,
+      "item_id": 41809,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096461,
+      "item_id": 41845,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096461,
+      "item_id": 8,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3096462,
+      "item_id": 10035,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096462,
+      "item_id": 10254,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096462,
+      "item_id": 33828,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096462,
+      "item_id": 33832,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096462,
+      "item_id": 40581,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096462,
+      "item_id": 41810,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096462,
+      "item_id": 41853,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096462,
+      "item_id": 8,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3096463,
+      "item_id": 10035,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096463,
+      "item_id": 10254,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096463,
+      "item_id": 33828,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096463,
+      "item_id": 33836,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096463,
+      "item_id": 40581,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096463,
+      "item_id": 41810,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096463,
+      "item_id": 41857,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096463,
+      "item_id": 8,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3096464,
+      "item_id": 10035,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096464,
+      "item_id": 10254,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096464,
+      "item_id": 33828,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096464,
+      "item_id": 33838,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096464,
+      "item_id": 40581,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096464,
+      "item_id": 41810,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096464,
+      "item_id": 41859,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096464,
+      "item_id": 8,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3096465,
+      "item_id": 10035,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096465,
+      "item_id": 10254,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096465,
+      "item_id": 33828,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096465,
+      "item_id": 40581,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096465,
+      "item_id": 41810,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096465,
+      "item_id": 41811,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096465,
+      "item_id": 41861,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096465,
+      "item_id": 8,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3096466,
+      "item_id": 10035,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096466,
+      "item_id": 10254,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096466,
+      "item_id": 33828,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096466,
+      "item_id": 40581,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096466,
+      "item_id": 41810,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096466,
+      "item_id": 41813,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096466,
+      "item_id": 41862,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096466,
+      "item_id": 8,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3096467,
+      "item_id": 10035,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096467,
+      "item_id": 10254,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096467,
+      "item_id": 33828,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096467,
+      "item_id": 40581,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096467,
+      "item_id": 41810,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096467,
+      "item_id": 41812,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096467,
+      "item_id": 41863,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096467,
+      "item_id": 8,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3096468,
+      "item_id": 10035,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096468,
+      "item_id": 10254,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096468,
+      "item_id": 33828,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096468,
+      "item_id": 33833,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096468,
+      "item_id": 40581,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096468,
+      "item_id": 41810,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096468,
+      "item_id": 41811,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096468,
+      "item_id": 41864,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096468,
+      "item_id": 8,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3096469,
+      "item_id": 10035,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096469,
+      "item_id": 10254,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096469,
+      "item_id": 33828,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096469,
+      "item_id": 33834,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096469,
+      "item_id": 33836,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096469,
+      "item_id": 40581,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096469,
+      "item_id": 41810,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096469,
+      "item_id": 41865,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096469,
+      "item_id": 8,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3096470,
+      "item_id": 10035,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096470,
+      "item_id": 10254,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096470,
+      "item_id": 33828,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096470,
+      "item_id": 33833,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096470,
+      "item_id": 33834,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096470,
+      "item_id": 40581,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096470,
+      "item_id": 41810,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096470,
+      "item_id": 41868,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096470,
+      "item_id": 8,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3096471,
+      "item_id": 16908,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096471,
+      "item_id": 33834,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096471,
+      "item_id": 41840,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096471,
+      "item_id": 41896,
+      "successcount": 2,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096471,
+      "item_id": 9,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3096472,
+      "item_id": 16908,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096472,
+      "item_id": 33835,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096472,
+      "item_id": 41841,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096472,
+      "item_id": 41897,
+      "successcount": 2,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096472,
+      "item_id": 9,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3096473,
+      "item_id": 16908,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096473,
+      "item_id": 33837,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096473,
+      "item_id": 41843,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096473,
+      "item_id": 41899,
+      "successcount": 2,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096473,
+      "item_id": 9,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3096474,
+      "item_id": 16908,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096474,
+      "item_id": 33839,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096474,
+      "item_id": 41845,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096474,
+      "item_id": 41901,
+      "successcount": 2,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096474,
+      "item_id": 9,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3096475,
+      "item_id": 16908,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096475,
+      "item_id": 33832,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096475,
+      "item_id": 40581,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096475,
+      "item_id": 41853,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096475,
+      "item_id": 41909,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096475,
+      "item_id": 9,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3096476,
+      "item_id": 16908,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096476,
+      "item_id": 33836,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096476,
+      "item_id": 40581,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096476,
+      "item_id": 41857,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096476,
+      "item_id": 41913,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096476,
+      "item_id": 9,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3096477,
+      "item_id": 16908,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096477,
+      "item_id": 33838,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096477,
+      "item_id": 40581,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096477,
+      "item_id": 41859,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096477,
+      "item_id": 41915,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096477,
+      "item_id": 9,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3096478,
+      "item_id": 16908,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096478,
+      "item_id": 40581,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096478,
+      "item_id": 41811,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096478,
+      "item_id": 41861,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096478,
+      "item_id": 41917,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096478,
+      "item_id": 9,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3096479,
+      "item_id": 16908,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096479,
+      "item_id": 40581,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096479,
+      "item_id": 41813,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096479,
+      "item_id": 41862,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096479,
+      "item_id": 41918,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096479,
+      "item_id": 9,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3096480,
+      "item_id": 16908,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096480,
+      "item_id": 40581,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096480,
+      "item_id": 41812,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096480,
+      "item_id": 41863,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096480,
+      "item_id": 41919,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096480,
+      "item_id": 9,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3096481,
+      "item_id": 16908,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096481,
+      "item_id": 33833,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096481,
+      "item_id": 40581,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096481,
+      "item_id": 41811,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096481,
+      "item_id": 41864,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096481,
+      "item_id": 41920,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096481,
+      "item_id": 9,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3096482,
+      "item_id": 16908,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096482,
+      "item_id": 33834,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096482,
+      "item_id": 33836,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096482,
+      "item_id": 40581,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096482,
+      "item_id": 41865,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096482,
+      "item_id": 41921,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096482,
+      "item_id": 9,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3096483,
+      "item_id": 16908,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096483,
+      "item_id": 33833,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096483,
+      "item_id": 33834,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096483,
+      "item_id": 40581,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096483,
+      "item_id": 41868,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096483,
+      "item_id": 41924,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096483,
+      "item_id": 9,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    }
+  ],
+  "item_dependencies": [
+    {
+      "id": 10035,
+      "name": "Ruby"
+    },
+    {
+      "id": 10253,
+      "name": "Vial of Distilled Mana"
+    },
+    {
+      "id": 10254,
+      "name": "Vial of Purified Mana"
+    },
+    {
+      "id": 16908,
+      "name": "High Quality Firing Sheet"
+    },
+    {
+      "id": 33828,
+      "name": "Silver Infused Energeiac Clay"
+    },
+    {
+      "id": 33832,
+      "name": "Distilled Essence of Ice"
+    },
+    {
+      "id": 33833,
+      "name": "Distilled Essence of Fire"
+    },
+    {
+      "id": 33834,
+      "name": "Distilled Essence of Earth"
+    },
+    {
+      "id": 33835,
+      "name": "Distilled Essence of Air"
+    },
+    {
+      "id": 33836,
+      "name": "Distilled Essence of Growth"
+    },
+    {
+      "id": 33837,
+      "name": "Distilled Essence of Decay"
+    },
+    {
+      "id": 33838,
+      "name": "Distilled Essence of Poison"
+    },
+    {
+      "id": 33839,
+      "name": "Distilled Essence of Disease"
+    },
+    {
+      "id": 40581,
+      "name": "Chronal Resonance Dust"
+    },
+    {
+      "id": 41809,
+      "name": "Translucent Energeian Sketch"
+    },
+    {
+      "id": 41810,
+      "name": "Pure Energeian Sketch"
+    },
+    {
+      "id": 41811,
+      "name": "Distilled Essence of Water"
+    },
+    {
+      "id": 41812,
+      "name": "Distilled Essence of Light"
+    },
+    {
+      "id": 41813,
+      "name": "Distilled Essence of Shadow"
+    },
+    {
+      "id": 41840,
+      "name": "Unfired Translucent Energeian Earth Orb"
+    },
+    {
+      "id": 41841,
+      "name": "Unfired Translucent Energeian Air Orb"
+    },
+    {
+      "id": 41843,
+      "name": "Unfired Translucent Energeian Decay Orb"
+    },
+    {
+      "id": 41845,
+      "name": "Unfired Translucent Energeian Disease Orb"
+    },
+    {
+      "id": 41853,
+      "name": "Unfired Pure Energeian Ice Orb"
+    },
+    {
+      "id": 41857,
+      "name": "Unfired Pure Energeian Growth Orb"
+    },
+    {
+      "id": 41859,
+      "name": "Unfired Pure Energeian Poison Orb"
+    },
+    {
+      "id": 41861,
+      "name": "Unfired Pure Energeian Water Orb"
+    },
+    {
+      "id": 41862,
+      "name": "Unfired Pure Energeian Shadow Orb"
+    },
+    {
+      "id": 41863,
+      "name": "Unfired Pure Energeian Light Orb"
+    },
+    {
+      "id": 41864,
+      "name": "Unfired Pure Energeian Steam Orb"
+    },
+    {
+      "id": 41865,
+      "name": "Unfired Pure Energeian Stone Orb"
+    },
+    {
+      "id": 41868,
+      "name": "Unfired Pure Energeian Metal Orb"
+    },
+    {
+      "id": 41896,
+      "name": "Sealed Translucent Energeian Earth Orb"
+    },
+    {
+      "id": 41897,
+      "name": "Sealed Translucent Energeian Air Orb"
+    },
+    {
+      "id": 41899,
+      "name": "Sealed Translucent Energeian Decay Orb"
+    },
+    {
+      "id": 41901,
+      "name": "Sealed Translucent Energeian Disease Orb"
+    },
+    {
+      "id": 41909,
+      "name": "Sealed Pure Energeian Ice Orb"
+    },
+    {
+      "id": 41913,
+      "name": "Sealed Pure Energeian Growth Orb"
+    },
+    {
+      "id": 41915,
+      "name": "Sealed Pure Energeian Poison Orb"
+    },
+    {
+      "id": 41917,
+      "name": "Sealed Pure Energeian Water Orb"
+    },
+    {
+      "id": 41918,
+      "name": "Sealed Pure Energeian Shadow Orb"
+    },
+    {
+      "id": 41919,
+      "name": "Sealed Pure Energeian Light Orb"
+    },
+    {
+      "id": 41920,
+      "name": "Sealed Pure Energeian Steam Orb"
+    },
+    {
+      "id": 41921,
+      "name": "Sealed Pure Energeian Stone Orb"
+    },
+    {
+      "id": 41924,
+      "name": "Sealed Pure Energeian Metal Orb"
+    }
+  ],
+  "unchanged_prototype_recipes": [],
+  "unchanged_prototype_entries": [],
+  "source_facts": [
+    {
+      "recipe_id": 3096458,
+      "source_name": "Unfired Translucent Energeian Earth Orb",
+      "source_view_id": 12246,
+      "source_url": "https://www.eqtraders.com/recipes/pottery_recipe_page.php?article=432&rsa=Pottery&sub=SoD",
+      "source_formula": "Components: Distilled Essence of Earth, Ruby (2), Silver Infused Energeiac Clay, Translucent Energeian Sketch, Vial of Distilled Mana\nIn: Pottery Wheel, Tanaan Pottery Wheel, Pottery Wheel (Placeable), Guild Pottery Wheel\nYield: 1\nNotes: EQRecipeID: 12844",
+      "source_catalogue_sha256": "f025b69ba30a132fd4454e0472b668fbb48d31edfe5a28d0beb4f788e75dfa0c",
+      "output_item_id": 41840,
+      "yield_count": 1,
+      "trivial": 410,
+      "ingredients": [
+        {
+          "item_id": 10035,
+          "name": "Ruby",
+          "count": 2
+        },
+        {
+          "item_id": 10253,
+          "name": "Vial of Distilled Mana",
+          "count": 1
+        },
+        {
+          "item_id": 33828,
+          "name": "Silver Infused Energeiac Clay",
+          "count": 1
+        },
+        {
+          "item_id": 33834,
+          "name": "Distilled Essence of Earth",
+          "count": 1
+        },
+        {
+          "item_id": 41809,
+          "name": "Translucent Energeian Sketch",
+          "count": 1
+        }
+      ],
+      "success_roles": {
+        "41840": 1
+      },
+      "failure_roles": {},
+      "container_item_ids": [
+        8
+      ],
+      "held_source_stations": [
+        {
+          "name": "Tanaan Pottery Wheel",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=5495",
+          "reason": "Named/furniture/guild station not separately qualified"
+        },
+        {
+          "name": "Pottery Wheel (Placeable)",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34405",
+          "reason": "Named/furniture/guild station not separately qualified"
+        },
+        {
+          "name": "Guild Pottery Wheel",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=38426",
+          "reason": "Named/furniture/guild station not separately qualified"
+        }
+      ],
+      "min_expansion": 15,
+      "skillneeded": 0,
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "learning_origin": "ORDINARY_ZERO_POLICY_SOURCE_OMITS_MANDATORY_BOOK_MINIMUM",
+      "era_origin": "MAINTAINED_SOD15_FAMILY_POLICY_NOT_EXACT_INTRODUCTION",
+      "May2013_exact_fields_verified": false,
+      "identity_assurance": "ALL_NATIVE_ITEM_REFERENCES_PRIMARY_EQ_ITEM_ID_AUTHENTICATED",
+      "unlinked_named_output_qualification": "Output name has no link in catalogue; exact same named unfired component primary page explicitly supplies native EQ item ID"
+    },
+    {
+      "recipe_id": 3096459,
+      "source_name": "Unfired Translucent Energeian Air Orb",
+      "source_view_id": 12240,
+      "source_url": "https://www.eqtraders.com/recipes/pottery_recipe_page.php?article=432&rsa=Pottery&sub=SoD",
+      "source_formula": "Components: Distilled Essence of Air, Ruby (2), Silver Infused Energeiac Clay, Translucent Energeian Sketch, Vial of Distilled Mana\nIn: Pottery Wheel, Tanaan Pottery Wheel, Pottery Wheel (Placeable), Guild Pottery Wheel\nYield: 1\nNotes: EQRecipeID: 12845",
+      "source_catalogue_sha256": "f025b69ba30a132fd4454e0472b668fbb48d31edfe5a28d0beb4f788e75dfa0c",
+      "output_item_id": 41841,
+      "yield_count": 1,
+      "trivial": 410,
+      "ingredients": [
+        {
+          "item_id": 10035,
+          "name": "Ruby",
+          "count": 2
+        },
+        {
+          "item_id": 10253,
+          "name": "Vial of Distilled Mana",
+          "count": 1
+        },
+        {
+          "item_id": 33828,
+          "name": "Silver Infused Energeiac Clay",
+          "count": 1
+        },
+        {
+          "item_id": 33835,
+          "name": "Distilled Essence of Air",
+          "count": 1
+        },
+        {
+          "item_id": 41809,
+          "name": "Translucent Energeian Sketch",
+          "count": 1
+        }
+      ],
+      "success_roles": {
+        "41841": 1
+      },
+      "failure_roles": {},
+      "container_item_ids": [
+        8
+      ],
+      "held_source_stations": [
+        {
+          "name": "Tanaan Pottery Wheel",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=5495",
+          "reason": "Named/furniture/guild station not separately qualified"
+        },
+        {
+          "name": "Pottery Wheel (Placeable)",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34405",
+          "reason": "Named/furniture/guild station not separately qualified"
+        },
+        {
+          "name": "Guild Pottery Wheel",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=38426",
+          "reason": "Named/furniture/guild station not separately qualified"
+        }
+      ],
+      "min_expansion": 15,
+      "skillneeded": 0,
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "learning_origin": "ORDINARY_ZERO_POLICY_SOURCE_OMITS_MANDATORY_BOOK_MINIMUM",
+      "era_origin": "MAINTAINED_SOD15_FAMILY_POLICY_NOT_EXACT_INTRODUCTION",
+      "May2013_exact_fields_verified": false,
+      "identity_assurance": "ALL_NATIVE_ITEM_REFERENCES_PRIMARY_EQ_ITEM_ID_AUTHENTICATED",
+      "unlinked_named_output_qualification": "Output name has no link in catalogue; exact same named unfired component primary page explicitly supplies native EQ item ID"
+    },
+    {
+      "recipe_id": 3096460,
+      "source_name": "Unfired Translucent Energeian Decay Orb",
+      "source_view_id": 12242,
+      "source_url": "https://www.eqtraders.com/recipes/pottery_recipe_page.php?article=432&rsa=Pottery&sub=SoD",
+      "source_formula": "Components: Distilled Essence of Decay, Ruby (2), Silver Infused Energeiac Clay, Translucent Energeian Sketch, Vial of Distilled Mana\nIn: Pottery Wheel, Tanaan Pottery Wheel, Pottery Wheel (Placeable), Guild Pottery Wheel\nYield: 1\nNotes: EQRecipeID: 12847",
+      "source_catalogue_sha256": "f025b69ba30a132fd4454e0472b668fbb48d31edfe5a28d0beb4f788e75dfa0c",
+      "output_item_id": 41843,
+      "yield_count": 1,
+      "trivial": 423,
+      "ingredients": [
+        {
+          "item_id": 10035,
+          "name": "Ruby",
+          "count": 2
+        },
+        {
+          "item_id": 10253,
+          "name": "Vial of Distilled Mana",
+          "count": 1
+        },
+        {
+          "item_id": 33828,
+          "name": "Silver Infused Energeiac Clay",
+          "count": 1
+        },
+        {
+          "item_id": 33837,
+          "name": "Distilled Essence of Decay",
+          "count": 1
+        },
+        {
+          "item_id": 41809,
+          "name": "Translucent Energeian Sketch",
+          "count": 1
+        }
+      ],
+      "success_roles": {
+        "41843": 1
+      },
+      "failure_roles": {},
+      "container_item_ids": [
+        8
+      ],
+      "held_source_stations": [
+        {
+          "name": "Tanaan Pottery Wheel",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=5495",
+          "reason": "Named/furniture/guild station not separately qualified"
+        },
+        {
+          "name": "Pottery Wheel (Placeable)",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34405",
+          "reason": "Named/furniture/guild station not separately qualified"
+        },
+        {
+          "name": "Guild Pottery Wheel",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=38426",
+          "reason": "Named/furniture/guild station not separately qualified"
+        }
+      ],
+      "min_expansion": 15,
+      "skillneeded": 0,
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "learning_origin": "ORDINARY_ZERO_POLICY_SOURCE_OMITS_MANDATORY_BOOK_MINIMUM",
+      "era_origin": "MAINTAINED_SOD15_FAMILY_POLICY_NOT_EXACT_INTRODUCTION",
+      "May2013_exact_fields_verified": false,
+      "identity_assurance": "ALL_NATIVE_ITEM_REFERENCES_PRIMARY_EQ_ITEM_ID_AUTHENTICATED",
+      "unlinked_named_output_qualification": "Output name has no link in catalogue; exact same named unfired component primary page explicitly supplies native EQ item ID"
+    },
+    {
+      "recipe_id": 3096461,
+      "source_name": "Unfired Translucent Energeian Disease Orb",
+      "source_view_id": 12244,
+      "source_url": "https://www.eqtraders.com/recipes/pottery_recipe_page.php?article=432&rsa=Pottery&sub=SoD",
+      "source_formula": "Components: Distilled Essence of Disease, Ruby (2), Silver Infused Energeiac Clay, Translucent Energeian Sketch, Vial of Distilled Mana\nIn: Pottery Wheel, Tanaan Pottery Wheel, Pottery Wheel (Placeable), Guild Pottery Wheel\nYield: 1\nNotes: EQRecipeID: 12849",
+      "source_catalogue_sha256": "f025b69ba30a132fd4454e0472b668fbb48d31edfe5a28d0beb4f788e75dfa0c",
+      "output_item_id": 41845,
+      "yield_count": 1,
+      "trivial": 436,
+      "ingredients": [
+        {
+          "item_id": 10035,
+          "name": "Ruby",
+          "count": 2
+        },
+        {
+          "item_id": 10253,
+          "name": "Vial of Distilled Mana",
+          "count": 1
+        },
+        {
+          "item_id": 33828,
+          "name": "Silver Infused Energeiac Clay",
+          "count": 1
+        },
+        {
+          "item_id": 33839,
+          "name": "Distilled Essence of Disease",
+          "count": 1
+        },
+        {
+          "item_id": 41809,
+          "name": "Translucent Energeian Sketch",
+          "count": 1
+        }
+      ],
+      "success_roles": {
+        "41845": 1
+      },
+      "failure_roles": {},
+      "container_item_ids": [
+        8
+      ],
+      "held_source_stations": [
+        {
+          "name": "Tanaan Pottery Wheel",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=5495",
+          "reason": "Named/furniture/guild station not separately qualified"
+        },
+        {
+          "name": "Pottery Wheel (Placeable)",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34405",
+          "reason": "Named/furniture/guild station not separately qualified"
+        },
+        {
+          "name": "Guild Pottery Wheel",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=38426",
+          "reason": "Named/furniture/guild station not separately qualified"
+        }
+      ],
+      "min_expansion": 15,
+      "skillneeded": 0,
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "learning_origin": "ORDINARY_ZERO_POLICY_SOURCE_OMITS_MANDATORY_BOOK_MINIMUM",
+      "era_origin": "MAINTAINED_SOD15_FAMILY_POLICY_NOT_EXACT_INTRODUCTION",
+      "May2013_exact_fields_verified": false,
+      "identity_assurance": "ALL_NATIVE_ITEM_REFERENCES_PRIMARY_EQ_ITEM_ID_AUTHENTICATED",
+      "unlinked_named_output_qualification": "Output name has no link in catalogue; exact same named unfired component primary page explicitly supplies native EQ item ID"
+    },
+    {
+      "recipe_id": 3096462,
+      "source_name": "Unfired Pure Energeian Ice Orb",
+      "source_view_id": 12224,
+      "source_url": "https://www.eqtraders.com/recipes/pottery_recipe_page.php?article=432&rsa=Pottery&sub=SoD",
+      "source_formula": "Components: Chronal Resonance Dust, Distilled Essence of Ice, Pure Energeian Sketch, Ruby, Silver Infused Energeiac Clay, Vial of Purified Mana\nIn: Pottery Wheel, Tanaan Pottery Wheel, Pottery Wheel (Placeable), Guild Pottery Wheel\nYield: 1\nNotes: EQRecipeID: 12857",
+      "source_catalogue_sha256": "f025b69ba30a132fd4454e0472b668fbb48d31edfe5a28d0beb4f788e75dfa0c",
+      "output_item_id": 41853,
+      "yield_count": 1,
+      "trivial": 423,
+      "ingredients": [
+        {
+          "item_id": 10035,
+          "name": "Ruby",
+          "count": 1
+        },
+        {
+          "item_id": 10254,
+          "name": "Vial of Purified Mana",
+          "count": 1
+        },
+        {
+          "item_id": 33828,
+          "name": "Silver Infused Energeiac Clay",
+          "count": 1
+        },
+        {
+          "item_id": 33832,
+          "name": "Distilled Essence of Ice",
+          "count": 1
+        },
+        {
+          "item_id": 40581,
+          "name": "Chronal Resonance Dust",
+          "count": 1
+        },
+        {
+          "item_id": 41810,
+          "name": "Pure Energeian Sketch",
+          "count": 1
+        }
+      ],
+      "success_roles": {
+        "41853": 1
+      },
+      "failure_roles": {},
+      "container_item_ids": [
+        8
+      ],
+      "held_source_stations": [
+        {
+          "name": "Tanaan Pottery Wheel",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=5495",
+          "reason": "Named/furniture/guild station not separately qualified"
+        },
+        {
+          "name": "Pottery Wheel (Placeable)",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34405",
+          "reason": "Named/furniture/guild station not separately qualified"
+        },
+        {
+          "name": "Guild Pottery Wheel",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=38426",
+          "reason": "Named/furniture/guild station not separately qualified"
+        }
+      ],
+      "min_expansion": 15,
+      "skillneeded": 0,
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "learning_origin": "ORDINARY_ZERO_POLICY_SOURCE_OMITS_MANDATORY_BOOK_MINIMUM",
+      "era_origin": "MAINTAINED_SOD15_FAMILY_POLICY_NOT_EXACT_INTRODUCTION",
+      "May2013_exact_fields_verified": false,
+      "identity_assurance": "ALL_NATIVE_ITEM_REFERENCES_PRIMARY_EQ_ITEM_ID_AUTHENTICATED",
+      "unlinked_named_output_qualification": "Output name has no link in catalogue; exact same named unfired component primary page explicitly supplies native EQ item ID"
+    },
+    {
+      "recipe_id": 3096463,
+      "source_name": "Unfired Pure Energeian Growth Orb",
+      "source_view_id": 12222,
+      "source_url": "https://www.eqtraders.com/recipes/pottery_recipe_page.php?article=432&rsa=Pottery&sub=SoD",
+      "source_formula": "Components: Chronal Resonance Dust, Distilled Essence of Growth, Pure Energeian Sketch, Ruby, Silver Infused Energeiac Clay, Vial of Purified Mana\nIn: Pottery Wheel, Tanaan Pottery Wheel, Pottery Wheel (Placeable), Guild Pottery Wheel\nYield: 1\nNotes: EQRecipeID: 12861",
+      "source_catalogue_sha256": "f025b69ba30a132fd4454e0472b668fbb48d31edfe5a28d0beb4f788e75dfa0c",
+      "output_item_id": 41857,
+      "yield_count": 1,
+      "trivial": 436,
+      "ingredients": [
+        {
+          "item_id": 10035,
+          "name": "Ruby",
+          "count": 1
+        },
+        {
+          "item_id": 10254,
+          "name": "Vial of Purified Mana",
+          "count": 1
+        },
+        {
+          "item_id": 33828,
+          "name": "Silver Infused Energeiac Clay",
+          "count": 1
+        },
+        {
+          "item_id": 33836,
+          "name": "Distilled Essence of Growth",
+          "count": 1
+        },
+        {
+          "item_id": 40581,
+          "name": "Chronal Resonance Dust",
+          "count": 1
+        },
+        {
+          "item_id": 41810,
+          "name": "Pure Energeian Sketch",
+          "count": 1
+        }
+      ],
+      "success_roles": {
+        "41857": 1
+      },
+      "failure_roles": {},
+      "container_item_ids": [
+        8
+      ],
+      "held_source_stations": [
+        {
+          "name": "Tanaan Pottery Wheel",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=5495",
+          "reason": "Named/furniture/guild station not separately qualified"
+        },
+        {
+          "name": "Pottery Wheel (Placeable)",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34405",
+          "reason": "Named/furniture/guild station not separately qualified"
+        },
+        {
+          "name": "Guild Pottery Wheel",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=38426",
+          "reason": "Named/furniture/guild station not separately qualified"
+        }
+      ],
+      "min_expansion": 15,
+      "skillneeded": 0,
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "learning_origin": "ORDINARY_ZERO_POLICY_SOURCE_OMITS_MANDATORY_BOOK_MINIMUM",
+      "era_origin": "MAINTAINED_SOD15_FAMILY_POLICY_NOT_EXACT_INTRODUCTION",
+      "May2013_exact_fields_verified": false,
+      "identity_assurance": "ALL_NATIVE_ITEM_REFERENCES_PRIMARY_EQ_ITEM_ID_AUTHENTICATED",
+      "unlinked_named_output_qualification": "Output name has no link in catalogue; exact same named unfired component primary page explicitly supplies native EQ item ID"
+    },
+    {
+      "recipe_id": 3096464,
+      "source_name": "Unfired Pure Energeian Poison Orb",
+      "source_view_id": 12230,
+      "source_url": "https://www.eqtraders.com/recipes/pottery_recipe_page.php?article=432&rsa=Pottery&sub=SoD",
+      "source_formula": "Components: Chronal Resonance Dust, Distilled Essence of Poison, Pure Energeian Sketch, Ruby, Silver Infused Energeiac Clay, Vial of Purified Mana\nIn: Pottery Wheel, Tanaan Pottery Wheel, Pottery Wheel (Placeable), Guild Pottery Wheel\nYield: 1\nNotes: EQRecipeID: 12863",
+      "source_catalogue_sha256": "f025b69ba30a132fd4454e0472b668fbb48d31edfe5a28d0beb4f788e75dfa0c",
+      "output_item_id": 41859,
+      "yield_count": 1,
+      "trivial": 450,
+      "ingredients": [
+        {
+          "item_id": 10035,
+          "name": "Ruby",
+          "count": 1
+        },
+        {
+          "item_id": 10254,
+          "name": "Vial of Purified Mana",
+          "count": 1
+        },
+        {
+          "item_id": 33828,
+          "name": "Silver Infused Energeiac Clay",
+          "count": 1
+        },
+        {
+          "item_id": 33838,
+          "name": "Distilled Essence of Poison",
+          "count": 1
+        },
+        {
+          "item_id": 40581,
+          "name": "Chronal Resonance Dust",
+          "count": 1
+        },
+        {
+          "item_id": 41810,
+          "name": "Pure Energeian Sketch",
+          "count": 1
+        }
+      ],
+      "success_roles": {
+        "41859": 1
+      },
+      "failure_roles": {},
+      "container_item_ids": [
+        8
+      ],
+      "held_source_stations": [
+        {
+          "name": "Tanaan Pottery Wheel",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=5495",
+          "reason": "Named/furniture/guild station not separately qualified"
+        },
+        {
+          "name": "Pottery Wheel (Placeable)",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34405",
+          "reason": "Named/furniture/guild station not separately qualified"
+        },
+        {
+          "name": "Guild Pottery Wheel",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=38426",
+          "reason": "Named/furniture/guild station not separately qualified"
+        }
+      ],
+      "min_expansion": 15,
+      "skillneeded": 0,
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "learning_origin": "ORDINARY_ZERO_POLICY_SOURCE_OMITS_MANDATORY_BOOK_MINIMUM",
+      "era_origin": "MAINTAINED_SOD15_FAMILY_POLICY_NOT_EXACT_INTRODUCTION",
+      "May2013_exact_fields_verified": false,
+      "identity_assurance": "ALL_NATIVE_ITEM_REFERENCES_PRIMARY_EQ_ITEM_ID_AUTHENTICATED",
+      "unlinked_named_output_qualification": "Output name has no link in catalogue; exact same named unfired component primary page explicitly supplies native EQ item ID"
+    },
+    {
+      "recipe_id": 3096465,
+      "source_name": "Unfired Pure Energeian Water Orb",
+      "source_view_id": 12238,
+      "source_url": "https://www.eqtraders.com/recipes/pottery_recipe_page.php?article=432&rsa=Pottery&sub=SoD",
+      "source_formula": "Components: Chronal Resonance Dust, Distilled Essence of Water, Pure Energeian Sketch, Ruby, Silver Infused Energeiac Clay, Vial of Purified Mana\nIn: Pottery Wheel, Tanaan Pottery Wheel, Pottery Wheel (Placeable), Guild Pottery Wheel\nYield: 1\nNotes: EQRecipeID: 12865",
+      "source_catalogue_sha256": "f025b69ba30a132fd4454e0472b668fbb48d31edfe5a28d0beb4f788e75dfa0c",
+      "output_item_id": 41861,
+      "yield_count": 1,
+      "trivial": 450,
+      "ingredients": [
+        {
+          "item_id": 10035,
+          "name": "Ruby",
+          "count": 1
+        },
+        {
+          "item_id": 10254,
+          "name": "Vial of Purified Mana",
+          "count": 1
+        },
+        {
+          "item_id": 33828,
+          "name": "Silver Infused Energeiac Clay",
+          "count": 1
+        },
+        {
+          "item_id": 40581,
+          "name": "Chronal Resonance Dust",
+          "count": 1
+        },
+        {
+          "item_id": 41810,
+          "name": "Pure Energeian Sketch",
+          "count": 1
+        },
+        {
+          "item_id": 41811,
+          "name": "Distilled Essence of Water",
+          "count": 1
+        }
+      ],
+      "success_roles": {
+        "41861": 1
+      },
+      "failure_roles": {},
+      "container_item_ids": [
+        8
+      ],
+      "held_source_stations": [
+        {
+          "name": "Tanaan Pottery Wheel",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=5495",
+          "reason": "Named/furniture/guild station not separately qualified"
+        },
+        {
+          "name": "Pottery Wheel (Placeable)",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34405",
+          "reason": "Named/furniture/guild station not separately qualified"
+        },
+        {
+          "name": "Guild Pottery Wheel",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=38426",
+          "reason": "Named/furniture/guild station not separately qualified"
+        }
+      ],
+      "min_expansion": 15,
+      "skillneeded": 0,
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "learning_origin": "ORDINARY_ZERO_POLICY_SOURCE_OMITS_MANDATORY_BOOK_MINIMUM",
+      "era_origin": "MAINTAINED_SOD15_FAMILY_POLICY_NOT_EXACT_INTRODUCTION",
+      "May2013_exact_fields_verified": false,
+      "identity_assurance": "ALL_NATIVE_ITEM_REFERENCES_PRIMARY_EQ_ITEM_ID_AUTHENTICATED",
+      "unlinked_named_output_qualification": "Output name has no link in catalogue; exact same named unfired component primary page explicitly supplies native EQ item ID"
+    },
+    {
+      "recipe_id": 3096466,
+      "source_name": "Unfired Pure Energeian Shadow Orb",
+      "source_view_id": 12232,
+      "source_url": "https://www.eqtraders.com/recipes/pottery_recipe_page.php?article=432&rsa=Pottery&sub=SoD",
+      "source_formula": "Components: Chronal Resonance Dust, Distilled Essence of Shadow, Pure Energeian Sketch, Ruby, Silver Infused Energeiac Clay, Vial of Purified Mana\nIn: Pottery Wheel, Tanaan Pottery Wheel, Pottery Wheel (Placeable), Guild Pottery Wheel\nYield: 1\nNotes: EQRecipeID: 12866",
+      "source_catalogue_sha256": "f025b69ba30a132fd4454e0472b668fbb48d31edfe5a28d0beb4f788e75dfa0c",
+      "output_item_id": 41862,
+      "yield_count": 1,
+      "trivial": 450,
+      "ingredients": [
+        {
+          "item_id": 10035,
+          "name": "Ruby",
+          "count": 1
+        },
+        {
+          "item_id": 10254,
+          "name": "Vial of Purified Mana",
+          "count": 1
+        },
+        {
+          "item_id": 33828,
+          "name": "Silver Infused Energeiac Clay",
+          "count": 1
+        },
+        {
+          "item_id": 40581,
+          "name": "Chronal Resonance Dust",
+          "count": 1
+        },
+        {
+          "item_id": 41810,
+          "name": "Pure Energeian Sketch",
+          "count": 1
+        },
+        {
+          "item_id": 41813,
+          "name": "Distilled Essence of Shadow",
+          "count": 1
+        }
+      ],
+      "success_roles": {
+        "41862": 1
+      },
+      "failure_roles": {},
+      "container_item_ids": [
+        8
+      ],
+      "held_source_stations": [
+        {
+          "name": "Tanaan Pottery Wheel",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=5495",
+          "reason": "Named/furniture/guild station not separately qualified"
+        },
+        {
+          "name": "Pottery Wheel (Placeable)",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34405",
+          "reason": "Named/furniture/guild station not separately qualified"
+        },
+        {
+          "name": "Guild Pottery Wheel",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=38426",
+          "reason": "Named/furniture/guild station not separately qualified"
+        }
+      ],
+      "min_expansion": 15,
+      "skillneeded": 0,
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "learning_origin": "ORDINARY_ZERO_POLICY_SOURCE_OMITS_MANDATORY_BOOK_MINIMUM",
+      "era_origin": "MAINTAINED_SOD15_FAMILY_POLICY_NOT_EXACT_INTRODUCTION",
+      "May2013_exact_fields_verified": false,
+      "identity_assurance": "ALL_NATIVE_ITEM_REFERENCES_PRIMARY_EQ_ITEM_ID_AUTHENTICATED",
+      "unlinked_named_output_qualification": "Output name has no link in catalogue; exact same named unfired component primary page explicitly supplies native EQ item ID"
+    },
+    {
+      "recipe_id": 3096467,
+      "source_name": "Unfired Pure Energeian Light Orb",
+      "source_view_id": 12226,
+      "source_url": "https://www.eqtraders.com/recipes/pottery_recipe_page.php?article=432&rsa=Pottery&sub=SoD",
+      "source_formula": "Components: Chronal Resonance Dust, Distilled Essence of Light, Pure Energeian Sketch, Ruby, Silver Infused Energeiac Clay, Vial of Purified Mana\nIn: Pottery Wheel, Tanaan Pottery Wheel, Pottery Wheel (Placeable), Guild Pottery Wheel\nYield: 1\nNotes: EQRecipeID: 12867",
+      "source_catalogue_sha256": "f025b69ba30a132fd4454e0472b668fbb48d31edfe5a28d0beb4f788e75dfa0c",
+      "output_item_id": 41863,
+      "yield_count": 1,
+      "trivial": 450,
+      "ingredients": [
+        {
+          "item_id": 10035,
+          "name": "Ruby",
+          "count": 1
+        },
+        {
+          "item_id": 10254,
+          "name": "Vial of Purified Mana",
+          "count": 1
+        },
+        {
+          "item_id": 33828,
+          "name": "Silver Infused Energeiac Clay",
+          "count": 1
+        },
+        {
+          "item_id": 40581,
+          "name": "Chronal Resonance Dust",
+          "count": 1
+        },
+        {
+          "item_id": 41810,
+          "name": "Pure Energeian Sketch",
+          "count": 1
+        },
+        {
+          "item_id": 41812,
+          "name": "Distilled Essence of Light",
+          "count": 1
+        }
+      ],
+      "success_roles": {
+        "41863": 1
+      },
+      "failure_roles": {},
+      "container_item_ids": [
+        8
+      ],
+      "held_source_stations": [
+        {
+          "name": "Tanaan Pottery Wheel",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=5495",
+          "reason": "Named/furniture/guild station not separately qualified"
+        },
+        {
+          "name": "Pottery Wheel (Placeable)",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34405",
+          "reason": "Named/furniture/guild station not separately qualified"
+        },
+        {
+          "name": "Guild Pottery Wheel",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=38426",
+          "reason": "Named/furniture/guild station not separately qualified"
+        }
+      ],
+      "min_expansion": 15,
+      "skillneeded": 0,
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "learning_origin": "ORDINARY_ZERO_POLICY_SOURCE_OMITS_MANDATORY_BOOK_MINIMUM",
+      "era_origin": "MAINTAINED_SOD15_FAMILY_POLICY_NOT_EXACT_INTRODUCTION",
+      "May2013_exact_fields_verified": false,
+      "identity_assurance": "ALL_NATIVE_ITEM_REFERENCES_PRIMARY_EQ_ITEM_ID_AUTHENTICATED",
+      "unlinked_named_output_qualification": "Output name has no link in catalogue; exact same named unfired component primary page explicitly supplies native EQ item ID"
+    },
+    {
+      "recipe_id": 3096468,
+      "source_name": "Unfired Pure Energeian Steam Orb",
+      "source_view_id": 12234,
+      "source_url": "https://www.eqtraders.com/recipes/pottery_recipe_page.php?article=432&rsa=Pottery&sub=SoD",
+      "source_formula": "Components: Chronal Resonance Dust, Distilled Essence of Fire, Distilled Essence of Water, Pure Energeian Sketch, Ruby, Silver Infused Energeiac Clay, Vial of Purified Mana\nIn: Pottery Wheel, Tanaan Pottery Wheel, Pottery Wheel (Placeable), Guild Pottery Wheel\nYield: 1\nNotes: EQRecipeID: 12868",
+      "source_catalogue_sha256": "f025b69ba30a132fd4454e0472b668fbb48d31edfe5a28d0beb4f788e75dfa0c",
+      "output_item_id": 41864,
+      "yield_count": 1,
+      "trivial": 463,
+      "ingredients": [
+        {
+          "item_id": 10035,
+          "name": "Ruby",
+          "count": 1
+        },
+        {
+          "item_id": 10254,
+          "name": "Vial of Purified Mana",
+          "count": 1
+        },
+        {
+          "item_id": 33828,
+          "name": "Silver Infused Energeiac Clay",
+          "count": 1
+        },
+        {
+          "item_id": 33833,
+          "name": "Distilled Essence of Fire",
+          "count": 1
+        },
+        {
+          "item_id": 40581,
+          "name": "Chronal Resonance Dust",
+          "count": 1
+        },
+        {
+          "item_id": 41810,
+          "name": "Pure Energeian Sketch",
+          "count": 1
+        },
+        {
+          "item_id": 41811,
+          "name": "Distilled Essence of Water",
+          "count": 1
+        }
+      ],
+      "success_roles": {
+        "41864": 1
+      },
+      "failure_roles": {},
+      "container_item_ids": [
+        8
+      ],
+      "held_source_stations": [
+        {
+          "name": "Tanaan Pottery Wheel",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=5495",
+          "reason": "Named/furniture/guild station not separately qualified"
+        },
+        {
+          "name": "Pottery Wheel (Placeable)",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34405",
+          "reason": "Named/furniture/guild station not separately qualified"
+        },
+        {
+          "name": "Guild Pottery Wheel",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=38426",
+          "reason": "Named/furniture/guild station not separately qualified"
+        }
+      ],
+      "min_expansion": 15,
+      "skillneeded": 0,
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "learning_origin": "ORDINARY_ZERO_POLICY_SOURCE_OMITS_MANDATORY_BOOK_MINIMUM",
+      "era_origin": "MAINTAINED_SOD15_FAMILY_POLICY_NOT_EXACT_INTRODUCTION",
+      "May2013_exact_fields_verified": false,
+      "identity_assurance": "ALL_NATIVE_ITEM_REFERENCES_PRIMARY_EQ_ITEM_ID_AUTHENTICATED",
+      "unlinked_named_output_qualification": "Output name has no link in catalogue; exact same named unfired component primary page explicitly supplies native EQ item ID"
+    },
+    {
+      "recipe_id": 3096469,
+      "source_name": "Unfired Pure Energeian Stone Orb",
+      "source_view_id": 12236,
+      "source_url": "https://www.eqtraders.com/recipes/pottery_recipe_page.php?article=432&rsa=Pottery&sub=SoD",
+      "source_formula": "Components: Chronal Resonance Dust, Distilled Essence of Earth, Distilled Essence of Growth, Pure Energeian Sketch, Ruby, Silver Infused Energeiac Clay, Vial of Purified Mana\nIn: Pottery Wheel, Tanaan Pottery Wheel, Pottery Wheel (Placeable), Guild Pottery Wheel\nYield: 1\nNotes: EQRecipeID: 12869",
+      "source_catalogue_sha256": "f025b69ba30a132fd4454e0472b668fbb48d31edfe5a28d0beb4f788e75dfa0c",
+      "output_item_id": 41865,
+      "yield_count": 1,
+      "trivial": 463,
+      "ingredients": [
+        {
+          "item_id": 10035,
+          "name": "Ruby",
+          "count": 1
+        },
+        {
+          "item_id": 10254,
+          "name": "Vial of Purified Mana",
+          "count": 1
+        },
+        {
+          "item_id": 33828,
+          "name": "Silver Infused Energeiac Clay",
+          "count": 1
+        },
+        {
+          "item_id": 33834,
+          "name": "Distilled Essence of Earth",
+          "count": 1
+        },
+        {
+          "item_id": 33836,
+          "name": "Distilled Essence of Growth",
+          "count": 1
+        },
+        {
+          "item_id": 40581,
+          "name": "Chronal Resonance Dust",
+          "count": 1
+        },
+        {
+          "item_id": 41810,
+          "name": "Pure Energeian Sketch",
+          "count": 1
+        }
+      ],
+      "success_roles": {
+        "41865": 1
+      },
+      "failure_roles": {},
+      "container_item_ids": [
+        8
+      ],
+      "held_source_stations": [
+        {
+          "name": "Tanaan Pottery Wheel",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=5495",
+          "reason": "Named/furniture/guild station not separately qualified"
+        },
+        {
+          "name": "Pottery Wheel (Placeable)",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34405",
+          "reason": "Named/furniture/guild station not separately qualified"
+        },
+        {
+          "name": "Guild Pottery Wheel",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=38426",
+          "reason": "Named/furniture/guild station not separately qualified"
+        }
+      ],
+      "min_expansion": 15,
+      "skillneeded": 0,
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "learning_origin": "ORDINARY_ZERO_POLICY_SOURCE_OMITS_MANDATORY_BOOK_MINIMUM",
+      "era_origin": "MAINTAINED_SOD15_FAMILY_POLICY_NOT_EXACT_INTRODUCTION",
+      "May2013_exact_fields_verified": false,
+      "identity_assurance": "ALL_NATIVE_ITEM_REFERENCES_PRIMARY_EQ_ITEM_ID_AUTHENTICATED",
+      "unlinked_named_output_qualification": "Output name has no link in catalogue; exact same named unfired component primary page explicitly supplies native EQ item ID"
+    },
+    {
+      "recipe_id": 3096470,
+      "source_name": "Unfired Pure Energeian Metal Orb",
+      "source_view_id": 12228,
+      "source_url": "https://www.eqtraders.com/recipes/pottery_recipe_page.php?article=432&rsa=Pottery&sub=SoD",
+      "source_formula": "Components: Chronal Resonance Dust, Distilled Essence of Earth, Distilled Essence of Fire, Pure Energeian Sketch, Ruby, Silver Infused Energeiac Clay, Vial of Purified Mana\nIn: Pottery Wheel, Tanaan Pottery Wheel, Pottery Wheel (Placeable), Guild Pottery Wheel\nYield: 1\nNotes: EQRecipeID: 12872",
+      "source_catalogue_sha256": "f025b69ba30a132fd4454e0472b668fbb48d31edfe5a28d0beb4f788e75dfa0c",
+      "output_item_id": 41868,
+      "yield_count": 1,
+      "trivial": 463,
+      "ingredients": [
+        {
+          "item_id": 10035,
+          "name": "Ruby",
+          "count": 1
+        },
+        {
+          "item_id": 10254,
+          "name": "Vial of Purified Mana",
+          "count": 1
+        },
+        {
+          "item_id": 33828,
+          "name": "Silver Infused Energeiac Clay",
+          "count": 1
+        },
+        {
+          "item_id": 33833,
+          "name": "Distilled Essence of Fire",
+          "count": 1
+        },
+        {
+          "item_id": 33834,
+          "name": "Distilled Essence of Earth",
+          "count": 1
+        },
+        {
+          "item_id": 40581,
+          "name": "Chronal Resonance Dust",
+          "count": 1
+        },
+        {
+          "item_id": 41810,
+          "name": "Pure Energeian Sketch",
+          "count": 1
+        }
+      ],
+      "success_roles": {
+        "41868": 1
+      },
+      "failure_roles": {},
+      "container_item_ids": [
+        8
+      ],
+      "held_source_stations": [
+        {
+          "name": "Tanaan Pottery Wheel",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=5495",
+          "reason": "Named/furniture/guild station not separately qualified"
+        },
+        {
+          "name": "Pottery Wheel (Placeable)",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34405",
+          "reason": "Named/furniture/guild station not separately qualified"
+        },
+        {
+          "name": "Guild Pottery Wheel",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=38426",
+          "reason": "Named/furniture/guild station not separately qualified"
+        }
+      ],
+      "min_expansion": 15,
+      "skillneeded": 0,
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "learning_origin": "ORDINARY_ZERO_POLICY_SOURCE_OMITS_MANDATORY_BOOK_MINIMUM",
+      "era_origin": "MAINTAINED_SOD15_FAMILY_POLICY_NOT_EXACT_INTRODUCTION",
+      "May2013_exact_fields_verified": false,
+      "identity_assurance": "ALL_NATIVE_ITEM_REFERENCES_PRIMARY_EQ_ITEM_ID_AUTHENTICATED",
+      "unlinked_named_output_qualification": "Output name has no link in catalogue; exact same named unfired component primary page explicitly supplies native EQ item ID"
+    },
+    {
+      "recipe_id": 3096471,
+      "source_name": "Sealed Translucent Energeian Earth Orb",
+      "source_view_id": 12245,
+      "source_url": "https://www.eqtraders.com/recipes/pottery_recipe_page.php?article=432&rsa=Pottery&sub=SoD",
+      "source_formula": "Components: Distilled Essence of Earth, High Quality Firing Sheet, Unfired Translucent Energeian Earth Orb\nIn: Kiln, Tanaan Kiln, Kiln (Placeable)\nYield: 2",
+      "source_catalogue_sha256": "f025b69ba30a132fd4454e0472b668fbb48d31edfe5a28d0beb4f788e75dfa0c",
+      "output_item_id": 41896,
+      "yield_count": 2,
+      "trivial": 356,
+      "ingredients": [
+        {
+          "item_id": 16908,
+          "name": "High Quality Firing Sheet",
+          "count": 1
+        },
+        {
+          "item_id": 33834,
+          "name": "Distilled Essence of Earth",
+          "count": 1
+        },
+        {
+          "item_id": 41840,
+          "name": "Unfired Translucent Energeian Earth Orb",
+          "count": 1
+        }
+      ],
+      "success_roles": {
+        "41896": 2
+      },
+      "failure_roles": {},
+      "container_item_ids": [
+        9
+      ],
+      "held_source_stations": [
+        {
+          "name": "Tanaan Kiln",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=5496",
+          "reason": "Named/furniture/guild station not separately qualified"
+        },
+        {
+          "name": "Kiln (Placeable)",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34392",
+          "reason": "Named/furniture/guild station not separately qualified"
+        }
+      ],
+      "min_expansion": 15,
+      "skillneeded": 0,
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "learning_origin": "ORDINARY_ZERO_POLICY_SOURCE_OMITS_MANDATORY_BOOK_MINIMUM",
+      "era_origin": "MAINTAINED_SOD15_FAMILY_POLICY_NOT_EXACT_INTRODUCTION",
+      "May2013_exact_fields_verified": false,
+      "identity_assurance": "ALL_NATIVE_ITEM_REFERENCES_PRIMARY_EQ_ITEM_ID_AUTHENTICATED",
+      "unlinked_named_output_qualification": null
+    },
+    {
+      "recipe_id": 3096472,
+      "source_name": "Sealed Translucent Energeian Air Orb",
+      "source_view_id": 12239,
+      "source_url": "https://www.eqtraders.com/recipes/pottery_recipe_page.php?article=432&rsa=Pottery&sub=SoD",
+      "source_formula": "Components: Distilled Essence of Air, High Quality Firing Sheet, Unfired Translucent Energeian Air Orb\nIn: Kiln, Tanaan Kiln, Kiln (Placeable)\nYield: 2",
+      "source_catalogue_sha256": "f025b69ba30a132fd4454e0472b668fbb48d31edfe5a28d0beb4f788e75dfa0c",
+      "output_item_id": 41897,
+      "yield_count": 2,
+      "trivial": 356,
+      "ingredients": [
+        {
+          "item_id": 16908,
+          "name": "High Quality Firing Sheet",
+          "count": 1
+        },
+        {
+          "item_id": 33835,
+          "name": "Distilled Essence of Air",
+          "count": 1
+        },
+        {
+          "item_id": 41841,
+          "name": "Unfired Translucent Energeian Air Orb",
+          "count": 1
+        }
+      ],
+      "success_roles": {
+        "41897": 2
+      },
+      "failure_roles": {},
+      "container_item_ids": [
+        9
+      ],
+      "held_source_stations": [
+        {
+          "name": "Tanaan Kiln",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=5496",
+          "reason": "Named/furniture/guild station not separately qualified"
+        },
+        {
+          "name": "Kiln (Placeable)",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34392",
+          "reason": "Named/furniture/guild station not separately qualified"
+        }
+      ],
+      "min_expansion": 15,
+      "skillneeded": 0,
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "learning_origin": "ORDINARY_ZERO_POLICY_SOURCE_OMITS_MANDATORY_BOOK_MINIMUM",
+      "era_origin": "MAINTAINED_SOD15_FAMILY_POLICY_NOT_EXACT_INTRODUCTION",
+      "May2013_exact_fields_verified": false,
+      "identity_assurance": "ALL_NATIVE_ITEM_REFERENCES_PRIMARY_EQ_ITEM_ID_AUTHENTICATED",
+      "unlinked_named_output_qualification": null
+    },
+    {
+      "recipe_id": 3096473,
+      "source_name": "Sealed Translucent Energeian Decay Orb",
+      "source_view_id": 12241,
+      "source_url": "https://www.eqtraders.com/recipes/pottery_recipe_page.php?article=432&rsa=Pottery&sub=SoD",
+      "source_formula": "Components: Distilled Essence of Decay, High Quality Firing Sheet, Unfired Translucent Energeian Decay Orb\nIn: Kiln, Tanaan Kiln, Kiln (Placeable)\nYield: 2",
+      "source_catalogue_sha256": "f025b69ba30a132fd4454e0472b668fbb48d31edfe5a28d0beb4f788e75dfa0c",
+      "output_item_id": 41899,
+      "yield_count": 2,
+      "trivial": 370,
+      "ingredients": [
+        {
+          "item_id": 16908,
+          "name": "High Quality Firing Sheet",
+          "count": 1
+        },
+        {
+          "item_id": 33837,
+          "name": "Distilled Essence of Decay",
+          "count": 1
+        },
+        {
+          "item_id": 41843,
+          "name": "Unfired Translucent Energeian Decay Orb",
+          "count": 1
+        }
+      ],
+      "success_roles": {
+        "41899": 2
+      },
+      "failure_roles": {},
+      "container_item_ids": [
+        9
+      ],
+      "held_source_stations": [
+        {
+          "name": "Tanaan Kiln",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=5496",
+          "reason": "Named/furniture/guild station not separately qualified"
+        },
+        {
+          "name": "Kiln (Placeable)",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34392",
+          "reason": "Named/furniture/guild station not separately qualified"
+        }
+      ],
+      "min_expansion": 15,
+      "skillneeded": 0,
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "learning_origin": "ORDINARY_ZERO_POLICY_SOURCE_OMITS_MANDATORY_BOOK_MINIMUM",
+      "era_origin": "MAINTAINED_SOD15_FAMILY_POLICY_NOT_EXACT_INTRODUCTION",
+      "May2013_exact_fields_verified": false,
+      "identity_assurance": "ALL_NATIVE_ITEM_REFERENCES_PRIMARY_EQ_ITEM_ID_AUTHENTICATED",
+      "unlinked_named_output_qualification": null
+    },
+    {
+      "recipe_id": 3096474,
+      "source_name": "Sealed Translucent Energeian Disease Orb",
+      "source_view_id": 12243,
+      "source_url": "https://www.eqtraders.com/recipes/pottery_recipe_page.php?article=432&rsa=Pottery&sub=SoD",
+      "source_formula": "Components: Distilled Essence of Disease, High Quality Firing Sheet, Unfired Translucent Energeian Disease Orb\nIn: Kiln, Tanaan Kiln, Kiln (Placeable)\nYield: 2",
+      "source_catalogue_sha256": "f025b69ba30a132fd4454e0472b668fbb48d31edfe5a28d0beb4f788e75dfa0c",
+      "output_item_id": 41901,
+      "yield_count": 2,
+      "trivial": 383,
+      "ingredients": [
+        {
+          "item_id": 16908,
+          "name": "High Quality Firing Sheet",
+          "count": 1
+        },
+        {
+          "item_id": 33839,
+          "name": "Distilled Essence of Disease",
+          "count": 1
+        },
+        {
+          "item_id": 41845,
+          "name": "Unfired Translucent Energeian Disease Orb",
+          "count": 1
+        }
+      ],
+      "success_roles": {
+        "41901": 2
+      },
+      "failure_roles": {},
+      "container_item_ids": [
+        9
+      ],
+      "held_source_stations": [
+        {
+          "name": "Tanaan Kiln",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=5496",
+          "reason": "Named/furniture/guild station not separately qualified"
+        },
+        {
+          "name": "Kiln (Placeable)",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34392",
+          "reason": "Named/furniture/guild station not separately qualified"
+        }
+      ],
+      "min_expansion": 15,
+      "skillneeded": 0,
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "learning_origin": "ORDINARY_ZERO_POLICY_SOURCE_OMITS_MANDATORY_BOOK_MINIMUM",
+      "era_origin": "MAINTAINED_SOD15_FAMILY_POLICY_NOT_EXACT_INTRODUCTION",
+      "May2013_exact_fields_verified": false,
+      "identity_assurance": "ALL_NATIVE_ITEM_REFERENCES_PRIMARY_EQ_ITEM_ID_AUTHENTICATED",
+      "unlinked_named_output_qualification": null
+    },
+    {
+      "recipe_id": 3096475,
+      "source_name": "Sealed Pure Energeian Ice Orb",
+      "source_view_id": 12223,
+      "source_url": "https://www.eqtraders.com/recipes/pottery_recipe_page.php?article=432&rsa=Pottery&sub=SoD",
+      "source_formula": "Components: Chronal Resonance Dust, Distilled Essence of Ice, High Quality Firing Sheet, Unfired Pure Energeian Ice Orb\nIn: Kiln, Tanaan Kiln, Kiln (Placeable)\nYield: 1",
+      "source_catalogue_sha256": "f025b69ba30a132fd4454e0472b668fbb48d31edfe5a28d0beb4f788e75dfa0c",
+      "output_item_id": 41909,
+      "yield_count": 1,
+      "trivial": 356,
+      "ingredients": [
+        {
+          "item_id": 16908,
+          "name": "High Quality Firing Sheet",
+          "count": 1
+        },
+        {
+          "item_id": 33832,
+          "name": "Distilled Essence of Ice",
+          "count": 1
+        },
+        {
+          "item_id": 40581,
+          "name": "Chronal Resonance Dust",
+          "count": 1
+        },
+        {
+          "item_id": 41853,
+          "name": "Unfired Pure Energeian Ice Orb",
+          "count": 1
+        }
+      ],
+      "success_roles": {
+        "41909": 1
+      },
+      "failure_roles": {},
+      "container_item_ids": [
+        9
+      ],
+      "held_source_stations": [
+        {
+          "name": "Tanaan Kiln",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=5496",
+          "reason": "Named/furniture/guild station not separately qualified"
+        },
+        {
+          "name": "Kiln (Placeable)",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34392",
+          "reason": "Named/furniture/guild station not separately qualified"
+        }
+      ],
+      "min_expansion": 15,
+      "skillneeded": 0,
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "learning_origin": "ORDINARY_ZERO_POLICY_SOURCE_OMITS_MANDATORY_BOOK_MINIMUM",
+      "era_origin": "MAINTAINED_SOD15_FAMILY_POLICY_NOT_EXACT_INTRODUCTION",
+      "May2013_exact_fields_verified": false,
+      "identity_assurance": "ALL_NATIVE_ITEM_REFERENCES_PRIMARY_EQ_ITEM_ID_AUTHENTICATED",
+      "unlinked_named_output_qualification": null
+    },
+    {
+      "recipe_id": 3096476,
+      "source_name": "Sealed Pure Energeian Growth Orb",
+      "source_view_id": 12221,
+      "source_url": "https://www.eqtraders.com/recipes/pottery_recipe_page.php?article=432&rsa=Pottery&sub=SoD",
+      "source_formula": "Components: Chronal Resonance Dust, Distilled Essence of Growth, High Quality Firing Sheet, Unfired Pure Energeian Growth Orb\nIn: Kiln, Tanaan Kiln, Kiln (Placeable)\nYield: 1",
+      "source_catalogue_sha256": "f025b69ba30a132fd4454e0472b668fbb48d31edfe5a28d0beb4f788e75dfa0c",
+      "output_item_id": 41913,
+      "yield_count": 1,
+      "trivial": 370,
+      "ingredients": [
+        {
+          "item_id": 16908,
+          "name": "High Quality Firing Sheet",
+          "count": 1
+        },
+        {
+          "item_id": 33836,
+          "name": "Distilled Essence of Growth",
+          "count": 1
+        },
+        {
+          "item_id": 40581,
+          "name": "Chronal Resonance Dust",
+          "count": 1
+        },
+        {
+          "item_id": 41857,
+          "name": "Unfired Pure Energeian Growth Orb",
+          "count": 1
+        }
+      ],
+      "success_roles": {
+        "41913": 1
+      },
+      "failure_roles": {},
+      "container_item_ids": [
+        9
+      ],
+      "held_source_stations": [
+        {
+          "name": "Tanaan Kiln",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=5496",
+          "reason": "Named/furniture/guild station not separately qualified"
+        },
+        {
+          "name": "Kiln (Placeable)",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34392",
+          "reason": "Named/furniture/guild station not separately qualified"
+        }
+      ],
+      "min_expansion": 15,
+      "skillneeded": 0,
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "learning_origin": "ORDINARY_ZERO_POLICY_SOURCE_OMITS_MANDATORY_BOOK_MINIMUM",
+      "era_origin": "MAINTAINED_SOD15_FAMILY_POLICY_NOT_EXACT_INTRODUCTION",
+      "May2013_exact_fields_verified": false,
+      "identity_assurance": "ALL_NATIVE_ITEM_REFERENCES_PRIMARY_EQ_ITEM_ID_AUTHENTICATED",
+      "unlinked_named_output_qualification": null
+    },
+    {
+      "recipe_id": 3096477,
+      "source_name": "Sealed Pure Energeian Poison Orb",
+      "source_view_id": 12229,
+      "source_url": "https://www.eqtraders.com/recipes/pottery_recipe_page.php?article=432&rsa=Pottery&sub=SoD",
+      "source_formula": "Components: Chronal Resonance Dust, Distilled Essence of Poison, High Quality Firing Sheet, Unfired Pure Energeian Poison Orb\nIn: Kiln, Tanaan Kiln, Kiln (Placeable)\nYield: 1",
+      "source_catalogue_sha256": "f025b69ba30a132fd4454e0472b668fbb48d31edfe5a28d0beb4f788e75dfa0c",
+      "output_item_id": 41915,
+      "yield_count": 1,
+      "trivial": 383,
+      "ingredients": [
+        {
+          "item_id": 16908,
+          "name": "High Quality Firing Sheet",
+          "count": 1
+        },
+        {
+          "item_id": 33838,
+          "name": "Distilled Essence of Poison",
+          "count": 1
+        },
+        {
+          "item_id": 40581,
+          "name": "Chronal Resonance Dust",
+          "count": 1
+        },
+        {
+          "item_id": 41859,
+          "name": "Unfired Pure Energeian Poison Orb",
+          "count": 1
+        }
+      ],
+      "success_roles": {
+        "41915": 1
+      },
+      "failure_roles": {},
+      "container_item_ids": [
+        9
+      ],
+      "held_source_stations": [
+        {
+          "name": "Tanaan Kiln",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=5496",
+          "reason": "Named/furniture/guild station not separately qualified"
+        },
+        {
+          "name": "Kiln (Placeable)",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34392",
+          "reason": "Named/furniture/guild station not separately qualified"
+        }
+      ],
+      "min_expansion": 15,
+      "skillneeded": 0,
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "learning_origin": "ORDINARY_ZERO_POLICY_SOURCE_OMITS_MANDATORY_BOOK_MINIMUM",
+      "era_origin": "MAINTAINED_SOD15_FAMILY_POLICY_NOT_EXACT_INTRODUCTION",
+      "May2013_exact_fields_verified": false,
+      "identity_assurance": "ALL_NATIVE_ITEM_REFERENCES_PRIMARY_EQ_ITEM_ID_AUTHENTICATED",
+      "unlinked_named_output_qualification": null
+    },
+    {
+      "recipe_id": 3096478,
+      "source_name": "Sealed Pure Energeian Water Orb",
+      "source_view_id": 12237,
+      "source_url": "https://www.eqtraders.com/recipes/pottery_recipe_page.php?article=432&rsa=Pottery&sub=SoD",
+      "source_formula": "Components: Chronal Resonance Dust, Distilled Essence of Water, High Quality Firing Sheet, Unfired Pure Energeian Water Orb\nIn: Kiln, Tanaan Kiln, Kiln (Placeable)\nYield: 1",
+      "source_catalogue_sha256": "f025b69ba30a132fd4454e0472b668fbb48d31edfe5a28d0beb4f788e75dfa0c",
+      "output_item_id": 41917,
+      "yield_count": 1,
+      "trivial": 383,
+      "ingredients": [
+        {
+          "item_id": 16908,
+          "name": "High Quality Firing Sheet",
+          "count": 1
+        },
+        {
+          "item_id": 40581,
+          "name": "Chronal Resonance Dust",
+          "count": 1
+        },
+        {
+          "item_id": 41811,
+          "name": "Distilled Essence of Water",
+          "count": 1
+        },
+        {
+          "item_id": 41861,
+          "name": "Unfired Pure Energeian Water Orb",
+          "count": 1
+        }
+      ],
+      "success_roles": {
+        "41917": 1
+      },
+      "failure_roles": {},
+      "container_item_ids": [
+        9
+      ],
+      "held_source_stations": [
+        {
+          "name": "Tanaan Kiln",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=5496",
+          "reason": "Named/furniture/guild station not separately qualified"
+        },
+        {
+          "name": "Kiln (Placeable)",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34392",
+          "reason": "Named/furniture/guild station not separately qualified"
+        }
+      ],
+      "min_expansion": 15,
+      "skillneeded": 0,
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "learning_origin": "ORDINARY_ZERO_POLICY_SOURCE_OMITS_MANDATORY_BOOK_MINIMUM",
+      "era_origin": "MAINTAINED_SOD15_FAMILY_POLICY_NOT_EXACT_INTRODUCTION",
+      "May2013_exact_fields_verified": false,
+      "identity_assurance": "ALL_NATIVE_ITEM_REFERENCES_PRIMARY_EQ_ITEM_ID_AUTHENTICATED",
+      "unlinked_named_output_qualification": null
+    },
+    {
+      "recipe_id": 3096479,
+      "source_name": "Sealed Pure Energeian Shadow Orb",
+      "source_view_id": 12231,
+      "source_url": "https://www.eqtraders.com/recipes/pottery_recipe_page.php?article=432&rsa=Pottery&sub=SoD",
+      "source_formula": "Components: Chronal Resonance Dust, Distilled Essence of Shadow, High Quality Firing Sheet, Unfired Pure Energeian Shadow Orb\nIn: Kiln, Tanaan Kiln, Kiln (Placeable)\nYield: 1",
+      "source_catalogue_sha256": "f025b69ba30a132fd4454e0472b668fbb48d31edfe5a28d0beb4f788e75dfa0c",
+      "output_item_id": 41918,
+      "yield_count": 1,
+      "trivial": 383,
+      "ingredients": [
+        {
+          "item_id": 16908,
+          "name": "High Quality Firing Sheet",
+          "count": 1
+        },
+        {
+          "item_id": 40581,
+          "name": "Chronal Resonance Dust",
+          "count": 1
+        },
+        {
+          "item_id": 41813,
+          "name": "Distilled Essence of Shadow",
+          "count": 1
+        },
+        {
+          "item_id": 41862,
+          "name": "Unfired Pure Energeian Shadow Orb",
+          "count": 1
+        }
+      ],
+      "success_roles": {
+        "41918": 1
+      },
+      "failure_roles": {},
+      "container_item_ids": [
+        9
+      ],
+      "held_source_stations": [
+        {
+          "name": "Tanaan Kiln",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=5496",
+          "reason": "Named/furniture/guild station not separately qualified"
+        },
+        {
+          "name": "Kiln (Placeable)",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34392",
+          "reason": "Named/furniture/guild station not separately qualified"
+        }
+      ],
+      "min_expansion": 15,
+      "skillneeded": 0,
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "learning_origin": "ORDINARY_ZERO_POLICY_SOURCE_OMITS_MANDATORY_BOOK_MINIMUM",
+      "era_origin": "MAINTAINED_SOD15_FAMILY_POLICY_NOT_EXACT_INTRODUCTION",
+      "May2013_exact_fields_verified": false,
+      "identity_assurance": "ALL_NATIVE_ITEM_REFERENCES_PRIMARY_EQ_ITEM_ID_AUTHENTICATED",
+      "unlinked_named_output_qualification": null
+    },
+    {
+      "recipe_id": 3096480,
+      "source_name": "Sealed Pure Energeian Light Orb",
+      "source_view_id": 12225,
+      "source_url": "https://www.eqtraders.com/recipes/pottery_recipe_page.php?article=432&rsa=Pottery&sub=SoD",
+      "source_formula": "Components: Chronal Resonance Dust, Distilled Essence of Light, High Quality Firing Sheet, Unfired Pure Energeian Light Orb\nIn: Kiln, Tanaan Kiln, Kiln (Placeable)\nYield: 1",
+      "source_catalogue_sha256": "f025b69ba30a132fd4454e0472b668fbb48d31edfe5a28d0beb4f788e75dfa0c",
+      "output_item_id": 41919,
+      "yield_count": 1,
+      "trivial": 383,
+      "ingredients": [
+        {
+          "item_id": 16908,
+          "name": "High Quality Firing Sheet",
+          "count": 1
+        },
+        {
+          "item_id": 40581,
+          "name": "Chronal Resonance Dust",
+          "count": 1
+        },
+        {
+          "item_id": 41812,
+          "name": "Distilled Essence of Light",
+          "count": 1
+        },
+        {
+          "item_id": 41863,
+          "name": "Unfired Pure Energeian Light Orb",
+          "count": 1
+        }
+      ],
+      "success_roles": {
+        "41919": 1
+      },
+      "failure_roles": {},
+      "container_item_ids": [
+        9
+      ],
+      "held_source_stations": [
+        {
+          "name": "Tanaan Kiln",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=5496",
+          "reason": "Named/furniture/guild station not separately qualified"
+        },
+        {
+          "name": "Kiln (Placeable)",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34392",
+          "reason": "Named/furniture/guild station not separately qualified"
+        }
+      ],
+      "min_expansion": 15,
+      "skillneeded": 0,
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "learning_origin": "ORDINARY_ZERO_POLICY_SOURCE_OMITS_MANDATORY_BOOK_MINIMUM",
+      "era_origin": "MAINTAINED_SOD15_FAMILY_POLICY_NOT_EXACT_INTRODUCTION",
+      "May2013_exact_fields_verified": false,
+      "identity_assurance": "ALL_NATIVE_ITEM_REFERENCES_PRIMARY_EQ_ITEM_ID_AUTHENTICATED",
+      "unlinked_named_output_qualification": null
+    },
+    {
+      "recipe_id": 3096481,
+      "source_name": "Sealed Pure Energeian Steam Orb",
+      "source_view_id": 12233,
+      "source_url": "https://www.eqtraders.com/recipes/pottery_recipe_page.php?article=432&rsa=Pottery&sub=SoD",
+      "source_formula": "Components: Chronal Resonance Dust, Distilled Essence of Fire, Distilled Essence of Water, High Quality Firing Sheet, Unfired Pure Energeian Steam Orb\nIn: Kiln, Tanaan Kiln, Kiln (Placeable)\nYield: 1",
+      "source_catalogue_sha256": "f025b69ba30a132fd4454e0472b668fbb48d31edfe5a28d0beb4f788e75dfa0c",
+      "output_item_id": 41920,
+      "yield_count": 1,
+      "trivial": 396,
+      "ingredients": [
+        {
+          "item_id": 16908,
+          "name": "High Quality Firing Sheet",
+          "count": 1
+        },
+        {
+          "item_id": 33833,
+          "name": "Distilled Essence of Fire",
+          "count": 1
+        },
+        {
+          "item_id": 40581,
+          "name": "Chronal Resonance Dust",
+          "count": 1
+        },
+        {
+          "item_id": 41811,
+          "name": "Distilled Essence of Water",
+          "count": 1
+        },
+        {
+          "item_id": 41864,
+          "name": "Unfired Pure Energeian Steam Orb",
+          "count": 1
+        }
+      ],
+      "success_roles": {
+        "41920": 1
+      },
+      "failure_roles": {},
+      "container_item_ids": [
+        9
+      ],
+      "held_source_stations": [
+        {
+          "name": "Tanaan Kiln",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=5496",
+          "reason": "Named/furniture/guild station not separately qualified"
+        },
+        {
+          "name": "Kiln (Placeable)",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34392",
+          "reason": "Named/furniture/guild station not separately qualified"
+        }
+      ],
+      "min_expansion": 15,
+      "skillneeded": 0,
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "learning_origin": "ORDINARY_ZERO_POLICY_SOURCE_OMITS_MANDATORY_BOOK_MINIMUM",
+      "era_origin": "MAINTAINED_SOD15_FAMILY_POLICY_NOT_EXACT_INTRODUCTION",
+      "May2013_exact_fields_verified": false,
+      "identity_assurance": "ALL_NATIVE_ITEM_REFERENCES_PRIMARY_EQ_ITEM_ID_AUTHENTICATED",
+      "unlinked_named_output_qualification": null
+    },
+    {
+      "recipe_id": 3096482,
+      "source_name": "Sealed Pure Energeian Stone Orb",
+      "source_view_id": 12235,
+      "source_url": "https://www.eqtraders.com/recipes/pottery_recipe_page.php?article=432&rsa=Pottery&sub=SoD",
+      "source_formula": "Components: Chronal Resonance Dust, Distilled Essence of Earth, Distilled Essence of Growth, High Quality Firing Sheet, Unfired Pure Energeian Stone Orb\nIn: Kiln, Tanaan Kiln, Kiln (Placeable)\nYield: 1",
+      "source_catalogue_sha256": "f025b69ba30a132fd4454e0472b668fbb48d31edfe5a28d0beb4f788e75dfa0c",
+      "output_item_id": 41921,
+      "yield_count": 1,
+      "trivial": 396,
+      "ingredients": [
+        {
+          "item_id": 16908,
+          "name": "High Quality Firing Sheet",
+          "count": 1
+        },
+        {
+          "item_id": 33834,
+          "name": "Distilled Essence of Earth",
+          "count": 1
+        },
+        {
+          "item_id": 33836,
+          "name": "Distilled Essence of Growth",
+          "count": 1
+        },
+        {
+          "item_id": 40581,
+          "name": "Chronal Resonance Dust",
+          "count": 1
+        },
+        {
+          "item_id": 41865,
+          "name": "Unfired Pure Energeian Stone Orb",
+          "count": 1
+        }
+      ],
+      "success_roles": {
+        "41921": 1
+      },
+      "failure_roles": {},
+      "container_item_ids": [
+        9
+      ],
+      "held_source_stations": [
+        {
+          "name": "Tanaan Kiln",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=5496",
+          "reason": "Named/furniture/guild station not separately qualified"
+        },
+        {
+          "name": "Kiln (Placeable)",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34392",
+          "reason": "Named/furniture/guild station not separately qualified"
+        }
+      ],
+      "min_expansion": 15,
+      "skillneeded": 0,
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "learning_origin": "ORDINARY_ZERO_POLICY_SOURCE_OMITS_MANDATORY_BOOK_MINIMUM",
+      "era_origin": "MAINTAINED_SOD15_FAMILY_POLICY_NOT_EXACT_INTRODUCTION",
+      "May2013_exact_fields_verified": false,
+      "identity_assurance": "ALL_NATIVE_ITEM_REFERENCES_PRIMARY_EQ_ITEM_ID_AUTHENTICATED",
+      "unlinked_named_output_qualification": null
+    },
+    {
+      "recipe_id": 3096483,
+      "source_name": "Sealed Pure Energeian Metal Orb",
+      "source_view_id": 12227,
+      "source_url": "https://www.eqtraders.com/recipes/pottery_recipe_page.php?article=432&rsa=Pottery&sub=SoD",
+      "source_formula": "Components: Chronal Resonance Dust, Distilled Essence of Earth, Distilled Essence of Fire, High Quality Firing Sheet, Unfired Pure Energeian Metal Orb\nIn: Kiln, Tanaan Kiln, Kiln (Placeable)\nYield: 1",
+      "source_catalogue_sha256": "f025b69ba30a132fd4454e0472b668fbb48d31edfe5a28d0beb4f788e75dfa0c",
+      "output_item_id": 41924,
+      "yield_count": 1,
+      "trivial": 396,
+      "ingredients": [
+        {
+          "item_id": 16908,
+          "name": "High Quality Firing Sheet",
+          "count": 1
+        },
+        {
+          "item_id": 33833,
+          "name": "Distilled Essence of Fire",
+          "count": 1
+        },
+        {
+          "item_id": 33834,
+          "name": "Distilled Essence of Earth",
+          "count": 1
+        },
+        {
+          "item_id": 40581,
+          "name": "Chronal Resonance Dust",
+          "count": 1
+        },
+        {
+          "item_id": 41868,
+          "name": "Unfired Pure Energeian Metal Orb",
+          "count": 1
+        }
+      ],
+      "success_roles": {
+        "41924": 1
+      },
+      "failure_roles": {},
+      "container_item_ids": [
+        9
+      ],
+      "held_source_stations": [
+        {
+          "name": "Tanaan Kiln",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=5496",
+          "reason": "Named/furniture/guild station not separately qualified"
+        },
+        {
+          "name": "Kiln (Placeable)",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34392",
+          "reason": "Named/furniture/guild station not separately qualified"
+        }
+      ],
+      "min_expansion": 15,
+      "skillneeded": 0,
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "learning_origin": "ORDINARY_ZERO_POLICY_SOURCE_OMITS_MANDATORY_BOOK_MINIMUM",
+      "era_origin": "MAINTAINED_SOD15_FAMILY_POLICY_NOT_EXACT_INTRODUCTION",
+      "May2013_exact_fields_verified": false,
+      "identity_assurance": "ALL_NATIVE_ITEM_REFERENCES_PRIMARY_EQ_ITEM_ID_AUTHENTICATED",
+      "unlinked_named_output_qualification": null
+    }
+  ],
+  "restriction_review": {
+    "scope": "26 source views:18 Pure-orb and8 Translucent-orb forming/firing bodies. All31 previously unresolved item identities have primary EQ item IDs and exact titles:28 newly observed,3 reused with pinned provenance. Includes24 existing name-candidate groups plus2 ambiguous-output siblings resolved by explicit primary EQ IDs; no same-input/name/output-use peers exist in current bounded native review. Literal numeric trivials/fullquantities/returns retained.",
+    "quantities": "Everyformingbody yieldsONE unfired orb. Translucentfiring yieldsTWO physical sealedunits; Purefiring yieldsONE. Eachselectedsealedprimaryprofile explicitly hasCharges1 andStackable20; native maxcharges1/stackable1/stacksize>=literalquantity guarded. Successcount1/2 is physicalstackquantity, not initialclickcharges in one nonstackable object. Nonstackablechargeholds unchanged; no quantity default or normalization.",
+    "native_semantics": "Read-only current source inspection:tradeskillonsuccess passesitscount toSummonItem; positivecount isretained;stackableinventorycounts treatinstancecharges as physicalstackquantity;MaxChargesdefault applies only to omitted -1. Static source evidence only, NOT newbuild/nativecombine/activation acceptance.",
+    "gates": "Source omits mandatorylearning/minimum/actor/questgates;ordinaryskillneeded0/must_learn0/book0/no-fail0/quest0/enabled1/consumedsalvage acceptedlabelledpolicies. Sealed itemlevel75Pure/Translucent/effectActivatePowerSource/classNONE/raceNONE describeUSE metadata, notnewmanufacturinggates. Existingitemfields unchanged; no actorpolicy inferred from masks.",
+    "book_context": "Retainednative FurtherEnergeiacDiscoveries41241/TSSku16Pottery describesTranslucentDistilledMana/TWORubies andPurePurifiedMana/ONERuby/ChronalResonanceDust/clay/essence/forming/firing context. Book iscontextonly/type31, not a learned/carried/consumed dependency. ItsPureOrbSolterisrestrictionconcernsUNSEAL/USE and explicitly permitsmanufacturewithouttasks. That use restriction is retained; no task/questflag/craftinggate is invented or removed. Activation/nativeuse remainsUNVERIFIED. No source/bookrewrite or unseal/nativeuse claim.",
+    "era": "Positive maintainedSoD15Pottery family/manufacturingcontext with authoredEnergeiac context; configuredfloor15/max-1reconstructionpolicy, notimmutableMay2013perfield/introductionproof. No modernResearch160book/Compendiumsubstitution.",
+    "containers": "Eachview positiveordinaryWheel8 orKiln9 only. Fullsourcequantitiesfit10units;all selected fullinputs fit their source genericcontainer. Tanaan/placeable/guildstationlinksheld, no availabilityinferred.",
+    "preservation": "45 nativeitemdependencies/newIDs/currentallstatefullinputs/output-useuniverse/names/fullpostimages/deltas/learnedrefs guarded. Existingrecipes/items/player/quest/core unchanged. Priorimmutable fields reused where captured;only missingitemrowsfreshlyread, allfields remainapplyguards.",
+    "execution": "Sourceproposalonly,accepted physical-stack quantity semantics/publication/separateexactSQLGO. Allreaders/researchtabclosed;noSQLwrites/tests/build/runtime/nativecombines/activationacceptance. Othercharged/era/actor/sourceholds retained;fullrecipescopeincomplete."
+  },
+  "source_urls": [
+    "https://www.eqtraders.com/recipes/pottery_recipe_page.php?article=432&rsa=Pottery&sub=SoD"
+  ],
+  "supplemental_primary_identity_sources": [
+    {
+      "source_url": "https://www.eqtraders.com/items/show_item.php?item=31374",
+      "source_item_id": 31374,
+      "explicit_EQ_item_ID": 41913,
+      "observed_primary_title": "EQTC - Item: Sealed Pure Energeian Growth Orb"
+    },
+    {
+      "source_url": "https://www.eqtraders.com/items/show_item.php?item=31318",
+      "source_item_id": 31318,
+      "explicit_EQ_item_ID": 41857,
+      "observed_primary_title": "EQTC - Item: Unfired Pure Energeian Growth Orb"
+    },
+    {
+      "source_url": "https://www.eqtraders.com/items/show_item.php?item=32030",
+      "source_item_id": 32030,
+      "explicit_EQ_item_ID": 41810,
+      "observed_primary_title": "EQTC - Item: Pure Energeian Sketch"
+    },
+    {
+      "source_url": "https://www.eqtraders.com/items/show_item.php?item=31370",
+      "source_item_id": 31370,
+      "explicit_EQ_item_ID": 41909,
+      "observed_primary_title": "EQTC - Item: Sealed Pure Energeian Ice Orb"
+    },
+    {
+      "source_url": "https://www.eqtraders.com/items/show_item.php?item=31314",
+      "source_item_id": 31314,
+      "explicit_EQ_item_ID": 41853,
+      "observed_primary_title": "EQTC - Item: Unfired Pure Energeian Ice Orb"
+    },
+    {
+      "source_url": "https://www.eqtraders.com/items/show_item.php?item=31380",
+      "source_item_id": 31380,
+      "explicit_EQ_item_ID": 41919,
+      "observed_primary_title": "EQTC - Item: Sealed Pure Energeian Light Orb"
+    },
+    {
+      "source_url": "https://www.eqtraders.com/items/show_item.php?item=31273",
+      "source_item_id": 31273,
+      "explicit_EQ_item_ID": 41812,
+      "observed_primary_title": "EQTC - Item: Distilled Essence of Light"
+    },
+    {
+      "source_url": "https://www.eqtraders.com/items/show_item.php?item=31324",
+      "source_item_id": 31324,
+      "explicit_EQ_item_ID": 41863,
+      "observed_primary_title": "EQTC - Item: Unfired Pure Energeian Light Orb"
+    },
+    {
+      "source_url": "https://www.eqtraders.com/items/show_item.php?item=31385",
+      "source_item_id": 31385,
+      "explicit_EQ_item_ID": 41924,
+      "observed_primary_title": "EQTC - Item: Sealed Pure Energeian Metal Orb"
+    },
+    {
+      "source_url": "https://www.eqtraders.com/items/show_item.php?item=31329",
+      "source_item_id": 31329,
+      "explicit_EQ_item_ID": 41868,
+      "observed_primary_title": "EQTC - Item: Unfired Pure Energeian Metal Orb"
+    },
+    {
+      "source_url": "https://www.eqtraders.com/items/show_item.php?item=31376",
+      "source_item_id": 31376,
+      "explicit_EQ_item_ID": 41915,
+      "observed_primary_title": "EQTC - Item: Sealed Pure Energeian Poison Orb"
+    },
+    {
+      "source_url": "https://www.eqtraders.com/items/show_item.php?item=31320",
+      "source_item_id": 31320,
+      "explicit_EQ_item_ID": 41859,
+      "observed_primary_title": "EQTC - Item: Unfired Pure Energeian Poison Orb"
+    },
+    {
+      "source_url": "https://www.eqtraders.com/items/show_item.php?item=31379",
+      "source_item_id": 31379,
+      "explicit_EQ_item_ID": 41918,
+      "observed_primary_title": "EQTC - Item: Sealed Pure Energeian Shadow Orb"
+    },
+    {
+      "source_url": "https://www.eqtraders.com/items/show_item.php?item=31274",
+      "source_item_id": 31274,
+      "explicit_EQ_item_ID": 41813,
+      "observed_primary_title": "EQTC - Item: Distilled Essence of Shadow"
+    },
+    {
+      "source_url": "https://www.eqtraders.com/items/show_item.php?item=31323",
+      "source_item_id": 31323,
+      "explicit_EQ_item_ID": 41862,
+      "observed_primary_title": "EQTC - Item: Unfired Pure Energeian Shadow Orb"
+    },
+    {
+      "source_url": "https://www.eqtraders.com/items/show_item.php?item=31381",
+      "source_item_id": 31381,
+      "explicit_EQ_item_ID": 41920,
+      "observed_primary_title": "EQTC - Item: Sealed Pure Energeian Steam Orb"
+    },
+    {
+      "source_url": "https://www.eqtraders.com/items/show_item.php?item=31272",
+      "source_item_id": 31272,
+      "explicit_EQ_item_ID": 41811,
+      "observed_primary_title": "EQTC - Item: Distilled Essence of Water"
+    },
+    {
+      "source_url": "https://www.eqtraders.com/items/show_item.php?item=31325",
+      "source_item_id": 31325,
+      "explicit_EQ_item_ID": 41864,
+      "observed_primary_title": "EQTC - Item: Unfired Pure Energeian Steam Orb"
+    },
+    {
+      "source_url": "https://www.eqtraders.com/items/show_item.php?item=31382",
+      "source_item_id": 31382,
+      "explicit_EQ_item_ID": 41921,
+      "observed_primary_title": "EQTC - Item: Sealed Pure Energeian Stone Orb"
+    },
+    {
+      "source_url": "https://www.eqtraders.com/items/show_item.php?item=31326",
+      "source_item_id": 31326,
+      "explicit_EQ_item_ID": 41865,
+      "observed_primary_title": "EQTC - Item: Unfired Pure Energeian Stone Orb"
+    },
+    {
+      "source_url": "https://www.eqtraders.com/items/show_item.php?item=31378",
+      "source_item_id": 31378,
+      "explicit_EQ_item_ID": 41917,
+      "observed_primary_title": "EQTC - Item: Sealed Pure Energeian Water Orb"
+    },
+    {
+      "source_url": "https://www.eqtraders.com/items/show_item.php?item=31322",
+      "source_item_id": 31322,
+      "explicit_EQ_item_ID": 41861,
+      "observed_primary_title": "EQTC - Item: Unfired Pure Energeian Water Orb"
+    },
+    {
+      "source_url": "https://www.eqtraders.com/items/show_item.php?item=31358",
+      "source_item_id": 31358,
+      "explicit_EQ_item_ID": 41897,
+      "observed_primary_title": "EQTC - Item: Sealed Translucent Energeian Air Orb"
+    },
+    {
+      "source_url": "https://www.eqtraders.com/items/show_item.php?item=31302",
+      "source_item_id": 31302,
+      "explicit_EQ_item_ID": 41841,
+      "observed_primary_title": "EQTC - Item: Unfired Translucent Energeian Air Orb"
+    },
+    {
+      "source_url": "https://www.eqtraders.com/items/show_item.php?item=32031",
+      "source_item_id": 32031,
+      "explicit_EQ_item_ID": 41809,
+      "observed_primary_title": "EQTC - Item: Translucent Energeian Sketch"
+    },
+    {
+      "source_url": "https://www.eqtraders.com/items/show_item.php?item=31360",
+      "source_item_id": 31360,
+      "explicit_EQ_item_ID": 41899,
+      "observed_primary_title": "EQTC - Item: Sealed Translucent Energeian Decay Orb"
+    },
+    {
+      "source_url": "https://www.eqtraders.com/items/show_item.php?item=31304",
+      "source_item_id": 31304,
+      "explicit_EQ_item_ID": 41843,
+      "observed_primary_title": "EQTC - Item: Unfired Translucent Energeian Decay Orb"
+    },
+    {
+      "source_url": "https://www.eqtraders.com/items/show_item.php?item=31362",
+      "source_item_id": 31362,
+      "explicit_EQ_item_ID": 41901,
+      "observed_primary_title": "EQTC - Item: Sealed Translucent Energeian Disease Orb"
+    },
+    {
+      "source_url": "https://www.eqtraders.com/items/show_item.php?item=31306",
+      "source_item_id": 31306,
+      "explicit_EQ_item_ID": 41845,
+      "observed_primary_title": "EQTC - Item: Unfired Translucent Energeian Disease Orb"
+    },
+    {
+      "source_url": "https://www.eqtraders.com/items/show_item.php?item=31357",
+      "source_item_id": 31357,
+      "explicit_EQ_item_ID": 41896,
+      "observed_primary_title": "EQTC - Item: Sealed Translucent Energeian Earth Orb"
+    },
+    {
+      "source_url": "https://www.eqtraders.com/items/show_item.php?item=31301",
+      "source_item_id": 31301,
+      "explicit_EQ_item_ID": 41840,
+      "observed_primary_title": "EQTC - Item: Unfired Translucent Energeian Earth Orb"
+    }
+  ],
+  "native_authored_context": [],
+  "migration_dependencies": [],
+  "held_source_rows": []
+}
