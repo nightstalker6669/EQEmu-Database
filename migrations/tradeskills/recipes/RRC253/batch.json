@@ -1,0 +1,306 @@
+{
+  "batch": "RRC253",
+  "branch": "rof2-tradeskills",
+  "status": "SOURCE_MISSING_COMPONENT_REPAIR_NOT_APPLIED",
+  "counts": {
+    "existing_recipes": 1,
+    "before_entries": 7,
+    "after_entries": 8,
+    "item_dependencies": 5,
+    "existing_entry_rows_updated": 0,
+    "new_entries": 1
+  },
+  "before_recipes": [
+    {
+      "id": 10217,
+      "name": "Wayfarer Signet Ring",
+      "tradeskill": 68,
+      "skillneeded": 0,
+      "trivial": 54,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": null,
+      "must_learn": 2,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": -1,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    }
+  ],
+  "after_recipes": [
+    {
+      "id": 10217,
+      "name": "Wayfarer Signet Ring",
+      "tradeskill": 68,
+      "skillneeded": 0,
+      "trivial": 54,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": null,
+      "must_learn": 2,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": -1,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    }
+  ],
+  "before_entries": [
+    {
+      "id": 77405,
+      "recipe_id": 10217,
+      "item_id": 58118,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 77406,
+      "recipe_id": 10217,
+      "item_id": 58208,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 77407,
+      "recipe_id": 10217,
+      "item_id": 58209,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 77408,
+      "recipe_id": 10217,
+      "item_id": 17187,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 77409,
+      "recipe_id": 10217,
+      "item_id": 17764,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 77410,
+      "recipe_id": 10217,
+      "item_id": 17912,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 77411,
+      "recipe_id": 10217,
+      "item_id": 62480,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    }
+  ],
+  "after_entries": [
+    {
+      "id": 77405,
+      "recipe_id": 10217,
+      "item_id": 58118,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 77406,
+      "recipe_id": 10217,
+      "item_id": 58208,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 77407,
+      "recipe_id": 10217,
+      "item_id": 58209,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 77408,
+      "recipe_id": 10217,
+      "item_id": 17187,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 77409,
+      "recipe_id": 10217,
+      "item_id": 17764,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 77410,
+      "recipe_id": 10217,
+      "item_id": 17912,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 77411,
+      "recipe_id": 10217,
+      "item_id": 62480,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    }
+  ],
+  "added_entries": [
+    {
+      "recipe_id": 10217,
+      "item_id": 58137,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    }
+  ],
+  "recipes": [],
+  "entries": [],
+  "unchanged_prototype_recipes": [],
+  "unchanged_prototype_entries": [],
+  "item_dependencies": [
+    {
+      "id": 17187,
+      "name": "Collapsible Jeweler's Kit"
+    },
+    {
+      "id": 58118,
+      "name": "Simple Silver Ring"
+    },
+    {
+      "id": 58137,
+      "name": "Small Pale Nihilite"
+    },
+    {
+      "id": 58208,
+      "name": "Wayfarer Sigil"
+    },
+    {
+      "id": 58209,
+      "name": "Wayfarer Signet Ring"
+    }
+  ],
+  "source_facts": [
+    {
+      "source_view_id": 16965,
+      "recipe_id": 10217,
+      "source_name": "Wayfarer Signet Ring",
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=232&rsa=Jewelcraft&sub=GoD",
+      "source_formula": "Components: Simple Silver Ring, Small Pale Nihilite, Wayfarer Sigil\nIn: Jeweler's Kit, Planar Jeweler's Kit, Collapsible Jeweler's Kit, Reinforced Jeweler's Kit\nYield: 1\nNotes: Abysmal Sea jewelcraft collect quest",
+      "source_input_roles": {
+        "58118": 1,
+        "58137": 1,
+        "58208": 1
+      },
+      "output_item_id": 58209,
+      "added_component_item_id": 58137,
+      "added_componentcount": 1,
+      "existing_recipe_definition_and_all_entry_ids_preserved": true
+    }
+  ],
+  "restriction_review": {
+    "scope": "ExistingWayfarerSignetRing10217 is missing one SmallPaleNihilite58137 input. Currentdirectprimaryformula explicitlyusesSimpleSilverRing58118+SmallPaleNihilite58137+WayfarerSigil58208/yield1/trivial54. Add one logicalcomponent1/salvage1 row, no newrecipe or oldentry updates.",
+    "preservation": "All16recipeheaderfields and7existingentryIDs/fields preserved, includingmust_learn2/book0 andfourcontainerbindings. Fiveexact18itemdependencies guarded; source-explicit17187capacity6/LARGE fitsallthreeinputs. Otherexistingstationbindingspreserved, no claimofnewavailabilityqualification. Fullcorrectedinputuniqueness/outputproduceruniverse/exactaddedrowmultiplicity/countdeltas guarded. No player/item/book/core writes.",
+    "era": "DirectmaintainedGoDsource232 andcurrentprimaryID/literalcomparison authenticateingredientrepair. Existingmin/maxexpansion/headerleftunchanged; no exactMay2013claim or questgate invention. AbysmalSeacollectassociation doesnotauthorize removingexistingmust_learn2.",
+    "evidence": "Savedfinite18currentread afteractual251, directprimaryprofiles/formula retained; noDBreread. RRC252outputsareunrelatedtoRing58209, so252cannotstaleaffectedtarget/outputuniverse.",
+    "execution": "SourceonlypendingnormalGitHub/exactCoordinatoroneuseSQLGO after252actual. Guardedinverse supplied, neverautomaticallyinvoked. No newtests/rehearsal/build/runtime/nativeacceptanceclaim.14PaleKit sourcecolorconflicts remainheldseparately."
+  },
+  "source_urls": [
+    "https://www.eqtraders.com/recipes/recipe_page.php?article=232&rsa=Jewelcraft&sub=GoD"
+  ],
+  "supplemental_primary_identity_sources": [
+    {
+      "source_item_id": 20472,
+      "native_item_id": 58209,
+      "source_url": "https://www.eqtraders.com/items/show_item.php?item=20472",
+      "observed_primary_title": "EQTC - Item: Wayfarer Signet Ring",
+      "raw_html_sha256": "5ad05558d1bf403d76c9d09fb207a8bdbfd9f217dcfa63b2fc24b3148191cb38",
+      "identity_basis": "CURRENT_PRIMARY_RAW_HTTP_EXPLICIT_ID"
+    },
+    {
+      "source_item_id": 20469,
+      "native_item_id": 58118,
+      "source_url": "https://www.eqtraders.com/items/show_item.php?item=20469",
+      "observed_primary_title": "EQTC - Item: Simple Silver Ring",
+      "raw_html_sha256": "971414ef27075dc27d92a34b00a9326373a73b0c668bf8080045bb88afa62709",
+      "identity_basis": "CURRENT_PRIMARY_RAW_HTTP_EXPLICIT_ID"
+    },
+    {
+      "source_item_id": 20465,
+      "native_item_id": 58137,
+      "source_url": "https://www.eqtraders.com/items/show_item.php?item=20465",
+      "observed_primary_title": "EQTC - Item: Small Pale Nihilite",
+      "raw_html_sha256": "a33c839a389f020d59d732867b18a2f698163971b09a992add9aa55220d2c06a",
+      "identity_basis": "CURRENT_PRIMARY_RAW_HTTP_EXPLICIT_ID"
+    },
+    {
+      "source_item_id": 20473,
+      "native_item_id": 58208,
+      "source_url": "https://www.eqtraders.com/items/show_item.php?item=20473",
+      "observed_primary_title": "EQTC - Item: Wayfarer Sigil",
+      "raw_html_sha256": "adcfa6a1e630c60d324784e51143fddec7353aa7cbdf93624f673d0fc55271b4",
+      "identity_basis": "CURRENT_PRIMARY_RAW_HTTP_EXPLICIT_ID"
+    },
+    {
+      "source_item_id": 7337,
+      "native_item_id": 17187,
+      "source_url": "https://www.eqtraders.com/items/show_item.php?item=7337",
+      "observed_primary_title": "EQTC - Item: Collapsible Jeweler's Kit",
+      "capacity": 6,
+      "size_capacity": "LARGE"
+    }
+  ],
+  "migration_dependencies": [],
+  "held_source_rows": []
+}

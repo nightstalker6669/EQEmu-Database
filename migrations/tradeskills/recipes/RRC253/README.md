@@ -1,0 +1,11 @@
+# RRC253 Wayfarer Signet missing component
+
+ExistingWayfarerSignetRing10217 is missing one SmallPaleNihilite58137 input. Currentdirectprimaryformula explicitlyusesSimpleSilverRing58118+SmallPaleNihilite58137+WayfarerSigil58208/yield1/trivial54. Add one logicalcomponent1/salvage1 row, no newrecipe or oldentry updates.
+
+All16recipeheaderfields and7existingentryIDs/fields preserved, includingmust_learn2/book0 andfourcontainerbindings. Fiveexact18itemdependencies guarded; source-explicit17187capacity6/LARGE fitsallthreeinputs. Otherexistingstationbindingspreserved, no claimofnewavailabilityqualification. Fullcorrectedinputuniqueness/outputproduceruniverse/exactaddedrowmultiplicity/countdeltas guarded. No player/item/book/core writes.
+
+DirectmaintainedGoDsource232 andcurrentprimaryID/literalcomparison authenticateingredientrepair. Existingmin/maxexpansion/headerleftunchanged; no exactMay2013claim or questgate invention. AbysmalSeacollectassociation doesnotauthorize removingexistingmust_learn2.
+
+Savedfinite18currentread afteractual251, directprimaryprofiles/formula retained; noDBreread. RRC252outputsareunrelatedtoRing58209, so252cannotstaleaffectedtarget/outputuniverse.
+
+SourceonlypendingnormalGitHub/exactCoordinatoroneuseSQLGO after252actual. Guardedinverse supplied, neverautomaticallyinvoked. No newtests/rehearsal/build/runtime/nativeacceptanceclaim.14PaleKit sourcecolorconflicts remainheldseparately.
