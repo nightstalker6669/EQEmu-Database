@@ -1,0 +1,3755 @@
+{
+  "batch": "RRC203",
+  "branch": "rof2-tradeskills",
+  "status": "SOURCE_PROPOSAL_NOT_APPLIED_LABELLED_RECONSTRUCTION",
+  "proposed_ids": [
+    3096628,
+    3096653
+  ],
+  "counts": {
+    "recipes": 26,
+    "entries": 130,
+    "item_dependencies": 55,
+    "unchanged_prototype_recipes": 0,
+    "unchanged_prototype_entries": 0
+  },
+  "recipes": [
+    {
+      "id": 3096628,
+      "name": "Unfired Planar Scorched Flail Ornament",
+      "tradeskill": 69,
+      "skillneeded": 0,
+      "trivial": 322,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary VoA unfired ornament and clay reconstruction; RRC203.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 18,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3096629,
+      "name": "Unfired Planar Scorched Combat Staff Ornament",
+      "tradeskill": 69,
+      "skillneeded": 0,
+      "trivial": 315,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary VoA unfired ornament and clay reconstruction; RRC203.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 18,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3096630,
+      "name": "Unfired Planar Scorched Bladed Mace Ornament",
+      "tradeskill": 69,
+      "skillneeded": 0,
+      "trivial": 315,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary VoA unfired ornament and clay reconstruction; RRC203.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 18,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3096631,
+      "name": "Unfired Planar Scorched Glaive Ornament",
+      "tradeskill": 69,
+      "skillneeded": 0,
+      "trivial": 315,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary VoA unfired ornament and clay reconstruction; RRC203.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 18,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3096632,
+      "name": "Unfired Planar Scorched Dueling Blade Ornament",
+      "tradeskill": 69,
+      "skillneeded": 0,
+      "trivial": 308,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary VoA unfired ornament and clay reconstruction; RRC203.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 18,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3096633,
+      "name": "Unfired Planar Scorched Ranseur Ornament",
+      "tradeskill": 69,
+      "skillneeded": 0,
+      "trivial": 308,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary VoA unfired ornament and clay reconstruction; RRC203.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 18,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3096634,
+      "name": "Unfired Planar Scorched Cat Claws Ornament",
+      "tradeskill": 69,
+      "skillneeded": 0,
+      "trivial": 322,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary VoA unfired ornament and clay reconstruction; RRC203.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 18,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3096635,
+      "name": "Unfired Planar Scorched Buckler Ornament",
+      "tradeskill": 69,
+      "skillneeded": 0,
+      "trivial": 328,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary VoA unfired ornament and clay reconstruction; RRC203.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 18,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3096636,
+      "name": "Unfired Planar Scorched Greatbow Ornament",
+      "tradeskill": 69,
+      "skillneeded": 0,
+      "trivial": 328,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary VoA unfired ornament and clay reconstruction; RRC203.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 18,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3096637,
+      "name": "Alaris Infused Clay",
+      "tradeskill": 69,
+      "skillneeded": 0,
+      "trivial": 102,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary VoA unfired ornament and clay reconstruction; RRC203.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 18,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3096638,
+      "name": "Unfired Staff of Transcendence Ornament",
+      "tradeskill": 69,
+      "skillneeded": 0,
+      "trivial": 322,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary VoA unfired ornament and clay reconstruction; RRC203.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 18,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3096639,
+      "name": "Unfired Jagged Onyx Staff Ornament",
+      "tradeskill": 69,
+      "skillneeded": 0,
+      "trivial": 322,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary VoA unfired ornament and clay reconstruction; RRC203.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 18,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3096640,
+      "name": "Unfired Ancient Prismatic Brawl Stick Ornament",
+      "tradeskill": 69,
+      "skillneeded": 0,
+      "trivial": 315,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary VoA unfired ornament and clay reconstruction; RRC203.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 18,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3096641,
+      "name": "Unfired Black Handled Bonebreaker Ornament",
+      "tradeskill": 69,
+      "skillneeded": 0,
+      "trivial": 315,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary VoA unfired ornament and clay reconstruction; RRC203.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 18,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3096642,
+      "name": "Unfired Short Sword of the Ykesha Ornament",
+      "tradeskill": 69,
+      "skillneeded": 0,
+      "trivial": 315,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary VoA unfired ornament and clay reconstruction; RRC203.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 18,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3096643,
+      "name": "Unfired Wurmslayer Ornament",
+      "tradeskill": 69,
+      "skillneeded": 0,
+      "trivial": 315,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary VoA unfired ornament and clay reconstruction; RRC203.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 18,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3096644,
+      "name": "Unfired Darkblade of the Warlord Ornament",
+      "tradeskill": 69,
+      "skillneeded": 0,
+      "trivial": 315,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary VoA unfired ornament and clay reconstruction; RRC203.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 18,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3096645,
+      "name": "Unfired The Sword of Ssraeshza Ornament",
+      "tradeskill": 69,
+      "skillneeded": 0,
+      "trivial": 315,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary VoA unfired ornament and clay reconstruction; RRC203.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 18,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3096646,
+      "name": "Unfired Great Axe of Twin Flames Ornament",
+      "tradeskill": 69,
+      "skillneeded": 0,
+      "trivial": 308,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary VoA unfired ornament and clay reconstruction; RRC203.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 18,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3096647,
+      "name": "Unfired Sister's Opulent Backstabber Ornament",
+      "tradeskill": 69,
+      "skillneeded": 0,
+      "trivial": 308,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary VoA unfired ornament and clay reconstruction; RRC203.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 18,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3096648,
+      "name": "Unfired Brightwood Spear Ornament",
+      "tradeskill": 69,
+      "skillneeded": 0,
+      "trivial": 308,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary VoA unfired ornament and clay reconstruction; RRC203.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 18,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3096649,
+      "name": "Unfired Vyledorinajirnak Ornament",
+      "tradeskill": 69,
+      "skillneeded": 0,
+      "trivial": 308,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary VoA unfired ornament and clay reconstruction; RRC203.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 18,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3096650,
+      "name": "Unfired Glowing Black Stone Ornament",
+      "tradeskill": 69,
+      "skillneeded": 0,
+      "trivial": 322,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary VoA unfired ornament and clay reconstruction; RRC203.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 18,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3096651,
+      "name": "Unfired Aegis of Blackscales Ornament",
+      "tradeskill": 69,
+      "skillneeded": 0,
+      "trivial": 328,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary VoA unfired ornament and clay reconstruction; RRC203.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 18,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3096652,
+      "name": "Unfired Sarnak Battle Shield Ornament",
+      "tradeskill": 69,
+      "skillneeded": 0,
+      "trivial": 348,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary VoA unfired ornament and clay reconstruction; RRC203.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 18,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3096653,
+      "name": "Unfired Transient Bow of Solar Winds Ornament",
+      "tradeskill": 69,
+      "skillneeded": 0,
+      "trivial": 328,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary VoA unfired ornament and clay reconstruction; RRC203.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 18,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    }
+  ],
+  "entries": [
+    {
+      "recipe_id": 3096628,
+      "item_id": 10018,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096628,
+      "item_id": 127069,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096628,
+      "item_id": 127085,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096628,
+      "item_id": 127117,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 2,
+      "salvagecount": 2,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096628,
+      "item_id": 8,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3096629,
+      "item_id": 10018,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096629,
+      "item_id": 127071,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096629,
+      "item_id": 127087,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096629,
+      "item_id": 127117,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 3,
+      "salvagecount": 3,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096629,
+      "item_id": 8,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3096630,
+      "item_id": 10018,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096630,
+      "item_id": 127073,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096630,
+      "item_id": 127089,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096630,
+      "item_id": 127117,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 2,
+      "salvagecount": 2,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096630,
+      "item_id": 8,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3096631,
+      "item_id": 10018,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096631,
+      "item_id": 127076,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096631,
+      "item_id": 127092,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096631,
+      "item_id": 127117,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 3,
+      "salvagecount": 3,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096631,
+      "item_id": 8,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3096632,
+      "item_id": 10018,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096632,
+      "item_id": 127078,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096632,
+      "item_id": 127094,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096632,
+      "item_id": 127117,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096632,
+      "item_id": 8,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3096633,
+      "item_id": 10018,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096633,
+      "item_id": 127080,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096633,
+      "item_id": 127096,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096633,
+      "item_id": 127117,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 3,
+      "salvagecount": 3,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096633,
+      "item_id": 8,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3096634,
+      "item_id": 10018,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096634,
+      "item_id": 127081,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096634,
+      "item_id": 127097,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096634,
+      "item_id": 127117,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096634,
+      "item_id": 8,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3096635,
+      "item_id": 10018,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096635,
+      "item_id": 127082,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096635,
+      "item_id": 127098,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096635,
+      "item_id": 127117,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 2,
+      "salvagecount": 2,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096635,
+      "item_id": 8,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3096636,
+      "item_id": 10018,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096636,
+      "item_id": 127084,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096636,
+      "item_id": 127100,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096636,
+      "item_id": 127117,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 3,
+      "salvagecount": 3,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096636,
+      "item_id": 8,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3096637,
+      "item_id": 13006,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096637,
+      "item_id": 16896,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096637,
+      "item_id": 64546,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096637,
+      "item_id": 127117,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096637,
+      "item_id": 8,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3096638,
+      "item_id": 10018,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096638,
+      "item_id": 127117,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 3,
+      "salvagecount": 3,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096638,
+      "item_id": 127135,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096638,
+      "item_id": 127151,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096638,
+      "item_id": 8,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3096639,
+      "item_id": 10018,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096639,
+      "item_id": 127117,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 2,
+      "salvagecount": 2,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096639,
+      "item_id": 127136,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096639,
+      "item_id": 127152,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096639,
+      "item_id": 8,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3096640,
+      "item_id": 10018,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096640,
+      "item_id": 127117,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 3,
+      "salvagecount": 3,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096640,
+      "item_id": 127137,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096640,
+      "item_id": 127153,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096640,
+      "item_id": 8,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3096641,
+      "item_id": 10018,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096641,
+      "item_id": 127117,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 3,
+      "salvagecount": 3,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096641,
+      "item_id": 127138,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096641,
+      "item_id": 127154,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096641,
+      "item_id": 8,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3096642,
+      "item_id": 10018,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096642,
+      "item_id": 127117,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 2,
+      "salvagecount": 2,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096642,
+      "item_id": 127139,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096642,
+      "item_id": 127155,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096642,
+      "item_id": 8,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3096643,
+      "item_id": 10018,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096643,
+      "item_id": 127117,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 2,
+      "salvagecount": 2,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096643,
+      "item_id": 127140,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096643,
+      "item_id": 127156,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096643,
+      "item_id": 8,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3096644,
+      "item_id": 10018,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096644,
+      "item_id": 127117,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 3,
+      "salvagecount": 3,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096644,
+      "item_id": 127141,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096644,
+      "item_id": 127157,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096644,
+      "item_id": 8,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3096645,
+      "item_id": 10018,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096645,
+      "item_id": 127117,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 3,
+      "salvagecount": 3,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096645,
+      "item_id": 127142,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096645,
+      "item_id": 127158,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096645,
+      "item_id": 8,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3096646,
+      "item_id": 10018,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096646,
+      "item_id": 127117,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 2,
+      "salvagecount": 2,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096646,
+      "item_id": 127143,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096646,
+      "item_id": 127159,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096646,
+      "item_id": 8,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3096647,
+      "item_id": 10018,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096647,
+      "item_id": 127117,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096647,
+      "item_id": 127144,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096647,
+      "item_id": 127160,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096647,
+      "item_id": 8,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3096648,
+      "item_id": 10018,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096648,
+      "item_id": 127117,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 2,
+      "salvagecount": 2,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096648,
+      "item_id": 127145,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096648,
+      "item_id": 127161,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096648,
+      "item_id": 8,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3096649,
+      "item_id": 10018,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096649,
+      "item_id": 127117,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 3,
+      "salvagecount": 3,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096649,
+      "item_id": 127146,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096649,
+      "item_id": 127162,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096649,
+      "item_id": 8,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3096650,
+      "item_id": 10018,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096650,
+      "item_id": 127117,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096650,
+      "item_id": 127147,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096650,
+      "item_id": 127163,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096650,
+      "item_id": 8,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3096651,
+      "item_id": 10018,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096651,
+      "item_id": 127117,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 2,
+      "salvagecount": 2,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096651,
+      "item_id": 127148,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096651,
+      "item_id": 127164,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096651,
+      "item_id": 8,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3096652,
+      "item_id": 10018,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096652,
+      "item_id": 127117,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 3,
+      "salvagecount": 3,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096652,
+      "item_id": 127149,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096652,
+      "item_id": 127165,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096652,
+      "item_id": 8,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3096653,
+      "item_id": 10018,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096653,
+      "item_id": 127117,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 3,
+      "salvagecount": 3,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096653,
+      "item_id": 127150,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096653,
+      "item_id": 127166,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096653,
+      "item_id": 8,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    }
+  ],
+  "item_dependencies": [
+    {
+      "id": 10018,
+      "name": "Hematite"
+    },
+    {
+      "id": 13006,
+      "name": "Water Flask"
+    },
+    {
+      "id": 16896,
+      "name": "Large Block of Magic Clay"
+    },
+    {
+      "id": 64546,
+      "name": "Essence of Alaris"
+    },
+    {
+      "id": 127069,
+      "name": "Planar Scorched Flail Ornament Sketch"
+    },
+    {
+      "id": 127071,
+      "name": "Planar Scorched Combat Staff Ornament Sketch"
+    },
+    {
+      "id": 127073,
+      "name": "Planar Scorched Bladed Mace Ornament Sketch"
+    },
+    {
+      "id": 127076,
+      "name": "Planar Scorched Glaive Ornament Sketch"
+    },
+    {
+      "id": 127078,
+      "name": "Planar Scorched Dueling Blade Ornament Sketch"
+    },
+    {
+      "id": 127080,
+      "name": "Planar Scorched Ranseur Ornament Sketch"
+    },
+    {
+      "id": 127081,
+      "name": "Planar Scorched Cat Claws Ornament Sketch"
+    },
+    {
+      "id": 127082,
+      "name": "Planar Scorched Buckler Ornament Sketch"
+    },
+    {
+      "id": 127084,
+      "name": "Planar Scorched Greatbow Ornament Sketch"
+    },
+    {
+      "id": 127085,
+      "name": "Unfired Planar Scorched Flail Ornament"
+    },
+    {
+      "id": 127087,
+      "name": "Unfired Planar Scorched Combat Staff Ornament"
+    },
+    {
+      "id": 127089,
+      "name": "Unfired Planar Scorched Bladed Mace Ornament"
+    },
+    {
+      "id": 127092,
+      "name": "Unfired Planar Scorched Glaive Ornament"
+    },
+    {
+      "id": 127094,
+      "name": "Unfired Planar Scorched Dueling Blade Ornament"
+    },
+    {
+      "id": 127096,
+      "name": "Unfired Planar Scorched Ranseur Ornament"
+    },
+    {
+      "id": 127097,
+      "name": "Unfired Planar Scorched Cat Claws Ornament"
+    },
+    {
+      "id": 127098,
+      "name": "Unfired Planar Scorched Buckler Ornament"
+    },
+    {
+      "id": 127100,
+      "name": "Unfired Planar Scorched Greatbow Ornament"
+    },
+    {
+      "id": 127117,
+      "name": "Alaris Infused Clay"
+    },
+    {
+      "id": 127135,
+      "name": "Staff of Transcendence Ornament Sketch"
+    },
+    {
+      "id": 127136,
+      "name": "Jagged Onyx Staff Ornament Sketch"
+    },
+    {
+      "id": 127137,
+      "name": "Ancient Prismatic Brawl Stick Ornament Sketch"
+    },
+    {
+      "id": 127138,
+      "name": "Black Handled Bonebreaker Ornament Sketch"
+    },
+    {
+      "id": 127139,
+      "name": "Short Sword of the Ykesha Ornament Sketch"
+    },
+    {
+      "id": 127140,
+      "name": "Wurmslayer Ornament Sketch"
+    },
+    {
+      "id": 127141,
+      "name": "Darkblade of the Warlord Ornament Sketch"
+    },
+    {
+      "id": 127142,
+      "name": "The Sword of Ssraeshza Ornament Sketch"
+    },
+    {
+      "id": 127143,
+      "name": "Great Axe of Twin Flames Ornament Sketch"
+    },
+    {
+      "id": 127144,
+      "name": "Sister's Opulent Backstabber Ornament Sketch"
+    },
+    {
+      "id": 127145,
+      "name": "Brightwood Spear Ornament Sketch"
+    },
+    {
+      "id": 127146,
+      "name": "Vyledorinajirnak Ornament Sketch"
+    },
+    {
+      "id": 127147,
+      "name": "Glowing Black Stone Ornament Sketch"
+    },
+    {
+      "id": 127148,
+      "name": "Aegis of Blackscales Ornament Sketch"
+    },
+    {
+      "id": 127149,
+      "name": "Sarnak Battle Shield Ornament Sketch"
+    },
+    {
+      "id": 127150,
+      "name": "Transient Bow of Solar Winds Ornament Sketch"
+    },
+    {
+      "id": 127151,
+      "name": "Unfired Staff of Transcendence Ornament"
+    },
+    {
+      "id": 127152,
+      "name": "Unfired Jagged Onyx Staff Ornament"
+    },
+    {
+      "id": 127153,
+      "name": "Unfired Ancient Prismatic Brawl Stick Ornament"
+    },
+    {
+      "id": 127154,
+      "name": "Unfired Black Handled Bonebreaker Ornament"
+    },
+    {
+      "id": 127155,
+      "name": "Unfired Short Sword of the Ykesha Ornament"
+    },
+    {
+      "id": 127156,
+      "name": "Unfired Wurmslayer Ornament"
+    },
+    {
+      "id": 127157,
+      "name": "Unfired Darkblade of the Warlord Ornament"
+    },
+    {
+      "id": 127158,
+      "name": "Unfired The Sword of Ssraeshza Ornament"
+    },
+    {
+      "id": 127159,
+      "name": "Unfired Great Axe of Twin Flames Ornament"
+    },
+    {
+      "id": 127160,
+      "name": "Unfired Sister's Opulent Backstabber Ornament"
+    },
+    {
+      "id": 127161,
+      "name": "Unfired Brightwood Spear Ornament"
+    },
+    {
+      "id": 127162,
+      "name": "Unfired Vyledorinajirnak Ornament"
+    },
+    {
+      "id": 127163,
+      "name": "Unfired Glowing Black Stone Ornament"
+    },
+    {
+      "id": 127164,
+      "name": "Unfired Aegis of Blackscales Ornament"
+    },
+    {
+      "id": 127165,
+      "name": "Unfired Sarnak Battle Shield Ornament"
+    },
+    {
+      "id": 127166,
+      "name": "Unfired Transient Bow of Solar Winds Ornament"
+    }
+  ],
+  "unchanged_prototype_recipes": [],
+  "unchanged_prototype_entries": [],
+  "source_facts": [
+    {
+      "recipe_id": 3096628,
+      "source_name": "Unfired Planar Scorched Flail Ornament",
+      "source_view_id": 2940,
+      "source_url": "https://www.eqtraders.com/recipes/pottery_recipe_page.php?article=550&rsa=Pottery&sub=VoA",
+      "source_formula": "Components: Alaris Infused Clay (2), Hematite, Planar Scorched Flail Ornament Sketch\nIn: Pottery Wheel, Tanaan Pottery Wheel, Pottery Wheel (Placeable), Guild Pottery Wheel\nYield: 1\nNotes: EQRecipeID: 4880\nCan Scribe to Learn: Planar Scorched Weapon Ornament Sketches",
+      "source_catalogue_sha256": "9281525c4151caed842e749bcaa7dde73240146eff78fa845b95c16a9d230a88",
+      "output_item_id": 127085,
+      "yield_count": 1,
+      "trivial": 322,
+      "ingredients": [
+        {
+          "item_id": 10018,
+          "name": "Hematite",
+          "count": 1
+        },
+        {
+          "item_id": 127069,
+          "name": "Planar Scorched Flail Ornament Sketch",
+          "count": 1
+        },
+        {
+          "item_id": 127117,
+          "name": "Alaris Infused Clay",
+          "count": 2
+        }
+      ],
+      "success_roles": {
+        "127085": 1
+      },
+      "failure_roles": {},
+      "container_item_ids": [
+        8
+      ],
+      "held_source_stations": [
+        {
+          "name": "Tanaan Pottery Wheel",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=5495",
+          "reason": "Additional station not separately qualified"
+        },
+        {
+          "name": "Pottery Wheel (Placeable)",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34405",
+          "reason": "Additional station not separately qualified"
+        },
+        {
+          "name": "Guild Pottery Wheel",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=38426",
+          "reason": "Additional station not separately qualified"
+        }
+      ],
+      "min_expansion": 18,
+      "skillneeded": 0,
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "learning_origin": "OPTIONAL_BOOK_RECONSTRUCTION_SOURCE_SCRIBE_LABELS_RETAINED",
+      "era_origin": "MAINTAINED_VOA18_FAMILY_POLICY_NOT_EXACT_INTRODUCTION",
+      "May2013_exact_fields_verified": false,
+      "identity_assurance": "ALL_NATIVE_ITEM_REFERENCES_PRIMARY_EQ_ITEM_ID_AUTHENTICATED",
+      "unlinked_named_output_qualification": "Retained output-name row unlinked; same-name component link from paired firing body supplies observed direct primary EQ ID"
+    },
+    {
+      "recipe_id": 3096629,
+      "source_name": "Unfired Planar Scorched Combat Staff Ornament",
+      "source_view_id": 2936,
+      "source_url": "https://www.eqtraders.com/recipes/pottery_recipe_page.php?article=550&rsa=Pottery&sub=VoA",
+      "source_formula": "Components: Alaris Infused Clay (3), Hematite, Planar Scorched Combat Staff Ornament Sketch\nIn: Pottery Wheel, Tanaan Pottery Wheel, Pottery Wheel (Placeable), Guild Pottery Wheel\nYield: 1\nNotes: EQRecipeID: 4882\nCan scribe to Learn: Planar Scorched Weapon Ornament Sketches",
+      "source_catalogue_sha256": "9281525c4151caed842e749bcaa7dde73240146eff78fa845b95c16a9d230a88",
+      "output_item_id": 127087,
+      "yield_count": 1,
+      "trivial": 315,
+      "ingredients": [
+        {
+          "item_id": 10018,
+          "name": "Hematite",
+          "count": 1
+        },
+        {
+          "item_id": 127071,
+          "name": "Planar Scorched Combat Staff Ornament Sketch",
+          "count": 1
+        },
+        {
+          "item_id": 127117,
+          "name": "Alaris Infused Clay",
+          "count": 3
+        }
+      ],
+      "success_roles": {
+        "127087": 1
+      },
+      "failure_roles": {},
+      "container_item_ids": [
+        8
+      ],
+      "held_source_stations": [
+        {
+          "name": "Tanaan Pottery Wheel",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=5495",
+          "reason": "Additional station not separately qualified"
+        },
+        {
+          "name": "Pottery Wheel (Placeable)",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34405",
+          "reason": "Additional station not separately qualified"
+        },
+        {
+          "name": "Guild Pottery Wheel",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=38426",
+          "reason": "Additional station not separately qualified"
+        }
+      ],
+      "min_expansion": 18,
+      "skillneeded": 0,
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "learning_origin": "OPTIONAL_BOOK_RECONSTRUCTION_SOURCE_SCRIBE_LABELS_RETAINED",
+      "era_origin": "MAINTAINED_VOA18_FAMILY_POLICY_NOT_EXACT_INTRODUCTION",
+      "May2013_exact_fields_verified": false,
+      "identity_assurance": "ALL_NATIVE_ITEM_REFERENCES_PRIMARY_EQ_ITEM_ID_AUTHENTICATED",
+      "unlinked_named_output_qualification": "Retained output-name row unlinked; same-name component link from paired firing body supplies observed direct primary EQ ID"
+    },
+    {
+      "recipe_id": 3096630,
+      "source_name": "Unfired Planar Scorched Bladed Mace Ornament",
+      "source_view_id": 2930,
+      "source_url": "https://www.eqtraders.com/recipes/pottery_recipe_page.php?article=550&rsa=Pottery&sub=VoA",
+      "source_formula": "Components: Alaris Infused Clay (2), Hematite, Planar Scorched Bladed Mace Ornament Sketch\nIn: Pottery Wheel, Tanaan Pottery Wheel, Pottery Wheel (Placeable), Guild Pottery Wheel\nYield: 1\nNotes: EQRecipeID: 4884\nCan scribe to Learn: Planar Scorched Weapon Ornament Sketches",
+      "source_catalogue_sha256": "9281525c4151caed842e749bcaa7dde73240146eff78fa845b95c16a9d230a88",
+      "output_item_id": 127089,
+      "yield_count": 1,
+      "trivial": 315,
+      "ingredients": [
+        {
+          "item_id": 10018,
+          "name": "Hematite",
+          "count": 1
+        },
+        {
+          "item_id": 127073,
+          "name": "Planar Scorched Bladed Mace Ornament Sketch",
+          "count": 1
+        },
+        {
+          "item_id": 127117,
+          "name": "Alaris Infused Clay",
+          "count": 2
+        }
+      ],
+      "success_roles": {
+        "127089": 1
+      },
+      "failure_roles": {},
+      "container_item_ids": [
+        8
+      ],
+      "held_source_stations": [
+        {
+          "name": "Tanaan Pottery Wheel",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=5495",
+          "reason": "Additional station not separately qualified"
+        },
+        {
+          "name": "Pottery Wheel (Placeable)",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34405",
+          "reason": "Additional station not separately qualified"
+        },
+        {
+          "name": "Guild Pottery Wheel",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=38426",
+          "reason": "Additional station not separately qualified"
+        }
+      ],
+      "min_expansion": 18,
+      "skillneeded": 0,
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "learning_origin": "OPTIONAL_BOOK_RECONSTRUCTION_SOURCE_SCRIBE_LABELS_RETAINED",
+      "era_origin": "MAINTAINED_VOA18_FAMILY_POLICY_NOT_EXACT_INTRODUCTION",
+      "May2013_exact_fields_verified": false,
+      "identity_assurance": "ALL_NATIVE_ITEM_REFERENCES_PRIMARY_EQ_ITEM_ID_AUTHENTICATED",
+      "unlinked_named_output_qualification": "Retained output-name row unlinked; same-name component link from paired firing body supplies observed direct primary EQ ID"
+    },
+    {
+      "recipe_id": 3096631,
+      "source_name": "Unfired Planar Scorched Glaive Ornament",
+      "source_view_id": 2942,
+      "source_url": "https://www.eqtraders.com/recipes/pottery_recipe_page.php?article=550&rsa=Pottery&sub=VoA",
+      "source_formula": "Components: Alaris Infused Clay (3), Hematite, Planar Scorched Glaive Ornament Sketch\nIn: Pottery Wheel, Tanaan Pottery Wheel, Pottery Wheel (Placeable), Guild Pottery Wheel\nYield: 1\nNotes: EQRecipeID: 4887\nCan scribe to Learn: Planar Scorched Weapon Ornament Sketches",
+      "source_catalogue_sha256": "9281525c4151caed842e749bcaa7dde73240146eff78fa845b95c16a9d230a88",
+      "output_item_id": 127092,
+      "yield_count": 1,
+      "trivial": 315,
+      "ingredients": [
+        {
+          "item_id": 10018,
+          "name": "Hematite",
+          "count": 1
+        },
+        {
+          "item_id": 127076,
+          "name": "Planar Scorched Glaive Ornament Sketch",
+          "count": 1
+        },
+        {
+          "item_id": 127117,
+          "name": "Alaris Infused Clay",
+          "count": 3
+        }
+      ],
+      "success_roles": {
+        "127092": 1
+      },
+      "failure_roles": {},
+      "container_item_ids": [
+        8
+      ],
+      "held_source_stations": [
+        {
+          "name": "Tanaan Pottery Wheel",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=5495",
+          "reason": "Additional station not separately qualified"
+        },
+        {
+          "name": "Pottery Wheel (Placeable)",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34405",
+          "reason": "Additional station not separately qualified"
+        },
+        {
+          "name": "Guild Pottery Wheel",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=38426",
+          "reason": "Additional station not separately qualified"
+        }
+      ],
+      "min_expansion": 18,
+      "skillneeded": 0,
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "learning_origin": "OPTIONAL_BOOK_RECONSTRUCTION_SOURCE_SCRIBE_LABELS_RETAINED",
+      "era_origin": "MAINTAINED_VOA18_FAMILY_POLICY_NOT_EXACT_INTRODUCTION",
+      "May2013_exact_fields_verified": false,
+      "identity_assurance": "ALL_NATIVE_ITEM_REFERENCES_PRIMARY_EQ_ITEM_ID_AUTHENTICATED",
+      "unlinked_named_output_qualification": "Retained output-name row unlinked; same-name component link from paired firing body supplies observed direct primary EQ ID"
+    },
+    {
+      "recipe_id": 3096632,
+      "source_name": "Unfired Planar Scorched Dueling Blade Ornament",
+      "source_view_id": 2938,
+      "source_url": "https://www.eqtraders.com/recipes/pottery_recipe_page.php?article=550&rsa=Pottery&sub=VoA",
+      "source_formula": "Components: Alaris Infused Clay, Hematite, Planar Scorched Dueling Blade Ornament Sketch\nIn: Pottery Wheel, Tanaan Pottery Wheel, Pottery Wheel (Placeable), Guild Pottery Wheel\nYield: 1\nNotes: EQRecipeID: 4889\nCan scribe to Learn: Planar Scorched Weapon Ornament Sketches",
+      "source_catalogue_sha256": "9281525c4151caed842e749bcaa7dde73240146eff78fa845b95c16a9d230a88",
+      "output_item_id": 127094,
+      "yield_count": 1,
+      "trivial": 308,
+      "ingredients": [
+        {
+          "item_id": 10018,
+          "name": "Hematite",
+          "count": 1
+        },
+        {
+          "item_id": 127078,
+          "name": "Planar Scorched Dueling Blade Ornament Sketch",
+          "count": 1
+        },
+        {
+          "item_id": 127117,
+          "name": "Alaris Infused Clay",
+          "count": 1
+        }
+      ],
+      "success_roles": {
+        "127094": 1
+      },
+      "failure_roles": {},
+      "container_item_ids": [
+        8
+      ],
+      "held_source_stations": [
+        {
+          "name": "Tanaan Pottery Wheel",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=5495",
+          "reason": "Additional station not separately qualified"
+        },
+        {
+          "name": "Pottery Wheel (Placeable)",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34405",
+          "reason": "Additional station not separately qualified"
+        },
+        {
+          "name": "Guild Pottery Wheel",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=38426",
+          "reason": "Additional station not separately qualified"
+        }
+      ],
+      "min_expansion": 18,
+      "skillneeded": 0,
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "learning_origin": "OPTIONAL_BOOK_RECONSTRUCTION_SOURCE_SCRIBE_LABELS_RETAINED",
+      "era_origin": "MAINTAINED_VOA18_FAMILY_POLICY_NOT_EXACT_INTRODUCTION",
+      "May2013_exact_fields_verified": false,
+      "identity_assurance": "ALL_NATIVE_ITEM_REFERENCES_PRIMARY_EQ_ITEM_ID_AUTHENTICATED",
+      "unlinked_named_output_qualification": "Retained output-name row unlinked; same-name component link from paired firing body supplies observed direct primary EQ ID"
+    },
+    {
+      "recipe_id": 3096633,
+      "source_name": "Unfired Planar Scorched Ranseur Ornament",
+      "source_view_id": 2946,
+      "source_url": "https://www.eqtraders.com/recipes/pottery_recipe_page.php?article=550&rsa=Pottery&sub=VoA",
+      "source_formula": "Components: Alaris Infused Clay (3), Hematite, Planar Scorched Ranseur Ornament Sketch\nIn: Pottery Wheel, Tanaan Pottery Wheel, Pottery Wheel (Placeable), Guild Pottery Wheel\nYield: 1\nNotes: EQRecipeID: 4891\nCan scribe to Learn: Planar Scorched Weapon Ornament Sketches",
+      "source_catalogue_sha256": "9281525c4151caed842e749bcaa7dde73240146eff78fa845b95c16a9d230a88",
+      "output_item_id": 127096,
+      "yield_count": 1,
+      "trivial": 308,
+      "ingredients": [
+        {
+          "item_id": 10018,
+          "name": "Hematite",
+          "count": 1
+        },
+        {
+          "item_id": 127080,
+          "name": "Planar Scorched Ranseur Ornament Sketch",
+          "count": 1
+        },
+        {
+          "item_id": 127117,
+          "name": "Alaris Infused Clay",
+          "count": 3
+        }
+      ],
+      "success_roles": {
+        "127096": 1
+      },
+      "failure_roles": {},
+      "container_item_ids": [
+        8
+      ],
+      "held_source_stations": [
+        {
+          "name": "Tanaan Pottery Wheel",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=5495",
+          "reason": "Additional station not separately qualified"
+        },
+        {
+          "name": "Pottery Wheel (Placeable)",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34405",
+          "reason": "Additional station not separately qualified"
+        },
+        {
+          "name": "Guild Pottery Wheel",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=38426",
+          "reason": "Additional station not separately qualified"
+        }
+      ],
+      "min_expansion": 18,
+      "skillneeded": 0,
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "learning_origin": "OPTIONAL_BOOK_RECONSTRUCTION_SOURCE_SCRIBE_LABELS_RETAINED",
+      "era_origin": "MAINTAINED_VOA18_FAMILY_POLICY_NOT_EXACT_INTRODUCTION",
+      "May2013_exact_fields_verified": false,
+      "identity_assurance": "ALL_NATIVE_ITEM_REFERENCES_PRIMARY_EQ_ITEM_ID_AUTHENTICATED",
+      "unlinked_named_output_qualification": "Retained output-name row unlinked; same-name component link from paired firing body supplies observed direct primary EQ ID"
+    },
+    {
+      "recipe_id": 3096634,
+      "source_name": "Unfired Planar Scorched Cat Claws Ornament",
+      "source_view_id": 2934,
+      "source_url": "https://www.eqtraders.com/recipes/pottery_recipe_page.php?article=550&rsa=Pottery&sub=VoA",
+      "source_formula": "Components: Alaris Infused Clay, Hematite, Planar Scorched Cat Claws Ornament Sketch\nIn: Pottery Wheel, Tanaan Pottery Wheel, Pottery Wheel (Placeable), Guild Pottery Wheel\nYield: 1\nNotes: EQRecipeID: 4892\nCan scribe to Learn: Planar Scorched Weapon Ornament Sketches",
+      "source_catalogue_sha256": "9281525c4151caed842e749bcaa7dde73240146eff78fa845b95c16a9d230a88",
+      "output_item_id": 127097,
+      "yield_count": 1,
+      "trivial": 322,
+      "ingredients": [
+        {
+          "item_id": 10018,
+          "name": "Hematite",
+          "count": 1
+        },
+        {
+          "item_id": 127081,
+          "name": "Planar Scorched Cat Claws Ornament Sketch",
+          "count": 1
+        },
+        {
+          "item_id": 127117,
+          "name": "Alaris Infused Clay",
+          "count": 1
+        }
+      ],
+      "success_roles": {
+        "127097": 1
+      },
+      "failure_roles": {},
+      "container_item_ids": [
+        8
+      ],
+      "held_source_stations": [
+        {
+          "name": "Tanaan Pottery Wheel",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=5495",
+          "reason": "Additional station not separately qualified"
+        },
+        {
+          "name": "Pottery Wheel (Placeable)",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34405",
+          "reason": "Additional station not separately qualified"
+        },
+        {
+          "name": "Guild Pottery Wheel",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=38426",
+          "reason": "Additional station not separately qualified"
+        }
+      ],
+      "min_expansion": 18,
+      "skillneeded": 0,
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "learning_origin": "OPTIONAL_BOOK_RECONSTRUCTION_SOURCE_SCRIBE_LABELS_RETAINED",
+      "era_origin": "MAINTAINED_VOA18_FAMILY_POLICY_NOT_EXACT_INTRODUCTION",
+      "May2013_exact_fields_verified": false,
+      "identity_assurance": "ALL_NATIVE_ITEM_REFERENCES_PRIMARY_EQ_ITEM_ID_AUTHENTICATED",
+      "unlinked_named_output_qualification": "Retained output-name row unlinked; same-name component link from paired firing body supplies observed direct primary EQ ID"
+    },
+    {
+      "recipe_id": 3096635,
+      "source_name": "Unfired Planar Scorched Buckler Ornament",
+      "source_view_id": 2932,
+      "source_url": "https://www.eqtraders.com/recipes/pottery_recipe_page.php?article=550&rsa=Pottery&sub=VoA",
+      "source_formula": "Components: Alaris Infused Clay (2), Hematite, Planar Scorched Buckler Ornament Sketch\nIn: Pottery Wheel, Tanaan Pottery Wheel, Pottery Wheel (Placeable), Guild Pottery Wheel\nYield: 1\nNotes: EQRecipeID: 4893\nCan scribe to Learn: Planar Scorched Weapon Ornament Sketches",
+      "source_catalogue_sha256": "9281525c4151caed842e749bcaa7dde73240146eff78fa845b95c16a9d230a88",
+      "output_item_id": 127098,
+      "yield_count": 1,
+      "trivial": 328,
+      "ingredients": [
+        {
+          "item_id": 10018,
+          "name": "Hematite",
+          "count": 1
+        },
+        {
+          "item_id": 127082,
+          "name": "Planar Scorched Buckler Ornament Sketch",
+          "count": 1
+        },
+        {
+          "item_id": 127117,
+          "name": "Alaris Infused Clay",
+          "count": 2
+        }
+      ],
+      "success_roles": {
+        "127098": 1
+      },
+      "failure_roles": {},
+      "container_item_ids": [
+        8
+      ],
+      "held_source_stations": [
+        {
+          "name": "Tanaan Pottery Wheel",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=5495",
+          "reason": "Additional station not separately qualified"
+        },
+        {
+          "name": "Pottery Wheel (Placeable)",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34405",
+          "reason": "Additional station not separately qualified"
+        },
+        {
+          "name": "Guild Pottery Wheel",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=38426",
+          "reason": "Additional station not separately qualified"
+        }
+      ],
+      "min_expansion": 18,
+      "skillneeded": 0,
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "learning_origin": "OPTIONAL_BOOK_RECONSTRUCTION_SOURCE_SCRIBE_LABELS_RETAINED",
+      "era_origin": "MAINTAINED_VOA18_FAMILY_POLICY_NOT_EXACT_INTRODUCTION",
+      "May2013_exact_fields_verified": false,
+      "identity_assurance": "ALL_NATIVE_ITEM_REFERENCES_PRIMARY_EQ_ITEM_ID_AUTHENTICATED",
+      "unlinked_named_output_qualification": "Retained output-name row unlinked; same-name component link from paired firing body supplies observed direct primary EQ ID"
+    },
+    {
+      "recipe_id": 3096636,
+      "source_name": "Unfired Planar Scorched Greatbow Ornament",
+      "source_view_id": 2944,
+      "source_url": "https://www.eqtraders.com/recipes/pottery_recipe_page.php?article=550&rsa=Pottery&sub=VoA",
+      "source_formula": "Components: Alaris Infused Clay (3), Hematite, Planar Scorched Greatbow Ornament Sketch\nIn: Pottery Wheel, Tanaan Pottery Wheel, Pottery Wheel (Placeable), Guild Pottery Wheel\nYield: 1\nNotes: EQRecipeID: 4895\nCan scribe to Learn: Planar Scorched Weapon Ornament Sketches",
+      "source_catalogue_sha256": "9281525c4151caed842e749bcaa7dde73240146eff78fa845b95c16a9d230a88",
+      "output_item_id": 127100,
+      "yield_count": 1,
+      "trivial": 328,
+      "ingredients": [
+        {
+          "item_id": 10018,
+          "name": "Hematite",
+          "count": 1
+        },
+        {
+          "item_id": 127084,
+          "name": "Planar Scorched Greatbow Ornament Sketch",
+          "count": 1
+        },
+        {
+          "item_id": 127117,
+          "name": "Alaris Infused Clay",
+          "count": 3
+        }
+      ],
+      "success_roles": {
+        "127100": 1
+      },
+      "failure_roles": {},
+      "container_item_ids": [
+        8
+      ],
+      "held_source_stations": [
+        {
+          "name": "Tanaan Pottery Wheel",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=5495",
+          "reason": "Additional station not separately qualified"
+        },
+        {
+          "name": "Pottery Wheel (Placeable)",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34405",
+          "reason": "Additional station not separately qualified"
+        },
+        {
+          "name": "Guild Pottery Wheel",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=38426",
+          "reason": "Additional station not separately qualified"
+        }
+      ],
+      "min_expansion": 18,
+      "skillneeded": 0,
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "learning_origin": "OPTIONAL_BOOK_RECONSTRUCTION_SOURCE_SCRIBE_LABELS_RETAINED",
+      "era_origin": "MAINTAINED_VOA18_FAMILY_POLICY_NOT_EXACT_INTRODUCTION",
+      "May2013_exact_fields_verified": false,
+      "identity_assurance": "ALL_NATIVE_ITEM_REFERENCES_PRIMARY_EQ_ITEM_ID_AUTHENTICATED",
+      "unlinked_named_output_qualification": "Retained output-name row unlinked; same-name component link from paired firing body supplies observed direct primary EQ ID"
+    },
+    {
+      "recipe_id": 3096637,
+      "source_name": "Alaris Infused Clay",
+      "source_view_id": 2755,
+      "source_url": "https://www.eqtraders.com/recipes/pottery_recipe_page.php?article=550&rsa=Pottery&sub=VoA",
+      "source_formula": "Components: Essence of Alaris, Large Block of Magic Clay, Water Flask\nIn: Pottery Wheel, Tanaan Pottery Wheel, Pottery Wheel (Placeable), Guild Pottery Wheel\nYield: 1\nNotes: EQRecipeID: 4879",
+      "source_catalogue_sha256": "9281525c4151caed842e749bcaa7dde73240146eff78fa845b95c16a9d230a88",
+      "output_item_id": 127117,
+      "yield_count": 1,
+      "trivial": 102,
+      "ingredients": [
+        {
+          "item_id": 13006,
+          "name": "Water Flask",
+          "count": 1
+        },
+        {
+          "item_id": 16896,
+          "name": "Large Block of Magic Clay",
+          "count": 1
+        },
+        {
+          "item_id": 64546,
+          "name": "Essence of Alaris",
+          "count": 1
+        }
+      ],
+      "success_roles": {
+        "127117": 1
+      },
+      "failure_roles": {},
+      "container_item_ids": [
+        8
+      ],
+      "held_source_stations": [
+        {
+          "name": "Tanaan Pottery Wheel",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=5495",
+          "reason": "Additional station not separately qualified"
+        },
+        {
+          "name": "Pottery Wheel (Placeable)",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34405",
+          "reason": "Additional station not separately qualified"
+        },
+        {
+          "name": "Guild Pottery Wheel",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=38426",
+          "reason": "Additional station not separately qualified"
+        }
+      ],
+      "min_expansion": 18,
+      "skillneeded": 0,
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "learning_origin": "OPTIONAL_BOOK_RECONSTRUCTION_SOURCE_SCRIBE_LABELS_RETAINED",
+      "era_origin": "MAINTAINED_VOA18_FAMILY_POLICY_NOT_EXACT_INTRODUCTION",
+      "May2013_exact_fields_verified": false,
+      "identity_assurance": "ALL_NATIVE_ITEM_REFERENCES_PRIMARY_EQ_ITEM_ID_AUTHENTICATED",
+      "unlinked_named_output_qualification": null
+    },
+    {
+      "recipe_id": 3096638,
+      "source_name": "Unfired Staff of Transcendence Ornament",
+      "source_view_id": 2995,
+      "source_url": "https://www.eqtraders.com/recipes/pottery_recipe_page.php?article=550&rsa=Pottery&sub=VoA",
+      "source_formula": "Components: Alaris Infused Clay (3), Hematite, Staff of Transcendence Ornament Sketch\nIn: Pottery Wheel, Tanaan Pottery Wheel, Pottery Wheel (Placeable)\nYield: 1\nNotes: EQRecipeID: 4912\nCan scribe to Learn: Relic Replica Weapon Ornament Sketches",
+      "source_catalogue_sha256": "9281525c4151caed842e749bcaa7dde73240146eff78fa845b95c16a9d230a88",
+      "output_item_id": 127151,
+      "yield_count": 1,
+      "trivial": 322,
+      "ingredients": [
+        {
+          "item_id": 10018,
+          "name": "Hematite",
+          "count": 1
+        },
+        {
+          "item_id": 127117,
+          "name": "Alaris Infused Clay",
+          "count": 3
+        },
+        {
+          "item_id": 127135,
+          "name": "Staff of Transcendence Ornament Sketch",
+          "count": 1
+        }
+      ],
+      "success_roles": {
+        "127151": 1
+      },
+      "failure_roles": {},
+      "container_item_ids": [
+        8
+      ],
+      "held_source_stations": [
+        {
+          "name": "Tanaan Pottery Wheel",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=5495",
+          "reason": "Additional station not separately qualified"
+        },
+        {
+          "name": "Pottery Wheel (Placeable)",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34405",
+          "reason": "Additional station not separately qualified"
+        }
+      ],
+      "min_expansion": 18,
+      "skillneeded": 0,
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "learning_origin": "OPTIONAL_BOOK_RECONSTRUCTION_SOURCE_SCRIBE_LABELS_RETAINED",
+      "era_origin": "MAINTAINED_VOA18_FAMILY_POLICY_NOT_EXACT_INTRODUCTION",
+      "May2013_exact_fields_verified": false,
+      "identity_assurance": "ALL_NATIVE_ITEM_REFERENCES_PRIMARY_EQ_ITEM_ID_AUTHENTICATED",
+      "unlinked_named_output_qualification": "Retained output-name row unlinked; same-name component link from paired firing body supplies observed direct primary EQ ID"
+    },
+    {
+      "recipe_id": 3096639,
+      "source_name": "Unfired Jagged Onyx Staff Ornament",
+      "source_view_id": 2919,
+      "source_url": "https://www.eqtraders.com/recipes/pottery_recipe_page.php?article=550&rsa=Pottery&sub=VoA",
+      "source_formula": "Components: Alaris Infused Clay (2), Hematite, Jagged Onyx Staff Ornament Sketch\nIn: Pottery Wheel, Tanaan Pottery Wheel, Pottery Wheel (Placeable)\nYield: 1\nNotes: EQRecipeID: 4913\nCan scribe to Learn: Relic Replica Weapon Ornament Sketches",
+      "source_catalogue_sha256": "9281525c4151caed842e749bcaa7dde73240146eff78fa845b95c16a9d230a88",
+      "output_item_id": 127152,
+      "yield_count": 1,
+      "trivial": 322,
+      "ingredients": [
+        {
+          "item_id": 10018,
+          "name": "Hematite",
+          "count": 1
+        },
+        {
+          "item_id": 127117,
+          "name": "Alaris Infused Clay",
+          "count": 2
+        },
+        {
+          "item_id": 127136,
+          "name": "Jagged Onyx Staff Ornament Sketch",
+          "count": 1
+        }
+      ],
+      "success_roles": {
+        "127152": 1
+      },
+      "failure_roles": {},
+      "container_item_ids": [
+        8
+      ],
+      "held_source_stations": [
+        {
+          "name": "Tanaan Pottery Wheel",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=5495",
+          "reason": "Additional station not separately qualified"
+        },
+        {
+          "name": "Pottery Wheel (Placeable)",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34405",
+          "reason": "Additional station not separately qualified"
+        }
+      ],
+      "min_expansion": 18,
+      "skillneeded": 0,
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "learning_origin": "OPTIONAL_BOOK_RECONSTRUCTION_SOURCE_SCRIBE_LABELS_RETAINED",
+      "era_origin": "MAINTAINED_VOA18_FAMILY_POLICY_NOT_EXACT_INTRODUCTION",
+      "May2013_exact_fields_verified": false,
+      "identity_assurance": "ALL_NATIVE_ITEM_REFERENCES_PRIMARY_EQ_ITEM_ID_AUTHENTICATED",
+      "unlinked_named_output_qualification": "Retained output-name row unlinked; same-name component link from paired firing body supplies observed direct primary EQ ID"
+    },
+    {
+      "recipe_id": 3096640,
+      "source_name": "Unfired Ancient Prismatic Brawl Stick Ornament",
+      "source_view_id": 2757,
+      "source_url": "https://www.eqtraders.com/recipes/pottery_recipe_page.php?article=550&rsa=Pottery&sub=VoA",
+      "source_formula": "Components: Alaris Infused Clay (3), Ancient Prismatic Brawl Stick Ornament Sketch, Hematite\nIn: Pottery Wheel, Tanaan Pottery Wheel, Pottery Wheel (Placeable), Guild Pottery Wheel\nYield: 1\nNotes: EQRecipeID: 4914\nCan scribe to Learn: Relic Replica Weapon Ornament Sketches",
+      "source_catalogue_sha256": "9281525c4151caed842e749bcaa7dde73240146eff78fa845b95c16a9d230a88",
+      "output_item_id": 127153,
+      "yield_count": 1,
+      "trivial": 315,
+      "ingredients": [
+        {
+          "item_id": 10018,
+          "name": "Hematite",
+          "count": 1
+        },
+        {
+          "item_id": 127117,
+          "name": "Alaris Infused Clay",
+          "count": 3
+        },
+        {
+          "item_id": 127137,
+          "name": "Ancient Prismatic Brawl Stick Ornament Sketch",
+          "count": 1
+        }
+      ],
+      "success_roles": {
+        "127153": 1
+      },
+      "failure_roles": {},
+      "container_item_ids": [
+        8
+      ],
+      "held_source_stations": [
+        {
+          "name": "Tanaan Pottery Wheel",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=5495",
+          "reason": "Additional station not separately qualified"
+        },
+        {
+          "name": "Pottery Wheel (Placeable)",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34405",
+          "reason": "Additional station not separately qualified"
+        },
+        {
+          "name": "Guild Pottery Wheel",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=38426",
+          "reason": "Additional station not separately qualified"
+        }
+      ],
+      "min_expansion": 18,
+      "skillneeded": 0,
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "learning_origin": "OPTIONAL_BOOK_RECONSTRUCTION_SOURCE_SCRIBE_LABELS_RETAINED",
+      "era_origin": "MAINTAINED_VOA18_FAMILY_POLICY_NOT_EXACT_INTRODUCTION",
+      "May2013_exact_fields_verified": false,
+      "identity_assurance": "ALL_NATIVE_ITEM_REFERENCES_PRIMARY_EQ_ITEM_ID_AUTHENTICATED",
+      "unlinked_named_output_qualification": "Retained output-name row unlinked; same-name component link from paired firing body supplies observed direct primary EQ ID"
+    },
+    {
+      "recipe_id": 3096641,
+      "source_name": "Unfired Black Handled Bonebreaker Ornament",
+      "source_view_id": 2759,
+      "source_url": "https://www.eqtraders.com/recipes/pottery_recipe_page.php?article=550&rsa=Pottery&sub=VoA",
+      "source_formula": "Components: Alaris Infused Clay (3), Black Handled Bonebreaker Ornament Sketch, Hematite\nIn: Pottery Wheel, Tanaan Pottery Wheel, Pottery Wheel (Placeable)\nYield: 1\nNotes: EQRecipeID: 4915\nCan scribe to Learn: Relic Replica Weapon Ornament Sketches",
+      "source_catalogue_sha256": "9281525c4151caed842e749bcaa7dde73240146eff78fa845b95c16a9d230a88",
+      "output_item_id": 127154,
+      "yield_count": 1,
+      "trivial": 315,
+      "ingredients": [
+        {
+          "item_id": 10018,
+          "name": "Hematite",
+          "count": 1
+        },
+        {
+          "item_id": 127117,
+          "name": "Alaris Infused Clay",
+          "count": 3
+        },
+        {
+          "item_id": 127138,
+          "name": "Black Handled Bonebreaker Ornament Sketch",
+          "count": 1
+        }
+      ],
+      "success_roles": {
+        "127154": 1
+      },
+      "failure_roles": {},
+      "container_item_ids": [
+        8
+      ],
+      "held_source_stations": [
+        {
+          "name": "Tanaan Pottery Wheel",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=5495",
+          "reason": "Additional station not separately qualified"
+        },
+        {
+          "name": "Pottery Wheel (Placeable)",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34405",
+          "reason": "Additional station not separately qualified"
+        }
+      ],
+      "min_expansion": 18,
+      "skillneeded": 0,
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "learning_origin": "OPTIONAL_BOOK_RECONSTRUCTION_SOURCE_SCRIBE_LABELS_RETAINED",
+      "era_origin": "MAINTAINED_VOA18_FAMILY_POLICY_NOT_EXACT_INTRODUCTION",
+      "May2013_exact_fields_verified": false,
+      "identity_assurance": "ALL_NATIVE_ITEM_REFERENCES_PRIMARY_EQ_ITEM_ID_AUTHENTICATED",
+      "unlinked_named_output_qualification": "Retained output-name row unlinked; same-name component link from paired firing body supplies observed direct primary EQ ID"
+    },
+    {
+      "recipe_id": 3096642,
+      "source_name": "Unfired Short Sword of the Ykesha Ornament",
+      "source_view_id": 2950,
+      "source_url": "https://www.eqtraders.com/recipes/pottery_recipe_page.php?article=550&rsa=Pottery&sub=VoA",
+      "source_formula": "Components: Alaris Infused Clay (2), Hematite, Short Sword of the Ykesha Ornament Sketch\nIn: Pottery Wheel, Tanaan Pottery Wheel, Pottery Wheel (Placeable), Guild Pottery Wheel\nYield: 1\nNotes: EQRecipeID: 4916\nCan scribe to Learn: Relic Replica Weapon Ornament Sketches",
+      "source_catalogue_sha256": "9281525c4151caed842e749bcaa7dde73240146eff78fa845b95c16a9d230a88",
+      "output_item_id": 127155,
+      "yield_count": 1,
+      "trivial": 315,
+      "ingredients": [
+        {
+          "item_id": 10018,
+          "name": "Hematite",
+          "count": 1
+        },
+        {
+          "item_id": 127117,
+          "name": "Alaris Infused Clay",
+          "count": 2
+        },
+        {
+          "item_id": 127139,
+          "name": "Short Sword of the Ykesha Ornament Sketch",
+          "count": 1
+        }
+      ],
+      "success_roles": {
+        "127155": 1
+      },
+      "failure_roles": {},
+      "container_item_ids": [
+        8
+      ],
+      "held_source_stations": [
+        {
+          "name": "Tanaan Pottery Wheel",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=5495",
+          "reason": "Additional station not separately qualified"
+        },
+        {
+          "name": "Pottery Wheel (Placeable)",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34405",
+          "reason": "Additional station not separately qualified"
+        },
+        {
+          "name": "Guild Pottery Wheel",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=38426",
+          "reason": "Additional station not separately qualified"
+        }
+      ],
+      "min_expansion": 18,
+      "skillneeded": 0,
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "learning_origin": "OPTIONAL_BOOK_RECONSTRUCTION_SOURCE_SCRIBE_LABELS_RETAINED",
+      "era_origin": "MAINTAINED_VOA18_FAMILY_POLICY_NOT_EXACT_INTRODUCTION",
+      "May2013_exact_fields_verified": false,
+      "identity_assurance": "ALL_NATIVE_ITEM_REFERENCES_PRIMARY_EQ_ITEM_ID_AUTHENTICATED",
+      "unlinked_named_output_qualification": "Retained output-name row unlinked; same-name component link from paired firing body supplies observed direct primary EQ ID"
+    },
+    {
+      "recipe_id": 3096643,
+      "source_name": "Unfired Wurmslayer Ornament",
+      "source_view_id": 3003,
+      "source_url": "https://www.eqtraders.com/recipes/pottery_recipe_page.php?article=550&rsa=Pottery&sub=VoA",
+      "source_formula": "Components: Alaris Infused Clay (2), Hematite, Wurmslayer Ornament Sketch\nIn: Pottery Wheel, Tanaan Pottery Wheel, Pottery Wheel (Placeable), Guild Pottery Wheel\nYield: 1\nNotes: EQRecipeID: 4917\nCan scribe to Learn: Relic Replica Weapon Ornament Sketches",
+      "source_catalogue_sha256": "9281525c4151caed842e749bcaa7dde73240146eff78fa845b95c16a9d230a88",
+      "output_item_id": 127156,
+      "yield_count": 1,
+      "trivial": 315,
+      "ingredients": [
+        {
+          "item_id": 10018,
+          "name": "Hematite",
+          "count": 1
+        },
+        {
+          "item_id": 127117,
+          "name": "Alaris Infused Clay",
+          "count": 2
+        },
+        {
+          "item_id": 127140,
+          "name": "Wurmslayer Ornament Sketch",
+          "count": 1
+        }
+      ],
+      "success_roles": {
+        "127156": 1
+      },
+      "failure_roles": {},
+      "container_item_ids": [
+        8
+      ],
+      "held_source_stations": [
+        {
+          "name": "Tanaan Pottery Wheel",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=5495",
+          "reason": "Additional station not separately qualified"
+        },
+        {
+          "name": "Pottery Wheel (Placeable)",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34405",
+          "reason": "Additional station not separately qualified"
+        },
+        {
+          "name": "Guild Pottery Wheel",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=38426",
+          "reason": "Additional station not separately qualified"
+        }
+      ],
+      "min_expansion": 18,
+      "skillneeded": 0,
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "learning_origin": "OPTIONAL_BOOK_RECONSTRUCTION_SOURCE_SCRIBE_LABELS_RETAINED",
+      "era_origin": "MAINTAINED_VOA18_FAMILY_POLICY_NOT_EXACT_INTRODUCTION",
+      "May2013_exact_fields_verified": false,
+      "identity_assurance": "ALL_NATIVE_ITEM_REFERENCES_PRIMARY_EQ_ITEM_ID_AUTHENTICATED",
+      "unlinked_named_output_qualification": "Retained output-name row unlinked; same-name component link from paired firing body supplies observed direct primary EQ ID"
+    },
+    {
+      "recipe_id": 3096644,
+      "source_name": "Unfired Darkblade of the Warlord Ornament",
+      "source_view_id": 2765,
+      "source_url": "https://www.eqtraders.com/recipes/pottery_recipe_page.php?article=550&rsa=Pottery&sub=VoA",
+      "source_formula": "Components: Alaris Infused Clay (3), Darkblade of the Warlord Ornament Sketch, Hematite\nIn: Pottery Wheel, Tanaan Pottery Wheel, Pottery Wheel (Placeable)\nYield: 1\nNotes: EQRecipeID: 4918\nCan scribe to Learn: Relic Replica Weapon Ornament Sketches",
+      "source_catalogue_sha256": "9281525c4151caed842e749bcaa7dde73240146eff78fa845b95c16a9d230a88",
+      "output_item_id": 127157,
+      "yield_count": 1,
+      "trivial": 315,
+      "ingredients": [
+        {
+          "item_id": 10018,
+          "name": "Hematite",
+          "count": 1
+        },
+        {
+          "item_id": 127117,
+          "name": "Alaris Infused Clay",
+          "count": 3
+        },
+        {
+          "item_id": 127141,
+          "name": "Darkblade of the Warlord Ornament Sketch",
+          "count": 1
+        }
+      ],
+      "success_roles": {
+        "127157": 1
+      },
+      "failure_roles": {},
+      "container_item_ids": [
+        8
+      ],
+      "held_source_stations": [
+        {
+          "name": "Tanaan Pottery Wheel",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=5495",
+          "reason": "Additional station not separately qualified"
+        },
+        {
+          "name": "Pottery Wheel (Placeable)",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34405",
+          "reason": "Additional station not separately qualified"
+        }
+      ],
+      "min_expansion": 18,
+      "skillneeded": 0,
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "learning_origin": "OPTIONAL_BOOK_RECONSTRUCTION_SOURCE_SCRIBE_LABELS_RETAINED",
+      "era_origin": "MAINTAINED_VOA18_FAMILY_POLICY_NOT_EXACT_INTRODUCTION",
+      "May2013_exact_fields_verified": false,
+      "identity_assurance": "ALL_NATIVE_ITEM_REFERENCES_PRIMARY_EQ_ITEM_ID_AUTHENTICATED",
+      "unlinked_named_output_qualification": "Retained output-name row unlinked; same-name component link from paired firing body supplies observed direct primary EQ ID"
+    },
+    {
+      "recipe_id": 3096645,
+      "source_name": "Unfired The Sword of Ssraeshza Ornament",
+      "source_view_id": 2997,
+      "source_url": "https://www.eqtraders.com/recipes/pottery_recipe_page.php?article=550&rsa=Pottery&sub=VoA",
+      "source_formula": "Components: Alaris Infused Clay (3), Hematite, The Sword of Ssraeshza Ornament Sketch\nIn: Pottery Wheel, Tanaan Pottery Wheel, Pottery Wheel (Placeable), Guild Pottery Wheel\nYield: 1\nNotes: EQRecipeID: 4919\nCan scribe to Learn: Relic Replica Weapon Ornament Sketches",
+      "source_catalogue_sha256": "9281525c4151caed842e749bcaa7dde73240146eff78fa845b95c16a9d230a88",
+      "output_item_id": 127158,
+      "yield_count": 1,
+      "trivial": 315,
+      "ingredients": [
+        {
+          "item_id": 10018,
+          "name": "Hematite",
+          "count": 1
+        },
+        {
+          "item_id": 127117,
+          "name": "Alaris Infused Clay",
+          "count": 3
+        },
+        {
+          "item_id": 127142,
+          "name": "The Sword of Ssraeshza Ornament Sketch",
+          "count": 1
+        }
+      ],
+      "success_roles": {
+        "127158": 1
+      },
+      "failure_roles": {},
+      "container_item_ids": [
+        8
+      ],
+      "held_source_stations": [
+        {
+          "name": "Tanaan Pottery Wheel",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=5495",
+          "reason": "Additional station not separately qualified"
+        },
+        {
+          "name": "Pottery Wheel (Placeable)",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34405",
+          "reason": "Additional station not separately qualified"
+        },
+        {
+          "name": "Guild Pottery Wheel",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=38426",
+          "reason": "Additional station not separately qualified"
+        }
+      ],
+      "min_expansion": 18,
+      "skillneeded": 0,
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "learning_origin": "OPTIONAL_BOOK_RECONSTRUCTION_SOURCE_SCRIBE_LABELS_RETAINED",
+      "era_origin": "MAINTAINED_VOA18_FAMILY_POLICY_NOT_EXACT_INTRODUCTION",
+      "May2013_exact_fields_verified": false,
+      "identity_assurance": "ALL_NATIVE_ITEM_REFERENCES_PRIMARY_EQ_ITEM_ID_AUTHENTICATED",
+      "unlinked_named_output_qualification": "Retained output-name row unlinked; same-name component link from paired firing body supplies observed direct primary EQ ID"
+    },
+    {
+      "recipe_id": 3096646,
+      "source_name": "Unfired Great Axe of Twin Flames Ornament",
+      "source_view_id": 2917,
+      "source_url": "https://www.eqtraders.com/recipes/pottery_recipe_page.php?article=550&rsa=Pottery&sub=VoA",
+      "source_formula": "Components: Alaris Infused Clay (2), Great Axe of Twin Flames Ornament Sketch, Hematite\nIn: Pottery Wheel, Tanaan Pottery Wheel, Pottery Wheel (Placeable)\nYield: 1\nNotes: EQRecipeID: 4920\nCan scribe to Learn: Relic Replica Weapon Ornament Sketches",
+      "source_catalogue_sha256": "9281525c4151caed842e749bcaa7dde73240146eff78fa845b95c16a9d230a88",
+      "output_item_id": 127159,
+      "yield_count": 1,
+      "trivial": 308,
+      "ingredients": [
+        {
+          "item_id": 10018,
+          "name": "Hematite",
+          "count": 1
+        },
+        {
+          "item_id": 127117,
+          "name": "Alaris Infused Clay",
+          "count": 2
+        },
+        {
+          "item_id": 127143,
+          "name": "Great Axe of Twin Flames Ornament Sketch",
+          "count": 1
+        }
+      ],
+      "success_roles": {
+        "127159": 1
+      },
+      "failure_roles": {},
+      "container_item_ids": [
+        8
+      ],
+      "held_source_stations": [
+        {
+          "name": "Tanaan Pottery Wheel",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=5495",
+          "reason": "Additional station not separately qualified"
+        },
+        {
+          "name": "Pottery Wheel (Placeable)",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34405",
+          "reason": "Additional station not separately qualified"
+        }
+      ],
+      "min_expansion": 18,
+      "skillneeded": 0,
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "learning_origin": "OPTIONAL_BOOK_RECONSTRUCTION_SOURCE_SCRIBE_LABELS_RETAINED",
+      "era_origin": "MAINTAINED_VOA18_FAMILY_POLICY_NOT_EXACT_INTRODUCTION",
+      "May2013_exact_fields_verified": false,
+      "identity_assurance": "ALL_NATIVE_ITEM_REFERENCES_PRIMARY_EQ_ITEM_ID_AUTHENTICATED",
+      "unlinked_named_output_qualification": "Retained output-name row unlinked; same-name component link from paired firing body supplies observed direct primary EQ ID"
+    },
+    {
+      "recipe_id": 3096647,
+      "source_name": "Unfired Sister's Opulent Backstabber Ornament",
+      "source_view_id": 2952,
+      "source_url": "https://www.eqtraders.com/recipes/pottery_recipe_page.php?article=550&rsa=Pottery&sub=VoA",
+      "source_formula": "Components: Alaris Infused Clay, Hematite, Sister's Opulent Backstabber Ornament Sketch\nIn: Pottery Wheel, Tanaan Pottery Wheel, Pottery Wheel (Placeable), Guild Pottery Wheel\nYield: 1\nNotes: EQRecipeID: 4921\nCan scribe to Learn: Relic Replica Weapon Ornament Sketches",
+      "source_catalogue_sha256": "9281525c4151caed842e749bcaa7dde73240146eff78fa845b95c16a9d230a88",
+      "output_item_id": 127160,
+      "yield_count": 1,
+      "trivial": 308,
+      "ingredients": [
+        {
+          "item_id": 10018,
+          "name": "Hematite",
+          "count": 1
+        },
+        {
+          "item_id": 127117,
+          "name": "Alaris Infused Clay",
+          "count": 1
+        },
+        {
+          "item_id": 127144,
+          "name": "Sister's Opulent Backstabber Ornament Sketch",
+          "count": 1
+        }
+      ],
+      "success_roles": {
+        "127160": 1
+      },
+      "failure_roles": {},
+      "container_item_ids": [
+        8
+      ],
+      "held_source_stations": [
+        {
+          "name": "Tanaan Pottery Wheel",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=5495",
+          "reason": "Additional station not separately qualified"
+        },
+        {
+          "name": "Pottery Wheel (Placeable)",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34405",
+          "reason": "Additional station not separately qualified"
+        },
+        {
+          "name": "Guild Pottery Wheel",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=38426",
+          "reason": "Additional station not separately qualified"
+        }
+      ],
+      "min_expansion": 18,
+      "skillneeded": 0,
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "learning_origin": "OPTIONAL_BOOK_RECONSTRUCTION_SOURCE_SCRIBE_LABELS_RETAINED",
+      "era_origin": "MAINTAINED_VOA18_FAMILY_POLICY_NOT_EXACT_INTRODUCTION",
+      "May2013_exact_fields_verified": false,
+      "identity_assurance": "ALL_NATIVE_ITEM_REFERENCES_PRIMARY_EQ_ITEM_ID_AUTHENTICATED",
+      "unlinked_named_output_qualification": "Retained output-name row unlinked; same-name component link from paired firing body supplies observed direct primary EQ ID"
+    },
+    {
+      "recipe_id": 3096648,
+      "source_name": "Unfired Brightwood Spear Ornament",
+      "source_view_id": 2761,
+      "source_url": "https://www.eqtraders.com/recipes/pottery_recipe_page.php?article=550&rsa=Pottery&sub=VoA",
+      "source_formula": "Components: Alaris Infused Clay (2), Brightwood Spear Ornament Sketch, Hematite\nIn: Pottery Wheel, Tanaan Pottery Wheel, Pottery Wheel (Placeable)\nYield: 1\nNotes: EQRecipeID: 4922\nCan scribe to Learn: Relic Replica Weapon Ornament Sketches",
+      "source_catalogue_sha256": "9281525c4151caed842e749bcaa7dde73240146eff78fa845b95c16a9d230a88",
+      "output_item_id": 127161,
+      "yield_count": 1,
+      "trivial": 308,
+      "ingredients": [
+        {
+          "item_id": 10018,
+          "name": "Hematite",
+          "count": 1
+        },
+        {
+          "item_id": 127117,
+          "name": "Alaris Infused Clay",
+          "count": 2
+        },
+        {
+          "item_id": 127145,
+          "name": "Brightwood Spear Ornament Sketch",
+          "count": 1
+        }
+      ],
+      "success_roles": {
+        "127161": 1
+      },
+      "failure_roles": {},
+      "container_item_ids": [
+        8
+      ],
+      "held_source_stations": [
+        {
+          "name": "Tanaan Pottery Wheel",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=5495",
+          "reason": "Additional station not separately qualified"
+        },
+        {
+          "name": "Pottery Wheel (Placeable)",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34405",
+          "reason": "Additional station not separately qualified"
+        }
+      ],
+      "min_expansion": 18,
+      "skillneeded": 0,
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "learning_origin": "OPTIONAL_BOOK_RECONSTRUCTION_SOURCE_SCRIBE_LABELS_RETAINED",
+      "era_origin": "MAINTAINED_VOA18_FAMILY_POLICY_NOT_EXACT_INTRODUCTION",
+      "May2013_exact_fields_verified": false,
+      "identity_assurance": "ALL_NATIVE_ITEM_REFERENCES_PRIMARY_EQ_ITEM_ID_AUTHENTICATED",
+      "unlinked_named_output_qualification": "Retained output-name row unlinked; same-name component link from paired firing body supplies observed direct primary EQ ID"
+    },
+    {
+      "recipe_id": 3096649,
+      "source_name": "Unfired Vyledorinajirnak Ornament",
+      "source_view_id": 3001,
+      "source_url": "https://www.eqtraders.com/recipes/pottery_recipe_page.php?article=550&rsa=Pottery&sub=VoA",
+      "source_formula": "Components: Alaris Infused Clay (3), Hematite, Vyledorinajirnak Ornament Sketch\nIn: Pottery Wheel, Tanaan Pottery Wheel, Pottery Wheel (Placeable), Guild Pottery Wheel\nYield: 1\nNotes: EQRecipeID: 4923\nCan scribe to Learn: Relic Replica Weapon Ornament Sketches",
+      "source_catalogue_sha256": "9281525c4151caed842e749bcaa7dde73240146eff78fa845b95c16a9d230a88",
+      "output_item_id": 127162,
+      "yield_count": 1,
+      "trivial": 308,
+      "ingredients": [
+        {
+          "item_id": 10018,
+          "name": "Hematite",
+          "count": 1
+        },
+        {
+          "item_id": 127117,
+          "name": "Alaris Infused Clay",
+          "count": 3
+        },
+        {
+          "item_id": 127146,
+          "name": "Vyledorinajirnak Ornament Sketch",
+          "count": 1
+        }
+      ],
+      "success_roles": {
+        "127162": 1
+      },
+      "failure_roles": {},
+      "container_item_ids": [
+        8
+      ],
+      "held_source_stations": [
+        {
+          "name": "Tanaan Pottery Wheel",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=5495",
+          "reason": "Additional station not separately qualified"
+        },
+        {
+          "name": "Pottery Wheel (Placeable)",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34405",
+          "reason": "Additional station not separately qualified"
+        },
+        {
+          "name": "Guild Pottery Wheel",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=38426",
+          "reason": "Additional station not separately qualified"
+        }
+      ],
+      "min_expansion": 18,
+      "skillneeded": 0,
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "learning_origin": "OPTIONAL_BOOK_RECONSTRUCTION_SOURCE_SCRIBE_LABELS_RETAINED",
+      "era_origin": "MAINTAINED_VOA18_FAMILY_POLICY_NOT_EXACT_INTRODUCTION",
+      "May2013_exact_fields_verified": false,
+      "identity_assurance": "ALL_NATIVE_ITEM_REFERENCES_PRIMARY_EQ_ITEM_ID_AUTHENTICATED",
+      "unlinked_named_output_qualification": "Retained output-name row unlinked; same-name component link from paired firing body supplies observed direct primary EQ ID"
+    },
+    {
+      "recipe_id": 3096650,
+      "source_name": "Unfired Glowing Black Stone Ornament",
+      "source_view_id": 2915,
+      "source_url": "https://www.eqtraders.com/recipes/pottery_recipe_page.php?article=550&rsa=Pottery&sub=VoA",
+      "source_formula": "Components: Alaris Infused Clay, Glowing Black Stone Ornament Sketch, Hematite\nIn: Pottery Wheel, Tanaan Pottery Wheel, Pottery Wheel (Placeable)\nYield: 1\nNotes: EQRecipeID: 4924\nCan scribe to Learn: Relic Replica Weapon Ornament Sketches",
+      "source_catalogue_sha256": "9281525c4151caed842e749bcaa7dde73240146eff78fa845b95c16a9d230a88",
+      "output_item_id": 127163,
+      "yield_count": 1,
+      "trivial": 322,
+      "ingredients": [
+        {
+          "item_id": 10018,
+          "name": "Hematite",
+          "count": 1
+        },
+        {
+          "item_id": 127117,
+          "name": "Alaris Infused Clay",
+          "count": 1
+        },
+        {
+          "item_id": 127147,
+          "name": "Glowing Black Stone Ornament Sketch",
+          "count": 1
+        }
+      ],
+      "success_roles": {
+        "127163": 1
+      },
+      "failure_roles": {},
+      "container_item_ids": [
+        8
+      ],
+      "held_source_stations": [
+        {
+          "name": "Tanaan Pottery Wheel",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=5495",
+          "reason": "Additional station not separately qualified"
+        },
+        {
+          "name": "Pottery Wheel (Placeable)",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34405",
+          "reason": "Additional station not separately qualified"
+        }
+      ],
+      "min_expansion": 18,
+      "skillneeded": 0,
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "learning_origin": "OPTIONAL_BOOK_RECONSTRUCTION_SOURCE_SCRIBE_LABELS_RETAINED",
+      "era_origin": "MAINTAINED_VOA18_FAMILY_POLICY_NOT_EXACT_INTRODUCTION",
+      "May2013_exact_fields_verified": false,
+      "identity_assurance": "ALL_NATIVE_ITEM_REFERENCES_PRIMARY_EQ_ITEM_ID_AUTHENTICATED",
+      "unlinked_named_output_qualification": "Retained output-name row unlinked; same-name component link from paired firing body supplies observed direct primary EQ ID"
+    },
+    {
+      "recipe_id": 3096651,
+      "source_name": "Unfired Aegis of Blackscales Ornament",
+      "source_view_id": 2754,
+      "source_url": "https://www.eqtraders.com/recipes/pottery_recipe_page.php?article=550&rsa=Pottery&sub=VoA",
+      "source_formula": "Components: Aegis of Blackscales Ornament Sketch, Alaris Infused Clay (2), Hematite\nIn: Pottery Wheel, Tanaan Pottery Wheel, Pottery Wheel (Placeable)\nYield: 1\nNotes: EQRecipeID: 4925\nCan scribe to Learn: Relic Replica Weapon Ornament Sketches",
+      "source_catalogue_sha256": "9281525c4151caed842e749bcaa7dde73240146eff78fa845b95c16a9d230a88",
+      "output_item_id": 127164,
+      "yield_count": 1,
+      "trivial": 328,
+      "ingredients": [
+        {
+          "item_id": 10018,
+          "name": "Hematite",
+          "count": 1
+        },
+        {
+          "item_id": 127117,
+          "name": "Alaris Infused Clay",
+          "count": 2
+        },
+        {
+          "item_id": 127148,
+          "name": "Aegis of Blackscales Ornament Sketch",
+          "count": 1
+        }
+      ],
+      "success_roles": {
+        "127164": 1
+      },
+      "failure_roles": {},
+      "container_item_ids": [
+        8
+      ],
+      "held_source_stations": [
+        {
+          "name": "Tanaan Pottery Wheel",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=5495",
+          "reason": "Additional station not separately qualified"
+        },
+        {
+          "name": "Pottery Wheel (Placeable)",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34405",
+          "reason": "Additional station not separately qualified"
+        }
+      ],
+      "min_expansion": 18,
+      "skillneeded": 0,
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "learning_origin": "OPTIONAL_BOOK_RECONSTRUCTION_SOURCE_SCRIBE_LABELS_RETAINED",
+      "era_origin": "MAINTAINED_VOA18_FAMILY_POLICY_NOT_EXACT_INTRODUCTION",
+      "May2013_exact_fields_verified": false,
+      "identity_assurance": "ALL_NATIVE_ITEM_REFERENCES_PRIMARY_EQ_ITEM_ID_AUTHENTICATED",
+      "unlinked_named_output_qualification": "Retained output-name row unlinked; same-name component link from paired firing body supplies observed direct primary EQ ID"
+    },
+    {
+      "recipe_id": 3096652,
+      "source_name": "Unfired Sarnak Battle Shield Ornament",
+      "source_view_id": 2948,
+      "source_url": "https://www.eqtraders.com/recipes/pottery_recipe_page.php?article=550&rsa=Pottery&sub=VoA",
+      "source_formula": "Components: Alaris Infused Clay (3), Hematite, Sarnak Battle Shield Ornament Sketch\nIn: Pottery Wheel, Tanaan Pottery Wheel, Pottery Wheel (Placeable), Guild Pottery Wheel\nYield: 1\nNotes: EQRecipeID: 4926\nCan scribe to Learn: Relic Replica Weapon Ornament Sketches",
+      "source_catalogue_sha256": "9281525c4151caed842e749bcaa7dde73240146eff78fa845b95c16a9d230a88",
+      "output_item_id": 127165,
+      "yield_count": 1,
+      "trivial": 348,
+      "ingredients": [
+        {
+          "item_id": 10018,
+          "name": "Hematite",
+          "count": 1
+        },
+        {
+          "item_id": 127117,
+          "name": "Alaris Infused Clay",
+          "count": 3
+        },
+        {
+          "item_id": 127149,
+          "name": "Sarnak Battle Shield Ornament Sketch",
+          "count": 1
+        }
+      ],
+      "success_roles": {
+        "127165": 1
+      },
+      "failure_roles": {},
+      "container_item_ids": [
+        8
+      ],
+      "held_source_stations": [
+        {
+          "name": "Tanaan Pottery Wheel",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=5495",
+          "reason": "Additional station not separately qualified"
+        },
+        {
+          "name": "Pottery Wheel (Placeable)",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34405",
+          "reason": "Additional station not separately qualified"
+        },
+        {
+          "name": "Guild Pottery Wheel",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=38426",
+          "reason": "Additional station not separately qualified"
+        }
+      ],
+      "min_expansion": 18,
+      "skillneeded": 0,
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "learning_origin": "OPTIONAL_BOOK_RECONSTRUCTION_SOURCE_SCRIBE_LABELS_RETAINED",
+      "era_origin": "MAINTAINED_VOA18_FAMILY_POLICY_NOT_EXACT_INTRODUCTION",
+      "May2013_exact_fields_verified": false,
+      "identity_assurance": "ALL_NATIVE_ITEM_REFERENCES_PRIMARY_EQ_ITEM_ID_AUTHENTICATED",
+      "unlinked_named_output_qualification": "Retained output-name row unlinked; same-name component link from paired firing body supplies observed direct primary EQ ID"
+    },
+    {
+      "recipe_id": 3096653,
+      "source_name": "Unfired Transient Bow of Solar Winds Ornament",
+      "source_view_id": 2999,
+      "source_url": "https://www.eqtraders.com/recipes/pottery_recipe_page.php?article=550&rsa=Pottery&sub=VoA",
+      "source_formula": "Components: Alaris Infused Clay (3), Hematite, Transient Bow of Solar Winds Ornament Sketch\nIn: Pottery Wheel, Tanaan Pottery Wheel, Pottery Wheel (Placeable), Guild Pottery Wheel\nYield: 1\nNotes: EQRecipeID: 4927\nCan scribe to Learn: Relic Replica Weapon Ornament Sketches",
+      "source_catalogue_sha256": "9281525c4151caed842e749bcaa7dde73240146eff78fa845b95c16a9d230a88",
+      "output_item_id": 127166,
+      "yield_count": 1,
+      "trivial": 328,
+      "ingredients": [
+        {
+          "item_id": 10018,
+          "name": "Hematite",
+          "count": 1
+        },
+        {
+          "item_id": 127117,
+          "name": "Alaris Infused Clay",
+          "count": 3
+        },
+        {
+          "item_id": 127150,
+          "name": "Transient Bow of Solar Winds Ornament Sketch",
+          "count": 1
+        }
+      ],
+      "success_roles": {
+        "127166": 1
+      },
+      "failure_roles": {},
+      "container_item_ids": [
+        8
+      ],
+      "held_source_stations": [
+        {
+          "name": "Tanaan Pottery Wheel",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=5495",
+          "reason": "Additional station not separately qualified"
+        },
+        {
+          "name": "Pottery Wheel (Placeable)",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34405",
+          "reason": "Additional station not separately qualified"
+        },
+        {
+          "name": "Guild Pottery Wheel",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=38426",
+          "reason": "Additional station not separately qualified"
+        }
+      ],
+      "min_expansion": 18,
+      "skillneeded": 0,
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "learning_origin": "OPTIONAL_BOOK_RECONSTRUCTION_SOURCE_SCRIBE_LABELS_RETAINED",
+      "era_origin": "MAINTAINED_VOA18_FAMILY_POLICY_NOT_EXACT_INTRODUCTION",
+      "May2013_exact_fields_verified": false,
+      "identity_assurance": "ALL_NATIVE_ITEM_REFERENCES_PRIMARY_EQ_ITEM_ID_AUTHENTICATED",
+      "unlinked_named_output_qualification": "Retained output-name row unlinked; same-name component link from paired firing body supplies observed direct primary EQ ID"
+    }
+  ],
+  "restriction_review": {
+    "scope": "26 retained VoA Pottery manufacturing source bodies:25 unfired Relic Replica/Planar Scorched ornaments plus Alaris Infused Clay. All51 previous name-only output/sketch/clay identities directly primary authenticated; exact titles/EQ IDs/selected yield1/numeric trivials match.",
+    "identity": "Unlinked output-name rows are bound by exact same-name component links in paired firing bodies. Direct primary IDs authenticate all25unfired outputs,25sketches andclay. Remaining ingredient references already have explicit primary IDs. Native actual fields preserved even where source stack caps differ, no stat normalization.",
+    "quantities": "Every body yields one uncharged physical output. Literal sketch, Hematite and Alaris Clay counts1/2/3 retained; clay manufacture preserves Essence of Alaris, Large Block of Magic Clay and Water Flask. All full units fit ten. Source Sarnak Battle Shield trivial348 retained, no cross-family normalization.",
+    "era": "Positive maintained VoA18 Pottery manufacturing family; floor18/max-1 labelled reconstruction, not immutable May2013 exact fields or introduction proof. Fired variants not qualified by matching unfired identities.",
+    "learning": "Every selected unfired ornament explicitly says Can scribe to Learn Relic Replica Weapon Ornament Sketches or Planar Scorched Weapon Ornament Sketches. Exact optional annotations retained in source facts; no mandatory scribing condition stated. must_learn0/book0 labelled optional-learning reconstruction, no book effect/binding fabricated. Clay source omits mandatory learning and uses ordinary zero policy.",
+    "gates": "Source omits mandatory crafting minimum, actor, quest and no-fail gates; skillneeded0/nofail0/quest0/enabled1/consumed-salvage labelled new-record policies. Existing item masks/levels preserved, not converted to manufacturing restrictions.",
+    "containers": "All26 bodies directly list ordinary Pottery Wheel8; exact full units fit ten. Tanaan/placeable/guild alternatives held separately, no availability or supply inferred.",
+    "preservation": "55 exact native dependencies guarded,51 freshly read/4 pinned reused. Necessary current all-state/all-skill full-input/name/output-use queries found zero matches/peers. Exact new IDs, recipe/logical-entry multisets, count deltas and learnedrefs guarded; existing recipes/items/player/core unchanged.",
+    "execution": "Source only pending coordinator publication/exact SQL GO. Reader/research tabs closed. Named one-pass count rendering used. No tests/build/runtime/native combines or ornament application claim. Prior era/source/identity/charge/actor holds retained; full scope incomplete."
+  },
+  "source_urls": [
+    "https://www.eqtraders.com/recipes/pottery_recipe_page.php?article=550&rsa=Pottery&sub=VoA"
+  ],
+  "supplemental_primary_identity_sources": [
+    {
+      "source_url": "https://www.eqtraders.com/items/show_item.php?item=37938",
+      "source_item_id": 37938,
+      "explicit_EQ_item_ID": 127164,
+      "observed_primary_title": "EQTC - Item: Unfired Aegis of Blackscales Ornament"
+    },
+    {
+      "source_url": "https://www.eqtraders.com/items/show_item.php?item=37896",
+      "source_item_id": 37896,
+      "explicit_EQ_item_ID": 127148,
+      "observed_primary_title": "EQTC - Item: Aegis of Blackscales Ornament Sketch"
+    },
+    {
+      "source_url": "https://www.eqtraders.com/items/show_item.php?item=37937",
+      "source_item_id": 37937,
+      "explicit_EQ_item_ID": 127117,
+      "observed_primary_title": "EQTC - Item: Alaris Infused Clay"
+    },
+    {
+      "source_url": "https://www.eqtraders.com/items/show_item.php?item=37939",
+      "source_item_id": 37939,
+      "explicit_EQ_item_ID": 127153,
+      "observed_primary_title": "EQTC - Item: Unfired Ancient Prismatic Brawl Stick Ornament"
+    },
+    {
+      "source_url": "https://www.eqtraders.com/items/show_item.php?item=37897",
+      "source_item_id": 37897,
+      "explicit_EQ_item_ID": 127137,
+      "observed_primary_title": "EQTC - Item: Ancient Prismatic Brawl Stick Ornament Sketch"
+    },
+    {
+      "source_url": "https://www.eqtraders.com/items/show_item.php?item=37940",
+      "source_item_id": 37940,
+      "explicit_EQ_item_ID": 127154,
+      "observed_primary_title": "EQTC - Item: Unfired Black Handled Bonebreaker Ornament"
+    },
+    {
+      "source_url": "https://www.eqtraders.com/items/show_item.php?item=37898",
+      "source_item_id": 37898,
+      "explicit_EQ_item_ID": 127138,
+      "observed_primary_title": "EQTC - Item: Black Handled Bonebreaker Ornament Sketch"
+    },
+    {
+      "source_url": "https://www.eqtraders.com/items/show_item.php?item=37941",
+      "source_item_id": 37941,
+      "explicit_EQ_item_ID": 127161,
+      "observed_primary_title": "EQTC - Item: Unfired Brightwood Spear Ornament"
+    },
+    {
+      "source_url": "https://www.eqtraders.com/items/show_item.php?item=37899",
+      "source_item_id": 37899,
+      "explicit_EQ_item_ID": 127145,
+      "observed_primary_title": "EQTC - Item: Brightwood Spear Ornament Sketch"
+    },
+    {
+      "source_url": "https://www.eqtraders.com/items/show_item.php?item=37942",
+      "source_item_id": 37942,
+      "explicit_EQ_item_ID": 127157,
+      "observed_primary_title": "EQTC - Item: Unfired Darkblade of the Warlord Ornament"
+    },
+    {
+      "source_url": "https://www.eqtraders.com/items/show_item.php?item=37900",
+      "source_item_id": 37900,
+      "explicit_EQ_item_ID": 127141,
+      "observed_primary_title": "EQTC - Item: Darkblade of the Warlord Ornament Sketch"
+    },
+    {
+      "source_url": "https://www.eqtraders.com/items/show_item.php?item=37943",
+      "source_item_id": 37943,
+      "explicit_EQ_item_ID": 127163,
+      "observed_primary_title": "EQTC - Item: Unfired Glowing Black Stone Ornament"
+    },
+    {
+      "source_url": "https://www.eqtraders.com/items/show_item.php?item=37901",
+      "source_item_id": 37901,
+      "explicit_EQ_item_ID": 127147,
+      "observed_primary_title": "EQTC - Item: Glowing Black Stone Ornament Sketch"
+    },
+    {
+      "source_url": "https://www.eqtraders.com/items/show_item.php?item=37944",
+      "source_item_id": 37944,
+      "explicit_EQ_item_ID": 127159,
+      "observed_primary_title": "EQTC - Item: Unfired Great Axe of Twin Flames Ornament"
+    },
+    {
+      "source_url": "https://www.eqtraders.com/items/show_item.php?item=37902",
+      "source_item_id": 37902,
+      "explicit_EQ_item_ID": 127143,
+      "observed_primary_title": "EQTC - Item: Great Axe of Twin Flames Ornament Sketch"
+    },
+    {
+      "source_url": "https://www.eqtraders.com/items/show_item.php?item=37945",
+      "source_item_id": 37945,
+      "explicit_EQ_item_ID": 127152,
+      "observed_primary_title": "EQTC - Item: Unfired Jagged Onyx Staff Ornament"
+    },
+    {
+      "source_url": "https://www.eqtraders.com/items/show_item.php?item=37903",
+      "source_item_id": 37903,
+      "explicit_EQ_item_ID": 127136,
+      "observed_primary_title": "EQTC - Item: Jagged Onyx Staff Ornament Sketch"
+    },
+    {
+      "source_url": "https://www.eqtraders.com/items/show_item.php?item=37946",
+      "source_item_id": 37946,
+      "explicit_EQ_item_ID": 127089,
+      "observed_primary_title": "EQTC - Item: Unfired Planar Scorched Bladed Mace Ornament"
+    },
+    {
+      "source_url": "https://www.eqtraders.com/items/show_item.php?item=37904",
+      "source_item_id": 37904,
+      "explicit_EQ_item_ID": 127073,
+      "observed_primary_title": "EQTC - Item: Planar Scorched Bladed Mace Ornament Sketch"
+    },
+    {
+      "source_url": "https://www.eqtraders.com/items/show_item.php?item=37947",
+      "source_item_id": 37947,
+      "explicit_EQ_item_ID": 127098,
+      "observed_primary_title": "EQTC - Item: Unfired Planar Scorched Buckler Ornament"
+    },
+    {
+      "source_url": "https://www.eqtraders.com/items/show_item.php?item=37905",
+      "source_item_id": 37905,
+      "explicit_EQ_item_ID": 127082,
+      "observed_primary_title": "EQTC - Item: Planar Scorched Buckler Ornament Sketch"
+    },
+    {
+      "source_url": "https://www.eqtraders.com/items/show_item.php?item=37948",
+      "source_item_id": 37948,
+      "explicit_EQ_item_ID": 127097,
+      "observed_primary_title": "EQTC - Item: Unfired Planar Scorched Cat Claws Ornament"
+    },
+    {
+      "source_url": "https://www.eqtraders.com/items/show_item.php?item=37906",
+      "source_item_id": 37906,
+      "explicit_EQ_item_ID": 127081,
+      "observed_primary_title": "EQTC - Item: Planar Scorched Cat Claws Ornament Sketch"
+    },
+    {
+      "source_url": "https://www.eqtraders.com/items/show_item.php?item=37949",
+      "source_item_id": 37949,
+      "explicit_EQ_item_ID": 127087,
+      "observed_primary_title": "EQTC - Item: Unfired Planar Scorched Combat Staff Ornament"
+    },
+    {
+      "source_url": "https://www.eqtraders.com/items/show_item.php?item=37907",
+      "source_item_id": 37907,
+      "explicit_EQ_item_ID": 127071,
+      "observed_primary_title": "EQTC - Item: Planar Scorched Combat Staff Ornament Sketch"
+    },
+    {
+      "source_url": "https://www.eqtraders.com/items/show_item.php?item=37950",
+      "source_item_id": 37950,
+      "explicit_EQ_item_ID": 127094,
+      "observed_primary_title": "EQTC - Item: Unfired Planar Scorched Dueling Blade Ornament"
+    },
+    {
+      "source_url": "https://www.eqtraders.com/items/show_item.php?item=37908",
+      "source_item_id": 37908,
+      "explicit_EQ_item_ID": 127078,
+      "observed_primary_title": "EQTC - Item: Planar Scorched Dueling Blade Ornament Sketch"
+    },
+    {
+      "source_url": "https://www.eqtraders.com/items/show_item.php?item=37951",
+      "source_item_id": 37951,
+      "explicit_EQ_item_ID": 127085,
+      "observed_primary_title": "EQTC - Item: Unfired Planar Scorched Flail Ornament"
+    },
+    {
+      "source_url": "https://www.eqtraders.com/items/show_item.php?item=37909",
+      "source_item_id": 37909,
+      "explicit_EQ_item_ID": 127069,
+      "observed_primary_title": "EQTC - Item: Planar Scorched Flail Ornament Sketch"
+    },
+    {
+      "source_url": "https://www.eqtraders.com/items/show_item.php?item=37952",
+      "source_item_id": 37952,
+      "explicit_EQ_item_ID": 127092,
+      "observed_primary_title": "EQTC - Item: Unfired Planar Scorched Glaive Ornament"
+    },
+    {
+      "source_url": "https://www.eqtraders.com/items/show_item.php?item=37910",
+      "source_item_id": 37910,
+      "explicit_EQ_item_ID": 127076,
+      "observed_primary_title": "EQTC - Item: Planar Scorched Glaive Ornament Sketch"
+    },
+    {
+      "source_url": "https://www.eqtraders.com/items/show_item.php?item=37953",
+      "source_item_id": 37953,
+      "explicit_EQ_item_ID": 127100,
+      "observed_primary_title": "EQTC - Item: Unfired Planar Scorched Greatbow Ornament"
+    },
+    {
+      "source_url": "https://www.eqtraders.com/items/show_item.php?item=37911",
+      "source_item_id": 37911,
+      "explicit_EQ_item_ID": 127084,
+      "observed_primary_title": "EQTC - Item: Planar Scorched Greatbow Ornament Sketch"
+    },
+    {
+      "source_url": "https://www.eqtraders.com/items/show_item.php?item=37954",
+      "source_item_id": 37954,
+      "explicit_EQ_item_ID": 127096,
+      "observed_primary_title": "EQTC - Item: Unfired Planar Scorched Ranseur Ornament"
+    },
+    {
+      "source_url": "https://www.eqtraders.com/items/show_item.php?item=37912",
+      "source_item_id": 37912,
+      "explicit_EQ_item_ID": 127080,
+      "observed_primary_title": "EQTC - Item: Planar Scorched Ranseur Ornament Sketch"
+    },
+    {
+      "source_url": "https://www.eqtraders.com/items/show_item.php?item=37955",
+      "source_item_id": 37955,
+      "explicit_EQ_item_ID": 127165,
+      "observed_primary_title": "EQTC - Item: Unfired Sarnak Battle Shield Ornament"
+    },
+    {
+      "source_url": "https://www.eqtraders.com/items/show_item.php?item=37913",
+      "source_item_id": 37913,
+      "explicit_EQ_item_ID": 127149,
+      "observed_primary_title": "EQTC - Item: Sarnak Battle Shield Ornament Sketch"
+    },
+    {
+      "source_url": "https://www.eqtraders.com/items/show_item.php?item=37956",
+      "source_item_id": 37956,
+      "explicit_EQ_item_ID": 127155,
+      "observed_primary_title": "EQTC - Item: Unfired Short Sword of the Ykesha Ornament"
+    },
+    {
+      "source_url": "https://www.eqtraders.com/items/show_item.php?item=37914",
+      "source_item_id": 37914,
+      "explicit_EQ_item_ID": 127139,
+      "observed_primary_title": "EQTC - Item: Short Sword of the Ykesha Ornament Sketch"
+    },
+    {
+      "source_url": "https://www.eqtraders.com/items/show_item.php?item=37957",
+      "source_item_id": 37957,
+      "explicit_EQ_item_ID": 127160,
+      "observed_primary_title": "EQTC - Item: Unfired Sister's Opulent Backstabber Ornament"
+    },
+    {
+      "source_url": "https://www.eqtraders.com/items/show_item.php?item=37915",
+      "source_item_id": 37915,
+      "explicit_EQ_item_ID": 127144,
+      "observed_primary_title": "EQTC - Item: Sister's Opulent Backstabber Ornament Sketch"
+    },
+    {
+      "source_url": "https://www.eqtraders.com/items/show_item.php?item=37958",
+      "source_item_id": 37958,
+      "explicit_EQ_item_ID": 127151,
+      "observed_primary_title": "EQTC - Item: Unfired Staff of Transcendence Ornament"
+    },
+    {
+      "source_url": "https://www.eqtraders.com/items/show_item.php?item=37916",
+      "source_item_id": 37916,
+      "explicit_EQ_item_ID": 127135,
+      "observed_primary_title": "EQTC - Item: Staff of Transcendence Ornament Sketch"
+    },
+    {
+      "source_url": "https://www.eqtraders.com/items/show_item.php?item=37959",
+      "source_item_id": 37959,
+      "explicit_EQ_item_ID": 127158,
+      "observed_primary_title": "EQTC - Item: Unfired The Sword of Ssraeshza Ornament"
+    },
+    {
+      "source_url": "https://www.eqtraders.com/items/show_item.php?item=37917",
+      "source_item_id": 37917,
+      "explicit_EQ_item_ID": 127142,
+      "observed_primary_title": "EQTC - Item: The Sword of Ssraeshza Ornament Sketch"
+    },
+    {
+      "source_url": "https://www.eqtraders.com/items/show_item.php?item=37960",
+      "source_item_id": 37960,
+      "explicit_EQ_item_ID": 127166,
+      "observed_primary_title": "EQTC - Item: Unfired Transient Bow of Solar Winds Ornament"
+    },
+    {
+      "source_url": "https://www.eqtraders.com/items/show_item.php?item=37918",
+      "source_item_id": 37918,
+      "explicit_EQ_item_ID": 127150,
+      "observed_primary_title": "EQTC - Item: Transient Bow of Solar Winds Ornament Sketch"
+    },
+    {
+      "source_url": "https://www.eqtraders.com/items/show_item.php?item=37961",
+      "source_item_id": 37961,
+      "explicit_EQ_item_ID": 127162,
+      "observed_primary_title": "EQTC - Item: Unfired Vyledorinajirnak Ornament"
+    },
+    {
+      "source_url": "https://www.eqtraders.com/items/show_item.php?item=37919",
+      "source_item_id": 37919,
+      "explicit_EQ_item_ID": 127146,
+      "observed_primary_title": "EQTC - Item: Vyledorinajirnak Ornament Sketch"
+    },
+    {
+      "source_url": "https://www.eqtraders.com/items/show_item.php?item=37962",
+      "source_item_id": 37962,
+      "explicit_EQ_item_ID": 127156,
+      "observed_primary_title": "EQTC - Item: Unfired Wurmslayer Ornament"
+    },
+    {
+      "source_url": "https://www.eqtraders.com/items/show_item.php?item=37920",
+      "source_item_id": 37920,
+      "explicit_EQ_item_ID": 127140,
+      "observed_primary_title": "EQTC - Item: Wurmslayer Ornament Sketch"
+    }
+  ],
+  "native_authored_context": [],
+  "migration_dependencies": [],
+  "held_source_rows": []
+}

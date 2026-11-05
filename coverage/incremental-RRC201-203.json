@@ -1,0 +1,87 @@
+{
+  "format_version": 1,
+  "batches": [
+    "RRC201",
+    "RRC202",
+    "RRC203"
+  ],
+  "source_commit": "806a18ddfb34ae7e3bcfe84dff848b5e78e4a44e",
+  "package_manifest_sha256": "67349487880c02ce139ff5d1799ef4a3635231be393452169c2036e906041851",
+  "application_status": "APPLIED_VERIFIED",
+  "recipes_added": 56,
+  "entries_added": 286,
+  "global_actual_counts": {
+    "recipes": 28217,
+    "entries": 214682
+  },
+  "TS_cumulative_added_current": {
+    "recipes": 5393,
+    "entries": 37057
+  },
+  "cumulative_basis": "Prior5337/36771 actual after200 plus56/286. Three sequential verified one-use operations, not one replay.",
+  "new_recipe_batches": 156,
+  "historical_qualification": {
+    "RRC201": {
+      "scope": "Three retained LDoN Brewing bodies: Bottle of Ancient Deathbrewed Wine, Cask of Ancient Deathbrewed Wine, Cask of Double Brewed Double Dry Stout. Five current direct primary identities match; explicit starting charges1 for bottles and8 for casks. This is a finite per-item mapping, not a maximum-charge default.",
+      "identity": "Primary9684/EQ51165 explicitly Charges1; primary10085/EQ51166 and10091/EQ51158 explicitly Charges8. Input DoubleDryStout primary9678/EQ51157 explicitly Charges1. Native current fields confirm nonstackable MaxCharges1/8 exactly, no item-field or ID normalization.",
+      "quantity_mapping": "Each selected source yieldsONE physical output instance. Positive native success parameter1 or8 is authenticated by each primary initial-charge profile and the current native nonstackable field. Existing SummonItem/CreateItem semantics produce one instance with exactly those charges. Cork/bottle co-products remain8 physical stack units each; no generalization to other charged/recharge holds.",
+      "consumption": "Each cask consumes8 separate one-charge nonstackable bottles plus1Cask,9physical slots, and returns8Cork/8Bottle. The bottle-manufacture body consumes its exact7ingredients and explicitly returns one empty Bottle on failure; no Cork failure return invented. Existing normal/auto consumption semantics preserve these physical-instance counts, static source mapping only.",
+      "nofail": "Both cask sources explicitly15(No-Fail), mapped trivial15/nofail1. Bottle manufacture is ordinary numeric226/nofail0. Unknown no-fail-only trivials elsewhere remain held.",
+      "era": "Positive maintained LDoN6 Brewing manufacturing family; floor6/max-1 labelled reconstruction, not immutable May2013 exact fields or introduction proof. EQRecipe IDs do not prove dates.",
+      "gates": "Source omits mandatory learning, minimum, actor and quest gates. Ordinary skillneeded0/must_learn0/book0/quest0/enabled1/consumed-salvage policies labelled. No book effect, class restriction, supply or task progress invented.",
+      "containers": "Every body directly permits ordinary Brew Barrel19 and fits ten physical units. Tanaan alternative remains separately held, no world availability inferred.",
+      "preservation": "Twelve exact native dependencies,8 newly read/4 pinned reused, all guarded. Current all-state/all-skill full-input/name review found zero matches. Full all-success output universe includes returned bottles/corks:25existing recipes/190entries captured and guarded unchanged. New IDs/full logical-entry multisets/deltas/learnedrefs guarded, no existing recipes/items/player/core edits.",
+      "execution": "Source only pending coordinator publication and separate exact SQL GO. All readers/research tabs closed. Named count substitution used in one pass. No tests/rehearsal/build/runtime/native combine/drinking/charge-depletion/unpacking acceptance. Prior Bloodroot-station and all other holds retained; full scope incomplete."
+    },
+    "RRC202": {
+      "scope": "All27 retained RoF Relic Replica II unfired ornament-forming source bodies.27 previous name-only output identities directly primary authenticated, exact titles/EQ IDs/yield1/numeric trivials match. This packet qualifies forming bodies only; fired counterparts and all-recipe completion are not inferred.",
+      "identity": "Retained named output rows have no item link; their same-name component links from paired firing bodies supply directly observed primary pages. All27 EQ IDs match native candidates. Input sketch/clay/hematite references already carry explicit primary IDs. Source/current native stack caps retained separately, no item-field normalization.",
+      "quantities": "Each body yields one uncharged physical unfired ornament. Literal sketch, Hematite and Planar Infused Clay counts1/2/3 retained, all physical input units fit ten. No tool returns, coproducts or numeric-trivial normalization invented.",
+      "era": "Positive maintained RoF19 Pottery manufacturing family; floor19/max-1 labelled reconstruction, not immutable May2013 exact fields or introduction proof.",
+      "learning": "Source labels11 bodies Scribe to Learn and16 Can scribe to learn, all pointing to Relic Replica II Weapon Ornament Sketches. Exact labels remain in source facts. Family context establishes a learning path, not a stated mandatory crafting prerequisite; optional-book reconstruction must_learn0/book0 accepted unless a body explicitly requires scribing. None of these27 explicitly does. Labels and historical uncertainty retained; no book effect/binding fabricated.",
+      "gates": "Source omits mandatory crafting minimum, actor, quest or no-fail gates; ordinary skillneeded0/nofail0/quest0/enabled1/consumed-salvage labelled policies. Existing item fields/masks unchanged, no actor restriction inferred from use metadata.",
+      "containers": "Every body directly lists ordinary Pottery Wheel8, all full units fit ten. Tanaan/placeable/guild alternatives held separately, no availability or supply inferred.",
+      "preservation": "56 exact native dependencies guarded,55 freshly read/1 pinned reused. Current all-state/all-skill full-input/name/output-use queries found zero matches/peers. New ID range, full recipe/logical-entry multisets, count deltas and learnedrefs guarded. Existing recipe/item/player/core unchanged.",
+      "execution": "Source only pending coordinator publication/exact SQL GO. Native reader and research tabs closed. Named one-pass count rendering used. No tests/build/runtime/native combine or ornament application claim. Earlier source/era/charge/actor/identity holds retained; full scope incomplete."
+    },
+    "RRC203": {
+      "scope": "26 retained VoA Pottery manufacturing source bodies:25 unfired Relic Replica/Planar Scorched ornaments plus Alaris Infused Clay. All51 previous name-only output/sketch/clay identities directly primary authenticated; exact titles/EQ IDs/selected yield1/numeric trivials match.",
+      "identity": "Unlinked output-name rows are bound by exact same-name component links in paired firing bodies. Direct primary IDs authenticate all25unfired outputs,25sketches andclay. Remaining ingredient references already have explicit primary IDs. Native actual fields preserved even where source stack caps differ, no stat normalization.",
+      "quantities": "Every body yields one uncharged physical output. Literal sketch, Hematite and Alaris Clay counts1/2/3 retained; clay manufacture preserves Essence of Alaris, Large Block of Magic Clay and Water Flask. All full units fit ten. Source Sarnak Battle Shield trivial348 retained, no cross-family normalization.",
+      "era": "Positive maintained VoA18 Pottery manufacturing family; floor18/max-1 labelled reconstruction, not immutable May2013 exact fields or introduction proof. Fired variants not qualified by matching unfired identities.",
+      "learning": "Every selected unfired ornament explicitly says Can scribe to Learn Relic Replica Weapon Ornament Sketches or Planar Scorched Weapon Ornament Sketches. Exact optional annotations retained in source facts; no mandatory scribing condition stated. must_learn0/book0 labelled optional-learning reconstruction, no book effect/binding fabricated. Clay source omits mandatory learning and uses ordinary zero policy.",
+      "gates": "Source omits mandatory crafting minimum, actor, quest and no-fail gates; skillneeded0/nofail0/quest0/enabled1/consumed-salvage labelled new-record policies. Existing item masks/levels preserved, not converted to manufacturing restrictions.",
+      "containers": "All26 bodies directly list ordinary Pottery Wheel8; exact full units fit ten. Tanaan/placeable/guild alternatives held separately, no availability or supply inferred.",
+      "preservation": "55 exact native dependencies guarded,51 freshly read/4 pinned reused. Necessary current all-state/all-skill full-input/name/output-use queries found zero matches/peers. Exact new IDs, recipe/logical-entry multisets, count deltas and learnedrefs guarded; existing recipes/items/player/core unchanged.",
+      "execution": "Source only pending coordinator publication/exact SQL GO. Reader/research tabs closed. Named one-pass count rendering used. No tests/build/runtime/native combines or ornament application claim. Prior era/source/identity/charge/actor holds retained; full scope incomplete."
+    }
+  },
+  "held_batches": [
+    "RRC014",
+    "RRC160"
+  ],
+  "all_scope_complete": false,
+  "separate_Xorbb_recipe_excluded": {
+    "recipes": 1,
+    "entries": 6
+  },
+  "prior_locally_confirmed_published_normal_SQL_source_paths": 638,
+  "earlier_pending_normal_SQL_source_paths": 0,
+  "new_normal_SQL_source_paths": 6,
+  "normal_SQL_source_paths_after_all_pending_publications": 644,
+  "SQL_path_count_meaning": "Source paths, not application count.",
+  "history_archives_preserved": true,
+  "QA39999_production_exclusion_retained": true,
+  "assembly": "No SQL/query/replay/tests/runtime/receipt-only publication.",
+  "source_documents": "Exact source files retained verbatim; preparation-time labels historical; actual application confirmed separately in per-batch summaries.",
+  "application_order": [
+    "RRC201",
+    "RRC202",
+    "RRC203"
+  ],
+  "unchanged_RRC201_output_use_peers": {
+    "definitions": 25,
+    "entry_IDs": 190,
+    "exact": true
+  }
+}
