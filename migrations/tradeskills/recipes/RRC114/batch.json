@@ -1,0 +1,5556 @@
+{
+  "batch": "RRC114",
+  "branch": "rof2-tradeskills",
+  "status": "SOURCE_PROPOSAL_NOT_APPLIED_LABELLED_RECONSTRUCTION",
+  "proposed_ids": [
+    3094444,
+    3094478
+  ],
+  "counts": {
+    "recipes": 35,
+    "entries": 272,
+    "item_dependencies": 56,
+    "unchanged_prototype_recipes": 0,
+    "unchanged_prototype_entries": 0
+  },
+  "recipes": [
+    {
+      "id": 3094444,
+      "name": "Simple Short Haft",
+      "tradeskill": 64,
+      "skillneeded": 0,
+      "trivial": 62,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary SoD Fletching reconstruction; RRC114.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 15,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3094445,
+      "name": "Simple Haft",
+      "tradeskill": 64,
+      "skillneeded": 0,
+      "trivial": 62,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary SoD Fletching reconstruction; RRC114.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 15,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3094446,
+      "name": "Simple Long Haft",
+      "tradeskill": 64,
+      "skillneeded": 0,
+      "trivial": 62,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary SoD Fletching reconstruction; RRC114.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 15,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3094447,
+      "name": "Simple Baton",
+      "tradeskill": 64,
+      "skillneeded": 0,
+      "trivial": 63,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary SoD Fletching reconstruction; RRC114.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 15,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3094448,
+      "name": "Simple Staff",
+      "tradeskill": 64,
+      "skillneeded": 0,
+      "trivial": 66,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary SoD Fletching reconstruction; RRC114.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 15,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3094449,
+      "name": "Ornate Short Haft",
+      "tradeskill": 64,
+      "skillneeded": 0,
+      "trivial": 112,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary SoD Fletching reconstruction; RRC114.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 15,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3094450,
+      "name": "Ornate Haft",
+      "tradeskill": 64,
+      "skillneeded": 0,
+      "trivial": 112,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary SoD Fletching reconstruction; RRC114.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 15,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3094451,
+      "name": "Ornate Long Haft",
+      "tradeskill": 64,
+      "skillneeded": 0,
+      "trivial": 112,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary SoD Fletching reconstruction; RRC114.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 15,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3094452,
+      "name": "Ornate Baton",
+      "tradeskill": 64,
+      "skillneeded": 0,
+      "trivial": 114,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary SoD Fletching reconstruction; RRC114.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 15,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3094453,
+      "name": "Ornate Staff",
+      "tradeskill": 64,
+      "skillneeded": 0,
+      "trivial": 116,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary SoD Fletching reconstruction; RRC114.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 15,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3094454,
+      "name": "Intricate Short Haft",
+      "tradeskill": 64,
+      "skillneeded": 0,
+      "trivial": 184,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary SoD Fletching reconstruction; RRC114.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 15,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3094455,
+      "name": "Intricate Haft",
+      "tradeskill": 64,
+      "skillneeded": 0,
+      "trivial": 184,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary SoD Fletching reconstruction; RRC114.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 15,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3094456,
+      "name": "Intricate Long Haft",
+      "tradeskill": 64,
+      "skillneeded": 0,
+      "trivial": 184,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary SoD Fletching reconstruction; RRC114.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 15,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3094457,
+      "name": "Intricate Baton",
+      "tradeskill": 64,
+      "skillneeded": 0,
+      "trivial": 187,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary SoD Fletching reconstruction; RRC114.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 15,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3094458,
+      "name": "Intricate Staff",
+      "tradeskill": 64,
+      "skillneeded": 0,
+      "trivial": 188,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary SoD Fletching reconstruction; RRC114.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 15,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3094459,
+      "name": "Intricate Handle",
+      "tradeskill": 64,
+      "skillneeded": 0,
+      "trivial": 184,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary SoD Fletching reconstruction; RRC114.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 15,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3094460,
+      "name": "Elaborate Short Haft",
+      "tradeskill": 64,
+      "skillneeded": 0,
+      "trivial": 222,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary SoD Fletching reconstruction; RRC114.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 15,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3094461,
+      "name": "Elaborate Haft",
+      "tradeskill": 64,
+      "skillneeded": 0,
+      "trivial": 222,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary SoD Fletching reconstruction; RRC114.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 15,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3094462,
+      "name": "Elaborate Long Haft",
+      "tradeskill": 64,
+      "skillneeded": 0,
+      "trivial": 222,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary SoD Fletching reconstruction; RRC114.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 15,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3094463,
+      "name": "Elaborate Baton",
+      "tradeskill": 64,
+      "skillneeded": 0,
+      "trivial": 223,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary SoD Fletching reconstruction; RRC114.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 15,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3094464,
+      "name": "Elaborate Staff",
+      "tradeskill": 64,
+      "skillneeded": 0,
+      "trivial": 224,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary SoD Fletching reconstruction; RRC114.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 15,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3094465,
+      "name": "Inured Short Haft",
+      "tradeskill": 64,
+      "skillneeded": 0,
+      "trivial": 242,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary SoD Fletching reconstruction; RRC114.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 15,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3094466,
+      "name": "Inured Haft",
+      "tradeskill": 64,
+      "skillneeded": 0,
+      "trivial": 242,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary SoD Fletching reconstruction; RRC114.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 15,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3094467,
+      "name": "Inured Long Haft",
+      "tradeskill": 64,
+      "skillneeded": 0,
+      "trivial": 242,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary SoD Fletching reconstruction; RRC114.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 15,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3094468,
+      "name": "Inured Baton",
+      "tradeskill": 64,
+      "skillneeded": 0,
+      "trivial": 244,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary SoD Fletching reconstruction; RRC114.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 15,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3094469,
+      "name": "Inured Staff",
+      "tradeskill": 64,
+      "skillneeded": 0,
+      "trivial": 246,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary SoD Fletching reconstruction; RRC114.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 15,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3094470,
+      "name": "Elegant Short Haft",
+      "tradeskill": 64,
+      "skillneeded": 0,
+      "trivial": 255,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary SoD Fletching reconstruction; RRC114.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 15,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3094471,
+      "name": "Elegant Haft",
+      "tradeskill": 64,
+      "skillneeded": 0,
+      "trivial": 255,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary SoD Fletching reconstruction; RRC114.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 15,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3094472,
+      "name": "Elegant Long Haft",
+      "tradeskill": 64,
+      "skillneeded": 0,
+      "trivial": 255,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary SoD Fletching reconstruction; RRC114.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 15,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3094473,
+      "name": "Elegant Baton",
+      "tradeskill": 64,
+      "skillneeded": 0,
+      "trivial": 256,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary SoD Fletching reconstruction; RRC114.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 15,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3094474,
+      "name": "Elegant Staff",
+      "tradeskill": 64,
+      "skillneeded": 0,
+      "trivial": 259,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary SoD Fletching reconstruction; RRC114.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 15,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3094475,
+      "name": "Stalwart Short Haft",
+      "tradeskill": 64,
+      "skillneeded": 0,
+      "trivial": 268,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary SoD Fletching reconstruction; RRC114.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 15,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3094476,
+      "name": "Stalwart Long Haft",
+      "tradeskill": 64,
+      "skillneeded": 0,
+      "trivial": 268,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary SoD Fletching reconstruction; RRC114.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 15,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3094477,
+      "name": "Stalwart Baton",
+      "tradeskill": 64,
+      "skillneeded": 0,
+      "trivial": 270,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary SoD Fletching reconstruction; RRC114.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 15,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3094478,
+      "name": "Stalwart Staff",
+      "tradeskill": 64,
+      "skillneeded": 0,
+      "trivial": 271,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary SoD Fletching reconstruction; RRC114.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 15,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    }
+  ],
+  "entries": [
+    {
+      "recipe_id": 3094444,
+      "item_id": 48192,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094444,
+      "item_id": 38512,
+      "successcount": 1,
+      "failcount": 1,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094444,
+      "item_id": 8080,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094444,
+      "item_id": 8086,
+      "successcount": 1,
+      "failcount": 1,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094444,
+      "item_id": 34214,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094444,
+      "item_id": 17189,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3094444,
+      "item_id": 17762,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3094444,
+      "item_id": 17910,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3094445,
+      "item_id": 48193,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094445,
+      "item_id": 38513,
+      "successcount": 1,
+      "failcount": 1,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094445,
+      "item_id": 8080,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094445,
+      "item_id": 8086,
+      "successcount": 1,
+      "failcount": 1,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094445,
+      "item_id": 34214,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094445,
+      "item_id": 17189,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3094445,
+      "item_id": 17762,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3094445,
+      "item_id": 17910,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3094446,
+      "item_id": 48194,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094446,
+      "item_id": 38515,
+      "successcount": 1,
+      "failcount": 1,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094446,
+      "item_id": 8080,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094446,
+      "item_id": 8086,
+      "successcount": 1,
+      "failcount": 1,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094446,
+      "item_id": 34214,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094446,
+      "item_id": 17189,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3094446,
+      "item_id": 17762,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3094446,
+      "item_id": 17910,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3094447,
+      "item_id": 48195,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094447,
+      "item_id": 38514,
+      "successcount": 1,
+      "failcount": 1,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094447,
+      "item_id": 8080,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094447,
+      "item_id": 8086,
+      "successcount": 1,
+      "failcount": 1,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094447,
+      "item_id": 34214,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094447,
+      "item_id": 17189,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3094447,
+      "item_id": 17762,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3094447,
+      "item_id": 17910,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3094448,
+      "item_id": 48196,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094448,
+      "item_id": 8080,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094448,
+      "item_id": 8086,
+      "successcount": 1,
+      "failcount": 1,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094448,
+      "item_id": 34214,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094448,
+      "item_id": 17189,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3094448,
+      "item_id": 17762,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3094448,
+      "item_id": 17910,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3094449,
+      "item_id": 48198,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094449,
+      "item_id": 38512,
+      "successcount": 1,
+      "failcount": 1,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094449,
+      "item_id": 34216,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094449,
+      "item_id": 8081,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094449,
+      "item_id": 8086,
+      "successcount": 1,
+      "failcount": 1,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094449,
+      "item_id": 17189,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3094449,
+      "item_id": 17762,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3094449,
+      "item_id": 17910,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3094450,
+      "item_id": 48199,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094450,
+      "item_id": 38513,
+      "successcount": 1,
+      "failcount": 1,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094450,
+      "item_id": 34216,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094450,
+      "item_id": 8081,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094450,
+      "item_id": 8086,
+      "successcount": 1,
+      "failcount": 1,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094450,
+      "item_id": 17189,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3094450,
+      "item_id": 17762,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3094450,
+      "item_id": 17910,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3094451,
+      "item_id": 48200,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094451,
+      "item_id": 38515,
+      "successcount": 1,
+      "failcount": 1,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094451,
+      "item_id": 34216,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094451,
+      "item_id": 8081,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094451,
+      "item_id": 8086,
+      "successcount": 1,
+      "failcount": 1,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094451,
+      "item_id": 17189,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3094451,
+      "item_id": 17762,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3094451,
+      "item_id": 17910,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3094452,
+      "item_id": 48201,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094452,
+      "item_id": 38514,
+      "successcount": 1,
+      "failcount": 1,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094452,
+      "item_id": 34216,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094452,
+      "item_id": 8081,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094452,
+      "item_id": 8086,
+      "successcount": 1,
+      "failcount": 1,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094452,
+      "item_id": 17189,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3094452,
+      "item_id": 17762,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3094452,
+      "item_id": 17910,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3094453,
+      "item_id": 48202,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094453,
+      "item_id": 34216,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094453,
+      "item_id": 8081,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094453,
+      "item_id": 8086,
+      "successcount": 1,
+      "failcount": 1,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094453,
+      "item_id": 17189,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3094453,
+      "item_id": 17762,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3094453,
+      "item_id": 17910,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3094454,
+      "item_id": 48204,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094454,
+      "item_id": 38512,
+      "successcount": 1,
+      "failcount": 1,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094454,
+      "item_id": 8082,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094454,
+      "item_id": 34219,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094454,
+      "item_id": 8086,
+      "successcount": 1,
+      "failcount": 1,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094454,
+      "item_id": 17189,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3094454,
+      "item_id": 17762,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3094454,
+      "item_id": 17910,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3094455,
+      "item_id": 48205,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094455,
+      "item_id": 38513,
+      "successcount": 1,
+      "failcount": 1,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094455,
+      "item_id": 8082,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094455,
+      "item_id": 34219,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094455,
+      "item_id": 8086,
+      "successcount": 1,
+      "failcount": 1,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094455,
+      "item_id": 17189,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3094455,
+      "item_id": 17762,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3094455,
+      "item_id": 17910,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3094456,
+      "item_id": 48206,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094456,
+      "item_id": 38515,
+      "successcount": 1,
+      "failcount": 1,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094456,
+      "item_id": 8082,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094456,
+      "item_id": 34219,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094456,
+      "item_id": 8086,
+      "successcount": 1,
+      "failcount": 1,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094456,
+      "item_id": 17189,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3094456,
+      "item_id": 17762,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3094456,
+      "item_id": 17910,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3094457,
+      "item_id": 48207,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094457,
+      "item_id": 38514,
+      "successcount": 1,
+      "failcount": 1,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094457,
+      "item_id": 8082,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094457,
+      "item_id": 34219,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094457,
+      "item_id": 8086,
+      "successcount": 1,
+      "failcount": 1,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094457,
+      "item_id": 17189,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3094457,
+      "item_id": 17762,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3094457,
+      "item_id": 17910,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3094458,
+      "item_id": 48208,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094458,
+      "item_id": 8082,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094458,
+      "item_id": 34219,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094458,
+      "item_id": 8086,
+      "successcount": 1,
+      "failcount": 1,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094458,
+      "item_id": 17189,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3094458,
+      "item_id": 17762,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3094458,
+      "item_id": 17910,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3094459,
+      "item_id": 48209,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094459,
+      "item_id": 38511,
+      "successcount": 1,
+      "failcount": 1,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094459,
+      "item_id": 8082,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094459,
+      "item_id": 34219,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094459,
+      "item_id": 8086,
+      "successcount": 1,
+      "failcount": 1,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094459,
+      "item_id": 17189,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3094459,
+      "item_id": 17762,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3094459,
+      "item_id": 17910,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3094460,
+      "item_id": 48210,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094460,
+      "item_id": 38512,
+      "successcount": 1,
+      "failcount": 1,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094460,
+      "item_id": 8083,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094460,
+      "item_id": 8086,
+      "successcount": 1,
+      "failcount": 1,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094460,
+      "item_id": 34221,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094460,
+      "item_id": 17189,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3094460,
+      "item_id": 17762,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3094460,
+      "item_id": 17910,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3094461,
+      "item_id": 48211,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094461,
+      "item_id": 38513,
+      "successcount": 1,
+      "failcount": 1,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094461,
+      "item_id": 8083,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094461,
+      "item_id": 8086,
+      "successcount": 1,
+      "failcount": 1,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094461,
+      "item_id": 34221,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094461,
+      "item_id": 17189,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3094461,
+      "item_id": 17762,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3094461,
+      "item_id": 17910,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3094462,
+      "item_id": 48212,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094462,
+      "item_id": 38515,
+      "successcount": 1,
+      "failcount": 1,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094462,
+      "item_id": 8083,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094462,
+      "item_id": 8086,
+      "successcount": 1,
+      "failcount": 1,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094462,
+      "item_id": 34221,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094462,
+      "item_id": 17189,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3094462,
+      "item_id": 17762,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3094462,
+      "item_id": 17910,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3094463,
+      "item_id": 48213,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094463,
+      "item_id": 38514,
+      "successcount": 1,
+      "failcount": 1,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094463,
+      "item_id": 8083,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094463,
+      "item_id": 8086,
+      "successcount": 1,
+      "failcount": 1,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094463,
+      "item_id": 34221,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094463,
+      "item_id": 17189,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3094463,
+      "item_id": 17762,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3094463,
+      "item_id": 17910,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3094464,
+      "item_id": 48214,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094464,
+      "item_id": 8083,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094464,
+      "item_id": 8086,
+      "successcount": 1,
+      "failcount": 1,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094464,
+      "item_id": 34221,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094464,
+      "item_id": 17189,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3094464,
+      "item_id": 17762,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3094464,
+      "item_id": 17910,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3094465,
+      "item_id": 48216,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094465,
+      "item_id": 38512,
+      "successcount": 1,
+      "failcount": 1,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094465,
+      "item_id": 34222,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094465,
+      "item_id": 8083,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094465,
+      "item_id": 8086,
+      "successcount": 1,
+      "failcount": 1,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094465,
+      "item_id": 17189,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3094465,
+      "item_id": 17762,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3094465,
+      "item_id": 17910,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3094466,
+      "item_id": 48217,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094466,
+      "item_id": 38513,
+      "successcount": 1,
+      "failcount": 1,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094466,
+      "item_id": 34222,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094466,
+      "item_id": 8083,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094466,
+      "item_id": 8086,
+      "successcount": 1,
+      "failcount": 1,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094466,
+      "item_id": 17189,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3094466,
+      "item_id": 17762,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3094466,
+      "item_id": 17910,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3094467,
+      "item_id": 48218,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094467,
+      "item_id": 38515,
+      "successcount": 1,
+      "failcount": 1,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094467,
+      "item_id": 34222,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094467,
+      "item_id": 8083,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094467,
+      "item_id": 8086,
+      "successcount": 1,
+      "failcount": 1,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094467,
+      "item_id": 17189,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3094467,
+      "item_id": 17762,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3094467,
+      "item_id": 17910,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3094468,
+      "item_id": 48219,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094468,
+      "item_id": 38514,
+      "successcount": 1,
+      "failcount": 1,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094468,
+      "item_id": 34222,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094468,
+      "item_id": 8083,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094468,
+      "item_id": 8086,
+      "successcount": 1,
+      "failcount": 1,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094468,
+      "item_id": 17189,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3094468,
+      "item_id": 17762,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3094468,
+      "item_id": 17910,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3094469,
+      "item_id": 48220,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094469,
+      "item_id": 34222,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094469,
+      "item_id": 8083,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094469,
+      "item_id": 8086,
+      "successcount": 1,
+      "failcount": 1,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094469,
+      "item_id": 17189,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3094469,
+      "item_id": 17762,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3094469,
+      "item_id": 17910,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3094470,
+      "item_id": 48222,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094470,
+      "item_id": 38512,
+      "successcount": 1,
+      "failcount": 1,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094470,
+      "item_id": 8084,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094470,
+      "item_id": 34223,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094470,
+      "item_id": 8086,
+      "successcount": 1,
+      "failcount": 1,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094470,
+      "item_id": 17189,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3094470,
+      "item_id": 17762,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3094470,
+      "item_id": 17910,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3094471,
+      "item_id": 48223,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094471,
+      "item_id": 38513,
+      "successcount": 1,
+      "failcount": 1,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094471,
+      "item_id": 8084,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094471,
+      "item_id": 34223,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094471,
+      "item_id": 8086,
+      "successcount": 1,
+      "failcount": 1,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094471,
+      "item_id": 17189,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3094471,
+      "item_id": 17762,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3094471,
+      "item_id": 17910,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3094472,
+      "item_id": 48224,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094472,
+      "item_id": 38515,
+      "successcount": 1,
+      "failcount": 1,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094472,
+      "item_id": 8084,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094472,
+      "item_id": 34223,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094472,
+      "item_id": 8086,
+      "successcount": 1,
+      "failcount": 1,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094472,
+      "item_id": 17189,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3094472,
+      "item_id": 17762,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3094472,
+      "item_id": 17910,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3094473,
+      "item_id": 48225,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094473,
+      "item_id": 38514,
+      "successcount": 1,
+      "failcount": 1,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094473,
+      "item_id": 8084,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094473,
+      "item_id": 34223,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094473,
+      "item_id": 8086,
+      "successcount": 1,
+      "failcount": 1,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094473,
+      "item_id": 17189,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3094473,
+      "item_id": 17762,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3094473,
+      "item_id": 17910,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3094474,
+      "item_id": 48226,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094474,
+      "item_id": 8084,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094474,
+      "item_id": 34223,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094474,
+      "item_id": 8086,
+      "successcount": 1,
+      "failcount": 1,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094474,
+      "item_id": 17189,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3094474,
+      "item_id": 17762,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3094474,
+      "item_id": 17910,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3094475,
+      "item_id": 48228,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094475,
+      "item_id": 38512,
+      "successcount": 1,
+      "failcount": 1,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094475,
+      "item_id": 8084,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094475,
+      "item_id": 48892,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094475,
+      "item_id": 8086,
+      "successcount": 1,
+      "failcount": 1,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094475,
+      "item_id": 17189,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3094475,
+      "item_id": 17910,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3094476,
+      "item_id": 48230,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094476,
+      "item_id": 38515,
+      "successcount": 1,
+      "failcount": 1,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094476,
+      "item_id": 8084,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094476,
+      "item_id": 48892,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094476,
+      "item_id": 8086,
+      "successcount": 1,
+      "failcount": 1,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094476,
+      "item_id": 17189,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3094476,
+      "item_id": 17762,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3094476,
+      "item_id": 17910,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3094477,
+      "item_id": 48231,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094477,
+      "item_id": 38514,
+      "successcount": 1,
+      "failcount": 1,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094477,
+      "item_id": 8084,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094477,
+      "item_id": 48892,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094477,
+      "item_id": 8086,
+      "successcount": 1,
+      "failcount": 1,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094477,
+      "item_id": 17189,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3094477,
+      "item_id": 17762,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3094477,
+      "item_id": 17910,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3094478,
+      "item_id": 48232,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094478,
+      "item_id": 8084,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094478,
+      "item_id": 48892,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094478,
+      "item_id": 8086,
+      "successcount": 1,
+      "failcount": 1,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094478,
+      "item_id": 17189,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3094478,
+      "item_id": 17762,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3094478,
+      "item_id": 17910,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    }
+  ],
+  "item_dependencies": [
+    {
+      "id": 8080,
+      "name": "Hickory Bow Staff"
+    },
+    {
+      "id": 8081,
+      "name": "Elm Bow Staff"
+    },
+    {
+      "id": 8082,
+      "name": "Ashwood Bow Staff"
+    },
+    {
+      "id": 8083,
+      "name": "Oak Bow Staff"
+    },
+    {
+      "id": 8084,
+      "name": "Darkwood Bow Staff"
+    },
+    {
+      "id": 8086,
+      "name": "Planing Tool"
+    },
+    {
+      "id": 17189,
+      "name": "Collapsible Fletching Kit"
+    },
+    {
+      "id": 17762,
+      "name": "Planar Fletching Kit"
+    },
+    {
+      "id": 17910,
+      "name": "Fletching Kit"
+    },
+    {
+      "id": 34214,
+      "name": "Sullied Silk"
+    },
+    {
+      "id": 34216,
+      "name": "Crude Silk"
+    },
+    {
+      "id": 34219,
+      "name": "Fine Silk"
+    },
+    {
+      "id": 34221,
+      "name": "Superb Silk"
+    },
+    {
+      "id": 34222,
+      "name": "Flawless Silk"
+    },
+    {
+      "id": 34223,
+      "name": "Exquisite Silk"
+    },
+    {
+      "id": 38511,
+      "name": "2 Knot Measuring String"
+    },
+    {
+      "id": 38512,
+      "name": "3 Knot Measuring String"
+    },
+    {
+      "id": 38513,
+      "name": "4 Knot Measuring String"
+    },
+    {
+      "id": 38514,
+      "name": "5 Knot Measuring String"
+    },
+    {
+      "id": 38515,
+      "name": "6 Knot Measuring String"
+    },
+    {
+      "id": 48192,
+      "name": "Simple Short Haft"
+    },
+    {
+      "id": 48193,
+      "name": "Simple Haft"
+    },
+    {
+      "id": 48194,
+      "name": "Simple Long Haft"
+    },
+    {
+      "id": 48195,
+      "name": "Simple Baton"
+    },
+    {
+      "id": 48196,
+      "name": "Simple Staff"
+    },
+    {
+      "id": 48198,
+      "name": "Ornate Short Haft"
+    },
+    {
+      "id": 48199,
+      "name": "Ornate Haft"
+    },
+    {
+      "id": 48200,
+      "name": "Ornate Long Haft"
+    },
+    {
+      "id": 48201,
+      "name": "Ornate Baton"
+    },
+    {
+      "id": 48202,
+      "name": "Ornate Staff"
+    },
+    {
+      "id": 48204,
+      "name": "Intricate Short Haft"
+    },
+    {
+      "id": 48205,
+      "name": "Intricate Haft"
+    },
+    {
+      "id": 48206,
+      "name": "Intricate Long Haft"
+    },
+    {
+      "id": 48207,
+      "name": "Intricate Baton"
+    },
+    {
+      "id": 48208,
+      "name": "Intricate Staff"
+    },
+    {
+      "id": 48209,
+      "name": "Intricate Handle"
+    },
+    {
+      "id": 48210,
+      "name": "Elaborate Short Haft"
+    },
+    {
+      "id": 48211,
+      "name": "Elaborate Haft"
+    },
+    {
+      "id": 48212,
+      "name": "Elaborate Long Haft"
+    },
+    {
+      "id": 48213,
+      "name": "Elaborate Baton"
+    },
+    {
+      "id": 48214,
+      "name": "Elaborate Staff"
+    },
+    {
+      "id": 48216,
+      "name": "Inured Short Haft"
+    },
+    {
+      "id": 48217,
+      "name": "Inured Haft"
+    },
+    {
+      "id": 48218,
+      "name": "Inured Long Haft"
+    },
+    {
+      "id": 48219,
+      "name": "Inured Baton"
+    },
+    {
+      "id": 48220,
+      "name": "Inured Staff"
+    },
+    {
+      "id": 48222,
+      "name": "Elegant Short Haft"
+    },
+    {
+      "id": 48223,
+      "name": "Elegant Haft"
+    },
+    {
+      "id": 48224,
+      "name": "Elegant Long Haft"
+    },
+    {
+      "id": 48225,
+      "name": "Elegant Baton"
+    },
+    {
+      "id": 48226,
+      "name": "Elegant Staff"
+    },
+    {
+      "id": 48228,
+      "name": "Stalwart Short Haft"
+    },
+    {
+      "id": 48230,
+      "name": "Stalwart Long Haft"
+    },
+    {
+      "id": 48231,
+      "name": "Stalwart Baton"
+    },
+    {
+      "id": 48232,
+      "name": "Stalwart Staff"
+    },
+    {
+      "id": 48892,
+      "name": "Immaculate Silk"
+    }
+  ],
+  "unchanged_prototype_recipes": [],
+  "unchanged_prototype_entries": [],
+  "source_facts": [
+    {
+      "recipe_id": 3094444,
+      "source_name": "Simple Short Haft",
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=519&rsa=Fletching&sub=Sod",
+      "output_source_url": "https://www.eqtraders.com/items/show_item.php?item=31427&menustr=010000000000",
+      "output_item_id": 48192,
+      "trivial": 62,
+      "yield_count": 1,
+      "ingredients": [
+        {
+          "item_id": 38512,
+          "name": "3 Knot Measuring String",
+          "count": 1
+        },
+        {
+          "item_id": 8080,
+          "name": "Hickory Bowstave",
+          "count": 1
+        },
+        {
+          "item_id": 8086,
+          "name": "Planing Tool",
+          "count": 1
+        },
+        {
+          "item_id": 34214,
+          "name": "Sullied Silk",
+          "count": 1
+        }
+      ],
+      "container_item_ids": [
+        17189,
+        17762,
+        17910
+      ],
+      "held_source_containers": [
+        {
+          "name": "Feir`Dal Fletching Kit",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=7858"
+        },
+        {
+          "name": "Surefall Fletching Kit",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=9604"
+        },
+        {
+          "name": "Fletching Table (Placeable)",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34388"
+        },
+        {
+          "name": "Fletching Table",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34483"
+        },
+        {
+          "name": "Guild Fletching Table",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=38416"
+        }
+      ],
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "source_formula": "Components: 3 Knot Measuring String, Hickory Bowstave, Planing Tool, Sullied Silk\nIn: Fletching Kit, Planar Fletching Kit, Collapsible Fletching Kit, Feir`Dal Fletching Kit, Surefall Fletching Kit, Fletching Table (Placeable), Fletching Table, Guild Fletching Table\nYield: 1\nAlso Returns: Planing Tool(1), 3 Knot Measuring String(1)\nOn Failure Returns: Planing Tool(1), 3 Knot Measuring String(1)\nNotes: EQRecipeID: 12809"
+    },
+    {
+      "recipe_id": 3094445,
+      "source_name": "Simple Haft",
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=519&rsa=Fletching&sub=Sod",
+      "output_source_url": "https://www.eqtraders.com/items/show_item.php?item=31428&menustr=010000000000",
+      "output_item_id": 48193,
+      "trivial": 62,
+      "yield_count": 1,
+      "ingredients": [
+        {
+          "item_id": 38513,
+          "name": "4 Knot Measuring String",
+          "count": 1
+        },
+        {
+          "item_id": 8080,
+          "name": "Hickory Bowstave",
+          "count": 1
+        },
+        {
+          "item_id": 8086,
+          "name": "Planing Tool",
+          "count": 1
+        },
+        {
+          "item_id": 34214,
+          "name": "Sullied Silk",
+          "count": 1
+        }
+      ],
+      "container_item_ids": [
+        17189,
+        17762,
+        17910
+      ],
+      "held_source_containers": [
+        {
+          "name": "Feir`Dal Fletching Kit",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=7858"
+        },
+        {
+          "name": "Surefall Fletching Kit",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=9604"
+        },
+        {
+          "name": "Fletching Table (Placeable)",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34388"
+        },
+        {
+          "name": "Fletching Table",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34483"
+        },
+        {
+          "name": "Guild Fletching Table",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=38416"
+        }
+      ],
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "source_formula": "Components: 4 Knot Measuring String, Hickory Bowstave, Planing Tool, Sullied Silk\nIn: Fletching Kit, Planar Fletching Kit, Collapsible Fletching Kit, Feir`Dal Fletching Kit, Surefall Fletching Kit, Fletching Table (Placeable), Fletching Table, Guild Fletching Table\nYield: 1\nAlso Returns: Planing Tool(1), 4 Knot Measuring String(1)\nOn Failure Returns: Planing Tool(1), 4 Knot Measuring String(1)\nNotes: EQRecipeID: 13810"
+    },
+    {
+      "recipe_id": 3094446,
+      "source_name": "Simple Long Haft",
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=519&rsa=Fletching&sub=Sod",
+      "output_source_url": "https://www.eqtraders.com/items/show_item.php?item=31429&menustr=010000000000",
+      "output_item_id": 48194,
+      "trivial": 62,
+      "yield_count": 1,
+      "ingredients": [
+        {
+          "item_id": 38515,
+          "name": "6 Knot Measuring String",
+          "count": 1
+        },
+        {
+          "item_id": 8080,
+          "name": "Hickory Bowstave",
+          "count": 1
+        },
+        {
+          "item_id": 8086,
+          "name": "Planing Tool",
+          "count": 1
+        },
+        {
+          "item_id": 34214,
+          "name": "Sullied Silk",
+          "count": 1
+        }
+      ],
+      "container_item_ids": [
+        17189,
+        17762,
+        17910
+      ],
+      "held_source_containers": [
+        {
+          "name": "Feir`Dal Fletching Kit",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=7858"
+        },
+        {
+          "name": "Surefall Fletching Kit",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=9604"
+        },
+        {
+          "name": "Fletching Table (Placeable)",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34388"
+        },
+        {
+          "name": "Fletching Table",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34483"
+        },
+        {
+          "name": "Guild Fletching Table",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=38416"
+        }
+      ],
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "source_formula": "Components: 6 Knot Measuring String, Hickory Bowstave, Planing Tool, Sullied Silk\nIn: Fletching Kit, Planar Fletching Kit, Collapsible Fletching Kit, Feir`Dal Fletching Kit, Surefall Fletching Kit, Fletching Table (Placeable), Fletching Table, Guild Fletching Table\nYield: 1\nAlso Returns: Planing Tool(1), 6 Knot Measuring String(1)\nOn Failure Returns: Planing Tool(1), 6 Knot Measuring String(1)\nNotes: EQRecipeID: 13811"
+    },
+    {
+      "recipe_id": 3094447,
+      "source_name": "Simple Baton",
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=519&rsa=Fletching&sub=Sod",
+      "output_source_url": "https://www.eqtraders.com/items/show_item.php?item=31430&menustr=010000000000",
+      "output_item_id": 48195,
+      "trivial": 63,
+      "yield_count": 1,
+      "ingredients": [
+        {
+          "item_id": 38514,
+          "name": "5 Knot Measuring String",
+          "count": 1
+        },
+        {
+          "item_id": 8080,
+          "name": "Hickory Bowstave",
+          "count": 1
+        },
+        {
+          "item_id": 8086,
+          "name": "Planing Tool",
+          "count": 1
+        },
+        {
+          "item_id": 34214,
+          "name": "Sullied Silk",
+          "count": 1
+        }
+      ],
+      "container_item_ids": [
+        17189,
+        17762,
+        17910
+      ],
+      "held_source_containers": [
+        {
+          "name": "Feir`Dal Fletching Kit",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=7858"
+        },
+        {
+          "name": "Surefall Fletching Kit",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=9604"
+        },
+        {
+          "name": "Fletching Table (Placeable)",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34388"
+        },
+        {
+          "name": "Fletching Table",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34483"
+        },
+        {
+          "name": "Guild Fletching Table",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=38416"
+        }
+      ],
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "source_formula": "Components: 5 Knot Measuring String, Hickory Bowstave, Planing Tool, Sullied Silk\nIn: Fletching Kit, Planar Fletching Kit, Collapsible Fletching Kit, Feir`Dal Fletching Kit, Surefall Fletching Kit, Fletching Table (Placeable), Fletching Table, Guild Fletching Table\nYield: 1\nAlso Returns: Planing Tool(1), 5 Knot Measuring String(1)\nOn Failure Returns: Planing Tool(1), 5 Knot Measuring String(1)\nNotes: EQRecipeID: 13812"
+    },
+    {
+      "recipe_id": 3094448,
+      "source_name": "Simple Staff",
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=519&rsa=Fletching&sub=Sod",
+      "output_source_url": "https://www.eqtraders.com/items/show_item.php?item=31431&menustr=010000000000",
+      "output_item_id": 48196,
+      "trivial": 66,
+      "yield_count": 1,
+      "ingredients": [
+        {
+          "item_id": 8080,
+          "name": "Hickory Bowstave",
+          "count": 1
+        },
+        {
+          "item_id": 8086,
+          "name": "Planing Tool",
+          "count": 1
+        },
+        {
+          "item_id": 34214,
+          "name": "Sullied Silk",
+          "count": 1
+        }
+      ],
+      "container_item_ids": [
+        17189,
+        17762,
+        17910
+      ],
+      "held_source_containers": [
+        {
+          "name": "Feir`Dal Fletching Kit",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=7858"
+        },
+        {
+          "name": "Surefall Fletching Kit",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=9604"
+        },
+        {
+          "name": "Fletching Table (Placeable)",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34388"
+        },
+        {
+          "name": "Fletching Table",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34483"
+        },
+        {
+          "name": "Guild Fletching Table",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=38416"
+        }
+      ],
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "source_formula": "Components: Hickory Bowstave, Planing Tool, Sullied Silk\nIn: Fletching Kit, Planar Fletching Kit, Collapsible Fletching Kit, Feir`Dal Fletching Kit, Surefall Fletching Kit, Fletching Table (Placeable), Fletching Table, Guild Fletching Table\nYield: 1\nAlso Returns: Planing Tool(1)\nOn Failure Returns: Planing Tool(1)\nNotes: EQRecipeID: 13813"
+    },
+    {
+      "recipe_id": 3094449,
+      "source_name": "Ornate Short Haft",
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=519&rsa=Fletching&sub=Sod",
+      "output_source_url": "https://www.eqtraders.com/items/show_item.php?item=31433&menustr=010000000000",
+      "output_item_id": 48198,
+      "trivial": 112,
+      "yield_count": 1,
+      "ingredients": [
+        {
+          "item_id": 38512,
+          "name": "3 Knot Measuring String",
+          "count": 1
+        },
+        {
+          "item_id": 34216,
+          "name": "Crude Silk",
+          "count": 1
+        },
+        {
+          "item_id": 8081,
+          "name": "Elm Bowstave",
+          "count": 1
+        },
+        {
+          "item_id": 8086,
+          "name": "Planing Tool",
+          "count": 1
+        }
+      ],
+      "container_item_ids": [
+        17189,
+        17762,
+        17910
+      ],
+      "held_source_containers": [
+        {
+          "name": "Feir`Dal Fletching Kit",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=7858"
+        },
+        {
+          "name": "Surefall Fletching Kit",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=9604"
+        },
+        {
+          "name": "Fletching Table (Placeable)",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34388"
+        },
+        {
+          "name": "Fletching Table",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34483"
+        },
+        {
+          "name": "Guild Fletching Table",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=38416"
+        }
+      ],
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "source_formula": "Components: 3 Knot Measuring String, Crude Silk, Elm Bowstave, Planing Tool\nIn: Fletching Kit, Planar Fletching Kit, Collapsible Fletching Kit, Feir`Dal Fletching Kit, Surefall Fletching Kit, Fletching Table (Placeable), Fletching Table, Guild Fletching Table\nYield: 1\nAlso Returns: Planing Tool(1), 3 Knot Measuring String(1)\nOn Failure Returns: Planing Tool(1), 3 Knot Measuring String(1)\nNotes: EQRecipeID: 13815"
+    },
+    {
+      "recipe_id": 3094450,
+      "source_name": "Ornate Haft",
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=519&rsa=Fletching&sub=Sod",
+      "output_source_url": "https://www.eqtraders.com/items/show_item.php?item=31434&menustr=010000000000",
+      "output_item_id": 48199,
+      "trivial": 112,
+      "yield_count": 1,
+      "ingredients": [
+        {
+          "item_id": 38513,
+          "name": "4 Knot Measuring String",
+          "count": 1
+        },
+        {
+          "item_id": 34216,
+          "name": "Crude Silk",
+          "count": 1
+        },
+        {
+          "item_id": 8081,
+          "name": "Elm Bowstave",
+          "count": 1
+        },
+        {
+          "item_id": 8086,
+          "name": "Planing Tool",
+          "count": 1
+        }
+      ],
+      "container_item_ids": [
+        17189,
+        17762,
+        17910
+      ],
+      "held_source_containers": [
+        {
+          "name": "Feir`Dal Fletching Kit",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=7858"
+        },
+        {
+          "name": "Surefall Fletching Kit",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=9604"
+        },
+        {
+          "name": "Fletching Table (Placeable)",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34388"
+        },
+        {
+          "name": "Fletching Table",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34483"
+        },
+        {
+          "name": "Guild Fletching Table",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=38416"
+        }
+      ],
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "source_formula": "Components: 4 Knot Measuring String, Crude Silk, Elm Bowstave, Planing Tool\nIn: Fletching Kit, Planar Fletching Kit, Collapsible Fletching Kit, Feir`Dal Fletching Kit, Surefall Fletching Kit, Fletching Table (Placeable), Fletching Table, Guild Fletching Table\nYield: 1\nAlso Returns: Planing Tool(1), 4 Knot Measuring String(1)\nOn Failure Returns: Planing Tool(1), 4 Knot Measuring String(1)\nNotes: EQRecipeID: 13816"
+    },
+    {
+      "recipe_id": 3094451,
+      "source_name": "Ornate Long Haft",
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=519&rsa=Fletching&sub=Sod",
+      "output_source_url": "https://www.eqtraders.com/items/show_item.php?item=31435&menustr=010000000000",
+      "output_item_id": 48200,
+      "trivial": 112,
+      "yield_count": 1,
+      "ingredients": [
+        {
+          "item_id": 38515,
+          "name": "6 Knot Measuring String",
+          "count": 1
+        },
+        {
+          "item_id": 34216,
+          "name": "Crude Silk",
+          "count": 1
+        },
+        {
+          "item_id": 8081,
+          "name": "Elm Bowstave",
+          "count": 1
+        },
+        {
+          "item_id": 8086,
+          "name": "Planing Tool",
+          "count": 1
+        }
+      ],
+      "container_item_ids": [
+        17189,
+        17762,
+        17910
+      ],
+      "held_source_containers": [
+        {
+          "name": "Feir`Dal Fletching Kit",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=7858"
+        },
+        {
+          "name": "Surefall Fletching Kit",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=9604"
+        },
+        {
+          "name": "Fletching Table (Placeable)",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34388"
+        },
+        {
+          "name": "Fletching Table",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34483"
+        },
+        {
+          "name": "Guild Fletching Table",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=38416"
+        }
+      ],
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "source_formula": "Components: 6 Knot Measuring String, Crude Silk, Elm Bowstave, Planing Tool\nIn: Fletching Kit, Planar Fletching Kit, Collapsible Fletching Kit, Feir`Dal Fletching Kit, Surefall Fletching Kit, Fletching Table (Placeable), Fletching Table, Guild Fletching Table\nYield: 1\nAlso Returns: Planing Tool(1), 6 Knot Measuring String(1)\nOn Failure Returns: Planing Tool(1), 6 Knot Measuring String(1)\nNotes: EQRecipeID: 13817"
+    },
+    {
+      "recipe_id": 3094452,
+      "source_name": "Ornate Baton",
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=519&rsa=Fletching&sub=Sod",
+      "output_source_url": "https://www.eqtraders.com/items/show_item.php?item=31436&menustr=010000000000",
+      "output_item_id": 48201,
+      "trivial": 114,
+      "yield_count": 1,
+      "ingredients": [
+        {
+          "item_id": 38514,
+          "name": "5 Knot Measuring String",
+          "count": 1
+        },
+        {
+          "item_id": 34216,
+          "name": "Crude Silk",
+          "count": 1
+        },
+        {
+          "item_id": 8081,
+          "name": "Elm Bowstave",
+          "count": 1
+        },
+        {
+          "item_id": 8086,
+          "name": "Planing Tool",
+          "count": 1
+        }
+      ],
+      "container_item_ids": [
+        17189,
+        17762,
+        17910
+      ],
+      "held_source_containers": [
+        {
+          "name": "Feir`Dal Fletching Kit",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=7858"
+        },
+        {
+          "name": "Surefall Fletching Kit",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=9604"
+        },
+        {
+          "name": "Fletching Table (Placeable)",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34388"
+        },
+        {
+          "name": "Fletching Table",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34483"
+        },
+        {
+          "name": "Guild Fletching Table",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=38416"
+        }
+      ],
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "source_formula": "Components: 5 Knot Measuring String, Crude Silk, Elm Bowstave, Planing Tool\nIn: Fletching Kit, Planar Fletching Kit, Collapsible Fletching Kit, Feir`Dal Fletching Kit, Surefall Fletching Kit, Fletching Table (Placeable), Fletching Table, Guild Fletching Table\nYield: 1\nAlso Returns: Planing Tool(1), 5 Knot Measuring String(1)\nOn Failure Returns: Planing Tool(1), 5 Knot Measuring String(1)\nNotes: EQRecipeID: 13818"
+    },
+    {
+      "recipe_id": 3094453,
+      "source_name": "Ornate Staff",
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=519&rsa=Fletching&sub=Sod",
+      "output_source_url": "https://www.eqtraders.com/items/show_item.php?item=31437&menustr=010000000000",
+      "output_item_id": 48202,
+      "trivial": 116,
+      "yield_count": 1,
+      "ingredients": [
+        {
+          "item_id": 34216,
+          "name": "Crude Silk",
+          "count": 1
+        },
+        {
+          "item_id": 8081,
+          "name": "Elm Bowstave",
+          "count": 1
+        },
+        {
+          "item_id": 8086,
+          "name": "Planing Tool",
+          "count": 1
+        }
+      ],
+      "container_item_ids": [
+        17189,
+        17762,
+        17910
+      ],
+      "held_source_containers": [
+        {
+          "name": "Feir`Dal Fletching Kit",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=7858"
+        },
+        {
+          "name": "Surefall Fletching Kit",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=9604"
+        },
+        {
+          "name": "Fletching Table (Placeable)",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34388"
+        },
+        {
+          "name": "Fletching Table",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34483"
+        },
+        {
+          "name": "Guild Fletching Table",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=38416"
+        }
+      ],
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "source_formula": "Components: Crude Silk, Elm Bowstave, Planing Tool\nIn: Fletching Kit, Planar Fletching Kit, Collapsible Fletching Kit, Feir`Dal Fletching Kit, Surefall Fletching Kit, Fletching Table (Placeable), Fletching Table, Guild Fletching Table\nYield: 1\nAlso Returns: Planing Tool(1)\nOn Failure Returns: Planing Tool(1)\nNotes: EQRecipeID: 13819"
+    },
+    {
+      "recipe_id": 3094454,
+      "source_name": "Intricate Short Haft",
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=519&rsa=Fletching&sub=Sod",
+      "output_source_url": "https://www.eqtraders.com/items/show_item.php?item=31439&menustr=010000000000",
+      "output_item_id": 48204,
+      "trivial": 184,
+      "yield_count": 1,
+      "ingredients": [
+        {
+          "item_id": 38512,
+          "name": "3 Knot Measuring String",
+          "count": 1
+        },
+        {
+          "item_id": 8082,
+          "name": "Ashwood Bowstave",
+          "count": 1
+        },
+        {
+          "item_id": 34219,
+          "name": "Fine Silk",
+          "count": 1
+        },
+        {
+          "item_id": 8086,
+          "name": "Planing Tool",
+          "count": 1
+        }
+      ],
+      "container_item_ids": [
+        17189,
+        17762,
+        17910
+      ],
+      "held_source_containers": [
+        {
+          "name": "Feir`Dal Fletching Kit",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=7858"
+        },
+        {
+          "name": "Surefall Fletching Kit",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=9604"
+        },
+        {
+          "name": "Fletching Table (Placeable)",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34388"
+        },
+        {
+          "name": "Fletching Table",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34483"
+        },
+        {
+          "name": "Guild Fletching Table",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=38416"
+        }
+      ],
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "source_formula": "Components: 3 Knot Measuring String, Ashwood Bowstave, Fine Silk, Planing Tool\nIn: Fletching Kit, Planar Fletching Kit, Collapsible Fletching Kit, Feir`Dal Fletching Kit, Surefall Fletching Kit, Fletching Table (Placeable), Fletching Table, Guild Fletching Table\nYield: 1\nAlso Returns: Planing Tool(1), 3 Knot Measuring String(1)\nOn Failure Returns: Planing Tool(1), 3 Knot Measuring String(1)\nNotes: EQRecipeID: 13821"
+    },
+    {
+      "recipe_id": 3094455,
+      "source_name": "Intricate Haft",
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=519&rsa=Fletching&sub=Sod",
+      "output_source_url": "https://www.eqtraders.com/items/show_item.php?item=31440&menustr=010000000000",
+      "output_item_id": 48205,
+      "trivial": 184,
+      "yield_count": 1,
+      "ingredients": [
+        {
+          "item_id": 38513,
+          "name": "4 Knot Measuring String",
+          "count": 1
+        },
+        {
+          "item_id": 8082,
+          "name": "Ashwood Bowstave",
+          "count": 1
+        },
+        {
+          "item_id": 34219,
+          "name": "Fine Silk",
+          "count": 1
+        },
+        {
+          "item_id": 8086,
+          "name": "Planing Tool",
+          "count": 1
+        }
+      ],
+      "container_item_ids": [
+        17189,
+        17762,
+        17910
+      ],
+      "held_source_containers": [
+        {
+          "name": "Feir`Dal Fletching Kit",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=7858"
+        },
+        {
+          "name": "Surefall Fletching Kit",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=9604"
+        },
+        {
+          "name": "Fletching Table (Placeable)",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34388"
+        },
+        {
+          "name": "Fletching Table",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34483"
+        },
+        {
+          "name": "Guild Fletching Table",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=38416"
+        }
+      ],
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "source_formula": "Components: 4 Knot Measuring String, Ashwood Bowstave, Fine Silk, Planing Tool\nIn: Fletching Kit, Planar Fletching Kit, Collapsible Fletching Kit, Feir`Dal Fletching Kit, Surefall Fletching Kit, Fletching Table (Placeable), Fletching Table, Guild Fletching Table\nYield: 1\nAlso Returns: Planing Tool(1), 4 Knot Measuring String(1)\nOn Failure Returns: Planing Tool(1), 4 Knot Measuring String(1)\nNotes: EQRecipeID: 13822"
+    },
+    {
+      "recipe_id": 3094456,
+      "source_name": "Intricate Long Haft",
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=519&rsa=Fletching&sub=Sod",
+      "output_source_url": "https://www.eqtraders.com/items/show_item.php?item=31441&menustr=010000000000",
+      "output_item_id": 48206,
+      "trivial": 184,
+      "yield_count": 1,
+      "ingredients": [
+        {
+          "item_id": 38515,
+          "name": "6 Knot Measuring String",
+          "count": 1
+        },
+        {
+          "item_id": 8082,
+          "name": "Ashwood Bowstave",
+          "count": 1
+        },
+        {
+          "item_id": 34219,
+          "name": "Fine Silk",
+          "count": 1
+        },
+        {
+          "item_id": 8086,
+          "name": "Planing Tool",
+          "count": 1
+        }
+      ],
+      "container_item_ids": [
+        17189,
+        17762,
+        17910
+      ],
+      "held_source_containers": [
+        {
+          "name": "Feir`Dal Fletching Kit",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=7858"
+        },
+        {
+          "name": "Surefall Fletching Kit",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=9604"
+        },
+        {
+          "name": "Fletching Table (Placeable)",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34388"
+        },
+        {
+          "name": "Fletching Table",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34483"
+        },
+        {
+          "name": "Guild Fletching Table",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=38416"
+        }
+      ],
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "source_formula": "Components: 6 Knot Measuring String, Ashwood Bowstave, Fine Silk, Planing Tool\nIn: Fletching Kit, Planar Fletching Kit, Collapsible Fletching Kit, Feir`Dal Fletching Kit, Surefall Fletching Kit, Fletching Table (Placeable), Fletching Table, Guild Fletching Table\nYield: 1\nAlso Returns: Planing Tool(1), 6 Knot Measuring String(1)\nOn Failure Returns: Planing Tool(1), 6 Knot Measuring String(1)\nNotes: EQRecipeID: 13823"
+    },
+    {
+      "recipe_id": 3094457,
+      "source_name": "Intricate Baton",
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=519&rsa=Fletching&sub=Sod",
+      "output_source_url": "https://www.eqtraders.com/items/show_item.php?item=31442&menustr=010000000000",
+      "output_item_id": 48207,
+      "trivial": 187,
+      "yield_count": 1,
+      "ingredients": [
+        {
+          "item_id": 38514,
+          "name": "5 Knot Measuring String",
+          "count": 1
+        },
+        {
+          "item_id": 8082,
+          "name": "Ashwood Bowstave",
+          "count": 1
+        },
+        {
+          "item_id": 34219,
+          "name": "Fine Silk",
+          "count": 1
+        },
+        {
+          "item_id": 8086,
+          "name": "Planing Tool",
+          "count": 1
+        }
+      ],
+      "container_item_ids": [
+        17189,
+        17762,
+        17910
+      ],
+      "held_source_containers": [
+        {
+          "name": "Feir`Dal Fletching Kit",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=7858"
+        },
+        {
+          "name": "Surefall Fletching Kit",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=9604"
+        },
+        {
+          "name": "Fletching Table (Placeable)",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34388"
+        },
+        {
+          "name": "Fletching Table",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34483"
+        },
+        {
+          "name": "Guild Fletching Table",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=38416"
+        }
+      ],
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "source_formula": "Components: 5 Knot Measuring String, Ashwood Bowstave, Fine Silk, Planing Tool\nIn: Fletching Kit, Planar Fletching Kit, Collapsible Fletching Kit, Feir`Dal Fletching Kit, Surefall Fletching Kit, Fletching Table (Placeable), Fletching Table, Guild Fletching Table\nYield: 1\nAlso Returns: Planing Tool(1), 5 Knot Measuring String(1)\nOn Failure Returns: Planing Tool(1), 5 Knot Measuring String(1)\nNotes: EQRecipeID: 13824"
+    },
+    {
+      "recipe_id": 3094458,
+      "source_name": "Intricate Staff",
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=519&rsa=Fletching&sub=Sod",
+      "output_source_url": "https://www.eqtraders.com/items/show_item.php?item=31443&menustr=010000000000",
+      "output_item_id": 48208,
+      "trivial": 188,
+      "yield_count": 1,
+      "ingredients": [
+        {
+          "item_id": 8082,
+          "name": "Ashwood Bowstave",
+          "count": 1
+        },
+        {
+          "item_id": 34219,
+          "name": "Fine Silk",
+          "count": 1
+        },
+        {
+          "item_id": 8086,
+          "name": "Planing Tool",
+          "count": 1
+        }
+      ],
+      "container_item_ids": [
+        17189,
+        17762,
+        17910
+      ],
+      "held_source_containers": [
+        {
+          "name": "Feir`Dal Fletching Kit",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=7858"
+        },
+        {
+          "name": "Surefall Fletching Kit",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=9604"
+        },
+        {
+          "name": "Fletching Table (Placeable)",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34388"
+        },
+        {
+          "name": "Fletching Table",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34483"
+        },
+        {
+          "name": "Guild Fletching Table",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=38416"
+        }
+      ],
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "source_formula": "Components: Ashwood Bowstave, Fine Silk, Planing Tool\nIn: Fletching Kit, Planar Fletching Kit, Collapsible Fletching Kit, Feir`Dal Fletching Kit, Surefall Fletching Kit, Fletching Table (Placeable), Fletching Table, Guild Fletching Table\nYield: 1\nAlso Returns: Planing Tool(1)\nOn Failure Returns: Planing Tool(1)\nNotes: EQRecipeID: 13825"
+    },
+    {
+      "recipe_id": 3094459,
+      "source_name": "Intricate Handle",
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=519&rsa=Fletching&sub=Sod",
+      "output_source_url": "https://www.eqtraders.com/items/show_item.php?item=31444&menustr=010000000000",
+      "output_item_id": 48209,
+      "trivial": 184,
+      "yield_count": 1,
+      "ingredients": [
+        {
+          "item_id": 38511,
+          "name": "2 Knot Measuring String",
+          "count": 1
+        },
+        {
+          "item_id": 8082,
+          "name": "Ashwood Bowstave",
+          "count": 1
+        },
+        {
+          "item_id": 34219,
+          "name": "Fine Silk",
+          "count": 1
+        },
+        {
+          "item_id": 8086,
+          "name": "Planing Tool",
+          "count": 1
+        }
+      ],
+      "container_item_ids": [
+        17189,
+        17762,
+        17910
+      ],
+      "held_source_containers": [
+        {
+          "name": "Feir`Dal Fletching Kit",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=7858"
+        },
+        {
+          "name": "Surefall Fletching Kit",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=9604"
+        },
+        {
+          "name": "Fletching Table (Placeable)",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34388"
+        },
+        {
+          "name": "Fletching Table",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34483"
+        },
+        {
+          "name": "Guild Fletching Table",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=38416"
+        }
+      ],
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "source_formula": "Components: 2 Knot Measuring String, Ashwood Bowstave, Fine Silk, Planing Tool\nIn: Fletching Kit, Planar Fletching Kit, Collapsible Fletching Kit, Feir`Dal Fletching Kit, Surefall Fletching Kit, Fletching Table (Placeable), Fletching Table, Guild Fletching Table\nYield: 1\nAlso Returns: Planing Tool(1), 2 Knot Measuring String(1)\nOn Failure Returns: Planing Tool(1), 2 Knot Measuring String(1)\nNotes: EQRecipeID: 13826"
+    },
+    {
+      "recipe_id": 3094460,
+      "source_name": "Elaborate Short Haft",
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=519&rsa=Fletching&sub=Sod",
+      "output_source_url": "https://www.eqtraders.com/items/show_item.php?item=31445&menustr=010000000000",
+      "output_item_id": 48210,
+      "trivial": 222,
+      "yield_count": 1,
+      "ingredients": [
+        {
+          "item_id": 38512,
+          "name": "3 Knot Measuring String",
+          "count": 1
+        },
+        {
+          "item_id": 8083,
+          "name": "Oak Bowstave",
+          "count": 1
+        },
+        {
+          "item_id": 8086,
+          "name": "Planing Tool",
+          "count": 1
+        },
+        {
+          "item_id": 34221,
+          "name": "Superb Silk",
+          "count": 1
+        }
+      ],
+      "container_item_ids": [
+        17189,
+        17762,
+        17910
+      ],
+      "held_source_containers": [
+        {
+          "name": "Feir`Dal Fletching Kit",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=7858"
+        },
+        {
+          "name": "Surefall Fletching Kit",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=9604"
+        },
+        {
+          "name": "Fletching Table (Placeable)",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34388"
+        },
+        {
+          "name": "Fletching Table",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34483"
+        },
+        {
+          "name": "Guild Fletching Table",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=38416"
+        }
+      ],
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "source_formula": "Components: 3 Knot Measuring String, Oak Bowstave, Planing Tool, Superb Silk\nIn: Fletching Kit, Planar Fletching Kit, Collapsible Fletching Kit, Feir`Dal Fletching Kit, Surefall Fletching Kit, Fletching Table (Placeable), Fletching Table, Guild Fletching Table\nYield: 1\nAlso Returns: Planing Tool(1), 3 Knot Measuring String(1)\nOn Failure Returns: Planing Tool(1), 3 Knot Measuring String(1)\nNotes: EQRecipeID: 13827"
+    },
+    {
+      "recipe_id": 3094461,
+      "source_name": "Elaborate Haft",
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=519&rsa=Fletching&sub=Sod",
+      "output_source_url": "https://www.eqtraders.com/items/show_item.php?item=31446&menustr=010000000000",
+      "output_item_id": 48211,
+      "trivial": 222,
+      "yield_count": 1,
+      "ingredients": [
+        {
+          "item_id": 38513,
+          "name": "4 Knot Measuring String",
+          "count": 1
+        },
+        {
+          "item_id": 8083,
+          "name": "Oak Bowstave",
+          "count": 1
+        },
+        {
+          "item_id": 8086,
+          "name": "Planing Tool",
+          "count": 1
+        },
+        {
+          "item_id": 34221,
+          "name": "Superb Silk",
+          "count": 1
+        }
+      ],
+      "container_item_ids": [
+        17189,
+        17762,
+        17910
+      ],
+      "held_source_containers": [
+        {
+          "name": "Feir`Dal Fletching Kit",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=7858"
+        },
+        {
+          "name": "Surefall Fletching Kit",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=9604"
+        },
+        {
+          "name": "Fletching Table (Placeable)",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34388"
+        },
+        {
+          "name": "Fletching Table",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34483"
+        },
+        {
+          "name": "Guild Fletching Table",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=38416"
+        }
+      ],
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "source_formula": "Components: 4 Knot Measuring String, Oak Bowstave, Planing Tool, Superb Silk\nIn: Fletching Kit, Planar Fletching Kit, Collapsible Fletching Kit, Feir`Dal Fletching Kit, Surefall Fletching Kit, Fletching Table (Placeable), Fletching Table, Guild Fletching Table\nYield: 1\nAlso Returns: Planing Tool(1), 4 Knot Measuring String(1)\nOn Failure Returns: Planing Tool(1), 4 Knot Measuring String(1)\nNotes: EQRecipeID: 13828"
+    },
+    {
+      "recipe_id": 3094462,
+      "source_name": "Elaborate Long Haft",
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=519&rsa=Fletching&sub=Sod",
+      "output_source_url": "https://www.eqtraders.com/items/show_item.php?item=31447&menustr=010000000000",
+      "output_item_id": 48212,
+      "trivial": 222,
+      "yield_count": 1,
+      "ingredients": [
+        {
+          "item_id": 38515,
+          "name": "6 Knot Measuring String",
+          "count": 1
+        },
+        {
+          "item_id": 8083,
+          "name": "Oak Bowstave",
+          "count": 1
+        },
+        {
+          "item_id": 8086,
+          "name": "Planing Tool",
+          "count": 1
+        },
+        {
+          "item_id": 34221,
+          "name": "Superb Silk",
+          "count": 1
+        }
+      ],
+      "container_item_ids": [
+        17189,
+        17762,
+        17910
+      ],
+      "held_source_containers": [
+        {
+          "name": "Feir`Dal Fletching Kit",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=7858"
+        },
+        {
+          "name": "Surefall Fletching Kit",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=9604"
+        },
+        {
+          "name": "Fletching Table (Placeable)",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34388"
+        },
+        {
+          "name": "Fletching Table",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34483"
+        },
+        {
+          "name": "Guild Fletching Table",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=38416"
+        }
+      ],
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "source_formula": "Components: 6 Knot Measuring String, Oak Bowstave, Planing Tool, Superb Silk\nIn: Fletching Kit, Planar Fletching Kit, Collapsible Fletching Kit, Feir`Dal Fletching Kit, Surefall Fletching Kit, Fletching Table (Placeable), Fletching Table, Guild Fletching Table\nYield: 1\nAlso Returns: Planing Tool(1), 6 Knot Measuring String(1)\nOn Failure Returns: Planing Tool(1), 6 Knot Measuring String(1)\nNotes: EQRecipeID: 13829"
+    },
+    {
+      "recipe_id": 3094463,
+      "source_name": "Elaborate Baton",
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=519&rsa=Fletching&sub=Sod",
+      "output_source_url": "https://www.eqtraders.com/items/show_item.php?item=31448&menustr=010000000000",
+      "output_item_id": 48213,
+      "trivial": 223,
+      "yield_count": 1,
+      "ingredients": [
+        {
+          "item_id": 38514,
+          "name": "5 Knot Measuring String",
+          "count": 1
+        },
+        {
+          "item_id": 8083,
+          "name": "Oak Bowstave",
+          "count": 1
+        },
+        {
+          "item_id": 8086,
+          "name": "Planing Tool",
+          "count": 1
+        },
+        {
+          "item_id": 34221,
+          "name": "Superb Silk",
+          "count": 1
+        }
+      ],
+      "container_item_ids": [
+        17189,
+        17762,
+        17910
+      ],
+      "held_source_containers": [
+        {
+          "name": "Feir`Dal Fletching Kit",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=7858"
+        },
+        {
+          "name": "Surefall Fletching Kit",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=9604"
+        },
+        {
+          "name": "Fletching Table (Placeable)",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34388"
+        },
+        {
+          "name": "Fletching Table",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34483"
+        },
+        {
+          "name": "Guild Fletching Table",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=38416"
+        }
+      ],
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "source_formula": "Components: 5 Knot Measuring String, Oak Bowstave, Planing Tool, Superb Silk\nIn: Fletching Kit, Planar Fletching Kit, Collapsible Fletching Kit, Feir`Dal Fletching Kit, Surefall Fletching Kit, Fletching Table (Placeable), Fletching Table, Guild Fletching Table\nYield: 1\nAlso Returns: Planing Tool(1), 5 Knot Measuring String(1)\nOn Failure Returns: Planing Tool(1), 5 Knot Measuring String(1)\nNotes: EQRecipeID: 13830"
+    },
+    {
+      "recipe_id": 3094464,
+      "source_name": "Elaborate Staff",
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=519&rsa=Fletching&sub=Sod",
+      "output_source_url": "https://www.eqtraders.com/items/show_item.php?item=31449&menustr=010000000000",
+      "output_item_id": 48214,
+      "trivial": 224,
+      "yield_count": 1,
+      "ingredients": [
+        {
+          "item_id": 8083,
+          "name": "Oak Bowstave",
+          "count": 1
+        },
+        {
+          "item_id": 8086,
+          "name": "Planing Tool",
+          "count": 1
+        },
+        {
+          "item_id": 34221,
+          "name": "Superb Silk",
+          "count": 1
+        }
+      ],
+      "container_item_ids": [
+        17189,
+        17762,
+        17910
+      ],
+      "held_source_containers": [
+        {
+          "name": "Feir`Dal Fletching Kit",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=7858"
+        },
+        {
+          "name": "Surefall Fletching Kit",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=9604"
+        },
+        {
+          "name": "Fletching Table (Placeable)",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34388"
+        },
+        {
+          "name": "Fletching Table",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34483"
+        },
+        {
+          "name": "Guild Fletching Table",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=38416"
+        }
+      ],
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "source_formula": "Components: Oak Bowstave, Planing Tool, Superb Silk\nIn: Fletching Kit, Planar Fletching Kit, Collapsible Fletching Kit, Feir`Dal Fletching Kit, Surefall Fletching Kit, Fletching Table (Placeable), Fletching Table, Guild Fletching Table\nYield: 1\nAlso Returns: Planing Tool(1)\nOn Failure Returns: Planing Tool(1)\nNotes: EQRecipeID: 13831"
+    },
+    {
+      "recipe_id": 3094465,
+      "source_name": "Inured Short Haft",
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=519&rsa=Fletching&sub=Sod",
+      "output_source_url": "https://www.eqtraders.com/items/show_item.php?item=31451&menustr=010000000000",
+      "output_item_id": 48216,
+      "trivial": 242,
+      "yield_count": 1,
+      "ingredients": [
+        {
+          "item_id": 38512,
+          "name": "3 Knot Measuring String",
+          "count": 1
+        },
+        {
+          "item_id": 34222,
+          "name": "Flawless Silk",
+          "count": 1
+        },
+        {
+          "item_id": 8083,
+          "name": "Oak Bowstave",
+          "count": 1
+        },
+        {
+          "item_id": 8086,
+          "name": "Planing Tool",
+          "count": 1
+        }
+      ],
+      "container_item_ids": [
+        17189,
+        17762,
+        17910
+      ],
+      "held_source_containers": [
+        {
+          "name": "Feir`Dal Fletching Kit",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=7858"
+        },
+        {
+          "name": "Surefall Fletching Kit",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=9604"
+        },
+        {
+          "name": "Fletching Table (Placeable)",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34388"
+        },
+        {
+          "name": "Fletching Table",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34483"
+        },
+        {
+          "name": "Guild Fletching Table",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=38416"
+        }
+      ],
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "source_formula": "Components: 3 Knot Measuring String, Flawless Silk, Oak Bowstave, Planing Tool\nIn: Fletching Kit, Planar Fletching Kit, Collapsible Fletching Kit, Feir`Dal Fletching Kit, Surefall Fletching Kit, Fletching Table (Placeable), Fletching Table, Guild Fletching Table\nYield: 1\nAlso Returns: Planing Tool(1), 3 Knot Measuring String(1)\nOn Failure Returns: Planing Tool(1), 3 Knot Measuring String(1)\nNotes: EQRecipeID: 13833"
+    },
+    {
+      "recipe_id": 3094466,
+      "source_name": "Inured Haft",
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=519&rsa=Fletching&sub=Sod",
+      "output_source_url": "https://www.eqtraders.com/items/show_item.php?item=31452&menustr=010000000000",
+      "output_item_id": 48217,
+      "trivial": 242,
+      "yield_count": 1,
+      "ingredients": [
+        {
+          "item_id": 38513,
+          "name": "4 Knot Measuring String",
+          "count": 1
+        },
+        {
+          "item_id": 34222,
+          "name": "Flawless Silk",
+          "count": 1
+        },
+        {
+          "item_id": 8083,
+          "name": "Oak Bowstave",
+          "count": 1
+        },
+        {
+          "item_id": 8086,
+          "name": "Planing Tool",
+          "count": 1
+        }
+      ],
+      "container_item_ids": [
+        17189,
+        17762,
+        17910
+      ],
+      "held_source_containers": [
+        {
+          "name": "Feir`Dal Fletching Kit",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=7858"
+        },
+        {
+          "name": "Surefall Fletching Kit",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=9604"
+        },
+        {
+          "name": "Fletching Table (Placeable)",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34388"
+        },
+        {
+          "name": "Fletching Table",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34483"
+        },
+        {
+          "name": "Guild Fletching Table",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=38416"
+        }
+      ],
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "source_formula": "Components: 4 Knot Measuring String, Flawless Silk, Oak Bowstave, Planing Tool\nIn: Fletching Kit, Planar Fletching Kit, Collapsible Fletching Kit, Feir`Dal Fletching Kit, Surefall Fletching Kit, Fletching Table (Placeable), Fletching Table, Guild Fletching Table\nYield: 1\nAlso Returns: Planing Tool(1), 4 Knot Measuring String(1)\nOn Failure Returns: Planing Tool(1), 4 Knot Measuring String(1)\nNotes: EQRecipeID: 13834"
+    },
+    {
+      "recipe_id": 3094467,
+      "source_name": "Inured Long Haft",
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=519&rsa=Fletching&sub=Sod",
+      "output_source_url": "https://www.eqtraders.com/items/show_item.php?item=31453&menustr=010000000000",
+      "output_item_id": 48218,
+      "trivial": 242,
+      "yield_count": 1,
+      "ingredients": [
+        {
+          "item_id": 38515,
+          "name": "6 Knot Measuring String",
+          "count": 1
+        },
+        {
+          "item_id": 34222,
+          "name": "Flawless Silk",
+          "count": 1
+        },
+        {
+          "item_id": 8083,
+          "name": "Oak Bowstave",
+          "count": 1
+        },
+        {
+          "item_id": 8086,
+          "name": "Planing Tool",
+          "count": 1
+        }
+      ],
+      "container_item_ids": [
+        17189,
+        17762,
+        17910
+      ],
+      "held_source_containers": [
+        {
+          "name": "Feir`Dal Fletching Kit",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=7858"
+        },
+        {
+          "name": "Surefall Fletching Kit",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=9604"
+        },
+        {
+          "name": "Fletching Table (Placeable)",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34388"
+        },
+        {
+          "name": "Fletching Table",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34483"
+        },
+        {
+          "name": "Guild Fletching Table",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=38416"
+        }
+      ],
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "source_formula": "Components: 6 Knot Measuring String, Flawless Silk, Oak Bowstave, Planing Tool\nIn: Fletching Kit, Planar Fletching Kit, Collapsible Fletching Kit, Feir`Dal Fletching Kit, Surefall Fletching Kit, Fletching Table (Placeable), Fletching Table, Guild Fletching Table\nYield: 1\nAlso Returns: Planing Tool(1), 6 Knot Measuring String(1)\nOn Failure Returns: Planing Tool(1), 6 Knot Measuring String(1)\nNotes: EQRecipeID: 13835"
+    },
+    {
+      "recipe_id": 3094468,
+      "source_name": "Inured Baton",
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=519&rsa=Fletching&sub=Sod",
+      "output_source_url": "https://www.eqtraders.com/items/show_item.php?item=31454&menustr=010000000000",
+      "output_item_id": 48219,
+      "trivial": 244,
+      "yield_count": 1,
+      "ingredients": [
+        {
+          "item_id": 38514,
+          "name": "5 Knot Measuring String",
+          "count": 1
+        },
+        {
+          "item_id": 34222,
+          "name": "Flawless Silk",
+          "count": 1
+        },
+        {
+          "item_id": 8083,
+          "name": "Oak Bowstave",
+          "count": 1
+        },
+        {
+          "item_id": 8086,
+          "name": "Planing Tool",
+          "count": 1
+        }
+      ],
+      "container_item_ids": [
+        17189,
+        17762,
+        17910
+      ],
+      "held_source_containers": [
+        {
+          "name": "Feir`Dal Fletching Kit",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=7858"
+        },
+        {
+          "name": "Surefall Fletching Kit",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=9604"
+        },
+        {
+          "name": "Fletching Table (Placeable)",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34388"
+        },
+        {
+          "name": "Fletching Table",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34483"
+        },
+        {
+          "name": "Guild Fletching Table",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=38416"
+        }
+      ],
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "source_formula": "Components: 5 Knot Measuring String, Flawless Silk, Oak Bowstave, Planing Tool\nIn: Fletching Kit, Planar Fletching Kit, Collapsible Fletching Kit, Feir`Dal Fletching Kit, Surefall Fletching Kit, Fletching Table (Placeable), Fletching Table, Guild Fletching Table\nYield: 1\nAlso Returns: Planing Tool(1), 5 Knot Measuring String(1)\nOn Failure Returns: Planing Tool(1), 5 Knot Measuring String(1)\nNotes: EQRecipeID: 13836"
+    },
+    {
+      "recipe_id": 3094469,
+      "source_name": "Inured Staff",
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=519&rsa=Fletching&sub=Sod",
+      "output_source_url": "https://www.eqtraders.com/items/show_item.php?item=31455&menustr=010000000000",
+      "output_item_id": 48220,
+      "trivial": 246,
+      "yield_count": 1,
+      "ingredients": [
+        {
+          "item_id": 34222,
+          "name": "Flawless Silk",
+          "count": 1
+        },
+        {
+          "item_id": 8083,
+          "name": "Oak Bowstave",
+          "count": 1
+        },
+        {
+          "item_id": 8086,
+          "name": "Planing Tool",
+          "count": 1
+        }
+      ],
+      "container_item_ids": [
+        17189,
+        17762,
+        17910
+      ],
+      "held_source_containers": [
+        {
+          "name": "Feir`Dal Fletching Kit",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=7858"
+        },
+        {
+          "name": "Surefall Fletching Kit",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=9604"
+        },
+        {
+          "name": "Fletching Table (Placeable)",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34388"
+        },
+        {
+          "name": "Fletching Table",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34483"
+        },
+        {
+          "name": "Guild Fletching Table",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=38416"
+        }
+      ],
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "source_formula": "Components: Flawless Silk, Oak Bowstave, Planing Tool\nIn: Fletching Kit, Planar Fletching Kit, Collapsible Fletching Kit, Feir`Dal Fletching Kit, Surefall Fletching Kit, Fletching Table (Placeable), Fletching Table, Guild Fletching Table\nYield: 1\nAlso Returns: Planing Tool(1)\nOn Failure Returns: Planing Tool(1)\nNotes: EQRecipeID: 13837"
+    },
+    {
+      "recipe_id": 3094470,
+      "source_name": "Elegant Short Haft",
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=519&rsa=Fletching&sub=Sod",
+      "output_source_url": "https://www.eqtraders.com/items/show_item.php?item=31457&menustr=010000000000",
+      "output_item_id": 48222,
+      "trivial": 255,
+      "yield_count": 1,
+      "ingredients": [
+        {
+          "item_id": 38512,
+          "name": "3 Knot Measuring String",
+          "count": 1
+        },
+        {
+          "item_id": 8084,
+          "name": "Darkwood Bowstave",
+          "count": 1
+        },
+        {
+          "item_id": 34223,
+          "name": "Exquisite Silk",
+          "count": 1
+        },
+        {
+          "item_id": 8086,
+          "name": "Planing Tool",
+          "count": 1
+        }
+      ],
+      "container_item_ids": [
+        17189,
+        17762,
+        17910
+      ],
+      "held_source_containers": [
+        {
+          "name": "Feir`Dal Fletching Kit",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=7858"
+        },
+        {
+          "name": "Surefall Fletching Kit",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=9604"
+        },
+        {
+          "name": "Fletching Table (Placeable)",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34388"
+        },
+        {
+          "name": "Fletching Table",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34483"
+        },
+        {
+          "name": "Guild Fletching Table",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=38416"
+        }
+      ],
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "source_formula": "Components: 3 Knot Measuring String, Darkwood Bowstave, Exquisite Silk, Planing Tool\nIn: Fletching Kit, Planar Fletching Kit, Collapsible Fletching Kit, Feir`Dal Fletching Kit, Surefall Fletching Kit, Fletching Table (Placeable), Fletching Table, Guild Fletching Table\nYield: 1\nAlso Returns: Planing Tool(1), 3 Knot Measuring String(1)\nOn Failure Returns: Planing Tool(1), 3 Knot Measuring String(1)\nNotes: EQRecipeID: 13839"
+    },
+    {
+      "recipe_id": 3094471,
+      "source_name": "Elegant Haft",
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=519&rsa=Fletching&sub=Sod",
+      "output_source_url": "https://www.eqtraders.com/items/show_item.php?item=31458&menustr=010000000000",
+      "output_item_id": 48223,
+      "trivial": 255,
+      "yield_count": 1,
+      "ingredients": [
+        {
+          "item_id": 38513,
+          "name": "4 Knot Measuring String",
+          "count": 1
+        },
+        {
+          "item_id": 8084,
+          "name": "Darkwood Bowstave",
+          "count": 1
+        },
+        {
+          "item_id": 34223,
+          "name": "Exquisite Silk",
+          "count": 1
+        },
+        {
+          "item_id": 8086,
+          "name": "Planing Tool",
+          "count": 1
+        }
+      ],
+      "container_item_ids": [
+        17189,
+        17762,
+        17910
+      ],
+      "held_source_containers": [
+        {
+          "name": "Feir`Dal Fletching Kit",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=7858"
+        },
+        {
+          "name": "Surefall Fletching Kit",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=9604"
+        },
+        {
+          "name": "Fletching Table (Placeable)",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34388"
+        },
+        {
+          "name": "Fletching Table",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34483"
+        },
+        {
+          "name": "Guild Fletching Table",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=38416"
+        }
+      ],
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "source_formula": "Components: 4 Knot Measuring String, Darkwood Bowstave, Exquisite Silk, Planing Tool\nIn: Fletching Kit, Planar Fletching Kit, Collapsible Fletching Kit, Feir`Dal Fletching Kit, Surefall Fletching Kit, Fletching Table (Placeable), Fletching Table, Guild Fletching Table\nYield: 1\nAlso Returns: Planing Tool(1), 4 Knot Measuring String(1)\nOn Failure Returns: Planing Tool(1), 4 Knot Measuring String(1)\nNotes: EQRecipeID: 13840"
+    },
+    {
+      "recipe_id": 3094472,
+      "source_name": "Elegant Long Haft",
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=519&rsa=Fletching&sub=Sod",
+      "output_source_url": "https://www.eqtraders.com/items/show_item.php?item=31459&menustr=010000000000",
+      "output_item_id": 48224,
+      "trivial": 255,
+      "yield_count": 1,
+      "ingredients": [
+        {
+          "item_id": 38515,
+          "name": "6 Knot Measuring String",
+          "count": 1
+        },
+        {
+          "item_id": 8084,
+          "name": "Darkwood Bowstave",
+          "count": 1
+        },
+        {
+          "item_id": 34223,
+          "name": "Exquisite Silk",
+          "count": 1
+        },
+        {
+          "item_id": 8086,
+          "name": "Planing Tool",
+          "count": 1
+        }
+      ],
+      "container_item_ids": [
+        17189,
+        17762,
+        17910
+      ],
+      "held_source_containers": [
+        {
+          "name": "Surefall Fletching Kit",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=9604"
+        },
+        {
+          "name": "Feir`Dal Sewing Kit",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=20304"
+        },
+        {
+          "name": "Fletching Table (Placeable)",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34388"
+        },
+        {
+          "name": "Fletching Table",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34483"
+        },
+        {
+          "name": "Guild Fletching Table",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=38416"
+        }
+      ],
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "source_formula": "Components: 6 Knot Measuring String, Darkwood Bowstave, Exquisite Silk, Planing Tool\nIn: Fletching Kit, Planar Fletching Kit, Collapsible Fletching Kit, Surefall Fletching Kit, Feir`Dal Sewing Kit, Fletching Table (Placeable), Fletching Table, Guild Fletching Table\nYield: 1\nAlso Returns: Planing Tool(1), 6 Knot Measuring String(1)\nOn Failure Returns: Planing Tool(1), 6 Knot Measuring String(1)\nNotes: EQRecipeID: 13841"
+    },
+    {
+      "recipe_id": 3094473,
+      "source_name": "Elegant Baton",
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=519&rsa=Fletching&sub=Sod",
+      "output_source_url": "https://www.eqtraders.com/items/show_item.php?item=31460&menustr=010000000000",
+      "output_item_id": 48225,
+      "trivial": 256,
+      "yield_count": 1,
+      "ingredients": [
+        {
+          "item_id": 38514,
+          "name": "5 Knot Measuring String",
+          "count": 1
+        },
+        {
+          "item_id": 8084,
+          "name": "Darkwood Bowstave",
+          "count": 1
+        },
+        {
+          "item_id": 34223,
+          "name": "Exquisite Silk",
+          "count": 1
+        },
+        {
+          "item_id": 8086,
+          "name": "Planing Tool",
+          "count": 1
+        }
+      ],
+      "container_item_ids": [
+        17189,
+        17762,
+        17910
+      ],
+      "held_source_containers": [
+        {
+          "name": "Feir`Dal Fletching Kit",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=7858"
+        },
+        {
+          "name": "Surefall Fletching Kit",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=9604"
+        },
+        {
+          "name": "Fletching Table (Placeable)",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34388"
+        },
+        {
+          "name": "Fletching Table",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34483"
+        },
+        {
+          "name": "Guild Fletching Table",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=38416"
+        }
+      ],
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "source_formula": "Components: 5 Knot Measuring String, Darkwood Bowstave, Exquisite Silk, Planing Tool\nIn: Fletching Kit, Planar Fletching Kit, Collapsible Fletching Kit, Feir`Dal Fletching Kit, Surefall Fletching Kit, Fletching Table (Placeable), Fletching Table, Guild Fletching Table\nYield: 1\nAlso Returns: Planing Tool(1), 5 Knot Measuring String(1)\nOn Failure Returns: Planing Tool(1), 5 Knot Measuring String(1)\nNotes: EQRecipeID: 13842"
+    },
+    {
+      "recipe_id": 3094474,
+      "source_name": "Elegant Staff",
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=519&rsa=Fletching&sub=Sod",
+      "output_source_url": "https://www.eqtraders.com/items/show_item.php?item=31461&menustr=010000000000",
+      "output_item_id": 48226,
+      "trivial": 259,
+      "yield_count": 1,
+      "ingredients": [
+        {
+          "item_id": 8084,
+          "name": "Darkwood Bowstave",
+          "count": 1
+        },
+        {
+          "item_id": 34223,
+          "name": "Exquisite Silk",
+          "count": 1
+        },
+        {
+          "item_id": 8086,
+          "name": "Planing Tool",
+          "count": 1
+        }
+      ],
+      "container_item_ids": [
+        17189,
+        17762,
+        17910
+      ],
+      "held_source_containers": [
+        {
+          "name": "Feir`Dal Fletching Kit",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=7858"
+        },
+        {
+          "name": "Surefall Fletching Kit",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=9604"
+        },
+        {
+          "name": "Fletching Table (Placeable)",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34388"
+        },
+        {
+          "name": "Fletching Table",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34483"
+        },
+        {
+          "name": "Guild Fletching Table",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=38416"
+        }
+      ],
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "source_formula": "Components: Darkwood Bowstave, Exquisite Silk, Planing Tool\nIn: Fletching Kit, Planar Fletching Kit, Collapsible Fletching Kit, Feir`Dal Fletching Kit, Surefall Fletching Kit, Fletching Table (Placeable), Fletching Table, Guild Fletching Table\nYield: 1\nAlso Returns: Planing Tool(1)\nOn Failure Returns: Planing Tool(1)\nNotes: EQRecipeID: 13843"
+    },
+    {
+      "recipe_id": 3094475,
+      "source_name": "Stalwart Short Haft",
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=519&rsa=Fletching&sub=Sod",
+      "output_source_url": "https://www.eqtraders.com/items/show_item.php?item=31463&menustr=010000000000",
+      "output_item_id": 48228,
+      "trivial": 268,
+      "yield_count": 1,
+      "ingredients": [
+        {
+          "item_id": 38512,
+          "name": "3 Knot Measuring String",
+          "count": 1
+        },
+        {
+          "item_id": 8084,
+          "name": "Darkwood Bowstave",
+          "count": 1
+        },
+        {
+          "item_id": 48892,
+          "name": "Immaculate Silk",
+          "count": 1
+        },
+        {
+          "item_id": 8086,
+          "name": "Planing Tool",
+          "count": 1
+        }
+      ],
+      "container_item_ids": [
+        17189,
+        17910
+      ],
+      "held_source_containers": [
+        {
+          "name": "Feir`Dal Fletching Kit",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=7858"
+        },
+        {
+          "name": "Surefall Fletching Kit",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=9604"
+        },
+        {
+          "name": "Fletching Table (Placeable)",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34388"
+        },
+        {
+          "name": "Fletching Table",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34483"
+        },
+        {
+          "name": "Guild Fletching Table",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=38416"
+        }
+      ],
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "source_formula": "Components: 3 Knot Measuring String, Darkwood Bowstave, Immaculate Silk, Planing Tool\nIn: Fletching Kit, Collapsible Fletching Kit, Feir`Dal Fletching Kit, Surefall Fletching Kit, Fletching Table (Placeable), Fletching Table, Guild Fletching Table\nYield: 1\nAlso Returns: Planing Tool(1), 3 Knot Measuring String(1)\nOn Failure Returns: Planing Tool(1), 3 Knot Measuring String(1)\nNotes: EQRecipeID: 13845"
+    },
+    {
+      "recipe_id": 3094476,
+      "source_name": "Stalwart Long Haft",
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=519&rsa=Fletching&sub=Sod",
+      "output_source_url": "https://www.eqtraders.com/items/show_item.php?item=31465&menustr=010000000000",
+      "output_item_id": 48230,
+      "trivial": 268,
+      "yield_count": 1,
+      "ingredients": [
+        {
+          "item_id": 38515,
+          "name": "6 Knot Measuring String",
+          "count": 1
+        },
+        {
+          "item_id": 8084,
+          "name": "Darkwood Bowstave",
+          "count": 1
+        },
+        {
+          "item_id": 48892,
+          "name": "Immaculate Silk",
+          "count": 1
+        },
+        {
+          "item_id": 8086,
+          "name": "Planing Tool",
+          "count": 1
+        }
+      ],
+      "container_item_ids": [
+        17189,
+        17762,
+        17910
+      ],
+      "held_source_containers": [
+        {
+          "name": "Feir`Dal Fletching Kit",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=7858"
+        },
+        {
+          "name": "Surefall Fletching Kit",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=9604"
+        },
+        {
+          "name": "Fletching Table (Placeable)",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34388"
+        },
+        {
+          "name": "Fletching Table",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34483"
+        },
+        {
+          "name": "Guild Fletching Table",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=38416"
+        }
+      ],
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "source_formula": "Components: 6 Knot Measuring String, Darkwood Bowstave, Immaculate Silk, Planing Tool\nIn: Fletching Kit, Planar Fletching Kit, Collapsible Fletching Kit, Feir`Dal Fletching Kit, Surefall Fletching Kit, Fletching Table (Placeable), Fletching Table, Guild Fletching Table\nYield: 1\nAlso Returns: Planing Tool(1), 6 Knot Measuring String(1)\nOn Failure Returns: Planing Tool(1), 6 Knot Measuring String(1)\nNotes: EQRecipeID: 13847"
+    },
+    {
+      "recipe_id": 3094477,
+      "source_name": "Stalwart Baton",
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=519&rsa=Fletching&sub=Sod",
+      "output_source_url": "https://www.eqtraders.com/items/show_item.php?item=31466&menustr=010000000000",
+      "output_item_id": 48231,
+      "trivial": 270,
+      "yield_count": 1,
+      "ingredients": [
+        {
+          "item_id": 38514,
+          "name": "5 Knot Measuring String",
+          "count": 1
+        },
+        {
+          "item_id": 8084,
+          "name": "Darkwood Bowstave",
+          "count": 1
+        },
+        {
+          "item_id": 48892,
+          "name": "Immaculate Silk",
+          "count": 1
+        },
+        {
+          "item_id": 8086,
+          "name": "Planing Tool",
+          "count": 1
+        }
+      ],
+      "container_item_ids": [
+        17189,
+        17762,
+        17910
+      ],
+      "held_source_containers": [
+        {
+          "name": "Feir`Dal Fletching Kit",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=7858"
+        },
+        {
+          "name": "Surefall Fletching Kit",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=9604"
+        },
+        {
+          "name": "Fletching Table (Placeable)",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34388"
+        },
+        {
+          "name": "Fletching Table",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34483"
+        },
+        {
+          "name": "Guild Fletching Table",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=38416"
+        }
+      ],
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "source_formula": "Components: 5 Knot Measuring String, Darkwood Bowstave, Immaculate Silk, Planing Tool\nIn: Fletching Kit, Planar Fletching Kit, Collapsible Fletching Kit, Feir`Dal Fletching Kit, Surefall Fletching Kit, Fletching Table (Placeable), Fletching Table, Guild Fletching Table\nYield: 1\nAlso Returns: Planing Tool(1), 5 Knot Measuring String(1)\nOn Failure Returns: Planing Tool(1), 5 Knot Measuring String(1)\nNotes: EQRecipeID: 13848"
+    },
+    {
+      "recipe_id": 3094478,
+      "source_name": "Stalwart Staff",
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=519&rsa=Fletching&sub=Sod",
+      "output_source_url": "https://www.eqtraders.com/items/show_item.php?item=31467&menustr=010000000000",
+      "output_item_id": 48232,
+      "trivial": 271,
+      "yield_count": 1,
+      "ingredients": [
+        {
+          "item_id": 8084,
+          "name": "Darkwood Bowstave",
+          "count": 1
+        },
+        {
+          "item_id": 48892,
+          "name": "Immaculate Silk",
+          "count": 1
+        },
+        {
+          "item_id": 8086,
+          "name": "Planing Tool",
+          "count": 1
+        }
+      ],
+      "container_item_ids": [
+        17189,
+        17762,
+        17910
+      ],
+      "held_source_containers": [
+        {
+          "name": "Feir`Dal Fletching Kit",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=7858"
+        },
+        {
+          "name": "Surefall Fletching Kit",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=9604"
+        },
+        {
+          "name": "Fletching Table (Placeable)",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34388"
+        },
+        {
+          "name": "Fletching Table",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34483"
+        },
+        {
+          "name": "Guild Fletching Table",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=38416"
+        }
+      ],
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "source_formula": "Components: Darkwood Bowstave, Immaculate Silk, Planing Tool\nIn: Fletching Kit, Planar Fletching Kit, Collapsible Fletching Kit, Feir`Dal Fletching Kit, Surefall Fletching Kit, Fletching Table (Placeable), Fletching Table, Guild Fletching Table\nYield: 1\nAlso Returns: Planing Tool(1)\nOn Failure Returns: Planing Tool(1)\nNotes: EQRecipeID: 13849"
+    }
+  ],
+  "restriction_review": {
+    "scope": "35 absent component routes3094444-3094478 from the maintained SoD Fletching catalogue. All35have zero current allskill full-input/output/name matches. OneStalwartHaft source failure-return scope held. Sevenoverlapbows already installed from106 are not new recipes.",
+    "era": "LABELLED_RECONSTRUCTION, not immutableMay2013 per-field or native combine proof. New min_expansion15 is proposed configured availability POLICY, minimum0/max-1/ordinarymustlearn0/no book. Catalogue grouping/EQRecipeID/itemID are not introduction proof. IntricateHandle is current-source reconstruction without independent period-body proof. Existing sevenUFbows retain floor16 and mandatory45867; no backdate.",
+    "quantity": "All35explicitYield1. All selectedPlaningTool and actual2/3/4/5/6KnotMeasuringString inputs explicitly return on success and failure with salvage0; sevenStaff bodies have no string input. StalwartHaft lists4KnotString successreturn but omits failure scope, so held without inventing consumption or return.",
+    "containers": "34routes have explicit17910/17762/17189; StalwartShortHaft ONLY17910/17189, noPlanar17762 inference. Native8slot/size3/bag18 kits and inputsize/stack fit pinned56physical dependencies. Racial/furniture links remain unqualified; no genericbag18 widening.",
+    "preservation": "86primaryitemIDs resolved. Only36uncaptured full-input signatures received one bounded allskill read:36zero. Existing7bows/68entries unchanged, sourceSoDbowYield omission not defaulted; their independent106primary yield and book proof remain scoped to106. No playerrecords, items, gates, existing recipes, quests, vendors or booktext changed.",
+    "query_guard": "Necessary physical-input/count indexed anchor retains full multiset/effectivekit/self-ID/enabled predicate. Ten-second session bound unchanged; no rehearsal or SQL invocation.",
+    "limits": "Source-only proposal requires Coordinator floor15/min0/ordinarylearning/currentHandle reconstruction disposition, GitHub exact publication and separate SQL GO. No build/runtime/native craft or historical-universe closure claim."
+  },
+  "held_source_rows": [
+    {
+      "name": "Stalwart Haft",
+      "reason": "MEASURING_STRING_FAILURE_RETURN_SCOPE_INCOMPLETE",
+      "source": {
+        "name": "Stalwart Haft",
+        "trivial_text": "268",
+        "formula": "Components: 4 Knot Measuring String, Darkwood Bowstave, Immaculate Silk, Planing Tool\nIn: Fletching Kit, Collapsible Fletching Kit, Feir`Dal Fletching Kit, Surefall Fletching Kit, Fletching Table (Placeable), Fletching Table, Guild Fletching Table\nYield: 1\nAlso Returns: Planing Tool(1), 4 Knot Measuring String(1)\nOn Failure Returns: Planing Tool(1)\nNotes: EQRecipeID: 13846",
+        "observed_EQTC_item_id": 31464,
+        "output_source_url": "https://www.eqtraders.com/items/show_item.php?item=31464&menustr=010000000000",
+        "source_table_index": 3,
+        "source_row_index": 33,
+        "source_cell_count": 3,
+        "field_links": [
+          {
+            "name": "4 Knot Measuring String",
+            "url": "https://www.eqtraders.com//items/show_item.php?item=30921",
+            "field": "Components",
+            "explicit_count": null
+          },
+          {
+            "name": "Darkwood Bowstave",
+            "url": "https://www.eqtraders.com//items/show_item.php?item=1287",
+            "field": "Components",
+            "explicit_count": null
+          },
+          {
+            "name": "Immaculate Silk",
+            "url": "https://www.eqtraders.com//items/show_item.php?item=31710",
+            "field": "Components",
+            "explicit_count": null
+          },
+          {
+            "name": "Planing Tool",
+            "url": "https://www.eqtraders.com//items/show_item.php?item=1387",
+            "field": "Components",
+            "explicit_count": null
+          },
+          {
+            "name": "Fletching Kit",
+            "url": "https://www.eqtraders.com//items/show_item.php?item=1772",
+            "field": "In",
+            "explicit_count": null
+          },
+          {
+            "name": "Collapsible Fletching Kit",
+            "url": "https://www.eqtraders.com//items/show_item.php?item=7336",
+            "field": "In",
+            "explicit_count": null
+          },
+          {
+            "name": "Feir`Dal Fletching Kit",
+            "url": "https://www.eqtraders.com//items/show_item.php?item=7858",
+            "field": "In",
+            "explicit_count": null
+          },
+          {
+            "name": "Surefall Fletching Kit",
+            "url": "https://www.eqtraders.com//items/show_item.php?item=9604",
+            "field": "In",
+            "explicit_count": null
+          },
+          {
+            "name": "Fletching Table (Placeable)",
+            "url": "https://www.eqtraders.com//items/show_item.php?item=34388",
+            "field": "In",
+            "explicit_count": null
+          },
+          {
+            "name": "Fletching Table",
+            "url": "https://www.eqtraders.com//items/show_item.php?item=34483",
+            "field": "In",
+            "explicit_count": null
+          },
+          {
+            "name": "Guild Fletching Table",
+            "url": "https://www.eqtraders.com//items/show_item.php?item=38416",
+            "field": "In",
+            "explicit_count": null
+          },
+          {
+            "name": "Planing Tool",
+            "url": "https://www.eqtraders.com//items/show_item.php?item=1387",
+            "field": "Also Returns",
+            "explicit_count": 1
+          },
+          {
+            "name": "4 Knot Measuring String",
+            "url": "https://www.eqtraders.com//items/show_item.php?item=30921",
+            "field": "Also Returns",
+            "explicit_count": 1
+          },
+          {
+            "name": "Planing Tool",
+            "url": "https://www.eqtraders.com//items/show_item.php?item=1387",
+            "field": "On Failure Returns",
+            "explicit_count": 1
+          }
+        ]
+      },
+      "returns": {
+        "Also Returns": {
+          "Planing Tool": 1,
+          "4 Knot Measuring String": 1
+        },
+        "On Failure Returns": {
+          "Planing Tool": 1
+        }
+      },
+      "expected_tools": {
+        "4 Knot Measuring String": 1,
+        "Planing Tool": 1
+      }
+    }
+  ],
+  "source_urls": [
+    "https://www.eqtraders.com/recipes/recipe_page.php?article=519&rsa=Fletching&sub=Sod"
+  ],
+  "source_arrow_yield1_flags": [],
+  "migration_dependencies": []
+}

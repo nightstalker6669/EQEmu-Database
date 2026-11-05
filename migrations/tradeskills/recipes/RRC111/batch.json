@@ -1,0 +1,307 @@
+{
+  "batch": "RRC111",
+  "branch": "rof2-tradeskills",
+  "status": "SOURCE_PROPOSAL_NOT_PUBLISHED_NOT_APPLIED",
+  "counts": {
+    "recipes_added": 0,
+    "entries_added": 1,
+    "recipe_definitions_preserved": 1,
+    "old_entries_guarded": 6,
+    "post_entries": 7,
+    "item_dependencies": 6
+  },
+  "before_recipes": [
+    {
+      "id": 7300,
+      "name": "Class 7 Steel Silver Tip Arrow (small)",
+      "tradeskill": 64,
+      "skillneeded": 0,
+      "trivial": 228,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": null,
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": -1,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    }
+  ],
+  "before_entries": [
+    {
+      "id": 69024,
+      "recipe_id": 7300,
+      "item_id": 8052,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 69025,
+      "recipe_id": 7300,
+      "item_id": 8057,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 69026,
+      "recipe_id": 7300,
+      "item_id": 8063,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 69027,
+      "recipe_id": 7300,
+      "item_id": 72093,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 69028,
+      "recipe_id": 7300,
+      "item_id": 75658,
+      "successcount": 10,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 69029,
+      "recipe_id": 7300,
+      "item_id": 17762,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    }
+  ],
+  "added_entries": [
+    {
+      "recipe_id": 7300,
+      "item_id": 17910,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    }
+  ],
+  "native_items": [
+    {
+      "id": 8052,
+      "Name": "Small Groove Nocks",
+      "size": 1,
+      "itemclass": 0,
+      "itemtype": 17,
+      "stackable": 1,
+      "stacksize": 20,
+      "maxcharges": 0,
+      "bagtype": 0,
+      "bagslots": 0,
+      "bagsize": 0,
+      "classes": 65535,
+      "races": 65535,
+      "deity": 0,
+      "damage": 0,
+      "range": 0,
+      "reqlevel": 0,
+      "reclevel": 0,
+      "loregroup": 0
+    },
+    {
+      "id": 8057,
+      "Name": "Silver Tipped Arrowheads",
+      "size": 1,
+      "itemclass": 0,
+      "itemtype": 17,
+      "stackable": 1,
+      "stacksize": 20,
+      "maxcharges": 0,
+      "bagtype": 0,
+      "bagslots": 0,
+      "bagsize": 0,
+      "classes": 65535,
+      "races": 65535,
+      "deity": 0,
+      "damage": 0,
+      "range": 0,
+      "reqlevel": 0,
+      "reclevel": 0,
+      "loregroup": 0
+    },
+    {
+      "id": 8063,
+      "Name": "Bundled Steel Arrow Shafts",
+      "size": 1,
+      "itemclass": 0,
+      "itemtype": 17,
+      "stackable": 1,
+      "stacksize": 20,
+      "maxcharges": 0,
+      "bagtype": 0,
+      "bagslots": 0,
+      "bagsize": 0,
+      "classes": 65535,
+      "races": 65535,
+      "deity": 0,
+      "damage": 0,
+      "range": 0,
+      "reqlevel": 0,
+      "reclevel": 0,
+      "loregroup": 0
+    },
+    {
+      "id": 17762,
+      "Name": "Planar Fletching Kit",
+      "size": 1,
+      "itemclass": 1,
+      "itemtype": 11,
+      "stackable": 0,
+      "stacksize": 1,
+      "maxcharges": 0,
+      "bagtype": 18,
+      "bagslots": 8,
+      "bagsize": 3,
+      "classes": 65535,
+      "races": 131071,
+      "deity": 0,
+      "damage": 0,
+      "range": 0,
+      "reqlevel": 0,
+      "reclevel": 0,
+      "loregroup": 0
+    },
+    {
+      "id": 17910,
+      "Name": "Fletching Kit",
+      "size": 1,
+      "itemclass": 1,
+      "itemtype": 11,
+      "stackable": 0,
+      "stacksize": 1,
+      "maxcharges": 0,
+      "bagtype": 18,
+      "bagslots": 8,
+      "bagsize": 3,
+      "classes": 65535,
+      "races": 131071,
+      "deity": 0,
+      "damage": 0,
+      "range": 0,
+      "reqlevel": 0,
+      "reclevel": 0,
+      "loregroup": 0
+    },
+    {
+      "id": 72093,
+      "Name": "Girplan Feathers",
+      "size": 1,
+      "itemclass": 0,
+      "itemtype": 17,
+      "stackable": 1,
+      "stacksize": 20,
+      "maxcharges": 0,
+      "bagtype": 0,
+      "bagslots": 0,
+      "bagsize": 0,
+      "classes": 0,
+      "races": 65535,
+      "deity": 0,
+      "damage": 0,
+      "range": 0,
+      "reqlevel": 0,
+      "reclevel": 0,
+      "loregroup": 0
+    }
+  ],
+  "source_facts": [
+    {
+      "name": "CLASS 7 Steel Silver Tip Arrow (Small Groove)",
+      "trivial_text": "228",
+      "formula": "Components: Bundled Steel Arrow Shafts, Girplan Feathers, Silver Tipped Arrowheads, Small Groove Nocks\nIn: Fletching Kit, Planar Fletching Kit, Fletching Table (Placeable), Fletching Table, Guild Fletching Table\nYield: 10\nNotes: EQRecipeID: 73308",
+      "observed_EQTC_item_id": 16547,
+      "output_source_url": "https://www.eqtraders.com/items/show_item.php?item=16547&menustr=010000000000",
+      "source_table_index": 2,
+      "source_row_index": 173,
+      "source_cell_count": 3,
+      "field_links": [
+        {
+          "name": "Bundled Steel Arrow Shafts",
+          "url": "https://www.eqtraders.com//items/show_item.php?item=1272",
+          "field": "Components",
+          "explicit_count": null
+        },
+        {
+          "name": "Girplan Feathers",
+          "url": "https://www.eqtraders.com//items/show_item.php?item=16215",
+          "field": "Components",
+          "explicit_count": null
+        },
+        {
+          "name": "Silver Tipped Arrowheads",
+          "url": "https://www.eqtraders.com//items/show_item.php?item=1563",
+          "field": "Components",
+          "explicit_count": null
+        },
+        {
+          "name": "Small Groove Nocks",
+          "url": "https://www.eqtraders.com//items/show_item.php?item=1269",
+          "field": "Components",
+          "explicit_count": null
+        },
+        {
+          "name": "Fletching Kit",
+          "url": "https://www.eqtraders.com//items/show_item.php?item=1772",
+          "field": "In",
+          "explicit_count": null
+        },
+        {
+          "name": "Planar Fletching Kit",
+          "url": "https://www.eqtraders.com//items/show_item.php?item=5493",
+          "field": "In",
+          "explicit_count": null
+        },
+        {
+          "name": "Fletching Table (Placeable)",
+          "url": "https://www.eqtraders.com//items/show_item.php?item=34388",
+          "field": "In",
+          "explicit_count": null
+        },
+        {
+          "name": "Fletching Table",
+          "url": "https://www.eqtraders.com//items/show_item.php?item=34483",
+          "field": "In",
+          "explicit_count": null
+        },
+        {
+          "name": "Guild Fletching Table",
+          "url": "https://www.eqtraders.com//items/show_item.php?item=38416",
+          "field": "In",
+          "explicit_count": null
+        }
+      ]
+    }
+  ],
+  "source_urls": [
+    "https://www.eqtraders.com/recipes/recipe_page.php?article=272&rsa=Fletching&sub=OoW"
+  ],
+  "new_effective_kit_collision_matches": [],
+  "historical_qualification": "Maintained-primary container-link reconstruction, not immutableMay2013 or native crafting acceptance. Add only explicit ordinary Fletching Kit17910 to existing7300; old17762 and all definition/input/output/yield/trivial/return/salvage/minimum/learning/content gates unchanged. No17189 inference, new recipes, item edits, player records, inventory grants or retroactive compensation."
+}
