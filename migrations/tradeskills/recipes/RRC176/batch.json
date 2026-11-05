@@ -1,0 +1,320 @@
+{
+  "batch": "RRC176",
+  "branch": "rof2-tradeskills",
+  "status": "SOURCE_PROPOSAL_NOT_APPLIED_LABELLED_RECONSTRUCTION",
+  "proposed_ids": [
+    3096183,
+    3096184
+  ],
+  "counts": {
+    "recipes": 2,
+    "entries": 9,
+    "item_dependencies": 7,
+    "unchanged_prototype_recipes": 0,
+    "unchanged_prototype_entries": 0
+  },
+  "recipes": [
+    {
+      "id": 3096183,
+      "name": "Refined Magnetized Scrap Metal",
+      "tradeskill": 63,
+      "skillneeded": 0,
+      "trivial": 100,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary Eron family reconstruction; RRC176.",
+      "must_learn": 1,
+      "learned_by_item_id": 36468,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 14,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3096184,
+      "name": "Eron's Tertiary Setting",
+      "tradeskill": 63,
+      "skillneeded": 0,
+      "trivial": 400,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary Eron family reconstruction; RRC176.",
+      "must_learn": 1,
+      "learned_by_item_id": 36468,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 14,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    }
+  ],
+  "entries": [
+    {
+      "recipe_id": 3096183,
+      "item_id": 36578,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 5,
+      "salvagecount": 5,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096183,
+      "item_id": 36580,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096183,
+      "item_id": 93664,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096183,
+      "item_id": 17,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3096184,
+      "item_id": 36579,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096184,
+      "item_id": 36580,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096184,
+      "item_id": 36581,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096184,
+      "item_id": 36582,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096184,
+      "item_id": 17,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    }
+  ],
+  "item_dependencies": [
+    {
+      "id": 36468,
+      "name": "Eron's Folding Steel"
+    },
+    {
+      "id": 36578,
+      "name": "Magnetized Scrap Metal"
+    },
+    {
+      "id": 36579,
+      "name": "Refined Steamwork Oil"
+    },
+    {
+      "id": 36580,
+      "name": "Refined Magnetized Scrap Metal"
+    },
+    {
+      "id": 36581,
+      "name": "Eron's Configurable Tertiary Setting Mold"
+    },
+    {
+      "id": 36582,
+      "name": "Eron's Tertiary Setting"
+    },
+    {
+      "id": 93664,
+      "name": "High Quality Carbon Powder"
+    }
+  ],
+  "unchanged_prototype_recipes": [],
+  "unchanged_prototype_entries": [],
+  "source_facts": [
+    {
+      "recipe_id": 3096183,
+      "source_name": "Refined Magnetized Scrap Metal",
+      "source_view_id": 12705,
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=408&rsa=Smithing&sub=sof",
+      "source_formula": "Components: High Quality Carbon Powder, Magnetized Scrap Metal (5)\nIn: Forge, Tanaan Forge, Forge - Floor, Forge - Standing, Guild Forge\nYield: 1\nNotes: Quest: Scrap Oil",
+      "source_catalogue_sha256": "4e4c7383e74816ea67c6ae05cdb32d988a625fe732357f2b22db7216b39d1f63",
+      "output_item_id": 36580,
+      "yield_count": 1,
+      "trivial": 100,
+      "ingredients": [
+        {
+          "item_id": 36578,
+          "name": "Magnetized Scrap Metal",
+          "count": 5
+        },
+        {
+          "item_id": 93664,
+          "name": "High Quality Carbon Powder",
+          "count": 1
+        }
+      ],
+      "success_roles": {
+        "36580": 1
+      },
+      "failure_roles": {},
+      "container_item_ids": [
+        17
+      ],
+      "held_source_stations": [
+        {
+          "name": "Tanaan Forge",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=5499",
+          "reason": "Named/world/furniture station not separately qualified"
+        },
+        {
+          "name": "Forge - Floor",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34389",
+          "reason": "Named/world/furniture station not separately qualified"
+        },
+        {
+          "name": "Forge - Standing",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34390",
+          "reason": "Named/world/furniture station not separately qualified"
+        },
+        {
+          "name": "Guild Forge",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=38418",
+          "reason": "Named/world/furniture station not separately qualified"
+        }
+      ],
+      "min_expansion": 14,
+      "skillneeded": 0,
+      "must_learn": 1,
+      "learned_by_item_id": 36468,
+      "learning_origin": "COORDINATOR_ACCEPTED_AUTHORED_FAMILY_MANDATORY_BOOK_POLICY_SOURCE_OMITS;MINIMUM0_SOURCE_OMISSION_POLICY",
+      "era_origin": "SOF14_MAINTAINED_SOURCE_FAMILY_POLICY_NOT_EXACT_INTRODUCTION",
+      "May2013_exact_fields_verified": false,
+      "identity_assurance": "ALL_REFERENCES_EXPLICIT_PRIMARY_IDS_AFTER_TARGETED_PRIMARY_PAGE_OBSERVATIONS"
+    },
+    {
+      "recipe_id": 3096184,
+      "source_name": "Eron's Tertiary Setting",
+      "source_view_id": 12689,
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=408&rsa=Smithing&sub=sof",
+      "source_formula": "Components: Eron's Configurable Tertiary Setting Mold, Refined Magnetized Scrap Metal, Refined Steamwork Oil\nIn: Forge, Tanaan Forge, Forge - Floor, Forge - Standing, Guild Forge\nYield: 1\nAlso Returns: Eron's Configurable Tertiary Setting Mold(1)\nNotes: Quest: Scrap Oil",
+      "source_catalogue_sha256": "4e4c7383e74816ea67c6ae05cdb32d988a625fe732357f2b22db7216b39d1f63",
+      "output_item_id": 36582,
+      "yield_count": 1,
+      "trivial": 400,
+      "ingredients": [
+        {
+          "item_id": 36579,
+          "name": "Refined Steamwork Oil",
+          "count": 1
+        },
+        {
+          "item_id": 36580,
+          "name": "Refined Magnetized Scrap Metal",
+          "count": 1
+        },
+        {
+          "item_id": 36581,
+          "name": "Eron's Configurable Tertiary Setting Mold",
+          "count": 1
+        }
+      ],
+      "success_roles": {
+        "36581": 1,
+        "36582": 1
+      },
+      "failure_roles": {},
+      "container_item_ids": [
+        17
+      ],
+      "held_source_stations": [
+        {
+          "name": "Tanaan Forge",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=5499",
+          "reason": "Named/world/furniture station not separately qualified"
+        },
+        {
+          "name": "Forge - Floor",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34389",
+          "reason": "Named/world/furniture station not separately qualified"
+        },
+        {
+          "name": "Forge - Standing",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34390",
+          "reason": "Named/world/furniture station not separately qualified"
+        },
+        {
+          "name": "Guild Forge",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=38418",
+          "reason": "Named/world/furniture station not separately qualified"
+        }
+      ],
+      "min_expansion": 14,
+      "skillneeded": 0,
+      "must_learn": 1,
+      "learned_by_item_id": 36468,
+      "learning_origin": "COORDINATOR_ACCEPTED_AUTHORED_FAMILY_MANDATORY_BOOK_POLICY_SOURCE_OMITS;MINIMUM0_SOURCE_OMISSION_POLICY",
+      "era_origin": "SOF14_MAINTAINED_SOURCE_FAMILY_POLICY_NOT_EXACT_INTRODUCTION",
+      "May2013_exact_fields_verified": false,
+      "identity_assurance": "ALL_REFERENCES_EXPLICIT_PRIMARY_IDS_AFTER_TARGETED_PRIMARY_PAGE_OBSERVATIONS"
+    }
+  ],
+  "restriction_review": {
+    "scope": "Two explicit-primary Smithing bodies:EronTertiarySetting trivial400 and RefinedMagnetizedScrapMetal trivial100. Exact source output/ingredients/quantities/returns and currentabsence qualified.",
+    "learning": "Source omits mandatoryscribing/minimum. Coordinator explicitly accepted must_learn1/book36468 EronFoldingSteel as authored-native-family POLICY resolving onlypriorlearningomissionhold; not sourceexplicit. Skillneeded0 sourceomissionpolicy, no invented300. BookTSLQ1FoldingSteel/SHA85c8cefe53ed59df34fcf6ea629407d9969d92d033e495be04a5aa464dceb73f guarded using alreadycapturedtext, no repeatedbookread.",
+    "quantities": "Five MagnetizedScrapMetal plus HighQualityCarbonPowder yields1 refinedmetal. Tertiaryspecialmold+refinedmetal+refinedoil yields1setting, moldreturned SUCCESS ONLY. No failuremoldreturninvented; physicalyield1/unchargedoutputs. Ordinaryconsumed salvage=component except reusable successreturntool0.",
+    "gates": "OnlysourcepositiveordinaryForge17;tenunitcapacity. Named/furniture/guildforges not inferred. RoutineSoF14floor/max-1 reconstructionpolicy, not immutable2013introductionproof. QuestScrapOil association does not introducequestflag/locationgate. No-fail0/quest0/enabled1 conventions.",
+    "preservation": "Seven exactnativeitemdependencies/newIDs/all-state fullinputs/output-use universe/deltas/fullpostimages/learnedrefs guarded. Existingrecipes/items/player/questdata unchanged. Tertiaryinput refiningrecipe is in samefinitepacket; no itemgrants.",
+    "holds": "Thread12852strongstaticfieldenvironmenthold unchanged. Other charged/era/probability/sourceholds preserved; fullrecipe scope incomplete.",
+    "execution": "Source only, publication and separateexactSQLGO required; all boundedreadersclosed,no SQLwrites/tests/build/runtime/nativecombines."
+  },
+  "source_urls": [
+    "https://www.eqtraders.com/recipes/recipe_page.php?article=408&rsa=Smithing&sub=sof"
+  ],
+  "supplemental_primary_identity_sources": [],
+  "native_authored_context": [
+    {
+      "item_id": 36468,
+      "name": "Eron's Folding Steel",
+      "filename": "TSLQ1FoldingSteel",
+      "text_sha256": "85c8cefe53ed59df34fcf6ea629407d9969d92d033e495be04a5aa464dceb73f"
+    }
+  ],
+  "migration_dependencies": [],
+  "held_source_rows": []
+}
