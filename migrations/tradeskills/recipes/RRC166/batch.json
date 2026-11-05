@@ -1,0 +1,388 @@
+{
+  "batch": "RRC166",
+  "branch": "rof2-tradeskills",
+  "status": "SOURCE_PROPOSAL_NOT_APPLIED_LABELLED_RECONSTRUCTION",
+  "proposed_ids": [
+    3095821,
+    3095822
+  ],
+  "counts": {
+    "recipes": 2,
+    "entries": 15,
+    "item_dependencies": 11,
+    "unchanged_prototype_recipes": 0,
+    "unchanged_prototype_entries": 0
+  },
+  "recipes": [
+    {
+      "id": 3095821,
+      "name": "Extravagant Handle",
+      "tradeskill": 64,
+      "skillneeded": 0,
+      "trivial": 282,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary ordinary input reconstruction; RRC166.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 17,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3095822,
+      "name": "Stalwart Haft",
+      "tradeskill": 64,
+      "skillneeded": 0,
+      "trivial": 268,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary ordinary input reconstruction; RRC166.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 15,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    }
+  ],
+  "entries": [
+    {
+      "recipe_id": 3095821,
+      "item_id": 8084,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3095821,
+      "item_id": 8086,
+      "successcount": 1,
+      "failcount": 1,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3095821,
+      "item_id": 38511,
+      "successcount": 1,
+      "failcount": 1,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3095821,
+      "item_id": 60794,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3095821,
+      "item_id": 123501,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3095821,
+      "item_id": 17189,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3095821,
+      "item_id": 17762,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3095821,
+      "item_id": 17910,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3095822,
+      "item_id": 8084,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3095822,
+      "item_id": 8086,
+      "successcount": 1,
+      "failcount": 1,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3095822,
+      "item_id": 38513,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3095822,
+      "item_id": 48229,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3095822,
+      "item_id": 48892,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3095822,
+      "item_id": 17189,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3095822,
+      "item_id": 17910,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    }
+  ],
+  "item_dependencies": [
+    {
+      "id": 8084,
+      "name": "Darkwood Bow Staff"
+    },
+    {
+      "id": 8086,
+      "name": "Planing Tool"
+    },
+    {
+      "id": 17189,
+      "name": "Collapsible Fletching Kit"
+    },
+    {
+      "id": 17762,
+      "name": "Planar Fletching Kit"
+    },
+    {
+      "id": 17910,
+      "name": "Fletching Kit"
+    },
+    {
+      "id": 38511,
+      "name": "2 Knot Measuring String"
+    },
+    {
+      "id": 38513,
+      "name": "4 Knot Measuring String"
+    },
+    {
+      "id": 48229,
+      "name": "Stalwart Haft"
+    },
+    {
+      "id": 48892,
+      "name": "Immaculate Silk"
+    },
+    {
+      "id": 60794,
+      "name": "Extravagant Handle"
+    },
+    {
+      "id": 123501,
+      "name": "Fantastic Silk"
+    }
+  ],
+  "unchanged_prototype_recipes": [],
+  "unchanged_prototype_entries": [],
+  "source_facts": [
+    {
+      "recipe_id": 3095821,
+      "source_name": "Extravagant Handle",
+      "source_view_id": 4167,
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=521&rsa=Fletching&sub=HOT",
+      "source_formula": "Components: 2 Knot Measuring String, Darkwood Bowstave, Fantastic Silk, Planing Tool\nIn: Fletching Kit, Planar Fletching Kit, Collapsible Fletching Kit, Feir`Dal Fletching Kit, Surefall Fletching Kit, Fletching Table (Placeable), Fletching Table, Guild Fletching Table\nYield: 1\nAlso Returns: Planing Tool(1), 2 Knot Measuring String(1)\nOn Failure Returns: Planing Tool(1), 2 Knot Measuring String(1)\nNotes: EQRecipeID: 6655",
+      "source_catalogue_sha256": "4ebbfaf62ee9f09f811a7552d7a454d2157df3f90d6b9ec510f285ae8be3a2f7",
+      "output_item_id": 60794,
+      "yield_count": 1,
+      "trivial": 282,
+      "ingredients": [
+        {
+          "item_id": 8084,
+          "name": "Darkwood Bow Staff",
+          "count": 1
+        },
+        {
+          "item_id": 8086,
+          "name": "Planing Tool",
+          "count": 1
+        },
+        {
+          "item_id": 38511,
+          "name": "2 Knot Measuring String",
+          "count": 1
+        },
+        {
+          "item_id": 123501,
+          "name": "Fantastic Silk",
+          "count": 1
+        }
+      ],
+      "failure_roles": {
+        "8086": 1,
+        "38511": 1
+      },
+      "container_item_ids": [
+        17189,
+        17762,
+        17910
+      ],
+      "held_source_stations": [
+        {
+          "name": "Feir`Dal Fletching Kit",
+          "reason": "Unselected named/racial/world/unresolved kit; no access inferred"
+        },
+        {
+          "name": "Surefall Fletching Kit",
+          "reason": "Unselected named/racial/world/unresolved kit; no access inferred"
+        },
+        {
+          "name": "Fletching Table (Placeable)",
+          "reason": "Unselected named/racial/world/unresolved kit; no access inferred"
+        },
+        {
+          "name": "Fletching Table",
+          "reason": "Unselected named/racial/world/unresolved kit; no access inferred"
+        },
+        {
+          "name": "Guild Fletching Table",
+          "reason": "Unselected named/racial/world/unresolved kit; no access inferred"
+        }
+      ],
+      "min_expansion": 17,
+      "era_origin": "REUSED_ACCEPTED_MAINTAINED_FAMILY_POLICY_NOT_EXACT_INTRODUCTION",
+      "May2013_exact_fields_verified": false
+    },
+    {
+      "recipe_id": 3095822,
+      "source_name": "Stalwart Haft",
+      "source_view_id": 11615,
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=519&rsa=Fletching&sub=Sod",
+      "source_formula": "Components: 4 Knot Measuring String, Darkwood Bowstave, Immaculate Silk, Planing Tool\nIn: Fletching Kit, Collapsible Fletching Kit, Feir`Dal Fletching Kit, Surefall Fletching Kit, Fletching Table (Placeable), Fletching Table, Guild Fletching Table\nYield: 1\nAlso Returns: Planing Tool(1), 4 Knot Measuring String(1)\nOn Failure Returns: Planing Tool(1)\nNotes: EQRecipeID: 13846",
+      "source_catalogue_sha256": "ae9fe171713bb7517fb359a41339718f5a51886162b046587c944dd365b584eb",
+      "output_item_id": 48229,
+      "yield_count": 1,
+      "trivial": 268,
+      "ingredients": [
+        {
+          "item_id": 8084,
+          "name": "Darkwood Bow Staff",
+          "count": 1
+        },
+        {
+          "item_id": 8086,
+          "name": "Planing Tool",
+          "count": 1
+        },
+        {
+          "item_id": 38513,
+          "name": "4 Knot Measuring String",
+          "count": 1
+        },
+        {
+          "item_id": 48892,
+          "name": "Immaculate Silk",
+          "count": 1
+        }
+      ],
+      "failure_roles": {
+        "8086": 1
+      },
+      "container_item_ids": [
+        17189,
+        17910
+      ],
+      "held_source_stations": [
+        {
+          "name": "Feir`Dal Fletching Kit",
+          "reason": "Unselected named/racial/world/unresolved kit; no access inferred"
+        },
+        {
+          "name": "Surefall Fletching Kit",
+          "reason": "Unselected named/racial/world/unresolved kit; no access inferred"
+        },
+        {
+          "name": "Fletching Table (Placeable)",
+          "reason": "Unselected named/racial/world/unresolved kit; no access inferred"
+        },
+        {
+          "name": "Fletching Table",
+          "reason": "Unselected named/racial/world/unresolved kit; no access inferred"
+        },
+        {
+          "name": "Guild Fletching Table",
+          "reason": "Unselected named/racial/world/unresolved kit; no access inferred"
+        }
+      ],
+      "min_expansion": 15,
+      "era_origin": "REUSED_ACCEPTED_MAINTAINED_FAMILY_POLICY_NOT_EXACT_INTRODUCTION",
+      "May2013_exact_fields_verified": false
+    }
+  ],
+  "restriction_review": {
+    "scope": "Finite explicit-primary-ID full input bodies. All existing recipes using these outputs, INCLUDING tool-return users, are guarded unchanged. They are not asserted to be alternate manufacture formulas. No output-only/name-only absence claim.",
+    "quantities": "Exact numeric trivials, primary yields and distinct success/failure tool returns. In particular Stalwart measuring string returns on success only; omitted failure return is not added. No probability/charged/no-fail-only/quest/learning conflict selected.",
+    "era": "Reused labelled maintained family floors:DoDH10metal conversions and snake-egg bodies,PoR11Laminator tools,SoD15StalwartHaft,HoT17ExtravagantHandle;maximum-1. Family reconstruction policy, not recovered per-fieldMay2013introduction. Earlier native recipes/availability remain unchanged.",
+    "gates": "Ordinary omitted minimum/book mapped to labelled acceptedskillneeded0/must_learn0/book0/nofail0/quest0/enabled1; consumed salvage=component; explicit failure tools salvage0. No NPC teaching/actor acceptance claimed.",
+    "containers": "Positive ordinaryForge17/BrewBarrel19; Baking positively identifiedportableMixingBowl17906 only; per-view actualordinaryFletchingkits only. Capacity/size/native semantics checked; named/racial/placed/guild/unresolved kits remain unqualified, no genericportable access inferred.",
+    "preservation": "Native dependency fields, exact newIDs, all-state fullinputs, output-use universe, existing full definitions+entryIDs, exact deltas/postimages guarded. No existing recipe/item/player/quest/learning changes. Rollback refuses learned refs.",
+    "execution": "Source only; finite package publication and separate exact coordinatorSQLGO required. Research160,charge/probability/era/conflict and world-only holds remain. No tests/rehearsal/build/runtime/SQLwrites."
+  },
+  "source_urls": [
+    "https://www.eqtraders.com/recipes/recipe_page.php?article=519&rsa=Fletching&sub=Sod",
+    "https://www.eqtraders.com/recipes/recipe_page.php?article=521&rsa=Fletching&sub=HOT"
+  ],
+  "migration_dependencies": [],
+  "held_source_rows": []
+}

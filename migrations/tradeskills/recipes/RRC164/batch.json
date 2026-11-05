@@ -1,0 +1,2225 @@
+{
+  "batch": "RRC164",
+  "branch": "rof2-tradeskills",
+  "status": "SOURCE_PROPOSAL_NOT_APPLIED_LABELLED_RECONSTRUCTION",
+  "proposed_ids": [
+    3095805,
+    3095814
+  ],
+  "counts": {
+    "recipes": 10,
+    "entries": 43,
+    "item_dependencies": 15,
+    "unchanged_prototype_recipes": 16,
+    "unchanged_prototype_entries": 93
+  },
+  "recipes": [
+    {
+      "id": 3095805,
+      "name": "Block of High Quality Steel (Large Bricks)",
+      "tradeskill": 63,
+      "skillneeded": 0,
+      "trivial": 31,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary ordinary input reconstruction; RRC164.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 10,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3095806,
+      "name": "Large Brick of High Quality Steel (Block)",
+      "tradeskill": 63,
+      "skillneeded": 0,
+      "trivial": 26,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary ordinary input reconstruction; RRC164.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 10,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3095807,
+      "name": "Large Brick of High Quality Steel (Small Brick)",
+      "tradeskill": 63,
+      "skillneeded": 0,
+      "trivial": 31,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary ordinary input reconstruction; RRC164.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 10,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3095808,
+      "name": "Large Brick of Refined High Quality Ore (Block)",
+      "tradeskill": 63,
+      "skillneeded": 0,
+      "trivial": 26,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary ordinary input reconstruction; RRC164.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 10,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3095809,
+      "name": "Large Brick of Refined High Quality Ore (Small Brick)",
+      "tradeskill": 63,
+      "skillneeded": 0,
+      "trivial": 26,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary ordinary input reconstruction; RRC164.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 10,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3095810,
+      "name": "Small Brick of High Quality Steel (Large Brick)",
+      "tradeskill": 63,
+      "skillneeded": 0,
+      "trivial": 26,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary ordinary input reconstruction; RRC164.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 10,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3095811,
+      "name": "Small Brick of High Quality Steel (Small Piece)",
+      "tradeskill": 63,
+      "skillneeded": 0,
+      "trivial": 31,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary ordinary input reconstruction; RRC164.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 10,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3095812,
+      "name": "Small Piece of High Quality Steel (Small Brick)",
+      "tradeskill": 63,
+      "skillneeded": 0,
+      "trivial": 26,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary ordinary input reconstruction; RRC164.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 10,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3095813,
+      "name": "Laminator Blade (Small Brick of High Quality Steel)",
+      "tradeskill": 63,
+      "skillneeded": 0,
+      "trivial": 102,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary ordinary input reconstruction; RRC164.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 11,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3095814,
+      "name": "Laminator Roller (Small Brick of High Quality Steel)",
+      "tradeskill": 63,
+      "skillneeded": 0,
+      "trivial": 102,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary ordinary input reconstruction; RRC164.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 11,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    }
+  ],
+  "entries": [
+    {
+      "recipe_id": 3095805,
+      "item_id": 33435,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3095805,
+      "item_id": 33436,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 3,
+      "salvagecount": 3,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3095805,
+      "item_id": 63244,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 3,
+      "salvagecount": 3,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3095805,
+      "item_id": 17,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3095806,
+      "item_id": 7052,
+      "successcount": 1,
+      "failcount": 1,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3095806,
+      "item_id": 33435,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3095806,
+      "item_id": 33436,
+      "successcount": 2,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3095806,
+      "item_id": 17,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3095807,
+      "item_id": 33436,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3095807,
+      "item_id": 33437,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 3,
+      "salvagecount": 3,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3095807,
+      "item_id": 63244,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 2,
+      "salvagecount": 2,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3095807,
+      "item_id": 17,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3095808,
+      "item_id": 7052,
+      "successcount": 1,
+      "failcount": 1,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3095808,
+      "item_id": 33260,
+      "successcount": 2,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3095808,
+      "item_id": 33262,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3095808,
+      "item_id": 17,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3095809,
+      "item_id": 13006,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3095809,
+      "item_id": 33260,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3095809,
+      "item_id": 33261,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 3,
+      "salvagecount": 3,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3095809,
+      "item_id": 17,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3095810,
+      "item_id": 7052,
+      "successcount": 1,
+      "failcount": 1,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3095810,
+      "item_id": 33436,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3095810,
+      "item_id": 33437,
+      "successcount": 2,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3095810,
+      "item_id": 17,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3095811,
+      "item_id": 33437,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3095811,
+      "item_id": 33438,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 3,
+      "salvagecount": 3,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3095811,
+      "item_id": 63244,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3095811,
+      "item_id": 17,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3095812,
+      "item_id": 7052,
+      "successcount": 1,
+      "failcount": 1,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3095812,
+      "item_id": 33437,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3095812,
+      "item_id": 33438,
+      "successcount": 2,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3095812,
+      "item_id": 17,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3095813,
+      "item_id": 12011,
+      "successcount": 1,
+      "failcount": 1,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3095813,
+      "item_id": 13006,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3095813,
+      "item_id": 22075,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3095813,
+      "item_id": 33437,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3095813,
+      "item_id": 96488,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3095813,
+      "item_id": 17,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3095814,
+      "item_id": 10489,
+      "successcount": 1,
+      "failcount": 1,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3095814,
+      "item_id": 13006,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3095814,
+      "item_id": 33437,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3095814,
+      "item_id": 96489,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3095814,
+      "item_id": 17,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    }
+  ],
+  "item_dependencies": [
+    {
+      "id": 7052,
+      "name": "Smithing Chisel"
+    },
+    {
+      "id": 10489,
+      "name": "Smithy Hammer"
+    },
+    {
+      "id": 12011,
+      "name": "File"
+    },
+    {
+      "id": 13006,
+      "name": "Water Flask"
+    },
+    {
+      "id": 22075,
+      "name": "Thin Blade Mold"
+    },
+    {
+      "id": 33260,
+      "name": "Large Brick of Refined High Quality Ore"
+    },
+    {
+      "id": 33261,
+      "name": "Small Brick of Refined High Quality Ore"
+    },
+    {
+      "id": 33262,
+      "name": "Block of Refined High Quality Ore"
+    },
+    {
+      "id": 33435,
+      "name": "Block of High Quality Steel"
+    },
+    {
+      "id": 33436,
+      "name": "Large Brick of High Quality Steel"
+    },
+    {
+      "id": 33437,
+      "name": "Small Brick of High Quality Steel"
+    },
+    {
+      "id": 33438,
+      "name": "Small Piece of High Quality Steel"
+    },
+    {
+      "id": 63244,
+      "name": "Gnomish Heat Source"
+    },
+    {
+      "id": 96488,
+      "name": "Laminator Blade"
+    },
+    {
+      "id": 96489,
+      "name": "Laminator Roller"
+    }
+  ],
+  "unchanged_prototype_recipes": [
+    {
+      "id": 3091641,
+      "name": "Composite Treant Laminate Bowstave",
+      "tradeskill": 64,
+      "skillneeded": 0,
+      "trivial": 355,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "DoDH/PoR; EQTC articles348/371; Fletching; RRC026.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 11,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3091642,
+      "name": "Composite Treant Laminate Recurve Bowstave",
+      "tradeskill": 64,
+      "skillneeded": 0,
+      "trivial": 408,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "DoDH/PoR; EQTC articles348/371; Fletching; RRC026.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 11,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3091645,
+      "name": "Desiccated Treant Laminate",
+      "tradeskill": 64,
+      "skillneeded": 0,
+      "trivial": 140,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "DoDH/PoR; EQTC articles348/371; Fletching; RRC026.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 11,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3091646,
+      "name": "Desiccated Treant Laminate",
+      "tradeskill": 64,
+      "skillneeded": 0,
+      "trivial": 140,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "DoDH/PoR; EQTC articles348/371; Fletching; RRC026.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 11,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3091647,
+      "name": "Desiccated Treant Laminate Bowstave",
+      "tradeskill": 64,
+      "skillneeded": 0,
+      "trivial": 328,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "DoDH/PoR; EQTC articles348/371; Fletching; RRC026.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 11,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3091648,
+      "name": "Desiccated Treant Laminate Recurve Bowstave",
+      "tradeskill": 64,
+      "skillneeded": 0,
+      "trivial": 348,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "DoDH/PoR; EQTC articles348/371; Fletching; RRC026.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 11,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3091652,
+      "name": "Oak Treant Laminate",
+      "tradeskill": 64,
+      "skillneeded": 0,
+      "trivial": 127,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "DoDH/PoR; EQTC articles348/371; Fletching; RRC026.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 11,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3091653,
+      "name": "Oak Treant Laminate",
+      "tradeskill": 64,
+      "skillneeded": 0,
+      "trivial": 127,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "DoDH/PoR; EQTC articles348/371; Fletching; RRC026.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 11,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3091654,
+      "name": "Oak Treant Laminate Bowstave",
+      "tradeskill": 64,
+      "skillneeded": 0,
+      "trivial": 302,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "DoDH/PoR; EQTC articles348/371; Fletching; RRC026.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 11,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3091655,
+      "name": "Oak Treant Laminate Recurve Bowstave",
+      "tradeskill": 64,
+      "skillneeded": 0,
+      "trivial": 322,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "DoDH/PoR; EQTC articles348/371; Fletching; RRC026.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 11,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3091659,
+      "name": "Supple Treant Laminate",
+      "tradeskill": 64,
+      "skillneeded": 0,
+      "trivial": 100,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "DoDH/PoR; EQTC articles348/371; Fletching; RRC026.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 11,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3091660,
+      "name": "Supple Treant Laminate",
+      "tradeskill": 64,
+      "skillneeded": 0,
+      "trivial": 100,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "DoDH/PoR; EQTC articles348/371; Fletching; RRC026.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 11,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3091661,
+      "name": "Supple Treant Laminate Bowstave",
+      "tradeskill": 64,
+      "skillneeded": 0,
+      "trivial": 282,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "DoDH/PoR; EQTC articles348/371; Fletching; RRC026.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 11,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3091662,
+      "name": "Supple Treant Laminate Recurve Bowstave",
+      "tradeskill": 64,
+      "skillneeded": 0,
+      "trivial": 302,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "DoDH/PoR; EQTC articles348/371; Fletching; RRC026.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 11,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3091675,
+      "name": "Large Brick of High Quality Steel",
+      "tradeskill": 63,
+      "skillneeded": 0,
+      "trivial": 42,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "DoDH; EQTC articles350/351; Smithing/Tailoring; RRC027.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 10,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3091695,
+      "name": "Small Brick of High Quality Steel (Small Brick)",
+      "tradeskill": 63,
+      "skillneeded": 0,
+      "trivial": 41,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "DoDH; EQTC articles350/351; Smithing/Tailoring; RRC027.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 10,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    }
+  ],
+  "unchanged_prototype_entries": [
+    {
+      "id": 30408262,
+      "recipe_id": 3091641,
+      "item_id": 96504,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 30408263,
+      "recipe_id": 3091641,
+      "item_id": 96536,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30408264,
+      "recipe_id": 3091641,
+      "item_id": 96499,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30408265,
+      "recipe_id": 3091641,
+      "item_id": 96492,
+      "successcount": 1,
+      "failcount": 1,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 30408266,
+      "recipe_id": 3091641,
+      "item_id": 96489,
+      "successcount": 1,
+      "failcount": 1,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 30408267,
+      "recipe_id": 3091641,
+      "item_id": 96498,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30408268,
+      "recipe_id": 3091641,
+      "item_id": 96500,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 2,
+      "salvagecount": 2,
+      "iscontainer": 0
+    },
+    {
+      "id": 30408269,
+      "recipe_id": 3091641,
+      "item_id": 18,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 30408270,
+      "recipe_id": 3091642,
+      "item_id": 96508,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 30408271,
+      "recipe_id": 3091642,
+      "item_id": 96536,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30408272,
+      "recipe_id": 3091642,
+      "item_id": 96499,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30408273,
+      "recipe_id": 3091642,
+      "item_id": 96492,
+      "successcount": 1,
+      "failcount": 1,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 30408274,
+      "recipe_id": 3091642,
+      "item_id": 96489,
+      "successcount": 2,
+      "failcount": 2,
+      "componentcount": 2,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 30408275,
+      "recipe_id": 3091642,
+      "item_id": 96498,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30408276,
+      "recipe_id": 3091642,
+      "item_id": 96500,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 2,
+      "salvagecount": 2,
+      "iscontainer": 0
+    },
+    {
+      "id": 30408277,
+      "recipe_id": 3091642,
+      "item_id": 18,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 30408286,
+      "recipe_id": 3091645,
+      "item_id": 96499,
+      "successcount": 2,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 30408287,
+      "recipe_id": 3091645,
+      "item_id": 97226,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30408288,
+      "recipe_id": 3091645,
+      "item_id": 96492,
+      "successcount": 1,
+      "failcount": 1,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 30408289,
+      "recipe_id": 3091645,
+      "item_id": 96488,
+      "successcount": 1,
+      "failcount": 1,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 30408290,
+      "recipe_id": 3091645,
+      "item_id": 18,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 30408291,
+      "recipe_id": 3091646,
+      "item_id": 96499,
+      "successcount": 2,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 30408292,
+      "recipe_id": 3091646,
+      "item_id": 97057,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30408293,
+      "recipe_id": 3091646,
+      "item_id": 96492,
+      "successcount": 1,
+      "failcount": 1,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 30408294,
+      "recipe_id": 3091646,
+      "item_id": 96488,
+      "successcount": 1,
+      "failcount": 1,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 30408295,
+      "recipe_id": 3091646,
+      "item_id": 18,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 30408296,
+      "recipe_id": 3091647,
+      "item_id": 96502,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 30408297,
+      "recipe_id": 3091647,
+      "item_id": 96499,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 3,
+      "salvagecount": 3,
+      "iscontainer": 0
+    },
+    {
+      "id": 30408298,
+      "recipe_id": 3091647,
+      "item_id": 96492,
+      "successcount": 1,
+      "failcount": 1,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 30408299,
+      "recipe_id": 3091647,
+      "item_id": 96489,
+      "successcount": 1,
+      "failcount": 1,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 30408300,
+      "recipe_id": 3091647,
+      "item_id": 96535,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30408301,
+      "recipe_id": 3091647,
+      "item_id": 18,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 30408302,
+      "recipe_id": 3091648,
+      "item_id": 96506,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 30408303,
+      "recipe_id": 3091648,
+      "item_id": 96499,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 3,
+      "salvagecount": 3,
+      "iscontainer": 0
+    },
+    {
+      "id": 30408304,
+      "recipe_id": 3091648,
+      "item_id": 96492,
+      "successcount": 1,
+      "failcount": 1,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 30408305,
+      "recipe_id": 3091648,
+      "item_id": 96489,
+      "successcount": 2,
+      "failcount": 2,
+      "componentcount": 2,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 30408306,
+      "recipe_id": 3091648,
+      "item_id": 96535,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30408307,
+      "recipe_id": 3091648,
+      "item_id": 18,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 30408322,
+      "recipe_id": 3091652,
+      "item_id": 96498,
+      "successcount": 2,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 30408323,
+      "recipe_id": 3091652,
+      "item_id": 96492,
+      "successcount": 1,
+      "failcount": 1,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 30408324,
+      "recipe_id": 3091652,
+      "item_id": 96488,
+      "successcount": 1,
+      "failcount": 1,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 30408325,
+      "recipe_id": 3091652,
+      "item_id": 97053,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30408326,
+      "recipe_id": 3091652,
+      "item_id": 18,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 30408327,
+      "recipe_id": 3091653,
+      "item_id": 96498,
+      "successcount": 2,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 30408328,
+      "recipe_id": 3091653,
+      "item_id": 97225,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30408329,
+      "recipe_id": 3091653,
+      "item_id": 96492,
+      "successcount": 1,
+      "failcount": 1,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 30408330,
+      "recipe_id": 3091653,
+      "item_id": 96488,
+      "successcount": 1,
+      "failcount": 1,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 30408331,
+      "recipe_id": 3091653,
+      "item_id": 18,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 30408332,
+      "recipe_id": 3091654,
+      "item_id": 96501,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 30408333,
+      "recipe_id": 3091654,
+      "item_id": 96492,
+      "successcount": 1,
+      "failcount": 1,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 30408334,
+      "recipe_id": 3091654,
+      "item_id": 96489,
+      "successcount": 1,
+      "failcount": 1,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 30408335,
+      "recipe_id": 3091654,
+      "item_id": 96498,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 3,
+      "salvagecount": 3,
+      "iscontainer": 0
+    },
+    {
+      "id": 30408336,
+      "recipe_id": 3091654,
+      "item_id": 96535,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30408337,
+      "recipe_id": 3091654,
+      "item_id": 18,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 30408338,
+      "recipe_id": 3091654,
+      "item_id": 17768,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 30408339,
+      "recipe_id": 3091655,
+      "item_id": 96505,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 30408340,
+      "recipe_id": 3091655,
+      "item_id": 96492,
+      "successcount": 1,
+      "failcount": 1,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 30408341,
+      "recipe_id": 3091655,
+      "item_id": 96489,
+      "successcount": 2,
+      "failcount": 2,
+      "componentcount": 2,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 30408342,
+      "recipe_id": 3091655,
+      "item_id": 96498,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 3,
+      "salvagecount": 3,
+      "iscontainer": 0
+    },
+    {
+      "id": 30408343,
+      "recipe_id": 3091655,
+      "item_id": 96535,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30408344,
+      "recipe_id": 3091655,
+      "item_id": 18,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 30408357,
+      "recipe_id": 3091659,
+      "item_id": 96500,
+      "successcount": 2,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 30408358,
+      "recipe_id": 3091659,
+      "item_id": 96492,
+      "successcount": 1,
+      "failcount": 1,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 30408359,
+      "recipe_id": 3091659,
+      "item_id": 96488,
+      "successcount": 1,
+      "failcount": 1,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 30408360,
+      "recipe_id": 3091659,
+      "item_id": 97060,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30408361,
+      "recipe_id": 3091659,
+      "item_id": 18,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 30408362,
+      "recipe_id": 3091660,
+      "item_id": 96500,
+      "successcount": 2,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 30408363,
+      "recipe_id": 3091660,
+      "item_id": 97227,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30408364,
+      "recipe_id": 3091660,
+      "item_id": 96492,
+      "successcount": 1,
+      "failcount": 1,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 30408365,
+      "recipe_id": 3091660,
+      "item_id": 96488,
+      "successcount": 1,
+      "failcount": 1,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 30408366,
+      "recipe_id": 3091660,
+      "item_id": 18,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 30408367,
+      "recipe_id": 3091661,
+      "item_id": 96503,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 30408368,
+      "recipe_id": 3091661,
+      "item_id": 96492,
+      "successcount": 1,
+      "failcount": 1,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 30408369,
+      "recipe_id": 3091661,
+      "item_id": 96489,
+      "successcount": 1,
+      "failcount": 1,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 30408370,
+      "recipe_id": 3091661,
+      "item_id": 96500,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 3,
+      "salvagecount": 3,
+      "iscontainer": 0
+    },
+    {
+      "id": 30408371,
+      "recipe_id": 3091661,
+      "item_id": 96535,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30408372,
+      "recipe_id": 3091661,
+      "item_id": 18,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 30408373,
+      "recipe_id": 3091662,
+      "item_id": 96507,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 30408374,
+      "recipe_id": 3091662,
+      "item_id": 96492,
+      "successcount": 1,
+      "failcount": 1,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 30408375,
+      "recipe_id": 3091662,
+      "item_id": 96489,
+      "successcount": 2,
+      "failcount": 2,
+      "componentcount": 2,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 30408376,
+      "recipe_id": 3091662,
+      "item_id": 96500,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 3,
+      "salvagecount": 3,
+      "iscontainer": 0
+    },
+    {
+      "id": 30408377,
+      "recipe_id": 3091662,
+      "item_id": 96535,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30408378,
+      "recipe_id": 3091662,
+      "item_id": 18,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 30408664,
+      "recipe_id": 3091675,
+      "item_id": 33436,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 30408665,
+      "recipe_id": 3091675,
+      "item_id": 63244,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 6,
+      "salvagecount": 6,
+      "iscontainer": 0
+    },
+    {
+      "id": 30408666,
+      "recipe_id": 3091675,
+      "item_id": 93664,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 3,
+      "salvagecount": 3,
+      "iscontainer": 0
+    },
+    {
+      "id": 30408667,
+      "recipe_id": 3091675,
+      "item_id": 33260,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30408668,
+      "recipe_id": 3091675,
+      "item_id": 17,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 30408769,
+      "recipe_id": 3091695,
+      "item_id": 33437,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 30408770,
+      "recipe_id": 3091695,
+      "item_id": 63244,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 3,
+      "salvagecount": 3,
+      "iscontainer": 0
+    },
+    {
+      "id": 30408771,
+      "recipe_id": 3091695,
+      "item_id": 93664,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30408772,
+      "recipe_id": 3091695,
+      "item_id": 33261,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30408773,
+      "recipe_id": 3091695,
+      "item_id": 17,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    }
+  ],
+  "source_facts": [
+    {
+      "recipe_id": 3095805,
+      "source_name": "Block of High Quality Steel",
+      "source_view_id": 23517,
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=126&rsa=Smithing&sub=conversion",
+      "source_formula": "Components: Gnomish Heat Source (3), Large Brick of High Quality Steel (3)\nIn: Forge, Tanaan Forge\nYield: 1",
+      "source_catalogue_sha256": "879530c2ed1cfe12ef4a45fe86a616572f21b7e2497bb00c7cf869f57346f79e",
+      "output_item_id": 33435,
+      "yield_count": 1,
+      "trivial": 31,
+      "ingredients": [
+        {
+          "item_id": 33436,
+          "name": "Large Brick of High Quality Steel",
+          "count": 3
+        },
+        {
+          "item_id": 63244,
+          "name": "Gnomish Heat Source",
+          "count": 3
+        }
+      ],
+      "failure_roles": {},
+      "container_item_ids": [
+        17
+      ],
+      "held_source_stations": [],
+      "min_expansion": 10,
+      "era_origin": "REUSED_ACCEPTED_MAINTAINED_FAMILY_POLICY_NOT_EXACT_INTRODUCTION",
+      "May2013_exact_fields_verified": false
+    },
+    {
+      "recipe_id": 3095806,
+      "source_name": "Large Brick of High Quality Steel",
+      "source_view_id": 23526,
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=126&rsa=Smithing&sub=conversion",
+      "source_formula": "Components: Block of High Quality Steel, Smithing Chisel\nIn: Forge, Tanaan Forge\nYield: 2\nAlso Returns: Smithing Chisel(1)\nOn Failure Returns: Smithing Chisel(1)\nNotes: EQRecipeID: 33548\nLearned as: Large Brick of High Quality Steel (Block)",
+      "source_catalogue_sha256": "879530c2ed1cfe12ef4a45fe86a616572f21b7e2497bb00c7cf869f57346f79e",
+      "output_item_id": 33436,
+      "yield_count": 2,
+      "trivial": 26,
+      "ingredients": [
+        {
+          "item_id": 7052,
+          "name": "Smithing Chisel",
+          "count": 1
+        },
+        {
+          "item_id": 33435,
+          "name": "Block of High Quality Steel",
+          "count": 1
+        }
+      ],
+      "failure_roles": {
+        "7052": 1
+      },
+      "container_item_ids": [
+        17
+      ],
+      "held_source_stations": [],
+      "min_expansion": 10,
+      "era_origin": "REUSED_ACCEPTED_MAINTAINED_FAMILY_POLICY_NOT_EXACT_INTRODUCTION",
+      "May2013_exact_fields_verified": false
+    },
+    {
+      "recipe_id": 3095807,
+      "source_name": "Large Brick of High Quality Steel",
+      "source_view_id": 23527,
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=126&rsa=Smithing&sub=conversion",
+      "source_formula": "Components: Gnomish Heat Source (2), Small Brick of High Quality Steel (3)\nIn: Forge, Tanaan Forge, Forge - Floor, Forge - Standing, Guild Forge\nYield: 1\nNotes: EQRecipeID: 33549\nLearned as: Large Brick of High Quality Steel (Small Brick)",
+      "source_catalogue_sha256": "879530c2ed1cfe12ef4a45fe86a616572f21b7e2497bb00c7cf869f57346f79e",
+      "output_item_id": 33436,
+      "yield_count": 1,
+      "trivial": 31,
+      "ingredients": [
+        {
+          "item_id": 33437,
+          "name": "Small Brick of High Quality Steel",
+          "count": 3
+        },
+        {
+          "item_id": 63244,
+          "name": "Gnomish Heat Source",
+          "count": 2
+        }
+      ],
+      "failure_roles": {},
+      "container_item_ids": [
+        17
+      ],
+      "held_source_stations": [],
+      "min_expansion": 10,
+      "era_origin": "REUSED_ACCEPTED_MAINTAINED_FAMILY_POLICY_NOT_EXACT_INTRODUCTION",
+      "May2013_exact_fields_verified": false
+    },
+    {
+      "recipe_id": 3095808,
+      "source_name": "Large Brick of Refined High Quality Ore",
+      "source_view_id": 23534,
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=126&rsa=Smithing&sub=conversion",
+      "source_formula": "Components: Block of Refined High Quality Ore, Smithing Chisel\nIn: Forge, Tanaan Forge, Forge - Floor, Forge - Standing, Guild Forge\nYield: 2\nAlso Returns: Smithing Chisel(1)\nOn Failure Returns: Smithing Chisel(1)\nNotes: EQRecipeID: 33596\nLearned as: Large Brick of Refined High Quality Ore (Block)",
+      "source_catalogue_sha256": "879530c2ed1cfe12ef4a45fe86a616572f21b7e2497bb00c7cf869f57346f79e",
+      "output_item_id": 33260,
+      "yield_count": 2,
+      "trivial": 26,
+      "ingredients": [
+        {
+          "item_id": 7052,
+          "name": "Smithing Chisel",
+          "count": 1
+        },
+        {
+          "item_id": 33262,
+          "name": "Block of Refined High Quality Ore",
+          "count": 1
+        }
+      ],
+      "failure_roles": {
+        "7052": 1
+      },
+      "container_item_ids": [
+        17
+      ],
+      "held_source_stations": [],
+      "min_expansion": 10,
+      "era_origin": "REUSED_ACCEPTED_MAINTAINED_FAMILY_POLICY_NOT_EXACT_INTRODUCTION",
+      "May2013_exact_fields_verified": false
+    },
+    {
+      "recipe_id": 3095809,
+      "source_name": "Large Brick of Refined High Quality Ore",
+      "source_view_id": 23535,
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=126&rsa=Smithing&sub=conversion",
+      "source_formula": "Components: Small Brick of Refined High Quality Ore (3), Water Flask\nIn: Forge, Tanaan Forge, Forge - Floor, Forge - Standing, Guild Forge\nYield: 1\nNotes: EQRecipeID: 33597\nLearned as: Large Brick of Refined High Quality Ore (Small Brick)",
+      "source_catalogue_sha256": "879530c2ed1cfe12ef4a45fe86a616572f21b7e2497bb00c7cf869f57346f79e",
+      "output_item_id": 33260,
+      "yield_count": 1,
+      "trivial": 26,
+      "ingredients": [
+        {
+          "item_id": 13006,
+          "name": "Water Flask",
+          "count": 1
+        },
+        {
+          "item_id": 33261,
+          "name": "Small Brick of Refined High Quality Ore",
+          "count": 3
+        }
+      ],
+      "failure_roles": {},
+      "container_item_ids": [
+        17
+      ],
+      "held_source_stations": [],
+      "min_expansion": 10,
+      "era_origin": "REUSED_ACCEPTED_MAINTAINED_FAMILY_POLICY_NOT_EXACT_INTRODUCTION",
+      "May2013_exact_fields_verified": false
+    },
+    {
+      "recipe_id": 3095810,
+      "source_name": "Small Brick of High Quality Steel",
+      "source_view_id": 23563,
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=126&rsa=Smithing&sub=conversion",
+      "source_formula": "Components: Large Brick of High Quality Steel, Smithing Chisel\nIn: Forge, Tanaan Forge\nYield: 2\nAlso Returns: Smithing Chisel(1)\nOn Failure Returns: Smithing Chisel(1)\nNotes: EQRecipeID: 33550\nLearned as: Small Brick of High Quality Steel (Large Brick)",
+      "source_catalogue_sha256": "879530c2ed1cfe12ef4a45fe86a616572f21b7e2497bb00c7cf869f57346f79e",
+      "output_item_id": 33437,
+      "yield_count": 2,
+      "trivial": 26,
+      "ingredients": [
+        {
+          "item_id": 7052,
+          "name": "Smithing Chisel",
+          "count": 1
+        },
+        {
+          "item_id": 33436,
+          "name": "Large Brick of High Quality Steel",
+          "count": 1
+        }
+      ],
+      "failure_roles": {
+        "7052": 1
+      },
+      "container_item_ids": [
+        17
+      ],
+      "held_source_stations": [],
+      "min_expansion": 10,
+      "era_origin": "REUSED_ACCEPTED_MAINTAINED_FAMILY_POLICY_NOT_EXACT_INTRODUCTION",
+      "May2013_exact_fields_verified": false
+    },
+    {
+      "recipe_id": 3095811,
+      "source_name": "Small Brick of High Quality Steel",
+      "source_view_id": 23564,
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=126&rsa=Smithing&sub=conversion",
+      "source_formula": "Components: Gnomish Heat Source, Small Piece of High Quality Steel (3)\nIn: Forge, Tanaan Forge, Forge - Floor, Forge - Standing, Guild Forge\nYield: 1\nNotes: EQRecipeID: 33551\nLearned as: Small Brick of High Quality Steel (Small Piece)",
+      "source_catalogue_sha256": "879530c2ed1cfe12ef4a45fe86a616572f21b7e2497bb00c7cf869f57346f79e",
+      "output_item_id": 33437,
+      "yield_count": 1,
+      "trivial": 31,
+      "ingredients": [
+        {
+          "item_id": 33438,
+          "name": "Small Piece of High Quality Steel",
+          "count": 3
+        },
+        {
+          "item_id": 63244,
+          "name": "Gnomish Heat Source",
+          "count": 1
+        }
+      ],
+      "failure_roles": {},
+      "container_item_ids": [
+        17
+      ],
+      "held_source_stations": [],
+      "min_expansion": 10,
+      "era_origin": "REUSED_ACCEPTED_MAINTAINED_FAMILY_POLICY_NOT_EXACT_INTRODUCTION",
+      "May2013_exact_fields_verified": false
+    },
+    {
+      "recipe_id": 3095812,
+      "source_name": "Small Piece of High Quality Steel",
+      "source_view_id": 23603,
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=126&rsa=Smithing&sub=conversion",
+      "source_formula": "Components: Small Brick of High Quality Steel, Smithing Chisel\nIn: Forge, Tanaan Forge, Forge - Floor, Forge - Standing, Guild Forge\nYield: 2\nAlso Returns: Smithing Chisel(1)\nOn Failure Returns: Smithing Chisel(1)\nNotes: EQRecipeID: 33547",
+      "source_catalogue_sha256": "879530c2ed1cfe12ef4a45fe86a616572f21b7e2497bb00c7cf869f57346f79e",
+      "output_item_id": 33438,
+      "yield_count": 2,
+      "trivial": 26,
+      "ingredients": [
+        {
+          "item_id": 7052,
+          "name": "Smithing Chisel",
+          "count": 1
+        },
+        {
+          "item_id": 33437,
+          "name": "Small Brick of High Quality Steel",
+          "count": 1
+        }
+      ],
+      "failure_roles": {
+        "7052": 1
+      },
+      "container_item_ids": [
+        17
+      ],
+      "held_source_stations": [],
+      "min_expansion": 10,
+      "era_origin": "REUSED_ACCEPTED_MAINTAINED_FAMILY_POLICY_NOT_EXACT_INTRODUCTION",
+      "May2013_exact_fields_verified": false
+    },
+    {
+      "recipe_id": 3095813,
+      "source_name": "Laminator Blade",
+      "source_view_id": 29709,
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=58&rsa=Smithing&sub=basic",
+      "source_formula": "Components: File, Small Brick of High Quality Steel, Thin Blade Mold, Water Flask\nIn: Forge, Tanaan Forge\nYield: 1\nAlso Returns: File(1)\nOn Failure Returns: File(1)",
+      "source_catalogue_sha256": "c9d6028161c5eeaebfc77de6fb935a1559740d744a87297c76c93c6b2e411fbf",
+      "output_item_id": 96488,
+      "yield_count": 1,
+      "trivial": 102,
+      "ingredients": [
+        {
+          "item_id": 12011,
+          "name": "File",
+          "count": 1
+        },
+        {
+          "item_id": 13006,
+          "name": "Water Flask",
+          "count": 1
+        },
+        {
+          "item_id": 22075,
+          "name": "Thin Blade Mold",
+          "count": 1
+        },
+        {
+          "item_id": 33437,
+          "name": "Small Brick of High Quality Steel",
+          "count": 1
+        }
+      ],
+      "failure_roles": {
+        "12011": 1
+      },
+      "container_item_ids": [
+        17
+      ],
+      "held_source_stations": [],
+      "min_expansion": 11,
+      "era_origin": "REUSED_ACCEPTED_MAINTAINED_FAMILY_POLICY_NOT_EXACT_INTRODUCTION",
+      "May2013_exact_fields_verified": false
+    },
+    {
+      "recipe_id": 3095814,
+      "source_name": "Laminator Roller",
+      "source_view_id": 29710,
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=58&rsa=Smithing&sub=basic",
+      "source_formula": "Components: Small Brick of High Quality Steel, Smithy Hammer, Water Flask\nIn: Forge, Tanaan Forge\nYield: 1\nAlso Returns: Smithy Hammer(1)\nOn Failure Returns: Smithy Hammer(1)",
+      "source_catalogue_sha256": "c9d6028161c5eeaebfc77de6fb935a1559740d744a87297c76c93c6b2e411fbf",
+      "output_item_id": 96489,
+      "yield_count": 1,
+      "trivial": 102,
+      "ingredients": [
+        {
+          "item_id": 10489,
+          "name": "Smithy Hammer",
+          "count": 1
+        },
+        {
+          "item_id": 13006,
+          "name": "Water Flask",
+          "count": 1
+        },
+        {
+          "item_id": 33437,
+          "name": "Small Brick of High Quality Steel",
+          "count": 1
+        }
+      ],
+      "failure_roles": {
+        "10489": 1
+      },
+      "container_item_ids": [
+        17
+      ],
+      "held_source_stations": [],
+      "min_expansion": 11,
+      "era_origin": "REUSED_ACCEPTED_MAINTAINED_FAMILY_POLICY_NOT_EXACT_INTRODUCTION",
+      "May2013_exact_fields_verified": false
+    }
+  ],
+  "restriction_review": {
+    "scope": "Finite explicit-primary-ID full input bodies. All existing recipes using these outputs, INCLUDING tool-return users, are guarded unchanged. They are not asserted to be alternate manufacture formulas. No output-only/name-only absence claim.",
+    "quantities": "Exact numeric trivials, primary yields and distinct success/failure tool returns. In particular Stalwart measuring string returns on success only; omitted failure return is not added. No probability/charged/no-fail-only/quest/learning conflict selected.",
+    "era": "Reused labelled maintained family floors:DoDH10metal conversions and snake-egg bodies,PoR11Laminator tools,SoD15StalwartHaft,HoT17ExtravagantHandle;maximum-1. Family reconstruction policy, not recovered per-fieldMay2013introduction. Earlier native recipes/availability remain unchanged.",
+    "gates": "Ordinary omitted minimum/book mapped to labelled acceptedskillneeded0/must_learn0/book0/nofail0/quest0/enabled1; consumed salvage=component; explicit failure tools salvage0. No NPC teaching/actor acceptance claimed.",
+    "containers": "Positive ordinaryForge17/BrewBarrel19; Baking positively identifiedportableMixingBowl17906 only; per-view actualordinaryFletchingkits only. Capacity/size/native semantics checked; named/racial/placed/guild/unresolved kits remain unqualified, no genericportable access inferred.",
+    "preservation": "Native dependency fields, exact newIDs, all-state fullinputs, output-use universe, existing full definitions+entryIDs, exact deltas/postimages guarded. No existing recipe/item/player/quest/learning changes. Rollback refuses learned refs.",
+    "execution": "Source only; finite package publication and separate exact coordinatorSQLGO required. Research160,charge/probability/era/conflict and world-only holds remain. No tests/rehearsal/build/runtime/SQLwrites."
+  },
+  "source_urls": [
+    "https://www.eqtraders.com/recipes/recipe_page.php?article=126&rsa=Smithing&sub=conversion",
+    "https://www.eqtraders.com/recipes/recipe_page.php?article=58&rsa=Smithing&sub=basic"
+  ],
+  "migration_dependencies": [],
+  "held_source_rows": []
+}
