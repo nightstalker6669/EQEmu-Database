@@ -1,0 +1,41 @@
+{
+  "format_version": 1,
+  "batch": "RRC189",
+  "source_commit": "771c702957f634abce97972212959b8e3b3c79fd",
+  "source_sha256": "76b9165866c7c1bc7b3ef892d284e8a7f364aa7659166dd50b855a644eb4319d",
+  "application_status": "APPLIED_VERIFIED",
+  "SQL_invocations": 1,
+  "transaction_state_after": 0,
+  "recipes_added": 24,
+  "entries_added": 128,
+  "recipe_id_range": [
+    3096386,
+    3096409
+  ],
+  "existing_recipe_definitions_updated": 0,
+  "existing_entry_rows_updated": 0,
+  "exact_new_postimages": true,
+  "learned_references_unchanged": true,
+  "global_after_counts": {
+    "recipes": 27973,
+    "entries": 213332
+  },
+  "historical_qualification": {
+    "scope": "24 source views:8 Chronal potion-vial forming/firing bodies and16 Cloudy-orb forming/firing bodies. All27 previously unqualified item identities (including GemDust/Sketch/LightEssence) have rendered primary EQ item IDs and exact titles. Literal numeric trivials/fullquantities/returns retained.",
+    "quantities": "Firing eachChronalVialSet yields THREE physical uncharged stackable vials. Cloudyforming yieldsONE unfired orb; firing yieldsFOUR physical stackable sealedunits. Eachselectedsealedprimaryprofile explicitly hasCharges1 andStackable20, native maxcharges1/stackable1/stacksize>=4 guarded. Successcount4 is literalphysicalstackquantity, not fourinitialclickcharges in one nonstackable object. Nonstackablechargeholds unchanged; no quantity default or normalization.",
+    "native_semantics": "Read-only current source inspection:tradeskillonsuccess passesitscount toSummonItem; positivecount isretained;stackableinventorycounts treatinstancecharges as physicalstackquantity;MaxChargesdefault applies only to omitted -1. Static source evidence only, NOT newbuild/nativecombine/activation acceptance.",
+    "gates": "Source omits mandatorylearning/minimum/actor/questgates;ordinaryskillneeded0/must_learn0/book0/no-fail0/quest0/enabled1/consumedsalvage acceptedlabelledpolicies. Sealed itemlevel65/effectActivatePowerSource/classNONE/raceNONE describeUSE metadata, notnewmanufacturinggates. Existingitemfields unchanged; no actorpolicy inferred from masks.",
+    "book_context": "Retainednative FurtherEnergeiacDiscoveries41241/TSSku16Pottery describesCloudyclay/clearmana/essence/forming/firing context. Book iscontextonly/type31, not a learned/carried/consumed dependency. ItsPureOrbSolterisrestrictionconcernsUSE and explicitly permitsmanufacturewithouttasks; no suchgate extrapolatedtoCloudy. No source/bookrewrite or unseal/nativeuse claim.",
+    "era": "Positive maintainedSoD15Pottery family/manufacturingcontext with authoredEnergeiac context; configuredfloor15/max-1reconstructionpolicy, notimmutableMay2013perfield/introductionproof. No modernResearch160book/Compendiumsubstitution.",
+    "containers": "Eachview positiveordinaryWheel8 orKiln9 only. Fullsourcequantitiesfit10units;largestvialformingbodyuses9. Tanaan/placeable/guildstationlinksheld, no availabilityinferred.",
+    "preservation": "44 nativeitemdependencies/newIDs/currentallstatefullinputs/output-useuniverse/names/fullpostimages/deltas/learnedrefs guarded. Existingrecipes/items/player/quest/core unchanged. Priorimmutable fields reused where captured;only missingitemrowsfreshlyread, allfields remainapplyguards.",
+    "execution": "Sourceproposalonly,coordinatorfinite stackquantity disposition/publication/separateexactSQLGO. Allreaders/researchtabclosed;noSQLwrites/tests/build/runtime/nativecombines/activationacceptance. Othercharged/era/actor/sourceholds retained;fullrecipescopeincomplete."
+  },
+  "Research160": "HELD/unapplied",
+  "all_scope_complete": false,
+  "player_item_writes": false,
+  "runtime_actions": false,
+  "native_crafting_acceptance": false,
+  "source_documents": "Four source files retained verbatim. Preparation-time source-only and execution labels are historical; the separate actual receipt confirms the closed application recorded above.",
+  "native_item_dependencies_guarded": 44
+}

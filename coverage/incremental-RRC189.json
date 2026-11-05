@@ -1,0 +1,49 @@
+{
+  "format_version": 1,
+  "batch": "RRC189",
+  "source_commit": "771c702957f634abce97972212959b8e3b3c79fd",
+  "source_sha256": "76b9165866c7c1bc7b3ef892d284e8a7f364aa7659166dd50b855a644eb4319d",
+  "application_status": "APPLIED_VERIFIED",
+  "recipes_added": 24,
+  "entries_added": 128,
+  "global_actual_counts": {
+    "recipes": 27973,
+    "entries": 213332
+  },
+  "TS_cumulative_added_current": {
+    "recipes": 5149,
+    "entries": 35707
+  },
+  "cumulative_basis": "Prior5125/35579 actual after188 plus24/128.",
+  "new_recipe_batches": 142,
+  "historical_qualification": {
+    "scope": "24 source views:8 Chronal potion-vial forming/firing bodies and16 Cloudy-orb forming/firing bodies. All27 previously unqualified item identities (including GemDust/Sketch/LightEssence) have rendered primary EQ item IDs and exact titles. Literal numeric trivials/fullquantities/returns retained.",
+    "quantities": "Firing eachChronalVialSet yields THREE physical uncharged stackable vials. Cloudyforming yieldsONE unfired orb; firing yieldsFOUR physical stackable sealedunits. Eachselectedsealedprimaryprofile explicitly hasCharges1 andStackable20, native maxcharges1/stackable1/stacksize>=4 guarded. Successcount4 is literalphysicalstackquantity, not fourinitialclickcharges in one nonstackable object. Nonstackablechargeholds unchanged; no quantity default or normalization.",
+    "native_semantics": "Read-only current source inspection:tradeskillonsuccess passesitscount toSummonItem; positivecount isretained;stackableinventorycounts treatinstancecharges as physicalstackquantity;MaxChargesdefault applies only to omitted -1. Static source evidence only, NOT newbuild/nativecombine/activation acceptance.",
+    "gates": "Source omits mandatorylearning/minimum/actor/questgates;ordinaryskillneeded0/must_learn0/book0/no-fail0/quest0/enabled1/consumedsalvage acceptedlabelledpolicies. Sealed itemlevel65/effectActivatePowerSource/classNONE/raceNONE describeUSE metadata, notnewmanufacturinggates. Existingitemfields unchanged; no actorpolicy inferred from masks.",
+    "book_context": "Retainednative FurtherEnergeiacDiscoveries41241/TSSku16Pottery describesCloudyclay/clearmana/essence/forming/firing context. Book iscontextonly/type31, not a learned/carried/consumed dependency. ItsPureOrbSolterisrestrictionconcernsUSE and explicitly permitsmanufacturewithouttasks; no suchgate extrapolatedtoCloudy. No source/bookrewrite or unseal/nativeuse claim.",
+    "era": "Positive maintainedSoD15Pottery family/manufacturingcontext with authoredEnergeiac context; configuredfloor15/max-1reconstructionpolicy, notimmutableMay2013perfield/introductionproof. No modernResearch160book/Compendiumsubstitution.",
+    "containers": "Eachview positiveordinaryWheel8 orKiln9 only. Fullsourcequantitiesfit10units;largestvialformingbodyuses9. Tanaan/placeable/guildstationlinksheld, no availabilityinferred.",
+    "preservation": "44 nativeitemdependencies/newIDs/currentallstatefullinputs/output-useuniverse/names/fullpostimages/deltas/learnedrefs guarded. Existingrecipes/items/player/quest/core unchanged. Priorimmutable fields reused where captured;only missingitemrowsfreshlyread, allfields remainapplyguards.",
+    "execution": "Sourceproposalonly,coordinatorfinite stackquantity disposition/publication/separateexactSQLGO. Allreaders/researchtabclosed;noSQLwrites/tests/build/runtime/nativecombines/activationacceptance. Othercharged/era/actor/sourceholds retained;fullrecipescopeincomplete."
+  },
+  "held_batches": [
+    "RRC014",
+    "RRC160"
+  ],
+  "all_scope_complete": false,
+  "separate_Xorbb_recipe_excluded": {
+    "recipes": 1,
+    "entries": 6
+  },
+  "prior_locally_confirmed_published_normal_SQL_source_paths": 614,
+  "earlier_pending_normal_SQL_source_paths": 0,
+  "new_normal_SQL_source_paths": 2,
+  "normal_SQL_source_paths_after_all_pending_publications": 616,
+  "SQL_path_count_meaning": "Source paths, not application count.",
+  "history_archives_preserved": true,
+  "QA39999_production_exclusion_retained": true,
+  "assembly": "No SQL/query/replay/tests/runtime/receipt-only publication.",
+  "source_documents": "Four source files retained verbatim. Preparation-time source-only and execution labels are historical; the separate actual receipt confirms the closed application recorded above.",
+  "native_item_dependencies_guarded": 44
+}
