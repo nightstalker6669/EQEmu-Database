@@ -1,0 +1,79 @@
+{
+  "format_version": 1,
+  "batch": "RRC105",
+  "source_commit": "1458c8d947eb1428f2573f82d2dc5e2748f244af",
+  "source_sha256": "efa20637a51271efadb798383cdc9c8865db07c148c8622e347d533088a74ae1",
+  "application_status": "APPLIED_VERIFIED",
+  "SQL_invocations": 1,
+  "recipes_added": 27,
+  "entries_added": 237,
+  "recipe_id_range": [
+    3094028,
+    3094054
+  ],
+  "affected_postimages_exact": true,
+  "global_after_counts": {
+    "recipes": 25878,
+    "entries": 195185
+  },
+  "unchanged_prototype_recipes": 0,
+  "unchanged_prototype_entries": 0,
+  "learned_references": "Target learned references unchanged per coordinator handoff; rollback refuses learned references.",
+  "transaction_state_after": 0,
+  "invocation_history": "Initial system-Python import failed before database connection/attempt. Sole SQL invocation used existing venv; no DB retry.",
+  "existing_row_changes": "No UPDATE/DELETE of existing recipes; additive exact-ID inserts only. Global old-row diff was not repeated.",
+  "player_item_writes": false,
+  "native_actions": false,
+  "source_documents": "Exact source files retain preparation-time status; separate summary records actual application.",
+  "era_disposition": "LABELLED_RECONSTRUCTION",
+  "historical_qualification": "LABELLED_RECONSTRUCTION HoT Fletching: new minexp17 configured policy/minimum0,21 explicit mandatory book bindings and optional string0 with60763. Native60756 title/filename binds intended Fletcher book but wrong Jewelcraft prose is not ingredient/trivial499 proof; text unchanged/hash-pinned. Maintained primary bodies/returns/kits retained; Handle60794 and Thaumaturgy held.123501 is FantasticSilk. Existing scribing consumes physical book through separate insert/delete calls; no scribing/player/vendor/nativecombine claims.",
+  "configured_policy": {
+    "min_expansion": 17,
+    "minimum": 0,
+    "maximum_expansion": -1,
+    "meaning": "HoT-family availability POLICY, not recovered period gate/introduction date."
+  },
+  "book_bindings": {
+    "mandatory_must_learn1": {
+      "rows": 21,
+      "bows": {
+        "rows": 2,
+        "book_id": 60763
+      },
+      "symbols": {
+        "rows": 19,
+        "book_id": 60756
+      }
+    },
+    "optional_bowstring": {
+      "must_learn": 0,
+      "book_id": 60763
+    },
+    "other_components": {
+      "rows": 5,
+      "must_learn": 0,
+      "book_id": null
+    },
+    "scribing": "Existing handler consumes ONE physical book via separate insert/delete calls; no scribing action or transaction claim from this recipe application.",
+    "combine": "Books are not consumed combine ingredients and need not remain carried after learning."
+  },
+  "book60756_mismatch": "Exact native title/filename identifies intended Fletcher book; Jewelcraft prose is not proof of Fletching formula bodies/trivial499 or external native-ID mapping. Text unchanged/hash-pinned.",
+  "book60763_limit": "Body supports string/bow context, not numerical trivial/cutoff proof.",
+  "Fantastic_Silk_item_id": 123501,
+  "ordinary_portable_kit_ids": [
+    17910,
+    17762,
+    17189
+  ],
+  "held_routes": [
+    "Extravagant Handle60794",
+    "Symbol of Thaumaturgy",
+    "FeirDal/Surefall/furniture"
+  ],
+  "no_claims": [
+    "vendor supply",
+    "native book-scribing UI acceptance",
+    "native combine/use acceptance",
+    "all-RoF historical completeness"
+  ]
+}
