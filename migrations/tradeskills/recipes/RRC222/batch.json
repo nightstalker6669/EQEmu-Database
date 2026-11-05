@@ -1,0 +1,2429 @@
+{
+  "batch": "RRC222",
+  "branch": "rof2-tradeskills",
+  "status": "SOURCE_PROPOSAL_NOT_APPLIED_LABELLED_RECONSTRUCTION",
+  "proposed_ids": [
+    3096850,
+    3096862
+  ],
+  "counts": {
+    "recipes": 13,
+    "entries": 91,
+    "item_dependencies": 46,
+    "unchanged_prototype_recipes": 0,
+    "unchanged_prototype_entries": 0
+  },
+  "recipes": [
+    {
+      "id": 3096850,
+      "name": "Formed Suspension of Slime I",
+      "tradeskill": 59,
+      "skillneeded": 0,
+      "trivial": 38,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary PoR Formed Alchemy Suspensions reconstruction; RRC222.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 11,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3096851,
+      "name": "Formed Suspension of Slime II",
+      "tradeskill": 59,
+      "skillneeded": 0,
+      "trivial": 59,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary PoR Formed Alchemy Suspensions reconstruction; RRC222.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 11,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3096852,
+      "name": "Formed Suspension of Slime III",
+      "tradeskill": 59,
+      "skillneeded": 0,
+      "trivial": 86,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary PoR Formed Alchemy Suspensions reconstruction; RRC222.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 11,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3096853,
+      "name": "Formed Suspension of Slime IV",
+      "tradeskill": 59,
+      "skillneeded": 0,
+      "trivial": 112,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary PoR Formed Alchemy Suspensions reconstruction; RRC222.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 11,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3096854,
+      "name": "Formed Suspension of Slime V",
+      "tradeskill": 59,
+      "skillneeded": 0,
+      "trivial": 151,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary PoR Formed Alchemy Suspensions reconstruction; RRC222.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 11,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3096855,
+      "name": "Formed Suspension of Slime VI",
+      "tradeskill": 59,
+      "skillneeded": 0,
+      "trivial": 188,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary PoR Formed Alchemy Suspensions reconstruction; RRC222.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 11,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3096856,
+      "name": "Formed Suspension of Toxin I",
+      "tradeskill": 59,
+      "skillneeded": 0,
+      "trivial": 36,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary PoR Formed Alchemy Suspensions reconstruction; RRC222.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 11,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3096857,
+      "name": "Formed Suspension of Toxin II",
+      "tradeskill": 59,
+      "skillneeded": 0,
+      "trivial": 56,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary PoR Formed Alchemy Suspensions reconstruction; RRC222.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 11,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3096858,
+      "name": "Formed Suspension of Toxin III",
+      "tradeskill": 59,
+      "skillneeded": 0,
+      "trivial": 82,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary PoR Formed Alchemy Suspensions reconstruction; RRC222.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 11,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3096859,
+      "name": "Formed Suspension of Toxin IV",
+      "tradeskill": 59,
+      "skillneeded": 0,
+      "trivial": 108,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary PoR Formed Alchemy Suspensions reconstruction; RRC222.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 11,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3096860,
+      "name": "Formed Suspension of Toxin V",
+      "tradeskill": 59,
+      "skillneeded": 0,
+      "trivial": 144,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary PoR Formed Alchemy Suspensions reconstruction; RRC222.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 11,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3096861,
+      "name": "Formed Suspension of Toxin VI",
+      "tradeskill": 59,
+      "skillneeded": 0,
+      "trivial": 179,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary PoR Formed Alchemy Suspensions reconstruction; RRC222.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 11,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3096862,
+      "name": "Formed Suspension of Toxin VII",
+      "tradeskill": 59,
+      "skillneeded": 0,
+      "trivial": 220,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary PoR Formed Alchemy Suspensions reconstruction; RRC222.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 11,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    }
+  ],
+  "entries": [
+    {
+      "recipe_id": 3096850,
+      "item_id": 51403,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096850,
+      "item_id": 95891,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096850,
+      "item_id": 95899,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 2,
+      "salvagecount": 2,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096850,
+      "item_id": 95935,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096850,
+      "item_id": 96293,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096850,
+      "item_id": 96842,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096850,
+      "item_id": 17901,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3096851,
+      "item_id": 16512,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096851,
+      "item_id": 95891,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096851,
+      "item_id": 95899,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 2,
+      "salvagecount": 2,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096851,
+      "item_id": 95935,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096851,
+      "item_id": 96294,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096851,
+      "item_id": 96843,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096851,
+      "item_id": 17901,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3096852,
+      "item_id": 16515,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096852,
+      "item_id": 95892,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096852,
+      "item_id": 95900,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 2,
+      "salvagecount": 2,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096852,
+      "item_id": 95936,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096852,
+      "item_id": 96295,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096852,
+      "item_id": 96844,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096852,
+      "item_id": 17901,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3096853,
+      "item_id": 51399,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096853,
+      "item_id": 95892,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096853,
+      "item_id": 95900,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 2,
+      "salvagecount": 2,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096853,
+      "item_id": 95936,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096853,
+      "item_id": 96296,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096853,
+      "item_id": 96845,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096853,
+      "item_id": 17901,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3096854,
+      "item_id": 22141,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096854,
+      "item_id": 95892,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096854,
+      "item_id": 95900,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 2,
+      "salvagecount": 2,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096854,
+      "item_id": 95936,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096854,
+      "item_id": 96297,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096854,
+      "item_id": 96846,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096854,
+      "item_id": 17901,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3096855,
+      "item_id": 14229,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096855,
+      "item_id": 95893,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096855,
+      "item_id": 95901,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 2,
+      "salvagecount": 2,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096855,
+      "item_id": 95937,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096855,
+      "item_id": 96298,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096855,
+      "item_id": 96847,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096855,
+      "item_id": 17901,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3096856,
+      "item_id": 51403,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096856,
+      "item_id": 95903,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096856,
+      "item_id": 95907,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096856,
+      "item_id": 95927,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 2,
+      "salvagecount": 2,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096856,
+      "item_id": 96333,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096856,
+      "item_id": 96842,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096856,
+      "item_id": 17901,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3096857,
+      "item_id": 16512,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096857,
+      "item_id": 95903,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096857,
+      "item_id": 95908,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096857,
+      "item_id": 95927,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 2,
+      "salvagecount": 2,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096857,
+      "item_id": 96334,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096857,
+      "item_id": 96843,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096857,
+      "item_id": 17901,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3096858,
+      "item_id": 16515,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096858,
+      "item_id": 95904,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096858,
+      "item_id": 95908,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096858,
+      "item_id": 95928,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 2,
+      "salvagecount": 2,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096858,
+      "item_id": 96335,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096858,
+      "item_id": 96844,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096858,
+      "item_id": 17901,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3096859,
+      "item_id": 51399,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096859,
+      "item_id": 95904,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096859,
+      "item_id": 95908,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096859,
+      "item_id": 95929,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 2,
+      "salvagecount": 2,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096859,
+      "item_id": 96336,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096859,
+      "item_id": 96845,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096859,
+      "item_id": 17901,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3096860,
+      "item_id": 22141,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096860,
+      "item_id": 95904,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096860,
+      "item_id": 95908,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096860,
+      "item_id": 95928,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 2,
+      "salvagecount": 2,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096860,
+      "item_id": 96337,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096860,
+      "item_id": 96846,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096860,
+      "item_id": 17901,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3096861,
+      "item_id": 14229,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096861,
+      "item_id": 95905,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096861,
+      "item_id": 95909,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096861,
+      "item_id": 95929,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 2,
+      "salvagecount": 2,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096861,
+      "item_id": 96338,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096861,
+      "item_id": 96847,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096861,
+      "item_id": 17901,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3096862,
+      "item_id": 22142,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096862,
+      "item_id": 95905,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096862,
+      "item_id": 95909,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096862,
+      "item_id": 95929,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 2,
+      "salvagecount": 2,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096862,
+      "item_id": 96339,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096862,
+      "item_id": 96848,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096862,
+      "item_id": 17901,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    }
+  ],
+  "item_dependencies": [
+    {
+      "id": 14229,
+      "name": "Blue Vervain Bulb"
+    },
+    {
+      "id": 16512,
+      "name": "Sticklewort"
+    },
+    {
+      "id": 16515,
+      "name": "Vox's Dust"
+    },
+    {
+      "id": 17901,
+      "name": "Medicine Bag"
+    },
+    {
+      "id": 22141,
+      "name": "Violet Tri-Tube Sap"
+    },
+    {
+      "id": 22142,
+      "name": "Betherium Bark"
+    },
+    {
+      "id": 51399,
+      "name": "Belan"
+    },
+    {
+      "id": 51403,
+      "name": "Cicino"
+    },
+    {
+      "id": 95891,
+      "name": "Fragment of Angurth"
+    },
+    {
+      "id": 95892,
+      "name": "Angurth Leaf"
+    },
+    {
+      "id": 95893,
+      "name": "Sprig of Angurth"
+    },
+    {
+      "id": 95899,
+      "name": "Splinter of Bitterwood"
+    },
+    {
+      "id": 95900,
+      "name": "Bitterwood Twig"
+    },
+    {
+      "id": 95901,
+      "name": "Bundle of Bitterwood Twigs"
+    },
+    {
+      "id": 95903,
+      "name": "Grain of Bulb Lotus Pollen"
+    },
+    {
+      "id": 95904,
+      "name": "Pinch of Bulb Lotus Pollen"
+    },
+    {
+      "id": 95905,
+      "name": "Bulb Lotus Petal"
+    },
+    {
+      "id": 95907,
+      "name": "Fragment of Fire Spore"
+    },
+    {
+      "id": 95908,
+      "name": "Fire Spore Leaf"
+    },
+    {
+      "id": 95909,
+      "name": "Sprig of Fire Spore"
+    },
+    {
+      "id": 95927,
+      "name": "Stinging Crystal Dust"
+    },
+    {
+      "id": 95928,
+      "name": "Sliver of Stinging Crystal"
+    },
+    {
+      "id": 95929,
+      "name": "Shard of Stinging Crystal"
+    },
+    {
+      "id": 95935,
+      "name": "Fragment of Yellow Rheum"
+    },
+    {
+      "id": 95936,
+      "name": "Yellow Rheum Leaf"
+    },
+    {
+      "id": 95937,
+      "name": "Sprig of Yellow Rheum"
+    },
+    {
+      "id": 96293,
+      "name": "Formed Suspension of Slime I"
+    },
+    {
+      "id": 96294,
+      "name": "Formed Suspension of Slime II"
+    },
+    {
+      "id": 96295,
+      "name": "Formed Suspension of Slime III"
+    },
+    {
+      "id": 96296,
+      "name": "Formed Suspension of Slime IV"
+    },
+    {
+      "id": 96297,
+      "name": "Formed Suspension of Slime V"
+    },
+    {
+      "id": 96298,
+      "name": "Formed Suspension of Slime VI"
+    },
+    {
+      "id": 96333,
+      "name": "Formed Suspension of Toxin I"
+    },
+    {
+      "id": 96334,
+      "name": "Formed Suspension of Toxin II"
+    },
+    {
+      "id": 96335,
+      "name": "Formed Suspension of Toxin III"
+    },
+    {
+      "id": 96336,
+      "name": "Formed Suspension of Toxin IV"
+    },
+    {
+      "id": 96337,
+      "name": "Formed Suspension of Toxin V"
+    },
+    {
+      "id": 96338,
+      "name": "Formed Suspension of Toxin VI"
+    },
+    {
+      "id": 96339,
+      "name": "Formed Suspension of Toxin VII"
+    },
+    {
+      "id": 96842,
+      "name": "Primitive Formed Potion Vial"
+    },
+    {
+      "id": 96843,
+      "name": "Crude Formed Potion Vial"
+    },
+    {
+      "id": 96844,
+      "name": "Rough Formed Potion Vial"
+    },
+    {
+      "id": 96845,
+      "name": "Makeshift Formed Potion Vial"
+    },
+    {
+      "id": 96846,
+      "name": "Simple Formed Potion Vial"
+    },
+    {
+      "id": 96847,
+      "name": "Plain Formed Potion Vial"
+    },
+    {
+      "id": 96848,
+      "name": "Smooth Formed Potion Vial"
+    }
+  ],
+  "unchanged_prototype_recipes": [],
+  "unchanged_prototype_entries": [],
+  "source_facts": [
+    {
+      "recipe_id": 3096850,
+      "source_name": "Formed Suspension of Slime I",
+      "source_view_id": 6383,
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=29&rsa=Alchemy",
+      "source_formula": "Components: Cicino, Fragment of Angurth, Fragment of Yellow Rheum, Primitive Formed Potion Vial, Splinter of Bitterwood (2)\nIn: Medicine Bag, Reinforced Medicine Bag, Foldable Medicine Bag, Foldable Reinforced Medicine Bag, Alchemy Table (Placeable), Alchemy Table\nYield: 1\nThis combine may only be made by Shaman",
+      "source_catalogue_sha256": "5a9cb4cdd1493a25be702f9aaf609dba648ef5d4db7a08c68436721cb98b87fc",
+      "output_item_id": 96293,
+      "yield_count": 1,
+      "source_physical_roles": {
+        "componentcount": {
+          "51403": 1,
+          "95891": 1,
+          "95899": 2,
+          "95935": 1,
+          "96842": 1
+        },
+        "successcount": {
+          "96293": 1
+        },
+        "failcount": {}
+      },
+      "nofail": 0,
+      "trivial": 38,
+      "ingredients": [
+        {
+          "item_id": 51403,
+          "name": "Cicino",
+          "count": 1
+        },
+        {
+          "item_id": 95891,
+          "name": "Fragment of Angurth",
+          "count": 1
+        },
+        {
+          "item_id": 95899,
+          "name": "Splinter of Bitterwood",
+          "count": 2
+        },
+        {
+          "item_id": 95935,
+          "name": "Fragment of Yellow Rheum",
+          "count": 1
+        },
+        {
+          "item_id": 96842,
+          "name": "Primitive Formed Potion Vial",
+          "count": 1
+        }
+      ],
+      "source_actor_requirement": "Shaman",
+      "actor_mapping": "Existing normal and auto Alchemy Shaman and level25 checks;static source mapping only",
+      "success_roles": {
+        "96293": 1
+      },
+      "failure_roles": {},
+      "container_item_ids": [
+        17901
+      ],
+      "held_source_stations": [
+        "Other MedicineBag variants and AlchemyTables not separately qualified"
+      ],
+      "min_expansion": 11,
+      "skillneeded": 0,
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "learning_origin": "ORDINARY_ZERO_POLICY_SOURCE_OMITS_MANDATORY_BOOK_MINIMUM",
+      "era_origin": "DATED_2006_POR11_FORMED_SUSPENSION_FAMILY_RECONSTRUCTION",
+      "May2013_exact_fields_verified": false,
+      "identity_assurance": "ALL_NATIVE_ITEM_REFERENCES_PRIMARY_EQ_ITEM_ID_AUTHENTICATED",
+      "unlinked_named_output_qualification": null
+    },
+    {
+      "recipe_id": 3096851,
+      "source_name": "Formed Suspension of Slime II",
+      "source_view_id": 6384,
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=29&rsa=Alchemy",
+      "source_formula": "Components: Crude Formed Potion Vial, Fragment of Angurth, Fragment of Yellow Rheum, Splinter of Bitterwood (2), Sticklewort\nIn: Medicine Bag, Reinforced Medicine Bag, Foldable Medicine Bag, Foldable Reinforced Medicine Bag, Alchemy Table (Placeable), Alchemy Table\nYield: 1\nThis combine may only be made by Shaman",
+      "source_catalogue_sha256": "5a9cb4cdd1493a25be702f9aaf609dba648ef5d4db7a08c68436721cb98b87fc",
+      "output_item_id": 96294,
+      "yield_count": 1,
+      "source_physical_roles": {
+        "componentcount": {
+          "16512": 1,
+          "95891": 1,
+          "95899": 2,
+          "95935": 1,
+          "96843": 1
+        },
+        "successcount": {
+          "96294": 1
+        },
+        "failcount": {}
+      },
+      "nofail": 0,
+      "trivial": 59,
+      "ingredients": [
+        {
+          "item_id": 16512,
+          "name": "Sticklewort",
+          "count": 1
+        },
+        {
+          "item_id": 95891,
+          "name": "Fragment of Angurth",
+          "count": 1
+        },
+        {
+          "item_id": 95899,
+          "name": "Splinter of Bitterwood",
+          "count": 2
+        },
+        {
+          "item_id": 95935,
+          "name": "Fragment of Yellow Rheum",
+          "count": 1
+        },
+        {
+          "item_id": 96843,
+          "name": "Crude Formed Potion Vial",
+          "count": 1
+        }
+      ],
+      "source_actor_requirement": "Shaman",
+      "actor_mapping": "Existing normal and auto Alchemy Shaman and level25 checks;static source mapping only",
+      "success_roles": {
+        "96294": 1
+      },
+      "failure_roles": {},
+      "container_item_ids": [
+        17901
+      ],
+      "held_source_stations": [
+        "Other MedicineBag variants and AlchemyTables not separately qualified"
+      ],
+      "min_expansion": 11,
+      "skillneeded": 0,
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "learning_origin": "ORDINARY_ZERO_POLICY_SOURCE_OMITS_MANDATORY_BOOK_MINIMUM",
+      "era_origin": "DATED_2006_POR11_FORMED_SUSPENSION_FAMILY_RECONSTRUCTION",
+      "May2013_exact_fields_verified": false,
+      "identity_assurance": "ALL_NATIVE_ITEM_REFERENCES_PRIMARY_EQ_ITEM_ID_AUTHENTICATED",
+      "unlinked_named_output_qualification": null
+    },
+    {
+      "recipe_id": 3096852,
+      "source_name": "Formed Suspension of Slime III",
+      "source_view_id": 6385,
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=29&rsa=Alchemy",
+      "source_formula": "Components: Angurth Leaf, Bitterwood Twig (2), Rough Formed Potion Vial, Vox's Dust, Yellow Rheum Leaf\nIn: Medicine Bag, Reinforced Medicine Bag, Foldable Medicine Bag, Foldable Reinforced Medicine Bag, Alchemy Table (Placeable), Alchemy Table\nYield: 1\nThis combine may only be made by Shaman",
+      "source_catalogue_sha256": "5a9cb4cdd1493a25be702f9aaf609dba648ef5d4db7a08c68436721cb98b87fc",
+      "output_item_id": 96295,
+      "yield_count": 1,
+      "source_physical_roles": {
+        "componentcount": {
+          "16515": 1,
+          "95892": 1,
+          "95900": 2,
+          "95936": 1,
+          "96844": 1
+        },
+        "successcount": {
+          "96295": 1
+        },
+        "failcount": {}
+      },
+      "nofail": 0,
+      "trivial": 86,
+      "ingredients": [
+        {
+          "item_id": 16515,
+          "name": "Vox's Dust",
+          "count": 1
+        },
+        {
+          "item_id": 95892,
+          "name": "Angurth Leaf",
+          "count": 1
+        },
+        {
+          "item_id": 95900,
+          "name": "Bitterwood Twig",
+          "count": 2
+        },
+        {
+          "item_id": 95936,
+          "name": "Yellow Rheum Leaf",
+          "count": 1
+        },
+        {
+          "item_id": 96844,
+          "name": "Rough Formed Potion Vial",
+          "count": 1
+        }
+      ],
+      "source_actor_requirement": "Shaman",
+      "actor_mapping": "Existing normal and auto Alchemy Shaman and level25 checks;static source mapping only",
+      "success_roles": {
+        "96295": 1
+      },
+      "failure_roles": {},
+      "container_item_ids": [
+        17901
+      ],
+      "held_source_stations": [
+        "Other MedicineBag variants and AlchemyTables not separately qualified"
+      ],
+      "min_expansion": 11,
+      "skillneeded": 0,
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "learning_origin": "ORDINARY_ZERO_POLICY_SOURCE_OMITS_MANDATORY_BOOK_MINIMUM",
+      "era_origin": "DATED_2006_POR11_FORMED_SUSPENSION_FAMILY_RECONSTRUCTION",
+      "May2013_exact_fields_verified": false,
+      "identity_assurance": "ALL_NATIVE_ITEM_REFERENCES_PRIMARY_EQ_ITEM_ID_AUTHENTICATED",
+      "unlinked_named_output_qualification": null
+    },
+    {
+      "recipe_id": 3096853,
+      "source_name": "Formed Suspension of Slime IV",
+      "source_view_id": 6386,
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=29&rsa=Alchemy",
+      "source_formula": "Components: Angurth Leaf, Belan, Bitterwood Twig (2), Makeshift Formed Potion Vial, Yellow Rheum Leaf\nIn: Medicine Bag, Reinforced Medicine Bag, Foldable Medicine Bag, Foldable Reinforced Medicine Bag, Alchemy Table (Placeable), Alchemy Table\nYield: 1\nThis combine may only be made by Shaman",
+      "source_catalogue_sha256": "5a9cb4cdd1493a25be702f9aaf609dba648ef5d4db7a08c68436721cb98b87fc",
+      "output_item_id": 96296,
+      "yield_count": 1,
+      "source_physical_roles": {
+        "componentcount": {
+          "51399": 1,
+          "95892": 1,
+          "95900": 2,
+          "95936": 1,
+          "96845": 1
+        },
+        "successcount": {
+          "96296": 1
+        },
+        "failcount": {}
+      },
+      "nofail": 0,
+      "trivial": 112,
+      "ingredients": [
+        {
+          "item_id": 51399,
+          "name": "Belan",
+          "count": 1
+        },
+        {
+          "item_id": 95892,
+          "name": "Angurth Leaf",
+          "count": 1
+        },
+        {
+          "item_id": 95900,
+          "name": "Bitterwood Twig",
+          "count": 2
+        },
+        {
+          "item_id": 95936,
+          "name": "Yellow Rheum Leaf",
+          "count": 1
+        },
+        {
+          "item_id": 96845,
+          "name": "Makeshift Formed Potion Vial",
+          "count": 1
+        }
+      ],
+      "source_actor_requirement": "Shaman",
+      "actor_mapping": "Existing normal and auto Alchemy Shaman and level25 checks;static source mapping only",
+      "success_roles": {
+        "96296": 1
+      },
+      "failure_roles": {},
+      "container_item_ids": [
+        17901
+      ],
+      "held_source_stations": [
+        "Other MedicineBag variants and AlchemyTables not separately qualified"
+      ],
+      "min_expansion": 11,
+      "skillneeded": 0,
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "learning_origin": "ORDINARY_ZERO_POLICY_SOURCE_OMITS_MANDATORY_BOOK_MINIMUM",
+      "era_origin": "DATED_2006_POR11_FORMED_SUSPENSION_FAMILY_RECONSTRUCTION",
+      "May2013_exact_fields_verified": false,
+      "identity_assurance": "ALL_NATIVE_ITEM_REFERENCES_PRIMARY_EQ_ITEM_ID_AUTHENTICATED",
+      "unlinked_named_output_qualification": null
+    },
+    {
+      "recipe_id": 3096854,
+      "source_name": "Formed Suspension of Slime V",
+      "source_view_id": 6388,
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=29&rsa=Alchemy",
+      "source_formula": "Components: Angurth Leaf, Bitterwood Twig (2), Simple Formed Potion Vial, Violet Tri-Tube Sap, Yellow Rheum Leaf\nIn: Medicine Bag, Reinforced Medicine Bag, Foldable Medicine Bag, Foldable Reinforced Medicine Bag, Alchemy Table (Placeable), Alchemy Table\nYield: 1\nThis combine may only be made by Shaman",
+      "source_catalogue_sha256": "5a9cb4cdd1493a25be702f9aaf609dba648ef5d4db7a08c68436721cb98b87fc",
+      "output_item_id": 96297,
+      "yield_count": 1,
+      "source_physical_roles": {
+        "componentcount": {
+          "22141": 1,
+          "95892": 1,
+          "95900": 2,
+          "95936": 1,
+          "96846": 1
+        },
+        "successcount": {
+          "96297": 1
+        },
+        "failcount": {}
+      },
+      "nofail": 0,
+      "trivial": 151,
+      "ingredients": [
+        {
+          "item_id": 22141,
+          "name": "Violet Tri-Tube Sap",
+          "count": 1
+        },
+        {
+          "item_id": 95892,
+          "name": "Angurth Leaf",
+          "count": 1
+        },
+        {
+          "item_id": 95900,
+          "name": "Bitterwood Twig",
+          "count": 2
+        },
+        {
+          "item_id": 95936,
+          "name": "Yellow Rheum Leaf",
+          "count": 1
+        },
+        {
+          "item_id": 96846,
+          "name": "Simple Formed Potion Vial",
+          "count": 1
+        }
+      ],
+      "source_actor_requirement": "Shaman",
+      "actor_mapping": "Existing normal and auto Alchemy Shaman and level25 checks;static source mapping only",
+      "success_roles": {
+        "96297": 1
+      },
+      "failure_roles": {},
+      "container_item_ids": [
+        17901
+      ],
+      "held_source_stations": [
+        "Other MedicineBag variants and AlchemyTables not separately qualified"
+      ],
+      "min_expansion": 11,
+      "skillneeded": 0,
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "learning_origin": "ORDINARY_ZERO_POLICY_SOURCE_OMITS_MANDATORY_BOOK_MINIMUM",
+      "era_origin": "DATED_2006_POR11_FORMED_SUSPENSION_FAMILY_RECONSTRUCTION",
+      "May2013_exact_fields_verified": false,
+      "identity_assurance": "ALL_NATIVE_ITEM_REFERENCES_PRIMARY_EQ_ITEM_ID_AUTHENTICATED",
+      "unlinked_named_output_qualification": null
+    },
+    {
+      "recipe_id": 3096855,
+      "source_name": "Formed Suspension of Slime VI",
+      "source_view_id": 6389,
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=29&rsa=Alchemy",
+      "source_formula": "Components: Blue Vervain Bulb, Bundle of Bitterwood Twigs (2), Plain Formed Potion Vial, Sprig of Angurth, Sprig of Yellow Rheum\nIn: Medicine Bag, Reinforced Medicine Bag, Foldable Medicine Bag, Foldable Reinforced Medicine Bag, Alchemy Table (Placeable), Alchemy Table\nYield: 1\nThis combine may only be made by Shaman",
+      "source_catalogue_sha256": "5a9cb4cdd1493a25be702f9aaf609dba648ef5d4db7a08c68436721cb98b87fc",
+      "output_item_id": 96298,
+      "yield_count": 1,
+      "source_physical_roles": {
+        "componentcount": {
+          "14229": 1,
+          "95893": 1,
+          "95901": 2,
+          "95937": 1,
+          "96847": 1
+        },
+        "successcount": {
+          "96298": 1
+        },
+        "failcount": {}
+      },
+      "nofail": 0,
+      "trivial": 188,
+      "ingredients": [
+        {
+          "item_id": 14229,
+          "name": "Blue Vervain Bulb",
+          "count": 1
+        },
+        {
+          "item_id": 95893,
+          "name": "Sprig of Angurth",
+          "count": 1
+        },
+        {
+          "item_id": 95901,
+          "name": "Bundle of Bitterwood Twigs",
+          "count": 2
+        },
+        {
+          "item_id": 95937,
+          "name": "Sprig of Yellow Rheum",
+          "count": 1
+        },
+        {
+          "item_id": 96847,
+          "name": "Plain Formed Potion Vial",
+          "count": 1
+        }
+      ],
+      "source_actor_requirement": "Shaman",
+      "actor_mapping": "Existing normal and auto Alchemy Shaman and level25 checks;static source mapping only",
+      "success_roles": {
+        "96298": 1
+      },
+      "failure_roles": {},
+      "container_item_ids": [
+        17901
+      ],
+      "held_source_stations": [
+        "Other MedicineBag variants and AlchemyTables not separately qualified"
+      ],
+      "min_expansion": 11,
+      "skillneeded": 0,
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "learning_origin": "ORDINARY_ZERO_POLICY_SOURCE_OMITS_MANDATORY_BOOK_MINIMUM",
+      "era_origin": "DATED_2006_POR11_FORMED_SUSPENSION_FAMILY_RECONSTRUCTION",
+      "May2013_exact_fields_verified": false,
+      "identity_assurance": "ALL_NATIVE_ITEM_REFERENCES_PRIMARY_EQ_ITEM_ID_AUTHENTICATED",
+      "unlinked_named_output_qualification": null
+    },
+    {
+      "recipe_id": 3096856,
+      "source_name": "Formed Suspension of Toxin I",
+      "source_view_id": 6400,
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=29&rsa=Alchemy",
+      "source_formula": "Components: Cicino, Fragment of Fire Spore, Grain of Bulb Lotus Pollen, Primitive Formed Potion Vial, Stinging Crystal Dust (2)\nIn: Medicine Bag, Reinforced Medicine Bag, Foldable Medicine Bag, Foldable Reinforced Medicine Bag, Alchemy Table (Placeable), Alchemy Table\nYield: 1\nThis combine may only be made by Shaman",
+      "source_catalogue_sha256": "5a9cb4cdd1493a25be702f9aaf609dba648ef5d4db7a08c68436721cb98b87fc",
+      "output_item_id": 96333,
+      "yield_count": 1,
+      "source_physical_roles": {
+        "componentcount": {
+          "51403": 1,
+          "95903": 1,
+          "95907": 1,
+          "95927": 2,
+          "96842": 1
+        },
+        "successcount": {
+          "96333": 1
+        },
+        "failcount": {}
+      },
+      "nofail": 0,
+      "trivial": 36,
+      "ingredients": [
+        {
+          "item_id": 51403,
+          "name": "Cicino",
+          "count": 1
+        },
+        {
+          "item_id": 95903,
+          "name": "Grain of Bulb Lotus Pollen",
+          "count": 1
+        },
+        {
+          "item_id": 95907,
+          "name": "Fragment of Fire Spore",
+          "count": 1
+        },
+        {
+          "item_id": 95927,
+          "name": "Stinging Crystal Dust",
+          "count": 2
+        },
+        {
+          "item_id": 96842,
+          "name": "Primitive Formed Potion Vial",
+          "count": 1
+        }
+      ],
+      "source_actor_requirement": "Shaman",
+      "actor_mapping": "Existing normal and auto Alchemy Shaman and level25 checks;static source mapping only",
+      "success_roles": {
+        "96333": 1
+      },
+      "failure_roles": {},
+      "container_item_ids": [
+        17901
+      ],
+      "held_source_stations": [
+        "Other MedicineBag variants and AlchemyTables not separately qualified"
+      ],
+      "min_expansion": 11,
+      "skillneeded": 0,
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "learning_origin": "ORDINARY_ZERO_POLICY_SOURCE_OMITS_MANDATORY_BOOK_MINIMUM",
+      "era_origin": "DATED_2006_POR11_FORMED_SUSPENSION_FAMILY_RECONSTRUCTION",
+      "May2013_exact_fields_verified": false,
+      "identity_assurance": "ALL_NATIVE_ITEM_REFERENCES_PRIMARY_EQ_ITEM_ID_AUTHENTICATED",
+      "unlinked_named_output_qualification": null
+    },
+    {
+      "recipe_id": 3096857,
+      "source_name": "Formed Suspension of Toxin II",
+      "source_view_id": 6401,
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=29&rsa=Alchemy",
+      "source_formula": "Components: Crude Formed Potion Vial, Fire Spore Leaf, Grain of Bulb Lotus Pollen, Sticklewort, Stinging Crystal Dust (2)\nIn: Medicine Bag, Reinforced Medicine Bag, Foldable Medicine Bag, Foldable Reinforced Medicine Bag, Alchemy Table (Placeable), Alchemy Table\nYield: 1\nThis combine may only be made by Shaman",
+      "source_catalogue_sha256": "5a9cb4cdd1493a25be702f9aaf609dba648ef5d4db7a08c68436721cb98b87fc",
+      "output_item_id": 96334,
+      "yield_count": 1,
+      "source_physical_roles": {
+        "componentcount": {
+          "16512": 1,
+          "95903": 1,
+          "95908": 1,
+          "95927": 2,
+          "96843": 1
+        },
+        "successcount": {
+          "96334": 1
+        },
+        "failcount": {}
+      },
+      "nofail": 0,
+      "trivial": 56,
+      "ingredients": [
+        {
+          "item_id": 16512,
+          "name": "Sticklewort",
+          "count": 1
+        },
+        {
+          "item_id": 95903,
+          "name": "Grain of Bulb Lotus Pollen",
+          "count": 1
+        },
+        {
+          "item_id": 95908,
+          "name": "Fire Spore Leaf",
+          "count": 1
+        },
+        {
+          "item_id": 95927,
+          "name": "Stinging Crystal Dust",
+          "count": 2
+        },
+        {
+          "item_id": 96843,
+          "name": "Crude Formed Potion Vial",
+          "count": 1
+        }
+      ],
+      "source_actor_requirement": "Shaman",
+      "actor_mapping": "Existing normal and auto Alchemy Shaman and level25 checks;static source mapping only",
+      "success_roles": {
+        "96334": 1
+      },
+      "failure_roles": {},
+      "container_item_ids": [
+        17901
+      ],
+      "held_source_stations": [
+        "Other MedicineBag variants and AlchemyTables not separately qualified"
+      ],
+      "min_expansion": 11,
+      "skillneeded": 0,
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "learning_origin": "ORDINARY_ZERO_POLICY_SOURCE_OMITS_MANDATORY_BOOK_MINIMUM",
+      "era_origin": "DATED_2006_POR11_FORMED_SUSPENSION_FAMILY_RECONSTRUCTION",
+      "May2013_exact_fields_verified": false,
+      "identity_assurance": "ALL_NATIVE_ITEM_REFERENCES_PRIMARY_EQ_ITEM_ID_AUTHENTICATED",
+      "unlinked_named_output_qualification": null
+    },
+    {
+      "recipe_id": 3096858,
+      "source_name": "Formed Suspension of Toxin III",
+      "source_view_id": 6402,
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=29&rsa=Alchemy",
+      "source_formula": "Components: Fire Spore Leaf, Pinch of Bulb Lotus Pollen, Rough Formed Potion Vial, Sliver of Stinging Crystal (2), Vox's Dust\nIn: Medicine Bag, Reinforced Medicine Bag, Foldable Medicine Bag, Foldable Reinforced Medicine Bag, Alchemy Table (Placeable), Alchemy Table\nYield: 1\nThis combine may only be made by Shaman",
+      "source_catalogue_sha256": "5a9cb4cdd1493a25be702f9aaf609dba648ef5d4db7a08c68436721cb98b87fc",
+      "output_item_id": 96335,
+      "yield_count": 1,
+      "source_physical_roles": {
+        "componentcount": {
+          "16515": 1,
+          "95904": 1,
+          "95908": 1,
+          "95928": 2,
+          "96844": 1
+        },
+        "successcount": {
+          "96335": 1
+        },
+        "failcount": {}
+      },
+      "nofail": 0,
+      "trivial": 82,
+      "ingredients": [
+        {
+          "item_id": 16515,
+          "name": "Vox's Dust",
+          "count": 1
+        },
+        {
+          "item_id": 95904,
+          "name": "Pinch of Bulb Lotus Pollen",
+          "count": 1
+        },
+        {
+          "item_id": 95908,
+          "name": "Fire Spore Leaf",
+          "count": 1
+        },
+        {
+          "item_id": 95928,
+          "name": "Sliver of Stinging Crystal",
+          "count": 2
+        },
+        {
+          "item_id": 96844,
+          "name": "Rough Formed Potion Vial",
+          "count": 1
+        }
+      ],
+      "source_actor_requirement": "Shaman",
+      "actor_mapping": "Existing normal and auto Alchemy Shaman and level25 checks;static source mapping only",
+      "success_roles": {
+        "96335": 1
+      },
+      "failure_roles": {},
+      "container_item_ids": [
+        17901
+      ],
+      "held_source_stations": [
+        "Other MedicineBag variants and AlchemyTables not separately qualified"
+      ],
+      "min_expansion": 11,
+      "skillneeded": 0,
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "learning_origin": "ORDINARY_ZERO_POLICY_SOURCE_OMITS_MANDATORY_BOOK_MINIMUM",
+      "era_origin": "DATED_2006_POR11_FORMED_SUSPENSION_FAMILY_RECONSTRUCTION",
+      "May2013_exact_fields_verified": false,
+      "identity_assurance": "ALL_NATIVE_ITEM_REFERENCES_PRIMARY_EQ_ITEM_ID_AUTHENTICATED",
+      "unlinked_named_output_qualification": null
+    },
+    {
+      "recipe_id": 3096859,
+      "source_name": "Formed Suspension of Toxin IV",
+      "source_view_id": 6403,
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=29&rsa=Alchemy",
+      "source_formula": "Components: Belan, Fire Spore Leaf, Makeshift Formed Potion Vial, Pinch of Bulb Lotus Pollen, Shard of Stinging Crystal (2)\nIn: Medicine Bag, Reinforced Medicine Bag, Foldable Medicine Bag, Foldable Reinforced Medicine Bag, Alchemy Table (Placeable), Alchemy Table\nYield: 1\nThis combine may only be made by Shaman",
+      "source_catalogue_sha256": "5a9cb4cdd1493a25be702f9aaf609dba648ef5d4db7a08c68436721cb98b87fc",
+      "output_item_id": 96336,
+      "yield_count": 1,
+      "source_physical_roles": {
+        "componentcount": {
+          "51399": 1,
+          "95904": 1,
+          "95908": 1,
+          "95929": 2,
+          "96845": 1
+        },
+        "successcount": {
+          "96336": 1
+        },
+        "failcount": {}
+      },
+      "nofail": 0,
+      "trivial": 108,
+      "ingredients": [
+        {
+          "item_id": 51399,
+          "name": "Belan",
+          "count": 1
+        },
+        {
+          "item_id": 95904,
+          "name": "Pinch of Bulb Lotus Pollen",
+          "count": 1
+        },
+        {
+          "item_id": 95908,
+          "name": "Fire Spore Leaf",
+          "count": 1
+        },
+        {
+          "item_id": 95929,
+          "name": "Shard of Stinging Crystal",
+          "count": 2
+        },
+        {
+          "item_id": 96845,
+          "name": "Makeshift Formed Potion Vial",
+          "count": 1
+        }
+      ],
+      "source_actor_requirement": "Shaman",
+      "actor_mapping": "Existing normal and auto Alchemy Shaman and level25 checks;static source mapping only",
+      "success_roles": {
+        "96336": 1
+      },
+      "failure_roles": {},
+      "container_item_ids": [
+        17901
+      ],
+      "held_source_stations": [
+        "Other MedicineBag variants and AlchemyTables not separately qualified"
+      ],
+      "min_expansion": 11,
+      "skillneeded": 0,
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "learning_origin": "ORDINARY_ZERO_POLICY_SOURCE_OMITS_MANDATORY_BOOK_MINIMUM",
+      "era_origin": "DATED_2006_POR11_FORMED_SUSPENSION_FAMILY_RECONSTRUCTION",
+      "May2013_exact_fields_verified": false,
+      "identity_assurance": "ALL_NATIVE_ITEM_REFERENCES_PRIMARY_EQ_ITEM_ID_AUTHENTICATED",
+      "unlinked_named_output_qualification": null
+    },
+    {
+      "recipe_id": 3096860,
+      "source_name": "Formed Suspension of Toxin V",
+      "source_view_id": 6405,
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=29&rsa=Alchemy",
+      "source_formula": "Components: Fire Spore Leaf, Pinch of Bulb Lotus Pollen, Simple Formed Potion Vial, Sliver of Stinging Crystal (2), Violet Tri-Tube Sap\nIn: Medicine Bag, Reinforced Medicine Bag, Foldable Medicine Bag, Foldable Reinforced Medicine Bag, Alchemy Table (Placeable), Alchemy Table\nYield: 1\nThis combine may only be made by Shaman",
+      "source_catalogue_sha256": "5a9cb4cdd1493a25be702f9aaf609dba648ef5d4db7a08c68436721cb98b87fc",
+      "output_item_id": 96337,
+      "yield_count": 1,
+      "source_physical_roles": {
+        "componentcount": {
+          "22141": 1,
+          "95904": 1,
+          "95908": 1,
+          "95928": 2,
+          "96846": 1
+        },
+        "successcount": {
+          "96337": 1
+        },
+        "failcount": {}
+      },
+      "nofail": 0,
+      "trivial": 144,
+      "ingredients": [
+        {
+          "item_id": 22141,
+          "name": "Violet Tri-Tube Sap",
+          "count": 1
+        },
+        {
+          "item_id": 95904,
+          "name": "Pinch of Bulb Lotus Pollen",
+          "count": 1
+        },
+        {
+          "item_id": 95908,
+          "name": "Fire Spore Leaf",
+          "count": 1
+        },
+        {
+          "item_id": 95928,
+          "name": "Sliver of Stinging Crystal",
+          "count": 2
+        },
+        {
+          "item_id": 96846,
+          "name": "Simple Formed Potion Vial",
+          "count": 1
+        }
+      ],
+      "source_actor_requirement": "Shaman",
+      "actor_mapping": "Existing normal and auto Alchemy Shaman and level25 checks;static source mapping only",
+      "success_roles": {
+        "96337": 1
+      },
+      "failure_roles": {},
+      "container_item_ids": [
+        17901
+      ],
+      "held_source_stations": [
+        "Other MedicineBag variants and AlchemyTables not separately qualified"
+      ],
+      "min_expansion": 11,
+      "skillneeded": 0,
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "learning_origin": "ORDINARY_ZERO_POLICY_SOURCE_OMITS_MANDATORY_BOOK_MINIMUM",
+      "era_origin": "DATED_2006_POR11_FORMED_SUSPENSION_FAMILY_RECONSTRUCTION",
+      "May2013_exact_fields_verified": false,
+      "identity_assurance": "ALL_NATIVE_ITEM_REFERENCES_PRIMARY_EQ_ITEM_ID_AUTHENTICATED",
+      "unlinked_named_output_qualification": null
+    },
+    {
+      "recipe_id": 3096861,
+      "source_name": "Formed Suspension of Toxin VI",
+      "source_view_id": 6406,
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=29&rsa=Alchemy",
+      "source_formula": "Components: Blue Vervain Bulb, Bulb Lotus Petal, Plain Formed Potion Vial, Shard of Stinging Crystal (2), Sprig of Fire Spore\nIn: Medicine Bag, Reinforced Medicine Bag, Foldable Medicine Bag, Foldable Reinforced Medicine Bag, Alchemy Table (Placeable), Alchemy Table, Guild Alchemy Table\nYield: 1\nThis combine may only be made by Shaman",
+      "source_catalogue_sha256": "5a9cb4cdd1493a25be702f9aaf609dba648ef5d4db7a08c68436721cb98b87fc",
+      "output_item_id": 96338,
+      "yield_count": 1,
+      "source_physical_roles": {
+        "componentcount": {
+          "14229": 1,
+          "95905": 1,
+          "95909": 1,
+          "95929": 2,
+          "96847": 1
+        },
+        "successcount": {
+          "96338": 1
+        },
+        "failcount": {}
+      },
+      "nofail": 0,
+      "trivial": 179,
+      "ingredients": [
+        {
+          "item_id": 14229,
+          "name": "Blue Vervain Bulb",
+          "count": 1
+        },
+        {
+          "item_id": 95905,
+          "name": "Bulb Lotus Petal",
+          "count": 1
+        },
+        {
+          "item_id": 95909,
+          "name": "Sprig of Fire Spore",
+          "count": 1
+        },
+        {
+          "item_id": 95929,
+          "name": "Shard of Stinging Crystal",
+          "count": 2
+        },
+        {
+          "item_id": 96847,
+          "name": "Plain Formed Potion Vial",
+          "count": 1
+        }
+      ],
+      "source_actor_requirement": "Shaman",
+      "actor_mapping": "Existing normal and auto Alchemy Shaman and level25 checks;static source mapping only",
+      "success_roles": {
+        "96338": 1
+      },
+      "failure_roles": {},
+      "container_item_ids": [
+        17901
+      ],
+      "held_source_stations": [
+        "Other MedicineBag variants and AlchemyTables not separately qualified"
+      ],
+      "min_expansion": 11,
+      "skillneeded": 0,
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "learning_origin": "ORDINARY_ZERO_POLICY_SOURCE_OMITS_MANDATORY_BOOK_MINIMUM",
+      "era_origin": "DATED_2006_POR11_FORMED_SUSPENSION_FAMILY_RECONSTRUCTION",
+      "May2013_exact_fields_verified": false,
+      "identity_assurance": "ALL_NATIVE_ITEM_REFERENCES_PRIMARY_EQ_ITEM_ID_AUTHENTICATED",
+      "unlinked_named_output_qualification": null
+    },
+    {
+      "recipe_id": 3096862,
+      "source_name": "Formed Suspension of Toxin VII",
+      "source_view_id": 6407,
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=29&rsa=Alchemy",
+      "source_formula": "Components: Betherium Bark, Bulb Lotus Petal, Shard of Stinging Crystal (2), Smooth Formed Potion Vial, Sprig of Fire Spore\nIn: Medicine Bag, Reinforced Medicine Bag, Foldable Medicine Bag, Foldable Reinforced Medicine Bag, Alchemy Table (Placeable), Alchemy Table\nYield: 1\nThis combine may only be made by Shaman\nNotes: EQRecipeID: 34985",
+      "source_catalogue_sha256": "5a9cb4cdd1493a25be702f9aaf609dba648ef5d4db7a08c68436721cb98b87fc",
+      "output_item_id": 96339,
+      "yield_count": 1,
+      "source_physical_roles": {
+        "componentcount": {
+          "22142": 1,
+          "95905": 1,
+          "95909": 1,
+          "95929": 2,
+          "96848": 1
+        },
+        "successcount": {
+          "96339": 1
+        },
+        "failcount": {}
+      },
+      "nofail": 0,
+      "trivial": 220,
+      "ingredients": [
+        {
+          "item_id": 22142,
+          "name": "Betherium Bark",
+          "count": 1
+        },
+        {
+          "item_id": 95905,
+          "name": "Bulb Lotus Petal",
+          "count": 1
+        },
+        {
+          "item_id": 95909,
+          "name": "Sprig of Fire Spore",
+          "count": 1
+        },
+        {
+          "item_id": 95929,
+          "name": "Shard of Stinging Crystal",
+          "count": 2
+        },
+        {
+          "item_id": 96848,
+          "name": "Smooth Formed Potion Vial",
+          "count": 1
+        }
+      ],
+      "source_actor_requirement": "Shaman",
+      "actor_mapping": "Existing normal and auto Alchemy Shaman and level25 checks;static source mapping only",
+      "success_roles": {
+        "96339": 1
+      },
+      "failure_roles": {},
+      "container_item_ids": [
+        17901
+      ],
+      "held_source_stations": [
+        "Other MedicineBag variants and AlchemyTables not separately qualified"
+      ],
+      "min_expansion": 11,
+      "skillneeded": 0,
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "learning_origin": "ORDINARY_ZERO_POLICY_SOURCE_OMITS_MANDATORY_BOOK_MINIMUM",
+      "era_origin": "DATED_2006_POR11_FORMED_SUSPENSION_FAMILY_RECONSTRUCTION",
+      "May2013_exact_fields_verified": false,
+      "identity_assurance": "ALL_NATIVE_ITEM_REFERENCES_PRIMARY_EQ_ITEM_ID_AUTHENTICATED",
+      "unlinked_named_output_qualification": null
+    }
+  ],
+  "restriction_review": {
+    "scope": "Thirteen remaining absent Formed Suspension of Slime I-VI and Toxin I-VII bodies from the existing queue.21 new direct primary identities (13 outputs and8 ingredients) match retained formulas, literal quantities and per-item numeric trivials. Prior explicitly authenticated shared ingredients and exact portable Medicine Bag17901 are reused from RRC221. This completes the selected Formed I-VII family; other tiers and other potion families remain outside this batch.",
+    "historical": "Dated2006-02-27 EQTCforum25687 post4 reports actual Formed Suspension of Toxin VII manufacture and trivial220, matching this selected control, without its full ingredients. Dated2006-02-28 post7 reports actual FormedSuspensionofSlimeVII manufacture and lists the same complete five ingredient kinds, BitterwoodTwigs2, trivial231. Contemporaneous2006forum28887 family list (lastedited2011) identifies formed suspensions and effects. Positive2006Alchemy-revamp/PoR11 family context supports labelled floor11/max-1 reconstruction; individual other bodies are not claimed immutable2006/May2013 fields or exact introduction dates. Recipe/item numeric IDs not date evidence; tiersVIII+ not selected.",
+    "actor": "Each source explicitly Shaman-only. Existing normal and auto Alchemy code independently checks Shaman and MIN_LEVEL_ALCHEMY25 (common/features.h). Set skill59, retain native actor/level mechanisms; source minimum-skill omission0 and ordinary must_learn0/book0/quest0/enabled1/nofail0 conventions. Item use masks do not create manufacturing actor gates. Static source mapping only, no core edits or native acceptance.",
+    "quantity": "PhysicalYield1 for every stackable uncharged currentMax0 throwing item; no maximum-charge default or potion stack-cap normalization. Exact repeated herbs2 are physical stack units, native capacities sufficient. Distinct numeric trivials preserved, not uniform by tier; dated SlimeVII231 differs from otherVII formulas. No success/failure co-products stated/invented.",
+    "containers": "Every source explicitly permits ordinary MedicineBag. Direct primary1141/EQ17901/capacity8/LARGE matches nativeNameMedicineBag/class1/bagtype9/8slots/bagsize3; every full source input count/size fits. Bind only exact portable17901; Reinforced/Foldable variants and modern AlchemyTables held separately, no world availability inferred.",
+    "preservation": "Exact native dependencies reuse prior full18-field receipts where available; only newly required fields are read fresh. No current all-state/all-skill full-input/name match or existing positive-success output peers. NewIDs/full logicalentry multisets/countdeltas/learnedrefs guarded; no existing recipe/item/quest/core/player writes.",
+    "execution": "Source only pending publication/exact SQL GO. Coordinator accepted the bounded Formed I-VII family qualification and labelled PoR11 floor for RRC221; same limits retained for this independent tail batch. Named one-pass count contract. Reader/source tabs closed. No broad new audit/rehearsal/tests/build/runtime/native combines/throwing/combat acceptance; overall scope incomplete."
+  },
+  "source_urls": [
+    "https://mboards.eqtraders.com/eq/forum/tradeskills/alchemy/25687-some-recipes-for-those-trying-to-skill-up",
+    "https://mboards.eqtraders.com/eq/forum/tradeskills/alchemy/28887-potion-list",
+    "https://www.eqtraders.com/recipes/recipe_page.php?article=29&rsa=Alchemy"
+  ],
+  "supplemental_primary_identity_sources": [
+    {
+      "source_url": "https://www.eqtraders.com/items/show_item.php?item=22828",
+      "source_item_id": 22828,
+      "explicit_EQ_item_ID": 95903,
+      "observed_primary_title": "EQTC - Item: Grain of Bulb Lotus Pollen"
+    },
+    {
+      "source_url": "https://www.eqtraders.com/items/show_item.php?item=22175",
+      "source_item_id": 22175,
+      "explicit_EQ_item_ID": 95904,
+      "observed_primary_title": "EQTC - Item: Pinch of Bulb Lotus Pollen"
+    },
+    {
+      "source_url": "https://www.eqtraders.com/items/show_item.php?item=11838",
+      "source_item_id": 11838,
+      "explicit_EQ_item_ID": 51399,
+      "observed_primary_title": "EQTC - Item: Belan"
+    },
+    {
+      "source_url": "https://www.eqtraders.com/items/show_item.php?item=11837",
+      "source_item_id": 11837,
+      "explicit_EQ_item_ID": 51403,
+      "observed_primary_title": "EQTC - Item: Cicino"
+    },
+    {
+      "source_url": "https://www.eqtraders.com/items/show_item.php?item=22410",
+      "source_item_id": 22410,
+      "explicit_EQ_item_ID": 95935,
+      "observed_primary_title": "EQTC - Item: Fragment of Yellow Rheum"
+    },
+    {
+      "source_url": "https://www.eqtraders.com/items/show_item.php?item=22211",
+      "source_item_id": 22211,
+      "explicit_EQ_item_ID": 95936,
+      "observed_primary_title": "EQTC - Item: Yellow Rheum Leaf"
+    },
+    {
+      "source_url": "https://www.eqtraders.com/items/show_item.php?item=22262",
+      "source_item_id": 22262,
+      "explicit_EQ_item_ID": 95937,
+      "observed_primary_title": "EQTC - Item: Sprig of Yellow Rheum"
+    },
+    {
+      "source_url": "https://www.eqtraders.com/items/show_item.php?item=22872",
+      "source_item_id": 22872,
+      "explicit_EQ_item_ID": 95891,
+      "observed_primary_title": "EQTC - Item: Fragment of Angurth"
+    },
+    {
+      "source_url": "https://www.eqtraders.com/items/show_item.php?item=22168",
+      "source_item_id": 22168,
+      "explicit_EQ_item_ID": 95892,
+      "observed_primary_title": "EQTC - Item: Angurth Leaf"
+    },
+    {
+      "source_url": "https://www.eqtraders.com/items/show_item.php?item=22217",
+      "source_item_id": 22217,
+      "explicit_EQ_item_ID": 95893,
+      "observed_primary_title": "EQTC - Item: Sprig of Angurth"
+    },
+    {
+      "source_url": "https://www.eqtraders.com/items/show_item.php?item=22220",
+      "source_item_id": 22220,
+      "explicit_EQ_item_ID": 95901,
+      "observed_primary_title": "EQTC - Item: Bundle of Bitterwood Twigs"
+    },
+    {
+      "source_url": "https://www.eqtraders.com/items/show_item.php?item=1141",
+      "source_item_id": 1141,
+      "explicit_EQ_item_ID": 17901,
+      "observed_primary_title": "EQTC - Item: Medicine Bag"
+    },
+    {
+      "source_url": "https://www.eqtraders.com/items/show_item.php?item=7985",
+      "source_item_id": 7985,
+      "explicit_EQ_item_ID": 96293,
+      "observed_primary_title": "EQTC - Item: Formed Suspension of Slime I"
+    },
+    {
+      "source_url": "https://www.eqtraders.com/items/show_item.php?item=7987",
+      "source_item_id": 7987,
+      "explicit_EQ_item_ID": 96294,
+      "observed_primary_title": "EQTC - Item: Formed Suspension of Slime II"
+    },
+    {
+      "source_url": "https://www.eqtraders.com/items/show_item.php?item=5092",
+      "source_item_id": 5092,
+      "explicit_EQ_item_ID": 96295,
+      "observed_primary_title": "EQTC - Item: Formed Suspension of Slime III"
+    },
+    {
+      "source_url": "https://www.eqtraders.com/items/show_item.php?item=22172",
+      "source_item_id": 22172,
+      "explicit_EQ_item_ID": 95900,
+      "observed_primary_title": "EQTC - Item: Bitterwood Twig"
+    },
+    {
+      "source_url": "https://www.eqtraders.com/items/show_item.php?item=3483",
+      "source_item_id": 3483,
+      "explicit_EQ_item_ID": 96296,
+      "observed_primary_title": "EQTC - Item: Formed Suspension of Slime IV"
+    },
+    {
+      "source_url": "https://www.eqtraders.com/items/show_item.php?item=23252",
+      "source_item_id": 23252,
+      "explicit_EQ_item_ID": 96297,
+      "observed_primary_title": "EQTC - Item: Formed Suspension of Slime V"
+    },
+    {
+      "source_url": "https://www.eqtraders.com/items/show_item.php?item=2872",
+      "source_item_id": 2872,
+      "explicit_EQ_item_ID": 96298,
+      "observed_primary_title": "EQTC - Item: Formed Suspension of Slime VI"
+    },
+    {
+      "source_url": "https://www.eqtraders.com/items/show_item.php?item=6045",
+      "source_item_id": 6045,
+      "explicit_EQ_item_ID": 96333,
+      "observed_primary_title": "EQTC - Item: Formed Suspension of Toxin I"
+    },
+    {
+      "source_url": "https://www.eqtraders.com/items/show_item.php?item=22874",
+      "source_item_id": 22874,
+      "explicit_EQ_item_ID": 95907,
+      "observed_primary_title": "EQTC - Item: Fragment of Fire Spore"
+    },
+    {
+      "source_url": "https://www.eqtraders.com/items/show_item.php?item=22876",
+      "source_item_id": 22876,
+      "explicit_EQ_item_ID": 95927,
+      "observed_primary_title": "EQTC - Item: Stinging Crystal Dust"
+    },
+    {
+      "source_url": "https://www.eqtraders.com/items/show_item.php?item=7649",
+      "source_item_id": 7649,
+      "explicit_EQ_item_ID": 96334,
+      "observed_primary_title": "EQTC - Item: Formed Suspension of Toxin II"
+    },
+    {
+      "source_url": "https://www.eqtraders.com/items/show_item.php?item=22187",
+      "source_item_id": 22187,
+      "explicit_EQ_item_ID": 95908,
+      "observed_primary_title": "EQTC - Item: Fire Spore Leaf"
+    },
+    {
+      "source_url": "https://www.eqtraders.com/items/show_item.php?item=6025",
+      "source_item_id": 6025,
+      "explicit_EQ_item_ID": 96335,
+      "observed_primary_title": "EQTC - Item: Formed Suspension of Toxin III"
+    },
+    {
+      "source_url": "https://www.eqtraders.com/items/show_item.php?item=22204",
+      "source_item_id": 22204,
+      "explicit_EQ_item_ID": 95928,
+      "observed_primary_title": "EQTC - Item: Sliver of Stinging Crystal"
+    },
+    {
+      "source_url": "https://www.eqtraders.com/items/show_item.php?item=7996",
+      "source_item_id": 7996,
+      "explicit_EQ_item_ID": 96336,
+      "observed_primary_title": "EQTC - Item: Formed Suspension of Toxin IV"
+    },
+    {
+      "source_url": "https://www.eqtraders.com/items/show_item.php?item=22255",
+      "source_item_id": 22255,
+      "explicit_EQ_item_ID": 95929,
+      "observed_primary_title": "EQTC - Item: Shard of Stinging Crystal"
+    },
+    {
+      "source_url": "https://www.eqtraders.com/items/show_item.php?item=7998",
+      "source_item_id": 7998,
+      "explicit_EQ_item_ID": 96337,
+      "observed_primary_title": "EQTC - Item: Formed Suspension of Toxin V"
+    },
+    {
+      "source_url": "https://www.eqtraders.com/items/show_item.php?item=8000",
+      "source_item_id": 8000,
+      "explicit_EQ_item_ID": 96338,
+      "observed_primary_title": "EQTC - Item: Formed Suspension of Toxin VI"
+    },
+    {
+      "source_url": "https://www.eqtraders.com/items/show_item.php?item=22224",
+      "source_item_id": 22224,
+      "explicit_EQ_item_ID": 95905,
+      "observed_primary_title": "EQTC - Item: Bulb Lotus Petal"
+    },
+    {
+      "source_url": "https://www.eqtraders.com/items/show_item.php?item=22237",
+      "source_item_id": 22237,
+      "explicit_EQ_item_ID": 95909,
+      "observed_primary_title": "EQTC - Item: Sprig of Fire Spore"
+    },
+    {
+      "source_url": "https://www.eqtraders.com/items/show_item.php?item=22394",
+      "source_item_id": 22394,
+      "explicit_EQ_item_ID": 96339,
+      "observed_primary_title": "EQTC - Item: Formed Suspension of Toxin VII"
+    }
+  ],
+  "native_authored_context": [],
+  "migration_dependencies": [],
+  "held_source_rows": []
+}
