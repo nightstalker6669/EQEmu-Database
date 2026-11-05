@@ -1,0 +1,45 @@
+{
+  "format_version": 1,
+  "batch": "RRC209",
+  "source_commit": "16e15bf4be736f46ab12bb7ec2ea61d1ba3062c7",
+  "source_sha256": "03a886626e0cde88b7e57b2d5518f28618e0f5fd90efa19dcd30e9497956d82a",
+  "application_status": "APPLIED_VERIFIED",
+  "SQL_invocations": 1,
+  "transaction_state_after": 0,
+  "recipes_added": 0,
+  "entries_added": 0,
+  "existing_recipe_definitions_updated": 0,
+  "existing_entry_rows_updated": 1,
+  "native_item_dependencies_guarded": 41,
+  "exact_target_postimages": true,
+  "exact_logical_entry_multisets_verified": true,
+  "learned_references_unchanged": true,
+  "global_after_counts": {
+    "recipes": 28258,
+    "entries": 214931
+  },
+  "historical_qualification": {
+    "scope": "Existing Lemon Ice Cream Crunch2019 has Oil20386 successcount2 but componentcount0. Fresh primary source requiresOil3 and returns2. Change only existing entry15153 componentcount0to3, preserving success2/salvage0.",
+    "identity": "Direct primary16520 explicitly EQ75753 with literal foodYield1/trivial162/consumeOil3/returnOil2. All other components/output/trivial match current2019; not a duplicate new recipe.",
+    "preservation": "Exact one existing recipe header/eight entry preimages and41 full native dependencies guarded. All IDs/gates/era/station lists/other entry fields and learned references preserved. Corrected all-state/all-skill full-input uniqueness and manufactured food output-use universe guarded.20absent formulas separate RRC208.",
+    "historical": "Positive maintained OoW family labelled current source reconciliation; exact immutable May2013 fields not independently authenticated. Existing expansion header unchanged.",
+    "execution": "Source only pending publication and exact SQL GO. Exact guarded inverse supplied, never automatically invoked. No new rows/player/core/items/build/runtime/native gameplay acceptance; full coverage incomplete."
+  },
+  "Research160": "HELD/unapplied",
+  "all_scope_complete": false,
+  "player_item_writes": false,
+  "runtime_actions": false,
+  "native_crafting_acceptance": false,
+  "source_documents": "Four source files retained verbatim; preparation-time source-only/separate pending repair labels historical. Actual208 then209 applied separately in this order; summaries record each actual cutoff. Inverse retained but never automatically invoked.",
+  "repair_type": "ONE_EXISTING_COMPONENTCOUNT_ONLY",
+  "affected_existing_recipe_ids": [
+    2019
+  ],
+  "affected_existing_entry_ids": [
+    15153
+  ],
+  "before_entry_rows": 8,
+  "after_entry_rows": 8,
+  "all_original_entry_IDs_preserved": true,
+  "field_changes": "Only entry15153 VegetableOil componentcount0->3;successcount2/salvage0 retained;definition and all otherfields unchanged."
+}

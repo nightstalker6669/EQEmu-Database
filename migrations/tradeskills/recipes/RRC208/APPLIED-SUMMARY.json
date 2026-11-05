@@ -1,0 +1,46 @@
+{
+  "format_version": 1,
+  "batch": "RRC208",
+  "source_commit": "16e15bf4be736f46ab12bb7ec2ea61d1ba3062c7",
+  "source_sha256": "f49e669b9c0032d03c79b6e52692b48370b71acdd253eb1f877acc7bbc25cd7a",
+  "application_status": "APPLIED_VERIFIED",
+  "SQL_invocations": 1,
+  "transaction_state_after": 0,
+  "recipes_added": 20,
+  "entries_added": 108,
+  "existing_recipe_definitions_updated": 0,
+  "existing_entry_rows_updated": 0,
+  "native_item_dependencies_guarded": 41,
+  "exact_target_postimages": true,
+  "exact_logical_entry_multisets_verified": true,
+  "learned_references_unchanged": true,
+  "global_after_counts": {
+    "recipes": 28258,
+    "entries": 214931
+  },
+  "historical_qualification": {
+    "scope": "Twenty absent retained OoW Baking food bodies:13Crunch,3wholecakes,4slice recipes. Existing Lemon Crunch2019 ingredient defect is separately prepared, not duplicated.",
+    "quantity": "Crunch source consumeOil3/returnOil2, foodYield1/trivial162. CakeSlice source consumesone wholecake and yields10 physical stackable slices/trivial46; native stackcapacity at least10. Coffee/Lemon wholecakes yield1/trivial175 and explicitly return CakeRound13439 on success and failure. Vanilla wholecake retained and freshly observed source omits both returns; literal no-return source proposal, no return inferred from siblings.",
+    "era": "Positive maintained OoW8 Baking family; floor8/max-1 labelled reconstruction, not exact introduction or immutable May2013 fields.",
+    "gates": "Source omits mandatory minimum/learning and actor gates. Ordinary skillneeded0/must_learn0/book0/quest0/enabled1/nofail0 conventions. No actor gate from item use masks.",
+    "containers": "Every selected body explicitly lists ordinary Oven15 and fits native ten-unit limit. Source Spit/Tanaan/Collapsible/placeable/guild alternatives separately held; no world availability inferred.",
+    "preservation": "41 exact full native dependencies (26fresh/15pinned reuse), all source output IDs directly authenticated. Native item fields unchanged, source stack caps1000 versus native caps preserved. Current all-state/all-skill full-input review found no matches;39existing all-success output-use peers/262entries including returnedOil/CakeRound captured and guarded unchanged. Existing Lemon2019 Oil component0 needs3 and stays separate.",
+    "execution": "Source only pending coordinator publication and exact SQL GO. Named one-pass counts, exact native/output-use/input/newID/learnedref/count/postimage guards and rollback. Readers and source tabs closed. No native gameplay acceptance; overall coverage incomplete."
+  },
+  "Research160": "HELD/unapplied",
+  "all_scope_complete": false,
+  "player_item_writes": false,
+  "runtime_actions": false,
+  "native_crafting_acceptance": false,
+  "source_documents": "Four source files retained verbatim; preparation-time source-only/separate pending repair labels historical. Actual208 then209 applied separately in this order; summaries record each actual cutoff. Inverse retained but never automatically invoked.",
+  "recipe_id_range": [
+    3096675,
+    3096694
+  ],
+  "unchanged_existing_peers_at_208_cutoff": {
+    "definitions": 39,
+    "entry_IDs": 262,
+    "full_postimages_exact": true
+  },
+  "later_authorized_repair": "RRC209 then changed only Lemon2019 entry15153 Oil componentcount;208peer preservation is208cutoff, not a claim that field was never later changed."
+}

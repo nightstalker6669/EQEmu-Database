@@ -1,0 +1,44 @@
+{
+  "format_version": 1,
+  "features": [
+    {
+      "feature": "AA011",
+      "source_commit": "f9643c69be94e116f62c487ad15c33886c1ba7d6",
+      "forward_sha256": "5dc62710c9ff3c410f6bbe7a9b09db9f33ffb459f1c6c17c84e397f204bddc95",
+      "rank_id": 13298,
+      "effects_added": 8,
+      "qualified_encoding": "Inherited eight-slot local limiter layout; period55percent/cost12/level95/VoA18;next=-1 finite reconstruction boundary, not historical terminal proof."
+    },
+    {
+      "feature": "AA012",
+      "source_commit": "be1adf37fbe94e21b4b8639930d151c37a820ab0",
+      "forward_sha256": "09021fddb80688caf4b4df9132a5682db40b019343c7c45a5d0b5dd4f0f7bdf4",
+      "rank_id": 13303,
+      "effects_added": 1,
+      "qualified_encoding": "Inherited SPA274 slot1/base2=0; period45percent/cost12/level93/VoA18;next=-1 finite boundary, not historical terminal proof;rank27 native identity held."
+    }
+  ],
+  "application_status": "BOTH_APPLIED_VERIFIED_INDEPENDENT_FULL_POSTIMAGES",
+  "SQL_invocations": {
+    "AA011": 1,
+    "AA012": 1
+  },
+  "ranks_added": 2,
+  "effects_added": 9,
+  "prereqs_added": 0,
+  "existing_rows_updated": 0,
+  "player_ownership_points_charges_writes": 0,
+  "runtime_cache_actions": 0,
+  "native_acceptance": false,
+  "scope_complete": false,
+  "holds": "AA012rank27nativeidentity unknown,do not infer13304;laterAA011RoFranks not qualified by pinned periodrevision;priorAAholds retained.",
+  "source_documents": "Exact source SQL/rollback/notes preserved;curated summaries distinguish actual database application from preparation labels/cache/native acceptance.",
+  "prior_locally_confirmed_published_normal_SQL_source_paths": 652,
+  "earlier_pending_normal_SQL_source_paths": 4,
+  "new_normal_SQL_source_paths": 4,
+  "normal_SQL_source_paths_after_all_pending_publications": 660,
+  "SQL_path_count_meaning": "Source paths, not application count.",
+  "history_archives_preserved": true,
+  "QA39999_production_exclusion_retained": true,
+  "assembly": "Source plus actual summaries only;no additional SQL/test/build/runtime/cache action."
+}

@@ -1,0 +1,584 @@
+{
+  "batch": "RRC209",
+  "branch": "rof2-tradeskills",
+  "status": "SOURCE_ENTRY_CORRECTION_NOT_APPLIED",
+  "counts": {
+    "existing_recipes": 1,
+    "before_entries": 8,
+    "after_entries": 8,
+    "item_dependencies": 41,
+    "existing_entry_rows_updated": 1,
+    "new_entries": 0
+  },
+  "before_recipes": [
+    {
+      "id": 2019,
+      "name": "Lemon Ice Cream Crunch",
+      "tradeskill": 60,
+      "skillneeded": 0,
+      "trivial": 162,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": null,
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": -1,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    }
+  ],
+  "after_recipes": [
+    {
+      "id": 2019,
+      "name": "Lemon Ice Cream Crunch",
+      "tradeskill": 60,
+      "skillneeded": 0,
+      "trivial": 162,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": null,
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": -1,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    }
+  ],
+  "before_entries": [
+    {
+      "id": 15150,
+      "recipe_id": 2019,
+      "item_id": 13015,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 15151,
+      "recipe_id": 2019,
+      "item_id": 13429,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 15152,
+      "recipe_id": 2019,
+      "item_id": 75008,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 15153,
+      "recipe_id": 2019,
+      "item_id": 20386,
+      "successcount": 2,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 15154,
+      "recipe_id": 2019,
+      "item_id": 75753,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 15155,
+      "recipe_id": 2019,
+      "item_id": 15,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 15156,
+      "recipe_id": 2019,
+      "item_id": 17164,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 15157,
+      "recipe_id": 2019,
+      "item_id": 17947,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    }
+  ],
+  "after_entries": [
+    {
+      "id": 15150,
+      "recipe_id": 2019,
+      "item_id": 13015,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 15151,
+      "recipe_id": 2019,
+      "item_id": 13429,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 15152,
+      "recipe_id": 2019,
+      "item_id": 75008,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 15153,
+      "recipe_id": 2019,
+      "item_id": 20386,
+      "successcount": 2,
+      "failcount": 0,
+      "componentcount": 3,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 15154,
+      "recipe_id": 2019,
+      "item_id": 75753,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 15155,
+      "recipe_id": 2019,
+      "item_id": 15,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 15156,
+      "recipe_id": 2019,
+      "item_id": 17164,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 15157,
+      "recipe_id": 2019,
+      "item_id": 17947,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    }
+  ],
+  "added_entries": [],
+  "recipes": [],
+  "entries": [],
+  "unchanged_prototype_recipes": [],
+  "unchanged_prototype_entries": [],
+  "item_dependencies": [
+    {
+      "id": 13015,
+      "name": "Loaf of Bread"
+    },
+    {
+      "id": 13090,
+      "name": "Clump of Dough"
+    },
+    {
+      "id": 13429,
+      "name": "Frosting"
+    },
+    {
+      "id": 13439,
+      "name": "Cake Round"
+    },
+    {
+      "id": 20386,
+      "name": "Vegetable Oil"
+    },
+    {
+      "id": 75005,
+      "name": "Vanilla Ice Cream"
+    },
+    {
+      "id": 75008,
+      "name": "Lemon Ice Cream"
+    },
+    {
+      "id": 75009,
+      "name": "Coffee Ice Cream"
+    },
+    {
+      "id": 75014,
+      "name": "Lemon Caynar Ice Cream"
+    },
+    {
+      "id": 75015,
+      "name": "Coffee Caynar Ice Cream"
+    },
+    {
+      "id": 75017,
+      "name": "Walnut Ice Cream"
+    },
+    {
+      "id": 75021,
+      "name": "Coffee Walnut Ice Cream"
+    },
+    {
+      "id": 75022,
+      "name": "Coconut Walnut Ice Cream"
+    },
+    {
+      "id": 75023,
+      "name": "Kiola Nut Ice Cream"
+    },
+    {
+      "id": 75026,
+      "name": "Lemon Kiola Ice Cream"
+    },
+    {
+      "id": 75027,
+      "name": "Coffee Kiola Ice Cream"
+    },
+    {
+      "id": 75029,
+      "name": "Golanda Nut Ice Cream"
+    },
+    {
+      "id": 75032,
+      "name": "Lemon Golanda Ice Cream"
+    },
+    {
+      "id": 75033,
+      "name": "Coffee Golanda Ice Cream"
+    },
+    {
+      "id": 75750,
+      "name": "Vanilla Ice Cream Crunch"
+    },
+    {
+      "id": 75753,
+      "name": "Lemon Ice Cream Crunch"
+    },
+    {
+      "id": 75754,
+      "name": "Coffee Ice Cream Crunch"
+    },
+    {
+      "id": 75759,
+      "name": "Lemon Caynar Ice Cream Crunch"
+    },
+    {
+      "id": 75760,
+      "name": "Coffee Caynar Ice Cream Crunch"
+    },
+    {
+      "id": 75762,
+      "name": "Walnut Ice Cream Crunch"
+    },
+    {
+      "id": 75766,
+      "name": "Coffee Walnut Ice Cream Crunch"
+    },
+    {
+      "id": 75767,
+      "name": "Coconut Walnut Ice Cream Crunch"
+    },
+    {
+      "id": 75768,
+      "name": "Kiola Nut Ice Cream Crunch"
+    },
+    {
+      "id": 75771,
+      "name": "Lemon Kiola Ice Cream Crunch"
+    },
+    {
+      "id": 75772,
+      "name": "Coffee Kiola Ice Cream Crunch"
+    },
+    {
+      "id": 75774,
+      "name": "Golanda Nut Ice Cream Crunch"
+    },
+    {
+      "id": 75777,
+      "name": "Lemon Golanda Ice Cream Crunch"
+    },
+    {
+      "id": 75778,
+      "name": "Coffee Golanda Ice Cream Crunch"
+    },
+    {
+      "id": 75780,
+      "name": "Vanilla Ice Cream Cake"
+    },
+    {
+      "id": 75783,
+      "name": "Lemon Ice Cream Cake"
+    },
+    {
+      "id": 75784,
+      "name": "Coffee Ice Cream Cake"
+    },
+    {
+      "id": 75785,
+      "name": "Coconut Ice Cream Cake"
+    },
+    {
+      "id": 75786,
+      "name": "Vanilla Ice Cream Cake Slice"
+    },
+    {
+      "id": 75789,
+      "name": "Lemon Ice Cream Cake Slice"
+    },
+    {
+      "id": 75790,
+      "name": "Coffee Ice Cream Cake Slice"
+    },
+    {
+      "id": 75791,
+      "name": "Coconut Ice Cream Cake Slice"
+    }
+  ],
+  "source_facts": [
+    {
+      "source_view_id": 15722,
+      "recipe_id": 2019,
+      "source_name": "Lemon Ice Cream Crunch",
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=282&rsa=Baking&sub=OoW",
+      "source_formula": "Components: Frosting, Lemon Ice Cream, Loaf of Bread, Vegetable Oil (3)\nIn: Spit (Portable), Oven, Tanaan Oven, Collapsible Spit, Oven (Placeable), Guild Oven\nYield: 1\nAlso Returns: Vegetable Oil(2)\nNotes: EQRecipeID: 67258",
+      "source_input_roles": {
+        "13015": 1,
+        "13429": 1,
+        "20386": 3,
+        "75008": 1
+      },
+      "output_item_id": 75753,
+      "changed_entry_id": 15153,
+      "before_componentcount": 0,
+      "after_componentcount": 3,
+      "unchanged_successcount": 2,
+      "unchanged_salvagecount": 0
+    }
+  ],
+  "restriction_review": {
+    "scope": "Existing Lemon Ice Cream Crunch2019 has Oil20386 successcount2 but componentcount0. Fresh primary source requiresOil3 and returns2. Change only existing entry15153 componentcount0to3, preserving success2/salvage0.",
+    "identity": "Direct primary16520 explicitly EQ75753 with literal foodYield1/trivial162/consumeOil3/returnOil2. All other components/output/trivial match current2019; not a duplicate new recipe.",
+    "preservation": "Exact one existing recipe header/eight entry preimages and41 full native dependencies guarded. All IDs/gates/era/station lists/other entry fields and learned references preserved. Corrected all-state/all-skill full-input uniqueness and manufactured food output-use universe guarded.20absent formulas separate RRC208.",
+    "historical": "Positive maintained OoW family labelled current source reconciliation; exact immutable May2013 fields not independently authenticated. Existing expansion header unchanged.",
+    "execution": "Source only pending publication and exact SQL GO. Exact guarded inverse supplied, never automatically invoked. No new rows/player/core/items/build/runtime/native gameplay acceptance; full coverage incomplete."
+  },
+  "source_urls": [
+    "https://www.eqtraders.com/recipes/recipe_page.php?article=282&rsa=Baking&sub=OoW"
+  ],
+  "supplemental_primary_identity_sources": [
+    {
+      "source_url": "https://www.eqtraders.com/items/show_item.php?item=16713",
+      "source_item_id": 16713,
+      "native_item_id": 75791,
+      "observed_primary_title": "EQTC - Item: Coconut Ice Cream Cake Slice",
+      "stackable_up_to": 20
+    },
+    {
+      "source_url": "https://www.eqtraders.com/items/show_item.php?item=16712",
+      "source_item_id": 16712,
+      "native_item_id": 75785,
+      "observed_primary_title": "EQTC - Item: Coconut Ice Cream Cake",
+      "stackable_up_to": 1000
+    },
+    {
+      "source_url": "https://www.eqtraders.com/items/show_item.php?item=16711",
+      "source_item_id": 16711,
+      "native_item_id": 75767,
+      "observed_primary_title": "EQTC - Item: Coconut Walnut Ice Cream Crunch",
+      "stackable_up_to": 20
+    },
+    {
+      "source_url": "https://www.eqtraders.com/items/show_item.php?item=16535",
+      "source_item_id": 16535,
+      "native_item_id": 75760,
+      "observed_primary_title": "EQTC - Item: Coffee Caynar Ice Cream Crunch",
+      "stackable_up_to": 20
+    },
+    {
+      "source_url": "https://www.eqtraders.com/items/show_item.php?item=16478",
+      "source_item_id": 16478,
+      "native_item_id": 75778,
+      "observed_primary_title": "EQTC - Item: Coffee Golanda Ice Cream Crunch",
+      "stackable_up_to": 20
+    },
+    {
+      "source_url": "https://www.eqtraders.com/items/show_item.php?item=16716",
+      "source_item_id": 16716,
+      "native_item_id": 75784,
+      "observed_primary_title": "EQTC - Item: Coffee Ice Cream Cake",
+      "stackable_up_to": 1000
+    },
+    {
+      "source_url": "https://www.eqtraders.com/items/show_item.php?item=1761",
+      "source_item_id": 1761,
+      "native_item_id": 13439,
+      "observed_primary_title": "EQTC - Item: Cake Round",
+      "stackable_up_to": null
+    },
+    {
+      "source_url": "https://www.eqtraders.com/items/show_item.php?item=16669",
+      "source_item_id": 16669,
+      "native_item_id": 75790,
+      "observed_primary_title": "EQTC - Item: Coffee Ice Cream Cake Slice",
+      "stackable_up_to": 20
+    },
+    {
+      "source_url": "https://www.eqtraders.com/items/show_item.php?item=16398",
+      "source_item_id": 16398,
+      "native_item_id": 75754,
+      "observed_primary_title": "EQTC - Item: Coffee Ice Cream Crunch",
+      "stackable_up_to": 20
+    },
+    {
+      "source_url": "https://www.eqtraders.com/items/show_item.php?item=16536",
+      "source_item_id": 16536,
+      "native_item_id": 75772,
+      "observed_primary_title": "EQTC - Item: Coffee Kiola Ice Cream Crunch",
+      "stackable_up_to": 20
+    },
+    {
+      "source_url": "https://www.eqtraders.com/items/show_item.php?item=16710",
+      "source_item_id": 16710,
+      "native_item_id": 75766,
+      "observed_primary_title": "EQTC - Item: Coffee Walnut Ice Cream Crunch",
+      "stackable_up_to": 20
+    },
+    {
+      "source_url": "https://www.eqtraders.com/items/show_item.php?item=16726",
+      "source_item_id": 16726,
+      "native_item_id": 75774,
+      "observed_primary_title": "EQTC - Item: Golanda Nut Ice Cream Crunch",
+      "stackable_up_to": 20
+    },
+    {
+      "source_url": "https://www.eqtraders.com/items/show_item.php?item=16725",
+      "source_item_id": 16725,
+      "native_item_id": 75768,
+      "observed_primary_title": "EQTC - Item: Kiola Nut Ice Cream Crunch",
+      "stackable_up_to": 20
+    },
+    {
+      "source_url": "https://www.eqtraders.com/items/show_item.php?item=16531",
+      "source_item_id": 16531,
+      "native_item_id": 75759,
+      "observed_primary_title": "EQTC - Item: Lemon Caynar Ice Cream Crunch",
+      "stackable_up_to": 20
+    },
+    {
+      "source_url": "https://www.eqtraders.com/items/show_item.php?item=16475",
+      "source_item_id": 16475,
+      "native_item_id": 75777,
+      "observed_primary_title": "EQTC - Item: Lemon Golanda Ice Cream Crunch",
+      "stackable_up_to": 20
+    },
+    {
+      "source_url": "https://www.eqtraders.com/items/show_item.php?item=16570",
+      "source_item_id": 16570,
+      "native_item_id": 75783,
+      "observed_primary_title": "EQTC - Item: Lemon Ice Cream Cake",
+      "stackable_up_to": 1000
+    },
+    {
+      "source_url": "https://www.eqtraders.com/items/show_item.php?item=16571",
+      "source_item_id": 16571,
+      "native_item_id": 75789,
+      "observed_primary_title": "EQTC - Item: Lemon Ice Cream Cake Slice",
+      "stackable_up_to": 20
+    },
+    {
+      "source_url": "https://www.eqtraders.com/items/show_item.php?item=16520",
+      "source_item_id": 16520,
+      "native_item_id": 75753,
+      "observed_primary_title": "EQTC - Item: Lemon Ice Cream Crunch",
+      "stackable_up_to": 20
+    },
+    {
+      "source_url": "https://www.eqtraders.com/items/show_item.php?item=16449",
+      "source_item_id": 16449,
+      "native_item_id": 75771,
+      "observed_primary_title": "EQTC - Item: Lemon Kiola Ice Cream Crunch",
+      "stackable_up_to": 20
+    },
+    {
+      "source_url": "https://www.eqtraders.com/items/show_item.php?item=7725",
+      "source_item_id": 7725,
+      "native_item_id": 75780,
+      "observed_primary_title": "EQTC - Item: Vanilla Ice Cream Cake",
+      "stackable_up_to": 1000
+    },
+    {
+      "source_url": "https://www.eqtraders.com/items/show_item.php?item=16717",
+      "source_item_id": 16717,
+      "native_item_id": 75786,
+      "observed_primary_title": "EQTC - Item: Vanilla Ice Cream Cake Slice",
+      "stackable_up_to": 20
+    },
+    {
+      "source_url": "https://www.eqtraders.com/items/show_item.php?item=16718",
+      "source_item_id": 16718,
+      "native_item_id": 75750,
+      "observed_primary_title": "EQTC - Item: Vanilla Ice Cream Crunch",
+      "stackable_up_to": 20
+    },
+    {
+      "source_url": "https://www.eqtraders.com/items/show_item.php?item=16724",
+      "source_item_id": 16724,
+      "native_item_id": 75762,
+      "observed_primary_title": "EQTC - Item: Walnut Ice Cream Crunch",
+      "stackable_up_to": 20
+    }
+  ],
+  "migration_dependencies": [],
+  "held_source_rows": []
+}

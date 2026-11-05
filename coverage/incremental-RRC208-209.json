@@ -1,0 +1,73 @@
+{
+  "format_version": 1,
+  "batches": [
+    "RRC208",
+    "RRC209"
+  ],
+  "application_order": [
+    "RRC208",
+    "RRC209"
+  ],
+  "source_commit": "16e15bf4be736f46ab12bb7ec2ea61d1ba3062c7",
+  "source_packages": {
+    "RRC208": {
+      "apply_sha256": "f49e669b9c0032d03c79b6e52692b48370b71acdd253eb1f877acc7bbc25cd7a",
+      "package_manifest_sha256": "f85f91bb74c7782577c87aab6e57057c2fb120e81d3711f07ea687923d5e3d1b"
+    },
+    "RRC209": {
+      "apply_sha256": "03a886626e0cde88b7e57b2d5518f28618e0f5fd90efa19dcd30e9497956d82a",
+      "package_manifest_sha256": "90c0e88965197cdda903c23f2b3788e908b8c1d4e181ffad81fb52150797f2c6"
+    }
+  },
+  "application_status": "BOTH_APPLIED_VERIFIED_SEQUENTIALLY",
+  "recipes_added": 20,
+  "entries_added": 108,
+  "existing_entry_rows_updated": 1,
+  "existing_recipe_definitions_updated": 0,
+  "global_actual_counts": {
+    "recipes": 28258,
+    "entries": 214931
+  },
+  "TS_cumulative_added_current": {
+    "recipes": 5434,
+    "entries": 37306
+  },
+  "cumulative_basis": "Prior5414/37198 actual after207 plus20/108;208adds20formulas,209onlyoneexistingcomponentcountcorrection.",
+  "new_recipe_batches": 159,
+  "historical_qualification": {
+    "RRC208": {
+      "scope": "Twenty absent retained OoW Baking food bodies:13Crunch,3wholecakes,4slice recipes. Existing Lemon Crunch2019 ingredient defect is separately prepared, not duplicated.",
+      "quantity": "Crunch source consumeOil3/returnOil2, foodYield1/trivial162. CakeSlice source consumesone wholecake and yields10 physical stackable slices/trivial46; native stackcapacity at least10. Coffee/Lemon wholecakes yield1/trivial175 and explicitly return CakeRound13439 on success and failure. Vanilla wholecake retained and freshly observed source omits both returns; literal no-return source proposal, no return inferred from siblings.",
+      "era": "Positive maintained OoW8 Baking family; floor8/max-1 labelled reconstruction, not exact introduction or immutable May2013 fields.",
+      "gates": "Source omits mandatory minimum/learning and actor gates. Ordinary skillneeded0/must_learn0/book0/quest0/enabled1/nofail0 conventions. No actor gate from item use masks.",
+      "containers": "Every selected body explicitly lists ordinary Oven15 and fits native ten-unit limit. Source Spit/Tanaan/Collapsible/placeable/guild alternatives separately held; no world availability inferred.",
+      "preservation": "41 exact full native dependencies (26fresh/15pinned reuse), all source output IDs directly authenticated. Native item fields unchanged, source stack caps1000 versus native caps preserved. Current all-state/all-skill full-input review found no matches;39existing all-success output-use peers/262entries including returnedOil/CakeRound captured and guarded unchanged. Existing Lemon2019 Oil component0 needs3 and stays separate.",
+      "execution": "Source only pending coordinator publication and exact SQL GO. Named one-pass counts, exact native/output-use/input/newID/learnedref/count/postimage guards and rollback. Readers and source tabs closed. No native gameplay acceptance; overall coverage incomplete."
+    },
+    "RRC209": {
+      "scope": "Existing Lemon Ice Cream Crunch2019 has Oil20386 successcount2 but componentcount0. Fresh primary source requiresOil3 and returns2. Change only existing entry15153 componentcount0to3, preserving success2/salvage0.",
+      "identity": "Direct primary16520 explicitly EQ75753 with literal foodYield1/trivial162/consumeOil3/returnOil2. All other components/output/trivial match current2019; not a duplicate new recipe.",
+      "preservation": "Exact one existing recipe header/eight entry preimages and41 full native dependencies guarded. All IDs/gates/era/station lists/other entry fields and learned references preserved. Corrected all-state/all-skill full-input uniqueness and manufactured food output-use universe guarded.20absent formulas separate RRC208.",
+      "historical": "Positive maintained OoW family labelled current source reconciliation; exact immutable May2013 fields not independently authenticated. Existing expansion header unchanged.",
+      "execution": "Source only pending publication and exact SQL GO. Exact guarded inverse supplied, never automatically invoked. No new rows/player/core/items/build/runtime/native gameplay acceptance; full coverage incomplete."
+    }
+  },
+  "sequential_cutoff_qualification": "20839peers262entries preserved at208cutoff;209subsequently changed only2019entry15153Oilcomponent0->3 retaining definition/8entries/originalIDs/otherfields. Source preparation labels historical.",
+  "held_batches": [
+    "RRC014",
+    "RRC160"
+  ],
+  "all_scope_complete": false,
+  "separate_Xorbb_recipe_excluded": {
+    "recipes": 1,
+    "entries": 6
+  },
+  "prior_locally_confirmed_published_normal_SQL_source_paths": 648,
+  "earlier_pending_normal_SQL_source_paths": 4,
+  "new_normal_SQL_source_paths": 4,
+  "normal_SQL_source_paths_after_all_pending_publications": 656,
+  "SQL_path_count_meaning": "Source paths, not application count.",
+  "history_archives_preserved": true,
+  "QA39999_production_exclusion_retained": true,
+  "assembly": "No SQL/query/replay/tests/runtime/receipt-only publication."
+}
