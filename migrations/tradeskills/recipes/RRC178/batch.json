@@ -1,0 +1,268 @@
+{
+  "batch": "RRC178",
+  "branch": "rof2-tradeskills",
+  "status": "SOURCE_PROPOSAL_NOT_APPLIED_LABELLED_RECONSTRUCTION",
+  "proposed_ids": [
+    3096186,
+    3096186
+  ],
+  "counts": {
+    "recipes": 1,
+    "entries": 9,
+    "item_dependencies": 10,
+    "unchanged_prototype_recipes": 0,
+    "unchanged_prototype_entries": 0
+  },
+  "recipes": [
+    {
+      "id": 3096186,
+      "name": "Illustrious Reaching Symbol of Thaumaturgy",
+      "tradeskill": 64,
+      "skillneeded": 0,
+      "trivial": 499,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary Illustrious Fletcher reconstruction; RRC178.",
+      "must_learn": 1,
+      "learned_by_item_id": 60756,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 17,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    }
+  ],
+  "entries": [
+    {
+      "recipe_id": 3096186,
+      "item_id": 8086,
+      "successcount": 1,
+      "failcount": 1,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096186,
+      "item_id": 10254,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096186,
+      "item_id": 45183,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096186,
+      "item_id": 48161,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096186,
+      "item_id": 60769,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096186,
+      "item_id": 123504,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096186,
+      "item_id": 17910,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3096186,
+      "item_id": 17762,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3096186,
+      "item_id": 17189,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    }
+  ],
+  "item_dependencies": [
+    {
+      "id": 8086,
+      "name": "Planing Tool"
+    },
+    {
+      "id": 10254,
+      "name": "Vial of Purified Mana"
+    },
+    {
+      "id": 17189,
+      "name": "Collapsible Fletching Kit"
+    },
+    {
+      "id": 17762,
+      "name": "Planar Fletching Kit"
+    },
+    {
+      "id": 17910,
+      "name": "Fletching Kit"
+    },
+    {
+      "id": 45183,
+      "name": "Recurve Bow Inlay"
+    },
+    {
+      "id": 48161,
+      "name": "Blessed Water of Druzzil Ro"
+    },
+    {
+      "id": 60756,
+      "name": "Illustrious Reaching Weapon Augments for Fletchers"
+    },
+    {
+      "id": 60769,
+      "name": "Illustrious Reaching Symbol of Thaumaturgy"
+    },
+    {
+      "id": 123504,
+      "name": "Fantastic Spinneret Fluid"
+    }
+  ],
+  "unchanged_prototype_recipes": [],
+  "unchanged_prototype_entries": [],
+  "source_facts": [
+    {
+      "recipe_id": 3096186,
+      "source_name": "Illustrious Reaching Symbol of Thaumaturgy",
+      "source_view_id": 4186,
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=521&rsa=Fletching&sub=HOT",
+      "source_formula": "Components: Blessed Water of Druzzil Ro, Fantastic Spinneret Fluid, Planing Tool, Recurve Bow Inlay, Vial of Purified Mana\nIn: Fletching Kit, Planar Fletching Kit, Collapsible Fletching Kit, Feir`Dal Fletching Kit, Surefall Fletching Kit, Fletching Table (Placeable), Fletching Table\nYield: 1\nAlso Returns: Planing Tool(1)\nOn Failure Returns: Planing Tool(1)",
+      "source_catalogue_sha256": "4ebbfaf62ee9f09f811a7552d7a454d2157df3f90d6b9ec510f285ae8be3a2f7",
+      "output_item_id": 60769,
+      "yield_count": 1,
+      "trivial": 499,
+      "ingredients": [
+        {
+          "item_id": 8086,
+          "name": "Planing Tool",
+          "count": 1
+        },
+        {
+          "item_id": 10254,
+          "name": "Vial of Purified Mana",
+          "count": 1
+        },
+        {
+          "item_id": 45183,
+          "name": "Recurve Bow Inlay",
+          "count": 1
+        },
+        {
+          "item_id": 48161,
+          "name": "Blessed Water of Druzzil Ro",
+          "count": 1
+        },
+        {
+          "item_id": 123504,
+          "name": "Fantastic Spinneret Fluid",
+          "count": 1
+        }
+      ],
+      "success_roles": {
+        "8086": 1,
+        "60769": 1
+      },
+      "failure_roles": {
+        "8086": 1
+      },
+      "container_item_ids": [
+        17910,
+        17762,
+        17189
+      ],
+      "held_source_stations": [
+        {
+          "name": "Feir`Dal Fletching Kit",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=7858",
+          "reason": "Named/world/furniture station not separately qualified"
+        },
+        {
+          "name": "Surefall Fletching Kit",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=9604",
+          "reason": "Named/world/furniture station not separately qualified"
+        },
+        {
+          "name": "Fletching Table (Placeable)",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34388",
+          "reason": "Named/world/furniture station not separately qualified"
+        },
+        {
+          "name": "Fletching Table",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34483",
+          "reason": "Named/world/furniture station not separately qualified"
+        }
+      ],
+      "min_expansion": 17,
+      "skillneeded": 0,
+      "must_learn": 1,
+      "learned_by_item_id": 60756,
+      "learning_origin": "COORDINATOR_ACCEPTED_AUTHORED_FAMILY_MANDATORY_BOOK_POLICY_SOURCE_OMITS;MINIMUM0_SOURCE_OMISSION_POLICY",
+      "era_origin": "HOT17_MAINTAINED_SOURCE_FAMILY_POLICY_NOT_EXACT_INTRODUCTION",
+      "May2013_exact_fields_verified": false,
+      "identity_assurance": "ALL_REFERENCES_EXPLICIT_PRIMARY_IDS_AFTER_TARGETED_PRIMARY_PAGE_OBSERVATIONS"
+    }
+  ],
+  "restriction_review": {
+    "scope": "Singleexplicitprimaryview4186 IllustriousReachingSymbolofThaumaturgy, exactnumeric499/yield1/fullinputs and PlaningToolsuccess+failurereturn.",
+    "learning": "SOURCE OMITS MANDATORY BOOK. Coordinatoraccepted must_learn1/book60756/min0POLICY:positiveprimaryFletcherbody+19explicitbook-namedFletchingsiblings in appliedRRC105. NOTsourceexplicitmandatorylearning. Book is not carried/consumedcombineingredient.",
+    "book_discrepancy": "Native60756 IllustriousReachingWeaponAugmentsforFletchers/TSSKU18BowAugFlt90 prose wrongly listsJewelcraftDiamond/RoundCutTool andolderinlayappendix. It DOES NOTauthenticateFletcherPlaningTool/RecurveInlay/body/trivial499. Primarybody+19namedFletchersiblings qualifyfamily; nativewrongproseunchanged/hash1f5a1fce8f72a27968e36c6b05a9dd75965bc45e2dc91b457035f5308779fec0pinned. No historical2013field/nativeacceptanceproof.",
+    "era": "HoT17 maintainedcatalogue/familyfloorPOLICY/max-1,notexactintroduction. No newera/name-onlybackport.",
+    "containers": "EachsourcepositiveordinaryFletching17910/Planar17762/Collapsible17189/nativebag18,size/capacitychecked. Racial/named/furniturelinksheld. EminentBelow11393sourceJewelerkitconflictremainsheld; no skill/kit substitution.",
+    "preservation": "Ten nativeitemdependencies/newID/allstatefullinputs/currentoutput-useuniverse/rowdeltas/fullpostimages/learnedrefs guarded; no existingrecipes/items/book/player/quest edits. Consumed salvage=component;returntool0,no-fail0/quest0/enabled1new-recordpolicies.",
+    "execution": "Sourceproposalonly,separatepublication/exactSQLGO. Readersclosed,noSQLwrites/tests/build/runtime/nativecombines;allnamedholds retained/fullcoverageincomplete."
+  },
+  "source_urls": [
+    "https://www.eqtraders.com/recipes/recipe_page.php?article=521&rsa=Fletching&sub=HOT"
+  ],
+  "supplemental_primary_identity_sources": [],
+  "native_authored_context": [
+    {
+      "item_id": 60756,
+      "name": "Illustrious Reaching Weapon Augments for Fletchers",
+      "filename": "TSSKU18BowAugFlt90",
+      "text_sha256": "1f5a1fce8f72a27968e36c6b05a9dd75965bc45e2dc91b457035f5308779fec0"
+    }
+  ],
+  "migration_dependencies": [],
+  "held_source_rows": []
+}

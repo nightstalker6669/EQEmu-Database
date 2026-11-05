@@ -1,0 +1,410 @@
+{
+  "batch": "RRC179",
+  "branch": "rof2-tradeskills",
+  "status": "SOURCE_PROPOSAL_NOT_APPLIED_LABELLED_RECONSTRUCTION",
+  "proposed_ids": [
+    3096187,
+    3096188
+  ],
+  "counts": {
+    "recipes": 2,
+    "entries": 15,
+    "item_dependencies": 13,
+    "unchanged_prototype_recipes": 0,
+    "unchanged_prototype_entries": 0
+  },
+  "recipes": [
+    {
+      "id": 3096187,
+      "name": "Dreamy Fine Cheese",
+      "tradeskill": 60,
+      "skillneeded": 300,
+      "trivial": 335,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary RoF Shawl3 reconstruction; RRC179.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 19,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3096188,
+      "name": "Exotic Full-Flavored Sausage",
+      "tradeskill": 60,
+      "skillneeded": 0,
+      "trivial": 335,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary RoF Shawl3 reconstruction; RRC179.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 19,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    }
+  ],
+  "entries": [
+    {
+      "recipe_id": 3096187,
+      "item_id": 9730,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096187,
+      "item_id": 13087,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 3,
+      "salvagecount": 3,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096187,
+      "item_id": 46979,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096187,
+      "item_id": 79467,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096187,
+      "item_id": 15,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3096188,
+      "item_id": 13030,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096188,
+      "item_id": 16834,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096188,
+      "item_id": 40904,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096188,
+      "item_id": 58282,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096188,
+      "item_id": 58287,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096188,
+      "item_id": 61241,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096188,
+      "item_id": 64492,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096188,
+      "item_id": 75856,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096188,
+      "item_id": 79468,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096188,
+      "item_id": 15,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    }
+  ],
+  "item_dependencies": [
+    {
+      "id": 9730,
+      "name": "Rennet"
+    },
+    {
+      "id": 13030,
+      "name": "Red Wine"
+    },
+    {
+      "id": 13087,
+      "name": "Bottle of Milk"
+    },
+    {
+      "id": 16834,
+      "name": "Ground Garlic"
+    },
+    {
+      "id": 40904,
+      "name": "Simple Sausage Casing"
+    },
+    {
+      "id": 46979,
+      "name": "Dream Dust"
+    },
+    {
+      "id": 58282,
+      "name": "Ground Pepper"
+    },
+    {
+      "id": 58287,
+      "name": "Hot Red Pepper"
+    },
+    {
+      "id": 61241,
+      "name": "Prepared Dream Meat"
+    },
+    {
+      "id": 64492,
+      "name": "Prepared Al-Metes"
+    },
+    {
+      "id": 75856,
+      "name": "Rock Salt"
+    },
+    {
+      "id": 79467,
+      "name": "Dreamy Fine Cheese"
+    },
+    {
+      "id": 79468,
+      "name": "Exotic Full-Flavored Sausage"
+    }
+  ],
+  "unchanged_prototype_recipes": [],
+  "unchanged_prototype_entries": [],
+  "source_facts": [
+    {
+      "recipe_id": 3096187,
+      "source_name": "Dreamy Fine Cheese",
+      "source_view_id": 592,
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=560&rsa=Baking&sub=ROF",
+      "source_formula": "Components: Bottle of Milk (3), Dream Dust, Rennet\nIn: Oven, Tanaan Oven, Oven (Placeable), Guild Oven\nYield: 1\nRequired Skill Level: 300\nNotes: EQRecipeID: 4951\nQuest: The Blood of Brell (Coldain Shawl 3.0)\nReported to not advance baking trophy",
+      "source_catalogue_sha256": "9a0ea65ce2e05768230be15a23a9bae55fcac854866e32d6a7feb7fb882f4041",
+      "output_item_id": 79467,
+      "yield_count": 1,
+      "trivial": 335,
+      "ingredients": [
+        {
+          "item_id": 9730,
+          "name": "Rennet",
+          "count": 1
+        },
+        {
+          "item_id": 13087,
+          "name": "Bottle of Milk",
+          "count": 3
+        },
+        {
+          "item_id": 46979,
+          "name": "Dream Dust",
+          "count": 1
+        }
+      ],
+      "success_roles": {
+        "79467": 1
+      },
+      "failure_roles": {},
+      "container_item_ids": [
+        15
+      ],
+      "held_source_stations": [
+        {
+          "name": "Tanaan Oven",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=5498",
+          "reason": "Named/world/furniture station not separately qualified"
+        },
+        {
+          "name": "Oven (Placeable)",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34403",
+          "reason": "Named/world/furniture station not separately qualified"
+        },
+        {
+          "name": "Guild Oven",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=38424",
+          "reason": "Named/world/furniture station not separately qualified"
+        }
+      ],
+      "min_expansion": 19,
+      "skillneeded": 300,
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "learning_origin": "CHEESE_MINIMUM300_SOURCE_EXPLICIT;SAUSAGE_MINIMUM0_SOURCE_OMISSION;BOOK0_LEARNING0_ORDINARY_POLICY",
+      "era_origin": "ROF19_SHAWL3_MAINTAINED_POSITIVE_SOURCE_CONTEXT_NOT_EXACT_INTRODUCTION",
+      "May2013_exact_fields_verified": false,
+      "identity_assurance": "ALL_REFERENCES_EXPLICIT_PRIMARY_IDS_AFTER_TARGETED_PRIMARY_PAGE_OBSERVATIONS"
+    },
+    {
+      "recipe_id": 3096188,
+      "source_name": "Exotic Full-Flavored Sausage",
+      "source_view_id": 594,
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=560&rsa=Baking&sub=ROF",
+      "source_formula": "Components: Ground Garlic, Ground Pepper, Hot Red Pepper, Prepared Al-Metes, Prepared Dream Meat, Red Wine, Rock Salt, Simple Sausage Casing\nIn: Oven, Tanaan Oven, Oven (Placeable), Guild Oven\nYield: 1\nNotes: EQRecipeID: 4952\nQuest: The Blood of Brell (Coldain Shawl 3.0)",
+      "source_catalogue_sha256": "9a0ea65ce2e05768230be15a23a9bae55fcac854866e32d6a7feb7fb882f4041",
+      "output_item_id": 79468,
+      "yield_count": 1,
+      "trivial": 335,
+      "ingredients": [
+        {
+          "item_id": 13030,
+          "name": "Red Wine",
+          "count": 1
+        },
+        {
+          "item_id": 16834,
+          "name": "Ground Garlic",
+          "count": 1
+        },
+        {
+          "item_id": 40904,
+          "name": "Simple Sausage Casing",
+          "count": 1
+        },
+        {
+          "item_id": 58282,
+          "name": "Ground Pepper",
+          "count": 1
+        },
+        {
+          "item_id": 58287,
+          "name": "Hot Red Pepper",
+          "count": 1
+        },
+        {
+          "item_id": 61241,
+          "name": "Prepared Dream Meat",
+          "count": 1
+        },
+        {
+          "item_id": 64492,
+          "name": "Prepared Al-Metes",
+          "count": 1
+        },
+        {
+          "item_id": 75856,
+          "name": "Rock Salt",
+          "count": 1
+        }
+      ],
+      "success_roles": {
+        "79468": 1
+      },
+      "failure_roles": {},
+      "container_item_ids": [
+        15
+      ],
+      "held_source_stations": [
+        {
+          "name": "Tanaan Oven",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=5498",
+          "reason": "Named/world/furniture station not separately qualified"
+        },
+        {
+          "name": "Oven (Placeable)",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34403",
+          "reason": "Named/world/furniture station not separately qualified"
+        },
+        {
+          "name": "Guild Oven",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=38424",
+          "reason": "Named/world/furniture station not separately qualified"
+        }
+      ],
+      "min_expansion": 19,
+      "skillneeded": 0,
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "learning_origin": "CHEESE_MINIMUM300_SOURCE_EXPLICIT;SAUSAGE_MINIMUM0_SOURCE_OMISSION;BOOK0_LEARNING0_ORDINARY_POLICY",
+      "era_origin": "ROF19_SHAWL3_MAINTAINED_POSITIVE_SOURCE_CONTEXT_NOT_EXACT_INTRODUCTION",
+      "May2013_exact_fields_verified": false,
+      "identity_assurance": "ALL_REFERENCES_EXPLICIT_PRIMARY_IDS_AFTER_TARGETED_PRIMARY_PAGE_OBSERVATIONS"
+    }
+  ],
+  "restriction_review": {
+    "scope": "Two explicit-primary RoFShawl3questfamily bodies:DreamyFineCheese and ExoticFullFlavoredSausage,trivial335/yield1/exactfullinputs/positiveordinaryOven. RetainedRoFcatalogueidentifiesbothwithTheBloodofBrellColdainShawl3,notname/IDalone.",
+    "gates": "CheeseexplicitRequiredSkillLevel300 retained. Sausageomittedminimum0POLICY;bothordinarybook0/must_learn0/quest0/no-fail0/enabled1/consumedsalvage conventions. QuestassociationdoesNOTsetquest1/suppressmanufacturedoutput orintroducequest/location/race/learninggate.",
+    "trophy": "Cheeseprimarysourceverbatimqualifiedclaim: Reported to not advance baking trophy. This is uncertain reported behavior, trophybehaviorUNVERIFIED. Coordinatorallowsliteralrecipeproposalwiththisqualification;no guessedtrophysuppression/newcode/tests/nativeacceptanceclaim.",
+    "era": "AcceptedfinitepositiveRoFShawl3familycatalogue/questcontextfloor19/max-1 maintainedreconstructionPOLICY,notimmutable2013perfield/introductionproof. RottingFeastlater-sourcehold separateandunchanged.",
+    "containers": "PositiveordinaryOven15only, nativegenerictenunitlimit;Milk3 exact,sausage8distinctinputs. Named/furniture/guildovenlinks held; no othercontainer inferred.",
+    "preservation": "13nativeitemdependencies/fullinputallstateabsence/currentoutput-useuniverse/newIDs/deltas/fullpostimages/learnedrefs guarded. Noexistingrecipes/items/quests/player/trophycode modifications.",
+    "execution": "Sourceproposalonly,publication plus separateexactSQLGO. Readersclosed,noSQLwrites/build/runtime/nativecombines; fullrecipecoverageincomplete/allotherholds retained."
+  },
+  "source_urls": [
+    "https://www.eqtraders.com/recipes/recipe_page.php?article=560&rsa=Baking&sub=ROF"
+  ],
+  "supplemental_primary_identity_sources": [],
+  "native_authored_context": [],
+  "migration_dependencies": [],
+  "held_source_rows": []
+}

@@ -1,0 +1,19 @@
+# RRC178 Illustrious Fletcher symbol
+
+1proposed recipe/9entries.
+
+Singleexplicitprimaryview4186 IllustriousReachingSymbolofThaumaturgy, exactnumeric499/yield1/fullinputs and PlaningToolsuccess+failurereturn.
+
+SOURCE OMITS MANDATORY BOOK. Coordinatoraccepted must_learn1/book60756/min0POLICY:positiveprimaryFletcherbody+19explicitbook-namedFletchingsiblings in appliedRRC105. NOTsourceexplicitmandatorylearning. Book is not carried/consumedcombineingredient.
+
+Native60756 IllustriousReachingWeaponAugmentsforFletchers/TSSKU18BowAugFlt90 prose wrongly listsJewelcraftDiamond/RoundCutTool andolderinlayappendix. It DOES NOTauthenticateFletcherPlaningTool/RecurveInlay/body/trivial499. Primarybody+19namedFletchersiblings qualifyfamily; nativewrongproseunchanged/hash1f5a1fce8f72a27968e36c6b05a9dd75965bc45e2dc91b457035f5308779fec0pinned. No historical2013field/nativeacceptanceproof.
+
+HoT17 maintainedcatalogue/familyfloorPOLICY/max-1,notexactintroduction. No newera/name-onlybackport.
+
+EachsourcepositiveordinaryFletching17910/Planar17762/Collapsible17189/nativebag18,size/capacitychecked. Racial/named/furniturelinksheld. EminentBelow11393sourceJewelerkitconflictremainsheld; no skill/kit substitution.
+
+Ten nativeitemdependencies/newID/allstatefullinputs/currentoutput-useuniverse/rowdeltas/fullpostimages/learnedrefs guarded; no existingrecipes/items/book/player/quest edits. Consumed salvage=component;returntool0,no-fail0/quest0/enabled1new-recordpolicies.
+
+Sourceproposalonly,separatepublication/exactSQLGO. Readersclosed,noSQLwrites/tests/build/runtime/nativecombines;allnamedholds retained/fullcoverageincomplete.
+
+Source: https://www.eqtraders.com/recipes/recipe_page.php?article=521&rsa=Fletching&sub=HOT

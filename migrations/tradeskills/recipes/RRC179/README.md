@@ -1,0 +1,19 @@
+# RRC179 RoF Shawl3 baking
+
+2proposed recipes/15entries.
+
+Two explicit-primary RoFShawl3questfamily bodies:DreamyFineCheese and ExoticFullFlavoredSausage,trivial335/yield1/exactfullinputs/positiveordinaryOven. RetainedRoFcatalogueidentifiesbothwithTheBloodofBrellColdainShawl3,notname/IDalone.
+
+CheeseexplicitRequiredSkillLevel300 retained. Sausageomittedminimum0POLICY;bothordinarybook0/must_learn0/quest0/no-fail0/enabled1/consumedsalvage conventions. QuestassociationdoesNOTsetquest1/suppressmanufacturedoutput orintroducequest/location/race/learninggate.
+
+Cheeseprimarysourceverbatimqualifiedclaim: Reported to not advance baking trophy. This is uncertain reported behavior, trophybehaviorUNVERIFIED. Coordinatorallowsliteralrecipeproposalwiththisqualification;no guessedtrophysuppression/newcode/tests/nativeacceptanceclaim.
+
+AcceptedfinitepositiveRoFShawl3familycatalogue/questcontextfloor19/max-1 maintainedreconstructionPOLICY,notimmutable2013perfield/introductionproof. RottingFeastlater-sourcehold separateandunchanged.
+
+PositiveordinaryOven15only, nativegenerictenunitlimit;Milk3 exact,sausage8distinctinputs. Named/furniture/guildovenlinks held; no othercontainer inferred.
+
+13nativeitemdependencies/fullinputallstateabsence/currentoutput-useuniverse/newIDs/deltas/fullpostimages/learnedrefs guarded. Noexistingrecipes/items/quests/player/trophycode modifications.
+
+Sourceproposalonly,publication plus separateexactSQLGO. Readersclosed,noSQLwrites/build/runtime/nativecombines; fullrecipecoverageincomplete/allotherholds retained.
+
+Source: https://www.eqtraders.com/recipes/recipe_page.php?article=560&rsa=Baking&sub=ROF

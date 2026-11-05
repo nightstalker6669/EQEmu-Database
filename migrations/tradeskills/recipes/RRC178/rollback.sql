@@ -1,0 +1,90 @@
+-- RRC178: MariaDB10.11, dedicated fresh admin session; manual coordinated application only.
+-- Source recipe facts/provenance: batch.public.json. No engine/updater/version/rule changes.
+-- Anonymous compound block: no permanent helper procedure or migration table.
+DELIMITER //
+BEGIN NOT ATOMIC
+ DECLARE own_transaction BOOLEAN DEFAULT FALSE;
+ DECLARE already_present INT DEFAULT 0;
+ DECLARE recipes_before BIGINT DEFAULT 0;
+ DECLARE entries_before BIGINT DEFAULT 0;
+ DECLARE EXIT HANDLER FOR SQLEXCEPTION
+ BEGIN
+  IF own_transaction THEN ROLLBACK; END IF;
+  RESIGNAL;
+ END;
+ IF @@in_transaction <> 0 THEN SIGNAL SQLSTATE '45000' SET MESSAGE_TEXT='RRC178 requires fresh transaction-free session'; END IF;
+ IF FIND_IN_SET('STRICT_ALL_TABLES',@@SESSION.sql_mode)=0 AND FIND_IN_SET('STRICT_TRANS_TABLES',@@SESSION.sql_mode)=0 THEN SIGNAL SQLSTATE '45000' SET MESSAGE_TEXT='RRC178 strict SQL mode required'; END IF;
+ IF (SELECT COUNT(*) FROM information_schema.TABLES WHERE TABLE_SCHEMA=DATABASE() AND TABLE_NAME IN ('tradeskill_recipe','tradeskill_recipe_entries','items') AND ENGINE='InnoDB')<>3 THEN SIGNAL SQLSTATE '45000' SET MESSAGE_TEXT='RRC178 InnoDB foundation mismatch'; END IF;
+ IF (SELECT COUNT(*) FROM information_schema.COLUMNS WHERE TABLE_SCHEMA=DATABASE() AND TABLE_NAME='tradeskill_recipe')<>16 OR (SELECT COUNT(*) FROM information_schema.COLUMNS WHERE TABLE_SCHEMA=DATABASE() AND TABLE_NAME='tradeskill_recipe_entries')<>8 THEN SIGNAL SQLSTATE '45000' SET MESSAGE_TEXT='RRC178 recipe schema column-count mismatch'; END IF;
+ CREATE TEMPORARY TABLE rrc178_recipes LIKE tradeskill_recipe;
+ CREATE TEMPORARY TABLE rrc178_entries LIKE tradeskill_recipe_entries;
+ CREATE TEMPORARY TABLE rrc178_items(id INT PRIMARY KEY,name VARCHAR(64) NOT NULL) ENGINE=InnoDB;
+INSERT INTO rrc178_recipes (`id`,`name`,`tradeskill`,`skillneeded`,`trivial`,`nofail`,`replace_container`,`notes`,`must_learn`,`learned_by_item_id`,`quest`,`enabled`,`min_expansion`,`max_expansion`,`content_flags`,`content_flags_disabled`) VALUES
+(3096186,CONVERT(0x496c6c75737472696f7573205265616368696e672053796d626f6c206f6620546861756d617475726779 USING utf8mb4),64,0,499,0,0,CONVERT(0x4d61696e7461696e65642d7072696d61727920496c6c75737472696f757320466c657463686572207265636f6e737472756374696f6e3b205252433137382e USING utf8mb4),1,60756,0,1,17,-1,NULL,NULL);
+INSERT INTO rrc178_entries (`recipe_id`,`item_id`,`successcount`,`failcount`,`componentcount`,`salvagecount`,`iscontainer`) VALUES
+(3096186,8086,1,1,1,0,0),
+(3096186,10254,0,0,1,1,0),
+(3096186,45183,0,0,1,1,0),
+(3096186,48161,0,0,1,1,0),
+(3096186,60769,1,0,0,0,0),
+(3096186,123504,0,0,1,1,0),
+(3096186,17910,0,0,0,0,1),
+(3096186,17762,0,0,0,0,1),
+(3096186,17189,0,0,0,0,1);
+INSERT INTO rrc178_items (`id`,`name`) VALUES
+(8086,CONVERT(0x506c616e696e6720546f6f6c USING utf8mb4)),
+(10254,CONVERT(0x5669616c206f66205075726966696564204d616e61 USING utf8mb4)),
+(17189,CONVERT(0x436f6c6c61707369626c6520466c65746368696e67204b6974 USING utf8mb4)),
+(17762,CONVERT(0x506c616e617220466c65746368696e67204b6974 USING utf8mb4)),
+(17910,CONVERT(0x466c65746368696e67204b6974 USING utf8mb4)),
+(45183,CONVERT(0x5265637572766520426f7720496e6c6179 USING utf8mb4)),
+(48161,CONVERT(0x426c6573736564205761746572206f66204472757a7a696c20526f USING utf8mb4)),
+(60756,CONVERT(0x496c6c75737472696f7573205265616368696e6720576561706f6e204175676d656e747320666f7220466c65746368657273 USING utf8mb4)),
+(60769,CONVERT(0x496c6c75737472696f7573205265616368696e672053796d626f6c206f6620546861756d617475726779 USING utf8mb4)),
+(123504,CONVERT(0x46616e746173746963205370696e6e6572657420466c756964 USING utf8mb4));
+ CREATE TEMPORARY TABLE rrc178_peer_recipes LIKE tradeskill_recipe;
+ CREATE TEMPORARY TABLE rrc178_peer_entries LIKE tradeskill_recipe_entries;
+ START TRANSACTION;
+ SET own_transaction=TRUE;
+ IF DATABASE()<>'peq_housing_test' THEN SIGNAL SQLSTATE '45000' SET MESSAGE_TEXT='RRC178 target database mismatch'; END IF;
+ IF (SELECT COUNT(*)FROM items WHERE id=8086 AND `itemclass` <=> 0 AND `itemtype` <=> 10 AND `size` <=> 1 AND `maxcharges` <=> 0 AND `stackable` <=> 0 AND `stacksize` <=> 1 AND `bagtype` <=> 0 AND `bagslots` <=> 0 AND `bagsize` <=> 0 AND `classes` <=> 65535 AND `races` <=> 65535 AND `deity` <=> 0 AND `reqlevel` <=> 0 AND `reclevel` <=> 0 AND `filename` <=> '' AND `booktype` <=> 0)<>1 THEN SIGNAL SQLSTATE '45000' SET MESSAGE_TEXT='RRC178 native item semantics mismatch'; END IF;
+ IF (SELECT COUNT(*)FROM items WHERE id=10254 AND `itemclass` <=> 0 AND `itemtype` <=> 17 AND `size` <=> 0 AND `maxcharges` <=> 0 AND `stackable` <=> 1 AND `stacksize` <=> 20 AND `bagtype` <=> 0 AND `bagslots` <=> 0 AND `bagsize` <=> 0 AND `classes` <=> 65535 AND `races` <=> 65535 AND `deity` <=> 0 AND `reqlevel` <=> 0 AND `reclevel` <=> 0 AND `filename` <=> '' AND `booktype` <=> 0)<>1 THEN SIGNAL SQLSTATE '45000' SET MESSAGE_TEXT='RRC178 native item semantics mismatch'; END IF;
+ IF (SELECT COUNT(*)FROM items WHERE id=17189 AND `itemclass` <=> 1 AND `itemtype` <=> 11 AND `size` <=> 1 AND `maxcharges` <=> 0 AND `stackable` <=> 0 AND `stacksize` <=> 1 AND `bagtype` <=> 18 AND `bagslots` <=> 8 AND `bagsize` <=> 3 AND `classes` <=> 65535 AND `races` <=> 131071 AND `deity` <=> 0 AND `reqlevel` <=> 0 AND `reclevel` <=> 0 AND `filename` <=> '' AND `booktype` <=> 0)<>1 THEN SIGNAL SQLSTATE '45000' SET MESSAGE_TEXT='RRC178 native item semantics mismatch'; END IF;
+ IF (SELECT COUNT(*)FROM items WHERE id=17762 AND `itemclass` <=> 1 AND `itemtype` <=> 11 AND `size` <=> 1 AND `maxcharges` <=> 0 AND `stackable` <=> 0 AND `stacksize` <=> 1 AND `bagtype` <=> 18 AND `bagslots` <=> 8 AND `bagsize` <=> 3 AND `classes` <=> 65535 AND `races` <=> 131071 AND `deity` <=> 0 AND `reqlevel` <=> 0 AND `reclevel` <=> 0 AND `filename` <=> '' AND `booktype` <=> 0)<>1 THEN SIGNAL SQLSTATE '45000' SET MESSAGE_TEXT='RRC178 native item semantics mismatch'; END IF;
+ IF (SELECT COUNT(*)FROM items WHERE id=17910 AND `itemclass` <=> 1 AND `itemtype` <=> 11 AND `size` <=> 1 AND `maxcharges` <=> 0 AND `stackable` <=> 0 AND `stacksize` <=> 1 AND `bagtype` <=> 18 AND `bagslots` <=> 8 AND `bagsize` <=> 3 AND `classes` <=> 65535 AND `races` <=> 131071 AND `deity` <=> 0 AND `reqlevel` <=> 0 AND `reclevel` <=> 0 AND `filename` <=> '' AND `booktype` <=> 0)<>1 THEN SIGNAL SQLSTATE '45000' SET MESSAGE_TEXT='RRC178 native item semantics mismatch'; END IF;
+ IF (SELECT COUNT(*)FROM items WHERE id=45183 AND `itemclass` <=> 0 AND `itemtype` <=> 17 AND `size` <=> 0 AND `maxcharges` <=> 0 AND `stackable` <=> 1 AND `stacksize` <=> 100 AND `bagtype` <=> 0 AND `bagslots` <=> 0 AND `bagsize` <=> 0 AND `classes` <=> 65535 AND `races` <=> 65535 AND `deity` <=> 0 AND `reqlevel` <=> 0 AND `reclevel` <=> 0 AND `filename` <=> '' AND `booktype` <=> 0)<>1 THEN SIGNAL SQLSTATE '45000' SET MESSAGE_TEXT='RRC178 native item semantics mismatch'; END IF;
+ IF (SELECT COUNT(*)FROM items WHERE id=48161 AND `itemclass` <=> 0 AND `itemtype` <=> 17 AND `size` <=> 1 AND `maxcharges` <=> 0 AND `stackable` <=> 1 AND `stacksize` <=> 20 AND `bagtype` <=> 0 AND `bagslots` <=> 0 AND `bagsize` <=> 0 AND `classes` <=> 65535 AND `races` <=> 65535 AND `deity` <=> 0 AND `reqlevel` <=> 0 AND `reclevel` <=> 0 AND `filename` <=> '' AND `booktype` <=> 0)<>1 THEN SIGNAL SQLSTATE '45000' SET MESSAGE_TEXT='RRC178 native item semantics mismatch'; END IF;
+ IF (SELECT COUNT(*)FROM items WHERE id=60756 AND `itemclass` <=> 2 AND `itemtype` <=> 60 AND `size` <=> 0 AND `maxcharges` <=> 0 AND `stackable` <=> 0 AND `stacksize` <=> 1 AND `bagtype` <=> 0 AND `bagslots` <=> 0 AND `bagsize` <=> 0 AND `classes` <=> 0 AND `races` <=> 0 AND `deity` <=> 0 AND `reqlevel` <=> 86 AND `reclevel` <=> 90 AND `filename` <=> CONVERT(0x5453534b553138426f77417567466c743930 USING utf8mb4) AND `booktype` <=> 0)<>1 THEN SIGNAL SQLSTATE '45000' SET MESSAGE_TEXT='RRC178 native item semantics mismatch'; END IF;
+ IF (SELECT COUNT(*)FROM items WHERE id=60769 AND `itemclass` <=> 0 AND `itemtype` <=> 54 AND `size` <=> 0 AND `maxcharges` <=> 0 AND `stackable` <=> 0 AND `stacksize` <=> 1 AND `bagtype` <=> 0 AND `bagslots` <=> 0 AND `bagsize` <=> 0 AND `classes` <=> 65535 AND `races` <=> 65535 AND `deity` <=> 0 AND `reqlevel` <=> 86 AND `reclevel` <=> 90 AND `filename` <=> '' AND `booktype` <=> 0)<>1 THEN SIGNAL SQLSTATE '45000' SET MESSAGE_TEXT='RRC178 native item semantics mismatch'; END IF;
+ IF (SELECT COUNT(*)FROM items WHERE id=123504 AND `itemclass` <=> 0 AND `itemtype` <=> 11 AND `size` <=> 0 AND `maxcharges` <=> 0 AND `stackable` <=> 1 AND `stacksize` <=> 100 AND `bagtype` <=> 0 AND `bagslots` <=> 0 AND `bagsize` <=> 0 AND `classes` <=> 65535 AND `races` <=> 65535 AND `deity` <=> 0 AND `reqlevel` <=> 86 AND `reclevel` <=> 90 AND `filename` <=> '' AND `booktype` <=> 0)<>1 THEN SIGNAL SQLSTATE '45000' SET MESSAGE_TEXT='RRC178 native item semantics mismatch'; END IF;
+ IF (SELECT COUNT(*)FROM books WHERE name=CONVERT(0x5453534b553138426f77417567466c743930 USING utf8mb4) AND SHA2(txtfile,256)=CONVERT(0x31663561316663653866373261323739363865333663366230356139646437353936356263343565326463393162343537303335663533303837373966656330 USING utf8mb4))<>1 THEN SIGNAL SQLSTATE '45000' SET MESSAGE_TEXT='RRC178 native family book context mismatch'; END IF;
+ IF EXISTS(SELECT 1 FROM rrc178_peer_recipes e LEFT JOIN tradeskill_recipe r ON r.id=e.id WHERE r.id IS NULL OR NOT(r.`id` <=> e.`id` AND BINARY r.`name` <=> BINARY e.`name` AND r.`tradeskill` <=> e.`tradeskill` AND r.`skillneeded` <=> e.`skillneeded` AND r.`trivial` <=> e.`trivial` AND r.`nofail` <=> e.`nofail` AND r.`replace_container` <=> e.`replace_container` AND BINARY r.`notes` <=> BINARY e.`notes` AND r.`must_learn` <=> e.`must_learn` AND r.`learned_by_item_id` <=> e.`learned_by_item_id` AND r.`quest` <=> e.`quest` AND r.`enabled` <=> e.`enabled` AND r.`min_expansion` <=> e.`min_expansion` AND r.`max_expansion` <=> e.`max_expansion` AND BINARY r.`content_flags` <=> BINARY e.`content_flags` AND BINARY r.`content_flags_disabled` <=> BINARY e.`content_flags_disabled`)) THEN SIGNAL SQLSTATE '45000' SET MESSAGE_TEXT='RRC178 existing output-use peer definition drift'; END IF;
+ IF EXISTS(SELECT 1 FROM rrc178_peer_entries e LEFT JOIN tradeskill_recipe_entries r ON r.id=e.id WHERE r.id IS NULL OR NOT(r.`id` <=> e.`id` AND r.`recipe_id` <=> e.`recipe_id` AND r.`item_id` <=> e.`item_id` AND r.`successcount` <=> e.`successcount` AND r.`failcount` <=> e.`failcount` AND r.`componentcount` <=> e.`componentcount` AND r.`salvagecount` <=> e.`salvagecount` AND r.`iscontainer` <=> e.`iscontainer`)) OR (SELECT COUNT(*)FROM tradeskill_recipe_entries r JOIN rrc178_peer_recipes p ON p.id=r.recipe_id)<>0 THEN SIGNAL SQLSTATE '45000' SET MESSAGE_TEXT='RRC178 existing output-use peer entry drift'; END IF;
+ IF EXISTS(SELECT 1 FROM tradeskill_recipe_entries r JOIN rrc178_entries e ON r.item_id=e.item_id AND e.successcount>e.componentcount AND e.iscontainer=0 WHERE r.successcount>0 AND r.iscontainer=0 AND NOT EXISTS(SELECT 1 FROM rrc178_recipes n WHERE n.id=r.recipe_id) AND NOT EXISTS(SELECT 1 FROM rrc178_peer_recipes p WHERE p.id=r.recipe_id)) THEN SIGNAL SQLSTATE '45000' SET MESSAGE_TEXT='RRC178 output producer universe changed'; END IF;
+
+ SELECT COUNT(*) INTO recipes_before FROM tradeskill_recipe;
+ SELECT COUNT(*) INTO entries_before FROM tradeskill_recipe_entries;
+ SELECT COUNT(*) INTO already_present FROM tradeskill_recipe r JOIN rrc178_recipes e ON r.id=e.id FOR UPDATE;
+ IF EXISTS(SELECT 1 FROM rrc178_items e LEFT JOIN items i ON i.id=e.id WHERE i.id IS NULL OR BINARY i.Name<>BINARY e.name) THEN SIGNAL SQLSTATE '45000' SET MESSAGE_TEXT='RRC178 item identity/dependency mismatch'; END IF;
+ IF already_present<>1 THEN SIGNAL SQLSTATE '45000' SET MESSAGE_TEXT='RRC178 rollback requires exact whole installed batch'; END IF;
+ IF EXISTS(SELECT 1 FROM rrc178_recipes e LEFT JOIN tradeskill_recipe r ON r.id=e.id WHERE r.id IS NULL OR NOT(r.`id` <=> e.`id` AND r.`name` <=> e.`name` AND r.`tradeskill` <=> e.`tradeskill` AND r.`skillneeded` <=> e.`skillneeded` AND r.`trivial` <=> e.`trivial` AND r.`nofail` <=> e.`nofail` AND r.`replace_container` <=> e.`replace_container` AND r.`notes` <=> e.`notes` AND r.`must_learn` <=> e.`must_learn` AND r.`learned_by_item_id` <=> e.`learned_by_item_id` AND r.`quest` <=> e.`quest` AND r.`enabled` <=> e.`enabled` AND r.`min_expansion` <=> e.`min_expansion` AND r.`max_expansion` <=> e.`max_expansion` AND r.`content_flags` <=> e.`content_flags` AND r.`content_flags_disabled` <=> e.`content_flags_disabled`)) THEN SIGNAL SQLSTATE '45000' SET MESSAGE_TEXT='RRC178 recipe postimage mismatch'; END IF;
+ IF EXISTS(SELECT 1 FROM rrc178_entries e LEFT JOIN tradeskill_recipe_entries r ON r.`recipe_id` <=> e.`recipe_id` AND r.`item_id` <=> e.`item_id` AND r.`successcount` <=> e.`successcount` AND r.`failcount` <=> e.`failcount` AND r.`componentcount` <=> e.`componentcount` AND r.`salvagecount` <=> e.`salvagecount` AND r.`iscontainer` <=> e.`iscontainer` WHERE r.id IS NULL) THEN SIGNAL SQLSTATE '45000' SET MESSAGE_TEXT='RRC178 expected entry absent'; END IF;
+ IF EXISTS(SELECT 1 FROM tradeskill_recipe_entries r JOIN rrc178_recipes q ON q.id=r.recipe_id LEFT JOIN rrc178_entries e ON r.`recipe_id` <=> e.`recipe_id` AND r.`item_id` <=> e.`item_id` AND r.`successcount` <=> e.`successcount` AND r.`failcount` <=> e.`failcount` AND r.`componentcount` <=> e.`componentcount` AND r.`salvagecount` <=> e.`salvagecount` AND r.`iscontainer` <=> e.`iscontainer` WHERE e.id IS NULL) THEN SIGNAL SQLSTATE '45000' SET MESSAGE_TEXT='RRC178 foreign/different target entries'; END IF;
+ IF (SELECT COUNT(*) FROM tradeskill_recipe_entries r JOIN rrc178_recipes q ON q.id=r.recipe_id)<>9 THEN SIGNAL SQLSTATE '45000' SET MESSAGE_TEXT='RRC178 target entry multiplicity mismatch'; END IF;
+ IF EXISTS(SELECT 1 FROM char_recipe_list c JOIN rrc178_recipes e ON c.recipe_id=e.id) THEN SIGNAL SQLSTATE '45000' SET MESSAGE_TEXT='RRC178 rollback refused: learned recipe references exist'; END IF;
+ DELETE r FROM tradeskill_recipe_entries r JOIN rrc178_recipes e ON r.recipe_id=e.id;
+ DELETE r FROM tradeskill_recipe r JOIN rrc178_recipes e ON r.id=e.id;
+ IF (SELECT COUNT(*) FROM tradeskill_recipe)<>recipes_before-1 OR (SELECT COUNT(*) FROM tradeskill_recipe_entries)<>entries_before-9 THEN SIGNAL SQLSTATE '45000' SET MESSAGE_TEXT='RRC178 rollback count mismatch'; END IF;
+ IF EXISTS(SELECT 1 FROM rrc178_peer_recipes e LEFT JOIN tradeskill_recipe r ON r.id=e.id WHERE r.id IS NULL OR NOT(r.`id` <=> e.`id` AND BINARY r.`name` <=> BINARY e.`name` AND r.`tradeskill` <=> e.`tradeskill` AND r.`skillneeded` <=> e.`skillneeded` AND r.`trivial` <=> e.`trivial` AND r.`nofail` <=> e.`nofail` AND r.`replace_container` <=> e.`replace_container` AND BINARY r.`notes` <=> BINARY e.`notes` AND r.`must_learn` <=> e.`must_learn` AND r.`learned_by_item_id` <=> e.`learned_by_item_id` AND r.`quest` <=> e.`quest` AND r.`enabled` <=> e.`enabled` AND r.`min_expansion` <=> e.`min_expansion` AND r.`max_expansion` <=> e.`max_expansion` AND BINARY r.`content_flags` <=> BINARY e.`content_flags` AND BINARY r.`content_flags_disabled` <=> BINARY e.`content_flags_disabled`)) THEN SIGNAL SQLSTATE '45000' SET MESSAGE_TEXT='RRC178 existing output-use peer definition drift'; END IF;
+ IF EXISTS(SELECT 1 FROM rrc178_peer_entries e LEFT JOIN tradeskill_recipe_entries r ON r.id=e.id WHERE r.id IS NULL OR NOT(r.`id` <=> e.`id` AND r.`recipe_id` <=> e.`recipe_id` AND r.`item_id` <=> e.`item_id` AND r.`successcount` <=> e.`successcount` AND r.`failcount` <=> e.`failcount` AND r.`componentcount` <=> e.`componentcount` AND r.`salvagecount` <=> e.`salvagecount` AND r.`iscontainer` <=> e.`iscontainer`)) OR (SELECT COUNT(*)FROM tradeskill_recipe_entries r JOIN rrc178_peer_recipes p ON p.id=r.recipe_id)<>0 THEN SIGNAL SQLSTATE '45000' SET MESSAGE_TEXT='RRC178 existing output-use peer entry drift'; END IF;
+ IF EXISTS(SELECT 1 FROM tradeskill_recipe_entries r JOIN rrc178_entries e ON r.item_id=e.item_id AND e.successcount>e.componentcount AND e.iscontainer=0 WHERE r.successcount>0 AND r.iscontainer=0 AND NOT EXISTS(SELECT 1 FROM rrc178_recipes n WHERE n.id=r.recipe_id) AND NOT EXISTS(SELECT 1 FROM rrc178_peer_recipes p WHERE p.id=r.recipe_id)) THEN SIGNAL SQLSTATE '45000' SET MESSAGE_TEXT='RRC178 output producer universe changed'; END IF;
+ DROP TEMPORARY TABLE rrc178_peer_entries;
+ DROP TEMPORARY TABLE rrc178_peer_recipes;
+ DROP TEMPORARY TABLE rrc178_entries;
+ DROP TEMPORARY TABLE rrc178_recipes;
+ DROP TEMPORARY TABLE rrc178_items;
+ COMMIT;
+ SET own_transaction=FALSE;
+ SELECT 'RRC178' AS batch,already_present AS previous_recipe_count,recipes_before AS recipes_before,(SELECT COUNT(*) FROM tradeskill_recipe) AS recipes_after,entries_before AS entries_before,(SELECT COUNT(*) FROM tradeskill_recipe_entries) AS entries_after,@@in_transaction AS in_transaction;
+END//
+DELIMITER ;
