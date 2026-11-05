@@ -1,0 +1,112 @@
+{
+  "format_version": 1,
+  "package": "RRC157-158",
+  "source_commit": "e7dfb0bb70c0ae266635298eee2db6dfa2976419",
+  "source_package_manifest_sha256": "2d351833b39cae17a68f86e1f05476f3c30b6cec470d0fdd77a02b717d702409",
+  "actual_status": "BOTH_APPLIED_VERIFIED_CLOSED",
+  "batches": [
+    {
+      "batch": "RRC157",
+      "source_sha256": "8bde7fba7346e9768486176d5346fa426a79760b638fcdf25e54a5bd141dace4",
+      "application_status": "APPLIED_VERIFIED",
+      "recipes_added": 238,
+      "entries_added": 2260,
+      "source_scope_and_dependencies": {
+        "batch": "RRC157",
+        "apply_sha256": "8bde7fba7346e9768486176d5346fa426a79760b638fcdf25e54a5bd141dace4",
+        "counts": {
+          "new_recipes": 238,
+          "new_entries": 2260,
+          "existing_recipe_definitions_updated": 0,
+          "existing_entry_rows_updated": 0
+        },
+        "source_counts": {
+          "recipes": 238,
+          "entries": 2260,
+          "item_dependencies": 156,
+          "unchanged_prototype_recipes": 113,
+          "unchanged_prototype_entries": 1243
+        },
+        "migration_dependencies": [
+          "RRC133"
+        ]
+      }
+    },
+    {
+      "batch": "RRC158",
+      "source_sha256": "00134675fabc0b43667ff016fc47e38461d9361634b003fff2e7ea77aca7fbe9",
+      "application_status": "APPLIED_VERIFIED",
+      "recipes_added": 236,
+      "entries_added": 2140,
+      "source_scope_and_dependencies": {
+        "batch": "RRC158",
+        "apply_sha256": "00134675fabc0b43667ff016fc47e38461d9361634b003fff2e7ea77aca7fbe9",
+        "counts": {
+          "new_recipes": 236,
+          "new_entries": 2140,
+          "existing_recipe_definitions_updated": 0,
+          "existing_entry_rows_updated": 0
+        },
+        "source_counts": {
+          "recipes": 236,
+          "entries": 2140,
+          "item_dependencies": 156,
+          "unchanged_prototype_recipes": 118,
+          "unchanged_prototype_entries": 1180
+        },
+        "migration_dependencies": [
+          "RRC136"
+        ]
+      }
+    }
+  ],
+  "application_order": [
+    "RRC157",
+    "RRC158"
+  ],
+  "rollback_order": [
+    "RRC158",
+    "RRC157"
+  ],
+  "global_actual_before": {
+    "recipes": 26735,
+    "entries": 202933
+  },
+  "global_actual_after": {
+    "recipes": 27209,
+    "entries": 207333
+  },
+  "recipes_added": 474,
+  "entries_added": 4400,
+  "TS_cumulative_added_through158": {
+    "recipes": 4385,
+    "entries": 29708
+  },
+  "cumulative_basis": "Prior3911/25308 plus474/4400.",
+  "new_recipe_batches": 112,
+  "existing_Tinkering_peers": {
+    "RRC157": {
+      "definitions": 113,
+      "entries": 1243
+    },
+    "RRC158": {
+      "definitions": 118,
+      "entries": 1180
+    },
+    "unchanged": true
+  },
+  "both_closed_exact_learnedrefs_preserved": true,
+  "source_holds_book_policy_Glove_conflict_retained": true,
+  "prior_closed_normal_SQL_source_paths": 552,
+  "new_normal_SQL_source_paths": 4,
+  "normal_SQL_source_paths_after_publication": 556,
+  "SQL_path_count_meaning": "Source paths, not application count.",
+  "held_batch": "RRC014",
+  "separate_Xorbb_recipe_excluded": {
+    "recipes": 1,
+    "entries": 6
+  },
+  "history_archives_preserved": true,
+  "QA39999_production_exclusion_retained": true,
+  "assembly": "No repeated SQL/query/tests/runtime/receipt-only publication."
+}
