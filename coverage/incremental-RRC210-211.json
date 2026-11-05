@@ -1,0 +1,91 @@
+{
+  "format_version": 1,
+  "batches": [
+    "RRC210",
+    "RRC211"
+  ],
+  "application_order": [
+    "RRC210",
+    "RRC211"
+  ],
+  "source_packages": {
+    "RRC210": {
+      "source_commit": "1622af545d820938099639840767cc2c41c90441",
+      "apply_sha256": "af2e1dafddc306657fd13804414331c59c6c6ac28002cbd50f7859e8adf563b5",
+      "package_manifest_sha256": "b5e3c4a595fffbfc66361fb68228eff97b482e6183fb8f066ef2aa4b6bf340a1"
+    },
+    "RRC211": {
+      "source_commit": "34133dc6d32d1ba90c2762801614a6d2009cc599",
+      "apply_sha256": "50aa4151f1b313bfec96e7ed88d139fc19052d2c10a7535d22fe965613ffa7ab",
+      "package_manifest_sha256": "36b22932291647b713f83a7708fb1d4dfd5ab5790432d8ff658661e21b7223d7"
+    }
+  },
+  "application_status": "BOTH_APPLIED_VERIFIED_SEQUENTIALLY",
+  "recipes_added": 40,
+  "entries_added": 442,
+  "existing_entry_rows_updated": 0,
+  "existing_recipe_definitions_updated": 0,
+  "global_actual_counts": {
+    "recipes": 28298,
+    "entries": 215373
+  },
+  "TS_cumulative_added_current": {
+    "recipes": 5474,
+    "entries": 37748
+  },
+  "cumulative_basis": "Prior5434/37306 actual after209 plus40/442.",
+  "new_recipe_batches": 161,
+  "historical_qualification": {
+    "RRC210": {
+      "scope": "Twenty absent RoF Regal Infused weapon Smithing bodies with direct primary output identities, exact quantities and numeric trivials488to519; primary source formulas match retained positive RoF family.",
+      "learning": "Every selected source explicitly says Must scribe to learn: Regal Weapon Smithing. Direct primary39577/EQ135562 and current class2/type60/name/filename plus exact authored text hash authenticate book identity. must_learn1/learned_by_item135562 enforce explicit requirement. Text names the Regal weapon family but uses older material prose (Shiny Coal/Mysterious Loam/Essence of Alaris); exact recipe ingredients come from independently matched primary formulas, not inferred from book text. No book content/effect edits.",
+      "quantity": "Physical yield1, uncharged current outputMax0. SmithyHammer10489 is one consumed role and explicitly returned1 on success and failure; salvage0 on returned tool. RepeatedHeatSource/ScorchedBarbs/SmallBladeMold quantities2 are physical stack units, native capacities sufficient. Max10 physical ingredient units fit ordinary Forge17.",
+      "gates": "Source omits mandatory minimum and actor restrictions. skillneeded0 ordinary omission policy; must_learn1 explicit. Source weapon classes/races/levels are use restrictions, not new manufacturing gates. quest0/enabled1/nofail0 conventions.",
+      "era": "Positive maintained RoF19 Smithing family; floor19/max-1 labelled reconstruction, not immutable May2013 exact fields or exact introduction proof. Native book wording does not replace direct source formulas.",
+      "containers": "Every body explicitly permits ordinary Forge17; source Tanaan/floor/standing/guild alternatives held separately, no availability inferred.",
+      "preservation": "62full native dependencies (50fresh/12pinned reuse), exact book text hash. Current all-state/all-skill full-input/name review no matches. All-success output-use universe including widely returned Hammer contains1436existing recipes/11293entries, all captured and guarded unchanged. NewIDs/full logical entries/deltas/learnedrefs guarded; no existing recipe/item/book/core/player writes.",
+      "execution": "Source only pending publication and exact SQL GO. Named one-pass count contract. Readers and source tabs closed. No tests/rehearsal/build/runtime/native learning or combine acceptance, scope incomplete."
+    },
+    "RRC211": {
+      "scope": "Twenty absent RoF Regal Uninfused weapon Smithing bodies with direct primary output identities; exact distinct source ingredients, quantities and numeric trivials488to519. These are independently documented combinations, not derived by removing a component from infused formulas.",
+      "learning": "Nineteen sources explicitly MUST scribe Regal Weapon Smithing: must_learn1/book135562. Stormslash view1420 instead CAN purchase/scribe to learn, matched retained and fresh primary; ordinary optional must_learn0/book0 policy, no mandatory gate inferred from siblings and no new book effect claimed. Direct primary book identity/current class2/type60/filename/text hash evidence reused and guarded.",
+      "quantity": "Physical outputYield1/nativeMax0. SmithyHammer10489 component1 returns1 on success and failure, salvage0. Repeated quantities2 are physical stack units and current capacities suffice. Max9 physical input units fit ordinary Forge17.",
+      "gates": "Source omits mandatory minimum/actor gates: skillneeded0 ordinary omission; no new actor restrictions from output item use masks. quest0/enabled1/nofail0 conventions.",
+      "era": "Positive maintained RoF19 Smithing family; floor19/max-1 labelled reconstruction, not exact introduction or immutable May2013 fields. Native authored family text uses older material prose; independently matched primary formulas govern ingredients.",
+      "containers": "Source explicitly ordinary Forge17 for each body; Tanaan/floor/standing/guild alternatives separately held, no world availability inferred.",
+      "preservation": "61full native dependencies (20fresh/41pinned reused) and exact book text hash guarded. Current all-state/all-skill input/name matches zero. All-success returnedHammer universe1456existing recipes/11524entries includes applied210; full preimages guarded unchanged. NewIDs/full logical entry multisets/deltas/learnedrefs protected, no existing item/book/core/player edits.",
+      "execution": "Source only pending publication and exact SQL GO; named one-pass count contract. Readers/source tabs closed. No tests/rehearsal/build/runtime/native learning or combine acceptance; scope incomplete."
+    }
+  },
+  "peer_cutoffs": {
+    "RRC210": {
+      "definitions": 1436,
+      "entry_IDs": 11293,
+      "exact": true
+    },
+    "RRC211": {
+      "definitions": 1456,
+      "entry_IDs": 11524,
+      "includes_RRC210": true,
+      "exact": true
+    }
+  },
+  "learning_distinction": "19 explicit MUSTscribe book135562;Stormslashview1420 CANpurchase/scribe optional must_learn0/book0 policy. No mandatory gate inferred from siblings.",
+  "held_batches": [
+    "RRC014",
+    "RRC160"
+  ],
+  "all_scope_complete": false,
+  "separate_Xorbb_recipe_excluded": {
+    "recipes": 1,
+    "entries": 6
+  },
+  "prior_locally_confirmed_published_normal_SQL_source_paths": 662,
+  "earlier_pending_normal_SQL_source_paths": 0,
+  "new_normal_SQL_source_paths": 4,
+  "normal_SQL_source_paths_after_all_pending_publications": 666,
+  "SQL_path_count_meaning": "Source paths, not application count.",
+  "history_archives_preserved": true,
+  "QA39999_production_exclusion_retained": true,
+  "assembly": "Reused staged210payload;noSQL/query/replay/tests/runtime/receipt-onlypublication."
+}
