@@ -1,0 +1,6881 @@
+{
+  "batch": "RRC161",
+  "branch": "rof2-tradeskills",
+  "status": "SOURCE_PROPOSAL_NOT_APPLIED_LABELLED_RECONSTRUCTION",
+  "proposed_ids": [
+    3095770,
+    3095796
+  ],
+  "counts": {
+    "recipes": 27,
+    "entries": 213,
+    "item_dependencies": 57,
+    "unchanged_prototype_recipes": 23,
+    "unchanged_prototype_entries": 205
+  },
+  "recipes": [
+    {
+      "id": 3095770,
+      "name": "Sunshard Seal",
+      "tradeskill": 63,
+      "skillneeded": 0,
+      "trivial": 402,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary seal/metal-bar reconstruction; RRC161.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 14,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3095771,
+      "name": "Faycite Seal",
+      "tradeskill": 63,
+      "skillneeded": 0,
+      "trivial": 422,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary seal/metal-bar reconstruction; RRC161.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 14,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3095772,
+      "name": "Cosgrove Chest Seal",
+      "tradeskill": 63,
+      "skillneeded": 0,
+      "trivial": 463,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary seal/metal-bar reconstruction; RRC161.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 16,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3095773,
+      "name": "Cosgrove Legging Seal",
+      "tradeskill": 63,
+      "skillneeded": 0,
+      "trivial": 451,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary seal/metal-bar reconstruction; RRC161.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 16,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3095774,
+      "name": "Cosgrove Boot Seal",
+      "tradeskill": 63,
+      "skillneeded": 0,
+      "trivial": 450,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary seal/metal-bar reconstruction; RRC161.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 16,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3095775,
+      "name": "Cosgrove Sleeve Seal",
+      "tradeskill": 63,
+      "skillneeded": 0,
+      "trivial": 447,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary seal/metal-bar reconstruction; RRC161.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 16,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3095776,
+      "name": "Cosgrove Wrist Seal",
+      "tradeskill": 63,
+      "skillneeded": 0,
+      "trivial": 442,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary seal/metal-bar reconstruction; RRC161.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 16,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3095777,
+      "name": "Cosgrove Glove Seal",
+      "tradeskill": 63,
+      "skillneeded": 0,
+      "trivial": 443,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary seal/metal-bar reconstruction; RRC161.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 16,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3095778,
+      "name": "Cosgrove Helm Seal",
+      "tradeskill": 63,
+      "skillneeded": 0,
+      "trivial": 446,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary seal/metal-bar reconstruction; RRC161.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 16,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3095779,
+      "name": "Veiled Chest Seal",
+      "tradeskill": 63,
+      "skillneeded": 0,
+      "trivial": 463,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary seal/metal-bar reconstruction; RRC161.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 18,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3095780,
+      "name": "Veiled Legging Seal",
+      "tradeskill": 63,
+      "skillneeded": 0,
+      "trivial": 451,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary seal/metal-bar reconstruction; RRC161.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 18,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3095781,
+      "name": "Veiled Boot Seal",
+      "tradeskill": 63,
+      "skillneeded": 0,
+      "trivial": 450,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary seal/metal-bar reconstruction; RRC161.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 18,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3095782,
+      "name": "Veiled Sleeve Seal",
+      "tradeskill": 63,
+      "skillneeded": 0,
+      "trivial": 447,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary seal/metal-bar reconstruction; RRC161.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 18,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3095783,
+      "name": "Veiled Wrist Seal",
+      "tradeskill": 63,
+      "skillneeded": 0,
+      "trivial": 442,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary seal/metal-bar reconstruction; RRC161.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 18,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3095784,
+      "name": "Veiled Glove Seal",
+      "tradeskill": 63,
+      "skillneeded": 0,
+      "trivial": 443,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary seal/metal-bar reconstruction; RRC161.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 18,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3095785,
+      "name": "Veiled Helm Seal",
+      "tradeskill": 63,
+      "skillneeded": 0,
+      "trivial": 446,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary seal/metal-bar reconstruction; RRC161.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 18,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3095786,
+      "name": "Fearlinked Chest Seal",
+      "tradeskill": 63,
+      "skillneeded": 0,
+      "trivial": 463,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary seal/metal-bar reconstruction; RRC161.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 19,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3095787,
+      "name": "Fearlinked Legging Seal",
+      "tradeskill": 63,
+      "skillneeded": 0,
+      "trivial": 451,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary seal/metal-bar reconstruction; RRC161.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 19,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3095788,
+      "name": "Fearlinked Boot Seal",
+      "tradeskill": 63,
+      "skillneeded": 0,
+      "trivial": 450,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary seal/metal-bar reconstruction; RRC161.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 19,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3095789,
+      "name": "Fearlinked Sleeve Seal",
+      "tradeskill": 63,
+      "skillneeded": 0,
+      "trivial": 447,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary seal/metal-bar reconstruction; RRC161.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 19,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3095790,
+      "name": "Fearlinked Wrist Seal",
+      "tradeskill": 63,
+      "skillneeded": 0,
+      "trivial": 442,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary seal/metal-bar reconstruction; RRC161.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 19,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3095791,
+      "name": "Fearlinked Glove Seal",
+      "tradeskill": 63,
+      "skillneeded": 0,
+      "trivial": 443,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary seal/metal-bar reconstruction; RRC161.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 19,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3095792,
+      "name": "Fearlinked Helm Seal",
+      "tradeskill": 63,
+      "skillneeded": 0,
+      "trivial": 446,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary seal/metal-bar reconstruction; RRC161.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 19,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3095793,
+      "name": "Cosgrite Bar",
+      "tradeskill": 68,
+      "skillneeded": 0,
+      "trivial": 100,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary seal/metal-bar reconstruction; RRC161.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 16,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3095794,
+      "name": "Alaran Metal Bar",
+      "tradeskill": 68,
+      "skillneeded": 0,
+      "trivial": 108,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary seal/metal-bar reconstruction; RRC161.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 18,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3095795,
+      "name": "Feymetal Bar",
+      "tradeskill": 68,
+      "skillneeded": 0,
+      "trivial": 100,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary seal/metal-bar reconstruction; RRC161.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 17,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3095796,
+      "name": "Trillion Cut Harmonagate Velium Pendant",
+      "tradeskill": 68,
+      "skillneeded": 0,
+      "trivial": 212,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary seal/metal-bar reconstruction; RRC161.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 11,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    }
+  ],
+  "entries": [
+    {
+      "recipe_id": 3095770,
+      "item_id": 10254,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3095770,
+      "item_id": 16503,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 2,
+      "salvagecount": 2,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3095770,
+      "item_id": 33439,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3095770,
+      "item_id": 34248,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3095770,
+      "item_id": 37417,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3095770,
+      "item_id": 37475,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3095770,
+      "item_id": 17,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3095771,
+      "item_id": 10254,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3095771,
+      "item_id": 16503,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 2,
+      "salvagecount": 2,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3095771,
+      "item_id": 33439,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3095771,
+      "item_id": 34249,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3095771,
+      "item_id": 37446,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3095771,
+      "item_id": 37476,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3095771,
+      "item_id": 17,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3095772,
+      "item_id": 10254,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3095772,
+      "item_id": 16503,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 2,
+      "salvagecount": 2,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3095772,
+      "item_id": 33439,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3095772,
+      "item_id": 34525,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3095772,
+      "item_id": 48162,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3095772,
+      "item_id": 49926,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3095772,
+      "item_id": 49933,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3095772,
+      "item_id": 17,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3095773,
+      "item_id": 10254,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3095773,
+      "item_id": 16503,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 2,
+      "salvagecount": 2,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3095773,
+      "item_id": 33439,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3095773,
+      "item_id": 34532,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3095773,
+      "item_id": 48162,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3095773,
+      "item_id": 49927,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3095773,
+      "item_id": 49933,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3095773,
+      "item_id": 17,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3095774,
+      "item_id": 10254,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3095774,
+      "item_id": 16503,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 2,
+      "salvagecount": 2,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3095774,
+      "item_id": 33439,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3095774,
+      "item_id": 34533,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3095774,
+      "item_id": 48162,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3095774,
+      "item_id": 49928,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3095774,
+      "item_id": 49933,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3095774,
+      "item_id": 17,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3095775,
+      "item_id": 10254,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3095775,
+      "item_id": 16503,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 2,
+      "salvagecount": 2,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3095775,
+      "item_id": 33439,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3095775,
+      "item_id": 34529,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3095775,
+      "item_id": 48162,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3095775,
+      "item_id": 49929,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3095775,
+      "item_id": 49933,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3095775,
+      "item_id": 17,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3095776,
+      "item_id": 10254,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3095776,
+      "item_id": 16503,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 2,
+      "salvagecount": 2,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3095776,
+      "item_id": 33439,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3095776,
+      "item_id": 34530,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3095776,
+      "item_id": 48162,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3095776,
+      "item_id": 49930,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3095776,
+      "item_id": 49933,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3095776,
+      "item_id": 17,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3095777,
+      "item_id": 10254,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3095777,
+      "item_id": 16503,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 2,
+      "salvagecount": 2,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3095777,
+      "item_id": 33439,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3095777,
+      "item_id": 34531,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3095777,
+      "item_id": 48162,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3095777,
+      "item_id": 49931,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3095777,
+      "item_id": 49933,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3095777,
+      "item_id": 17,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3095778,
+      "item_id": 10254,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3095778,
+      "item_id": 16503,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 2,
+      "salvagecount": 2,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3095778,
+      "item_id": 33439,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3095778,
+      "item_id": 34522,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3095778,
+      "item_id": 48162,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3095778,
+      "item_id": 49932,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3095778,
+      "item_id": 49933,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3095778,
+      "item_id": 17,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3095779,
+      "item_id": 10254,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3095779,
+      "item_id": 16503,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 2,
+      "salvagecount": 2,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3095779,
+      "item_id": 33439,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3095779,
+      "item_id": 34525,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3095779,
+      "item_id": 112494,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3095779,
+      "item_id": 112501,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3095779,
+      "item_id": 112605,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3095779,
+      "item_id": 17,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3095780,
+      "item_id": 10254,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3095780,
+      "item_id": 16503,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 2,
+      "salvagecount": 2,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3095780,
+      "item_id": 33439,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3095780,
+      "item_id": 34532,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3095780,
+      "item_id": 112495,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3095780,
+      "item_id": 112501,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3095780,
+      "item_id": 112605,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3095780,
+      "item_id": 17,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3095781,
+      "item_id": 10254,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3095781,
+      "item_id": 16503,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 2,
+      "salvagecount": 2,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3095781,
+      "item_id": 33439,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3095781,
+      "item_id": 34533,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3095781,
+      "item_id": 112496,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3095781,
+      "item_id": 112501,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3095781,
+      "item_id": 112605,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3095781,
+      "item_id": 17,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3095782,
+      "item_id": 10254,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3095782,
+      "item_id": 16503,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 2,
+      "salvagecount": 2,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3095782,
+      "item_id": 33439,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3095782,
+      "item_id": 34529,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3095782,
+      "item_id": 112497,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3095782,
+      "item_id": 112501,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3095782,
+      "item_id": 112605,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3095782,
+      "item_id": 17,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3095783,
+      "item_id": 10254,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3095783,
+      "item_id": 16503,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 2,
+      "salvagecount": 2,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3095783,
+      "item_id": 33439,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3095783,
+      "item_id": 34530,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3095783,
+      "item_id": 112498,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3095783,
+      "item_id": 112501,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3095783,
+      "item_id": 112605,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3095783,
+      "item_id": 17,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3095784,
+      "item_id": 10254,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3095784,
+      "item_id": 16503,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 2,
+      "salvagecount": 2,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3095784,
+      "item_id": 33439,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3095784,
+      "item_id": 34531,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3095784,
+      "item_id": 112499,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3095784,
+      "item_id": 112501,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3095784,
+      "item_id": 112605,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3095784,
+      "item_id": 17,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3095785,
+      "item_id": 10254,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3095785,
+      "item_id": 16503,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 2,
+      "salvagecount": 2,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3095785,
+      "item_id": 33439,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3095785,
+      "item_id": 34522,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3095785,
+      "item_id": 112500,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3095785,
+      "item_id": 112501,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3095785,
+      "item_id": 112605,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3095785,
+      "item_id": 17,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3095786,
+      "item_id": 10254,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3095786,
+      "item_id": 16503,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 2,
+      "salvagecount": 2,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3095786,
+      "item_id": 33439,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3095786,
+      "item_id": 34525,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3095786,
+      "item_id": 134543,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3095786,
+      "item_id": 134550,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3095786,
+      "item_id": 134654,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3095786,
+      "item_id": 17,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3095787,
+      "item_id": 10254,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3095787,
+      "item_id": 16503,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 2,
+      "salvagecount": 2,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3095787,
+      "item_id": 33439,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3095787,
+      "item_id": 34532,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3095787,
+      "item_id": 134544,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3095787,
+      "item_id": 134550,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3095787,
+      "item_id": 134654,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3095787,
+      "item_id": 17,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3095788,
+      "item_id": 10254,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3095788,
+      "item_id": 16503,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 2,
+      "salvagecount": 2,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3095788,
+      "item_id": 33439,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3095788,
+      "item_id": 34533,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3095788,
+      "item_id": 134545,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3095788,
+      "item_id": 134550,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3095788,
+      "item_id": 134654,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3095788,
+      "item_id": 17,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3095789,
+      "item_id": 10254,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3095789,
+      "item_id": 16503,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 2,
+      "salvagecount": 2,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3095789,
+      "item_id": 33439,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3095789,
+      "item_id": 34529,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3095789,
+      "item_id": 134546,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3095789,
+      "item_id": 134550,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3095789,
+      "item_id": 134654,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3095789,
+      "item_id": 17,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3095790,
+      "item_id": 10254,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3095790,
+      "item_id": 16503,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 2,
+      "salvagecount": 2,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3095790,
+      "item_id": 33439,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3095790,
+      "item_id": 34530,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3095790,
+      "item_id": 134547,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3095790,
+      "item_id": 134550,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3095790,
+      "item_id": 134654,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3095790,
+      "item_id": 17,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3095791,
+      "item_id": 10254,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3095791,
+      "item_id": 16503,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 2,
+      "salvagecount": 2,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3095791,
+      "item_id": 33439,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3095791,
+      "item_id": 34531,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3095791,
+      "item_id": 134548,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3095791,
+      "item_id": 134550,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3095791,
+      "item_id": 134654,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3095791,
+      "item_id": 17,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3095792,
+      "item_id": 10254,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3095792,
+      "item_id": 16503,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 2,
+      "salvagecount": 2,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3095792,
+      "item_id": 33439,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3095792,
+      "item_id": 34522,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3095792,
+      "item_id": 134549,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3095792,
+      "item_id": 134550,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3095792,
+      "item_id": 134654,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3095792,
+      "item_id": 17,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3095793,
+      "item_id": 16503,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3095793,
+      "item_id": 45952,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3095793,
+      "item_id": 49982,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3095793,
+      "item_id": 63244,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3095793,
+      "item_id": 17187,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3095793,
+      "item_id": 17764,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3095793,
+      "item_id": 17912,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3095793,
+      "item_id": 62480,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3095794,
+      "item_id": 16503,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3095794,
+      "item_id": 63244,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3095794,
+      "item_id": 64524,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3095794,
+      "item_id": 64546,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3095794,
+      "item_id": 17187,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3095794,
+      "item_id": 17764,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3095794,
+      "item_id": 17912,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3095794,
+      "item_id": 62480,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3095795,
+      "item_id": 16503,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3095795,
+      "item_id": 46979,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3095795,
+      "item_id": 63244,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3095795,
+      "item_id": 81138,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3095795,
+      "item_id": 17187,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3095795,
+      "item_id": 17764,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3095795,
+      "item_id": 17912,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3095795,
+      "item_id": 62480,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3095796,
+      "item_id": 95641,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3095796,
+      "item_id": 95767,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3095796,
+      "item_id": 95799,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3095796,
+      "item_id": 17187,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3095796,
+      "item_id": 17764,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3095796,
+      "item_id": 17912,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3095796,
+      "item_id": 62480,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    }
+  ],
+  "item_dependencies": [
+    {
+      "id": 10254,
+      "name": "Vial of Purified Mana"
+    },
+    {
+      "id": 16503,
+      "name": "Platinum Bar"
+    },
+    {
+      "id": 17187,
+      "name": "Collapsible Jeweler's Kit"
+    },
+    {
+      "id": 17764,
+      "name": "Planar Jeweler's Kit"
+    },
+    {
+      "id": 17912,
+      "name": "Jeweler's Kit"
+    },
+    {
+      "id": 33439,
+      "name": "Seal Pattern"
+    },
+    {
+      "id": 34248,
+      "name": "Titanium Ore"
+    },
+    {
+      "id": 34249,
+      "name": "Tantalum Ore"
+    },
+    {
+      "id": 34522,
+      "name": "Chainmail Coif Template Pattern"
+    },
+    {
+      "id": 34525,
+      "name": "Chainmail Chestguard Template Pattern"
+    },
+    {
+      "id": 34529,
+      "name": "Chainmail Arms Template Pattern"
+    },
+    {
+      "id": 34530,
+      "name": "Chainmail Bracer Template Pattern"
+    },
+    {
+      "id": 34531,
+      "name": "Chainmail Gloves Template Pattern"
+    },
+    {
+      "id": 34532,
+      "name": "Chainmail Legplates Template Pattern"
+    },
+    {
+      "id": 34533,
+      "name": "Chainmail Boots Template Pattern"
+    },
+    {
+      "id": 37417,
+      "name": "Sunshard Seal"
+    },
+    {
+      "id": 37446,
+      "name": "Faycite Seal"
+    },
+    {
+      "id": 37475,
+      "name": "Sunshard Water"
+    },
+    {
+      "id": 37476,
+      "name": "Faycite Water"
+    },
+    {
+      "id": 45952,
+      "name": "Cosgrite Bar"
+    },
+    {
+      "id": 46979,
+      "name": "Dream Dust"
+    },
+    {
+      "id": 48162,
+      "name": "Vanadium Ore"
+    },
+    {
+      "id": 49926,
+      "name": "Cosgrove Chest Seal"
+    },
+    {
+      "id": 49927,
+      "name": "Cosgrove Legging Seal"
+    },
+    {
+      "id": 49928,
+      "name": "Cosgrove Boot Seal"
+    },
+    {
+      "id": 49929,
+      "name": "Cosgrove Sleeve Seal"
+    },
+    {
+      "id": 49930,
+      "name": "Cosgrove Wrist Seal"
+    },
+    {
+      "id": 49931,
+      "name": "Cosgrove Glove Seal"
+    },
+    {
+      "id": 49932,
+      "name": "Cosgrove Helm Seal"
+    },
+    {
+      "id": 49933,
+      "name": "Cosgrove Water"
+    },
+    {
+      "id": 49982,
+      "name": "Cosgrove Powder"
+    },
+    {
+      "id": 62480,
+      "name": "Reinforced Jeweler's Kit"
+    },
+    {
+      "id": 63244,
+      "name": "Gnomish Heat Source"
+    },
+    {
+      "id": 64524,
+      "name": "Alaran Metal Bar"
+    },
+    {
+      "id": 64546,
+      "name": "Essence of Alaris"
+    },
+    {
+      "id": 81138,
+      "name": "Feymetal Bar"
+    },
+    {
+      "id": 95641,
+      "name": "Trilion Cut Harmonagate Velium Pendant"
+    },
+    {
+      "id": 95767,
+      "name": "Trilion Mount Velium Pendant"
+    },
+    {
+      "id": 95799,
+      "name": "Trilion Cut Harmonagate"
+    },
+    {
+      "id": 112494,
+      "name": "Veiled Chest Seal"
+    },
+    {
+      "id": 112495,
+      "name": "Veiled Legging Seal"
+    },
+    {
+      "id": 112496,
+      "name": "Veiled Boot Seal"
+    },
+    {
+      "id": 112497,
+      "name": "Veiled Sleeve Seal"
+    },
+    {
+      "id": 112498,
+      "name": "Veiled Wrist Seal"
+    },
+    {
+      "id": 112499,
+      "name": "Veiled Glove Seal"
+    },
+    {
+      "id": 112500,
+      "name": "Veiled Helm Seal"
+    },
+    {
+      "id": 112501,
+      "name": "Veiled Water"
+    },
+    {
+      "id": 112605,
+      "name": "Palladium Ore"
+    },
+    {
+      "id": 134543,
+      "name": "Fearlinked Chest Seal"
+    },
+    {
+      "id": 134544,
+      "name": "Fearlinked Legging Seal"
+    },
+    {
+      "id": 134545,
+      "name": "Fearlinked Boot Seal"
+    },
+    {
+      "id": 134546,
+      "name": "Fearlinked Sleeve Seal"
+    },
+    {
+      "id": 134547,
+      "name": "Fearlinked Wrist Seal"
+    },
+    {
+      "id": 134548,
+      "name": "Fearlinked Glove Seal"
+    },
+    {
+      "id": 134549,
+      "name": "Fearlinked Helm Seal"
+    },
+    {
+      "id": 134550,
+      "name": "Fearlinked Water"
+    },
+    {
+      "id": 134654,
+      "name": "Scorched Ore"
+    }
+  ],
+  "unchanged_prototype_recipes": [
+    {
+      "id": 3093558,
+      "name": "Faycite Seal",
+      "tradeskill": 57,
+      "skillneeded": 0,
+      "trivial": 422,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "SoF source; nativebook learning/minima; RRC059.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 14,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3093563,
+      "name": "Sunshard Seal",
+      "tradeskill": 57,
+      "skillneeded": 0,
+      "trivial": 402,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "SoF source; nativebook learning/minima; RRC059.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 14,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3094565,
+      "name": "Cosgrove Chest Seal",
+      "tradeskill": 57,
+      "skillneeded": 0,
+      "trivial": 463,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary Underfoot Tinkering reconstruction; RRC130.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 16,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3094566,
+      "name": "Cosgrove Legging Seal",
+      "tradeskill": 57,
+      "skillneeded": 0,
+      "trivial": 451,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary Underfoot Tinkering reconstruction; RRC130.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 16,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3094567,
+      "name": "Cosgrove Boot Seal",
+      "tradeskill": 57,
+      "skillneeded": 0,
+      "trivial": 450,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary Underfoot Tinkering reconstruction; RRC130.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 16,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3094568,
+      "name": "Cosgrove Sleeve Seal",
+      "tradeskill": 57,
+      "skillneeded": 0,
+      "trivial": 447,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary Underfoot Tinkering reconstruction; RRC130.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 16,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3094569,
+      "name": "Cosgrove Wrist Seal",
+      "tradeskill": 57,
+      "skillneeded": 0,
+      "trivial": 442,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary Underfoot Tinkering reconstruction; RRC130.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 16,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3094570,
+      "name": "Cosgrove Glove Seal",
+      "tradeskill": 57,
+      "skillneeded": 0,
+      "trivial": 443,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary Underfoot Tinkering reconstruction; RRC130.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 16,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3094571,
+      "name": "Cosgrove Helm Seal",
+      "tradeskill": 57,
+      "skillneeded": 0,
+      "trivial": 446,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary Underfoot Tinkering reconstruction; RRC130.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 16,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3094737,
+      "name": "Veiled Chest Seal",
+      "tradeskill": 57,
+      "skillneeded": 0,
+      "trivial": 463,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary VoA Tinkering reconstruction; RRC134.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 18,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3094738,
+      "name": "Veiled Legging Seal",
+      "tradeskill": 57,
+      "skillneeded": 0,
+      "trivial": 451,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary VoA Tinkering reconstruction; RRC134.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 18,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3094739,
+      "name": "Veiled Boot Seal",
+      "tradeskill": 57,
+      "skillneeded": 0,
+      "trivial": 450,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary VoA Tinkering reconstruction; RRC134.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 18,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3094740,
+      "name": "Veiled Sleeve Seal",
+      "tradeskill": 57,
+      "skillneeded": 0,
+      "trivial": 447,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary VoA Tinkering reconstruction; RRC134.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 18,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3094741,
+      "name": "Veiled Wrist Seal",
+      "tradeskill": 57,
+      "skillneeded": 0,
+      "trivial": 442,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary VoA Tinkering reconstruction; RRC134.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 18,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3094742,
+      "name": "Veiled Glove Seal",
+      "tradeskill": 57,
+      "skillneeded": 0,
+      "trivial": 443,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary VoA Tinkering reconstruction; RRC134.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 18,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3094743,
+      "name": "Veiled Helm Seal",
+      "tradeskill": 57,
+      "skillneeded": 0,
+      "trivial": 446,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary VoA Tinkering reconstruction; RRC134.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 18,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3094883,
+      "name": "Fearlinked Chest Seal",
+      "tradeskill": 57,
+      "skillneeded": 0,
+      "trivial": 463,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary RoF Tinkering reconstruction; RRC137.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 19,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3094884,
+      "name": "Fearlinked Legging Seal",
+      "tradeskill": 57,
+      "skillneeded": 0,
+      "trivial": 451,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary RoF Tinkering reconstruction; RRC137.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 19,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3094885,
+      "name": "Fearlinked Boot Seal",
+      "tradeskill": 57,
+      "skillneeded": 0,
+      "trivial": 450,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary RoF Tinkering reconstruction; RRC137.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 19,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3094886,
+      "name": "Fearlinked Sleeve Seal",
+      "tradeskill": 57,
+      "skillneeded": 0,
+      "trivial": 447,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary RoF Tinkering reconstruction; RRC137.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 19,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3094887,
+      "name": "Fearlinked Wrist Seal",
+      "tradeskill": 57,
+      "skillneeded": 0,
+      "trivial": 442,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary RoF Tinkering reconstruction; RRC137.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 19,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3094888,
+      "name": "Fearlinked Glove Seal",
+      "tradeskill": 57,
+      "skillneeded": 0,
+      "trivial": 443,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary RoF Tinkering reconstruction; RRC137.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 19,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3094889,
+      "name": "Fearlinked Helm Seal",
+      "tradeskill": 57,
+      "skillneeded": 0,
+      "trivial": 446,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary RoF Tinkering reconstruction; RRC137.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 19,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    }
+  ],
+  "unchanged_prototype_entries": [
+    {
+      "id": 30422721,
+      "recipe_id": 3093558,
+      "item_id": 37446,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 30422722,
+      "recipe_id": 3093558,
+      "item_id": 37476,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30422723,
+      "recipe_id": 3093558,
+      "item_id": 63244,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 4,
+      "salvagecount": 4,
+      "iscontainer": 0
+    },
+    {
+      "id": 30422724,
+      "recipe_id": 3093558,
+      "item_id": 16503,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 2,
+      "salvagecount": 2,
+      "iscontainer": 0
+    },
+    {
+      "id": 30422725,
+      "recipe_id": 3093558,
+      "item_id": 33439,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30422726,
+      "recipe_id": 3093558,
+      "item_id": 34249,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30422727,
+      "recipe_id": 3093558,
+      "item_id": 10254,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30422728,
+      "recipe_id": 3093558,
+      "item_id": 10,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 30422771,
+      "recipe_id": 3093563,
+      "item_id": 37417,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 30422772,
+      "recipe_id": 3093563,
+      "item_id": 63244,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 4,
+      "salvagecount": 4,
+      "iscontainer": 0
+    },
+    {
+      "id": 30422773,
+      "recipe_id": 3093563,
+      "item_id": 16503,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 2,
+      "salvagecount": 2,
+      "iscontainer": 0
+    },
+    {
+      "id": 30422774,
+      "recipe_id": 3093563,
+      "item_id": 33439,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30422775,
+      "recipe_id": 3093563,
+      "item_id": 37475,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30422776,
+      "recipe_id": 3093563,
+      "item_id": 34248,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30422777,
+      "recipe_id": 3093563,
+      "item_id": 10254,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30422778,
+      "recipe_id": 3093563,
+      "item_id": 10,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 30434535,
+      "recipe_id": 3094565,
+      "item_id": 49926,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 30434536,
+      "recipe_id": 3094565,
+      "item_id": 34525,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30434537,
+      "recipe_id": 3094565,
+      "item_id": 49933,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30434538,
+      "recipe_id": 3094565,
+      "item_id": 63244,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 3,
+      "salvagecount": 3,
+      "iscontainer": 0
+    },
+    {
+      "id": 30434539,
+      "recipe_id": 3094565,
+      "item_id": 16503,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 2,
+      "salvagecount": 2,
+      "iscontainer": 0
+    },
+    {
+      "id": 30434540,
+      "recipe_id": 3094565,
+      "item_id": 33439,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30434541,
+      "recipe_id": 3094565,
+      "item_id": 48162,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30434542,
+      "recipe_id": 3094565,
+      "item_id": 10254,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30434543,
+      "recipe_id": 3094565,
+      "item_id": 17877,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 30434544,
+      "recipe_id": 3094566,
+      "item_id": 49927,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 30434545,
+      "recipe_id": 3094566,
+      "item_id": 34532,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30434546,
+      "recipe_id": 3094566,
+      "item_id": 49933,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30434547,
+      "recipe_id": 3094566,
+      "item_id": 63244,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 3,
+      "salvagecount": 3,
+      "iscontainer": 0
+    },
+    {
+      "id": 30434548,
+      "recipe_id": 3094566,
+      "item_id": 16503,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 2,
+      "salvagecount": 2,
+      "iscontainer": 0
+    },
+    {
+      "id": 30434549,
+      "recipe_id": 3094566,
+      "item_id": 33439,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30434550,
+      "recipe_id": 3094566,
+      "item_id": 48162,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30434551,
+      "recipe_id": 3094566,
+      "item_id": 10254,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30434552,
+      "recipe_id": 3094566,
+      "item_id": 17877,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 30434553,
+      "recipe_id": 3094567,
+      "item_id": 49928,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 30434554,
+      "recipe_id": 3094567,
+      "item_id": 34533,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30434555,
+      "recipe_id": 3094567,
+      "item_id": 49933,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30434556,
+      "recipe_id": 3094567,
+      "item_id": 63244,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 3,
+      "salvagecount": 3,
+      "iscontainer": 0
+    },
+    {
+      "id": 30434557,
+      "recipe_id": 3094567,
+      "item_id": 16503,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 2,
+      "salvagecount": 2,
+      "iscontainer": 0
+    },
+    {
+      "id": 30434558,
+      "recipe_id": 3094567,
+      "item_id": 33439,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30434559,
+      "recipe_id": 3094567,
+      "item_id": 48162,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30434560,
+      "recipe_id": 3094567,
+      "item_id": 10254,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30434561,
+      "recipe_id": 3094567,
+      "item_id": 17877,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 30434562,
+      "recipe_id": 3094568,
+      "item_id": 49929,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 30434563,
+      "recipe_id": 3094568,
+      "item_id": 34529,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30434564,
+      "recipe_id": 3094568,
+      "item_id": 49933,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30434565,
+      "recipe_id": 3094568,
+      "item_id": 63244,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 3,
+      "salvagecount": 3,
+      "iscontainer": 0
+    },
+    {
+      "id": 30434566,
+      "recipe_id": 3094568,
+      "item_id": 16503,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 2,
+      "salvagecount": 2,
+      "iscontainer": 0
+    },
+    {
+      "id": 30434567,
+      "recipe_id": 3094568,
+      "item_id": 33439,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30434568,
+      "recipe_id": 3094568,
+      "item_id": 48162,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30434569,
+      "recipe_id": 3094568,
+      "item_id": 10254,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30434570,
+      "recipe_id": 3094568,
+      "item_id": 17877,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 30434571,
+      "recipe_id": 3094569,
+      "item_id": 49930,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 30434572,
+      "recipe_id": 3094569,
+      "item_id": 34530,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30434573,
+      "recipe_id": 3094569,
+      "item_id": 49933,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30434574,
+      "recipe_id": 3094569,
+      "item_id": 63244,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 3,
+      "salvagecount": 3,
+      "iscontainer": 0
+    },
+    {
+      "id": 30434575,
+      "recipe_id": 3094569,
+      "item_id": 16503,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 2,
+      "salvagecount": 2,
+      "iscontainer": 0
+    },
+    {
+      "id": 30434576,
+      "recipe_id": 3094569,
+      "item_id": 33439,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30434577,
+      "recipe_id": 3094569,
+      "item_id": 48162,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30434578,
+      "recipe_id": 3094569,
+      "item_id": 10254,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30434579,
+      "recipe_id": 3094569,
+      "item_id": 17877,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 30434580,
+      "recipe_id": 3094570,
+      "item_id": 49931,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 30434581,
+      "recipe_id": 3094570,
+      "item_id": 34531,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30434582,
+      "recipe_id": 3094570,
+      "item_id": 49933,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30434583,
+      "recipe_id": 3094570,
+      "item_id": 63244,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 3,
+      "salvagecount": 3,
+      "iscontainer": 0
+    },
+    {
+      "id": 30434584,
+      "recipe_id": 3094570,
+      "item_id": 16503,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 2,
+      "salvagecount": 2,
+      "iscontainer": 0
+    },
+    {
+      "id": 30434585,
+      "recipe_id": 3094570,
+      "item_id": 33439,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30434586,
+      "recipe_id": 3094570,
+      "item_id": 48162,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30434587,
+      "recipe_id": 3094570,
+      "item_id": 10254,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30434588,
+      "recipe_id": 3094570,
+      "item_id": 17877,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 30434589,
+      "recipe_id": 3094571,
+      "item_id": 49932,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 30434590,
+      "recipe_id": 3094571,
+      "item_id": 34522,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30434591,
+      "recipe_id": 3094571,
+      "item_id": 49933,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30434592,
+      "recipe_id": 3094571,
+      "item_id": 63244,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 3,
+      "salvagecount": 3,
+      "iscontainer": 0
+    },
+    {
+      "id": 30434593,
+      "recipe_id": 3094571,
+      "item_id": 16503,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 2,
+      "salvagecount": 2,
+      "iscontainer": 0
+    },
+    {
+      "id": 30434594,
+      "recipe_id": 3094571,
+      "item_id": 33439,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30434595,
+      "recipe_id": 3094571,
+      "item_id": 48162,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30434596,
+      "recipe_id": 3094571,
+      "item_id": 10254,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30434597,
+      "recipe_id": 3094571,
+      "item_id": 17877,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 30437453,
+      "recipe_id": 3094737,
+      "item_id": 112494,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 30437454,
+      "recipe_id": 3094737,
+      "item_id": 34525,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30437455,
+      "recipe_id": 3094737,
+      "item_id": 63244,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 3,
+      "salvagecount": 3,
+      "iscontainer": 0
+    },
+    {
+      "id": 30437456,
+      "recipe_id": 3094737,
+      "item_id": 112605,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30437457,
+      "recipe_id": 3094737,
+      "item_id": 16503,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 2,
+      "salvagecount": 2,
+      "iscontainer": 0
+    },
+    {
+      "id": 30437458,
+      "recipe_id": 3094737,
+      "item_id": 33439,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30437459,
+      "recipe_id": 3094737,
+      "item_id": 112501,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30437460,
+      "recipe_id": 3094737,
+      "item_id": 10254,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30437461,
+      "recipe_id": 3094737,
+      "item_id": 17877,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 30437462,
+      "recipe_id": 3094738,
+      "item_id": 112495,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 30437463,
+      "recipe_id": 3094738,
+      "item_id": 34532,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30437464,
+      "recipe_id": 3094738,
+      "item_id": 63244,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 3,
+      "salvagecount": 3,
+      "iscontainer": 0
+    },
+    {
+      "id": 30437465,
+      "recipe_id": 3094738,
+      "item_id": 112605,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30437466,
+      "recipe_id": 3094738,
+      "item_id": 16503,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 2,
+      "salvagecount": 2,
+      "iscontainer": 0
+    },
+    {
+      "id": 30437467,
+      "recipe_id": 3094738,
+      "item_id": 33439,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30437468,
+      "recipe_id": 3094738,
+      "item_id": 112501,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30437469,
+      "recipe_id": 3094738,
+      "item_id": 10254,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30437470,
+      "recipe_id": 3094738,
+      "item_id": 17877,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 30437471,
+      "recipe_id": 3094739,
+      "item_id": 112496,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 30437472,
+      "recipe_id": 3094739,
+      "item_id": 34533,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30437473,
+      "recipe_id": 3094739,
+      "item_id": 63244,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 3,
+      "salvagecount": 3,
+      "iscontainer": 0
+    },
+    {
+      "id": 30437474,
+      "recipe_id": 3094739,
+      "item_id": 112605,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30437475,
+      "recipe_id": 3094739,
+      "item_id": 16503,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 2,
+      "salvagecount": 2,
+      "iscontainer": 0
+    },
+    {
+      "id": 30437476,
+      "recipe_id": 3094739,
+      "item_id": 33439,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30437477,
+      "recipe_id": 3094739,
+      "item_id": 112501,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30437478,
+      "recipe_id": 3094739,
+      "item_id": 10254,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30437479,
+      "recipe_id": 3094739,
+      "item_id": 17877,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 30437480,
+      "recipe_id": 3094740,
+      "item_id": 112497,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 30437481,
+      "recipe_id": 3094740,
+      "item_id": 34529,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30437482,
+      "recipe_id": 3094740,
+      "item_id": 63244,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 3,
+      "salvagecount": 3,
+      "iscontainer": 0
+    },
+    {
+      "id": 30437483,
+      "recipe_id": 3094740,
+      "item_id": 112605,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30437484,
+      "recipe_id": 3094740,
+      "item_id": 16503,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 2,
+      "salvagecount": 2,
+      "iscontainer": 0
+    },
+    {
+      "id": 30437485,
+      "recipe_id": 3094740,
+      "item_id": 33439,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30437486,
+      "recipe_id": 3094740,
+      "item_id": 112501,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30437487,
+      "recipe_id": 3094740,
+      "item_id": 10254,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30437488,
+      "recipe_id": 3094740,
+      "item_id": 17877,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 30437489,
+      "recipe_id": 3094741,
+      "item_id": 112498,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 30437490,
+      "recipe_id": 3094741,
+      "item_id": 34530,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30437491,
+      "recipe_id": 3094741,
+      "item_id": 63244,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 3,
+      "salvagecount": 3,
+      "iscontainer": 0
+    },
+    {
+      "id": 30437492,
+      "recipe_id": 3094741,
+      "item_id": 112605,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30437493,
+      "recipe_id": 3094741,
+      "item_id": 16503,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 2,
+      "salvagecount": 2,
+      "iscontainer": 0
+    },
+    {
+      "id": 30437494,
+      "recipe_id": 3094741,
+      "item_id": 33439,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30437495,
+      "recipe_id": 3094741,
+      "item_id": 112501,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30437496,
+      "recipe_id": 3094741,
+      "item_id": 10254,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30437497,
+      "recipe_id": 3094741,
+      "item_id": 17877,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 30437498,
+      "recipe_id": 3094742,
+      "item_id": 112499,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 30437499,
+      "recipe_id": 3094742,
+      "item_id": 34531,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30437500,
+      "recipe_id": 3094742,
+      "item_id": 63244,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 3,
+      "salvagecount": 3,
+      "iscontainer": 0
+    },
+    {
+      "id": 30437501,
+      "recipe_id": 3094742,
+      "item_id": 112605,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30437502,
+      "recipe_id": 3094742,
+      "item_id": 16503,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 2,
+      "salvagecount": 2,
+      "iscontainer": 0
+    },
+    {
+      "id": 30437503,
+      "recipe_id": 3094742,
+      "item_id": 33439,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30437504,
+      "recipe_id": 3094742,
+      "item_id": 112501,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30437505,
+      "recipe_id": 3094742,
+      "item_id": 10254,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30437506,
+      "recipe_id": 3094742,
+      "item_id": 17877,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 30437507,
+      "recipe_id": 3094743,
+      "item_id": 112500,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 30437508,
+      "recipe_id": 3094743,
+      "item_id": 34522,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30437509,
+      "recipe_id": 3094743,
+      "item_id": 63244,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 3,
+      "salvagecount": 3,
+      "iscontainer": 0
+    },
+    {
+      "id": 30437510,
+      "recipe_id": 3094743,
+      "item_id": 112605,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30437511,
+      "recipe_id": 3094743,
+      "item_id": 16503,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 2,
+      "salvagecount": 2,
+      "iscontainer": 0
+    },
+    {
+      "id": 30437512,
+      "recipe_id": 3094743,
+      "item_id": 33439,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30437513,
+      "recipe_id": 3094743,
+      "item_id": 112501,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30437514,
+      "recipe_id": 3094743,
+      "item_id": 10254,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30437515,
+      "recipe_id": 3094743,
+      "item_id": 17877,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 30439920,
+      "recipe_id": 3094883,
+      "item_id": 134543,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 30439921,
+      "recipe_id": 3094883,
+      "item_id": 34525,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30439922,
+      "recipe_id": 3094883,
+      "item_id": 134550,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30439923,
+      "recipe_id": 3094883,
+      "item_id": 63244,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 3,
+      "salvagecount": 3,
+      "iscontainer": 0
+    },
+    {
+      "id": 30439924,
+      "recipe_id": 3094883,
+      "item_id": 16503,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 2,
+      "salvagecount": 2,
+      "iscontainer": 0
+    },
+    {
+      "id": 30439925,
+      "recipe_id": 3094883,
+      "item_id": 134654,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30439926,
+      "recipe_id": 3094883,
+      "item_id": 33439,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30439927,
+      "recipe_id": 3094883,
+      "item_id": 10254,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30439928,
+      "recipe_id": 3094883,
+      "item_id": 17877,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 30439929,
+      "recipe_id": 3094884,
+      "item_id": 134544,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 30439930,
+      "recipe_id": 3094884,
+      "item_id": 34532,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30439931,
+      "recipe_id": 3094884,
+      "item_id": 134550,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30439932,
+      "recipe_id": 3094884,
+      "item_id": 63244,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 3,
+      "salvagecount": 3,
+      "iscontainer": 0
+    },
+    {
+      "id": 30439933,
+      "recipe_id": 3094884,
+      "item_id": 16503,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 2,
+      "salvagecount": 2,
+      "iscontainer": 0
+    },
+    {
+      "id": 30439934,
+      "recipe_id": 3094884,
+      "item_id": 134654,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30439935,
+      "recipe_id": 3094884,
+      "item_id": 33439,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30439936,
+      "recipe_id": 3094884,
+      "item_id": 10254,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30439937,
+      "recipe_id": 3094884,
+      "item_id": 17877,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 30439938,
+      "recipe_id": 3094885,
+      "item_id": 134545,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 30439939,
+      "recipe_id": 3094885,
+      "item_id": 34533,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30439940,
+      "recipe_id": 3094885,
+      "item_id": 134550,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30439941,
+      "recipe_id": 3094885,
+      "item_id": 63244,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 3,
+      "salvagecount": 3,
+      "iscontainer": 0
+    },
+    {
+      "id": 30439942,
+      "recipe_id": 3094885,
+      "item_id": 16503,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 2,
+      "salvagecount": 2,
+      "iscontainer": 0
+    },
+    {
+      "id": 30439943,
+      "recipe_id": 3094885,
+      "item_id": 134654,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30439944,
+      "recipe_id": 3094885,
+      "item_id": 33439,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30439945,
+      "recipe_id": 3094885,
+      "item_id": 10254,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30439946,
+      "recipe_id": 3094885,
+      "item_id": 17877,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 30439947,
+      "recipe_id": 3094886,
+      "item_id": 134546,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 30439948,
+      "recipe_id": 3094886,
+      "item_id": 34529,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30439949,
+      "recipe_id": 3094886,
+      "item_id": 134550,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30439950,
+      "recipe_id": 3094886,
+      "item_id": 63244,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 3,
+      "salvagecount": 3,
+      "iscontainer": 0
+    },
+    {
+      "id": 30439951,
+      "recipe_id": 3094886,
+      "item_id": 16503,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 2,
+      "salvagecount": 2,
+      "iscontainer": 0
+    },
+    {
+      "id": 30439952,
+      "recipe_id": 3094886,
+      "item_id": 134654,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30439953,
+      "recipe_id": 3094886,
+      "item_id": 33439,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30439954,
+      "recipe_id": 3094886,
+      "item_id": 10254,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30439955,
+      "recipe_id": 3094886,
+      "item_id": 17877,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 30439956,
+      "recipe_id": 3094887,
+      "item_id": 134547,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 30439957,
+      "recipe_id": 3094887,
+      "item_id": 34530,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30439958,
+      "recipe_id": 3094887,
+      "item_id": 134550,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30439959,
+      "recipe_id": 3094887,
+      "item_id": 63244,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 3,
+      "salvagecount": 3,
+      "iscontainer": 0
+    },
+    {
+      "id": 30439960,
+      "recipe_id": 3094887,
+      "item_id": 16503,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 2,
+      "salvagecount": 2,
+      "iscontainer": 0
+    },
+    {
+      "id": 30439961,
+      "recipe_id": 3094887,
+      "item_id": 134654,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30439962,
+      "recipe_id": 3094887,
+      "item_id": 33439,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30439963,
+      "recipe_id": 3094887,
+      "item_id": 10254,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30439964,
+      "recipe_id": 3094887,
+      "item_id": 17877,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 30439965,
+      "recipe_id": 3094888,
+      "item_id": 134548,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 30439966,
+      "recipe_id": 3094888,
+      "item_id": 34531,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30439967,
+      "recipe_id": 3094888,
+      "item_id": 134550,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30439968,
+      "recipe_id": 3094888,
+      "item_id": 63244,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 3,
+      "salvagecount": 3,
+      "iscontainer": 0
+    },
+    {
+      "id": 30439969,
+      "recipe_id": 3094888,
+      "item_id": 16503,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 2,
+      "salvagecount": 2,
+      "iscontainer": 0
+    },
+    {
+      "id": 30439970,
+      "recipe_id": 3094888,
+      "item_id": 134654,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30439971,
+      "recipe_id": 3094888,
+      "item_id": 33439,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30439972,
+      "recipe_id": 3094888,
+      "item_id": 10254,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30439973,
+      "recipe_id": 3094888,
+      "item_id": 17877,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 30439974,
+      "recipe_id": 3094889,
+      "item_id": 134549,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 30439975,
+      "recipe_id": 3094889,
+      "item_id": 34522,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30439976,
+      "recipe_id": 3094889,
+      "item_id": 134550,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30439977,
+      "recipe_id": 3094889,
+      "item_id": 63244,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 3,
+      "salvagecount": 3,
+      "iscontainer": 0
+    },
+    {
+      "id": 30439978,
+      "recipe_id": 3094889,
+      "item_id": 16503,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 2,
+      "salvagecount": 2,
+      "iscontainer": 0
+    },
+    {
+      "id": 30439979,
+      "recipe_id": 3094889,
+      "item_id": 134654,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30439980,
+      "recipe_id": 3094889,
+      "item_id": 33439,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30439981,
+      "recipe_id": 3094889,
+      "item_id": 10254,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30439982,
+      "recipe_id": 3094889,
+      "item_id": 17877,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    }
+  ],
+  "source_facts": [
+    {
+      "recipe_id": 3095770,
+      "source_name": "Sunshard Seal",
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=408&rsa=Smithing&sub=sof",
+      "source_view_id": 12720,
+      "source_catalogue_sha256": "4e4c7383e74816ea67c6ae05cdb32d988a625fe732357f2b22db7216b39d1f63",
+      "source_formula": "Components: Platinum Bar (2), Seal Pattern, Sunshard Water, Titanium Ore, Vial of Purified Mana\nIn: Forge\nYield: 1",
+      "output_item_id": 37417,
+      "yield_count": 1,
+      "trivial": 402,
+      "ingredients": [
+        {
+          "item_id": 10254,
+          "name": "Vial of Purified Mana",
+          "count": 1
+        },
+        {
+          "item_id": 16503,
+          "name": "Platinum Bar",
+          "count": 2
+        },
+        {
+          "item_id": 33439,
+          "name": "Seal Pattern",
+          "count": 1
+        },
+        {
+          "item_id": 34248,
+          "name": "Titanium Ore",
+          "count": 1
+        },
+        {
+          "item_id": 37475,
+          "name": "Sunshard Water",
+          "count": 1
+        }
+      ],
+      "container_item_ids": [
+        17
+      ],
+      "held_source_stations": [],
+      "minimum_learning_origin": "PROPOSED_ORDINARY_ZERO_POLICY_SOURCE_OMITS_MANDATORY_MINIMUM_OR_BOOK",
+      "min_expansion": 14,
+      "era_origin": "CONFIGURED_MAINTAINED_FAMILY_CONTEXT_POLICY_NOT_RECOVERED_INTRODUCTION_DATE",
+      "May2013_exact_fields_verified": false
+    },
+    {
+      "recipe_id": 3095771,
+      "source_name": "Faycite Seal",
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=408&rsa=Smithing&sub=sof",
+      "source_view_id": 12690,
+      "source_catalogue_sha256": "4e4c7383e74816ea67c6ae05cdb32d988a625fe732357f2b22db7216b39d1f63",
+      "source_formula": "Components: Faycite Water, Platinum Bar (2), Seal Pattern, Tantalum Ore, Vial of Purified Mana\nIn: Forge, Tanaan Forge, Forge - Floor, Forge - Standing, Guild Forge\nYield: 1\nNotes: EQRecipeID: 48328",
+      "output_item_id": 37446,
+      "yield_count": 1,
+      "trivial": 422,
+      "ingredients": [
+        {
+          "item_id": 10254,
+          "name": "Vial of Purified Mana",
+          "count": 1
+        },
+        {
+          "item_id": 16503,
+          "name": "Platinum Bar",
+          "count": 2
+        },
+        {
+          "item_id": 33439,
+          "name": "Seal Pattern",
+          "count": 1
+        },
+        {
+          "item_id": 34249,
+          "name": "Tantalum Ore",
+          "count": 1
+        },
+        {
+          "item_id": 37476,
+          "name": "Faycite Water",
+          "count": 1
+        }
+      ],
+      "container_item_ids": [
+        17
+      ],
+      "held_source_stations": [
+        {
+          "name": "Tanaan Forge",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=5499",
+          "reason": "Named/world/furniture station not separately qualified"
+        },
+        {
+          "name": "Forge - Floor",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34389",
+          "reason": "Named/world/furniture station not separately qualified"
+        },
+        {
+          "name": "Forge - Standing",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34390",
+          "reason": "Named/world/furniture station not separately qualified"
+        },
+        {
+          "name": "Guild Forge",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=38418",
+          "reason": "Named/world/furniture station not separately qualified"
+        }
+      ],
+      "minimum_learning_origin": "PROPOSED_ORDINARY_ZERO_POLICY_SOURCE_OMITS_MANDATORY_MINIMUM_OR_BOOK",
+      "min_expansion": 14,
+      "era_origin": "CONFIGURED_MAINTAINED_FAMILY_CONTEXT_POLICY_NOT_RECOVERED_INTRODUCTION_DATE",
+      "May2013_exact_fields_verified": false
+    },
+    {
+      "recipe_id": 3095772,
+      "source_name": "Cosgrove Chest Seal",
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=440&rsa=Smithing&sub=UF",
+      "source_view_id": 10228,
+      "source_catalogue_sha256": "289e8f12601398059d51f5ead8f64fa9eb7cbc05a7cdb0f6c5930516b21a6eb1",
+      "source_formula": "Components: Chainmail Chestguard Template Pattern, Cosgrove Water, Platinum Bar (2), Seal Pattern, Vanadium Ore, Vial of Purified Mana\nIn: Forge, Tanaan Forge, Forge - Floor, Forge - Standing\nYield: 1",
+      "output_item_id": 49926,
+      "yield_count": 1,
+      "trivial": 463,
+      "ingredients": [
+        {
+          "item_id": 10254,
+          "name": "Vial of Purified Mana",
+          "count": 1
+        },
+        {
+          "item_id": 16503,
+          "name": "Platinum Bar",
+          "count": 2
+        },
+        {
+          "item_id": 33439,
+          "name": "Seal Pattern",
+          "count": 1
+        },
+        {
+          "item_id": 34525,
+          "name": "Chainmail Chestguard Template Pattern",
+          "count": 1
+        },
+        {
+          "item_id": 48162,
+          "name": "Vanadium Ore",
+          "count": 1
+        },
+        {
+          "item_id": 49933,
+          "name": "Cosgrove Water",
+          "count": 1
+        }
+      ],
+      "container_item_ids": [
+        17
+      ],
+      "held_source_stations": [
+        {
+          "name": "Tanaan Forge",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=5499",
+          "reason": "Named/world/furniture station not separately qualified"
+        },
+        {
+          "name": "Forge - Floor",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34389",
+          "reason": "Named/world/furniture station not separately qualified"
+        },
+        {
+          "name": "Forge - Standing",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34390",
+          "reason": "Named/world/furniture station not separately qualified"
+        }
+      ],
+      "minimum_learning_origin": "PROPOSED_ORDINARY_ZERO_POLICY_SOURCE_OMITS_MANDATORY_MINIMUM_OR_BOOK",
+      "min_expansion": 16,
+      "era_origin": "CONFIGURED_MAINTAINED_FAMILY_CONTEXT_POLICY_NOT_RECOVERED_INTRODUCTION_DATE",
+      "May2013_exact_fields_verified": false
+    },
+    {
+      "recipe_id": 3095773,
+      "source_name": "Cosgrove Legging Seal",
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=440&rsa=Smithing&sub=UF",
+      "source_view_id": 10231,
+      "source_catalogue_sha256": "289e8f12601398059d51f5ead8f64fa9eb7cbc05a7cdb0f6c5930516b21a6eb1",
+      "source_formula": "Components: Chainmail Legplates Template Pattern, Cosgrove Water, Platinum Bar (2), Seal Pattern, Vanadium Ore, Vial of Purified Mana\nIn: Forge, Tanaan Forge, Forge - Floor, Forge - Standing\nYield: 1",
+      "output_item_id": 49927,
+      "yield_count": 1,
+      "trivial": 451,
+      "ingredients": [
+        {
+          "item_id": 10254,
+          "name": "Vial of Purified Mana",
+          "count": 1
+        },
+        {
+          "item_id": 16503,
+          "name": "Platinum Bar",
+          "count": 2
+        },
+        {
+          "item_id": 33439,
+          "name": "Seal Pattern",
+          "count": 1
+        },
+        {
+          "item_id": 34532,
+          "name": "Chainmail Legplates Template Pattern",
+          "count": 1
+        },
+        {
+          "item_id": 48162,
+          "name": "Vanadium Ore",
+          "count": 1
+        },
+        {
+          "item_id": 49933,
+          "name": "Cosgrove Water",
+          "count": 1
+        }
+      ],
+      "container_item_ids": [
+        17
+      ],
+      "held_source_stations": [
+        {
+          "name": "Tanaan Forge",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=5499",
+          "reason": "Named/world/furniture station not separately qualified"
+        },
+        {
+          "name": "Forge - Floor",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34389",
+          "reason": "Named/world/furniture station not separately qualified"
+        },
+        {
+          "name": "Forge - Standing",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34390",
+          "reason": "Named/world/furniture station not separately qualified"
+        }
+      ],
+      "minimum_learning_origin": "PROPOSED_ORDINARY_ZERO_POLICY_SOURCE_OMITS_MANDATORY_MINIMUM_OR_BOOK",
+      "min_expansion": 16,
+      "era_origin": "CONFIGURED_MAINTAINED_FAMILY_CONTEXT_POLICY_NOT_RECOVERED_INTRODUCTION_DATE",
+      "May2013_exact_fields_verified": false
+    },
+    {
+      "recipe_id": 3095774,
+      "source_name": "Cosgrove Boot Seal",
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=440&rsa=Smithing&sub=UF",
+      "source_view_id": 10227,
+      "source_catalogue_sha256": "289e8f12601398059d51f5ead8f64fa9eb7cbc05a7cdb0f6c5930516b21a6eb1",
+      "source_formula": "Components: Chainmail Boots Template Pattern, Cosgrove Water, Platinum Bar (2), Seal Pattern, Vanadium Ore, Vial of Purified Mana\nIn: Forge, Tanaan Forge, Forge - Floor, Forge - Standing\nYield: 1",
+      "output_item_id": 49928,
+      "yield_count": 1,
+      "trivial": 450,
+      "ingredients": [
+        {
+          "item_id": 10254,
+          "name": "Vial of Purified Mana",
+          "count": 1
+        },
+        {
+          "item_id": 16503,
+          "name": "Platinum Bar",
+          "count": 2
+        },
+        {
+          "item_id": 33439,
+          "name": "Seal Pattern",
+          "count": 1
+        },
+        {
+          "item_id": 34533,
+          "name": "Chainmail Boots Template Pattern",
+          "count": 1
+        },
+        {
+          "item_id": 48162,
+          "name": "Vanadium Ore",
+          "count": 1
+        },
+        {
+          "item_id": 49933,
+          "name": "Cosgrove Water",
+          "count": 1
+        }
+      ],
+      "container_item_ids": [
+        17
+      ],
+      "held_source_stations": [
+        {
+          "name": "Tanaan Forge",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=5499",
+          "reason": "Named/world/furniture station not separately qualified"
+        },
+        {
+          "name": "Forge - Floor",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34389",
+          "reason": "Named/world/furniture station not separately qualified"
+        },
+        {
+          "name": "Forge - Standing",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34390",
+          "reason": "Named/world/furniture station not separately qualified"
+        }
+      ],
+      "minimum_learning_origin": "PROPOSED_ORDINARY_ZERO_POLICY_SOURCE_OMITS_MANDATORY_MINIMUM_OR_BOOK",
+      "min_expansion": 16,
+      "era_origin": "CONFIGURED_MAINTAINED_FAMILY_CONTEXT_POLICY_NOT_RECOVERED_INTRODUCTION_DATE",
+      "May2013_exact_fields_verified": false
+    },
+    {
+      "recipe_id": 3095775,
+      "source_name": "Cosgrove Sleeve Seal",
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=440&rsa=Smithing&sub=UF",
+      "source_view_id": 10232,
+      "source_catalogue_sha256": "289e8f12601398059d51f5ead8f64fa9eb7cbc05a7cdb0f6c5930516b21a6eb1",
+      "source_formula": "Components: Chainmail Arms Template Pattern, Cosgrove Water, Platinum Bar (2), Seal Pattern, Vanadium Ore, Vial of Purified Mana\nIn: Forge, Tanaan Forge, Forge - Floor, Forge - Standing\nYield: 1",
+      "output_item_id": 49929,
+      "yield_count": 1,
+      "trivial": 447,
+      "ingredients": [
+        {
+          "item_id": 10254,
+          "name": "Vial of Purified Mana",
+          "count": 1
+        },
+        {
+          "item_id": 16503,
+          "name": "Platinum Bar",
+          "count": 2
+        },
+        {
+          "item_id": 33439,
+          "name": "Seal Pattern",
+          "count": 1
+        },
+        {
+          "item_id": 34529,
+          "name": "Chainmail Arms Template Pattern",
+          "count": 1
+        },
+        {
+          "item_id": 48162,
+          "name": "Vanadium Ore",
+          "count": 1
+        },
+        {
+          "item_id": 49933,
+          "name": "Cosgrove Water",
+          "count": 1
+        }
+      ],
+      "container_item_ids": [
+        17
+      ],
+      "held_source_stations": [
+        {
+          "name": "Tanaan Forge",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=5499",
+          "reason": "Named/world/furniture station not separately qualified"
+        },
+        {
+          "name": "Forge - Floor",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34389",
+          "reason": "Named/world/furniture station not separately qualified"
+        },
+        {
+          "name": "Forge - Standing",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34390",
+          "reason": "Named/world/furniture station not separately qualified"
+        }
+      ],
+      "minimum_learning_origin": "PROPOSED_ORDINARY_ZERO_POLICY_SOURCE_OMITS_MANDATORY_MINIMUM_OR_BOOK",
+      "min_expansion": 16,
+      "era_origin": "CONFIGURED_MAINTAINED_FAMILY_CONTEXT_POLICY_NOT_RECOVERED_INTRODUCTION_DATE",
+      "May2013_exact_fields_verified": false
+    },
+    {
+      "recipe_id": 3095776,
+      "source_name": "Cosgrove Wrist Seal",
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=440&rsa=Smithing&sub=UF",
+      "source_view_id": 10233,
+      "source_catalogue_sha256": "289e8f12601398059d51f5ead8f64fa9eb7cbc05a7cdb0f6c5930516b21a6eb1",
+      "source_formula": "Components: Chainmail Bracer Template Pattern, Cosgrove Water, Platinum Bar (2), Seal Pattern, Vanadium Ore, Vial of Purified Mana\nIn: Forge, Tanaan Forge, Forge - Floor, Forge - Standing\nYield: 1",
+      "output_item_id": 49930,
+      "yield_count": 1,
+      "trivial": 442,
+      "ingredients": [
+        {
+          "item_id": 10254,
+          "name": "Vial of Purified Mana",
+          "count": 1
+        },
+        {
+          "item_id": 16503,
+          "name": "Platinum Bar",
+          "count": 2
+        },
+        {
+          "item_id": 33439,
+          "name": "Seal Pattern",
+          "count": 1
+        },
+        {
+          "item_id": 34530,
+          "name": "Chainmail Bracer Template Pattern",
+          "count": 1
+        },
+        {
+          "item_id": 48162,
+          "name": "Vanadium Ore",
+          "count": 1
+        },
+        {
+          "item_id": 49933,
+          "name": "Cosgrove Water",
+          "count": 1
+        }
+      ],
+      "container_item_ids": [
+        17
+      ],
+      "held_source_stations": [
+        {
+          "name": "Tanaan Forge",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=5499",
+          "reason": "Named/world/furniture station not separately qualified"
+        },
+        {
+          "name": "Forge - Floor",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34389",
+          "reason": "Named/world/furniture station not separately qualified"
+        },
+        {
+          "name": "Forge - Standing",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34390",
+          "reason": "Named/world/furniture station not separately qualified"
+        }
+      ],
+      "minimum_learning_origin": "PROPOSED_ORDINARY_ZERO_POLICY_SOURCE_OMITS_MANDATORY_MINIMUM_OR_BOOK",
+      "min_expansion": 16,
+      "era_origin": "CONFIGURED_MAINTAINED_FAMILY_CONTEXT_POLICY_NOT_RECOVERED_INTRODUCTION_DATE",
+      "May2013_exact_fields_verified": false
+    },
+    {
+      "recipe_id": 3095777,
+      "source_name": "Cosgrove Glove Seal",
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=440&rsa=Smithing&sub=UF",
+      "source_view_id": 10229,
+      "source_catalogue_sha256": "289e8f12601398059d51f5ead8f64fa9eb7cbc05a7cdb0f6c5930516b21a6eb1",
+      "source_formula": "Components: Chainmail Gloves Template Pattern, Cosgrove Water, Platinum Bar (2), Seal Pattern, Vanadium Ore, Vial of Purified Mana\nIn: Forge, Tanaan Forge, Forge - Floor, Forge - Standing\nYield: 1",
+      "output_item_id": 49931,
+      "yield_count": 1,
+      "trivial": 443,
+      "ingredients": [
+        {
+          "item_id": 10254,
+          "name": "Vial of Purified Mana",
+          "count": 1
+        },
+        {
+          "item_id": 16503,
+          "name": "Platinum Bar",
+          "count": 2
+        },
+        {
+          "item_id": 33439,
+          "name": "Seal Pattern",
+          "count": 1
+        },
+        {
+          "item_id": 34531,
+          "name": "Chainmail Gloves Template Pattern",
+          "count": 1
+        },
+        {
+          "item_id": 48162,
+          "name": "Vanadium Ore",
+          "count": 1
+        },
+        {
+          "item_id": 49933,
+          "name": "Cosgrove Water",
+          "count": 1
+        }
+      ],
+      "container_item_ids": [
+        17
+      ],
+      "held_source_stations": [
+        {
+          "name": "Tanaan Forge",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=5499",
+          "reason": "Named/world/furniture station not separately qualified"
+        },
+        {
+          "name": "Forge - Floor",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34389",
+          "reason": "Named/world/furniture station not separately qualified"
+        },
+        {
+          "name": "Forge - Standing",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34390",
+          "reason": "Named/world/furniture station not separately qualified"
+        }
+      ],
+      "minimum_learning_origin": "PROPOSED_ORDINARY_ZERO_POLICY_SOURCE_OMITS_MANDATORY_MINIMUM_OR_BOOK",
+      "min_expansion": 16,
+      "era_origin": "CONFIGURED_MAINTAINED_FAMILY_CONTEXT_POLICY_NOT_RECOVERED_INTRODUCTION_DATE",
+      "May2013_exact_fields_verified": false
+    },
+    {
+      "recipe_id": 3095778,
+      "source_name": "Cosgrove Helm Seal",
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=440&rsa=Smithing&sub=UF",
+      "source_view_id": 10230,
+      "source_catalogue_sha256": "289e8f12601398059d51f5ead8f64fa9eb7cbc05a7cdb0f6c5930516b21a6eb1",
+      "source_formula": "Components: Chainmail Coif Template Pattern, Cosgrove Water, Platinum Bar (2), Seal Pattern, Vanadium Ore, Vial of Purified Mana\nIn: Forge, Tanaan Forge, Forge - Floor, Forge - Standing\nYield: 1",
+      "output_item_id": 49932,
+      "yield_count": 1,
+      "trivial": 446,
+      "ingredients": [
+        {
+          "item_id": 10254,
+          "name": "Vial of Purified Mana",
+          "count": 1
+        },
+        {
+          "item_id": 16503,
+          "name": "Platinum Bar",
+          "count": 2
+        },
+        {
+          "item_id": 33439,
+          "name": "Seal Pattern",
+          "count": 1
+        },
+        {
+          "item_id": 34522,
+          "name": "Chainmail Coif Template Pattern",
+          "count": 1
+        },
+        {
+          "item_id": 48162,
+          "name": "Vanadium Ore",
+          "count": 1
+        },
+        {
+          "item_id": 49933,
+          "name": "Cosgrove Water",
+          "count": 1
+        }
+      ],
+      "container_item_ids": [
+        17
+      ],
+      "held_source_stations": [
+        {
+          "name": "Tanaan Forge",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=5499",
+          "reason": "Named/world/furniture station not separately qualified"
+        },
+        {
+          "name": "Forge - Floor",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34389",
+          "reason": "Named/world/furniture station not separately qualified"
+        },
+        {
+          "name": "Forge - Standing",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34390",
+          "reason": "Named/world/furniture station not separately qualified"
+        }
+      ],
+      "minimum_learning_origin": "PROPOSED_ORDINARY_ZERO_POLICY_SOURCE_OMITS_MANDATORY_MINIMUM_OR_BOOK",
+      "min_expansion": 16,
+      "era_origin": "CONFIGURED_MAINTAINED_FAMILY_CONTEXT_POLICY_NOT_RECOVERED_INTRODUCTION_DATE",
+      "May2013_exact_fields_verified": false
+    },
+    {
+      "recipe_id": 3095779,
+      "source_name": "Veiled Chest Seal",
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=551&rsa=Smithing&sub=VoA",
+      "source_view_id": 3418,
+      "source_catalogue_sha256": "3b01f7accfae23fa3ddcc3c52add5024ccea36dc593b00f59b876503fecbc82c",
+      "source_formula": "Components: Chainmail Chestguard Template Pattern, Palladium Ore, Platinum Bar (2), Seal Pattern, Veiled Water, Vial of Purified Mana\nIn: Forge, Tanaan Forge, Forge - Floor, Forge - Standing\nYield: 1",
+      "output_item_id": 112494,
+      "yield_count": 1,
+      "trivial": 463,
+      "ingredients": [
+        {
+          "item_id": 10254,
+          "name": "Vial of Purified Mana",
+          "count": 1
+        },
+        {
+          "item_id": 16503,
+          "name": "Platinum Bar",
+          "count": 2
+        },
+        {
+          "item_id": 33439,
+          "name": "Seal Pattern",
+          "count": 1
+        },
+        {
+          "item_id": 34525,
+          "name": "Chainmail Chestguard Template Pattern",
+          "count": 1
+        },
+        {
+          "item_id": 112501,
+          "name": "Veiled Water",
+          "count": 1
+        },
+        {
+          "item_id": 112605,
+          "name": "Palladium Ore",
+          "count": 1
+        }
+      ],
+      "container_item_ids": [
+        17
+      ],
+      "held_source_stations": [
+        {
+          "name": "Tanaan Forge",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=5499",
+          "reason": "Named/world/furniture station not separately qualified"
+        },
+        {
+          "name": "Forge - Floor",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34389",
+          "reason": "Named/world/furniture station not separately qualified"
+        },
+        {
+          "name": "Forge - Standing",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34390",
+          "reason": "Named/world/furniture station not separately qualified"
+        }
+      ],
+      "minimum_learning_origin": "PROPOSED_ORDINARY_ZERO_POLICY_SOURCE_OMITS_MANDATORY_MINIMUM_OR_BOOK",
+      "min_expansion": 18,
+      "era_origin": "CONFIGURED_MAINTAINED_FAMILY_CONTEXT_POLICY_NOT_RECOVERED_INTRODUCTION_DATE",
+      "May2013_exact_fields_verified": false
+    },
+    {
+      "recipe_id": 3095780,
+      "source_name": "Veiled Legging Seal",
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=551&rsa=Smithing&sub=VoA",
+      "source_view_id": 3421,
+      "source_catalogue_sha256": "3b01f7accfae23fa3ddcc3c52add5024ccea36dc593b00f59b876503fecbc82c",
+      "source_formula": "Components: Chainmail Legplates Template Pattern, Palladium Ore, Platinum Bar (2), Seal Pattern, Veiled Water, Vial of Purified Mana\nIn: Forge, Tanaan Forge, Forge - Floor, Forge - Standing\nYield: 1",
+      "output_item_id": 112495,
+      "yield_count": 1,
+      "trivial": 451,
+      "ingredients": [
+        {
+          "item_id": 10254,
+          "name": "Vial of Purified Mana",
+          "count": 1
+        },
+        {
+          "item_id": 16503,
+          "name": "Platinum Bar",
+          "count": 2
+        },
+        {
+          "item_id": 33439,
+          "name": "Seal Pattern",
+          "count": 1
+        },
+        {
+          "item_id": 34532,
+          "name": "Chainmail Legplates Template Pattern",
+          "count": 1
+        },
+        {
+          "item_id": 112501,
+          "name": "Veiled Water",
+          "count": 1
+        },
+        {
+          "item_id": 112605,
+          "name": "Palladium Ore",
+          "count": 1
+        }
+      ],
+      "container_item_ids": [
+        17
+      ],
+      "held_source_stations": [
+        {
+          "name": "Tanaan Forge",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=5499",
+          "reason": "Named/world/furniture station not separately qualified"
+        },
+        {
+          "name": "Forge - Floor",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34389",
+          "reason": "Named/world/furniture station not separately qualified"
+        },
+        {
+          "name": "Forge - Standing",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34390",
+          "reason": "Named/world/furniture station not separately qualified"
+        }
+      ],
+      "minimum_learning_origin": "PROPOSED_ORDINARY_ZERO_POLICY_SOURCE_OMITS_MANDATORY_MINIMUM_OR_BOOK",
+      "min_expansion": 18,
+      "era_origin": "CONFIGURED_MAINTAINED_FAMILY_CONTEXT_POLICY_NOT_RECOVERED_INTRODUCTION_DATE",
+      "May2013_exact_fields_verified": false
+    },
+    {
+      "recipe_id": 3095781,
+      "source_name": "Veiled Boot Seal",
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=551&rsa=Smithing&sub=VoA",
+      "source_view_id": 3417,
+      "source_catalogue_sha256": "3b01f7accfae23fa3ddcc3c52add5024ccea36dc593b00f59b876503fecbc82c",
+      "source_formula": "Components: Chainmail Boots Template Pattern, Palladium Ore, Platinum Bar (2), Seal Pattern, Veiled Water, Vial of Purified Mana\nIn: Forge, Tanaan Forge, Forge - Floor, Forge - Standing\nYield: 1",
+      "output_item_id": 112496,
+      "yield_count": 1,
+      "trivial": 450,
+      "ingredients": [
+        {
+          "item_id": 10254,
+          "name": "Vial of Purified Mana",
+          "count": 1
+        },
+        {
+          "item_id": 16503,
+          "name": "Platinum Bar",
+          "count": 2
+        },
+        {
+          "item_id": 33439,
+          "name": "Seal Pattern",
+          "count": 1
+        },
+        {
+          "item_id": 34533,
+          "name": "Chainmail Boots Template Pattern",
+          "count": 1
+        },
+        {
+          "item_id": 112501,
+          "name": "Veiled Water",
+          "count": 1
+        },
+        {
+          "item_id": 112605,
+          "name": "Palladium Ore",
+          "count": 1
+        }
+      ],
+      "container_item_ids": [
+        17
+      ],
+      "held_source_stations": [
+        {
+          "name": "Tanaan Forge",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=5499",
+          "reason": "Named/world/furniture station not separately qualified"
+        },
+        {
+          "name": "Forge - Floor",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34389",
+          "reason": "Named/world/furniture station not separately qualified"
+        },
+        {
+          "name": "Forge - Standing",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34390",
+          "reason": "Named/world/furniture station not separately qualified"
+        }
+      ],
+      "minimum_learning_origin": "PROPOSED_ORDINARY_ZERO_POLICY_SOURCE_OMITS_MANDATORY_MINIMUM_OR_BOOK",
+      "min_expansion": 18,
+      "era_origin": "CONFIGURED_MAINTAINED_FAMILY_CONTEXT_POLICY_NOT_RECOVERED_INTRODUCTION_DATE",
+      "May2013_exact_fields_verified": false
+    },
+    {
+      "recipe_id": 3095782,
+      "source_name": "Veiled Sleeve Seal",
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=551&rsa=Smithing&sub=VoA",
+      "source_view_id": 3422,
+      "source_catalogue_sha256": "3b01f7accfae23fa3ddcc3c52add5024ccea36dc593b00f59b876503fecbc82c",
+      "source_formula": "Components: Chainmail Arms Template Pattern, Palladium Ore, Platinum Bar (2), Seal Pattern, Veiled Water, Vial of Purified Mana\nIn: Forge, Tanaan Forge, Forge - Floor, Forge - Standing\nYield: 1",
+      "output_item_id": 112497,
+      "yield_count": 1,
+      "trivial": 447,
+      "ingredients": [
+        {
+          "item_id": 10254,
+          "name": "Vial of Purified Mana",
+          "count": 1
+        },
+        {
+          "item_id": 16503,
+          "name": "Platinum Bar",
+          "count": 2
+        },
+        {
+          "item_id": 33439,
+          "name": "Seal Pattern",
+          "count": 1
+        },
+        {
+          "item_id": 34529,
+          "name": "Chainmail Arms Template Pattern",
+          "count": 1
+        },
+        {
+          "item_id": 112501,
+          "name": "Veiled Water",
+          "count": 1
+        },
+        {
+          "item_id": 112605,
+          "name": "Palladium Ore",
+          "count": 1
+        }
+      ],
+      "container_item_ids": [
+        17
+      ],
+      "held_source_stations": [
+        {
+          "name": "Tanaan Forge",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=5499",
+          "reason": "Named/world/furniture station not separately qualified"
+        },
+        {
+          "name": "Forge - Floor",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34389",
+          "reason": "Named/world/furniture station not separately qualified"
+        },
+        {
+          "name": "Forge - Standing",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34390",
+          "reason": "Named/world/furniture station not separately qualified"
+        }
+      ],
+      "minimum_learning_origin": "PROPOSED_ORDINARY_ZERO_POLICY_SOURCE_OMITS_MANDATORY_MINIMUM_OR_BOOK",
+      "min_expansion": 18,
+      "era_origin": "CONFIGURED_MAINTAINED_FAMILY_CONTEXT_POLICY_NOT_RECOVERED_INTRODUCTION_DATE",
+      "May2013_exact_fields_verified": false
+    },
+    {
+      "recipe_id": 3095783,
+      "source_name": "Veiled Wrist Seal",
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=551&rsa=Smithing&sub=VoA",
+      "source_view_id": 3423,
+      "source_catalogue_sha256": "3b01f7accfae23fa3ddcc3c52add5024ccea36dc593b00f59b876503fecbc82c",
+      "source_formula": "Components: Chainmail Bracer Template Pattern, Palladium Ore, Platinum Bar (2), Seal Pattern, Veiled Water, Vial of Purified Mana\nIn: Forge, Tanaan Forge, Forge - Floor, Forge - Standing\nYield: 1",
+      "output_item_id": 112498,
+      "yield_count": 1,
+      "trivial": 442,
+      "ingredients": [
+        {
+          "item_id": 10254,
+          "name": "Vial of Purified Mana",
+          "count": 1
+        },
+        {
+          "item_id": 16503,
+          "name": "Platinum Bar",
+          "count": 2
+        },
+        {
+          "item_id": 33439,
+          "name": "Seal Pattern",
+          "count": 1
+        },
+        {
+          "item_id": 34530,
+          "name": "Chainmail Bracer Template Pattern",
+          "count": 1
+        },
+        {
+          "item_id": 112501,
+          "name": "Veiled Water",
+          "count": 1
+        },
+        {
+          "item_id": 112605,
+          "name": "Palladium Ore",
+          "count": 1
+        }
+      ],
+      "container_item_ids": [
+        17
+      ],
+      "held_source_stations": [
+        {
+          "name": "Tanaan Forge",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=5499",
+          "reason": "Named/world/furniture station not separately qualified"
+        },
+        {
+          "name": "Forge - Floor",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34389",
+          "reason": "Named/world/furniture station not separately qualified"
+        },
+        {
+          "name": "Forge - Standing",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34390",
+          "reason": "Named/world/furniture station not separately qualified"
+        }
+      ],
+      "minimum_learning_origin": "PROPOSED_ORDINARY_ZERO_POLICY_SOURCE_OMITS_MANDATORY_MINIMUM_OR_BOOK",
+      "min_expansion": 18,
+      "era_origin": "CONFIGURED_MAINTAINED_FAMILY_CONTEXT_POLICY_NOT_RECOVERED_INTRODUCTION_DATE",
+      "May2013_exact_fields_verified": false
+    },
+    {
+      "recipe_id": 3095784,
+      "source_name": "Veiled Glove Seal",
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=551&rsa=Smithing&sub=VoA",
+      "source_view_id": 3419,
+      "source_catalogue_sha256": "3b01f7accfae23fa3ddcc3c52add5024ccea36dc593b00f59b876503fecbc82c",
+      "source_formula": "Components: Chainmail Gloves Template Pattern, Palladium Ore, Platinum Bar (2), Seal Pattern, Veiled Water, Vial of Purified Mana\nIn: Forge, Tanaan Forge, Forge - Floor, Forge - Standing\nYield: 1",
+      "output_item_id": 112499,
+      "yield_count": 1,
+      "trivial": 443,
+      "ingredients": [
+        {
+          "item_id": 10254,
+          "name": "Vial of Purified Mana",
+          "count": 1
+        },
+        {
+          "item_id": 16503,
+          "name": "Platinum Bar",
+          "count": 2
+        },
+        {
+          "item_id": 33439,
+          "name": "Seal Pattern",
+          "count": 1
+        },
+        {
+          "item_id": 34531,
+          "name": "Chainmail Gloves Template Pattern",
+          "count": 1
+        },
+        {
+          "item_id": 112501,
+          "name": "Veiled Water",
+          "count": 1
+        },
+        {
+          "item_id": 112605,
+          "name": "Palladium Ore",
+          "count": 1
+        }
+      ],
+      "container_item_ids": [
+        17
+      ],
+      "held_source_stations": [
+        {
+          "name": "Tanaan Forge",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=5499",
+          "reason": "Named/world/furniture station not separately qualified"
+        },
+        {
+          "name": "Forge - Floor",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34389",
+          "reason": "Named/world/furniture station not separately qualified"
+        },
+        {
+          "name": "Forge - Standing",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34390",
+          "reason": "Named/world/furniture station not separately qualified"
+        }
+      ],
+      "minimum_learning_origin": "PROPOSED_ORDINARY_ZERO_POLICY_SOURCE_OMITS_MANDATORY_MINIMUM_OR_BOOK",
+      "min_expansion": 18,
+      "era_origin": "CONFIGURED_MAINTAINED_FAMILY_CONTEXT_POLICY_NOT_RECOVERED_INTRODUCTION_DATE",
+      "May2013_exact_fields_verified": false
+    },
+    {
+      "recipe_id": 3095785,
+      "source_name": "Veiled Helm Seal",
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=551&rsa=Smithing&sub=VoA",
+      "source_view_id": 3420,
+      "source_catalogue_sha256": "3b01f7accfae23fa3ddcc3c52add5024ccea36dc593b00f59b876503fecbc82c",
+      "source_formula": "Components: Chainmail Coif Template Pattern, Palladium Ore, Platinum Bar (2), Seal Pattern, Veiled Water, Vial of Purified Mana\nIn: Forge, Tanaan Forge, Forge - Floor, Forge - Standing\nYield: 1",
+      "output_item_id": 112500,
+      "yield_count": 1,
+      "trivial": 446,
+      "ingredients": [
+        {
+          "item_id": 10254,
+          "name": "Vial of Purified Mana",
+          "count": 1
+        },
+        {
+          "item_id": 16503,
+          "name": "Platinum Bar",
+          "count": 2
+        },
+        {
+          "item_id": 33439,
+          "name": "Seal Pattern",
+          "count": 1
+        },
+        {
+          "item_id": 34522,
+          "name": "Chainmail Coif Template Pattern",
+          "count": 1
+        },
+        {
+          "item_id": 112501,
+          "name": "Veiled Water",
+          "count": 1
+        },
+        {
+          "item_id": 112605,
+          "name": "Palladium Ore",
+          "count": 1
+        }
+      ],
+      "container_item_ids": [
+        17
+      ],
+      "held_source_stations": [
+        {
+          "name": "Tanaan Forge",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=5499",
+          "reason": "Named/world/furniture station not separately qualified"
+        },
+        {
+          "name": "Forge - Floor",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34389",
+          "reason": "Named/world/furniture station not separately qualified"
+        },
+        {
+          "name": "Forge - Standing",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34390",
+          "reason": "Named/world/furniture station not separately qualified"
+        }
+      ],
+      "minimum_learning_origin": "PROPOSED_ORDINARY_ZERO_POLICY_SOURCE_OMITS_MANDATORY_MINIMUM_OR_BOOK",
+      "min_expansion": 18,
+      "era_origin": "CONFIGURED_MAINTAINED_FAMILY_CONTEXT_POLICY_NOT_RECOVERED_INTRODUCTION_DATE",
+      "May2013_exact_fields_verified": false
+    },
+    {
+      "recipe_id": 3095786,
+      "source_name": "Fearlinked Chest Seal",
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=568&rsa=Smithing&sub=ROF",
+      "source_view_id": 1196,
+      "source_catalogue_sha256": "b2fd38ac456cabd764c43286d1f9adb18d8dd7cb4f2503d000f81a751f2b9cd5",
+      "source_formula": "Components: Chainmail Chestguard Template Pattern, Fearlinked Water, Platinum Bar (2), Scorched Ore, Seal Pattern, Vial of Purified Mana\nIn: Forge, Tanaan Forge, Forge - Floor, Forge - Standing, Guild Forge\nYield: 1",
+      "output_item_id": 134543,
+      "yield_count": 1,
+      "trivial": 463,
+      "ingredients": [
+        {
+          "item_id": 10254,
+          "name": "Vial of Purified Mana",
+          "count": 1
+        },
+        {
+          "item_id": 16503,
+          "name": "Platinum Bar",
+          "count": 2
+        },
+        {
+          "item_id": 33439,
+          "name": "Seal Pattern",
+          "count": 1
+        },
+        {
+          "item_id": 34525,
+          "name": "Chainmail Chestguard Template Pattern",
+          "count": 1
+        },
+        {
+          "item_id": 134550,
+          "name": "Fearlinked Water",
+          "count": 1
+        },
+        {
+          "item_id": 134654,
+          "name": "Scorched Ore",
+          "count": 1
+        }
+      ],
+      "container_item_ids": [
+        17
+      ],
+      "held_source_stations": [
+        {
+          "name": "Tanaan Forge",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=5499",
+          "reason": "Named/world/furniture station not separately qualified"
+        },
+        {
+          "name": "Forge - Floor",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34389",
+          "reason": "Named/world/furniture station not separately qualified"
+        },
+        {
+          "name": "Forge - Standing",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34390",
+          "reason": "Named/world/furniture station not separately qualified"
+        },
+        {
+          "name": "Guild Forge",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=38418",
+          "reason": "Named/world/furniture station not separately qualified"
+        }
+      ],
+      "minimum_learning_origin": "PROPOSED_ORDINARY_ZERO_POLICY_SOURCE_OMITS_MANDATORY_MINIMUM_OR_BOOK",
+      "min_expansion": 19,
+      "era_origin": "CONFIGURED_MAINTAINED_FAMILY_CONTEXT_POLICY_NOT_RECOVERED_INTRODUCTION_DATE",
+      "May2013_exact_fields_verified": false
+    },
+    {
+      "recipe_id": 3095787,
+      "source_name": "Fearlinked Legging Seal",
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=568&rsa=Smithing&sub=ROF",
+      "source_view_id": 1199,
+      "source_catalogue_sha256": "b2fd38ac456cabd764c43286d1f9adb18d8dd7cb4f2503d000f81a751f2b9cd5",
+      "source_formula": "Components: Chainmail Legplates Template Pattern, Fearlinked Water, Platinum Bar (2), Scorched Ore, Seal Pattern, Vial of Purified Mana\nIn: Forge, Tanaan Forge, Forge - Floor, Forge - Standing, Guild Forge\nYield: 1",
+      "output_item_id": 134544,
+      "yield_count": 1,
+      "trivial": 451,
+      "ingredients": [
+        {
+          "item_id": 10254,
+          "name": "Vial of Purified Mana",
+          "count": 1
+        },
+        {
+          "item_id": 16503,
+          "name": "Platinum Bar",
+          "count": 2
+        },
+        {
+          "item_id": 33439,
+          "name": "Seal Pattern",
+          "count": 1
+        },
+        {
+          "item_id": 34532,
+          "name": "Chainmail Legplates Template Pattern",
+          "count": 1
+        },
+        {
+          "item_id": 134550,
+          "name": "Fearlinked Water",
+          "count": 1
+        },
+        {
+          "item_id": 134654,
+          "name": "Scorched Ore",
+          "count": 1
+        }
+      ],
+      "container_item_ids": [
+        17
+      ],
+      "held_source_stations": [
+        {
+          "name": "Tanaan Forge",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=5499",
+          "reason": "Named/world/furniture station not separately qualified"
+        },
+        {
+          "name": "Forge - Floor",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34389",
+          "reason": "Named/world/furniture station not separately qualified"
+        },
+        {
+          "name": "Forge - Standing",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34390",
+          "reason": "Named/world/furniture station not separately qualified"
+        },
+        {
+          "name": "Guild Forge",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=38418",
+          "reason": "Named/world/furniture station not separately qualified"
+        }
+      ],
+      "minimum_learning_origin": "PROPOSED_ORDINARY_ZERO_POLICY_SOURCE_OMITS_MANDATORY_MINIMUM_OR_BOOK",
+      "min_expansion": 19,
+      "era_origin": "CONFIGURED_MAINTAINED_FAMILY_CONTEXT_POLICY_NOT_RECOVERED_INTRODUCTION_DATE",
+      "May2013_exact_fields_verified": false
+    },
+    {
+      "recipe_id": 3095788,
+      "source_name": "Fearlinked Boot Seal",
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=568&rsa=Smithing&sub=ROF",
+      "source_view_id": 1195,
+      "source_catalogue_sha256": "b2fd38ac456cabd764c43286d1f9adb18d8dd7cb4f2503d000f81a751f2b9cd5",
+      "source_formula": "Components: Chainmail Boots Template Pattern, Fearlinked Water, Platinum Bar (2), Scorched Ore, Seal Pattern, Vial of Purified Mana\nIn: Forge, Tanaan Forge, Forge - Floor, Forge - Standing, Guild Forge\nYield: 1",
+      "output_item_id": 134545,
+      "yield_count": 1,
+      "trivial": 450,
+      "ingredients": [
+        {
+          "item_id": 10254,
+          "name": "Vial of Purified Mana",
+          "count": 1
+        },
+        {
+          "item_id": 16503,
+          "name": "Platinum Bar",
+          "count": 2
+        },
+        {
+          "item_id": 33439,
+          "name": "Seal Pattern",
+          "count": 1
+        },
+        {
+          "item_id": 34533,
+          "name": "Chainmail Boots Template Pattern",
+          "count": 1
+        },
+        {
+          "item_id": 134550,
+          "name": "Fearlinked Water",
+          "count": 1
+        },
+        {
+          "item_id": 134654,
+          "name": "Scorched Ore",
+          "count": 1
+        }
+      ],
+      "container_item_ids": [
+        17
+      ],
+      "held_source_stations": [
+        {
+          "name": "Tanaan Forge",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=5499",
+          "reason": "Named/world/furniture station not separately qualified"
+        },
+        {
+          "name": "Forge - Floor",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34389",
+          "reason": "Named/world/furniture station not separately qualified"
+        },
+        {
+          "name": "Forge - Standing",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34390",
+          "reason": "Named/world/furniture station not separately qualified"
+        },
+        {
+          "name": "Guild Forge",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=38418",
+          "reason": "Named/world/furniture station not separately qualified"
+        }
+      ],
+      "minimum_learning_origin": "PROPOSED_ORDINARY_ZERO_POLICY_SOURCE_OMITS_MANDATORY_MINIMUM_OR_BOOK",
+      "min_expansion": 19,
+      "era_origin": "CONFIGURED_MAINTAINED_FAMILY_CONTEXT_POLICY_NOT_RECOVERED_INTRODUCTION_DATE",
+      "May2013_exact_fields_verified": false
+    },
+    {
+      "recipe_id": 3095789,
+      "source_name": "Fearlinked Sleeve Seal",
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=568&rsa=Smithing&sub=ROF",
+      "source_view_id": 1200,
+      "source_catalogue_sha256": "b2fd38ac456cabd764c43286d1f9adb18d8dd7cb4f2503d000f81a751f2b9cd5",
+      "source_formula": "Components: Chainmail Arms Template Pattern, Fearlinked Water, Platinum Bar (2), Scorched Ore, Seal Pattern, Vial of Purified Mana\nIn: Forge, Tanaan Forge, Forge - Floor, Forge - Standing, Guild Forge\nYield: 1",
+      "output_item_id": 134546,
+      "yield_count": 1,
+      "trivial": 447,
+      "ingredients": [
+        {
+          "item_id": 10254,
+          "name": "Vial of Purified Mana",
+          "count": 1
+        },
+        {
+          "item_id": 16503,
+          "name": "Platinum Bar",
+          "count": 2
+        },
+        {
+          "item_id": 33439,
+          "name": "Seal Pattern",
+          "count": 1
+        },
+        {
+          "item_id": 34529,
+          "name": "Chainmail Arms Template Pattern",
+          "count": 1
+        },
+        {
+          "item_id": 134550,
+          "name": "Fearlinked Water",
+          "count": 1
+        },
+        {
+          "item_id": 134654,
+          "name": "Scorched Ore",
+          "count": 1
+        }
+      ],
+      "container_item_ids": [
+        17
+      ],
+      "held_source_stations": [
+        {
+          "name": "Tanaan Forge",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=5499",
+          "reason": "Named/world/furniture station not separately qualified"
+        },
+        {
+          "name": "Forge - Floor",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34389",
+          "reason": "Named/world/furniture station not separately qualified"
+        },
+        {
+          "name": "Forge - Standing",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34390",
+          "reason": "Named/world/furniture station not separately qualified"
+        },
+        {
+          "name": "Guild Forge",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=38418",
+          "reason": "Named/world/furniture station not separately qualified"
+        }
+      ],
+      "minimum_learning_origin": "PROPOSED_ORDINARY_ZERO_POLICY_SOURCE_OMITS_MANDATORY_MINIMUM_OR_BOOK",
+      "min_expansion": 19,
+      "era_origin": "CONFIGURED_MAINTAINED_FAMILY_CONTEXT_POLICY_NOT_RECOVERED_INTRODUCTION_DATE",
+      "May2013_exact_fields_verified": false
+    },
+    {
+      "recipe_id": 3095790,
+      "source_name": "Fearlinked Wrist Seal",
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=568&rsa=Smithing&sub=ROF",
+      "source_view_id": 1201,
+      "source_catalogue_sha256": "b2fd38ac456cabd764c43286d1f9adb18d8dd7cb4f2503d000f81a751f2b9cd5",
+      "source_formula": "Components: Chainmail Bracer Template Pattern, Fearlinked Water, Platinum Bar (2), Scorched Ore, Seal Pattern, Vial of Purified Mana\nIn: Forge, Tanaan Forge, Forge - Floor, Forge - Standing, Guild Forge\nYield: 1",
+      "output_item_id": 134547,
+      "yield_count": 1,
+      "trivial": 442,
+      "ingredients": [
+        {
+          "item_id": 10254,
+          "name": "Vial of Purified Mana",
+          "count": 1
+        },
+        {
+          "item_id": 16503,
+          "name": "Platinum Bar",
+          "count": 2
+        },
+        {
+          "item_id": 33439,
+          "name": "Seal Pattern",
+          "count": 1
+        },
+        {
+          "item_id": 34530,
+          "name": "Chainmail Bracer Template Pattern",
+          "count": 1
+        },
+        {
+          "item_id": 134550,
+          "name": "Fearlinked Water",
+          "count": 1
+        },
+        {
+          "item_id": 134654,
+          "name": "Scorched Ore",
+          "count": 1
+        }
+      ],
+      "container_item_ids": [
+        17
+      ],
+      "held_source_stations": [
+        {
+          "name": "Tanaan Forge",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=5499",
+          "reason": "Named/world/furniture station not separately qualified"
+        },
+        {
+          "name": "Forge - Floor",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34389",
+          "reason": "Named/world/furniture station not separately qualified"
+        },
+        {
+          "name": "Forge - Standing",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34390",
+          "reason": "Named/world/furniture station not separately qualified"
+        },
+        {
+          "name": "Guild Forge",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=38418",
+          "reason": "Named/world/furniture station not separately qualified"
+        }
+      ],
+      "minimum_learning_origin": "PROPOSED_ORDINARY_ZERO_POLICY_SOURCE_OMITS_MANDATORY_MINIMUM_OR_BOOK",
+      "min_expansion": 19,
+      "era_origin": "CONFIGURED_MAINTAINED_FAMILY_CONTEXT_POLICY_NOT_RECOVERED_INTRODUCTION_DATE",
+      "May2013_exact_fields_verified": false
+    },
+    {
+      "recipe_id": 3095791,
+      "source_name": "Fearlinked Glove Seal",
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=568&rsa=Smithing&sub=ROF",
+      "source_view_id": 1197,
+      "source_catalogue_sha256": "b2fd38ac456cabd764c43286d1f9adb18d8dd7cb4f2503d000f81a751f2b9cd5",
+      "source_formula": "Components: Chainmail Gloves Template Pattern, Fearlinked Water, Platinum Bar (2), Scorched Ore, Seal Pattern, Vial of Purified Mana\nIn: Forge, Tanaan Forge, Forge - Floor, Forge - Standing, Guild Forge\nYield: 1",
+      "output_item_id": 134548,
+      "yield_count": 1,
+      "trivial": 443,
+      "ingredients": [
+        {
+          "item_id": 10254,
+          "name": "Vial of Purified Mana",
+          "count": 1
+        },
+        {
+          "item_id": 16503,
+          "name": "Platinum Bar",
+          "count": 2
+        },
+        {
+          "item_id": 33439,
+          "name": "Seal Pattern",
+          "count": 1
+        },
+        {
+          "item_id": 34531,
+          "name": "Chainmail Gloves Template Pattern",
+          "count": 1
+        },
+        {
+          "item_id": 134550,
+          "name": "Fearlinked Water",
+          "count": 1
+        },
+        {
+          "item_id": 134654,
+          "name": "Scorched Ore",
+          "count": 1
+        }
+      ],
+      "container_item_ids": [
+        17
+      ],
+      "held_source_stations": [
+        {
+          "name": "Tanaan Forge",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=5499",
+          "reason": "Named/world/furniture station not separately qualified"
+        },
+        {
+          "name": "Forge - Floor",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34389",
+          "reason": "Named/world/furniture station not separately qualified"
+        },
+        {
+          "name": "Forge - Standing",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34390",
+          "reason": "Named/world/furniture station not separately qualified"
+        },
+        {
+          "name": "Guild Forge",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=38418",
+          "reason": "Named/world/furniture station not separately qualified"
+        }
+      ],
+      "minimum_learning_origin": "PROPOSED_ORDINARY_ZERO_POLICY_SOURCE_OMITS_MANDATORY_MINIMUM_OR_BOOK",
+      "min_expansion": 19,
+      "era_origin": "CONFIGURED_MAINTAINED_FAMILY_CONTEXT_POLICY_NOT_RECOVERED_INTRODUCTION_DATE",
+      "May2013_exact_fields_verified": false
+    },
+    {
+      "recipe_id": 3095792,
+      "source_name": "Fearlinked Helm Seal",
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=568&rsa=Smithing&sub=ROF",
+      "source_view_id": 1198,
+      "source_catalogue_sha256": "b2fd38ac456cabd764c43286d1f9adb18d8dd7cb4f2503d000f81a751f2b9cd5",
+      "source_formula": "Components: Chainmail Coif Template Pattern, Fearlinked Water, Platinum Bar (2), Scorched Ore, Seal Pattern, Vial of Purified Mana\nIn: Forge, Tanaan Forge, Forge - Floor, Forge - Standing, Guild Forge\nYield: 1",
+      "output_item_id": 134549,
+      "yield_count": 1,
+      "trivial": 446,
+      "ingredients": [
+        {
+          "item_id": 10254,
+          "name": "Vial of Purified Mana",
+          "count": 1
+        },
+        {
+          "item_id": 16503,
+          "name": "Platinum Bar",
+          "count": 2
+        },
+        {
+          "item_id": 33439,
+          "name": "Seal Pattern",
+          "count": 1
+        },
+        {
+          "item_id": 34522,
+          "name": "Chainmail Coif Template Pattern",
+          "count": 1
+        },
+        {
+          "item_id": 134550,
+          "name": "Fearlinked Water",
+          "count": 1
+        },
+        {
+          "item_id": 134654,
+          "name": "Scorched Ore",
+          "count": 1
+        }
+      ],
+      "container_item_ids": [
+        17
+      ],
+      "held_source_stations": [
+        {
+          "name": "Tanaan Forge",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=5499",
+          "reason": "Named/world/furniture station not separately qualified"
+        },
+        {
+          "name": "Forge - Floor",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34389",
+          "reason": "Named/world/furniture station not separately qualified"
+        },
+        {
+          "name": "Forge - Standing",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34390",
+          "reason": "Named/world/furniture station not separately qualified"
+        },
+        {
+          "name": "Guild Forge",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=38418",
+          "reason": "Named/world/furniture station not separately qualified"
+        }
+      ],
+      "minimum_learning_origin": "PROPOSED_ORDINARY_ZERO_POLICY_SOURCE_OMITS_MANDATORY_MINIMUM_OR_BOOK",
+      "min_expansion": 19,
+      "era_origin": "CONFIGURED_MAINTAINED_FAMILY_CONTEXT_POLICY_NOT_RECOVERED_INTRODUCTION_DATE",
+      "May2013_exact_fields_verified": false
+    },
+    {
+      "recipe_id": 3095793,
+      "source_name": "Cosgrite Bar",
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=431&rsa=Jewelcraft&sub=UF",
+      "source_view_id": 9953,
+      "source_catalogue_sha256": "cbe46019999af165354c313e660f108f6c043bdba7156393afb7a7d2583194ca",
+      "source_formula": "Components: Cosgrove Powder, Gnomish Heat Source, Platinum Bar\nIn: Jeweler's Kit, Planar Jeweler's Kit, Collapsible Jeweler's Kit, Reinforced Jeweler's Kit\nYield: 1",
+      "output_item_id": 45952,
+      "yield_count": 1,
+      "trivial": 100,
+      "ingredients": [
+        {
+          "item_id": 16503,
+          "name": "Platinum Bar",
+          "count": 1
+        },
+        {
+          "item_id": 49982,
+          "name": "Cosgrove Powder",
+          "count": 1
+        },
+        {
+          "item_id": 63244,
+          "name": "Gnomish Heat Source",
+          "count": 1
+        }
+      ],
+      "container_item_ids": [
+        17187,
+        17764,
+        17912,
+        62480
+      ],
+      "held_source_stations": [],
+      "minimum_learning_origin": "PROPOSED_ORDINARY_ZERO_POLICY_SOURCE_OMITS_MANDATORY_MINIMUM_OR_BOOK",
+      "min_expansion": 16,
+      "era_origin": "CONFIGURED_MAINTAINED_FAMILY_CONTEXT_POLICY_NOT_RECOVERED_INTRODUCTION_DATE",
+      "May2013_exact_fields_verified": false
+    },
+    {
+      "recipe_id": 3095794,
+      "source_name": "Alaran Metal Bar",
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=548&rsa=Jewelcraft&sub=VOA",
+      "source_view_id": 2450,
+      "source_catalogue_sha256": "729a9557b113947ebdcf4e0d781a1a9c16fd52a7fb60d04ad5ad89d74c7bfda6",
+      "source_formula": "Components: Essence of Alaris, Gnomish Heat Source, Platinum Bar\nIn: Jeweler's Kit, Planar Jeweler's Kit, Collapsible Jeweler's Kit, Reinforced Jeweler's Kit, Jewelry Making Table (Placeable), Jewelry Making Table\nYield: 1\nNotes: EQRecipeID: 77102",
+      "output_item_id": 64524,
+      "yield_count": 1,
+      "trivial": 108,
+      "ingredients": [
+        {
+          "item_id": 16503,
+          "name": "Platinum Bar",
+          "count": 1
+        },
+        {
+          "item_id": 63244,
+          "name": "Gnomish Heat Source",
+          "count": 1
+        },
+        {
+          "item_id": 64546,
+          "name": "Essence of Alaris",
+          "count": 1
+        }
+      ],
+      "container_item_ids": [
+        17187,
+        17764,
+        17912,
+        62480
+      ],
+      "held_source_stations": [
+        {
+          "name": "Jewelry Making Table (Placeable)",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34391",
+          "reason": "Named/world/furniture station not separately qualified"
+        },
+        {
+          "name": "Jewelry Making Table",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34482",
+          "reason": "Named/world/furniture station not separately qualified"
+        }
+      ],
+      "minimum_learning_origin": "PROPOSED_ORDINARY_ZERO_POLICY_SOURCE_OMITS_MANDATORY_MINIMUM_OR_BOOK",
+      "min_expansion": 18,
+      "era_origin": "CONFIGURED_MAINTAINED_FAMILY_CONTEXT_POLICY_NOT_RECOVERED_INTRODUCTION_DATE",
+      "May2013_exact_fields_verified": false
+    },
+    {
+      "recipe_id": 3095795,
+      "source_name": "Feymetal Bar",
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=428&rsa=Jewelcraft&sub=HOT",
+      "source_view_id": 4201,
+      "source_catalogue_sha256": "8956c0c190f455c749b51e0190f0da7770be0d7fbf6c266ec71eec01c0efa36a",
+      "source_formula": "Components: Dream Dust, Gnomish Heat Source, Platinum Bar\nIn: Jeweler's Kit, Planar Jeweler's Kit, Collapsible Jeweler's Kit, Reinforced Jeweler's Kit\nYield: 1",
+      "output_item_id": 81138,
+      "yield_count": 1,
+      "trivial": 100,
+      "ingredients": [
+        {
+          "item_id": 16503,
+          "name": "Platinum Bar",
+          "count": 1
+        },
+        {
+          "item_id": 46979,
+          "name": "Dream Dust",
+          "count": 1
+        },
+        {
+          "item_id": 63244,
+          "name": "Gnomish Heat Source",
+          "count": 1
+        }
+      ],
+      "container_item_ids": [
+        17187,
+        17764,
+        17912,
+        62480
+      ],
+      "held_source_stations": [],
+      "minimum_learning_origin": "PROPOSED_ORDINARY_ZERO_POLICY_SOURCE_OMITS_MANDATORY_MINIMUM_OR_BOOK",
+      "min_expansion": 17,
+      "era_origin": "CONFIGURED_MAINTAINED_FAMILY_CONTEXT_POLICY_NOT_RECOVERED_INTRODUCTION_DATE",
+      "May2013_exact_fields_verified": false
+    },
+    {
+      "recipe_id": 3095796,
+      "source_name": "Trillion Cut Harmonagate Velium Pendant",
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=367&rsa=Jewelcraft&sub=porpend",
+      "source_view_id": 27970,
+      "source_catalogue_sha256": "eee499067b60fd29e876babf7f435c5e26cf2a23278028d78ccbcc2887058d8e",
+      "source_formula": "Components: Trillion Cut Harmonagate, Trillion Mount Velium Pendant\nIn: Jeweler's Kit, Planar Jeweler's Kit, Collapsible Jeweler's Kit, Reinforced Jeweler's Kit, Jewelry Making Table (Placeable), Jewelry Making Table, Guild Jewelry Making Table\nYield: 1",
+      "output_item_id": 95641,
+      "yield_count": 1,
+      "trivial": 212,
+      "ingredients": [
+        {
+          "item_id": 95767,
+          "name": "Trilion Mount Velium Pendant",
+          "count": 1
+        },
+        {
+          "item_id": 95799,
+          "name": "Trilion Cut Harmonagate",
+          "count": 1
+        }
+      ],
+      "container_item_ids": [
+        17187,
+        17764,
+        17912,
+        62480
+      ],
+      "held_source_stations": [
+        {
+          "name": "Jewelry Making Table (Placeable)",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34391",
+          "reason": "Named/world/furniture station not separately qualified"
+        },
+        {
+          "name": "Jewelry Making Table",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34482",
+          "reason": "Named/world/furniture station not separately qualified"
+        },
+        {
+          "name": "Guild Jewelry Making Table",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=38420",
+          "reason": "Named/world/furniture station not separately qualified"
+        }
+      ],
+      "minimum_learning_origin": "PROPOSED_ORDINARY_ZERO_POLICY_SOURCE_OMITS_MANDATORY_MINIMUM_OR_BOOK",
+      "min_expansion": 11,
+      "era_origin": "CONFIGURED_MAINTAINED_FAMILY_CONTEXT_POLICY_NOT_RECOVERED_INTRODUCTION_DATE",
+      "May2013_exact_fields_verified": false
+    }
+  ],
+  "restriction_review": {
+    "scope": "27distinct explicit-primary-native-ID input routes:21slot seals(7eachCosgrove/Veiled/Fearlinked),FayciteSeal,SunshardSeal,threeJewelcraftmetalbars(Cosgrite/Feymetal/Alaran),oneTrillionCutHarmonagateVeliumPendant. All exact numeric trivials/physicalyield1/full input quantities. No charged/chance/source-reportedbroken/formula-identity ambiguity selected.",
+    "alternatives": "23seal outputs already have documented Tinkering source bodies. New Smithing inputs and explicit ordinary Forge differ; exact23existing definitions/full entryIDs are preserved from retained baseline plus closed actual125–159postimages. No existing same-craft output producer is being bypassed as an asserted alternative.",
+    "era": "Configured family floors11PoRpendant,14SoFseals,16UFbars/seals,17HoTbar,18VoAbar/seals,19RoFseals;maximum-1. Maintained expansion catalogue context supports labelled configured reconstruction, not immutable per-fieldMay2013/birth evidence. No Researchbook99931 or held160 content included.",
+    "gates": "Source omits exact mandatory minimum/book; proposedskillneeded0/must_learn0/learned_by0/nofail0/quest0/enabled1 and new consumed salvage=component are ordinary local policies requiring disposition, not omission-as-historicalproof. Keep existingTinker gates/books/charge/actor metadata unchanged.",
+    "containers": "Smithing positiveordinaryForge17only, no named/racial/worldforge inference. Each Jewelcraft view positively lists17912ordinary/17764Planar/17187Collapsible/62480Reinforced kits; nativebag20/size/capacity checked. No generic20 or world/placed/guildtable access inferred. Exact nativekitclass/race/deity semantics pinned; source historicalkit availability remains labelled qualification.",
+    "preservation": "57selected native records, newID/entry collisions/fullinputs/current primaryoutput universe/existing23other-craft full definitions+entryIDs/postimages/deltas guarded. All exact primary output IDs are unconsumed fixed yield1 here; no returned co-product can enter the producer guard. Rollback refuses learned references. No existing item/recipe/player/quest mutation.",
+    "execution": "Source only. Coordinator exact policy disposition/publication/separateSQLGO required. No SQL/rehearsal/test/compile/runtime. Research160and other named holds remain separate."
+  },
+  "source_urls": [
+    "https://www.eqtraders.com/recipes/recipe_page.php?article=367&rsa=Jewelcraft&sub=porpend",
+    "https://www.eqtraders.com/recipes/recipe_page.php?article=408&rsa=Smithing&sub=sof",
+    "https://www.eqtraders.com/recipes/recipe_page.php?article=428&rsa=Jewelcraft&sub=HOT",
+    "https://www.eqtraders.com/recipes/recipe_page.php?article=431&rsa=Jewelcraft&sub=UF",
+    "https://www.eqtraders.com/recipes/recipe_page.php?article=440&rsa=Smithing&sub=UF",
+    "https://www.eqtraders.com/recipes/recipe_page.php?article=548&rsa=Jewelcraft&sub=VOA",
+    "https://www.eqtraders.com/recipes/recipe_page.php?article=551&rsa=Smithing&sub=VoA",
+    "https://www.eqtraders.com/recipes/recipe_page.php?article=568&rsa=Smithing&sub=ROF"
+  ],
+  "migration_dependencies": [
+    "RRC130",
+    "RRC134",
+    "RRC137"
+  ],
+  "held_source_rows": []
+}
