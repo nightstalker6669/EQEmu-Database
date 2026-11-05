@@ -1,0 +1,64 @@
+{
+  "format_version": 1,
+  "batch": "RRC120",
+  "source_commit": "99e6fac16810e1353f7c4f0330dae979b431b53c",
+  "source_sha256": "3120b93e3842508e20e6c9f9bfc9dd746bbfde2039d2dd16ea72a48eaea2613c",
+  "application_status": "APPLIED_VERIFIED",
+  "SQL_invocations": 1,
+  "transaction_state_after": 0,
+  "recipes_added": 29,
+  "entries_added": 259,
+  "recipe_id_range": [
+    3094513,
+    3094541
+  ],
+  "exact_new_postimages": true,
+  "learned_references": "Exact relevant learned references verified/preserved per owner receipt/coordinator handoff; rollback refuses learned references.",
+  "global_after_counts": {
+    "recipes": 26365,
+    "entries": 199185
+  },
+  "historical_qualification": {
+    "scope": "29 absent RoF Fletching formulas3094513-3094541:21TranscendentReachingSymbols,2RegalRecurveBows,4Allianceweapons/ammunition,RegalBaton andRegalRecurveBowstring. Current finite44-view catalogue has13existingFletcher matches and2RepeatingFletcher holds. Existing Tinkering RepeatingCrossbow3091274 is preserved, not called a verified alternate Fletcher formula.",
+    "era": "LABELLED_RECONSTRUCTION from maintained primary RoF catalogue. Floor19 is proposed configured availability POLICY, minimum0/maximum-1, not authenticated per-field introduction or May2013/native acceptance. Item IDs, current book text and catalogue categories do not prove immutable historical formulas.",
+    "learning": "21symbols explicitly require scribing135405 TranscendentReachingWeaponAugments-Fletchers;2bows explicitly require135410 RegalRecurveBowDiagrams. Both native class2/type60 filenames/text hashes pinned. Remaining6 ordinary must_learn0/learned_by0. Books are learning dependencies, not combine ingredients. No new player learning/book supply/UI proof.",
+    "source_conflicts": "Explicit Coordinator disposition required: Transcendent Fletcher book says RoundCutTool while current primary formulas say PlaningTool; Regal Infused book says EssenceOfAlaris while current primary formula says PlanarEnergyShard. Preserve both texts and propose current primary bodies without claiming conflict resolved historically. Regal-specific135410 explicitly describes FLETCHER making bowstring with2BefouledSilk/ClumpWax, corroborating current Fletching catalogue despite older generic135400compendium Tailors wording; retain conflict, no Tailoring copy or optional-book gate.",
+    "alliance": "Four Alliance bodies have current primary positive quantities/yields/trivials/kits. Quest association is not evidence of a craft-only quest flag, learning gate or skillneeded300. Proposed ordinary quest0/minimum0 gates require Coordinator acceptance. Explicit300 and81108scribing on the two Repeating rows are not inferred onto Alliance siblings. No quest reward, hand-in, NPC, custody or actor acceptance claim.",
+    "quantity": "All29 explicit yields/numeric trivials: AllianceArrows andAllianceCrossbowBolts yield10, other27 yield1. Positive component counts retained including2BefouledSilk. Returned PlaningTool and Baton5KnotMeasuringString return on success/failure withsalvage0. Other consumed salvagecount follows local policy. No existing recipe normalization.",
+    "containers": "Per-view positive ordinary kits only:4Regal bodies17910/17762, other25 bodies17910/17762/17189. All need atmost8 units/size3 and fit native8slot bag18 kits. No generic18 entries, racial/deity/world-furniture links, or inferred third Regal kit. Actor eligibility/native combines untested.",
+    "preservation": "100 finite primary references resolved;29 fullinput signatures checked across allskills/allstates including disabled, all0; selected outputs/names absent from bounded current producer/name snapshots.77 native dependencies pinned. Indexed positive-input anchors plus full total/per-itemSUM guards preserve multiset encoding independence,10second bound unchanged. New IDs/entries only; existing13Fletcher/1Tinker producers, books, native items, gates, playerlearned/inventory/quests unchanged.",
+    "holds": "RepeatingCrossbow Fletcher source omits failure PlaningTool return, unlike existing Tinker/source book context; no inferred return scope. RepeatingCrossbowBolts current catalogue yield10 conflicts with native81108prose100; explicit minimum300 and learning81108 retained in evidence, no new formula. Existing generic18 TerrorCrossbow has10ingredient units: do not add8slot kit links or claim actor acceptance. Native book context alone does not prove combine success.",
+    "limits": "Source proposal only, pending Coordinator explicit conflict/floor19/gate dispositions, GitHub publication and separate exact SQL GO. No SQL invocation/rehearsal/build/client/runtime/schema/API/quest changes or historical-universe closure."
+  },
+  "existing_row_changes": "No UPDATE/DELETE of existing recipes; additive exact-ID inserts only. Global old-row diff was not repeated.",
+  "book_binding_summary": {
+    "symbols": {
+      "rows": 21,
+      "book": 135405,
+      "mandatory": true
+    },
+    "bows": {
+      "rows": 2,
+      "book": 135410,
+      "mandatory": true
+    },
+    "remaining6": {
+      "must_learn": 0,
+      "learned_by": 0
+    },
+    "book_is_combine_ingredient": false
+  },
+  "policy": "Floor19configuredavailability/minimum0/quest0 ordinarynewrecords; not period-gate or craft-only quest proof.",
+  "conflicts_remain_explicit": [
+    "RoundCutTool book versus PlaningTool formulas",
+    "EssenceOfAlaris book versus PlanarEnergyShard formula",
+    "Regal-specific Fletcher bowstring versus older generic Tailors wording"
+  ],
+  "Repeating_Fletcher_holds": "Two routes remain held: missing failure tool-return and yield10 versus prose100; no inferred learning300/book81108 onto Alliance.",
+  "kit_scope": "FourRegal only17910/17762;other25explicit3kits. ExistingTerrorCrossbow10units receives no8slot link.",
+  "other_producers_gates_player_records_preserved": true,
+  "player_item_writes": false,
+  "runtime_actions": false,
+  "native_crafting_acceptance": false,
+  "source_documents": "Exact original preparation-time source and qualification blocks retained; separate summary records actual closed application. Source-only preparation wording is historical, not current application status."
+}

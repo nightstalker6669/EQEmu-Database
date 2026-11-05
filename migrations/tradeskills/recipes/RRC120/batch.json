@@ -1,0 +1,5115 @@
+{
+  "batch": "RRC120",
+  "branch": "rof2-tradeskills",
+  "status": "SOURCE_PROPOSAL_NOT_APPLIED_LABELLED_RECONSTRUCTION",
+  "proposed_ids": [
+    3094513,
+    3094541
+  ],
+  "counts": {
+    "recipes": 29,
+    "entries": 259,
+    "item_dependencies": 77,
+    "unchanged_prototype_recipes": 0,
+    "unchanged_prototype_entries": 0
+  },
+  "recipes": [
+    {
+      "id": 3094513,
+      "name": "Alliance Longbow",
+      "tradeskill": 64,
+      "skillneeded": 0,
+      "trivial": 355,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary RoF Fletching reconstruction; RRC120.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 19,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3094514,
+      "name": "Alliance Crossbow",
+      "tradeskill": 64,
+      "skillneeded": 0,
+      "trivial": 355,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary RoF Fletching reconstruction; RRC120.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 19,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3094515,
+      "name": "Alliance Arrows",
+      "tradeskill": 64,
+      "skillneeded": 0,
+      "trivial": 302,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary RoF Fletching reconstruction; RRC120.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 19,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3094516,
+      "name": "Alliance Crossbow Bolts",
+      "tradeskill": 64,
+      "skillneeded": 0,
+      "trivial": 302,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary RoF Fletching reconstruction; RRC120.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 19,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3094517,
+      "name": "Regal Recurve Bowstring",
+      "tradeskill": 64,
+      "skillneeded": 0,
+      "trivial": 258,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary RoF Fletching reconstruction; RRC120.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 19,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3094518,
+      "name": "Regal Infused Recurve Bow",
+      "tradeskill": 64,
+      "skillneeded": 0,
+      "trivial": 508,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary RoF Fletching reconstruction; RRC120.",
+      "must_learn": 1,
+      "learned_by_item_id": 135410,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 19,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3094519,
+      "name": "Regal Uninfused Recurve Bow",
+      "tradeskill": 64,
+      "skillneeded": 0,
+      "trivial": 508,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary RoF Fletching reconstruction; RRC120.",
+      "must_learn": 1,
+      "learned_by_item_id": 135410,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 19,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3094520,
+      "name": "Transcendent Reaching Symbol of the Skeptic",
+      "tradeskill": 64,
+      "skillneeded": 0,
+      "trivial": 499,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary RoF Fletching reconstruction; RRC120.",
+      "must_learn": 1,
+      "learned_by_item_id": 135405,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 19,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3094521,
+      "name": "Transcendent Reaching Symbol of Infestation",
+      "tradeskill": 64,
+      "skillneeded": 0,
+      "trivial": 499,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary RoF Fletching reconstruction; RRC120.",
+      "must_learn": 1,
+      "learned_by_item_id": 135405,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 19,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3094522,
+      "name": "Transcendent Reaching Symbol of Below",
+      "tradeskill": 64,
+      "skillneeded": 0,
+      "trivial": 499,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary RoF Fletching reconstruction; RRC120.",
+      "must_learn": 1,
+      "learned_by_item_id": 135405,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 19,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3094523,
+      "name": "Transcendent Reaching Symbol of the Farceur",
+      "tradeskill": 64,
+      "skillneeded": 0,
+      "trivial": 499,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary RoF Fletching reconstruction; RRC120.",
+      "must_learn": 1,
+      "learned_by_item_id": 135405,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 19,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3094524,
+      "name": "Transcendent Reaching Symbol of Terror",
+      "tradeskill": 64,
+      "skillneeded": 0,
+      "trivial": 499,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary RoF Fletching reconstruction; RRC120.",
+      "must_learn": 1,
+      "learned_by_item_id": 135405,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 19,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3094525,
+      "name": "Transcendent Reaching Symbol of Thaumaturgy",
+      "tradeskill": 64,
+      "skillneeded": 0,
+      "trivial": 499,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary RoF Fletching reconstruction; RRC120.",
+      "must_learn": 1,
+      "learned_by_item_id": 135405,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 19,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3094526,
+      "name": "Transcendent Reaching Symbol of Devotion",
+      "tradeskill": 64,
+      "skillneeded": 0,
+      "trivial": 499,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary RoF Fletching reconstruction; RRC120.",
+      "must_learn": 1,
+      "learned_by_item_id": 135405,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 19,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3094527,
+      "name": "Transcendent Reaching Symbol of the Fire Lord",
+      "tradeskill": 64,
+      "skillneeded": 0,
+      "trivial": 499,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary RoF Fletching reconstruction; RRC120.",
+      "must_learn": 1,
+      "learned_by_item_id": 135405,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 19,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3094528,
+      "name": "Transcendent Reaching Symbol of Hate",
+      "tradeskill": 64,
+      "skillneeded": 0,
+      "trivial": 499,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary RoF Fletching reconstruction; RRC120.",
+      "must_learn": 1,
+      "learned_by_item_id": 135405,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 19,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3094529,
+      "name": "Transcendent Reaching Symbol of Storms",
+      "tradeskill": 64,
+      "skillneeded": 0,
+      "trivial": 499,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary RoF Fletching reconstruction; RRC120.",
+      "must_learn": 1,
+      "learned_by_item_id": 135405,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 19,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3094530,
+      "name": "Transcendent Reaching Symbol of Integrity",
+      "tradeskill": 64,
+      "skillneeded": 0,
+      "trivial": 499,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary RoF Fletching reconstruction; RRC120.",
+      "must_learn": 1,
+      "learned_by_item_id": 135405,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 19,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3094531,
+      "name": "Transcendent Reaching Symbol of the Depths",
+      "tradeskill": 64,
+      "skillneeded": 0,
+      "trivial": 499,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary RoF Fletching reconstruction; RRC120.",
+      "must_learn": 1,
+      "learned_by_item_id": 135405,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 19,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3094532,
+      "name": "Transcendent Reaching Symbol of Stillness",
+      "tradeskill": 64,
+      "skillneeded": 0,
+      "trivial": 499,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary RoF Fletching reconstruction; RRC120.",
+      "must_learn": 1,
+      "learned_by_item_id": 135405,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 19,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3094533,
+      "name": "Transcendent Reaching Symbol of the Warmonger",
+      "tradeskill": 64,
+      "skillneeded": 0,
+      "trivial": 499,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary RoF Fletching reconstruction; RRC120.",
+      "must_learn": 1,
+      "learned_by_item_id": 135405,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 19,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3094534,
+      "name": "Transcendent Reaching Symbol of Compassion",
+      "tradeskill": 64,
+      "skillneeded": 0,
+      "trivial": 499,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary RoF Fletching reconstruction; RRC120.",
+      "must_learn": 1,
+      "learned_by_item_id": 135405,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 19,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3094535,
+      "name": "Transcendent Reaching Symbol of Malignancy",
+      "tradeskill": 64,
+      "skillneeded": 0,
+      "trivial": 499,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary RoF Fletching reconstruction; RRC120.",
+      "must_learn": 1,
+      "learned_by_item_id": 135405,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 19,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3094536,
+      "name": "Transcendent Reaching Symbol of Wildfire",
+      "tradeskill": 64,
+      "skillneeded": 0,
+      "trivial": 499,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary RoF Fletching reconstruction; RRC120.",
+      "must_learn": 1,
+      "learned_by_item_id": 135405,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 19,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3094537,
+      "name": "Transcendent Reaching Symbol of Decay",
+      "tradeskill": 64,
+      "skillneeded": 0,
+      "trivial": 499,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary RoF Fletching reconstruction; RRC120.",
+      "must_learn": 1,
+      "learned_by_item_id": 135405,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 19,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3094538,
+      "name": "Transcendent Reaching Symbol of Judgment",
+      "tradeskill": 64,
+      "skillneeded": 0,
+      "trivial": 499,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary RoF Fletching reconstruction; RRC120.",
+      "must_learn": 1,
+      "learned_by_item_id": 135405,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 19,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3094539,
+      "name": "Transcendent Reaching Symbol of Growth",
+      "tradeskill": 64,
+      "skillneeded": 0,
+      "trivial": 499,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary RoF Fletching reconstruction; RRC120.",
+      "must_learn": 1,
+      "learned_by_item_id": 135405,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 19,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3094540,
+      "name": "Transcendent Reaching Symbol of the Brood",
+      "tradeskill": 64,
+      "skillneeded": 0,
+      "trivial": 499,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary RoF Fletching reconstruction; RRC120.",
+      "must_learn": 1,
+      "learned_by_item_id": 135405,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 19,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3094541,
+      "name": "Regal Baton",
+      "tradeskill": 64,
+      "skillneeded": 0,
+      "trivial": 282,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary RoF Fletching reconstruction; RRC120.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 19,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    }
+  ],
+  "entries": [
+    {
+      "recipe_id": 3094513,
+      "item_id": 79493,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094513,
+      "item_id": 8084,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094513,
+      "item_id": 64546,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094513,
+      "item_id": 45173,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094513,
+      "item_id": 76322,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094513,
+      "item_id": 8086,
+      "successcount": 1,
+      "failcount": 1,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094513,
+      "item_id": 8090,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094513,
+      "item_id": 17189,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3094513,
+      "item_id": 17762,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3094513,
+      "item_id": 17910,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3094514,
+      "item_id": 79494,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094514,
+      "item_id": 8084,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094514,
+      "item_id": 64546,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094514,
+      "item_id": 45173,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094514,
+      "item_id": 16858,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094514,
+      "item_id": 76322,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094514,
+      "item_id": 8086,
+      "successcount": 1,
+      "failcount": 1,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094514,
+      "item_id": 8090,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094514,
+      "item_id": 17189,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3094514,
+      "item_id": 17762,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3094514,
+      "item_id": 17910,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3094515,
+      "item_id": 79495,
+      "successcount": 10,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094515,
+      "item_id": 8063,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094515,
+      "item_id": 135314,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094515,
+      "item_id": 64922,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094515,
+      "item_id": 8050,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094515,
+      "item_id": 135312,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094515,
+      "item_id": 17189,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3094515,
+      "item_id": 17762,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3094515,
+      "item_id": 17910,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3094516,
+      "item_id": 79496,
+      "successcount": 10,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094516,
+      "item_id": 8063,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094516,
+      "item_id": 135314,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094516,
+      "item_id": 64922,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094516,
+      "item_id": 8052,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094516,
+      "item_id": 135312,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094516,
+      "item_id": 17189,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3094516,
+      "item_id": 17762,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3094516,
+      "item_id": 17910,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3094517,
+      "item_id": 135407,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094517,
+      "item_id": 134653,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 2,
+      "salvagecount": 2,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094517,
+      "item_id": 29992,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094517,
+      "item_id": 17762,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3094517,
+      "item_id": 17910,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3094518,
+      "item_id": 135408,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094518,
+      "item_id": 135406,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094518,
+      "item_id": 134656,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094518,
+      "item_id": 76322,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094518,
+      "item_id": 8086,
+      "successcount": 1,
+      "failcount": 1,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094518,
+      "item_id": 45175,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094518,
+      "item_id": 135407,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094518,
+      "item_id": 135440,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094518,
+      "item_id": 17762,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3094518,
+      "item_id": 17910,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3094519,
+      "item_id": 135409,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094519,
+      "item_id": 135406,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094519,
+      "item_id": 134656,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094519,
+      "item_id": 8086,
+      "successcount": 1,
+      "failcount": 1,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094519,
+      "item_id": 45175,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094519,
+      "item_id": 135407,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094519,
+      "item_id": 135440,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094519,
+      "item_id": 17762,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3094519,
+      "item_id": 17910,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3094520,
+      "item_id": 135411,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094520,
+      "item_id": 134656,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094520,
+      "item_id": 8086,
+      "successcount": 1,
+      "failcount": 1,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094520,
+      "item_id": 45183,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094520,
+      "item_id": 10254,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094520,
+      "item_id": 81837,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094520,
+      "item_id": 17189,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3094520,
+      "item_id": 17762,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3094520,
+      "item_id": 17910,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3094521,
+      "item_id": 135412,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094521,
+      "item_id": 134656,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094521,
+      "item_id": 81830,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094521,
+      "item_id": 8086,
+      "successcount": 1,
+      "failcount": 1,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094521,
+      "item_id": 45183,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094521,
+      "item_id": 10254,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094521,
+      "item_id": 17189,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3094521,
+      "item_id": 17762,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3094521,
+      "item_id": 17910,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3094522,
+      "item_id": 135413,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094522,
+      "item_id": 134656,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094522,
+      "item_id": 81824,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094522,
+      "item_id": 8086,
+      "successcount": 1,
+      "failcount": 1,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094522,
+      "item_id": 45183,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094522,
+      "item_id": 10254,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094522,
+      "item_id": 17189,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3094522,
+      "item_id": 17762,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3094522,
+      "item_id": 17910,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3094523,
+      "item_id": 135414,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094523,
+      "item_id": 134656,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094523,
+      "item_id": 81833,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094523,
+      "item_id": 8086,
+      "successcount": 1,
+      "failcount": 1,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094523,
+      "item_id": 45183,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094523,
+      "item_id": 10254,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094523,
+      "item_id": 17189,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3094523,
+      "item_id": 17762,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3094523,
+      "item_id": 17910,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3094524,
+      "item_id": 135415,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094524,
+      "item_id": 134656,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094524,
+      "item_id": 81823,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094524,
+      "item_id": 8086,
+      "successcount": 1,
+      "failcount": 1,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094524,
+      "item_id": 45183,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094524,
+      "item_id": 10254,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094524,
+      "item_id": 17189,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3094524,
+      "item_id": 17762,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3094524,
+      "item_id": 17910,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3094525,
+      "item_id": 135416,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094525,
+      "item_id": 134656,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094525,
+      "item_id": 48161,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094525,
+      "item_id": 8086,
+      "successcount": 1,
+      "failcount": 1,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094525,
+      "item_id": 45183,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094525,
+      "item_id": 10254,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094525,
+      "item_id": 17189,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3094525,
+      "item_id": 17762,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3094525,
+      "item_id": 17910,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3094526,
+      "item_id": 135417,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094526,
+      "item_id": 134656,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094526,
+      "item_id": 81829,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094526,
+      "item_id": 8086,
+      "successcount": 1,
+      "failcount": 1,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094526,
+      "item_id": 45183,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094526,
+      "item_id": 10254,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094526,
+      "item_id": 17189,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3094526,
+      "item_id": 17762,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3094526,
+      "item_id": 17910,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3094527,
+      "item_id": 135418,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094527,
+      "item_id": 134656,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094527,
+      "item_id": 48159,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094527,
+      "item_id": 8086,
+      "successcount": 1,
+      "failcount": 1,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094527,
+      "item_id": 45183,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094527,
+      "item_id": 10254,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094527,
+      "item_id": 17189,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3094527,
+      "item_id": 17762,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3094527,
+      "item_id": 17910,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3094528,
+      "item_id": 135419,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094528,
+      "item_id": 134656,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094528,
+      "item_id": 81826,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094528,
+      "item_id": 8086,
+      "successcount": 1,
+      "failcount": 1,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094528,
+      "item_id": 45183,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094528,
+      "item_id": 10254,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094528,
+      "item_id": 17189,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3094528,
+      "item_id": 17762,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3094528,
+      "item_id": 17910,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3094529,
+      "item_id": 135420,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094529,
+      "item_id": 134656,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094529,
+      "item_id": 81832,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094529,
+      "item_id": 8086,
+      "successcount": 1,
+      "failcount": 1,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094529,
+      "item_id": 45183,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094529,
+      "item_id": 10254,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094529,
+      "item_id": 17189,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3094529,
+      "item_id": 17762,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3094529,
+      "item_id": 17910,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3094530,
+      "item_id": 135421,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094530,
+      "item_id": 134656,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094530,
+      "item_id": 81828,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094530,
+      "item_id": 8086,
+      "successcount": 1,
+      "failcount": 1,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094530,
+      "item_id": 45183,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094530,
+      "item_id": 10254,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094530,
+      "item_id": 17189,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3094530,
+      "item_id": 17762,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3094530,
+      "item_id": 17910,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3094531,
+      "item_id": 135422,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094531,
+      "item_id": 134656,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094531,
+      "item_id": 81827,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094531,
+      "item_id": 8086,
+      "successcount": 1,
+      "failcount": 1,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094531,
+      "item_id": 45183,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094531,
+      "item_id": 10254,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094531,
+      "item_id": 17189,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3094531,
+      "item_id": 17762,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3094531,
+      "item_id": 17910,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3094532,
+      "item_id": 135423,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094532,
+      "item_id": 134656,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094532,
+      "item_id": 81834,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094532,
+      "item_id": 8086,
+      "successcount": 1,
+      "failcount": 1,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094532,
+      "item_id": 45183,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094532,
+      "item_id": 10254,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094532,
+      "item_id": 17189,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3094532,
+      "item_id": 17762,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3094532,
+      "item_id": 17910,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3094533,
+      "item_id": 135424,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094533,
+      "item_id": 134656,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094533,
+      "item_id": 81821,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094533,
+      "item_id": 8086,
+      "successcount": 1,
+      "failcount": 1,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094533,
+      "item_id": 45183,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094533,
+      "item_id": 10254,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094533,
+      "item_id": 17189,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3094533,
+      "item_id": 17762,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3094533,
+      "item_id": 17910,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3094534,
+      "item_id": 135425,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094534,
+      "item_id": 134656,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094534,
+      "item_id": 81835,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094534,
+      "item_id": 8086,
+      "successcount": 1,
+      "failcount": 1,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094534,
+      "item_id": 45183,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094534,
+      "item_id": 10254,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094534,
+      "item_id": 17189,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3094534,
+      "item_id": 17762,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3094534,
+      "item_id": 17910,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3094535,
+      "item_id": 135426,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094535,
+      "item_id": 134656,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094535,
+      "item_id": 48160,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094535,
+      "item_id": 8086,
+      "successcount": 1,
+      "failcount": 1,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094535,
+      "item_id": 45183,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094535,
+      "item_id": 10254,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094535,
+      "item_id": 17189,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3094535,
+      "item_id": 17762,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3094535,
+      "item_id": 17910,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3094536,
+      "item_id": 135427,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094536,
+      "item_id": 134656,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094536,
+      "item_id": 81831,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094536,
+      "item_id": 8086,
+      "successcount": 1,
+      "failcount": 1,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094536,
+      "item_id": 45183,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094536,
+      "item_id": 10254,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094536,
+      "item_id": 17189,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3094536,
+      "item_id": 17762,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3094536,
+      "item_id": 17910,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3094537,
+      "item_id": 135428,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094537,
+      "item_id": 134656,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094537,
+      "item_id": 48158,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094537,
+      "item_id": 8086,
+      "successcount": 1,
+      "failcount": 1,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094537,
+      "item_id": 45183,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094537,
+      "item_id": 10254,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094537,
+      "item_id": 17189,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3094537,
+      "item_id": 17762,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3094537,
+      "item_id": 17910,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3094538,
+      "item_id": 135429,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094538,
+      "item_id": 134656,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094538,
+      "item_id": 81822,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094538,
+      "item_id": 8086,
+      "successcount": 1,
+      "failcount": 1,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094538,
+      "item_id": 45183,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094538,
+      "item_id": 10254,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094538,
+      "item_id": 17189,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3094538,
+      "item_id": 17762,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3094538,
+      "item_id": 17910,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3094539,
+      "item_id": 135430,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094539,
+      "item_id": 134656,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094539,
+      "item_id": 81825,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094539,
+      "item_id": 8086,
+      "successcount": 1,
+      "failcount": 1,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094539,
+      "item_id": 45183,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094539,
+      "item_id": 10254,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094539,
+      "item_id": 17189,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3094539,
+      "item_id": 17762,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3094539,
+      "item_id": 17910,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3094540,
+      "item_id": 135431,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094540,
+      "item_id": 134656,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094540,
+      "item_id": 81836,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094540,
+      "item_id": 8086,
+      "successcount": 1,
+      "failcount": 1,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094540,
+      "item_id": 45183,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094540,
+      "item_id": 10254,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094540,
+      "item_id": 17189,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3094540,
+      "item_id": 17762,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3094540,
+      "item_id": 17910,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3094541,
+      "item_id": 135439,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094541,
+      "item_id": 38514,
+      "successcount": 1,
+      "failcount": 1,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094541,
+      "item_id": 134653,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094541,
+      "item_id": 8084,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094541,
+      "item_id": 8086,
+      "successcount": 1,
+      "failcount": 1,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3094541,
+      "item_id": 17762,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3094541,
+      "item_id": 17910,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    }
+  ],
+  "item_dependencies": [
+    {
+      "id": 8050,
+      "name": "Large Groove Nocks"
+    },
+    {
+      "id": 8052,
+      "name": "Small Groove Nocks"
+    },
+    {
+      "id": 8063,
+      "name": "Bundled Steel Arrow Shafts"
+    },
+    {
+      "id": 8084,
+      "name": "Darkwood Bow Staff"
+    },
+    {
+      "id": 8086,
+      "name": "Planing Tool"
+    },
+    {
+      "id": 8090,
+      "name": "Silk String"
+    },
+    {
+      "id": 10254,
+      "name": "Vial of Purified Mana"
+    },
+    {
+      "id": 16858,
+      "name": "Gears"
+    },
+    {
+      "id": 17189,
+      "name": "Collapsible Fletching Kit"
+    },
+    {
+      "id": 17762,
+      "name": "Planar Fletching Kit"
+    },
+    {
+      "id": 17910,
+      "name": "Fletching Kit"
+    },
+    {
+      "id": 29992,
+      "name": "Clump of Wax"
+    },
+    {
+      "id": 38514,
+      "name": "5 Knot Measuring String"
+    },
+    {
+      "id": 45173,
+      "name": "Exceptional Sandpaper"
+    },
+    {
+      "id": 45175,
+      "name": "Recurve Bow Diagram"
+    },
+    {
+      "id": 45183,
+      "name": "Recurve Bow Inlay"
+    },
+    {
+      "id": 48158,
+      "name": "Blessed Water of Terris-Thule"
+    },
+    {
+      "id": 48159,
+      "name": "Blessed Water of Fennin Ro"
+    },
+    {
+      "id": 48160,
+      "name": "Blessed Water of Saryrn"
+    },
+    {
+      "id": 48161,
+      "name": "Blessed Water of Druzzil Ro"
+    },
+    {
+      "id": 64546,
+      "name": "Essence of Alaris"
+    },
+    {
+      "id": 64922,
+      "name": "Goral Fins"
+    },
+    {
+      "id": 76322,
+      "name": "Planar Energy Shard"
+    },
+    {
+      "id": 79493,
+      "name": "Alliance Longbow"
+    },
+    {
+      "id": 79494,
+      "name": "Alliance Crossbow"
+    },
+    {
+      "id": 79495,
+      "name": "Alliance Arrows"
+    },
+    {
+      "id": 79496,
+      "name": "Alliance Crossbow Bolts"
+    },
+    {
+      "id": 81821,
+      "name": "Blessed Water of Rallos Zek"
+    },
+    {
+      "id": 81822,
+      "name": "Blessed Water of The Tribunal"
+    },
+    {
+      "id": 81823,
+      "name": "Blessed Water of Cazic-Thule"
+    },
+    {
+      "id": 81824,
+      "name": "Blessed Water of Brell Serilis"
+    },
+    {
+      "id": 81825,
+      "name": "Blessed Water of Tunare"
+    },
+    {
+      "id": 81826,
+      "name": "Blessed Water of Innoruuk"
+    },
+    {
+      "id": 81827,
+      "name": "Blessed Water of Prexus"
+    },
+    {
+      "id": 81828,
+      "name": "Blessed Water of Mithaniel Marr"
+    },
+    {
+      "id": 81829,
+      "name": "Blessed Water of Erollisi Marr"
+    },
+    {
+      "id": 81830,
+      "name": "Blessed Water of Bertoxxulous"
+    },
+    {
+      "id": 81831,
+      "name": "Blessed Water of Solusek Ro"
+    },
+    {
+      "id": 81832,
+      "name": "Blessed Water of Karana"
+    },
+    {
+      "id": 81833,
+      "name": "Blessed Water of Bristlebane"
+    },
+    {
+      "id": 81834,
+      "name": "Blessed Water of Quellious"
+    },
+    {
+      "id": 81835,
+      "name": "Blessed Water of Rodcet Nife"
+    },
+    {
+      "id": 81836,
+      "name": "Blessed Water of Veeshan"
+    },
+    {
+      "id": 81837,
+      "name": "Water of the Skeptic"
+    },
+    {
+      "id": 134653,
+      "name": "Befouled Silk"
+    },
+    {
+      "id": 134656,
+      "name": "Befouled Spinneret Fluid"
+    },
+    {
+      "id": 135312,
+      "name": "Tainted Feather"
+    },
+    {
+      "id": 135314,
+      "name": "Fractured Shard"
+    },
+    {
+      "id": 135405,
+      "name": "Transcendent Reaching Weapon Augments - Fletchers"
+    },
+    {
+      "id": 135406,
+      "name": "Befouled Sandpaper"
+    },
+    {
+      "id": 135407,
+      "name": "Regal Recurve Bow String"
+    },
+    {
+      "id": 135408,
+      "name": "Regal Infused Recurve Bow"
+    },
+    {
+      "id": 135409,
+      "name": "Regal Uninfused Recurve Bow"
+    },
+    {
+      "id": 135410,
+      "name": "Regal Recurve Bow Diagrams"
+    },
+    {
+      "id": 135411,
+      "name": "Transcendent Reaching Symbol of the Skeptic"
+    },
+    {
+      "id": 135412,
+      "name": "Transcendent Reaching Symbol of Infestation"
+    },
+    {
+      "id": 135413,
+      "name": "Transcendent Reaching Symbol of Below"
+    },
+    {
+      "id": 135414,
+      "name": "Transcendent Reaching Symbol of the Farceur"
+    },
+    {
+      "id": 135415,
+      "name": "Transcendent Reaching Symbol of Terror"
+    },
+    {
+      "id": 135416,
+      "name": "Transcendent Reaching Symbol of Thaumaturgy"
+    },
+    {
+      "id": 135417,
+      "name": "Transcendent Reaching Symbol of Devotion"
+    },
+    {
+      "id": 135418,
+      "name": "Transcendent Reaching Symbol of the Fire Lord"
+    },
+    {
+      "id": 135419,
+      "name": "Transcendent Reaching Symbol of Hate"
+    },
+    {
+      "id": 135420,
+      "name": "Transcendent Reaching Symbol of Storms"
+    },
+    {
+      "id": 135421,
+      "name": "Transcendent Reaching Symbol of Integrity"
+    },
+    {
+      "id": 135422,
+      "name": "Transcendent Reaching Symbol of the Depths"
+    },
+    {
+      "id": 135423,
+      "name": "Transcendent Reaching Symbol of Stillness"
+    },
+    {
+      "id": 135424,
+      "name": "Transcendent Reaching Symbol of the Warmonger"
+    },
+    {
+      "id": 135425,
+      "name": "Transcendent Reaching Symbol of Compassion"
+    },
+    {
+      "id": 135426,
+      "name": "Transcendent Reaching Symbol of Malignancy"
+    },
+    {
+      "id": 135427,
+      "name": "Transcendent Reaching Symbol of Wildfire"
+    },
+    {
+      "id": 135428,
+      "name": "Transcendent Reaching Symbol of Decay"
+    },
+    {
+      "id": 135429,
+      "name": "Transcendent Reaching Symbol of Judgement"
+    },
+    {
+      "id": 135430,
+      "name": "Transcendent Reaching Symbol of Growth"
+    },
+    {
+      "id": 135431,
+      "name": "Transcendent Reaching Symbol of the Brood"
+    },
+    {
+      "id": 135439,
+      "name": "Regal Baton"
+    },
+    {
+      "id": 135440,
+      "name": "Regal Staff"
+    }
+  ],
+  "unchanged_prototype_recipes": [],
+  "unchanged_prototype_entries": [],
+  "source_facts": [
+    {
+      "recipe_id": 3094513,
+      "source_name": "Alliance Longbow",
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=562&rsa=Fletching&sub=ROF",
+      "output_source_url": "https://www.eqtraders.com/items/show_item.php?item=40395&menustr=010000000000",
+      "output_item_id": 79493,
+      "trivial": 355,
+      "yield_count": 1,
+      "ingredients": [
+        {
+          "item_id": 8084,
+          "name": "Darkwood Bowstave",
+          "count": 1
+        },
+        {
+          "item_id": 64546,
+          "name": "Essence of Alaris",
+          "count": 1
+        },
+        {
+          "item_id": 45173,
+          "name": "Exceptional Sandpaper",
+          "count": 1
+        },
+        {
+          "item_id": 76322,
+          "name": "Planar Energy Shard",
+          "count": 1
+        },
+        {
+          "item_id": 8086,
+          "name": "Planing Tool",
+          "count": 1
+        },
+        {
+          "item_id": 8090,
+          "name": "Silk String",
+          "count": 1
+        }
+      ],
+      "container_item_ids": [
+        17189,
+        17762,
+        17910
+      ],
+      "held_source_containers": [
+        {
+          "name": "Feir`Dal Fletching Kit",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=7858"
+        },
+        {
+          "name": "Surefall Fletching Kit",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=9604"
+        },
+        {
+          "name": "Fletching Table (Placeable)",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34388"
+        },
+        {
+          "name": "Fletching Table",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34483"
+        },
+        {
+          "name": "Guild Fletching Table",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=38416"
+        }
+      ],
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "source_formula": "Components: Darkwood Bowstave, Essence of Alaris, Exceptional Sandpaper, Planar Energy Shard, Planing Tool, Silk String\nIn: Fletching Kit, Planar Fletching Kit, Collapsible Fletching Kit, Feir`Dal Fletching Kit, Surefall Fletching Kit, Fletching Table (Placeable), Fletching Table, Guild Fletching Table\nYield: 1\nAlso Returns: Planing Tool(1)\nOn Failure Returns: Planing Tool(1)\nNotes: EQRecipeID: 4964"
+    },
+    {
+      "recipe_id": 3094514,
+      "source_name": "Alliance Crossbow",
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=562&rsa=Fletching&sub=ROF",
+      "output_source_url": "https://www.eqtraders.com/items/show_item.php?item=40394&menustr=010000000000",
+      "output_item_id": 79494,
+      "trivial": 355,
+      "yield_count": 1,
+      "ingredients": [
+        {
+          "item_id": 8084,
+          "name": "Darkwood Bowstave",
+          "count": 1
+        },
+        {
+          "item_id": 64546,
+          "name": "Essence of Alaris",
+          "count": 1
+        },
+        {
+          "item_id": 45173,
+          "name": "Exceptional Sandpaper",
+          "count": 1
+        },
+        {
+          "item_id": 16858,
+          "name": "Gears",
+          "count": 1
+        },
+        {
+          "item_id": 76322,
+          "name": "Planar Energy Shard",
+          "count": 1
+        },
+        {
+          "item_id": 8086,
+          "name": "Planing Tool",
+          "count": 1
+        },
+        {
+          "item_id": 8090,
+          "name": "Silk String",
+          "count": 1
+        }
+      ],
+      "container_item_ids": [
+        17189,
+        17762,
+        17910
+      ],
+      "held_source_containers": [
+        {
+          "name": "Feir`Dal Fletching Kit",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=7858"
+        },
+        {
+          "name": "Surefall Fletching Kit",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=9604"
+        },
+        {
+          "name": "Fletching Table (Placeable)",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34388"
+        },
+        {
+          "name": "Fletching Table",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34483"
+        },
+        {
+          "name": "Guild Fletching Table",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=38416"
+        }
+      ],
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "source_formula": "Components: Darkwood Bowstave, Essence of Alaris, Exceptional Sandpaper, Gears, Planar Energy Shard, Planing Tool, Silk String\nIn: Fletching Kit, Planar Fletching Kit, Collapsible Fletching Kit, Feir`Dal Fletching Kit, Surefall Fletching Kit, Fletching Table (Placeable), Fletching Table, Guild Fletching Table\nYield: 1\nAlso Returns: Planing Tool(1)\nOn Failure Returns: Planing Tool(1)\nNotes: EQRecipeID: 4966"
+    },
+    {
+      "recipe_id": 3094515,
+      "source_name": "Alliance Arrows",
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=562&rsa=Fletching&sub=ROF",
+      "output_source_url": "https://www.eqtraders.com/items/show_item.php?item=40396&menustr=010000000000",
+      "output_item_id": 79495,
+      "trivial": 302,
+      "yield_count": 10,
+      "ingredients": [
+        {
+          "item_id": 8063,
+          "name": "Bundled Steel Arrow Shafts",
+          "count": 1
+        },
+        {
+          "item_id": 135314,
+          "name": "Fractured Shard",
+          "count": 1
+        },
+        {
+          "item_id": 64922,
+          "name": "Goral Fins",
+          "count": 1
+        },
+        {
+          "item_id": 8050,
+          "name": "Large Groove Nocks",
+          "count": 1
+        },
+        {
+          "item_id": 135312,
+          "name": "Tainted Feather",
+          "count": 1
+        }
+      ],
+      "container_item_ids": [
+        17189,
+        17762,
+        17910
+      ],
+      "held_source_containers": [
+        {
+          "name": "Feir`Dal Fletching Kit",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=7858"
+        },
+        {
+          "name": "Surefall Fletching Kit",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=9604"
+        },
+        {
+          "name": "Fletching Table (Placeable)",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34388"
+        },
+        {
+          "name": "Fletching Table",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34483"
+        },
+        {
+          "name": "Guild Fletching Table",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=38416"
+        }
+      ],
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "source_formula": "Components: Bundled Steel Arrow Shafts, Fractured Shard, Goral Fins, Large Groove Nocks, Tainted Feather\nIn: Fletching Kit, Planar Fletching Kit, Collapsible Fletching Kit, Feir`Dal Fletching Kit, Surefall Fletching Kit, Fletching Table (Placeable), Fletching Table, Guild Fletching Table\nYield: 10\nNotes: EQRecipeID: 4965"
+    },
+    {
+      "recipe_id": 3094516,
+      "source_name": "Alliance Crossbow Bolts",
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=562&rsa=Fletching&sub=ROF",
+      "output_source_url": "https://www.eqtraders.com/items/show_item.php?item=40410&menustr=010000000000",
+      "output_item_id": 79496,
+      "trivial": 302,
+      "yield_count": 10,
+      "ingredients": [
+        {
+          "item_id": 8063,
+          "name": "Bundled Steel Arrow Shafts",
+          "count": 1
+        },
+        {
+          "item_id": 135314,
+          "name": "Fractured Shard",
+          "count": 1
+        },
+        {
+          "item_id": 64922,
+          "name": "Goral Fins",
+          "count": 1
+        },
+        {
+          "item_id": 8052,
+          "name": "Small Groove Nocks",
+          "count": 1
+        },
+        {
+          "item_id": 135312,
+          "name": "Tainted Feather",
+          "count": 1
+        }
+      ],
+      "container_item_ids": [
+        17189,
+        17762,
+        17910
+      ],
+      "held_source_containers": [
+        {
+          "name": "Feir`Dal Fletching Kit",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=7858"
+        },
+        {
+          "name": "Surefall Fletching Kit",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=9604"
+        },
+        {
+          "name": "Fletching Table (Placeable)",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34388"
+        },
+        {
+          "name": "Fletching Table",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34483"
+        },
+        {
+          "name": "Guild Fletching Table",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=38416"
+        }
+      ],
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "source_formula": "Components: Bundled Steel Arrow Shafts, Fractured Shard, Goral Fins, Small Groove Nocks, Tainted Feather\nIn: Fletching Kit, Planar Fletching Kit, Collapsible Fletching Kit, Feir`Dal Fletching Kit, Surefall Fletching Kit, Fletching Table (Placeable), Fletching Table, Guild Fletching Table\nYield: 10\nNotes: EQRecipeID: 4967"
+    },
+    {
+      "recipe_id": 3094517,
+      "source_name": "Regal Recurve Bowstring",
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=562&rsa=Fletching&sub=ROF",
+      "output_source_url": "https://www.eqtraders.com/items/show_item.php?item=39709&menustr=010000000000",
+      "output_item_id": 135407,
+      "trivial": 258,
+      "yield_count": 1,
+      "ingredients": [
+        {
+          "item_id": 134653,
+          "name": "Befouled Silk",
+          "count": 2
+        },
+        {
+          "item_id": 29992,
+          "name": "Clump of Wax",
+          "count": 1
+        }
+      ],
+      "container_item_ids": [
+        17762,
+        17910
+      ],
+      "held_source_containers": [
+        {
+          "name": "Fletching Table (Placeable)",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34388"
+        },
+        {
+          "name": "Fletching Table",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34483"
+        },
+        {
+          "name": "Guild Fletching Table",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=38416"
+        }
+      ],
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "source_formula": "Components: Befouled Silk (2), Clump of Wax\nIn: Fletching Kit, Planar Fletching Kit, Fletching Table (Placeable), Fletching Table, Guild Fletching Table\nYield: 1\nNotes: EQRecipeID: 49313"
+    },
+    {
+      "recipe_id": 3094518,
+      "source_name": "Regal Infused Recurve Bow",
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=562&rsa=Fletching&sub=ROF",
+      "output_source_url": "https://www.eqtraders.com/items/show_item.php?item=39861&menustr=010000000000",
+      "output_item_id": 135408,
+      "trivial": 508,
+      "yield_count": 1,
+      "ingredients": [
+        {
+          "item_id": 135406,
+          "name": "Befouled Sandpaper",
+          "count": 1
+        },
+        {
+          "item_id": 134656,
+          "name": "Befouled Spinneret Fluid",
+          "count": 1
+        },
+        {
+          "item_id": 76322,
+          "name": "Planar Energy Shard",
+          "count": 1
+        },
+        {
+          "item_id": 8086,
+          "name": "Planing Tool",
+          "count": 1
+        },
+        {
+          "item_id": 45175,
+          "name": "Recurve Bow Diagram (Pattern)",
+          "count": 1
+        },
+        {
+          "item_id": 135407,
+          "name": "Regal Recurve Bowstring",
+          "count": 1
+        },
+        {
+          "item_id": 135440,
+          "name": "Regal Staff",
+          "count": 1
+        }
+      ],
+      "container_item_ids": [
+        17762,
+        17910
+      ],
+      "held_source_containers": [
+        {
+          "name": "Fletching Table (Placeable)",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34388"
+        },
+        {
+          "name": "Fletching Table",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34483"
+        },
+        {
+          "name": "Guild Fletching Table",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=38416"
+        }
+      ],
+      "must_learn": 1,
+      "learned_by_item_id": 135410,
+      "source_formula": "Components: Befouled Sandpaper, Befouled Spinneret Fluid, Planar Energy Shard, Planing Tool, Recurve Bow Diagram (Pattern), Regal Recurve Bowstring, Regal Staff\nIn: Fletching Kit, Planar Fletching Kit, Fletching Table (Placeable), Fletching Table, Guild Fletching Table\nYield: 1\nAlso Returns: Planing Tool(1)\nOn Failure Returns: Planing Tool(1)\nNotes: Must scribe to learn: Regal Recurve Bow Diagrams"
+    },
+    {
+      "recipe_id": 3094519,
+      "source_name": "Regal Uninfused Recurve Bow",
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=562&rsa=Fletching&sub=ROF",
+      "output_source_url": "https://www.eqtraders.com/items/show_item.php?item=39862&menustr=010000000000",
+      "output_item_id": 135409,
+      "trivial": 508,
+      "yield_count": 1,
+      "ingredients": [
+        {
+          "item_id": 135406,
+          "name": "Befouled Sandpaper",
+          "count": 1
+        },
+        {
+          "item_id": 134656,
+          "name": "Befouled Spinneret Fluid",
+          "count": 1
+        },
+        {
+          "item_id": 8086,
+          "name": "Planing Tool",
+          "count": 1
+        },
+        {
+          "item_id": 45175,
+          "name": "Recurve Bow Diagram (Pattern)",
+          "count": 1
+        },
+        {
+          "item_id": 135407,
+          "name": "Regal Recurve Bowstring",
+          "count": 1
+        },
+        {
+          "item_id": 135440,
+          "name": "Regal Staff",
+          "count": 1
+        }
+      ],
+      "container_item_ids": [
+        17762,
+        17910
+      ],
+      "held_source_containers": [
+        {
+          "name": "Fletching Table (Placeable)",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34388"
+        },
+        {
+          "name": "Fletching Table",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34483"
+        },
+        {
+          "name": "Guild Fletching Table",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=38416"
+        }
+      ],
+      "must_learn": 1,
+      "learned_by_item_id": 135410,
+      "source_formula": "Components: Befouled Sandpaper, Befouled Spinneret Fluid, Planing Tool, Recurve Bow Diagram (Pattern), Regal Recurve Bowstring, Regal Staff\nIn: Fletching Kit, Planar Fletching Kit, Fletching Table (Placeable), Fletching Table, Guild Fletching Table\nYield: 1\nAlso Returns: Planing Tool(1)\nOn Failure Returns: Planing Tool(1)\nNotes: Must scribe to learn: Regal Recurve Bow Diagrams"
+    },
+    {
+      "recipe_id": 3094520,
+      "source_name": "Transcendent Reaching Symbol of the Skeptic",
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=562&rsa=Fletching&sub=ROF",
+      "output_source_url": "https://www.eqtraders.com/items/show_item.php?item=40292&menustr=010000000000",
+      "output_item_id": 135411,
+      "trivial": 499,
+      "yield_count": 1,
+      "ingredients": [
+        {
+          "item_id": 134656,
+          "name": "Befouled Spinneret Fluid",
+          "count": 1
+        },
+        {
+          "item_id": 8086,
+          "name": "Planing Tool",
+          "count": 1
+        },
+        {
+          "item_id": 45183,
+          "name": "Recurve Bow Inlay",
+          "count": 1
+        },
+        {
+          "item_id": 10254,
+          "name": "Vial of Purified Mana",
+          "count": 1
+        },
+        {
+          "item_id": 81837,
+          "name": "Water of the Skeptic",
+          "count": 1
+        }
+      ],
+      "container_item_ids": [
+        17189,
+        17762,
+        17910
+      ],
+      "held_source_containers": [
+        {
+          "name": "Feir`Dal Fletching Kit",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=7858"
+        },
+        {
+          "name": "Surefall Fletching Kit",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=9604"
+        },
+        {
+          "name": "Fletching Table (Placeable)",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34388"
+        },
+        {
+          "name": "Fletching Table",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34483"
+        },
+        {
+          "name": "Guild Fletching Table",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=38416"
+        }
+      ],
+      "must_learn": 1,
+      "learned_by_item_id": 135405,
+      "source_formula": "Components: Befouled Spinneret Fluid, Planing Tool, Recurve Bow Inlay, Vial of Purified Mana, Water of the Skeptic\nIn: Fletching Kit, Planar Fletching Kit, Collapsible Fletching Kit, Feir`Dal Fletching Kit, Surefall Fletching Kit, Fletching Table (Placeable), Fletching Table, Guild Fletching Table\nYield: 1\nAlso Returns: Planing Tool(1)\nOn Failure Returns: Planing Tool(1)\nNotes: You must purchase and scribe Transcendent Reaching Weapon Augments - Fletchers in order to complete this combine."
+    },
+    {
+      "recipe_id": 3094521,
+      "source_name": "Transcendent Reaching Symbol of Infestation",
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=562&rsa=Fletching&sub=ROF",
+      "output_source_url": "https://www.eqtraders.com/items/show_item.php?item=40279&menustr=010000000000",
+      "output_item_id": 135412,
+      "trivial": 499,
+      "yield_count": 1,
+      "ingredients": [
+        {
+          "item_id": 134656,
+          "name": "Befouled Spinneret Fluid",
+          "count": 1
+        },
+        {
+          "item_id": 81830,
+          "name": "Blessed Water of Bertoxxulous",
+          "count": 1
+        },
+        {
+          "item_id": 8086,
+          "name": "Planing Tool",
+          "count": 1
+        },
+        {
+          "item_id": 45183,
+          "name": "Recurve Bow Inlay",
+          "count": 1
+        },
+        {
+          "item_id": 10254,
+          "name": "Vial of Purified Mana",
+          "count": 1
+        }
+      ],
+      "container_item_ids": [
+        17189,
+        17762,
+        17910
+      ],
+      "held_source_containers": [
+        {
+          "name": "Feir`Dal Fletching Kit",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=7858"
+        },
+        {
+          "name": "Surefall Fletching Kit",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=9604"
+        },
+        {
+          "name": "Fletching Table (Placeable)",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34388"
+        },
+        {
+          "name": "Fletching Table",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34483"
+        },
+        {
+          "name": "Guild Fletching Table",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=38416"
+        }
+      ],
+      "must_learn": 1,
+      "learned_by_item_id": 135405,
+      "source_formula": "Components: Befouled Spinneret Fluid, Blessed Water of Bertoxxulous, Planing Tool, Recurve Bow Inlay, Vial of Purified Mana\nIn: Fletching Kit, Planar Fletching Kit, Collapsible Fletching Kit, Feir`Dal Fletching Kit, Surefall Fletching Kit, Fletching Table (Placeable), Fletching Table, Guild Fletching Table\nYield: 1\nAlso Returns: Planing Tool(1)\nOn Failure Returns: Planing Tool(1)\nNotes: You must purchase and scribe Transcendent Reaching Weapon Augments - Fletchers in order to complete this combine."
+    },
+    {
+      "recipe_id": 3094522,
+      "source_name": "Transcendent Reaching Symbol of Below",
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=562&rsa=Fletching&sub=ROF",
+      "output_source_url": "https://www.eqtraders.com/items/show_item.php?item=40273&menustr=010000000000",
+      "output_item_id": 135413,
+      "trivial": 499,
+      "yield_count": 1,
+      "ingredients": [
+        {
+          "item_id": 134656,
+          "name": "Befouled Spinneret Fluid",
+          "count": 1
+        },
+        {
+          "item_id": 81824,
+          "name": "Blessed Water of Brell Serilis",
+          "count": 1
+        },
+        {
+          "item_id": 8086,
+          "name": "Planing Tool",
+          "count": 1
+        },
+        {
+          "item_id": 45183,
+          "name": "Recurve Bow Inlay",
+          "count": 1
+        },
+        {
+          "item_id": 10254,
+          "name": "Vial of Purified Mana",
+          "count": 1
+        }
+      ],
+      "container_item_ids": [
+        17189,
+        17762,
+        17910
+      ],
+      "held_source_containers": [
+        {
+          "name": "Feir`Dal Fletching Kit",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=7858"
+        },
+        {
+          "name": "Surefall Fletching Kit",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=9604"
+        },
+        {
+          "name": "Fletching Table (Placeable)",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34388"
+        },
+        {
+          "name": "Fletching Table",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34483"
+        },
+        {
+          "name": "Guild Fletching Table",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=38416"
+        }
+      ],
+      "must_learn": 1,
+      "learned_by_item_id": 135405,
+      "source_formula": "Components: Befouled Spinneret Fluid, Blessed Water of Brell Serilis, Planing Tool, Recurve Bow Inlay, Vial of Purified Mana\nIn: Fletching Kit, Planar Fletching Kit, Collapsible Fletching Kit, Feir`Dal Fletching Kit, Surefall Fletching Kit, Fletching Table (Placeable), Fletching Table, Guild Fletching Table\nYield: 1\nAlso Returns: Planing Tool(1)\nOn Failure Returns: Planing Tool(1)\nNotes: You must purchase and scribe Transcendent Reaching Weapon Augments - Fletchers in order to complete this combine."
+    },
+    {
+      "recipe_id": 3094523,
+      "source_name": "Transcendent Reaching Symbol of the Farceur",
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=562&rsa=Fletching&sub=ROF",
+      "output_source_url": "https://www.eqtraders.com/items/show_item.php?item=40290&menustr=010000000000",
+      "output_item_id": 135414,
+      "trivial": 499,
+      "yield_count": 1,
+      "ingredients": [
+        {
+          "item_id": 134656,
+          "name": "Befouled Spinneret Fluid",
+          "count": 1
+        },
+        {
+          "item_id": 81833,
+          "name": "Blessed Water of Bristlebane",
+          "count": 1
+        },
+        {
+          "item_id": 8086,
+          "name": "Planing Tool",
+          "count": 1
+        },
+        {
+          "item_id": 45183,
+          "name": "Recurve Bow Inlay",
+          "count": 1
+        },
+        {
+          "item_id": 10254,
+          "name": "Vial of Purified Mana",
+          "count": 1
+        }
+      ],
+      "container_item_ids": [
+        17189,
+        17762,
+        17910
+      ],
+      "held_source_containers": [
+        {
+          "name": "Feir`Dal Fletching Kit",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=7858"
+        },
+        {
+          "name": "Surefall Fletching Kit",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=9604"
+        },
+        {
+          "name": "Fletching Table (Placeable)",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34388"
+        },
+        {
+          "name": "Fletching Table",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34483"
+        },
+        {
+          "name": "Guild Fletching Table",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=38416"
+        }
+      ],
+      "must_learn": 1,
+      "learned_by_item_id": 135405,
+      "source_formula": "Components: Befouled Spinneret Fluid, Blessed Water of Bristlebane, Planing Tool, Recurve Bow Inlay, Vial of Purified Mana\nIn: Fletching Kit, Planar Fletching Kit, Collapsible Fletching Kit, Feir`Dal Fletching Kit, Surefall Fletching Kit, Fletching Table (Placeable), Fletching Table, Guild Fletching Table\nYield: 1\nAlso Returns: Planing Tool(1)\nOn Failure Returns: Planing Tool(1)\nNotes: You must purchase and scribe Transcendent Reaching Weapon Augments - Fletchers in order to complete this combine."
+    },
+    {
+      "recipe_id": 3094524,
+      "source_name": "Transcendent Reaching Symbol of Terror",
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=562&rsa=Fletching&sub=ROF",
+      "output_source_url": "https://www.eqtraders.com/items/show_item.php?item=40285&menustr=010000000000",
+      "output_item_id": 135415,
+      "trivial": 499,
+      "yield_count": 1,
+      "ingredients": [
+        {
+          "item_id": 134656,
+          "name": "Befouled Spinneret Fluid",
+          "count": 1
+        },
+        {
+          "item_id": 81823,
+          "name": "Blessed Water of Cazic-Thule",
+          "count": 1
+        },
+        {
+          "item_id": 8086,
+          "name": "Planing Tool",
+          "count": 1
+        },
+        {
+          "item_id": 45183,
+          "name": "Recurve Bow Inlay",
+          "count": 1
+        },
+        {
+          "item_id": 10254,
+          "name": "Vial of Purified Mana",
+          "count": 1
+        }
+      ],
+      "container_item_ids": [
+        17189,
+        17762,
+        17910
+      ],
+      "held_source_containers": [
+        {
+          "name": "Feir`Dal Fletching Kit",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=7858"
+        },
+        {
+          "name": "Surefall Fletching Kit",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=9604"
+        },
+        {
+          "name": "Fletching Table (Placeable)",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34388"
+        },
+        {
+          "name": "Fletching Table",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34483"
+        },
+        {
+          "name": "Guild Fletching Table",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=38416"
+        }
+      ],
+      "must_learn": 1,
+      "learned_by_item_id": 135405,
+      "source_formula": "Components: Befouled Spinneret Fluid, Blessed Water of Cazic-Thule, Planing Tool, Recurve Bow Inlay, Vial of Purified Mana\nIn: Fletching Kit, Planar Fletching Kit, Collapsible Fletching Kit, Feir`Dal Fletching Kit, Surefall Fletching Kit, Fletching Table (Placeable), Fletching Table, Guild Fletching Table\nYield: 1\nAlso Returns: Planing Tool(1)\nOn Failure Returns: Planing Tool(1)\nNotes: You must purchase and scribe Transcendent Reaching Weapon Augments - Fletchers in order to complete this combine."
+    },
+    {
+      "recipe_id": 3094525,
+      "source_name": "Transcendent Reaching Symbol of Thaumaturgy",
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=562&rsa=Fletching&sub=ROF",
+      "output_source_url": "https://www.eqtraders.com/items/show_item.php?item=40286&menustr=010000000000",
+      "output_item_id": 135416,
+      "trivial": 499,
+      "yield_count": 1,
+      "ingredients": [
+        {
+          "item_id": 134656,
+          "name": "Befouled Spinneret Fluid",
+          "count": 1
+        },
+        {
+          "item_id": 48161,
+          "name": "Blessed Water of Druzzil Ro",
+          "count": 1
+        },
+        {
+          "item_id": 8086,
+          "name": "Planing Tool",
+          "count": 1
+        },
+        {
+          "item_id": 45183,
+          "name": "Recurve Bow Inlay",
+          "count": 1
+        },
+        {
+          "item_id": 10254,
+          "name": "Vial of Purified Mana",
+          "count": 1
+        }
+      ],
+      "container_item_ids": [
+        17189,
+        17762,
+        17910
+      ],
+      "held_source_containers": [
+        {
+          "name": "Feir`Dal Fletching Kit",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=7858"
+        },
+        {
+          "name": "Surefall Fletching Kit",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=9604"
+        },
+        {
+          "name": "Fletching Table (Placeable)",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34388"
+        },
+        {
+          "name": "Fletching Table",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34483"
+        },
+        {
+          "name": "Guild Fletching Table",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=38416"
+        }
+      ],
+      "must_learn": 1,
+      "learned_by_item_id": 135405,
+      "source_formula": "Components: Befouled Spinneret Fluid, Blessed Water of Druzzil Ro, Planing Tool, Recurve Bow Inlay, Vial of Purified Mana\nIn: Fletching Kit, Planar Fletching Kit, Collapsible Fletching Kit, Feir`Dal Fletching Kit, Surefall Fletching Kit, Fletching Table (Placeable), Fletching Table, Guild Fletching Table\nYield: 1\nAlso Returns: Planing Tool(1)\nOn Failure Returns: Planing Tool(1)\nNotes: You must purchase and scribe Transcendent Reaching Weapon Augments - Fletchers in order to complete this combine."
+    },
+    {
+      "recipe_id": 3094526,
+      "source_name": "Transcendent Reaching Symbol of Devotion",
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=562&rsa=Fletching&sub=ROF",
+      "output_source_url": "https://www.eqtraders.com/items/show_item.php?item=40276&menustr=010000000000",
+      "output_item_id": 135417,
+      "trivial": 499,
+      "yield_count": 1,
+      "ingredients": [
+        {
+          "item_id": 134656,
+          "name": "Befouled Spinneret Fluid",
+          "count": 1
+        },
+        {
+          "item_id": 81829,
+          "name": "Blessed Water of Erollisi Marr",
+          "count": 1
+        },
+        {
+          "item_id": 8086,
+          "name": "Planing Tool",
+          "count": 1
+        },
+        {
+          "item_id": 45183,
+          "name": "Recurve Bow Inlay",
+          "count": 1
+        },
+        {
+          "item_id": 10254,
+          "name": "Vial of Purified Mana",
+          "count": 1
+        }
+      ],
+      "container_item_ids": [
+        17189,
+        17762,
+        17910
+      ],
+      "held_source_containers": [
+        {
+          "name": "Feir`Dal Fletching Kit",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=7858"
+        },
+        {
+          "name": "Surefall Fletching Kit",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=9604"
+        },
+        {
+          "name": "Fletching Table (Placeable)",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34388"
+        },
+        {
+          "name": "Fletching Table",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34483"
+        },
+        {
+          "name": "Guild Fletching Table",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=38416"
+        }
+      ],
+      "must_learn": 1,
+      "learned_by_item_id": 135405,
+      "source_formula": "Components: Befouled Spinneret Fluid, Blessed Water of Erollisi Marr, Planing Tool, Recurve Bow Inlay, Vial of Purified Mana\nIn: Fletching Kit, Planar Fletching Kit, Collapsible Fletching Kit, Feir`Dal Fletching Kit, Surefall Fletching Kit, Fletching Table (Placeable), Fletching Table, Guild Fletching Table\nYield: 1\nAlso Returns: Planing Tool(1)\nOn Failure Returns: Planing Tool(1)\nNotes: You must purchase and scribe Transcendent Reaching Weapon Augments - Fletchers in order to complete this combine."
+    },
+    {
+      "recipe_id": 3094527,
+      "source_name": "Transcendent Reaching Symbol of the Fire Lord",
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=562&rsa=Fletching&sub=ROF",
+      "output_source_url": "https://www.eqtraders.com/items/show_item.php?item=40291&menustr=010000000000",
+      "output_item_id": 135418,
+      "trivial": 499,
+      "yield_count": 1,
+      "ingredients": [
+        {
+          "item_id": 134656,
+          "name": "Befouled Spinneret Fluid",
+          "count": 1
+        },
+        {
+          "item_id": 48159,
+          "name": "Blessed Water of Fennin Ro",
+          "count": 1
+        },
+        {
+          "item_id": 8086,
+          "name": "Planing Tool",
+          "count": 1
+        },
+        {
+          "item_id": 45183,
+          "name": "Recurve Bow Inlay",
+          "count": 1
+        },
+        {
+          "item_id": 10254,
+          "name": "Vial of Purified Mana",
+          "count": 1
+        }
+      ],
+      "container_item_ids": [
+        17189,
+        17762,
+        17910
+      ],
+      "held_source_containers": [
+        {
+          "name": "Feir`Dal Fletching Kit",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=7858"
+        },
+        {
+          "name": "Surefall Fletching Kit",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=9604"
+        },
+        {
+          "name": "Fletching Table (Placeable)",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34388"
+        },
+        {
+          "name": "Fletching Table",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34483"
+        },
+        {
+          "name": "Guild Fletching Table",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=38416"
+        }
+      ],
+      "must_learn": 1,
+      "learned_by_item_id": 135405,
+      "source_formula": "Components: Befouled Spinneret Fluid, Blessed Water of Fennin Ro, Planing Tool, Recurve Bow Inlay, Vial of Purified Mana\nIn: Fletching Kit, Planar Fletching Kit, Collapsible Fletching Kit, Feir`Dal Fletching Kit, Surefall Fletching Kit, Fletching Table (Placeable), Fletching Table, Guild Fletching Table\nYield: 1\nAlso Returns: Planing Tool(1)\nOn Failure Returns: Planing Tool(1)\nNotes: You must purchase and scribe Transcendent Reaching Weapon Augments - Fletchers in order to complete this combine."
+    },
+    {
+      "recipe_id": 3094528,
+      "source_name": "Transcendent Reaching Symbol of Hate",
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=562&rsa=Fletching&sub=ROF",
+      "output_source_url": "https://www.eqtraders.com/items/show_item.php?item=40278&menustr=010000000000",
+      "output_item_id": 135419,
+      "trivial": 499,
+      "yield_count": 1,
+      "ingredients": [
+        {
+          "item_id": 134656,
+          "name": "Befouled Spinneret Fluid",
+          "count": 1
+        },
+        {
+          "item_id": 81826,
+          "name": "Blessed Water of Innoruuk",
+          "count": 1
+        },
+        {
+          "item_id": 8086,
+          "name": "Planing Tool",
+          "count": 1
+        },
+        {
+          "item_id": 45183,
+          "name": "Recurve Bow Inlay",
+          "count": 1
+        },
+        {
+          "item_id": 10254,
+          "name": "Vial of Purified Mana",
+          "count": 1
+        }
+      ],
+      "container_item_ids": [
+        17189,
+        17762,
+        17910
+      ],
+      "held_source_containers": [
+        {
+          "name": "Feir`Dal Fletching Kit",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=7858"
+        },
+        {
+          "name": "Surefall Fletching Kit",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=9604"
+        },
+        {
+          "name": "Fletching Table (Placeable)",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34388"
+        },
+        {
+          "name": "Fletching Table",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34483"
+        },
+        {
+          "name": "Guild Fletching Table",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=38416"
+        }
+      ],
+      "must_learn": 1,
+      "learned_by_item_id": 135405,
+      "source_formula": "Components: Befouled Spinneret Fluid, Blessed Water of Innoruuk, Planing Tool, Recurve Bow Inlay, Vial of Purified Mana\nIn: Fletching Kit, Planar Fletching Kit, Collapsible Fletching Kit, Feir`Dal Fletching Kit, Surefall Fletching Kit, Fletching Table (Placeable), Fletching Table, Guild Fletching Table\nYield: 1\nAlso Returns: Planing Tool(1)\nOn Failure Returns: Planing Tool(1)\nNotes: You must purchase and scribe Transcendent Reaching Weapon Augments - Fletchers in order to complete this combine."
+    },
+    {
+      "recipe_id": 3094529,
+      "source_name": "Transcendent Reaching Symbol of Storms",
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=562&rsa=Fletching&sub=ROF",
+      "output_source_url": "https://www.eqtraders.com/items/show_item.php?item=40284&menustr=010000000000",
+      "output_item_id": 135420,
+      "trivial": 499,
+      "yield_count": 1,
+      "ingredients": [
+        {
+          "item_id": 134656,
+          "name": "Befouled Spinneret Fluid",
+          "count": 1
+        },
+        {
+          "item_id": 81832,
+          "name": "Blessed Water of Karana",
+          "count": 1
+        },
+        {
+          "item_id": 8086,
+          "name": "Planing Tool",
+          "count": 1
+        },
+        {
+          "item_id": 45183,
+          "name": "Recurve Bow Inlay",
+          "count": 1
+        },
+        {
+          "item_id": 10254,
+          "name": "Vial of Purified Mana",
+          "count": 1
+        }
+      ],
+      "container_item_ids": [
+        17189,
+        17762,
+        17910
+      ],
+      "held_source_containers": [
+        {
+          "name": "Feir`Dal Fletching Kit",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=7858"
+        },
+        {
+          "name": "Surefall Fletching Kit",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=9604"
+        },
+        {
+          "name": "Fletching Table (Placeable)",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34388"
+        },
+        {
+          "name": "Fletching Table",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34483"
+        },
+        {
+          "name": "Guild Fletching Table",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=38416"
+        }
+      ],
+      "must_learn": 1,
+      "learned_by_item_id": 135405,
+      "source_formula": "Components: Befouled Spinneret Fluid, Blessed Water of Karana, Planing Tool, Recurve Bow Inlay, Vial of Purified Mana\nIn: Fletching Kit, Planar Fletching Kit, Collapsible Fletching Kit, Feir`Dal Fletching Kit, Surefall Fletching Kit, Fletching Table (Placeable), Fletching Table, Guild Fletching Table\nYield: 1\nAlso Returns: Planing Tool(1)\nOn Failure Returns: Planing Tool(1)\nNotes: You must purchase and scribe Transcendent Reaching Weapon Augments - Fletchers in order to complete this combine."
+    },
+    {
+      "recipe_id": 3094530,
+      "source_name": "Transcendent Reaching Symbol of Integrity",
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=562&rsa=Fletching&sub=ROF",
+      "output_source_url": "https://www.eqtraders.com/items/show_item.php?item=40280&menustr=010000000000",
+      "output_item_id": 135421,
+      "trivial": 499,
+      "yield_count": 1,
+      "ingredients": [
+        {
+          "item_id": 134656,
+          "name": "Befouled Spinneret Fluid",
+          "count": 1
+        },
+        {
+          "item_id": 81828,
+          "name": "Blessed Water of Mithaniel Marr",
+          "count": 1
+        },
+        {
+          "item_id": 8086,
+          "name": "Planing Tool",
+          "count": 1
+        },
+        {
+          "item_id": 45183,
+          "name": "Recurve Bow Inlay",
+          "count": 1
+        },
+        {
+          "item_id": 10254,
+          "name": "Vial of Purified Mana",
+          "count": 1
+        }
+      ],
+      "container_item_ids": [
+        17189,
+        17762,
+        17910
+      ],
+      "held_source_containers": [
+        {
+          "name": "Feir`Dal Fletching Kit",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=7858"
+        },
+        {
+          "name": "Surefall Fletching Kit",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=9604"
+        },
+        {
+          "name": "Fletching Table (Placeable)",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34388"
+        },
+        {
+          "name": "Fletching Table",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34483"
+        },
+        {
+          "name": "Guild Fletching Table",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=38416"
+        }
+      ],
+      "must_learn": 1,
+      "learned_by_item_id": 135405,
+      "source_formula": "Components: Befouled Spinneret Fluid, Blessed Water of Mithaniel Marr, Planing Tool, Recurve Bow Inlay, Vial of Purified Mana\nIn: Fletching Kit, Planar Fletching Kit, Collapsible Fletching Kit, Feir`Dal Fletching Kit, Surefall Fletching Kit, Fletching Table (Placeable), Fletching Table, Guild Fletching Table\nYield: 1\nAlso Returns: Planing Tool(1)\nOn Failure Returns: Planing Tool(1)\nNotes: You must purchase and scribe Transcendent Reaching Weapon Augments - Fletchers in order to complete this combine."
+    },
+    {
+      "recipe_id": 3094531,
+      "source_name": "Transcendent Reaching Symbol of the Depths",
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=562&rsa=Fletching&sub=ROF",
+      "output_source_url": "https://www.eqtraders.com/items/show_item.php?item=40289&menustr=010000000000",
+      "output_item_id": 135422,
+      "trivial": 499,
+      "yield_count": 1,
+      "ingredients": [
+        {
+          "item_id": 134656,
+          "name": "Befouled Spinneret Fluid",
+          "count": 1
+        },
+        {
+          "item_id": 81827,
+          "name": "Blessed Water of Prexus",
+          "count": 1
+        },
+        {
+          "item_id": 8086,
+          "name": "Planing Tool",
+          "count": 1
+        },
+        {
+          "item_id": 45183,
+          "name": "Recurve Bow Inlay",
+          "count": 1
+        },
+        {
+          "item_id": 10254,
+          "name": "Vial of Purified Mana",
+          "count": 1
+        }
+      ],
+      "container_item_ids": [
+        17189,
+        17762,
+        17910
+      ],
+      "held_source_containers": [
+        {
+          "name": "Feir`Dal Fletching Kit",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=7858"
+        },
+        {
+          "name": "Surefall Fletching Kit",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=9604"
+        },
+        {
+          "name": "Fletching Table (Placeable)",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34388"
+        },
+        {
+          "name": "Fletching Table",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34483"
+        },
+        {
+          "name": "Guild Fletching Table",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=38416"
+        }
+      ],
+      "must_learn": 1,
+      "learned_by_item_id": 135405,
+      "source_formula": "Components: Befouled Spinneret Fluid, Blessed Water of Prexus, Planing Tool, Recurve Bow Inlay, Vial of Purified Mana\nIn: Fletching Kit, Planar Fletching Kit, Collapsible Fletching Kit, Feir`Dal Fletching Kit, Surefall Fletching Kit, Fletching Table (Placeable), Fletching Table, Guild Fletching Table\nYield: 1\nAlso Returns: Planing Tool(1)\nOn Failure Returns: Planing Tool(1)\nNotes: You must purchase and scribe Transcendent Reaching Weapon Augments - Fletchers in order to complete this combine."
+    },
+    {
+      "recipe_id": 3094532,
+      "source_name": "Transcendent Reaching Symbol of Stillness",
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=562&rsa=Fletching&sub=ROF",
+      "output_source_url": "https://www.eqtraders.com/items/show_item.php?item=40283&menustr=010000000000",
+      "output_item_id": 135423,
+      "trivial": 499,
+      "yield_count": 1,
+      "ingredients": [
+        {
+          "item_id": 134656,
+          "name": "Befouled Spinneret Fluid",
+          "count": 1
+        },
+        {
+          "item_id": 81834,
+          "name": "Blessed Water of Quellious",
+          "count": 1
+        },
+        {
+          "item_id": 8086,
+          "name": "Planing Tool",
+          "count": 1
+        },
+        {
+          "item_id": 45183,
+          "name": "Recurve Bow Inlay",
+          "count": 1
+        },
+        {
+          "item_id": 10254,
+          "name": "Vial of Purified Mana",
+          "count": 1
+        }
+      ],
+      "container_item_ids": [
+        17189,
+        17762,
+        17910
+      ],
+      "held_source_containers": [
+        {
+          "name": "Feir`Dal Fletching Kit",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=7858"
+        },
+        {
+          "name": "Surefall Fletching Kit",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=9604"
+        },
+        {
+          "name": "Fletching Table (Placeable)",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34388"
+        },
+        {
+          "name": "Fletching Table",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34483"
+        },
+        {
+          "name": "Guild Fletching Table",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=38416"
+        }
+      ],
+      "must_learn": 1,
+      "learned_by_item_id": 135405,
+      "source_formula": "Components: Befouled Spinneret Fluid, Blessed Water of Quellious, Planing Tool, Recurve Bow Inlay, Vial of Purified Mana\nIn: Fletching Kit, Planar Fletching Kit, Collapsible Fletching Kit, Feir`Dal Fletching Kit, Surefall Fletching Kit, Fletching Table (Placeable), Fletching Table, Guild Fletching Table\nYield: 1\nAlso Returns: Planing Tool(1)\nOn Failure Returns: Planing Tool(1)\nNotes: You must purchase and scribe Transcendent Reaching Weapon Augments - Fletchers in order to complete this combine."
+    },
+    {
+      "recipe_id": 3094533,
+      "source_name": "Transcendent Reaching Symbol of the Warmonger",
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=562&rsa=Fletching&sub=ROF",
+      "output_source_url": "https://www.eqtraders.com/items/show_item.php?item=40293&menustr=010000000000",
+      "output_item_id": 135424,
+      "trivial": 499,
+      "yield_count": 1,
+      "ingredients": [
+        {
+          "item_id": 134656,
+          "name": "Befouled Spinneret Fluid",
+          "count": 1
+        },
+        {
+          "item_id": 81821,
+          "name": "Blessed Water of Rallos Zek",
+          "count": 1
+        },
+        {
+          "item_id": 8086,
+          "name": "Planing Tool",
+          "count": 1
+        },
+        {
+          "item_id": 45183,
+          "name": "Recurve Bow Inlay",
+          "count": 1
+        },
+        {
+          "item_id": 10254,
+          "name": "Vial of Purified Mana",
+          "count": 1
+        }
+      ],
+      "container_item_ids": [
+        17189,
+        17762,
+        17910
+      ],
+      "held_source_containers": [
+        {
+          "name": "Feir`Dal Fletching Kit",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=7858"
+        },
+        {
+          "name": "Surefall Fletching Kit",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=9604"
+        },
+        {
+          "name": "Fletching Table (Placeable)",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34388"
+        },
+        {
+          "name": "Fletching Table",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34483"
+        },
+        {
+          "name": "Guild Fletching Table",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=38416"
+        }
+      ],
+      "must_learn": 1,
+      "learned_by_item_id": 135405,
+      "source_formula": "Components: Befouled Spinneret Fluid, Blessed Water of Rallos Zek, Planing Tool, Recurve Bow Inlay, Vial of Purified Mana\nIn: Fletching Kit, Planar Fletching Kit, Collapsible Fletching Kit, Feir`Dal Fletching Kit, Surefall Fletching Kit, Fletching Table (Placeable), Fletching Table, Guild Fletching Table\nYield: 1\nAlso Returns: Planing Tool(1)\nOn Failure Returns: Planing Tool(1)\nNotes: You must purchase and scribe Transcendent Reaching Weapon Augments - Fletchers in order to complete this combine."
+    },
+    {
+      "recipe_id": 3094534,
+      "source_name": "Transcendent Reaching Symbol of Compassion",
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=562&rsa=Fletching&sub=ROF",
+      "output_source_url": "https://www.eqtraders.com/items/show_item.php?item=40274&menustr=010000000000",
+      "output_item_id": 135425,
+      "trivial": 499,
+      "yield_count": 1,
+      "ingredients": [
+        {
+          "item_id": 134656,
+          "name": "Befouled Spinneret Fluid",
+          "count": 1
+        },
+        {
+          "item_id": 81835,
+          "name": "Blessed Water of Rodcet Nife",
+          "count": 1
+        },
+        {
+          "item_id": 8086,
+          "name": "Planing Tool",
+          "count": 1
+        },
+        {
+          "item_id": 45183,
+          "name": "Recurve Bow Inlay",
+          "count": 1
+        },
+        {
+          "item_id": 10254,
+          "name": "Vial of Purified Mana",
+          "count": 1
+        }
+      ],
+      "container_item_ids": [
+        17189,
+        17762,
+        17910
+      ],
+      "held_source_containers": [
+        {
+          "name": "Feir`Dal Fletching Kit",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=7858"
+        },
+        {
+          "name": "Surefall Fletching Kit",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=9604"
+        },
+        {
+          "name": "Fletching Table (Placeable)",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34388"
+        },
+        {
+          "name": "Fletching Table",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34483"
+        },
+        {
+          "name": "Guild Fletching Table",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=38416"
+        }
+      ],
+      "must_learn": 1,
+      "learned_by_item_id": 135405,
+      "source_formula": "Components: Befouled Spinneret Fluid, Blessed Water of Rodcet Nife, Planing Tool, Recurve Bow Inlay, Vial of Purified Mana\nIn: Fletching Kit, Planar Fletching Kit, Collapsible Fletching Kit, Feir`Dal Fletching Kit, Surefall Fletching Kit, Fletching Table (Placeable), Fletching Table, Guild Fletching Table\nYield: 1\nAlso Returns: Planing Tool(1)\nOn Failure Returns: Planing Tool(1)\nNotes: You must purchase and scribe Transcendent Reaching Weapon Augments - Fletchers in order to complete this combine."
+    },
+    {
+      "recipe_id": 3094535,
+      "source_name": "Transcendent Reaching Symbol of Malignancy",
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=562&rsa=Fletching&sub=ROF",
+      "output_source_url": "https://www.eqtraders.com/items/show_item.php?item=40282&menustr=010000000000",
+      "output_item_id": 135426,
+      "trivial": 499,
+      "yield_count": 1,
+      "ingredients": [
+        {
+          "item_id": 134656,
+          "name": "Befouled Spinneret Fluid",
+          "count": 1
+        },
+        {
+          "item_id": 48160,
+          "name": "Blessed Water of Saryrn",
+          "count": 1
+        },
+        {
+          "item_id": 8086,
+          "name": "Planing Tool",
+          "count": 1
+        },
+        {
+          "item_id": 45183,
+          "name": "Recurve Bow Inlay",
+          "count": 1
+        },
+        {
+          "item_id": 10254,
+          "name": "Vial of Purified Mana",
+          "count": 1
+        }
+      ],
+      "container_item_ids": [
+        17189,
+        17762,
+        17910
+      ],
+      "held_source_containers": [
+        {
+          "name": "Feir`Dal Fletching Kit",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=7858"
+        },
+        {
+          "name": "Surefall Fletching Kit",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=9604"
+        },
+        {
+          "name": "Fletching Table (Placeable)",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34388"
+        },
+        {
+          "name": "Fletching Table",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34483"
+        },
+        {
+          "name": "Guild Fletching Table",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=38416"
+        }
+      ],
+      "must_learn": 1,
+      "learned_by_item_id": 135405,
+      "source_formula": "Components: Befouled Spinneret Fluid, Blessed Water of Saryrn, Planing Tool, Recurve Bow Inlay, Vial of Purified Mana\nIn: Fletching Kit, Planar Fletching Kit, Collapsible Fletching Kit, Feir`Dal Fletching Kit, Surefall Fletching Kit, Fletching Table (Placeable), Fletching Table, Guild Fletching Table\nYield: 1\nAlso Returns: Planing Tool(1)\nOn Failure Returns: Planing Tool(1)\nNotes: You must purchase and scribe Transcendent Reaching Weapon Augments - Fletchers in order to complete this combine."
+    },
+    {
+      "recipe_id": 3094536,
+      "source_name": "Transcendent Reaching Symbol of Wildfire",
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=562&rsa=Fletching&sub=ROF",
+      "output_source_url": "https://www.eqtraders.com/items/show_item.php?item=40287&menustr=010000000000",
+      "output_item_id": 135427,
+      "trivial": 499,
+      "yield_count": 1,
+      "ingredients": [
+        {
+          "item_id": 134656,
+          "name": "Befouled Spinneret Fluid",
+          "count": 1
+        },
+        {
+          "item_id": 81831,
+          "name": "Blessed Water of Solusek Ro",
+          "count": 1
+        },
+        {
+          "item_id": 8086,
+          "name": "Planing Tool",
+          "count": 1
+        },
+        {
+          "item_id": 45183,
+          "name": "Recurve Bow Inlay",
+          "count": 1
+        },
+        {
+          "item_id": 10254,
+          "name": "Vial of Purified Mana",
+          "count": 1
+        }
+      ],
+      "container_item_ids": [
+        17189,
+        17762,
+        17910
+      ],
+      "held_source_containers": [
+        {
+          "name": "Feir`Dal Fletching Kit",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=7858"
+        },
+        {
+          "name": "Surefall Fletching Kit",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=9604"
+        },
+        {
+          "name": "Fletching Table (Placeable)",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34388"
+        },
+        {
+          "name": "Fletching Table",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34483"
+        },
+        {
+          "name": "Guild Fletching Table",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=38416"
+        }
+      ],
+      "must_learn": 1,
+      "learned_by_item_id": 135405,
+      "source_formula": "Components: Befouled Spinneret Fluid, Blessed Water of Solusek Ro, Planing Tool, Recurve Bow Inlay, Vial of Purified Mana\nIn: Fletching Kit, Planar Fletching Kit, Collapsible Fletching Kit, Feir`Dal Fletching Kit, Surefall Fletching Kit, Fletching Table (Placeable), Fletching Table, Guild Fletching Table\nYield: 1\nAlso Returns: Planing Tool(1)\nOn Failure Returns: Planing Tool(1)\nNotes: You must purchase and scribe Transcendent Reaching Weapon Augments - Fletchers in order to complete this combine."
+    },
+    {
+      "recipe_id": 3094537,
+      "source_name": "Transcendent Reaching Symbol of Decay",
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=562&rsa=Fletching&sub=ROF",
+      "output_source_url": "https://www.eqtraders.com/items/show_item.php?item=40275&menustr=010000000000",
+      "output_item_id": 135428,
+      "trivial": 499,
+      "yield_count": 1,
+      "ingredients": [
+        {
+          "item_id": 134656,
+          "name": "Befouled Spinneret Fluid",
+          "count": 1
+        },
+        {
+          "item_id": 48158,
+          "name": "Blessed Water of Terris Thule",
+          "count": 1
+        },
+        {
+          "item_id": 8086,
+          "name": "Planing Tool",
+          "count": 1
+        },
+        {
+          "item_id": 45183,
+          "name": "Recurve Bow Inlay",
+          "count": 1
+        },
+        {
+          "item_id": 10254,
+          "name": "Vial of Purified Mana",
+          "count": 1
+        }
+      ],
+      "container_item_ids": [
+        17189,
+        17762,
+        17910
+      ],
+      "held_source_containers": [
+        {
+          "name": "Feir`Dal Fletching Kit",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=7858"
+        },
+        {
+          "name": "Surefall Fletching Kit",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=9604"
+        },
+        {
+          "name": "Fletching Table (Placeable)",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34388"
+        },
+        {
+          "name": "Fletching Table",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34483"
+        },
+        {
+          "name": "Guild Fletching Table",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=38416"
+        }
+      ],
+      "must_learn": 1,
+      "learned_by_item_id": 135405,
+      "source_formula": "Components: Befouled Spinneret Fluid, Blessed Water of Terris Thule, Planing Tool, Recurve Bow Inlay, Vial of Purified Mana\nIn: Fletching Kit, Planar Fletching Kit, Collapsible Fletching Kit, Feir`Dal Fletching Kit, Surefall Fletching Kit, Fletching Table (Placeable), Fletching Table, Guild Fletching Table\nYield: 1\nAlso Returns: Planing Tool(1)\nOn Failure Returns: Planing Tool(1)\nNotes: You must purchase and scribe Transcendent Reaching Weapon Augments - Fletchers in order to complete this combine."
+    },
+    {
+      "recipe_id": 3094538,
+      "source_name": "Transcendent Reaching Symbol of Judgment",
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=562&rsa=Fletching&sub=ROF",
+      "output_source_url": "https://www.eqtraders.com/items/show_item.php?item=40281&menustr=010000000000",
+      "output_item_id": 135429,
+      "trivial": 499,
+      "yield_count": 1,
+      "ingredients": [
+        {
+          "item_id": 134656,
+          "name": "Befouled Spinneret Fluid",
+          "count": 1
+        },
+        {
+          "item_id": 81822,
+          "name": "Blessed Water of The Tribunal",
+          "count": 1
+        },
+        {
+          "item_id": 8086,
+          "name": "Planing Tool",
+          "count": 1
+        },
+        {
+          "item_id": 45183,
+          "name": "Recurve Bow Inlay",
+          "count": 1
+        },
+        {
+          "item_id": 10254,
+          "name": "Vial of Purified Mana",
+          "count": 1
+        }
+      ],
+      "container_item_ids": [
+        17189,
+        17762,
+        17910
+      ],
+      "held_source_containers": [
+        {
+          "name": "Feir`Dal Fletching Kit",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=7858"
+        },
+        {
+          "name": "Surefall Fletching Kit",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=9604"
+        },
+        {
+          "name": "Fletching Table (Placeable)",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34388"
+        },
+        {
+          "name": "Fletching Table",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34483"
+        },
+        {
+          "name": "Guild Fletching Table",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=38416"
+        }
+      ],
+      "must_learn": 1,
+      "learned_by_item_id": 135405,
+      "source_formula": "Components: Befouled Spinneret Fluid, Blessed Water of The Tribunal, Planing Tool, Recurve Bow Inlay, Vial of Purified Mana\nIn: Fletching Kit, Planar Fletching Kit, Collapsible Fletching Kit, Feir`Dal Fletching Kit, Surefall Fletching Kit, Fletching Table (Placeable), Fletching Table, Guild Fletching Table\nYield: 1\nAlso Returns: Planing Tool(1)\nOn Failure Returns: Planing Tool(1)\nNotes: You must purchase and scribe Transcendent Reaching Weapon Augments - Fletchers in order to complete this combine."
+    },
+    {
+      "recipe_id": 3094539,
+      "source_name": "Transcendent Reaching Symbol of Growth",
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=562&rsa=Fletching&sub=ROF",
+      "output_source_url": "https://www.eqtraders.com/items/show_item.php?item=40277&menustr=010000000000",
+      "output_item_id": 135430,
+      "trivial": 499,
+      "yield_count": 1,
+      "ingredients": [
+        {
+          "item_id": 134656,
+          "name": "Befouled Spinneret Fluid",
+          "count": 1
+        },
+        {
+          "item_id": 81825,
+          "name": "Blessed Water of Tunare",
+          "count": 1
+        },
+        {
+          "item_id": 8086,
+          "name": "Planing Tool",
+          "count": 1
+        },
+        {
+          "item_id": 45183,
+          "name": "Recurve Bow Inlay",
+          "count": 1
+        },
+        {
+          "item_id": 10254,
+          "name": "Vial of Purified Mana",
+          "count": 1
+        }
+      ],
+      "container_item_ids": [
+        17189,
+        17762,
+        17910
+      ],
+      "held_source_containers": [
+        {
+          "name": "Feir`Dal Fletching Kit",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=7858"
+        },
+        {
+          "name": "Surefall Fletching Kit",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=9604"
+        },
+        {
+          "name": "Fletching Table (Placeable)",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34388"
+        },
+        {
+          "name": "Fletching Table",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34483"
+        },
+        {
+          "name": "Guild Fletching Table",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=38416"
+        }
+      ],
+      "must_learn": 1,
+      "learned_by_item_id": 135405,
+      "source_formula": "Components: Befouled Spinneret Fluid, Blessed Water of Tunare, Planing Tool, Recurve Bow Inlay, Vial of Purified Mana\nIn: Fletching Kit, Planar Fletching Kit, Collapsible Fletching Kit, Feir`Dal Fletching Kit, Surefall Fletching Kit, Fletching Table (Placeable), Fletching Table, Guild Fletching Table\nYield: 1\nAlso Returns: Planing Tool(1)\nOn Failure Returns: Planing Tool(1)\nNotes: You must purchase and scribe Transcendent Reaching Weapon Augments - Fletchers in order to complete this combine."
+    },
+    {
+      "recipe_id": 3094540,
+      "source_name": "Transcendent Reaching Symbol of the Brood",
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=562&rsa=Fletching&sub=ROF",
+      "output_source_url": "https://www.eqtraders.com/items/show_item.php?item=40288&menustr=010000000000",
+      "output_item_id": 135431,
+      "trivial": 499,
+      "yield_count": 1,
+      "ingredients": [
+        {
+          "item_id": 134656,
+          "name": "Befouled Spinneret Fluid",
+          "count": 1
+        },
+        {
+          "item_id": 81836,
+          "name": "Blessed Water of Veeshan",
+          "count": 1
+        },
+        {
+          "item_id": 8086,
+          "name": "Planing Tool",
+          "count": 1
+        },
+        {
+          "item_id": 45183,
+          "name": "Recurve Bow Inlay",
+          "count": 1
+        },
+        {
+          "item_id": 10254,
+          "name": "Vial of Purified Mana",
+          "count": 1
+        }
+      ],
+      "container_item_ids": [
+        17189,
+        17762,
+        17910
+      ],
+      "held_source_containers": [
+        {
+          "name": "Feir`Dal Fletching Kit",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=7858"
+        },
+        {
+          "name": "Surefall Fletching Kit",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=9604"
+        },
+        {
+          "name": "Fletching Table (Placeable)",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34388"
+        },
+        {
+          "name": "Fletching Table",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34483"
+        },
+        {
+          "name": "Guild Fletching Table",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=38416"
+        }
+      ],
+      "must_learn": 1,
+      "learned_by_item_id": 135405,
+      "source_formula": "Components: Befouled Spinneret Fluid, Blessed Water of Veeshan, Planing Tool, Recurve Bow Inlay, Vial of Purified Mana\nIn: Fletching Kit, Planar Fletching Kit, Collapsible Fletching Kit, Feir`Dal Fletching Kit, Surefall Fletching Kit, Fletching Table (Placeable), Fletching Table, Guild Fletching Table\nYield: 1\nAlso Returns: Planing Tool(1)\nOn Failure Returns: Planing Tool(1)\nNotes: You must purchase and scribe Transcendent Reaching Weapon Augments - Fletchers in order to complete this combine."
+    },
+    {
+      "recipe_id": 3094541,
+      "source_name": "Regal Baton",
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=562&rsa=Fletching&sub=ROF",
+      "output_source_url": "https://www.eqtraders.com/items/show_item.php?item=39858&menustr=010000000000",
+      "output_item_id": 135439,
+      "trivial": 282,
+      "yield_count": 1,
+      "ingredients": [
+        {
+          "item_id": 38514,
+          "name": "5 Knot Measuring String",
+          "count": 1
+        },
+        {
+          "item_id": 134653,
+          "name": "Befouled Silk",
+          "count": 1
+        },
+        {
+          "item_id": 8084,
+          "name": "Darkwood Bowstave",
+          "count": 1
+        },
+        {
+          "item_id": 8086,
+          "name": "Planing Tool",
+          "count": 1
+        }
+      ],
+      "container_item_ids": [
+        17762,
+        17910
+      ],
+      "held_source_containers": [
+        {
+          "name": "Fletching Table (Placeable)",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34388"
+        },
+        {
+          "name": "Fletching Table",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34483"
+        },
+        {
+          "name": "Guild Fletching Table",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=38416"
+        }
+      ],
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "source_formula": "Components: 5 Knot Measuring String, Befouled Silk, Darkwood Bowstave, Planing Tool\nIn: Fletching Kit, Planar Fletching Kit, Fletching Table (Placeable), Fletching Table, Guild Fletching Table\nYield: 1\nAlso Returns: Planing Tool(1), 5 Knot Measuring String(1)\nOn Failure Returns: Planing Tool(1), 5 Knot Measuring String(1)\nNotes: EQRecipeID: 49365"
+    }
+  ],
+  "restriction_review": {
+    "scope": "29 absent RoF Fletching formulas3094513-3094541:21TranscendentReachingSymbols,2RegalRecurveBows,4Allianceweapons/ammunition,RegalBaton andRegalRecurveBowstring. Current finite44-view catalogue has13existingFletcher matches and2RepeatingFletcher holds. Existing Tinkering RepeatingCrossbow3091274 is preserved, not called a verified alternate Fletcher formula.",
+    "era": "LABELLED_RECONSTRUCTION from maintained primary RoF catalogue. Floor19 is proposed configured availability POLICY, minimum0/maximum-1, not authenticated per-field introduction or May2013/native acceptance. Item IDs, current book text and catalogue categories do not prove immutable historical formulas.",
+    "learning": "21symbols explicitly require scribing135405 TranscendentReachingWeaponAugments-Fletchers;2bows explicitly require135410 RegalRecurveBowDiagrams. Both native class2/type60 filenames/text hashes pinned. Remaining6 ordinary must_learn0/learned_by0. Books are learning dependencies, not combine ingredients. No new player learning/book supply/UI proof.",
+    "source_conflicts": "Explicit Coordinator disposition required: Transcendent Fletcher book says RoundCutTool while current primary formulas say PlaningTool; Regal Infused book says EssenceOfAlaris while current primary formula says PlanarEnergyShard. Preserve both texts and propose current primary bodies without claiming conflict resolved historically. Regal-specific135410 explicitly describes FLETCHER making bowstring with2BefouledSilk/ClumpWax, corroborating current Fletching catalogue despite older generic135400compendium Tailors wording; retain conflict, no Tailoring copy or optional-book gate.",
+    "alliance": "Four Alliance bodies have current primary positive quantities/yields/trivials/kits. Quest association is not evidence of a craft-only quest flag, learning gate or skillneeded300. Proposed ordinary quest0/minimum0 gates require Coordinator acceptance. Explicit300 and81108scribing on the two Repeating rows are not inferred onto Alliance siblings. No quest reward, hand-in, NPC, custody or actor acceptance claim.",
+    "quantity": "All29 explicit yields/numeric trivials: AllianceArrows andAllianceCrossbowBolts yield10, other27 yield1. Positive component counts retained including2BefouledSilk. Returned PlaningTool and Baton5KnotMeasuringString return on success/failure withsalvage0. Other consumed salvagecount follows local policy. No existing recipe normalization.",
+    "containers": "Per-view positive ordinary kits only:4Regal bodies17910/17762, other25 bodies17910/17762/17189. All need atmost8 units/size3 and fit native8slot bag18 kits. No generic18 entries, racial/deity/world-furniture links, or inferred third Regal kit. Actor eligibility/native combines untested.",
+    "preservation": "100 finite primary references resolved;29 fullinput signatures checked across allskills/allstates including disabled, all0; selected outputs/names absent from bounded current producer/name snapshots.77 native dependencies pinned. Indexed positive-input anchors plus full total/per-itemSUM guards preserve multiset encoding independence,10second bound unchanged. New IDs/entries only; existing13Fletcher/1Tinker producers, books, native items, gates, playerlearned/inventory/quests unchanged.",
+    "holds": "RepeatingCrossbow Fletcher source omits failure PlaningTool return, unlike existing Tinker/source book context; no inferred return scope. RepeatingCrossbowBolts current catalogue yield10 conflicts with native81108prose100; explicit minimum300 and learning81108 retained in evidence, no new formula. Existing generic18 TerrorCrossbow has10ingredient units: do not add8slot kit links or claim actor acceptance. Native book context alone does not prove combine success.",
+    "limits": "Source proposal only, pending Coordinator explicit conflict/floor19/gate dispositions, GitHub publication and separate exact SQL GO. No SQL invocation/rehearsal/build/client/runtime/schema/API/quest changes or historical-universe closure."
+  },
+  "native_authored_context": [
+    {
+      "item_id": 135405,
+      "name": "Transcendent Reaching Weapon Augments - Fletchers",
+      "filename": "TSSKU20BowAugFlt100",
+      "text_sha256": "3c31c50661164f2ed75c814321da5caef3af3c1c81321e0e661f3d37fd1abee3"
+    },
+    {
+      "item_id": 135410,
+      "name": "Regal Recurve Bow Diagrams",
+      "filename": "TSSKU20WeaponBow",
+      "text_sha256": "5300894d8bfece02d4ef08970e4b4f63a4cfa512b303e17dd0d173b59613dc68"
+    }
+  ],
+  "held_source_rows": [
+    {
+      "name": "Repeating Crossbow",
+      "reason": "Failure tool-return scope omitted in Fletcher source; existing Tinker preserved."
+    },
+    {
+      "name": "Repeating Crossbow Bolts",
+      "reason": "Catalogue yield10 versus native Tradebook100; held."
+    }
+  ],
+  "source_urls": [
+    "https://www.eqtraders.com/recipes/recipe_page.php?article=562&rsa=Fletching&sub=ROF"
+  ],
+  "migration_dependencies": []
+}
