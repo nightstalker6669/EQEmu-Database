@@ -1,0 +1,392 @@
+{
+  "batch": "RRC219",
+  "branch": "rof2-tradeskills",
+  "status": "SOURCE_PROPOSAL_NOT_APPLIED_LABELLED_RECONSTRUCTION",
+  "proposed_ids": [
+    3096822,
+    3096823
+  ],
+  "counts": {
+    "recipes": 2,
+    "entries": 12,
+    "item_dependencies": 11,
+    "unchanged_prototype_recipes": 0,
+    "unchanged_prototype_entries": 0
+  },
+  "recipes": [
+    {
+      "id": 3096822,
+      "name": "Cured Bacon",
+      "tradeskill": 60,
+      "skillneeded": 0,
+      "trivial": 135,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary New Year2011 Bacon reconstruction; RRC219.",
+      "must_learn": 1,
+      "learned_by_item_id": 79324,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 17,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3096823,
+      "name": "Chocolate Bacon",
+      "tradeskill": 60,
+      "skillneeded": 0,
+      "trivial": 202,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary New Year2011 Bacon reconstruction; RRC219.",
+      "must_learn": 1,
+      "learned_by_item_id": 79325,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 17,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    }
+  ],
+  "entries": [
+    {
+      "recipe_id": 3096822,
+      "item_id": 13085,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096822,
+      "item_id": 14220,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096822,
+      "item_id": 53474,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096822,
+      "item_id": 58282,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096822,
+      "item_id": 75856,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096822,
+      "item_id": 15,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3096823,
+      "item_id": 13087,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096823,
+      "item_id": 15961,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096823,
+      "item_id": 25759,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096823,
+      "item_id": 53474,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096823,
+      "item_id": 53475,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096823,
+      "item_id": 15,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    }
+  ],
+  "item_dependencies": [
+    {
+      "id": 13085,
+      "name": "Chunk of Meat"
+    },
+    {
+      "id": 13087,
+      "name": "Bottle of Milk"
+    },
+    {
+      "id": 14220,
+      "name": "Allspice"
+    },
+    {
+      "id": 15961,
+      "name": "Cup of Sugar"
+    },
+    {
+      "id": 25759,
+      "name": "Chocolate"
+    },
+    {
+      "id": 53474,
+      "name": "Cured Bacon"
+    },
+    {
+      "id": 53475,
+      "name": "Chocolate Bacon"
+    },
+    {
+      "id": 58282,
+      "name": "Ground Pepper"
+    },
+    {
+      "id": 75856,
+      "name": "Rock Salt"
+    },
+    {
+      "id": 79324,
+      "name": "Cured Bacon Recipe"
+    },
+    {
+      "id": 79325,
+      "name": "Chocolate Bacon Recipe"
+    }
+  ],
+  "unchanged_prototype_recipes": [],
+  "unchanged_prototype_entries": [],
+  "source_facts": [
+    {
+      "recipe_id": 3096822,
+      "source_name": "Cured Bacon",
+      "source_view_id": 28163,
+      "source_url": "https://mboards.eqtraders.com/eq/forum/tradeskills/general-trade-skill-discussion/35374-bacon",
+      "source_formula": "Components: Allspice, Chunk of Meat, Ground Pepper, Rock Salt\nIn: Oven, Tanaan Oven, Oven (Placeable), Guild Oven\nYield: 1\nNotes: EQRecipeID: 78126\nCan scribe to learn: Cured Bacon Recipe\nHistorical2010-12-31 explicit mandatory scribe supersedes omission/Can annotation for this through-RoF reconstruction.",
+      "retained_catalogue_formula": "Components: Allspice, Chunk of Meat, Ground Pepper, Rock Salt\nIn: Oven, Tanaan Oven, Oven (Placeable), Guild Oven\nYield: 1\nNotes: EQRecipeID: 78126\nCan scribe to learn: Cured Bacon Recipe",
+      "body_basis": "DATED_2010_2011_RECIPE_CONTROLS",
+      "book_identity_basis": "UNLINKED_PROFILE_FILENAME_CONTENT_CONCORDANCE",
+      "source_catalogue_sha256": "a0bf49eea5123e3629b0e932aff39adb308310fdcddc1ff8659cca751dbb83a7",
+      "output_item_id": 53474,
+      "yield_count": 1,
+      "source_physical_roles": {
+        "componentcount": {
+          "13085": 1,
+          "14220": 1,
+          "58282": 1,
+          "75856": 1
+        },
+        "successcount": {
+          "53474": 1
+        },
+        "failcount": {}
+      },
+      "nofail": 0,
+      "trivial": 135,
+      "ingredients": [
+        {
+          "item_id": 13085,
+          "name": "Chunk of Meat",
+          "count": 1
+        },
+        {
+          "item_id": 14220,
+          "name": "Allspice",
+          "count": 1
+        },
+        {
+          "item_id": 58282,
+          "name": "Ground Pepper",
+          "count": 1
+        },
+        {
+          "item_id": 75856,
+          "name": "Rock Salt",
+          "count": 1
+        }
+      ],
+      "success_roles": {
+        "53474": 1
+      },
+      "failure_roles": {},
+      "container_item_ids": [
+        15
+      ],
+      "held_source_stations": [
+        "Other modern listed station alternatives not qualified by dated source"
+      ],
+      "min_expansion": 17,
+      "skillneeded": 0,
+      "must_learn": 1,
+      "learned_by_item_id": 79324,
+      "learning_origin": "DATED_EXPLICIT_MANDATORY_SCRIBE;OMITTED_MINIMUM0_POLICY",
+      "era_origin": "DATED_NEWYEAR2011_HOT17_MANUFACTURING_BODY_POLICY",
+      "May2013_exact_fields_verified": false,
+      "identity_assurance": "MANUFACTURING_ITEM_IDS_PRIMARY_AUTHENTICATED_BOOKS_DATED_PROFILE_FILENAME_CONTENT_CONCORDANCE",
+      "unlinked_named_output_qualification": null
+    },
+    {
+      "recipe_id": 3096823,
+      "source_name": "Chocolate Bacon",
+      "source_view_id": 28162,
+      "source_url": "https://mboards.eqtraders.com/eq/forum/tradeskills/general-trade-skill-discussion/35374-bacon",
+      "source_formula": "Historical2010-12-30 complete body: Cured Bacon,Chocolate,Bottle of Milk,Cup of Sugar;Oven;Yield1;Trivial202;must scribe Chocolate Bacon Recipe. Current catalogue omits CuredBacon and is not selected as an alternate.",
+      "retained_catalogue_formula": "Components: Bottle of Milk, Chocolate, Cup of Sugar\nIn: Oven, Tanaan Oven, Oven (Placeable), Guild Oven\nYield: 1\nNotes: Must scribe to learn: Chocolate Bacon Recipe",
+      "body_basis": "DATED_2010_2011_RECIPE_CONTROLS",
+      "book_identity_basis": "UNLINKED_PROFILE_FILENAME_CONTENT_CONCORDANCE",
+      "source_catalogue_sha256": "a0bf49eea5123e3629b0e932aff39adb308310fdcddc1ff8659cca751dbb83a7",
+      "output_item_id": 53475,
+      "yield_count": 1,
+      "source_physical_roles": {
+        "componentcount": {
+          "13087": 1,
+          "15961": 1,
+          "25759": 1,
+          "53474": 1
+        },
+        "successcount": {
+          "53475": 1
+        },
+        "failcount": {}
+      },
+      "nofail": 0,
+      "trivial": 202,
+      "ingredients": [
+        {
+          "item_id": 13087,
+          "name": "Bottle of Milk",
+          "count": 1
+        },
+        {
+          "item_id": 15961,
+          "name": "Cup of Sugar",
+          "count": 1
+        },
+        {
+          "item_id": 25759,
+          "name": "Chocolate",
+          "count": 1
+        },
+        {
+          "item_id": 53474,
+          "name": "Cured Bacon",
+          "count": 1
+        }
+      ],
+      "success_roles": {
+        "53475": 1
+      },
+      "failure_roles": {},
+      "container_item_ids": [
+        15
+      ],
+      "held_source_stations": [
+        "Other modern listed station alternatives not qualified by dated source"
+      ],
+      "min_expansion": 17,
+      "skillneeded": 0,
+      "must_learn": 1,
+      "learned_by_item_id": 79325,
+      "learning_origin": "DATED_EXPLICIT_MANDATORY_SCRIBE;OMITTED_MINIMUM0_POLICY",
+      "era_origin": "DATED_NEWYEAR2011_HOT17_MANUFACTURING_BODY_POLICY",
+      "May2013_exact_fields_verified": false,
+      "identity_assurance": "MANUFACTURING_ITEM_IDS_PRIMARY_AUTHENTICATED_BOOKS_DATED_PROFILE_FILENAME_CONTENT_CONCORDANCE",
+      "unlinked_named_output_qualification": null
+    }
+  ],
+  "restriction_review": {
+    "scope": "Two absent NewYear2011 Bacon manufacturing bodies, bounded dated historical reconciliation. ChocolateBacon uses FOUR ingredients including CuredBacon; current three-input catalogue projection is superseded for this through-RoF body. CuredBacon uses four ingredients matching the dated report and current source.",
+    "historical": "EQTC forum35374 posts1/5/6 dated2010-12-27 through2011-01-01 document manufacturing inputs/trivials and received books. Positive NewYear2011/HoT17 family supports labelled floor17/max-1 reconstruction. Current quantities/item fields are not claimed immutable2010 snapshots.",
+    "learning": "Dated report explicitly requires scribing for CuredBacon; ChocolateBacon current source also explicitly MUSTscribe. Bind must_learn1 to existing CuredBaconRecipe79324 and ChocolateBaconRecipe79325. This bounded explicit historical control supersedes current CuredCan/omission, without changing ordinary optional-book policy. Omitted minimum0 convention.",
+    "books": "Unlinked native book IDs qualified by unique exact titles, all available historical profile fields (NO TRADE,SMALL,weight5.0), explicit EventNewYears002/003 filenames, and matching authored recipe content. Current class2/type60/size1/weight50/nodrop0 plus full dependency fields and exact text hashes guarded. This is profile/content concordance, not a direct EQTCitem-ID book binding. No book/item changes.",
+    "quantity": "PhysicalYield1/uncharged nativeMax0/stackable outputs. Each component one physical unit; no tool or failure returns stated or invented. Trivials135/202,nofail0,ordinaryOven15, four units fit ten. Source event chest/buff affects book acquisition context, no new manufacture actor/task gate inferred.",
+    "preservation": "Eleven native dependencies (4fresh/7pinned reused), zero all-state/all-skill fullinput/name matches or existing output-use peers. Full new logicalentries/IDs/deltas/learnedrefs guarded. No existing recipe/item/book/quest/core/player edits.",
+    "execution": "Source only pending coordinator publication and exact SQL GO. Named one-pass count contract. Reader/research tabs closed. No extra broad research/rehearsal/build/runtime/native learning/combine/event acceptance; scope incomplete."
+  },
+  "source_urls": [
+    "https://mboards.eqtraders.com/eq/forum/tradeskills/general-trade-skill-discussion/35374-bacon"
+  ],
+  "supplemental_primary_identity_sources": [
+    {
+      "source_url": "https://www.eqtraders.com/items/show_item.php?item=57387",
+      "source_item_id": 57387,
+      "explicit_EQ_item_ID": 53475,
+      "observed_primary_title": "EQTC - Item: Chocolate Bacon"
+    },
+    {
+      "source_url": "https://www.eqtraders.com/items/show_item.php?item=57384",
+      "source_item_id": 57384,
+      "explicit_EQ_item_ID": 53474,
+      "observed_primary_title": "EQTC - Item: Cured Bacon"
+    }
+  ],
+  "native_authored_context": [
+    {
+      "item_id": 79324,
+      "name": "Cured Bacon Recipe",
+      "filename": "EventNewYears002",
+      "text_sha256": "8d2b01d9af53677fdd142d7d9fb2f4645f038205400c6a94969f4e8738d8b1a2"
+    },
+    {
+      "item_id": 79325,
+      "name": "Chocolate Bacon Recipe",
+      "filename": "EventNewYears003",
+      "text_sha256": "c8bd4fb2cac4c5d924457d56b0b5da01eccb712d6d8b9ce67eb5df57b125d75c"
+    }
+  ],
+  "migration_dependencies": [],
+  "held_source_rows": []
+}

@@ -1,0 +1,78 @@
+{
+  "format_version": 1,
+  "batches": [
+    "RRC219",
+    "RRC220"
+  ],
+  "application_order": [
+    "RRC219",
+    "RRC220"
+  ],
+  "source_packages": {
+    "RRC219": {
+      "source_commit": "a410d46e371dee6dfeb91bf56d33bcf63a0b9060",
+      "apply_sha256": "ab41b4bf7be1e2fecbb3b347ba63a2248ef62794f839382025034827a71cd98f",
+      "package_manifest_sha256": "7c250837acea7f0a5b82a0d29c7608def3d1665d7af1f8e962fa611659cfd6bb"
+    },
+    "RRC220": {
+      "source_commit": "b1b501c22600966ce2f67f64c976aa71750fc43e",
+      "apply_sha256": "cd91a7c3578f0f224e55da0df979a2c9b6abf05b66393e8e9d318535d433a721",
+      "package_manifest_sha256": "8c7b05b9cf61c90f95609ba227830e7fad0803fb3333c8718d9a25233047098e"
+    }
+  },
+  "application_status": "BOTH_APPLIED_VERIFIED_SEQUENTIALLY",
+  "recipes_added": 3,
+  "entries_added": 19,
+  "existing_recipe_definitions_updated": 0,
+  "existing_entry_rows_updated": 0,
+  "global_actual_counts": {
+    "recipes": 28388,
+    "entries": 216309
+  },
+  "TS_cumulative_added_current": {
+    "recipes": 5564,
+    "entries": 38684
+  },
+  "cumulative_basis": "Prior5561/38665 actual after218 plus3/19.",
+  "new_recipe_batches": 169,
+  "historical_qualification": {
+    "RRC219": {
+      "scope": "Two absent NewYear2011 Bacon manufacturing bodies, bounded dated historical reconciliation. ChocolateBacon uses FOUR ingredients including CuredBacon; current three-input catalogue projection is superseded for this through-RoF body. CuredBacon uses four ingredients matching the dated report and current source.",
+      "historical": "EQTC forum35374 posts1/5/6 dated2010-12-27 through2011-01-01 document manufacturing inputs/trivials and received books. Positive NewYear2011/HoT17 family supports labelled floor17/max-1 reconstruction. Current quantities/item fields are not claimed immutable2010 snapshots.",
+      "learning": "Dated report explicitly requires scribing for CuredBacon; ChocolateBacon current source also explicitly MUSTscribe. Bind must_learn1 to existing CuredBaconRecipe79324 and ChocolateBaconRecipe79325. This bounded explicit historical control supersedes current CuredCan/omission, without changing ordinary optional-book policy. Omitted minimum0 convention.",
+      "books": "Unlinked native book IDs qualified by unique exact titles, all available historical profile fields (NO TRADE,SMALL,weight5.0), explicit EventNewYears002/003 filenames, and matching authored recipe content. Current class2/type60/size1/weight50/nodrop0 plus full dependency fields and exact text hashes guarded. This is profile/content concordance, not a direct EQTCitem-ID book binding. No book/item changes.",
+      "quantity": "PhysicalYield1/uncharged nativeMax0/stackable outputs. Each component one physical unit; no tool or failure returns stated or invented. Trivials135/202,nofail0,ordinaryOven15, four units fit ten. Source event chest/buff affects book acquisition context, no new manufacture actor/task gate inferred.",
+      "preservation": "Eleven native dependencies (4fresh/7pinned reused), zero all-state/all-skill fullinput/name matches or existing output-use peers. Full new logicalentries/IDs/deltas/learnedrefs guarded. No existing recipe/item/book/quest/core/player edits.",
+      "execution": "Source only pending coordinator publication and exact SQL GO. Named one-pass count contract. Reader/research tabs closed. No extra broad research/rehearsal/build/runtime/native learning/combine/event acceptance; scope incomplete."
+    },
+    "RRC220": {
+      "scope": "One absent BaconSoda Brewing body, same bounded NewYear2011 historical family. Dated2010 report and fresh current primary57390/EQ53476 agree on five ingredients, numerictrivial202, physicalYield1 and mandatory recipe-book learning.",
+      "historical": "Dated EQTCforum35374 post1 documents the manufacturing body and BaconSodaRecipe profile, post2reports unlearned-combine refusal,post4explicitEventNewYears004 filename. Positive NewYear2011/HoT17 context supports labelled floor17/max-1 reconstruction, not immutable2010 per-field proof.",
+      "learning": "Current source explicitly MUSTscribe BaconSodaRecipe. Existing nativebook79326 qualified by unique exact title, available historicalNOTrade/SMALL/5.0profile, explicitfilenameEventNewYears004 and authored recipe purpose/core materials. must_learn1/book79326. Omitted minimum0, no manufacturing actor/task gate inferred from event-book acquisition.",
+      "books": "Nativebook class2/type60/size1/weight50/nodrop0 and full dependency fields/exact current text hash guarded. Unlinked profile/filename/content concordance, not direct primary EQitem-ID binding. Current authored prose omits sugar; independent dated manufacturing report and current primary BOTH require CupOfSugar1 and govern the complete five-input body. Book prose/content unchanged.",
+      "quantity": "Bottle,Cork,CupOfSugar,CuredBacon,SodaWater one physical unit each. Stackable nativeMax0 outputYield1, no failure or container returns stated/invented. Ordinary BrewBarrel19/five units fit ten; other modern listed stations held separately. Numeric202/nofail0 ordinary convention.",
+      "preservation": "Sevenexact native dependencies, zero current all-state/all-skill fullinput/name matches or output peers. NewID/full logicalentries/deltas/learnedrefs guarded; no existing recipe/item/book/quest/core/player edits.",
+      "execution": "Source only pending publication/exactSQLGO following219. Named one-pass counts; reader/research tabs closed. No broad research/tests/rehearsal/build/runtime/native book/quest/combine/drinking acceptance; scope incomplete."
+    }
+  },
+  "superseded_three_input_ChocolateBacon_projection_added_by_this_application": false,
+  "formula_authority": "219datedfourinputChocolateBaconincludingCuredBacon;220dated+currentfiveinputBaconSodaincludingCupOfSugar despitebookproseomission.",
+  "book_identity_qualification": "Uniqueprofile/title/filename/authoredcontentconcordance,notdirectEQTCbookitemIDbinding.",
+  "held_batches": [
+    "RRC014",
+    "RRC160"
+  ],
+  "all_scope_complete": false,
+  "separate_Xorbb_recipe_excluded": {
+    "recipes": 1,
+    "entries": 6
+  },
+  "prior_locally_confirmed_published_normal_SQL_source_paths": 686,
+  "earlier_pending_normal_SQL_source_paths": 0,
+  "new_normal_SQL_source_paths": 4,
+  "normal_SQL_source_paths_after_all_pending_publications": 690,
+  "SQL_path_count_meaning": "Source paths,not application count.",
+  "history_archives_preserved": true,
+  "QA39999_production_exclusion_retained": true,
+  "assembly": "Reused staged219payload;noSQL/query/replay/tests/runtime/receipt-onlypublication."
+}
