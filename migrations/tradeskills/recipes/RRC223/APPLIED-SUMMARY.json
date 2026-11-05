@@ -1,0 +1,49 @@
+{
+  "format_version": 1,
+  "batch": "RRC223",
+  "source_commit": "a3c2581cc522d0d8b984c82781d2a06b48c310c0",
+  "source_sha256": "11abeb8d25f2f752616d1d0e58377b47b392fdd41ccbb1d957053a12a36f9651",
+  "application_status": "APPLIED_VERIFIED",
+  "SQL_invocations": 1,
+  "transaction_state_after": 0,
+  "recipes_added": 25,
+  "entries_added": 175,
+  "existing_recipe_definitions_updated": 0,
+  "existing_entry_rows_updated": 0,
+  "recipe_id_range": [
+    3096863,
+    3096887
+  ],
+  "native_item_dependencies_guarded": 68,
+  "exact_target_postimages": true,
+  "exact_logical_entry_multisets_verified": true,
+  "learned_references_unchanged": true,
+  "global_after_counts": {
+    "recipes": 28451,
+    "entries": 216750
+  },
+  "historical_qualification": {
+    "scope": "25 absent Basic Suspension Alchemy bodies, tiers I through VII, independently retained literal formulas. All selected output identities were verified by rendered primary EQ item IDs. Shared ingredient identities and the exact Medicine Bag reuse RRC221/222 receipts; no name-only binding is promoted without matching direct primary evidence.",
+    "historical": "SOE developer Ngreth dated 2006-03-13 potion exchange list explicitly names Basic Suspension identities through IX. The 2006-10-27 family list, last edited 2011-09-05, names all six Basic effects. The 2006-06-27 vendor-manufacturing discussion identifies Basic Suspension of Slime VII but qualifies its remembered trivial228/238: historical context only, not numeric authority. Per-item current source formulas and numeric trivials govern the labelled PoR11 family reconstruction. Coordinator accepted this bounded qualification. Individual full formulas are not claimed immutable2006 or May2013 fields or exact introduction dates. No X+ inference; this batch selects I-VII only.",
+    "actor": "Every source explicitly requires Shaman. Existing normal and auto Alchemy code checks Shaman and minimum level25. Skill59; omitted minimum skill0, ordinary must_learn0/book0/quest0/enabled1/nofail0 policies. Static actor mapping reused from RRC221, no core edits or native acceptance.",
+    "quantity": "Each source yields one stackable uncharged item. Literal five ingredient kinds/six physical units, including one herb twice, and individual numeric trivials are preserved. Current native maxcharges0 and stackability/capacity checked; no charge or stack-cap normalization, co-products or failure returns invented.",
+    "containers": "Bind only exact portable Medicine Bag17901, independently authenticated primary1141, eight slots and LARGE capacity. All ingredient sizes and six physical units fit current native bag fields. Other named bags and modern Alchemy Tables remain separately unqualified.",
+    "preservation": "68 exact18-field dependencies: 32 fresh and 36 reused. No current all-state/all-skill full-input/name matches or existing positive-success output peers. New IDs, full logical entry multisets, counts and learned references guarded. No existing recipe/item/quest/core/player writes.",
+    "execution": "Source prepared for normal publication and exact one-use SQL GO. Named count contracts; no new rehearsal, tests, build, restart or native gameplay campaign. Overall recipe coverage remains incomplete."
+  },
+  "Research160": "HELD/unapplied",
+  "all_scope_complete": false,
+  "player_item_writes": false,
+  "runtime_actions": false,
+  "native_crafting_throwing_or_combat_acceptance": false,
+  "source_documents": "Four published sourcefiles retainedverbatim;preparation-time pendinglabels historical. Separate actualreceipt confirms closedapplication above.",
+  "documentation_correction": {
+    "public_path": "migrations/tradeskills/recipes/RRC222/README.md",
+    "before_exists": true,
+    "before_sha256": "27bd0fe6eda9797891c28e63e754a1f9a475d27cca16bf08c6eff3ce5dd12894",
+    "after_sha256": "9c32fc0918380414c974815303fcc1d71a5c97781aa0a434c841ff25a0659f4e",
+    "source_commit": "a3c2581cc522d0d8b984c82781d2a06b48c310c0",
+    "scope": "Openingcount25->13only;SQLandbatchpayloadunchanged.",
+    "original_source_evidence_preserved": "Originalpublished221-222packet/sourcecommit/READMEbytepreimage and historicalsummary remain unchanged;normalGitdocumentationupdate retains history."
+  }
+}

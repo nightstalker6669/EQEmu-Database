@@ -1,6 +1,6 @@
 # RRC222 PoR Formed Alchemy Suspensions
 
-25 proposed recipes/91entries.
+13 proposed recipes/91entries.
 
 Thirteen remaining absent Formed Suspension of Slime I-VI and Toxin I-VII bodies from the existing queue.21 new direct primary identities (13 outputs and8 ingredients) match retained formulas, literal quantities and per-item numeric trivials. Prior explicitly authenticated shared ingredients and exact portable Medicine Bag17901 are reused from RRC221. This completes the selected Formed I-VII family; other tiers and other potion families remain outside this batch.
 
