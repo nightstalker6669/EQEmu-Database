@@ -1,0 +1,608 @@
+{
+  "batch": "RRC218",
+  "branch": "rof2-tradeskills",
+  "status": "SOURCE_PROPOSAL_NOT_APPLIED_LABELLED_RECONSTRUCTION",
+  "proposed_ids": [
+    3096818,
+    3096821
+  ],
+  "counts": {
+    "recipes": 4,
+    "entries": 17,
+    "item_dependencies": 11,
+    "unchanged_prototype_recipes": 0,
+    "unchanged_prototype_entries": 0
+  },
+  "recipes": [
+    {
+      "id": 3096818,
+      "name": "Simple Oatmeal",
+      "tradeskill": 60,
+      "skillneeded": 0,
+      "trivial": 31,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary TSS Crescent Reach Baking reconstruction; RRC218.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 12,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3096819,
+      "name": "Simple Muffin",
+      "tradeskill": 60,
+      "skillneeded": 0,
+      "trivial": 38,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary TSS Crescent Reach Baking reconstruction; RRC218.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 12,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3096820,
+      "name": "Simple Pastry",
+      "tradeskill": 60,
+      "skillneeded": 0,
+      "trivial": 54,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary TSS Crescent Reach Baking reconstruction; RRC218.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 12,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3096821,
+      "name": "Simple Pie",
+      "tradeskill": 60,
+      "skillneeded": 0,
+      "trivial": 46,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary TSS Crescent Reach Baking reconstruction; RRC218.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 12,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    }
+  ],
+  "entries": [
+    {
+      "recipe_id": 3096818,
+      "item_id": 58045,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096818,
+      "item_id": 98258,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096818,
+      "item_id": 98260,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096818,
+      "item_id": 17906,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3096819,
+      "item_id": 58046,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096819,
+      "item_id": 98277,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096819,
+      "item_id": 98291,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096819,
+      "item_id": 15,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3096820,
+      "item_id": 58046,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096820,
+      "item_id": 98254,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096820,
+      "item_id": 98280,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096820,
+      "item_id": 15,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3096821,
+      "item_id": 58046,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096821,
+      "item_id": 98281,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096821,
+      "item_id": 98282,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096821,
+      "item_id": 98291,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096821,
+      "item_id": 15,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    }
+  ],
+  "item_dependencies": [
+    {
+      "id": 17906,
+      "name": "Mixing Bowl"
+    },
+    {
+      "id": 58045,
+      "name": "Hot Water"
+    },
+    {
+      "id": 58046,
+      "name": "Hunk of Dough"
+    },
+    {
+      "id": 98254,
+      "name": "Dab of Simple Frosting"
+    },
+    {
+      "id": 98258,
+      "name": "Dry Oatmeal"
+    },
+    {
+      "id": 98260,
+      "name": "Simple Oatmeal"
+    },
+    {
+      "id": 98277,
+      "name": "Simple Muffin"
+    },
+    {
+      "id": 98280,
+      "name": "Simple Pastry"
+    },
+    {
+      "id": 98281,
+      "name": "Simple Pie"
+    },
+    {
+      "id": 98282,
+      "name": "Simple Pie Tin"
+    },
+    {
+      "id": 98291,
+      "name": "Simple Surprise"
+    }
+  ],
+  "unchanged_prototype_recipes": [],
+  "unchanged_prototype_entries": [],
+  "source_facts": [
+    {
+      "recipe_id": 3096818,
+      "source_name": "Simple Oatmeal",
+      "source_view_id": 28172,
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=379&rsa=Baking&sub=quest",
+      "source_formula": "Components: Dry Oatmeal, Hot Water\nIn: Mixing Bowl (Portable), Mixing Bowl (Placeable), Guild Mixing Bowl, Mixing Bowl\nYield: 1\nNotes: EQRecipeID: 36597\nCrescent Reach Freebie Quest",
+      "source_catalogue_sha256": "a0bf49eea5123e3629b0e932aff39adb308310fdcddc1ff8659cca751dbb83a7",
+      "output_item_id": 98260,
+      "yield_count": 1,
+      "source_physical_roles": {
+        "componentcount": {
+          "58045": 1,
+          "98258": 1
+        },
+        "successcount": {
+          "98260": 1
+        },
+        "failcount": {}
+      },
+      "nofail": 0,
+      "trivial": 31,
+      "ingredients": [
+        {
+          "item_id": 58045,
+          "name": "Hot Water",
+          "count": 1
+        },
+        {
+          "item_id": 98258,
+          "name": "Dry Oatmeal",
+          "count": 1
+        }
+      ],
+      "success_roles": {
+        "98260": 1
+      },
+      "failure_roles": {},
+      "container_item_ids": [
+        17906
+      ],
+      "held_source_stations": [
+        "Mixing Bowl (Placeable)",
+        "Guild Mixing Bowl",
+        "Mixing Bowl"
+      ],
+      "min_expansion": 12,
+      "skillneeded": 0,
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "learning_origin": "ORDINARY_ZERO_POLICY_SOURCE_OMITS_MANDATORY_BOOK_MINIMUM",
+      "era_origin": "MAINTAINED_TSS12_QUEST_FAMILY_POLICY_NOT_EXACT_INTRODUCTION",
+      "May2013_exact_fields_verified": false,
+      "identity_assurance": "ALL_NATIVE_ITEM_REFERENCES_PRIMARY_EQ_ITEM_ID_AUTHENTICATED",
+      "unlinked_named_output_qualification": null
+    },
+    {
+      "recipe_id": 3096819,
+      "source_name": "Simple Muffin",
+      "source_view_id": 28171,
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=379&rsa=Baking&sub=quest",
+      "source_formula": "Components: Hunk of Dough, Simple Surprise\nIn: Spit (Portable), Oven, Tanaan Oven, Oven (Placeable), Guild Oven\nYield: 1\nNotes: EQRecipeID: 36598\nCrescent Reach Freebie Quest",
+      "source_catalogue_sha256": "a0bf49eea5123e3629b0e932aff39adb308310fdcddc1ff8659cca751dbb83a7",
+      "output_item_id": 98277,
+      "yield_count": 1,
+      "source_physical_roles": {
+        "componentcount": {
+          "58046": 1,
+          "98291": 1
+        },
+        "successcount": {
+          "98277": 1
+        },
+        "failcount": {}
+      },
+      "nofail": 0,
+      "trivial": 38,
+      "ingredients": [
+        {
+          "item_id": 58046,
+          "name": "Hunk of Dough",
+          "count": 1
+        },
+        {
+          "item_id": 98291,
+          "name": "Simple Surprise",
+          "count": 1
+        }
+      ],
+      "success_roles": {
+        "98277": 1
+      },
+      "failure_roles": {},
+      "container_item_ids": [
+        15
+      ],
+      "held_source_stations": [
+        "Spit (Portable)",
+        "Tanaan Oven",
+        "Oven (Placeable)",
+        "Guild Oven"
+      ],
+      "min_expansion": 12,
+      "skillneeded": 0,
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "learning_origin": "ORDINARY_ZERO_POLICY_SOURCE_OMITS_MANDATORY_BOOK_MINIMUM",
+      "era_origin": "MAINTAINED_TSS12_QUEST_FAMILY_POLICY_NOT_EXACT_INTRODUCTION",
+      "May2013_exact_fields_verified": false,
+      "identity_assurance": "ALL_NATIVE_ITEM_REFERENCES_PRIMARY_EQ_ITEM_ID_AUTHENTICATED",
+      "unlinked_named_output_qualification": null
+    },
+    {
+      "recipe_id": 3096820,
+      "source_name": "Simple Pastry",
+      "source_view_id": 28173,
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=379&rsa=Baking&sub=quest",
+      "source_formula": "Components: Dab of Simple Frosting, Hunk of Dough\nIn: Spit (Portable), Oven, Tanaan Oven, Oven (Placeable), Guild Oven\nYield: 1\nNotes: EQRecipeID: 36600\nCrescent Reach Freebie Quest",
+      "source_catalogue_sha256": "a0bf49eea5123e3629b0e932aff39adb308310fdcddc1ff8659cca751dbb83a7",
+      "output_item_id": 98280,
+      "yield_count": 1,
+      "source_physical_roles": {
+        "componentcount": {
+          "58046": 1,
+          "98254": 1
+        },
+        "successcount": {
+          "98280": 1
+        },
+        "failcount": {}
+      },
+      "nofail": 0,
+      "trivial": 54,
+      "ingredients": [
+        {
+          "item_id": 58046,
+          "name": "Hunk of Dough",
+          "count": 1
+        },
+        {
+          "item_id": 98254,
+          "name": "Dab of Simple Frosting",
+          "count": 1
+        }
+      ],
+      "success_roles": {
+        "98280": 1
+      },
+      "failure_roles": {},
+      "container_item_ids": [
+        15
+      ],
+      "held_source_stations": [
+        "Spit (Portable)",
+        "Tanaan Oven",
+        "Oven (Placeable)",
+        "Guild Oven"
+      ],
+      "min_expansion": 12,
+      "skillneeded": 0,
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "learning_origin": "ORDINARY_ZERO_POLICY_SOURCE_OMITS_MANDATORY_BOOK_MINIMUM",
+      "era_origin": "MAINTAINED_TSS12_QUEST_FAMILY_POLICY_NOT_EXACT_INTRODUCTION",
+      "May2013_exact_fields_verified": false,
+      "identity_assurance": "ALL_NATIVE_ITEM_REFERENCES_PRIMARY_EQ_ITEM_ID_AUTHENTICATED",
+      "unlinked_named_output_qualification": null
+    },
+    {
+      "recipe_id": 3096821,
+      "source_name": "Simple Pie",
+      "source_view_id": 28174,
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=379&rsa=Baking&sub=quest",
+      "source_formula": "Components: Hunk of Dough, Simple Pie Tin, Simple Surprise\nIn: Spit (Portable), Oven, Tanaan Oven, Oven (Placeable), Guild Oven\nYield: 1\nNotes: EQRecipeID: 36599\nCrescent Reach Freebie Quest",
+      "source_catalogue_sha256": "a0bf49eea5123e3629b0e932aff39adb308310fdcddc1ff8659cca751dbb83a7",
+      "output_item_id": 98281,
+      "yield_count": 1,
+      "source_physical_roles": {
+        "componentcount": {
+          "58046": 1,
+          "98282": 1,
+          "98291": 1
+        },
+        "successcount": {
+          "98281": 1
+        },
+        "failcount": {}
+      },
+      "nofail": 0,
+      "trivial": 46,
+      "ingredients": [
+        {
+          "item_id": 58046,
+          "name": "Hunk of Dough",
+          "count": 1
+        },
+        {
+          "item_id": 98282,
+          "name": "Simple Pie Tin",
+          "count": 1
+        },
+        {
+          "item_id": 98291,
+          "name": "Simple Surprise",
+          "count": 1
+        }
+      ],
+      "success_roles": {
+        "98281": 1
+      },
+      "failure_roles": {},
+      "container_item_ids": [
+        15
+      ],
+      "held_source_stations": [
+        "Spit (Portable)",
+        "Tanaan Oven",
+        "Oven (Placeable)",
+        "Guild Oven"
+      ],
+      "min_expansion": 12,
+      "skillneeded": 0,
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "learning_origin": "ORDINARY_ZERO_POLICY_SOURCE_OMITS_MANDATORY_BOOK_MINIMUM",
+      "era_origin": "MAINTAINED_TSS12_QUEST_FAMILY_POLICY_NOT_EXACT_INTRODUCTION",
+      "May2013_exact_fields_verified": false,
+      "identity_assurance": "ALL_NATIVE_ITEM_REFERENCES_PRIMARY_EQ_ITEM_ID_AUTHENTICATED",
+      "unlinked_named_output_qualification": null
+    }
+  ],
+  "restriction_review": {
+    "scope": "Four absent Crescent Reach tutorial Baking formulas: SimpleOatmeal, SimpleMuffin, SimplePie, SimplePastry. Ten direct primary output/ingredient IDs and exact retained/current formulas matched. Supplemental primary EQTC Quests:TSS:Baking guideq244 names this TSS quest family and documents the same four formulas/trivials.",
+    "era": "Positive TSS12 quest-family context, guide created2006-10-23; floor12/max-1 labelled reconstruction, not immutable per-field2006/May2013 proof. Guide creation date alone does not prove every current field historical; task descriptions and independently matching formulas support family identification.",
+    "quantity": "Each produces one physical stackable food unit/currentMax0. Exact ingredients all one unit. SimplePieTin98282 is an explicitly consumed ingredient and source states no success/failure return, so none invented. Numeric trivials31/38/46/54 and ordinarynofail0.",
+    "containers": "Muffin/Pie/Pastry explicitly ordinaryOven15, two/three physical ingredients fit ten-unit limit. Oatmeal explicitly portableMixingBowl: primary1619/EQ17906/capacity10/GIANT; current nativeNameMixingBowl,class1,bagtype14,ten slots/sizecapacity4, two exact inputs fit. Only portable17906 bound, no world14/other bowl types inferred. Other listed station alternatives held separately.",
+    "learning": "Recipe sources omit mandatory learning/minimum/actor restrictions: ordinary skillneeded0/must_learn0/book0/quest0/enabled1 policies. Guide task-selection skill bands belong to NPC quest context, not an explicit recipe manufacturing minimum. No 2017 quest-training behavior backported, no new NPC supplies/tasks/recipe-learning hooks or questcredit claimed.",
+    "preservation": "Elevenfresh exact native dependencies guarded, no current all-state/all-skill full-input/name match or any positive-success output peer. NewIDs/full logicalentries/countdeltas/learnedrefs protected; no existing recipe/item/quest/core/player edits.",
+    "execution": "Source only pending coordinator disposition/publication/exact SQL GO, following verified217revision2. Named one-pass counts, readers/source tabs closed. No tests/rehearsal/build/runtime/native combine/task/learning acceptance. Overall scope incomplete."
+  },
+  "source_urls": [
+    "https://www.eqtraders.com/articles/article_page.php?article=q244",
+    "https://www.eqtraders.com/recipes/recipe_page.php?article=379&rsa=Baking&sub=quest"
+  ],
+  "supplemental_primary_identity_sources": [
+    {
+      "source_url": "https://www.eqtraders.com/items/show_item.php?item=27069",
+      "source_item_id": 27069,
+      "explicit_EQ_item_ID": 98277,
+      "observed_primary_title": "EQTC - Item: Simple Muffin"
+    },
+    {
+      "source_url": "https://www.eqtraders.com/items/show_item.php?item=11900",
+      "source_item_id": 11900,
+      "explicit_EQ_item_ID": 58046,
+      "observed_primary_title": "EQTC - Item: Hunk of Dough"
+    },
+    {
+      "source_url": "https://www.eqtraders.com/items/show_item.php?item=27068",
+      "source_item_id": 27068,
+      "explicit_EQ_item_ID": 98291,
+      "observed_primary_title": "EQTC - Item: Simple Surprise"
+    },
+    {
+      "source_url": "https://www.eqtraders.com/items/show_item.php?item=27067",
+      "source_item_id": 27067,
+      "explicit_EQ_item_ID": 98260,
+      "observed_primary_title": "EQTC - Item: Simple Oatmeal"
+    },
+    {
+      "source_url": "https://www.eqtraders.com/items/show_item.php?item=27066",
+      "source_item_id": 27066,
+      "explicit_EQ_item_ID": 98258,
+      "observed_primary_title": "EQTC - Item: Dry Oatmeal"
+    },
+    {
+      "source_url": "https://www.eqtraders.com/items/show_item.php?item=12777",
+      "source_item_id": 12777,
+      "explicit_EQ_item_ID": 58045,
+      "observed_primary_title": "EQTC - Item: Hot Water"
+    },
+    {
+      "source_url": "https://www.eqtraders.com/items/show_item.php?item=27073",
+      "source_item_id": 27073,
+      "explicit_EQ_item_ID": 98280,
+      "observed_primary_title": "EQTC - Item: Simple Pastry"
+    },
+    {
+      "source_url": "https://www.eqtraders.com/items/show_item.php?item=27072",
+      "source_item_id": 27072,
+      "explicit_EQ_item_ID": 98254,
+      "observed_primary_title": "EQTC - Item: Dab of Simple Frosting"
+    },
+    {
+      "source_url": "https://www.eqtraders.com/items/show_item.php?item=27071",
+      "source_item_id": 27071,
+      "explicit_EQ_item_ID": 98281,
+      "observed_primary_title": "EQTC - Item: Simple Pie"
+    },
+    {
+      "source_url": "https://www.eqtraders.com/items/show_item.php?item=27070",
+      "source_item_id": 27070,
+      "explicit_EQ_item_ID": 98282,
+      "observed_primary_title": "EQTC - Item: Simple Pie Tin"
+    },
+    {
+      "source_url": "https://www.eqtraders.com/items/show_item.php?item=1619",
+      "source_item_id": 1619,
+      "explicit_EQ_item_ID": 17906,
+      "observed_primary_title": "EQTC - Item: Mixing Bowl (Portable)"
+    }
+  ],
+  "native_authored_context": [],
+  "migration_dependencies": [],
+  "held_source_rows": []
+}

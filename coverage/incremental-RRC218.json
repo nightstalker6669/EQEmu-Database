@@ -1,0 +1,47 @@
+{
+  "format_version": 1,
+  "batch": "RRC218",
+  "source_commit": "74d6251a3edddfa2499754a73fe2bf6f77501d06",
+  "source_sha256": "d677cca8da97f6d51161266fd492e6ac8a9eb3d4edd0aeb74e86fbca3a47a684",
+  "application_status": "APPLIED_VERIFIED",
+  "recipes_added": 4,
+  "entries_added": 17,
+  "existing_recipe_definitions_updated": 0,
+  "existing_entry_rows_updated": 0,
+  "global_actual_counts": {
+    "recipes": 28385,
+    "entries": 216290
+  },
+  "TS_cumulative_added_current": {
+    "recipes": 5561,
+    "entries": 38665
+  },
+  "cumulative_basis": "Prior5557/38648 actual after216+217r2 plus4/17.",
+  "new_recipe_batches": 167,
+  "historical_qualification": {
+    "scope": "Four absent Crescent Reach tutorial Baking formulas: SimpleOatmeal, SimpleMuffin, SimplePie, SimplePastry. Ten direct primary output/ingredient IDs and exact retained/current formulas matched. Supplemental primary EQTC Quests:TSS:Baking guideq244 names this TSS quest family and documents the same four formulas/trivials.",
+    "era": "Positive TSS12 quest-family context, guide created2006-10-23; floor12/max-1 labelled reconstruction, not immutable per-field2006/May2013 proof. Guide creation date alone does not prove every current field historical; task descriptions and independently matching formulas support family identification.",
+    "quantity": "Each produces one physical stackable food unit/currentMax0. Exact ingredients all one unit. SimplePieTin98282 is an explicitly consumed ingredient and source states no success/failure return, so none invented. Numeric trivials31/38/46/54 and ordinarynofail0.",
+    "containers": "Muffin/Pie/Pastry explicitly ordinaryOven15, two/three physical ingredients fit ten-unit limit. Oatmeal explicitly portableMixingBowl: primary1619/EQ17906/capacity10/GIANT; current nativeNameMixingBowl,class1,bagtype14,ten slots/sizecapacity4, two exact inputs fit. Only portable17906 bound, no world14/other bowl types inferred. Other listed station alternatives held separately.",
+    "learning": "Recipe sources omit mandatory learning/minimum/actor restrictions: ordinary skillneeded0/must_learn0/book0/quest0/enabled1 policies. Guide task-selection skill bands belong to NPC quest context, not an explicit recipe manufacturing minimum. No 2017 quest-training behavior backported, no new NPC supplies/tasks/recipe-learning hooks or questcredit claimed.",
+    "preservation": "Elevenfresh exact native dependencies guarded, no current all-state/all-skill full-input/name match or any positive-success output peer. NewIDs/full logicalentries/countdeltas/learnedrefs protected; no existing recipe/item/quest/core/player edits.",
+    "execution": "Source only pending coordinator disposition/publication/exact SQL GO, following verified217revision2. Named one-pass counts, readers/source tabs closed. No tests/rehearsal/build/runtime/native combine/task/learning acceptance. Overall scope incomplete."
+  },
+  "held_batches": [
+    "RRC014",
+    "RRC160"
+  ],
+  "all_scope_complete": false,
+  "separate_Xorbb_recipe_excluded": {
+    "recipes": 1,
+    "entries": 6
+  },
+  "prior_locally_confirmed_published_normal_SQL_source_paths": 684,
+  "earlier_pending_normal_SQL_source_paths": 0,
+  "new_normal_SQL_source_paths": 2,
+  "normal_SQL_source_paths_after_all_pending_publications": 686,
+  "SQL_path_count_meaning": "Source paths,not application count.",
+  "history_archives_preserved": true,
+  "QA39999_production_exclusion_retained": true,
+  "assembly": "Source+actual summary only;noSQL/query/replay/tests/runtime/receipt-onlypublication."
+}
