@@ -1,0 +1,49 @@
+{
+  "format_version": 1,
+  "batch": "RRC204",
+  "source_commit": "d31467682074ad3db3f3a9202cd5991cc487290c",
+  "source_sha256": "b6222f926fa0306e405e4ac173c591978340607e37857e558e6ee3b5420ec191",
+  "application_status": "APPLIED_VERIFIED",
+  "repair_type": "ENTRY_ONLY_EXISTING_RECIPES",
+  "SQL_invocations": 1,
+  "transaction_state_after": 0,
+  "recipes_added": 0,
+  "entries_added": 5,
+  "existing_recipe_definitions_updated": 0,
+  "existing_entry_rows_updated": 15,
+  "affected_existing_recipe_ids": [
+    219,
+    246,
+    249,
+    312,
+    316
+  ],
+  "definitions_preserved": 5,
+  "before_entry_rows": 30,
+  "after_entry_rows": 35,
+  "all_original_entry_IDs_preserved": true,
+  "duplicate_output_row_multiplicity": 2,
+  "exact_target_logical_entry_multisets_verified": true,
+  "exact_target_postimages": true,
+  "native_item_dependencies_guarded": 19,
+  "learned_references_unchanged": true,
+  "global_after_counts": {
+    "recipes": 28217,
+    "entries": 214687
+  },
+  "historical_qualification": {
+    "scope": "Entry-only correction of five EXISTING OoW poison recipes219/246/249/312/316. No new recipes. Exact definitions, IDs, learning/minimum/quest/era flags and learned references preserved.15 existing entry rows changed and5 new output-instance rows inserted, net+5entries.",
+    "quantities": "Primary explicitly physicalYield2 andCharges1 each. Native current outputs nonstackable MaxCharges1/LoreGroup0. Two distinct success1 rows encode two one-charge instances through existing vector loader/executor; a single success2 row encodes one two-charge instance. Vials change1to2 with salvage1to2; other three source inputs unchanged. No item or core edits.",
+    "container_scope": "Current container entry17020 is Component Mortar, bagtype13, capacity4. The corrected source requires5physical input units. Source directly links Mortar and Pestle primary1745/EQ17904, nativebagtype12/capacity6/sizecapacity3 and all exact ingredient sizes fit. Replace existing container entry with portable17904. This necessary binding correction is explicitly part of the15 row updates; source-listed Marble/Collapsible/world alternatives remain unadded, no availability inferred.",
+    "actor": "Source explicitly Rogue-only; existing normal and auto MakePoison class checks enforce it. Existing recipe headers unchanged. Native item class masks/use levels not translated into new actor gates.",
+    "historical": "Maintained positive OoW family and current explicit primary formulas/IDs/charge profiles support a labelled source reconciliation. Exact immutable May2013 ingredient/quantity/container fields are not independently authenticated; existing min/max expansion values remain unchanged. EQRecipe numbers are not date evidence.",
+    "preservation": "Exact5 recipe definitions/30 entry preimages,19 item-field dependencies and5 LoreGroup0 fields guarded. All original entry IDs preserved. Duplicate-row multiplicity2, full target universe35, output-use universe and all-state/all-skill corrected-input uniqueness checked. Both forward and inverse have exact pre/postimages and count deltas. No player/item/core changes; normal helper preserves full learned refs.",
+    "execution": "Source proposal only pending coordinator container/quantity disposition, publication and exact SQL GO. Exact reversible rollback supplied but never automatically invoked. Readers/research tabs closed. No tests/rehearsal/build/runtime/native combine, poison application or two-instance client acceptance claim; full recipe scope incomplete."
+  },
+  "Research160": "HELD/unapplied",
+  "all_scope_complete": false,
+  "player_item_writes": false,
+  "runtime_actions": false,
+  "native_poison_two_instance_acceptance": false,
+  "source_documents": "Four source files retained verbatim; preparation-time source-only labels are historical. Separate actual receipt confirms the closed entry-only application above. Supplied inverse remains unexecuted."
+}

@@ -1,0 +1,1219 @@
+{
+  "batch": "RRC204",
+  "branch": "rof2-tradeskills",
+  "status": "SOURCE_ENTRY_CORRECTION_NOT_APPLIED",
+  "counts": {
+    "existing_recipes": 5,
+    "before_entries": 30,
+    "after_entries": 35,
+    "item_dependencies": 19,
+    "existing_entry_rows_updated": 15,
+    "new_entries": 5
+  },
+  "before_recipes": [
+    {
+      "id": 219,
+      "name": "Bloodpyre",
+      "tradeskill": 56,
+      "skillneeded": 0,
+      "trivial": 324,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": null,
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": -1,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 246,
+      "name": "Flesh Rot",
+      "tradeskill": 56,
+      "skillneeded": 0,
+      "trivial": 268,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": null,
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": -1,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 249,
+      "name": "Heart Blaze",
+      "tradeskill": 56,
+      "skillneeded": 0,
+      "trivial": 351,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": null,
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": -1,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 312,
+      "name": "Spinal Disorientation",
+      "tradeskill": 56,
+      "skillneeded": 0,
+      "trivial": 351,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": null,
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": -1,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 316,
+      "name": "Spinning Confusion",
+      "tradeskill": 56,
+      "skillneeded": 0,
+      "trivial": 340,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": null,
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": -1,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    }
+  ],
+  "after_recipes": [
+    {
+      "id": 219,
+      "name": "Bloodpyre",
+      "tradeskill": 56,
+      "skillneeded": 0,
+      "trivial": 324,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": null,
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": -1,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 246,
+      "name": "Flesh Rot",
+      "tradeskill": 56,
+      "skillneeded": 0,
+      "trivial": 268,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": null,
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": -1,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 249,
+      "name": "Heart Blaze",
+      "tradeskill": 56,
+      "skillneeded": 0,
+      "trivial": 351,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": null,
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": -1,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 312,
+      "name": "Spinal Disorientation",
+      "tradeskill": 56,
+      "skillneeded": 0,
+      "trivial": 351,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": null,
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": -1,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 316,
+      "name": "Spinning Confusion",
+      "tradeskill": 56,
+      "skillneeded": 0,
+      "trivial": 340,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": null,
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": -1,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    }
+  ],
+  "before_entries": [
+    {
+      "id": 1575,
+      "recipe_id": 219,
+      "item_id": 16967,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 1576,
+      "recipe_id": 219,
+      "item_id": 55780,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 1577,
+      "recipe_id": 219,
+      "item_id": 55803,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 1578,
+      "recipe_id": 219,
+      "item_id": 72066,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 1579,
+      "recipe_id": 219,
+      "item_id": 72602,
+      "successcount": 2,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 1581,
+      "recipe_id": 219,
+      "item_id": 17020,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 1816,
+      "recipe_id": 246,
+      "item_id": 16967,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 1817,
+      "recipe_id": 246,
+      "item_id": 55770,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 1818,
+      "recipe_id": 246,
+      "item_id": 55784,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 1819,
+      "recipe_id": 246,
+      "item_id": 72079,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 1820,
+      "recipe_id": 246,
+      "item_id": 72609,
+      "successcount": 2,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 1822,
+      "recipe_id": 246,
+      "item_id": 17020,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 1837,
+      "recipe_id": 249,
+      "item_id": 16967,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 1838,
+      "recipe_id": 249,
+      "item_id": 55780,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 1839,
+      "recipe_id": 249,
+      "item_id": 55803,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 1840,
+      "recipe_id": 249,
+      "item_id": 72076,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 1841,
+      "recipe_id": 249,
+      "item_id": 72603,
+      "successcount": 2,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 1843,
+      "recipe_id": 249,
+      "item_id": 17020,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 2380,
+      "recipe_id": 312,
+      "item_id": 16967,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 2381,
+      "recipe_id": 312,
+      "item_id": 55790,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 2382,
+      "recipe_id": 312,
+      "item_id": 55829,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 2383,
+      "recipe_id": 312,
+      "item_id": 72075,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 2384,
+      "recipe_id": 312,
+      "item_id": 72601,
+      "successcount": 2,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 2386,
+      "recipe_id": 312,
+      "item_id": 17020,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 2415,
+      "recipe_id": 316,
+      "item_id": 16967,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 2416,
+      "recipe_id": 316,
+      "item_id": 55790,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 2417,
+      "recipe_id": 316,
+      "item_id": 55829,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 2418,
+      "recipe_id": 316,
+      "item_id": 72065,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 2419,
+      "recipe_id": 316,
+      "item_id": 72600,
+      "successcount": 2,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 2421,
+      "recipe_id": 316,
+      "item_id": 17020,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    }
+  ],
+  "after_entries": [
+    {
+      "id": 1575,
+      "recipe_id": 219,
+      "item_id": 16967,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 2,
+      "salvagecount": 2,
+      "iscontainer": 0
+    },
+    {
+      "id": 1576,
+      "recipe_id": 219,
+      "item_id": 55780,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 1577,
+      "recipe_id": 219,
+      "item_id": 55803,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 1578,
+      "recipe_id": 219,
+      "item_id": 72066,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 1579,
+      "recipe_id": 219,
+      "item_id": 72602,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 1581,
+      "recipe_id": 219,
+      "item_id": 17904,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 1816,
+      "recipe_id": 246,
+      "item_id": 16967,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 2,
+      "salvagecount": 2,
+      "iscontainer": 0
+    },
+    {
+      "id": 1817,
+      "recipe_id": 246,
+      "item_id": 55770,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 1818,
+      "recipe_id": 246,
+      "item_id": 55784,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 1819,
+      "recipe_id": 246,
+      "item_id": 72079,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 1820,
+      "recipe_id": 246,
+      "item_id": 72609,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 1822,
+      "recipe_id": 246,
+      "item_id": 17904,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 1837,
+      "recipe_id": 249,
+      "item_id": 16967,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 2,
+      "salvagecount": 2,
+      "iscontainer": 0
+    },
+    {
+      "id": 1838,
+      "recipe_id": 249,
+      "item_id": 55780,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 1839,
+      "recipe_id": 249,
+      "item_id": 55803,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 1840,
+      "recipe_id": 249,
+      "item_id": 72076,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 1841,
+      "recipe_id": 249,
+      "item_id": 72603,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 1843,
+      "recipe_id": 249,
+      "item_id": 17904,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 2380,
+      "recipe_id": 312,
+      "item_id": 16967,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 2,
+      "salvagecount": 2,
+      "iscontainer": 0
+    },
+    {
+      "id": 2381,
+      "recipe_id": 312,
+      "item_id": 55790,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 2382,
+      "recipe_id": 312,
+      "item_id": 55829,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 2383,
+      "recipe_id": 312,
+      "item_id": 72075,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 2384,
+      "recipe_id": 312,
+      "item_id": 72601,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 2386,
+      "recipe_id": 312,
+      "item_id": 17904,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 2415,
+      "recipe_id": 316,
+      "item_id": 16967,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 2,
+      "salvagecount": 2,
+      "iscontainer": 0
+    },
+    {
+      "id": 2416,
+      "recipe_id": 316,
+      "item_id": 55790,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 2417,
+      "recipe_id": 316,
+      "item_id": 55829,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 2418,
+      "recipe_id": 316,
+      "item_id": 72065,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 2419,
+      "recipe_id": 316,
+      "item_id": 72600,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 2421,
+      "recipe_id": 316,
+      "item_id": 17904,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    }
+  ],
+  "added_entries": [
+    {
+      "recipe_id": 219,
+      "item_id": 72602,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 246,
+      "item_id": 72609,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 249,
+      "item_id": 72603,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 312,
+      "item_id": 72601,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 316,
+      "item_id": 72600,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    }
+  ],
+  "recipes": [],
+  "entries": [],
+  "unchanged_prototype_recipes": [],
+  "unchanged_prototype_entries": [],
+  "item_dependencies": [
+    {
+      "id": 16967,
+      "name": "Sealed Poison Vial"
+    },
+    {
+      "id": 17020,
+      "name": "Component Mortar"
+    },
+    {
+      "id": 17904,
+      "name": "Mortar and Pestle"
+    },
+    {
+      "id": 55770,
+      "name": "Cracked Girplan Eye"
+    },
+    {
+      "id": 55780,
+      "name": "Flaming Pyrilen Tail"
+    },
+    {
+      "id": 55784,
+      "name": "Dark Discordling Tongue"
+    },
+    {
+      "id": 55790,
+      "name": "Chimera Bull's Eye"
+    },
+    {
+      "id": 55803,
+      "name": "Ukun Spike"
+    },
+    {
+      "id": 55829,
+      "name": "Slitted Ikaav Eye"
+    },
+    {
+      "id": 72065,
+      "name": "Discordling Dust"
+    },
+    {
+      "id": 72066,
+      "name": "Pyrilen Blood"
+    },
+    {
+      "id": 72075,
+      "name": "Discordling Spinal Fluid"
+    },
+    {
+      "id": 72076,
+      "name": "Pyrilen Heart Blood"
+    },
+    {
+      "id": 72079,
+      "name": "Girplan Liver"
+    },
+    {
+      "id": 72600,
+      "name": "Spinning Confusion"
+    },
+    {
+      "id": 72601,
+      "name": "Spinal Disorientation"
+    },
+    {
+      "id": 72602,
+      "name": "Bloodpyre"
+    },
+    {
+      "id": 72603,
+      "name": "Heart Blaze"
+    },
+    {
+      "id": 72609,
+      "name": "Flesh Rot"
+    }
+  ],
+  "source_facts": [
+    {
+      "source_view_id": 15799,
+      "recipe_id": 219,
+      "source_name": "Bloodpyre",
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=262&rc=ROG&rsa=Make+Poison&sub=OoW",
+      "source_formula": "Components: Flaming Pyrilen Tail, Pyrilen Blood, Sealed Poison Vial (2), Ukun Spike\nIn: Mortar and Pestle, Marble Mortar and Pestle, Collapsible Mortar and Pestle, Poisoncrafting Table (Placeable), Poisoncrafting Table, Guild Poisoncrafting Table\nYield: 2\nThis combine may only be made by Rogues\nNotes: EQRecipeID: 67502",
+      "source_trivial": "324",
+      "output_item_id": 72602,
+      "source_physical_output_count": 2,
+      "explicit_initial_charges_each": 1,
+      "native_success_rows": [
+        {
+          "item_id": 72602,
+          "successcount": 1
+        },
+        {
+          "item_id": 72602,
+          "successcount": 1
+        }
+      ],
+      "source_actor_requirement": "Rogue",
+      "source_era_context": "Maintained OoW family; exact May2013 fields not authenticated",
+      "source_input_roles": {
+        "16967": 2,
+        "55780": 1,
+        "55803": 1,
+        "72066": 1
+      },
+      "old_container": {
+        "item_id": 17020,
+        "name": "Component Mortar",
+        "bagtype": 13,
+        "slots": 4
+      },
+      "new_container": {
+        "item_id": 17904,
+        "name": "Mortar and Pestle",
+        "bagtype": 12,
+        "slots": 6
+      },
+      "changed_entry_ids": [
+        1575,
+        1579,
+        1581
+      ],
+      "recipe_definition_and_existing_entry_ids_preserved": true
+    },
+    {
+      "source_view_id": 15800,
+      "recipe_id": 246,
+      "source_name": "Flesh Rot",
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=262&rc=ROG&rsa=Make+Poison&sub=OoW",
+      "source_formula": "Components: Cracked Girplan Eye, Dark Discordling Tongue, Girplan Liver, Sealed Poison Vial (2)\nIn: Mortar and Pestle, Marble Mortar and Pestle, Collapsible Mortar and Pestle, Poisoncrafting Table (Placeable), Poisoncrafting Table, Guild Poisoncrafting Table\nYield: 2\nThis combine may only be made by Rogues\nNotes: EQRecipeID: 67509",
+      "source_trivial": "268",
+      "output_item_id": 72609,
+      "source_physical_output_count": 2,
+      "explicit_initial_charges_each": 1,
+      "native_success_rows": [
+        {
+          "item_id": 72609,
+          "successcount": 1
+        },
+        {
+          "item_id": 72609,
+          "successcount": 1
+        }
+      ],
+      "source_actor_requirement": "Rogue",
+      "source_era_context": "Maintained OoW family; exact May2013 fields not authenticated",
+      "source_input_roles": {
+        "16967": 2,
+        "55770": 1,
+        "55784": 1,
+        "72079": 1
+      },
+      "old_container": {
+        "item_id": 17020,
+        "name": "Component Mortar",
+        "bagtype": 13,
+        "slots": 4
+      },
+      "new_container": {
+        "item_id": 17904,
+        "name": "Mortar and Pestle",
+        "bagtype": 12,
+        "slots": 6
+      },
+      "changed_entry_ids": [
+        1816,
+        1820,
+        1822
+      ],
+      "recipe_definition_and_existing_entry_ids_preserved": true
+    },
+    {
+      "source_view_id": 15802,
+      "recipe_id": 249,
+      "source_name": "Heart Blaze",
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=262&rc=ROG&rsa=Make+Poison&sub=OoW",
+      "source_formula": "Components: Flaming Pyrilen Tail, Pyrilen Heart Blood, Sealed Poison Vial (2), Ukun Spike\nIn: Mortar and Pestle, Marble Mortar and Pestle, Collapsible Mortar and Pestle, Poisoncrafting Table (Placeable), Poisoncrafting Table, Guild Poisoncrafting Table\nYield: 2\nThis combine may only be made by Rogues\nNotes: EQRecipeID: 67503",
+      "source_trivial": "351",
+      "output_item_id": 72603,
+      "source_physical_output_count": 2,
+      "explicit_initial_charges_each": 1,
+      "native_success_rows": [
+        {
+          "item_id": 72603,
+          "successcount": 1
+        },
+        {
+          "item_id": 72603,
+          "successcount": 1
+        }
+      ],
+      "source_actor_requirement": "Rogue",
+      "source_era_context": "Maintained OoW family; exact May2013 fields not authenticated",
+      "source_input_roles": {
+        "16967": 2,
+        "55780": 1,
+        "55803": 1,
+        "72076": 1
+      },
+      "old_container": {
+        "item_id": 17020,
+        "name": "Component Mortar",
+        "bagtype": 13,
+        "slots": 4
+      },
+      "new_container": {
+        "item_id": 17904,
+        "name": "Mortar and Pestle",
+        "bagtype": 12,
+        "slots": 6
+      },
+      "changed_entry_ids": [
+        1837,
+        1841,
+        1843
+      ],
+      "recipe_definition_and_existing_entry_ids_preserved": true
+    },
+    {
+      "source_view_id": 15810,
+      "recipe_id": 312,
+      "source_name": "Spinal Disorientation",
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=262&rc=ROG&rsa=Make+Poison&sub=OoW",
+      "source_formula": "Components: Chimera Bull's Eye, Discordling Spinal Fluid, Sealed Poison Vial (2), Slitted Ikaav Eye\nIn: Mortar and Pestle, Marble Mortar and Pestle, Poisoncrafting Table (Placeable), Poisoncrafting Table, Guild Poisoncrafting Table\nYield: 2\nThis combine may only be made by Rogues\nNotes: EQRecipeID: 67501",
+      "source_trivial": "351",
+      "output_item_id": 72601,
+      "source_physical_output_count": 2,
+      "explicit_initial_charges_each": 1,
+      "native_success_rows": [
+        {
+          "item_id": 72601,
+          "successcount": 1
+        },
+        {
+          "item_id": 72601,
+          "successcount": 1
+        }
+      ],
+      "source_actor_requirement": "Rogue",
+      "source_era_context": "Maintained OoW family; exact May2013 fields not authenticated",
+      "source_input_roles": {
+        "16967": 2,
+        "55790": 1,
+        "55829": 1,
+        "72075": 1
+      },
+      "old_container": {
+        "item_id": 17020,
+        "name": "Component Mortar",
+        "bagtype": 13,
+        "slots": 4
+      },
+      "new_container": {
+        "item_id": 17904,
+        "name": "Mortar and Pestle",
+        "bagtype": 12,
+        "slots": 6
+      },
+      "changed_entry_ids": [
+        2380,
+        2384,
+        2386
+      ],
+      "recipe_definition_and_existing_entry_ids_preserved": true
+    },
+    {
+      "source_view_id": 15811,
+      "recipe_id": 316,
+      "source_name": "Spinning Confusion",
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=262&rc=ROG&rsa=Make+Poison&sub=OoW",
+      "source_formula": "Components: Chimera Bull's Eye, Discordling Dust, Sealed Poison Vial (2), Slitted Ikaav Eye\nIn: Mortar and Pestle, Marble Mortar and Pestle, Poisoncrafting Table (Placeable), Poisoncrafting Table, Guild Poisoncrafting Table\nYield: 2\nThis combine may only be made by Rogues\nNotes: EQRecipeID: 67500",
+      "source_trivial": "340",
+      "output_item_id": 72600,
+      "source_physical_output_count": 2,
+      "explicit_initial_charges_each": 1,
+      "native_success_rows": [
+        {
+          "item_id": 72600,
+          "successcount": 1
+        },
+        {
+          "item_id": 72600,
+          "successcount": 1
+        }
+      ],
+      "source_actor_requirement": "Rogue",
+      "source_era_context": "Maintained OoW family; exact May2013 fields not authenticated",
+      "source_input_roles": {
+        "16967": 2,
+        "55790": 1,
+        "55829": 1,
+        "72065": 1
+      },
+      "old_container": {
+        "item_id": 17020,
+        "name": "Component Mortar",
+        "bagtype": 13,
+        "slots": 4
+      },
+      "new_container": {
+        "item_id": 17904,
+        "name": "Mortar and Pestle",
+        "bagtype": 12,
+        "slots": 6
+      },
+      "changed_entry_ids": [
+        2415,
+        2419,
+        2421
+      ],
+      "recipe_definition_and_existing_entry_ids_preserved": true
+    }
+  ],
+  "restriction_review": {
+    "scope": "Entry-only correction of five EXISTING OoW poison recipes219/246/249/312/316. No new recipes. Exact definitions, IDs, learning/minimum/quest/era flags and learned references preserved.15 existing entry rows changed and5 new output-instance rows inserted, net+5entries.",
+    "quantities": "Primary explicitly physicalYield2 andCharges1 each. Native current outputs nonstackable MaxCharges1/LoreGroup0. Two distinct success1 rows encode two one-charge instances through existing vector loader/executor; a single success2 row encodes one two-charge instance. Vials change1to2 with salvage1to2; other three source inputs unchanged. No item or core edits.",
+    "container_scope": "Current container entry17020 is Component Mortar, bagtype13, capacity4. The corrected source requires5physical input units. Source directly links Mortar and Pestle primary1745/EQ17904, nativebagtype12/capacity6/sizecapacity3 and all exact ingredient sizes fit. Replace existing container entry with portable17904. This necessary binding correction is explicitly part of the15 row updates; source-listed Marble/Collapsible/world alternatives remain unadded, no availability inferred.",
+    "actor": "Source explicitly Rogue-only; existing normal and auto MakePoison class checks enforce it. Existing recipe headers unchanged. Native item class masks/use levels not translated into new actor gates.",
+    "historical": "Maintained positive OoW family and current explicit primary formulas/IDs/charge profiles support a labelled source reconciliation. Exact immutable May2013 ingredient/quantity/container fields are not independently authenticated; existing min/max expansion values remain unchanged. EQRecipe numbers are not date evidence.",
+    "preservation": "Exact5 recipe definitions/30 entry preimages,19 item-field dependencies and5 LoreGroup0 fields guarded. All original entry IDs preserved. Duplicate-row multiplicity2, full target universe35, output-use universe and all-state/all-skill corrected-input uniqueness checked. Both forward and inverse have exact pre/postimages and count deltas. No player/item/core changes; normal helper preserves full learned refs.",
+    "execution": "Source proposal only pending coordinator container/quantity disposition, publication and exact SQL GO. Exact reversible rollback supplied but never automatically invoked. Readers/research tabs closed. No tests/rehearsal/build/runtime/native combine, poison application or two-instance client acceptance claim; full recipe scope incomplete."
+  },
+  "source_urls": [
+    "https://www.eqtraders.com/recipes/recipe_page.php?article=262&rc=ROG&rsa=Make+Poison&sub=OoW"
+  ],
+  "supplemental_primary_identity_sources": [
+    {
+      "source_url": "https://www.eqtraders.com/items/show_item.php?item=16452",
+      "source_item_id": 16452,
+      "explicit_EQ_item_ID": 72602,
+      "explicit_initial_charges_each": 1
+    },
+    {
+      "source_url": "https://www.eqtraders.com/items/show_item.php?item=16337",
+      "source_item_id": 16337,
+      "explicit_EQ_item_ID": 72609,
+      "explicit_initial_charges_each": 1
+    },
+    {
+      "source_url": "https://www.eqtraders.com/items/show_item.php?item=16451",
+      "source_item_id": 16451,
+      "explicit_EQ_item_ID": 72603,
+      "explicit_initial_charges_each": 1
+    },
+    {
+      "source_url": "https://www.eqtraders.com/items/show_item.php?item=16614",
+      "source_item_id": 16614,
+      "explicit_EQ_item_ID": 72601,
+      "explicit_initial_charges_each": 1
+    },
+    {
+      "source_url": "https://www.eqtraders.com/items/show_item.php?item=16332",
+      "source_item_id": 16332,
+      "explicit_EQ_item_ID": 72600,
+      "explicit_initial_charges_each": 1
+    },
+    {
+      "source_url": "https://www.eqtraders.com//items/show_item.php?item=1745",
+      "source_item_id": 1745,
+      "explicit_EQ_item_ID": 17904,
+      "capacity": 6
+    }
+  ],
+  "migration_dependencies": [],
+  "held_source_rows": []
+}
