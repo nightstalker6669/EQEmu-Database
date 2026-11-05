@@ -1,0 +1,41 @@
+{
+  "format_version": 1,
+  "batch": "RRC163",
+  "source_commit": "a4b9a9a5a4db94e0ab7a391e590f4e6bf286992b",
+  "source_sha256": "26d3b94c84d98ac5f39ef58b7bb499020d7170f273032107a84c7968e1ad07ef",
+  "application_status": "APPLIED_VERIFIED",
+  "SQL_invocations": 1,
+  "transaction_state_after": 0,
+  "recipes_added": 3,
+  "entries_added": 12,
+  "recipe_id_range": [
+    3095802,
+    3095804
+  ],
+  "existing_recipe_definitions_updated": 0,
+  "existing_entry_rows_updated": 0,
+  "exact_new_postimages": true,
+  "learned_references_unchanged": true,
+  "global_after_counts": {
+    "recipes": 27368,
+    "entries": 208713
+  },
+  "historical_qualification": {
+    "scope": "Three explicit-native-ID missing SoF High Quality Ore Plate bodies (small/ordinary/large). Same Smithy Hammer10489 returned on success and failure; native Large Brick of High Quality Ore10469 quantities1/2/3 respectively. Exact trivial102/yield1. No alternate formula assertion, no output producer exists in bounded current read.",
+    "era": "Configured floor14/maximum-1 from maintained explicitSoF catalogue as POLICY, not immutableMay2013 per-field introduction proof.",
+    "gates": "Source omits mandatory minimum/book; proposedordinary skillneeded0/must_learn0/book0/nofail0/quest0/enabled1 and consumed salvage=component convention require coordinator disposition. Returnedhammer salvage0. No actor/native acceptance claimed.",
+    "containers": "Source explicitly lists ordinary Forge. Positive genericForge17 only; no named/racial/placed/guildstation inferred. No portablecontainer history added.",
+    "preservation": "Exact new ID ranges/native semantics/full inputs/outputproducer absence/postimages/deltas guarded; no existing item/recipe/player/learning changes. Rollback refuses learned refs.",
+    "execution": "Source only, no SQL/test/build/runtime. Publication and exact SQL GO are coordinator-owned. Research160 and every other named source/era/charge/quest hold retained."
+  },
+  "held_batches": [
+    "RRC014",
+    "RRC160"
+  ],
+  "Research160": "HELD/unapplied",
+  "all_scope_complete": false,
+  "player_item_writes": false,
+  "runtime_actions": false,
+  "native_crafting_acceptance": false,
+  "source_documents": "Four source files preserved verbatim; preparation-time labels historical; separate summary records actual closed application."
+}
