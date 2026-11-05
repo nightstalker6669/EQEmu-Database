@@ -1,0 +1,40 @@
+{
+  "format_version": 1,
+  "batch": "RRC195",
+  "source_commit": "3516b16bbaa37738856cb6a530d6ab89a45c57c9",
+  "source_sha256": "6f5de9a5e67d83d36918b38f9d7738e70171df0be89bc586f2aeb8b9c8f59c3c",
+  "application_status": "APPLIED_VERIFIED",
+  "SQL_invocations": 1,
+  "transaction_state_after": 0,
+  "recipes_added": 9,
+  "entries_added": 45,
+  "recipe_id_range": [
+    3096533,
+    3096541
+  ],
+  "existing_recipe_definitions_updated": 0,
+  "existing_entry_rows_updated": 0,
+  "exact_new_postimages": true,
+  "learned_references_unchanged": true,
+  "global_after_counts": {
+    "recipes": 28105,
+    "entries": 214131
+  },
+  "historical_qualification": {
+    "scope": "Eight retained HoT Adorned potion-vial source bodies plus one newly observed primary Unfired Extravagant Blade Shaped Mold forming body. The supplemental primary item59321/EQRecipe6659 body uses an explicit string provenance key, not an invented retained catalogue view ID. It resolves a bounded missing sibling without a broad new source campaign.",
+    "identity": "Thirteen primary bindings: twelve current explicit EQ-ID observations and one pinned unfired-blade identity observation. Nine vial/powder identities and all three supplemental ingredient identities directly observed. No name-only identity or item-stat normalization.",
+    "quantities": "All nine bodies yield one uncharged physical output. Formed vial set consumes Gem Powder3/Huge Clay3/Large Clay1 plus sketch and Adorning Gem Powder; other exact counts retained, maximum input units9. Set in item name does not imply a guessed yield. Blade forming consumes sketch48896, Fantastic Silk123501, Large Clay16902 twice; yield1/trivial283.",
+    "era": "Positive maintained HoT17 Pottery families and manufacturing components; supplemental exact same tier blade forming body from directly linked primary page. Floor17/max-1 labelled reconstruction, not immutable May2013 per-field or exact introduction proof. No modern fortified-material or Compendium substitution.",
+    "gates": "Sources omit mandatory learning, crafting minimum, actor or quest gates. Ordinary skillneeded0/must_learn0/book0/nofail0/quest0/enabled1 are labelled policies. EQRecipeID annotations are source provenance, not local IDs or learning requirements.",
+    "containers": "Source explicitly lists ordinary Wheel8 forming and Kiln9 firing. All exact quantities fit ten units. Tanaan/placeable/guild links held; no world access, supply or population inferred.",
+    "preservation": "20 native item-field dependencies guarded,15 freshly read/5 pinned reused. Necessary current all-state/all-skill full-input, same-name and output-use review found zero peers or matches, including the supplemental blade body. New ID vacancy, full postimages, deltas and learned references guarded; no existing item/recipe/player/core changes.",
+    "execution": "Source only pending publication and separate exact coordinator SQL GO. Readers/research tab closed. Earlier Research160/era/profile/charge/actor/source holds remain. No tests/builds/runtime/native combines; full scope incomplete."
+  },
+  "Research160": "HELD/unapplied",
+  "all_scope_complete": false,
+  "player_item_writes": false,
+  "runtime_actions": false,
+  "native_crafting_acceptance": false,
+  "source_documents": "Four source files retained verbatim. Preparation-time source-only and execution labels are historical; the separate actual receipt confirms the closed application recorded above.",
+  "native_item_dependencies_guarded": 20
+}
