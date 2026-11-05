@@ -1,0 +1,81 @@
+{
+  "format_version": 1,
+  "batch": "RRC123",
+  "source_commit": "45f6e61c205485120a29b3dc8f0e34c63c2cb38f",
+  "source_sha256": "01b34cf71ed7fe7e66309c8b035dcbb7ebf6e32f534be8adc6651bbf1c0a05fd",
+  "application_status": "APPLIED_VERIFIED",
+  "SQL_invocations": 1,
+  "transaction_state_after": 0,
+  "recipes_added": 0,
+  "entries_added": 0,
+  "changed_table": "tradeskill_recipe",
+  "changed_field": "trivial",
+  "changed_fields": 28,
+  "recipe_ids": [
+    6736,
+    6740,
+    6744,
+    6834,
+    6838,
+    6842,
+    6894,
+    6897,
+    6900,
+    6908,
+    6911,
+    6913,
+    7339,
+    7342,
+    7345,
+    7390,
+    7396,
+    7399,
+    7402,
+    7423,
+    7426,
+    7429,
+    7482,
+    7485,
+    7488,
+    7509,
+    7512,
+    7515
+  ],
+  "recipe_definitions_guarded": 28,
+  "full_entries_guarded": 252,
+  "exact_postimages": true,
+  "learned_references_unchanged": true,
+  "whole_earlier_prerequisites_exact": true,
+  "global_after_counts": {
+    "recipes": 26365,
+    "entries": 199185
+  },
+  "historical_qualification": "28maintained-primary numeric trivial corrections only:128instead129,31instead32,195instead192,268or255instead275 as individually explicit in the retained BasicBows catalogue. These are proposed current-primary data choices, not authenticated historical introduction or native crafting proof. No sibling/default inference. Source omissions of tool-return scope remain uncertain. Allinputs/outputs/yields/returns/salvage/kits/entryIDs/metadata/learning/contentgates/playerdata unchanged. RequireswholeRRC121/RRC122closedAPPLIED_VERIFIED first; includes their exact overlapping output/toolpostimages and makes no priorapplicationclaim.",
+  "player_item_writes": false,
+  "runtime_actions": false,
+  "native_crafting_acceptance": false,
+  "source_documents": "Exact preparation-time source retained; separate summary records actual closed application.",
+  "unlisted_fields_and_source_omissions": "Preserved/held; no normalization or omission-as-zero inference.",
+  "no_retroactive_player_item_replacement_or_refund": true,
+  "exact_dependency": {
+    "required_closed_batches": [
+      {
+        "batch": "RRC121",
+        "source_commit": "265cd55ad3635bab9c18c1920410441893d0ee97",
+        "source_sha256": "55b9c8bf1c8173b88a7b71001ac1fa384cad098f3ace45ed6f577ff92e724375"
+      },
+      {
+        "batch": "RRC122",
+        "source_commit": "67a35d61ede5affb2018ad0d474b3dc24982d834",
+        "source_sha256": "b4479fa8eab0a135a2e5abbe6039cb776952897395d631e254431dbdaeac951e"
+      }
+    ],
+    "whole_closed_verified_postimages_required": true,
+    "overlapping_output_and_tool_postimages_preserved": true,
+    "rollback_order": [
+      "RRC123",
+      "RRC122",
+      "RRC121"
+    ]
+  }
+}

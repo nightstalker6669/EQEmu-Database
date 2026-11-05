@@ -1,0 +1,85 @@
+{
+  "format_version": 1,
+  "batches": [
+    {
+      "batch": "RRC121",
+      "source_commit": "265cd55ad3635bab9c18c1920410441893d0ee97",
+      "source_sha256": "55b9c8bf1c8173b88a7b71001ac1fa384cad098f3ace45ed6f577ff92e724375",
+      "application_status": "APPLIED_VERIFIED",
+      "changed_table": "tradeskill_recipe_entries",
+      "changed_field": "item_id",
+      "changed_fields": 43,
+      "historical_qualification": "Maintained-primary Basic Bows output-ID correction only, not immutable historical per-field or native crafting proof.43existing exact-input bodies currently yield a different physical bow, commonly the hemp variant for a silk/linen input. Retained primary item links identify distinct native physical outputs even when display names match. Change only43existing output item_id fields; outputquantity1, all628entryIDs/roles/returns/salvage,74definitions/trivials/kits/minimum/learning/content gates preserved. Other explicit/omitted return and trivial discrepancies remain held, not silently normalized or called verified alternate formulas. No newrecipe/ingredient path/availability floor, retroactive playeritemreplacement/refund or actor acceptance."
+    },
+    {
+      "batch": "RRC122",
+      "source_commit": "67a35d61ede5affb2018ad0d474b3dc24982d834",
+      "source_sha256": "b4479fa8eab0a135a2e5abbe6039cb776952897395d631e254431dbdaeac951e",
+      "application_status": "APPLIED_VERIFIED",
+      "changed_table": "tradeskill_recipe_entries",
+      "changed_field": "successcount",
+      "changed_fields": 7,
+      "historical_qualification": "Seven maintained-primary formulas explicitly return WhittlingBlade8085 orPlaningTool8086 on success andfailure, while exact existing component rows have success0/failure1. Change only successcount0\u21921 on7existingtoolentryIDs; component1/failure1/salvage0 and all metadata/trivials/kits/output quantities remain unchanged. Current primary reconstruction, not immutablehistoricaldate or nativecombineproof. Source omissions on otherbows remainuncertain and are not interpreted as zero. No newrecipe/inputbody/kit/gate/playerdata change. Six affected output identities require the earlierRRC121 corrections; source proposal is sequenced after121, never applied against old conflicting outputs."
+    },
+    {
+      "batch": "RRC123",
+      "source_commit": "45f6e61c205485120a29b3dc8f0e34c63c2cb38f",
+      "source_sha256": "01b34cf71ed7fe7e66309c8b035dcbb7ebf6e32f534be8adc6651bbf1c0a05fd",
+      "application_status": "APPLIED_VERIFIED",
+      "changed_table": "tradeskill_recipe",
+      "changed_field": "trivial",
+      "changed_fields": 28,
+      "historical_qualification": "28maintained-primary numeric trivial corrections only:128instead129,31instead32,195instead192,268or255instead275 as individually explicit in the retained BasicBows catalogue. These are proposed current-primary data choices, not authenticated historical introduction or native crafting proof. No sibling/default inference. Source omissions of tool-return scope remain uncertain. Allinputs/outputs/yields/returns/salvage/kits/entryIDs/metadata/learning/contentgates/playerdata unchanged. RequireswholeRRC121/RRC122closedAPPLIED_VERIFIED first; includes their exact overlapping output/toolpostimages and makes no priorapplicationclaim."
+    },
+    {
+      "batch": "RRC124",
+      "source_commit": "a61eea7414ca1fdfa9d125d04fa6004950d53ced",
+      "source_sha256": "779f74d86dd5a0fd78430247af116373bb221a9d8a1d8727c6e7417b7460a2ff",
+      "application_status": "APPLIED_VERIFIED",
+      "changed_table": "tradeskill_recipe_entries",
+      "changed_field": "item_id",
+      "changed_fields": 23,
+      "historical_qualification": "23maintained-primary LDoN Sedgewood exact-input bow output-ID corrections only; no new recipe/entry rows. Primary-linked physical outputs differ across hemp/linen/silk though names may match. Change only existing23outputitem_id fields; outputquantity1, all260entryIDs/roles/returns/salvage,32definitions/trivials/kits/minimum/learning/contentgates/playerdata preserved. Existing tool-return scope discrepancies and allhistoricaldate/nativeactor qualifications stay unresolved. No verified alternate formula, retroactive playeritemreplacement/refund or newinputpath claim."
+    }
+  ],
+  "missing_or_unclosed_receipts": [],
+  "all_actual_receipts_closed_verified": true,
+  "recipes_added": 0,
+  "entries_added": 0,
+  "output_ID_changes": 66,
+  "tool_success_return_changes": 7,
+  "trivial_changes": 28,
+  "required_dependency_order": [
+    "RRC121",
+    "RRC122",
+    "RRC123"
+  ],
+  "reverse_rollback_order": [
+    "RRC123",
+    "RRC122",
+    "RRC121"
+  ],
+  "RRC124_scope": "Separate23SedgewoodoutputIDs,9peers/32definitions/260entries preserved.",
+  "global_actual_counts": {
+    "recipes": 26365,
+    "entries": 199185
+  },
+  "TS_cumulative_added_through124": {
+    "recipes": 3541,
+    "entries": 21560
+  },
+  "cumulative_basis": "Unchanged through120;121\u2013124 no row-count delta.",
+  "new_recipe_batches": 98,
+  "held_batch": "RRC014",
+  "separate_Xorbb_recipe_excluded": {
+    "recipes": 1,
+    "entries": 6
+  },
+  "prior_closed_normal_SQL_source_paths": 480,
+  "new_normal_SQL_source_paths": 8,
+  "normal_SQL_source_paths_after_publication": 488,
+  "SQL_path_count_meaning": "Source paths, not application count.",
+  "prior_source_history_archives_preserved": true,
+  "QA39999_production_exclusion_retained": true,
+  "assembly": "No repeated SQL/query/tests/runtime or receipt-only publication."
+}

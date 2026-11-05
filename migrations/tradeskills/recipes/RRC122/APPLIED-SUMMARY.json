@@ -1,0 +1,47 @@
+{
+  "format_version": 1,
+  "batch": "RRC122",
+  "source_commit": "67a35d61ede5affb2018ad0d474b3dc24982d834",
+  "source_sha256": "b4479fa8eab0a135a2e5abbe6039cb776952897395d631e254431dbdaeac951e",
+  "application_status": "APPLIED_VERIFIED",
+  "SQL_invocations": 1,
+  "transaction_state_after": 0,
+  "recipes_added": 0,
+  "entries_added": 0,
+  "changed_table": "tradeskill_recipe_entries",
+  "changed_field": "successcount",
+  "changed_fields": 7,
+  "recipe_ids": [
+    6897,
+    6900,
+    6908,
+    6911,
+    7509,
+    7512,
+    7515
+  ],
+  "recipe_definitions_guarded": 7,
+  "full_entries_guarded": 68,
+  "exact_postimages": true,
+  "learned_references_unchanged": true,
+  "whole_earlier_prerequisites_exact": true,
+  "global_after_counts": {
+    "recipes": 26365,
+    "entries": 199185
+  },
+  "historical_qualification": "Seven maintained-primary formulas explicitly return WhittlingBlade8085 orPlaningTool8086 on success andfailure, while exact existing component rows have success0/failure1. Change only successcount0\u21921 on7existingtoolentryIDs; component1/failure1/salvage0 and all metadata/trivials/kits/output quantities remain unchanged. Current primary reconstruction, not immutablehistoricaldate or nativecombineproof. Source omissions on otherbows remainuncertain and are not interpreted as zero. No newrecipe/inputbody/kit/gate/playerdata change. Six affected output identities require the earlierRRC121 corrections; source proposal is sequenced after121, never applied against old conflicting outputs.",
+  "player_item_writes": false,
+  "runtime_actions": false,
+  "native_crafting_acceptance": false,
+  "source_documents": "Exact preparation-time source retained; separate summary records actual closed application.",
+  "unlisted_fields_and_source_omissions": "Preserved/held; no normalization or omission-as-zero inference.",
+  "no_retroactive_player_item_replacement_or_refund": true,
+  "exact_dependency": {
+    "required_closed_batch": "RRC121",
+    "source_commit": "265cd55ad3635bab9c18c1920410441893d0ee97",
+    "source_sha256": "55b9c8bf1c8173b88a7b71001ac1fa384cad098f3ace45ed6f577ff92e724375",
+    "postimage_required": true,
+    "return_scope": "Only existing7tool successcount0->1; failure1/component1/salvage0 unchanged.",
+    "rollback": "RRC123 beforeRRC122 beforeRRC121 if restoring this chain."
+  }
+}
