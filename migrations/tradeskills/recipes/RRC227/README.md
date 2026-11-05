@@ -1,0 +1,70 @@
+# RRC227 PoR Shaped and Worked Alchemy Suspensions
+
+24 proposed recipes/174entries.
+
+Twenty-four independently source-qualified Shaped or Worked Suspension bodies, selected tiers I-IX. All24 primary output identities, literal formulas, quantities, individual numeric trivials and Shaman requirement directly observed. Shared authenticated ingredient and exact Medicine Bag identities reused; no manufacturing body derived by substituting a vial or copying a tier.
+
+SOE developer Ngreth dated2006-03-13 potion exchange list explicitly names Shaped/Worked Suspension identities, including Darkness I-III and other effects through IX. Contemporaneous2006 family list last edited2011 confirms family context. This is coordinator-accepted labelled PoR11 family reconstruction; per-item maintained primary formulas/numeric trivials govern manufacturing. No immutable2006/May2013 exact-field claim or exact introduction date; no X+ inference. Lower sibling tiers I-III use the same bounded family qualification, not item-ID dating.
+
+Every source explicitly requires Shaman. Existing normal and auto Alchemy code checks Shaman and minimum level25. Skill59; omitted minimum skill0, ordinary must_learn0/book0/quest0/enabled1/nofail0 policies. Static actor mapping reused from RRC221, no core edits or native acceptance.
+
+Every source yields one stackable uncharged item. Independently literal five or six ingredient kinds and six or seven physical units, including one herb twice. Numeric trivials vary by family/effect/tier and are preserved individually. Current native maxcharges0, stackability and ingredient capacities checked. No charge/stack-cap normalization, co-products or failure returns invented.
+
+Bind only exact portable Medicine Bag17901, independently authenticated primary1141, eight slots and LARGE capacity. All ingredient sizes and at most seven physical units fit current native bag fields. Other named bags and modern Alchemy Tables remain separately unqualified.
+
+65 exact18-field dependencies: 24 fresh and 41 reused. Zero current all-state/all-skill full-input/name matches and positive-success output peers. NewIDs/full logical entry multisets/counts/learned references guarded. No existing recipe/item/quest/core/player writes.
+
+Source prepared for normal publication and exact one-use SQL GO. Named count contracts; no new rehearsal, tests, build, restart or native gameplay campaign. Overall recipe coverage remains incomplete.
+
+Source: https://mboards.eqtraders.com/eq/forum/tradeskills/alchemy/26329-potion-exchange-list
+Source: https://mboards.eqtraders.com/eq/forum/tradeskills/alchemy/28887-potion-list
+Source: https://mboards.eqtraders.com/eq/forum/tradeskills/general-trade-skill-discussion/27440-highest-vendor-bought-skills
+Source: https://www.eqtraders.com/recipes/recipe_page.php?article=29&rsa=Alchemy
+Primary identity: https://www.eqtraders.com/items/show_item.php?item=22828
+Primary identity: https://www.eqtraders.com/items/show_item.php?item=22175
+Primary identity: https://www.eqtraders.com/items/show_item.php?item=11838
+Primary identity: https://www.eqtraders.com/items/show_item.php?item=11837
+Primary identity: https://www.eqtraders.com/items/show_item.php?item=22410
+Primary identity: https://www.eqtraders.com/items/show_item.php?item=22211
+Primary identity: https://www.eqtraders.com/items/show_item.php?item=22262
+Primary identity: https://www.eqtraders.com/items/show_item.php?item=22872
+Primary identity: https://www.eqtraders.com/items/show_item.php?item=22168
+Primary identity: https://www.eqtraders.com/items/show_item.php?item=22169
+Primary identity: https://www.eqtraders.com/items/show_item.php?item=22217
+Primary identity: https://www.eqtraders.com/items/show_item.php?item=22218
+Primary identity: https://www.eqtraders.com/items/show_item.php?item=22220
+Primary identity: https://www.eqtraders.com/items/show_item.php?item=1141
+Primary identity: https://www.eqtraders.com/items/show_item.php?item=22172
+Primary identity: https://www.eqtraders.com/items/show_item.php?item=22874
+Primary identity: https://www.eqtraders.com/items/show_item.php?item=22876
+Primary identity: https://www.eqtraders.com/items/show_item.php?item=22187
+Primary identity: https://www.eqtraders.com/items/show_item.php?item=22204
+Primary identity: https://www.eqtraders.com/items/show_item.php?item=22255
+Primary identity: https://www.eqtraders.com/items/show_item.php?item=22224
+Primary identity: https://www.eqtraders.com/items/show_item.php?item=22237
+Primary identity: https://www.eqtraders.com/items/show_item.php?item=12813
+Primary identity: https://www.eqtraders.com/items/show_item.php?item=12814
+Primary identity: https://www.eqtraders.com/items/show_item.php?item=6000
+Primary identity: https://www.eqtraders.com/items/show_item.php?item=16837
+Primary identity: https://www.eqtraders.com/items/show_item.php?item=5533
+Primary identity: https://www.eqtraders.com/items/show_item.php?item=7619
+Primary identity: https://www.eqtraders.com/items/show_item.php?item=16836
+Primary identity: https://www.eqtraders.com/items/show_item.php?item=16835
+Primary identity: https://www.eqtraders.com/items/show_item.php?item=6037
+Primary identity: https://www.eqtraders.com/items/show_item.php?item=6001
+Primary identity: https://www.eqtraders.com/items/show_item.php?item=3765
+Primary identity: https://www.eqtraders.com/items/show_item.php?item=5088
+Primary identity: https://www.eqtraders.com/items/show_item.php?item=16833
+Primary identity: https://www.eqtraders.com/items/show_item.php?item=22405
+Primary identity: https://www.eqtraders.com/items/show_item.php?item=7588
+Primary identity: https://www.eqtraders.com/items/show_item.php?item=16832
+Primary identity: https://www.eqtraders.com/items/show_item.php?item=16831
+Primary identity: https://www.eqtraders.com/items/show_item.php?item=7605
+Primary identity: https://www.eqtraders.com/items/show_item.php?item=9591
+Primary identity: https://www.eqtraders.com/items/show_item.php?item=6055
+Primary identity: https://www.eqtraders.com/items/show_item.php?item=6355
+Primary identity: https://www.eqtraders.com/items/show_item.php?item=16829
+Primary identity: https://www.eqtraders.com/items/show_item.php?item=7574
+Primary identity: https://www.eqtraders.com/items/show_item.php?item=4156
+Primary identity: https://www.eqtraders.com/items/show_item.php?item=16828
+Primary identity: https://www.eqtraders.com/items/show_item.php?item=16827
