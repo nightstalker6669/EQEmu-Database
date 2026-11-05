@@ -1,0 +1,58 @@
+{
+  "format_version": 1,
+  "batch": "RRC205",
+  "source_commit": "0944949a52df9f6cc21462ef704eb725d6599fc0",
+  "source_sha256": "81b2b46f036ad73aa524e2dd8115ce2417c39745e5473e4fba222605cb6d47b6",
+  "application_status": "APPLIED_VERIFIED",
+  "recipes_added": 2,
+  "entries_added": 22,
+  "global_actual_counts": {
+    "recipes": 28219,
+    "entries": 214709
+  },
+  "TS_cumulative_added_current": {
+    "recipes": 5395,
+    "entries": 37084
+  },
+  "cumulative_basis": "Prior5393/37062 actual after204 plus2/22;RRC204entry-only repair did not add recipe definitions.",
+  "new_recipe_batches": 157,
+  "historical_qualification": {
+    "scope": "Two independent Velious Tinkering creation bodies: Clockwork Watchman Breastplate and Full Capacity Gnomish Vanishing Device. These are not recharge recipes.",
+    "identity": "Direct primary EQ item identities and explicit initial Charges10 authenticated for each output. Native nonstackable MaxCharges10 matches each source; no ID or item-field normalization.",
+    "quantity_mapping": "Each source yields one physical output with ten initial charges. Native successcount10 is a finite explicit per-item positive charge parameter under current SummonItem/CreateItem mapping, not a maximum-charge default. Ingredient quantities remain physical counts.",
+    "era": "Positive maintained Velious2 family; floor2/max-1 labelled reconstruction, not exact introduction or immutable May2013 fields. Numeric trivials252/302 preserved, nofail0.",
+    "gates": "Source explicitly Gnomes only, matching existing normal and auto Tinkering Gnome gates. Source omits mandatory learning/minimum: ordinary zero policy, quest0/enabled1. No new actor restriction inferred from output-use masks.",
+    "containers": "Breastplate explicitly Deluxe Toolbox17877 only, nine ingredients fit its ten slots. Full Capacity Device explicitly Toolbox17902, Deluxe17877 and Collapsible17276; eight units fit each source kit. Exact current kit size/capacity dependencies guarded.",
+    "preservation": "Twenty exact native dependencies. Current all-state/all-skill full-input review found no creation match. Existing same-name395 is a separate documented recharge process (battery plus breastplate), not a duplicate creation body. Its complete definition and five entries are guarded unchanged; same-name guard exempts only exact captured395. Both literal source names preserved.",
+    "held": "Existing395 success parameter1 versus source full ten charges remains a separate repair hold. Existing nofail1/trivial0 preserved, source numeric recharge trivial unknown. This packet does not validate current395 charge behavior or clear other recharge/unknown-trivial holds.",
+    "execution": "Source only pending coordinator publication and exact SQL GO. All readers and research tabs closed. Named one-pass count contract. No build, runtime or native gameplay acceptance; overall coverage incomplete."
+  },
+  "held_batches": [
+    "RRC014",
+    "RRC160"
+  ],
+  "all_scope_complete": false,
+  "separate_Xorbb_recipe_excluded": {
+    "recipes": 1,
+    "entries": 6
+  },
+  "prior_locally_confirmed_published_normal_SQL_source_paths": 646,
+  "earlier_pending_normal_SQL_source_paths": 0,
+  "new_normal_SQL_source_paths": 2,
+  "normal_SQL_source_paths_after_all_pending_publications": 648,
+  "SQL_path_count_meaning": "Source paths, not application count.",
+  "history_archives_preserved": true,
+  "QA39999_production_exclusion_retained": true,
+  "assembly": "No SQL/query/replay/tests/runtime/receipt-only publication.",
+  "source_documents": "Four source files retained verbatim. Preparation-time source-only and execution labels are historical; the separate actual receipt confirms the closed application recorded above.",
+  "native_item_dependencies_guarded": 20,
+  "recharge395": "UNCHANGED;separate charge/trivial repair hold remains;not a duplicate creation body.",
+  "unchanged_existing_peers": {
+    "recipe_ids": [
+      395
+    ],
+    "definitions": 1,
+    "entry_IDs": 5,
+    "full_postimages_exact": true
+  }
+}
