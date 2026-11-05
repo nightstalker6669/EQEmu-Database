@@ -1,0 +1,48 @@
+{
+  "format_version": 1,
+  "batch": "RRC207",
+  "source_commit": "be9c2ddc40a7bb163ef234325769cac27a6af5f0",
+  "source_sha256": "3aeb0d24f093c5d5c8782221f55052ef83c03cdfafa83b1a1072a31022496ff3",
+  "application_status": "APPLIED_VERIFIED",
+  "SQL_invocations": 1,
+  "transaction_state_after": 0,
+  "recipes_added": 0,
+  "entries_added": 0,
+  "existing_recipe_definitions_updated": 0,
+  "existing_entry_rows_updated": 6,
+  "native_item_dependencies_guarded": 53,
+  "exact_target_postimages": true,
+  "exact_logical_entry_multisets_verified": true,
+  "learned_references_unchanged": true,
+  "global_after_counts": {
+    "recipes": 28238,
+    "entries": 214823
+  },
+  "historical_qualification": {
+    "scope": "Six EXISTING Crunch recipes1627/1630/1788/1800/1805/1809 have Vegetable Oil successcount2 but componentcount0. Exact primary formulas require Oil3 and return2. Change only those six existing entry componentcount fields0to3; no new recipes or entries.",
+    "quantities": "Physical stackable Oil3 consumed and2 returned on success, one food output. Current same item row may carry both component and success roles, as native loader reads each independently. Existing salvage0 preserved because returned component. Full source component and success multisets match after correction; no inferred failure return.",
+    "identity": "All25 bounded family primary output IDs authenticated; selected six exact native outputs and other source references match.53 full native field guards retained from same bounded review, no item normalization.",
+    "preservation": "Six full existing recipe definitions and48 entries guarded before and after, existing IDs/gates/era/station lists and all fields except six component counts preserved. Source corrected full-input uniqueness all states/all skills and food output-use universe guarded. Additive19 formulas are separate RRC206; no duplicate of these six.",
+    "historical": "Positive maintained OoW family; current explicit source reconciliation, exact immutable May2013 fields not independently authenticated. Existing header expansion values unchanged.",
+    "execution": "Source only pending publication and exact SQL GO. Exact guarded inverse supplied but never automatically invoked. No player/core/item writes, tests/rehearsal/build/runtime or native combine acceptance. Coverage incomplete."
+  },
+  "Research160": "HELD/unapplied",
+  "all_scope_complete": false,
+  "player_item_writes": false,
+  "runtime_actions": false,
+  "native_crafting_acceptance": false,
+  "source_documents": "Four source files retained verbatim; preparation-time source-only/separate pending repair labels historical. Actual206 then207 applied separately in this order; summaries record each actual cutoff. Inverse retained but never automatically invoked.",
+  "repair_type": "SIX_EXISTING_COMPONENTCOUNT_ONLY",
+  "affected_existing_recipe_ids": [
+    1627,
+    1630,
+    1788,
+    1800,
+    1805,
+    1809
+  ],
+  "before_entry_rows": 48,
+  "after_entry_rows": 48,
+  "all_original_entry_IDs_preserved": true,
+  "field_changes": "Only six Vegetable Oil componentcount0->3;existing successcount2 and salvage0 retained;all definitions and other entryfields unchanged."
+}

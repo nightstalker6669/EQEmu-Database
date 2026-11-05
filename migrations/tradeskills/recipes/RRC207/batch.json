@@ -1,0 +1,1847 @@
+{
+  "batch": "RRC207",
+  "branch": "rof2-tradeskills",
+  "status": "SOURCE_ENTRY_CORRECTION_NOT_APPLIED",
+  "counts": {
+    "existing_recipes": 6,
+    "before_entries": 48,
+    "after_entries": 48,
+    "item_dependencies": 53,
+    "existing_entry_rows_updated": 6,
+    "new_entries": 0
+  },
+  "before_recipes": [
+    {
+      "id": 1627,
+      "name": "Berry Ice Cream Crunch",
+      "tradeskill": 60,
+      "skillneeded": 0,
+      "trivial": 162,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": null,
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": -1,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 1630,
+      "name": "Berry Walnut Crunch",
+      "tradeskill": 60,
+      "skillneeded": 0,
+      "trivial": 162,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": null,
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": -1,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 1788,
+      "name": "Cherry Ice Cream Crunch",
+      "tradeskill": 60,
+      "skillneeded": 0,
+      "trivial": 162,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": null,
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": -1,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 1800,
+      "name": "Chocolate Mint Caynar Nut Crunch",
+      "tradeskill": 60,
+      "skillneeded": 0,
+      "trivial": 162,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": null,
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": -1,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 1805,
+      "name": "Chocolate Mint Ice Cream Crunch",
+      "tradeskill": 60,
+      "skillneeded": 0,
+      "trivial": 162,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": null,
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": -1,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 1809,
+      "name": "Chocolate Walnut Ice Cream Crunch",
+      "tradeskill": 60,
+      "skillneeded": 0,
+      "trivial": 162,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": null,
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": -1,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    }
+  ],
+  "after_recipes": [
+    {
+      "id": 1627,
+      "name": "Berry Ice Cream Crunch",
+      "tradeskill": 60,
+      "skillneeded": 0,
+      "trivial": 162,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": null,
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": -1,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 1630,
+      "name": "Berry Walnut Crunch",
+      "tradeskill": 60,
+      "skillneeded": 0,
+      "trivial": 162,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": null,
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": -1,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 1788,
+      "name": "Cherry Ice Cream Crunch",
+      "tradeskill": 60,
+      "skillneeded": 0,
+      "trivial": 162,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": null,
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": -1,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 1800,
+      "name": "Chocolate Mint Caynar Nut Crunch",
+      "tradeskill": 60,
+      "skillneeded": 0,
+      "trivial": 162,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": null,
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": -1,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 1805,
+      "name": "Chocolate Mint Ice Cream Crunch",
+      "tradeskill": 60,
+      "skillneeded": 0,
+      "trivial": 162,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": null,
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": -1,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 1809,
+      "name": "Chocolate Walnut Ice Cream Crunch",
+      "tradeskill": 60,
+      "skillneeded": 0,
+      "trivial": 162,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": null,
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": -1,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    }
+  ],
+  "before_entries": [
+    {
+      "id": 12407,
+      "recipe_id": 1627,
+      "item_id": 13015,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 12408,
+      "recipe_id": 1627,
+      "item_id": 13429,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 12409,
+      "recipe_id": 1627,
+      "item_id": 75818,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 12410,
+      "recipe_id": 1627,
+      "item_id": 20386,
+      "successcount": 2,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 12411,
+      "recipe_id": 1627,
+      "item_id": 75828,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 12412,
+      "recipe_id": 1627,
+      "item_id": 15,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 12413,
+      "recipe_id": 1627,
+      "item_id": 17164,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 12414,
+      "recipe_id": 1627,
+      "item_id": 17947,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 12423,
+      "recipe_id": 1630,
+      "item_id": 13015,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 12424,
+      "recipe_id": 1630,
+      "item_id": 13429,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 12425,
+      "recipe_id": 1630,
+      "item_id": 75822,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 12426,
+      "recipe_id": 1630,
+      "item_id": 20386,
+      "successcount": 2,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 12427,
+      "recipe_id": 1630,
+      "item_id": 75832,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 12428,
+      "recipe_id": 1630,
+      "item_id": 15,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 12429,
+      "recipe_id": 1630,
+      "item_id": 17164,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 12430,
+      "recipe_id": 1630,
+      "item_id": 17947,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 13408,
+      "recipe_id": 1788,
+      "item_id": 13015,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 13409,
+      "recipe_id": 1788,
+      "item_id": 13429,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 13410,
+      "recipe_id": 1788,
+      "item_id": 75007,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 13411,
+      "recipe_id": 1788,
+      "item_id": 20386,
+      "successcount": 2,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 13412,
+      "recipe_id": 1788,
+      "item_id": 75752,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 13413,
+      "recipe_id": 1788,
+      "item_id": 15,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 13414,
+      "recipe_id": 1788,
+      "item_id": 17164,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 13415,
+      "recipe_id": 1788,
+      "item_id": 17947,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 13506,
+      "recipe_id": 1800,
+      "item_id": 13015,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 13507,
+      "recipe_id": 1800,
+      "item_id": 13429,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 13508,
+      "recipe_id": 1800,
+      "item_id": 75819,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 13509,
+      "recipe_id": 1800,
+      "item_id": 20386,
+      "successcount": 2,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 13510,
+      "recipe_id": 1800,
+      "item_id": 75829,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 13511,
+      "recipe_id": 1800,
+      "item_id": 15,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 13512,
+      "recipe_id": 1800,
+      "item_id": 17164,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 13513,
+      "recipe_id": 1800,
+      "item_id": 17947,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 13544,
+      "recipe_id": 1805,
+      "item_id": 13015,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 13545,
+      "recipe_id": 1805,
+      "item_id": 13429,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 13546,
+      "recipe_id": 1805,
+      "item_id": 75817,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 13547,
+      "recipe_id": 1805,
+      "item_id": 20386,
+      "successcount": 2,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 13548,
+      "recipe_id": 1805,
+      "item_id": 75827,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 13549,
+      "recipe_id": 1805,
+      "item_id": 15,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 13550,
+      "recipe_id": 1805,
+      "item_id": 17164,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 13551,
+      "recipe_id": 1805,
+      "item_id": 17947,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 13581,
+      "recipe_id": 1809,
+      "item_id": 13015,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 13582,
+      "recipe_id": 1809,
+      "item_id": 13429,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 13583,
+      "recipe_id": 1809,
+      "item_id": 75018,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 13584,
+      "recipe_id": 1809,
+      "item_id": 20386,
+      "successcount": 2,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 13585,
+      "recipe_id": 1809,
+      "item_id": 75763,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 13586,
+      "recipe_id": 1809,
+      "item_id": 15,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 13587,
+      "recipe_id": 1809,
+      "item_id": 17164,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 13588,
+      "recipe_id": 1809,
+      "item_id": 17947,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    }
+  ],
+  "after_entries": [
+    {
+      "id": 12407,
+      "recipe_id": 1627,
+      "item_id": 13015,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 12408,
+      "recipe_id": 1627,
+      "item_id": 13429,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 12409,
+      "recipe_id": 1627,
+      "item_id": 75818,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 12410,
+      "recipe_id": 1627,
+      "item_id": 20386,
+      "successcount": 2,
+      "failcount": 0,
+      "componentcount": 3,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 12411,
+      "recipe_id": 1627,
+      "item_id": 75828,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 12412,
+      "recipe_id": 1627,
+      "item_id": 15,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 12413,
+      "recipe_id": 1627,
+      "item_id": 17164,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 12414,
+      "recipe_id": 1627,
+      "item_id": 17947,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 12423,
+      "recipe_id": 1630,
+      "item_id": 13015,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 12424,
+      "recipe_id": 1630,
+      "item_id": 13429,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 12425,
+      "recipe_id": 1630,
+      "item_id": 75822,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 12426,
+      "recipe_id": 1630,
+      "item_id": 20386,
+      "successcount": 2,
+      "failcount": 0,
+      "componentcount": 3,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 12427,
+      "recipe_id": 1630,
+      "item_id": 75832,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 12428,
+      "recipe_id": 1630,
+      "item_id": 15,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 12429,
+      "recipe_id": 1630,
+      "item_id": 17164,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 12430,
+      "recipe_id": 1630,
+      "item_id": 17947,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 13408,
+      "recipe_id": 1788,
+      "item_id": 13015,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 13409,
+      "recipe_id": 1788,
+      "item_id": 13429,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 13410,
+      "recipe_id": 1788,
+      "item_id": 75007,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 13411,
+      "recipe_id": 1788,
+      "item_id": 20386,
+      "successcount": 2,
+      "failcount": 0,
+      "componentcount": 3,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 13412,
+      "recipe_id": 1788,
+      "item_id": 75752,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 13413,
+      "recipe_id": 1788,
+      "item_id": 15,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 13414,
+      "recipe_id": 1788,
+      "item_id": 17164,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 13415,
+      "recipe_id": 1788,
+      "item_id": 17947,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 13506,
+      "recipe_id": 1800,
+      "item_id": 13015,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 13507,
+      "recipe_id": 1800,
+      "item_id": 13429,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 13508,
+      "recipe_id": 1800,
+      "item_id": 75819,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 13509,
+      "recipe_id": 1800,
+      "item_id": 20386,
+      "successcount": 2,
+      "failcount": 0,
+      "componentcount": 3,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 13510,
+      "recipe_id": 1800,
+      "item_id": 75829,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 13511,
+      "recipe_id": 1800,
+      "item_id": 15,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 13512,
+      "recipe_id": 1800,
+      "item_id": 17164,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 13513,
+      "recipe_id": 1800,
+      "item_id": 17947,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 13544,
+      "recipe_id": 1805,
+      "item_id": 13015,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 13545,
+      "recipe_id": 1805,
+      "item_id": 13429,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 13546,
+      "recipe_id": 1805,
+      "item_id": 75817,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 13547,
+      "recipe_id": 1805,
+      "item_id": 20386,
+      "successcount": 2,
+      "failcount": 0,
+      "componentcount": 3,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 13548,
+      "recipe_id": 1805,
+      "item_id": 75827,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 13549,
+      "recipe_id": 1805,
+      "item_id": 15,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 13550,
+      "recipe_id": 1805,
+      "item_id": 17164,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 13551,
+      "recipe_id": 1805,
+      "item_id": 17947,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 13581,
+      "recipe_id": 1809,
+      "item_id": 13015,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 13582,
+      "recipe_id": 1809,
+      "item_id": 13429,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 13583,
+      "recipe_id": 1809,
+      "item_id": 75018,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 13584,
+      "recipe_id": 1809,
+      "item_id": 20386,
+      "successcount": 2,
+      "failcount": 0,
+      "componentcount": 3,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 13585,
+      "recipe_id": 1809,
+      "item_id": 75763,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 13586,
+      "recipe_id": 1809,
+      "item_id": 15,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 13587,
+      "recipe_id": 1809,
+      "item_id": 17164,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 13588,
+      "recipe_id": 1809,
+      "item_id": 17947,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    }
+  ],
+  "added_entries": [],
+  "recipes": [],
+  "entries": [],
+  "unchanged_prototype_recipes": [],
+  "unchanged_prototype_entries": [],
+  "item_dependencies": [
+    {
+      "id": 13015,
+      "name": "Loaf of Bread"
+    },
+    {
+      "id": 13429,
+      "name": "Frosting"
+    },
+    {
+      "id": 20386,
+      "name": "Vegetable Oil"
+    },
+    {
+      "id": 75006,
+      "name": "Chocolate Ice Cream"
+    },
+    {
+      "id": 75007,
+      "name": "Cherry Ice Cream"
+    },
+    {
+      "id": 75010,
+      "name": "Coconut Ice Cream"
+    },
+    {
+      "id": 75011,
+      "name": "Caynar Nut Ice Cream"
+    },
+    {
+      "id": 75012,
+      "name": "Chocolate Caynar Ice Cream"
+    },
+    {
+      "id": 75013,
+      "name": "Cherry Caynar Ice Cream"
+    },
+    {
+      "id": 75016,
+      "name": "Coconut Caynar Ice Cream"
+    },
+    {
+      "id": 75018,
+      "name": "Chocolate Walnut Ice Cream"
+    },
+    {
+      "id": 75019,
+      "name": "Cherry Walnut Ice Cream"
+    },
+    {
+      "id": 75024,
+      "name": "Chocolate Kiola Ice Cream"
+    },
+    {
+      "id": 75025,
+      "name": "Cherry Kiola Ice Cream"
+    },
+    {
+      "id": 75028,
+      "name": "Coconut Kiola Ice Cream"
+    },
+    {
+      "id": 75030,
+      "name": "Chocolate Golanda Ice Cream"
+    },
+    {
+      "id": 75031,
+      "name": "Cherry Golanda Ice Cream"
+    },
+    {
+      "id": 75034,
+      "name": "Coconut Golanda Ice Cream"
+    },
+    {
+      "id": 75751,
+      "name": "Chocolate Ice Cream Crunch"
+    },
+    {
+      "id": 75752,
+      "name": "Cherry Ice Cream Crunch"
+    },
+    {
+      "id": 75755,
+      "name": "Coconut Ice Cream Crunch"
+    },
+    {
+      "id": 75756,
+      "name": "Caynar Nut Ice Cream Crunch"
+    },
+    {
+      "id": 75757,
+      "name": "Chocolate Caynar Ice Cream Crunch"
+    },
+    {
+      "id": 75758,
+      "name": "Cherry Caynar Ice Cream Crunch"
+    },
+    {
+      "id": 75761,
+      "name": "Coconut Caynar Ice Cream Crunch"
+    },
+    {
+      "id": 75763,
+      "name": "Chocolate Walnut Ice Cream Crunch"
+    },
+    {
+      "id": 75764,
+      "name": "Cherry Walnut Ice Cream Crunch"
+    },
+    {
+      "id": 75769,
+      "name": "Chocolate Kiola Ice Cream Crunch"
+    },
+    {
+      "id": 75770,
+      "name": "Cherry Kiola Ice Cream Crunch"
+    },
+    {
+      "id": 75773,
+      "name": "Coconut Kiola Ice Cream Crunch"
+    },
+    {
+      "id": 75775,
+      "name": "Chocolate Golanda Ice Cream Crunch"
+    },
+    {
+      "id": 75776,
+      "name": "Cherry Golanda Ice Cream Crunch"
+    },
+    {
+      "id": 75779,
+      "name": "Coconut Golanda Ice Cream Crunch"
+    },
+    {
+      "id": 75817,
+      "name": "Chocolate Mint Ice Cream"
+    },
+    {
+      "id": 75818,
+      "name": "Berry Ice Cream"
+    },
+    {
+      "id": 75819,
+      "name": "Chocolate Mint Caynar Ice Cream"
+    },
+    {
+      "id": 75820,
+      "name": "Berry Caynar Ice Cream"
+    },
+    {
+      "id": 75821,
+      "name": "Chocolate Mint Walnut Ice Cream"
+    },
+    {
+      "id": 75822,
+      "name": "Berry Walnut Ice Cream"
+    },
+    {
+      "id": 75823,
+      "name": "Chocolate Mint Kiola Ice Cream"
+    },
+    {
+      "id": 75824,
+      "name": "Berry Kiola Ice Cream"
+    },
+    {
+      "id": 75825,
+      "name": "Chocolate Mint Golanda Ice Cream"
+    },
+    {
+      "id": 75826,
+      "name": "Berry Golanda Ice Cream"
+    },
+    {
+      "id": 75827,
+      "name": "Chocolate Mint Ice Cream Crunch"
+    },
+    {
+      "id": 75828,
+      "name": "Berry Ice Cream Crunch"
+    },
+    {
+      "id": 75829,
+      "name": "Chocolate Mint Caynar Nut Crunch"
+    },
+    {
+      "id": 75830,
+      "name": "Berry Caynar Nut Crunch"
+    },
+    {
+      "id": 75831,
+      "name": "Chocolate Mint Walnut Crunch"
+    },
+    {
+      "id": 75832,
+      "name": "Berry Walnut Crunch"
+    },
+    {
+      "id": 75833,
+      "name": "Chocolate Mint Kiola Crunch"
+    },
+    {
+      "id": 75834,
+      "name": "Berry Kiola Crunch"
+    },
+    {
+      "id": 75835,
+      "name": "Chocolate Mint Golanda Nut Crunch"
+    },
+    {
+      "id": 75836,
+      "name": "Berry Golanda Crunch"
+    }
+  ],
+  "source_facts": [
+    {
+      "source_view_id": 15639,
+      "recipe_id": 1627,
+      "source_name": "Berry Ice Cream Crunch",
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=282&rsa=Baking&sub=OoW",
+      "source_formula": "Components: Berry Ice Cream, Frosting, Loaf of Bread, Vegetable Oil (3)\nIn: Spit (Portable), Oven, Tanaan Oven, Collapsible Spit, Oven (Placeable), Guild Oven\nYield: 1\nAlso Returns: Vegetable Oil(2)\nNotes: EQRecipeID: 67457",
+      "source_input_roles": {
+        "13015": 1,
+        "13429": 1,
+        "20386": 3,
+        "75818": 1
+      },
+      "output_item_id": 75828,
+      "changed_entry_id": 12410,
+      "before_componentcount": 0,
+      "after_componentcount": 3,
+      "unchanged_successcount": 2,
+      "unchanged_salvagecount": 0
+    },
+    {
+      "source_view_id": 15642,
+      "recipe_id": 1630,
+      "source_name": "Berry Walnut Crunch",
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=282&rsa=Baking&sub=OoW",
+      "source_formula": "Components: Berry Walnut Ice Cream, Frosting, Loaf of Bread, Vegetable Oil (3)\nIn: Spit (Portable), Oven, Tanaan Oven, Collapsible Spit\nYield: 1\nAlso Returns: Vegetable Oil(2)\nNotes: EQRecipeID: 67461",
+      "source_input_roles": {
+        "13015": 1,
+        "13429": 1,
+        "20386": 3,
+        "75822": 1
+      },
+      "output_item_id": 75832,
+      "changed_entry_id": 12426,
+      "before_componentcount": 0,
+      "after_componentcount": 3,
+      "unchanged_successcount": 2,
+      "unchanged_salvagecount": 0
+    },
+    {
+      "source_view_id": 15655,
+      "recipe_id": 1788,
+      "source_name": "Cherry Ice Cream Crunch",
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=282&rsa=Baking&sub=OoW",
+      "source_formula": "Components: Cherry Ice Cream, Frosting, Loaf of Bread, Vegetable Oil (3)\nIn: Spit (Portable), Oven, Tanaan Oven, Collapsible Spit, Oven (Placeable), Guild Oven\nYield: 1\nAlso Returns: Vegetable Oil(2)\nNotes: EQRecipeID: 67257",
+      "source_input_roles": {
+        "13015": 1,
+        "13429": 1,
+        "20386": 3,
+        "75007": 1
+      },
+      "output_item_id": 75752,
+      "changed_entry_id": 13411,
+      "before_componentcount": 0,
+      "after_componentcount": 3,
+      "unchanged_successcount": 2,
+      "unchanged_salvagecount": 0
+    },
+    {
+      "source_view_id": 15671,
+      "recipe_id": 1800,
+      "source_name": "Chocolate Mint Caynar Nut Crunch",
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=282&rsa=Baking&sub=OoW",
+      "source_formula": "Components: Chocolate Mint Caynar Ice Cream, Frosting, Loaf of Bread, Vegetable Oil (3)\nIn: Spit (Portable), Oven, Tanaan Oven, Collapsible Spit\nYield: 1\nAlso Returns: Vegetable Oil(2)\nNotes: EQRecipeID: 67458",
+      "source_input_roles": {
+        "13015": 1,
+        "13429": 1,
+        "20386": 3,
+        "75819": 1
+      },
+      "output_item_id": 75829,
+      "changed_entry_id": 13509,
+      "before_componentcount": 0,
+      "after_componentcount": 3,
+      "unchanged_successcount": 2,
+      "unchanged_salvagecount": 0
+    },
+    {
+      "source_view_id": 15677,
+      "recipe_id": 1805,
+      "source_name": "Chocolate Mint Ice Cream Crunch",
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=282&rsa=Baking&sub=OoW",
+      "source_formula": "Components: Chocolate Mint Ice Cream, Frosting, Loaf of Bread, Vegetable Oil (3)\nIn: Spit (Portable), Oven, Tanaan Oven, Collapsible Spit, Oven (Placeable), Guild Oven\nYield: 1\nAlso Returns: Vegetable Oil(2)\nNotes: EQRecipeID: 67456",
+      "source_input_roles": {
+        "13015": 1,
+        "13429": 1,
+        "20386": 3,
+        "75817": 1
+      },
+      "output_item_id": 75827,
+      "changed_entry_id": 13547,
+      "before_componentcount": 0,
+      "after_componentcount": 3,
+      "unchanged_successcount": 2,
+      "unchanged_salvagecount": 0
+    },
+    {
+      "source_view_id": 15683,
+      "recipe_id": 1809,
+      "source_name": "Chocolate Walnut Ice Cream Crunch",
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=282&rsa=Baking&sub=OoW",
+      "source_formula": "Components: Chocolate Walnut Ice Cream, Frosting, Loaf of Bread, Vegetable Oil (3)\nIn: Spit (Portable), Oven, Tanaan Oven, Collapsible Spit, Oven (Placeable), Guild Oven\nYield: 1\nAlso Returns: Vegetable Oil(2)\nNotes: EQRecipeID: 67268",
+      "source_input_roles": {
+        "13015": 1,
+        "13429": 1,
+        "20386": 3,
+        "75018": 1
+      },
+      "output_item_id": 75763,
+      "changed_entry_id": 13584,
+      "before_componentcount": 0,
+      "after_componentcount": 3,
+      "unchanged_successcount": 2,
+      "unchanged_salvagecount": 0
+    }
+  ],
+  "restriction_review": {
+    "scope": "Six EXISTING Crunch recipes1627/1630/1788/1800/1805/1809 have Vegetable Oil successcount2 but componentcount0. Exact primary formulas require Oil3 and return2. Change only those six existing entry componentcount fields0to3; no new recipes or entries.",
+    "quantities": "Physical stackable Oil3 consumed and2 returned on success, one food output. Current same item row may carry both component and success roles, as native loader reads each independently. Existing salvage0 preserved because returned component. Full source component and success multisets match after correction; no inferred failure return.",
+    "identity": "All25 bounded family primary output IDs authenticated; selected six exact native outputs and other source references match.53 full native field guards retained from same bounded review, no item normalization.",
+    "preservation": "Six full existing recipe definitions and48 entries guarded before and after, existing IDs/gates/era/station lists and all fields except six component counts preserved. Source corrected full-input uniqueness all states/all skills and food output-use universe guarded. Additive19 formulas are separate RRC206; no duplicate of these six.",
+    "historical": "Positive maintained OoW family; current explicit source reconciliation, exact immutable May2013 fields not independently authenticated. Existing header expansion values unchanged.",
+    "execution": "Source only pending publication and exact SQL GO. Exact guarded inverse supplied but never automatically invoked. No player/core/item writes, tests/rehearsal/build/runtime or native combine acceptance. Coverage incomplete."
+  },
+  "source_urls": [
+    "https://www.eqtraders.com/recipes/recipe_page.php?article=282&rsa=Baking&sub=OoW"
+  ],
+  "supplemental_primary_identity_sources": [
+    {
+      "source_url": "https://www.eqtraders.com/items/show_item.php?item=16555",
+      "source_item_id": 16555,
+      "native_item_id": 75830,
+      "observed_primary_title": "EQTC - Item: Berry Caynar Nut Crunch",
+      "stackable_up_to": 20,
+      "explicit_initial_charges": null,
+      "physical_yield": 1,
+      "trivial": 162,
+      "vegetable_oil_consumed": 3,
+      "vegetable_oil_returned": 2
+    },
+    {
+      "source_url": "https://www.eqtraders.com/items/show_item.php?item=16471",
+      "source_item_id": 16471,
+      "native_item_id": 75836,
+      "observed_primary_title": "EQTC - Item: Berry Golanda Crunch",
+      "stackable_up_to": 20,
+      "explicit_initial_charges": null,
+      "physical_yield": 1,
+      "trivial": 162,
+      "vegetable_oil_consumed": 3,
+      "vegetable_oil_returned": 2
+    },
+    {
+      "source_url": "https://www.eqtraders.com/items/show_item.php?item=16519",
+      "source_item_id": 16519,
+      "native_item_id": 75828,
+      "observed_primary_title": "EQTC - Item: Berry Ice Cream Crunch",
+      "stackable_up_to": 20,
+      "explicit_initial_charges": null,
+      "physical_yield": 1,
+      "trivial": 162,
+      "vegetable_oil_consumed": 3,
+      "vegetable_oil_returned": 2
+    },
+    {
+      "source_url": "https://www.eqtraders.com/items/show_item.php?item=16556",
+      "source_item_id": 16556,
+      "native_item_id": 75834,
+      "observed_primary_title": "EQTC - Item: Berry Kiola Crunch",
+      "stackable_up_to": 20,
+      "explicit_initial_charges": null,
+      "physical_yield": 1,
+      "trivial": 162,
+      "vegetable_oil_consumed": 3,
+      "vegetable_oil_returned": 2
+    },
+    {
+      "source_url": "https://www.eqtraders.com/items/show_item.php?item=16424",
+      "source_item_id": 16424,
+      "native_item_id": 75832,
+      "observed_primary_title": "EQTC - Item: Berry Walnut Crunch",
+      "stackable_up_to": 20,
+      "explicit_initial_charges": null,
+      "physical_yield": 1,
+      "trivial": 162,
+      "vegetable_oil_consumed": 3,
+      "vegetable_oil_returned": 2
+    },
+    {
+      "source_url": "https://www.eqtraders.com/items/show_item.php?item=16723",
+      "source_item_id": 16723,
+      "native_item_id": 75756,
+      "observed_primary_title": "EQTC - Item: Caynar Nut Ice Cream Crunch",
+      "stackable_up_to": 20,
+      "explicit_initial_charges": null,
+      "physical_yield": 1,
+      "trivial": 162,
+      "vegetable_oil_consumed": 3,
+      "vegetable_oil_returned": 2
+    },
+    {
+      "source_url": "https://www.eqtraders.com/items/show_item.php?item=16560",
+      "source_item_id": 16560,
+      "native_item_id": 75758,
+      "observed_primary_title": "EQTC - Item: Cherry Caynar Ice Cream Crunch",
+      "stackable_up_to": 20,
+      "explicit_initial_charges": null,
+      "physical_yield": 1,
+      "trivial": 162,
+      "vegetable_oil_consumed": 3,
+      "vegetable_oil_returned": 2
+    },
+    {
+      "source_url": "https://www.eqtraders.com/items/show_item.php?item=16472",
+      "source_item_id": 16472,
+      "native_item_id": 75776,
+      "observed_primary_title": "EQTC - Item: Cherry Golanda Ice Cream Crunch",
+      "stackable_up_to": 20,
+      "explicit_initial_charges": null,
+      "physical_yield": 1,
+      "trivial": 162,
+      "vegetable_oil_consumed": 3,
+      "vegetable_oil_returned": 2
+    },
+    {
+      "source_url": "https://www.eqtraders.com/items/show_item.php?item=16448",
+      "source_item_id": 16448,
+      "native_item_id": 75752,
+      "observed_primary_title": "EQTC - Item: Cherry Ice Cream Crunch",
+      "stackable_up_to": 20,
+      "explicit_initial_charges": null,
+      "physical_yield": 1,
+      "trivial": 162,
+      "vegetable_oil_consumed": 3,
+      "vegetable_oil_returned": 2
+    },
+    {
+      "source_url": "https://www.eqtraders.com/items/show_item.php?item=16558",
+      "source_item_id": 16558,
+      "native_item_id": 75770,
+      "observed_primary_title": "EQTC - Item: Cherry Kiola Ice Cream Crunch",
+      "stackable_up_to": 20,
+      "explicit_initial_charges": null,
+      "physical_yield": 1,
+      "trivial": 162,
+      "vegetable_oil_consumed": 3,
+      "vegetable_oil_returned": 2
+    },
+    {
+      "source_url": "https://www.eqtraders.com/items/show_item.php?item=16447",
+      "source_item_id": 16447,
+      "native_item_id": 75764,
+      "observed_primary_title": "EQTC - Item: Cherry Walnut Ice Cream Crunch",
+      "stackable_up_to": 20,
+      "explicit_initial_charges": null,
+      "physical_yield": 1,
+      "trivial": 162,
+      "vegetable_oil_consumed": 3,
+      "vegetable_oil_returned": 2
+    },
+    {
+      "source_url": "https://www.eqtraders.com/items/show_item.php?item=16561",
+      "source_item_id": 16561,
+      "native_item_id": 75757,
+      "observed_primary_title": "EQTC - Item: Chocolate Caynar Ice Cream Crunch",
+      "stackable_up_to": 20,
+      "explicit_initial_charges": null,
+      "physical_yield": 1,
+      "trivial": 162,
+      "vegetable_oil_consumed": 3,
+      "vegetable_oil_returned": 2
+    },
+    {
+      "source_url": "https://www.eqtraders.com/items/show_item.php?item=16473",
+      "source_item_id": 16473,
+      "native_item_id": 75775,
+      "observed_primary_title": "EQTC - Item: Chocolate Golanda Ice Cream Crunch",
+      "stackable_up_to": 20,
+      "explicit_initial_charges": null,
+      "physical_yield": 1,
+      "trivial": 162,
+      "vegetable_oil_consumed": 3,
+      "vegetable_oil_returned": 2
+    },
+    {
+      "source_url": "https://www.eqtraders.com/items/show_item.php?item=16532",
+      "source_item_id": 16532,
+      "native_item_id": 75751,
+      "observed_primary_title": "EQTC - Item: Chocolate Ice Cream Crunch",
+      "stackable_up_to": 20,
+      "explicit_initial_charges": null,
+      "physical_yield": 1,
+      "trivial": 162,
+      "vegetable_oil_consumed": 3,
+      "vegetable_oil_returned": 2
+    },
+    {
+      "source_url": "https://www.eqtraders.com/items/show_item.php?item=16563",
+      "source_item_id": 16563,
+      "native_item_id": 75769,
+      "observed_primary_title": "EQTC - Item: Chocolate Kiola Ice Cream Crunch",
+      "stackable_up_to": 20,
+      "explicit_initial_charges": null,
+      "physical_yield": 1,
+      "trivial": 162,
+      "vegetable_oil_consumed": 3,
+      "vegetable_oil_returned": 2
+    },
+    {
+      "source_url": "https://www.eqtraders.com/items/show_item.php?item=16569",
+      "source_item_id": 16569,
+      "native_item_id": 75829,
+      "observed_primary_title": "EQTC - Item: Chocolate Mint Caynar Nut Crunch",
+      "stackable_up_to": 20,
+      "explicit_initial_charges": null,
+      "physical_yield": 1,
+      "trivial": 162,
+      "vegetable_oil_consumed": 3,
+      "vegetable_oil_returned": 2
+    },
+    {
+      "source_url": "https://www.eqtraders.com/items/show_item.php?item=16474",
+      "source_item_id": 16474,
+      "native_item_id": 75835,
+      "observed_primary_title": "EQTC - Item: Chocolate Mint Golanda Nut Crunch",
+      "stackable_up_to": 20,
+      "explicit_initial_charges": null,
+      "physical_yield": 1,
+      "trivial": 162,
+      "vegetable_oil_consumed": 3,
+      "vegetable_oil_returned": 2
+    },
+    {
+      "source_url": "https://www.eqtraders.com/items/show_item.php?item=16419",
+      "source_item_id": 16419,
+      "native_item_id": 75827,
+      "observed_primary_title": "EQTC - Item: Chocolate Mint Ice Cream Crunch",
+      "stackable_up_to": 20,
+      "explicit_initial_charges": null,
+      "physical_yield": 1,
+      "trivial": 162,
+      "vegetable_oil_consumed": 3,
+      "vegetable_oil_returned": 2
+    },
+    {
+      "source_url": "https://www.eqtraders.com/items/show_item.php?item=16567",
+      "source_item_id": 16567,
+      "native_item_id": 75833,
+      "observed_primary_title": "EQTC - Item: Chocolate Mint Kiola Crunch",
+      "stackable_up_to": 20,
+      "explicit_initial_charges": null,
+      "physical_yield": 1,
+      "trivial": 162,
+      "vegetable_oil_consumed": 3,
+      "vegetable_oil_returned": 2
+    },
+    {
+      "source_url": "https://www.eqtraders.com/items/show_item.php?item=16709",
+      "source_item_id": 16709,
+      "native_item_id": 75831,
+      "observed_primary_title": "EQTC - Item: Chocolate Mint Walnut Crunch",
+      "stackable_up_to": 20,
+      "explicit_initial_charges": null,
+      "physical_yield": 1,
+      "trivial": 162,
+      "vegetable_oil_consumed": 3,
+      "vegetable_oil_returned": 2
+    },
+    {
+      "source_url": "https://www.eqtraders.com/items/show_item.php?item=16423",
+      "source_item_id": 16423,
+      "native_item_id": 75763,
+      "observed_primary_title": "EQTC - Item: Chocolate Walnut Ice Cream Crunch",
+      "stackable_up_to": 20,
+      "explicit_initial_charges": null,
+      "physical_yield": 1,
+      "trivial": 162,
+      "vegetable_oil_consumed": 3,
+      "vegetable_oil_returned": 2
+    },
+    {
+      "source_url": "https://www.eqtraders.com/items/show_item.php?item=16515",
+      "source_item_id": 16515,
+      "native_item_id": 75761,
+      "observed_primary_title": "EQTC - Item: Coconut Caynar Ice Cream Crunch",
+      "stackable_up_to": 20,
+      "explicit_initial_charges": null,
+      "physical_yield": 1,
+      "trivial": 162,
+      "vegetable_oil_consumed": 3,
+      "vegetable_oil_returned": 2
+    },
+    {
+      "source_url": "https://www.eqtraders.com/items/show_item.php?item=16479",
+      "source_item_id": 16479,
+      "native_item_id": 75779,
+      "observed_primary_title": "EQTC - Item: Coconut Golanda Ice Cream Crunch",
+      "stackable_up_to": 20,
+      "explicit_initial_charges": null,
+      "physical_yield": 1,
+      "trivial": 162,
+      "vegetable_oil_consumed": 3,
+      "vegetable_oil_returned": 2
+    },
+    {
+      "source_url": "https://www.eqtraders.com/items/show_item.php?item=16514",
+      "source_item_id": 16514,
+      "native_item_id": 75755,
+      "observed_primary_title": "EQTC - Item: Coconut Ice Cream Crunch",
+      "stackable_up_to": 20,
+      "explicit_initial_charges": null,
+      "physical_yield": 1,
+      "trivial": 162,
+      "vegetable_oil_consumed": 3,
+      "vegetable_oil_returned": 2
+    },
+    {
+      "source_url": "https://www.eqtraders.com/items/show_item.php?item=16516",
+      "source_item_id": 16516,
+      "native_item_id": 75773,
+      "observed_primary_title": "EQTC - Item: Coconut Kiola Ice Cream Crunch",
+      "stackable_up_to": 20,
+      "explicit_initial_charges": null,
+      "physical_yield": 1,
+      "trivial": 162,
+      "vegetable_oil_consumed": 3,
+      "vegetable_oil_returned": 2
+    }
+  ],
+  "migration_dependencies": [],
+  "held_source_rows": []
+}
