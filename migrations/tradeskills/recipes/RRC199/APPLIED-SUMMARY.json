@@ -1,0 +1,51 @@
+{
+  "format_version": 1,
+  "batch": "RRC199",
+  "source_commit": "69157ecc6b0e53be0dd21ba9a9a0bd22b410ca66",
+  "source_sha256": "3e3390aa452c718f5757e1229fde1c3f4888ed14f86a1d29b16af59fda7fa697",
+  "application_status": "APPLIED_VERIFIED",
+  "SQL_invocations": 1,
+  "transaction_state_after": 0,
+  "recipes_added": 8,
+  "entries_added": 42,
+  "recipe_id_range": [
+    3096589,
+    3096596
+  ],
+  "native_item_dependencies_guarded": 17,
+  "existing_recipe_definitions_updated": 0,
+  "existing_entry_rows_updated": 0,
+  "exact_new_postimages": true,
+  "learned_references_unchanged": true,
+  "global_after_counts": {
+    "recipes": 28160,
+    "entries": 214390
+  },
+  "historical_qualification": {
+    "scope": "Eight retained OoW float/shake manufacturing bodies with direct primary EQ-ID authentication. Two wine-cask bodies remain separate charge/container dispositions. Exact source learned-as names distinguish Vanilla Shake Ice and Ice of Velious formulas.",
+    "identity": "Thirteen previous name-only bindings directly primary authenticated, all EQ IDs match. Public supplemental identity list is restricted to selected dependencies. Actual native fields retained even where source stack caps differ; no name-only identity or normalization.",
+    "quantities": "Floats yield1; Berry/Chocolate/Coconut/Vanilla shakes with Ice of Velious yield2. Vanilla Shake with two temporary Ice units explicitly yields1, not2. Literal ingredients, ice variants and source yields retained. All selected outputs are uncharged, stackable and capacity sufficient; no cask charge semantics generalized.",
+    "era": "Positive maintained OoW8 Brewing manufacturing family. Floor8/max-1 labelled reconstruction; exact per-variant introduction dates and May2013 fields are not independently authenticated. Source EQRecipe numbers do not establish dates. No claim that variants are interchangeable and no fortified-material or Compendium substitution.",
+    "learning": "Learned-as labels are exact source recipe display names, not mandatory book instructions. Source omits mandatory learning/minimum/actor/quest/no-fail gates. must_learn0/book0/skillneeded0/nofail0/quest0/enabled1 and consumed salvage are labelled ordinary new-record policies.",
+    "containers": "Each selected body directly lists ordinary Brew Barrel type19, all full quantities fit ten. Portable Drink Barrel, Collapsible Distillery, Tanaan/placeable/guild/unspecified barrel links held separately; no supply or world access inferred.",
+    "preservation": "17 exact item dependencies freshly read and guarded. All8 retained queue signatures checked with necessary current all-state/all-skill full-input, exact learned-as name and output-use queries: zero matches/peers. New IDs/full postimages/deltas/learnedrefs guarded; existing recipes/items/player/core untouched.",
+    "held_casks": "Bloodroot primary23423/EQ75815 and Worm primary16686/EQ75810 each explicitly report Charges8 and physical Yield1, with8 corks/8 bottles returned. Bloodroot lists Tanaan Brew Barrel only. These require finite charge/native-consumption/container qualification; not included or silently normalized here.",
+    "execution": "Source only pending coordinator publication and separate exact SQL GO. Reader/research tab closed. No tests/build/runtime/native combines. Prior era/source/identity/actor/charge holds retained; all-scope incomplete."
+  },
+  "Research160": "HELD/unapplied",
+  "all_scope_complete": false,
+  "player_item_writes": false,
+  "runtime_actions": false,
+  "native_crafting_acceptance": false,
+  "source_documents": "Four source files retained verbatim. Preparation-time source-only and execution labels are historical; the separate actual receipt confirms the closed application recorded above.",
+  "source_package": "RRC199-r2",
+  "actual_attempt": "002",
+  "exact_entry_multiset_verified": true,
+  "prior_failed_attempt": {
+    "attempt": "001",
+    "applied": false,
+    "status": "FAILED_ROLLED_BACK_AFFECTED_ROWS_UNCHANGED",
+    "history_preserved": true,
+    "revision2": "Only generated recipe-count delta guard42->8 corrected; formulas, identities, quantities and42entries unchanged. Actual application is attempt002; original001 is never labelled applied."
+  }
+}
