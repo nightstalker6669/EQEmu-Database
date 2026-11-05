@@ -1,0 +1,1845 @@
+{
+  "batch": "RRC188",
+  "branch": "rof2-tradeskills",
+  "status": "SOURCE_PROPOSAL_NOT_APPLIED_LABELLED_RECONSTRUCTION",
+  "proposed_ids": [
+    3096372,
+    3096385
+  ],
+  "counts": {
+    "recipes": 14,
+    "entries": 64,
+    "item_dependencies": 25,
+    "unchanged_prototype_recipes": 0,
+    "unchanged_prototype_entries": 0
+  },
+  "recipes": [
+    {
+      "id": 3096372,
+      "name": "Stalwart Small Hilt Casting Mold",
+      "tradeskill": 69,
+      "skillneeded": 0,
+      "trivial": 17,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary SoD mold pair reconstruction; RRC188.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 15,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3096373,
+      "name": "Stalwart Large Hilt Casting Mold",
+      "tradeskill": 69,
+      "skillneeded": 0,
+      "trivial": 17,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary SoD mold pair reconstruction; RRC188.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 15,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3096374,
+      "name": "Stalwart Small Blade Shaped Mold",
+      "tradeskill": 69,
+      "skillneeded": 0,
+      "trivial": 17,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary SoD mold pair reconstruction; RRC188.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 15,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3096375,
+      "name": "Stalwart Spear Head Shaped Mold",
+      "tradeskill": 69,
+      "skillneeded": 0,
+      "trivial": 17,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary SoD mold pair reconstruction; RRC188.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 15,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3096376,
+      "name": "Stalwart Mace Head Shaped Mold",
+      "tradeskill": 69,
+      "skillneeded": 0,
+      "trivial": 17,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary SoD mold pair reconstruction; RRC188.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 15,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3096377,
+      "name": "Stalwart Metal Wrap Shaped Mold",
+      "tradeskill": 69,
+      "skillneeded": 0,
+      "trivial": 17,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary SoD mold pair reconstruction; RRC188.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 15,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3096378,
+      "name": "Stalwart Ulak Blade Shaped Mold",
+      "tradeskill": 69,
+      "skillneeded": 0,
+      "trivial": 17,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary SoD mold pair reconstruction; RRC188.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 15,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3096379,
+      "name": "Unfired Stalwart Small Hilt Casting Mold",
+      "tradeskill": 69,
+      "skillneeded": 0,
+      "trivial": 268,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary SoD mold pair reconstruction; RRC188.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 15,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3096380,
+      "name": "Unfired Stalwart Large Hilt Casting Mold",
+      "tradeskill": 69,
+      "skillneeded": 0,
+      "trivial": 268,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary SoD mold pair reconstruction; RRC188.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 15,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3096381,
+      "name": "Unfired Stalwart Small Blade Shaped Mold",
+      "tradeskill": 69,
+      "skillneeded": 0,
+      "trivial": 270,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary SoD mold pair reconstruction; RRC188.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 15,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3096382,
+      "name": "Unfired Stalwart Spear Head Shaped Mold",
+      "tradeskill": 69,
+      "skillneeded": 0,
+      "trivial": 270,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary SoD mold pair reconstruction; RRC188.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 15,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3096383,
+      "name": "Unfired Stalwart Mace Head Shaped Mold",
+      "tradeskill": 69,
+      "skillneeded": 0,
+      "trivial": 268,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary SoD mold pair reconstruction; RRC188.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 15,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3096384,
+      "name": "Unfired Stalwart Metal Wrap Shaped Mold",
+      "tradeskill": 69,
+      "skillneeded": 0,
+      "trivial": 268,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary SoD mold pair reconstruction; RRC188.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 15,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3096385,
+      "name": "Unfired Stalwart Ulak Blade Shaped Mold",
+      "tradeskill": 69,
+      "skillneeded": 0,
+      "trivial": 270,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary SoD mold pair reconstruction; RRC188.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 15,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    }
+  ],
+  "entries": [
+    {
+      "recipe_id": 3096372,
+      "item_id": 16908,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096372,
+      "item_id": 48318,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096372,
+      "item_id": 49146,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096372,
+      "item_id": 9,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3096373,
+      "item_id": 16908,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096373,
+      "item_id": 48320,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096373,
+      "item_id": 49148,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096373,
+      "item_id": 9,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3096374,
+      "item_id": 16908,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096374,
+      "item_id": 48324,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096374,
+      "item_id": 49152,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096374,
+      "item_id": 9,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3096375,
+      "item_id": 16908,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096375,
+      "item_id": 48325,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096375,
+      "item_id": 49153,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096375,
+      "item_id": 9,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3096376,
+      "item_id": 16908,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096376,
+      "item_id": 48326,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096376,
+      "item_id": 49154,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096376,
+      "item_id": 9,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3096377,
+      "item_id": 16908,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096377,
+      "item_id": 48328,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096377,
+      "item_id": 49156,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096377,
+      "item_id": 9,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3096378,
+      "item_id": 16908,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096378,
+      "item_id": 48329,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096378,
+      "item_id": 49157,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096378,
+      "item_id": 9,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3096379,
+      "item_id": 16901,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096379,
+      "item_id": 48892,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096379,
+      "item_id": 48893,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096379,
+      "item_id": 49146,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096379,
+      "item_id": 8,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3096380,
+      "item_id": 16901,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096380,
+      "item_id": 16902,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096380,
+      "item_id": 48892,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096380,
+      "item_id": 48895,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096380,
+      "item_id": 49148,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096380,
+      "item_id": 8,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3096381,
+      "item_id": 16902,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096381,
+      "item_id": 48892,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096381,
+      "item_id": 48899,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096381,
+      "item_id": 49152,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096381,
+      "item_id": 8,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3096382,
+      "item_id": 16902,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096382,
+      "item_id": 48892,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096382,
+      "item_id": 48900,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096382,
+      "item_id": 49153,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096382,
+      "item_id": 8,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3096383,
+      "item_id": 16902,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096383,
+      "item_id": 48892,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096383,
+      "item_id": 48901,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096383,
+      "item_id": 49154,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096383,
+      "item_id": 8,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3096384,
+      "item_id": 16901,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096384,
+      "item_id": 48892,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096384,
+      "item_id": 48903,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096384,
+      "item_id": 49156,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096384,
+      "item_id": 8,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3096385,
+      "item_id": 16902,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096385,
+      "item_id": 48892,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096385,
+      "item_id": 48904,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096385,
+      "item_id": 49157,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3096385,
+      "item_id": 8,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    }
+  ],
+  "item_dependencies": [
+    {
+      "id": 16901,
+      "name": "Block of Clay"
+    },
+    {
+      "id": 16902,
+      "name": "Large Block of Clay"
+    },
+    {
+      "id": 16908,
+      "name": "High Quality Firing Sheet"
+    },
+    {
+      "id": 48318,
+      "name": "Stalwart Small Hilt Casting Mold"
+    },
+    {
+      "id": 48320,
+      "name": "Stalwart Large Hilt Casting Mold"
+    },
+    {
+      "id": 48324,
+      "name": "Stalwart Small Blade Shaped Mold"
+    },
+    {
+      "id": 48325,
+      "name": "Stalwart Spear Head Shaped Mold"
+    },
+    {
+      "id": 48326,
+      "name": "Stalwart Mace Head Shaped Mold"
+    },
+    {
+      "id": 48328,
+      "name": "Stalwart Metal Wrap Shaped Mold"
+    },
+    {
+      "id": 48329,
+      "name": "Stalwart Ulak Blade Shaped Mold"
+    },
+    {
+      "id": 48892,
+      "name": "Immaculate Silk"
+    },
+    {
+      "id": 48893,
+      "name": "Small Hilt Casting Mold Sketch"
+    },
+    {
+      "id": 48895,
+      "name": "Large Hilt Casting Mold Sketch"
+    },
+    {
+      "id": 48899,
+      "name": "Small Blade Shaped Mold Sketch"
+    },
+    {
+      "id": 48900,
+      "name": "Spear Head Shaped Mold Sketch"
+    },
+    {
+      "id": 48901,
+      "name": "Mace Head Shaped Mold Sketch"
+    },
+    {
+      "id": 48903,
+      "name": "Metal Wrap Shaped Mold Sketch"
+    },
+    {
+      "id": 48904,
+      "name": "Ulak Blade Shaped Mold Sketch"
+    },
+    {
+      "id": 49146,
+      "name": "Unfired Stalwart Small Hilt Casting Mold"
+    },
+    {
+      "id": 49148,
+      "name": "Unfired Stalwart Large Hilt Casting Mold"
+    },
+    {
+      "id": 49152,
+      "name": "Unfired Stalwart Small Blade Shaped Mold"
+    },
+    {
+      "id": 49153,
+      "name": "Unfired Stalwart Spear Head Shaped Mold"
+    },
+    {
+      "id": 49154,
+      "name": "Unfired Stalwart Mace Head Shaped Mold"
+    },
+    {
+      "id": 49156,
+      "name": "Unfired Stalwart Metal Wrap Shaped Mold"
+    },
+    {
+      "id": 49157,
+      "name": "Unfired Stalwart Ulak Blade Shaped Mold"
+    }
+  ],
+  "unchanged_prototype_recipes": [],
+  "unchanged_prototype_entries": [],
+  "source_facts": [
+    {
+      "recipe_id": 3096372,
+      "source_name": "Stalwart Small Hilt Casting Mold",
+      "source_view_id": 12319,
+      "source_url": "https://www.eqtraders.com/recipes/pottery_recipe_page.php?article=432&rsa=Pottery&sub=SoD",
+      "source_formula": "Components: High Quality Firing Sheet, Unfired Stalwart Small Hilt Casting Mold\nIn: Kiln, Tanaan Kiln, Kiln (Placeable)\nYield: 1",
+      "source_catalogue_sha256": "f025b69ba30a132fd4454e0472b668fbb48d31edfe5a28d0beb4f788e75dfa0c",
+      "output_item_id": 48318,
+      "yield_count": 1,
+      "trivial": 17,
+      "ingredients": [
+        {
+          "item_id": 16908,
+          "name": "High Quality Firing Sheet",
+          "count": 1
+        },
+        {
+          "item_id": 49146,
+          "name": "Unfired Stalwart Small Hilt Casting Mold",
+          "count": 1
+        }
+      ],
+      "success_roles": {
+        "48318": 1
+      },
+      "failure_roles": {},
+      "container_item_ids": [
+        9
+      ],
+      "held_source_stations": [
+        {
+          "name": "Tanaan Kiln",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=5496",
+          "reason": "Named/furniture/guild station not separately qualified"
+        },
+        {
+          "name": "Kiln (Placeable)",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34392",
+          "reason": "Named/furniture/guild station not separately qualified"
+        }
+      ],
+      "min_expansion": 15,
+      "skillneeded": 0,
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "learning_origin": "ORDINARY_ZERO_POLICY_SOURCE_OMITS_MANDATORY_BOOK_MINIMUM",
+      "era_origin": "MAINTAINED_SOD15_FAMILY_POLICY_NOT_EXACT_INTRODUCTION",
+      "May2013_exact_fields_verified": false,
+      "identity_assurance": "ALL_NATIVE_ITEM_REFERENCES_PRIMARY_EQ_ITEM_ID_AUTHENTICATED",
+      "unlinked_named_output_qualification": null
+    },
+    {
+      "recipe_id": 3096373,
+      "source_name": "Stalwart Large Hilt Casting Mold",
+      "source_view_id": 12311,
+      "source_url": "https://www.eqtraders.com/recipes/pottery_recipe_page.php?article=432&rsa=Pottery&sub=SoD",
+      "source_formula": "Components: High Quality Firing Sheet, Unfired Stalwart Large Hilt Casting Mold\nIn: Kiln, Tanaan Kiln, Kiln (Placeable)\nYield: 1",
+      "source_catalogue_sha256": "f025b69ba30a132fd4454e0472b668fbb48d31edfe5a28d0beb4f788e75dfa0c",
+      "output_item_id": 48320,
+      "yield_count": 1,
+      "trivial": 17,
+      "ingredients": [
+        {
+          "item_id": 16908,
+          "name": "High Quality Firing Sheet",
+          "count": 1
+        },
+        {
+          "item_id": 49148,
+          "name": "Unfired Stalwart Large Hilt Casting Mold",
+          "count": 1
+        }
+      ],
+      "success_roles": {
+        "48320": 1
+      },
+      "failure_roles": {},
+      "container_item_ids": [
+        9
+      ],
+      "held_source_stations": [
+        {
+          "name": "Tanaan Kiln",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=5496",
+          "reason": "Named/furniture/guild station not separately qualified"
+        },
+        {
+          "name": "Kiln (Placeable)",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34392",
+          "reason": "Named/furniture/guild station not separately qualified"
+        }
+      ],
+      "min_expansion": 15,
+      "skillneeded": 0,
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "learning_origin": "ORDINARY_ZERO_POLICY_SOURCE_OMITS_MANDATORY_BOOK_MINIMUM",
+      "era_origin": "MAINTAINED_SOD15_FAMILY_POLICY_NOT_EXACT_INTRODUCTION",
+      "May2013_exact_fields_verified": false,
+      "identity_assurance": "ALL_NATIVE_ITEM_REFERENCES_PRIMARY_EQ_ITEM_ID_AUTHENTICATED",
+      "unlinked_named_output_qualification": null
+    },
+    {
+      "recipe_id": 3096374,
+      "source_name": "Stalwart Small Blade Shaped Mold",
+      "source_view_id": 12317,
+      "source_url": "https://www.eqtraders.com/recipes/pottery_recipe_page.php?article=432&rsa=Pottery&sub=SoD",
+      "source_formula": "Components: High Quality Firing Sheet, Unfired Stalwart Small Blade Shaped Mold\nIn: Kiln, Tanaan Kiln, Kiln (Placeable)\nYield: 1",
+      "source_catalogue_sha256": "f025b69ba30a132fd4454e0472b668fbb48d31edfe5a28d0beb4f788e75dfa0c",
+      "output_item_id": 48324,
+      "yield_count": 1,
+      "trivial": 17,
+      "ingredients": [
+        {
+          "item_id": 16908,
+          "name": "High Quality Firing Sheet",
+          "count": 1
+        },
+        {
+          "item_id": 49152,
+          "name": "Unfired Stalwart Small Blade Shaped Mold",
+          "count": 1
+        }
+      ],
+      "success_roles": {
+        "48324": 1
+      },
+      "failure_roles": {},
+      "container_item_ids": [
+        9
+      ],
+      "held_source_stations": [
+        {
+          "name": "Tanaan Kiln",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=5496",
+          "reason": "Named/furniture/guild station not separately qualified"
+        },
+        {
+          "name": "Kiln (Placeable)",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34392",
+          "reason": "Named/furniture/guild station not separately qualified"
+        }
+      ],
+      "min_expansion": 15,
+      "skillneeded": 0,
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "learning_origin": "ORDINARY_ZERO_POLICY_SOURCE_OMITS_MANDATORY_BOOK_MINIMUM",
+      "era_origin": "MAINTAINED_SOD15_FAMILY_POLICY_NOT_EXACT_INTRODUCTION",
+      "May2013_exact_fields_verified": false,
+      "identity_assurance": "ALL_NATIVE_ITEM_REFERENCES_PRIMARY_EQ_ITEM_ID_AUTHENTICATED",
+      "unlinked_named_output_qualification": null
+    },
+    {
+      "recipe_id": 3096375,
+      "source_name": "Stalwart Spear Head Shaped Mold",
+      "source_view_id": 12321,
+      "source_url": "https://www.eqtraders.com/recipes/pottery_recipe_page.php?article=432&rsa=Pottery&sub=SoD",
+      "source_formula": "Components: High Quality Firing Sheet, Unfired Stalwart Spear Head Shaped Mold\nIn: Kiln, Tanaan Kiln, Kiln (Placeable)\nYield: 1",
+      "source_catalogue_sha256": "f025b69ba30a132fd4454e0472b668fbb48d31edfe5a28d0beb4f788e75dfa0c",
+      "output_item_id": 48325,
+      "yield_count": 1,
+      "trivial": 17,
+      "ingredients": [
+        {
+          "item_id": 16908,
+          "name": "High Quality Firing Sheet",
+          "count": 1
+        },
+        {
+          "item_id": 49153,
+          "name": "Unfired Stalwart Spear Head Shaped Mold",
+          "count": 1
+        }
+      ],
+      "success_roles": {
+        "48325": 1
+      },
+      "failure_roles": {},
+      "container_item_ids": [
+        9
+      ],
+      "held_source_stations": [
+        {
+          "name": "Tanaan Kiln",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=5496",
+          "reason": "Named/furniture/guild station not separately qualified"
+        },
+        {
+          "name": "Kiln (Placeable)",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34392",
+          "reason": "Named/furniture/guild station not separately qualified"
+        }
+      ],
+      "min_expansion": 15,
+      "skillneeded": 0,
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "learning_origin": "ORDINARY_ZERO_POLICY_SOURCE_OMITS_MANDATORY_BOOK_MINIMUM",
+      "era_origin": "MAINTAINED_SOD15_FAMILY_POLICY_NOT_EXACT_INTRODUCTION",
+      "May2013_exact_fields_verified": false,
+      "identity_assurance": "ALL_NATIVE_ITEM_REFERENCES_PRIMARY_EQ_ITEM_ID_AUTHENTICATED",
+      "unlinked_named_output_qualification": null
+    },
+    {
+      "recipe_id": 3096376,
+      "source_name": "Stalwart Mace Head Shaped Mold",
+      "source_view_id": 12313,
+      "source_url": "https://www.eqtraders.com/recipes/pottery_recipe_page.php?article=432&rsa=Pottery&sub=SoD",
+      "source_formula": "Components: High Quality Firing Sheet, Unfired Stalwart Mace Head Shaped Mold\nIn: Kiln, Tanaan Kiln, Kiln (Placeable)\nYield: 1",
+      "source_catalogue_sha256": "f025b69ba30a132fd4454e0472b668fbb48d31edfe5a28d0beb4f788e75dfa0c",
+      "output_item_id": 48326,
+      "yield_count": 1,
+      "trivial": 17,
+      "ingredients": [
+        {
+          "item_id": 16908,
+          "name": "High Quality Firing Sheet",
+          "count": 1
+        },
+        {
+          "item_id": 49154,
+          "name": "Unfired Stalwart Mace Head Shaped Mold",
+          "count": 1
+        }
+      ],
+      "success_roles": {
+        "48326": 1
+      },
+      "failure_roles": {},
+      "container_item_ids": [
+        9
+      ],
+      "held_source_stations": [
+        {
+          "name": "Tanaan Kiln",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=5496",
+          "reason": "Named/furniture/guild station not separately qualified"
+        },
+        {
+          "name": "Kiln (Placeable)",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34392",
+          "reason": "Named/furniture/guild station not separately qualified"
+        }
+      ],
+      "min_expansion": 15,
+      "skillneeded": 0,
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "learning_origin": "ORDINARY_ZERO_POLICY_SOURCE_OMITS_MANDATORY_BOOK_MINIMUM",
+      "era_origin": "MAINTAINED_SOD15_FAMILY_POLICY_NOT_EXACT_INTRODUCTION",
+      "May2013_exact_fields_verified": false,
+      "identity_assurance": "ALL_NATIVE_ITEM_REFERENCES_PRIMARY_EQ_ITEM_ID_AUTHENTICATED",
+      "unlinked_named_output_qualification": null
+    },
+    {
+      "recipe_id": 3096377,
+      "source_name": "Stalwart Metal Wrap Shaped Mold",
+      "source_view_id": 12315,
+      "source_url": "https://www.eqtraders.com/recipes/pottery_recipe_page.php?article=432&rsa=Pottery&sub=SoD",
+      "source_formula": "Components: High Quality Firing Sheet, Unfired Stalwart Metal Wrap Shaped Mold\nIn: Kiln, Tanaan Kiln, Kiln (Placeable)\nYield: 1",
+      "source_catalogue_sha256": "f025b69ba30a132fd4454e0472b668fbb48d31edfe5a28d0beb4f788e75dfa0c",
+      "output_item_id": 48328,
+      "yield_count": 1,
+      "trivial": 17,
+      "ingredients": [
+        {
+          "item_id": 16908,
+          "name": "High Quality Firing Sheet",
+          "count": 1
+        },
+        {
+          "item_id": 49156,
+          "name": "Unfired Stalwart Metal Wrap Shaped Mold",
+          "count": 1
+        }
+      ],
+      "success_roles": {
+        "48328": 1
+      },
+      "failure_roles": {},
+      "container_item_ids": [
+        9
+      ],
+      "held_source_stations": [
+        {
+          "name": "Tanaan Kiln",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=5496",
+          "reason": "Named/furniture/guild station not separately qualified"
+        },
+        {
+          "name": "Kiln (Placeable)",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34392",
+          "reason": "Named/furniture/guild station not separately qualified"
+        }
+      ],
+      "min_expansion": 15,
+      "skillneeded": 0,
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "learning_origin": "ORDINARY_ZERO_POLICY_SOURCE_OMITS_MANDATORY_BOOK_MINIMUM",
+      "era_origin": "MAINTAINED_SOD15_FAMILY_POLICY_NOT_EXACT_INTRODUCTION",
+      "May2013_exact_fields_verified": false,
+      "identity_assurance": "ALL_NATIVE_ITEM_REFERENCES_PRIMARY_EQ_ITEM_ID_AUTHENTICATED",
+      "unlinked_named_output_qualification": null
+    },
+    {
+      "recipe_id": 3096378,
+      "source_name": "Stalwart Ulak Blade Shaped Mold",
+      "source_view_id": 12323,
+      "source_url": "https://www.eqtraders.com/recipes/pottery_recipe_page.php?article=432&rsa=Pottery&sub=SoD",
+      "source_formula": "Components: High Quality Firing Sheet, Unfired Stalwart Ulak Blade Shaped Mold\nIn: Kiln, Tanaan Kiln, Kiln (Placeable)\nYield: 1",
+      "source_catalogue_sha256": "f025b69ba30a132fd4454e0472b668fbb48d31edfe5a28d0beb4f788e75dfa0c",
+      "output_item_id": 48329,
+      "yield_count": 1,
+      "trivial": 17,
+      "ingredients": [
+        {
+          "item_id": 16908,
+          "name": "High Quality Firing Sheet",
+          "count": 1
+        },
+        {
+          "item_id": 49157,
+          "name": "Unfired Stalwart Ulak Blade Shaped Mold",
+          "count": 1
+        }
+      ],
+      "success_roles": {
+        "48329": 1
+      },
+      "failure_roles": {},
+      "container_item_ids": [
+        9
+      ],
+      "held_source_stations": [
+        {
+          "name": "Tanaan Kiln",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=5496",
+          "reason": "Named/furniture/guild station not separately qualified"
+        },
+        {
+          "name": "Kiln (Placeable)",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34392",
+          "reason": "Named/furniture/guild station not separately qualified"
+        }
+      ],
+      "min_expansion": 15,
+      "skillneeded": 0,
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "learning_origin": "ORDINARY_ZERO_POLICY_SOURCE_OMITS_MANDATORY_BOOK_MINIMUM",
+      "era_origin": "MAINTAINED_SOD15_FAMILY_POLICY_NOT_EXACT_INTRODUCTION",
+      "May2013_exact_fields_verified": false,
+      "identity_assurance": "ALL_NATIVE_ITEM_REFERENCES_PRIMARY_EQ_ITEM_ID_AUTHENTICATED",
+      "unlinked_named_output_qualification": null
+    },
+    {
+      "recipe_id": 3096379,
+      "source_name": "Unfired Stalwart Small Hilt Casting Mold",
+      "source_view_id": 12320,
+      "source_url": "https://www.eqtraders.com/recipes/pottery_recipe_page.php?article=432&rsa=Pottery&sub=SoD",
+      "source_formula": "Components: Block of Clay, Immaculate Silk, Small Hilt Casting Mold Sketch\nIn: Pottery Wheel, Tanaan Pottery Wheel, Pottery Wheel (Placeable), Guild Pottery Wheel\nYield: 1\nNotes: EQRecipeID: 13935",
+      "source_catalogue_sha256": "f025b69ba30a132fd4454e0472b668fbb48d31edfe5a28d0beb4f788e75dfa0c",
+      "output_item_id": 49146,
+      "yield_count": 1,
+      "trivial": 268,
+      "ingredients": [
+        {
+          "item_id": 16901,
+          "name": "Block of Clay",
+          "count": 1
+        },
+        {
+          "item_id": 48892,
+          "name": "Immaculate Silk",
+          "count": 1
+        },
+        {
+          "item_id": 48893,
+          "name": "Small Hilt Casting Mold Sketch",
+          "count": 1
+        }
+      ],
+      "success_roles": {
+        "49146": 1
+      },
+      "failure_roles": {},
+      "container_item_ids": [
+        8
+      ],
+      "held_source_stations": [
+        {
+          "name": "Tanaan Pottery Wheel",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=5495",
+          "reason": "Named/furniture/guild station not separately qualified"
+        },
+        {
+          "name": "Pottery Wheel (Placeable)",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34405",
+          "reason": "Named/furniture/guild station not separately qualified"
+        },
+        {
+          "name": "Guild Pottery Wheel",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=38426",
+          "reason": "Named/furniture/guild station not separately qualified"
+        }
+      ],
+      "min_expansion": 15,
+      "skillneeded": 0,
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "learning_origin": "ORDINARY_ZERO_POLICY_SOURCE_OMITS_MANDATORY_BOOK_MINIMUM",
+      "era_origin": "MAINTAINED_SOD15_FAMILY_POLICY_NOT_EXACT_INTRODUCTION",
+      "May2013_exact_fields_verified": false,
+      "identity_assurance": "ALL_NATIVE_ITEM_REFERENCES_PRIMARY_EQ_ITEM_ID_AUTHENTICATED",
+      "unlinked_named_output_qualification": "Output name has no link in catalogue; exact same named unfired component primary page explicitly supplies native EQ item ID"
+    },
+    {
+      "recipe_id": 3096380,
+      "source_name": "Unfired Stalwart Large Hilt Casting Mold",
+      "source_view_id": 12312,
+      "source_url": "https://www.eqtraders.com/recipes/pottery_recipe_page.php?article=432&rsa=Pottery&sub=SoD",
+      "source_formula": "Components: Block of Clay, Immaculate Silk, Large Block of Clay, Large Hilt Casting Mold Sketch\nIn: Pottery Wheel, Tanaan Pottery Wheel, Pottery Wheel (Placeable), Guild Pottery Wheel\nYield: 1\nNotes: EQRecipeID: 13937",
+      "source_catalogue_sha256": "f025b69ba30a132fd4454e0472b668fbb48d31edfe5a28d0beb4f788e75dfa0c",
+      "output_item_id": 49148,
+      "yield_count": 1,
+      "trivial": 268,
+      "ingredients": [
+        {
+          "item_id": 16901,
+          "name": "Block of Clay",
+          "count": 1
+        },
+        {
+          "item_id": 16902,
+          "name": "Large Block of Clay",
+          "count": 1
+        },
+        {
+          "item_id": 48892,
+          "name": "Immaculate Silk",
+          "count": 1
+        },
+        {
+          "item_id": 48895,
+          "name": "Large Hilt Casting Mold Sketch",
+          "count": 1
+        }
+      ],
+      "success_roles": {
+        "49148": 1
+      },
+      "failure_roles": {},
+      "container_item_ids": [
+        8
+      ],
+      "held_source_stations": [
+        {
+          "name": "Tanaan Pottery Wheel",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=5495",
+          "reason": "Named/furniture/guild station not separately qualified"
+        },
+        {
+          "name": "Pottery Wheel (Placeable)",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34405",
+          "reason": "Named/furniture/guild station not separately qualified"
+        },
+        {
+          "name": "Guild Pottery Wheel",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=38426",
+          "reason": "Named/furniture/guild station not separately qualified"
+        }
+      ],
+      "min_expansion": 15,
+      "skillneeded": 0,
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "learning_origin": "ORDINARY_ZERO_POLICY_SOURCE_OMITS_MANDATORY_BOOK_MINIMUM",
+      "era_origin": "MAINTAINED_SOD15_FAMILY_POLICY_NOT_EXACT_INTRODUCTION",
+      "May2013_exact_fields_verified": false,
+      "identity_assurance": "ALL_NATIVE_ITEM_REFERENCES_PRIMARY_EQ_ITEM_ID_AUTHENTICATED",
+      "unlinked_named_output_qualification": "Output name has no link in catalogue; exact same named unfired component primary page explicitly supplies native EQ item ID"
+    },
+    {
+      "recipe_id": 3096381,
+      "source_name": "Unfired Stalwart Small Blade Shaped Mold",
+      "source_view_id": 12318,
+      "source_url": "https://www.eqtraders.com/recipes/pottery_recipe_page.php?article=432&rsa=Pottery&sub=SoD",
+      "source_formula": "Components: Immaculate Silk, Large Block of Clay, Small Blade Shaped Mold Sketch\nIn: Pottery Wheel, Tanaan Pottery Wheel, Pottery Wheel (Placeable), Guild Pottery Wheel\nYield: 1\nNotes: EQRecipeID: 13941",
+      "source_catalogue_sha256": "f025b69ba30a132fd4454e0472b668fbb48d31edfe5a28d0beb4f788e75dfa0c",
+      "output_item_id": 49152,
+      "yield_count": 1,
+      "trivial": 270,
+      "ingredients": [
+        {
+          "item_id": 16902,
+          "name": "Large Block of Clay",
+          "count": 1
+        },
+        {
+          "item_id": 48892,
+          "name": "Immaculate Silk",
+          "count": 1
+        },
+        {
+          "item_id": 48899,
+          "name": "Small Blade Shaped Mold Sketch",
+          "count": 1
+        }
+      ],
+      "success_roles": {
+        "49152": 1
+      },
+      "failure_roles": {},
+      "container_item_ids": [
+        8
+      ],
+      "held_source_stations": [
+        {
+          "name": "Tanaan Pottery Wheel",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=5495",
+          "reason": "Named/furniture/guild station not separately qualified"
+        },
+        {
+          "name": "Pottery Wheel (Placeable)",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34405",
+          "reason": "Named/furniture/guild station not separately qualified"
+        },
+        {
+          "name": "Guild Pottery Wheel",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=38426",
+          "reason": "Named/furniture/guild station not separately qualified"
+        }
+      ],
+      "min_expansion": 15,
+      "skillneeded": 0,
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "learning_origin": "ORDINARY_ZERO_POLICY_SOURCE_OMITS_MANDATORY_BOOK_MINIMUM",
+      "era_origin": "MAINTAINED_SOD15_FAMILY_POLICY_NOT_EXACT_INTRODUCTION",
+      "May2013_exact_fields_verified": false,
+      "identity_assurance": "ALL_NATIVE_ITEM_REFERENCES_PRIMARY_EQ_ITEM_ID_AUTHENTICATED",
+      "unlinked_named_output_qualification": "Output name has no link in catalogue; exact same named unfired component primary page explicitly supplies native EQ item ID"
+    },
+    {
+      "recipe_id": 3096382,
+      "source_name": "Unfired Stalwart Spear Head Shaped Mold",
+      "source_view_id": 12322,
+      "source_url": "https://www.eqtraders.com/recipes/pottery_recipe_page.php?article=432&rsa=Pottery&sub=SoD",
+      "source_formula": "Components: Immaculate Silk, Large Block of Clay, Spear Head Shaped Mold Sketch\nIn: Pottery Wheel, Tanaan Pottery Wheel, Pottery Wheel (Placeable), Guild Pottery Wheel\nYield: 1\nNotes: EQRecipeID: 13942",
+      "source_catalogue_sha256": "f025b69ba30a132fd4454e0472b668fbb48d31edfe5a28d0beb4f788e75dfa0c",
+      "output_item_id": 49153,
+      "yield_count": 1,
+      "trivial": 270,
+      "ingredients": [
+        {
+          "item_id": 16902,
+          "name": "Large Block of Clay",
+          "count": 1
+        },
+        {
+          "item_id": 48892,
+          "name": "Immaculate Silk",
+          "count": 1
+        },
+        {
+          "item_id": 48900,
+          "name": "Spear Head Shaped Mold Sketch",
+          "count": 1
+        }
+      ],
+      "success_roles": {
+        "49153": 1
+      },
+      "failure_roles": {},
+      "container_item_ids": [
+        8
+      ],
+      "held_source_stations": [
+        {
+          "name": "Tanaan Pottery Wheel",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=5495",
+          "reason": "Named/furniture/guild station not separately qualified"
+        },
+        {
+          "name": "Pottery Wheel (Placeable)",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34405",
+          "reason": "Named/furniture/guild station not separately qualified"
+        },
+        {
+          "name": "Guild Pottery Wheel",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=38426",
+          "reason": "Named/furniture/guild station not separately qualified"
+        }
+      ],
+      "min_expansion": 15,
+      "skillneeded": 0,
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "learning_origin": "ORDINARY_ZERO_POLICY_SOURCE_OMITS_MANDATORY_BOOK_MINIMUM",
+      "era_origin": "MAINTAINED_SOD15_FAMILY_POLICY_NOT_EXACT_INTRODUCTION",
+      "May2013_exact_fields_verified": false,
+      "identity_assurance": "ALL_NATIVE_ITEM_REFERENCES_PRIMARY_EQ_ITEM_ID_AUTHENTICATED",
+      "unlinked_named_output_qualification": "Output name has no link in catalogue; exact same named unfired component primary page explicitly supplies native EQ item ID"
+    },
+    {
+      "recipe_id": 3096383,
+      "source_name": "Unfired Stalwart Mace Head Shaped Mold",
+      "source_view_id": 12314,
+      "source_url": "https://www.eqtraders.com/recipes/pottery_recipe_page.php?article=432&rsa=Pottery&sub=SoD",
+      "source_formula": "Components: Immaculate Silk, Large Block of Clay, Mace Head Shaped Mold Sketch\nIn: Pottery Wheel, Tanaan Pottery Wheel, Pottery Wheel (Placeable), Guild Pottery Wheel\nYield: 1\nNotes: EQRecipeID: 13943",
+      "source_catalogue_sha256": "f025b69ba30a132fd4454e0472b668fbb48d31edfe5a28d0beb4f788e75dfa0c",
+      "output_item_id": 49154,
+      "yield_count": 1,
+      "trivial": 268,
+      "ingredients": [
+        {
+          "item_id": 16902,
+          "name": "Large Block of Clay",
+          "count": 1
+        },
+        {
+          "item_id": 48892,
+          "name": "Immaculate Silk",
+          "count": 1
+        },
+        {
+          "item_id": 48901,
+          "name": "Mace Head Shaped Mold Sketch",
+          "count": 1
+        }
+      ],
+      "success_roles": {
+        "49154": 1
+      },
+      "failure_roles": {},
+      "container_item_ids": [
+        8
+      ],
+      "held_source_stations": [
+        {
+          "name": "Tanaan Pottery Wheel",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=5495",
+          "reason": "Named/furniture/guild station not separately qualified"
+        },
+        {
+          "name": "Pottery Wheel (Placeable)",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34405",
+          "reason": "Named/furniture/guild station not separately qualified"
+        },
+        {
+          "name": "Guild Pottery Wheel",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=38426",
+          "reason": "Named/furniture/guild station not separately qualified"
+        }
+      ],
+      "min_expansion": 15,
+      "skillneeded": 0,
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "learning_origin": "ORDINARY_ZERO_POLICY_SOURCE_OMITS_MANDATORY_BOOK_MINIMUM",
+      "era_origin": "MAINTAINED_SOD15_FAMILY_POLICY_NOT_EXACT_INTRODUCTION",
+      "May2013_exact_fields_verified": false,
+      "identity_assurance": "ALL_NATIVE_ITEM_REFERENCES_PRIMARY_EQ_ITEM_ID_AUTHENTICATED",
+      "unlinked_named_output_qualification": "Output name has no link in catalogue; exact same named unfired component primary page explicitly supplies native EQ item ID"
+    },
+    {
+      "recipe_id": 3096384,
+      "source_name": "Unfired Stalwart Metal Wrap Shaped Mold",
+      "source_view_id": 12316,
+      "source_url": "https://www.eqtraders.com/recipes/pottery_recipe_page.php?article=432&rsa=Pottery&sub=SoD",
+      "source_formula": "Components: Block of Clay, Immaculate Silk, Metal Wrap Shaped Mold Sketch\nIn: Pottery Wheel, Tanaan Pottery Wheel, Pottery Wheel (Placeable), Guild Pottery Wheel\nYield: 1\nNotes: EQRecipeID: 13945",
+      "source_catalogue_sha256": "f025b69ba30a132fd4454e0472b668fbb48d31edfe5a28d0beb4f788e75dfa0c",
+      "output_item_id": 49156,
+      "yield_count": 1,
+      "trivial": 268,
+      "ingredients": [
+        {
+          "item_id": 16901,
+          "name": "Block of Clay",
+          "count": 1
+        },
+        {
+          "item_id": 48892,
+          "name": "Immaculate Silk",
+          "count": 1
+        },
+        {
+          "item_id": 48903,
+          "name": "Metal Wrap Shaped Mold Sketch",
+          "count": 1
+        }
+      ],
+      "success_roles": {
+        "49156": 1
+      },
+      "failure_roles": {},
+      "container_item_ids": [
+        8
+      ],
+      "held_source_stations": [
+        {
+          "name": "Tanaan Pottery Wheel",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=5495",
+          "reason": "Named/furniture/guild station not separately qualified"
+        },
+        {
+          "name": "Pottery Wheel (Placeable)",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34405",
+          "reason": "Named/furniture/guild station not separately qualified"
+        },
+        {
+          "name": "Guild Pottery Wheel",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=38426",
+          "reason": "Named/furniture/guild station not separately qualified"
+        }
+      ],
+      "min_expansion": 15,
+      "skillneeded": 0,
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "learning_origin": "ORDINARY_ZERO_POLICY_SOURCE_OMITS_MANDATORY_BOOK_MINIMUM",
+      "era_origin": "MAINTAINED_SOD15_FAMILY_POLICY_NOT_EXACT_INTRODUCTION",
+      "May2013_exact_fields_verified": false,
+      "identity_assurance": "ALL_NATIVE_ITEM_REFERENCES_PRIMARY_EQ_ITEM_ID_AUTHENTICATED",
+      "unlinked_named_output_qualification": "Output name has no link in catalogue; exact same named unfired component primary page explicitly supplies native EQ item ID"
+    },
+    {
+      "recipe_id": 3096385,
+      "source_name": "Unfired Stalwart Ulak Blade Shaped Mold",
+      "source_view_id": 12324,
+      "source_url": "https://www.eqtraders.com/recipes/pottery_recipe_page.php?article=432&rsa=Pottery&sub=SoD",
+      "source_formula": "Components: Immaculate Silk, Large Block of Clay, Ulak Blade Shaped Mold Sketch\nIn: Pottery Wheel, Tanaan Pottery Wheel, Pottery Wheel (Placeable), Guild Pottery Wheel\nYield: 1\nNotes: EQRecipeID: 13946",
+      "source_catalogue_sha256": "f025b69ba30a132fd4454e0472b668fbb48d31edfe5a28d0beb4f788e75dfa0c",
+      "output_item_id": 49157,
+      "yield_count": 1,
+      "trivial": 270,
+      "ingredients": [
+        {
+          "item_id": 16902,
+          "name": "Large Block of Clay",
+          "count": 1
+        },
+        {
+          "item_id": 48892,
+          "name": "Immaculate Silk",
+          "count": 1
+        },
+        {
+          "item_id": 48904,
+          "name": "Ulak Blade Shaped Mold Sketch",
+          "count": 1
+        }
+      ],
+      "success_roles": {
+        "49157": 1
+      },
+      "failure_roles": {},
+      "container_item_ids": [
+        8
+      ],
+      "held_source_stations": [
+        {
+          "name": "Tanaan Pottery Wheel",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=5495",
+          "reason": "Named/furniture/guild station not separately qualified"
+        },
+        {
+          "name": "Pottery Wheel (Placeable)",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=34405",
+          "reason": "Named/furniture/guild station not separately qualified"
+        },
+        {
+          "name": "Guild Pottery Wheel",
+          "source_url": "https://www.eqtraders.com//items/show_item.php?item=38426",
+          "reason": "Named/furniture/guild station not separately qualified"
+        }
+      ],
+      "min_expansion": 15,
+      "skillneeded": 0,
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "learning_origin": "ORDINARY_ZERO_POLICY_SOURCE_OMITS_MANDATORY_BOOK_MINIMUM",
+      "era_origin": "MAINTAINED_SOD15_FAMILY_POLICY_NOT_EXACT_INTRODUCTION",
+      "May2013_exact_fields_verified": false,
+      "identity_assurance": "ALL_NATIVE_ITEM_REFERENCES_PRIMARY_EQ_ITEM_ID_AUTHENTICATED",
+      "unlinked_named_output_qualification": "Output name has no link in catalogue; exact same named unfired component primary page explicitly supplies native EQ item ID"
+    }
+  ],
+  "restriction_review": {
+    "scope": "14 source views (7 complete fired/unfired weapon-mold pairs) selected from one retained SoD15 Pottery family: last seven Stalwart pairs; end of retained weapon-mold family. Exact source numeric trivials/full quantities/yield1; all selected previous name-only item identities now direct primary EQ item IDs.",
+    "identity": "Chrome rendered the selected observed primary item links, exact titles and explicit EQ item ID fields; every candidate matched. Named unfired output rows lack catalogue links; their exact names are authenticated by directly linked unfired component pages from the paired firing bodies. Structured UI observations retained privately; no rawHTML/DOMdump hash or name-onlyidentity claim. Native item fields preserved even when maintainedpage stack caps differ; no item normalization.",
+    "quantities": "Unfired forming uses exact sketch/clay quantities and exactsource tierSilk. Firing consumes sourceQuality-or-HighQualityFiringSheet plus exact unfired mold, preserving every actual count (including2 sheets where listed). All physicaloutputs1/nativeuncharged; no toolreturns/co-products/reuse invented. Consumed salvage=component/new-record conventions.",
+    "era": "Maintained SoD15 Pottery catalogue/manufacturing family is positive through-RoF context; configuredfloor15/max-1 policy, not immutableMay2013 per-field/introduction/nativecraftproof. No modern fortified-material/Compendium substitution.",
+    "gates": "Source omits mandatorybook/minimum/actor/questgates;ordinaryskillneeded0/must_learn0/book0/no-fail0/quest0/enabled1acceptedlabellednew-record policies. No NPC teaching/supply/learning/player changes.",
+    "containers": "Eachformingview positivelylistsordinaryPotteryWheel8;eachfiringviewordinaryKiln9. Source genericten-unit worldcontainer limit retained; actual fullquantities fit. Tanaan/named/placeable/guild links held separately; no portable/containeraccess/population inference.",
+    "preservation": "25 nativeitem dependencies/currentall-statefullinputabsence/currentoutput-useuniverse/unique names/newIDs/fullpostimages/deltas/learnedrefs guarded. Saved through180receipt overlay confirms all selected candidate signatures; finitecurrentread found zero full-input/name matches/output-use peers. Dependency fields reuse prior bounded receipts where available; only missing item rows freshly read, while apply exactguards retain allfields. No existingrecipes/items/player/quest/core edits.",
+    "execution": "Sourceproposalonly,coordinatorpublication plus separateexactSQLGO. Allboundedreadersclosed,researchtabclosed,noSQLwrites/tests/build/runtime/nativecombines;Research160/sevenera/45profilemismatch/otherholds retained. Fullrecipecoverage incomplete."
+  },
+  "source_urls": [
+    "https://www.eqtraders.com/recipes/pottery_recipe_page.php?article=432&rsa=Pottery&sub=SoD"
+  ],
+  "supplemental_primary_identity_sources": [
+    {
+      "source_url": "https://www.eqtraders.com/items/show_item.php?item=31555",
+      "source_item_id": 31555,
+      "explicit_EQ_item_ID": 48320,
+      "observed_primary_title": "EQTC - Item: Stalwart Large Hilt Casting Mold"
+    },
+    {
+      "source_url": "https://www.eqtraders.com/items/show_item.php?item=31835",
+      "source_item_id": 31835,
+      "explicit_EQ_item_ID": 49148,
+      "observed_primary_title": "EQTC - Item: Unfired Stalwart Large Hilt Casting Mold"
+    },
+    {
+      "source_url": "https://www.eqtraders.com/items/show_item.php?item=31561",
+      "source_item_id": 31561,
+      "explicit_EQ_item_ID": 48326,
+      "observed_primary_title": "EQTC - Item: Stalwart Mace Head Shaped Mold"
+    },
+    {
+      "source_url": "https://www.eqtraders.com/items/show_item.php?item=31841",
+      "source_item_id": 31841,
+      "explicit_EQ_item_ID": 49154,
+      "observed_primary_title": "EQTC - Item: Unfired Stalwart Mace Head Shaped Mold"
+    },
+    {
+      "source_url": "https://www.eqtraders.com/items/show_item.php?item=31563",
+      "source_item_id": 31563,
+      "explicit_EQ_item_ID": 48328,
+      "observed_primary_title": "EQTC - Item: Stalwart Metal Wrap Shaped Mold"
+    },
+    {
+      "source_url": "https://www.eqtraders.com/items/show_item.php?item=31843",
+      "source_item_id": 31843,
+      "explicit_EQ_item_ID": 49156,
+      "observed_primary_title": "EQTC - Item: Unfired Stalwart Metal Wrap Shaped Mold"
+    },
+    {
+      "source_url": "https://www.eqtraders.com/items/show_item.php?item=31559",
+      "source_item_id": 31559,
+      "explicit_EQ_item_ID": 48324,
+      "observed_primary_title": "EQTC - Item: Stalwart Small Blade Shaped Mold"
+    },
+    {
+      "source_url": "https://www.eqtraders.com/items/show_item.php?item=31839",
+      "source_item_id": 31839,
+      "explicit_EQ_item_ID": 49152,
+      "observed_primary_title": "EQTC - Item: Unfired Stalwart Small Blade Shaped Mold"
+    },
+    {
+      "source_url": "https://www.eqtraders.com/items/show_item.php?item=31553",
+      "source_item_id": 31553,
+      "explicit_EQ_item_ID": 48318,
+      "observed_primary_title": "EQTC - Item: Stalwart Small Hilt Casting Mold"
+    },
+    {
+      "source_url": "https://www.eqtraders.com/items/show_item.php?item=31833",
+      "source_item_id": 31833,
+      "explicit_EQ_item_ID": 49146,
+      "observed_primary_title": "EQTC - Item: Unfired Stalwart Small Hilt Casting Mold"
+    },
+    {
+      "source_url": "https://www.eqtraders.com/items/show_item.php?item=31560",
+      "source_item_id": 31560,
+      "explicit_EQ_item_ID": 48325,
+      "observed_primary_title": "EQTC - Item: Stalwart Spear Head Shaped Mold"
+    },
+    {
+      "source_url": "https://www.eqtraders.com/items/show_item.php?item=31840",
+      "source_item_id": 31840,
+      "explicit_EQ_item_ID": 49153,
+      "observed_primary_title": "EQTC - Item: Unfired Stalwart Spear Head Shaped Mold"
+    },
+    {
+      "source_url": "https://www.eqtraders.com/items/show_item.php?item=31564",
+      "source_item_id": 31564,
+      "explicit_EQ_item_ID": 48329,
+      "observed_primary_title": "EQTC - Item: Stalwart Ulak Blade Shaped Mold"
+    },
+    {
+      "source_url": "https://www.eqtraders.com/items/show_item.php?item=31844",
+      "source_item_id": 31844,
+      "explicit_EQ_item_ID": 49157,
+      "observed_primary_title": "EQTC - Item: Unfired Stalwart Ulak Blade Shaped Mold"
+    }
+  ],
+  "native_authored_context": [],
+  "migration_dependencies": [],
+  "held_source_rows": []
+}
