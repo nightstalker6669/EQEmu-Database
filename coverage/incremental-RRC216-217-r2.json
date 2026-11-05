@@ -1,0 +1,89 @@
+{
+  "format_version": 1,
+  "batches": [
+    "RRC216",
+    "RRC217-r2"
+  ],
+  "application_order": [
+    "RRC216",
+    "RRC217-r2-attempt002"
+  ],
+  "source_packages": {
+    "RRC216": {
+      "source_commit": "0927c5541ae652b59d17d0703f3328ceff766ffc",
+      "apply_sha256": "707a01e49536935186821a4e717a0556d8e9cc316db397394715ca7173f8ca0d",
+      "package_manifest_sha256": "0018db1435b9446e9a652d528c71879fcc87256a579ce56ed0150843425a1126"
+    },
+    "RRC217-r2": {
+      "source_commit": "e996c9e7b8576596f113b2cb2cb41d06545c1e65",
+      "apply_sha256": "e9f0d4210c16ea66fdf558f5e7dc05c181e729aa2eaff00da6194dfaed2c3e0a",
+      "package_manifest_sha256": "476cd5f2ed17c90bdb66db07ddc39b2a2706c0e907b0c296a6cad6adbd7cfff9"
+    }
+  },
+  "application_status": "RRC216_AND_RRC217_REVISION2_APPLIED_VERIFIED",
+  "successful_SQL_invocations": 2,
+  "failed_original217001_history": {
+    "original_attempt": "001",
+    "status": "PRETRANSACTION_SCHEMA_GUARD_FAILED_NO_MUTATION",
+    "original_applied": false,
+    "SQL_invocations": 1,
+    "database_writes": 0,
+    "target_preimage_and_learned_references_unchanged_verified": true,
+    "reader_closed": true,
+    "original_source_commit": "0927c5541ae652b59d17d0703f3328ceff766ffc",
+    "original_apply_sha256": "16c8dd29852e93d602280e7b47dbcef3314560c6b534b9fa354b65b3ea1a67e0",
+    "cause": "Published217 source incorrectly expects7entry columns in schema guard;actual schema remains8;guard occurs before transaction/mutations",
+    "revision2": "Only entry-schema column expectation corrected7->8;seven affectedentryrows/onechangedrow/sugarquantitycontract unchanged. Successful actual attempt002 is separate;failed001 is never labelled applied."
+  },
+  "recipes_added": 3,
+  "entries_added": 12,
+  "existing_entry_rows_updated": 1,
+  "existing_entry_fields_updated": 2,
+  "existing_recipe_definitions_updated": 0,
+  "global_actual_counts": {
+    "recipes": 28381,
+    "entries": 216273
+  },
+  "TS_cumulative_added_current": {
+    "recipes": 5557,
+    "entries": 38648
+  },
+  "cumulative_basis": "Prior5554/38636 actual after215 plus3/12;217corrected002oneexistingrow/twofields;original001failedbeforetransaction/no mutation,never counted applied.",
+  "new_recipe_batches": 166,
+  "historical_qualification": {
+    "RRC216": {
+      "scope": "Three absent retained GoD Baking formulas: Slice of Taelosian Cherry Pie, Slice of Taelosian Wildberry Mountain Pie, Spiced Cragbeast Kabobs. Exact direct primary output identities and literal independent formulas match retained family. Existing WayfarerCookie2371 sugar-count correction separate, not duplicated.",
+      "quantity": "Cherry pie slicing explicitlyYield8/trivial15NoFail; Wildberry pie slicing explicitlyYield1/trivial15NoFail, distinct quantities retained rather than imposing uniform slicing yield. Current native foodMax0/stackable/capacity>=8 confirm physical stack quantities. KabobsYield1/trivial172/nofail0 and Skewers returned1 on both success and failure, salvage0 on returned tool. Exact other ingredients, no failure food output invented.",
+      "era": "Positive maintained GoD7 Baking manufacturing family; floor7/max-1 labelled reconstruction, not exact introduction or immutable May2013 per-field proof. Source catalogue/item/recipe numeric IDs not date evidence.",
+      "gates": "Selected three source formulas omit mandatory minimum/learning/actor/quest manufacturing restrictions: ordinary skillneeded0/must_learn0/book0/quest0/enabled1 conventions. Cookie AbysmalSea collect context handled separately; no manufactured output suppression or taskcredit invented.",
+      "containers": "Every source explicitly permits ordinary Oven15, up to4physical inputs fit ten-unit world container limit. Spit/Tanaan/placeable/guild alternatives held separately, no station availability inferred.",
+      "preservation": "13exact current native dependencies and all-success output-use universe145existingrecipes/951entries including returnedSkewers captured and guarded unchanged. No all-state/all-skill full-input/name match for selected three. Native audit after214; queued215 weapon outputs/returnedHammer do not overlap these output roles. NewIDs/full logicalentries/deltas/learnedrefs guarded; no existing recipe/item/core/player edits.",
+      "execution": "Source only pending coordinator publication and exact SQL GO, sequential application after215. Named one-pass counts. Reader/source tabs closed. No tests/rehearsal/build/runtime/native combine/slicing acceptance; overall coverage incomplete."
+    },
+    "RRC217": {
+      "scope": "Existing Wayfarer Cookie2371 PinchOfSugar58065 entry17769 has component2/salvage2; retained/fresh primary source uses one PinchOfSugar. Change only this existing entry component2to1 and salvage2to1. One changed entry, no new rows.",
+      "identity": "Primary13129 explicitlyEQ58182 output with Sugar58065/source13075, Flour58138/source13126, Spice58211/source11957. Full source quantities/foodYield1/trivial46 authenticated; current other two inputs/output/trivial match. No duplicate new recipe.",
+      "learning": "Existing must_learn2/book0 and every recipe definition field remain unchanged. Source AbysmalSea baking collect association is preserved as context; no inferred quest prerequisite removal, NPC supply changes, output suppression or taskcredit. Existing recipe learning/access and station availability are not independently claimed correct by this ingredient-only correction.",
+      "preservation": "One full recipe header and seven existing entries/IDs exactly guarded before/after;13current native item dependencies guarded. Only one entry two quantity fields change. Success/failure counts, other ingredients, all three old container bindings, gates/expansion/content flags and learned references preserved. Corrected all-state/all-skill fullinput uniqueness and food output-use universe guarded.",
+      "historical": "Positive maintained GoD manufacturing family source reconciliation, exact immutable May2013 per-field quantities not independently authenticated. Existing min/max expansion header remains unchanged.",
+      "execution": "Source only pending publication and exact SQL GO, sequential after216. Exact guarded inverse supplied, never automatically invoked. No new rows/player/item/core/quest edits/tests/rehearsal/build/runtime/native combine or quest acceptance. Overall coverage incomplete."
+    }
+  },
+  "held_batches": [
+    "RRC014",
+    "RRC160"
+  ],
+  "all_scope_complete": false,
+  "separate_Xorbb_recipe_excluded": {
+    "recipes": 1,
+    "entries": 6
+  },
+  "prior_locally_confirmed_published_normal_SQL_source_paths": 674,
+  "earlier_pending_normal_SQL_source_paths": 6,
+  "new_normal_SQL_source_paths": 4,
+  "normal_SQL_source_paths_after_all_pending_publications": 684,
+  "SQL_path_count_meaning": "Source paths,not application count.",
+  "history_archives_preserved": true,
+  "QA39999_production_exclusion_retained": true,
+  "assembly": "Source+actual summaries only;noSQL/query/replay/tests/runtime/receipt-onlypublication."
+}

@@ -1,0 +1,342 @@
+{
+  "batch": "RRC217",
+  "branch": "rof2-tradeskills",
+  "status": "SOURCE_ENTRY_CORRECTION_NOT_APPLIED",
+  "counts": {
+    "existing_recipes": 1,
+    "before_entries": 7,
+    "after_entries": 7,
+    "item_dependencies": 13,
+    "existing_entry_rows_updated": 1,
+    "new_entries": 0
+  },
+  "before_recipes": [
+    {
+      "id": 2371,
+      "name": "Wayfarer Cookie",
+      "tradeskill": 60,
+      "skillneeded": 0,
+      "trivial": 46,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": null,
+      "must_learn": 2,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": -1,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    }
+  ],
+  "after_recipes": [
+    {
+      "id": 2371,
+      "name": "Wayfarer Cookie",
+      "tradeskill": 60,
+      "skillneeded": 0,
+      "trivial": 46,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": null,
+      "must_learn": 2,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": -1,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    }
+  ],
+  "before_entries": [
+    {
+      "id": 17769,
+      "recipe_id": 2371,
+      "item_id": 58065,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 2,
+      "salvagecount": 2,
+      "iscontainer": 0
+    },
+    {
+      "id": 17770,
+      "recipe_id": 2371,
+      "item_id": 58138,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 17771,
+      "recipe_id": 2371,
+      "item_id": 58211,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 17772,
+      "recipe_id": 2371,
+      "item_id": 58182,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 17773,
+      "recipe_id": 2371,
+      "item_id": 15,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 17774,
+      "recipe_id": 2371,
+      "item_id": 17164,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 17775,
+      "recipe_id": 2371,
+      "item_id": 17947,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    }
+  ],
+  "after_entries": [
+    {
+      "id": 17769,
+      "recipe_id": 2371,
+      "item_id": 58065,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 17770,
+      "recipe_id": 2371,
+      "item_id": 58138,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 17771,
+      "recipe_id": 2371,
+      "item_id": 58211,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 17772,
+      "recipe_id": 2371,
+      "item_id": 58182,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 17773,
+      "recipe_id": 2371,
+      "item_id": 15,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 17774,
+      "recipe_id": 2371,
+      "item_id": 17164,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 17775,
+      "recipe_id": 2371,
+      "item_id": 17947,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    }
+  ],
+  "added_entries": [],
+  "recipes": [],
+  "entries": [],
+  "unchanged_prototype_recipes": [],
+  "unchanged_prototype_entries": [],
+  "item_dependencies": [
+    {
+      "id": 13419,
+      "name": "Vegetables"
+    },
+    {
+      "id": 13427,
+      "name": "Jug of Sauces"
+    },
+    {
+      "id": 13430,
+      "name": "Skewers"
+    },
+    {
+      "id": 58065,
+      "name": "Pinch of Sugar"
+    },
+    {
+      "id": 58138,
+      "name": "Small Sack of Taelosian Wheat Flour"
+    },
+    {
+      "id": 58182,
+      "name": "Wayfarer Cookie"
+    },
+    {
+      "id": 58211,
+      "name": "Wayfarer Spice"
+    },
+    {
+      "id": 58475,
+      "name": "Spiced Cragbeast Meat"
+    },
+    {
+      "id": 58496,
+      "name": "Spiced Cragbeast Kabobs"
+    },
+    {
+      "id": 96763,
+      "name": "Taelosian Cherry Pie"
+    },
+    {
+      "id": 96771,
+      "name": "Taelosian Wildberry Mountain Pie"
+    },
+    {
+      "id": 96783,
+      "name": "Slice of Taelosian Cherry Pie"
+    },
+    {
+      "id": 96791,
+      "name": "Slice of Taelosian Wildberry Mountain Pie"
+    }
+  ],
+  "source_facts": [
+    {
+      "source_view_id": 16802,
+      "recipe_id": 2371,
+      "source_name": "Wayfarer Cookie",
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=228&rsa=Baking&sub=GoD",
+      "source_formula": "Components: Pinch of Sugar, Small Sack of Taelosian Wheat Flour, Wayfarer Spice\nIn: Spit (Portable), Oven, Tanaan Oven, Oven (Placeable), Guild Oven\nYield: 1\nNotes: EQRecipeID: 63918\nAbysmal Sea baking collect quest",
+      "source_input_roles": {
+        "58065": 1,
+        "58138": 1,
+        "58211": 1
+      },
+      "output_item_id": 58182,
+      "changed_entry_id": 17769,
+      "before_componentcount": 2,
+      "after_componentcount": 1,
+      "unchanged_successcount": 0,
+      "before_salvagecount": 2,
+      "after_salvagecount": 1
+    }
+  ],
+  "restriction_review": {
+    "scope": "Existing Wayfarer Cookie2371 PinchOfSugar58065 entry17769 has component2/salvage2; retained/fresh primary source uses one PinchOfSugar. Change only this existing entry component2to1 and salvage2to1. One changed entry, no new rows.",
+    "identity": "Primary13129 explicitlyEQ58182 output with Sugar58065/source13075, Flour58138/source13126, Spice58211/source11957. Full source quantities/foodYield1/trivial46 authenticated; current other two inputs/output/trivial match. No duplicate new recipe.",
+    "learning": "Existing must_learn2/book0 and every recipe definition field remain unchanged. Source AbysmalSea baking collect association is preserved as context; no inferred quest prerequisite removal, NPC supply changes, output suppression or taskcredit. Existing recipe learning/access and station availability are not independently claimed correct by this ingredient-only correction.",
+    "preservation": "One full recipe header and seven existing entries/IDs exactly guarded before/after;13current native item dependencies guarded. Only one entry two quantity fields change. Success/failure counts, other ingredients, all three old container bindings, gates/expansion/content flags and learned references preserved. Corrected all-state/all-skill fullinput uniqueness and food output-use universe guarded.",
+    "historical": "Positive maintained GoD manufacturing family source reconciliation, exact immutable May2013 per-field quantities not independently authenticated. Existing min/max expansion header remains unchanged.",
+    "execution": "Source only pending publication and exact SQL GO, sequential after216. Exact guarded inverse supplied, never automatically invoked. No new rows/player/item/core/quest edits/tests/rehearsal/build/runtime/native combine or quest acceptance. Overall coverage incomplete."
+  },
+  "source_urls": [
+    "https://www.eqtraders.com/recipes/recipe_page.php?article=228&rsa=Baking&sub=GoD"
+  ],
+  "supplemental_primary_identity_sources": [
+    {
+      "source_url": "https://www.eqtraders.com/items/show_item.php?item=57949",
+      "source_item_id": 57949,
+      "native_item_id": 96783,
+      "observed_primary_title": "EQTC - Item: Slice of Taelosian Cherry Pie"
+    },
+    {
+      "source_url": "https://www.eqtraders.com/items/show_item.php?item=69789",
+      "source_item_id": 69789,
+      "native_item_id": 96791,
+      "observed_primary_title": "EQTC - Item: Slice of Taelosian Wildberry Mountain Pie"
+    },
+    {
+      "source_url": "https://www.eqtraders.com/items/show_item.php?item=10609",
+      "source_item_id": 10609,
+      "native_item_id": 58496,
+      "observed_primary_title": "EQTC - Item: Spiced Cragbeast Kabobs"
+    },
+    {
+      "source_url": "https://www.eqtraders.com/items/show_item.php?item=10610",
+      "source_item_id": 10610,
+      "native_item_id": 58475,
+      "observed_primary_title": "EQTC - Item: Spiced Cragbeast Meat"
+    },
+    {
+      "source_url": "https://www.eqtraders.com/items/show_item.php?item=13129",
+      "source_item_id": 13129,
+      "native_item_id": 58182,
+      "observed_primary_title": "EQTC - Item: Wayfarer Cookie"
+    },
+    {
+      "source_url": "https://www.eqtraders.com/items/show_item.php?item=13075",
+      "source_item_id": 13075,
+      "native_item_id": 58065,
+      "observed_primary_title": "EQTC - Item: Pinch of Sugar"
+    },
+    {
+      "source_url": "https://www.eqtraders.com/items/show_item.php?item=13126",
+      "source_item_id": 13126,
+      "native_item_id": 58138,
+      "observed_primary_title": "EQTC - Item: Small Sack of Taelosian Wheat Flour"
+    },
+    {
+      "source_url": "https://www.eqtraders.com/items/show_item.php?item=11957",
+      "source_item_id": 11957,
+      "native_item_id": 58211,
+      "observed_primary_title": "EQTC - Item: Wayfarer Spice"
+    }
+  ],
+  "migration_dependencies": [],
+  "held_source_rows": [],
+  "source_revision": 2,
+  "source_revision_scope": "Only schema column expectation corrected7to8; exact seven affected entries, one changed row/two quantity fields and all recipe data unchanged"
+}
