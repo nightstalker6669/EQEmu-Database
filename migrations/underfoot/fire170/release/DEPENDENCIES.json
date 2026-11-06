@@ -1,0 +1,39 @@
+{
+  "code_publication_manifest_sha256": "043ebcb1eedcb1a8b9ef98005c84d78707af075029ef8d44fe06b9853aeff223",
+  "target_source_sha256": "f365ac248c1a6dac1ec7e4a589dedc780826fa2f4dcaaf8d93d9d1e534a02c2a",
+  "coordinate_correction_sha256": "5efa8abb2e4b4928c9503d50d3fbf206d66d0e83f73b32244f17479c7ce5b3b0",
+  "native_repository_defaults_sha256": {
+    "spawn2": "2afa89f4fb6c88042c24930cb7be32f315b0c01f23da96ad07fda297ae080567",
+    "spawngroup": "36d1e915642c87998c9f100abdf18666cb9340374b32118d2b57e70be0c1e0ef",
+    "spawnentry": "a033e7264d10707a6413d81177474a31dfbb044a2691d673d508c76cfe6cae11",
+    "doors": "b1daab72715328fec7408ed85e666f9bc853155325c8c7b6656528d356390d88"
+  },
+  "selected_geometry_manifest_sha256": "525b8955ca11e66a4151209ecf69a3395eed2e6f5c7e40b58fa7976ca6a2f525",
+  "selected_catalogue_sha256": "da0a89a3c33b7ba2fbd3e85a61729320b0fb6002c579f901d415ecc247b5b414",
+  "disabled_foundation_DDL": {
+    "001_fire_construct_death_receipts.sql.disabled": "9c356500d9a49ba52b56e998547af61d8c739901bc6daabccc91e144d6e98c7a",
+    "001_fire_run_actions.sql.disabled": "6773ddfe0c464681eceacc0214600074c3b4d3bb04b2f386d2140fef2082718b",
+    "002_fire_run_item_origins.sql.disabled": "34fb9a34f38514b28d6f4ab5c55440933aa092963494a198fdfd9d5347a732e3"
+  },
+  "held_gameplay_qualifications": [
+    "Map-derived LOCAL geometry/profile gates are source/compile evidence, not native collision/animation/pathing/combat acceptance.",
+    "Guardian native runspeed0 derives permarooted; exact period rampage/cast mechanics and effective scaling remain qualified.",
+    "Selected LOCAL terminal ordering/access/one equal gear draw/expiry cap remain reconstruction. Offline reward catchup depends actual native task reconnect state."
+  ],
+  "coordinates": {
+    "compass_return": [
+      -12,
+      666,
+      21.125
+    ],
+    "return_h": 248,
+    "mission_entry": [
+      0,
+      0,
+      -22.2495,
+      0
+    ],
+    "qualification": "Compass/return from retained static world Gotonur; mission entry LOCAL mapfloor+nativeoffset before early drops/innergate; no native landing acceptance."
+  },
+  "scope": "Foundation DDL remains a separate exact installation dependency. This helper emits no DDL, migration registration, persistent chest or conditions."
+}

@@ -1,0 +1,47 @@
+-- SOURCE ONLY. Exact Database-owner review/GO required; never executed here.
+-- Finite14 nonstackable one-unit Fire170 materials only. Seal UUID is native
+-- custom_data rof2.fire170.origin.v1; runtime serial is audit, not durable GUID.
+CREATE TABLE rof2_fire_run_item_origins (
+ token BINARY(16) NOT NULL,
+ shared_task_id BIGINT UNSIGNED NOT NULL,
+ item_id INT UNSIGNED NOT NULL,
+ origin_kind TINYINT UNSIGNED NOT NULL,
+ state TINYINT UNSIGNED NOT NULL,
+ producer_character_id INT UNSIGNED NOT NULL,
+ producer_local_occurrence BIGINT UNSIGNED NOT NULL,
+ producer_accepted_time INT UNSIGNED NOT NULL,
+ producer_native_sequence BIGINT UNSIGNED NOT NULL,
+ source_death_sequence BIGINT UNSIGNED NULL,
+ source_npc_type_id INT UNSIGNED NULL,
+ source_corpse_entity_id INT UNSIGNED NULL,
+ source_loot_slot SMALLINT NULL,
+ native_item_serial INT NOT NULL,
+ native_item_slot SMALLINT NOT NULL,
+ created_at BIGINT UNSIGNED NOT NULL,
+ published_at BIGINT UNSIGNED NULL,
+ consumed_at BIGINT UNSIGNED NULL,
+ consumed_action_id BIGINT UNSIGNED NULL,
+ consumed_output_token BINARY(16) NULL,
+ consumed_by_character_id INT UNSIGNED NULL,
+ PRIMARY KEY(token),
+ KEY finite_run_item(shared_task_id,item_id,state),
+ CONSTRAINT fire_origin_item CHECK(item_id IN(47748,47749,47750,47751,47752,47753,47754,47755,47756,47757,47758,47760,47761,47762)),
+ CONSTRAINT fire_origin_kind CHECK(origin_kind IN(1,2,3)),
+ CONSTRAINT fire_origin_state CHECK(state IN(0,1,2))
+) ENGINE=InnoDB;
+-- Kind1 actual original loot,2 original clay transform,3 original golem transform.
+-- State0 transform pending memory publication,1 positively published,2 consumed.
+-- Transform inserts0 plus consumes exact input seals in SAME strict inventory
+-- transaction; only known COMMIT + actual memory publication can publish1.
+-- Loot publishes1 only from private genuine positive native Save + corpse removal.
+-- No creator==holder requirement: current-holder native root snapshots and
+-- exact physical seals plus published same-run rows authorize use/transfer.
+-- Retained mission VaultKey stays1; other material origins atomically consume2
+-- with their inventory debit and, where relevant, finite run-action latch.
+-- Unsealed/foreign-run/pending/consumed items reject before spend. No backfill,
+-- tokenless lookup, item-ID/history factory, automatic retry/refund or regrant.
+-- World47759 deliberately excluded: separate reusable physical permanent key.
+
+-- Mold47758 origin1 additionally requires same genuine Guardian custody row,
+-- sourceDeathSequence/NPC/corpse concordance;its original trade consumes to
+-- SAME kind6 action ID,never a generic delivery or second reward path.

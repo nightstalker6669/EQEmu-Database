@@ -1,0 +1,27 @@
+{
+  "authorization": "NOT_AUTHORIZED_TEMPLATE_ONLY",
+  "phase": "stage",
+  "manifest_sha256": "EXACT_FINAL_MANIFEST_SHA256_REQUIRED",
+  "source_publication_commit": "EXACT_40_CHARACTER_PUBLICATION_COMMIT_REQUIRED",
+  "admission_held": false,
+  "owned_consumers_quiesced": false,
+  "matched_code_install_receipt": {
+    "path": "REQUIRED_FOR_ACTIVATION",
+    "sha256": "EXACT_SHA256"
+  },
+  "matched_cache_refresh_receipt": {
+    "path": "REQUIRED_FOR_ACTIVATION",
+    "sha256": "EXACT_SHA256"
+  },
+  "foundation_install_receipt": {
+    "path": "REQUIRED_FOR_ACTIVATION",
+    "sha256": "EXACT_SHA256"
+  },
+  "config_sha256": "EXACT_LOCAL_CONFIG_SHA256",
+  "expected_database_identity": {
+    "schema_name": "EXACT_SCHEMA",
+    "server_hostname": "EXACT_SERVER_HOSTNAME",
+    "server_id": 0,
+    "server_port": 3306
+  }
+}

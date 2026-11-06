@@ -1,0 +1,32 @@
+-- SOURCE ONLY. Apply through Database owner after exact migration review.
+-- No backfill from generic activity counters or historical reward rows.
+CREATE TABLE rof2_fire_construct_death_receipts (
+ character_id INT UNSIGNED NOT NULL,
+ task_id INT UNSIGNED NOT NULL,
+ occurrence_id BIGINT UNSIGNED NOT NULL,
+ accepted_time INT NOT NULL,
+ accepted_slot INT NOT NULL,
+ creator_character_id INT UNSIGNED NOT NULL,
+ creator_task_id INT UNSIGNED NOT NULL,
+ creator_occurrence_id BIGINT UNSIGNED NOT NULL,
+ creator_accepted_time INT NOT NULL,
+ creator_accepted_slot INT NOT NULL,
+ native_click_sequence BIGINT UNSIGNED NOT NULL,
+ original_item_id INT UNSIGNED NOT NULL,
+ original_item_serial INT NOT NULL,
+ original_item_slot SMALLINT NOT NULL,
+ original_charges SMALLINT NOT NULL,
+ original_caster_entity INT UNSIGNED NOT NULL,
+ original_target_entity INT UNSIGNED NOT NULL,
+ construct_npc_id INT UNSIGNED NOT NULL,
+ construct_entity_id INT UNSIGNED NOT NULL,
+ construct_spawn_id INT UNSIGNED NOT NULL,
+ construct_zone_id INT UNSIGNED NOT NULL,
+ construct_instance_id INT UNSIGNED NOT NULL,
+ saved_at BIGINT UNSIGNED NOT NULL,
+ claimed_at BIGINT UNSIGNED NULL,
+ PRIMARY KEY (character_id,task_id,occurrence_id)
+) ENGINE=InnoDB;
+-- Intentionally no IF NOT EXISTS, REPLACE, IGNORE, upsert, foreign-key cascade,
+-- player update, automatic pruning or destructive down migration. Preexisting
+-- table/schema requires an exact owner review, never silent compatibility.

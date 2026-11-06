@@ -1,0 +1,591 @@
+{
+  "rof2_fire_construct_death_receipts": {
+    "source_file": "001_fire_construct_death_receipts.sql.disabled",
+    "source_sha256": "9c356500d9a49ba52b56e998547af61d8c739901bc6daabccc91e144d6e98c7a",
+    "columns": [
+      {
+        "name": "character_id",
+        "type": "int unsigned",
+        "nullable": "NO",
+        "default": null,
+        "extra": ""
+      },
+      {
+        "name": "task_id",
+        "type": "int unsigned",
+        "nullable": "NO",
+        "default": null,
+        "extra": ""
+      },
+      {
+        "name": "occurrence_id",
+        "type": "bigint unsigned",
+        "nullable": "NO",
+        "default": null,
+        "extra": ""
+      },
+      {
+        "name": "accepted_time",
+        "type": "int",
+        "nullable": "NO",
+        "default": null,
+        "extra": ""
+      },
+      {
+        "name": "accepted_slot",
+        "type": "int",
+        "nullable": "NO",
+        "default": null,
+        "extra": ""
+      },
+      {
+        "name": "creator_character_id",
+        "type": "int unsigned",
+        "nullable": "NO",
+        "default": null,
+        "extra": ""
+      },
+      {
+        "name": "creator_task_id",
+        "type": "int unsigned",
+        "nullable": "NO",
+        "default": null,
+        "extra": ""
+      },
+      {
+        "name": "creator_occurrence_id",
+        "type": "bigint unsigned",
+        "nullable": "NO",
+        "default": null,
+        "extra": ""
+      },
+      {
+        "name": "creator_accepted_time",
+        "type": "int",
+        "nullable": "NO",
+        "default": null,
+        "extra": ""
+      },
+      {
+        "name": "creator_accepted_slot",
+        "type": "int",
+        "nullable": "NO",
+        "default": null,
+        "extra": ""
+      },
+      {
+        "name": "native_click_sequence",
+        "type": "bigint unsigned",
+        "nullable": "NO",
+        "default": null,
+        "extra": ""
+      },
+      {
+        "name": "original_item_id",
+        "type": "int unsigned",
+        "nullable": "NO",
+        "default": null,
+        "extra": ""
+      },
+      {
+        "name": "original_item_serial",
+        "type": "int",
+        "nullable": "NO",
+        "default": null,
+        "extra": ""
+      },
+      {
+        "name": "original_item_slot",
+        "type": "smallint",
+        "nullable": "NO",
+        "default": null,
+        "extra": ""
+      },
+      {
+        "name": "original_charges",
+        "type": "smallint",
+        "nullable": "NO",
+        "default": null,
+        "extra": ""
+      },
+      {
+        "name": "original_caster_entity",
+        "type": "int unsigned",
+        "nullable": "NO",
+        "default": null,
+        "extra": ""
+      },
+      {
+        "name": "original_target_entity",
+        "type": "int unsigned",
+        "nullable": "NO",
+        "default": null,
+        "extra": ""
+      },
+      {
+        "name": "construct_npc_id",
+        "type": "int unsigned",
+        "nullable": "NO",
+        "default": null,
+        "extra": ""
+      },
+      {
+        "name": "construct_entity_id",
+        "type": "int unsigned",
+        "nullable": "NO",
+        "default": null,
+        "extra": ""
+      },
+      {
+        "name": "construct_spawn_id",
+        "type": "int unsigned",
+        "nullable": "NO",
+        "default": null,
+        "extra": ""
+      },
+      {
+        "name": "construct_zone_id",
+        "type": "int unsigned",
+        "nullable": "NO",
+        "default": null,
+        "extra": ""
+      },
+      {
+        "name": "construct_instance_id",
+        "type": "int unsigned",
+        "nullable": "NO",
+        "default": null,
+        "extra": ""
+      },
+      {
+        "name": "saved_at",
+        "type": "bigint unsigned",
+        "nullable": "NO",
+        "default": null,
+        "extra": ""
+      },
+      {
+        "name": "claimed_at",
+        "type": "bigint unsigned",
+        "nullable": "YES",
+        "default": null,
+        "extra": ""
+      }
+    ],
+    "indexes": {
+      "PRIMARY": {
+        "unique": true,
+        "columns": [
+          "character_id",
+          "task_id",
+          "occurrence_id"
+        ]
+      }
+    },
+    "checks": {}
+  },
+  "rof2_fire_run_actions": {
+    "source_file": "001_fire_run_actions.sql.disabled",
+    "source_sha256": "6773ddfe0c464681eceacc0214600074c3b4d3bb04b2f386d2140fef2082718b",
+    "columns": [
+      {
+        "name": "id",
+        "type": "bigint unsigned",
+        "nullable": "NO",
+        "default": null,
+        "extra": "auto_increment"
+      },
+      {
+        "name": "shared_task_id",
+        "type": "bigint unsigned",
+        "nullable": "NO",
+        "default": null,
+        "extra": ""
+      },
+      {
+        "name": "action_kind",
+        "type": "tinyint unsigned",
+        "nullable": "NO",
+        "default": null,
+        "extra": ""
+      },
+      {
+        "name": "creator_character_id",
+        "type": "int unsigned",
+        "nullable": "NO",
+        "default": null,
+        "extra": ""
+      },
+      {
+        "name": "creator_local_occurrence",
+        "type": "bigint unsigned",
+        "nullable": "NO",
+        "default": null,
+        "extra": ""
+      },
+      {
+        "name": "creator_accepted_time",
+        "type": "int unsigned",
+        "nullable": "NO",
+        "default": null,
+        "extra": ""
+      },
+      {
+        "name": "native_sequence",
+        "type": "bigint unsigned",
+        "nullable": "NO",
+        "default": null,
+        "extra": ""
+      },
+      {
+        "name": "dynamic_zone_id",
+        "type": "int unsigned",
+        "nullable": "NO",
+        "default": null,
+        "extra": ""
+      },
+      {
+        "name": "zone_id",
+        "type": "int unsigned",
+        "nullable": "NO",
+        "default": null,
+        "extra": ""
+      },
+      {
+        "name": "instance_id",
+        "type": "int unsigned",
+        "nullable": "NO",
+        "default": null,
+        "extra": ""
+      },
+      {
+        "name": "source_role",
+        "type": "tinyint unsigned",
+        "nullable": "NO",
+        "default": null,
+        "extra": ""
+      },
+      {
+        "name": "source_door_sql_id",
+        "type": "int unsigned",
+        "nullable": "YES",
+        "default": null,
+        "extra": ""
+      },
+      {
+        "name": "source_door_packet_id",
+        "type": "tinyint unsigned",
+        "nullable": "YES",
+        "default": null,
+        "extra": ""
+      },
+      {
+        "name": "source_item_id",
+        "type": "int unsigned",
+        "nullable": "YES",
+        "default": null,
+        "extra": ""
+      },
+      {
+        "name": "source_origin_token",
+        "type": "binary(16)",
+        "nullable": "YES",
+        "default": null,
+        "extra": ""
+      },
+      {
+        "name": "source_item_serial",
+        "type": "int",
+        "nullable": "YES",
+        "default": null,
+        "extra": ""
+      },
+      {
+        "name": "source_item_slot",
+        "type": "smallint",
+        "nullable": "YES",
+        "default": null,
+        "extra": ""
+      },
+      {
+        "name": "source_item_charges",
+        "type": "smallint",
+        "nullable": "YES",
+        "default": null,
+        "extra": ""
+      },
+      {
+        "name": "inventory_debit_committed",
+        "type": "tinyint unsigned",
+        "nullable": "NO",
+        "default": null,
+        "extra": ""
+      },
+      {
+        "name": "state",
+        "type": "tinyint unsigned",
+        "nullable": "NO",
+        "default": "0",
+        "extra": ""
+      },
+      {
+        "name": "published_role_mask",
+        "type": "tinyint unsigned",
+        "nullable": "NO",
+        "default": "0",
+        "extra": ""
+      },
+      {
+        "name": "helper_entity_id",
+        "type": "int unsigned",
+        "nullable": "YES",
+        "default": null,
+        "extra": ""
+      },
+      {
+        "name": "committed_at",
+        "type": "bigint unsigned",
+        "nullable": "NO",
+        "default": null,
+        "extra": ""
+      },
+      {
+        "name": "native_published_at",
+        "type": "bigint unsigned",
+        "nullable": "YES",
+        "default": null,
+        "extra": ""
+      },
+      {
+        "name": "terminal_at",
+        "type": "bigint unsigned",
+        "nullable": "YES",
+        "default": null,
+        "extra": ""
+      },
+      {
+        "name": "guardian_death_snapshot",
+        "type": "mediumtext",
+        "nullable": "YES",
+        "default": null,
+        "extra": ""
+      },
+      {
+        "name": "terminal_actor_entity_id",
+        "type": "int unsigned",
+        "nullable": "YES",
+        "default": null,
+        "extra": ""
+      },
+      {
+        "name": "terminal_corpse_entity_id",
+        "type": "int unsigned",
+        "nullable": "YES",
+        "default": null,
+        "extra": ""
+      },
+      {
+        "name": "accepted_member_snapshot",
+        "type": "mediumtext",
+        "nullable": "YES",
+        "default": null,
+        "extra": ""
+      }
+    ],
+    "indexes": {
+      "PRIMARY": {
+        "unique": true,
+        "columns": [
+          "id"
+        ]
+      },
+      "one_action_per_run": {
+        "unique": true,
+        "columns": [
+          "shared_task_id",
+          "action_kind"
+        ]
+      }
+    },
+    "checks": {
+      "fire_run_action_kind": "action_kind IN (1,2,3,4,6)",
+      "fire_run_action_state": "state IN (0,1,2,3)",
+      "fire_run_action_debit": "inventory_debit_committed IN (0,1)",
+      "fire_run_actual_item": "(action_kind=6 AND inventory_debit_committed=0 AND source_item_id IS NULL AND source_origin_token IS NULL AND source_item_serial IS NULL AND source_item_slot IS NULL AND source_item_charges IS NULL) OR ((action_kind IN(1,2,3,4) OR (action_kind=6 AND inventory_debit_committed=1)) AND source_item_id IS NOT NULL AND source_origin_token IS NOT NULL AND source_item_serial IS NOT NULL AND source_item_slot IS NOT NULL AND source_item_charges IS NOT NULL)"
+    }
+  },
+  "rof2_fire_run_item_origins": {
+    "source_file": "002_fire_run_item_origins.sql.disabled",
+    "source_sha256": "34fb9a34f38514b28d6f4ab5c55440933aa092963494a198fdfd9d5347a732e3",
+    "columns": [
+      {
+        "name": "token",
+        "type": "binary(16)",
+        "nullable": "NO",
+        "default": null,
+        "extra": ""
+      },
+      {
+        "name": "shared_task_id",
+        "type": "bigint unsigned",
+        "nullable": "NO",
+        "default": null,
+        "extra": ""
+      },
+      {
+        "name": "item_id",
+        "type": "int unsigned",
+        "nullable": "NO",
+        "default": null,
+        "extra": ""
+      },
+      {
+        "name": "origin_kind",
+        "type": "tinyint unsigned",
+        "nullable": "NO",
+        "default": null,
+        "extra": ""
+      },
+      {
+        "name": "state",
+        "type": "tinyint unsigned",
+        "nullable": "NO",
+        "default": null,
+        "extra": ""
+      },
+      {
+        "name": "producer_character_id",
+        "type": "int unsigned",
+        "nullable": "NO",
+        "default": null,
+        "extra": ""
+      },
+      {
+        "name": "producer_local_occurrence",
+        "type": "bigint unsigned",
+        "nullable": "NO",
+        "default": null,
+        "extra": ""
+      },
+      {
+        "name": "producer_accepted_time",
+        "type": "int unsigned",
+        "nullable": "NO",
+        "default": null,
+        "extra": ""
+      },
+      {
+        "name": "producer_native_sequence",
+        "type": "bigint unsigned",
+        "nullable": "NO",
+        "default": null,
+        "extra": ""
+      },
+      {
+        "name": "source_death_sequence",
+        "type": "bigint unsigned",
+        "nullable": "YES",
+        "default": null,
+        "extra": ""
+      },
+      {
+        "name": "source_npc_type_id",
+        "type": "int unsigned",
+        "nullable": "YES",
+        "default": null,
+        "extra": ""
+      },
+      {
+        "name": "source_corpse_entity_id",
+        "type": "int unsigned",
+        "nullable": "YES",
+        "default": null,
+        "extra": ""
+      },
+      {
+        "name": "source_loot_slot",
+        "type": "smallint",
+        "nullable": "YES",
+        "default": null,
+        "extra": ""
+      },
+      {
+        "name": "native_item_serial",
+        "type": "int",
+        "nullable": "NO",
+        "default": null,
+        "extra": ""
+      },
+      {
+        "name": "native_item_slot",
+        "type": "smallint",
+        "nullable": "NO",
+        "default": null,
+        "extra": ""
+      },
+      {
+        "name": "created_at",
+        "type": "bigint unsigned",
+        "nullable": "NO",
+        "default": null,
+        "extra": ""
+      },
+      {
+        "name": "published_at",
+        "type": "bigint unsigned",
+        "nullable": "YES",
+        "default": null,
+        "extra": ""
+      },
+      {
+        "name": "consumed_at",
+        "type": "bigint unsigned",
+        "nullable": "YES",
+        "default": null,
+        "extra": ""
+      },
+      {
+        "name": "consumed_action_id",
+        "type": "bigint unsigned",
+        "nullable": "YES",
+        "default": null,
+        "extra": ""
+      },
+      {
+        "name": "consumed_output_token",
+        "type": "binary(16)",
+        "nullable": "YES",
+        "default": null,
+        "extra": ""
+      },
+      {
+        "name": "consumed_by_character_id",
+        "type": "int unsigned",
+        "nullable": "YES",
+        "default": null,
+        "extra": ""
+      }
+    ],
+    "indexes": {
+      "PRIMARY": {
+        "unique": true,
+        "columns": [
+          "token"
+        ]
+      },
+      "finite_run_item": {
+        "unique": false,
+        "columns": [
+          "shared_task_id",
+          "item_id",
+          "state"
+        ]
+      }
+    },
+    "checks": {
+      "fire_origin_item": "item_id IN(47748,47749,47750,47751,47752,47753,47754,47755,47756,47757,47758,47760,47761,47762)",
+      "fire_origin_kind": "origin_kind IN(1,2,3)",
+      "fire_origin_state": "state IN(0,1,2)"
+    }
+  }
+}

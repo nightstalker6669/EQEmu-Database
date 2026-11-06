@@ -1,0 +1,15 @@
+# Fire170 exact data release helper source
+
+No SQL writes, activation, build, runtime actions, or tests were performed. The read-only capture contains the actual modified serving schema and empty owned namespaces, not a pristine PEQ baseline.
+
+`release.py` implements four separately authorized phases: stage, activate, rollback_activation, rollback_stage. Without `--execute` it only prints an offline description and opens no database connection. An execution requires a separately supplied, hash-bound coordinator authority, exact final helper manifest, publication commit and an exclusive fresh receipt directory. Each authority is consumed once; failures stop without retry or automatic inverse.
+
+Staging inserts exactly254full rows across17tables, with30task/reward enable flags0. Selected LOCAL respawn21601 seconds, variance0, group spawn_limit1. Thirty spawn2 rows have no enabled column. A real external admission hold and quiesced 490/version1 consumers are mandatory throughout the data window. The helper checks the actual instance/shared-task/character-task namespace and refuses any saved spawn state or Fire custody/history. It never invents disabled/condition rows.
+
+Activation additionally requires exact installed code, cache and foundation receipts. It changes only30enable flags and five selected fields of the full-preimage-guarded world Font door35650/native7/version0. No existing world NPC/spawn or spell/item/player rows are changed. No persistent chest or new conditions exist in this allowlist. Foundation DDL is separately owned and never executed by this helper.
+
+Each mutation runs under one transaction/advisory lock with schema/PK/engine/preimage checks and durable backup; a fresh independent read-only connection verifies complete postimages before a terminal receipt. Recovery phases require their own authority and exact postimages, and refuse player/custody/history use. Preserve all receipts on uncertain commits.
+
+The eleven DZ coordinates are explicit selected source values: compass/return(-12,666,21.125),return heading248 from retained static world Gotonur; LOCAL entry(0,0,-22.2495,h0) before early drops/innergate. override_zone_in1 retained. Mapfloor/nativeoffset reconstruction has no native landing acceptance.
+
+Execution requires --config and --config-sha256, plus exact schema/host/server-id/port identity and the same config hash in coordinator authority. Private configuration is excluded. Python3 and PyMySQL required. SOURCE-HELPER-MANIFEST.json pins this package; supply its exact SHA in separate one-use authority. The authority template grants no permission. Mutable authority-consumption markers and receipts must remain with this exact helper installation. The required external admission hold must outlive all data/cache work; a DB advisory lock cannot prevent native admission by itself.

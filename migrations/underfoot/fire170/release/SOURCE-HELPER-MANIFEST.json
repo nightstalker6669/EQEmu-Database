@@ -1,0 +1,51 @@
+{
+  "status": "PREPARED_NOT_APPLIED_REQUIRES_SEPARATE_AUTHORITY",
+  "identity": "fire170-254row-staging-activation-recovery",
+  "files": {
+    "AUTHORITY-TEMPLATE.json": {
+      "sha256": "de23571ad5bffe6c905a4a52a3be1b0f766a6b8e649fad55bb8fda47a933291c",
+      "bytes": 820
+    },
+    "DEPENDENCIES.json": {
+      "sha256": "dc097c691ab6c548ebf021c4cde913e2590ddc2946f30181898d842574ee10ca",
+      "bytes": 2264
+    },
+    "README.md": {
+      "sha256": "bf843a35d78b4954c618a4084695a7d2d102ce3a3de0315eb5b934edc1a13434",
+      "bytes": 2850
+    },
+    "fire170_db.py": {
+      "sha256": "76df4478d4119223c65a78a392593b46cd27190084dbe12a7107b205d45b0ad5",
+      "bytes": 1979
+    },
+    "release.py": {
+      "sha256": "fa7761bdc7ab12d9a510ac0e8196c1c3ebdf9a19e69f5538b749619c9b5e61ce",
+      "bytes": 11974
+    },
+    "schema-contract.json": {
+      "sha256": "a86700d79acf045d3bc135c634a061421f820ff8d43c2d3035b3fd2d00e74e65",
+      "bytes": 131404
+    },
+    "target-rows.json": {
+      "sha256": "54a9f594a79c5859eeb69eeb9ba41798902f2bc2e86deff9f38b0f1483d30f32",
+      "bytes": 181754
+    }
+  },
+  "counts": {
+    "insert_rows": 254,
+    "insert_tables": 17,
+    "staged_enable_flags_zero": 30,
+    "activation_flags": 30,
+    "activation_existing_world_rows": 1,
+    "persistent_chest_spawns": 0,
+    "new_conditions": 0
+  },
+  "LOCAL_policy": {
+    "respawntime": 21601,
+    "variance": 0,
+    "group_spawn_limit": 1
+  },
+  "namespace": "490/version1 must have no active/pending consumers at future staging; coordinator must hold real admission and quiesce consumers. No spawn2 enabled column.",
+  "execution": "No apply, DDL, runtime, tests or build performed. Exact separate stage/activation/recovery authority required. No automatic retry/inverse.",
+  "native_acceptance": false
+}

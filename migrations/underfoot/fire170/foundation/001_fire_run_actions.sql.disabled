@@ -1,0 +1,59 @@
+-- SOURCE ONLY. Not applied. Exact Database-owner schema review/GO required.
+-- Finite Fire170 run/action custody ledger; no history/backfill/replay factory.
+-- Native inventory debits and the first action insert share ONE strict transaction.
+CREATE TABLE rof2_fire_run_actions (
+ id BIGINT UNSIGNED NOT NULL AUTO_INCREMENT,
+ shared_task_id BIGINT UNSIGNED NOT NULL,
+ action_kind TINYINT UNSIGNED NOT NULL,
+ creator_character_id INT UNSIGNED NOT NULL,
+ creator_local_occurrence BIGINT UNSIGNED NOT NULL,
+ creator_accepted_time INT UNSIGNED NOT NULL,
+ native_sequence BIGINT UNSIGNED NOT NULL,
+ dynamic_zone_id INT UNSIGNED NOT NULL,
+ zone_id INT UNSIGNED NOT NULL,
+ instance_id INT UNSIGNED NOT NULL,
+ source_role TINYINT UNSIGNED NOT NULL,
+ source_door_sql_id INT UNSIGNED NULL,
+ source_door_packet_id TINYINT UNSIGNED NULL,
+ source_item_id INT UNSIGNED NULL,
+ source_origin_token BINARY(16) NULL,
+ source_item_serial INT NULL,
+ source_item_slot SMALLINT NULL,
+ source_item_charges SMALLINT NULL,
+ inventory_debit_committed TINYINT UNSIGNED NOT NULL,
+ state TINYINT UNSIGNED NOT NULL DEFAULT 0,
+ published_role_mask TINYINT UNSIGNED NOT NULL DEFAULT 0,
+ helper_entity_id INT UNSIGNED NULL,
+ committed_at BIGINT UNSIGNED NOT NULL,
+ native_published_at BIGINT UNSIGNED NULL,
+ terminal_at BIGINT UNSIGNED NULL,
+ guardian_death_snapshot MEDIUMTEXT NULL,
+ terminal_actor_entity_id INT UNSIGNED NULL,
+ terminal_corpse_entity_id INT UNSIGNED NULL,
+ accepted_member_snapshot MEDIUMTEXT NULL,
+ PRIMARY KEY (id),
+ UNIQUE KEY one_action_per_run (shared_task_id,action_kind),
+ CONSTRAINT fire_run_action_kind CHECK (action_kind IN (1,2,3,4,6)),
+ CONSTRAINT fire_run_action_state CHECK (state IN (0,1,2,3)),
+ CONSTRAINT fire_run_action_debit CHECK (inventory_debit_committed IN (0,1)),
+ CONSTRAINT fire_run_actual_item CHECK ((action_kind=6 AND inventory_debit_committed=0 AND source_item_id IS NULL AND source_origin_token IS NULL AND source_item_serial IS NULL AND source_item_slot IS NULL AND source_item_charges IS NULL) OR ((action_kind IN(1,2,3,4) OR (action_kind=6 AND inventory_debit_committed=1)) AND source_item_id IS NOT NULL AND source_origin_token IS NOT NULL AND source_item_serial IS NOT NULL AND source_item_slot IS NOT NULL AND source_item_charges IS NOT NULL))
+) ENGINE=InnoDB;
+-- Kind1 inner vault,2 paired worship,3 retained mission VaultKey,4 one helper.
+-- WorldFont reusable physical key is deliberately absent: no fake mission run,
+-- global flag, keyring state, mission credit or completion-item factory.
+-- State0 committed pending native publication,1 actual native published,
+-- 2 actual terminal completion,3 terminal hold. Pending/unknown/lost helper
+-- never retries, respawns or refunds automatically. Scene/actor IDs are audit
+-- metadata, never original object lifetime, physical GUID or replay authority.
+-- Real private native publication/arrival/barrier/dust receipts alone advance
+-- state. Persisted generic counters/history do not create such receipts.
+-- No IF NOT EXISTS, REPLACE, IGNORE, upsert, backfill, destructive inverse,
+-- foreign-key cascade, auto-prune or player/quest/item updates.
+
+-- R16 finite kind6: genuine Guardian custody first (state0/debit0,no item);
+-- same row strict one-mold return reserves one chest (state0/debit1),
+-- actual native chest registration1,positive original open/death/corpse2.
+-- Guardian snapshot immutable;creator/native sequence become actual returning
+-- holder accepted key/accept sequence at strict return. No reward delivery ledger.
+-- Initial SOURCE DDL supersedes frozen13material/R15 initial DDL only if selected
+-- by Database owner; no ALTER/serving migration/backfill authority here.

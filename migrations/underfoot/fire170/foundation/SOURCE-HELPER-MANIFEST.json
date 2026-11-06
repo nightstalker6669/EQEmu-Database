@@ -1,0 +1,51 @@
+{
+  "status": "PREPARED_SOURCE_ONLY_NOT_EXECUTED",
+  "identity": "fire170-three-table-foundation",
+  "files": {
+    "001_fire_construct_death_receipts.sql.disabled": {
+      "sha256": "9c356500d9a49ba52b56e998547af61d8c739901bc6daabccc91e144d6e98c7a",
+      "bytes": 1459
+    },
+    "001_fire_run_actions.sql.disabled": {
+      "sha256": "6773ddfe0c464681eceacc0214600074c3b4d3bb04b2f386d2140fef2082718b",
+      "bytes": 3667
+    },
+    "002_fire_run_item_origins.sql.disabled": {
+      "sha256": "34fb9a34f38514b28d6f4ab5c55440933aa092963494a198fdfd9d5347a732e3",
+      "bytes": 2640
+    },
+    "AUTHORITY-TEMPLATE.json": {
+      "sha256": "364502b02d0e660f1c85c7b8341c77808ad9503cea3d4225e40ccb60175924ad",
+      "bytes": 645
+    },
+    "README.md": {
+      "sha256": "dbd3cf94910d1a7f07c645c3acf1d067b2681e0beab3df688fb3000596a9ec14",
+      "bytes": 3148
+    },
+    "fire170_db.py": {
+      "sha256": "76df4478d4119223c65a78a392593b46cd27190084dbe12a7107b205d45b0ad5",
+      "bytes": 1979
+    },
+    "foundation.py": {
+      "sha256": "ddbca2bc97cb99976f90e596eceb6453535825466e44da5a3da04fee628de529",
+      "bytes": 12348
+    },
+    "schema-contract.json": {
+      "sha256": "18c6b96e78a42bff44743d1c9600e95fb4f3f7e93314885a7fe3825afcd851fb",
+      "bytes": 13934
+    }
+  },
+  "tables": [
+    "rof2_fire_construct_death_receipts",
+    "rof2_fire_run_actions",
+    "rof2_fire_run_item_origins"
+  ],
+  "DDL_semantics": "Per-table implicit commit; durable intent/independent completion; never claim atomic CREATE transaction.",
+  "recovery": "Separate GO; only receipt-owned positively created exact empty tables; no pre-existing/unknown/nonempty drop.",
+  "compatible_release_helper_manifest_sha256": "39d6ea9ed1e83ce28f72b43f7e67c82551935d3df9cd883669e16b6b468189cb",
+  "DBqueries": 0,
+  "DBwrites": 0,
+  "runtime": 0,
+  "tests": 0,
+  "builds": 0
+}

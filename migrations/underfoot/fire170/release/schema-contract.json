@@ -1,0 +1,4157 @@
+{
+  "tables": {
+    "tasks": {
+      "columns": [
+        {
+          "Field": "id",
+          "Type": "int(11) unsigned",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "PRI",
+          "Default": "0",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "type",
+          "Type": "tinyint(4)",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "0",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "duration",
+          "Type": "int(11) unsigned",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "0",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "duration_code",
+          "Type": "tinyint(4)",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "0",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "title",
+          "Type": "varchar(100)",
+          "Collation": "latin1_swedish_ci",
+          "Null": "NO",
+          "Key": "",
+          "Default": "",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "description",
+          "Type": "text",
+          "Collation": "latin1_swedish_ci",
+          "Null": "NO",
+          "Key": "",
+          "Default": null,
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "reward_text",
+          "Type": "varchar(64)",
+          "Collation": "latin1_swedish_ci",
+          "Null": "NO",
+          "Key": "",
+          "Default": "",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "reward_id_list",
+          "Type": "text",
+          "Collation": "latin1_swedish_ci",
+          "Null": "YES",
+          "Key": "",
+          "Default": null,
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "cash_reward",
+          "Type": "int(11) unsigned",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "0",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "exp_reward",
+          "Type": "int(10)",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "0",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "reward_method",
+          "Type": "tinyint(3) unsigned",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "0",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "reward_points",
+          "Type": "int(11)",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "0",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "reward_point_type",
+          "Type": "int(11)",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "0",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "min_level",
+          "Type": "tinyint(3) unsigned",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "0",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "max_level",
+          "Type": "tinyint(3) unsigned",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "0",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "level_spread",
+          "Type": "int(10) unsigned",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "0",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "min_players",
+          "Type": "int(10) unsigned",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "0",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "max_players",
+          "Type": "int(10) unsigned",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "0",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "repeatable",
+          "Type": "tinyint(1) unsigned",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "1",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "faction_reward",
+          "Type": "int(10)",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "0",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "completion_emote",
+          "Type": "varchar(512)",
+          "Collation": "latin1_swedish_ci",
+          "Null": "NO",
+          "Key": "",
+          "Default": "",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "replay_timer_group",
+          "Type": "int(10) unsigned",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "0",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "replay_timer_seconds",
+          "Type": "int(10) unsigned",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "0",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "request_timer_group",
+          "Type": "int(10) unsigned",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "0",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "request_timer_seconds",
+          "Type": "int(10) unsigned",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "0",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "dz_template_id",
+          "Type": "int(10) unsigned",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "0",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "lock_activity_id",
+          "Type": "int(11)",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "-1",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "faction_amount",
+          "Type": "int(10)",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "0",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "enabled",
+          "Type": "smallint(6)",
+          "Collation": null,
+          "Null": "YES",
+          "Key": "",
+          "Default": "1",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        }
+      ],
+      "primary_key": [
+        "id"
+      ],
+      "DDL": {
+        "Table": "tasks",
+        "Create Table": "CREATE TABLE `tasks` (\n  `id` int(11) unsigned NOT NULL DEFAULT 0,\n  `type` tinyint(4) NOT NULL DEFAULT 0,\n  `duration` int(11) unsigned NOT NULL DEFAULT 0,\n  `duration_code` tinyint(4) NOT NULL DEFAULT 0,\n  `title` varchar(100) NOT NULL DEFAULT '',\n  `description` text NOT NULL,\n  `reward_text` varchar(64) NOT NULL DEFAULT '',\n  `reward_id_list` text DEFAULT NULL,\n  `cash_reward` int(11) unsigned NOT NULL DEFAULT 0,\n  `exp_reward` int(10) NOT NULL DEFAULT 0,\n  `reward_method` tinyint(3) unsigned NOT NULL DEFAULT 0,\n  `reward_points` int(11) NOT NULL DEFAULT 0,\n  `reward_point_type` int(11) NOT NULL DEFAULT 0,\n  `min_level` tinyint(3) unsigned NOT NULL DEFAULT 0,\n  `max_level` tinyint(3) unsigned NOT NULL DEFAULT 0,\n  `level_spread` int(10) unsigned NOT NULL DEFAULT 0,\n  `min_players` int(10) unsigned NOT NULL DEFAULT 0,\n  `max_players` int(10) unsigned NOT NULL DEFAULT 0,\n  `repeatable` tinyint(1) unsigned NOT NULL DEFAULT 1,\n  `faction_reward` int(10) NOT NULL DEFAULT 0,\n  `completion_emote` varchar(512) NOT NULL DEFAULT '',\n  `replay_timer_group` int(10) unsigned NOT NULL DEFAULT 0,\n  `replay_timer_seconds` int(10) unsigned NOT NULL DEFAULT 0,\n  `request_timer_group` int(10) unsigned NOT NULL DEFAULT 0,\n  `request_timer_seconds` int(10) unsigned NOT NULL DEFAULT 0,\n  `dz_template_id` int(10) unsigned NOT NULL DEFAULT 0,\n  `lock_activity_id` int(11) NOT NULL DEFAULT -1,\n  `faction_amount` int(10) NOT NULL DEFAULT 0,\n  `enabled` smallint(6) DEFAULT 1,\n  PRIMARY KEY (`id`) USING BTREE\n) ENGINE=InnoDB DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci ROW_FORMAT=COMPACT"
+      },
+      "engine": "InnoDB",
+      "scope": "id BETWEEN 920167 AND 920170",
+      "preimage": []
+    },
+    "task_activities": {
+      "columns": [
+        {
+          "Field": "taskid",
+          "Type": "int(11) unsigned",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "PRI",
+          "Default": "0",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "activityid",
+          "Type": "int(11) unsigned",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "PRI",
+          "Default": "0",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "req_activity_id",
+          "Type": "int(11)",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "-1",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "step",
+          "Type": "int(11)",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "0",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "activitytype",
+          "Type": "tinyint(3) unsigned",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "0",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "target_name",
+          "Type": "varchar(64)",
+          "Collation": "latin1_swedish_ci",
+          "Null": "NO",
+          "Key": "",
+          "Default": "",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "goalmethod",
+          "Type": "int(10) unsigned",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "0",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "goalcount",
+          "Type": "int(11)",
+          "Collation": null,
+          "Null": "YES",
+          "Key": "",
+          "Default": "1",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "description_override",
+          "Type": "varchar(128)",
+          "Collation": "latin1_swedish_ci",
+          "Null": "NO",
+          "Key": "",
+          "Default": "",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "npc_match_list",
+          "Type": "text",
+          "Collation": "latin1_swedish_ci",
+          "Null": "YES",
+          "Key": "",
+          "Default": null,
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "item_id_list",
+          "Type": "text",
+          "Collation": "latin1_swedish_ci",
+          "Null": "YES",
+          "Key": "",
+          "Default": null,
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "item_list",
+          "Type": "varchar(128)",
+          "Collation": "latin1_swedish_ci",
+          "Null": "NO",
+          "Key": "",
+          "Default": "",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "dz_switch_id",
+          "Type": "int(11)",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "0",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "min_x",
+          "Type": "float",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "0",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "min_y",
+          "Type": "float",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "0",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "min_z",
+          "Type": "float",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "0",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "max_x",
+          "Type": "float",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "0",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "max_y",
+          "Type": "float",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "0",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "max_z",
+          "Type": "float",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "0",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "skill_list",
+          "Type": "varchar(64)",
+          "Collation": "latin1_swedish_ci",
+          "Null": "NO",
+          "Key": "",
+          "Default": "-1",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "spell_list",
+          "Type": "varchar(64)",
+          "Collation": "latin1_swedish_ci",
+          "Null": "NO",
+          "Key": "",
+          "Default": "0",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "zones",
+          "Type": "varchar(64)",
+          "Collation": "latin1_swedish_ci",
+          "Null": "NO",
+          "Key": "",
+          "Default": "",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "zone_version",
+          "Type": "int(11)",
+          "Collation": null,
+          "Null": "YES",
+          "Key": "",
+          "Default": "-1",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "optional",
+          "Type": "tinyint(1)",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "0",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "list_group",
+          "Type": "tinyint(3) unsigned",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "0",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        }
+      ],
+      "primary_key": [
+        "taskid",
+        "activityid"
+      ],
+      "DDL": {
+        "Table": "task_activities",
+        "Create Table": "CREATE TABLE `task_activities` (\n  `taskid` int(11) unsigned NOT NULL DEFAULT 0,\n  `activityid` int(11) unsigned NOT NULL DEFAULT 0,\n  `req_activity_id` int(11) NOT NULL DEFAULT -1,\n  `step` int(11) NOT NULL DEFAULT 0,\n  `activitytype` tinyint(3) unsigned NOT NULL DEFAULT 0,\n  `target_name` varchar(64) NOT NULL DEFAULT '',\n  `goalmethod` int(10) unsigned NOT NULL DEFAULT 0,\n  `goalcount` int(11) DEFAULT 1,\n  `description_override` varchar(128) NOT NULL DEFAULT '',\n  `npc_match_list` text DEFAULT NULL,\n  `item_id_list` text DEFAULT NULL,\n  `item_list` varchar(128) NOT NULL DEFAULT '',\n  `dz_switch_id` int(11) NOT NULL DEFAULT 0,\n  `min_x` float NOT NULL DEFAULT 0,\n  `min_y` float NOT NULL DEFAULT 0,\n  `min_z` float NOT NULL DEFAULT 0,\n  `max_x` float NOT NULL DEFAULT 0,\n  `max_y` float NOT NULL DEFAULT 0,\n  `max_z` float NOT NULL DEFAULT 0,\n  `skill_list` varchar(64) NOT NULL DEFAULT '-1',\n  `spell_list` varchar(64) NOT NULL DEFAULT '0',\n  `zones` varchar(64) NOT NULL DEFAULT '',\n  `zone_version` int(11) DEFAULT -1,\n  `optional` tinyint(1) NOT NULL DEFAULT 0,\n  `list_group` tinyint(3) unsigned NOT NULL DEFAULT 0,\n  PRIMARY KEY (`taskid`,`activityid`) USING BTREE\n) ENGINE=InnoDB DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci ROW_FORMAT=COMPACT"
+      },
+      "engine": "InnoDB",
+      "scope": "taskid BETWEEN 920167 AND 920170",
+      "preimage": []
+    },
+    "dynamic_zone_templates": {
+      "columns": [
+        {
+          "Field": "id",
+          "Type": "int(10) unsigned",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "PRI",
+          "Default": null,
+          "Extra": "auto_increment",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "zone_id",
+          "Type": "int(11)",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "0",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "zone_version",
+          "Type": "int(11)",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "0",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "name",
+          "Type": "varchar(128)",
+          "Collation": "latin1_swedish_ci",
+          "Null": "NO",
+          "Key": "",
+          "Default": "",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "min_players",
+          "Type": "int(11)",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "0",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "max_players",
+          "Type": "int(11)",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "0",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "duration_seconds",
+          "Type": "int(11)",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "0",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "dz_switch_id",
+          "Type": "int(11)",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "0",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "compass_zone_id",
+          "Type": "int(11)",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "0",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "compass_x",
+          "Type": "float",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "0",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "compass_y",
+          "Type": "float",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "0",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "compass_z",
+          "Type": "float",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "0",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "return_zone_id",
+          "Type": "int(11)",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "0",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "return_x",
+          "Type": "float",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "0",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "return_y",
+          "Type": "float",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "0",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "return_z",
+          "Type": "float",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "0",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "return_h",
+          "Type": "float",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "0",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "override_zone_in",
+          "Type": "tinyint(4)",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "0",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "zone_in_x",
+          "Type": "float",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "0",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "zone_in_y",
+          "Type": "float",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "0",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "zone_in_z",
+          "Type": "float",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "0",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "zone_in_h",
+          "Type": "float",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "0",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        }
+      ],
+      "primary_key": [
+        "id"
+      ],
+      "DDL": {
+        "Table": "dynamic_zone_templates",
+        "Create Table": "CREATE TABLE `dynamic_zone_templates` (\n  `id` int(10) unsigned NOT NULL AUTO_INCREMENT,\n  `zone_id` int(11) NOT NULL DEFAULT 0,\n  `zone_version` int(11) NOT NULL DEFAULT 0,\n  `name` varchar(128) NOT NULL DEFAULT '',\n  `min_players` int(11) NOT NULL DEFAULT 0,\n  `max_players` int(11) NOT NULL DEFAULT 0,\n  `duration_seconds` int(11) NOT NULL DEFAULT 0,\n  `dz_switch_id` int(11) NOT NULL DEFAULT 0,\n  `compass_zone_id` int(11) NOT NULL DEFAULT 0,\n  `compass_x` float NOT NULL DEFAULT 0,\n  `compass_y` float NOT NULL DEFAULT 0,\n  `compass_z` float NOT NULL DEFAULT 0,\n  `return_zone_id` int(11) NOT NULL DEFAULT 0,\n  `return_x` float NOT NULL DEFAULT 0,\n  `return_y` float NOT NULL DEFAULT 0,\n  `return_z` float NOT NULL DEFAULT 0,\n  `return_h` float NOT NULL DEFAULT 0,\n  `override_zone_in` tinyint(4) NOT NULL DEFAULT 0,\n  `zone_in_x` float NOT NULL DEFAULT 0,\n  `zone_in_y` float NOT NULL DEFAULT 0,\n  `zone_in_z` float NOT NULL DEFAULT 0,\n  `zone_in_h` float NOT NULL DEFAULT 0,\n  PRIMARY KEY (`id`)\n) ENGINE=InnoDB AUTO_INCREMENT=3040941 DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci"
+      },
+      "engine": "InnoDB",
+      "scope": "id=920170 OR (zone_id=490 AND zone_version=1)",
+      "preimage": []
+    },
+    "rewards": {
+      "columns": [
+        {
+          "Field": "reward_id",
+          "Type": "int(10) unsigned",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "PRI",
+          "Default": null,
+          "Extra": "auto_increment",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "reward_type",
+          "Type": "tinyint(3) unsigned",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": null,
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "reward_data_id",
+          "Type": "int(10) unsigned",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "0",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "amount",
+          "Type": "bigint(20) unsigned",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "1",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "description",
+          "Type": "varchar(255)",
+          "Collation": "utf8mb4_general_ci",
+          "Null": "NO",
+          "Key": "",
+          "Default": "",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "enabled",
+          "Type": "tinyint(1) unsigned",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "1",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        }
+      ],
+      "primary_key": [
+        "reward_id"
+      ],
+      "DDL": {
+        "Table": "rewards",
+        "Create Table": "CREATE TABLE `rewards` (\n  `reward_id` int(10) unsigned NOT NULL AUTO_INCREMENT,\n  `reward_type` tinyint(3) unsigned NOT NULL,\n  `reward_data_id` int(10) unsigned NOT NULL DEFAULT 0,\n  `amount` bigint(20) unsigned NOT NULL DEFAULT 1,\n  `description` varchar(255) NOT NULL DEFAULT '',\n  `enabled` tinyint(1) unsigned NOT NULL DEFAULT 1,\n  PRIMARY KEY (`reward_id`)\n) ENGINE=InnoDB AUTO_INCREMENT=3839201408 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci"
+      },
+      "engine": "InnoDB",
+      "scope": "reward_id IN(3839201671,3839201681,3839201691,3839201701,3839201702,3839201703,3839201704,3839201705,3839201706)",
+      "preimage": []
+    },
+    "reward_sets": {
+      "columns": [
+        {
+          "Field": "reward_set_id",
+          "Type": "int(10) unsigned",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "PRI",
+          "Default": null,
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "title",
+          "Type": "varchar(255)",
+          "Collation": "utf8mb4_general_ci",
+          "Null": "NO",
+          "Key": "",
+          "Default": "",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "enabled",
+          "Type": "tinyint(1) unsigned",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "1",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        }
+      ],
+      "primary_key": [
+        "reward_set_id"
+      ],
+      "DDL": {
+        "Table": "reward_sets",
+        "Create Table": "CREATE TABLE `reward_sets` (\n  `reward_set_id` int(10) unsigned NOT NULL,\n  `title` varchar(255) NOT NULL DEFAULT '',\n  `enabled` tinyint(1) unsigned NOT NULL DEFAULT 1,\n  PRIMARY KEY (`reward_set_id`)\n) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci"
+      },
+      "engine": "InnoDB",
+      "scope": "reward_set_id BETWEEN 920167 AND 920170",
+      "preimage": []
+    },
+    "reward_sources": {
+      "columns": [
+        {
+          "Field": "source_type",
+          "Type": "tinyint(3) unsigned",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "PRI",
+          "Default": null,
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "source_id",
+          "Type": "bigint(20) unsigned",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "PRI",
+          "Default": null,
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "reward_set_id",
+          "Type": "int(10) unsigned",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": null,
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "enabled",
+          "Type": "tinyint(1) unsigned",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "1",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        }
+      ],
+      "primary_key": [
+        "source_type",
+        "source_id"
+      ],
+      "DDL": {
+        "Table": "reward_sources",
+        "Create Table": "CREATE TABLE `reward_sources` (\n  `source_type` tinyint(3) unsigned NOT NULL,\n  `source_id` bigint(20) unsigned NOT NULL,\n  `reward_set_id` int(10) unsigned NOT NULL,\n  `enabled` tinyint(1) unsigned NOT NULL DEFAULT 1,\n  PRIMARY KEY (`source_type`,`source_id`)\n) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci"
+      },
+      "engine": "InnoDB",
+      "scope": "(source_type=2 AND source_id BETWEEN 920167 AND 920170) OR reward_set_id BETWEEN 920167 AND 920170",
+      "preimage": []
+    },
+    "reward_options": {
+      "columns": [
+        {
+          "Field": "reward_set_id",
+          "Type": "int(10) unsigned",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "PRI",
+          "Default": null,
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "option_id",
+          "Type": "int(10) unsigned",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "PRI",
+          "Default": null,
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "sequence",
+          "Type": "int(10) unsigned",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "0",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "label",
+          "Type": "varchar(255)",
+          "Collation": "utf8mb4_general_ci",
+          "Null": "NO",
+          "Key": "",
+          "Default": "",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "common_to_all",
+          "Type": "tinyint(1) unsigned",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "0",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "flags",
+          "Type": "tinyint(3) unsigned",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "0",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "enabled",
+          "Type": "tinyint(1) unsigned",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "1",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "class_mask",
+          "Type": "int(10) unsigned",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "65535",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        }
+      ],
+      "primary_key": [
+        "reward_set_id",
+        "option_id"
+      ],
+      "DDL": {
+        "Table": "reward_options",
+        "Create Table": "CREATE TABLE `reward_options` (\n  `reward_set_id` int(10) unsigned NOT NULL,\n  `option_id` int(10) unsigned NOT NULL,\n  `sequence` int(10) unsigned NOT NULL DEFAULT 0,\n  `label` varchar(255) NOT NULL DEFAULT '',\n  `common_to_all` tinyint(1) unsigned NOT NULL DEFAULT 0,\n  `flags` tinyint(3) unsigned NOT NULL DEFAULT 0,\n  `enabled` tinyint(1) unsigned NOT NULL DEFAULT 1,\n  `class_mask` int(10) unsigned NOT NULL DEFAULT 65535,\n  PRIMARY KEY (`reward_set_id`,`option_id`)\n) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci"
+      },
+      "engine": "InnoDB",
+      "scope": "reward_set_id BETWEEN 920167 AND 920170",
+      "preimage": []
+    },
+    "reward_option_entries": {
+      "columns": [
+        {
+          "Field": "reward_set_id",
+          "Type": "int(10) unsigned",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "PRI",
+          "Default": null,
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "option_id",
+          "Type": "int(10) unsigned",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "PRI",
+          "Default": null,
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "sequence",
+          "Type": "int(10) unsigned",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "0",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "reward_id",
+          "Type": "int(10) unsigned",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "PRI",
+          "Default": null,
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        }
+      ],
+      "primary_key": [
+        "reward_set_id",
+        "option_id",
+        "reward_id"
+      ],
+      "DDL": {
+        "Table": "reward_option_entries",
+        "Create Table": "CREATE TABLE `reward_option_entries` (\n  `reward_set_id` int(10) unsigned NOT NULL,\n  `option_id` int(10) unsigned NOT NULL,\n  `sequence` int(10) unsigned NOT NULL DEFAULT 0,\n  `reward_id` int(10) unsigned NOT NULL,\n  PRIMARY KEY (`reward_set_id`,`option_id`,`reward_id`),\n  UNIQUE KEY `reward_option_entries_set_reward` (`reward_set_id`,`reward_id`)\n) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci"
+      },
+      "engine": "InnoDB",
+      "scope": "reward_set_id BETWEEN 920167 AND 920170 OR reward_id IN(3839201671,3839201681,3839201691,3839201701,3839201702,3839201703,3839201704,3839201705,3839201706)",
+      "preimage": []
+    },
+    "loottable": {
+      "columns": [
+        {
+          "Field": "id",
+          "Type": "int(11) unsigned",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "PRI",
+          "Default": null,
+          "Extra": "auto_increment",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "name",
+          "Type": "varchar(255)",
+          "Collation": "latin1_swedish_ci",
+          "Null": "NO",
+          "Key": "",
+          "Default": "",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "mincash",
+          "Type": "int(11) unsigned",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "0",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "maxcash",
+          "Type": "int(11) unsigned",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "0",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "avgcoin",
+          "Type": "int(10) unsigned",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "0",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "done",
+          "Type": "tinyint(3)",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "0",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "min_expansion",
+          "Type": "tinyint(4)",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "-1",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "max_expansion",
+          "Type": "tinyint(4)",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "-1",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "content_flags",
+          "Type": "varchar(100)",
+          "Collation": "latin1_swedish_ci",
+          "Null": "YES",
+          "Key": "",
+          "Default": null,
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "content_flags_disabled",
+          "Type": "varchar(100)",
+          "Collation": "latin1_swedish_ci",
+          "Null": "YES",
+          "Key": "",
+          "Default": null,
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        }
+      ],
+      "primary_key": [
+        "id"
+      ],
+      "DDL": {
+        "Table": "loottable",
+        "Create Table": "CREATE TABLE `loottable` (\n  `id` int(11) unsigned NOT NULL AUTO_INCREMENT,\n  `name` varchar(255) NOT NULL DEFAULT '',\n  `mincash` int(11) unsigned NOT NULL DEFAULT 0,\n  `maxcash` int(11) unsigned NOT NULL DEFAULT 0,\n  `avgcoin` int(10) unsigned NOT NULL DEFAULT 0,\n  `done` tinyint(3) NOT NULL DEFAULT 0,\n  `min_expansion` tinyint(4) NOT NULL DEFAULT -1,\n  `max_expansion` tinyint(4) NOT NULL DEFAULT -1,\n  `content_flags` varchar(100) DEFAULT NULL,\n  `content_flags_disabled` varchar(100) DEFAULT NULL,\n  PRIMARY KEY (`id`)\n) ENGINE=InnoDB AUTO_INCREMENT=304053003 DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci PACK_KEYS=0"
+      },
+      "engine": "InnoDB",
+      "scope": "id BETWEEN 304062000 AND 304062012",
+      "preimage": []
+    },
+    "lootdrop": {
+      "columns": [
+        {
+          "Field": "id",
+          "Type": "int(11) unsigned",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "PRI",
+          "Default": null,
+          "Extra": "auto_increment",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "name",
+          "Type": "varchar(255)",
+          "Collation": "latin1_swedish_ci",
+          "Null": "NO",
+          "Key": "",
+          "Default": "",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "min_expansion",
+          "Type": "tinyint(4)",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "-1",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "max_expansion",
+          "Type": "tinyint(4)",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "-1",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "content_flags",
+          "Type": "varchar(100)",
+          "Collation": "latin1_swedish_ci",
+          "Null": "YES",
+          "Key": "",
+          "Default": null,
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "content_flags_disabled",
+          "Type": "varchar(100)",
+          "Collation": "latin1_swedish_ci",
+          "Null": "YES",
+          "Key": "",
+          "Default": null,
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        }
+      ],
+      "primary_key": [
+        "id"
+      ],
+      "DDL": {
+        "Table": "lootdrop",
+        "Create Table": "CREATE TABLE `lootdrop` (\n  `id` int(11) unsigned NOT NULL AUTO_INCREMENT,\n  `name` varchar(255) NOT NULL DEFAULT '',\n  `min_expansion` tinyint(4) NOT NULL DEFAULT -1,\n  `max_expansion` tinyint(4) NOT NULL DEFAULT -1,\n  `content_flags` varchar(100) DEFAULT NULL,\n  `content_flags_disabled` varchar(100) DEFAULT NULL,\n  PRIMARY KEY (`id`)\n) ENGINE=InnoDB AUTO_INCREMENT=304053003 DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci PACK_KEYS=0"
+      },
+      "engine": "InnoDB",
+      "scope": "id BETWEEN 304062000 AND 304062012",
+      "preimage": []
+    },
+    "loottable_entries": {
+      "columns": [
+        {
+          "Field": "loottable_id",
+          "Type": "int(11) unsigned",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "PRI",
+          "Default": "0",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "lootdrop_id",
+          "Type": "int(11) unsigned",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "PRI",
+          "Default": "0",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "multiplier",
+          "Type": "tinyint(2) unsigned",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "1",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "droplimit",
+          "Type": "tinyint(2) unsigned",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "0",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "mindrop",
+          "Type": "tinyint(2) unsigned",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "0",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "probability",
+          "Type": "float",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "100",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        }
+      ],
+      "primary_key": [
+        "loottable_id",
+        "lootdrop_id"
+      ],
+      "DDL": {
+        "Table": "loottable_entries",
+        "Create Table": "CREATE TABLE `loottable_entries` (\n  `loottable_id` int(11) unsigned NOT NULL DEFAULT 0,\n  `lootdrop_id` int(11) unsigned NOT NULL DEFAULT 0,\n  `multiplier` tinyint(2) unsigned NOT NULL DEFAULT 1,\n  `droplimit` tinyint(2) unsigned NOT NULL DEFAULT 0,\n  `mindrop` tinyint(2) unsigned NOT NULL DEFAULT 0,\n  `probability` float NOT NULL DEFAULT 100,\n  PRIMARY KEY (`loottable_id`,`lootdrop_id`),\n  KEY `idx_loottable_entries_lootdrop_id` (`lootdrop_id`),\n  KEY `idx_loottable_entries_loottable_id` (`loottable_id`)\n) ENGINE=InnoDB DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci"
+      },
+      "engine": "InnoDB",
+      "scope": "loottable_id BETWEEN 304062000 AND 304062012 OR lootdrop_id BETWEEN 304062000 AND 304062012",
+      "preimage": []
+    },
+    "lootdrop_entries": {
+      "columns": [
+        {
+          "Field": "lootdrop_id",
+          "Type": "int(11) unsigned",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "PRI",
+          "Default": "0",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "item_id",
+          "Type": "int(11)",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "PRI",
+          "Default": "0",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "item_charges",
+          "Type": "smallint(2) unsigned",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "1",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "equip_item",
+          "Type": "tinyint(2) unsigned",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "0",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "chance",
+          "Type": "float",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "1",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "disabled_chance",
+          "Type": "float",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "0",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "trivial_min_level",
+          "Type": "smallint(5) unsigned",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "0",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "trivial_max_level",
+          "Type": "smallint(5) unsigned",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "0",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "multiplier",
+          "Type": "tinyint(2) unsigned",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "1",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "npc_min_level",
+          "Type": "smallint(5) unsigned",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "0",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "npc_max_level",
+          "Type": "smallint(5) unsigned",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "0",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "min_expansion",
+          "Type": "tinyint(4)",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "-1",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "max_expansion",
+          "Type": "tinyint(4)",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "-1",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "content_flags",
+          "Type": "varchar(100)",
+          "Collation": "latin1_swedish_ci",
+          "Null": "YES",
+          "Key": "",
+          "Default": null,
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "content_flags_disabled",
+          "Type": "varchar(100)",
+          "Collation": "latin1_swedish_ci",
+          "Null": "YES",
+          "Key": "",
+          "Default": null,
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        }
+      ],
+      "primary_key": [
+        "lootdrop_id",
+        "item_id"
+      ],
+      "DDL": {
+        "Table": "lootdrop_entries",
+        "Create Table": "CREATE TABLE `lootdrop_entries` (\n  `lootdrop_id` int(11) unsigned NOT NULL DEFAULT 0,\n  `item_id` int(11) NOT NULL DEFAULT 0,\n  `item_charges` smallint(2) unsigned NOT NULL DEFAULT 1,\n  `equip_item` tinyint(2) unsigned NOT NULL DEFAULT 0,\n  `chance` float NOT NULL DEFAULT 1,\n  `disabled_chance` float NOT NULL DEFAULT 0,\n  `trivial_min_level` smallint(5) unsigned NOT NULL DEFAULT 0,\n  `trivial_max_level` smallint(5) unsigned NOT NULL DEFAULT 0,\n  `multiplier` tinyint(2) unsigned NOT NULL DEFAULT 1,\n  `npc_min_level` smallint(5) unsigned NOT NULL DEFAULT 0,\n  `npc_max_level` smallint(5) unsigned NOT NULL DEFAULT 0,\n  `min_expansion` tinyint(4) NOT NULL DEFAULT -1,\n  `max_expansion` tinyint(4) NOT NULL DEFAULT -1,\n  `content_flags` varchar(100) DEFAULT NULL,\n  `content_flags_disabled` varchar(100) DEFAULT NULL,\n  PRIMARY KEY (`lootdrop_id`,`item_id`),\n  KEY `idx_lootdrop_entries_lootdrop_id` (`lootdrop_id`),\n  KEY `idx_lootdrop_entries_item_id` (`item_id`)\n) ENGINE=InnoDB DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci"
+      },
+      "engine": "InnoDB",
+      "scope": "lootdrop_id BETWEEN 304062000 AND 304062012",
+      "preimage": []
+    },
+    "npc_types": {
+      "columns": [
+        {
+          "Field": "id",
+          "Type": "int(11)",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "PRI",
+          "Default": null,
+          "Extra": "auto_increment",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "name",
+          "Type": "text",
+          "Collation": "latin1_swedish_ci",
+          "Null": "NO",
+          "Key": "",
+          "Default": null,
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "lastname",
+          "Type": "varchar(32)",
+          "Collation": "latin1_swedish_ci",
+          "Null": "YES",
+          "Key": "",
+          "Default": null,
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "level",
+          "Type": "tinyint(2) unsigned",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "0",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "race",
+          "Type": "smallint(5) unsigned",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "0",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "class",
+          "Type": "tinyint(2) unsigned",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "0",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "bodytype",
+          "Type": "int(11)",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "1",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "hp",
+          "Type": "bigint(20)",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "0",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "mana",
+          "Type": "bigint(20)",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "0",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "gender",
+          "Type": "tinyint(2) unsigned",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "0",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "texture",
+          "Type": "tinyint(2) unsigned",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "0",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "helmtexture",
+          "Type": "tinyint(2) unsigned",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "0",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "herosforgemodel",
+          "Type": "int(11)",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "0",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "size",
+          "Type": "float",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "0",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "hp_regen_rate",
+          "Type": "bigint(20)",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "0",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "hp_regen_per_second",
+          "Type": "bigint(20)",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "0",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "mana_regen_rate",
+          "Type": "bigint(20)",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "0",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "loottable_id",
+          "Type": "int(11) unsigned",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "MUL",
+          "Default": "0",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "merchant_id",
+          "Type": "int(11) unsigned",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "0",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "greed",
+          "Type": "tinyint(8) unsigned",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "0",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "alt_currency_id",
+          "Type": "int(11) unsigned",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "0",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "npc_spells_id",
+          "Type": "int(11) unsigned",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "0",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "npc_spells_effects_id",
+          "Type": "int(11) unsigned",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "0",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "npc_faction_id",
+          "Type": "int(11)",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "0",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "adventure_template_id",
+          "Type": "int(10) unsigned",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "0",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "trap_template",
+          "Type": "int(10) unsigned",
+          "Collation": null,
+          "Null": "YES",
+          "Key": "",
+          "Default": "0",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "mindmg",
+          "Type": "int(10) unsigned",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "0",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "maxdmg",
+          "Type": "int(10) unsigned",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "0",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "attack_count",
+          "Type": "smallint(6)",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "-1",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "npcspecialattks",
+          "Type": "varchar(36)",
+          "Collation": "latin1_swedish_ci",
+          "Null": "NO",
+          "Key": "",
+          "Default": "",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "special_abilities",
+          "Type": "text",
+          "Collation": "latin1_swedish_ci",
+          "Null": "YES",
+          "Key": "",
+          "Default": null,
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "aggroradius",
+          "Type": "int(10) unsigned",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "0",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "assistradius",
+          "Type": "int(10) unsigned",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "0",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "face",
+          "Type": "int(10) unsigned",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "1",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "luclin_hairstyle",
+          "Type": "int(10) unsigned",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "1",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "luclin_haircolor",
+          "Type": "int(10) unsigned",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "1",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "luclin_eyecolor",
+          "Type": "int(10) unsigned",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "1",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "luclin_eyecolor2",
+          "Type": "int(10) unsigned",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "1",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "luclin_beardcolor",
+          "Type": "int(10) unsigned",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "1",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "luclin_beard",
+          "Type": "int(10) unsigned",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "0",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "drakkin_heritage",
+          "Type": "int(10)",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "0",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "drakkin_tattoo",
+          "Type": "int(10)",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "0",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "drakkin_details",
+          "Type": "int(10)",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "0",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "armortint_id",
+          "Type": "int(10) unsigned",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "0",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "armortint_red",
+          "Type": "tinyint(3) unsigned",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "0",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "armortint_green",
+          "Type": "tinyint(3) unsigned",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "0",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "armortint_blue",
+          "Type": "tinyint(3) unsigned",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "0",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "d_melee_texture1",
+          "Type": "int(11) unsigned",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "0",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "d_melee_texture2",
+          "Type": "int(11) unsigned",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "0",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "ammo_idfile",
+          "Type": "varchar(30)",
+          "Collation": "latin1_swedish_ci",
+          "Null": "NO",
+          "Key": "",
+          "Default": "IT10",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "prim_melee_type",
+          "Type": "tinyint(4) unsigned",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "28",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "sec_melee_type",
+          "Type": "tinyint(4) unsigned",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "28",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "ranged_type",
+          "Type": "tinyint(4) unsigned",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "7",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "runspeed",
+          "Type": "float",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "0",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "MR",
+          "Type": "smallint(5)",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "0",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "CR",
+          "Type": "smallint(5)",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "0",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "DR",
+          "Type": "smallint(5)",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "0",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "FR",
+          "Type": "smallint(5)",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "0",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "PR",
+          "Type": "smallint(5)",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "0",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "Corrup",
+          "Type": "smallint(5)",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "0",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "PhR",
+          "Type": "smallint(5) unsigned",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "0",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "see_invis",
+          "Type": "smallint(4)",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "0",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "see_invis_undead",
+          "Type": "smallint(4)",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "0",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "qglobal",
+          "Type": "int(2) unsigned",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "0",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "AC",
+          "Type": "smallint(5)",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "0",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "npc_aggro",
+          "Type": "tinyint(4)",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "0",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "spawn_limit",
+          "Type": "tinyint(4)",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "0",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "attack_speed",
+          "Type": "float",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "0",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "attack_delay",
+          "Type": "tinyint(3) unsigned",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "30",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "findable",
+          "Type": "tinyint(4)",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "0",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "STR",
+          "Type": "mediumint(8) unsigned",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "75",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "STA",
+          "Type": "mediumint(8) unsigned",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "75",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "DEX",
+          "Type": "mediumint(8) unsigned",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "75",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "AGI",
+          "Type": "mediumint(8) unsigned",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "75",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "_INT",
+          "Type": "mediumint(8) unsigned",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "80",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "WIS",
+          "Type": "mediumint(8) unsigned",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "75",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "CHA",
+          "Type": "mediumint(8) unsigned",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "75",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "see_hide",
+          "Type": "tinyint(4)",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "0",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "see_improved_hide",
+          "Type": "tinyint(4)",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "0",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "trackable",
+          "Type": "tinyint(4)",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "1",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "isbot",
+          "Type": "tinyint(4)",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "0",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "exclude",
+          "Type": "tinyint(4)",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "1",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "ATK",
+          "Type": "mediumint(9)",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "0",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "Accuracy",
+          "Type": "mediumint(9)",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "0",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "Avoidance",
+          "Type": "mediumint(9) unsigned",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "0",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "slow_mitigation",
+          "Type": "smallint(4)",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "0",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "version",
+          "Type": "smallint(5) unsigned",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "0",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "maxlevel",
+          "Type": "tinyint(3)",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "0",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "scalerate",
+          "Type": "int(11)",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "100",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "private_corpse",
+          "Type": "tinyint(3) unsigned",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "0",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "unique_spawn_by_name",
+          "Type": "tinyint(3) unsigned",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "0",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "underwater",
+          "Type": "tinyint(3) unsigned",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "0",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "isquest",
+          "Type": "tinyint(3)",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "0",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "emoteid",
+          "Type": "int(10) unsigned",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "0",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "spellscale",
+          "Type": "float",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "100",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "healscale",
+          "Type": "float",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "100",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "no_target_hotkey",
+          "Type": "tinyint(1) unsigned",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "0",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "raid_target",
+          "Type": "tinyint(1) unsigned",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "0",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "armtexture",
+          "Type": "tinyint(2)",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "0",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "bracertexture",
+          "Type": "tinyint(2)",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "0",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "handtexture",
+          "Type": "tinyint(2)",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "0",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "legtexture",
+          "Type": "tinyint(2)",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "0",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "feettexture",
+          "Type": "tinyint(2)",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "0",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "light",
+          "Type": "tinyint(2)",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "0",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "walkspeed",
+          "Type": "float",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "0",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "peqid",
+          "Type": "int(11)",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "0",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "unique_",
+          "Type": "tinyint(2)",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "0",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "fixed",
+          "Type": "tinyint(2)",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "0",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "ignore_despawn",
+          "Type": "tinyint(2)",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "0",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "show_name",
+          "Type": "tinyint(2)",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "1",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "untargetable",
+          "Type": "tinyint(2)",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "0",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "charm_ac",
+          "Type": "smallint(5)",
+          "Collation": null,
+          "Null": "YES",
+          "Key": "",
+          "Default": "0",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "charm_min_dmg",
+          "Type": "int(10)",
+          "Collation": null,
+          "Null": "YES",
+          "Key": "",
+          "Default": "0",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "charm_max_dmg",
+          "Type": "int(10)",
+          "Collation": null,
+          "Null": "YES",
+          "Key": "",
+          "Default": "0",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "charm_attack_delay",
+          "Type": "tinyint(3)",
+          "Collation": null,
+          "Null": "YES",
+          "Key": "",
+          "Default": "0",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "charm_accuracy_rating",
+          "Type": "mediumint(9)",
+          "Collation": null,
+          "Null": "YES",
+          "Key": "",
+          "Default": "0",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "charm_avoidance_rating",
+          "Type": "mediumint(9)",
+          "Collation": null,
+          "Null": "YES",
+          "Key": "",
+          "Default": "0",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "charm_atk",
+          "Type": "mediumint(9)",
+          "Collation": null,
+          "Null": "YES",
+          "Key": "",
+          "Default": "0",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "skip_global_loot",
+          "Type": "tinyint(4)",
+          "Collation": null,
+          "Null": "YES",
+          "Key": "",
+          "Default": "0",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "rare_spawn",
+          "Type": "tinyint(4)",
+          "Collation": null,
+          "Null": "YES",
+          "Key": "",
+          "Default": "0",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "stuck_behavior",
+          "Type": "tinyint(4)",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "0",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "model",
+          "Type": "smallint(5)",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "0",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "flymode",
+          "Type": "tinyint(4)",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "-1",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "always_aggro",
+          "Type": "tinyint(1)",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "0",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "exp_mod",
+          "Type": "int(11)",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "100",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "heroic_strikethrough",
+          "Type": "int(11)",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "0",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "faction_amount",
+          "Type": "int(10)",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "0",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "keeps_sold_items",
+          "Type": "tinyint(1) unsigned",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "1",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "is_parcel_merchant",
+          "Type": "tinyint(1) unsigned",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "0",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "multiquest_enabled",
+          "Type": "tinyint(1) unsigned",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "0",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "npc_tint_id",
+          "Type": "smallint(5) unsigned",
+          "Collation": null,
+          "Null": "YES",
+          "Key": "",
+          "Default": "0",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        }
+      ],
+      "primary_key": [
+        "id"
+      ],
+      "DDL": {
+        "Table": "npc_types",
+        "Create Table": "CREATE TABLE `npc_types` (\n  `id` int(11) NOT NULL AUTO_INCREMENT,\n  `name` text NOT NULL,\n  `lastname` varchar(32) DEFAULT NULL,\n  `level` tinyint(2) unsigned NOT NULL DEFAULT 0,\n  `race` smallint(5) unsigned NOT NULL DEFAULT 0,\n  `class` tinyint(2) unsigned NOT NULL DEFAULT 0,\n  `bodytype` int(11) NOT NULL DEFAULT 1,\n  `hp` bigint(20) NOT NULL DEFAULT 0,\n  `mana` bigint(20) NOT NULL DEFAULT 0,\n  `gender` tinyint(2) unsigned NOT NULL DEFAULT 0,\n  `texture` tinyint(2) unsigned NOT NULL DEFAULT 0,\n  `helmtexture` tinyint(2) unsigned NOT NULL DEFAULT 0,\n  `herosforgemodel` int(11) NOT NULL DEFAULT 0,\n  `size` float NOT NULL DEFAULT 0,\n  `hp_regen_rate` bigint(20) NOT NULL DEFAULT 0,\n  `hp_regen_per_second` bigint(20) NOT NULL DEFAULT 0,\n  `mana_regen_rate` bigint(20) NOT NULL DEFAULT 0,\n  `loottable_id` int(11) unsigned NOT NULL DEFAULT 0,\n  `merchant_id` int(11) unsigned NOT NULL DEFAULT 0,\n  `greed` tinyint(8) unsigned NOT NULL DEFAULT 0,\n  `alt_currency_id` int(11) unsigned NOT NULL DEFAULT 0,\n  `npc_spells_id` int(11) unsigned NOT NULL DEFAULT 0,\n  `npc_spells_effects_id` int(11) unsigned NOT NULL DEFAULT 0,\n  `npc_faction_id` int(11) NOT NULL DEFAULT 0,\n  `adventure_template_id` int(10) unsigned NOT NULL DEFAULT 0,\n  `trap_template` int(10) unsigned DEFAULT 0,\n  `mindmg` int(10) unsigned NOT NULL DEFAULT 0,\n  `maxdmg` int(10) unsigned NOT NULL DEFAULT 0,\n  `attack_count` smallint(6) NOT NULL DEFAULT -1,\n  `npcspecialattks` varchar(36) NOT NULL DEFAULT '',\n  `special_abilities` text DEFAULT NULL,\n  `aggroradius` int(10) unsigned NOT NULL DEFAULT 0,\n  `assistradius` int(10) unsigned NOT NULL DEFAULT 0,\n  `face` int(10) unsigned NOT NULL DEFAULT 1,\n  `luclin_hairstyle` int(10) unsigned NOT NULL DEFAULT 1,\n  `luclin_haircolor` int(10) unsigned NOT NULL DEFAULT 1,\n  `luclin_eyecolor` int(10) unsigned NOT NULL DEFAULT 1,\n  `luclin_eyecolor2` int(10) unsigned NOT NULL DEFAULT 1,\n  `luclin_beardcolor` int(10) unsigned NOT NULL DEFAULT 1,\n  `luclin_beard` int(10) unsigned NOT NULL DEFAULT 0,\n  `drakkin_heritage` int(10) NOT NULL DEFAULT 0,\n  `drakkin_tattoo` int(10) NOT NULL DEFAULT 0,\n  `drakkin_details` int(10) NOT NULL DEFAULT 0,\n  `armortint_id` int(10) unsigned NOT NULL DEFAULT 0,\n  `armortint_red` tinyint(3) unsigned NOT NULL DEFAULT 0,\n  `armortint_green` tinyint(3) unsigned NOT NULL DEFAULT 0,\n  `armortint_blue` tinyint(3) unsigned NOT NULL DEFAULT 0,\n  `d_melee_texture1` int(11) unsigned NOT NULL DEFAULT 0,\n  `d_melee_texture2` int(11) unsigned NOT NULL DEFAULT 0,\n  `ammo_idfile` varchar(30) NOT NULL DEFAULT 'IT10',\n  `prim_melee_type` tinyint(4) unsigned NOT NULL DEFAULT 28,\n  `sec_melee_type` tinyint(4) unsigned NOT NULL DEFAULT 28,\n  `ranged_type` tinyint(4) unsigned NOT NULL DEFAULT 7,\n  `runspeed` float NOT NULL DEFAULT 0,\n  `MR` smallint(5) NOT NULL DEFAULT 0,\n  `CR` smallint(5) NOT NULL DEFAULT 0,\n  `DR` smallint(5) NOT NULL DEFAULT 0,\n  `FR` smallint(5) NOT NULL DEFAULT 0,\n  `PR` smallint(5) NOT NULL DEFAULT 0,\n  `Corrup` smallint(5) NOT NULL DEFAULT 0,\n  `PhR` smallint(5) unsigned NOT NULL DEFAULT 0,\n  `see_invis` smallint(4) NOT NULL DEFAULT 0,\n  `see_invis_undead` smallint(4) NOT NULL DEFAULT 0,\n  `qglobal` int(2) unsigned NOT NULL DEFAULT 0,\n  `AC` smallint(5) NOT NULL DEFAULT 0,\n  `npc_aggro` tinyint(4) NOT NULL DEFAULT 0,\n  `spawn_limit` tinyint(4) NOT NULL DEFAULT 0,\n  `attack_speed` float NOT NULL DEFAULT 0,\n  `attack_delay` tinyint(3) unsigned NOT NULL DEFAULT 30,\n  `findable` tinyint(4) NOT NULL DEFAULT 0,\n  `STR` mediumint(8) unsigned NOT NULL DEFAULT 75,\n  `STA` mediumint(8) unsigned NOT NULL DEFAULT 75,\n  `DEX` mediumint(8) unsigned NOT NULL DEFAULT 75,\n  `AGI` mediumint(8) unsigned NOT NULL DEFAULT 75,\n  `_INT` mediumint(8) unsigned NOT NULL DEFAULT 80,\n  `WIS` mediumint(8) unsigned NOT NULL DEFAULT 75,\n  `CHA` mediumint(8) unsigned NOT NULL DEFAULT 75,\n  `see_hide` tinyint(4) NOT NULL DEFAULT 0,\n  `see_improved_hide` tinyint(4) NOT NULL DEFAULT 0,\n  `trackable` tinyint(4) NOT NULL DEFAULT 1,\n  `isbot` tinyint(4) NOT NULL DEFAULT 0,\n  `exclude` tinyint(4) NOT NULL DEFAULT 1,\n  `ATK` mediumint(9) NOT NULL DEFAULT 0,\n  `Accuracy` mediumint(9) NOT NULL DEFAULT 0,\n  `Avoidance` mediumint(9) unsigned NOT NULL DEFAULT 0,\n  `slow_mitigation` smallint(4) NOT NULL DEFAULT 0,\n  `version` smallint(5) unsigned NOT NULL DEFAULT 0,\n  `maxlevel` tinyint(3) NOT NULL DEFAULT 0,\n  `scalerate` int(11) NOT NULL DEFAULT 100,\n  `private_corpse` tinyint(3) unsigned NOT NULL DEFAULT 0,\n  `unique_spawn_by_name` tinyint(3) unsigned NOT NULL DEFAULT 0,\n  `underwater` tinyint(3) unsigned NOT NULL DEFAULT 0,\n  `isquest` tinyint(3) NOT NULL DEFAULT 0,\n  `emoteid` int(10) unsigned NOT NULL DEFAULT 0,\n  `spellscale` float NOT NULL DEFAULT 100,\n  `healscale` float NOT NULL DEFAULT 100,\n  `no_target_hotkey` tinyint(1) unsigned NOT NULL DEFAULT 0,\n  `raid_target` tinyint(1) unsigned NOT NULL DEFAULT 0,\n  `armtexture` tinyint(2) NOT NULL DEFAULT 0,\n  `bracertexture` tinyint(2) NOT NULL DEFAULT 0,\n  `handtexture` tinyint(2) NOT NULL DEFAULT 0,\n  `legtexture` tinyint(2) NOT NULL DEFAULT 0,\n  `feettexture` tinyint(2) NOT NULL DEFAULT 0,\n  `light` tinyint(2) NOT NULL DEFAULT 0,\n  `walkspeed` float NOT NULL DEFAULT 0,\n  `peqid` int(11) NOT NULL DEFAULT 0,\n  `unique_` tinyint(2) NOT NULL DEFAULT 0,\n  `fixed` tinyint(2) NOT NULL DEFAULT 0,\n  `ignore_despawn` tinyint(2) NOT NULL DEFAULT 0,\n  `show_name` tinyint(2) NOT NULL DEFAULT 1,\n  `untargetable` tinyint(2) NOT NULL DEFAULT 0,\n  `charm_ac` smallint(5) DEFAULT 0,\n  `charm_min_dmg` int(10) DEFAULT 0,\n  `charm_max_dmg` int(10) DEFAULT 0,\n  `charm_attack_delay` tinyint(3) DEFAULT 0,\n  `charm_accuracy_rating` mediumint(9) DEFAULT 0,\n  `charm_avoidance_rating` mediumint(9) DEFAULT 0,\n  `charm_atk` mediumint(9) DEFAULT 0,\n  `skip_global_loot` tinyint(4) DEFAULT 0,\n  `rare_spawn` tinyint(4) DEFAULT 0,\n  `stuck_behavior` tinyint(4) NOT NULL DEFAULT 0,\n  `model` smallint(5) NOT NULL DEFAULT 0,\n  `flymode` tinyint(4) NOT NULL DEFAULT -1,\n  `always_aggro` tinyint(1) NOT NULL DEFAULT 0,\n  `exp_mod` int(11) NOT NULL DEFAULT 100,\n  `heroic_strikethrough` int(11) NOT NULL DEFAULT 0,\n  `faction_amount` int(10) NOT NULL DEFAULT 0,\n  `keeps_sold_items` tinyint(1) unsigned NOT NULL DEFAULT 1,\n  `is_parcel_merchant` tinyint(1) unsigned NOT NULL DEFAULT 0,\n  `multiquest_enabled` tinyint(1) unsigned NOT NULL DEFAULT 0,\n  `npc_tint_id` smallint(5) unsigned DEFAULT 0,\n  PRIMARY KEY (`id`),\n  KEY `idx_npc_types_loottable_id` (`loottable_id`)\n) ENGINE=InnoDB AUTO_INCREMENT=3099901 DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci PACK_KEYS=0"
+      },
+      "engine": "InnoDB",
+      "scope": "id BETWEEN 490900 AND 490924 OR loottable_id BETWEEN 304062000 AND 304062012",
+      "preimage": []
+    },
+    "spawn2": {
+      "columns": [
+        {
+          "Field": "id",
+          "Type": "int(11)",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "PRI",
+          "Default": null,
+          "Extra": "auto_increment",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "spawngroupID",
+          "Type": "int(11)",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "MUL",
+          "Default": "0",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "zone",
+          "Type": "varchar(32)",
+          "Collation": "latin1_swedish_ci",
+          "Null": "YES",
+          "Key": "MUL",
+          "Default": null,
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "version",
+          "Type": "smallint(5)",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "0",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "x",
+          "Type": "float(14,6)",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "0.000000",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "y",
+          "Type": "float(14,6)",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "0.000000",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "z",
+          "Type": "float(14,6)",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "0.000000",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "heading",
+          "Type": "float(14,6)",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "0.000000",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "respawntime",
+          "Type": "int(11)",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "0",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "variance",
+          "Type": "int(11)",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "0",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "pathgrid",
+          "Type": "int(10)",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "0",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "path_when_zone_idle",
+          "Type": "tinyint(1)",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "0",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "_condition",
+          "Type": "mediumint(8) unsigned",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "0",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "cond_value",
+          "Type": "mediumint(9)",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "1",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "animation",
+          "Type": "tinyint(3) unsigned",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "0",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "min_expansion",
+          "Type": "tinyint(4)",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "-1",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "max_expansion",
+          "Type": "tinyint(4)",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "-1",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "content_flags",
+          "Type": "varchar(100)",
+          "Collation": "latin1_swedish_ci",
+          "Null": "YES",
+          "Key": "",
+          "Default": null,
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "content_flags_disabled",
+          "Type": "varchar(100)",
+          "Collation": "latin1_swedish_ci",
+          "Null": "YES",
+          "Key": "",
+          "Default": null,
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        }
+      ],
+      "primary_key": [
+        "id"
+      ],
+      "DDL": {
+        "Table": "spawn2",
+        "Create Table": "CREATE TABLE `spawn2` (\n  `id` int(11) NOT NULL AUTO_INCREMENT,\n  `spawngroupID` int(11) NOT NULL DEFAULT 0,\n  `zone` varchar(32) DEFAULT NULL,\n  `version` smallint(5) NOT NULL DEFAULT 0,\n  `x` float(14,6) NOT NULL DEFAULT 0.000000,\n  `y` float(14,6) NOT NULL DEFAULT 0.000000,\n  `z` float(14,6) NOT NULL DEFAULT 0.000000,\n  `heading` float(14,6) NOT NULL DEFAULT 0.000000,\n  `respawntime` int(11) NOT NULL DEFAULT 0,\n  `variance` int(11) NOT NULL DEFAULT 0,\n  `pathgrid` int(10) NOT NULL DEFAULT 0,\n  `path_when_zone_idle` tinyint(1) NOT NULL DEFAULT 0,\n  `_condition` mediumint(8) unsigned NOT NULL DEFAULT 0,\n  `cond_value` mediumint(9) NOT NULL DEFAULT 1,\n  `animation` tinyint(3) unsigned NOT NULL DEFAULT 0,\n  `min_expansion` tinyint(4) NOT NULL DEFAULT -1,\n  `max_expansion` tinyint(4) NOT NULL DEFAULT -1,\n  `content_flags` varchar(100) DEFAULT NULL,\n  `content_flags_disabled` varchar(100) DEFAULT NULL,\n  PRIMARY KEY (`id`),\n  KEY `ZoneGroup` (`zone`),\n  KEY `spawn2_spawngroupid_idx` (`spawngroupID`) USING BTREE\n) ENGINE=InnoDB AUTO_INCREMENT=304053021 DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci"
+      },
+      "engine": "InnoDB",
+      "scope": "id BETWEEN 304062000 AND 304062029 OR spawngroupID BETWEEN 304062000 AND 304062029 OR (zone='brellstemple' AND version IN(-1,1))",
+      "preimage": []
+    },
+    "spawngroup": {
+      "columns": [
+        {
+          "Field": "id",
+          "Type": "int(11)",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "PRI",
+          "Default": null,
+          "Extra": "auto_increment",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "name",
+          "Type": "varchar(200)",
+          "Collation": "latin1_swedish_ci",
+          "Null": "NO",
+          "Key": "UNI",
+          "Default": "",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "spawn_limit",
+          "Type": "tinyint(4)",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "0",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "dist",
+          "Type": "float",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "0",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "max_x",
+          "Type": "float",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "0",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "min_x",
+          "Type": "float",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "0",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "max_y",
+          "Type": "float",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "0",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "min_y",
+          "Type": "float",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "0",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "delay",
+          "Type": "int(11)",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "45000",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "mindelay",
+          "Type": "int(11)",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "15000",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "despawn",
+          "Type": "tinyint(3)",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "0",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "despawn_timer",
+          "Type": "int(11)",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "100",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "wp_spawns",
+          "Type": "tinyint(1) unsigned",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "0",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        }
+      ],
+      "primary_key": [
+        "id"
+      ],
+      "DDL": {
+        "Table": "spawngroup",
+        "Create Table": "CREATE TABLE `spawngroup` (\n  `id` int(11) NOT NULL AUTO_INCREMENT,\n  `name` varchar(200) NOT NULL DEFAULT '',\n  `spawn_limit` tinyint(4) NOT NULL DEFAULT 0,\n  `dist` float NOT NULL DEFAULT 0,\n  `max_x` float NOT NULL DEFAULT 0,\n  `min_x` float NOT NULL DEFAULT 0,\n  `max_y` float NOT NULL DEFAULT 0,\n  `min_y` float NOT NULL DEFAULT 0,\n  `delay` int(11) NOT NULL DEFAULT 45000,\n  `mindelay` int(11) NOT NULL DEFAULT 15000,\n  `despawn` tinyint(3) NOT NULL DEFAULT 0,\n  `despawn_timer` int(11) NOT NULL DEFAULT 100,\n  `wp_spawns` tinyint(1) unsigned NOT NULL DEFAULT 0,\n  PRIMARY KEY (`id`),\n  UNIQUE KEY `name` (`name`)\n) ENGINE=InnoDB AUTO_INCREMENT=304053021 DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci"
+      },
+      "engine": "InnoDB",
+      "scope": "id BETWEEN 304062000 AND 304062029 OR name LIKE 'rof2_fire170_%'",
+      "preimage": []
+    },
+    "spawnentry": {
+      "columns": [
+        {
+          "Field": "spawngroupID",
+          "Type": "int(11)",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "PRI",
+          "Default": "0",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "npcID",
+          "Type": "int(11)",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "PRI",
+          "Default": "0",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "chance",
+          "Type": "smallint(4)",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "0",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "condition_value_filter",
+          "Type": "mediumint(9)",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "1",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "min_time",
+          "Type": "smallint(4)",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "0",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "max_time",
+          "Type": "smallint(4)",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "0",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "min_expansion",
+          "Type": "tinyint(4)",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "-1",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "max_expansion",
+          "Type": "tinyint(4)",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "-1",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "content_flags",
+          "Type": "varchar(100)",
+          "Collation": "latin1_swedish_ci",
+          "Null": "YES",
+          "Key": "",
+          "Default": null,
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "content_flags_disabled",
+          "Type": "varchar(100)",
+          "Collation": "latin1_swedish_ci",
+          "Null": "YES",
+          "Key": "",
+          "Default": null,
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        }
+      ],
+      "primary_key": [
+        "spawngroupID",
+        "npcID"
+      ],
+      "DDL": {
+        "Table": "spawnentry",
+        "Create Table": "CREATE TABLE `spawnentry` (\n  `spawngroupID` int(11) NOT NULL DEFAULT 0,\n  `npcID` int(11) NOT NULL DEFAULT 0,\n  `chance` smallint(4) NOT NULL DEFAULT 0,\n  `condition_value_filter` mediumint(9) NOT NULL DEFAULT 1,\n  `min_time` smallint(4) NOT NULL DEFAULT 0,\n  `max_time` smallint(4) NOT NULL DEFAULT 0,\n  `min_expansion` tinyint(4) NOT NULL DEFAULT -1,\n  `max_expansion` tinyint(4) NOT NULL DEFAULT -1,\n  `content_flags` varchar(100) DEFAULT NULL,\n  `content_flags_disabled` varchar(100) DEFAULT NULL,\n  PRIMARY KEY (`spawngroupID`,`npcID`),\n  KEY `idx_spawnentry_spawngroup_id` (`spawngroupID`),\n  KEY `idx_spawnentry_npc_id` (`npcID`)\n) ENGINE=InnoDB DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci"
+      },
+      "engine": "InnoDB",
+      "scope": "spawngroupID BETWEEN 304062000 AND 304062029 OR npcID BETWEEN 490900 AND 490924",
+      "preimage": []
+    },
+    "doors": {
+      "columns": [
+        {
+          "Field": "id",
+          "Type": "int(11)",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "PRI",
+          "Default": null,
+          "Extra": "auto_increment",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "doorid",
+          "Type": "smallint(4)",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "0",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "zone",
+          "Type": "varchar(32)",
+          "Collation": "latin1_swedish_ci",
+          "Null": "YES",
+          "Key": "MUL",
+          "Default": null,
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "version",
+          "Type": "smallint(5)",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "0",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "name",
+          "Type": "varchar(32)",
+          "Collation": "latin1_swedish_ci",
+          "Null": "NO",
+          "Key": "",
+          "Default": "",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "pos_y",
+          "Type": "float",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "0",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "pos_x",
+          "Type": "float",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "0",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "pos_z",
+          "Type": "float",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "0",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "heading",
+          "Type": "float",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "0",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "opentype",
+          "Type": "smallint(4)",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "0",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "guild",
+          "Type": "smallint(4)",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "0",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "lockpick",
+          "Type": "smallint(4)",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "0",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "keyitem",
+          "Type": "int(11)",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "0",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "nokeyring",
+          "Type": "tinyint(3) unsigned",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "0",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "triggerdoor",
+          "Type": "smallint(4)",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "0",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "triggertype",
+          "Type": "smallint(4)",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "0",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "disable_timer",
+          "Type": "tinyint(2)",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "0",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "doorisopen",
+          "Type": "smallint(4)",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "0",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "door_param",
+          "Type": "int(4)",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "0",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "dest_zone",
+          "Type": "varchar(32)",
+          "Collation": "latin1_swedish_ci",
+          "Null": "YES",
+          "Key": "",
+          "Default": "NONE",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "dest_instance",
+          "Type": "int(10) unsigned",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "0",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "dest_x",
+          "Type": "float",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "0",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "dest_y",
+          "Type": "float",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "0",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "dest_z",
+          "Type": "float",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "0",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "dest_heading",
+          "Type": "float",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "0",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "invert_state",
+          "Type": "int(11)",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "0",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "incline",
+          "Type": "int(11)",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "0",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "size",
+          "Type": "smallint(5) unsigned",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "100",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "buffer",
+          "Type": "float",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "0",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "client_version_mask",
+          "Type": "int(10) unsigned",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "4294967295",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "is_ldon_door",
+          "Type": "smallint(6)",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "0",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "close_timer_ms",
+          "Type": "smallint(8) unsigned",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "5000",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "dz_switch_id",
+          "Type": "int(11)",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "0",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "min_expansion",
+          "Type": "tinyint(4)",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "-1",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "max_expansion",
+          "Type": "tinyint(4)",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "-1",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "content_flags",
+          "Type": "varchar(100)",
+          "Collation": "latin1_swedish_ci",
+          "Null": "YES",
+          "Key": "",
+          "Default": null,
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "content_flags_disabled",
+          "Type": "varchar(100)",
+          "Collation": "latin1_swedish_ci",
+          "Null": "YES",
+          "Key": "",
+          "Default": null,
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        }
+      ],
+      "primary_key": [
+        "id"
+      ],
+      "DDL": {
+        "Table": "doors",
+        "Create Table": "CREATE TABLE `doors` (\n  `id` int(11) NOT NULL AUTO_INCREMENT,\n  `doorid` smallint(4) NOT NULL DEFAULT 0,\n  `zone` varchar(32) DEFAULT NULL,\n  `version` smallint(5) NOT NULL DEFAULT 0,\n  `name` varchar(32) NOT NULL DEFAULT '',\n  `pos_y` float NOT NULL DEFAULT 0,\n  `pos_x` float NOT NULL DEFAULT 0,\n  `pos_z` float NOT NULL DEFAULT 0,\n  `heading` float NOT NULL DEFAULT 0,\n  `opentype` smallint(4) NOT NULL DEFAULT 0,\n  `guild` smallint(4) NOT NULL DEFAULT 0,\n  `lockpick` smallint(4) NOT NULL DEFAULT 0,\n  `keyitem` int(11) NOT NULL DEFAULT 0,\n  `nokeyring` tinyint(3) unsigned NOT NULL DEFAULT 0,\n  `triggerdoor` smallint(4) NOT NULL DEFAULT 0,\n  `triggertype` smallint(4) NOT NULL DEFAULT 0,\n  `disable_timer` tinyint(2) NOT NULL DEFAULT 0,\n  `doorisopen` smallint(4) NOT NULL DEFAULT 0,\n  `door_param` int(4) NOT NULL DEFAULT 0,\n  `dest_zone` varchar(32) DEFAULT 'NONE',\n  `dest_instance` int(10) unsigned NOT NULL DEFAULT 0,\n  `dest_x` float NOT NULL DEFAULT 0,\n  `dest_y` float NOT NULL DEFAULT 0,\n  `dest_z` float NOT NULL DEFAULT 0,\n  `dest_heading` float NOT NULL DEFAULT 0,\n  `invert_state` int(11) NOT NULL DEFAULT 0,\n  `incline` int(11) NOT NULL DEFAULT 0,\n  `size` smallint(5) unsigned NOT NULL DEFAULT 100,\n  `buffer` float NOT NULL DEFAULT 0,\n  `client_version_mask` int(10) unsigned NOT NULL DEFAULT 4294967295,\n  `is_ldon_door` smallint(6) NOT NULL DEFAULT 0,\n  `close_timer_ms` smallint(8) unsigned NOT NULL DEFAULT 5000,\n  `dz_switch_id` int(11) NOT NULL DEFAULT 0,\n  `min_expansion` tinyint(4) NOT NULL DEFAULT -1,\n  `max_expansion` tinyint(4) NOT NULL DEFAULT -1,\n  `content_flags` varchar(100) DEFAULT NULL,\n  `content_flags_disabled` varchar(100) DEFAULT NULL,\n  PRIMARY KEY (`id`) USING BTREE,\n  UNIQUE KEY `DoorIndex` (`zone`,`doorid`,`version`) USING BTREE\n) ENGINE=InnoDB AUTO_INCREMENT=30752021 DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci"
+      },
+      "engine": "InnoDB",
+      "scope": "id BETWEEN 304062000 AND 304062005 OR (zone='brellstemple' AND version IN(-1,1) AND doorid BETWEEN 1 AND 6)",
+      "preimage": []
+    }
+  },
+  "checks": {
+    "instance_namespace": {
+      "SQL": "SELECT COUNT(*) AS n FROM instance_list WHERE zone=490 AND version=1",
+      "count": 0
+    },
+    "dynamic_namespace": {
+      "SQL": "SELECT COUNT(*) AS n FROM dynamic_zones d JOIN instance_list i ON i.id=d.instance_id WHERE i.zone=490 AND i.version=1",
+      "count": 0
+    },
+    "shared_task_consumers": {
+      "SQL": "SELECT COUNT(*) AS n FROM shared_tasks WHERE task_id BETWEEN 920167 AND 920170",
+      "count": 0
+    },
+    "character_task_consumers": {
+      "SQL": "SELECT COUNT(*) AS n FROM character_tasks WHERE taskid BETWEEN 920167 AND 920170",
+      "count": 0
+    },
+    "spawn_disabled": {
+      "SQL": "SELECT COUNT(*) AS n FROM spawn2_disabled WHERE spawn2_id BETWEEN 304062000 AND 304062029",
+      "count": 0
+    },
+    "respawn_state": {
+      "SQL": "SELECT COUNT(*) AS n FROM respawn_times WHERE id BETWEEN 304062000 AND 304062029",
+      "count": 0
+    },
+    "zone_spawn_state": {
+      "SQL": "SELECT COUNT(*) AS n FROM zone_state_spawns WHERE spawn2_id BETWEEN 304062000 AND 304062029 OR spawngroup_id BETWEEN 304062000 AND 304062029",
+      "count": 0
+    },
+    "global_loot_refs": {
+      "SQL": "SELECT COUNT(*) AS n FROM global_loot WHERE loottable_id BETWEEN 304062000 AND 304062012",
+      "count": 0
+    },
+    "pet_refs": {
+      "SQL": "SELECT COUNT(*) AS n FROM pets WHERE npcID BETWEEN 490900 AND 490924",
+      "count": 0
+    }
+  },
+  "world_font_preimage": [
+    {
+      "id": 35650,
+      "doorid": 7,
+      "zone": "brellstemple",
+      "version": 0,
+      "name": "OBJ_DOOR_BRELLS",
+      "pos_y": 711.594,
+      "pos_x": 0.06667,
+      "pos_z": 22.77,
+      "heading": 384.0,
+      "opentype": 77,
+      "guild": 0,
+      "lockpick": 0,
+      "keyitem": 0,
+      "nokeyring": 0,
+      "triggerdoor": 0,
+      "triggertype": 0,
+      "disable_timer": 0,
+      "doorisopen": 0,
+      "door_param": -1,
+      "dest_zone": "NONE",
+      "dest_instance": 0,
+      "dest_x": 0.0,
+      "dest_y": 0.0,
+      "dest_z": 0.0,
+      "dest_heading": 0.0,
+      "invert_state": 0,
+      "incline": 0,
+      "size": 100,
+      "buffer": 0.0,
+      "client_version_mask": 4294967295,
+      "is_ldon_door": 0,
+      "close_timer_ms": 5000,
+      "dz_switch_id": 0,
+      "min_expansion": -1,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    }
+  ]
+}
