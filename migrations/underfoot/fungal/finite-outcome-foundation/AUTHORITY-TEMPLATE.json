@@ -1,0 +1,19 @@
+{
+  "authorization": "NOT_AUTHORIZED_TEMPLATE_ONLY",
+  "phase": "install_or_verify",
+  "manifest_sha256": "EXACT_FINAL_FUNGAL_HELPER_MANIFEST_SHA256",
+  "source_publication_commit": "EXACT_FUTURE_SOURCE_PUBLICATION_COMMIT",
+  "admission_held": false,
+  "owned_consumers_quiesced": false,
+  "config_sha256": "EXACT_CONFIG_SHA256",
+  "expected_database_identity": {
+    "schema_name": "EXACT_SCHEMA",
+    "server_hostname": "EXACT_HOSTNAME",
+    "server_id": 0,
+    "server_port": 3306
+  },
+  "installation_receipt": {
+    "path": "ONLY_FOR_SEPARATE_EMPTY_CREATED_OWNED_RECOVERY",
+    "sha256": "EXACT_RECEIPT_SHA256"
+  }
+}

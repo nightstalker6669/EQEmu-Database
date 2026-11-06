@@ -1,0 +1,169 @@
+{
+  "fungal_item_operations": {
+    "source_file": "001_fungal_item_operations.sql.disabled",
+    "source_sha256": "54ced181fabe842954df65de29179a1f133e5a84ca9c92c866ed827cab9d7063",
+    "columns": [
+      {
+        "name": "outcome_id",
+        "type": "bigint unsigned",
+        "nullable": "NO",
+        "default": null,
+        "extra": "auto_increment"
+      },
+      {
+        "name": "scope",
+        "type": "tinyint unsigned",
+        "nullable": "NO",
+        "default": null,
+        "extra": ""
+      },
+      {
+        "name": "task_id",
+        "type": "int unsigned",
+        "nullable": "NO",
+        "default": null,
+        "extra": ""
+      },
+      {
+        "name": "native_occurrence",
+        "type": "bigint unsigned",
+        "nullable": "NO",
+        "default": null,
+        "extra": ""
+      },
+      {
+        "name": "activity_id",
+        "type": "tinyint unsigned",
+        "nullable": "NO",
+        "default": null,
+        "extra": ""
+      },
+      {
+        "name": "accepted_time",
+        "type": "int unsigned",
+        "nullable": "NO",
+        "default": null,
+        "extra": ""
+      },
+      {
+        "name": "recipient_character",
+        "type": "int unsigned",
+        "nullable": "NO",
+        "default": null,
+        "extra": ""
+      },
+      {
+        "name": "source_token",
+        "type": "binary(16)",
+        "nullable": "NO",
+        "default": null,
+        "extra": ""
+      },
+      {
+        "name": "actor_entity",
+        "type": "int unsigned",
+        "nullable": "NO",
+        "default": null,
+        "extra": ""
+      },
+      {
+        "name": "actor_spawn",
+        "type": "int unsigned",
+        "nullable": "NO",
+        "default": null,
+        "extra": ""
+      },
+      {
+        "name": "actor_npc",
+        "type": "int unsigned",
+        "nullable": "NO",
+        "default": null,
+        "extra": ""
+      },
+      {
+        "name": "source_identity",
+        "type": "varbinary(4096)",
+        "nullable": "NO",
+        "default": null,
+        "extra": ""
+      },
+      {
+        "name": "output_item",
+        "type": "int unsigned",
+        "nullable": "NO",
+        "default": null,
+        "extra": ""
+      },
+      {
+        "name": "output_quantity",
+        "type": "tinyint unsigned",
+        "nullable": "NO",
+        "default": null,
+        "extra": ""
+      },
+      {
+        "name": "output_serial",
+        "type": "int unsigned",
+        "nullable": "NO",
+        "default": null,
+        "extra": ""
+      },
+      {
+        "name": "output_slot",
+        "type": "smallint",
+        "nullable": "NO",
+        "default": null,
+        "extra": ""
+      },
+      {
+        "name": "output_charges",
+        "type": "smallint",
+        "nullable": "NO",
+        "default": null,
+        "extra": ""
+      },
+      {
+        "name": "output_identity",
+        "type": "varbinary(4096)",
+        "nullable": "NO",
+        "default": null,
+        "extra": ""
+      },
+      {
+        "name": "native_ack",
+        "type": "tinyint unsigned",
+        "nullable": "NO",
+        "default": "0",
+        "extra": ""
+      }
+    ],
+    "indexes": {
+      "PRIMARY": {
+        "unique": true,
+        "columns": [
+          "outcome_id"
+        ]
+      },
+      "finite_native_operation": {
+        "unique": true,
+        "columns": [
+          "scope",
+          "task_id",
+          "native_occurrence",
+          "activity_id"
+        ]
+      },
+      "source_token": {
+        "unique": true,
+        "columns": [
+          "source_token"
+        ]
+      }
+    },
+    "checks": {
+      "fungal_finite_operation": " (scope=1 AND task_id=920141 AND activity_id=7 AND output_item=40997 AND output_quantity=1 AND actor_npc=481093) OR (scope=2 AND task_id=920143 AND activity_id=5 AND output_item=43586 AND output_quantity=2 AND actor_npc=481093) OR (scope=2 AND task_id=920143 AND activity_id=10 AND output_item=43587 AND output_quantity=1 AND actor_npc=481052) ",
+      "fungal_positive_identity": "native_occurrence>0 AND accepted_time>0 AND recipient_character>0 AND actor_entity>0 AND actor_spawn>0 AND output_serial>0",
+      "fungal_ack": "native_ack IN (0,1)"
+    }
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "status": "PREPARED_STABLE_SHAPE_SOURCE_ONLY_NOT_EXECUTED",
+  "identity": "fungal-finite-outcome-foundation",
+  "source_handoff_sha256": "91738e3a15e85e8eb217706da2111deec4c490ce262844f0668358b9472244bf",
+  "disabled_DDL_sha256": "54ced181fabe842954df65de29179a1f133e5a84ca9c92c866ed827cab9d7063",
+  "files": {
+    "001_fungal_item_operations.sql.disabled": {
+      "sha256": "54ced181fabe842954df65de29179a1f133e5a84ca9c92c866ed827cab9d7063",
+      "bytes": 1885
+    },
+    "AUTHORITY-TEMPLATE.json": {
+      "sha256": "a7b3ecb3cff7257dd554667c3f488e28d9f9476eccf3b2030f737a8011763083",
+      "bytes": 622
+    },
+    "NAMESPACE-COMPATIBILITY.json": {
+      "sha256": "84a65092fbd2845b696d67260360c8efd7ebf746e8c9b4490d9bcb1c5808c477",
+      "bytes": 959
+    },
+    "README.md": {
+      "sha256": "8626adcc3ac91522a5766c8f1fcf4ca7e294d5d3ddc4b2d9566bc2dc31bab980",
+      "bytes": 2776
+    },
+    "foundation.py": {
+      "sha256": "c631b367bf11826340620762c9acd801f5e504857d4509635e092885a76ecdf5",
+      "bytes": 12337
+    },
+    "foundation_db.py": {
+      "sha256": "76df4478d4119223c65a78a392593b46cd27190084dbe12a7107b205d45b0ad5",
+      "bytes": 1979
+    },
+    "schema-contract.json": {
+      "sha256": "15d68642b17536605e0436de23f1cafe6bbb7e48f3d24b1f7e3775d87ce8976c",
+      "bytes": 4174
+    }
+  },
+  "table": "fungal_item_operations",
+  "actual_conflict": false,
+  "normal_SQL_source_paths": 0,
+  "disabled_DDL_source_paths": 1,
+  "execution_authority": false,
+  "existing_table_alter_or_drop_authority": false,
+  "DBwrites": 0,
+  "tests": 0,
+  "runtime": 0,
+  "source_and_native_acceptance": false,
+  "combined_publication_manifest_sha256": "1222641cc4f5c5213568656b93b3869f18e5acbd8622544d999e45ef0785abff",
+  "combined_source_manifest_sha256": "61c572e884ef263cf8d1f530caeeb3332ef752f2aaee5b530abf1d5e3e6ab6cb",
+  "focused_code_review": "UNDERWAY_NOT_COMPLETED_BY_DATABASE",
+  "mission_release_authority": false
+}

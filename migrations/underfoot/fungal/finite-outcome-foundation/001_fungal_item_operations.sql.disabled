@@ -1,0 +1,35 @@
+-- SOURCE ONLY. Namespace/DDL owner must approve exact shape before application.
+-- No IF NOT EXISTS: an existing object is drift, not permission to reuse it.
+CREATE TABLE fungal_item_operations (
+ outcome_id BIGINT UNSIGNED NOT NULL AUTO_INCREMENT,
+ scope TINYINT UNSIGNED NOT NULL,
+ task_id INT UNSIGNED NOT NULL,
+ native_occurrence BIGINT UNSIGNED NOT NULL,
+ activity_id TINYINT UNSIGNED NOT NULL,
+ accepted_time INT UNSIGNED NOT NULL,
+ recipient_character INT UNSIGNED NOT NULL,
+ source_token BINARY(16) NOT NULL,
+ actor_entity INT UNSIGNED NOT NULL,
+ actor_spawn INT UNSIGNED NOT NULL,
+ actor_npc INT UNSIGNED NOT NULL,
+ source_identity VARBINARY(4096) NOT NULL,
+ output_item INT UNSIGNED NOT NULL,
+ output_quantity TINYINT UNSIGNED NOT NULL,
+ output_serial INT UNSIGNED NOT NULL,
+ output_slot SMALLINT NOT NULL,
+ output_charges SMALLINT NOT NULL,
+ output_identity VARBINARY(4096) NOT NULL,
+ native_ack TINYINT UNSIGNED NOT NULL DEFAULT 0,
+ PRIMARY KEY(outcome_id),
+ UNIQUE KEY finite_native_operation(scope,task_id,native_occurrence,activity_id),
+ UNIQUE KEY source_token(source_token),
+ CONSTRAINT fungal_finite_operation CHECK (
+  (scope=1 AND task_id=920141 AND activity_id=7 AND output_item=40997 AND output_quantity=1 AND actor_npc=481093)
+  OR (scope=2 AND task_id=920143 AND activity_id=5 AND output_item=43586 AND output_quantity=2 AND actor_npc=481093)
+  OR (scope=2 AND task_id=920143 AND activity_id=10 AND output_item=43587 AND output_quantity=1 AND actor_npc=481052)
+ ),
+ CONSTRAINT fungal_positive_identity CHECK(native_occurrence>0 AND accepted_time>0 AND recipient_character>0 AND actor_entity>0 AND actor_spawn>0 AND output_serial>0),
+ CONSTRAINT fungal_ack CHECK(native_ack IN (0,1))
+) ENGINE=InnoDB;
+-- Outcome rows are immutable except native_ack: no REPLACE, delete, regrant,
+-- history-derived insertion, or operation for any other task/stage is supported.
