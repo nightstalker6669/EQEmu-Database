@@ -33,8 +33,28 @@ def expected_rows(target,active=False):
   for t in FLAG_TABLES:
    for z in rows[t]:z['enabled']=1
  return rows
+def projection(t,snap):
+ # FLOAT text output has fewer significant digits than its stored binary32 value.
+ # Widen the stored value in SQL before transmission; the exact binary32 comparator stays unchanged.
+ return ','.join(('CAST('+b.ident(c['Field'])+' AS DOUBLE) AS '+b.ident(c['Field'])) if c['Type'].lower().startswith('float') else b.ident(c['Field']) for c in snap['tables'][t]['columns'])
 def full_scope(q,snap,locking=False):
- return {t:b.query(q,'SELECT * FROM '+b.ident(t)+' WHERE '+s['scope']+(' FOR UPDATE' if locking else '')) for t,s in snap['tables'].items()}
+ return {t:b.query(q,'SELECT '+projection(t,snap)+' FROM '+b.ident(t)+' WHERE '+s['scope']+(' FOR UPDATE' if locking else '')) for t,s in snap['tables'].items()}
+def row_differences(t,actual,expected,snap):
+ keys=snap['tables'][t]['primary_key'];key=lambda z:tuple(z[k] for k in keys)
+ am={key(z):z for z in actual};em={key(z):z for z in expected};diff=[]
+ if len(am)!=len(actual) or len(em)!=len(expected):diff.append({'table':t,'primary_key':None,'column':'*','kind':'duplicate_PK','expected_rows':len(expected),'observed_rows':len(actual)})
+ for pk in sorted(set(am)|set(em),key=repr):
+  a=am.get(pk);e=em.get(pk);identity=dict(zip(keys,pk))
+  if a is None or e is None:diff.append({'table':t,'primary_key':identity,'column':'*','expected':e,'observed':a,'kind':'missing_or_unexpected_row'});continue
+  ac=canonical_row(t,a,snap);ec=canonical_row(t,e,snap)
+  for col in snap['tables'][t]['columns']:
+   k=col['Field']
+   if ac[k]!=ec[k]:diff.append({'table':t,'primary_key':identity,'column':k,'SQL_type':col['Type'],'expected':e[k],'observed':a[k],'expected_schema_canonical':ec[k],'observed_schema_canonical':ac[k]})
+ return diff
+def require_rows(t,actual,expected,snap,receipt_dir,context):
+ if not same(t,actual,expected,snap):
+  b.save(receipt_dir/'postimage-mismatch.private.json',{'context':context,'table':t,'differences':row_differences(t,actual,expected,snap),'expected_full_rows':expected,'observed_full_rows':actual})
+  fail(context+': '+t+'; exact PK/column/expected/observed saved in postimage-mismatch.private.json')
 def check_schema(q,snap):
  for t,s in snap['tables'].items():
   if b.query(q,'SHOW FULL COLUMNS FROM '+b.ident(t))!=s['columns']:fail('Schema drift: '+t)
@@ -113,9 +133,9 @@ def main():
    for t,rows in before.items():
     if args.phase=='stage':
      if rows:fail('Staging namespace now occupied: '+t)
-    elif not same(t,rows,want[t],snap):fail('Owned full postimage/foreign references changed: '+t)
+    else:require_rows(t,rows,want[t],snap,args.receipt_dir,'Owned full postimage/foreign references changed')
    expected_world=world_expected(snap,target,start_active)
-   if not same('doors',wb,[expected_world],snap):fail('Existing world Font preimage changed')
+   require_rows('doors',wb,[expected_world],snap,args.receipt_dir,'Existing world Font preimage changed')
    b.save(args.receipt_dir/'before.private.json',{'tables':before,'world_font':wb})
    if args.phase=='stage':
     for t,rows in target['tables'].items():
@@ -132,8 +152,8 @@ def main():
       if q.rowcount!=1:fail('Guarded delete row count mismatch')
    after=full_scope(q,snap,True);wa=b.query(q,'SELECT * FROM doors WHERE id=35650');endactive=args.phase=='activate';expected=expected_rows(target,endactive)
    for t,rows in after.items():
-    if not same(t,rows,[] if args.phase=='rollback_stage' else expected[t],snap):fail('In-transaction full postimage mismatch: '+t)
-   if not same('doors',wa,[world_expected(snap,target,endactive)],snap):fail('World postimage mismatch')
+    require_rows(t,rows,[] if args.phase=='rollback_stage' else expected[t],snap,args.receipt_dir,'In-transaction full postimage mismatch')
+   require_rows('doors',wa,[world_expected(snap,target,endactive)],snap,args.receipt_dir,'World postimage mismatch')
    no_consumers(q,snap,args.phase=='activate');conn.commit();committed=True;result['commit_returned']=True;b.save(args.receipt_dir/'committed.private.json',{'phase':args.phase,'commit_returned':True})
   conn.close();conn=None
   # Independent fresh read-only proof, closed before returning.
@@ -141,8 +161,8 @@ def main():
   with conn.cursor() as q:
    identity(q,authority);q.execute('SET TRANSACTION READ ONLY');q.execute('START TRANSACTION WITH CONSISTENT SNAPSHOT');after=full_scope(q,snap);wa=b.query(q,'SELECT * FROM doors WHERE id=35650');check_schema(q,snap)
    for t,rows in after.items():
-    if not same(t,rows,[] if args.phase=='rollback_stage' else expected[t],snap):fail('Independent postimage mismatch: '+t)
-   if not same('doors',wa,[world_expected(snap,target,endactive)],snap):fail('Independent world postimage mismatch')
+    require_rows(t,rows,[] if args.phase=='rollback_stage' else expected[t],snap,args.receipt_dir,'Independent postimage mismatch')
+   require_rows('doors',wa,[world_expected(snap,target,endactive)],snap,args.receipt_dir,'Independent world postimage mismatch')
    b.save(args.receipt_dir/'independent-postimages.private.json',{'tables':after,'world_font':wa});conn.rollback();result['status']='COMMITTED_INDEPENDENT_EXACT_POSTIMAGE_PASS'
  except BaseException as exc:
   result.update(error_type=type(exc).__name__,error=str(exc),commit_returned=committed);raise

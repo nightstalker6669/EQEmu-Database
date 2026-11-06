@@ -44,5 +44,11 @@
     "failed_stage001_independent_disposition_sha256": "985228fe17e2498d1dfb6fb2c16066584bcc2f117213352b454687ca3fc610a5",
     "fresh_stage002_authority_required": true
   },
-  "cache_restart_plan_sha256": "5d3f61bde6e456295553c539bcddfc8db037dda55ad95ed97bd55cdb3f619690"
+  "cache_restart_plan_sha256": "5d3f61bde6e456295553c539bcddfc8db037dda55ad95ed97bd55cdb3f619690",
+  "float_comparator_revision": {
+    "literal_wire_proof_sha256": "01a131892aa4d2332a525115fed2bd757a7708c3ed3d98dcdcd637e0ded7b8d2",
+    "failed_stage002_disposition_sha256": "b716ea0ca8c9d9880002735178155d1a2864032d2ec64b2c27d532488ecd8f12",
+    "scope": "SQL read-projection FLOAT-to-DOUBLE only,exact comparator unchanged;durable difference diagnostics;targets/schema/preimages untouched.",
+    "new_stage_authority_required": true
+  }
 }

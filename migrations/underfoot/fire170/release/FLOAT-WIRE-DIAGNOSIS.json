@@ -1,0 +1,35 @@
+{
+  "status": "FLOAT_TEXT_WIRE_COMPARATOR_DEFECT_REPRODUCED_WITH_ONE_READ_ONLY_LITERAL_SELECT",
+  "SQL_literals": {
+    "negative": -9999999,
+    "positive": 9999999
+  },
+  "native_FLOAT_text_values": {
+    "negative": -10000000.0,
+    "positive": 10000000.0
+  },
+  "same_stored_FLOAT_widened_to_DOUBLE_values": {
+    "negative": -9999999.0,
+    "positive": 9999999.0
+  },
+  "expected_binary32_bits": {
+    "min": "cb18967f",
+    "max": "4b18967f"
+  },
+  "observed_binary32_bits": {
+    "text_float_min": "cb189680",
+    "widened_float_min": "cb18967f",
+    "text_float_max": "4b189680",
+    "widened_float_max": "4b18967f"
+  },
+  "private_literal_receipt_sha256": "01a131892aa4d2332a525115fed2bd757a7708c3ed3d98dcdcd637e0ded7b8d2",
+  "correction": "Read each schema FLOAT column as CAST(column AS DOUBLE),then retain original exact schema float32 canonical comparison. No tolerance/range change. All non-FLOAT columns read directly.",
+  "future_failure_diagnostics": "Durable table/PK/column/SQLtype/expected/observed/canonical values plus full failing rows before rollback.",
+  "stage002_evidence_boundary": "Actual in-transaction rejected rows were not retained; failing table and identical configured FLOAT bounds plus literal reproduction identify the comparator defect without claiming recovered stage002 cells.",
+  "stage002_rollback_disposition_sha256": "b716ea0ca8c9d9880002735178155d1a2864032d2ec64b2c27d532488ecd8f12",
+  "target_bounds_changed": false,
+  "stage_retry": false,
+  "DBwrites": 0,
+  "read_only_literal_SELECT_count": 1,
+  "tests": 0
+}
