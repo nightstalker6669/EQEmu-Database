@@ -1,0 +1,15 @@
+--- a/zone/research_tablet335_actor.h
++++ b/zone/research_tablet335_actor.h
+@@ -3,10 +3,10 @@
+ #include "common/skills.h"
+ #include <cstdint>
+ 
+-// Only the exact335 source-qualified RRC275 formula IDs, not a global research policy.
++// Only the exact715 source-qualified RRC275/RRC276 formula IDs, not a global research policy.
+ namespace ResearchTablet335 {
+ inline constexpr bool Selected(std::uint32_t recipe_id) {
+- return recipe_id >= 3100656 && recipe_id <= 3100990;
++ return recipe_id >= 3100656 && recipe_id <= 3101370;
+ }
+ inline bool Allows(std::uint32_t recipe_id, std::uint16_t skill, std::uint8_t maker_class,
+  std::uint32_t kit_id, std::uint8_t bag_type, std::uint8_t bag_slots, std::uint8_t bag_size) {
