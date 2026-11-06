@@ -1,0 +1,109 @@
+--- a/zone/tradeskills.cpp
++++ b/zone/tradeskills.cpp
+@@ -16,6 +16,7 @@
+ 	along with this program. If not, see <http://www.gnu.org/licenses/>.
+ */
+ #include "client.h"
++#include "tanaan_forge28_actor.h"
+ #include "world_loom13_actor.h"
+ #include "gnomish_tailoring35_actor.h"
+ #include "cultural_armor_bulk_actor.h"
+@@ -488,6 +489,23 @@
+ 		}
+ 	}
+ 
++	// Exact source Tanaan Forge routes: an inventory bag is not authority.
++	if (const auto* requirement = TanaanForge28::Find(spec.recipe_id)) {
++		auto* station = worldcontainer ? worldo : nullptr;
++		const auto* item = station && station->m_inst ? station->m_inst->GetItem() : nullptr;
++		if (!station || station != user->GetTradeskillObject() || station->user != user ||
++			!station->m_inst || !station->m_inst->IsType(EQ::item::ItemClassBag) ||
++			!TanaanForge28::Allows(*requirement, spec.tradeskill, zone->GetZoneID(),
++				zone->GetInstanceVersion(), station->GetDBID(), station->GetType(),
++				item ? item->ID : 0, EQ::invtype::WORLD_SIZE)) {
++			user->Message(Chat::Red, "This recipe requires a Tanaan forge in the Plane of Knowledge.");
++			auto* denied = new EQApplicationPacket(OP_TradeSkillCombine, 0);
++			user->QueuePacket(denied);
++			safe_delete(denied);
++			return;
++		}
++	}
++
+ 	// Character hasn't learnt the recipe yet.
+ 	// must_learn:
+ 	// bit 1 (0x01): recipe can't be experimented
+@@ -752,6 +770,23 @@
+ 				zone->GetInstanceVersion(), station->GetDBID(), station->GetType(),
+ 				item ? item->ID : 0, EQ::invtype::WORLD_SIZE)) {
+ 			user->Message(Chat::Red, "This recipe requires the loom in the Plane of Knowledge.");
++			user->QueuePacket(outapp);
++			safe_delete(outapp);
++			return;
++		}
++	}
++
++	if (const auto* requirement = TanaanForge28::Find(spec.recipe_id)) {
++		// Use the actual owned open native world object, never packet IDs alone.
++		auto* station = user->GetTradeskillObject();
++		const auto* item = station && station->m_inst ? station->m_inst->GetItem() : nullptr;
++		if (!station || station->user != user || !station->m_inst ||
++			!station->m_inst->IsType(EQ::item::ItemClassBag) ||
++			rac->object_type != station->GetType() ||
++			!TanaanForge28::Allows(*requirement, spec.tradeskill, zone->GetZoneID(),
++				zone->GetInstanceVersion(), station->GetDBID(), station->GetType(),
++				item ? item->ID : 0, EQ::invtype::WORLD_SIZE)) {
++			user->Message(Chat::Red, "This recipe requires a Tanaan forge in the Plane of Knowledge.");
+ 			user->QueuePacket(outapp);
+ 			safe_delete(outapp);
+ 			return;
+--- /dev/null
++++ b/zone/tanaan_forge28_actor.h
+@@ -0,0 +1,48 @@
++#pragma once
++#include "common/skills.h"
++#include <cstdint>
++// RRC291 exact world-only bodies. No other Smithing is gated here.
++namespace TanaanForge28 {
++struct Requirement {std::uint32_t recipe_id,minimum_slots;};
++inline constexpr Requirement Requirements[] = {
++ {3102554,6},
++ {3102555,8},
++ {3102556,8},
++ {3102557,9},
++ {3102558,7},
++ {3102559,8},
++ {3102560,8},
++ {3102561,8},
++ {3102562,9},
++ {3102563,8},
++ {3102564,9},
++ {3102565,7},
++ {3102566,8},
++ {3102567,8},
++ {3102568,8},
++ {3102569,9},
++ {3102570,8},
++ {3102571,9},
++ {3102572,7},
++ {3102573,8},
++ {3102574,8},
++ {3102575,8},
++ {3102576,9},
++ {3102577,8},
++ {3102578,9},
++ {3102579,7},
++ {3102580,8},
++ {3102581,8},
++};
++inline const Requirement* Find(std::uint32_t id) noexcept {
++ for(const auto& r:Requirements)if(r.recipe_id==id)return &r;
++ return nullptr;
++}
++inline bool Allows(const Requirement& r,std::uint32_t skill,std::uint32_t zone,
++ std::uint32_t version,std::uint32_t object_db_id,std::uint32_t object_type,
++ std::uint32_t actual_item_id,std::uint32_t actual_world_slots) noexcept {
++ return skill==static_cast<std::uint32_t>(EQ::skills::SkillBlacksmithing)&&
++  zone==202&&version==0&&(object_db_id==103175||object_db_id==103185||object_db_id==103186||object_db_id==103190)&&object_type==17&&
++  actual_item_id==0&&actual_world_slots>=r.minimum_slots;
++}
++}

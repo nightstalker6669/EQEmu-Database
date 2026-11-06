@@ -1,0 +1,31 @@
+{
+  "failed_attempt001": {
+    "status": "STOPPED_NO_RETRY",
+    "SQL_invocations": 1,
+    "published_commit": "564204babb578d5618f6f036e1f03a2b76255943",
+    "source_sha256": "2f705fd08bb9f39c6930e7848cc2cc54fc9a5572c8751fc7d817c432b99be320",
+    "package_manifest_sha256": "fc6b6efa40704dcfd0c316fa0b71b0eb079da38d5c1a497f8aa1c386d68b6587"
+  },
+  "failed_attempt001_audit": {
+    "status": "EXACT_PREIMAGE_UNCHANGED_AFTER_FAILED001_TRANSACTION_CLOSED",
+    "after_counts": {
+      "recipes": 34159,
+      "entries": 259651
+    },
+    "new_recipe_rows": 0,
+    "existing_recipes_entries_learned_unchanged": true,
+    "in_transaction": 0,
+    "readback_sha256": "fc75ad35fe9395e80071e56930688c79f27985bcea717008fa8bca17ad834588",
+    "automatic_retry": false,
+    "inverse_executed": false,
+    "source_failure": "All-state full-input collision; exact counterpart classification follows separately."
+  },
+  "successful_attempt002": {
+    "status": "APPLIED_VERIFIED",
+    "SQL_invocations": 1,
+    "published_commit": "c10f90eecd090e8025fa86fa5a72b9ef529273e8",
+    "source_sha256": "8fa5dc4c2f39c121586fe78c0898be0e3b73b1036c4d8cddb7ad0c08f0a9c385",
+    "package_manifest_sha256": "e52da74c1d804269c25c0978978862987e78e6a201d72f1c80bc03159c1eaf10"
+  },
+  "revision_boundary": "Strictfullinputguard caught duplicate two sourceviews;exactzerochangereadback/closed preserved. Canonical3102545yields10468brick1+22229pieces2 from6934x1+13006x1;43selectedsourceviews\u219242physicalrecipes. Removedonlyduplicate3102553+5entries;ID3102553unassigned/notreused. All28actorselectors unchanged;freshpublishedr2/separateexplicit002GO,notautomaticretry/inverse."
+}
