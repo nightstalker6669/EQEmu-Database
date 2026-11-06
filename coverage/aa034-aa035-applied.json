@@ -1,0 +1,189 @@
+{
+  "format_version": 1,
+  "features": [
+    "AA034",
+    "AA035"
+  ],
+  "application_status": "BOTH_APPLIED_VERIFIED_INDEPENDENT_FULL_POSTIMAGES_SEQUENTIAL_CLOSED",
+  "application_order": [
+    "AA034",
+    "AA035"
+  ],
+  "SQL_invocations": 2,
+  "SQL_invocations_each": 1,
+  "ranks_added": 2,
+  "effects_added": 1,
+  "prereqs_added": 0,
+  "existing_spell_player_writes": 0,
+  "runtime_cache_actions": 0,
+  "actuals": {
+    "AA034": {
+      "status": "APPLIED_VERIFIED_INDEPENDENT_FULL_POSTIMAGES",
+      "source_commit": "b081023477bb908731aad93ac7e1c44657ee06e7",
+      "forward_sha256": "415f7d9a8429a04136aeaf95c42613a2d1c4c6e4f9b86a57322ce383e8cea34e",
+      "SQL_invocations": 1,
+      "ranks_added": 1,
+      "effects_added": 0,
+      "prereqs_added": 0,
+      "existing_rows_updated": 0,
+      "player_ownership_points_charges_writes": 0,
+      "runtime_cache_actions": 0,
+      "qualified_encoding": "Inherited timer13/reuse4320/hotkeys1337; periodcost15/level93/VoA18/spell32383 binding only, no historicalspellcontent parity/nativeacceptance. Prereqs308/3+1685/1 retained via loaderinheritance. Finite next=-1/not historicalterminal;later IDs held.",
+      "native_acceptance": false,
+      "packet": {
+        "packet": "AA034",
+        "ability_id": 452,
+        "name": "Prolonged Destruction",
+        "ordinal": 8,
+        "target": 14339,
+        "root": 1337,
+        "predecessor": 14338,
+        "cost": 15,
+        "level": 93,
+        "expansion": 18,
+        "spell": 32383,
+        "timer": 13,
+        "reuse": 4320,
+        "added_prereqs": 0,
+        "pre_prereqs": [
+          {
+            "rank_id": 14338,
+            "aa_id": 308,
+            "points": 3
+          },
+          {
+            "rank_id": 14338,
+            "aa_id": 1685,
+            "points": 1
+          }
+        ],
+        "sql": "utils/sql/aa/2026_11_05_prolonged_destruction_rank8.sql",
+        "rollback": "utils/sql/aa/rollback/2026_11_05_prolonged_destruction_rank8.sql",
+        "period_source": {
+          "url": "https://everquest.allakhazam.com/wiki/EQ:Prolonged_Destruction?oldid=449119",
+          "revision": "2012-11-10 19:23:30",
+          "method": "Actual Chrome rendered dated overview/scoped rows7..9"
+        },
+        "sql_sha256": "415f7d9a8429a04136aeaf95c42613a2d1c4c6e4f9b86a57322ce383e8cea34e",
+        "rollback_sha256": "63eb93d8fed78d3a20d67845bb8504fe7a1e0dcc488e373e50e2907307e8a341"
+      },
+      "independent_full_postimages_verified": true,
+      "connections_closed": true
+    },
+    "AA035": {
+      "status": "APPLIED_VERIFIED_INDEPENDENT_FULL_POSTIMAGES",
+      "source_commit": "b081023477bb908731aad93ac7e1c44657ee06e7",
+      "forward_sha256": "91e8b83b7ad8d4b68a31b167eb3495e4659bd028db680cfd6f6a0a50ba02cc88",
+      "SQL_invocations": 1,
+      "ranks_added": 1,
+      "effects_added": 1,
+      "prereqs_added": 0,
+      "existing_rows_updated": 0,
+      "player_ownership_points_charges_writes": 0,
+      "runtime_cache_actions": 0,
+      "qualified_encoding": "Allegretto ordinal2/native14182 prefix only; inherited SPA247slot1/base2=20(DoubleAttack), cumulative cap50 from period25perrank;cost11/level92/VoA18/passive-1. Prereqs3837/12 and1685/1 unchanged/inherited. Vivace810 Allegretto5 requirement unchanged/unresolved;higher3\u20135nativeIDs held. Finite next=-1/not historicalterminal;no fullchain/nativeacceptance claim.",
+      "native_acceptance": false,
+      "packet": {
+        "packet": "AA035",
+        "ability_id": 809,
+        "name": "Allegretto of Battle",
+        "ordinal": 2,
+        "cost": 11,
+        "level": 92,
+        "expansion": 18,
+        "slug": "Allegretto_of_Battle",
+        "ability": {
+          "id": 809,
+          "name": "Allegretto of Battle",
+          "category": -1,
+          "classes": 128,
+          "races": 65535,
+          "drakkin_heritage": 127,
+          "deities": 131071,
+          "status": 0,
+          "type": 3,
+          "charges": 0,
+          "grant_only": 0,
+          "first_rank_id": 14181,
+          "enabled": 1,
+          "reset_on_death": 0,
+          "auto_grant_enabled": 1
+        },
+        "predecessor": {
+          "id": 14181,
+          "upper_hotkey_sid": -1,
+          "lower_hotkey_sid": -1,
+          "title_sid": 14181,
+          "desc_sid": 14181,
+          "cost": 9,
+          "level_req": 91,
+          "spell": -1,
+          "spell_type": 0,
+          "recast_time": 0,
+          "expansion": 18,
+          "prev_id": -1,
+          "next_id": 14182
+        },
+        "target": 14182,
+        "pre_effects": [
+          {
+            "rank_id": 14181,
+            "slot": 1,
+            "effect_id": 247,
+            "base1": 25,
+            "base2": 20
+          }
+        ],
+        "pre_prereqs": [
+          {
+            "rank_id": 14181,
+            "aa_id": 1685,
+            "points": 1
+          },
+          {
+            "rank_id": 14181,
+            "aa_id": 3837,
+            "points": 12
+          }
+        ],
+        "new_effects": [
+          {
+            "rank_id": 14182,
+            "slot": 1,
+            "effect_id": 247,
+            "base1": 50,
+            "base2": 20
+          }
+        ],
+        "period_source": {
+          "url": "https://everquest.allakhazam.com/wiki/EQ:Allegretto_of_Battle?oldid=450866",
+          "revision": "2012-11-23 23:23:55",
+          "method": "Reused previously rendered dated-source receipt; no repeated browser/donor lookup"
+        },
+        "limits": "Only known native14182. Higher3..5IDs unestablished; Vivace810 prerequisite5 remains unchanged/unresolved. No full-chain fix claim.",
+        "sql": "utils/sql/aa/2026_11_05_allegretto_rank2.sql",
+        "rollback": "utils/sql/aa/rollback/2026_11_05_allegretto_rank2.sql",
+        "sql_sha256": "91e8b83b7ad8d4b68a31b167eb3495e4659bd028db680cfd6f6a0a50ba02cc88",
+        "rollback_sha256": "4ef560f2d3730ea375a2cfc20dd8ddedd96ce9b8a0480c28aaa2a930a39176fc"
+      },
+      "independent_full_postimages_verified": true,
+      "connections_closed": true
+    }
+  },
+  "material_qualifications": [
+    "Prolonged Destruction inherited308/3+1685/1, timer13/reuse4320;spell32383 binding only, current full row preserved, no historical content-parity/native acceptance.",
+    "Allegretto2 native14182 only, SPA247 cumulativeDoubleAttackcap50/base2skill20, inherited3837/12+1685/1. Vivace810 Allegretto5 unchanged/unresolved;higher3\u20135nativeIDs held;no full-chain repair.",
+    "Finite next=-1 bounds reconstruction, not historical termination."
+  ],
+  "native_acceptance": false,
+  "scope_complete": false,
+  "source_documents": "Six exact published source files retained; preparation labels historical. Aggregate curated actual establishes later authorized closed applications.",
+  "rollback": "Each exact published inverse retained/unexecuted; separateGO/originalpostimage+ownership refusal required. No replay/inverse/player edits.",
+  "prior_locally_confirmed_published_normal_SQL_source_paths": 802,
+  "earlier_pending_normal_SQL_source_paths": 4,
+  "new_normal_SQL_source_paths": 4,
+  "normal_SQL_source_paths_after_all_pending_publications": 810,
+  "SQL_path_count_meaning": "Source paths, not application count.",
+  "history_archives_preserved": true,
+  "QA39999_production_exclusion_retained": true
+}
