@@ -1,0 +1,19 @@
+{
+  "authorization": "NOT_AUTHORIZED_TEMPLATE_ONLY",
+  "phase": "forward",
+  "manifest_sha256": "EXACT_CORRECTIVE_HELPER_MANIFEST_SHA256",
+  "source_publication_commit": "EXACT_40CHAR_SOURCE_PUBLICATION_COMMIT",
+  "admission_held": false,
+  "zero_clients_verified": false,
+  "admission_hold_receipt": {
+    "path": "ACTUAL_MATCHED_HOLD_RECEIPT",
+    "sha256": "EXACT_SHA256"
+  },
+  "config_sha256": "EXACT_CONFIG_SHA256",
+  "expected_database_identity": {
+    "schema_name": "EXACT_SCHEMA",
+    "server_hostname": "EXACT_HOSTNAME",
+    "server_id": 0,
+    "server_port": 3306
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "status": "PREPARED_CORRECTIVE_SOURCE_ONLY_NOT_APPLIED",
+  "identity": "fire170-five-item-reward-type-correction",
+  "files": {
+    "AUTHORITY-TEMPLATE.json": {
+      "sha256": "e6ae214ec6bcf0ff8cb0a31ac277ccd803862d3f9181f8ed2f19a217ae5af137",
+      "bytes": 582
+    },
+    "README.md": {
+      "sha256": "fad98daabe34a051f95475d549f79efae0bed3b86ab49a91e123c52ec01c2f98",
+      "bytes": 1958
+    },
+    "apply.sql": {
+      "sha256": "d34b3fb0d70ad063ce971b4cc68ce629c90bc53dc1e1799b82a666a9f7bd040e",
+      "bytes": 25438
+    },
+    "contract.json": {
+      "sha256": "fc3a7c3bd6e15cc6c8a2cac67e4b0cd09c997856d426a4fed7fc6191fd3c40e1",
+      "bytes": 18554
+    },
+    "correct.py": {
+      "sha256": "c139463e43d0dfda3fbed41474438451bb80ffd09ec75bd892dafacb0509d09f",
+      "bytes": 6855
+    },
+    "fire170_db.py": {
+      "sha256": "76df4478d4119223c65a78a392593b46cd27190084dbe12a7107b205d45b0ad5",
+      "bytes": 1979
+    },
+    "rollback.sql": {
+      "sha256": "a8d5d9fb6ad39069b2bc5b7fc935af101ea128964892565bc7befc7de778ef63",
+      "bytes": 25439
+    }
+  },
+  "reward_type_transition": "Five exact1to0;nativeItem0/Experience1",
+  "normal_SQL_source_paths": 2,
+  "execution_authority": "Separate forward/rollback GOs required;actual hold/zero-client proof;no execution authorized here.",
+  "DBqueries": 0,
+  "DBwrites": 0,
+  "tests": 0,
+  "runtime": 0
+}

@@ -1,0 +1,9 @@
+# Fire170 five item-reward type correction
+
+Native Item is0, Experience is1. Correct only rewards3839201702–3839201706 reward_type1to0 for intended items119688/119706/119727/119691/47759. The five complete source pre/postimages come from independent activation002 rows. No amounts, enabled flags, four Brellium AlternateCurrency type4 rewards, options, entries, class masks, task definitions or existing sole delivery ledger change.
+
+apply.sql and rollback.sql are source only. correct.py opens no DB connection by default. Actual forward execution requires a separate published one-use coordinator GO, exact actual admission-hold/zero-client receipt and config/target identity. Before mutation it captures fresh exact complete rows/schema/PKs for the bounded reward catalogue and writes a durable backup. It invokes the exact published anonymous SQL block once: strict SERIALIZABLE transaction, exact scope/full-row guards, five full-row CAS updates and full postimage checks. The helper then closes that connection and independently verifies all bounded complete postimages on a fresh read-only connection. No retries or inverse run automatically; an uncertain COMMIT stops.
+
+Rollback requires separate exact authority and the corrected five full postimages. It restores the prior source reward_type1 encoding only; it is not a player reward reversal or delivery replay. Existing player/custody/delivery history is never modified. Build owns one scoped catalogue reload after forward correction; admission remains held until actual reload proof and coordinator release. No stop/rebuild/start, new reward path, tests or broad audit is included.
+
+The adjacent release target metadata is corrected in the same publication for future source consistency. This package does not re-stage or re-activate the254rows. Prior foundation/stage/activation receipts remain historical; actual correction has its own one-use receipt. Native acceptance remains unclaimed.

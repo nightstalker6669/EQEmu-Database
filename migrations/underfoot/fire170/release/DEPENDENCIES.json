@@ -82,5 +82,12 @@
     ],
     "correction": "Every FLOAT column in full Font predicate binds CAST(parameter AS FLOAT);all non-FLOAT predicates unchanged;no epsilon/missing fields or targetcoordinate edits.",
     "requires_fresh_published_revision_and_explicit_activate002_GO": true
+  },
+  "reward_item_type_correction": {
+    "correction_source_sha256": "ae890eee50749b89e4cdcaa5268519e73bf5828060a3597b1052db2e069c3fc8",
+    "corrective_helper_manifest_sha256": "2959f3e05baf76dff72f475a6844deb4622e765cfa784a15f855ea745a60521a",
+    "target_changes": "Five reward_type1to0 only;enabled0 staging convention retained in targetmetadata. Actual currentlyenabled rows updated only by separately authorized correction.",
+    "native_kind": "Item0/Experience1",
+    "same_sole_existing_delivery_ledger": true
   }
 }

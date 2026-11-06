@@ -1,0 +1,719 @@
+{
+  "selected_reward_ids": [
+    3839201702,
+    3839201703,
+    3839201704,
+    3839201705,
+    3839201706
+  ],
+  "updates": [
+    {
+      "table": "rewards",
+      "primary_key": {
+        "reward_id": 3839201702
+      },
+      "before": {
+        "reward_id": 3839201702,
+        "reward_type": 1,
+        "reward_data_id": 119688,
+        "amount": 1,
+        "description": "Shared Bloodlust",
+        "enabled": 1
+      },
+      "after": {
+        "reward_id": 3839201702,
+        "reward_type": 0,
+        "reward_data_id": 119688,
+        "amount": 1,
+        "description": "Shared Bloodlust",
+        "enabled": 1
+      }
+    },
+    {
+      "table": "rewards",
+      "primary_key": {
+        "reward_id": 3839201703
+      },
+      "before": {
+        "reward_id": 3839201703,
+        "reward_type": 1,
+        "reward_data_id": 119706,
+        "amount": 1,
+        "description": "Call Skeleton Swarm",
+        "enabled": 1
+      },
+      "after": {
+        "reward_id": 3839201703,
+        "reward_type": 0,
+        "reward_data_id": 119706,
+        "amount": 1,
+        "description": "Call Skeleton Swarm",
+        "enabled": 1
+      }
+    },
+    {
+      "table": "rewards",
+      "primary_key": {
+        "reward_id": 3839201704
+      },
+      "before": {
+        "reward_id": 3839201704,
+        "reward_type": 1,
+        "reward_data_id": 119727,
+        "amount": 1,
+        "description": "Splash of Brimstone",
+        "enabled": 1
+      },
+      "after": {
+        "reward_id": 3839201704,
+        "reward_type": 0,
+        "reward_data_id": 119727,
+        "amount": 1,
+        "description": "Splash of Brimstone",
+        "enabled": 1
+      }
+    },
+    {
+      "table": "rewards",
+      "primary_key": {
+        "reward_id": 3839201705
+      },
+      "before": {
+        "reward_id": 3839201705,
+        "reward_type": 1,
+        "reward_data_id": 119691,
+        "amount": 1,
+        "description": "Holy Contravention",
+        "enabled": 1
+      },
+      "after": {
+        "reward_id": 3839201705,
+        "reward_type": 0,
+        "reward_data_id": 119691,
+        "amount": 1,
+        "description": "Holy Contravention",
+        "enabled": 1
+      }
+    },
+    {
+      "table": "rewards",
+      "primary_key": {
+        "reward_id": 3839201706
+      },
+      "before": {
+        "reward_id": 3839201706,
+        "reward_type": 1,
+        "reward_data_id": 47759,
+        "amount": 1,
+        "description": "Keystone",
+        "enabled": 1
+      },
+      "after": {
+        "reward_id": 3839201706,
+        "reward_type": 0,
+        "reward_data_id": 47759,
+        "amount": 1,
+        "description": "Keystone",
+        "enabled": 1
+      }
+    }
+  ],
+  "context": {
+    "rewards": {
+      "scope": "reward_id IN(3839201671,3839201681,3839201691,3839201701,3839201702,3839201703,3839201704,3839201705,3839201706)",
+      "rows": [
+        {
+          "reward_id": 3839201671,
+          "reward_type": 4,
+          "reward_data_id": 21,
+          "amount": 40,
+          "description": "40 Brellium Tokens",
+          "enabled": 1
+        },
+        {
+          "reward_id": 3839201681,
+          "reward_type": 4,
+          "reward_data_id": 21,
+          "amount": 40,
+          "description": "40 Brellium Tokens",
+          "enabled": 1
+        },
+        {
+          "reward_id": 3839201691,
+          "reward_type": 4,
+          "reward_data_id": 21,
+          "amount": 20,
+          "description": "20 Brellium Tokens",
+          "enabled": 1
+        },
+        {
+          "reward_id": 3839201701,
+          "reward_type": 4,
+          "reward_data_id": 21,
+          "amount": 80,
+          "description": "80 Brellium Tokens",
+          "enabled": 1
+        },
+        {
+          "reward_id": 3839201702,
+          "reward_type": 1,
+          "reward_data_id": 119688,
+          "amount": 1,
+          "description": "Shared Bloodlust",
+          "enabled": 1
+        },
+        {
+          "reward_id": 3839201703,
+          "reward_type": 1,
+          "reward_data_id": 119706,
+          "amount": 1,
+          "description": "Call Skeleton Swarm",
+          "enabled": 1
+        },
+        {
+          "reward_id": 3839201704,
+          "reward_type": 1,
+          "reward_data_id": 119727,
+          "amount": 1,
+          "description": "Splash of Brimstone",
+          "enabled": 1
+        },
+        {
+          "reward_id": 3839201705,
+          "reward_type": 1,
+          "reward_data_id": 119691,
+          "amount": 1,
+          "description": "Holy Contravention",
+          "enabled": 1
+        },
+        {
+          "reward_id": 3839201706,
+          "reward_type": 1,
+          "reward_data_id": 47759,
+          "amount": 1,
+          "description": "Keystone",
+          "enabled": 1
+        }
+      ],
+      "columns": [
+        {
+          "Field": "reward_id",
+          "Type": "int(10) unsigned",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "PRI",
+          "Default": null,
+          "Extra": "auto_increment",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "reward_type",
+          "Type": "tinyint(3) unsigned",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": null,
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "reward_data_id",
+          "Type": "int(10) unsigned",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "0",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "amount",
+          "Type": "bigint(20) unsigned",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "1",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "description",
+          "Type": "varchar(255)",
+          "Collation": "utf8mb4_general_ci",
+          "Null": "NO",
+          "Key": "",
+          "Default": "",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "enabled",
+          "Type": "tinyint(1) unsigned",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "1",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        }
+      ],
+      "primary_key": [
+        "reward_id"
+      ]
+    },
+    "reward_sets": {
+      "scope": "reward_set_id BETWEEN 920167 AND 920170",
+      "rows": [
+        {
+          "reward_set_id": 920167,
+          "title": "The Laws of Physics",
+          "enabled": 1
+        },
+        {
+          "reward_set_id": 920168,
+          "title": "This Magic Moment",
+          "enabled": 1
+        },
+        {
+          "reward_set_id": 920169,
+          "title": "Give my creation. . . Life!",
+          "enabled": 1
+        },
+        {
+          "reward_set_id": 920170,
+          "title": "Fire in the Hole",
+          "enabled": 1
+        }
+      ],
+      "columns": [
+        {
+          "Field": "reward_set_id",
+          "Type": "int(10) unsigned",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "PRI",
+          "Default": null,
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "title",
+          "Type": "varchar(255)",
+          "Collation": "utf8mb4_general_ci",
+          "Null": "NO",
+          "Key": "",
+          "Default": "",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "enabled",
+          "Type": "tinyint(1) unsigned",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "1",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        }
+      ],
+      "primary_key": [
+        "reward_set_id"
+      ]
+    },
+    "reward_sources": {
+      "scope": "(source_type=2 AND source_id BETWEEN 920167 AND 920170) OR reward_set_id BETWEEN 920167 AND 920170",
+      "rows": [
+        {
+          "source_type": 2,
+          "source_id": 920167,
+          "reward_set_id": 920167,
+          "enabled": 1
+        },
+        {
+          "source_type": 2,
+          "source_id": 920168,
+          "reward_set_id": 920168,
+          "enabled": 1
+        },
+        {
+          "source_type": 2,
+          "source_id": 920169,
+          "reward_set_id": 920169,
+          "enabled": 1
+        },
+        {
+          "source_type": 2,
+          "source_id": 920170,
+          "reward_set_id": 920170,
+          "enabled": 1
+        }
+      ],
+      "columns": [
+        {
+          "Field": "source_type",
+          "Type": "tinyint(3) unsigned",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "PRI",
+          "Default": null,
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "source_id",
+          "Type": "bigint(20) unsigned",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "PRI",
+          "Default": null,
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "reward_set_id",
+          "Type": "int(10) unsigned",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": null,
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "enabled",
+          "Type": "tinyint(1) unsigned",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "1",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        }
+      ],
+      "primary_key": [
+        "source_type",
+        "source_id"
+      ]
+    },
+    "reward_options": {
+      "scope": "reward_set_id BETWEEN 920167 AND 920170",
+      "rows": [
+        {
+          "reward_set_id": 920167,
+          "option_id": 1,
+          "sequence": 1,
+          "label": "40 Brellium Tokens",
+          "common_to_all": 1,
+          "flags": 0,
+          "enabled": 1,
+          "class_mask": 65535
+        },
+        {
+          "reward_set_id": 920168,
+          "option_id": 1,
+          "sequence": 1,
+          "label": "40 Brellium Tokens",
+          "common_to_all": 1,
+          "flags": 0,
+          "enabled": 1,
+          "class_mask": 65535
+        },
+        {
+          "reward_set_id": 920169,
+          "option_id": 1,
+          "sequence": 1,
+          "label": "20 Brellium Tokens",
+          "common_to_all": 1,
+          "flags": 0,
+          "enabled": 1,
+          "class_mask": 65535
+        },
+        {
+          "reward_set_id": 920170,
+          "option_id": 1,
+          "sequence": 1,
+          "label": "80 Brellium Tokens",
+          "common_to_all": 1,
+          "flags": 0,
+          "enabled": 1,
+          "class_mask": 65535
+        },
+        {
+          "reward_set_id": 920170,
+          "option_id": 2,
+          "sequence": 2,
+          "label": "Shared Bloodlust",
+          "common_to_all": 1,
+          "flags": 0,
+          "enabled": 1,
+          "class_mask": 32768
+        },
+        {
+          "reward_set_id": 920170,
+          "option_id": 3,
+          "sequence": 3,
+          "label": "Call Skeleton Swarm",
+          "common_to_all": 1,
+          "flags": 0,
+          "enabled": 1,
+          "class_mask": 1024
+        },
+        {
+          "reward_set_id": 920170,
+          "option_id": 4,
+          "sequence": 4,
+          "label": "Splash of Brimstone",
+          "common_to_all": 1,
+          "flags": 0,
+          "enabled": 1,
+          "class_mask": 2048
+        },
+        {
+          "reward_set_id": 920170,
+          "option_id": 5,
+          "sequence": 5,
+          "label": "Holy Contravention",
+          "common_to_all": 1,
+          "flags": 0,
+          "enabled": 1,
+          "class_mask": 2
+        },
+        {
+          "reward_set_id": 920170,
+          "option_id": 6,
+          "sequence": 6,
+          "label": "Keystone",
+          "common_to_all": 1,
+          "flags": 0,
+          "enabled": 1,
+          "class_mask": 65535
+        }
+      ],
+      "columns": [
+        {
+          "Field": "reward_set_id",
+          "Type": "int(10) unsigned",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "PRI",
+          "Default": null,
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "option_id",
+          "Type": "int(10) unsigned",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "PRI",
+          "Default": null,
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "sequence",
+          "Type": "int(10) unsigned",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "0",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "label",
+          "Type": "varchar(255)",
+          "Collation": "utf8mb4_general_ci",
+          "Null": "NO",
+          "Key": "",
+          "Default": "",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "common_to_all",
+          "Type": "tinyint(1) unsigned",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "0",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "flags",
+          "Type": "tinyint(3) unsigned",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "0",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "enabled",
+          "Type": "tinyint(1) unsigned",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "1",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "class_mask",
+          "Type": "int(10) unsigned",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "65535",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        }
+      ],
+      "primary_key": [
+        "reward_set_id",
+        "option_id"
+      ]
+    },
+    "reward_option_entries": {
+      "scope": "reward_set_id BETWEEN 920167 AND 920170 OR reward_id IN(3839201671,3839201681,3839201691,3839201701,3839201702,3839201703,3839201704,3839201705,3839201706)",
+      "rows": [
+        {
+          "reward_set_id": 920167,
+          "option_id": 1,
+          "sequence": 1,
+          "reward_id": 3839201671
+        },
+        {
+          "reward_set_id": 920168,
+          "option_id": 1,
+          "sequence": 1,
+          "reward_id": 3839201681
+        },
+        {
+          "reward_set_id": 920169,
+          "option_id": 1,
+          "sequence": 1,
+          "reward_id": 3839201691
+        },
+        {
+          "reward_set_id": 920170,
+          "option_id": 1,
+          "sequence": 1,
+          "reward_id": 3839201701
+        },
+        {
+          "reward_set_id": 920170,
+          "option_id": 2,
+          "sequence": 1,
+          "reward_id": 3839201702
+        },
+        {
+          "reward_set_id": 920170,
+          "option_id": 3,
+          "sequence": 1,
+          "reward_id": 3839201703
+        },
+        {
+          "reward_set_id": 920170,
+          "option_id": 4,
+          "sequence": 1,
+          "reward_id": 3839201704
+        },
+        {
+          "reward_set_id": 920170,
+          "option_id": 5,
+          "sequence": 1,
+          "reward_id": 3839201705
+        },
+        {
+          "reward_set_id": 920170,
+          "option_id": 6,
+          "sequence": 1,
+          "reward_id": 3839201706
+        }
+      ],
+      "columns": [
+        {
+          "Field": "reward_set_id",
+          "Type": "int(10) unsigned",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "PRI",
+          "Default": null,
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "option_id",
+          "Type": "int(10) unsigned",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "PRI",
+          "Default": null,
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "sequence",
+          "Type": "int(10) unsigned",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "",
+          "Default": "0",
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        },
+        {
+          "Field": "reward_id",
+          "Type": "int(10) unsigned",
+          "Collation": null,
+          "Null": "NO",
+          "Key": "PRI",
+          "Default": null,
+          "Extra": "",
+          "Privileges": "select,insert,update,references",
+          "Comment": ""
+        }
+      ],
+      "primary_key": [
+        "reward_set_id",
+        "option_id",
+        "reward_id"
+      ]
+    }
+  },
+  "native_kind_evidence_sha256": [
+    "b726fa578bc4570030a4b5ad15408027760576f161debe2ed9374cfcc3c4adfc",
+    "9d22f42c53a644ff35d0a981653378fdda8b28d287ce4c7f6056c27e7448ed87"
+  ],
+  "correction_source_sha256": "ae890eee50749b89e4cdcaa5268519e73bf5828060a3597b1052db2e069c3fc8",
+  "actual_activation002_postimages_sha256": "3475f14225cc094c02014e32a3af517760800609373e2f3f73f9a01a231d77bf",
+  "scope": "Only five rewards.reward_type1to0; fourBrelliumtype4/options/entries/amounts/masks/soleexistingdeliveryledger unchanged."
+}
