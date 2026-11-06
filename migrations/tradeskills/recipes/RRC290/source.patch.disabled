@@ -1,0 +1,103 @@
+--- a/zone/tradeskills.cpp
++++ b/zone/tradeskills.cpp
+@@ -16,6 +16,7 @@
+ 	along with this program. If not, see <http://www.gnu.org/licenses/>.
+ */
+ #include "client.h"
++#include "world_loom13_actor.h"
+ #include "gnomish_tailoring35_actor.h"
+ #include "cultural_armor_bulk_actor.h"
+ #include "research_tablet335_actor.h"
+@@ -470,6 +471,23 @@
+ 		}
+ 	}
+ 
++	// Exact source world-only loom routes: an inventory bag is not authority.
++	if (const auto* requirement = WorldLoom13::Find(spec.recipe_id)) {
++		auto* station = worldcontainer ? worldo : nullptr;
++		const auto* item = station && station->m_inst ? station->m_inst->GetItem() : nullptr;
++		if (!station || station != user->GetTradeskillObject() || station->user != user ||
++			!station->m_inst || !station->m_inst->IsType(EQ::item::ItemClassBag) ||
++			!WorldLoom13::Allows(*requirement, spec.tradeskill, zone->GetZoneID(),
++				zone->GetInstanceVersion(), station->GetDBID(), station->GetType(),
++				item ? item->ID : 0, EQ::invtype::WORLD_SIZE)) {
++			user->Message(Chat::Red, "This recipe requires the loom in the Plane of Knowledge.");
++			auto* denied = new EQApplicationPacket(OP_TradeSkillCombine, 0);
++			user->QueuePacket(denied);
++			safe_delete(denied);
++			return;
++		}
++	}
++
+ 	// Character hasn't learnt the recipe yet.
+ 	// must_learn:
+ 	// bit 1 (0x01): recipe can't be experimented
+@@ -723,6 +741,23 @@
+ 		}
+ 	}
+ 
++	if (const auto* requirement = WorldLoom13::Find(spec.recipe_id)) {
++		// Use the actual owned open native world object, never packet IDs alone.
++		auto* station = user->GetTradeskillObject();
++		const auto* item = station && station->m_inst ? station->m_inst->GetItem() : nullptr;
++		if (!station || station->user != user || !station->m_inst ||
++			!station->m_inst->IsType(EQ::item::ItemClassBag) ||
++			rac->object_type != station->GetType() ||
++			!WorldLoom13::Allows(*requirement, spec.tradeskill, zone->GetZoneID(),
++				zone->GetInstanceVersion(), station->GetDBID(), station->GetType(),
++				item ? item->ID : 0, EQ::invtype::WORLD_SIZE)) {
++			user->Message(Chat::Red, "This recipe requires the loom in the Plane of Knowledge.");
++			user->QueuePacket(outapp);
++			safe_delete(outapp);
++			return;
++		}
++	}
++
+ 	// Character hasn't learnt the recipe yet.
+ 	// This shouldn't happen.
+ 	if ((spec.must_learn&0xf) && !spec.has_learnt) {
+@@ -759,7 +794,7 @@
+ 		}
+ 	}
+ 	else if (spec.tradeskill == EQ::skills::SkillTinkering) {
+-		if (user->GetRace() != Race::Gnome) {
++		if (user->GetPP().race != Race::Gnome) {
+ 			user->Message(Chat::Red, "Only gnomes can tinker.");
+ 			auto outapp = new EQApplicationPacket(OP_TradeSkillCombine, 0);
+ 			user->QueuePacket(outapp);
+--- /dev/null
++++ b/zone/world_loom13_actor.h
+@@ -0,0 +1,33 @@
++#pragma once
++#include "common/skills.h"
++#include <cstdint>
++// RRC290 exact world-only bodies. No other Tailoring is gated here.
++namespace WorldLoom13 {
++struct Requirement {std::uint32_t recipe_id,minimum_slots;};
++inline constexpr Requirement Requirements[] = {
++ {3102522,4},
++ {3102523,5},
++ {3102524,6},
++ {3102525,4},
++ {3102526,6},
++ {3102527,3},
++ {3102528,3},
++ {3102529,6},
++ {3102530,6},
++ {3102531,6},
++ {3102532,6},
++ {3102533,4},
++ {3102534,3},
++};
++inline const Requirement* Find(std::uint32_t id) noexcept {
++ for(const auto& r:Requirements)if(r.recipe_id==id)return &r;
++ return nullptr;
++}
++inline bool Allows(const Requirement& r,std::uint32_t skill,std::uint32_t zone,
++ std::uint32_t version,std::uint32_t object_db_id,std::uint32_t object_type,
++ std::uint32_t actual_item_id,std::uint32_t actual_world_slots) noexcept {
++ return skill==static_cast<std::uint32_t>(EQ::skills::SkillTailoring)&&
++  zone==202&&version==0&&object_db_id==228440&&object_type==16&&
++  actual_item_id==0&&actual_world_slots>=r.minimum_slots;
++}
++}

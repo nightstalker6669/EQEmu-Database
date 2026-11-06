@@ -1,0 +1,125 @@
+{
+  "status": "SOURCE_ONLY_SQL_HOLD_UNTIL_COMPATIBLE_ACTOR_INSTALLED",
+  "batch": "RRC290",
+  "recipes": [
+    {
+      "recipe_id": 3102522,
+      "source_view_id": 13388,
+      "source_name": "Sculpted Energeiac Leather Wristguard",
+      "minimum_slots": 4
+    },
+    {
+      "recipe_id": 3102523,
+      "source_view_id": 12853,
+      "source_name": "Sunshard Seal",
+      "minimum_slots": 5
+    },
+    {
+      "recipe_id": 3102524,
+      "source_view_id": 11300,
+      "source_name": "Woven Fur Padding",
+      "minimum_slots": 6
+    },
+    {
+      "recipe_id": 3102525,
+      "source_view_id": 11299,
+      "source_name": "Wing Vein Boning",
+      "minimum_slots": 4
+    },
+    {
+      "recipe_id": 3102526,
+      "source_view_id": 11296,
+      "source_name": "Underfoot Silk Panel",
+      "minimum_slots": 6
+    },
+    {
+      "recipe_id": 3102527,
+      "source_view_id": 11165,
+      "source_name": "Frost Shocked Downy Gnoll Fur",
+      "minimum_slots": 3
+    },
+    {
+      "recipe_id": 3102528,
+      "source_view_id": 11166,
+      "source_name": "Frost Shocked Downy Kobold Fur",
+      "minimum_slots": 3
+    },
+    {
+      "recipe_id": 3102529,
+      "source_view_id": 3615,
+      "source_name": "Mounted Fire Grendlaen Head",
+      "minimum_slots": 6
+    },
+    {
+      "recipe_id": 3102530,
+      "source_view_id": 3623,
+      "source_name": "Mounted Rock Grendlaen Head",
+      "minimum_slots": 6
+    },
+    {
+      "recipe_id": 3102531,
+      "source_view_id": 3619,
+      "source_name": "Mounted Furred Kangon Head",
+      "minimum_slots": 6
+    },
+    {
+      "recipe_id": 3102532,
+      "source_view_id": 3622,
+      "source_name": "Mounted Parasitic Scavenger Head",
+      "minimum_slots": 6
+    },
+    {
+      "recipe_id": 3102533,
+      "source_view_id": 16166,
+      "source_name": "Faded Feran Collar",
+      "minimum_slots": 4
+    },
+    {
+      "recipe_id": 3102534,
+      "source_view_id": 16168,
+      "source_name": "Faded Feran Collar of Ice",
+      "minimum_slots": 3
+    }
+  ],
+  "recipe_ids": [
+    3102522,
+    3102523,
+    3102524,
+    3102525,
+    3102526,
+    3102527,
+    3102528,
+    3102529,
+    3102530,
+    3102531,
+    3102532,
+    3102533,
+    3102534
+  ],
+  "world_source": "Exact current owned open world Loom228440/zone202/version0/type16/item0/nativeWORLD_SIZE10,source stationaryLoom profile and SmallBank location. Source profile has NO numeric EQ itemID;do not fabricate one.",
+  "selected_implementation": "One verified current station branch only;other source looms remain unqualified. Existing object row,model and placement not modified or claimed immutable retail pose/native client acceptance.",
+  "manual": "After matched recipe before learned/minimum/component/roll/output;must be actual world container pointer matching native Client open object and object.user identity.",
+  "auto": "After matched recipe before learned/minimum/components/roll/output;require actual owned open world object and actual packet type agreement;packet item/type alone never authorize.",
+  "minimum325": "Seven hat recipes use existing modified Client::GetSkill in BOTH native minimum checks. No new min-skill actor;prior raw interpretation corrected by actual getter implementation.",
+  "preservation": "Exact13new IDs only;all old Research821/Smithing2004/Tailoring1148/Gnomish35/bot branches preserved byte-for-byte outside new include/two selected blocks. No race inferred from item masks,no allTailoring gate,no item/object mutation.",
+  "files": {
+    "zone/tradeskills.cpp": {
+      "preimage_sha256": "b8b8cf6867105c2574c38d3f05e578a991729ed30f03522db0e16704c2b397b7",
+      "postimage_sha256": "a897fe2c9e018b14ea81100d5f3a4e1394069d86d43f29c3d293cc14b96d6acb"
+    },
+    "zone/world_loom13_actor.h": {
+      "preimage_sha256": null,
+      "postimage_sha256": "a23d3dbb929ff5535551369a391c3169b3a426a977e4e93ec15ab19734de36c4"
+    }
+  },
+  "patch_sha256": "0f3543a0934b5251fdccf854ad2d3238654f3a23dc9b92bbfea06707c7b85673",
+  "tests": 0,
+  "builds": 0,
+  "SQL_execution": 0,
+  "runtime_actions": 0,
+  "native_tinkering_correction": {
+    "scope": "Existing auto Tinkering race check only; use GetPP().race to match manual native original player profile. No recipe data redo.",
+    "previous_handoff_manifest_sha256": "f620988851193173c913a26215452c4700dff57195a2cdbd9e99d42e70a247f4"
+  },
+  "composition_requirement": "Apply delta to actual Fire+RRC284 serving parent; standalone postimage is reference only, never replace serving file wholesale. SQL remains held until compatible installed owner receipt."
+}

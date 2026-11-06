@@ -1,0 +1,3338 @@
+{
+  "batch": "RRC292",
+  "branch": "rof2-tradeskills",
+  "status": "SOURCE_PENDING_PUBLICATION_AND_EXACT_SQL_GO",
+  "proposed_ids": [
+    3102586,
+    3102591
+  ],
+  "counts": {
+    "recipes": 6,
+    "entries": 54,
+    "item_dependencies": 20,
+    "unchanged_prototype_recipes": 18,
+    "unchanged_prototype_entries": 174
+  },
+  "recipes": [
+    {
+      "id": 3102586,
+      "name": "Numinous Chest Symbol of Growth",
+      "tradeskill": 57,
+      "skillneeded": 300,
+      "trivial": 528,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Corroborated NuminousGrowth self-input erratum;exact pattern IDs/min300/book112602/Gnome native gate;explicit reconstruction;RRC292.",
+      "must_learn": 1,
+      "learned_by_item_id": 112602,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 18,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3102587,
+      "name": "Numinous Legging Symbol of Growth",
+      "tradeskill": 57,
+      "skillneeded": 300,
+      "trivial": 507,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Corroborated NuminousGrowth self-input erratum;exact pattern IDs/min300/book112602/Gnome native gate;explicit reconstruction;RRC292.",
+      "must_learn": 1,
+      "learned_by_item_id": 112602,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 18,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3102588,
+      "name": "Numinous Sleeve Symbol of Growth",
+      "tradeskill": 57,
+      "skillneeded": 300,
+      "trivial": 503,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Corroborated NuminousGrowth self-input erratum;exact pattern IDs/min300/book112602/Gnome native gate;explicit reconstruction;RRC292.",
+      "must_learn": 1,
+      "learned_by_item_id": 112602,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 18,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3102589,
+      "name": "Numinous Wrist Symbol of Growth",
+      "tradeskill": 57,
+      "skillneeded": 300,
+      "trivial": 498,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Corroborated NuminousGrowth self-input erratum;exact pattern IDs/min300/book112602/Gnome native gate;explicit reconstruction;RRC292.",
+      "must_learn": 1,
+      "learned_by_item_id": 112602,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 18,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3102590,
+      "name": "Numinous Glove Symbol of Growth",
+      "tradeskill": 57,
+      "skillneeded": 300,
+      "trivial": 512,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Corroborated NuminousGrowth self-input erratum;exact pattern IDs/min300/book112602/Gnome native gate;explicit reconstruction;RRC292.",
+      "must_learn": 1,
+      "learned_by_item_id": 112602,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 18,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3102591,
+      "name": "Numinous Helm Symbol of Growth",
+      "tradeskill": 57,
+      "skillneeded": 300,
+      "trivial": 523,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Corroborated NuminousGrowth self-input erratum;exact pattern IDs/min300/book112602/Gnome native gate;explicit reconstruction;RRC292.",
+      "must_learn": 1,
+      "learned_by_item_id": 112602,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 18,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    }
+  ],
+  "entries": [
+    {
+      "recipe_id": 3102586,
+      "item_id": 64546,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3102586,
+      "item_id": 65451,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3102586,
+      "item_id": 81825,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3102586,
+      "item_id": 112341,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3102586,
+      "item_id": 112561,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3102586,
+      "item_id": 112605,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3102586,
+      "item_id": 112608,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3102586,
+      "item_id": 113372,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3102586,
+      "item_id": 17877,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3102587,
+      "item_id": 64546,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3102587,
+      "item_id": 65451,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3102587,
+      "item_id": 81825,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3102587,
+      "item_id": 112358,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3102587,
+      "item_id": 112565,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3102587,
+      "item_id": 112605,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3102587,
+      "item_id": 112608,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3102587,
+      "item_id": 113372,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3102587,
+      "item_id": 17877,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3102588,
+      "item_id": 64546,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3102588,
+      "item_id": 65451,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3102588,
+      "item_id": 81825,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3102588,
+      "item_id": 112392,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3102588,
+      "item_id": 112560,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3102588,
+      "item_id": 112605,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3102588,
+      "item_id": 112608,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3102588,
+      "item_id": 113372,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3102588,
+      "item_id": 17877,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3102589,
+      "item_id": 64546,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3102589,
+      "item_id": 65451,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3102589,
+      "item_id": 81825,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3102589,
+      "item_id": 112409,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3102589,
+      "item_id": 112566,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3102589,
+      "item_id": 112605,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3102589,
+      "item_id": 112608,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3102589,
+      "item_id": 113372,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3102589,
+      "item_id": 17877,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3102590,
+      "item_id": 64546,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3102590,
+      "item_id": 65451,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3102590,
+      "item_id": 81825,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3102590,
+      "item_id": 112426,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3102590,
+      "item_id": 112563,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3102590,
+      "item_id": 112605,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3102590,
+      "item_id": 112608,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3102590,
+      "item_id": 113372,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3102590,
+      "item_id": 17877,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3102591,
+      "item_id": 64546,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3102591,
+      "item_id": 65451,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3102591,
+      "item_id": 81825,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3102591,
+      "item_id": 112443,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3102591,
+      "item_id": 112564,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3102591,
+      "item_id": 112605,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3102591,
+      "item_id": 112608,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3102591,
+      "item_id": 113372,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3102591,
+      "item_id": 17877,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    }
+  ],
+  "unchanged_prototype_recipes": [
+    {
+      "id": 3094927,
+      "name": "Numinous Chest Symbol of Growth",
+      "tradeskill": 61,
+      "skillneeded": 300,
+      "trivial": 528,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary Numinous cultural symbol reconstruction; RRC157.",
+      "must_learn": 1,
+      "learned_by_item_id": 112601,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 18,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3094944,
+      "name": "Numinous Legging Symbol of Growth",
+      "tradeskill": 61,
+      "skillneeded": 300,
+      "trivial": 507,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary Numinous cultural symbol reconstruction; RRC157.",
+      "must_learn": 1,
+      "learned_by_item_id": 112601,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 18,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3094979,
+      "name": "Numinous Sleeve Symbol of Growth",
+      "tradeskill": 61,
+      "skillneeded": 300,
+      "trivial": 503,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary Numinous cultural symbol reconstruction; RRC157.",
+      "must_learn": 1,
+      "learned_by_item_id": 112601,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 18,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3094995,
+      "name": "Numinous Wrist Symbol of Growth",
+      "tradeskill": 61,
+      "skillneeded": 300,
+      "trivial": 498,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary Numinous cultural symbol reconstruction; RRC157.",
+      "must_learn": 1,
+      "learned_by_item_id": 112601,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 18,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3095012,
+      "name": "Numinous Glove Symbol of Growth",
+      "tradeskill": 61,
+      "skillneeded": 300,
+      "trivial": 512,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary Numinous cultural symbol reconstruction; RRC157.",
+      "must_learn": 1,
+      "learned_by_item_id": 112601,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 18,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3095029,
+      "name": "Numinous Helm Symbol of Growth",
+      "tradeskill": 61,
+      "skillneeded": 300,
+      "trivial": 523,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary Numinous cultural symbol reconstruction; RRC157.",
+      "must_learn": 1,
+      "learned_by_item_id": 112601,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 18,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3095046,
+      "name": "Numinous Chest Symbol of Growth",
+      "tradeskill": 63,
+      "skillneeded": 300,
+      "trivial": 528,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary Numinous cultural symbol reconstruction; RRC157.",
+      "must_learn": 1,
+      "learned_by_item_id": 112600,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 18,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3095063,
+      "name": "Numinous Legging Symbol of Growth",
+      "tradeskill": 63,
+      "skillneeded": 300,
+      "trivial": 507,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary Numinous cultural symbol reconstruction; RRC157.",
+      "must_learn": 1,
+      "learned_by_item_id": 112600,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 18,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3095097,
+      "name": "Numinous Sleeve Symbol of Growth",
+      "tradeskill": 63,
+      "skillneeded": 300,
+      "trivial": 503,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary Numinous cultural symbol reconstruction; RRC157.",
+      "must_learn": 1,
+      "learned_by_item_id": 112600,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 18,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3095114,
+      "name": "Numinous Wrist Symbol of Growth",
+      "tradeskill": 63,
+      "skillneeded": 300,
+      "trivial": 498,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary Numinous cultural symbol reconstruction; RRC157.",
+      "must_learn": 1,
+      "learned_by_item_id": 112600,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 18,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3095131,
+      "name": "Numinous Glove Symbol of Growth",
+      "tradeskill": 63,
+      "skillneeded": 300,
+      "trivial": 512,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary Numinous cultural symbol reconstruction; RRC157.",
+      "must_learn": 1,
+      "learned_by_item_id": 112600,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 18,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3095148,
+      "name": "Numinous Helm Symbol of Growth",
+      "tradeskill": 63,
+      "skillneeded": 300,
+      "trivial": 523,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary Numinous cultural symbol reconstruction; RRC157.",
+      "must_learn": 1,
+      "learned_by_item_id": 112600,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 18,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3096003,
+      "name": "Numinous Chest Symbol of Growth (Pelt)",
+      "tradeskill": 61,
+      "skillneeded": 300,
+      "trivial": 528,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary cultural input reconstruction; RRC170.",
+      "must_learn": 1,
+      "learned_by_item_id": 112601,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 18,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3096020,
+      "name": "Numinous Legging Symbol of Growth (Pelt)",
+      "tradeskill": 61,
+      "skillneeded": 300,
+      "trivial": 507,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary cultural input reconstruction; RRC170.",
+      "must_learn": 1,
+      "learned_by_item_id": 112601,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 18,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3096054,
+      "name": "Numinous Sleeve Symbol of Growth (Pelt)",
+      "tradeskill": 61,
+      "skillneeded": 300,
+      "trivial": 503,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary cultural input reconstruction; RRC170.",
+      "must_learn": 1,
+      "learned_by_item_id": 112601,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 18,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3096071,
+      "name": "Numinous Wrist Symbol of Growth (Pelt)",
+      "tradeskill": 61,
+      "skillneeded": 300,
+      "trivial": 498,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary cultural input reconstruction; RRC170.",
+      "must_learn": 1,
+      "learned_by_item_id": 112601,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 18,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3096088,
+      "name": "Numinous Glove Symbol of Growth (Pelt)",
+      "tradeskill": 61,
+      "skillneeded": 300,
+      "trivial": 512,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary cultural input reconstruction; RRC170.",
+      "must_learn": 1,
+      "learned_by_item_id": 112601,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 18,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3096105,
+      "name": "Numinous Helm Symbol of Growth (Pelt)",
+      "tradeskill": 61,
+      "skillneeded": 300,
+      "trivial": 523,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary cultural input reconstruction; RRC170.",
+      "must_learn": 1,
+      "learned_by_item_id": 112601,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 18,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    }
+  ],
+  "unchanged_prototype_entries": [
+    {
+      "id": 30440340,
+      "recipe_id": 3094927,
+      "item_id": 64546,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30440341,
+      "recipe_id": 3094927,
+      "item_id": 81825,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30440342,
+      "recipe_id": 3094927,
+      "item_id": 112341,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 30440343,
+      "recipe_id": 3094927,
+      "item_id": 112561,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30440344,
+      "recipe_id": 3094927,
+      "item_id": 112604,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 2,
+      "salvagecount": 2,
+      "iscontainer": 0
+    },
+    {
+      "id": 30440345,
+      "recipe_id": 3094927,
+      "item_id": 112607,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30440346,
+      "recipe_id": 3094927,
+      "item_id": 113373,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30440347,
+      "recipe_id": 3094927,
+      "item_id": 17165,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 30440348,
+      "recipe_id": 3094927,
+      "item_id": 17768,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 30440349,
+      "recipe_id": 3094927,
+      "item_id": 17880,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 30440350,
+      "recipe_id": 3094927,
+      "item_id": 17966,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 30440527,
+      "recipe_id": 3094944,
+      "item_id": 64546,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30440528,
+      "recipe_id": 3094944,
+      "item_id": 81825,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30440529,
+      "recipe_id": 3094944,
+      "item_id": 112358,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 30440530,
+      "recipe_id": 3094944,
+      "item_id": 112565,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30440531,
+      "recipe_id": 3094944,
+      "item_id": 112604,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 2,
+      "salvagecount": 2,
+      "iscontainer": 0
+    },
+    {
+      "id": 30440532,
+      "recipe_id": 3094944,
+      "item_id": 112607,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30440533,
+      "recipe_id": 3094944,
+      "item_id": 113373,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30440534,
+      "recipe_id": 3094944,
+      "item_id": 17165,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 30440535,
+      "recipe_id": 3094944,
+      "item_id": 17768,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 30440536,
+      "recipe_id": 3094944,
+      "item_id": 17880,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 30440537,
+      "recipe_id": 3094944,
+      "item_id": 17966,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 30440911,
+      "recipe_id": 3094979,
+      "item_id": 64546,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30440912,
+      "recipe_id": 3094979,
+      "item_id": 81825,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30440913,
+      "recipe_id": 3094979,
+      "item_id": 112392,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 30440914,
+      "recipe_id": 3094979,
+      "item_id": 112560,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30440915,
+      "recipe_id": 3094979,
+      "item_id": 112604,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 2,
+      "salvagecount": 2,
+      "iscontainer": 0
+    },
+    {
+      "id": 30440916,
+      "recipe_id": 3094979,
+      "item_id": 112607,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30440917,
+      "recipe_id": 3094979,
+      "item_id": 113373,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30440918,
+      "recipe_id": 3094979,
+      "item_id": 17165,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 30440919,
+      "recipe_id": 3094979,
+      "item_id": 17768,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 30440920,
+      "recipe_id": 3094979,
+      "item_id": 17880,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 30440921,
+      "recipe_id": 3094979,
+      "item_id": 17966,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 30441087,
+      "recipe_id": 3094995,
+      "item_id": 64546,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30441088,
+      "recipe_id": 3094995,
+      "item_id": 81825,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30441089,
+      "recipe_id": 3094995,
+      "item_id": 112409,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 30441090,
+      "recipe_id": 3094995,
+      "item_id": 112566,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30441091,
+      "recipe_id": 3094995,
+      "item_id": 112604,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 2,
+      "salvagecount": 2,
+      "iscontainer": 0
+    },
+    {
+      "id": 30441092,
+      "recipe_id": 3094995,
+      "item_id": 112607,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30441093,
+      "recipe_id": 3094995,
+      "item_id": 113373,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30441094,
+      "recipe_id": 3094995,
+      "item_id": 17165,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 30441095,
+      "recipe_id": 3094995,
+      "item_id": 17768,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 30441096,
+      "recipe_id": 3094995,
+      "item_id": 17880,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 30441097,
+      "recipe_id": 3094995,
+      "item_id": 17966,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 30441274,
+      "recipe_id": 3095012,
+      "item_id": 64546,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30441275,
+      "recipe_id": 3095012,
+      "item_id": 81825,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30441276,
+      "recipe_id": 3095012,
+      "item_id": 112426,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 30441277,
+      "recipe_id": 3095012,
+      "item_id": 112563,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30441278,
+      "recipe_id": 3095012,
+      "item_id": 112604,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 2,
+      "salvagecount": 2,
+      "iscontainer": 0
+    },
+    {
+      "id": 30441279,
+      "recipe_id": 3095012,
+      "item_id": 112607,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30441280,
+      "recipe_id": 3095012,
+      "item_id": 113373,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30441281,
+      "recipe_id": 3095012,
+      "item_id": 17165,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 30441282,
+      "recipe_id": 3095012,
+      "item_id": 17768,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 30441283,
+      "recipe_id": 3095012,
+      "item_id": 17880,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 30441284,
+      "recipe_id": 3095012,
+      "item_id": 17966,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 30441461,
+      "recipe_id": 3095029,
+      "item_id": 64546,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30441462,
+      "recipe_id": 3095029,
+      "item_id": 81825,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30441463,
+      "recipe_id": 3095029,
+      "item_id": 112443,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 30441464,
+      "recipe_id": 3095029,
+      "item_id": 112564,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30441465,
+      "recipe_id": 3095029,
+      "item_id": 112604,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 2,
+      "salvagecount": 2,
+      "iscontainer": 0
+    },
+    {
+      "id": 30441466,
+      "recipe_id": 3095029,
+      "item_id": 112607,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30441467,
+      "recipe_id": 3095029,
+      "item_id": 113373,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30441468,
+      "recipe_id": 3095029,
+      "item_id": 17165,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 30441469,
+      "recipe_id": 3095029,
+      "item_id": 17768,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 30441470,
+      "recipe_id": 3095029,
+      "item_id": 17880,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 30441471,
+      "recipe_id": 3095029,
+      "item_id": 17966,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 30441603,
+      "recipe_id": 3095046,
+      "item_id": 64546,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30441604,
+      "recipe_id": 3095046,
+      "item_id": 81825,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30441605,
+      "recipe_id": 3095046,
+      "item_id": 112341,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 30441606,
+      "recipe_id": 3095046,
+      "item_id": 112561,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30441607,
+      "recipe_id": 3095046,
+      "item_id": 112605,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30441608,
+      "recipe_id": 3095046,
+      "item_id": 112608,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30441609,
+      "recipe_id": 3095046,
+      "item_id": 113372,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30441610,
+      "recipe_id": 3095046,
+      "item_id": 17,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 30441739,
+      "recipe_id": 3095063,
+      "item_id": 64546,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30441740,
+      "recipe_id": 3095063,
+      "item_id": 81825,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30441741,
+      "recipe_id": 3095063,
+      "item_id": 112358,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 30441742,
+      "recipe_id": 3095063,
+      "item_id": 112565,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30441743,
+      "recipe_id": 3095063,
+      "item_id": 112605,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30441744,
+      "recipe_id": 3095063,
+      "item_id": 112608,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30441745,
+      "recipe_id": 3095063,
+      "item_id": 113372,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30441746,
+      "recipe_id": 3095063,
+      "item_id": 17,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 30442011,
+      "recipe_id": 3095097,
+      "item_id": 64546,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30442012,
+      "recipe_id": 3095097,
+      "item_id": 81825,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30442013,
+      "recipe_id": 3095097,
+      "item_id": 112392,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 30442014,
+      "recipe_id": 3095097,
+      "item_id": 112560,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30442015,
+      "recipe_id": 3095097,
+      "item_id": 112605,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30442016,
+      "recipe_id": 3095097,
+      "item_id": 112608,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30442017,
+      "recipe_id": 3095097,
+      "item_id": 113372,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30442018,
+      "recipe_id": 3095097,
+      "item_id": 17,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 30442147,
+      "recipe_id": 3095114,
+      "item_id": 64546,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30442148,
+      "recipe_id": 3095114,
+      "item_id": 81825,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30442149,
+      "recipe_id": 3095114,
+      "item_id": 112409,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 30442150,
+      "recipe_id": 3095114,
+      "item_id": 112566,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30442151,
+      "recipe_id": 3095114,
+      "item_id": 112605,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30442152,
+      "recipe_id": 3095114,
+      "item_id": 112608,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30442153,
+      "recipe_id": 3095114,
+      "item_id": 113372,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30442154,
+      "recipe_id": 3095114,
+      "item_id": 17,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 30442283,
+      "recipe_id": 3095131,
+      "item_id": 64546,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30442284,
+      "recipe_id": 3095131,
+      "item_id": 81825,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30442285,
+      "recipe_id": 3095131,
+      "item_id": 112426,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 30442286,
+      "recipe_id": 3095131,
+      "item_id": 112563,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30442287,
+      "recipe_id": 3095131,
+      "item_id": 112605,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30442288,
+      "recipe_id": 3095131,
+      "item_id": 112608,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30442289,
+      "recipe_id": 3095131,
+      "item_id": 113372,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30442290,
+      "recipe_id": 3095131,
+      "item_id": 17,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 30442419,
+      "recipe_id": 3095148,
+      "item_id": 64546,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30442420,
+      "recipe_id": 3095148,
+      "item_id": 81825,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30442421,
+      "recipe_id": 3095148,
+      "item_id": 112443,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 30442422,
+      "recipe_id": 3095148,
+      "item_id": 112564,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30442423,
+      "recipe_id": 3095148,
+      "item_id": 112605,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30442424,
+      "recipe_id": 3095148,
+      "item_id": 112608,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30442425,
+      "recipe_id": 3095148,
+      "item_id": 113372,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30442426,
+      "recipe_id": 3095148,
+      "item_id": 17,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 30453178,
+      "recipe_id": 3096003,
+      "item_id": 64546,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30453179,
+      "recipe_id": 3096003,
+      "item_id": 81825,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30453180,
+      "recipe_id": 3096003,
+      "item_id": 112341,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 30453181,
+      "recipe_id": 3096003,
+      "item_id": 112561,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30453182,
+      "recipe_id": 3096003,
+      "item_id": 112603,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30453183,
+      "recipe_id": 3096003,
+      "item_id": 112606,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30453184,
+      "recipe_id": 3096003,
+      "item_id": 113373,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30453185,
+      "recipe_id": 3096003,
+      "item_id": 17165,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 30453186,
+      "recipe_id": 3096003,
+      "item_id": 17880,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 30453187,
+      "recipe_id": 3096003,
+      "item_id": 17966,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 30453348,
+      "recipe_id": 3096020,
+      "item_id": 64546,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30453349,
+      "recipe_id": 3096020,
+      "item_id": 81825,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30453350,
+      "recipe_id": 3096020,
+      "item_id": 112358,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 30453351,
+      "recipe_id": 3096020,
+      "item_id": 112565,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30453352,
+      "recipe_id": 3096020,
+      "item_id": 112603,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30453353,
+      "recipe_id": 3096020,
+      "item_id": 112606,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30453354,
+      "recipe_id": 3096020,
+      "item_id": 113373,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30453355,
+      "recipe_id": 3096020,
+      "item_id": 17165,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 30453356,
+      "recipe_id": 3096020,
+      "item_id": 17880,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 30453357,
+      "recipe_id": 3096020,
+      "item_id": 17966,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 30453688,
+      "recipe_id": 3096054,
+      "item_id": 64546,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30453689,
+      "recipe_id": 3096054,
+      "item_id": 81825,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30453690,
+      "recipe_id": 3096054,
+      "item_id": 112392,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 30453691,
+      "recipe_id": 3096054,
+      "item_id": 112560,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30453692,
+      "recipe_id": 3096054,
+      "item_id": 112603,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30453693,
+      "recipe_id": 3096054,
+      "item_id": 112606,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30453694,
+      "recipe_id": 3096054,
+      "item_id": 113373,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30453695,
+      "recipe_id": 3096054,
+      "item_id": 17165,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 30453696,
+      "recipe_id": 3096054,
+      "item_id": 17880,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 30453697,
+      "recipe_id": 3096054,
+      "item_id": 17966,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 30453858,
+      "recipe_id": 3096071,
+      "item_id": 64546,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30453859,
+      "recipe_id": 3096071,
+      "item_id": 81825,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30453860,
+      "recipe_id": 3096071,
+      "item_id": 112409,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 30453861,
+      "recipe_id": 3096071,
+      "item_id": 112566,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30453862,
+      "recipe_id": 3096071,
+      "item_id": 112603,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30453863,
+      "recipe_id": 3096071,
+      "item_id": 112606,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30453864,
+      "recipe_id": 3096071,
+      "item_id": 113373,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30453865,
+      "recipe_id": 3096071,
+      "item_id": 17165,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 30453866,
+      "recipe_id": 3096071,
+      "item_id": 17880,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 30453867,
+      "recipe_id": 3096071,
+      "item_id": 17966,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 30454028,
+      "recipe_id": 3096088,
+      "item_id": 64546,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30454029,
+      "recipe_id": 3096088,
+      "item_id": 81825,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30454030,
+      "recipe_id": 3096088,
+      "item_id": 112426,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 30454031,
+      "recipe_id": 3096088,
+      "item_id": 112563,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30454032,
+      "recipe_id": 3096088,
+      "item_id": 112603,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30454033,
+      "recipe_id": 3096088,
+      "item_id": 112606,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30454034,
+      "recipe_id": 3096088,
+      "item_id": 113373,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30454035,
+      "recipe_id": 3096088,
+      "item_id": 17165,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 30454036,
+      "recipe_id": 3096088,
+      "item_id": 17880,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 30454037,
+      "recipe_id": 3096088,
+      "item_id": 17966,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 30454198,
+      "recipe_id": 3096105,
+      "item_id": 64546,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30454199,
+      "recipe_id": 3096105,
+      "item_id": 81825,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30454200,
+      "recipe_id": 3096105,
+      "item_id": 112443,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 30454201,
+      "recipe_id": 3096105,
+      "item_id": 112564,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30454202,
+      "recipe_id": 3096105,
+      "item_id": 112603,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30454203,
+      "recipe_id": 3096105,
+      "item_id": 112606,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30454204,
+      "recipe_id": 3096105,
+      "item_id": 113373,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30454205,
+      "recipe_id": 3096105,
+      "item_id": 17165,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 30454206,
+      "recipe_id": 3096105,
+      "item_id": 17880,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 30454207,
+      "recipe_id": 3096105,
+      "item_id": 17966,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    }
+  ],
+  "item_dependencies": [
+    {
+      "id": 17877,
+      "name": "Deluxe Toolbox"
+    },
+    {
+      "id": 64546,
+      "name": "Essence of Alaris"
+    },
+    {
+      "id": 65451,
+      "name": "Contraption Parts"
+    },
+    {
+      "id": 81825,
+      "name": "Blessed Water of Tunare"
+    },
+    {
+      "id": 112341,
+      "name": "Numinous Chest Symbol of Growth"
+    },
+    {
+      "id": 112358,
+      "name": "Numinous Legging Symbol of Growth"
+    },
+    {
+      "id": 112392,
+      "name": "Numinous Sleeve Symbol of Growth"
+    },
+    {
+      "id": 112409,
+      "name": "Numinous Wrist Symbol of Growth"
+    },
+    {
+      "id": 112426,
+      "name": "Numinous Glove Symbol of Growth"
+    },
+    {
+      "id": 112443,
+      "name": "Numinous Helm Symbol of Growth"
+    },
+    {
+      "id": 112560,
+      "name": "Numinous Sleeve Symbol Pattern"
+    },
+    {
+      "id": 112561,
+      "name": "Numinous Chest Symbol Pattern"
+    },
+    {
+      "id": 112563,
+      "name": "Numinous Glove Symbol Pattern"
+    },
+    {
+      "id": 112564,
+      "name": "Numinous Helm Symbol Pattern"
+    },
+    {
+      "id": 112565,
+      "name": "Numinous Legging Symbol Pattern"
+    },
+    {
+      "id": 112566,
+      "name": "Numinous Wrist Symbol Pattern"
+    },
+    {
+      "id": 112602,
+      "name": "Tinkering Numinous Cultural Symbols"
+    },
+    {
+      "id": 112605,
+      "name": "Palladium Ore"
+    },
+    {
+      "id": 112608,
+      "name": "Mysterious Loam"
+    },
+    {
+      "id": 113372,
+      "name": "Shiny Coal"
+    }
+  ],
+  "source_facts": [
+    {
+      "recipe_id": 3102586,
+      "source_view_id": 3954,
+      "source_name": "Numinous Chest Symbol of Growth",
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=553&rsa=Tinkering&sub=VoA",
+      "source_primary_url": "https://www.eqtraders.com/items/show_item.php?item=38911",
+      "source_formula": "Components: Blessed Water of Tunare, Contraption Parts, Essence of Alaris, Mysterious Loam, Numinous Chest Symbol of Growth, Palladium Ore, Shiny Coal\nIn: Toolbox, Deluxe Toolbox, Collapsible Toolbox, Tinkering Table (Placeable), Guild Tinkering Table\nYield: 1\nRequired Skill Level: 300\nThis combine may only be made by Gnomes\nNotes: You must purchase and scribe Tinkering Numinous Cultural Symbols in order to perform this combine.",
+      "source_current_formula": "Tinkering Components: Blessed Water of Tunare, Contraption Parts, Essence of Alaris, Mysterious Loam, Numinous Chest Symbol of Growth, Palladium Ore, Shiny Coal\nIn: Toolbox, Deluxe Toolbox, Collapsible Toolbox, Tinkering Table (Placeable), Guild Tinkering Table\nYield: 1\nRequired Skill Level: 300\nThis combine may only be made by Gnomes\nNotes: You must purchase and scribe Tinkering Numinous Cultural Symbols in order to perform this combine.\nTrivial at: 528",
+      "source_catalogue_sha256": "4ff2a547748536f7a2d362f3585655d942955573749ca6e2ddab174cdb2f1e38",
+      "source_primary_raw_html_sha256": "afe147c4f457eebc6769cc1aa2089ac5b3d0d6f47f9f4d8f0bb211a52fc6cf4c",
+      "output_item_id": 112341,
+      "yield_count": 1,
+      "trivial": 528,
+      "nofail": 0,
+      "ingredients": [
+        {
+          "item_id": 64546,
+          "name": "Essence of Alaris",
+          "count": 1
+        },
+        {
+          "item_id": 65451,
+          "name": "Contraption Parts",
+          "count": 1
+        },
+        {
+          "item_id": 81825,
+          "name": "Blessed Water of Tunare",
+          "count": 1
+        },
+        {
+          "item_id": 112561,
+          "name": "Numinous Chest Symbol Pattern",
+          "count": 1
+        },
+        {
+          "item_id": 112605,
+          "name": "Palladium Ore",
+          "count": 1
+        },
+        {
+          "item_id": 112608,
+          "name": "Mysterious Loam",
+          "count": 1
+        },
+        {
+          "item_id": 113372,
+          "name": "Shiny Coal",
+          "count": 1
+        }
+      ],
+      "success_roles": {
+        "112341": 1
+      },
+      "failure_roles": {},
+      "container_item_ids": [
+        17877
+      ],
+      "held_source_stations": [
+        "Toolbox",
+        "Collapsible Toolbox",
+        "Tinkering Table (Placeable)",
+        "Guild Tinkering Table"
+      ],
+      "skillneeded": 300,
+      "must_learn": 1,
+      "learned_by_item_id": 112602,
+      "learning_origin": "EXPLICIT_MUST_SCRIBE_EXACT_NATIVE_BOOK_TITLE_AND_AUTHORED_PATTERN_INSTRUCTIONS",
+      "min_expansion": 18,
+      "era_origin": "VOA_FAMILY_CONTEXT_LOCAL_FLOOR_NOT_IMMUTABLE_DATE",
+      "May2013_exact_fields_verified": false,
+      "explicit_same_id_title_binding": null,
+      "source_correction": "Replace sole self-output ingredient 112341x1 with authenticated same-slot pattern 112561x1; preserve every other role/count/trivial/minimum/book/creator restriction. Corroborated source erratum proposal, not literal primary copy or authenticated May2013 fields.",
+      "source_current_formula_is_not_proposal": true,
+      "pattern_primary_url": "https://www.eqtraders.com/items/show_item.php?item=38291",
+      "pattern_primary_raw_html_sha256": "dd329b1819334c19cbc9116c055ffc01544ca06d79543e796e6fbbf01e4bf820"
+    },
+    {
+      "recipe_id": 3102587,
+      "source_view_id": 4005,
+      "source_name": "Numinous Legging Symbol of Growth",
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=553&rsa=Tinkering&sub=VoA",
+      "source_primary_url": "https://www.eqtraders.com/items/show_item.php?item=38914",
+      "source_formula": "Components: Blessed Water of Tunare, Contraption Parts, Essence of Alaris, Mysterious Loam, Numinous Legging Symbol of Growth, Palladium Ore, Shiny Coal\nIn: Toolbox, Deluxe Toolbox, Collapsible Toolbox, Tinkering Table (Placeable), Guild Tinkering Table\nYield: 1\nRequired Skill Level: 300\nThis combine may only be made by Gnomes\nNotes: You must purchase and scribe Tinkering Numinous Cultural Symbols in order to perform this combine.",
+      "source_current_formula": "Tinkering Components: Blessed Water of Tunare, Contraption Parts, Essence of Alaris, Mysterious Loam, Numinous Legging Symbol of Growth, Palladium Ore, Shiny Coal\nIn: Toolbox, Deluxe Toolbox, Collapsible Toolbox, Tinkering Table (Placeable), Guild Tinkering Table\nYield: 1\nRequired Skill Level: 300\nThis combine may only be made by Gnomes\nNotes: You must purchase and scribe Tinkering Numinous Cultural Symbols in order to perform this combine.\nTrivial at: 507",
+      "source_catalogue_sha256": "4ff2a547748536f7a2d362f3585655d942955573749ca6e2ddab174cdb2f1e38",
+      "source_primary_raw_html_sha256": "a2247e000e362cd60dff1da73ae0dd2ef798d96af4e95ff29c209f50f531aba1",
+      "output_item_id": 112358,
+      "yield_count": 1,
+      "trivial": 507,
+      "nofail": 0,
+      "ingredients": [
+        {
+          "item_id": 64546,
+          "name": "Essence of Alaris",
+          "count": 1
+        },
+        {
+          "item_id": 65451,
+          "name": "Contraption Parts",
+          "count": 1
+        },
+        {
+          "item_id": 81825,
+          "name": "Blessed Water of Tunare",
+          "count": 1
+        },
+        {
+          "item_id": 112565,
+          "name": "Numinous Legging Symbol Pattern",
+          "count": 1
+        },
+        {
+          "item_id": 112605,
+          "name": "Palladium Ore",
+          "count": 1
+        },
+        {
+          "item_id": 112608,
+          "name": "Mysterious Loam",
+          "count": 1
+        },
+        {
+          "item_id": 113372,
+          "name": "Shiny Coal",
+          "count": 1
+        }
+      ],
+      "success_roles": {
+        "112358": 1
+      },
+      "failure_roles": {},
+      "container_item_ids": [
+        17877
+      ],
+      "held_source_stations": [
+        "Toolbox",
+        "Collapsible Toolbox",
+        "Tinkering Table (Placeable)",
+        "Guild Tinkering Table"
+      ],
+      "skillneeded": 300,
+      "must_learn": 1,
+      "learned_by_item_id": 112602,
+      "learning_origin": "EXPLICIT_MUST_SCRIBE_EXACT_NATIVE_BOOK_TITLE_AND_AUTHORED_PATTERN_INSTRUCTIONS",
+      "min_expansion": 18,
+      "era_origin": "VOA_FAMILY_CONTEXT_LOCAL_FLOOR_NOT_IMMUTABLE_DATE",
+      "May2013_exact_fields_verified": false,
+      "explicit_same_id_title_binding": null,
+      "source_correction": "Replace sole self-output ingredient 112358x1 with authenticated same-slot pattern 112565x1; preserve every other role/count/trivial/minimum/book/creator restriction. Corroborated source erratum proposal, not literal primary copy or authenticated May2013 fields.",
+      "source_current_formula_is_not_proposal": true,
+      "pattern_primary_url": "https://www.eqtraders.com/items/show_item.php?item=38294",
+      "pattern_primary_raw_html_sha256": "3c7b9e3c8c989c13beb7ae24a38bbd2700f0d24dce568ddf71a84619f826a835"
+    },
+    {
+      "recipe_id": 3102588,
+      "source_view_id": 4022,
+      "source_name": "Numinous Sleeve Symbol of Growth",
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=553&rsa=Tinkering&sub=VoA",
+      "source_primary_url": "https://www.eqtraders.com/items/show_item.php?item=38915",
+      "source_formula": "Components: Blessed Water of Tunare, Contraption Parts, Essence of Alaris, Mysterious Loam, Numinous Sleeve Symbol of Growth, Palladium Ore, Shiny Coal\nIn: Toolbox, Deluxe Toolbox, Collapsible Toolbox, Tinkering Table (Placeable), Guild Tinkering Table\nYield: 1\nRequired Skill Level: 300\nThis combine may only be made by Gnomes\nNotes: You must purchase and scribe Tinkering Numinous Cultural Symbols in order to perform this combine.",
+      "source_current_formula": "Tinkering Components: Blessed Water of Tunare, Contraption Parts, Essence of Alaris, Mysterious Loam, Numinous Sleeve Symbol of Growth, Palladium Ore, Shiny Coal\nIn: Toolbox, Deluxe Toolbox, Collapsible Toolbox, Tinkering Table (Placeable), Guild Tinkering Table\nYield: 1\nRequired Skill Level: 300\nThis combine may only be made by Gnomes\nNotes: You must purchase and scribe Tinkering Numinous Cultural Symbols in order to perform this combine.\nTrivial at: 503",
+      "source_catalogue_sha256": "4ff2a547748536f7a2d362f3585655d942955573749ca6e2ddab174cdb2f1e38",
+      "source_primary_raw_html_sha256": "05d7dac906890b91ea30ef27e15c0d735ab336be9da6fb1b6dac9daadcf09fb7",
+      "output_item_id": 112392,
+      "yield_count": 1,
+      "trivial": 503,
+      "nofail": 0,
+      "ingredients": [
+        {
+          "item_id": 64546,
+          "name": "Essence of Alaris",
+          "count": 1
+        },
+        {
+          "item_id": 65451,
+          "name": "Contraption Parts",
+          "count": 1
+        },
+        {
+          "item_id": 81825,
+          "name": "Blessed Water of Tunare",
+          "count": 1
+        },
+        {
+          "item_id": 112560,
+          "name": "Numinous Sleeve Symbol Pattern",
+          "count": 1
+        },
+        {
+          "item_id": 112605,
+          "name": "Palladium Ore",
+          "count": 1
+        },
+        {
+          "item_id": 112608,
+          "name": "Mysterious Loam",
+          "count": 1
+        },
+        {
+          "item_id": 113372,
+          "name": "Shiny Coal",
+          "count": 1
+        }
+      ],
+      "success_roles": {
+        "112392": 1
+      },
+      "failure_roles": {},
+      "container_item_ids": [
+        17877
+      ],
+      "held_source_stations": [
+        "Toolbox",
+        "Collapsible Toolbox",
+        "Tinkering Table (Placeable)",
+        "Guild Tinkering Table"
+      ],
+      "skillneeded": 300,
+      "must_learn": 1,
+      "learned_by_item_id": 112602,
+      "learning_origin": "EXPLICIT_MUST_SCRIBE_EXACT_NATIVE_BOOK_TITLE_AND_AUTHORED_PATTERN_INSTRUCTIONS",
+      "min_expansion": 18,
+      "era_origin": "VOA_FAMILY_CONTEXT_LOCAL_FLOOR_NOT_IMMUTABLE_DATE",
+      "May2013_exact_fields_verified": false,
+      "explicit_same_id_title_binding": null,
+      "source_correction": "Replace sole self-output ingredient 112392x1 with authenticated same-slot pattern 112560x1; preserve every other role/count/trivial/minimum/book/creator restriction. Corroborated source erratum proposal, not literal primary copy or authenticated May2013 fields.",
+      "source_current_formula_is_not_proposal": true,
+      "pattern_primary_url": "https://www.eqtraders.com/items/show_item.php?item=38295",
+      "pattern_primary_raw_html_sha256": "9175fc18833a8dd5ca137e8e1bf33b0c416ed46e682bbd1170913c8ecbb9de67"
+    },
+    {
+      "recipe_id": 3102589,
+      "source_view_id": 4039,
+      "source_name": "Numinous Wrist Symbol of Growth",
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=553&rsa=Tinkering&sub=VoA",
+      "source_primary_url": "https://www.eqtraders.com/items/show_item.php?item=38916",
+      "source_formula": "Components: Blessed Water of Tunare, Contraption Parts, Essence of Alaris, Mysterious Loam, Numinous Wrist Symbol of Growth, Palladium Ore, Shiny Coal\nIn: Toolbox, Deluxe Toolbox, Collapsible Toolbox, Tinkering Table (Placeable), Guild Tinkering Table\nYield: 1\nRequired Skill Level: 300\nThis combine may only be made by Gnomes\nNotes: You must purchase and scribe Tinkering Numinous Cultural Symbols in order to perform this combine.",
+      "source_current_formula": "Tinkering Components: Blessed Water of Tunare, Contraption Parts, Essence of Alaris, Mysterious Loam, Numinous Wrist Symbol of Growth, Palladium Ore, Shiny Coal\nIn: Toolbox, Deluxe Toolbox, Collapsible Toolbox, Tinkering Table (Placeable), Guild Tinkering Table\nYield: 1\nRequired Skill Level: 300\nThis combine may only be made by Gnomes\nNotes: You must purchase and scribe Tinkering Numinous Cultural Symbols in order to perform this combine.\nTrivial at: 498",
+      "source_catalogue_sha256": "4ff2a547748536f7a2d362f3585655d942955573749ca6e2ddab174cdb2f1e38",
+      "source_primary_raw_html_sha256": "c5de8f7c8160f15a16ef96ba52a02d7f84af315e1ab33e8987634cd58c78a0d8",
+      "output_item_id": 112409,
+      "yield_count": 1,
+      "trivial": 498,
+      "nofail": 0,
+      "ingredients": [
+        {
+          "item_id": 64546,
+          "name": "Essence of Alaris",
+          "count": 1
+        },
+        {
+          "item_id": 65451,
+          "name": "Contraption Parts",
+          "count": 1
+        },
+        {
+          "item_id": 81825,
+          "name": "Blessed Water of Tunare",
+          "count": 1
+        },
+        {
+          "item_id": 112566,
+          "name": "Numinous Wrist Symbol Pattern",
+          "count": 1
+        },
+        {
+          "item_id": 112605,
+          "name": "Palladium Ore",
+          "count": 1
+        },
+        {
+          "item_id": 112608,
+          "name": "Mysterious Loam",
+          "count": 1
+        },
+        {
+          "item_id": 113372,
+          "name": "Shiny Coal",
+          "count": 1
+        }
+      ],
+      "success_roles": {
+        "112409": 1
+      },
+      "failure_roles": {},
+      "container_item_ids": [
+        17877
+      ],
+      "held_source_stations": [
+        "Toolbox",
+        "Collapsible Toolbox",
+        "Tinkering Table (Placeable)",
+        "Guild Tinkering Table"
+      ],
+      "skillneeded": 300,
+      "must_learn": 1,
+      "learned_by_item_id": 112602,
+      "learning_origin": "EXPLICIT_MUST_SCRIBE_EXACT_NATIVE_BOOK_TITLE_AND_AUTHORED_PATTERN_INSTRUCTIONS",
+      "min_expansion": 18,
+      "era_origin": "VOA_FAMILY_CONTEXT_LOCAL_FLOOR_NOT_IMMUTABLE_DATE",
+      "May2013_exact_fields_verified": false,
+      "explicit_same_id_title_binding": null,
+      "source_correction": "Replace sole self-output ingredient 112409x1 with authenticated same-slot pattern 112566x1; preserve every other role/count/trivial/minimum/book/creator restriction. Corroborated source erratum proposal, not literal primary copy or authenticated May2013 fields.",
+      "source_current_formula_is_not_proposal": true,
+      "pattern_primary_url": "https://www.eqtraders.com/items/show_item.php?item=38296",
+      "pattern_primary_raw_html_sha256": "a45fbed219e4f97f26b9f3308082e162eee6429b3a9e820075561d66e311b164"
+    },
+    {
+      "recipe_id": 3102590,
+      "source_view_id": 3971,
+      "source_name": "Numinous Glove Symbol of Growth",
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=553&rsa=Tinkering&sub=VoA",
+      "source_primary_url": "https://www.eqtraders.com/items/show_item.php?item=38912",
+      "source_formula": "Components: Blessed Water of Tunare, Contraption Parts, Essence of Alaris, Mysterious Loam, Numinous Glove Symbol of Growth, Palladium Ore, Shiny Coal\nIn: Toolbox, Deluxe Toolbox, Collapsible Toolbox, Tinkering Table (Placeable), Guild Tinkering Table\nYield: 1\nRequired Skill Level: 300\nThis combine may only be made by Gnomes\nNotes: You must purchase and scribe Tinkering Numinous Cultural Symbols in order to perform this combine.",
+      "source_current_formula": "Tinkering Components: Blessed Water of Tunare, Contraption Parts, Essence of Alaris, Mysterious Loam, Numinous Glove Symbol of Growth, Palladium Ore, Shiny Coal\nIn: Toolbox, Deluxe Toolbox, Collapsible Toolbox, Tinkering Table (Placeable), Guild Tinkering Table\nYield: 1\nRequired Skill Level: 300\nThis combine may only be made by Gnomes\nNotes: You must purchase and scribe Tinkering Numinous Cultural Symbols in order to perform this combine.\nTrivial at: 512",
+      "source_catalogue_sha256": "4ff2a547748536f7a2d362f3585655d942955573749ca6e2ddab174cdb2f1e38",
+      "source_primary_raw_html_sha256": "37c3c805ee2c175c5f20d3bb66b9ff363b1ee60a14eb12e059b062edc59319fd",
+      "output_item_id": 112426,
+      "yield_count": 1,
+      "trivial": 512,
+      "nofail": 0,
+      "ingredients": [
+        {
+          "item_id": 64546,
+          "name": "Essence of Alaris",
+          "count": 1
+        },
+        {
+          "item_id": 65451,
+          "name": "Contraption Parts",
+          "count": 1
+        },
+        {
+          "item_id": 81825,
+          "name": "Blessed Water of Tunare",
+          "count": 1
+        },
+        {
+          "item_id": 112563,
+          "name": "Numinous Glove Symbol Pattern",
+          "count": 1
+        },
+        {
+          "item_id": 112605,
+          "name": "Palladium Ore",
+          "count": 1
+        },
+        {
+          "item_id": 112608,
+          "name": "Mysterious Loam",
+          "count": 1
+        },
+        {
+          "item_id": 113372,
+          "name": "Shiny Coal",
+          "count": 1
+        }
+      ],
+      "success_roles": {
+        "112426": 1
+      },
+      "failure_roles": {},
+      "container_item_ids": [
+        17877
+      ],
+      "held_source_stations": [
+        "Toolbox",
+        "Collapsible Toolbox",
+        "Tinkering Table (Placeable)",
+        "Guild Tinkering Table"
+      ],
+      "skillneeded": 300,
+      "must_learn": 1,
+      "learned_by_item_id": 112602,
+      "learning_origin": "EXPLICIT_MUST_SCRIBE_EXACT_NATIVE_BOOK_TITLE_AND_AUTHORED_PATTERN_INSTRUCTIONS",
+      "min_expansion": 18,
+      "era_origin": "VOA_FAMILY_CONTEXT_LOCAL_FLOOR_NOT_IMMUTABLE_DATE",
+      "May2013_exact_fields_verified": false,
+      "explicit_same_id_title_binding": null,
+      "source_correction": "Replace sole self-output ingredient 112426x1 with authenticated same-slot pattern 112563x1; preserve every other role/count/trivial/minimum/book/creator restriction. Corroborated source erratum proposal, not literal primary copy or authenticated May2013 fields.",
+      "source_current_formula_is_not_proposal": true,
+      "pattern_primary_url": "https://www.eqtraders.com/items/show_item.php?item=38292",
+      "pattern_primary_raw_html_sha256": "7d4036e7eb916e9afcfc550cde6e900618a3387ac42ff5e569e388ed91952758"
+    },
+    {
+      "recipe_id": 3102591,
+      "source_view_id": 3988,
+      "source_name": "Numinous Helm Symbol of Growth",
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=553&rsa=Tinkering&sub=VoA",
+      "source_primary_url": "https://www.eqtraders.com/items/show_item.php?item=38913",
+      "source_formula": "Components: Blessed Water of Tunare, Contraption Parts, Essence of Alaris, Mysterious Loam, Numinous Helm Symbol of Growth, Palladium Ore, Shiny Coal\nIn: Toolbox, Deluxe Toolbox, Collapsible Toolbox, Tinkering Table (Placeable), Guild Tinkering Table\nYield: 1\nRequired Skill Level: 300\nThis combine may only be made by Gnomes\nNotes: You must purchase and scribe Tinkering Numinous Cultural Symbols in order to perform this combine.",
+      "source_current_formula": "Tinkering Components: Blessed Water of Tunare, Contraption Parts, Essence of Alaris, Mysterious Loam, Numinous Helm Symbol of Growth, Palladium Ore, Shiny Coal\nIn: Toolbox, Deluxe Toolbox, Collapsible Toolbox, Tinkering Table (Placeable), Guild Tinkering Table\nYield: 1\nRequired Skill Level: 300\nThis combine may only be made by Gnomes\nNotes: You must purchase and scribe Tinkering Numinous Cultural Symbols in order to perform this combine.\nTrivial at: 523",
+      "source_catalogue_sha256": "4ff2a547748536f7a2d362f3585655d942955573749ca6e2ddab174cdb2f1e38",
+      "source_primary_raw_html_sha256": "43b0a0c5e0495d30ea68ab42559cdab4a7639eea6706f0338435500c8448a635",
+      "output_item_id": 112443,
+      "yield_count": 1,
+      "trivial": 523,
+      "nofail": 0,
+      "ingredients": [
+        {
+          "item_id": 64546,
+          "name": "Essence of Alaris",
+          "count": 1
+        },
+        {
+          "item_id": 65451,
+          "name": "Contraption Parts",
+          "count": 1
+        },
+        {
+          "item_id": 81825,
+          "name": "Blessed Water of Tunare",
+          "count": 1
+        },
+        {
+          "item_id": 112564,
+          "name": "Numinous Helm Symbol Pattern",
+          "count": 1
+        },
+        {
+          "item_id": 112605,
+          "name": "Palladium Ore",
+          "count": 1
+        },
+        {
+          "item_id": 112608,
+          "name": "Mysterious Loam",
+          "count": 1
+        },
+        {
+          "item_id": 113372,
+          "name": "Shiny Coal",
+          "count": 1
+        }
+      ],
+      "success_roles": {
+        "112443": 1
+      },
+      "failure_roles": {},
+      "container_item_ids": [
+        17877
+      ],
+      "held_source_stations": [
+        "Toolbox",
+        "Collapsible Toolbox",
+        "Tinkering Table (Placeable)",
+        "Guild Tinkering Table"
+      ],
+      "skillneeded": 300,
+      "must_learn": 1,
+      "learned_by_item_id": 112602,
+      "learning_origin": "EXPLICIT_MUST_SCRIBE_EXACT_NATIVE_BOOK_TITLE_AND_AUTHORED_PATTERN_INSTRUCTIONS",
+      "min_expansion": 18,
+      "era_origin": "VOA_FAMILY_CONTEXT_LOCAL_FLOOR_NOT_IMMUTABLE_DATE",
+      "May2013_exact_fields_verified": false,
+      "explicit_same_id_title_binding": null,
+      "source_correction": "Replace sole self-output ingredient 112443x1 with authenticated same-slot pattern 112564x1; preserve every other role/count/trivial/minimum/book/creator restriction. Corroborated source erratum proposal, not literal primary copy or authenticated May2013 fields.",
+      "source_current_formula_is_not_proposal": true,
+      "pattern_primary_url": "https://www.eqtraders.com/items/show_item.php?item=38293",
+      "pattern_primary_raw_html_sha256": "82fbed5f003e228a5b711637c7d86fcc92274383289ab440287e0969637643d9"
+    }
+  ],
+  "restriction_review": {
+    "scope": "Coordinator-selected six Numinous Growth Tinkering source errata, not literal current recipe copies.25authenticated retained primary profiles,20full18native dependencies,18unchanged existing output producers174entries;zero corrected fullinput or Tinkering name matches.",
+    "correction": "Each current Tinkering listing consumes its own finished symbol. Replace ONLY that one ingredient with same-slot Numinous Symbol Pattern x1:Chest112561/Glove112563/Helm112564/Legging112565/Sleeve112560/Wrist112566. Each exact Growth output primary Smithing and Tailoring recipe names that pattern; paired Below-deity Tinkering independently names same pattern. Original bad source formula is preserved alongside explicitly reconstructed proposal ingredients. No claim source current literal already correct.",
+    "gates": "Exact original numeric trivial528etc,physicalyield1,min300,all other roles/counts and explicit mandatory TinkeringNuminousCulturalSymbols book preserved. Native exact-title book112602 authored text names ore/coal/pattern/contraptionparts/essence/deitywater/loam;fullbook text guarded. MUST1/book112602. Existing manual Gnome profile check plus actual serving RRC290 auto GetPP().race fix supplies source creator gate;no new actor.",
+    "station": "Both source versions explicitly allow DeluxeToolbox;authenticated retained primary4175 binds native17877,bagtype10/slots10/size.7ingredientcells fit. Other listed stations not qualified in this packet. Outputs nativeMaxCharges0,quantity1concordant.",
+    "defaults": "Explicit local VoA floor18 remains reconstructed family context,not immutableMay2013 numeric-field evidence. Omittedquest0/enabled1/salvage conventions labelled. No inferred creator fromwearer masks,no self-input copied,no book/minimum bypass.",
+    "preservation": "All18existing all-state outputproducer headers174entries unchanged and not called wrong by shared output. Exact native20full18fields/produceruniverse/newIDrange/learned/booktext/count guards;rollback refuses new playerlearned refs.",
+    "execution": "Source pending normal publication and exact one-useSQLGO;requires already installed RRC290 nativePP Tinkering fix. No new native actor,tests,researchcampaign,build,runtime or SQL execution by preparation."
+  },
+  "source_urls": [
+    "https://www.eqtraders.com/items/show_item.php?item=38911",
+    "https://www.eqtraders.com/items/show_item.php?item=38912",
+    "https://www.eqtraders.com/items/show_item.php?item=38913",
+    "https://www.eqtraders.com/items/show_item.php?item=38914",
+    "https://www.eqtraders.com/items/show_item.php?item=38915",
+    "https://www.eqtraders.com/items/show_item.php?item=38916",
+    "https://www.eqtraders.com/recipes/recipe_page.php?article=553&rsa=Tinkering&sub=VoA"
+  ],
+  "historical_context_urls": [
+    "https://www.eqtraders.com/items/show_item.php?item=4175"
+  ],
+  "native_actor_dependency": null,
+  "migration_dependencies": [],
+  "held_source_rows": [],
+  "source_erratum_evidence": [
+    {
+      "view_id": 3954,
+      "slot": "Chest",
+      "source_self_output_item_id": 112341,
+      "pattern_source_item_id": 38291,
+      "pattern_native_item_id": 112561,
+      "growth_smith_tail_formulas": [
+        "Tailoring Components: Blessed Water of Tunare, Essence of Alaris, Exotic Animal Pelt, Exotic Marrow, Numinous Chest Symbol Pattern, Plated Filament\nIn: Deluxe Sewing Kit, Large Sewing Kit, Loom, Tanaan Loom, Collapsible Sewing Kit, Loom (Placeable), Guild Loom\nYield: 1\nRequired Skill Level: 300\nNotes: You must purchase and scribe Tailoring Numinous Cultural Symbols in order to perform this combine.\nTrivial at: 528",
+        "Tailoring Components: Blessed Water of Tunare, Essence of Alaris, Exotic Silk (2), Exotic Spinneret Fluid, Numinous Chest Symbol Pattern, Plated Filament\nIn: Deluxe Sewing Kit, Large Sewing Kit, Loom, Planar Sewing Kit, Tanaan Loom, Collapsible Sewing Kit, Erudite Sewing Kit, Northman Sewing Kit, Teir`Dal Sewing Kit, Clockwork Sewing Kit, Half Elf Sewing Kit, Koada`Dal Sewing Kit, Antonican Sewing Kit, Iksar Sewing Kit, Ogre Sewing Kit, Troll Sewing Kit, Shar Vahl Sewing Kit, Feir`Dal Sewing Kit, Vale Sewing Kit, Crystalwing Sewing Kit, Loom (Placeable), Guild Loom\nYield: 1\nRequired Skill Level: 300\nNotes: You must purchase and scribe Tailoring Numinous Cultural Symbols in order to perform this combine.\nTrivial at: 528",
+        "Smithing Components: Blessed Water of Tunare, Essence of Alaris, Mysterious Loam, Numinous Chest Symbol Pattern, Palladium Ore, Shiny Coal\nIn: Forge, Iksar Forge, Northman Forge, Teir`Dal Forge, Koada'dal Forge, Tanaan Forge, Vale Forge, Clockwork Forge (Formerly Ak'Anon Forge), Erud Forge, Antonican Forge, Troll Forge, Feir`Dal Forge, Ogre Forge, Stormguard Forge, Guktan Forge, Half Elf Forge, Shar Vahl Forge, Crystalwing Forge, Forge - Floor, Forge - Standing, Guild Forge\nYield: 1\nRequired Skill Level: 300\nNotes: You must purchase and scribe Smithing Numinous Cultural Symbols in order to perform this combine.\nTrivial at: 528"
+      ],
+      "paired_below_tinkering_formula": "Tinkering Components: Blessed Water of Brell Serilis, Contraption Parts, Essence of Alaris, Mysterious Loam, Numinous Chest Symbol Pattern, Palladium Ore, Shiny Coal\nIn: Toolbox, Deluxe Toolbox, Collapsible Toolbox, Tinkering Table (Placeable), Guild Tinkering Table\nYield: 1\nRequired Skill Level: 300\nThis combine may only be made by Gnomes\nNotes: You must purchase and scribe Tinkering Numinous Cultural Symbols in order to perform this combine.\nTrivial at: 512",
+      "native_book_text_sha256": "3cf684370afe208ef5e1bac6f331ae7a204c4c48f62a33b9f6fae2af00e11ff7"
+    },
+    {
+      "view_id": 3971,
+      "slot": "Glove",
+      "source_self_output_item_id": 112426,
+      "pattern_source_item_id": 38292,
+      "pattern_native_item_id": 112563,
+      "growth_smith_tail_formulas": [
+        "Tailoring Components: Blessed Water of Tunare, Essence of Alaris, Exotic Animal Pelt, Exotic Marrow, Numinous Glove Symbol Pattern, Plated Filament\nIn: Deluxe Sewing Kit, Large Sewing Kit, Loom, Tanaan Loom, Collapsible Sewing Kit, Loom (Placeable), Guild Loom\nYield: 1\nRequired Skill Level: 300\nNotes: You must purchase and scribe Tailoring Numinous Cultural Symbols in order to perform this combine.\nTrivial at: 512",
+        "Tailoring Components: Blessed Water of Tunare, Essence of Alaris, Exotic Silk (2), Exotic Spinneret Fluid, Numinous Glove Symbol Pattern, Plated Filament\nIn: Deluxe Sewing Kit, Large Sewing Kit, Loom, Planar Sewing Kit, Tanaan Loom, Collapsible Sewing Kit, Erudite Sewing Kit, Northman Sewing Kit, Teir`Dal Sewing Kit, Clockwork Sewing Kit, Half Elf Sewing Kit, Koada`Dal Sewing Kit, Antonican Sewing Kit, Iksar Sewing Kit, Ogre Sewing Kit, Troll Sewing Kit, Shar Vahl Sewing Kit, Feir`Dal Sewing Kit, Vale Sewing Kit, Crystalwing Sewing Kit, Loom (Placeable), Guild Loom\nYield: 1\nRequired Skill Level: 300\nNotes: You must purchase and scribe Tailoring Numinous Cultural Symbols in order to perform this combine.\nTrivial at: 512",
+        "Smithing Components: Blessed Water of Tunare, Essence of Alaris, Mysterious Loam, Numinous Glove Symbol Pattern, Palladium Ore, Shiny Coal\nIn: Forge, Iksar Forge, Northman Forge, Teir`Dal Forge, Koada'dal Forge, Tanaan Forge, Vale Forge, Clockwork Forge (Formerly Ak'Anon Forge), Erud Forge, Antonican Forge, Troll Forge, Feir`Dal Forge, Ogre Forge, Stormguard Forge, Guktan Forge, Half Elf Forge, Shar Vahl Forge, Crystalwing Forge, Forge - Floor, Forge - Standing, Guild Forge\nYield: 1\nRequired Skill Level: 300\nNotes: You must purchase and scribe Smithing Numinous Cultural Symbols in order to perform this combine.\nTrivial at: 512"
+      ],
+      "paired_below_tinkering_formula": "Tinkering Components: Blessed Water of Brell Serilis, Contraption Parts, Essence of Alaris, Mysterious Loam, Numinous Glove Symbol Pattern, Palladium Ore, Shiny Coal\nIn: Toolbox, Deluxe Toolbox, Collapsible Toolbox, Tinkering Table (Placeable), Guild Tinkering Table\nYield: 1\nRequired Skill Level: 300\nThis combine may only be made by Gnomes\nNotes: You must purchase and scribe Tinkering Numinous Cultural Symbols in order to perform this combine.\nTrivial at: 503",
+      "native_book_text_sha256": "3cf684370afe208ef5e1bac6f331ae7a204c4c48f62a33b9f6fae2af00e11ff7"
+    },
+    {
+      "view_id": 3988,
+      "slot": "Helm",
+      "source_self_output_item_id": 112443,
+      "pattern_source_item_id": 38293,
+      "pattern_native_item_id": 112564,
+      "growth_smith_tail_formulas": [
+        "Tailoring Components: Blessed Water of Tunare, Essence of Alaris, Exotic Animal Pelt, Exotic Marrow, Numinous Helm Symbol Pattern, Plated Filament\nIn: Deluxe Sewing Kit, Large Sewing Kit, Loom, Tanaan Loom, Collapsible Sewing Kit, Loom (Placeable), Guild Loom\nYield: 1\nRequired Skill Level: 300\nNotes: You must purchase and scribe Tailoring Numinous Cultural Symbols in order to perform this combine.\nTrivial at: 523",
+        "Tailoring Components: Blessed Water of Tunare, Essence of Alaris, Exotic Silk (2), Exotic Spinneret Fluid, Numinous Helm Symbol Pattern, Plated Filament\nIn: Deluxe Sewing Kit, Large Sewing Kit, Loom, Planar Sewing Kit, Tanaan Loom, Collapsible Sewing Kit, Erudite Sewing Kit, Northman Sewing Kit, Teir`Dal Sewing Kit, Clockwork Sewing Kit, Half Elf Sewing Kit, Koada`Dal Sewing Kit, Antonican Sewing Kit, Iksar Sewing Kit, Ogre Sewing Kit, Troll Sewing Kit, Shar Vahl Sewing Kit, Feir`Dal Sewing Kit, Vale Sewing Kit, Crystalwing Sewing Kit, Loom (Placeable), Guild Loom\nYield: 1\nRequired Skill Level: 300\nNotes: You must purchase and scribe Tailoring Numinous Cultural Symbols in order to perform this combine.\nTrivial at: 523",
+        "Smithing Components: Blessed Water of Tunare, Essence of Alaris, Mysterious Loam, Numinous Helm Symbol Pattern, Palladium Ore, Shiny Coal\nIn: Forge, Iksar Forge, Northman Forge, Teir`Dal Forge, Koada'dal Forge, Tanaan Forge, Vale Forge, Clockwork Forge (Formerly Ak'Anon Forge), Erud Forge, Antonican Forge, Troll Forge, Feir`Dal Forge, Ogre Forge, Stormguard Forge, Guktan Forge, Half Elf Forge, Shar Vahl Forge, Crystalwing Forge, Forge - Floor, Forge - Standing, Guild Forge\nYield: 1\nRequired Skill Level: 300\nNotes: You must purchase and scribe Smithing Numinous Cultural Symbols in order to perform this combine.\nTrivial at: 523"
+      ],
+      "paired_below_tinkering_formula": "Tinkering Components: Blessed Water of Brell Serilis, Contraption Parts, Essence of Alaris, Mysterious Loam, Numinous Helm Symbol Pattern, Palladium Ore, Shiny Coal\nIn: Toolbox, Deluxe Toolbox, Collapsible Toolbox, Tinkering Table (Placeable), Guild Tinkering Table\nYield: 1\nRequired Skill Level: 300\nThis combine may only be made by Gnomes\nNotes: You must purchase and scribe Tinkering Numinous Cultural Symbols in order to perform this combine.\nTrivial at: 498",
+      "native_book_text_sha256": "3cf684370afe208ef5e1bac6f331ae7a204c4c48f62a33b9f6fae2af00e11ff7"
+    },
+    {
+      "view_id": 4005,
+      "slot": "Legging",
+      "source_self_output_item_id": 112358,
+      "pattern_source_item_id": 38294,
+      "pattern_native_item_id": 112565,
+      "growth_smith_tail_formulas": [
+        "Tailoring Components: Blessed Water of Tunare, Essence of Alaris, Exotic Animal Pelt, Exotic Marrow, Numinous Legging Symbol Pattern, Plated Filament\nIn: Deluxe Sewing Kit, Large Sewing Kit, Loom, Tanaan Loom, Collapsible Sewing Kit, Loom (Placeable), Guild Loom\nYield: 1\nRequired Skill Level: 300\nNotes: You must purchase and scribe Tailoring Numinous Cultural Symbols in order to perform this combine.\nTrivial at: 507",
+        "Tailoring Components: Blessed Water of Tunare, Essence of Alaris, Exotic Silk (2), Exotic Spinneret Fluid, Numinous Legging Symbol Pattern, Plated Filament\nIn: Deluxe Sewing Kit, Large Sewing Kit, Loom, Planar Sewing Kit, Tanaan Loom, Collapsible Sewing Kit, Erudite Sewing Kit, Northman Sewing Kit, Teir`Dal Sewing Kit, Clockwork Sewing Kit, Half Elf Sewing Kit, Koada`Dal Sewing Kit, Antonican Sewing Kit, Iksar Sewing Kit, Ogre Sewing Kit, Troll Sewing Kit, Shar Vahl Sewing Kit, Feir`Dal Sewing Kit, Vale Sewing Kit, Crystalwing Sewing Kit, Loom (Placeable), Guild Loom\nYield: 1\nRequired Skill Level: 300\nNotes: You must purchase and scribe Tailoring Numinous Cultural Symbols in order to perform this combine.\nTrivial at: 507",
+        "Smithing Components: Blessed Water of Tunare, Essence of Alaris, Mysterious Loam, Numinous Legging Symbol Pattern, Palladium Ore, Shiny Coal\nIn: Forge, Iksar Forge, Northman Forge, Teir`Dal Forge, Koada'dal Forge, Tanaan Forge, Vale Forge, Clockwork Forge (Formerly Ak'Anon Forge), Erud Forge, Antonican Forge, Troll Forge, Feir`Dal Forge, Ogre Forge, Stormguard Forge, Guktan Forge, Half Elf Forge, Shar Vahl Forge, Crystalwing Forge, Forge - Floor, Forge - Standing, Guild Forge\nYield: 1\nRequired Skill Level: 300\nNotes: You must purchase and scribe Smithing Numinous Cultural Symbols in order to perform this combine.\nTrivial at: 507"
+      ],
+      "paired_below_tinkering_formula": "Tinkering Components: Blessed Water of Brell Serilis, Contraption Parts, Essence of Alaris, Mysterious Loam, Numinous Legging Symbol Pattern, Palladium Ore, Shiny Coal\nIn: Toolbox, Deluxe Toolbox, Collapsible Toolbox, Tinkering Table (Placeable), Guild Tinkering Table\nYield: 1\nRequired Skill Level: 300\nThis combine may only be made by Gnomes\nNotes: You must purchase and scribe Tinkering Numinous Cultural Symbols in order to perform this combine.\nTrivial at: 523",
+      "native_book_text_sha256": "3cf684370afe208ef5e1bac6f331ae7a204c4c48f62a33b9f6fae2af00e11ff7"
+    },
+    {
+      "view_id": 4022,
+      "slot": "Sleeve",
+      "source_self_output_item_id": 112392,
+      "pattern_source_item_id": 38295,
+      "pattern_native_item_id": 112560,
+      "growth_smith_tail_formulas": [
+        "Tailoring Components: Blessed Water of Tunare, Essence of Alaris, Exotic Animal Pelt, Exotic Marrow, Numinous Sleeve Symbol Pattern, Plated Filament\nIn: Deluxe Sewing Kit, Large Sewing Kit, Loom, Tanaan Loom, Collapsible Sewing Kit, Loom (Placeable), Guild Loom\nYield: 1\nRequired Skill Level: 300\nNotes: You must purchase and scribe Tailoring Numinous Cultural Symbols in order to perform this combine.\nTrivial at: 503",
+        "Tailoring Components: Blessed Water of Tunare, Essence of Alaris, Exotic Silk (2), Exotic Spinneret Fluid, Numinous Sleeve Symbol Pattern, Plated Filament\nIn: Deluxe Sewing Kit, Large Sewing Kit, Loom, Planar Sewing Kit, Tanaan Loom, Collapsible Sewing Kit, Erudite Sewing Kit, Northman Sewing Kit, Teir`Dal Sewing Kit, Clockwork Sewing Kit, Half Elf Sewing Kit, Koada`Dal Sewing Kit, Antonican Sewing Kit, Iksar Sewing Kit, Ogre Sewing Kit, Troll Sewing Kit, Shar Vahl Sewing Kit, Feir`Dal Sewing Kit, Vale Sewing Kit, Crystalwing Sewing Kit, Loom (Placeable), Guild Loom\nYield: 1\nRequired Skill Level: 300\nNotes: You must purchase and scribe Tailoring Numinous Cultural Symbols in order to perform this combine.\nTrivial at: 503",
+        "Smithing Components: Blessed Water of Tunare, Essence of Alaris, Mysterious Loam, Numinous Sleeve Symbol Pattern, Palladium Ore, Shiny Coal\nIn: Forge, Iksar Forge, Northman Forge, Teir`Dal Forge, Koada'dal Forge, Tanaan Forge, Vale Forge, Clockwork Forge (Formerly Ak'Anon Forge), Erud Forge, Antonican Forge, Troll Forge, Feir`Dal Forge, Ogre Forge, Stormguard Forge, Guktan Forge, Half Elf Forge, Shar Vahl Forge, Crystalwing Forge, Forge - Floor, Forge - Standing, Guild Forge\nYield: 1\nRequired Skill Level: 300\nNotes: You must purchase and scribe Smithing Numinous Cultural Symbols in order to perform this combine.\nTrivial at: 503"
+      ],
+      "paired_below_tinkering_formula": "Tinkering Components: Blessed Water of Brell Serilis, Contraption Parts, Essence of Alaris, Mysterious Loam, Numinous Sleeve Symbol Pattern, Palladium Ore, Shiny Coal\nIn: Toolbox, Deluxe Toolbox, Collapsible Toolbox, Tinkering Table (Placeable), Guild Tinkering Table\nYield: 1\nRequired Skill Level: 300\nThis combine may only be made by Gnomes\nNotes: You must purchase and scribe Tinkering Numinous Cultural Symbols in order to perform this combine.\nTrivial at: 507",
+      "native_book_text_sha256": "3cf684370afe208ef5e1bac6f331ae7a204c4c48f62a33b9f6fae2af00e11ff7"
+    },
+    {
+      "view_id": 4039,
+      "slot": "Wrist",
+      "source_self_output_item_id": 112409,
+      "pattern_source_item_id": 38296,
+      "pattern_native_item_id": 112566,
+      "growth_smith_tail_formulas": [
+        "Tailoring Components: Blessed Water of Tunare, Essence of Alaris, Exotic Animal Pelt, Exotic Marrow, Numinous Wrist Symbol Pattern, Plated Filament\nIn: Deluxe Sewing Kit, Large Sewing Kit, Loom, Tanaan Loom, Collapsible Sewing Kit, Loom (Placeable), Guild Loom\nYield: 1\nRequired Skill Level: 300\nNotes: You must purchase and scribe Tailoring Numinous Cultural Symbols in order to perform this combine.\nTrivial at: 498",
+        "Tailoring Components: Blessed Water of Tunare, Essence of Alaris, Exotic Silk (2), Exotic Spinneret Fluid, Numinous Wrist Symbol Pattern, Plated Filament\nIn: Deluxe Sewing Kit, Large Sewing Kit, Loom, Planar Sewing Kit, Tanaan Loom, Collapsible Sewing Kit, Erudite Sewing Kit, Northman Sewing Kit, Teir`Dal Sewing Kit, Clockwork Sewing Kit, Half Elf Sewing Kit, Koada`Dal Sewing Kit, Antonican Sewing Kit, Iksar Sewing Kit, Ogre Sewing Kit, Troll Sewing Kit, Shar Vahl Sewing Kit, Feir`Dal Sewing Kit, Vale Sewing Kit, Crystalwing Sewing Kit, Loom (Placeable), Guild Loom\nYield: 1\nRequired Skill Level: 300\nNotes: You must purchase and scribe Tailoring Numinous Cultural Symbols in order to perform this combine.\nTrivial at: 498",
+        "Smithing Components: Blessed Water of Tunare, Essence of Alaris, Mysterious Loam, Numinous Wrist Symbol Pattern, Palladium Ore, Shiny Coal\nIn: Forge, Iksar Forge, Northman Forge, Teir`Dal Forge, Koada'dal Forge, Tanaan Forge, Vale Forge, Clockwork Forge (Formerly Ak'Anon Forge), Erud Forge, Antonican Forge, Troll Forge, Feir`Dal Forge, Ogre Forge, Stormguard Forge, Guktan Forge, Half Elf Forge, Shar Vahl Forge, Crystalwing Forge, Forge - Floor, Forge - Standing, Guild Forge\nYield: 1\nRequired Skill Level: 300\nNotes: You must purchase and scribe Smithing Numinous Cultural Symbols in order to perform this combine.\nTrivial at: 498"
+      ],
+      "paired_below_tinkering_formula": "Tinkering Components: Blessed Water of Brell Serilis, Contraption Parts, Essence of Alaris, Mysterious Loam, Numinous Wrist Symbol Pattern, Palladium Ore, Shiny Coal\nIn: Toolbox, Deluxe Toolbox, Collapsible Toolbox, Tinkering Table (Placeable), Guild Tinkering Table\nYield: 1\nRequired Skill Level: 300\nThis combine may only be made by Gnomes\nNotes: You must purchase and scribe Tinkering Numinous Cultural Symbols in order to perform this combine.\nTrivial at: 518",
+      "native_book_text_sha256": "3cf684370afe208ef5e1bac6f331ae7a204c4c48f62a33b9f6fae2af00e11ff7"
+    }
+  ]
+}
