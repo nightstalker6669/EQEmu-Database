@@ -1,0 +1,1 @@
+The aggregate actor build stopped because a captured pointer added pointee constness before calling the existing nonconst Object::GetDBID accessor. This correction makes the captured pointer const and preserves the native mutable pointee type. All other source bytes and SQL remain unchanged.

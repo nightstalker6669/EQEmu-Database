@@ -1,0 +1,100 @@
+{
+  "status": "SOURCE_ONLY_FINITE13_PLACED54250_YARD_AUTO_BRIDGE_SQL_HOLD",
+  "recipe_ids": [
+    3102767,
+    3102779
+  ],
+  "files": {
+    "zone/housing_recipe301.h": {
+      "preimage_sha256": "10223f45c36a1e3ecc207d8a516fa678b2ae07b9b6c10bc5b7ea1d948f8e156e",
+      "postimage_sha256": "c2594e68412c1c2cc3f1e0a311c14f3876242896235d9ac8b9a36a9437b0b1d5"
+    },
+    "zone/housing_recipe301.cpp": {
+      "preimage_sha256": "bc7dd698005762cefe696fa9801a0357d115eae3b016003136de85c885b6bc00",
+      "postimage_sha256": "1731f4008efeee836b91352ee94607e64886bf85741471381986bedb84c9ef94"
+    },
+    "zone/tradeskills.cpp": {
+      "preimage_sha256": "155407be1bf196bf096f6d8ee57ca445787c33d7e2a24d7a189515d52ee6f5a7",
+      "postimage_sha256": "1b7f5080191f290b125517434481417582d8bfcc670a690a30e259d179e6dbd4"
+    }
+  },
+  "patch_sha256": "54f11b1dc1bc8e3f69c62ef73461051ac2dd664e0550f8bb3b13dbb1a982af68",
+  "source_template_id": 54250,
+  "station_native_scope": "Actual source34391 JewelryMakingTablePlaceable/native54250 bag20/10slots/size4. Existing1457 authenticated source query opens owner-bound private native Object window with real unique entityID, no object DBID/contents row. Yard712 actualinstance only; interior availability not claimed.",
+  "manufacture_scope": "ONLY13 source formulas via ordinary native auto combine inventory debit/output/task/learning. Native manual/experiment/worldslotmoves refused before consumption for these13; explicit bounded availability policy, not claimed complete manual/interior availability. No new escrow storage or item property projection.",
+  "authority_scope": "Existing exact original-session placement/custody/pose/catalog/rent/ACL admission retained. Dedicated READ row-lock connection is checked ONCE immediately before the first native ingredient debit. Failed admission rejects unchanged. That successful decision admits ONE exact scoped native combine; after debit begins, connection/authority loss does not abort it partway. The admitted ordinary full ingredient debit, chance roll, output, tasks and learning finish once. Subsequent combines require fresh current origin authority. Read locks remain held while available, released before output hooks. No refund/regrant/retry or new atomic parent inventory writer.",
+  "cleanup_scope": "Actor-only handle, never broadcast/spawned on zone lists; no Put/Pop/DeleteItem/Save/VarSave or fake object_contents identity. Native Close empties no contents, ordinary entity Process removes private handle after close/disconnect/invalid source, does not clear a newly opened different station.",
+  "composition": "Narrow3 actual current299\u2013302 composed preimages only; all other RRC301 paths/template metadata/resource/SQL unchanged; preserve302 header and every302 CPP addition.",
+  "tests": 0,
+  "builds": 0,
+  "SQL_execution": 0,
+  "runtime_actions": 0,
+  "native_acceptance": false,
+  "template_admission": "Exact54250 empty bag only: existing model-independent ordinary rigid class criterion applied to original IT11543 resource (EQGMv3/high-only triangleflags/defaultActorTag/no local/manifestLOD), retained class-producer geometry/float policy; no per-table gameplay claim. One immutable registry record, exact native metadata/mask14/scale0.1..2.5/upkeep6/max1, Client FurnitureModel and LiveItems Simple admit only empty54250 bag20/10/4. No other bag class admitted. Existing NoChildren inventory guard retained; room preview/source routing specifically denied, no contents escrow.",
+  "resource_evidence_sha256": "b70384bdeecc8ca856326530246c39b9b982bc0378d3f5bdcf098a2ebaa5715a",
+  "native_station_metadata_sha256": "b43fb0eb9b2367c4ae2d0dbae002ea886916161267f0224120895b96450d400d",
+  "template_item_DB_changes": 0,
+  "original_session_binding": "Runtime binding owns original ZoneReservation sharedticket; pointer identity to current ticket and HeldFor(originalcharacter/account/connection) required at all validation/open/predebit points. Samecharacter new login cannot reopen old private context. Native Fire/unknown-inventory profile admission required before source locks or ordinary stockdebits.",
+  "revision": "R2_ONCE_SOURCE_AUTHORITY_ADMISSION_BEFORE_FIRST_DEBIT",
+  "base_R1_native_files": {
+    "common/housing/live_item_service.cpp": {
+      "preimage_sha256": "44ca518784028caf84cb9b9c605bcff75cbb62cb2ea34aa5a5153e13f507752b",
+      "postimage_sha256": "8c76c0aeb494d390f11d697689ab038c63c462fcb627e82d72e8d34cbdd9dcdc"
+    },
+    "common/housing/static_furniture_recipe301.inc": {
+      "preimage_sha256": null,
+      "postimage_sha256": "d5980eee275a33ece1e30439c1acbad2c49fb048a4e0ae0d2d9d6bb3c34fc774"
+    },
+    "common/housing/static_furniture_registry.h": {
+      "preimage_sha256": "3a2ed6b55bd4c1e1206cb0d9504f923ae465de08c0788bc5007c0e5b0bc179f3",
+      "postimage_sha256": "96d8567e4d8e8d81b9d17ddb469f46b3da49c327877d45aa78a7a70c19a70060"
+    },
+    "zone/CMakeLists.txt": {
+      "preimage_sha256": "4c668793a0c89f210569bc3582b921a99af1a1cb23720afbf63c1727b5a74b82",
+      "postimage_sha256": "8b52b6b6379359d22cd4aac36115974fffc1f86e0d3be33852157e93432be92e"
+    },
+    "zone/client.h": {
+      "preimage_sha256": "9a06c84e81a094fdc692addb0d61915752914d6c589a0949f1438d34e7aad583",
+      "postimage_sha256": "cce992e92de5911f0e20c0408e49c434296c6339d3fe62290a52c5226d173f74"
+    },
+    "zone/client_housing.cpp": {
+      "preimage_sha256": "a12383a544703d7dd43d3abfb4dd637a75f110cda32e5280ecd4da765b967400",
+      "postimage_sha256": "1e68076b759bdacbd7c58ce165af0bb6522141ea66fe1b013ed2a6ba708f53ce"
+    },
+    "zone/client_packet.cpp": {
+      "preimage_sha256": "e3e550a7711cefa251987086749358291a39973e6f68201f82d0f424b4e4a350",
+      "postimage_sha256": "663302fd8493f7b183f059420ee88b866cc353da94e05203962cd1166b003776"
+    },
+    "zone/entity.cpp": {
+      "preimage_sha256": "f356404c57a55ddbcaeb0993dc1979a8f51fc07632deaa4e4c8c13b323cd008a",
+      "postimage_sha256": "8909b42c8eac48c9c4bf3919487ce78b211c35ed8edc06fd5f5f515b0d4b32e2"
+    },
+    "zone/housing_recipe301.cpp": {
+      "preimage_sha256": null,
+      "postimage_sha256": "bc7dd698005762cefe696fa9801a0357d115eae3b016003136de85c885b6bc00"
+    },
+    "zone/housing_recipe301.h": {
+      "preimage_sha256": null,
+      "postimage_sha256": "10223f45c36a1e3ecc207d8a516fa678b2ae07b9b6c10bc5b7ea1d948f8e156e"
+    },
+    "zone/inventory.cpp": {
+      "preimage_sha256": "a5c2c0a1862121a7d3d38f4007f647615f7dad9d08941b914d6e96bdb0ac47dd",
+      "postimage_sha256": "82db259b58ee8a088457c1fa6e5346b25752319291b5d5cd959bcf6df41557fa"
+    },
+    "zone/object.cpp": {
+      "preimage_sha256": "09d40b5cfa529c320d45429037ed83f631ab88b123d94dc7d1e54cecec0d75aa",
+      "postimage_sha256": "fe8fe340ea1d3b3408a69e300233ec9a3bc5468dad5d77d3b81fc04536f1606f"
+    },
+    "zone/object.h": {
+      "preimage_sha256": "e11c7c2bedd3b03fdfeba06c416b91d38c5437d9a6980e1b5f360162bd474dc2",
+      "postimage_sha256": "18baa2e6988e4a737bf0f8406c1fb41e8a02c1fb6c46fcded7f8d0f172d395f2"
+    },
+    "zone/tradeskills.cpp": {
+      "preimage_sha256": "ffd94f89f7c8a214ef83ec88edaf984078d61c022cd74ca0dd07edbd45444895",
+      "postimage_sha256": "0d67e61e08fa2b9a00eeef9f5153866b2a949079463281f0299ad6dba258b445"
+    }
+  },
+  "published_parent_commit": "af39d1b7853bcec3fcf3f6a539fb7be6b5140ea8",
+  "published_parent_receipt_sha256": "9b92e9c6284dcce8e9d57da5447c810948e9aea40883d56865ba01d0628a776f",
+  "P1_closure": "Removed only the new per-unit source-Held abort. Added one-use private AdmitDebit checkpoint before any consumption, and noexcept READ-guard cleanup. Mid-debit READ loss cannot inject partial-consumption failure or a destructor exception. Other existing native inventory failure semantics unchanged; no claim of general atomic inventory persistence."
+}

@@ -1,0 +1,93 @@
+--- a/zone/tradeskills.cpp
++++ b/zone/tradeskills.cpp
+@@ -43,12 +43,38 @@
+ #include <algorithm>
+ #include <list>
+ #include <array>
++#include <vector>
++#include <stdexcept>
++#include "inventory_session_owner.h"
+ 
+ extern QueryServ* QServ;
+ extern WorldServer worldserver;
+ 
+ 
+ namespace {
++
++
++struct Final300InputTree {
++ struct Node {const EQ::ItemInstance* original;uint32_t id;int32_t serial;int16_t charges;std::vector<std::pair<uint8_t,Node>> children;};
++ Node root;
++ static Node Capture(const EQ::ItemInstance& item) {
++  Node n{&item,item.GetID(),item.GetSerialNumber(),item.GetCharges(),{}};
++  for(const auto& child:*item.GetContents()) {
++   if(!child.second)throw std::runtime_error("Missing finite recipe ingredient");
++   n.children.emplace_back(child.first,Capture(*child.second));
++  }
++  return n;
++ }
++ static bool Same(const Node& n,const EQ::ItemInstance* item) {
++  if(!item || item!=n.original || item->GetID()!=n.id || item->GetSerialNumber()!=n.serial ||
++   item->GetCharges()!=n.charges || item->GetContents()->size()!=n.children.size())return false;
++  for(const auto& child:n.children) {
++   auto at=item->GetContents()->find(child.first);
++   if(at==item->GetContents()->end() || !Same(child.second,at->second))return false;
++  }
++  return true;
++ }
++};
+ 
+ bool Final300OutputValid(const DBTradeskillRecipe_Struct& spec) {
+  if (!FinalRecipe300::Selected(spec.recipe_id)) return true;
+@@ -598,17 +624,45 @@
+ 
+ 
+ 
++ // Capture the actual matched physical input tree before mutable validation hooks.
++ // No clone/replacement/consumption; compare identities and all nested charges/slots.
++ std::unique_ptr<Final300InputTree> final300_inputs;
++ const auto final300_owner=user->InventorySessionReleaseTicket();
++ const auto final300_character=user->CharacterID();
++ const auto final300_account=user->AccountID();
++ const auto* final300_world=worldcontainer?worldo:nullptr;
++ const auto final300_world_id=final300_world?final300_world->GetDBID():0;
++ if(FinalRecipe300::Selected(spec.recipe_id)) {
++  if(!container || !final300_owner || !final300_owner->HeldFor(*user)) {
++   auto* denied=new EQApplicationPacket(OP_TradeSkillCombine,0);user->QueuePacket(denied);safe_delete(denied);return;
++  }
++  try { final300_inputs=std::make_unique<Final300InputTree>(Final300InputTree{Final300InputTree::Capture(*container)}); }
++  catch(...) {auto* denied=new EQApplicationPacket(OP_TradeSkillCombine,0);user->QueuePacket(denied);safe_delete(denied);return;}
++ }
++
+  const auto final300_valid=[&](){
+   if(!FinalRecipe300::Selected(spec.recipe_id))return true;
++  if(!final300_inputs || !final300_owner || !final300_owner->HeldFor(*user) ||
++   user->CharacterID()!=final300_character || user->AccountID()!=final300_account)return false;
+   if(!Final300OutputValid(spec)||!FirePersonalOccurrenceSource::NativeInventoryFence::ProfileAllowed(&user->GetInv())||
+    !FinalRecipe300::RaceAllowed(spec.recipe_id,user->GetPP().race))return false;
+-  if(FinalRecipe300::Font(spec.recipe_id))return !worldcontainer && Final300Kit(*user,in_combine->container_slot,container) && Final300Font(*user,spec.recipe_id);
+-  auto* station=worldcontainer?worldo:nullptr;
+-  const auto* data=station&&station->m_inst?station->m_inst->GetItem():nullptr;
+-  return station && station==user->GetTradeskillObject() && station->user==user &&
+-   station->m_inst && station->m_inst==container && station->m_inst->IsType(EQ::item::ItemClassBag) && data &&
+-   FinalRecipe300::WorldAllowed(spec.recipe_id,zone->GetZoneID(),zone->GetInstanceVersion(),station->GetDBID(),station->GetType(),data->ID);
++  // Resolve current native custody before touching the retained original pointer.
++  const EQ::ItemInstance* current=nullptr;
++  if(FinalRecipe300::Font(spec.recipe_id)) {
++   if(worldcontainer || !Final300Kit(*user,in_combine->container_slot,container) || !Final300Font(*user,spec.recipe_id))return false;
++   current=user->GetInv().GetItem(in_combine->container_slot);
++  }else {
++   auto* station=user->GetTradeskillObject();
++   if(!worldcontainer || !station || station!=worldo || station!=final300_world ||
++    station->user!=user || station->GetDBID()!=final300_world_id || !station->m_inst ||
++    station->m_inst!=container || !station->m_inst->IsType(EQ::item::ItemClassBag))return false;
++   const auto* data=station->m_inst->GetItem();
++   if(!data || !FinalRecipe300::WorldAllowed(spec.recipe_id,zone->GetZoneID(),zone->GetInstanceVersion(),station->GetDBID(),station->GetType(),data->ID))return false;
++   current=station->m_inst;
++  }
++  return Final300InputTree::Same(final300_inputs->root,current);
+  };
++
+  if(!final300_valid()){user->Message(Chat::Red,"This recipe requires its correct station, location, and maker.");auto* denied=new EQApplicationPacket(OP_TradeSkillCombine,0);user->QueuePacket(denied);safe_delete(denied);return;}
+  const auto* charged_requirement=ChargedRecipe32::Find(spec.recipe_id);
+  ChargedPacking32Plan charged_packing;

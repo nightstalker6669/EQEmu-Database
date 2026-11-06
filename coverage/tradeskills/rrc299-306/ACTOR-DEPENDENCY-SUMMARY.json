@@ -1,0 +1,357 @@
+{
+  "status": "COMPILED_MATCHED_WORLD_ZONE_INSTALLED_STARTED_NATIVE_ITEM_MAPS_VERIFIED_ADMISSION_RELEASED",
+  "compile_receipt_sha256": "642e46fb0386507a7f6de87a41b00da9da626e27b439a2ff54bcbc4db79b0f62",
+  "phaseA_receipt_sha256": "1cbcc16daf57c6661fb881880f26f9f3ea234a902192a6852384b19e84101172",
+  "source_bindings": {
+    "RRC303_native2_pins": {
+      "zone/cultural_tailoring_bulk_actor.h": {
+        "postimage_sha256": "73ccd70d344256311dcd90ad915b3a1a9e9213562fb84c1adfac8886b3c798f7",
+        "preimage_sha256": "f346b6690c08e17e10331c58abae5454398f4b2d9ecadaac834771869b4e39c3"
+      },
+      "zone/tradeskills.cpp": {
+        "postimage_sha256": "d75f0aa81424bce31ad4b58af14be511310b31994c7bf94e1efe2d224bee6366",
+        "preimage_sha256": "1b7f5080191f290b125517434481417582d8bfcc670a690a30e259d179e6dbd4"
+      }
+    },
+    "RRC303_publication": {
+      "path": "[retained-private-evidence:receipt.json]",
+      "sha256": "6c38573a408fc80559dc939bf2cc3a5ba033b66845925b08bfc91277280f0b7b"
+    },
+    "World_already_linked_hash": "93334f15d50508449b5af189448be6ca7b5d5efa77491558de3d6f3d0961a31f",
+    "actual_changed_paths_from_failed301r2": [
+      "zone/cultural_tailoring_bulk_actor.h",
+      "zone/tradeskills.cpp"
+    ],
+    "aggregate303_prepared_receipt": {
+      "path": "[retained-private-evidence:RRC299-303-AGGREGATE-COMPILE-STOP-001.private.json]",
+      "sha256": "6962418fd95b5e55d42ceeb34c08c2b281a4684e8228f41b86109cbf9698b6ce"
+    },
+    "all_current_RRC298_and_earlier_peers_preserved_outside_exact_recipe_deltas": true,
+    "all_other_failed_parent_source_paths_identical": true,
+    "compile_fix_contract": {
+      "path": "[retained-private-evidence:aggregate55-compile-fix001.json]",
+      "sha256": "be6843fd3b41fb68493ca1901429dae7202d82b83a682d93800d0ce0dc910ec2"
+    },
+    "compile_fix_manifest": {
+      "path": "[retained-private-evidence:PUBLIC-MANIFEST.json]",
+      "sha256": "c3e45370f968bda667c889fb56236245aa0cf242478206ae6f73724d235a0dae"
+    },
+    "compile_fix_native_pin": {
+      "zone/tradeskills.cpp": {
+        "postimage_sha256": "89c9ef861e6ae157044adb2813c1f9c34b393589bb0be98f0547a7b15547b7c6",
+        "preimage_sha256": "d75f0aa81424bce31ad4b58af14be511310b31994c7bf94e1efe2d224bee6366"
+      }
+    },
+    "compile_fix_patch_sha256": "386d9faaf7ed74b7c9c81539ca2d7bd6fded581b7ad6fcedd9aa9543b62b050c",
+    "compile_fix_publication": {
+      "commit": "3305d5e9cdb337beb33e64c33655e6dc65a460c4",
+      "path": "[retained-private-evidence:receipt.json]",
+      "sha256": "427064932fceeceabceee5c249b36307bdec3e66763eac9943c15e80390cbda5"
+    },
+    "failed_source_archive": "[retained-private-evidence:source]",
+    "fix_scope": "Sole const auto* -> auto* const originalWorld capture, all other aggregate303bytes unchanged. No API/behavior widening; no repeated parentreview/tests.",
+    "prior_299_300r3_301r2_302_binding": {
+      "RRC300r3_publication": {
+        "commit": "1a9c69b429a1af8015517fa595d8ed9f2250f270",
+        "path": "[retained-private-evidence:receipt.json]",
+        "sha256": "be608f482a7f7d7baab58bee945ab7c6db5e559d5e0cceb734b17584f1fd2cef"
+      },
+      "RRC301_302_publication": {
+        "commit": "af39d1b7853bcec3fcf3f6a539fb7be6b5140ea8",
+        "path": "[retained-private-evidence:receipt.json]",
+        "sha256": "9b92e9c6284dcce8e9d57da5447c810948e9aea40883d56865ba01d0628a776f"
+      },
+      "RRC301r2_actor": {
+        "path": "[retained-private-evidence:actor-contract.json]",
+        "sha256": "1f4178f649f9aef96e2b4e57134f8987acf7458be205685c4bf89c821d888811"
+      },
+      "RRC301r2_manifest": {
+        "path": "[retained-private-evidence:PUBLIC-MANIFEST.json]",
+        "sha256": "609ca820396111328f3a743841b0387caea2bc17fed85dce59f6c7c7bc56dc3e"
+      },
+      "RRC301r2_native3_pins": {
+        "zone/housing_recipe301.cpp": {
+          "postimage_sha256": "1731f4008efeee836b91352ee94607e64886bf85741471381986bedb84c9ef94",
+          "preimage_sha256": "bc7dd698005762cefe696fa9801a0357d115eae3b016003136de85c885b6bc00"
+        },
+        "zone/housing_recipe301.h": {
+          "postimage_sha256": "c2594e68412c1c2cc3f1e0a311c14f3876242896235d9ac8b9a36a9437b0b1d5",
+          "preimage_sha256": "10223f45c36a1e3ecc207d8a516fa678b2ae07b9b6c10bc5b7ea1d948f8e156e"
+        },
+        "zone/tradeskills.cpp": {
+          "postimage_sha256": "1b7f5080191f290b125517434481417582d8bfcc670a690a30e259d179e6dbd4",
+          "preimage_sha256": "155407be1bf196bf096f6d8ee57ca445787c33d7e2a24d7a189515d52ee6f5a7"
+        }
+      },
+      "RRC301r2_patch_sha256": "54f11b1dc1bc8e3f69c62ef73461051ac2dd664e0550f8bb3b13dbb1a982af68",
+      "RRC301r2_publication": {
+        "commit": "243ab65e7374db71d068d4e037cadd385ddf2c90",
+        "path": "[retained-private-evidence:receipt.json]",
+        "sha256": "9a1e26b7f10d1e97f94b36a854ae453f6c57217127da7abdc0ba31c7183c3291"
+      },
+      "actual_changed_paths_from_queued299": [
+        "common/housing/live_item_service.cpp",
+        "common/housing/static_furniture_recipe301.inc",
+        "common/housing/static_furniture_registry.h",
+        "zone/CMakeLists.txt",
+        "zone/client.h",
+        "zone/client_housing.cpp",
+        "zone/client_packet.cpp",
+        "zone/entity.cpp",
+        "zone/final_recipe300.h",
+        "zone/final_recipe302.h",
+        "zone/housing_recipe301.cpp",
+        "zone/housing_recipe301.h",
+        "zone/inventory.cpp",
+        "zone/object.cpp",
+        "zone/object.h",
+        "zone/tradeskills.cpp"
+      ],
+      "actual_final_native_pins": {
+        "common/housing/live_item_service.cpp": "8c76c0aeb494d390f11d697689ab038c63c462fcb627e82d72e8d34cbdd9dcdc",
+        "common/housing/static_furniture_recipe301.inc": "d5980eee275a33ece1e30439c1acbad2c49fb048a4e0ae0d2d9d6bb3c34fc774",
+        "common/housing/static_furniture_registry.h": "96d8567e4d8e8d81b9d17ddb469f46b3da49c327877d45aa78a7a70c19a70060",
+        "zone/CMakeLists.txt": "8b52b6b6379359d22cd4aac36115974fffc1f86e0d3be33852157e93432be92e",
+        "zone/client.h": "cce992e92de5911f0e20c0408e49c434296c6339d3fe62290a52c5226d173f74",
+        "zone/client_housing.cpp": "1e68076b759bdacbd7c58ce165af0bb6522141ea66fe1b013ed2a6ba708f53ce",
+        "zone/client_packet.cpp": "663302fd8493f7b183f059420ee88b866cc353da94e05203962cd1166b003776",
+        "zone/entity.cpp": "8909b42c8eac48c9c4bf3919487ce78b211c35ed8edc06fd5f5f515b0d4b32e2",
+        "zone/final_recipe300.h": "8fdc5bf62f3eb15fdf73fb6b9cdd8b6d5063251d0711856f6a2a653a1b29b8d3",
+        "zone/final_recipe302.h": "9e60a6d34baa141a8d6ca63c03efe21ceaaa3e4c5479e9ee9237cdd17166367d",
+        "zone/housing_recipe301.cpp": "1731f4008efeee836b91352ee94607e64886bf85741471381986bedb84c9ef94",
+        "zone/housing_recipe301.h": "c2594e68412c1c2cc3f1e0a311c14f3876242896235d9ac8b9a36a9437b0b1d5",
+        "zone/inventory.cpp": "82db259b58ee8a088457c1fa6e5346b25752319291b5d5cd959bcf6df41557fa",
+        "zone/object.cpp": "fe8fe340ea1d3b3408a69e300233ec9a3bc5468dad5d77d3b81fc04536f1606f",
+        "zone/object.h": "18baa2e6988e4a737bf0f8406c1fb41e8a02c1fb6c46fcded7f8d0f172d395f2",
+        "zone/tradeskills.cpp": "1b7f5080191f290b125517434481417582d8bfcc670a690a30e259d179e6dbd4"
+      },
+      "all_RRC298_trophy_earlier_recipe_Fire_Fungal_bot_peers_preserved_outside_exact_recipe_deltas": true,
+      "all_other_parent_source_paths_identical": true,
+      "narrow_P1_closure": "Fresh private once-state AdmitDebit validates heldsource immediately BEFORE first inventory debit; failureconsumes0. No middebit sourceREADloss abort remains; admitted ordinary consume/chance/output/task/learn completesonce. Fresh Use per nextcombine, noexceptcleanup. Source-level closure only; inherited native inventory-persistence limitations unchanged/no global atomicwriter claim.",
+      "ordered_checked_stages": [
+        {
+          "actor_contract": {
+            "path": "[retained-private-evidence:actor-contract.json]",
+            "sha256": "bb6385371bdc0cb8d4c51f2f28ac42d3d35c92e1cf8d572ed4f56a50b283bc7d"
+          },
+          "batch": "RRC300-r3",
+          "manifest": {
+            "path": "[retained-private-evidence:PUBLIC-MANIFEST.json]",
+            "sha256": "5e9316e6321162a63322e7f8fe173be3682d7ef355a799658de53eb29f967f90"
+          },
+          "native_patch_sha256": "ba359830dcf36958f70860d6942b87583f24fcf94d9a24c51d3f5105f23a74cc",
+          "native_pins": {
+            "zone/final_recipe300.h": {
+              "postimage_sha256": "8fdc5bf62f3eb15fdf73fb6b9cdd8b6d5063251d0711856f6a2a653a1b29b8d3",
+              "preimage_sha256": null
+            },
+            "zone/tradeskills.cpp": {
+              "postimage_sha256": "ffd94f89f7c8a214ef83ec88edaf984078d61c022cd74ca0dd07edbd45444895",
+              "preimage_sha256": "e3169a34148b2a8f0cd489172815202b68027804de682587d96e9e05586930b7"
+            }
+          }
+        },
+        {
+          "actor_contract": {
+            "path": "[retained-private-evidence:actor-contract.json]",
+            "sha256": "32dc3ecc12e541f2d234811a7f82011055bc67bc7b48d60311ee58fe4d48f408"
+          },
+          "batch": "RRC301",
+          "manifest": {
+            "path": "[retained-private-evidence:PUBLIC-MANIFEST.json]",
+            "sha256": "d292b83b78805178fc5c4a0112a4f51dd1f268b14e4ec3348918abbebe02c652"
+          },
+          "native_patch_sha256": "a241ff7e4574b72de8500c4234e570117cb850ac39e788ff2ab6b5241fbd1ec2",
+          "native_pins": {
+            "common/housing/live_item_service.cpp": {
+              "postimage_sha256": "8c76c0aeb494d390f11d697689ab038c63c462fcb627e82d72e8d34cbdd9dcdc",
+              "preimage_sha256": "44ca518784028caf84cb9b9c605bcff75cbb62cb2ea34aa5a5153e13f507752b"
+            },
+            "common/housing/static_furniture_recipe301.inc": {
+              "postimage_sha256": "d5980eee275a33ece1e30439c1acbad2c49fb048a4e0ae0d2d9d6bb3c34fc774",
+              "preimage_sha256": null
+            },
+            "common/housing/static_furniture_registry.h": {
+              "postimage_sha256": "96d8567e4d8e8d81b9d17ddb469f46b3da49c327877d45aa78a7a70c19a70060",
+              "preimage_sha256": "3a2ed6b55bd4c1e1206cb0d9504f923ae465de08c0788bc5007c0e5b0bc179f3"
+            },
+            "zone/CMakeLists.txt": {
+              "postimage_sha256": "8b52b6b6379359d22cd4aac36115974fffc1f86e0d3be33852157e93432be92e",
+              "preimage_sha256": "4c668793a0c89f210569bc3582b921a99af1a1cb23720afbf63c1727b5a74b82"
+            },
+            "zone/client.h": {
+              "postimage_sha256": "cce992e92de5911f0e20c0408e49c434296c6339d3fe62290a52c5226d173f74",
+              "preimage_sha256": "9a06c84e81a094fdc692addb0d61915752914d6c589a0949f1438d34e7aad583"
+            },
+            "zone/client_housing.cpp": {
+              "postimage_sha256": "1e68076b759bdacbd7c58ce165af0bb6522141ea66fe1b013ed2a6ba708f53ce",
+              "preimage_sha256": "a12383a544703d7dd43d3abfb4dd637a75f110cda32e5280ecd4da765b967400"
+            },
+            "zone/client_packet.cpp": {
+              "postimage_sha256": "663302fd8493f7b183f059420ee88b866cc353da94e05203962cd1166b003776",
+              "preimage_sha256": "e3e550a7711cefa251987086749358291a39973e6f68201f82d0f424b4e4a350"
+            },
+            "zone/entity.cpp": {
+              "postimage_sha256": "8909b42c8eac48c9c4bf3919487ce78b211c35ed8edc06fd5f5f515b0d4b32e2",
+              "preimage_sha256": "f356404c57a55ddbcaeb0993dc1979a8f51fc07632deaa4e4c8c13b323cd008a"
+            },
+            "zone/housing_recipe301.cpp": {
+              "postimage_sha256": "bc7dd698005762cefe696fa9801a0357d115eae3b016003136de85c885b6bc00",
+              "preimage_sha256": null
+            },
+            "zone/housing_recipe301.h": {
+              "postimage_sha256": "10223f45c36a1e3ecc207d8a516fa678b2ae07b9b6c10bc5b7ea1d948f8e156e",
+              "preimage_sha256": null
+            },
+            "zone/inventory.cpp": {
+              "postimage_sha256": "82db259b58ee8a088457c1fa6e5346b25752319291b5d5cd959bcf6df41557fa",
+              "preimage_sha256": "a5c2c0a1862121a7d3d38f4007f647615f7dad9d08941b914d6e96bdb0ac47dd"
+            },
+            "zone/object.cpp": {
+              "postimage_sha256": "fe8fe340ea1d3b3408a69e300233ec9a3bc5468dad5d77d3b81fc04536f1606f",
+              "preimage_sha256": "09d40b5cfa529c320d45429037ed83f631ab88b123d94dc7d1e54cecec0d75aa"
+            },
+            "zone/object.h": {
+              "postimage_sha256": "18baa2e6988e4a737bf0f8406c1fb41e8a02c1fb6c46fcded7f8d0f172d395f2",
+              "preimage_sha256": "e11c7c2bedd3b03fdfeba06c416b91d38c5437d9a6980e1b5f360162bd474dc2"
+            },
+            "zone/tradeskills.cpp": {
+              "postimage_sha256": "0d67e61e08fa2b9a00eeef9f5153866b2a949079463281f0299ad6dba258b445",
+              "preimage_sha256": "ffd94f89f7c8a214ef83ec88edaf984078d61c022cd74ca0dd07edbd45444895"
+            }
+          }
+        },
+        {
+          "actor_contract": {
+            "path": "[retained-private-evidence:actor-contract.json]",
+            "sha256": "5f9d4d1211a127625863780ba65fca0238992930536d86786941baa973e2aca8"
+          },
+          "batch": "RRC302",
+          "manifest": {
+            "path": "[retained-private-evidence:PUBLIC-MANIFEST.json]",
+            "sha256": "83dcca2424cbff5c398215a220f27b81adffe83581b44f95e77dc1f9b41c01ad"
+          },
+          "native_patch_sha256": "09b7b119071ae5eeb856238bb8ea7d3878793daf6d6fda2d049b10e2253de027",
+          "native_pins": {
+            "zone/final_recipe302.h": {
+              "postimage_sha256": "9e60a6d34baa141a8d6ca63c03efe21ceaaa3e4c5479e9ee9237cdd17166367d",
+              "preimage_sha256": null
+            },
+            "zone/tradeskills.cpp": {
+              "postimage_sha256": "155407be1bf196bf096f6d8ee57ca445787c33d7e2a24d7a189515d52ee6f5a7",
+              "preimage_sha256": "0d67e61e08fa2b9a00eeef9f5153866b2a949079463281f0299ad6dba258b445"
+            }
+          }
+        }
+      ],
+      "queued_RRC299_receipt": {
+        "path": "[retained-private-evidence:RRC299-MAKER-APPEND-COMPILE-001.private.json]",
+        "sha256": "8e65356f08ed74a86707e08e4de02dabf97d77ea1ca38ffa12c5bd8fa098fe30"
+      },
+      "reused_assessment": {
+        "path": "[retained-private-evidence:RRC299-302-FOCUSED-INTEGRATION-FINDING-001.private.json]",
+        "sha256": "45c6313f31bd6d300bcebb084b62777e7962a2d010af45416dd44f59ccf75ead"
+      },
+      "serving_preimages": {
+        "world": "6c317779f2c549c3e0852f93cb79e5f4bb6277c0c02eb3255569a03ee55e79dd",
+        "zone": "8e04ac65b9337fcb9a9cf9362cc9773de249db5e4726b79bbaab5b1962666e9c"
+      },
+      "source_inventory": {
+        "path": "[retained-private-evidence:composed-source.private.json]",
+        "sha256": "da8d9f8658a1bddea9fb1ce3a932577764b45ab91a49ac8333f053992eb307fa"
+      },
+      "total_changed_paths_from_serving_RRC298r3": 17
+    },
+    "retained_same_failed_cache": "[retained-private-evidence:build]",
+    "serving_preimages": {
+      "world": "6c317779f2c549c3e0852f93cb79e5f4bb6277c0c02eb3255569a03ee55e79dd",
+      "zone": "8e04ac65b9337fcb9a9cf9362cc9773de249db5e4726b79bbaab5b1962666e9c"
+    },
+    "source_assessments_reused": [
+      "RRC300currentowner-beforetree",
+      "RRC301r2oncepredebit/P1closure",
+      "RRC302exactstationkits",
+      "RRC303sevenOgreoriginaltree/identity"
+    ],
+    "source_inventory": {
+      "path": "[retained-private-evidence:composed-source.private.json]",
+      "sha256": "e29df59ab8bb14a7b36c5b37559bb4f5a8cd21cd1f8f7b4c3e50e3854975e2c3"
+    }
+  },
+  "source_only_qualifications_historical": "Recipe-only combined55recipes/+350entries candidate; includes exact7OgrePP10/root92880/RRC303originaltree-ownership guards. Item123461actualDatabase definition receipt required BEFORE itemsharedmemory generation; no item/spell regeneration from oldDB. RRC301 finite13placed54250yard712auto-only/manual-interiorunsupported; once sourceauthority admission beforedebit, inherited ordinary inventorywriter failure semantics unchanged/no new general atomicinventoryclaim. RRC300LOCALfont5H8V/neverlearn2/Caskonephysical8charges retained. Exact228283type255to20 station proposal unapplied/separateGO. No nativecraft/property/station/geometryacceptance. All SQL/installHOLD and pausednonrecipefeatures preserved.",
+  "matched_installed_binary_sha256": {
+    "world": "93334f15d50508449b5af189448be6ca7b5d5efa77491558de3d6f3d0961a31f",
+    "zone": "21503bea1bbf462df62bd129a4d6ebe3d71f93219aac8ad05de61ab1bb905613"
+  },
+  "targeted_native_item_cache": {
+    "selector": "items",
+    "exit": 0,
+    "sha256": "d190029c5a6d7fb4fd69d60a65fa751b07954df9f8aaa75baee97c7c4ec86578",
+    "added_ids": [
+      123461
+    ],
+    "changed_existing_ids": [],
+    "removed_ids": [],
+    "all_other_existing_native_records_byte_identical": true,
+    "book": {
+      "filename": "RRC303OgreTailoring",
+      "filename_occurrences": 1,
+      "id": 123461,
+      "name": "Extravagant Ogre Cultural Tailoring",
+      "native_record_sha256": "0c9515afd4edfe34aaa928b968d44d40f87007bd01c4fa2a04596c72863fdef9"
+    },
+    "actual_books_row_id": 7198,
+    "authored_text_sha256": "233c5bc963a5c70ba13a632c76586e6190247230d442bbff97ae5112f634ebc2",
+    "spells_sha256_unchanged": "1fb22b3006bd905db33f8af97c9b2b9db7ae6e428bcd03346c7356fcd5703faa",
+    "no_spells_regeneration": true
+  },
+  "native_gameplay_acceptance": false,
+  "final_startup_and_release_pending": false,
+  "startup_and_release": {
+    "status": "PASS_AGGREGATE55_ADMISSION_RELEASED_SAME_MATCHED_SERVER_RUNNING",
+    "startup_receipt_sha256": "dd98ab747876654a80ec3390c641e5cf6fccf37364af328b89fa804cdcfe3755",
+    "release_receipt_sha256": "ca07d165319ff1493693e22bc39fc44c2575a2a75337294eace9981930c56eff",
+    "one_original_supervisor_start": "2026-11-06T17:27:07.163015099Z",
+    "same_original_start_and_uninterrupted_runtime": true,
+    "actual_world_binary_sha256": "93334f15d50508449b5af189448be6ca7b5d5efa77491558de3d6f3d0961a31f",
+    "all_six_zone_executable_sha256": "21503bea1bbf462df62bd129a4d6ebe3d71f93219aac8ad05de61ab1bb905613",
+    "actual_all7_item123461_native_maps": {
+      "readers": 7,
+      "world": 1,
+      "zones": 6,
+      "item_id": 123461,
+      "name": "Extravagant Ogre Cultural Tailoring",
+      "filename": "RRC303OgreTailoring",
+      "native_record_sha256": "0c9515afd4edfe34aaa928b968d44d40f87007bd01c4fa2a04596c72863fdef9",
+      "same_record_all_readers": true
+    },
+    "Fire_catalogue_preservation": {
+      "all6tasks": 895,
+      "all6valid_selectable_reward_sets": 158,
+      "invalid_delivery_missing_enabled_reward_errors": 0,
+      "preservation_evidence_only_no_new_nonrecipe_work": true
+    },
+    "readiness": {
+      "Brell228283": "Bound actual b1748c45 fullrow type255to20 receipt and exactfinalRRC300002 SQLguards. Fresh ZoneInit LoadZoneObjects(zone.cpp1233) will read type20 when490v0 loads; idle deferred readiness only, no forcedload/native station combine acceptance.",
+      "World_tasks_DZ": "Fresh matched boot/source handler readiness; no per-ID WorldDZ native introspection claimed.",
+      "merchant": "RRC303ownerSQLreceipt/aggregate closes exactly1offer; all7actualnativeitemmaps contain123461 definition/readable filename. All6zones idle, PoKmerchant not loaded/queried. Fresh ZoneInit LoadMerchants(zone.cpp1242/682) will query current merchantlist; nextZoneInit readiness only, no merchant interaction/loadedscene claim.",
+      "native_gameplay_acceptance": false
+    },
+    "admission_release": {
+      "owned_host_rules_removed": 4,
+      "owned_namespace_rules_removed": 2,
+      "owned_rules_absent": true,
+      "world_unlocked": true,
+      "configured_prewindow_default_restored_config_untouched": true,
+      "unrelated_rules_and_chain_policies_preserved_ignoring_counters": true,
+      "restartpolicy": "no unchanged",
+      "release_GO_separate_from_start": true
+    },
+    "release_known_limits": [
+      "Merchant offer and Brell228283type20 are nextZoneInit freshload readiness while affectedscenes remain unloaded; no merchant dialogue/bookread/stationcombine acceptance claimed.",
+      "Finite55actor source+actualnativecode/cache readiness is distinct from recipe-by-recipe gameplay/property/geometry/unknowncommit acceptance."
+    ],
+    "native_gameplay_acceptance": false,
+    "scope_limit": "Merchant and Brell station are next ZoneInit readiness only; affected scenes remained unloaded. No merchant dialogue, book read, station combine, per-recipe gameplay, geometry, property or unknown-COMMIT acceptance claimed."
+  }
+}

@@ -1,0 +1,15 @@
+-- Separate station mutation: explicit Coordinator GO and Build-owned object reload required.
+DELIMITER $$
+CREATE PROCEDURE rrc300_brell_table_apply()
+BEGIN
+ DECLARE EXIT HANDLER FOR SQLEXCEPTION BEGIN ROLLBACK; RESIGNAL; END;
+ IF DATABASE()<>'peq_housing_test' OR @@in_transaction<>0 THEN SIGNAL SQLSTATE '45000' SET MESSAGE_TEXT='RRC300 station target/transaction mismatch'; END IF;
+ START TRANSACTION;
+ IF (SELECT COUNT(*)FROM object WHERE `id` <=> 228283 AND `zoneid` <=> 490 AND `version` <=> 0 AND `xpos` <=> -89.0 AND `ypos` <=> 485.0 AND `zpos` <=> 23.0 AND `heading` <=> 460.0 AND `itemid` <=> 0 AND `charges` <=> 0 AND `objectname` <=> CONVERT(0x495431313534335f4143544f52444546 USING utf8mb4) AND `type` <=> 255 AND `icon` <=> 0 AND `size_percentage` <=> 0.0 AND `unknown24` <=> 0 AND `unknown60` <=> 0 AND `unknown64` <=> 0 AND `unknown68` <=> 0 AND `unknown72` <=> 0 AND `unknown76` <=> 0 AND `unknown84` <=> 0 AND `size` <=> 100.0 AND `solid_type` <=> 0 AND `incline` <=> 0 AND `tilt_x` <=> 0.0 AND `tilt_y` <=> 0.0 AND `display_name` <=> NULL AND `min_expansion` <=> -1 AND `max_expansion` <=> -1 AND `content_flags` <=> NULL AND `content_flags_disabled` <=> NULL)<>1 THEN SIGNAL SQLSTATE '45000' SET MESSAGE_TEXT='RRC300 exact station preimage mismatch'; END IF;
+ UPDATE object SET type=20 WHERE `id` <=> 228283 AND `zoneid` <=> 490 AND `version` <=> 0 AND `xpos` <=> -89.0 AND `ypos` <=> 485.0 AND `zpos` <=> 23.0 AND `heading` <=> 460.0 AND `itemid` <=> 0 AND `charges` <=> 0 AND `objectname` <=> CONVERT(0x495431313534335f4143544f52444546 USING utf8mb4) AND `type` <=> 255 AND `icon` <=> 0 AND `size_percentage` <=> 0.0 AND `unknown24` <=> 0 AND `unknown60` <=> 0 AND `unknown64` <=> 0 AND `unknown68` <=> 0 AND `unknown72` <=> 0 AND `unknown76` <=> 0 AND `unknown84` <=> 0 AND `size` <=> 100.0 AND `solid_type` <=> 0 AND `incline` <=> 0 AND `tilt_x` <=> 0.0 AND `tilt_y` <=> 0.0 AND `display_name` <=> NULL AND `min_expansion` <=> -1 AND `max_expansion` <=> -1 AND `content_flags` <=> NULL AND `content_flags_disabled` <=> NULL;
+ IF ROW_COUNT()<>1 OR (SELECT COUNT(*)FROM object WHERE `id` <=> 228283 AND `zoneid` <=> 490 AND `version` <=> 0 AND `xpos` <=> -89.0 AND `ypos` <=> 485.0 AND `zpos` <=> 23.0 AND `heading` <=> 460.0 AND `itemid` <=> 0 AND `charges` <=> 0 AND `objectname` <=> CONVERT(0x495431313534335f4143544f52444546 USING utf8mb4) AND `type` <=> 20 AND `icon` <=> 0 AND `size_percentage` <=> 0.0 AND `unknown24` <=> 0 AND `unknown60` <=> 0 AND `unknown64` <=> 0 AND `unknown68` <=> 0 AND `unknown72` <=> 0 AND `unknown76` <=> 0 AND `unknown84` <=> 0 AND `size` <=> 100.0 AND `solid_type` <=> 0 AND `incline` <=> 0 AND `tilt_x` <=> 0.0 AND `tilt_y` <=> 0.0 AND `display_name` <=> NULL AND `min_expansion` <=> -1 AND `max_expansion` <=> -1 AND `content_flags` <=> NULL AND `content_flags_disabled` <=> NULL)<>1 THEN SIGNAL SQLSTATE '45000' SET MESSAGE_TEXT='RRC300 exact station postimage mismatch'; END IF;
+ COMMIT;
+END$$
+DELIMITER ;
+CALL rrc300_brell_table_apply();
+DROP PROCEDURE rrc300_brell_table_apply;

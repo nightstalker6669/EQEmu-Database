@@ -1,0 +1,20 @@
+{
+  "status": "SOURCE_ONLY_AGGREGATE55_COMPILE_CORRECTION_SQL_HOLD",
+  "revision": "AGGREGATE55_COMPILE_FIX001",
+  "files": {
+    "zone/tradeskills.cpp": {
+      "preimage_sha256": "d75f0aa81424bce31ad4b58af14be511310b31994c7bf94e1efe2d224bee6366",
+      "postimage_sha256": "89c9ef861e6ae157044adb2813c1f9c34b393589bb0be98f0547a7b15547b7c6"
+    }
+  },
+  "patch_sha256": "386d9faaf7ed74b7c9c81539ca2d7bd6fded581b7ad6fcedd9aa9543b62b050c",
+  "published_parent_commit": "0f5f133621d4c2d4619f737459bda32460fc91ed",
+  "build_finding_receipt_sha256": "6962418fd95b5e55d42ceeb34c08c2b281a4684e8228f41b86109cbf9698b6ce",
+  "change": "Keep the original world Object pointer itself const, while retaining the existing mutable Object pointee type required by the native nonconst GetDBID accessor. One declaration only; no Object API change.",
+  "preserved": "All aggregate299-303 controls, RRC300 current-owner resolution before tree comparison, RRC301R2 once-only predebit admission, RRC302 routes and RRC303 seven Ogre controls unchanged.",
+  "validation": "Exact aggregate preimage and one declaration replacement only. No new tests, builds, runtime or SQL. Build resumes its existing failed cache and retained World link.",
+  "sql_unchanged": true,
+  "tests": 0,
+  "builds": 0,
+  "database_writes": 0
+}

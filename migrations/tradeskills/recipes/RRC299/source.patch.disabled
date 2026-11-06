@@ -1,0 +1,19 @@
+--- a/zone/research_tablet335_actor.h
++++ b/zone/research_tablet335_actor.h
+@@ -3,13 +3,14 @@
+ #include "common/skills.h"
+ #include <cstdint>
+ 
+-// Exact821 source-qualified RRC275/276/277 IDs only; no global research policy.
++// Exact822 source-qualified RRC275/276/277/299 IDs only; no global research policy.
+ namespace ResearchTablet335 {
+ inline constexpr bool Selected(std::uint32_t recipe_id) {
+- return recipe_id >= 3100656 && recipe_id <= 3101476;
++ return recipe_id == 3102751 || (recipe_id >= 3100656 && recipe_id <= 3101476);
+ }
+ inline constexpr std::uint32_t RequiredKit(std::uint32_t recipe_id) {
+  if (!Selected(recipe_id)) return 0;
++ if (recipe_id == 3102751) return 41555; // one old Fine Runic Grimoire tome, pure melee
+  if (recipe_id <= 3101375) return 93492; // previous715 plus5 Numen chemistry, INT
+  if (recipe_id <= 3101474) return 41555; // new99 tomes/media, pure melee
+  return 41632; // new2 hybrid spells; other historical paths unqualified

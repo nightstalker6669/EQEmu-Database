@@ -1,0 +1,1457 @@
+{
+  "batch": "RRC302",
+  "branch": "rof2-tradeskills",
+  "status": "SOURCE_ONLY_FINITE8_EXACT_PORTABLE3_WORLD_FLETCH5_SQL_HOLD",
+  "proposed_ids": [
+    3102780,
+    3102787
+  ],
+  "counts": {
+    "recipes": 8,
+    "entries": 41,
+    "item_dependencies": 28,
+    "unchanged_prototype_recipes": 6,
+    "unchanged_prototype_entries": 25
+  },
+  "recipes": [
+    {
+      "id": 3102780,
+      "name": "Purified Water",
+      "tradeskill": 65,
+      "skillneeded": 0,
+      "trivial": 0,
+      "nofail": 1,
+      "replace_container": 0,
+      "notes": "Exact source worldFletch5/Drakkin1/NoFailPulpWater2;RRC302.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 0,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3102781,
+      "name": "Shadowed Pulp",
+      "tradeskill": 59,
+      "skillneeded": 101,
+      "trivial": 0,
+      "nofail": 1,
+      "replace_container": 0,
+      "notes": "Exact source worldFletch5/Drakkin1/NoFailPulpWater2;RRC302.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 7,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3102782,
+      "name": "CLASS 3 Dragorn Hooked Arrow (Medium Groove)",
+      "tradeskill": 64,
+      "skillneeded": 0,
+      "trivial": 228,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Exact source worldFletch5/Drakkin1/NoFailPulpWater2;RRC302.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 7,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3102783,
+      "name": "CLASS 3 Dragorn Hooked Arrow (Small Groove)",
+      "tradeskill": 64,
+      "skillneeded": 0,
+      "trivial": 228,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Exact source worldFletch5/Drakkin1/NoFailPulpWater2;RRC302.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 7,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3102784,
+      "name": "CLASS 3 Dragorn Discord Tip Arrow (Small Groove)",
+      "tradeskill": 64,
+      "skillneeded": 0,
+      "trivial": 228,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Exact source worldFletch5/Drakkin1/NoFailPulpWater2;RRC302.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 7,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3102785,
+      "name": "Druzzil's Composite Treant Laminated Compound Bow",
+      "tradeskill": 64,
+      "skillneeded": 0,
+      "trivial": 342,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Exact source worldFletch5/Drakkin1/NoFailPulpWater2;RRC302.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 11,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3102786,
+      "name": "Composite Treant Laminated Compound Bow",
+      "tradeskill": 64,
+      "skillneeded": 0,
+      "trivial": 335,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Exact source worldFletch5/Drakkin1/NoFailPulpWater2;RRC302.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 11,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3102787,
+      "name": "Essence of Drakkin",
+      "tradeskill": 59,
+      "skillneeded": 0,
+      "trivial": 210,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Exact source worldFletch5/Drakkin1/NoFailPulpWater2;RRC302.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 12,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    }
+  ],
+  "entries": [
+    {
+      "recipe_id": 3102780,
+      "item_id": 12607,
+      "successcount": 3,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3102780,
+      "item_id": 12630,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3102780,
+      "item_id": 12638,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3102780,
+      "item_id": 17987,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3102781,
+      "item_id": 57550,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3102781,
+      "item_id": 57600,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3102781,
+      "item_id": 57620,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3102781,
+      "item_id": 57704,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3102782,
+      "item_id": 8051,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3102782,
+      "item_id": 8056,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3102782,
+      "item_id": 8066,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3102782,
+      "item_id": 72092,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3102782,
+      "item_id": 75534,
+      "successcount": 5,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3102782,
+      "item_id": 18,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3102783,
+      "item_id": 8052,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3102783,
+      "item_id": 8056,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3102783,
+      "item_id": 8066,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3102783,
+      "item_id": 72092,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3102783,
+      "item_id": 75535,
+      "successcount": 5,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3102783,
+      "item_id": 18,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3102784,
+      "item_id": 8052,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3102784,
+      "item_id": 8066,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3102784,
+      "item_id": 63862,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3102784,
+      "item_id": 72092,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3102784,
+      "item_id": 75544,
+      "successcount": 10,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3102784,
+      "item_id": 18,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3102785,
+      "item_id": 96493,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 2,
+      "salvagecount": 2,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3102785,
+      "item_id": 96508,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3102785,
+      "item_id": 96534,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3102785,
+      "item_id": 96951,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3102785,
+      "item_id": 18,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3102786,
+      "item_id": 96493,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 2,
+      "salvagecount": 2,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3102786,
+      "item_id": 96508,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3102786,
+      "item_id": 96509,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3102786,
+      "item_id": 96943,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3102786,
+      "item_id": 18,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3102787,
+      "item_id": 51407,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3102787,
+      "item_id": 95848,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3102787,
+      "item_id": 97318,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3102787,
+      "item_id": 98490,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3102787,
+      "item_id": 17901,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    }
+  ],
+  "item_dependencies": [
+    {
+      "id": 8051,
+      "name": "Medium Groove Nocks"
+    },
+    {
+      "id": 8052,
+      "name": "Small Groove Nocks"
+    },
+    {
+      "id": 8056,
+      "name": "Hooked Arrowheads"
+    },
+    {
+      "id": 8066,
+      "name": "Several Shield Cut Fletchings"
+    },
+    {
+      "id": 12607,
+      "name": "Purified Water"
+    },
+    {
+      "id": 12630,
+      "name": "Purification Tablet"
+    },
+    {
+      "id": 12638,
+      "name": "Sop Bark"
+    },
+    {
+      "id": 17901,
+      "name": "Medicine Bag"
+    },
+    {
+      "id": 17987,
+      "name": "Tracker's Water Extractor"
+    },
+    {
+      "id": 51407,
+      "name": "Fangorth"
+    },
+    {
+      "id": 57550,
+      "name": "Shadowed Pulp"
+    },
+    {
+      "id": 57600,
+      "name": "Twine-Wrapped Lustrous Seaweed"
+    },
+    {
+      "id": 57620,
+      "name": "Bleak Fungus"
+    },
+    {
+      "id": 57704,
+      "name": "Thatched Medicine Bag"
+    },
+    {
+      "id": 63862,
+      "name": "Discord Arrowhead"
+    },
+    {
+      "id": 72092,
+      "name": "Dragorn Wing Bones"
+    },
+    {
+      "id": 75534,
+      "name": "CLASS 3 Dragorn Hooked Arrow"
+    },
+    {
+      "id": 75535,
+      "name": "CLASS 3 Dragorn Hooked Arrow"
+    },
+    {
+      "id": 75544,
+      "name": "CLASS 3 Dragorn Discord Tip Arrow"
+    },
+    {
+      "id": 95848,
+      "name": "Runed Potion Vial"
+    },
+    {
+      "id": 96493,
+      "name": "Battle Bow Cam"
+    },
+    {
+      "id": 96508,
+      "name": "Composite Treant Laminate Recurve Bow Staff"
+    },
+    {
+      "id": 96509,
+      "name": "Shimmering Steel Bow String"
+    },
+    {
+      "id": 96534,
+      "name": "Druzzil's Composite Treant Laminated Compound Bow"
+    },
+    {
+      "id": 96943,
+      "name": "Composite Treant Laminated Compound Bow"
+    },
+    {
+      "id": 96951,
+      "name": "Druzzil's Steel Bowstring"
+    },
+    {
+      "id": 97318,
+      "name": "Drakkin Parts"
+    },
+    {
+      "id": 98490,
+      "name": "Essence of Drakkin"
+    }
+  ],
+  "unchanged_prototype_recipes": [
+    {
+      "id": 7780,
+      "name": "Purified Water",
+      "tradeskill": 65,
+      "skillneeded": 0,
+      "trivial": 58,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": null,
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": -1,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 9144,
+      "name": "Purified Water",
+      "tradeskill": 69,
+      "skillneeded": 0,
+      "trivial": 0,
+      "nofail": 1,
+      "replace_container": 0,
+      "notes": null,
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": -1,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 9145,
+      "name": "Purified Water",
+      "tradeskill": 69,
+      "skillneeded": 0,
+      "trivial": 255,
+      "nofail": 1,
+      "replace_container": 0,
+      "notes": null,
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": -1,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 9146,
+      "name": "Purified Water",
+      "tradeskill": 69,
+      "skillneeded": 0,
+      "trivial": 255,
+      "nofail": 1,
+      "replace_container": 0,
+      "notes": null,
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": -1,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 9147,
+      "name": "Purified Water",
+      "tradeskill": 69,
+      "skillneeded": 0,
+      "trivial": 255,
+      "nofail": 1,
+      "replace_container": 0,
+      "notes": null,
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": -1,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 10063,
+      "name": "Shadowed Pulp",
+      "tradeskill": 59,
+      "skillneeded": 100,
+      "trivial": 175,
+      "nofail": 1,
+      "replace_container": 0,
+      "notes": null,
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": -1,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    }
+  ],
+  "unchanged_prototype_entries": [
+    {
+      "id": 10861,
+      "recipe_id": 10063,
+      "item_id": 57620,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 2,
+      "salvagecount": 2,
+      "iscontainer": 0
+    },
+    {
+      "id": 10862,
+      "recipe_id": 10063,
+      "item_id": 57600,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 10863,
+      "recipe_id": 10063,
+      "item_id": 57550,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 10864,
+      "recipe_id": 10063,
+      "item_id": 57704,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 72566,
+      "recipe_id": 7780,
+      "item_id": 13006,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 2,
+      "salvagecount": 2,
+      "iscontainer": 0
+    },
+    {
+      "id": 72567,
+      "recipe_id": 7780,
+      "item_id": 9650,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 72568,
+      "recipe_id": 7780,
+      "item_id": 12607,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 72569,
+      "recipe_id": 7780,
+      "item_id": 19,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 72570,
+      "recipe_id": 7780,
+      "item_id": 17179,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 81160,
+      "recipe_id": 9144,
+      "item_id": 12630,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 81161,
+      "recipe_id": 9144,
+      "item_id": 12778,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 81162,
+      "recipe_id": 9144,
+      "item_id": 12607,
+      "successcount": 3,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 81163,
+      "recipe_id": 9144,
+      "item_id": 17987,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 81164,
+      "recipe_id": 9145,
+      "item_id": 12630,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 81165,
+      "recipe_id": 9145,
+      "item_id": 12632,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 81166,
+      "recipe_id": 9145,
+      "item_id": 12607,
+      "successcount": 3,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 81167,
+      "recipe_id": 9145,
+      "item_id": 17987,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 81168,
+      "recipe_id": 9146,
+      "item_id": 12630,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 81169,
+      "recipe_id": 9146,
+      "item_id": 12633,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 81170,
+      "recipe_id": 9146,
+      "item_id": 12607,
+      "successcount": 3,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 81171,
+      "recipe_id": 9146,
+      "item_id": 17987,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 81172,
+      "recipe_id": 9147,
+      "item_id": 12630,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 81173,
+      "recipe_id": 9147,
+      "item_id": 12634,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 81174,
+      "recipe_id": 9147,
+      "item_id": 12607,
+      "successcount": 3,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 81175,
+      "recipe_id": 9147,
+      "item_id": 17987,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    }
+  ],
+  "source_facts": [
+    {
+      "recipe_id": 3102780,
+      "source_view_id": 28869,
+      "source_alias_views": [],
+      "source_name": "Purified Water",
+      "native_output_name": "Purified Water",
+      "source_name_qualification": null,
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=47&rsa=Brewing&sub=other",
+      "source_primary_url": "https://www.eqtraders.com/items/show_item.php?item=1191",
+      "source_formula": "Components: Purification Tablet, Sop Bark\nIn: Tracker's Water Extractor\nYield: 3",
+      "source_current_formula": "Brewing Components: Purification Tablet, Sop Bark\nIn: Tracker's Water Extractor\nYield: 3\nNo Fail Combine",
+      "source_catalogue_sha256": "67f6815cba2e66a81de853c64d3e89c7c8d0fddf1251ed35ebf2d9049c59d86d",
+      "source_primary_raw_html_sha256": "1e436fb69039db04a44c639e4aeae334baf7447e2ab11e04ee2b06918ac2adcd",
+      "source_trivial": "no fail",
+      "output_item_id": 12607,
+      "yield_count": 3,
+      "trivial": 0,
+      "nofail": 1,
+      "ingredients": [
+        {
+          "item_id": 12630,
+          "name": "Purification Tablet",
+          "count": 1
+        },
+        {
+          "item_id": 12638,
+          "name": "Sop Bark",
+          "count": 1
+        }
+      ],
+      "success_roles": {
+        "12607": 3
+      },
+      "failure_roles": {},
+      "container_item_ids": [
+        17987
+      ],
+      "skillneeded": 0,
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "min_expansion": 0,
+      "May2013_exact_fields_verified": false,
+      "station_mode": "ACTUAL_OWNED_SOURCE_SPECIAL_PORTABLE_KIT",
+      "source_to_native_policy": "Literal sourceNoFail maps localnumeric0/nofail1; >100 explicitinteger requiredminimum maps101. Omittedlearning0 labelled. Source5bows/arrows ONLYnormalworldFletching18, noportablekits inferred; necessaryfinitegate+originaltreefence pending. Familyfloor context labelled, no allfieldMay2013proof."
+    },
+    {
+      "recipe_id": 3102781,
+      "source_view_id": 7700,
+      "source_alias_views": [],
+      "source_name": "Shadowed Pulp",
+      "native_output_name": "Shadowed Pulp",
+      "source_name_qualification": null,
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=29&rsa=Alchemy",
+      "source_primary_url": "https://www.eqtraders.com/items/show_item.php?item=21382",
+      "source_formula": "Components: Bleak Fungus, Twine-Wrapped Lustrous Seaweed\nIn: Thatched Medicine Bag\nYield: 1\nRequired Skill Level: >100\nThis combine may only be made by Shaman",
+      "source_current_formula": "Alchemy Components: Bleak Fungus, Twine-Wrapped Lustrous Seaweed\nIn: Thatched Medicine Bag\nYield: 1\nRequired Skill Level: >100\nThis combine may only be made by Shaman\nNo Fail Combine",
+      "source_catalogue_sha256": "5a9cb4cdd1493a25be702f9aaf609dba648ef5d4db7a08c68436721cb98b87fc",
+      "source_primary_raw_html_sha256": "751ae06aa42a9ba72d46f311a2370b583086aceacca8d273298c59683289917a",
+      "source_trivial": "no fail",
+      "output_item_id": 57550,
+      "yield_count": 1,
+      "trivial": 0,
+      "nofail": 1,
+      "ingredients": [
+        {
+          "item_id": 57600,
+          "name": "Twine-Wrapped Lustrous Seaweed",
+          "count": 1
+        },
+        {
+          "item_id": 57620,
+          "name": "Bleak Fungus",
+          "count": 1
+        }
+      ],
+      "success_roles": {
+        "57550": 1
+      },
+      "failure_roles": {},
+      "container_item_ids": [
+        57704
+      ],
+      "skillneeded": 101,
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "min_expansion": 7,
+      "May2013_exact_fields_verified": false,
+      "station_mode": "ACTUAL_OWNED_SOURCE_SPECIAL_PORTABLE_KIT",
+      "source_to_native_policy": "Literal sourceNoFail maps localnumeric0/nofail1; >100 explicitinteger requiredminimum maps101. Omittedlearning0 labelled. Source5bows/arrows ONLYnormalworldFletching18, noportablekits inferred; necessaryfinitegate+originaltreefence pending. Familyfloor context labelled, no allfieldMay2013proof."
+    },
+    {
+      "recipe_id": 3102782,
+      "source_view_id": 15873,
+      "source_alias_views": [],
+      "source_name": "CLASS 3 Dragorn Hooked Arrow (Medium Groove)",
+      "native_output_name": "CLASS 3 Dragorn Hooked Arrow",
+      "source_name_qualification": "Native physical name omits source groove qualifier; exact current primaryID binds physical output and separate exact groove ingredient disambiguates formula. Not a name-only identity mapping.",
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=272&rsa=Fletching&sub=OoW",
+      "source_primary_url": "https://www.eqtraders.com/items/show_item.php?item=20358",
+      "source_formula": "Components: Dragorn Wing Bones, Hooked Arrowheads, Medium Groove Nocks, Several Shield Cut Fletchings\nIn: Fletching Table (Placeable), Fletching Table, Guild Fletching Table\nYield: 5\nNotes: EQRecipeID: 73184",
+      "source_current_formula": "Fletching Components: Dragorn Wing Bones, Hooked Arrowheads, Medium Groove Nocks, Several Shield Cut Fletchings\nIn: Fletching Table (Placeable), Fletching Table, Guild Fletching Table\nYield: 5\nNotes: EQRecipeID: 73184\nTrivial at: 228\nEQ Recipe ID: 73184",
+      "source_catalogue_sha256": "40dfc7342236cbe4306525f5258bc1e0a8b5f4b0efea1579340e40a438a46e2c",
+      "source_primary_raw_html_sha256": "9326d10fbbe3e935cca83b013b9f2210098291292e04d100e113f02c631451cd",
+      "source_trivial": "228",
+      "output_item_id": 75534,
+      "yield_count": 5,
+      "trivial": 228,
+      "nofail": 0,
+      "ingredients": [
+        {
+          "item_id": 8051,
+          "name": "Medium Groove Nocks",
+          "count": 1
+        },
+        {
+          "item_id": 8056,
+          "name": "Hooked Arrowheads",
+          "count": 1
+        },
+        {
+          "item_id": 8066,
+          "name": "Several Shield Cut Fletchings",
+          "count": 1
+        },
+        {
+          "item_id": 72092,
+          "name": "Dragorn Wing Bones",
+          "count": 1
+        }
+      ],
+      "success_roles": {
+        "75534": 5
+      },
+      "failure_roles": {},
+      "container_item_ids": [
+        18
+      ],
+      "skillneeded": 0,
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "min_expansion": 7,
+      "May2013_exact_fields_verified": false,
+      "station_mode": "ACTUAL_OWNED_OPEN_NATIVE_WORLD_FLETCHING18_ONLY",
+      "source_to_native_policy": "Literal sourceNoFail maps localnumeric0/nofail1; >100 explicitinteger requiredminimum maps101. Omittedlearning0 labelled. Source5bows/arrows ONLYnormalworldFletching18, noportablekits inferred; necessaryfinitegate+originaltreefence pending. Familyfloor context labelled, no allfieldMay2013proof."
+    },
+    {
+      "recipe_id": 3102783,
+      "source_view_id": 15871,
+      "source_alias_views": [],
+      "source_name": "CLASS 3 Dragorn Hooked Arrow (Small Groove)",
+      "native_output_name": "CLASS 3 Dragorn Hooked Arrow",
+      "source_name_qualification": "Native physical name omits source groove qualifier; exact current primaryID binds physical output and separate exact groove ingredient disambiguates formula. Not a name-only identity mapping.",
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=272&rsa=Fletching&sub=OoW",
+      "source_primary_url": "https://www.eqtraders.com/items/show_item.php?item=16550",
+      "source_formula": "Components: Dragorn Wing Bones, Hooked Arrowheads, Several Shield Cut Fletchings, Small Groove Nocks\nIn: Fletching Table (Placeable), Fletching Table, Guild Fletching Table\nYield: 5\nNotes: EQRecipeID: 73185",
+      "source_current_formula": "Fletching Components: Dragorn Wing Bones, Hooked Arrowheads, Several Shield Cut Fletchings, Small Groove Nocks\nIn: Fletching Table (Placeable), Fletching Table, Guild Fletching Table\nYield: 5\nNotes: EQRecipeID: 73185\nTrivial at: 228\nEQ Recipe ID: 73185",
+      "source_catalogue_sha256": "40dfc7342236cbe4306525f5258bc1e0a8b5f4b0efea1579340e40a438a46e2c",
+      "source_primary_raw_html_sha256": "9425271b2f494d7a6019557a4ce4270dcf9be0bd05e2ad3c48b7e3c7571cb11a",
+      "source_trivial": "228",
+      "output_item_id": 75535,
+      "yield_count": 5,
+      "trivial": 228,
+      "nofail": 0,
+      "ingredients": [
+        {
+          "item_id": 8052,
+          "name": "Small Groove Nocks",
+          "count": 1
+        },
+        {
+          "item_id": 8056,
+          "name": "Hooked Arrowheads",
+          "count": 1
+        },
+        {
+          "item_id": 8066,
+          "name": "Several Shield Cut Fletchings",
+          "count": 1
+        },
+        {
+          "item_id": 72092,
+          "name": "Dragorn Wing Bones",
+          "count": 1
+        }
+      ],
+      "success_roles": {
+        "75535": 5
+      },
+      "failure_roles": {},
+      "container_item_ids": [
+        18
+      ],
+      "skillneeded": 0,
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "min_expansion": 7,
+      "May2013_exact_fields_verified": false,
+      "station_mode": "ACTUAL_OWNED_OPEN_NATIVE_WORLD_FLETCHING18_ONLY",
+      "source_to_native_policy": "Literal sourceNoFail maps localnumeric0/nofail1; >100 explicitinteger requiredminimum maps101. Omittedlearning0 labelled. Source5bows/arrows ONLYnormalworldFletching18, noportablekits inferred; necessaryfinitegate+originaltreefence pending. Familyfloor context labelled, no allfieldMay2013proof."
+    },
+    {
+      "recipe_id": 3102784,
+      "source_view_id": 15870,
+      "source_alias_views": [],
+      "source_name": "CLASS 3 Dragorn Discord Tip Arrow (Small Groove)",
+      "native_output_name": "CLASS 3 Dragorn Discord Tip Arrow",
+      "source_name_qualification": "Native physical name omits source groove qualifier; exact current primaryID binds physical output and separate exact groove ingredient disambiguates formula. Not a name-only identity mapping.",
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=272&rsa=Fletching&sub=OoW",
+      "source_primary_url": "https://www.eqtraders.com/items/show_item.php?item=16301",
+      "source_formula": "Components: Discord Arrowhead, Dragorn Wing Bones, Several Shield Cut Fletchings, Small Groove Nocks\nIn: Fletching Table (Placeable), Fletching Table, Guild Fletching Table\nYield: 10\nNotes: EQRecipeID: 73194",
+      "source_current_formula": "Fletching Components: Discord Arrowhead, Dragorn Wing Bones, Several Shield Cut Fletchings, Small Groove Nocks\nIn: Fletching Table (Placeable), Fletching Table, Guild Fletching Table\nYield: 10\nNotes: EQRecipeID: 73194\nTrivial at: 228\nEQ Recipe ID: 73194",
+      "source_catalogue_sha256": "40dfc7342236cbe4306525f5258bc1e0a8b5f4b0efea1579340e40a438a46e2c",
+      "source_primary_raw_html_sha256": "2b7908b5413132522eb5fac9e76342156e4f7fe86ffb486e52af087ce5986230",
+      "source_trivial": "228",
+      "output_item_id": 75544,
+      "yield_count": 10,
+      "trivial": 228,
+      "nofail": 0,
+      "ingredients": [
+        {
+          "item_id": 8052,
+          "name": "Small Groove Nocks",
+          "count": 1
+        },
+        {
+          "item_id": 8066,
+          "name": "Several Shield Cut Fletchings",
+          "count": 1
+        },
+        {
+          "item_id": 63862,
+          "name": "Discord Arrowhead",
+          "count": 1
+        },
+        {
+          "item_id": 72092,
+          "name": "Dragorn Wing Bones",
+          "count": 1
+        }
+      ],
+      "success_roles": {
+        "75544": 10
+      },
+      "failure_roles": {},
+      "container_item_ids": [
+        18
+      ],
+      "skillneeded": 0,
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "min_expansion": 7,
+      "May2013_exact_fields_verified": false,
+      "station_mode": "ACTUAL_OWNED_OPEN_NATIVE_WORLD_FLETCHING18_ONLY",
+      "source_to_native_policy": "Literal sourceNoFail maps localnumeric0/nofail1; >100 explicitinteger requiredminimum maps101. Omittedlearning0 labelled. Source5bows/arrows ONLYnormalworldFletching18, noportablekits inferred; necessaryfinitegate+originaltreefence pending. Familyfloor context labelled, no allfieldMay2013proof."
+    },
+    {
+      "recipe_id": 3102785,
+      "source_view_id": 28681,
+      "source_alias_views": [
+        13764
+      ],
+      "source_name": "Druzzil's Composite Treant Laminated Compound Bow",
+      "native_output_name": "Druzzil's Composite Treant Laminated Compound Bow",
+      "source_name_qualification": null,
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=41&rsa=Fletching&sub=bow",
+      "source_primary_url": "https://www.eqtraders.com/items/show_item.php?item=22716",
+      "source_formula": "Components: Battle Bow Cam (2), Composite Treant Laminate Recurve Bowstave, Druzzil's Steel Bowstring\nIn: Fletching Table (Placeable), Fletching Table, Guild Fletching Table\nYield: 1\nNotes: EQRecipeID: 35580\nQuest: Fletching Supplies (Artisan's Prize)",
+      "source_current_formula": "Fletching Components: Battle Bow Cam (2), Composite Treant Laminate Recurve Bowstave, Druzzil's Steel Bowstring\nIn: Fletching Table (Placeable), Fletching Table, Guild Fletching Table\nYield: 1\nNotes: EQRecipeID: 35580\nQuest: Fletching Supplies (Artisan's Prize)\nTrivial at: 342\nEQ Recipe ID: 35580",
+      "source_catalogue_sha256": "168765b03f8846f8836ea04ca6ee3107740d2347fe69744198ec74ff07e9f3ef",
+      "source_primary_raw_html_sha256": "ac852bbff4646fb81bfdb12876bd57b214e54a59953a61dcf18fd34f8a3376a7",
+      "source_trivial": "342",
+      "output_item_id": 96534,
+      "yield_count": 1,
+      "trivial": 342,
+      "nofail": 0,
+      "ingredients": [
+        {
+          "item_id": 96493,
+          "name": "Battle Bow Cam",
+          "count": 2
+        },
+        {
+          "item_id": 96508,
+          "name": "Composite Treant Laminate Recurve Bow Staff",
+          "count": 1
+        },
+        {
+          "item_id": 96951,
+          "name": "Druzzil's Steel Bowstring",
+          "count": 1
+        }
+      ],
+      "success_roles": {
+        "96534": 1
+      },
+      "failure_roles": {},
+      "container_item_ids": [
+        18
+      ],
+      "skillneeded": 0,
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "min_expansion": 11,
+      "May2013_exact_fields_verified": false,
+      "station_mode": "ACTUAL_OWNED_OPEN_NATIVE_WORLD_FLETCHING18_ONLY",
+      "source_to_native_policy": "Literal sourceNoFail maps localnumeric0/nofail1; >100 explicitinteger requiredminimum maps101. Omittedlearning0 labelled. Source5bows/arrows ONLYnormalworldFletching18, noportablekits inferred; necessaryfinitegate+originaltreefence pending. Familyfloor context labelled, no allfieldMay2013proof."
+    },
+    {
+      "recipe_id": 3102786,
+      "source_view_id": 28670,
+      "source_alias_views": [
+        13753
+      ],
+      "source_name": "Composite Treant Laminated Compound Bow",
+      "native_output_name": "Composite Treant Laminated Compound Bow",
+      "source_name_qualification": null,
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=41&rsa=Fletching&sub=bow",
+      "source_primary_url": "https://www.eqtraders.com/items/show_item.php?item=22717",
+      "source_formula": "Components: Battle Bow Cam (2), Composite Treant Laminate Recurve Bowstave, Shimmering Steel Bowstring\nIn: Fletching Table (Placeable), Fletching Table, Guild Fletching Table\nYield: 1\nNotes: EQRecipeID: 35162",
+      "source_current_formula": "Fletching Components: Battle Bow Cam (2), Composite Treant Laminate Recurve Bowstave, Shimmering Steel Bowstring\nIn: Fletching Table (Placeable), Fletching Table, Guild Fletching Table\nYield: 1\nNotes: EQRecipeID: 35162\nTrivial at: 335\nEQ Recipe ID: 35162",
+      "source_catalogue_sha256": "168765b03f8846f8836ea04ca6ee3107740d2347fe69744198ec74ff07e9f3ef",
+      "source_primary_raw_html_sha256": "4d16a96abc1432287d23549b7132716786b02b10e87d9ebed31841b3d7a98cfc",
+      "source_trivial": "335",
+      "output_item_id": 96943,
+      "yield_count": 1,
+      "trivial": 335,
+      "nofail": 0,
+      "ingredients": [
+        {
+          "item_id": 96493,
+          "name": "Battle Bow Cam",
+          "count": 2
+        },
+        {
+          "item_id": 96508,
+          "name": "Composite Treant Laminate Recurve Bow Staff",
+          "count": 1
+        },
+        {
+          "item_id": 96509,
+          "name": "Shimmering Steel Bow String",
+          "count": 1
+        }
+      ],
+      "success_roles": {
+        "96943": 1
+      },
+      "failure_roles": {},
+      "container_item_ids": [
+        18
+      ],
+      "skillneeded": 0,
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "min_expansion": 11,
+      "May2013_exact_fields_verified": false,
+      "station_mode": "ACTUAL_OWNED_OPEN_NATIVE_WORLD_FLETCHING18_ONLY",
+      "source_to_native_policy": "Literal sourceNoFail maps localnumeric0/nofail1; >100 explicitinteger requiredminimum maps101. Omittedlearning0 labelled. Source5bows/arrows ONLYnormalworldFletching18, noportablekits inferred; necessaryfinitegate+originaltreefence pending. Familyfloor context labelled, no allfieldMay2013proof."
+    },
+    {
+      "recipe_id": 3102787,
+      "source_view_id": 6181,
+      "source_alias_views": [],
+      "source_name": "Essence of Drakkin",
+      "native_output_name": "Essence of Drakkin",
+      "source_name_qualification": null,
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=29&rsa=Alchemy",
+      "source_primary_url": "https://www.eqtraders.com/items/show_item.php?item=26243",
+      "source_formula": "Components: Drakkin Parts, Fangorth, Runed Potion Vial\nIn: Medicine Bag, Reinforced Medicine Bag, Foldable Medicine Bag, Foldable Reinforced Medicine Bag, Alchemy Table (Placeable), Alchemy Table\nYield: 1\nThis combine may only be made by Shaman",
+      "source_current_formula": "Alchemy Components: Drakkin Parts, Fangorth, Runed Potion Vial\nIn: Medicine Bag, Reinforced Medicine Bag, Foldable Medicine Bag, Foldable Reinforced Medicine Bag, Alchemy Table (Placeable), Alchemy Table\nYield: 1\nThis combine may only be made by Shaman\nTrivial at: 210",
+      "source_catalogue_sha256": "5a9cb4cdd1493a25be702f9aaf609dba648ef5d4db7a08c68436721cb98b87fc",
+      "source_primary_raw_html_sha256": "62205f068404d2cf4571d18fc1999e09ca146ddd334a4a60f3fc29fc68cff2c6",
+      "source_trivial": "210",
+      "output_item_id": 98490,
+      "yield_count": 1,
+      "trivial": 210,
+      "nofail": 0,
+      "ingredients": [
+        {
+          "item_id": 51407,
+          "name": "Fangorth",
+          "count": 1
+        },
+        {
+          "item_id": 95848,
+          "name": "Runed Potion Vial",
+          "count": 1
+        },
+        {
+          "item_id": 97318,
+          "name": "Drakkin Parts",
+          "count": 1
+        }
+      ],
+      "success_roles": {
+        "98490": 1
+      },
+      "failure_roles": {},
+      "container_item_ids": [
+        17901
+      ],
+      "skillneeded": 0,
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "min_expansion": 12,
+      "May2013_exact_fields_verified": false,
+      "station_mode": "STOCK_ALCHEMY_SHAMAN25_ACTUAL_MEDICINE17901",
+      "source_to_native_policy": "Literal sourceNoFail maps localnumeric0/nofail1; >100 explicitinteger requiredminimum maps101. Omittedlearning0 labelled. Source5bows/arrows ONLYnormalworldFletching18, noportablekits inferred; necessaryfinitegate+originaltreefence pending. Familyfloor context labelled, no allfieldMay2013proof."
+    }
+  ],
+  "restriction_review": {
+    "scope": "Whole8 remaining source bodies:5Fletching station-only bows/arrows, EssenceDrakkin, two explicitNoFail portableAlchemy/Brewing. Exact primary IDs/literal components and yields; no fullinput matches; six oldproducer headers25entries unchanged.",
+    "parsing": "Original duplicate bow views13753/13764 omit Yield; positive duplicate views28670/28681 plus exact current primary top-level formulas explicitlyYield1. Source omittedyield is not silently treated aszero. Three arrow native output names omit groove qualifier, but exact positive currentprimaryID binds each physical arrow and exact nock input disambiguates; no name-only remapping.",
+    "nofail": "ShadowedPulp source explicitNoFail and RequiredSkill>100 means native integerminimum101, not guessed100. LocalNoFail numerictrivial0/nofail1 selected; same explicitlocal0policy for PurifiedWater. Old10063Pulp consumes2BleakFungus and has175/min100; new exactprimary consumes1 andmin101, preserveoldroute and do not declare it erroneous. ExistingWater7780 and fourPottery peers use otherinputs, preserved.",
+    "era": "Current source oldTSSDrakkin/Omens arrows+epic1.5Pulp/PoRbow/classicWater family context and localfloors12/7/11/0 labelled, not immutable per-formula field-date authentication. Later ArtisanPrize quest reference on DruzzilBow is use context, not manufacture introduction evidence.",
+    "stations": "Five original/current source ONLYFletchingTable normal world18 routes: actual owned open nativeWorld station/type18/item0/nonzeroDBID; never infer portableFletchingKit. Three actualsourcepositive personal-rootMedicine17901/ThatchedMedicine57704/TrackerWater17987 with exactnativecapacity/size/type. Ordinary nativeAlchemyShaman25 restriction retained.",
+    "manual": "Reuse existing pure original-tree helper on finite8 only: capture before validatehook, re-resolve current actualkit/ownedstation, original nativeowner ticket/character/account/worldDBID and fullrecursive pointer/ID/serial/charge/child-slot equality before debit. Reject replacements/removals/extras/chargechanges without consumption.",
+    "physical": "Literal five arrow/bow source yields10/5/5/1/1, twoNoFail outputPulp1/Water3, ordinaryDrakkin charged1. Native stock output factory/task semantics unchanged. No original-property recharge or unknowntrivial body selected.",
+    "defaults": "Source omissions map labelledordinarylearning0/book0/enabled1/quest0 defaults. Only exact source-positive rootkits57704/17987/17901 with nativecapacity/size. Normal World18 only for5Fletching, placeable/guildtable availability not inferred or claimed.",
+    "execution": "SOURCE_SQL_HOLD pending coordinator selection of bounded family/NoFail0/explicit101 and source kit/station policies; exactGitHub publication+compatible finite8 installation then separate SQLGO. No tests/rehearsal/build/runtime/SQL/nativeacceptance."
+  },
+  "source_urls": [
+    "https://www.eqtraders.com/items/show_item.php?item=1191",
+    "https://www.eqtraders.com/items/show_item.php?item=11969",
+    "https://www.eqtraders.com/items/show_item.php?item=16301",
+    "https://www.eqtraders.com/items/show_item.php?item=16550",
+    "https://www.eqtraders.com/items/show_item.php?item=20358",
+    "https://www.eqtraders.com/items/show_item.php?item=21381",
+    "https://www.eqtraders.com/items/show_item.php?item=21382",
+    "https://www.eqtraders.com/items/show_item.php?item=22716",
+    "https://www.eqtraders.com/items/show_item.php?item=22717",
+    "https://www.eqtraders.com/items/show_item.php?item=26243",
+    "https://www.eqtraders.com/recipes/recipe_page.php?article=272&rsa=Fletching&sub=OoW",
+    "https://www.eqtraders.com/recipes/recipe_page.php?article=29&rsa=Alchemy",
+    "https://www.eqtraders.com/recipes/recipe_page.php?article=41&rsa=Fletching&sub=bow",
+    "https://www.eqtraders.com/recipes/recipe_page.php?article=47&rsa=Brewing&sub=other"
+  ],
+  "native_actor_dependency": {
+    "contract": "actor-contract.json",
+    "compatible_installed_receipt_required": true,
+    "sql_hold": true
+  },
+  "migration_dependencies": [
+    "RRC300",
+    "RRC301"
+  ],
+  "held_source_rows": []
+}

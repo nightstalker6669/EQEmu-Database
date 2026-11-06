@@ -1,0 +1,27 @@
+{
+  "status": "STATION_TYPE255_TO20_COMMITTED_INDEPENDENT_EXACT_POSTIMAGE_PASS",
+  "phase": "RRC300-STATION-001",
+  "SQL_call_attempted": true,
+  "SQL_invocations": 1,
+  "commit_returned": true,
+  "routine_created": true,
+  "routine_removed": true,
+  "apply_sha256": "ce1c08dffd0e5fc1746394a1311edd37fc0390ed979fccc863388232da5addc8",
+  "source_publication_commit": "3305d5e9cdb337beb33e64c33655e6dc65a460c4",
+  "restart": false,
+  "main14recipes_applied": false,
+  "item_or_other_object_writes": false,
+  "automatic_retry": false,
+  "automatic_inverse": false,
+  "object_id": 228283,
+  "changed_columns": [
+    "type"
+  ],
+  "before_type": 255,
+  "after_type": 20,
+  "all_other_fields_unchanged": true,
+  "native_station_acceptance": false,
+  "connections_closed": true,
+  "actual_receipt_sha256": "b1748c458ef59b8164bb04615a60eaf5cb56f34ec4ee87a59b032205b4a4fb20",
+  "later_main14_status": "APPLIED_VERIFIED in RRC300 attempt002; earlier false flag describes station-only phase."
+}

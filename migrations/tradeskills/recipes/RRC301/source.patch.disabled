@@ -1,0 +1,59 @@
+--- a/zone/housing_recipe301.h
++++ b/zone/housing_recipe301.h
+@@ -34,11 +34,13 @@
+ class Use {
+ public:
+  static std::unique_ptr<Use> Acquire(Client&,const Binding&) noexcept;
+- ~Use();
++ ~Use() noexcept;
+  bool Held() noexcept;
++ bool AdmitDebit() noexcept; // once, immediately before the first native debit
+ private:
+  Use()=default;
+  std::unique_ptr<Database> db_;
+  uint64_t connection_=0;
++ bool debit_admitted_=false;
+ };
+ }
+--- a/zone/housing_recipe301.cpp
++++ b/zone/housing_recipe301.cpp
+@@ -16,8 +16,17 @@
+ std::string Hex(const uint8_t* p,size_t size){std::string s;const char* h="0123456789ABCDEF";for(size_t n=0;n<size;++n){s+=h[p[n]>>4];s+=h[p[n]&15];}return s;}
+ std::string Pose(const Housing::PlacementPolicy::Transform& p){std::vector<uint8_t>b;for(float f:{p.heading,p.pitch,p.roll,p.scale,p.position[0],p.position[1],p.position[2]}){uint32_t n;std::memcpy(&n,&f,4);for(unsigned j=0;j<4;++j)b.push_back(uint8_t(n>>(j*8)));}return Hex(b.data(),b.size());}
+ }
+-Use::~Use(){if(db_&&db_->GetStatus()==DBcore::Connected)db_->QueryDatabase(std::string("ROLLBACK"),false);}
++Use::~Use() noexcept {try{if(db_&&db_->GetStatus()==DBcore::Connected)db_->QueryDatabase(std::string("ROLLBACK"),false);}catch(...){}}
+ bool Use::Held() noexcept {try{if(!db_)return false;auto r=Q(*db_,"SELECT CONNECTION_ID(),@@in_transaction");return r.RowCount()==1&&r.begin()[0]&&r.begin()[1]&&std::stoull(r.begin()[0])==connection_&&std::stoul(r.begin()[1])==1;}catch(...){return false;}}
++// Source authority linearizes at this one admission, while its locks are held.
++// After the first inventory debit the ordinary admitted combine must finish;
++// loss of this READ connection cannot create a new partial-debit abort.
++bool Use::AdmitDebit() noexcept {
++ if(debit_admitted_ || !Held())return false;
++ debit_admitted_=true;
++ return true;
++}
++
+ std::unique_ptr<Use> Use::Acquire(Client& c,const Binding& b) noexcept {
+  try {
+   if(!FirePersonalOccurrenceSource::NativeInventoryFence::ProfileAllowed(&c.GetInv())||!c.ValidateHousingRecipe301(b)||!b.stored.placement||b.stored.row.values.item_id!=54250)return nullptr;
+--- a/zone/tradeskills.cpp
++++ b/zone/tradeskills.cpp
+@@ -1231,6 +1231,10 @@
+   if(!trophy_proof){user->QueuePacket(outapp);safe_delete(outapp);return;}
+  }
+  if(!trophy_proof){
++ // Admit this exact source-validated combine once, before any ingredient debit.
++ // An authority failure here consumes nothing. After admission, finish the
++ // ordinary native combine even if the separate READ connection is lost.
++ if(housing301_use&&!housing301_use->AdmitDebit()){user->QueuePacket(outapp);safe_delete(outapp);return;}
+ 	//remove all the items from the players inventory, with updates...
+ 	int16 slot;
+ 	for(uint8 r = 0; r < results.RowCount(); r++) {
+@@ -1254,7 +1258,6 @@
+ 
+ 			const EQ::ItemInstance* inst = user_inv.GetItem(slot);
+ 
+-			if(housing301_use&&!housing301_use->Held()){user->QueuePacket(outapp);safe_delete(outapp);return;}
+ 			if (inst && !inst->IsStackable())
+ 				user->DeleteItemInInventory(slot, 0, true);
+ 			else

@@ -1,0 +1,99 @@
+{
+  "status": "ORIGINAL_RESOURCE_OBSERVATION_PLUS_RETAINED_GENERIC_RIGID_CLASS_POLICY_NOT_GAMEPLAY_ACCEPTANCE",
+  "source_template_id": 54250,
+  "source_primary_url": "https://www.eqtraders.com/items/show_item.php?item=34391",
+  "native_metadata": {
+    "id": 54250,
+    "Name": "Jewelry Making Table",
+    "idfile": "IT11543",
+    "itemclass": 1,
+    "bagslots": 10,
+    "bagtype": 20,
+    "bagsize": 4,
+    "placeable": 1,
+    "UNK224": 14,
+    "UNK225": 0,
+    "UNK226": 0,
+    "UNK227": 0,
+    "UNK228": 1036831949,
+    "UNK229": 1075838976,
+    "UNK230": 6,
+    "UNK231": 1,
+    "stackable": 0,
+    "stacksize": 1,
+    "loregroup": 0,
+    "nodrop": 1
+  },
+  "client_sha256": "2a8702ad9f722704f01355c0750be7d6f164a8b9c9128ba0cf286ea32b405b0e",
+  "renderer_sha256": "ade556b68e98f6f39c5578f70431e11c0b9babcc15b8571eb22cf1e2b654417e",
+  "resource": {
+    "archive": "tradeskill_objects.eqg",
+    "archive_sha256": "90bbf54350e110d8799b1a2d1ab361abf34f886bed8dcf002bdec0b2c9d6fd10",
+    "member_sha256": "ab364d48d4e39eb13604883e46466b70952ecf15e9ced6abf6d52abe78ca9a92",
+    "member": "it11543.mod",
+    "manifest_line": 5128,
+    "manifest_record": [
+      "tradeskill_objects.eqg",
+      "IT11543.MOD",
+      "IT11543_ACTORDEF",
+      "EQGM"
+    ],
+    "manifest_sha256": "213cf4a17de6676490f9da97afe330cfb4a317ca156089f398c9521c346c7619",
+    "format": "EQGM",
+    "version": 3,
+    "triangle_flags": {
+      "131072": 318,
+      "262144": 392,
+      "524288": 648,
+      "2097152": 30,
+      "65536": 1188,
+      "1048576": 66,
+      "4194304": 66
+    },
+    "actor_tag_record": [
+      "11543",
+      "0",
+      "-1",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    "actor_tag_sha256": "985ae82cbc2937a6d723e7a662e7b04eb4e9b77a524d5fbd326b02888e9b5f54",
+    "local_lod": [],
+    "manifest_lod": [],
+    "native_triangle_box": {
+      "min": [
+        -1.53548002243042,
+        -1.09953773021698,
+        -0.004543572664260864
+      ],
+      "max": [
+        1.53548002243042,
+        1.0995374917984009,
+        4.715890407562256
+      ],
+      "center": [
+        0.0,
+        -1.1920928955078125e-07,
+        2.355673313140869
+      ],
+      "extents": [
+        1.53548002243042,
+        1.0995376110076904,
+        2.3602170944213867
+      ],
+      "degenerate_triangles": 0,
+      "referenced_vertices": 2768,
+      "scope": "Native100c5270 ordinary static/non-special-name triangle box; LOD and actor scale factors require independent validation"
+    }
+  },
+  "parser_sha256": {
+    "furniture_geometry.py": "9ba86e1c121d6d9b88f0801cc3fcf542cb8182650fabfc5c4288810f79db0157",
+    "static_furniture_registry.py": "94ac9b947e79ee97bf3ff3013fd56238ddae8b7432224f5b46c6560fe03b36d4"
+  },
+  "native_acceptance": false
+}

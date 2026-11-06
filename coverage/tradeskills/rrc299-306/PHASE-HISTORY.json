@@ -1,0 +1,23 @@
+{
+  "RRC300_attempt001": {
+    "status": "STOPPED_NO_RETRY",
+    "actual_receipt_sha256": "666d7297347a8ac3903e0f06ec0a05e49687bec0a52fe7b1ba2a5d1aa7c4787e",
+    "source_sha256": "0e653fa52c3b2e3e3b949a7e68aa083f7f9ed5420a7e48977072e4493a8e59d3",
+    "SQL_invocations": 1,
+    "zero_changes": true,
+    "basis": "Coordinator closed zero-change failure; schema FLOAT guard correction published as r4 before distinct exact attempt002 GO.",
+    "error": "SQL failed; stop, no retry",
+    "replacement_attempt002_receipt_sha256": "6b0648065c37aca4e1f404333338e13a1017ee30e90e82aeb1958c69b7660969",
+    "no_automatic_retry_or_inverse": true
+  },
+  "RRC303_book_owner001": {
+    "status": "STOP_PREIMAGE_OR_DEPENDENCY_DRIFT_NO_CALL",
+    "actual_phase_state_sha256": "cd32e295b7d3481d5279011625ba2fa7c8ee501ea11574e8af4a7cc188bbb5b6",
+    "SQL_call_attempted": false,
+    "commit_returned": false,
+    "reason": "Read-only writer access denied (1044) BEFORE SQL CALL; zero writes. Preserved owner001 history; separate DB002 authorization used established authorized writer, no privilege changes.",
+    "replacement002_actual_receipt_sha256": "dad4169b661f8892d09b50efdc6e1c2cf684e58e4b67f6b1d6c7681b74a4eaa5"
+  },
+  "source_preparation_HOLD_labels": "Retained verbatim as historical source evidence; later actual summaries establish application, install and startup separately.",
+  "native_acceptance": false
+}

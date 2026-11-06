@@ -1,0 +1,76 @@
+--- a/zone/cultural_tailoring_bulk_actor.h
++++ b/zone/cultural_tailoring_bulk_actor.h
+@@ -1153,6 +1153,13 @@
+  {3101829,Race::DarkElf,17966,16,4,0},
+  {3101830,Race::DarkElf,17966,16,4,0},
+  {3101831,Race::DarkElf,17966,16,4,0},
++ {3102788,Race::Ogre,92880,16,7,1},
++ {3102789,Race::Ogre,92880,16,7,1},
++ {3102790,Race::Ogre,92880,16,7,1},
++ {3102791,Race::Ogre,92880,16,7,1},
++ {3102792,Race::Ogre,92880,16,7,1},
++ {3102793,Race::Ogre,92880,16,7,1},
++ {3102794,Race::Ogre,92880,16,7,1},
+ };
+ inline const Requirement* Find(std::uint32_t id) noexcept {
+  constexpr std::uint32_t count=sizeof(Requirements)/sizeof(Requirements[0]);
+--- a/zone/tradeskills.cpp
++++ b/zone/tradeskills.cpp
+@@ -659,6 +659,23 @@
+   catch(...) {auto* denied=new EQApplicationPacket(OP_TradeSkillCombine,0);user->QueuePacket(denied);safe_delete(denied);return;}
+  }
+ 
++ const bool ogre303_selected=spec.recipe_id>=3102788&&spec.recipe_id<=3102794;
++ std::unique_ptr<Final300InputTree> ogre303_inputs;
++ if(ogre303_selected) {
++  if(!container||!final300_owner||!final300_owner->HeldFor(*user)){auto* denied=new EQApplicationPacket(OP_TradeSkillCombine,0);user->QueuePacket(denied);safe_delete(denied);return;}
++  try{ogre303_inputs=std::make_unique<Final300InputTree>(Final300InputTree{Final300InputTree::Capture(*container)});}
++  catch(...){auto* denied=new EQApplicationPacket(OP_TradeSkillCombine,0);user->QueuePacket(denied);safe_delete(denied);return;}
++ }
++ const auto ogre303_valid=[&](){
++  if(!ogre303_selected)return true;
++  if(worldcontainer||!ogre303_inputs||!final300_owner||!final300_owner->HeldFor(*user)||user->CharacterID()!=final300_character||user->AccountID()!=final300_account||!FirePersonalOccurrenceSource::NativeInventoryFence::ProfileAllowed(&user->GetInv()))return false;
++  const auto* requirement=CulturalTailoringBulk::Find(spec.recipe_id);
++  const auto* current=user->GetInv().GetItem(in_combine->container_slot);
++  const auto* data=current&&current->IsClassBag()?current->GetItem():nullptr;
++  if(!requirement||!data||current!=container||!EQ::ValueWithin(in_combine->container_slot,EQ::invslot::GENERAL_BEGIN,EQ::invslot::GENERAL_END)||!CulturalTailoringBulk::Allows(*requirement,spec.tradeskill,user->GetPP().race,data->ID,data->BagType,data->BagSlots,data->BagSize))return false;
++  return Final300InputTree::Same(ogre303_inputs->root,current);
++ };
++ if(!ogre303_valid()){auto* denied=new EQApplicationPacket(OP_TradeSkillCombine,0);user->QueuePacket(denied);safe_delete(denied);return;}
+  const auto* final302_requirement=FinalRecipe302::Find(spec.recipe_id);
+  std::unique_ptr<Final300InputTree> final302_inputs;
+  if(final302_requirement) {
+@@ -809,7 +826,7 @@
+ 	}
+ 
+ 
+- if(!final302_valid()||!final300_valid()||!charged_station_valid()||(charged_requirement&&charged_requirement->units&&!Charged32PackingStillOriginal(*user,*charged_requirement,charged_packing))){auto* denied=new EQApplicationPacket(OP_TradeSkillCombine,0);user->QueuePacket(denied);safe_delete(denied);return;}
++ if(!ogre303_valid()||!final302_valid()||!final300_valid()||!charged_station_valid()||(charged_requirement&&charged_requirement->units&&!Charged32PackingStillOriginal(*user,*charged_requirement,charged_packing))){auto* denied=new EQApplicationPacket(OP_TradeSkillCombine,0);user->QueuePacket(denied);safe_delete(denied);return;}
+ 	// Send acknowledgement packets to client
+ 	auto outapp = new EQApplicationPacket(OP_TradeSkillCombine, 0);
+ 	user->QueuePacket(outapp);
+@@ -1028,6 +1045,15 @@
+ 
+ 
+ 
++ const bool ogre303_selected=spec.recipe_id>=3102788&&spec.recipe_id<=3102794;
++ const auto ogre303_valid=[&](){
++  if(!ogre303_selected)return true;
++  auto ticket=user->InventorySessionReleaseTicket();if(!ticket||!ticket->HeldFor(*user)||!FirePersonalOccurrenceSource::NativeInventoryFence::ProfileAllowed(&user->GetInv()))return false;
++  const auto* requirement=CulturalTailoringBulk::Find(spec.recipe_id);
++  const auto slot=user->GetInv().HasItem(92880,1,invWherePersonal);const auto* current=user->GetInv().GetItem(slot);const auto* data=current&&current->IsClassBag()?current->GetItem():nullptr;
++  return requirement&&data&&EQ::ValueWithin(slot,EQ::invslot::GENERAL_BEGIN,EQ::invslot::GENERAL_END)&&rac->some_id==92880&&rac->object_type==16&&CulturalTailoringBulk::Allows(*requirement,spec.tradeskill,user->GetPP().race,data->ID,data->BagType,data->BagSlots,data->BagSize);
++ };
++ if(!ogre303_valid()){user->QueuePacket(outapp);safe_delete(outapp);return;}
+  const auto* final302_requirement=FinalRecipe302::Find(spec.recipe_id);
+  const auto final302_valid=[&](){
+   if(!final302_requirement)return true;
+@@ -1212,7 +1238,7 @@
+ 	}
+ 
+ 
+- if(!final302_valid()||!final300_valid()||!charged_station_valid()||(charged_requirement&&charged_requirement->units&&(results.RowCount()!=1||items[0]!=charged_requirement->input||counts[0]!=charged_requirement->units||!Charged32PackingStillOriginal(*user,*charged_requirement,charged_packing)))){user->QueuePacket(outapp);safe_delete(outapp);return;}
++ if(!ogre303_valid()||!final302_valid()||!final300_valid()||!charged_station_valid()||(charged_requirement&&charged_requirement->units&&(results.RowCount()!=1||items[0]!=charged_requirement->input||counts[0]!=charged_requirement->units||!Charged32PackingStillOriginal(*user,*charged_requirement,charged_packing)))){user->QueuePacket(outapp);safe_delete(outapp);return;}
+  std::unique_ptr<HousingRecipe301::Use> housing301_use;
+  if(HousingRecipe301::Selected(spec.recipe_id)) {
+   auto* station=user->GetTradeskillObject();const auto* origin=station?station->HousingRecipe301Origin():nullptr;

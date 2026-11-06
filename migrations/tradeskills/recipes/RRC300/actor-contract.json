@@ -1,0 +1,33 @@
+{
+  "status": "SOURCE_ONLY_FINITE14_STATION_CREATOR_FONT_LEARNING_CASK_ACTOR_SQL_HOLD",
+  "recipe_ids": [
+    3102753,
+    3102766
+  ],
+  "files": {
+    "zone/final_recipe300.h": {
+      "preimage_sha256": null,
+      "postimage_sha256": "8fdc5bf62f3eb15fdf73fb6b9cdd8b6d5063251d0711856f6a2a653a1b29b8d3"
+    },
+    "zone/tradeskills.cpp": {
+      "preimage_sha256": "e3169a34148b2a8f0cd489172815202b68027804de682587d96e9e05586930b7",
+      "postimage_sha256": "ffd94f89f7c8a214ef83ec88edaf984078d61c022cd74ca0dd07edbd45444895"
+    }
+  },
+  "patch_sha256": "ba359830dcf36958f70860d6942b87583f24fcf94d9a24c51d3f5105f23a74cc",
+  "parent": "Exact actual RRC298R3 composed inventory; tradeskills.cpp unchanged from retained R2 source. Compose with disjoint RRC299 header and current peers.",
+  "parent_installed_receipt_sha256": "57a46d396ac29775faf9766ed5c88bcc1e095db73d85ba9890c4cf396b4d6478",
+  "station_scope": "3original-profile creator restrictions; actual owned open native world station. Troll exactGrobb248; Clasp exactBrell228283 requires separate guarded255to20. Cask exact2PoKTanaan barrels103180/103189. No packet-authorized substitution.",
+  "font_scope": "7actual owned personal-root Collapsible17187 6slots/size3/type20, actual Brell490v0 corresponding live door ID/model/coordinates, source INSIDE correct essence color; finite local5H/8V, not retail radius proof. Primary q260 transcript + seven primary essence icon colors + exact native doors. No history grants or new quest authority.",
+  "learning_scope": "Only2Tea recipes: manual worldBrew19, never autocom bine, skip both native directLearn and madecount persistence; literal source neverlearn and silent/unlisted48. All other learning unchanged.",
+  "charge_scope": "Only75815/3102766 factory creation8charges from primary explicitCharges8/nativeMaxCharges8. Physicalyield/taskcount1 and source Cork8/Bottle8. Troll output nativeMaxCharges-1 remains ordinary definition-based unlimited cast; no quantity rewrite.",
+  "database_reads_reused": true,
+  "tests": 0,
+  "builds": 0,
+  "SQL_execution": 0,
+  "runtime_actions": 0,
+  "native_acceptance": false,
+  "revision": "R3_FINITE14_ORIGINAL_TREE_AFTER_CURRENT_NATIVE_CUSTODY_RESOLUTION",
+  "correction_patch_sha256": "9f9bc71c3d4b6ed62a45bed94377ea27bcd5b716599e849dc46d61b8c5c446dd",
+  "manual_callback_fence": "Capture complete original container/input tree pointers/IDs/native serials/charges/child keys recursively before mutable validation. Recheck same original inventory owner ticket/character/account/actual world pointer+DBID and tree after hook immediately before native debit. Missing/extra/replaced/moved/charge-changed identities reject without consumption. Finite14 only, auto path unchanged. Resolve current inventory root/owned open station first, validate pointer identity and actual DBID, then recursively compare using the live current tree. Never dereference a retained removed container/world object."
+}

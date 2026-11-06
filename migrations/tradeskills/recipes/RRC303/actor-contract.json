@@ -1,0 +1,26 @@
+{
+  "status": "SOURCE_ONLY_FINITE7_OGRE_TAILORING_MISSING_BOOK_DEPENDENCY_SQL_HOLD",
+  "recipe_ids": [
+    3102788,
+    3102794
+  ],
+  "files": {
+    "zone/cultural_tailoring_bulk_actor.h": {
+      "preimage_sha256": "f346b6690c08e17e10331c58abae5454398f4b2d9ecadaac834771869b4e39c3",
+      "postimage_sha256": "73ccd70d344256311dcd90ad915b3a1a9e9213562fb84c1adfac8886b3c798f7"
+    },
+    "zone/tradeskills.cpp": {
+      "preimage_sha256": "1b7f5080191f290b125517434481417582d8bfcc670a690a30e259d179e6dbd4",
+      "postimage_sha256": "d75f0aa81424bce31ad4b58af14be511310b31994c7bf94e1efe2d224bee6366"
+    }
+  },
+  "patch_sha256": "35b0e8e59f22b58b02a257577e1c4bc8b8b8593dfb543b0aa6e6fe0aa0f40048",
+  "scope": "Append ONLY7 source-literal ExtravagantBloodpact IDs to existing exact cultural tailoring actor. Original profileRaceOgre10 + actual positive OgreSewing92880/type16 + source ingredient capacity/size; never infer creator from output wearer. Add finite7 original manual input-tree/owner comparison after mutable callback and before debit; re-resolve live root before retainedpointer comparison. Auto rechecks actual owned rootkit/packetselector/originalprofile predebit. Existing1148 recipes unchanged.",
+  "learning": "All7 source explicitly require actual primary book37293/EQID123461. Native item is absent. Separate proposed book definition/defaults/new authored text dependency must be selected/published/applied, itemsharedmemory loaded and this finite7 actor installed before recipe SQL. No Smithing-book substitution.",
+  "composition": "Exact current queued299\u2013302 plus301R2 CPP preimage. Only2paths; preserve native301 admitted-combine loss disposition and all302 guards.",
+  "tests": 0,
+  "builds": 0,
+  "SQL_execution": 0,
+  "runtime_actions": 0,
+  "native_acceptance": false
+}

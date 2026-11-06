@@ -1,0 +1,249 @@
+--- /dev/null
++++ b/zone/final_recipe300.h
+@@ -0,0 +1,56 @@
++#pragma once
++#include <cstdint>
++#include <cmath>
++#include <cstring>
++// Fourteen source-positive recipes only. No global station/race/learning policy.
++namespace FinalRecipe300 {
++inline bool Selected(uint32_t id) { return id >= 3102753 && id <= 3102766; }
++inline bool NeverLearn(uint32_t id) { return id == 3102756 || id == 3102757; }
++inline bool Font(uint32_t id) { return id >= 3102758 && id <= 3102764; }
++inline uint32_t Skill(uint32_t id) {
++ if (id <= 3102754) return 69;
++ if (id == 3102755) return 63;
++ if (NeverLearn(id) || id == 3102766) return 65;
++ return 68;
++}
++inline bool RaceAllowed(uint32_t id, uint32_t race) {
++ return id <= 3102754 ? race == 130 : id != 3102755 || race == 9;
++}
++inline bool WorldAllowed(uint32_t id, uint32_t zone, uint16_t version,
++ uint32_t object, uint32_t type, uint32_t item) {
++ if (!Selected(id) || Font(id) || item != 0) return false;
++ if (id <= 3102754) return type == 22;
++ if (id == 3102755) return zone == 52 && version == 0 && object == 248 && type == 47;
++ if (NeverLearn(id)) return type == 19;
++ if (id == 3102765) return zone == 490 && version == 0 && object == 228283 && type == 20;
++ return id == 3102766 && zone == 202 && version == 0 &&
++  (object == 103180 || object == 103189) && type == 19;
++}
++struct FontPosition { uint8_t door; const char* model; float x,y,z; };
++inline FontPosition Position(uint32_t id) {
++ switch(id) {
++ case 3102758: return {3,"OBJ_FONT_WHITE",45.511f,828.281f,31.9959f};
++ case 3102759: return {13,"OBJ_FONT_BLUE",30.745f,823.483f,31.9983f};
++ case 3102760: return {14,"OBJ_FONT_PURPLE",15.495f,820.574f,31.9992f};
++ case 3102761: return {15,"OBJ_FONT_ORANGE",0.0f,819.599f,31.9987f};
++ case 3102762: return {16,"OBJ_FONT_YELLOW",-15.495f,820.574f,31.9989f};
++ case 3102763: return {17,"OBJ_FONT_GREEN",-30.745f,823.483f,31.9989f};
++ case 3102764: return {18,"OBJ_FONT_BLACK",-45.511f,828.281f,31.9986f};
++ default: return {0,"",0,0,0};
++ }
++}
++inline bool InsideFont(const FontPosition& p, const char* model, float dx,float dy,float dz,
++ float x,float y,float z) {
++ // Source requires INSIDE the corresponding font. Local bounded 5H/8V policy,
++ // not an authenticated retail radius. Reject non-finite actor and door coordinates.
++ return p.door && model && std::strcmp(p.model,model)==0 &&
++  std::isfinite(dx) && std::isfinite(dy) && std::isfinite(dz) &&
++  std::isfinite(x) && std::isfinite(y) && std::isfinite(z) &&
++  std::fabs(dx-p.x)<=0.01f && std::fabs(dy-p.y)<=0.01f && std::fabs(dz-p.z)<=0.01f &&
++  (x-p.x)*(x-p.x)+(y-p.y)*(y-p.y)<=25.0f && std::fabs(z-p.z)<=8.0f;
++}
++inline int SummonCount(uint32_t recipe,uint32_t output,int count) {
++ // Eight charges on ONE physical cask. Task/madecount/role count remains one.
++ return recipe == 3102766 && output == 75815 && count == 1 ? 8 : count;
++}
++} // namespace FinalRecipe300
+--- a/zone/tradeskills.cpp
++++ b/zone/tradeskills.cpp
+@@ -18,6 +18,8 @@
+ */
+ #include "client.h"
+ #include "charged_recipe32.h"
++#include "final_recipe300.h"
++#include "doors.h"
+ #include "tanaan_forge28_actor.h"
+ #include "world_loom13_actor.h"
+ #include "gnomish_tailoring35_actor.h"
+@@ -41,12 +43,63 @@
+ #include <algorithm>
+ #include <list>
+ #include <array>
++#include <vector>
++#include <stdexcept>
++#include "inventory_session_owner.h"
+ 
+ extern QueryServ* QServ;
+ extern WorldServer worldserver;
+ 
+ 
+ namespace {
++
++
++struct Final300InputTree {
++ struct Node {const EQ::ItemInstance* original;uint32_t id;int32_t serial;int16_t charges;std::vector<std::pair<uint8_t,Node>> children;};
++ Node root;
++ static Node Capture(const EQ::ItemInstance& item) {
++  Node n{&item,item.GetID(),item.GetSerialNumber(),item.GetCharges(),{}};
++  for(const auto& child:*item.GetContents()) {
++   if(!child.second)throw std::runtime_error("Missing finite recipe ingredient");
++   n.children.emplace_back(child.first,Capture(*child.second));
++  }
++  return n;
++ }
++ static bool Same(const Node& n,const EQ::ItemInstance* item) {
++  if(!item || item!=n.original || item->GetID()!=n.id || item->GetSerialNumber()!=n.serial ||
++   item->GetCharges()!=n.charges || item->GetContents()->size()!=n.children.size())return false;
++  for(const auto& child:n.children) {
++   auto at=item->GetContents()->find(child.first);
++   if(at==item->GetContents()->end() || !Same(child.second,at->second))return false;
++  }
++  return true;
++ }
++};
++
++bool Final300OutputValid(const DBTradeskillRecipe_Struct& spec) {
++ if (!FinalRecipe300::Selected(spec.recipe_id)) return true;
++ if (uint32_t(spec.tradeskill)!=FinalRecipe300::Skill(spec.recipe_id) || spec.quest) return false;
++ if (spec.recipe_id!=3102766) return true;
++ const auto* item=database.GetItem(75815);
++ if (!item || item->ItemClass!=0 || item->Stackable || item->MaxCharges!=8) return false;
++ unsigned found=0;
++ for (const auto& pair:spec.onsuccess) if(pair.first==75815) { if(pair.second!=1)return false; ++found; }
++ return found==1;
++}
++bool Final300Font(Client& user,uint32_t recipe) {
++ if(zone->GetZoneID()!=490 || zone->GetInstanceVersion()!=0)return false;
++ const auto p=FinalRecipe300::Position(recipe);
++ auto* door=entity_list.FindDoor(p.door);
++ return door && door->GetDoorID()==p.door && FinalRecipe300::InsideFont(p,door->GetDoorName(),
++  door->GetX(),door->GetY(),door->GetZ(),user.GetX(),user.GetY(),user.GetZ());
++}
++bool Final300Kit(Client& user,int16_t slot,const EQ::ItemInstance* expected) {
++ if(!EQ::ValueWithin(slot,EQ::invslot::GENERAL_BEGIN,EQ::invslot::GENERAL_END))return false;
++ const auto* kit=user.GetInv().GetItem(slot);
++ const auto* data=kit&&kit->IsType(EQ::item::ItemClassBag)?kit->GetItem():nullptr;
++ return kit==expected && data && data->ID==17187 && data->BagType==20 && data->BagSlots==6 && data->BagSize==3;
++}
++
+ struct ChargedPacking32Plan {
+  struct Take {int16_t slot=INVALID_INDEX;const EQ::ItemInstance* original=nullptr;int32_t serial=0;};
+  int16_t kit_slot=INVALID_INDEX;const EQ::ItemInstance* kit=nullptr;int32_t kit_serial=0;
+@@ -570,6 +623,47 @@
+ 	}
+ 
+ 
++
++ // Capture the actual matched physical input tree before mutable validation hooks.
++ // No clone/replacement/consumption; compare identities and all nested charges/slots.
++ std::unique_ptr<Final300InputTree> final300_inputs;
++ const auto final300_owner=user->InventorySessionReleaseTicket();
++ const auto final300_character=user->CharacterID();
++ const auto final300_account=user->AccountID();
++ const auto* final300_world=worldcontainer?worldo:nullptr;
++ const auto final300_world_id=final300_world?final300_world->GetDBID():0;
++ if(FinalRecipe300::Selected(spec.recipe_id)) {
++  if(!container || !final300_owner || !final300_owner->HeldFor(*user)) {
++   auto* denied=new EQApplicationPacket(OP_TradeSkillCombine,0);user->QueuePacket(denied);safe_delete(denied);return;
++  }
++  try { final300_inputs=std::make_unique<Final300InputTree>(Final300InputTree{Final300InputTree::Capture(*container)}); }
++  catch(...) {auto* denied=new EQApplicationPacket(OP_TradeSkillCombine,0);user->QueuePacket(denied);safe_delete(denied);return;}
++ }
++
++ const auto final300_valid=[&](){
++  if(!FinalRecipe300::Selected(spec.recipe_id))return true;
++  if(!final300_inputs || !final300_owner || !final300_owner->HeldFor(*user) ||
++   user->CharacterID()!=final300_character || user->AccountID()!=final300_account)return false;
++  if(!Final300OutputValid(spec)||!FirePersonalOccurrenceSource::NativeInventoryFence::ProfileAllowed(&user->GetInv())||
++   !FinalRecipe300::RaceAllowed(spec.recipe_id,user->GetPP().race))return false;
++  // Resolve current native custody before touching the retained original pointer.
++  const EQ::ItemInstance* current=nullptr;
++  if(FinalRecipe300::Font(spec.recipe_id)) {
++   if(worldcontainer || !Final300Kit(*user,in_combine->container_slot,container) || !Final300Font(*user,spec.recipe_id))return false;
++   current=user->GetInv().GetItem(in_combine->container_slot);
++  }else {
++   auto* station=user->GetTradeskillObject();
++   if(!worldcontainer || !station || station!=worldo || station!=final300_world ||
++    station->user!=user || station->GetDBID()!=final300_world_id || !station->m_inst ||
++    station->m_inst!=container || !station->m_inst->IsType(EQ::item::ItemClassBag))return false;
++   const auto* data=station->m_inst->GetItem();
++   if(!data || !FinalRecipe300::WorldAllowed(spec.recipe_id,zone->GetZoneID(),zone->GetInstanceVersion(),station->GetDBID(),station->GetType(),data->ID))return false;
++   current=station->m_inst;
++  }
++  return Final300InputTree::Same(final300_inputs->root,current);
++ };
++
++ if(!final300_valid()){user->Message(Chat::Red,"This recipe requires its correct station, location, and maker.");auto* denied=new EQApplicationPacket(OP_TradeSkillCombine,0);user->QueuePacket(denied);safe_delete(denied);return;}
+  const auto* charged_requirement=ChargedRecipe32::Find(spec.recipe_id);
+  ChargedPacking32Plan charged_packing;
+  const auto charged_station_valid=[&](){
+@@ -673,7 +767,7 @@
+ 	}
+ 
+ 
+- if(!charged_station_valid()||(charged_requirement&&charged_requirement->units&&!Charged32PackingStillOriginal(*user,*charged_requirement,charged_packing))){auto* denied=new EQApplicationPacket(OP_TradeSkillCombine,0);user->QueuePacket(denied);safe_delete(denied);return;}
++ if(!final300_valid()||!charged_station_valid()||(charged_requirement&&charged_requirement->units&&!Charged32PackingStillOriginal(*user,*charged_requirement,charged_packing))){auto* denied=new EQApplicationPacket(OP_TradeSkillCombine,0);user->QueuePacket(denied);safe_delete(denied);return;}
+ 	// Send acknowledgement packets to client
+ 	auto outapp = new EQApplicationPacket(OP_TradeSkillCombine, 0);
+ 	user->QueuePacket(outapp);
+@@ -889,6 +983,23 @@
+ 	}
+ 
+ 
++
++ const auto final300_valid=[&](){
++  if(!FinalRecipe300::Selected(spec.recipe_id))return true;
++  if(!Final300OutputValid(spec)||!FirePersonalOccurrenceSource::NativeInventoryFence::ProfileAllowed(&user->GetInv())||
++   !FinalRecipe300::RaceAllowed(spec.recipe_id,user->GetPP().race))return false;
++  if(FinalRecipe300::NeverLearn(spec.recipe_id))return false;
++  if(FinalRecipe300::Font(spec.recipe_id)) {
++   const auto slot=user->GetInv().HasItem(17187,1,invWherePersonal);
++   return rac->some_id==17187 && rac->object_type==20 && Final300Kit(*user,slot,user->GetInv().GetItem(slot)) && Final300Font(*user,spec.recipe_id);
++  }
++  auto* station=user->GetTradeskillObject();
++  const auto* data=station&&station->m_inst?station->m_inst->GetItem():nullptr;
++  return station && station->user==user && station->m_inst && station->m_inst->IsType(EQ::item::ItemClassBag) && data &&
++   rac->object_type==station->GetType() &&
++   FinalRecipe300::WorldAllowed(spec.recipe_id,zone->GetZoneID(),zone->GetInstanceVersion(),station->GetDBID(),station->GetType(),data->ID);
++ };
++ if(!final300_valid()){user->Message(Chat::Red,"This recipe requires its correct station, location, and maker.");user->QueuePacket(outapp);safe_delete(outapp);return;}
+  const auto* charged_requirement=ChargedRecipe32::Find(spec.recipe_id);
+  ChargedPacking32Plan charged_packing;
+  const auto charged_station_valid=[&](){
+@@ -1043,7 +1154,7 @@
+ 	}
+ 
+ 
+- if(!charged_station_valid()||(charged_requirement&&charged_requirement->units&&(results.RowCount()!=1||items[0]!=charged_requirement->input||counts[0]!=charged_requirement->units||!Charged32PackingStillOriginal(*user,*charged_requirement,charged_packing)))){user->QueuePacket(outapp);safe_delete(outapp);return;}
++ if(!final300_valid()||!charged_station_valid()||(charged_requirement&&charged_requirement->units&&(results.RowCount()!=1||items[0]!=charged_requirement->input||counts[0]!=charged_requirement->units||!Charged32PackingStillOriginal(*user,*charged_requirement,charged_packing)))){user->QueuePacket(outapp);safe_delete(outapp);return;}
+ 	//now we know they have everything...
+ 
+  std::unique_ptr<TrophyCertificate55::Proof> trophy_proof;
+@@ -1484,7 +1595,7 @@
+ 			item = database.GetItem(itr->first);
+ 			if (item) {
+ 				CheckItemDiscoverability(itr->first);
+-				if(!trophy_selected) SummonItem(itr->first, ChargedRecipe32::SummonCount(spec->recipe_id, itr->first, itr->second));
++				if(!trophy_selected) SummonItem(itr->first, FinalRecipe300::SummonCount(spec->recipe_id, itr->first, ChargedRecipe32::SummonCount(spec->recipe_id, itr->first, itr->second)));
+ 				if (GetGroup()) {
+ 					entity_list.MessageGroup(this, true, Chat::Skills, "%s has successfully fashioned %s!", GetName(), item->Name);
+ 				}
+@@ -1999,6 +2110,7 @@
+ 
+ void ZoneDatabase::UpdateRecipeMadecount(uint32 recipe_id, uint32 char_id, uint32 madeCount)
+ {
++ if(FinalRecipe300::NeverLearn(recipe_id))return;
+ 	std::string query = StringFormat("INSERT INTO char_recipe_list "
+                                     "SET recipe_id = %u, char_id = %u, madecount = %u "
+                                     "ON DUPLICATE KEY UPDATE madecount = %u;",
+@@ -2008,6 +2120,7 @@
+ 
+ void Client::LearnRecipe(uint32 recipe_id)
+ {
++ if(FinalRecipe300::NeverLearn(recipe_id))return;
+ 	std::string query = fmt::format(
+ 		SQL(
+ 			select

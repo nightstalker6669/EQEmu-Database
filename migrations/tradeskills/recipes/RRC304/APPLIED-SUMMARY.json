@@ -1,0 +1,45 @@
+{
+  "batch": "RRC304",
+  "status": "APPLIED_VERIFIED",
+  "SQL_invocations": 1,
+  "published_commit": "89e29af25203c391a5f753ea5bd4f2a58ea5ec1c",
+  "source_sha256": "8f5f119538eb892d219c6eb718ad7df3ee158dcf91395389b9888b954392a1cc",
+  "package_manifest_sha256": "d6e399bc33435bf15dcc9be1a46efbe1b8e976974337f858e4c6c62908247c75",
+  "historical_qualification": {
+    "scope": "Three Soloist formulas selected from explicit authored manufacturing instructions. Planar Chest Seafarer remains one Alacrity; Planar Chest Traveler requires two. Dream Legging Traveler consumes Divine quill instead of the contradictory current Arcane listing.",
+    "evidence": "Current primary item IDs and full original/current contradictory bodies retained. The corresponding native authored book text explicitly names the extra chest Traveler ink and places Dream Legging Traveler under Divine quills. These are selected corroborated errata, not verified alternate formulas.",
+    "learning": "Coordinator selected MUST1 with exact corresponding native books135305 Planar Book Two and124266 Dreamer Second Half for these three only. No universal policy for omitted source learning.",
+    "native": "Eleven full18 native definitions, exact two book text hashes, zero allstate input/name/output-producer matches. No item or book changes. Numeric source trivials455/456/454, yield1, ordinary world Kiln22 only. Named/Tanaan/housing/guild availability remains unqualified.",
+    "defaults": "Omitted formal minimum0, nofail0/quest0/enabled1 and ordinary salvage inputs are labelled reconstruction defaults. HoT/RoF family floors17/19 and maximum-1, not immutable per-field introduction dates. No race/class maker gate inferred from wearer definitions.",
+    "execution": "Source only. Exact publication and separate coordinator SQL GO required; no SQL/build/tests/runtime or native acceptance. Guard new ID/entry multiplicity, exact native fields/book text/current producer universe/input multisets/count deltas; rollback refuses learned references."
+  },
+  "recipes_added": 3,
+  "entries_added": 21,
+  "existing_recipe_definitions_updated": 0,
+  "existing_entry_rows_updated": 0,
+  "exact_postimages": true,
+  "learned_references_unchanged": true,
+  "commit_receipt": [
+    "RRC304",
+    "0",
+    "34302",
+    "34305",
+    "260345",
+    "260366",
+    "0"
+  ],
+  "after_counts": {
+    "recipes": 34305,
+    "entries": 260366
+  },
+  "affected_recipe_ids": [
+    3102795,
+    3102796,
+    3102797
+  ],
+  "actual_receipt_sha256": "628b05d4ec8a109c180a4af3c981ee764771ff0ee3a919dbb24068206a220063",
+  "connections_closed": true,
+  "connection_close_basis": "Coordinator closed terminal receipt, retained evidence reused without new DB connection.",
+  "historical_source_only_labels_retained": true,
+  "native_gameplay_acceptance": false
+}

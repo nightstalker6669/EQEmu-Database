@@ -1,0 +1,112 @@
+--- /dev/null
++++ b/zone/final_recipe302.h
+@@ -0,0 +1,16 @@
++#pragma once
++#include <cstdint>
++namespace FinalRecipe302 {
++struct Requirement{uint32_t recipe,output,skill,kit,type,slots,size,yield;};
++inline constexpr Requirement Requirements[]={
++ {3102780,12607,65,17987,30,2,1,3},
++ {3102781,57550,59,57704,9,6,3,1},
++ {3102782,75534,64,18,18,10,4,5},
++ {3102783,75535,64,18,18,10,4,5},
++ {3102784,75544,64,18,18,10,4,10},
++ {3102785,96534,64,18,18,10,4,1},
++ {3102786,96943,64,18,18,10,4,1},
++ {3102787,98490,59,17901,9,8,3,1},
++};
++inline const Requirement* Find(uint32_t id){for(const auto& r:Requirements)if(r.recipe==id)return &r;return nullptr;}
++}
+--- a/zone/tradeskills.cpp
++++ b/zone/tradeskills.cpp
+@@ -1,3 +1,4 @@
++#include "final_recipe302.h"
+ #include "housing_recipe301.h"
+ #include "trophy_certificate55.h"
+ /*	EQEmu: EQEmulator
+@@ -76,6 +77,16 @@
+   return true;
+  }
+ };
++
++
++bool Final302Output(const DBTradeskillRecipe_Struct& spec,const FinalRecipe302::Requirement& r) {
++ return uint32_t(spec.tradeskill)==r.skill&&!spec.quest&&!spec.replace_container&&spec.onsuccess.size()==1&&spec.onsuccess.begin()->first==r.output&&spec.onsuccess.begin()->second==r.yield;
++}
++bool Final302Kit(Client& user,const FinalRecipe302::Requirement& r,int16_t slot,const EQ::ItemInstance* expected) {
++ if(!EQ::ValueWithin(slot,EQ::invslot::GENERAL_BEGIN,EQ::invslot::GENERAL_END))return false;
++ const auto* kit=user.GetInv().GetItem(slot);const auto* data=kit&&kit->IsClassBag()?kit->GetItem():nullptr;
++ return kit==expected&&data&&data->ID==r.kit&&data->BagType==r.type&&data->BagSlots==r.slots&&data->BagSize==r.size;
++}
+ 
+ bool Final300OutputValid(const DBTradeskillRecipe_Struct& spec) {
+  if (!FinalRecipe300::Selected(spec.recipe_id)) return true;
+@@ -648,6 +659,29 @@
+   catch(...) {auto* denied=new EQApplicationPacket(OP_TradeSkillCombine,0);user->QueuePacket(denied);safe_delete(denied);return;}
+  }
+ 
++ const auto* final302_requirement=FinalRecipe302::Find(spec.recipe_id);
++ std::unique_ptr<Final300InputTree> final302_inputs;
++ if(final302_requirement) {
++  if(!container||!final300_owner||!final300_owner->HeldFor(*user)){auto* denied=new EQApplicationPacket(OP_TradeSkillCombine,0);user->QueuePacket(denied);safe_delete(denied);return;}
++  try{final302_inputs=std::make_unique<Final300InputTree>(Final300InputTree{Final300InputTree::Capture(*container)});}
++  catch(...){auto* denied=new EQApplicationPacket(OP_TradeSkillCombine,0);user->QueuePacket(denied);safe_delete(denied);return;}
++ }
++ const auto final302_valid=[&](){
++  if(!final302_requirement)return true;
++  const auto& r=*final302_requirement;
++  if(!final302_inputs||!final300_owner||!final300_owner->HeldFor(*user)||user->CharacterID()!=final300_character||user->AccountID()!=final300_account||!Final302Output(spec,r)||!FirePersonalOccurrenceSource::NativeInventoryFence::ProfileAllowed(&user->GetInv()))return false;
++  const EQ::ItemInstance* current=nullptr;
++  if(r.kit>100) {
++   if(worldcontainer||!Final302Kit(*user,r,in_combine->container_slot,container))return false;
++   current=user->GetInv().GetItem(in_combine->container_slot);
++  }else {
++   auto* station=user->GetTradeskillObject();
++   if(!worldcontainer||!station||station!=worldo||station!=final300_world||station->user!=user||!station->GetDBID()||station->GetDBID()!=final300_world_id||station->GetType()!=18||!station->m_inst||station->m_inst!=container||!station->m_inst->IsClassBag()||station->GetItemID()!=0)return false;
++   current=station->m_inst;
++  }
++  return Final300InputTree::Same(final302_inputs->root,current);
++ };
++ if(!final302_valid()){user->Message(Chat::Red,"This recipe requires its correct container and original ingredients.");auto* denied=new EQApplicationPacket(OP_TradeSkillCombine,0);user->QueuePacket(denied);safe_delete(denied);return;}
+  const auto final300_valid=[&](){
+   if(!FinalRecipe300::Selected(spec.recipe_id))return true;
+   if(!final300_inputs || !final300_owner || !final300_owner->HeldFor(*user) ||
+@@ -775,7 +809,7 @@
+ 	}
+ 
+ 
+- if(!final300_valid()||!charged_station_valid()||(charged_requirement&&charged_requirement->units&&!Charged32PackingStillOriginal(*user,*charged_requirement,charged_packing))){auto* denied=new EQApplicationPacket(OP_TradeSkillCombine,0);user->QueuePacket(denied);safe_delete(denied);return;}
++ if(!final302_valid()||!final300_valid()||!charged_station_valid()||(charged_requirement&&charged_requirement->units&&!Charged32PackingStillOriginal(*user,*charged_requirement,charged_packing))){auto* denied=new EQApplicationPacket(OP_TradeSkillCombine,0);user->QueuePacket(denied);safe_delete(denied);return;}
+ 	// Send acknowledgement packets to client
+ 	auto outapp = new EQApplicationPacket(OP_TradeSkillCombine, 0);
+ 	user->QueuePacket(outapp);
+@@ -994,6 +1028,20 @@
+ 
+ 
+ 
++ const auto* final302_requirement=FinalRecipe302::Find(spec.recipe_id);
++ const auto final302_valid=[&](){
++  if(!final302_requirement)return true;
++  const auto& r=*final302_requirement;
++  if(!Final302Output(spec,r)||!FirePersonalOccurrenceSource::NativeInventoryFence::ProfileAllowed(&user->GetInv()))return false;
++  auto ticket=user->InventorySessionReleaseTicket();if(!ticket||!ticket->HeldFor(*user))return false;
++  if(r.kit>100) {
++   const auto slot=user->GetInv().HasItem(r.kit,1,invWherePersonal);
++   return rac->some_id==r.kit&&rac->object_type==r.type&&Final302Kit(*user,r,slot,user->GetInv().GetItem(slot));
++  }
++  auto* station=user->GetTradeskillObject();
++  return station&&station->user==user&&station->GetDBID()&&station->GetType()==18&&rac->object_type==18&&station->m_inst&&station->m_inst->IsClassBag()&&station->GetItemID()==0;
++ };
++ if(!final302_valid()){user->Message(Chat::Red,"This recipe requires its correct container.");user->QueuePacket(outapp);safe_delete(outapp);return;}
+  const auto final300_valid=[&](){
+   if(!FinalRecipe300::Selected(spec.recipe_id))return true;
+   if(!Final300OutputValid(spec)||!FirePersonalOccurrenceSource::NativeInventoryFence::ProfileAllowed(&user->GetInv())||
+@@ -1164,7 +1212,7 @@
+ 	}
+ 
+ 
+- if(!final300_valid()||!charged_station_valid()||(charged_requirement&&charged_requirement->units&&(results.RowCount()!=1||items[0]!=charged_requirement->input||counts[0]!=charged_requirement->units||!Charged32PackingStillOriginal(*user,*charged_requirement,charged_packing)))){user->QueuePacket(outapp);safe_delete(outapp);return;}
++ if(!final302_valid()||!final300_valid()||!charged_station_valid()||(charged_requirement&&charged_requirement->units&&(results.RowCount()!=1||items[0]!=charged_requirement->input||counts[0]!=charged_requirement->units||!Charged32PackingStillOriginal(*user,*charged_requirement,charged_packing)))){user->QueuePacket(outapp);safe_delete(outapp);return;}
+  std::unique_ptr<HousingRecipe301::Use> housing301_use;
+  if(HousingRecipe301::Selected(spec.recipe_id)) {
+   auto* station=user->GetTradeskillObject();const auto* origin=station?station->HousingRecipe301Origin():nullptr;

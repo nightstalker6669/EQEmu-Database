@@ -1,0 +1,11 @@
+--- a/zone/tradeskills.cpp
++++ b/zone/tradeskills.cpp
+@@ -649,7 +649,7 @@
+  const auto final300_owner=user->InventorySessionReleaseTicket();
+  const auto final300_character=user->CharacterID();
+  const auto final300_account=user->AccountID();
+- const auto* final300_world=worldcontainer?worldo:nullptr;
++ auto* const final300_world=worldcontainer?worldo:nullptr;
+  const auto final300_world_id=final300_world?final300_world->GetDBID():0;
+  if(FinalRecipe300::Selected(spec.recipe_id)) {
+   if(!container || !final300_owner || !final300_owner->HeldFor(*user)) {
