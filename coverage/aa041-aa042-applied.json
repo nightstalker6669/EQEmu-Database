@@ -1,0 +1,287 @@
+{
+  "format_version": 1,
+  "features": [
+    "AA041",
+    "AA042"
+  ],
+  "application_status": "BOTH_APPLIED_VERIFIED_INDEPENDENT_FULL_POSTIMAGES_SEQUENTIAL_CLOSED",
+  "application_order": [
+    "AA041",
+    "AA042"
+  ],
+  "SQL_invocations": 2,
+  "SQL_invocations_each": 1,
+  "ranks_added": 2,
+  "effects_added": 6,
+  "prereqs_added": 0,
+  "existing_spell_player_writes": 0,
+  "runtime_cache_actions": 0,
+  "actuals": {
+    "AA041": {
+      "status": "APPLIED_VERIFIED_INDEPENDENT_FULL_POSTIMAGES",
+      "source_commit": "131bd27a0a610b09098abc0dcc9e56291080b838",
+      "forward_sha256": "16b346ccbde7e8450c77143b2434d9bc84cbd333e6dd35d47f9e8f2265bc7dd6",
+      "SQL_invocations": 1,
+      "ranks_added": 1,
+      "effects_added": 5,
+      "prereqs_added": 0,
+      "existing_rows_updated": 0,
+      "player_ownership_points_charges_writes": 0,
+      "runtime_cache_actions": 0,
+      "qualified_encoding": "COORDINATOR-SELECTED LOCAL RECONSTRUCTION magnitude200; NOT proven historical/export. SPA286FcDamageAmt nativefirst100; second200 selected reconstruction from dated note describing100pointincrements withfirst2ranks tested. Preservefourfocuslimitrows. Magnitude source is a period player report phrased tentatively, not originalAAexport or freshnativeacceptance. Interpreting perlevel asAAordinal is an inference supportedby first-two-rankscontext and nativefirst100. Selection200must remainexplicitinreview. Onlyknown14245prefix. Higher3..5IDsunknown. NativeAlaran1retained despite absent sourceprereqheader. No inventedhigherIDs or nativeacceptanceclaim. Inheritednativefilters/prereqs/passive-1 retained;finite next=-1/not historicalterminal;no newprereqs/nativeacceptance.",
+      "native_acceptance": false,
+      "packet": {
+        "packet": "AA041",
+        "ability_id": 178,
+        "name": "Wrath of the Forest Walker",
+        "ordinal": 2,
+        "cost": 11,
+        "level": 92,
+        "expansion": 18,
+        "ability": {
+          "id": 178,
+          "name": "Wrath of the Forest Walker",
+          "category": -1,
+          "classes": 32,
+          "races": 65535,
+          "drakkin_heritage": 127,
+          "deities": 131071,
+          "status": 0,
+          "type": 3,
+          "charges": 0,
+          "grant_only": 0,
+          "first_rank_id": 14244,
+          "enabled": 1,
+          "reset_on_death": 0,
+          "auto_grant_enabled": 1
+        },
+        "predecessor": {
+          "id": 14244,
+          "upper_hotkey_sid": -1,
+          "lower_hotkey_sid": -1,
+          "title_sid": 14244,
+          "desc_sid": 14244,
+          "cost": 9,
+          "level_req": 91,
+          "spell": -1,
+          "spell_type": 0,
+          "recast_time": 0,
+          "expansion": 18,
+          "prev_id": -1,
+          "next_id": 14245
+        },
+        "target": 14245,
+        "pre_effects": [
+          {
+            "rank_id": 14244,
+            "slot": 1,
+            "effect_id": 286,
+            "base1": 100,
+            "base2": 0
+          },
+          {
+            "rank_id": 14244,
+            "slot": 2,
+            "effect_id": 138,
+            "base1": 0,
+            "base2": 0
+          },
+          {
+            "rank_id": 14244,
+            "slot": 3,
+            "effect_id": 143,
+            "base1": 1,
+            "base2": 0
+          },
+          {
+            "rank_id": 14244,
+            "slot": 4,
+            "effect_id": 348,
+            "base1": 1,
+            "base2": 0
+          },
+          {
+            "rank_id": 14244,
+            "slot": 5,
+            "effect_id": 411,
+            "base1": 64,
+            "base2": 0
+          }
+        ],
+        "pre_prereqs": [
+          {
+            "rank_id": 14244,
+            "aa_id": 1685,
+            "points": 1
+          }
+        ],
+        "new_effects": [
+          {
+            "rank_id": 14245,
+            "slot": 1,
+            "effect_id": 286,
+            "base1": 200,
+            "base2": 0
+          },
+          {
+            "rank_id": 14245,
+            "slot": 2,
+            "effect_id": 138,
+            "base1": 0,
+            "base2": 0
+          },
+          {
+            "rank_id": 14245,
+            "slot": 3,
+            "effect_id": 143,
+            "base1": 1,
+            "base2": 0
+          },
+          {
+            "rank_id": 14245,
+            "slot": 4,
+            "effect_id": 348,
+            "base1": 1,
+            "base2": 0
+          },
+          {
+            "rank_id": 14245,
+            "slot": 5,
+            "effect_id": 411,
+            "base1": 64,
+            "base2": 0
+          }
+        ],
+        "period_source": {
+          "url": "https://everquest.allakhazam.com/wiki/EQ:Wrath_of_the_Forest_Walker?oldid=447382",
+          "revision": "2012-11-03 21:59:03",
+          "method": "Actual Chrome rendered dated table and bounded first-two-ranks player test note"
+        },
+        "encoding": "SPA286FcDamageAmt nativefirst100; second200 selected reconstruction from dated note describing100pointincrements withfirst2ranks tested. Preservefourfocuslimitrows.",
+        "qualification": "Magnitude source is a period player report phrased tentatively, not originalAAexport or freshnativeacceptance. Interpreting perlevel asAAordinal is an inference supportedby first-two-rankscontext and nativefirst100. Selection200must remainexplicitinreview.",
+        "limits": "Onlyknown14245prefix. Higher3..5IDsunknown. NativeAlaran1retained despite absent sourceprereqheader. No inventedhigherIDs or nativeacceptanceclaim.",
+        "sql": "utils/sql/aa/2026_11_05_wrath_of_the_forest_walker_rank2.sql",
+        "rollback": "utils/sql/aa/rollback/2026_11_05_wrath_of_the_forest_walker_rank2.sql",
+        "sql_sha256": "16b346ccbde7e8450c77143b2434d9bc84cbd333e6dd35d47f9e8f2265bc7dd6",
+        "rollback_sha256": "118ae0942fb362d85965999053d7128583afe3b40f416da4e052a41d6550ac09"
+      },
+      "independent_full_postimages_verified": true,
+      "connections_closed": true
+    },
+    "AA042": {
+      "status": "APPLIED_VERIFIED_INDEPENDENT_FULL_POSTIMAGES",
+      "source_commit": "131bd27a0a610b09098abc0dcc9e56291080b838",
+      "forward_sha256": "ec02688651239e27b4335ff657ca9b9eae56c5327ac9c3bca72923388ca0e899",
+      "SQL_invocations": 1,
+      "ranks_added": 1,
+      "effects_added": 1,
+      "prereqs_added": 0,
+      "existing_rows_updated": 0,
+      "player_ownership_points_charges_writes": 0,
+      "runtime_cache_actions": 0,
+      "qualified_encoding": "SPA218PetCriticalHit cumulative25 fromperiod1%perrank andnativeprior24. NativeAAloader/bonuses/petcriticalconsumer checked statically.  Onlyknown13676prefix. Period26cost18/lvl95 doesnotestablishnativeidentity. Retain278/5+1685/1. No nativepetcriticalacceptanceclaim. Inheritednativefilters/prereqs/passive-1 retained;finite next=-1/not historicalterminal;no newprereqs/nativeacceptance.",
+      "native_acceptance": false,
+      "packet": {
+        "packet": "AA042",
+        "ability_id": 665,
+        "name": "Death's Wrath",
+        "ordinal": 25,
+        "cost": 15,
+        "level": 93,
+        "expansion": 18,
+        "ability": {
+          "id": 665,
+          "name": "Death's Wrath",
+          "category": -1,
+          "classes": 1024,
+          "races": 65535,
+          "drakkin_heritage": 127,
+          "deities": 131071,
+          "status": 0,
+          "type": 3,
+          "charges": 0,
+          "grant_only": 0,
+          "first_rank_id": 5264,
+          "enabled": 1,
+          "reset_on_death": 0,
+          "auto_grant_enabled": 1
+        },
+        "predecessor": {
+          "id": 13675,
+          "upper_hotkey_sid": -1,
+          "lower_hotkey_sid": -1,
+          "title_sid": 5264,
+          "desc_sid": 5264,
+          "cost": 12,
+          "level_req": 91,
+          "spell": -1,
+          "spell_type": 0,
+          "recast_time": 0,
+          "expansion": 18,
+          "prev_id": 12800,
+          "next_id": 13676
+        },
+        "target": 13676,
+        "pre_effects": [
+          {
+            "rank_id": 13675,
+            "slot": 1,
+            "effect_id": 218,
+            "base1": 24,
+            "base2": 0
+          }
+        ],
+        "pre_prereqs": [
+          {
+            "rank_id": 13675,
+            "aa_id": 278,
+            "points": 5
+          },
+          {
+            "rank_id": 13675,
+            "aa_id": 1685,
+            "points": 1
+          }
+        ],
+        "new_effects": [
+          {
+            "rank_id": 13676,
+            "slot": 1,
+            "effect_id": 218,
+            "base1": 25,
+            "base2": 0
+          }
+        ],
+        "period_source": {
+          "url": "https://everquest.allakhazam.com/wiki/EQ:Death's_Wrath?oldid=444969",
+          "revision": "2012-10-18 14:27:52",
+          "method": "ActualChrome rendered datedtable/description; historycorrectedrank25cost15"
+        },
+        "encoding": "SPA218PetCriticalHit cumulative25 fromperiod1%perrank andnativeprior24. NativeAAloader/bonuses/petcriticalconsumer checked statically.",
+        "limits": "Onlyknown13676prefix. Period26cost18/lvl95 doesnotestablishnativeidentity. Retain278/5+1685/1. No nativepetcriticalacceptanceclaim.",
+        "sql": "utils/sql/aa/2026_11_05_deaths_wrath_rank25.sql",
+        "rollback": "utils/sql/aa/rollback/2026_11_05_deaths_wrath_rank25.sql",
+        "sql_sha256": "ec02688651239e27b4335ff657ca9b9eae56c5327ac9c3bca72923388ca0e899",
+        "rollback_sha256": "001fc05d3a135af412f30992d5ffc3f28a26ac0e2b3e311550c0cc85a2792450"
+      },
+      "independent_full_postimages_verified": true,
+      "connections_closed": true
+    }
+  },
+  "material_qualifications": [
+    "AA041magnitude200 is explicitly coordinator-selected LOCAL RECONSTRUCTION. Tentative periodplayer note describes100pointincrements/first2ranktest;interpreting perlevel asAAordinal is inference supportedby nativefirstSPA286100. NOT originalAAexport/provenhistoricalmagnitude/freshnativeacceptance. Four nativefocuslimits/Alaran1 preserved.",
+    "AA042SPA218cumulative25 from period1percentagepointperrank/nativeprior24;cost15/level93/VoA18,inherited278/5+1685/1;staticpetcriticalconsumer evidence not nativecombatproof.",
+    "Onlyknownnative14245/13676prefixes;finite next=-1/not historicalterminal;later IDs held;zero newprereqs/existing/playerwrites."
+  ],
+  "native_acceptance": false,
+  "scope_complete": false,
+  "source_documents": "Six exact published source files retained; preparation labels historical. Aggregate curated actual establishes later authorized closed applications.",
+  "rollback": "Each exact published inverse retained/unexecuted; separateGO/originalpostimage+ownership refusal required. No replay/inverse/player edits.",
+  "prior_locally_confirmed_published_normal_SQL_source_paths": 832,
+  "earlier_pending_normal_SQL_source_paths": 0,
+  "new_normal_SQL_source_paths": 4,
+  "normal_SQL_source_paths_after_all_pending_publications": 836,
+  "SQL_path_count_meaning": "Source paths, not application count.",
+  "history_archives_preserved": true,
+  "QA39999_production_exclusion_retained": true
+}
