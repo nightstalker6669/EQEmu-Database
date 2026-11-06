@@ -1,0 +1,630 @@
+{
+  "batch": "RRC309",
+  "branch": "rof2-tradeskills",
+  "status": "SOURCE_ONLY_TWO_OUTPUT_RECONSTRUCTIONS_SEPARATE_ITEM_CACHE_ACTOR_SQL_HOLD",
+  "proposed_ids": [
+    3102881,
+    3102882
+  ],
+  "counts": {
+    "recipes": 2,
+    "entries": 14,
+    "observed_existing_item_dependencies": 14,
+    "proposed_missing_item_dependencies": 1,
+    "item_dependencies": 15,
+    "unchanged_prototype_recipes": 1,
+    "unchanged_prototype_entries": 7
+  },
+  "recipes": [
+    {
+      "id": 3102881,
+      "name": "Spell: Earnest Force Rk. II",
+      "tradeskill": 58,
+      "skillneeded": 0,
+      "trivial": 432,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Qualified LOCAL native variant or source-ID sibling definition; RRC309.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 19,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3102882,
+      "name": "Imbued Northman Kite Shield",
+      "tradeskill": 63,
+      "skillneeded": 0,
+      "trivial": 115,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Qualified LOCAL native variant or source-ID sibling definition; RRC309.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 0,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    }
+  ],
+  "entries": [
+    {
+      "recipe_id": 3102881,
+      "item_id": 76278,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3102881,
+      "item_id": 93524,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3102881,
+      "item_id": 93539,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3102881,
+      "item_id": 93545,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3102881,
+      "item_id": 93561,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3102881,
+      "item_id": 124972,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3102881,
+      "item_id": 93492,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3102882,
+      "item_id": 10463,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3102882,
+      "item_id": 10489,
+      "successcount": 1,
+      "failcount": 1,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3102882,
+      "item_id": 22062,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3102882,
+      "item_id": 22500,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3102882,
+      "item_id": 22531,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3102882,
+      "item_id": 23382,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3102882,
+      "item_id": 36,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    }
+  ],
+  "item_dependencies": [
+    {
+      "id": 10463,
+      "name": "Medium Quality Folded Sheet Metal",
+      "basis": "OBSERVED_EXISTING_NATIVE"
+    },
+    {
+      "id": 10489,
+      "name": "Smithy Hammer",
+      "basis": "OBSERVED_EXISTING_NATIVE"
+    },
+    {
+      "id": 22062,
+      "name": "Kite Shield Mold",
+      "basis": "OBSERVED_EXISTING_NATIVE"
+    },
+    {
+      "id": 22500,
+      "name": "Imbued Jade",
+      "basis": "OBSERVED_EXISTING_NATIVE"
+    },
+    {
+      "id": 22531,
+      "name": "Frost Temper",
+      "basis": "OBSERVED_EXISTING_NATIVE"
+    },
+    {
+      "id": 23378,
+      "name": "Northman Kite Shield",
+      "basis": "OBSERVED_EXISTING_NATIVE"
+    },
+    {
+      "id": 23379,
+      "name": "Imbued Northman Kite Shield",
+      "basis": "OBSERVED_EXISTING_NATIVE"
+    },
+    {
+      "id": 23382,
+      "name": "Imbued Northman Kite Shield",
+      "basis": "PROPOSED_MISSING_SHIELD_DEFINITION_SEPARATE_PHASE_REQUIRED"
+    },
+    {
+      "id": 76278,
+      "name": "Rough Numen Plaque",
+      "basis": "OBSERVED_EXISTING_NATIVE"
+    },
+    {
+      "id": 93492,
+      "name": "Spell Research Kit",
+      "basis": "OBSERVED_EXISTING_NATIVE"
+    },
+    {
+      "id": 93524,
+      "name": "Quill of the Lord Protector",
+      "basis": "OBSERVED_EXISTING_NATIVE"
+    },
+    {
+      "id": 93539,
+      "name": "Luclin's Ink Additive",
+      "basis": "OBSERVED_EXISTING_NATIVE"
+    },
+    {
+      "id": 93545,
+      "name": "Arcane Thickener",
+      "basis": "OBSERVED_EXISTING_NATIVE"
+    },
+    {
+      "id": 93561,
+      "name": "Ink of Marr",
+      "basis": "OBSERVED_EXISTING_NATIVE"
+    },
+    {
+      "id": 124972,
+      "name": "Spell: Earnest Force Rk. II",
+      "basis": "OBSERVED_EXISTING_NATIVE"
+    }
+  ],
+  "unchanged_prototype_recipes": [
+    {
+      "id": 4926,
+      "name": "Imbued Northman Kite Shield",
+      "tradeskill": 63,
+      "skillneeded": 0,
+      "trivial": 115,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": null,
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": -1,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    }
+  ],
+  "unchanged_prototype_entries": [
+    {
+      "id": 48612,
+      "recipe_id": 4926,
+      "item_id": 10463,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 48613,
+      "recipe_id": 4926,
+      "item_id": 10489,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 48614,
+      "recipe_id": 4926,
+      "item_id": 22062,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 48615,
+      "recipe_id": 4926,
+      "item_id": 22501,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 48616,
+      "recipe_id": 4926,
+      "item_id": 22531,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 48618,
+      "recipe_id": 4926,
+      "item_id": 23379,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 48619,
+      "recipe_id": 4926,
+      "item_id": 47,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    }
+  ],
+  "source_facts": [
+    {
+      "view_id": 21157,
+      "name": "Spell: Earnest Force Rk. II",
+      "display_name": "Spell: Earnest Force Rk. II",
+      "native_output_name": "Spell: Earnest Force Rk. II",
+      "skill": 58,
+      "trivial": 432,
+      "nofail": 0,
+      "skillneeded": 0,
+      "must_learn": 0,
+      "book_item_id": 0,
+      "min_expansion": 19,
+      "output_item_id": 124972,
+      "yield_count": 1,
+      "roles": {
+        "componentcount": {
+          "93545": 1,
+          "93561": 1,
+          "93539": 1,
+          "93524": 1,
+          "76278": 1
+        },
+        "successcount": {
+          "124972": 1
+        },
+        "failcount": {}
+      },
+      "source_physical_roles": {
+        "componentcount": {
+          "93545": 1,
+          "93561": 1,
+          "93539": 1,
+          "93524": 1,
+          "76278": 1
+        },
+        "successcount": {
+          "127972": 1
+        },
+        "failcount": {}
+      },
+      "source_original_name_candidate_roles": {
+        "componentcount": {
+          "76278": 1,
+          "93524": 1,
+          "93539": 1,
+          "93545": 1,
+          "93561": 1
+        },
+        "successcount": {
+          "124972": 1
+        },
+        "failcount": {}
+      },
+      "container_ids": [
+        93492
+      ],
+      "extra_dependency_ids": [
+        93492
+      ],
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=532&rsa=Spell+Research&sub=Paladin",
+      "source_primary_url": "https://www.eqtraders.com/items/show_item.php?item=52786",
+      "source_formula": "Components: Arcane Thickener, Ink of Marr, Luclin's Ink Additive, Quill of the Lord Protector, Rough Numen Plaque\nIn: Spell Research Kit, Tome Binding Kit, Prayer Writing Kit, Hybrid Research Kit, Song Writing Kit\nYield: 1",
+      "source_current_formula": "Spell Research Components: Arcane Thickener, Ink of Marr, Luclin's Ink Additive, Quill of the Lord Protector, Rough Numen Plaque\nIn: Spell Research Kit, Tome Binding Kit, Prayer Writing Kit, Hybrid Research Kit, Song Writing Kit\nYield: 1\nTrivial at: 432",
+      "source_catalogue_sha256": "952ec5c65377efabf79b4801a702700e34bee0cdc56c55072fd64aa690f9b76c",
+      "source_primary_raw_html_sha256": "18ee54243ba674e8c3eb4f22992c52e27ee2f753a87fd9b06709351d175b04d6",
+      "learning_origin": "OMITTED_LEARNING_ORDINARY0_SAME_SELECTED_NUMEN_FAMILY_POLICY",
+      "source_origin": "COORDINATOR_SELECTED_LOCAL_NATIVE_VARIANT124972_SEMANTICALLY_CORROBORATED_NOT_PROVEN127972_TYPO_OR_ALIAS_NO127972_CREATED",
+      "visible_source_profile": "recipes|sources|full list\nSpell: Earnest Force Rk. II\nCharges: 1\nLevel Needed: 86\nSkill: Evocation\nEffect: Earnest Force Rk. II\nMana Cost: 88\nWT: 0.1 Size: SMALL\nClass: PAL\nRace: ALL\nStackable up to 20\nNPCs sell this at 1103p5g4s9c\nNPCs buy this at 100p9s5c\nEQ item ID: 127972\nThis item is not used in any recipes.\nitem|sources|full list\n",
+      "held_source_stations": [
+        "Tome Binding Kit",
+        "Prayer Writing Kit",
+        "Hybrid Research Kit",
+        "Song Writing Kit"
+      ],
+      "recipe_id": 3102881,
+      "source_view_id": 21157,
+      "ingredients": [
+        {
+          "item_id": 76278,
+          "name": "Rough Numen Plaque",
+          "count": 1
+        },
+        {
+          "item_id": 93524,
+          "name": "Quill of the Lord Protector",
+          "count": 1
+        },
+        {
+          "item_id": 93539,
+          "name": "Luclin's Ink Additive",
+          "count": 1
+        },
+        {
+          "item_id": 93545,
+          "name": "Arcane Thickener",
+          "count": 1
+        },
+        {
+          "item_id": 93561,
+          "name": "Ink of Marr",
+          "count": 1
+        }
+      ],
+      "learned_by_item_id": 0,
+      "May2013_exact_fields_verified": false
+    },
+    {
+      "view_id": 25881,
+      "name": "Imbued Northman Kite Shield",
+      "display_name": "Imbued Northman Kite Shield",
+      "native_output_name": "Imbued Northman Kite Shield",
+      "skill": 63,
+      "trivial": 115,
+      "nofail": 0,
+      "skillneeded": 0,
+      "must_learn": 0,
+      "book_item_id": 0,
+      "min_expansion": 0,
+      "output_item_id": 23382,
+      "yield_count": 1,
+      "roles": {
+        "componentcount": {
+          "22531": 1,
+          "22500": 1,
+          "22062": 1,
+          "10463": 1,
+          "10489": 1
+        },
+        "successcount": {
+          "10489": 1,
+          "23382": 1
+        },
+        "failcount": {
+          "10489": 1
+        }
+      },
+      "source_physical_roles": {
+        "componentcount": {
+          "22531": 1,
+          "22500": 1,
+          "22062": 1,
+          "10463": 1,
+          "10489": 1
+        },
+        "successcount": {
+          "10489": 1,
+          "23382": 1
+        },
+        "failcount": {
+          "10489": 1
+        }
+      },
+      "source_original_name_candidate_roles": {
+        "componentcount": {
+          "10463": 1,
+          "10489": 1,
+          "22062": 1,
+          "22500": 1,
+          "22531": 1
+        },
+        "successcount": {
+          "10489": 1,
+          "23379": 1
+        },
+        "failcount": {
+          "10489": 1
+        }
+      },
+      "container_ids": [
+        36
+      ],
+      "extra_dependency_ids": [
+        23378,
+        23379
+      ],
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=300&rc=BAR&rsa=Smithing&sub=cultural",
+      "source_primary_url": "https://www.eqtraders.com/items/show_item.php?item=56838",
+      "source_formula": "Components: Frost Temper, Imbued Jade, Kite Shield Mold, Medium Quality Folded Sheet Metal, Smithy Hammer\nIn: Northman Forge\nYield: 1\nAlso Returns: Smithy Hammer(1)\nOn Failure Returns: Smithy Hammer(1)\nThis combine may only be made by Barbarians",
+      "source_current_formula": "Smithing Components: Frost Temper, Imbued Jade, Kite Shield Mold, Medium Quality Folded Sheet Metal, Smithy Hammer\nIn: Northman Forge\nYield: 1\nAlso Returns: Smithy Hammer(1)\nOn Failure Returns: Smithy Hammer(1)\nThis combine may only be made by Barbarians\nTrivial at: 115",
+      "source_catalogue_sha256": "2eb83cbbf71391667af50ade7789c0c7541baba09fc660ff56cacf8b35aed23c",
+      "source_primary_raw_html_sha256": "8d2c9f0d93df2da4796e050d8e7487a3e452baa251f800789ae855b0aed23398",
+      "learning_origin": "OMITTED_LEARNING_ORDINARY0",
+      "source_origin": "SOURCE_EXACT_NEW23382_VISIBLE_PROFILE_WITH_EXPLICIT_LOCAL_FULL287_SIBLING_RECONSTRUCTION_REQUIRES_SEPARATE_ITEM_APPLY_CACHE_ACTOR",
+      "visible_source_profile": "recipes|sources|full list\nImbued Northman Kite Shield\nSlot: SECONDARY\nAC: 10\nSTR: +3 HP: +4\nSV COLD: +5\nWT: 10.0 Size: LARGE\nClass: WAR CLR PAL RNG SHD BRD\nROG SHM\nRace: HUM BAR ELF DEF HEF DWF\nTRL OGR HFL GNM FRG DRK\nDeity: Rallos Zek\nSlot type 7:empty\nEQ item ID: 23382\nThis item is not used in any recipes.\nitem|sources|full list\n",
+      "held_source_stations": [],
+      "recipe_id": 3102882,
+      "source_view_id": 25881,
+      "ingredients": [
+        {
+          "item_id": 10463,
+          "name": "Medium Quality Folded Sheet Metal",
+          "count": 1
+        },
+        {
+          "item_id": 10489,
+          "name": "Smithy Hammer",
+          "count": 1
+        },
+        {
+          "item_id": 22062,
+          "name": "Kite Shield Mold",
+          "count": 1
+        },
+        {
+          "item_id": 22500,
+          "name": "Imbued Jade",
+          "count": 1
+        },
+        {
+          "item_id": 22531,
+          "name": "Frost Temper",
+          "count": 1
+        }
+      ],
+      "learned_by_item_id": 0,
+      "May2013_exact_fields_verified": false
+    }
+  ],
+  "restriction_review": {
+    "scope": "Two bounded output reconstructions. EarnestForce current primary claims127972, which remains unresolved/absent. Recipe targets existing124972 as explicitly selected LOCAL native variant corroborated by exact PAL86/effect25283/Evocation24/mana88/weight/size/stack20 semantics; no claim127972 typo or alias and no127972 item invented. Shield23382 is source-exact ID/visible Rallos profile with separately proposed labelled LOCAL full287 sibling defaults.",
+    "definition": "All unspecified full287 fields including price27000/favor57/guildfavor57/magic1/displaymodel/lore/hiddenmetadata are explicit LOCAL sibling defaults, not captured original retail23382 data or appearance proof. verifiedNULL/sourceRRC309 avoid fake observed-original identity; updated cloned historical metadata is a labelled default, not a new source observation.",
+    "profile": "New Shield visible AC10/STR3/WIS0/HP4/Cold5/WT10/LARGE/secondaryslot/classes927/races53227/Rallos2048/type7slot. Hidden metadata is reconstruction, not appearance parity or full retail capture. Existing23378/23379 and all owned state preserved. Original current source/profile facts and name-candidate discrepancies are retained.",
+    "source": "Original/current formulas, direct component primary IDs, numeric trivials432/115, yield1 and SmithyHammer10489 success/failure returns preserved. Spell source Charges1 is one consumed physical scroll; existing native stackable MaxCharges0 convention retained, not converted to extra outputs.",
+    "learning": "Source-omitted ordinary0/book0/minimum0 follows selected ordinary Numen family policy for Spell and literal Smithing omission for Shield. No maker class inferred from PAL scroll use mask. Shield source explicitly requires original Barbarian PP2; wearer Rallos deity is not a maker restriction.",
+    "containers": "Only source-positive native SpellResearchKit93492/BagType11/10slots/size3 for Spell under existing INT Research maker path, and actual owned NorthmanForge36/Halas29/version0/object40/item0 for Shield. Other source stations remain unqualified. Required finite Shield actor rechecks original source/session/tree before debit and exact output/return maps.",
+    "native": "Fourteen existing full18 definitions observed, one source-proposed23382 definition separately labelled NOT observed. Source SQL requires its full287 committed postimage. Exact same-name Tribunal recipe4926/entries preserved. Producer universe guards target crafted outputs124972/23382; unchanged returned SmithyHammer does not expand this packet to every unrelated old smithing recipe. All-state full input/new ID/entry/count guards remain.",
+    "order": "1 separate exact item-definition-only GO;2 Build targeted item cache plus compatiblefinite309/307actor;3 exact two-recipe GO. No merchant/NPC/spawn inferred.",
+    "execution": "Source only, with explicit coordinator bounded reconstruction selection. GitHub publication, separate item-definition-only GO, Build targeted cache+coalesced307/309 actor install, then exact recipe GO required. No tests/build/rehearsal/runtime/SQL/nativeacceptance, no merchant/NPC/spawn inferred. Rollback recipes first; definition rollback refuses references and never erases owned items."
+  },
+  "native_variant_disposition": {
+    "item_id": 124972,
+    "claimed_current_primary_ID": 127972,
+    "source_claim_retained": true,
+    "not_proven_typo_or_alias": true,
+    "native_scroll_semantics": {
+      "id": 124972,
+      "Name": "Spell: Earnest Force Rk. II",
+      "weight": 1,
+      "size": 1,
+      "stackable": 1,
+      "stacksize": 20,
+      "classes": 4,
+      "scrolleffect": 25283,
+      "scrolllevel": 86,
+      "maxcharges": 0
+    },
+    "native_spell_semantics": {
+      "id": 25283,
+      "name": "Earnest Force Rk. II",
+      "mana": 88,
+      "skill": 24,
+      "classes3": 86
+    }
+  },
+  "item_dependency": {
+    "contract": "item-dependency.json",
+    "item_id": 23382,
+    "separate_SQL_GO": true,
+    "compatible_item_cache_required": true
+  },
+  "native_actor_dependency": {
+    "contract": "actor-contract.json",
+    "compatible_installed_receipt_required": true,
+    "sql_hold": true
+  },
+  "migration_dependencies": [
+    "RRC307",
+    "RRC308"
+  ],
+  "held_source_rows": [],
+  "source_urls": [
+    "https://www.eqtraders.com/items/show_item.php?item=52786",
+    "https://www.eqtraders.com/items/show_item.php?item=56838",
+    "https://www.eqtraders.com/recipes/recipe_page.php?article=300&rc=BAR&rsa=Smithing&sub=cultural",
+    "https://www.eqtraders.com/recipes/recipe_page.php?article=532&rsa=Spell+Research&sub=Paladin"
+  ]
+}

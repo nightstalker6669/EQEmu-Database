@@ -1,0 +1,62 @@
+{
+  "status": "ITEM_DEFINITION_COMMITTED_INDEPENDENT_EXACT_287_FIELD_POSTIMAGE_PASS",
+  "phase": "RRC309-ITEM-DEFINITION-001",
+  "source_commit": "57b84a026fe47de472f933d0fee4e3c680585e58",
+  "source_manifest_sha256": "a0724755660beb3d213927f559a93aa0dc0be2e530b2b684eca4ccfaa3979dbd",
+  "source_sha256": "f5ee39cb21a35459bda824662aa5ca8febe28fe69178105c05dd7ae0e04b1165",
+  "dependency_sha256": "d917f6b6cb87a8de1e127ddac1844eb13eb56bb4baf963de6c13333c06a6a2f9",
+  "SQL_call_attempted": true,
+  "SQL_invocations": 1,
+  "commit_returned": true,
+  "commit_receipt": [
+    {
+      "phase": "RRC309_ITEM_APPLY",
+      "items_before": 118696,
+      "items_after": 118697,
+      "in_transaction": 0
+    }
+  ],
+  "routine_removed": true,
+  "merchant_writes": false,
+  "recipes_applied": false,
+  "item127972_written": false,
+  "item_cache_generation": false,
+  "player_writes": false,
+  "automatic_retry": false,
+  "automatic_inverse": false,
+  "strict_session": true,
+  "item_id": 23382,
+  "item_fields": 287,
+  "prototype_items_unchanged": true,
+  "reference_counts_unchanged_zero": true,
+  "exact_postimage": true,
+  "qualification": {
+    "source_visible_native_fields": {
+      "id": 23382,
+      "Name": "Imbued Northman Kite Shield",
+      "slots": 16384,
+      "ac": 10,
+      "astr": 3,
+      "awis": 0,
+      "hp": 4,
+      "cr": 5,
+      "weight": 100,
+      "size": 3,
+      "classes": 927,
+      "races": 53227,
+      "deity": 2048,
+      "augslot1type": 7
+    },
+    "prototype_basis": "Full287 current Tribunal23379 clone; plain23378 agrees except explicitname/WIS/deity/race/magic/price/favor/metadata fields. No23379 alias. VisibleRallosSTR3/WIS0/AC10/HP4/CR5/WT10/LARGE/slots/classes/races override selected explicitly.",
+    "local_defaults": "All unspecified full287 fields including price27000/favor57/guildfavor57/magic1/displaymodel/lore/hiddenmetadata are explicit LOCAL sibling defaults, not captured original retail23382 data or appearance proof. verifiedNULL/sourceRRC309 avoid fake observed-original identity; updated cloned historical metadata is a labelled default, not a new source observation."
+  },
+  "native_gameplay_acceptance": false,
+  "connections_closed": true,
+  "actual_receipt_sha256": "ddb34589e699042a8a004b4949b37e91a5cc5a552f01ae86f8d0e40b3679f74d",
+  "definition_count_delta": 1,
+  "source_payload_path": "drafts/tradeskills/recipes/RRC309/item-dependency.json",
+  "item_definition_only_applied": true,
+  "queued307_309_recipe_code_and_recipe_SQL": "NOT_INSTALLED_NOT_APPLIED",
+  "targeted_item_cache": "NOT_GENERATED_AT_FULL_STOP",
+  "source_preparation_labels": "Historical proposed/absent item labels retained; actual receipt supersedes only item23382 definition phase."
+}

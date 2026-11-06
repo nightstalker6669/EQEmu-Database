@@ -1,0 +1,85 @@
+--- a/zone/final_recipe300.h
++++ b/zone/final_recipe300.h
+@@ -2,23 +2,28 @@
+ #include <cstdint>
+ #include <cmath>
+ #include <cstring>
+-// Fourteen source-positive recipes only. No global station/race/learning policy.
++// Original fourteen plus two explicitly never-learn307 routes only. No global policy.
+ namespace FinalRecipe300 {
+-inline bool Selected(uint32_t id) { return id >= 3102753 && id <= 3102766; }
+-inline bool NeverLearn(uint32_t id) { return id == 3102756 || id == 3102757; }
++inline bool Selected(uint32_t id) { return (id >= 3102753 && id <= 3102766) || id == 3102867 || id == 3102868; }
++inline bool NeverLearn(uint32_t id) { return id == 3102756 || id == 3102757 || id == 3102867 || id == 3102868; }
+ inline bool Font(uint32_t id) { return id >= 3102758 && id <= 3102764; }
+ inline uint32_t Skill(uint32_t id) {
++ if (id == 3102867) return 64;
++ if (id == 3102868) return 63;
+  if (id <= 3102754) return 69;
+  if (id == 3102755) return 63;
+  if (NeverLearn(id) || id == 3102766) return 65;
+  return 68;
+ }
+ inline bool RaceAllowed(uint32_t id, uint32_t race) {
++ if (id == 3102867 || id == 3102868) return true;
+  return id <= 3102754 ? race == 130 : id != 3102755 || race == 9;
+ }
+ inline bool WorldAllowed(uint32_t id, uint32_t zone, uint16_t version,
+  uint32_t object, uint32_t type, uint32_t item) {
+  if (!Selected(id) || Font(id) || item != 0) return false;
++ if (id == 3102867) return false; // actual owned portable Fletching Kit only
++ if (id == 3102868) return type == 17;
+  if (id <= 3102754) return type == 22;
+  if (id == 3102755) return zone == 52 && version == 0 && object == 248 && type == 47;
+  if (NeverLearn(id)) return type == 19;
+--- a/zone/tradeskills.cpp
++++ b/zone/tradeskills.cpp
+@@ -91,6 +91,19 @@
+ bool Final300OutputValid(const DBTradeskillRecipe_Struct& spec) {
+  if (!FinalRecipe300::Selected(spec.recipe_id)) return true;
+  if (uint32_t(spec.tradeskill)!=FinalRecipe300::Skill(spec.recipe_id) || spec.quest) return false;
++ if (spec.recipe_id == 3102867 || spec.recipe_id == 3102868) {
++  if (spec.nofail || spec.must_learn || spec.replace_container) return false;
++  const auto has=[](const auto& items,uint32_t id,uint32_t count) {
++   for(const auto& p:items) if(p.first==id) return p.second==count;
++   return false;
++  };
++  if(spec.recipe_id==3102867) return spec.trivial==43 &&
++   spec.onsuccess.size()==1 && has(spec.onsuccess,3444,1) &&
++   spec.onfail.size()==1 && has(spec.onfail,3474,1);
++  return spec.trivial==153 && spec.onsuccess.size()==3 &&
++   has(spec.onsuccess,2074,1) && has(spec.onsuccess,6027,1) && has(spec.onsuccess,7052,1) &&
++   spec.onfail.size()==2 && has(spec.onfail,6027,1) && has(spec.onfail,7052,1);
++ }
+  if (spec.recipe_id!=3102766) return true;
+  const auto* item=database.GetItem(75815);
+  if (!item || item->ItemClass!=0 || item->Stackable || item->MaxCharges!=8) return false;
+@@ -645,6 +658,8 @@
+  }
+  // Capture the actual matched physical input tree before mutable validation hooks.
+  // No clone/replacement/consumption; compare identities and all nested charges/slots.
++ // Keep the original307 selector bound across the mutable validation hook.
++ const auto final307_recipe=(spec.recipe_id==3102867 || spec.recipe_id==3102868)?spec.recipe_id:0;
+  std::unique_ptr<Final300InputTree> final300_inputs;
+  const auto final300_owner=user->InventorySessionReleaseTicket();
+  const auto final300_character=user->CharacterID();
+@@ -700,6 +715,7 @@
+  };
+  if(!final302_valid()){user->Message(Chat::Red,"This recipe requires its correct container and original ingredients.");auto* denied=new EQApplicationPacket(OP_TradeSkillCombine,0);user->QueuePacket(denied);safe_delete(denied);return;}
+  const auto final300_valid=[&](){
++  if(final307_recipe && spec.recipe_id!=final307_recipe)return false;
+   if(!FinalRecipe300::Selected(spec.recipe_id))return true;
+   if(!final300_inputs || !final300_owner || !final300_owner->HeldFor(*user) ||
+    user->CharacterID()!=final300_character || user->AccountID()!=final300_account)return false;
+@@ -710,6 +726,11 @@
+   if(FinalRecipe300::Font(spec.recipe_id)) {
+    if(worldcontainer || !Final300Kit(*user,in_combine->container_slot,container) || !Final300Font(*user,spec.recipe_id))return false;
+    current=user->GetInv().GetItem(in_combine->container_slot);
++  }else if(spec.recipe_id==3102867) {
++   if(worldcontainer || !EQ::ValueWithin(in_combine->container_slot,EQ::invslot::GENERAL_BEGIN,EQ::invslot::GENERAL_END))return false;
++   current=user->GetInv().GetItem(in_combine->container_slot);
++   const auto* data=current&&current->IsClassBag()?current->GetItem():nullptr;
++   if(current!=container || !data || data->ID!=17910 || data->BagType!=18 || data->BagSlots!=8 || data->BagSize!=3)return false;
+   }else {
+    auto* station=user->GetTradeskillObject();
+    if(!worldcontainer || !station || station!=worldo || station!=final300_world ||
