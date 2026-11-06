@@ -1,0 +1,76 @@
+{
+  "batch": "RRC277",
+  "status": "SOURCE_ONLY_FINITE_MAKER_EXTENSION_SQL_HOLD_COMPATIBLE821_ACTOR_INSTALL",
+  "new_recipes": 106,
+  "new_ids": [
+    3101371,
+    3101476
+  ],
+  "resulting_research_selector_rows": 821,
+  "previous715_research_predicates_preserved": true,
+  "maker_ranges": [
+    {
+      "ids": [
+        3100656,
+        3101375
+      ],
+      "maker_classes": [
+        11,
+        12,
+        13,
+        14
+      ],
+      "kit_id": 93492,
+      "previous715_plus_new5_chemistry": true
+    },
+    {
+      "ids": [
+        3101376,
+        3101474
+      ],
+      "maker_classes": [
+        1,
+        7,
+        9,
+        16
+      ],
+      "kit_id": 41555,
+      "new99_tome_and_media": true
+    },
+    {
+      "ids": [
+        3101475,
+        3101476
+      ],
+      "maker_classes": [
+        3,
+        4,
+        5,
+        15
+      ],
+      "kit_id": 41632,
+      "new2_hybrid_spell": true
+    }
+  ],
+  "files": {
+    "zone/tradeskills.cpp": {
+      "preimage_sha256": "b739ddb8e4ad11e700482b4c99aca5249035d14c4493a49ca4f34ea61e52d6aa",
+      "postimage_sha256": "912df33c0eafb91c1c579003ecdf92dc1d0b25a13d8306099a2151d21d69dcb7"
+    },
+    "zone/research_tablet335_actor.h": {
+      "preimage_sha256": "ee3a11138b334d2dc8a897952e08b8613a9a0396a4c043a1f3187df5e0fcb115",
+      "postimage_sha256": "0208732d67e494a4b4b8e0f3605949aad8866e9ef5a182bc2f419c08c65955df"
+    }
+  },
+  "patch_sha256": "f48be47ccf81f19879d693d53cac2f7d7f2781f900d8c05402f7d40f6407c2f8",
+  "physical_contract": "Actual native class, exact actual owned kit/type11/10slots/size3; manual opened native bag, automatic actual personal inventory bag resolved using RequiredKit(native spec recipe_id), packet identifiers confer no ownership. Before consumption. No output class/use-mask actor inference.",
+  "historical_positive_context": "Dated2012 EQTC firsthand guide: INT casters spell/song path, pure melee any tomes, hybrids hybrid spells/tomes; archetype-specific native kits. Select only positive kit path for these recipes, not modern2016 universal kits. Other historical archetype paths not claimed complete.",
+  "preservation": "For previous715IDs RequiredKit93492 and same actual INT/physical predicates unchanged. Prior1092Tailoring/1764Smithing/35Gnomish/bot code unchanged; nonselected IDs unaffected. Only automatic literal kit lookup becomes exact selected requirement; messages adjusted for multiple valid maker groups.",
+  "reconstruction": "New chemistry5 and raw melee10 plus18/19 era floors require explicit coordinator family policy, not immutable per-field May2013 manufacture proof. Original RRC160 never applied; independent later qualification only.",
+  "source_parent_publication": "ae9c75a569b005fb23725d2408319bc6a3770276",
+  "source_parent_actor_install_receipt_sha256": "68e387445ddde45b5d33b8fc6a78eb5f97fc3795c2554aea6a4be2f0bd1706a7",
+  "builds": 0,
+  "tests": 0,
+  "SQL_executions": 0,
+  "runtime": false
+}
