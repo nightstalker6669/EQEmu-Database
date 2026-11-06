@@ -1,0 +1,510 @@
+{
+  "format_version": 1,
+  "features": [
+    "AA043",
+    "AA044",
+    "AA045",
+    "AA046",
+    "AA047"
+  ],
+  "application_status": "ALL_FIVE_APPLIED_VERIFIED_INDEPENDENT_FULL_POSTIMAGES_SEQUENTIAL_CLOSED",
+  "application_order": [
+    "AA043",
+    "AA044",
+    "AA045",
+    "AA046",
+    "AA047"
+  ],
+  "SQL_invocations": 5,
+  "SQL_invocations_each": 1,
+  "ranks_added": 5,
+  "effects_added": 5,
+  "prereqs_added": 0,
+  "existing_spell_player_writes": 0,
+  "runtime_cache_actions": 0,
+  "actuals": {
+    "AA043": {
+      "status": "APPLIED_VERIFIED_INDEPENDENT_FULL_POSTIMAGES",
+      "source_commit": "3ff78932cf92122df29adba783b4a3044d692dc4",
+      "forward_sha256": "b0341cd3bf1049543778e99768382e74089c7869b29662b09acbc162aa002959",
+      "SQL_invocations": 1,
+      "ranks_added": 1,
+      "effects_added": 1,
+      "prereqs_added": 0,
+      "existing_rows_updated": 0,
+      "player_ownership_points_charges_writes": 0,
+      "runtime_cache_actions": 0,
+      "qualified_encoding": "SPA2ATKcumulative140 =35*4; prior136at34matchesexplicit4perrank. Periodautomaticperlevelacquisition described; data-onlyrankadditionpreservesauto_grant_enabled1, no core/ownershipgrantor guaranteeofnativeautomaticdelivery. Onlyknownimmediateprefix; laternativeIDsunestablished. No existingability/spell/playerwrites; nativeacceptanceunproven. Nativepassivespell-1/prereqs unchanged;finite next=-1/not historicalterminal;Headshotheld/nativeacceptanceunproven.",
+      "native_acceptance": false,
+      "packet": {
+        "packet": "AA043",
+        "ability_id": 6002,
+        "name": "Hunter's Attack Power",
+        "ordinal": 35,
+        "cost": 0,
+        "level": 89,
+        "expansion": 17,
+        "ability": {
+          "id": 6002,
+          "name": "Hunter's Attack Power",
+          "category": -1,
+          "classes": 8,
+          "races": 65535,
+          "drakkin_heritage": 127,
+          "deities": 131071,
+          "status": 0,
+          "type": 3,
+          "charges": 0,
+          "grant_only": 0,
+          "first_rank_id": 6546,
+          "enabled": 1,
+          "reset_on_death": 0,
+          "auto_grant_enabled": 1
+        },
+        "predecessor": {
+          "id": 13124,
+          "upper_hotkey_sid": -1,
+          "lower_hotkey_sid": -1,
+          "title_sid": 6546,
+          "desc_sid": 6546,
+          "cost": 0,
+          "level_req": 88,
+          "spell": -1,
+          "spell_type": 0,
+          "recast_time": 0,
+          "expansion": 17,
+          "prev_id": 13123,
+          "next_id": 13125
+        },
+        "target": 13125,
+        "pre_effects": [
+          {
+            "rank_id": 13124,
+            "slot": 1,
+            "effect_id": 2,
+            "base1": 136,
+            "base2": 0
+          }
+        ],
+        "pre_prereqs": [],
+        "new_effects": [
+          {
+            "rank_id": 13125,
+            "slot": 1,
+            "effect_id": 2,
+            "base1": 140,
+            "base2": 0
+          }
+        ],
+        "period_source": {
+          "url": "https://everquest.allakhazam.com/wiki/EQ:Hunter's_Attack_Power?oldid=419461",
+          "revision": "2012-03-29 09:26:04",
+          "method": "ActualChrome rendered datedtable/description"
+        },
+        "encoding": "SPA2ATKcumulative140 =35*4; prior136at34matchesexplicit4perrank.",
+        "qualification": "Periodautomaticperlevelacquisition described; data-onlyrankadditionpreservesauto_grant_enabled1, no core/ownershipgrantor guaranteeofnativeautomaticdelivery.",
+        "limits": "Onlyknownimmediateprefix; laternativeIDsunestablished. No existingability/spell/playerwrites; nativeacceptanceunproven.",
+        "sql": "utils/sql/aa/2026_11_05_hunters_attack_power_rank35.sql",
+        "rollback": "utils/sql/aa/rollback/2026_11_05_hunters_attack_power_rank35.sql",
+        "sql_sha256": "b0341cd3bf1049543778e99768382e74089c7869b29662b09acbc162aa002959",
+        "rollback_sha256": "b5acbda8b43408e9ed5dc45cc211a9d0e34d96e9769a76f408430439999796df"
+      },
+      "independent_full_postimages_verified": true,
+      "connections_closed": true
+    },
+    "AA044": {
+      "status": "APPLIED_VERIFIED_INDEPENDENT_FULL_POSTIMAGES",
+      "source_commit": "3ff78932cf92122df29adba783b4a3044d692dc4",
+      "forward_sha256": "8f525e7365c51a0ec1acfa70fc25f6f98af3251eec79bb9918fa821d15dc2b4f",
+      "SQL_invocations": 1,
+      "ranks_added": 1,
+      "effects_added": 1,
+      "prereqs_added": 0,
+      "existing_rows_updated": 0,
+      "player_ownership_points_charges_writes": 0,
+      "runtime_cache_actions": 0,
+      "qualified_encoding": "SPA220skill7Archerycumulative240 =nativeprior205+periodlater35increment. Frozenranks6..8=135/170/205matchincrement35; fullcost/levelprefix1..8matchesperiod. Periodrank9cost6retainedliterally,notsmoothedtoadjacent5. Cumulative240calculatedfromperiodincrement+nativeprefix,notoriginalAAexport. Onlyknownimmediateprefix; laternativeIDsunestablished. No existingability/spell/playerwrites; nativeacceptanceunproven. Nativepassivespell-1/prereqs unchanged;finite next=-1/not historicalterminal;Headshotheld/nativeacceptanceunproven.",
+      "native_acceptance": false,
+      "packet": {
+        "packet": "AA044",
+        "ability_id": 878,
+        "name": "Bow Mastery",
+        "ordinal": 9,
+        "cost": 6,
+        "level": 89,
+        "expansion": 17,
+        "ability": {
+          "id": 878,
+          "name": "Bow Mastery",
+          "category": -1,
+          "classes": 8,
+          "races": 65535,
+          "drakkin_heritage": 127,
+          "deities": 131071,
+          "status": 0,
+          "type": 3,
+          "charges": 0,
+          "grant_only": 0,
+          "first_rank_id": 1196,
+          "enabled": 1,
+          "reset_on_death": 0,
+          "auto_grant_enabled": 1
+        },
+        "predecessor": {
+          "id": 10745,
+          "upper_hotkey_sid": -1,
+          "lower_hotkey_sid": -1,
+          "title_sid": 1196,
+          "desc_sid": 1196,
+          "cost": 5,
+          "level_req": 88,
+          "spell": -1,
+          "spell_type": 0,
+          "recast_time": 0,
+          "expansion": 17,
+          "prev_id": 10744,
+          "next_id": 10746
+        },
+        "target": 10746,
+        "pre_effects": [
+          {
+            "rank_id": 10745,
+            "slot": 1,
+            "effect_id": 220,
+            "base1": 205,
+            "base2": 7
+          }
+        ],
+        "pre_prereqs": [],
+        "new_effects": [
+          {
+            "rank_id": 10746,
+            "slot": 1,
+            "effect_id": 220,
+            "base1": 240,
+            "base2": 7
+          }
+        ],
+        "period_source": {
+          "url": "https://everquest.allakhazam.com/wiki/EQ:Bow_Mastery?oldid=448480",
+          "revision": "2012-11-08 16:00:34",
+          "method": "ActualChrome rendered datedtable/description"
+        },
+        "encoding": "SPA220skill7Archerycumulative240 =nativeprior205+periodlater35increment. Frozenranks6..8=135/170/205matchincrement35; fullcost/levelprefix1..8matchesperiod.",
+        "qualification": "Periodrank9cost6retainedliterally,notsmoothedtoadjacent5. Cumulative240calculatedfromperiodincrement+nativeprefix,notoriginalAAexport.",
+        "limits": "Onlyknownimmediateprefix; laternativeIDsunestablished. No existingability/spell/playerwrites; nativeacceptanceunproven.",
+        "sql": "utils/sql/aa/2026_11_05_bow_mastery_rank9.sql",
+        "rollback": "utils/sql/aa/rollback/2026_11_05_bow_mastery_rank9.sql",
+        "sql_sha256": "8f525e7365c51a0ec1acfa70fc25f6f98af3251eec79bb9918fa821d15dc2b4f",
+        "rollback_sha256": "bde12dd0994cffefb89ff08af6a327b3d19d4238285116b14e4fa98546ea62f6"
+      },
+      "independent_full_postimages_verified": true,
+      "connections_closed": true
+    },
+    "AA045": {
+      "status": "APPLIED_VERIFIED_INDEPENDENT_FULL_POSTIMAGES",
+      "source_commit": "3ff78932cf92122df29adba783b4a3044d692dc4",
+      "forward_sha256": "3bb71f23d22b657b6668878c0e6593e17405e48bd5b246fdd5e99692a796fd93",
+      "SQL_invocations": 1,
+      "ranks_added": 1,
+      "effects_added": 1,
+      "prereqs_added": 0,
+      "existing_rows_updated": 0,
+      "player_ownership_points_charges_writes": 0,
+      "runtime_cache_actions": 0,
+      "qualified_encoding": "SPA264 is cumulative seconds for ability873: 3*10%*900=270. Existing rank2=180 and target ability873 root6755 timer42/recast900 corroborate. Static zone/aa.cpp cooldown reducer uses base_value seconds; do not encode30.  Known immediate native prefix only. Preserve inherited prerequisites and native spell encoding. No SQL application, core/player writes or native reuse acceptance. Nativepassivespell0/prereqs unchanged;finite next=-1/not historicalterminal;Headshotheld/nativeacceptanceunproven.",
+      "native_acceptance": false,
+      "packet": {
+        "packet": "AA045",
+        "ability_id": 921,
+        "name": "Hastened Group Guardian of the Forest",
+        "ordinal": 3,
+        "cost": 15,
+        "level": 90,
+        "expansion": 17,
+        "ability": {
+          "id": 921,
+          "name": "Hastened Group Guardian of the Forest",
+          "category": -1,
+          "classes": 8,
+          "races": 65535,
+          "drakkin_heritage": 127,
+          "deities": 131071,
+          "status": 0,
+          "type": 3,
+          "charges": 0,
+          "grant_only": 0,
+          "first_rank_id": 10714,
+          "enabled": 1,
+          "reset_on_death": 0,
+          "auto_grant_enabled": 1
+        },
+        "predecessor": {
+          "id": 10715,
+          "upper_hotkey_sid": -1,
+          "lower_hotkey_sid": -1,
+          "title_sid": 10714,
+          "desc_sid": 10714,
+          "cost": 12,
+          "level_req": 88,
+          "spell": 0,
+          "spell_type": 0,
+          "recast_time": 0,
+          "expansion": 17,
+          "prev_id": 10714,
+          "next_id": 10716
+        },
+        "target": 10716,
+        "pre_effects": [
+          {
+            "rank_id": 10715,
+            "slot": 1,
+            "effect_id": 264,
+            "base1": 180,
+            "base2": 873
+          }
+        ],
+        "pre_prereqs": [
+          {
+            "rank_id": 10715,
+            "aa_id": 873,
+            "points": 1
+          }
+        ],
+        "new_effects": [
+          {
+            "rank_id": 10716,
+            "slot": 1,
+            "effect_id": 264,
+            "base1": 270,
+            "base2": 873
+          }
+        ],
+        "period_source": {
+          "url": "https://everquest.allakhazam.com/wiki/EQ:Hastened_Group_Guardian_of_the_Forest?oldid=448497",
+          "revision": "2012-11-08 16:41:58",
+          "method": "ActualChrome rendered dated table and description"
+        },
+        "encoding": "SPA264 is cumulative seconds for ability873: 3*10%*900=270. Existing rank2=180 and target ability873 root6755 timer42/recast900 corroborate. Static zone/aa.cpp cooldown reducer uses base_value seconds; do not encode30.",
+        "limits": "Known immediate native prefix only. Preserve inherited prerequisites and native spell encoding. No SQL application, core/player writes or native reuse acceptance.",
+        "sql": "utils/sql/aa/2026_11_05_hastened_group_guardian_forest_rank3.sql",
+        "rollback": "utils/sql/aa/rollback/2026_11_05_hastened_group_guardian_forest_rank3.sql",
+        "sql_sha256": "3bb71f23d22b657b6668878c0e6593e17405e48bd5b246fdd5e99692a796fd93",
+        "rollback_sha256": "670c8516e5cd952d908fc8a63ce622dd181ec84f7e759a17c2b0d1235ab1ad19"
+      },
+      "independent_full_postimages_verified": true,
+      "connections_closed": true
+    },
+    "AA046": {
+      "status": "APPLIED_VERIFIED_INDEPENDENT_FULL_POSTIMAGES",
+      "source_commit": "3ff78932cf92122df29adba783b4a3044d692dc4",
+      "forward_sha256": "02a6dce48fee376da9fe3318956a4b3d489c5dcc8311a93cddfd27e217f5ecc5",
+      "SQL_invocations": 1,
+      "ranks_added": 1,
+      "effects_added": 1,
+      "prereqs_added": 0,
+      "existing_rows_updated": 0,
+      "player_ownership_points_charges_writes": 0,
+      "runtime_cache_actions": 0,
+      "qualified_encoding": "SPA264 cumulative30seconds for ability870, explicit10seconds/rank; native rank2=20. Preserve native spell0.  Known immediate native prefix only. Preserve inherited prerequisites and native spell encoding. No SQL application, core/player writes or native reuse acceptance. Nativepassivespell0/prereqs unchanged;finite next=-1/not historicalterminal;Headshotheld/nativeacceptanceunproven.",
+      "native_acceptance": false,
+      "packet": {
+        "packet": "AA046",
+        "ability_id": 925,
+        "name": "Hastened Harmonious Arrow",
+        "ordinal": 3,
+        "cost": 12,
+        "level": 90,
+        "expansion": 17,
+        "ability": {
+          "id": 925,
+          "name": "Hastened Harmonious Arrow",
+          "category": -1,
+          "classes": 8,
+          "races": 65535,
+          "drakkin_heritage": 127,
+          "deities": 131071,
+          "status": 0,
+          "type": 3,
+          "charges": 0,
+          "grant_only": 0,
+          "first_rank_id": 10730,
+          "enabled": 1,
+          "reset_on_death": 0,
+          "auto_grant_enabled": 1
+        },
+        "predecessor": {
+          "id": 10731,
+          "upper_hotkey_sid": -1,
+          "lower_hotkey_sid": -1,
+          "title_sid": 10730,
+          "desc_sid": 10730,
+          "cost": 9,
+          "level_req": 88,
+          "spell": 0,
+          "spell_type": 0,
+          "recast_time": 0,
+          "expansion": 17,
+          "prev_id": 10730,
+          "next_id": 10732
+        },
+        "target": 10732,
+        "pre_effects": [
+          {
+            "rank_id": 10731,
+            "slot": 1,
+            "effect_id": 264,
+            "base1": 20,
+            "base2": 870
+          }
+        ],
+        "pre_prereqs": [
+          {
+            "rank_id": 10731,
+            "aa_id": 870,
+            "points": 1
+          }
+        ],
+        "new_effects": [
+          {
+            "rank_id": 10732,
+            "slot": 1,
+            "effect_id": 264,
+            "base1": 30,
+            "base2": 870
+          }
+        ],
+        "period_source": {
+          "url": "https://everquest.allakhazam.com/wiki/EQ:Hastened_Harmonious_Arrow?oldid=448499",
+          "revision": "2012-11-08 16:43:43",
+          "method": "ActualChrome rendered dated table and description"
+        },
+        "encoding": "SPA264 cumulative30seconds for ability870, explicit10seconds/rank; native rank2=20. Preserve native spell0.",
+        "limits": "Known immediate native prefix only. Preserve inherited prerequisites and native spell encoding. No SQL application, core/player writes or native reuse acceptance.",
+        "sql": "utils/sql/aa/2026_11_05_hastened_harmonious_arrow_rank3.sql",
+        "rollback": "utils/sql/aa/rollback/2026_11_05_hastened_harmonious_arrow_rank3.sql",
+        "sql_sha256": "02a6dce48fee376da9fe3318956a4b3d489c5dcc8311a93cddfd27e217f5ecc5",
+        "rollback_sha256": "d32b61c6400d52c26da8e7bf6bdec98449684e5c013e9f62e6bc2e1ff58bcb1b"
+      },
+      "independent_full_postimages_verified": true,
+      "connections_closed": true
+    },
+    "AA047": {
+      "status": "APPLIED_VERIFIED_INDEPENDENT_FULL_POSTIMAGES",
+      "source_commit": "3ff78932cf92122df29adba783b4a3044d692dc4",
+      "forward_sha256": "081afc231d19a17cab607b5936e7e85a09f998635ee4014e56630a9c77a832a3",
+      "SQL_invocations": 1,
+      "ranks_added": 1,
+      "effects_added": 1,
+      "prereqs_added": 0,
+      "existing_rows_updated": 0,
+      "player_ownership_points_charges_writes": 0,
+      "runtime_cache_actions": 0,
+      "qualified_encoding": "SPA264 cumulative300seconds for ability2234, explicit60seconds/rank; native rank4=240. Retain Alaran1 and CoverTracks1 prerequisites.  Known immediate native prefix only. Preserve inherited prerequisites and native spell encoding. No SQL application, core/player writes or native reuse acceptance. Nativepassivespell-1/prereqs unchanged;finite next=-1/not historicalterminal;Headshotheld/nativeacceptanceunproven.",
+      "native_acceptance": false,
+      "packet": {
+        "packet": "AA047",
+        "ability_id": 7751,
+        "name": "Hastened Cover Tracks",
+        "ordinal": 5,
+        "cost": 9,
+        "level": 93,
+        "expansion": 18,
+        "ability": {
+          "id": 7751,
+          "name": "Hastened Cover Tracks",
+          "category": -1,
+          "classes": 8,
+          "races": 65535,
+          "drakkin_heritage": 127,
+          "deities": 131071,
+          "status": 0,
+          "type": 3,
+          "charges": 0,
+          "grant_only": 0,
+          "first_rank_id": 7751,
+          "enabled": 1,
+          "reset_on_death": 0,
+          "auto_grant_enabled": 1
+        },
+        "predecessor": {
+          "id": 14132,
+          "upper_hotkey_sid": -1,
+          "lower_hotkey_sid": -1,
+          "title_sid": 7751,
+          "desc_sid": 7751,
+          "cost": 7,
+          "level_req": 91,
+          "spell": -1,
+          "spell_type": 0,
+          "recast_time": 0,
+          "expansion": 18,
+          "prev_id": 7753,
+          "next_id": 14133
+        },
+        "target": 14133,
+        "pre_effects": [
+          {
+            "rank_id": 14132,
+            "slot": 1,
+            "effect_id": 264,
+            "base1": 240,
+            "base2": 2234
+          }
+        ],
+        "pre_prereqs": [
+          {
+            "rank_id": 14132,
+            "aa_id": 1685,
+            "points": 1
+          },
+          {
+            "rank_id": 14132,
+            "aa_id": 2234,
+            "points": 1
+          }
+        ],
+        "new_effects": [
+          {
+            "rank_id": 14133,
+            "slot": 1,
+            "effect_id": 264,
+            "base1": 300,
+            "base2": 2234
+          }
+        ],
+        "period_source": {
+          "url": "https://everquest.allakhazam.com/wiki/EQ:Hastened_Cover_Tracks?oldid=448494",
+          "revision": "2012-11-08 16:33:10",
+          "method": "ActualChrome rendered dated table and description"
+        },
+        "encoding": "SPA264 cumulative300seconds for ability2234, explicit60seconds/rank; native rank4=240. Retain Alaran1 and CoverTracks1 prerequisites.",
+        "limits": "Known immediate native prefix only. Preserve inherited prerequisites and native spell encoding. No SQL application, core/player writes or native reuse acceptance.",
+        "sql": "utils/sql/aa/2026_11_05_hastened_cover_tracks_rank5.sql",
+        "rollback": "utils/sql/aa/rollback/2026_11_05_hastened_cover_tracks_rank5.sql",
+        "sql_sha256": "081afc231d19a17cab607b5936e7e85a09f998635ee4014e56630a9c77a832a3",
+        "rollback_sha256": "b196b2dc23d4e712001675214c12b4a3af237f73c4cba4c4d6cad43a4d7be1f2"
+      },
+      "independent_full_postimages_verified": true,
+      "connections_closed": true
+    }
+  },
+  "material_qualifications": [
+    "HunterATK35 SPA2cumulative140/freelevel89 retainsauto_grant_enabled1;data-onlyrankaddition doesnot implement/prove historicalautomaticdelivery.",
+    "BowMastery9 cost6 literal;SPA220Archery7 cumulative240 reconstructed from period35increment+native205prefix,not originalAAexport.",
+    "GroupGuardianhaste3 SPA264270seconds=3*10%*900,not30;native target873/root6755 and6755/13542timer42/recast900 checkedbySQL,fullcurrentdependency backup/independentunchanged.",
+    "HarmoniousArrow3 SPA26430seconds/ability870;CoverTracks5 cumulative300seconds/ability2234. Preserve native spell0AA045/046 versus-1others.",
+    "Headshot ordinalmismatch remainsheld;knownnativeprefixes only,finite next=-1/not historicalterminal,later IDs held;nativegrant/reuse/gameplayunproven."
+  ],
+  "native_acceptance": false,
+  "scope_complete": false,
+  "source_documents": "Eleven exact published source files retained; preparation labels historical. Aggregate curated actual establishes later authorized closed applications.",
+  "rollback": "Each exactpublishedinverse retained/unexecuted;separateGO/originalpostimages+ownershiprefusal required;no replay/inverse/playeredits.",
+  "prior_locally_confirmed_published_normal_SQL_source_paths": 836,
+  "earlier_pending_normal_SQL_source_paths": 0,
+  "new_normal_SQL_source_paths": 10,
+  "normal_SQL_source_paths_after_all_pending_publications": 846,
+  "SQL_path_count_meaning": "Sourcepaths,not applicationcount.",
+  "history_archives_preserved": true,
+  "QA39999_production_exclusion_retained": true
+}
