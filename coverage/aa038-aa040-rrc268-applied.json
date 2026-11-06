@@ -1,0 +1,513 @@
+{
+  "format_version": 1,
+  "features": [
+    "AA038",
+    "AA039",
+    "AA040",
+    "RRC268"
+  ],
+  "application_status": "ALL_APPLIED_VERIFIED_CLOSED",
+  "AA_actuals": {
+    "AA038": {
+      "status": "APPLIED_VERIFIED_INDEPENDENT_FULL_POSTIMAGES",
+      "source_commit": "55c725d298a016c6b4c969b083311b2368574e2a",
+      "forward_sha256": "8235f28c01b1d6be029974cb29dac6b9350a1234699361a9c5d26e0f664ea674",
+      "SQL_invocations": 1,
+      "ranks_added": 1,
+      "effects_added": 9,
+      "prereqs_added": 0,
+      "existing_rows_updated": 0,
+      "player_ownership_points_charges_writes": 0,
+      "runtime_cache_actions": 0,
+      "qualified_encoding": "SPA399FcTwincast readsbasevalue; firstfour native12 matches3%perrank; fifth15. Retainall8nativefocuslimitrows, shiftedclassfilter100350 and originalabilitymask50175. Periodclassheader differs from nativeeligibility; no mask/filterrepair or claimofcompletehistoricalclassparity. Oneknownnativeprefixonly; higherIDsunknown. ExistingAlaran1inherited. Native predecessor fields/passive-1/prereqs inherited unchanged;zero newprereqs. Finite next=-1/not historicalterminal;nativegameplay unaccepted.",
+      "native_acceptance": false,
+      "packet": {
+        "packet": "AA038",
+        "ability_id": 1664,
+        "name": "Twinproc",
+        "ordinal": 5,
+        "cost": 18,
+        "level": 95,
+        "expansion": 18,
+        "ability": {
+          "id": 1664,
+          "name": "Twinproc",
+          "category": -1,
+          "classes": 50175,
+          "races": 65535,
+          "drakkin_heritage": 127,
+          "deities": 131071,
+          "status": 0,
+          "type": 3,
+          "charges": 0,
+          "grant_only": 0,
+          "first_rank_id": 12416,
+          "enabled": 1,
+          "reset_on_death": 0,
+          "auto_grant_enabled": 1
+        },
+        "predecessor": {
+          "id": 13413,
+          "upper_hotkey_sid": -1,
+          "lower_hotkey_sid": -1,
+          "title_sid": 12416,
+          "desc_sid": 12416,
+          "cost": 15,
+          "level_req": 91,
+          "spell": -1,
+          "spell_type": 0,
+          "recast_time": 0,
+          "expansion": 18,
+          "prev_id": 12418,
+          "next_id": 13414
+        },
+        "target": 13414,
+        "pre_effects": [
+          {
+            "rank_id": 13413,
+            "slot": 1,
+            "effect_id": 399,
+            "base1": 12,
+            "base2": 0
+          },
+          {
+            "rank_id": 13413,
+            "slot": 2,
+            "effect_id": 141,
+            "base1": 1,
+            "base2": 0
+          },
+          {
+            "rank_id": 13413,
+            "slot": 3,
+            "effect_id": 138,
+            "base1": 0,
+            "base2": 0
+          },
+          {
+            "rank_id": 13413,
+            "slot": 4,
+            "effect_id": 142,
+            "base1": 255,
+            "base2": 0
+          },
+          {
+            "rank_id": 13413,
+            "slot": 5,
+            "effect_id": 391,
+            "base1": 0,
+            "base2": 0
+          },
+          {
+            "rank_id": 13413,
+            "slot": 6,
+            "effect_id": 311,
+            "base1": 0,
+            "base2": 0
+          },
+          {
+            "rank_id": 13413,
+            "slot": 7,
+            "effect_id": 137,
+            "base1": -152,
+            "base2": 0
+          },
+          {
+            "rank_id": 13413,
+            "slot": 8,
+            "effect_id": 411,
+            "base1": 100350,
+            "base2": 0
+          },
+          {
+            "rank_id": 13413,
+            "slot": 9,
+            "effect_id": 137,
+            "base1": -39,
+            "base2": 0
+          }
+        ],
+        "pre_prereqs": [
+          {
+            "rank_id": 13413,
+            "aa_id": 1685,
+            "points": 1
+          }
+        ],
+        "new_effects": [
+          {
+            "rank_id": 13414,
+            "slot": 1,
+            "effect_id": 399,
+            "base1": 15,
+            "base2": 0
+          },
+          {
+            "rank_id": 13414,
+            "slot": 2,
+            "effect_id": 141,
+            "base1": 1,
+            "base2": 0
+          },
+          {
+            "rank_id": 13414,
+            "slot": 3,
+            "effect_id": 138,
+            "base1": 0,
+            "base2": 0
+          },
+          {
+            "rank_id": 13414,
+            "slot": 4,
+            "effect_id": 142,
+            "base1": 255,
+            "base2": 0
+          },
+          {
+            "rank_id": 13414,
+            "slot": 5,
+            "effect_id": 391,
+            "base1": 0,
+            "base2": 0
+          },
+          {
+            "rank_id": 13414,
+            "slot": 6,
+            "effect_id": 311,
+            "base1": 0,
+            "base2": 0
+          },
+          {
+            "rank_id": 13414,
+            "slot": 7,
+            "effect_id": 137,
+            "base1": -152,
+            "base2": 0
+          },
+          {
+            "rank_id": 13414,
+            "slot": 8,
+            "effect_id": 411,
+            "base1": 100350,
+            "base2": 0
+          },
+          {
+            "rank_id": 13414,
+            "slot": 9,
+            "effect_id": 137,
+            "base1": -39,
+            "base2": 0
+          }
+        ],
+        "period_source": {
+          "url": "https://everquest.allakhazam.com/wiki/EQ:Twinproc?oldid=448517",
+          "revision": "2012-11-08 17:21:08",
+          "method": "Actual Chrome rendered dated page/table/description"
+        },
+        "encoding": "SPA399FcTwincast readsbasevalue; firstfour native12 matches3%perrank; fifth15. Retainall8nativefocuslimitrows, shiftedclassfilter100350 and originalabilitymask50175.",
+        "limits": "Periodclassheader differs from nativeeligibility; no mask/filterrepair or claimofcompletehistoricalclassparity. Oneknownnativeprefixonly; higherIDsunknown. ExistingAlaran1inherited.",
+        "sql": "utils/sql/aa/2026_11_05_twinproc_rank5.sql",
+        "rollback": "utils/sql/aa/rollback/2026_11_05_twinproc_rank5.sql",
+        "sql_sha256": "8235f28c01b1d6be029974cb29dac6b9350a1234699361a9c5d26e0f664ea674",
+        "rollback_sha256": "09e43ed521cff62daec0c12ec8ecfaea591ea39cebee6d2fcab0c6ab3a41e47e"
+      },
+      "independent_full_postimages_verified": true,
+      "connections_closed": true
+    },
+    "AA039": {
+      "status": "APPLIED_VERIFIED_INDEPENDENT_FULL_POSTIMAGES",
+      "source_commit": "55c725d298a016c6b4c969b083311b2368574e2a",
+      "forward_sha256": "1ea40adf96bb2921812b8b2300f7611b2daeccd65bb26f537295705725e0d55f",
+      "SQL_invocations": 1,
+      "ranks_added": 1,
+      "effects_added": 2,
+      "prereqs_added": 0,
+      "existing_rows_updated": 0,
+      "player_ownership_points_charges_writes": 0,
+      "runtime_cache_actions": 0,
+      "qualified_encoding": "SPA127casttimepercent10perrank ->20; retainSPA385spellgroupfilter. Not reuse-timerreduction. Onlyknownrank2nativeprefix. Rank3cost/level/eraunknown,laternativeIDunknown. No spell/playerwrites, nativecasttimeacceptanceunproven. Native predecessor fields/passive-1/prereqs inherited unchanged;zero newprereqs. Finite next=-1/not historicalterminal;nativegameplay unaccepted.",
+      "native_acceptance": false,
+      "packet": {
+        "packet": "AA039",
+        "ability_id": 297,
+        "name": "Quickened Frenzied Burnout",
+        "ordinal": 2,
+        "cost": 11,
+        "level": 93,
+        "expansion": 18,
+        "ability": {
+          "id": 297,
+          "name": "Quickened Frenzied Burnout",
+          "category": -1,
+          "classes": 4096,
+          "races": 65535,
+          "drakkin_heritage": 127,
+          "deities": 131071,
+          "status": 0,
+          "type": 3,
+          "charges": 0,
+          "grant_only": 0,
+          "first_rank_id": 14289,
+          "enabled": 1,
+          "reset_on_death": 0,
+          "auto_grant_enabled": 1
+        },
+        "predecessor": {
+          "id": 14289,
+          "upper_hotkey_sid": -1,
+          "lower_hotkey_sid": -1,
+          "title_sid": 14289,
+          "desc_sid": 14289,
+          "cost": 9,
+          "level_req": 91,
+          "spell": -1,
+          "spell_type": 0,
+          "recast_time": 0,
+          "expansion": 18,
+          "prev_id": -1,
+          "next_id": 14290
+        },
+        "target": 14290,
+        "pre_effects": [
+          {
+            "rank_id": 14289,
+            "slot": 1,
+            "effect_id": 127,
+            "base1": 10,
+            "base2": 0
+          },
+          {
+            "rank_id": 14289,
+            "slot": 2,
+            "effect_id": 385,
+            "base1": 2754,
+            "base2": 0
+          }
+        ],
+        "pre_prereqs": [
+          {
+            "rank_id": 14289,
+            "aa_id": 1685,
+            "points": 1
+          }
+        ],
+        "new_effects": [
+          {
+            "rank_id": 14290,
+            "slot": 1,
+            "effect_id": 127,
+            "base1": 20,
+            "base2": 0
+          },
+          {
+            "rank_id": 14290,
+            "slot": 2,
+            "effect_id": 385,
+            "base1": 2754,
+            "base2": 0
+          }
+        ],
+        "focus_family": 2754,
+        "period_source": {
+          "url": "https://everquest.allakhazam.com/wiki/EQ:Quickened_Frenzied_Burnout?oldid=454880",
+          "revision": "2013-01-06 07:24:08",
+          "method": "Actual Chrome rendered dated page/table/description"
+        },
+        "encoding": "SPA127casttimepercent10perrank ->20; retainSPA385spellgroupfilter. Not reuse-timerreduction.",
+        "limits": "Onlyknownrank2nativeprefix. Rank3cost/level/eraunknown,laternativeIDunknown. No spell/playerwrites, nativecasttimeacceptanceunproven.",
+        "sql": "utils/sql/aa/2026_11_05_quickened_frenzied_burnout_rank2.sql",
+        "rollback": "utils/sql/aa/rollback/2026_11_05_quickened_frenzied_burnout_rank2.sql",
+        "sql_sha256": "1ea40adf96bb2921812b8b2300f7611b2daeccd65bb26f537295705725e0d55f",
+        "rollback_sha256": "14cab26a864c552cb2b4cb8a88b14fb62d5d0db669b302f935e91c0df9a87366"
+      },
+      "independent_full_postimages_verified": true,
+      "connections_closed": true
+    },
+    "AA040": {
+      "status": "APPLIED_VERIFIED_INDEPENDENT_FULL_POSTIMAGES",
+      "source_commit": "55c725d298a016c6b4c969b083311b2368574e2a",
+      "forward_sha256": "a512944c169ba7adf6846cf9a2bdae014cf3ad3f5c3a7760b284a749b302b879",
+      "SQL_invocations": 1,
+      "ranks_added": 1,
+      "effects_added": 2,
+      "prereqs_added": 0,
+      "existing_rows_updated": 0,
+      "player_ownership_points_charges_writes": 0,
+      "runtime_cache_actions": 0,
+      "qualified_encoding": "SPA127casttimepercent10perrank ->20; retainSPA385spellgroupfilter. Not reuse-timerreduction. Onlyknownrank2nativeprefix. Rank3cost/level/eraunknown,laternativeIDunknown. No spell/playerwrites, nativecasttimeacceptanceunproven. Native predecessor fields/passive-1/prereqs inherited unchanged;zero newprereqs. Finite next=-1/not historicalterminal;nativegameplay unaccepted.",
+      "native_acceptance": false,
+      "packet": {
+        "packet": "AA040",
+        "ability_id": 312,
+        "name": "Quickened Host of the Elements",
+        "ordinal": 2,
+        "cost": 11,
+        "level": 93,
+        "expansion": 18,
+        "ability": {
+          "id": 312,
+          "name": "Quickened Host of the Elements",
+          "category": -1,
+          "classes": 4096,
+          "races": 65535,
+          "drakkin_heritage": 127,
+          "deities": 131071,
+          "status": 0,
+          "type": 3,
+          "charges": 0,
+          "grant_only": 0,
+          "first_rank_id": 14292,
+          "enabled": 1,
+          "reset_on_death": 0,
+          "auto_grant_enabled": 1
+        },
+        "predecessor": {
+          "id": 14292,
+          "upper_hotkey_sid": -1,
+          "lower_hotkey_sid": -1,
+          "title_sid": 14292,
+          "desc_sid": 14292,
+          "cost": 9,
+          "level_req": 91,
+          "spell": -1,
+          "spell_type": 0,
+          "recast_time": 0,
+          "expansion": 18,
+          "prev_id": -1,
+          "next_id": 14293
+        },
+        "target": 14293,
+        "pre_effects": [
+          {
+            "rank_id": 14292,
+            "slot": 1,
+            "effect_id": 127,
+            "base1": 10,
+            "base2": 0
+          },
+          {
+            "rank_id": 14292,
+            "slot": 2,
+            "effect_id": 385,
+            "base1": 3286,
+            "base2": 0
+          }
+        ],
+        "pre_prereqs": [
+          {
+            "rank_id": 14292,
+            "aa_id": 207,
+            "points": 1
+          },
+          {
+            "rank_id": 14292,
+            "aa_id": 1685,
+            "points": 1
+          }
+        ],
+        "new_effects": [
+          {
+            "rank_id": 14293,
+            "slot": 1,
+            "effect_id": 127,
+            "base1": 20,
+            "base2": 0
+          },
+          {
+            "rank_id": 14293,
+            "slot": 2,
+            "effect_id": 385,
+            "base1": 3286,
+            "base2": 0
+          }
+        ],
+        "focus_family": 3286,
+        "period_source": {
+          "url": "https://everquest.allakhazam.com/wiki/EQ:Quickened_Host_of_the_Elements?oldid=454881",
+          "revision": "2013-01-06 07:25:43",
+          "method": "Actual Chrome rendered dated page/table/description"
+        },
+        "encoding": "SPA127casttimepercent10perrank ->20; retainSPA385spellgroupfilter. Not reuse-timerreduction.",
+        "limits": "Onlyknownrank2nativeprefix. Rank3cost/level/eraunknown,laternativeIDunknown. No spell/playerwrites, nativecasttimeacceptanceunproven.",
+        "sql": "utils/sql/aa/2026_11_05_quickened_host_of_the_elements_rank2.sql",
+        "rollback": "utils/sql/aa/rollback/2026_11_05_quickened_host_of_the_elements_rank2.sql",
+        "sql_sha256": "a512944c169ba7adf6846cf9a2bdae014cf3ad3f5c3a7760b284a749b302b879",
+        "rollback_sha256": "e81bfc5aeeeee61ab8e5f676803c2a26b54862eb1cfb96c3b3e300783d9fa637"
+      },
+      "independent_full_postimages_verified": true,
+      "connections_closed": true
+    }
+  },
+  "AA_delta": {
+    "ranks": 3,
+    "effects": 13,
+    "prereqs": 0,
+    "existing_player_writes": 0
+  },
+  "AA_material_qualifications": [
+    "Twinproc nativeclassmask50175 and shiftedfilter100350 retained despite datedclassheader discrepancy;SPA399cumulative15/3percentagepointsperrank,8nativefocuslimitrows unchanged;nohistoricalclassparityclaim.",
+    "AA039/040 SPA127cumulative20 is casttime reduction,notreuse;SPA385families2754/3286 and existinggates inherited unchanged.",
+    "Each knownnativeprefix only;finite next=-1/not historicalterminal;laterIDs held/nativeproc-casttime-petacceptance unclaimed."
+  ],
+  "RRC268": {
+    "status": "APPLIED_VERIFIED",
+    "SQL_invocations": 1,
+    "published_commit": "93c7dde34c2d4c25827db16f66c43edba6549524",
+    "source_sha256": "3547ae265fd7a3804b206a928b12ac0f406b7885773c804f49e77d8cfd448163",
+    "recipes_added": 587,
+    "entries_added": 3974,
+    "existing_recipe_definitions_updated": 152,
+    "existing_entry_rows_updated": 0,
+    "exact_postimages": true,
+    "learned_references_unchanged": true,
+    "after_counts": {
+      "recipes": 31665,
+      "entries": 241819
+    },
+    "historical_qualification": {
+      "scope": "747 retained Mental/Physical cultural Pottery bodies:739 source-qualified,8 conflicting source bodies held.587 absent bodies proposed;152 exact disabled bodies enabled in place, with7 explicit CAN optional-gate corrections.",
+      "learning": "New83 explicit source MUST Glorious routes use113366;29 explicit CAN routes ordinary0;392 MAY and80 generic Scribe-to-Learn routes propose conservative native family must1/book POLICY, mandatory status unconfirmed.2 Elegant source-omitted learning routes likewise propose conservative native family must1/book POLICY, separately labelled.1 Elegant Physical Invention explicitly must be created to be learned uses ordinary experiment0/book0. Existing38 Elaborate native0 preserved despite generic Scribe-to-Learn;95 existing MAY native1 preserved;12 native0 preserved, including1 Simple source omission.7 Simple explicit CAN routes correct native must1/book36694 to ordinary0/book0. No sibling learning-wording inheritance.",
+      "era": "Maintained expansion and cultural tier context, native authored family books and current literal formulas; new floors9/14/16/17/18/19 labelled reconstruction, not immutable per-field May2013 proof. Existing min/max metadata preserved; no era inferred from levels/IDs.",
+      "quantity": "Exact literal input quantities and success/failure roles/yield1, physical units<=10; all output MaxCharges0. No invented returns or charged body. Extravagant Physical Corruption has two identical primary listings; semantic duplicate collapsed only after exact identical current formula/fields/roles, no arbitrary output selection.",
+      "container": "New ordinary world Kiln22 explicitly listed per literal body. No racial manufacturing gate inferred from ore or charm use masks. Named/Tanaan/placeable/guild alternatives remain unqualified; existing152 physical entry IDs and station metadata preserved without new availability endorsement.",
+      "identity": "All selected item IDs bound by explicit primary EQ item IDs or hash-checked explicit-ID index;539 full18 native definitions guarded.345 primary profiles captured in four bounded parts, nested ingredient recipe lists excluded from top-level manufacture. Initial734 native review reused intact;5 newly resolved source bodies received only their necessary supplemental native comparison.",
+      "held": "8 bodies across4 full-input conflicting-output pairs retained on hold: Extravagant Spiritual Conviction versus Corruption (two inputs), Stalwart Physical Ferocity versus Force, Stalwart Physical Purpose versus Refinement. Both sides held; literal current profiles still conflict, no winner chosen. Other distinct verified input routes for those outputs are independent.",
+      "preservation": "Existing152 headers change enabled only except7 explicit CAN gate corrections; all existing physical entry IDs, item definitions, book texts and learned references preserved. Full native pre/post/peers, all-state/all-skill full input universe, positive output-use universe, native fields/book hashes, multiplicity/counts guarded. Rollback explicit/refuses learned references/never automatic.",
+      "execution": "Source proposal pending coordinator reconstruction and explicit ambiguous/omitted book dispositions, GitHub publication and exact one-use SQLGO. No actor/core/build/rehearsal/runtime/native gameplay or player writes."
+    },
+    "batch": "RRC268",
+    "transaction_state_after": 0,
+    "connections_closed": true,
+    "native_item_dependencies_guarded": 539,
+    "existing_update_scope": "152enabledheaders with7explicitCAN gate removals;existing physicalentries/stations/otherfields unchanged.",
+    "learning_boundary": "83newexplicitMUST113366/29CANordinary0;392MAY+80generic+2omitted must1book are conservativefamilyPOLICY,not sourceMUST;1explicitexperiment routeordinary0/book0. Existingnativelearning distinctions retained.",
+    "native_gameplay_acceptance": false,
+    "actor_or_core_change": false,
+    "source_documents": "Four exact published sources retained; preparation labels historical. Curatedactual records later authorized closed application;learningambiguity/conflicts remain qualified."
+  },
+  "global_recipe_counts": {
+    "recipes": 31665,
+    "entries": 241819
+  },
+  "TS_cumulative_added_current": {
+    "recipes": 8841,
+    "entries": 64194
+  },
+  "cumulative_basis": "Prior8254/60220 after267 plus587/3974;152existing enable/gate repairs not new recipes.",
+  "new_recipe_batches": 214,
+  "conflict_holds": "Eight bodies/four conflicting-input output pairs retained:ExtravagantSpiritualConviction/Corruption(twoinputs),StalwartPhysicalFerocity/Force,Purpose/Refinement. Both sides held,no winner;distinct verified routes independent.",
+  "prior_holds_preserved": true,
+  "native_gameplay_acceptance": false,
+  "all_scope_complete": false,
+  "separate_Xorbb_recipe_excluded": {
+    "recipes": 1,
+    "entries": 6
+  },
+  "prior_locally_confirmed_published_normal_SQL_source_paths": 824,
+  "earlier_pending_normal_SQL_source_paths": 0,
+  "new_normal_SQL_source_paths": 8,
+  "normal_SQL_source_paths_after_all_pending_publications": 832,
+  "history_archives_preserved": true,
+  "QA39999_production_exclusion_retained": true,
+  "assembly": "Onecombined normalcapture;no additionalSQL/query/replay/tests/build/runtime/cache."
+}
