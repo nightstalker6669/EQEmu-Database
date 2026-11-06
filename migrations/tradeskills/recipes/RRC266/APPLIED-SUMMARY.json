@@ -1,0 +1,50 @@
+{
+  "status": "APPLIED_VERIFIED",
+  "SQL_invocations": 1,
+  "published_commit": "32e7b929323962af574b81e232f83c8252f215c0",
+  "source_sha256": "f2f86be75ecdc7e51b81002215b4c16a17bf0a2370285d36fd9f845b7901570e",
+  "recipes_added": 9,
+  "entries_added": 81,
+  "existing_recipe_definitions_updated": 243,
+  "existing_entry_rows_updated": 0,
+  "exact_postimages": true,
+  "learned_references_unchanged": true,
+  "after_counts": {
+    "recipes": 30821,
+    "entries": 236130
+  },
+  "historical_qualification": {
+    "scope": "252seven-input Ornate/Simple Tailoring bodies:9absent templates/+81entries,243exact disabled bodies enabled in place.14Gnomish wrong63Smithing headers corrected61Tailoring;2187existingentryIDs and all physical bodies unchanged. Current literal IDs/roles/trivials/quantities verified.",
+    "distinct_routes": "9verified7inputtemplates use explicit(Cultural Template)suffix; preserve corresponding disabledfour-inputCompendiumroutes, no overwrite or era promotion.",
+    "actor": "Header-only252records merged into840Tailoringselector:1092total. Prior840Tailoring/1764Smithing/35Gnomish/manual/auto/actual profile-race/ownedkit/capacity-size checks unchanged.",
+    "books": "4OrnateFroglok rows explicitly CANscribe to learn WITHOUT EXPERIMENTING: correctmust1/book35664 to ordinary0/book0; retain explicit native/source minimum100.7SimpleWoodElf source says MAY NEED scribing, so preserve existing native must1/book35703 and label exact mandatory status source-uncertain; do not claim sourceMUST or loosen those existing gates. Preserve other existing metadata, including one nonrequiredCompendium135907association without source/era endorsement. New9use per-row source explicit min0or100 and ordinary0book0.",
+    "era": "Native existing9/99/importmetadata preserved. New9DoN-labelled floor9 reconstruction with2007family context; not exactimmutableMay2013fields or date inferred fromID/name/level. SourceMAY ambiguity is retained explicitly.",
+    "fields": "NewIDs3099249\u20133099257,unchargedMax0/yield1/sevenunits/needlecomponent-success-failure1. Actual source named kits10slots/LARGE3 support all exact inputs. Existing243headers update onlyenable,14skill and4explicitoptional learninggates;other fields unchanged.",
+    "held": "42four-inputArtisanMaterials/Compendiumsource variants held.9existingfour-inputbodies remain disabled.7existingWoodElf mandatory-gate certainty remains bounded by sourceMAY wording, native gate preserved. No item/book/player/quest/Fire/inventorywriter edits.",
+    "preservation": "Exact full native before/after peers,18item/kit fields and two existingbooktext hashes guarded.263/264/265actual receipts overlay peers withoutnewDBscan;learnedrefs preserved,newlogicalmultiplicity/counts enforced.",
+    "execution": "Sourceonly pending coordinator disposition/publication/compatibleactor/exactone-use SQLGO. No tests/rehearsal/build/runtime/nativeacceptance. Rollbackexplicit/refuseslearnedrefs/neverautomatic."
+  },
+  "batch": "RRC266",
+  "transaction_state_after": 0,
+  "connections_closed": true,
+  "actor_dependency": {
+    "status": "PASS_RRC266_ACTOR_COMPILED_INSTALLED_SERVER_READY",
+    "evidence_sha256": "295f22c192cf5b7b113734edb0109e4b07942e57bf51ca70b4934756bb12b99e",
+    "source_publication": "32e7b929323962af574b81e232f83c8252f215c0",
+    "actor_contract_sha256": "923afb383e2733a315c9ad6f5fa4f8888f7a266695d4feb37c1baf050afcf584",
+    "source_patch_sha256": "212b0b3057e52dd698a4ed6a85f53a63d289c2ab5c15cd173dceb74af7ba220e",
+    "installed_source_files": {
+      "zone/cultural_armor_bulk_actor.h": "8f3639b92ab346ae00c34fa83e7c80cc9ed3f9a34ec8fdd0adcfe895eb901b42",
+      "zone/cultural_tailoring_bulk_actor.h": "506f920314848180e9cf13737ced5386d3b5cbc5906e3f854bd788e77e60632d",
+      "zone/gnomish_tailoring35_actor.h": "7c19d6cb016ac1a6e203e22c7f3957111198c2182f4e179f36b0581df355abe3",
+      "zone/tradeskills.cpp": "1c6e2bbfc03600455812de5b328327c52b4a517f01ad6f572178a3dc1f1001ed"
+    },
+    "installed_zone_sha256": "48d8f376b5b482204ab28cede67a77805b74bd84e478d8c132aea747b5af2263",
+    "six_running_zone_executables_match_installed_cohort": true,
+    "qualification": "Header-only252record merge into840Tailoring to1092;prior1764Smithing/Gnomish35/bot/manual-auto/profile-race/real owned portablekit/capacity-size checks preserved. Installed is not native gameplay acceptance.",
+    "native_gameplay_acceptance": false
+  },
+  "native_gameplay_acceptance": false,
+  "gate_qualification": "4CANbook35664 gates removed while minimum100 retained;7SimpleWoodElf MAY NEED book35703 keep existingmust1 with sourceuncertainty, not authenticatedMUST;existingmust0/135907association metadata-only/noeraendorsement.",
+  "source_documents": "Six exact published sources retained; preparation labels historical. Curated actual/actor evidence establishes installed/closed application."
+}

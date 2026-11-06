@@ -1,0 +1,129 @@
+{
+  "format_version": 1,
+  "features": [
+    "AA036",
+    "AA037"
+  ],
+  "application_status": "BOTH_APPLIED_VERIFIED_INDEPENDENT_FULL_POSTIMAGES_SEQUENTIAL_CLOSED",
+  "application_order": [
+    "AA036",
+    "AA037"
+  ],
+  "SQL_invocations": 2,
+  "SQL_invocations_each": 1,
+  "ranks_added": 2,
+  "effects_added": 0,
+  "prereqs_added": 0,
+  "existing_spell_player_writes": 0,
+  "runtime_cache_actions": 0,
+  "actuals": {
+    "AA036": {
+      "status": "APPLIED_VERIFIED_INDEPENDENT_FULL_POSTIMAGES",
+      "source_commit": "181b4d129d031efad345332df44a58239344fdc6",
+      "forward_sha256": "38fcde61e8f6466159de7e362257c44ff10404db5e871596a244bd69779abcf0",
+      "SQL_invocations": 1,
+      "ranks_added": 1,
+      "effects_added": 0,
+      "prereqs_added": 0,
+      "existing_rows_updated": 0,
+      "player_ownership_points_charges_writes": 0,
+      "runtime_cache_actions": 0,
+      "qualified_encoding": "Inherited activated timer14/reuse900/strings167, ownershiproot167; periodcost15/level95/VoA18/spell31590 ID-name binding only. Predecessor gates retained/inherited,zero neweffects/prereqs;finite next=-1/not historicalterminal;laternativeIDsheld/nativeunaccepted.",
+      "native_acceptance": false,
+      "packet": {
+        "packet": "AA036",
+        "ability_id": 60,
+        "name": "Frenzied Burnout",
+        "ordinal": 7,
+        "target": 13719,
+        "root": 167,
+        "predecessor": 13718,
+        "cost": 15,
+        "level": 95,
+        "expansion": 18,
+        "spell": 31590,
+        "timer": 14,
+        "reuse": 900,
+        "added_prereqs": 0,
+        "pre_prereqs": [
+          {
+            "rank_id": 13718,
+            "aa_id": 1685,
+            "points": 1
+          }
+        ],
+        "sql": "utils/sql/aa/2026_11_05_frenzied_burnout_rank7.sql",
+        "rollback": "utils/sql/aa/rollback/2026_11_05_frenzied_burnout_rank7.sql",
+        "period_source": {
+          "url": "https://everquest.allakhazam.com/wiki/EQ:Frenzied_Burnout?oldid=457401",
+          "revision": "2013-03-05 19:15:26",
+          "method": "Actual Chrome rendered dated purchase table"
+        },
+        "sql_sha256": "38fcde61e8f6466159de7e362257c44ff10404db5e871596a244bd69779abcf0",
+        "rollback_sha256": "cbaea0c36c116bd80cad331b3bbe90af660d0647105a9d0bbdd9b6671b79f3cc"
+      },
+      "independent_full_postimages_verified": true,
+      "connections_closed": true,
+      "bound_spell_full_current_row_unchanged": true
+    },
+    "AA037": {
+      "status": "APPLIED_VERIFIED_INDEPENDENT_FULL_POSTIMAGES",
+      "source_commit": "181b4d129d031efad345332df44a58239344fdc6",
+      "forward_sha256": "f3634bf33ad6e1202570abdf93145f9c39da17673e3432630eb5702797884438",
+      "SQL_invocations": 1,
+      "ranks_added": 1,
+      "effects_added": 0,
+      "prereqs_added": 0,
+      "existing_rows_updated": 0,
+      "player_ownership_points_charges_writes": 0,
+      "runtime_cache_actions": 0,
+      "qualified_encoding": "Inherited activated timer18/reuse1800/strings6539, ownershiproot6212; periodcost9/level93/VoA18/spell30642 ID-name binding only. Predecessor gates retained/inherited,zero neweffects/prereqs;finite next=-1/not historicalterminal;laternativeIDsheld/nativeunaccepted. Native ability/spell trailing spaces and classmask30224 preserved; strings6539 distinct from root6212;period ranks4\u20139 inferred-era annotation does not cover target11.",
+      "native_acceptance": false,
+      "packet": {
+        "packet": "AA037",
+        "ability_id": 3707,
+        "name": "Fortify Companion ",
+        "ordinal": 11,
+        "target": 13292,
+        "root": 6212,
+        "predecessor": 13291,
+        "cost": 9,
+        "level": 93,
+        "expansion": 18,
+        "spell": 30642,
+        "timer": 18,
+        "reuse": 1800,
+        "added_prereqs": 0,
+        "pre_prereqs": [],
+        "sql": "utils/sql/aa/2026_11_05_fortify_companion_rank11.sql",
+        "rollback": "utils/sql/aa/rollback/2026_11_05_fortify_companion_rank11.sql",
+        "period_source": {
+          "url": "https://everquest.allakhazam.com/wiki/EQ:Fortify_Companion?oldid=458379",
+          "revision": "2013-03-29 09:24:16",
+          "method": "Actual Chrome rendered dated table; rank11 updatedMar27,2013. History notes earlierera4..9labels inferred from spellIDs; target11 outside that range."
+        },
+        "sql_sha256": "f3634bf33ad6e1202570abdf93145f9c39da17673e3432630eb5702797884438",
+        "rollback_sha256": "ea2dd3672c1a001d6df6c5fba65c17aa88efa3dc0d967a6388b35c47d2374a18"
+      },
+      "independent_full_postimages_verified": true,
+      "connections_closed": true,
+      "bound_spell_full_current_row_unchanged": true
+    }
+  },
+  "material_qualifications": [
+    "Frenzied Burnout7/native13719 only;periodcost15/level95/VoA18/spell31590,inherited1685/1/timer14/reuse900.",
+    "Fortify Companion11/native13292 only;preserve ability/spell trailing space,classmask30224,strings6539 versus ownershiproot6212,timer18/reuse1800. Earlier inferred-era annotation4\u20139 excludes target11.",
+    "Spell bindings/current-row preservation do not certify full historical spell parity/native gameplay. Finite next=-1 not historicalterminal,later nativeIDs held."
+  ],
+  "native_acceptance": false,
+  "scope_complete": false,
+  "source_documents": "Six exact published source files retained; preparation labels historical. Aggregate curated actual establishes later authorized closed applications.",
+  "rollback": "Each exact published inverse retained/unexecuted; separateGO/originalpostimage+ownership refusal required. No replay/inverse/player edits.",
+  "prior_locally_confirmed_published_normal_SQL_source_paths": 814,
+  "earlier_pending_normal_SQL_source_paths": 0,
+  "new_normal_SQL_source_paths": 4,
+  "normal_SQL_source_paths_after_all_pending_publications": 818,
+  "SQL_path_count_meaning": "Source paths, not application count.",
+  "history_archives_preserved": true,
+  "QA39999_production_exclusion_retained": true
+}

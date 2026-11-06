@@ -1,0 +1,85 @@
+{
+  "format_version": 1,
+  "batches": [
+    "RRC265",
+    "RRC266"
+  ],
+  "application_order": [
+    "RRC265",
+    "RRC266"
+  ],
+  "application_status": "BOTH_APPLIED_VERIFIED_SEQUENTIAL_CLOSED",
+  "source_packages": {
+    "RRC265": {
+      "commit": "d4dfb9c2d4869d9da64b5292eaa513c559d43aaa",
+      "apply_sha256": "62a1d1ff5eea36a9c654aeec1ae8e062942c2fc468d53531ed044247c2ed74c6",
+      "manifest_sha256": "8ecc6d5298536ed1c731f7d88d3d83ed398ee613057135b8d548e828c6c3daee"
+    },
+    "RRC266": {
+      "commit": "32e7b929323962af574b81e232f83c8252f215c0",
+      "apply_sha256": "f2f86be75ecdc7e51b81002215b4c16a17bf0a2370285d36fd9f845b7901570e",
+      "manifest_sha256": "00179259a834d23f26d7def0dc80b9fc11027e60a9779791f96d3aa92ed9f09b"
+    }
+  },
+  "recipes_added": 19,
+  "entries_added": 171,
+  "existing_definitions_enabled": 485,
+  "Gnomish_skill_corrections_within_existing_definitions": 28,
+  "optional_gate_removals_within_existing_definitions": 4,
+  "existing_entry_rows_updated": 0,
+  "global_actual_counts": {
+    "recipes": 30821,
+    "entries": 236130
+  },
+  "TS_cumulative_added_current": {
+    "recipes": 7997,
+    "entries": 58505
+  },
+  "cumulative_basis": "Prior7978/58334 after264 plus19/171;485existing definitions are not newrecipes;28skill/4gatecorrections are subsets.",
+  "new_recipe_batches": 212,
+  "historical_qualification": {
+    "RRC265": {
+      "scope": "252seven-input Elaborate/Intricate cultural Tailoring bodies:10absent template recipes/+90entries,242existing disabled exact bodies enabled in place.14Gnomish existing headers incorrectly63Smithing corrected61Tailoring; all existing physical entries preserved. Current literal bodies/IDs/roles/yield/trivials match.",
+      "distinct_routes": "10source7inputroutes have same names/outputs as preserved disabledfour-inputCompendiumbodies. Add only verified absent template route with(Cultural Template)suffix. Existing other routes/IDs/flags unchanged; no inferred formula or Compendiumera promotion.",
+      "actor": "Header-only252row merge into588Tailoringselector,840result. Preserve prior588Tailoring/1764Smithing/35Gnomish and actual profile-race/owned portablekit/manual/auto checks.14correctedGnomish headers use exact Clockwork92877 andnativeGnomeprofile12, no item-use masks or packetIDs as authority.",
+      "books": "All252current seven-input bodies have no manufacturingMUST or explicitminimum; new10ordinary0/book0. Preserve existing242zero manufacturing gates and metadata, including4nonrequired Compendium135907learned-by links without source/era/availability endorsement. No new Compendiumassociation; no item/book edits.",
+      "era": "Existing native min9/max99/importnotes preserved. New10useDoN-labelled racial catalogue floor9 as reconstruction metadata, with dated2007developer family/template conversion context supporting throughRoF existence but not literalMay2013fields/exactDoNintroduction. No item/recipeID/level dating inference.",
+      "fields": "NewIDs3099239\u20133099248,unchargedMax0/yield1/sevenunits/needlecomponent-success-failure1. Actual named kits portabletype16/10slots/LARGE3 fit all required units/sizes.242existingIDs/2178entryIDs preserved.14wrongskill corrections plus enabled only, all other existing headerfields retained.",
+      "held": "42four-inputArtisanMaterials/Compendiumsource variants remain unqualified;10existingfour-inputrecipes remain disabled. No nativeinventory writer/Fire activation/quest/player changes.",
+      "preservation": "Exact pre/postimages, source input uniqueness, native18item/kit semantics,current output-use peers,logical new multiplicities/countdeltas/learnedrefs guarded.263/264actual exact before/after receipts overlay peers without repeating database reads.",
+      "execution": "Sourceonly pending publication/compatible installed actor/exactone-use SQLGO. No tests/rehearsal/build/runtime/nativecombineacceptance. Rollback explicit/refuses learned targetrefs,neverautomatic."
+    },
+    "RRC266": {
+      "scope": "252seven-input Ornate/Simple Tailoring bodies:9absent templates/+81entries,243exact disabled bodies enabled in place.14Gnomish wrong63Smithing headers corrected61Tailoring;2187existingentryIDs and all physical bodies unchanged. Current literal IDs/roles/trivials/quantities verified.",
+      "distinct_routes": "9verified7inputtemplates use explicit(Cultural Template)suffix; preserve corresponding disabledfour-inputCompendiumroutes, no overwrite or era promotion.",
+      "actor": "Header-only252records merged into840Tailoringselector:1092total. Prior840Tailoring/1764Smithing/35Gnomish/manual/auto/actual profile-race/ownedkit/capacity-size checks unchanged.",
+      "books": "4OrnateFroglok rows explicitly CANscribe to learn WITHOUT EXPERIMENTING: correctmust1/book35664 to ordinary0/book0; retain explicit native/source minimum100.7SimpleWoodElf source says MAY NEED scribing, so preserve existing native must1/book35703 and label exact mandatory status source-uncertain; do not claim sourceMUST or loosen those existing gates. Preserve other existing metadata, including one nonrequiredCompendium135907association without source/era endorsement. New9use per-row source explicit min0or100 and ordinary0book0.",
+      "era": "Native existing9/99/importmetadata preserved. New9DoN-labelled floor9 reconstruction with2007family context; not exactimmutableMay2013fields or date inferred fromID/name/level. SourceMAY ambiguity is retained explicitly.",
+      "fields": "NewIDs3099249\u20133099257,unchargedMax0/yield1/sevenunits/needlecomponent-success-failure1. Actual source named kits10slots/LARGE3 support all exact inputs. Existing243headers update onlyenable,14skill and4explicitoptional learninggates;other fields unchanged.",
+      "held": "42four-inputArtisanMaterials/Compendiumsource variants held.9existingfour-inputbodies remain disabled.7existingWoodElf mandatory-gate certainty remains bounded by sourceMAY wording, native gate preserved. No item/book/player/quest/Fire/inventorywriter edits.",
+      "preservation": "Exact full native before/after peers,18item/kit fields and two existingbooktext hashes guarded.263/264/265actual receipts overlay peers withoutnewDBscan;learnedrefs preserved,newlogicalmultiplicity/counts enforced.",
+      "execution": "Sourceonly pending coordinator disposition/publication/compatibleactor/exactone-use SQLGO. No tests/rehearsal/build/runtime/nativeacceptance. Rollbackexplicit/refuseslearnedrefs/neverautomatic."
+    }
+  },
+  "actor_installation_evidence_sha256": {
+    "RRC265": "3030499f4b1b02e5a0c136c298a1f096ef87380e31a4f4893677077abf9bab06",
+    "RRC266": "295f22c192cf5b7b113734edb0109e4b07942e57bf51ca70b4934756bb12b99e"
+  },
+  "gate_qualification": "4OrnateFroglok explicitCAN gatesbook35664 removed, explicitminimum100 retained.7SimpleWoodElf MAY NEED wording leaves existingmust1/book35703 unchanged but source-uncertain, not sourceMUST. New rows retain individualmin0or100/ordinarybook0.",
+  "metadata_only_135907": "Fiveexisting nonrequiredCompendium135907 links across265/266 preserved, no new association/source/era/availability endorsement.",
+  "route_preservation": "19new seven-input suffix routes preserve existing disabled four-inputCompendium IDs/entries/state. Existingnative9/99/importnotes retained;newDoNfloor9 is labelledreconstruction withdated2007familycontext,not exactintroduction/immutablefieldproof.",
+  "holds": "Each packet42separate ArtisanMaterials/Compendium source variants unqualified;four-inputroutes remain disabled. Allpriorholds preserved.",
+  "native_gameplay_acceptance": false,
+  "all_scope_complete": false,
+  "separate_Xorbb_recipe_excluded": {
+    "recipes": 1,
+    "entries": 6
+  },
+  "prior_locally_confirmed_published_normal_SQL_source_paths": 814,
+  "earlier_pending_normal_SQL_source_paths": 4,
+  "new_normal_SQL_source_paths": 4,
+  "normal_SQL_source_paths_after_all_pending_publications": 822,
+  "history_archives_preserved": true,
+  "QA39999_production_exclusion_retained": true,
+  "assembly": "Reusedstaged265unchanged;no newSQL/query/replay/build/runtime/nativecampaign."
+}
