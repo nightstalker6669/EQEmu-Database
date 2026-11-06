@@ -1,0 +1,427 @@
+--- a/common/fungal_unknown_inventory.h
++++ b/common/fungal_unknown_inventory.h
+@@ -1,3 +1,4 @@
++namespace TrophyCertificate55 {class Custody;}
+ #pragma once
+ #include <algorithm>
+ #include <cstdint>
+@@ -10,6 +11,7 @@
+ // No new authority, task grant API, whitelist or Fire action-table reuse.
+ class UnknownInventory final {
+  friend class NativeCustody;
++ friend class TrophyCertificate55::Custody;
+  UnknownInventory()=default;
+  uint32_t character_=0;
+  const EQ::InventoryProfile* inventory_=nullptr;
+--- a/common/inventory_profile.h
++++ b/common/inventory_profile.h
+@@ -1,3 +1,4 @@
++namespace TrophyCertificate55 {class Custody;}
+ namespace FungalInventory {class NativeCustody;}
+ /*	EQEmu: EQEmulator
+ 
+@@ -87,6 +88,7 @@
+ 		friend class ItemInstance;
+ 		friend class FirePersonalOccurrenceSource::NativeItemCustody;
+ 		friend class FungalInventory::NativeCustody;
++		friend class TrophyCertificate55::Custody;
+ 	public:
+ 		///////////////////////////////
+ 		// Public Methods
+--- a/common/item_instance.h
++++ b/common/item_instance.h
+@@ -1,3 +1,4 @@
++namespace TrophyCertificate55 {class Custody;}
+ #include "fire_native_inventory_fence.h"
+ /*	EQEmu: EQEmulator
+ 
+@@ -68,6 +69,7 @@
+ 	class InventoryProfile;
+ 
+ 	class ItemInstance {
++		friend class TrophyCertificate55::Custody;
+ 	public:
+ 		/////////////////////////
+ 		// Methods
+--- a/zone/CMakeLists.txt
++++ b/zone/CMakeLists.txt
+@@ -133,6 +133,7 @@
+ 	task_manager.cpp
+ 	tasks.cpp
+ 	titles.cpp
++	trophy_certificate55.cpp
+ 	tradeskills.cpp
+ 	trading.cpp
+ 	trap.cpp
+--- a/zone/object.cpp
++++ b/zone/object.cpp
+@@ -1,3 +1,4 @@
++#include "trophy_certificate55.h"
+ /*	EQEmu: EQEmulator
+ 
+ 	Copyright (C) 2001-2026 EQEmu Development Team
+@@ -593,6 +594,7 @@
+ 
+ bool Object::HandleClick(Client* sender, const ClickObject_Struct* click_object)
+ {
++ if(zone&&!TrophyCertificate55::Custody::WorldAllowed(zone->GetZoneID(),GetDBID()))return false;
+ 	if (m_click_only) {
+ 		if (!sender || !click_object) {
+ 			return false;
+--- a/zone/object.h
++++ b/zone/object.h
+@@ -1,3 +1,4 @@
++namespace TrophyCertificate55 {class Custody;}
+ /*	EQEmu: EQEmulator
+ 
+ 	Copyright (C) 2001-2026 EQEmu Development Team
+@@ -132,6 +133,7 @@
+ 
+ class Object: public Entity
+ {
++ friend class TrophyCertificate55::Custody;
+ public:
+ 	// Loading object from database
+ 	Object(uint32 id, uint32 type, uint32 icon, const Object_Struct& data, const EQ::ItemInstance* inst = nullptr, bool fix_z = true);
+--- a/zone/tradeskills.cpp
++++ b/zone/tradeskills.cpp
+@@ -1,3 +1,4 @@
++#include "trophy_certificate55.h"
+ /*	EQEmu: EQEmulator
+ 
+ 	Copyright (C) 2001-2026 EQEmu Development Team
+@@ -650,7 +651,7 @@
+ 	}
+ 
+ 	// Check if Combine would result in Lore conflict
+-	if (user->CheckTradeskillLoreConflict(spec.recipe_id)) {
++	if (!TrophyCertificate55::Find(spec.recipe_id) && user->CheckTradeskillLoreConflict(spec.recipe_id)) {
+ 		auto outapp = new EQApplicationPacket(OP_TradeSkillCombine, 0);
+ 		user->QueuePacket(outapp);
+ 		safe_delete(outapp);
+@@ -678,6 +679,12 @@
+ 	user->QueuePacket(outapp);
+ 	safe_delete(outapp);
+ 
++ std::unique_ptr<TrophyCertificate55::Proof> trophy_proof;
++ if(TrophyCertificate55::Find(spec.recipe_id)) {
++  trophy_proof=TrophyCertificate55::Custody::Manual(*user,spec,worldcontainer?worldo:nullptr,container,in_combine->container_slot);
++  if(!trophy_proof)return;
++ }
++ if(!trophy_proof){
+ 	//now clean out the containers.
+ 	if(worldcontainer){
+ 		container->Clear();
+@@ -704,7 +711,9 @@
+   if(user->GetInv().GetItem(charged_packing.kit_slot)!=charged_packing.kit||!charged_packing.kit->GetContents()->empty())return;
+   user->DeleteItemInInventory(charged_packing.kit_slot,0,true);spec.replace_container=false;
+  }
+-	bool success = user->TradeskillExecute(&spec);
++ }
++ if(trophy_proof)user->CalcBonuses();
++ bool success=trophy_proof?TrophyCertificate55::Custody::Complete(*user,std::move(trophy_proof),spec):user->TradeskillExecute(&spec);
+ 
+ 	// Learn new recipe message
+ 	// Update Made count
+@@ -1027,7 +1036,7 @@
+ 	}
+ 
+ 	// Check if Combine would result in Lore conflict
+-	if (user->CheckTradeskillLoreConflict(rac->recipe_id)) {
++	if (!TrophyCertificate55::Find(spec.recipe_id) && user->CheckTradeskillLoreConflict(rac->recipe_id)) {
+ 		user->QueuePacket(outapp);
+ 		safe_delete(outapp);
+ 		return;
+@@ -1037,6 +1046,12 @@
+  if(!charged_station_valid()||(charged_requirement&&charged_requirement->units&&(results.RowCount()!=1||items[0]!=charged_requirement->input||counts[0]!=charged_requirement->units||!Charged32PackingStillOriginal(*user,*charged_requirement,charged_packing)))){user->QueuePacket(outapp);safe_delete(outapp);return;}
+ 	//now we know they have everything...
+ 
++ std::unique_ptr<TrophyCertificate55::Proof> trophy_proof;
++ if(TrophyCertificate55::Find(spec.recipe_id)) {
++  trophy_proof=TrophyCertificate55::Custody::Auto(*user,spec,rac->object_type,rac->some_id);
++  if(!trophy_proof){user->QueuePacket(outapp);safe_delete(outapp);return;}
++ }
++ if(!trophy_proof){
+ 	//remove all the items from the players inventory, with updates...
+ 	int16 slot;
+ 	for(uint8 r = 0; r < results.RowCount(); r++) {
+@@ -1072,6 +1087,7 @@
+   if(user_inv.GetItem(charged_packing.kit_slot)!=charged_packing.kit||!charged_packing.kit->GetContents()->empty()){user->QueuePacket(outapp);safe_delete(outapp);return;}
+   user->DeleteItemInInventory(charged_packing.kit_slot,0,true);spec.replace_container=false;
+  }
++ }
+ 	//otherwise, we found it all...
+ 	outp->reply_code = 0x00000000;	//success for finding it...
+ 	user->QueuePacket(outapp);
+@@ -1080,7 +1096,8 @@
+ 
+ 	//now actually try to make something...
+ 
+-	bool success = user->TradeskillExecute(&spec);
++ if(trophy_proof)user->CalcBonuses();
++ bool success=trophy_proof?TrophyCertificate55::Custody::Complete(*user,std::move(trophy_proof),spec):user->TradeskillExecute(&spec);
+ 
+ 	if (success) {
+ 		if (!spec.has_learnt && ((spec.must_learn & 0x10) != 0x10)) {
+@@ -1307,6 +1324,8 @@
+ 		return false;
+ 	}
+ 
++ const bool trophy_selected=TrophyCertificate55::Find(spec->recipe_id)!=nullptr;
++ if(trophy_selected&&!TrophyCertificate55::Custody::Claim(*this,*spec))return false;
+ 	uint16 user_skill = GetSkill(spec->tradeskill);
+ 
+ 	if (RuleI(Skills, TradeSkillClamp) != 0 && user_skill > RuleI(Skills, TradeSkillClamp)) {
+@@ -1465,7 +1484,7 @@
+ 			item = database.GetItem(itr->first);
+ 			if (item) {
+ 				CheckItemDiscoverability(itr->first);
+-				SummonItem(itr->first, ChargedRecipe32::SummonCount(spec->recipe_id, itr->first, itr->second));
++				if(!trophy_selected) SummonItem(itr->first, ChargedRecipe32::SummonCount(spec->recipe_id, itr->first, itr->second));
+ 				if (GetGroup()) {
+ 					entity_list.MessageGroup(this, true, Chat::Skills, "%s has successfully fashioned %s!", GetName(), item->Name);
+ 				}
+--- /dev/null
++++ b/zone/trophy_certificate55.cpp
+@@ -0,0 +1,130 @@
++#include "trophy_certificate55.h"
++#include "client.h"
++#include "object.h"
++#include "zonedb.h"
++#include "zone.h"
++#include "inventory_session_owner.h"
++#include "../common/fungal_unknown_inventory.h"
++#include "../common/fire_native_inventory_fence.h"
++#include "../common/shared_core/inventory_row_db.h"
++#include "../common/shared_core/inventory_projection.h"
++#include "../common/housing/evolving_item_custody_db.h"
++#include <algorithm>
++#include <cstring>
++#include <stdexcept>
++extern ZoneDatabase database;extern Zone* zone;
++namespace TrophyCertificate55 {
++thread_local Proof* Custody::current_=nullptr;
++namespace {
++using Row=EQEmu::SharedCore::InventoryRow;
++using Projection=EQEmu::SharedCore::InventoryProjection::ReconstructionScope;
++namespace Evo=Housing::EvolvingItemCustody;
++struct WorldUnknown {uint32_t zone=0,parent=0;WorldUnknown* next=nullptr;inline static thread_local WorldUnknown* first=nullptr;void Attach()noexcept{next=first;first=this;}};
++uint64_t Number(const char* p){if(!p)throw std::runtime_error("Missing trophy identity");size_t n=0;std::string s=p;auto v=std::stoull(s,&n);if(n!=s.size())throw std::runtime_error("Malformed trophy identity");return v;}
++auto Query(const std::string& sql){if(database.GetStatus()!=DBcore::Connected)throw std::runtime_error("Trophy database disconnected");auto r=database.QueryDatabase(sql,false);if(!r.Success())throw std::runtime_error("Strict trophy query failed");return r;}
++std::string Hex(const void* data,size_t size){const char* h="0123456789ABCDEF";const auto* p=static_cast<const uint8_t*>(data);std::string s;s.reserve(size*2);for(size_t i=0;i<size;++i){s+=h[p[i]>>4];s+=h[p[i]&15];}return s;}
++std::string Hex(const std::string& s){return Hex(s.data(),s.size());}
++bool Shape(const Definition& d,const DBTradeskillRecipe_Struct& s){return s.recipe_id==d.recipe&&uint32_t(s.tradeskill)==d.skill&&s.nofail&&s.trivial==0&&s.skill_needed==0&&!s.quest&&!s.replace_container&&!s.must_learn&&s.onsuccess.size()==1&&s.onsuccess.begin()->first==d.output&&s.onsuccess.begin()->second==1;}
++bool Actor(Client& c,const Definition& d){if(d.skill==59)return c.GetClass()==Class::Shaman&&c.GetLevel()>=25;if(d.skill==57)return c.GetPP().race==Race::Gnome;if(d.skill==56)return c.GetClass()==Class::Rogue;return true;}
++}
++bool Custody::WorldAllowed(uint32_t z,uint32_t id)noexcept{for(auto* p=WorldUnknown::first;p;p=p->next)if(p->zone==z&&p->parent==id)return false;return true;}
++std::unique_ptr<Proof> Custody::Manual(Client& c,DBTradeskillRecipe_Struct& s,Object* world,EQ::ItemInstance* container,int16_t slot)noexcept {
++ const auto* d=Find(s.recipe_id);if(!d||!container||container->GetContents()->size()!=1)return nullptr;
++ const auto& entry=*container->GetContents()->begin();if(!entry.second||entry.second->GetID()!=d->certificate||entry.first>=EQ::invtype::WORLD_SIZE)return nullptr;
++ return Execute(c,*d,s,world,container,slot,entry.first,true);
++}
++std::unique_ptr<Proof> Custody::Auto(Client& c,DBTradeskillRecipe_Struct& s,uint32_t type,uint32_t kit)noexcept {
++ const auto* d=Find(s.recipe_id);if(!d||type!=d->type||(d->kit>100&&kit!=d->kit))return nullptr;
++ EQ::ItemInstance* container=nullptr;Object* world=nullptr;
++ if(d->kit<100){world=c.GetTradeskillObject();if(!world)return nullptr;container=world->m_inst;}
++ else {const auto slot=c.GetInv().HasItem(d->kit,1,invWherePersonal);container=c.GetInv().GetItem(slot);if(!container)return nullptr;}
++ return Execute(c,*d,s,world,container,-1,0,false);
++}
++std::unique_ptr<Proof> Custody::Execute(Client& c,const Definition& d,DBTradeskillRecipe_Struct& spec,Object* world,EQ::ItemInstance* kit,int16_t parent_slot,uint8_t child,bool manual)noexcept {
++ bool transaction=false,attempted=false,known=false;std::unique_ptr<FungalInventory::UnknownInventory> unknown;std::unique_ptr<WorldUnknown> world_unknown;
++ auto& inv=c.GetInv();
++ try {
++  if(!zone||!Shape(d,spec)||!Actor(c,d)||!FirePersonalOccurrenceSource::NativeInventoryFence::ProfileAllowed(&inv))return nullptr;
++  const auto who=c.CharacterID(),account=c.AccountID(),z=zone->GetZoneID();
++  const auto version=zone->GetInstanceVersion();
++  auto reservation=c.InventorySessionReleaseTicket();auto lease=reservation?reservation->SnapshotFor(c):std::nullopt;
++  if(!who||!account||!lease||!lease->active||!c.HasInventorySessionReservation()||lease->actor.character_id!=who||lease->actor.account_id!=account)return nullptr;
++  const uint32_t world_id=world?world->GetDBID():0;
++  if(d.kit<100){if(!world||world!=c.GetTradeskillObject()||world->user!=&c||world->m_inst!=kit||world->GetType()!=d.type||!world_id||world->GetItemID()!=0||!kit->IsType(EQ::item::ItemClassBag)||!WorldAllowed(z,world_id))return nullptr;}
++  else {if(world||!kit||!kit->IsClassBag()||kit->GetID()!=d.kit||kit->GetItem()->BagType!=d.type||kit->GetItem()->BagSlots!=d.slots||kit->GetItem()->BagSize!=d.size)return nullptr;bool owned=false;for(int16_t i=EQ::invslot::GENERAL_BEGIN;i<=EQ::invslot::GENERAL_END;++i)if(inv.GetLookup()&&((uint64_t(1)<<i)&inv.GetLookup()->PossessionsBitmask)&&inv.GetItem(i)==kit){if(manual&&i!=parent_slot)return nullptr;owned=true;parent_slot=i;break;}if(!owned)return nullptr;}
++  EQ::ItemInstance** trophy_live=nullptr;int16_t trophy_slot=-1;
++  for(int16_t slot:{int16_t(EQ::invslot::slotPrimary),int16_t(EQ::invslot::slotSecondary)}){auto at=inv.m_worn.find(slot);if(at!=inv.m_worn.end()&&at->second&&at->second->GetID()==d.beginner){if(trophy_live)return nullptr;trophy_live=&at->second;trophy_slot=slot;}}
++  if(!trophy_live)return nullptr;auto* trophy=*trophy_live;const auto* old=trophy->GetItem();const auto* target=database.GetItem(d.output);
++  if(!old||!target||!trophy->IsClassCommon()||trophy->IsScaling()||trophy->m_scaledItem||!trophy->IsEvolving()||trophy->GetEvolveUniqueID()==0||trophy->GetSerialNumber()<=0||old->EvolvingID!=d.family||old->EvolvingLevel!=1||target->ItemClass!=0||!target->EvolvingItem||target->EvolvingID!=d.family||target->EvolvingLevel!=d.level||target->EvolvingMax!=old->EvolvingMax||old->CharmFileID||target->CharmFileID||!(target->Slots&(uint32_t(1)<<trophy_slot)))return nullptr;
++  for(unsigned i=0;i<6;++i)if(old->AugSlotType[i]!=target->AugSlotType[i])return nullptr;
++  EQ::ItemInstance** certificate_live=nullptr;EQ::ItemInstance* certificate=nullptr;int16_t certificate_slot=-1;
++  if(manual){auto at=kit->m_contents.find(child);if(kit->m_contents.size()!=1||at==kit->m_contents.end()||!at->second||at->second->GetID()!=d.certificate)return nullptr;certificate_live=&at->second;certificate=at->second;if(!world)certificate_slot=EQ::InventoryProfile::CalcSlotId(parent_slot,child);}
++  else {for(int16_t slot=EQ::invslot::GENERAL_BEGIN;slot<=EQ::invslot::GENERAL_END&&!certificate;++slot){if(!inv.GetLookup()||!((uint64_t(1)<<slot)&inv.GetLookup()->PossessionsBitmask))continue;auto at=inv.m_inv.find(slot);if(at==inv.m_inv.end()||!at->second)continue;if(at->second->GetID()==d.certificate){certificate_live=&at->second;certificate=at->second;certificate_slot=slot;break;}if(at->second->IsClassBag())for(auto& x:at->second->m_contents)if(x.second&&x.second->GetID()==d.certificate){certificate_live=&x.second;certificate=x.second;certificate_slot=EQ::InventoryProfile::CalcSlotId(slot,x.first);break;}}}
++  if(!certificate||!certificate_live||(!world&&certificate->GetItem()&&certificate->GetItem()->Size>d.size)||!certificate->IsClassCommon()||certificate->IsStackable()||certificate->GetSerialNumber()<=0||!certificate->GetContents()->empty()||certificate->IsEvolving())return nullptr;
++  const auto serial=trophy->GetSerialNumber(),certificate_serial=certificate->GetSerialNumber();
++  const auto original=[&](){return FirePersonalOccurrenceSource::NativeInventoryFence::ProfileAllowed(&inv)&&reservation->HeldFor(c)&&*trophy_live==trophy&&*certificate_live==certificate&&trophy->GetID()==d.beginner&&trophy->GetSerialNumber()==serial&&certificate->GetID()==d.certificate&&certificate->GetSerialNumber()==certificate_serial&&Actor(c,d)&&(!world||(world==c.GetTradeskillObject()&&world->user==&c&&world->m_inst==kit&&world->GetDBID()==world_id&&WorldAllowed(z,world_id)));};
++  if(!original())return nullptr;
++  // Clone retains every owned augment, native GUID, timers and custom fields.
++  std::unique_ptr<EQ::ItemInstance> prepared(trophy->Clone());if(!prepared)return nullptr;
++  const auto copy_delivered=[&](const auto& self,const EQ::ItemInstance& a,EQ::ItemInstance& b)->void{b.m_task_delivered_count=a.m_task_delivered_count;for(const auto& x:a.m_contents){auto at=b.m_contents.find(x.first);if(!x.second||at==b.m_contents.end()||!at->second)throw std::runtime_error("Trophy clone tree differs");self(self,*x.second,*at->second);}};copy_delivered(copy_delivered,*trophy,*prepared);
++  auto definition=std::make_unique<EQ::ItemData>(*target);delete prepared->m_item;prepared->m_item=definition.release();
++  auto detail=prepared->GetEvolvingDetails();detail.item_id=d.output;detail.current_amount=0;detail.progression=0;if(!prepared->SetEvolvingDetails(detail))return nullptr;
++  auto proof=std::unique_ptr<Proof>(new Proof(c,d.recipe));
++  unknown=std::unique_ptr<FungalInventory::UnknownInventory>(new FungalInventory::UnknownInventory);unknown->character_=who;unknown->inventory_=&inv;
++  const auto remember=[&](const auto& self,const EQ::ItemInstance* item)->void{if(!item)return;unknown->items_.push_back(item);for(const auto& x:*item->GetContents())self(self,x.second);};
++  for(const auto* bucket:{&inv.m_worn,&inv.m_inv,&inv.m_bank,&inv.m_shbank,&inv.m_trade})for(const auto& x:*bucket)remember(remember,x.second);for(auto at=inv.cursor_cbegin();at!=inv.cursor_cend();++at)remember(remember,*at);
++  if(world&&manual){remember(remember,kit);world_unknown=std::make_unique<WorldUnknown>();world_unknown->zone=z;world_unknown->parent=world_id;}
++  auto state=Query("SELECT CONNECTION_ID(),@@in_transaction,@@autocommit");if(state.RowCount()!=1||Number(state.begin()[1])||Number(state.begin()[2])!=1)return nullptr;const auto connection=Number(state.begin()[0]);if(!database.TransactionBeginStrict().Success())return nullptr;transaction=true;
++  const std::string tables="'inventory','character_data','housing_inventory_sessions','housing_live_item_leases','character_evolving_items','housing_evolving_item_locations','tradeskill_recipe','tradeskill_recipe_entries','items','items_evolving_details'"+(world&&manual?std::string(",'object','object_contents'"):std::string());
++  auto engines=Query("SELECT COUNT(*)FROM information_schema.tables WHERE table_schema=DATABASE()AND engine='InnoDB'AND table_name IN("+tables+")");if(engines.RowCount()!=1||Number(engines.begin()[0])!=(world&&manual?12u:10u))throw std::runtime_error("Trophy strict foundation differs");
++  auto actor=Query("SELECT id FROM character_data WHERE id="+std::to_string(who)+" AND account_id="+std::to_string(account)+" AND deleted_at IS NULL FOR UPDATE");if(actor.RowCount()!=1)throw std::runtime_error("Trophy actor changed");
++  auto held=Query("SELECT account_id,epoch,HEX(token),HEX(process_key),HEX(client_key),zone_id,instance_id,active FROM housing_inventory_sessions WHERE character_id="+std::to_string(who)+" FOR UPDATE");if(held.RowCount()!=1)throw std::runtime_error("Trophy lease absent");auto h=held.begin();
++  if(Number(h[0])!=account||Number(h[1])!=lease->epoch||!h[2]||std::string(h[2])!=Hex(lease->token.data(),lease->token.size())||!h[3]||std::string(h[3])!=Hex(lease->owner.process_key)||!h[4]||std::string(h[4])!=Hex(lease->owner.client_key)||Number(h[5])!=lease->owner.zone_id||Number(h[6])!=lease->owner.instance_id||Number(h[7])!=1)throw std::runtime_error("Trophy lease changed");
++  auto pending=Query("SELECT account_id,pending_key FROM housing_live_item_leases WHERE character_id="+std::to_string(who)+" FOR UPDATE");if(pending.RowCount()>1||(pending.RowCount()&&(Number(pending.begin()[0])!=account||(pending.begin()[1]&&*pending.begin()[1]))))throw std::runtime_error("Trophy pending custody");
++  auto recipe=Query("SELECT id FROM tradeskill_recipe WHERE id="+std::to_string(d.recipe)+" AND tradeskill="+std::to_string(d.skill)+" AND nofail=1 AND trivial=0 AND skillneeded=0 AND quest=0 AND replace_container=0 AND must_learn=0 AND learned_by_item_id=0 AND enabled=1 FOR UPDATE");if(recipe.RowCount()!=1)throw std::runtime_error("Trophy recipe changed");
++  auto roles=Query("SELECT item_id,successcount,failcount,componentcount,iscontainer FROM tradeskill_recipe_entries WHERE recipe_id="+std::to_string(d.recipe)+" ORDER BY item_id FOR UPDATE");bool input=false,output=false,container=false;if(roles.RowCount()!=3)throw std::runtime_error("Trophy recipe shape differs");for(auto r=roles.begin();r!=roles.end();++r){if(Number(r[0])==d.certificate&&Number(r[1])==0&&Number(r[2])==0&&Number(r[3])==1&&Number(r[4])==0)input=true;else if(Number(r[0])==d.output&&Number(r[1])==1&&Number(r[2])==0&&Number(r[3])==0&&Number(r[4])==0)output=true;else if(Number(r[0])==d.kit&&Number(r[1])==0&&Number(r[2])==0&&Number(r[3])==0&&Number(r[4])==1)container=true;else throw std::runtime_error("Trophy unexpected recipe role");}if(!input||!output||!container)throw std::runtime_error("Trophy exact roles absent");
++  auto evolution=Query("SELECT item_id,item_evo_id,item_evolve_level,type FROM items_evolving_details WHERE item_id IN("+std::to_string(d.beginner)+","+std::to_string(d.output)+") ORDER BY item_id FOR UPDATE");if(evolution.RowCount()!=2)throw std::runtime_error("Trophy evolution definition absent");for(auto r=evolution.begin();r!=evolution.end();++r)if(Number(r[1])!=d.family||Number(r[2])!=(Number(r[0])==d.beginner?1u:d.level)||Number(r[3])!=99)throw std::runtime_error("Trophy evolution family changed");
++  auto worn=Query("SELECT "+std::string(EQEmu::SharedCore::InventoryRowDB::Columns)+" FROM inventory WHERE character_id="+std::to_string(who)+" AND slot_id="+std::to_string(trophy_slot)+" FOR UPDATE");if(worn.RowCount()!=1)throw std::runtime_error("Original worn trophy absent");auto before=EQEmu::SharedCore::InventoryRowDB::Decode(worn.begin());before.evolving_payload=Evo::Capture(database,who,trophy_slot,*trophy);if(before.values.guid!=uint64_t(serial)||!EQEmu::SharedCore::InventoryProjection::Matches(before,*trophy,Projection::CharacterProfile))throw std::runtime_error("Original trophy full property differs");
++  // Capture validates owner/item/slot/component. Fence the ORIGINAL root
++  // GUID for every existing root or evolving-augment locator as well.
++  // An absent locator retains Capture's separately checked unique-legacy path.
++  for(const auto& component:Evo::Decode(before.evolving_payload)){
++   auto locator=Query("SELECT inventory_guid FROM housing_evolving_item_locations WHERE evolving_id="+std::to_string(component.id)+" FOR UPDATE");
++   if(locator.RowCount()>1||(locator.RowCount()==1&&Number(locator.begin()[0])!=before.values.guid))throw std::runtime_error("Original trophy evolving locator GUID differs");
++  }
++  auto after=before;after.values.item_id=d.output;auto states=Evo::Decode(after.evolving_payload);bool root=false;for(auto& s:states)if(!s.component){if(s.id!=trophy->GetEvolveUniqueID()||s.item!=d.beginner)throw std::runtime_error("Trophy evolving UID differs");s.item=d.output;s.amount=0;s.progression_bits=s.runtime_progression_bits=0;s.nulls&=uint8_t(~(16u|32u));root=true;}if(!root)throw std::runtime_error("Trophy evolving identity absent");after.evolving_payload=Evo::Encode(states);prepared->m_color=EQEmu::SharedCore::InventoryProjection::Color(after,*target);if(!EQEmu::SharedCore::InventoryProjection::Matches(after,*prepared,Projection::CharacterProfile))throw std::runtime_error("Trophy transform loses property");
++  const auto conflict=[&](const auto& self,const EQ::ItemInstance* item)->bool{if(!item)return false;const auto* data=item->GetItem();if(item!=trophy&&data&&target->LoreGroup&&((target->LoreGroup==-1&&item->GetID()==d.output)||(target->LoreGroup!=-1&&data->LoreGroup==target->LoreGroup)))return true;for(const auto& x:*item->GetContents())if(self(self,x.second))return true;return false;};
++  for(const auto* bucket:{&inv.m_worn,&inv.m_inv,&inv.m_bank,&inv.m_shbank,&inv.m_trade})for(const auto& x:*bucket)if(conflict(conflict,x.second))throw std::runtime_error("Trophy target lore conflict");for(auto at=inv.cursor_cbegin();at!=inv.cursor_cend();++at)if(conflict(conflict,*at))throw std::runtime_error("Trophy cursor lore conflict");
++  if(world){auto object=Query("SELECT id FROM object WHERE id="+std::to_string(world_id)+" AND zoneid="+std::to_string(z)+" AND version="+std::to_string(version)+" AND type="+std::to_string(d.type)+" AND itemid=0 FOR UPDATE");if(object.RowCount()!=1)throw std::runtime_error("Original trophy station changed");}
++  if(world&&manual){
++   // The existing object_contents key has no instance dimension. Never claim
++   // an instanced World certificate preimage using that shared legacy key.
++   if(zone->GetInstanceID()!=0)throw std::runtime_error("Unsupported instanced World certificate custody");
++   auto rows=Query("SELECT bagidx,itemid,charges,augslot1,augslot2,augslot3,augslot4,augslot5,augslot6 FROM object_contents WHERE zoneid="+std::to_string(z)+" AND parentid="+std::to_string(world_id)+" ORDER BY bagidx FOR UPDATE");if(rows.RowCount()!=1)throw std::runtime_error("Original World certificate universe changed");auto r=rows.begin();if(Number(r[0])!=child||Number(r[1])!=d.certificate||!r[2]||std::stoi(r[2])!=certificate->GetCharges())throw std::runtime_error("Original World certificate differs");for(int i=3;i<9;++i)if(Number(r[i]))throw std::runtime_error("Augmented certificate unsupported");
++  }else{
++   auto rows=Query("SELECT "+std::string(EQEmu::SharedCore::InventoryRowDB::Columns)+" FROM inventory WHERE character_id="+std::to_string(who)+" AND slot_id="+std::to_string(certificate_slot)+" FOR UPDATE");if(rows.RowCount()!=1)throw std::runtime_error("Original inventory certificate absent");auto row=EQEmu::SharedCore::InventoryRowDB::Decode(rows.begin());if(row.values.guid!=uint64_t(certificate_serial)||!EQEmu::SharedCore::InventoryProjection::Matches(row,*certificate,Projection::CharacterProfile))throw std::runtime_error("Original certificate full property differs");
++   if(manual){auto parents=Query("SELECT "+std::string(EQEmu::SharedCore::InventoryRowDB::Columns)+" FROM inventory WHERE character_id="+std::to_string(who)+" AND slot_id="+std::to_string(parent_slot)+" FOR UPDATE");if(parents.RowCount()!=1)throw std::runtime_error("Original trophy kit absent");auto parent=EQEmu::SharedCore::InventoryRowDB::Decode(parents.begin());row.values.slot_id=child;parent.children.push_back(row);if(!EQEmu::SharedCore::InventoryProjection::Matches(parent,*kit,Projection::CharacterProfile))throw std::runtime_error("Original trophy kit full property differs");auto children=Query("SELECT slot_id FROM inventory WHERE character_id="+std::to_string(who)+" AND slot_id BETWEEN "+std::to_string(EQ::InventoryProfile::CalcSlotId(parent_slot,uint8_t(0)))+" AND "+std::to_string(EQ::InventoryProfile::CalcSlotId(parent_slot,uint8_t(0))+EQ::invbag::SLOT_COUNT-1)+" FOR UPDATE");if(children.RowCount()!=1)throw std::runtime_error("Original trophy kit child universe changed");}
++  }
++  std::vector<std::unique_ptr<EQApplicationPacket>> packets;
++  {const auto bytes=prepared->Serialize(trophy_slot);auto p=std::make_unique<EQApplicationPacket>(OP_ItemPacket,bytes.size()+sizeof(ItemPacket_Struct));auto* w=reinterpret_cast<ItemPacket_Struct*>(p->pBuffer);w->PacketType=ItemPacketTrade;std::memcpy(w->SerializedItem,bytes.data(),bytes.size());packets.push_back(std::move(p));}
++  if(world&&manual){auto p=std::make_unique<EQApplicationPacket>(OP_ClearObject,sizeof(ClearObject_Struct));reinterpret_cast<ClearObject_Struct*>(p->pBuffer)->Clear=1;packets.push_back(std::move(p));}
++  else {auto p=std::make_unique<EQApplicationPacket>(OP_MoveItem,sizeof(MoveItem_Struct));auto* w=reinterpret_cast<MoveItem_Struct*>(p->pBuffer);w->from_slot=certificate_slot;w->to_slot=0xffffffff;w->number_in_stack=0xffffffff;packets.push_back(std::move(p));}
++  if(!original())throw std::runtime_error("Final trophy source fence differs");
++  auto evolved=Query("UPDATE character_evolving_items SET item_id="+std::to_string(d.output)+",current_amount=0,progression=0 WHERE id="+std::to_string(trophy->GetEvolveUniqueID())+" AND character_id="+std::to_string(who)+" AND item_id="+std::to_string(d.beginner)+" AND deleted_at IS NULL");if(evolved.RowsAffected()!=1)throw std::runtime_error("Exact trophy evolution update failed");
++  auto replaced=Query("UPDATE inventory SET item_id="+std::to_string(d.output)+" WHERE character_id="+std::to_string(who)+" AND slot_id="+std::to_string(trophy_slot)+" AND item_id="+std::to_string(d.beginner)+" AND guid="+std::to_string(serial));if(replaced.RowsAffected()!=1)throw std::runtime_error("Exact worn trophy update failed");
++  Evo::BindInventory(database,who,trophy_slot,*prepared);
++  auto removed=world&&manual?Query("DELETE FROM object_contents WHERE zoneid="+std::to_string(z)+" AND parentid="+std::to_string(world_id)+" AND bagidx="+std::to_string(child)+" AND itemid="+std::to_string(d.certificate)):Query("DELETE FROM inventory WHERE character_id="+std::to_string(who)+" AND slot_id="+std::to_string(certificate_slot)+" AND item_id="+std::to_string(d.certificate)+" AND guid="+std::to_string(certificate_serial));if(removed.RowsAffected()!=1)throw std::runtime_error("Exact trophy certificate debit failed");
++  state=Query("SELECT CONNECTION_ID(),@@in_transaction");if(state.RowCount()!=1||Number(state.begin()[0])!=connection||Number(state.begin()[1])!=1||database.TransactionStrictFailed()||!original())throw std::runtime_error("Trophy strict final session differs");
++  attempted=true;auto commit=database.TransactionCommitStrict();transaction=false;if(!commit.Success())throw std::runtime_error("Trophy COMMIT unknown");known=true;
++  // No allocation or mutable callback before the original native publication.
++  *trophy_live=prepared.release();prepared.reset(trophy);
++  if(manual){kit->m_contents.erase(child);}
++  else {bool erased=false;auto at=inv.m_inv.find(certificate_slot);if(at!=inv.m_inv.end() && &at->second==certificate_live){inv.m_inv.erase(at);erased=true;}if(!erased)for(auto& parent:inv.m_inv)if(parent.second&&parent.second->IsClassBag()){for(auto at=parent.second->m_contents.begin();at!=parent.second->m_contents.end();++at)if(&at->second==certificate_live){parent.second->m_contents.erase(at);erased=true;break;}if(erased)break;}}
++  std::unique_ptr<EQ::ItemInstance> spent(certificate);
++  for(auto& p:packets){auto* send=p.release();try{c.FastQueuePacket(&send);}catch(...){}safe_delete(send);}
++  return proof;
++ }catch(...){if(transaction)database.TransactionRollbackStrict();if(attempted&&!known&&unknown){unknown->Attach();unknown.release();if(world_unknown){world_unknown->Attach();world_unknown.release();}}return nullptr;}
++}
++bool Custody::Claim(Client& c,const DBTradeskillRecipe_Struct& s)noexcept{const auto* d=Find(s.recipe_id);if(!d)return false;if(!current_||current_->client_!=&c||current_->recipe_!=s.recipe_id||current_->claimed_||!Shape(*d,s))return false;current_->claimed_=true;return true;}
++bool Custody::Complete(Client& c,std::unique_ptr<Proof> proof,DBTradeskillRecipe_Struct& s){if(!proof||proof->client_!=&c||proof->recipe_!=s.recipe_id||proof->claimed_)return false;auto* previous=current_;current_=proof.get();struct Restore{Proof*& current;Proof* old;~Restore(){current=old;}}restore{current_,previous};return c.TradeskillExecute(&s);}
++}
+--- /dev/null
++++ b/zone/trophy_certificate55.h
+@@ -0,0 +1,85 @@
++#pragma once
++#include <cstdint>
++#include <memory>
++class Client;class Object;struct DBTradeskillRecipe_Struct;
++namespace EQ {class ItemInstance;}
++namespace TrophyCertificate55 {
++struct Definition {uint32_t recipe,skill,certificate,beginner,output,family,level,kit,type,slots,size;};
++inline constexpr Definition Definitions[]={
++ {3102685,59,95144,95001,95002,1200,2,17901,9,8,3},
++ {3102686,59,95145,95001,95003,1200,3,17901,9,8,3},
++ {3102687,59,95146,95001,95004,1200,4,17901,9,8,3},
++ {3102688,59,95147,95001,95005,1200,5,17901,9,8,3},
++ {3102689,59,95148,95001,95006,1200,6,17901,9,8,3},
++ {3102690,60,95149,95008,95009,1201,2,15,15,10,10},
++ {3102691,60,95150,95008,95010,1201,3,15,15,10,10},
++ {3102692,60,95151,95008,95011,1201,4,15,15,10,10},
++ {3102693,60,95152,95008,95012,1201,5,15,15,10,10},
++ {3102694,60,95153,95008,95013,1201,6,15,15,10,10},
++ {3102695,65,95154,95015,95016,1202,2,19,19,10,10},
++ {3102696,65,95155,95015,95017,1202,3,19,19,10,10},
++ {3102697,65,95156,95015,95018,1202,4,19,19,10,10},
++ {3102698,65,95157,95015,95019,1202,5,19,19,10,10},
++ {3102699,65,95158,95015,95020,1202,6,19,19,10,10},
++ {3102700,64,95159,95022,95023,1203,2,17910,18,8,3},
++ {3102701,64,95160,95022,95024,1203,3,17910,18,8,3},
++ {3102702,64,95161,95022,95025,1203,4,17910,18,8,3},
++ {3102703,64,95162,95022,95026,1203,5,17910,18,8,3},
++ {3102704,64,95163,95022,95027,1203,6,17910,18,8,3},
++ {3102705,68,95164,95029,95030,1204,2,17912,20,4,3},
++ {3102706,68,95165,95029,95031,1204,3,17912,20,4,3},
++ {3102707,68,95166,95029,95032,1204,4,17912,20,4,3},
++ {3102708,68,95167,95029,95033,1204,5,17912,20,4,3},
++ {3102709,68,95168,95029,95034,1204,6,17912,20,4,3},
++ {3102710,56,95169,95036,95037,1205,2,17904,12,6,3},
++ {3102711,56,95170,95036,95038,1205,3,17904,12,6,3},
++ {3102712,56,95171,95036,95039,1205,4,17904,12,6,3},
++ {3102713,56,95172,95036,95040,1205,5,17904,12,6,3},
++ {3102714,56,95173,95036,95041,1205,6,17904,12,6,3},
++ {3102715,69,95174,95043,95044,1206,2,22,22,10,10},
++ {3102716,69,95175,95043,95045,1206,3,22,22,10,10},
++ {3102717,69,95176,95043,95046,1206,4,22,22,10,10},
++ {3102718,69,95177,95043,95047,1206,5,22,22,10,10},
++ {3102719,69,95178,95043,95048,1206,6,22,22,10,10},
++ {3102720,63,95179,95050,95051,1207,2,17,17,10,10},
++ {3102721,63,95180,95050,95052,1207,3,17,17,10,10},
++ {3102722,63,95181,95050,95053,1207,4,17,17,10,10},
++ {3102723,63,95182,95050,95054,1207,5,17,17,10,10},
++ {3102724,63,95183,95050,95055,1207,6,17,17,10,10},
++ {3102725,58,95184,95057,95058,1208,2,93492,11,10,3},
++ {3102726,58,95185,95057,95059,1208,3,93492,11,10,3},
++ {3102727,58,95186,95057,95060,1208,4,93492,11,10,3},
++ {3102728,58,95187,95057,95061,1208,5,93492,11,10,3},
++ {3102729,58,95188,95057,95062,1208,6,93492,11,10,3},
++ {3102730,61,95189,95064,95065,1209,2,17966,16,10,4},
++ {3102731,61,95190,95064,95066,1209,3,17966,16,10,4},
++ {3102732,61,95191,95064,95067,1209,4,17966,16,10,4},
++ {3102733,61,95192,95064,95068,1209,5,17966,16,10,4},
++ {3102734,61,95193,95064,95069,1209,6,17966,16,10,4},
++ {3102735,57,95194,95071,95072,1210,2,17877,10,10,4},
++ {3102736,57,95195,95071,95073,1210,3,17877,10,10,4},
++ {3102737,57,95196,95071,95074,1210,4,17877,10,10,4},
++ {3102738,57,95197,95071,95075,1210,5,17877,10,10,4},
++ {3102739,57,95198,95071,95076,1210,6,17877,10,10,4},
++};
++inline const Definition* Find(uint32_t recipe)noexcept{for(const auto& d:Definitions)if(d.recipe==recipe)return &d;return nullptr;}
++class Custody;
++class Proof final {
++ friend class Custody;
++ Client* client_=nullptr;uint32_t recipe_=0;bool claimed_=false;
++ Proof(Client& c,uint32_t r):client_(&c),recipe_(r){}
++public:
++ ~Proof()=default;Proof(const Proof&)=delete;Proof&operator=(const Proof&)=delete;
++};
++class Custody final {
++ static thread_local Proof* current_;
++ static std::unique_ptr<Proof> Execute(Client&,const Definition&,DBTradeskillRecipe_Struct&,
++  Object*,EQ::ItemInstance*,int16_t,uint8_t,bool)noexcept;
++public:
++ static std::unique_ptr<Proof> Manual(Client&,DBTradeskillRecipe_Struct&,Object*,EQ::ItemInstance*,int16_t)noexcept;
++ static std::unique_ptr<Proof> Auto(Client&,DBTradeskillRecipe_Struct&,uint32_t,uint32_t)noexcept;
++ static bool Complete(Client&,std::unique_ptr<Proof>,DBTradeskillRecipe_Struct&);
++ static bool Claim(Client&,const DBTradeskillRecipe_Struct&)noexcept;
++ static bool WorldAllowed(uint32_t zone,uint32_t parent)noexcept;
++};
++}
+--- a/zone/zonedb.cpp
++++ b/zone/zonedb.cpp
+@@ -1,3 +1,4 @@
++#include "trophy_certificate55.h"
+ /*	EQEmu: EQEmulator
+ 
+ 	Copyright (C) 2001-2026 EQEmu Development Team
+@@ -274,6 +275,7 @@
+ 
+ void ZoneDatabase::SaveWorldContainer(uint32 zone_id, uint32 parent_id, const EQ::ItemInstance* container)
+ {
++ if(!TrophyCertificate55::Custody::WorldAllowed(zone_id,parent_id))return;
+ 	if (!container) {
+ 		return;
+ 	}
+@@ -317,6 +319,7 @@
+ 
+ void ZoneDatabase::DeleteWorldContainer(uint32 parent_id, uint32 zone_id)
+ {
++ if(!TrophyCertificate55::Custody::WorldAllowed(zone_id,parent_id))return;
+ 	ObjectContentsRepository::DeleteWhere(
+ 		database,
+ 		fmt::format(

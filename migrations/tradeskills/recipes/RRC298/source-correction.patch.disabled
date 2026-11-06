@@ -1,0 +1,12 @@
+--- a/zone/trophy_certificate55.cpp
++++ b/zone/trophy_certificate55.cpp
+@@ -45,7 +45,8 @@
+  auto& inv=c.GetInv();
+  try {
+   if(!zone||!Shape(d,spec)||!Actor(c,d)||!FirePersonalOccurrenceSource::NativeInventoryFence::ProfileAllowed(&inv))return nullptr;
+-  const auto who=c.CharacterID(),account=c.AccountID(),z=zone->GetZoneID(),version=zone->GetInstanceVersion();
++  const auto who=c.CharacterID(),account=c.AccountID(),z=zone->GetZoneID();
++  const auto version=zone->GetInstanceVersion();
+   auto reservation=c.InventorySessionReleaseTicket();auto lease=reservation?reservation->SnapshotFor(c):std::nullopt;
+   if(!who||!account||!lease||!lease->active||!c.HasInventorySessionReservation()||lease->actor.character_id!=who||lease->actor.account_id!=account)return nullptr;
+   const uint32_t world_id=world?world->GetDBID():0;

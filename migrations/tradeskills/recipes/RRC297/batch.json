@@ -1,0 +1,701 @@
+{
+  "batch": "RRC297",
+  "branch": "rof2-tradeskills",
+  "status": "SOURCE_PENDING_PUBLICATION_AND_EXACT_SQL_GO",
+  "proposed_ids": [
+    3102679,
+    3102684
+  ],
+  "counts": {
+    "recipes": 6,
+    "entries": 24,
+    "item_dependencies": 16,
+    "unchanged_prototype_recipes": 0,
+    "unchanged_prototype_entries": 0
+  },
+  "recipes": [
+    {
+      "id": 3102679,
+      "name": "Essence of Orc",
+      "tradeskill": 59,
+      "skillneeded": 0,
+      "trivial": 195,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Literal older Alchemy routes;positive firsthand or TSS training context;labelled era floors;RRC297.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 11,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3102680,
+      "name": "Deep Orc Essence",
+      "tradeskill": 59,
+      "skillneeded": 0,
+      "trivial": 195,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Literal older Alchemy routes;positive firsthand or TSS training context;labelled era floors;RRC297.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 11,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3102681,
+      "name": "Simple Black Dye",
+      "tradeskill": 59,
+      "skillneeded": 0,
+      "trivial": 31,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Literal older Alchemy routes;positive firsthand or TSS training context;labelled era floors;RRC297.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 12,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3102682,
+      "name": "Simple Blue Dye",
+      "tradeskill": 59,
+      "skillneeded": 0,
+      "trivial": 46,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Literal older Alchemy routes;positive firsthand or TSS training context;labelled era floors;RRC297.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 12,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3102683,
+      "name": "Simple Green Dye",
+      "tradeskill": 59,
+      "skillneeded": 0,
+      "trivial": 38,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Literal older Alchemy routes;positive firsthand or TSS training context;labelled era floors;RRC297.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 12,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3102684,
+      "name": "Simple Red Dye",
+      "tradeskill": 59,
+      "skillneeded": 0,
+      "trivial": 54,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Literal older Alchemy routes;positive firsthand or TSS training context;labelled era floors;RRC297.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 12,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    }
+  ],
+  "entries": [
+    {
+      "recipe_id": 3102679,
+      "item_id": 21967,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3102679,
+      "item_id": 93174,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3102679,
+      "item_id": 93175,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3102679,
+      "item_id": 17771,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3102680,
+      "item_id": 9731,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3102680,
+      "item_id": 32636,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 2,
+      "salvagecount": 2,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3102680,
+      "item_id": 93175,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3102680,
+      "item_id": 17771,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3102681,
+      "item_id": 58145,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3102681,
+      "item_id": 98268,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3102681,
+      "item_id": 98287,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3102681,
+      "item_id": 17811,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3102682,
+      "item_id": 58088,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3102682,
+      "item_id": 98269,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3102682,
+      "item_id": 98287,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3102682,
+      "item_id": 17811,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3102683,
+      "item_id": 58042,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3102683,
+      "item_id": 98275,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3102683,
+      "item_id": 98287,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3102683,
+      "item_id": 17811,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3102684,
+      "item_id": 58066,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3102684,
+      "item_id": 98286,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3102684,
+      "item_id": 98287,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3102684,
+      "item_id": 17811,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    }
+  ],
+  "unchanged_prototype_recipes": [],
+  "unchanged_prototype_entries": [],
+  "item_dependencies": [
+    {
+      "id": 9731,
+      "name": "Celestial Solvent"
+    },
+    {
+      "id": 17771,
+      "name": "Foldable Reinforced Medicine Bag"
+    },
+    {
+      "id": 17811,
+      "name": "Reinforced Medicine Bag"
+    },
+    {
+      "id": 21967,
+      "name": "Wormwood"
+    },
+    {
+      "id": 32636,
+      "name": "Deep Orc Meat"
+    },
+    {
+      "id": 58042,
+      "name": "Green Plant Extract"
+    },
+    {
+      "id": 58066,
+      "name": "Rare Cactus Beetle"
+    },
+    {
+      "id": 58088,
+      "name": "Simple Berry Extract"
+    },
+    {
+      "id": 58145,
+      "name": "Squid Ink"
+    },
+    {
+      "id": 93174,
+      "name": "Essence of Orc"
+    },
+    {
+      "id": 93175,
+      "name": "Deep Orc Essence"
+    },
+    {
+      "id": 98268,
+      "name": "Simple Black Dye"
+    },
+    {
+      "id": 98269,
+      "name": "Simple Blue Dye"
+    },
+    {
+      "id": 98275,
+      "name": "Simple Green Dye"
+    },
+    {
+      "id": 98286,
+      "name": "Simple Red Dye"
+    },
+    {
+      "id": 98287,
+      "name": "Simple Resin"
+    }
+  ],
+  "source_facts": [
+    {
+      "recipe_id": 3102679,
+      "source_view_id": 6208,
+      "source_name": "Essence of Orc",
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=29&rsa=Alchemy",
+      "source_primary_url": "https://www.eqtraders.com/items/show_item.php?item=20786",
+      "source_formula": "Components: Deep Orc Essence, Wormwood\nIn: Medicine Bag, Foldable Medicine Bag, Foldable Reinforced Medicine Bag\nYield: 1\nThis combine may only be made by Shaman\nNotes: EQRecipeID: 33416",
+      "source_current_formula": "Alchemy Components: Deep Orc Essence, Wormwood\nIn: Medicine Bag, Foldable Medicine Bag, Foldable Reinforced Medicine Bag\nYield: 1\nThis combine may only be made by Shaman\nNotes: EQRecipeID: 33416\nTrivial at: 195\nEQ Recipe ID: 33416",
+      "source_catalogue_sha256": "5a9cb4cdd1493a25be702f9aaf609dba648ef5d4db7a08c68436721cb98b87fc",
+      "source_primary_raw_html_sha256": "98ecf57761951577020256230add9d2db228fa3ce5c1fbed0e6045fa329704df",
+      "output_item_id": 93174,
+      "yield_count": 1,
+      "trivial": 195,
+      "nofail": 0,
+      "ingredients": [
+        {
+          "item_id": 21967,
+          "name": "Wormwood",
+          "count": 1
+        },
+        {
+          "item_id": 93175,
+          "name": "Deep Orc Essence",
+          "count": 1
+        }
+      ],
+      "success_roles": {
+        "93174": 1
+      },
+      "failure_roles": {},
+      "container_item_ids": [
+        17771
+      ],
+      "held_source_stations": [],
+      "skillneeded": 0,
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "learning_origin": "OMITTED_LEARNING_ORDINARY0_POLICY",
+      "min_expansion": 11,
+      "era_origin": "FIRSTHAND_FEB2006_EXACT_ESSENCE_FORMULAS_OR_TSS_TRAINING_TRANSCRIPT_FAMILY_CONTEXT;LOCAL_FLOOR_NOT_IMMUTABLE_ALL_FIELD_DATE",
+      "May2013_exact_fields_verified": false,
+      "explicit_same_id_title_binding": null,
+      "source_alias_views": []
+    },
+    {
+      "recipe_id": 3102680,
+      "source_view_id": 5629,
+      "source_name": "Deep Orc Essence",
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=29&rsa=Alchemy",
+      "source_primary_url": "https://www.eqtraders.com/items/show_item.php?item=20785",
+      "source_formula": "Components: Celestial Solvent, Deep Orc Meat (2)\nIn: Medicine Bag, Foldable Medicine Bag, Foldable Reinforced Medicine Bag\nYield: 1\nThis combine may only be made by Shaman\nNotes: EQRecipeID: 33417",
+      "source_current_formula": "Alchemy Components: Celestial Solvent, Deep Orc Meat (2)\nIn: Medicine Bag, Foldable Medicine Bag, Foldable Reinforced Medicine Bag\nYield: 1\nThis combine may only be made by Shaman\nNotes: EQRecipeID: 33417\nTrivial at: 195\nEQ Recipe ID: 33417",
+      "source_catalogue_sha256": "5a9cb4cdd1493a25be702f9aaf609dba648ef5d4db7a08c68436721cb98b87fc",
+      "source_primary_raw_html_sha256": "1ab026f749b49810772ef111b8e071aa3145503c564819a88ec4a6bf079b5e85",
+      "output_item_id": 93175,
+      "yield_count": 1,
+      "trivial": 195,
+      "nofail": 0,
+      "ingredients": [
+        {
+          "item_id": 9731,
+          "name": "Celestial Solvent",
+          "count": 1
+        },
+        {
+          "item_id": 32636,
+          "name": "Deep Orc Meat",
+          "count": 2
+        }
+      ],
+      "success_roles": {
+        "93175": 1
+      },
+      "failure_roles": {},
+      "container_item_ids": [
+        17771
+      ],
+      "held_source_stations": [],
+      "skillneeded": 0,
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "learning_origin": "OMITTED_LEARNING_ORDINARY0_POLICY",
+      "min_expansion": 11,
+      "era_origin": "FIRSTHAND_FEB2006_EXACT_ESSENCE_FORMULAS_OR_TSS_TRAINING_TRANSCRIPT_FAMILY_CONTEXT;LOCAL_FLOOR_NOT_IMMUTABLE_ALL_FIELD_DATE",
+      "May2013_exact_fields_verified": false,
+      "explicit_same_id_title_binding": null,
+      "source_alias_views": []
+    },
+    {
+      "recipe_id": 3102681,
+      "source_view_id": 7835,
+      "source_name": "Simple Black Dye",
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=29&rsa=Alchemy",
+      "source_primary_url": "https://www.eqtraders.com/items/show_item.php?item=57885",
+      "source_formula": "Components: Simple Resin, Squid Ink\nIn: Medicine Bag, Reinforced Medicine Bag, Alchemy Table (Placeable), Alchemy Table, Guild Alchemy Table\nYield: 1\nThis combine may only be made by Shaman\nNotes: EQRecipeID: 36593",
+      "source_current_formula": "Alchemy Components: Simple Resin, Squid Ink\nIn: Medicine Bag, Reinforced Medicine Bag, Alchemy Table (Placeable), Alchemy Table, Guild Alchemy Table\nYield: 1\nThis combine may only be made by Shaman\nNotes: EQRecipeID: 36593\nTrivial at: 31\nEQ Recipe ID: 36593",
+      "source_catalogue_sha256": "5a9cb4cdd1493a25be702f9aaf609dba648ef5d4db7a08c68436721cb98b87fc",
+      "source_primary_raw_html_sha256": "5f4c164e5ba6147f8ed7bfb5b8aab7833309d8765f1ad015e139fa257d483f47",
+      "output_item_id": 98268,
+      "yield_count": 1,
+      "trivial": 31,
+      "nofail": 0,
+      "ingredients": [
+        {
+          "item_id": 58145,
+          "name": "Squid Ink",
+          "count": 1
+        },
+        {
+          "item_id": 98287,
+          "name": "Simple Resin",
+          "count": 1
+        }
+      ],
+      "success_roles": {
+        "98268": 1
+      },
+      "failure_roles": {},
+      "container_item_ids": [
+        17811
+      ],
+      "held_source_stations": [],
+      "skillneeded": 0,
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "learning_origin": "OMITTED_LEARNING_ORDINARY0_POLICY",
+      "min_expansion": 12,
+      "era_origin": "FIRSTHAND_FEB2006_EXACT_ESSENCE_FORMULAS_OR_TSS_TRAINING_TRANSCRIPT_FAMILY_CONTEXT;LOCAL_FLOOR_NOT_IMMUTABLE_ALL_FIELD_DATE",
+      "May2013_exact_fields_verified": false,
+      "explicit_same_id_title_binding": null,
+      "source_alias_views": []
+    },
+    {
+      "recipe_id": 3102682,
+      "source_view_id": 7836,
+      "source_name": "Simple Blue Dye",
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=29&rsa=Alchemy",
+      "source_primary_url": "https://www.eqtraders.com/items/show_item.php?item=57895",
+      "source_formula": "Components: Simple Berry Extract, Simple Resin\nIn: Medicine Bag, Reinforced Medicine Bag, Alchemy Table (Placeable), Alchemy Table, Guild Alchemy Table\nYield: 1\nThis combine may only be made by Shaman\nNotes: EQRecipeID: 36595",
+      "source_current_formula": "Alchemy Components: Simple Berry Extract, Simple Resin\nIn: Medicine Bag, Reinforced Medicine Bag, Alchemy Table (Placeable), Alchemy Table, Guild Alchemy Table\nYield: 1\nThis combine may only be made by Shaman\nNotes: EQRecipeID: 36595\nTrivial at: 46\nEQ Recipe ID: 36595",
+      "source_catalogue_sha256": "5a9cb4cdd1493a25be702f9aaf609dba648ef5d4db7a08c68436721cb98b87fc",
+      "source_primary_raw_html_sha256": "f7142a15c4bffa9ed073b1d419338d14d7b58d50f01369be590eaab102512d80",
+      "output_item_id": 98269,
+      "yield_count": 1,
+      "trivial": 46,
+      "nofail": 0,
+      "ingredients": [
+        {
+          "item_id": 58088,
+          "name": "Simple Berry Extract",
+          "count": 1
+        },
+        {
+          "item_id": 98287,
+          "name": "Simple Resin",
+          "count": 1
+        }
+      ],
+      "success_roles": {
+        "98269": 1
+      },
+      "failure_roles": {},
+      "container_item_ids": [
+        17811
+      ],
+      "held_source_stations": [],
+      "skillneeded": 0,
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "learning_origin": "OMITTED_LEARNING_ORDINARY0_POLICY",
+      "min_expansion": 12,
+      "era_origin": "FIRSTHAND_FEB2006_EXACT_ESSENCE_FORMULAS_OR_TSS_TRAINING_TRANSCRIPT_FAMILY_CONTEXT;LOCAL_FLOOR_NOT_IMMUTABLE_ALL_FIELD_DATE",
+      "May2013_exact_fields_verified": false,
+      "explicit_same_id_title_binding": null,
+      "source_alias_views": []
+    },
+    {
+      "recipe_id": 3102683,
+      "source_view_id": 7837,
+      "source_name": "Simple Green Dye",
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=29&rsa=Alchemy",
+      "source_primary_url": "https://www.eqtraders.com/items/show_item.php?item=57903",
+      "source_formula": "Components: Green Plant Extract, Simple Resin\nIn: Medicine Bag, Reinforced Medicine Bag, Alchemy Table (Placeable), Alchemy Table, Guild Alchemy Table\nYield: 1\nThis combine may only be made by Shaman\nNotes: EQRecipeID: 36594",
+      "source_current_formula": "Alchemy Components: Green Plant Extract, Simple Resin\nIn: Medicine Bag, Reinforced Medicine Bag, Alchemy Table (Placeable), Alchemy Table, Guild Alchemy Table\nYield: 1\nThis combine may only be made by Shaman\nNotes: EQRecipeID: 36594\nTrivial at: 38\nEQ Recipe ID: 36594",
+      "source_catalogue_sha256": "5a9cb4cdd1493a25be702f9aaf609dba648ef5d4db7a08c68436721cb98b87fc",
+      "source_primary_raw_html_sha256": "95544f5f42086875945cd442d463baf253814ba7a73e3f3e888e95d78025b6e0",
+      "output_item_id": 98275,
+      "yield_count": 1,
+      "trivial": 38,
+      "nofail": 0,
+      "ingredients": [
+        {
+          "item_id": 58042,
+          "name": "Green Plant Extract",
+          "count": 1
+        },
+        {
+          "item_id": 98287,
+          "name": "Simple Resin",
+          "count": 1
+        }
+      ],
+      "success_roles": {
+        "98275": 1
+      },
+      "failure_roles": {},
+      "container_item_ids": [
+        17811
+      ],
+      "held_source_stations": [],
+      "skillneeded": 0,
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "learning_origin": "OMITTED_LEARNING_ORDINARY0_POLICY",
+      "min_expansion": 12,
+      "era_origin": "FIRSTHAND_FEB2006_EXACT_ESSENCE_FORMULAS_OR_TSS_TRAINING_TRANSCRIPT_FAMILY_CONTEXT;LOCAL_FLOOR_NOT_IMMUTABLE_ALL_FIELD_DATE",
+      "May2013_exact_fields_verified": false,
+      "explicit_same_id_title_binding": null,
+      "source_alias_views": []
+    },
+    {
+      "recipe_id": 3102684,
+      "source_view_id": 7838,
+      "source_name": "Simple Red Dye",
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=29&rsa=Alchemy",
+      "source_primary_url": "https://www.eqtraders.com/items/show_item.php?item=57907",
+      "source_formula": "Components: Rare Cactus Beetle, Simple Resin\nIn: Medicine Bag, Reinforced Medicine Bag, Alchemy Table (Placeable), Alchemy Table, Guild Alchemy Table\nYield: 1\nThis combine may only be made by Shaman\nNotes: EQRecipeID: 36596",
+      "source_current_formula": "Alchemy Components: Rare Cactus Beetle, Simple Resin\nIn: Medicine Bag, Reinforced Medicine Bag, Alchemy Table (Placeable), Alchemy Table, Guild Alchemy Table\nYield: 1\nThis combine may only be made by Shaman\nNotes: EQRecipeID: 36596\nTrivial at: 54\nEQ Recipe ID: 36596",
+      "source_catalogue_sha256": "5a9cb4cdd1493a25be702f9aaf609dba648ef5d4db7a08c68436721cb98b87fc",
+      "source_primary_raw_html_sha256": "354939c6f496f03e61d9f3a627c3bd6807f8f21c03243d0a5b5931ec310c10e6",
+      "output_item_id": 98286,
+      "yield_count": 1,
+      "trivial": 54,
+      "nofail": 0,
+      "ingredients": [
+        {
+          "item_id": 58066,
+          "name": "Rare Cactus Beetle",
+          "count": 1
+        },
+        {
+          "item_id": 98287,
+          "name": "Simple Resin",
+          "count": 1
+        }
+      ],
+      "success_roles": {
+        "98286": 1
+      },
+      "failure_roles": {},
+      "container_item_ids": [
+        17811
+      ],
+      "held_source_stations": [],
+      "skillneeded": 0,
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "learning_origin": "OMITTED_LEARNING_ORDINARY0_POLICY",
+      "min_expansion": 12,
+      "era_origin": "FIRSTHAND_FEB2006_EXACT_ESSENCE_FORMULAS_OR_TSS_TRAINING_TRANSCRIPT_FAMILY_CONTEXT;LOCAL_FLOOR_NOT_IMMUTABLE_ALL_FIELD_DATE",
+      "May2013_exact_fields_verified": false,
+      "explicit_same_id_title_binding": null,
+      "source_alias_views": []
+    }
+  ],
+  "restriction_review": {
+    "scope": "Six remaining older Alchemy source bodies:Deep Orc Essence/Essence of Orc plus4TSS beginner dyes.16 full18 native dependencies,zero input/output/name peers. Literal original/current IDs, physical roles, yields, trivials and Shaman creator match.",
+    "era": "Feb23,2006 firsthand recipe submission explicitly confirms DeepOrcEssence=2DeepOrcMeat+CelestialSolvent and EssenceOrc=DeepOrcEssence+Wormwood, both195; prior7meat recipe corrected in that primary. TSS Alchemist Garai quest transcript explicitly describes all4 Simple Black/Green/Blue/Red dyes, ingredient pairs and numeric31/38/46/54 with trade UI auto-combines. Labelled local PoR11/TSS12 floors, not immutable per-field historical dates.",
+    "stations": "Only both-source-positive Foldable Reinforced Medicine Bag17771 for2essences and Reinforced Medicine Bag17811 for4dyes; actual bags type9/capacity/size verified. Existing manual/auto native Alchemy Shaman/level25 actor restrictions retained. No actor/item/data normalization. Source itself gives Shaman creator, native25 is reconstruction compatibility, not inferred exact retail source minimum.",
+    "counts": "Nonstack/stack output maxcharges0or1 agrees with physical yield1 and stock SummonItem count. Omitted minimum0/ordinary learning0/book0/quest0/enabled1 and salvage conventions labelled. Quest item purpose does not set native quest1, which would suppress physical creation. All6 task/ingredient acquisitions remain separate native ownership.",
+    "execution": "Source only pending publication and separate one-use SQLGO. No builds/tests/SQL/runtime/native combine acceptance; old routes/player learned references preserved."
+  },
+  "source_urls": [
+    "https://www.eqtraders.com/items/show_item.php?item=20785",
+    "https://www.eqtraders.com/items/show_item.php?item=20786",
+    "https://www.eqtraders.com/items/show_item.php?item=57885",
+    "https://www.eqtraders.com/items/show_item.php?item=57895",
+    "https://www.eqtraders.com/items/show_item.php?item=57903",
+    "https://www.eqtraders.com/items/show_item.php?item=57907",
+    "https://www.eqtraders.com/recipes/recipe_page.php?article=29&rsa=Alchemy"
+  ],
+  "historical_context_urls": [
+    "https://mboards.eqtraders.com/eq/forum/announcements/database-updates-completed/25712-alchemy-recipes",
+    "https://eqtraders.com/articles/article_page.php?article=q243&printer=tree"
+  ],
+  "native_actor_dependency": null,
+  "migration_dependencies": [],
+  "held_source_rows": []
+}

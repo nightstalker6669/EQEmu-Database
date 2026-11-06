@@ -1,0 +1,633 @@
+{
+  "status": "SOURCE_ONLY_FINITE55_CERTIFICATE_EVOLUTION_SQL_HOLD_UNTIL_COMPATIBLE_INSTALL",
+  "parent_installed_receipt_sha256": "0408385327555a85ce46dc68903d93fa454023b5cf7fc67ee6f6bc26694c20c9",
+  "parent_role": "Actual installed Fungal9R2+Fire+RRC290/291/294 source. Compose only exact pinned deltas onto current serving source; preserve all intervening unrelated work.",
+  "patch_sha256": "7443848b87d165c87df43592f2ae6a93e9060432dcd6c0505262d6d1d0b3e415",
+  "files": {
+    "common/fungal_unknown_inventory.h": {
+      "preimage_sha256": "024fdab2328a303151eb30cc10218ec70682596d89409efc3de682906710b23e",
+      "postimage_sha256": "eae629332f0bf49a1535a30e9f11882c954fdcb9f4d9c5fed4220c99fc586372"
+    },
+    "common/inventory_profile.h": {
+      "preimage_sha256": "d70ace597218b9c0e108e15d17977f8f5ce0b12f140d0e29a6c286131a459bc8",
+      "postimage_sha256": "eeb9c2ff331a19ebf7596e38489cd1c7f8cf993e89f7b41952728e2be9960900"
+    },
+    "common/item_instance.h": {
+      "preimage_sha256": "7abd6509ac94499b055c333a8d9d590d686dbc06fb8dcd291280f51346e38351",
+      "postimage_sha256": "e14bb5c64e5bd55294338c17378321d69a18241308945e84afbfb2e0fb8f6627"
+    },
+    "zone/CMakeLists.txt": {
+      "preimage_sha256": "ba3bf47beda2c361f1297bf5cc01bf9acfb6bfd7cfba37e605b5d96e2cefcd5f",
+      "postimage_sha256": "4c668793a0c89f210569bc3582b921a99af1a1cb23720afbf63c1727b5a74b82"
+    },
+    "zone/object.cpp": {
+      "preimage_sha256": "41856c98980b4bf9801dc98b3b070341c43f8f477e77fd86130410264e5c34cf",
+      "postimage_sha256": "09d40b5cfa529c320d45429037ed83f631ab88b123d94dc7d1e54cecec0d75aa"
+    },
+    "zone/object.h": {
+      "preimage_sha256": "5f5f16f92be4f676ba656d3ca38a65bd50bacaab70c0f987e302e29e417e96fb",
+      "postimage_sha256": "e11c7c2bedd3b03fdfeba06c416b91d38c5437d9a6980e1b5f360162bd474dc2"
+    },
+    "zone/tradeskills.cpp": {
+      "preimage_sha256": "053d9c73d4fb6c1962847965c889bdd72e7af3254a9f4df00ef717377f3830b5",
+      "postimage_sha256": "e3169a34148b2a8f0cd489172815202b68027804de682587d96e9e05586930b7"
+    },
+    "zone/trophy_certificate55.cpp": {
+      "preimage_sha256": null,
+      "postimage_sha256": "ad1549b046ad02ffb67b48b48a42b73b086fe237f0580ae433777b453d1f3341"
+    },
+    "zone/trophy_certificate55.h": {
+      "preimage_sha256": null,
+      "postimage_sha256": "ac92ebce3b97e75b5a4e1305aadfb8f35b663069c20e5b76cfcc2b2b02b83ca6"
+    },
+    "zone/zonedb.cpp": {
+      "preimage_sha256": "311a0ae308b779b45097b3019e9a8dbc892ab0d7e46927e636b8a806ef5d5708",
+      "postimage_sha256": "d55ec70c098b8a760732666cae97fa035a2505b2427320cd00eba4731b10670d"
+    }
+  },
+  "recipes": [
+    {
+      "recipe_id": 3102685,
+      "skill": 59,
+      "certificate_item_id": 95144,
+      "beginner_item_id": 95001,
+      "output_item_id": 95002,
+      "evolution_family": 1200,
+      "target_level": 2,
+      "container_id": 17901
+    },
+    {
+      "recipe_id": 3102686,
+      "skill": 59,
+      "certificate_item_id": 95145,
+      "beginner_item_id": 95001,
+      "output_item_id": 95003,
+      "evolution_family": 1200,
+      "target_level": 3,
+      "container_id": 17901
+    },
+    {
+      "recipe_id": 3102687,
+      "skill": 59,
+      "certificate_item_id": 95146,
+      "beginner_item_id": 95001,
+      "output_item_id": 95004,
+      "evolution_family": 1200,
+      "target_level": 4,
+      "container_id": 17901
+    },
+    {
+      "recipe_id": 3102688,
+      "skill": 59,
+      "certificate_item_id": 95147,
+      "beginner_item_id": 95001,
+      "output_item_id": 95005,
+      "evolution_family": 1200,
+      "target_level": 5,
+      "container_id": 17901
+    },
+    {
+      "recipe_id": 3102689,
+      "skill": 59,
+      "certificate_item_id": 95148,
+      "beginner_item_id": 95001,
+      "output_item_id": 95006,
+      "evolution_family": 1200,
+      "target_level": 6,
+      "container_id": 17901
+    },
+    {
+      "recipe_id": 3102690,
+      "skill": 60,
+      "certificate_item_id": 95149,
+      "beginner_item_id": 95008,
+      "output_item_id": 95009,
+      "evolution_family": 1201,
+      "target_level": 2,
+      "container_id": 15
+    },
+    {
+      "recipe_id": 3102691,
+      "skill": 60,
+      "certificate_item_id": 95150,
+      "beginner_item_id": 95008,
+      "output_item_id": 95010,
+      "evolution_family": 1201,
+      "target_level": 3,
+      "container_id": 15
+    },
+    {
+      "recipe_id": 3102692,
+      "skill": 60,
+      "certificate_item_id": 95151,
+      "beginner_item_id": 95008,
+      "output_item_id": 95011,
+      "evolution_family": 1201,
+      "target_level": 4,
+      "container_id": 15
+    },
+    {
+      "recipe_id": 3102693,
+      "skill": 60,
+      "certificate_item_id": 95152,
+      "beginner_item_id": 95008,
+      "output_item_id": 95012,
+      "evolution_family": 1201,
+      "target_level": 5,
+      "container_id": 15
+    },
+    {
+      "recipe_id": 3102694,
+      "skill": 60,
+      "certificate_item_id": 95153,
+      "beginner_item_id": 95008,
+      "output_item_id": 95013,
+      "evolution_family": 1201,
+      "target_level": 6,
+      "container_id": 15
+    },
+    {
+      "recipe_id": 3102695,
+      "skill": 65,
+      "certificate_item_id": 95154,
+      "beginner_item_id": 95015,
+      "output_item_id": 95016,
+      "evolution_family": 1202,
+      "target_level": 2,
+      "container_id": 19
+    },
+    {
+      "recipe_id": 3102696,
+      "skill": 65,
+      "certificate_item_id": 95155,
+      "beginner_item_id": 95015,
+      "output_item_id": 95017,
+      "evolution_family": 1202,
+      "target_level": 3,
+      "container_id": 19
+    },
+    {
+      "recipe_id": 3102697,
+      "skill": 65,
+      "certificate_item_id": 95156,
+      "beginner_item_id": 95015,
+      "output_item_id": 95018,
+      "evolution_family": 1202,
+      "target_level": 4,
+      "container_id": 19
+    },
+    {
+      "recipe_id": 3102698,
+      "skill": 65,
+      "certificate_item_id": 95157,
+      "beginner_item_id": 95015,
+      "output_item_id": 95019,
+      "evolution_family": 1202,
+      "target_level": 5,
+      "container_id": 19
+    },
+    {
+      "recipe_id": 3102699,
+      "skill": 65,
+      "certificate_item_id": 95158,
+      "beginner_item_id": 95015,
+      "output_item_id": 95020,
+      "evolution_family": 1202,
+      "target_level": 6,
+      "container_id": 19
+    },
+    {
+      "recipe_id": 3102700,
+      "skill": 64,
+      "certificate_item_id": 95159,
+      "beginner_item_id": 95022,
+      "output_item_id": 95023,
+      "evolution_family": 1203,
+      "target_level": 2,
+      "container_id": 17910
+    },
+    {
+      "recipe_id": 3102701,
+      "skill": 64,
+      "certificate_item_id": 95160,
+      "beginner_item_id": 95022,
+      "output_item_id": 95024,
+      "evolution_family": 1203,
+      "target_level": 3,
+      "container_id": 17910
+    },
+    {
+      "recipe_id": 3102702,
+      "skill": 64,
+      "certificate_item_id": 95161,
+      "beginner_item_id": 95022,
+      "output_item_id": 95025,
+      "evolution_family": 1203,
+      "target_level": 4,
+      "container_id": 17910
+    },
+    {
+      "recipe_id": 3102703,
+      "skill": 64,
+      "certificate_item_id": 95162,
+      "beginner_item_id": 95022,
+      "output_item_id": 95026,
+      "evolution_family": 1203,
+      "target_level": 5,
+      "container_id": 17910
+    },
+    {
+      "recipe_id": 3102704,
+      "skill": 64,
+      "certificate_item_id": 95163,
+      "beginner_item_id": 95022,
+      "output_item_id": 95027,
+      "evolution_family": 1203,
+      "target_level": 6,
+      "container_id": 17910
+    },
+    {
+      "recipe_id": 3102705,
+      "skill": 68,
+      "certificate_item_id": 95164,
+      "beginner_item_id": 95029,
+      "output_item_id": 95030,
+      "evolution_family": 1204,
+      "target_level": 2,
+      "container_id": 17912
+    },
+    {
+      "recipe_id": 3102706,
+      "skill": 68,
+      "certificate_item_id": 95165,
+      "beginner_item_id": 95029,
+      "output_item_id": 95031,
+      "evolution_family": 1204,
+      "target_level": 3,
+      "container_id": 17912
+    },
+    {
+      "recipe_id": 3102707,
+      "skill": 68,
+      "certificate_item_id": 95166,
+      "beginner_item_id": 95029,
+      "output_item_id": 95032,
+      "evolution_family": 1204,
+      "target_level": 4,
+      "container_id": 17912
+    },
+    {
+      "recipe_id": 3102708,
+      "skill": 68,
+      "certificate_item_id": 95167,
+      "beginner_item_id": 95029,
+      "output_item_id": 95033,
+      "evolution_family": 1204,
+      "target_level": 5,
+      "container_id": 17912
+    },
+    {
+      "recipe_id": 3102709,
+      "skill": 68,
+      "certificate_item_id": 95168,
+      "beginner_item_id": 95029,
+      "output_item_id": 95034,
+      "evolution_family": 1204,
+      "target_level": 6,
+      "container_id": 17912
+    },
+    {
+      "recipe_id": 3102710,
+      "skill": 56,
+      "certificate_item_id": 95169,
+      "beginner_item_id": 95036,
+      "output_item_id": 95037,
+      "evolution_family": 1205,
+      "target_level": 2,
+      "container_id": 17904
+    },
+    {
+      "recipe_id": 3102711,
+      "skill": 56,
+      "certificate_item_id": 95170,
+      "beginner_item_id": 95036,
+      "output_item_id": 95038,
+      "evolution_family": 1205,
+      "target_level": 3,
+      "container_id": 17904
+    },
+    {
+      "recipe_id": 3102712,
+      "skill": 56,
+      "certificate_item_id": 95171,
+      "beginner_item_id": 95036,
+      "output_item_id": 95039,
+      "evolution_family": 1205,
+      "target_level": 4,
+      "container_id": 17904
+    },
+    {
+      "recipe_id": 3102713,
+      "skill": 56,
+      "certificate_item_id": 95172,
+      "beginner_item_id": 95036,
+      "output_item_id": 95040,
+      "evolution_family": 1205,
+      "target_level": 5,
+      "container_id": 17904
+    },
+    {
+      "recipe_id": 3102714,
+      "skill": 56,
+      "certificate_item_id": 95173,
+      "beginner_item_id": 95036,
+      "output_item_id": 95041,
+      "evolution_family": 1205,
+      "target_level": 6,
+      "container_id": 17904
+    },
+    {
+      "recipe_id": 3102715,
+      "skill": 69,
+      "certificate_item_id": 95174,
+      "beginner_item_id": 95043,
+      "output_item_id": 95044,
+      "evolution_family": 1206,
+      "target_level": 2,
+      "container_id": 22
+    },
+    {
+      "recipe_id": 3102716,
+      "skill": 69,
+      "certificate_item_id": 95175,
+      "beginner_item_id": 95043,
+      "output_item_id": 95045,
+      "evolution_family": 1206,
+      "target_level": 3,
+      "container_id": 22
+    },
+    {
+      "recipe_id": 3102717,
+      "skill": 69,
+      "certificate_item_id": 95176,
+      "beginner_item_id": 95043,
+      "output_item_id": 95046,
+      "evolution_family": 1206,
+      "target_level": 4,
+      "container_id": 22
+    },
+    {
+      "recipe_id": 3102718,
+      "skill": 69,
+      "certificate_item_id": 95177,
+      "beginner_item_id": 95043,
+      "output_item_id": 95047,
+      "evolution_family": 1206,
+      "target_level": 5,
+      "container_id": 22
+    },
+    {
+      "recipe_id": 3102719,
+      "skill": 69,
+      "certificate_item_id": 95178,
+      "beginner_item_id": 95043,
+      "output_item_id": 95048,
+      "evolution_family": 1206,
+      "target_level": 6,
+      "container_id": 22
+    },
+    {
+      "recipe_id": 3102720,
+      "skill": 63,
+      "certificate_item_id": 95179,
+      "beginner_item_id": 95050,
+      "output_item_id": 95051,
+      "evolution_family": 1207,
+      "target_level": 2,
+      "container_id": 17
+    },
+    {
+      "recipe_id": 3102721,
+      "skill": 63,
+      "certificate_item_id": 95180,
+      "beginner_item_id": 95050,
+      "output_item_id": 95052,
+      "evolution_family": 1207,
+      "target_level": 3,
+      "container_id": 17
+    },
+    {
+      "recipe_id": 3102722,
+      "skill": 63,
+      "certificate_item_id": 95181,
+      "beginner_item_id": 95050,
+      "output_item_id": 95053,
+      "evolution_family": 1207,
+      "target_level": 4,
+      "container_id": 17
+    },
+    {
+      "recipe_id": 3102723,
+      "skill": 63,
+      "certificate_item_id": 95182,
+      "beginner_item_id": 95050,
+      "output_item_id": 95054,
+      "evolution_family": 1207,
+      "target_level": 5,
+      "container_id": 17
+    },
+    {
+      "recipe_id": 3102724,
+      "skill": 63,
+      "certificate_item_id": 95183,
+      "beginner_item_id": 95050,
+      "output_item_id": 95055,
+      "evolution_family": 1207,
+      "target_level": 6,
+      "container_id": 17
+    },
+    {
+      "recipe_id": 3102725,
+      "skill": 58,
+      "certificate_item_id": 95184,
+      "beginner_item_id": 95057,
+      "output_item_id": 95058,
+      "evolution_family": 1208,
+      "target_level": 2,
+      "container_id": 93492
+    },
+    {
+      "recipe_id": 3102726,
+      "skill": 58,
+      "certificate_item_id": 95185,
+      "beginner_item_id": 95057,
+      "output_item_id": 95059,
+      "evolution_family": 1208,
+      "target_level": 3,
+      "container_id": 93492
+    },
+    {
+      "recipe_id": 3102727,
+      "skill": 58,
+      "certificate_item_id": 95186,
+      "beginner_item_id": 95057,
+      "output_item_id": 95060,
+      "evolution_family": 1208,
+      "target_level": 4,
+      "container_id": 93492
+    },
+    {
+      "recipe_id": 3102728,
+      "skill": 58,
+      "certificate_item_id": 95187,
+      "beginner_item_id": 95057,
+      "output_item_id": 95061,
+      "evolution_family": 1208,
+      "target_level": 5,
+      "container_id": 93492
+    },
+    {
+      "recipe_id": 3102729,
+      "skill": 58,
+      "certificate_item_id": 95188,
+      "beginner_item_id": 95057,
+      "output_item_id": 95062,
+      "evolution_family": 1208,
+      "target_level": 6,
+      "container_id": 93492
+    },
+    {
+      "recipe_id": 3102730,
+      "skill": 61,
+      "certificate_item_id": 95189,
+      "beginner_item_id": 95064,
+      "output_item_id": 95065,
+      "evolution_family": 1209,
+      "target_level": 2,
+      "container_id": 17966
+    },
+    {
+      "recipe_id": 3102731,
+      "skill": 61,
+      "certificate_item_id": 95190,
+      "beginner_item_id": 95064,
+      "output_item_id": 95066,
+      "evolution_family": 1209,
+      "target_level": 3,
+      "container_id": 17966
+    },
+    {
+      "recipe_id": 3102732,
+      "skill": 61,
+      "certificate_item_id": 95191,
+      "beginner_item_id": 95064,
+      "output_item_id": 95067,
+      "evolution_family": 1209,
+      "target_level": 4,
+      "container_id": 17966
+    },
+    {
+      "recipe_id": 3102733,
+      "skill": 61,
+      "certificate_item_id": 95192,
+      "beginner_item_id": 95064,
+      "output_item_id": 95068,
+      "evolution_family": 1209,
+      "target_level": 5,
+      "container_id": 17966
+    },
+    {
+      "recipe_id": 3102734,
+      "skill": 61,
+      "certificate_item_id": 95193,
+      "beginner_item_id": 95064,
+      "output_item_id": 95069,
+      "evolution_family": 1209,
+      "target_level": 6,
+      "container_id": 17966
+    },
+    {
+      "recipe_id": 3102735,
+      "skill": 57,
+      "certificate_item_id": 95194,
+      "beginner_item_id": 95071,
+      "output_item_id": 95072,
+      "evolution_family": 1210,
+      "target_level": 2,
+      "container_id": 17877
+    },
+    {
+      "recipe_id": 3102736,
+      "skill": 57,
+      "certificate_item_id": 95195,
+      "beginner_item_id": 95071,
+      "output_item_id": 95073,
+      "evolution_family": 1210,
+      "target_level": 3,
+      "container_id": 17877
+    },
+    {
+      "recipe_id": 3102737,
+      "skill": 57,
+      "certificate_item_id": 95196,
+      "beginner_item_id": 95071,
+      "output_item_id": 95074,
+      "evolution_family": 1210,
+      "target_level": 4,
+      "container_id": 17877
+    },
+    {
+      "recipe_id": 3102738,
+      "skill": 57,
+      "certificate_item_id": 95197,
+      "beginner_item_id": 95071,
+      "output_item_id": 95075,
+      "evolution_family": 1210,
+      "target_level": 5,
+      "container_id": 17877
+    },
+    {
+      "recipe_id": 3102739,
+      "skill": 57,
+      "certificate_item_id": 95198,
+      "beginner_item_id": 95071,
+      "output_item_id": 95076,
+      "evolution_family": 1210,
+      "target_level": 6,
+      "container_id": 17877
+    }
+  ],
+  "scope": "Only55 certificate transitions. Exactly one ORIGINAL equipped Beginner in Primary13 or Secondary14, same evolving identity/family, to certificate target tier2..6. Consume one physical certificate; no new trophy or fresh GUID/CEI identity. All other recipes fall through stock paths.",
+  "property": "Deep clone retains owned augments and evolving augment identities, signed native serial, charges, attunement, custom data, timers, task-delivered fields, ornaments, activation/equipped/final evolution identity. Only root template ID and evolution amount/progression change; stored color projection follows native definition rule. Owned new ItemData copy replaces owned old copy. Actual before/after full InventoryProjection and EvolvingItemCustody checked.",
+  "atomicity": "Original native session/lease/reservation, exact character/account, exact three recipe roles, actual positive kit or owned open world station, worn full row/GUID/CEI locator and certificate full preimages fenced under strict transaction. Known commit precedes allocation-free map publication; private noncopyable once proof alone permits TradeskillExecute to skip fresh factory output while retaining task count1/normal learning and events. No task/quest history grants.",
+  "unknown": "Unknown COMMIT attaches existing shared UnknownInventory admission primitive for this exact original inventory/item tree; no automatic retry/inverse. Exact noninstanced manual world station also quarantined against stale save/delete/reopen until authoritative process reload. No Fungal task/operation whitelist or table reused.",
+  "limits": [
+    "Requires positive existing native GUID and evolving UID; legacy absent/NULL identity rejects without property mutation.",
+    "Unsupported legacy scaling wrapper rejects without dropping scale/custom property.",
+    "Manual World certificates require noninstanced object_contents custody because legacy table has no instance dimension. Auto World uses personal certificate and actual owned open station, no object_contents write.",
+    "Only certificate transitions implemented. Natural skill-up evolution/type99 thresholds and final level7 are not invented or claimed implemented.",
+    "No native gameplay acceptance claimed."
+  ],
+  "local_policy": "Proposed finite55 literal source NoFail -> native nofail1/trivial0/no-skillups. Omitted skillneeded0/learning0/book0, quest0, enabled1, PoR11 local family floor explicitly labelled; coordinator selection pending.",
+  "tests": 0,
+  "builds": 0,
+  "SQL_execution": 0,
+  "runtime_actions": 0,
+  "source_revision": 3,
+  "focused_correction": {
+    "finding_receipt_sha256": "715a61fc677e56e4dffb5bc67ffccb40196fc9d36c65fce7538e3294f0763c0c",
+    "r1_publication": "eff07774b8a7049ff443750391c4287a32e852f9",
+    "r1_cpp_preimage_sha256": "8dae0f29047a958b297f83f71dcdd7403a186dbb177996f559f9a53ed764b2e0",
+    "r2_cpp_postimage_sha256": "542679d5fb18126a44c2467a2b651585feec0052cb76da50cd168ff90606e622",
+    "correction_patch_sha256": "5524a794bce8548be274747521e4c27855a067d4e64502f5fee8ba88e521e22e",
+    "behavior": "Before any mutation, actor locks each original captured root/evolving-augment locator and compares existing inventory_guid to original worn-row/native GUID. Any mismatch rejects unchanged. Absent locators retain Capture existing independently checked unique legacy policy. Shared helper unchanged; all other assessed boundaries reused. No new tests/build/SQL/runtime."
+  },
+  "compile_correction": {
+    "failed_compile_receipt_sha256": "a0ad7779b71c8b5ae389ea071c62d62a9fbeab62cebd982e461cc65cc4ec3ea8",
+    "prior_publication_prefix": "3c8115d2",
+    "r2_cpp_preimage_sha256": "542679d5fb18126a44c2467a2b651585feec0052cb76da50cd168ff90606e622",
+    "r3_cpp_postimage_sha256": "ad1549b046ad02ffb67b48b48a42b73b086fe237f0580ae433777b453d1f3341",
+    "correction_patch_sha256": "057d046080fb51aa0a5bb20590943569adae14efd696858786d73c8cde64f658",
+    "behavior": "Split version into its own const auto declaration; retain exact native return types and values. Character/account/zone remain original unsignedint; instance version retains actual uint16. No semantic/source-boundary changes or own compile/tests/SQL."
+  }
+}
