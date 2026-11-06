@@ -1,0 +1,31 @@
+{
+  "failed_attempt001": {
+    "status": "STOPPED_NO_RETRY",
+    "SQL_invocations": 1,
+    "published_commit": "acde6a0a7ab892e055acea46709882165d196d3f",
+    "source_sha256": "7f3f1c737ec61016dbdca73ba377431a2d53fadc22741597c15ebedd91fc027f",
+    "package_manifest_sha256": "2af3f37af62d55558dcbfda397df0bab9003bc128c3743bca1ed9e53f531cce2"
+  },
+  "failed_attempt001_audit": {
+    "status": "EXACT_PREIMAGE_UNCHANGED_AFTER_FAILED001_TRANSACTION_CLOSED",
+    "after_counts": {
+      "recipes": 34056,
+      "entries": 259144
+    },
+    "new_recipe_rows": 0,
+    "existing_recipes_entries_learned_unchanged": true,
+    "in_transaction": 0,
+    "readback_sha256": "cd75ec3c65fdb40297518e3cfba63ccc2ce1ac93d9cd3d352927e871c8496c12",
+    "automatic_retry": false,
+    "inverse_executed": false,
+    "source_failure": "Case-insensitive name guard matched captured Folded Sheet Of Acrylia peer4437 omitted from Binary-name discovery exemptions."
+  },
+  "successful_attempt002": {
+    "status": "APPLIED_VERIFIED",
+    "SQL_invocations": 1,
+    "published_commit": "67dc7627a5d7977a027dbaee930523ffd480ebe4",
+    "source_sha256": "7752fa4432642740bbfb01b21c932b8449e09e9b06f21fdbb20a2b402c003033",
+    "package_manifest_sha256": "17079c918e31ef73b2b690c5073da7273548dac7e3f2e89a0f5495d53320ed46"
+  },
+  "revision_boundary": "Fresh publishedr2 and separate explicit attempt002GO; consumed failed001/unchangedreadback preserved. Only casefold peer4437 added;29bodies/2245peer guards unchanged. No automatic retry/inverse/replay."
+}

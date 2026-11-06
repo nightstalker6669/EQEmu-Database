@@ -1,0 +1,31 @@
+{
+  "failed_attempt001": {
+    "status": "STOPPED_NO_RETRY",
+    "SQL_invocations": 1,
+    "published_commit": "f58fe67f3d48982700775b65e15f7f3dd260bc78",
+    "source_sha256": "861221f0defc332dd4272b70caf0f446be4e9961be35a885cbd0f3df117dac31",
+    "package_manifest_sha256": "cdc901c135a900ddcd08f1028aabfd305229e2542d2d83d33e29add3fb320ad4"
+  },
+  "failed_attempt001_audit": {
+    "status": "EXACT_PREIMAGE_UNCHANGED_AFTER_FAILED001_TRANSACTION_CLOSED",
+    "after_counts": {
+      "recipes": 34030,
+      "entries": 258993
+    },
+    "new_recipe_rows": 0,
+    "existing_recipes_entries_learned_unchanged": true,
+    "in_transaction": 0,
+    "readback_sha256": "7548234a44336076637e1c68b751816ad7f391a5316b722f285401550bcfd557",
+    "automatic_retry": false,
+    "inverse_executed": false,
+    "source_failure": "Case-insensitive name guard matched9captured Omelette Du Fromage peers2118..2126 omitted from Binary-name discovery exemptions."
+  },
+  "successful_attempt002": {
+    "status": "APPLIED_VERIFIED",
+    "SQL_invocations": 1,
+    "published_commit": "a9ad20662407c3af37676e5c0a8854afab1c9680",
+    "source_sha256": "99cf7d8fa6b438b035553caa07b09d18a1cea22f29eaa124bd9e599e0f2f09dd",
+    "package_manifest_sha256": "803fe23ecef913bd3117f30f7d8f1a28d928881fc207856e64bddb385a7c6907"
+  },
+  "revision_boundary": "Fresh publishedr2 and separate explicit attempt002GO; consumed failed001/unchangedreadback preserved. Only9alreadycaptured casefold Omelette peers2118..2126 exempted;new26bodies and all71peer preimages unchanged. No automatic retry/inverse/replay."
+}
