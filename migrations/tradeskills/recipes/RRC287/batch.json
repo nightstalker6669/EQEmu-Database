@@ -1,0 +1,2607 @@
+{
+  "batch": "RRC287",
+  "branch": "rof2-tradeskills",
+  "status": "SOURCE_PENDING_PUBLICATION_AND_EXACT_SQL_GO",
+  "proposed_ids": [
+    3102449,
+    3102466
+  ],
+  "counts": {
+    "recipes": 18,
+    "entries": 79,
+    "item_dependencies": 37,
+    "unchanged_prototype_recipes": 0,
+    "unchanged_prototype_entries": 0
+  },
+  "recipes": [
+    {
+      "id": 3102449,
+      "name": "Ceramic Mace Ornament Mold",
+      "tradeskill": 69,
+      "skillneeded": 0,
+      "trivial": 17,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary Pottery;literal wheel21/kiln22 roles;labelled era floor reconstruction;RRC287.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 16,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3102450,
+      "name": "Ceramic Great Mace Ornament Mold",
+      "tradeskill": 69,
+      "skillneeded": 0,
+      "trivial": 17,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary Pottery;literal wheel21/kiln22 roles;labelled era floor reconstruction;RRC287.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 16,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3102451,
+      "name": "Ceramic Blade Ornament Mold",
+      "tradeskill": 69,
+      "skillneeded": 0,
+      "trivial": 17,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary Pottery;literal wheel21/kiln22 roles;labelled era floor reconstruction;RRC287.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 16,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3102452,
+      "name": "Ceramic Great Blade Ornament Mold",
+      "tradeskill": 69,
+      "skillneeded": 0,
+      "trivial": 17,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary Pottery;literal wheel21/kiln22 roles;labelled era floor reconstruction;RRC287.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 16,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3102453,
+      "name": "Ceramic Dagger Ornament Mold",
+      "tradeskill": 69,
+      "skillneeded": 0,
+      "trivial": 17,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary Pottery;literal wheel21/kiln22 roles;labelled era floor reconstruction;RRC287.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 16,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3102454,
+      "name": "Ceramic Spear Ornament Mold",
+      "tradeskill": 69,
+      "skillneeded": 0,
+      "trivial": 17,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary Pottery;literal wheel21/kiln22 roles;labelled era floor reconstruction;RRC287.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 16,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3102455,
+      "name": "Ceramic Spikefist Ornament Mold",
+      "tradeskill": 69,
+      "skillneeded": 0,
+      "trivial": 17,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary Pottery;literal wheel21/kiln22 roles;labelled era floor reconstruction;RRC287.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 16,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3102456,
+      "name": "Unfired Ceramic Mace Ornament Mold",
+      "tradeskill": 69,
+      "skillneeded": 0,
+      "trivial": 302,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary Pottery;literal wheel21/kiln22 roles;labelled era floor reconstruction;RRC287.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 16,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3102457,
+      "name": "Unfired Ceramic Great Mace Ornament Mold",
+      "tradeskill": 69,
+      "skillneeded": 0,
+      "trivial": 295,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary Pottery;literal wheel21/kiln22 roles;labelled era floor reconstruction;RRC287.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 16,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3102458,
+      "name": "Unfired Ceramic Blade Ornament Mold",
+      "tradeskill": 69,
+      "skillneeded": 0,
+      "trivial": 295,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary Pottery;literal wheel21/kiln22 roles;labelled era floor reconstruction;RRC287.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 16,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3102459,
+      "name": "Unfired Ceramic Great Blade Ornament Mold",
+      "tradeskill": 69,
+      "skillneeded": 0,
+      "trivial": 295,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary Pottery;literal wheel21/kiln22 roles;labelled era floor reconstruction;RRC287.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 16,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3102460,
+      "name": "Unfired Ceramic Dagger Ornament Mold",
+      "tradeskill": 69,
+      "skillneeded": 0,
+      "trivial": 288,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary Pottery;literal wheel21/kiln22 roles;labelled era floor reconstruction;RRC287.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 16,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3102461,
+      "name": "Unfired Ceramic Spear Ornament Mold",
+      "tradeskill": 69,
+      "skillneeded": 0,
+      "trivial": 288,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary Pottery;literal wheel21/kiln22 roles;labelled era floor reconstruction;RRC287.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 16,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3102462,
+      "name": "Unfired Ceramic Fist Ornament Mold",
+      "tradeskill": 69,
+      "skillneeded": 0,
+      "trivial": 302,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary Pottery;literal wheel21/kiln22 roles;labelled era floor reconstruction;RRC287.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 16,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3102463,
+      "name": "Mercenary Tableware",
+      "tradeskill": 69,
+      "skillneeded": 0,
+      "trivial": 335,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary Pottery;literal wheel21/kiln22 roles;labelled era floor reconstruction;RRC287.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 18,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3102464,
+      "name": "Brell's Temple Pottery",
+      "tradeskill": 69,
+      "skillneeded": 0,
+      "trivial": 342,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary Pottery;literal wheel21/kiln22 roles;labelled era floor reconstruction;RRC287.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 19,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3102465,
+      "name": "Brell Statuettes",
+      "tradeskill": 69,
+      "skillneeded": 0,
+      "trivial": 328,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary Pottery;literal wheel21/kiln22 roles;labelled era floor reconstruction;RRC287.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 16,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3102466,
+      "name": "Underfoot Artwork",
+      "tradeskill": 69,
+      "skillneeded": 0,
+      "trivial": 355,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary Pottery;literal wheel21/kiln22 roles;labelled era floor reconstruction;RRC287.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 16,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    }
+  ],
+  "entries": [
+    {
+      "recipe_id": 3102449,
+      "item_id": 16908,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3102449,
+      "item_id": 45868,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3102449,
+      "item_id": 45939,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3102449,
+      "item_id": 22,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3102450,
+      "item_id": 16908,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3102450,
+      "item_id": 45869,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3102450,
+      "item_id": 45940,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3102450,
+      "item_id": 22,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3102451,
+      "item_id": 16908,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3102451,
+      "item_id": 45870,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3102451,
+      "item_id": 45941,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3102451,
+      "item_id": 22,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3102452,
+      "item_id": 16908,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3102452,
+      "item_id": 45871,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3102452,
+      "item_id": 45942,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3102452,
+      "item_id": 22,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3102453,
+      "item_id": 16908,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3102453,
+      "item_id": 45872,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3102453,
+      "item_id": 45943,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3102453,
+      "item_id": 22,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3102454,
+      "item_id": 16908,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3102454,
+      "item_id": 45873,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3102454,
+      "item_id": 45944,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3102454,
+      "item_id": 22,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3102455,
+      "item_id": 16908,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3102455,
+      "item_id": 45874,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3102455,
+      "item_id": 45945,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3102455,
+      "item_id": 22,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3102456,
+      "item_id": 45924,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3102456,
+      "item_id": 45938,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 2,
+      "salvagecount": 2,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3102456,
+      "item_id": 45939,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3102456,
+      "item_id": 21,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3102457,
+      "item_id": 45925,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3102457,
+      "item_id": 45938,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 3,
+      "salvagecount": 3,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3102457,
+      "item_id": 45940,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3102457,
+      "item_id": 21,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3102458,
+      "item_id": 45926,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3102458,
+      "item_id": 45938,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 2,
+      "salvagecount": 2,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3102458,
+      "item_id": 45941,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3102458,
+      "item_id": 21,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3102459,
+      "item_id": 45927,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3102459,
+      "item_id": 45938,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 3,
+      "salvagecount": 3,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3102459,
+      "item_id": 45942,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3102459,
+      "item_id": 21,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3102460,
+      "item_id": 45928,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3102460,
+      "item_id": 45938,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3102460,
+      "item_id": 45943,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3102460,
+      "item_id": 21,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3102461,
+      "item_id": 45929,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3102461,
+      "item_id": 45938,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 2,
+      "salvagecount": 2,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3102461,
+      "item_id": 45944,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3102461,
+      "item_id": 21,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3102462,
+      "item_id": 45930,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3102462,
+      "item_id": 45938,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3102462,
+      "item_id": 45945,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3102462,
+      "item_id": 21,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3102463,
+      "item_id": 66968,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3102463,
+      "item_id": 66975,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3102463,
+      "item_id": 22,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3102464,
+      "item_id": 13006,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3102464,
+      "item_id": 16902,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3102464,
+      "item_id": 49982,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3102464,
+      "item_id": 79481,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3102464,
+      "item_id": 79484,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3102464,
+      "item_id": 22,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3102465,
+      "item_id": 13006,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3102465,
+      "item_id": 16900,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3102465,
+      "item_id": 22503,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3102465,
+      "item_id": 49982,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3102465,
+      "item_id": 79482,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3102465,
+      "item_id": 79485,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3102465,
+      "item_id": 22,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3102466,
+      "item_id": 13006,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3102466,
+      "item_id": 16900,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3102466,
+      "item_id": 49982,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3102466,
+      "item_id": 79483,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3102466,
+      "item_id": 79486,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3102466,
+      "item_id": 96904,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3102466,
+      "item_id": 22,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    }
+  ],
+  "unchanged_prototype_recipes": [],
+  "unchanged_prototype_entries": [],
+  "item_dependencies": [
+    {
+      "id": 13006,
+      "name": "Water Flask"
+    },
+    {
+      "id": 16900,
+      "name": "Small Block of Clay"
+    },
+    {
+      "id": 16902,
+      "name": "Large Block of Clay"
+    },
+    {
+      "id": 16908,
+      "name": "High Quality Firing Sheet"
+    },
+    {
+      "id": 22503,
+      "name": "Blue Diamond"
+    },
+    {
+      "id": 45868,
+      "name": "Ceramic Mace Ornament Mold"
+    },
+    {
+      "id": 45869,
+      "name": "Ceramic Great Mace Ornament Mold"
+    },
+    {
+      "id": 45870,
+      "name": "Ceramic Blade Ornament Mold"
+    },
+    {
+      "id": 45871,
+      "name": "Ceramic Great Blade Ornament Mold"
+    },
+    {
+      "id": 45872,
+      "name": "Ceramic Dagger Ornament Mold"
+    },
+    {
+      "id": 45873,
+      "name": "Ceramic Spear Ornament Mold"
+    },
+    {
+      "id": 45874,
+      "name": "Ceramic Spikefist Ornament Mold"
+    },
+    {
+      "id": 45924,
+      "name": "Ceramic Mace Ornament Mold Sketch"
+    },
+    {
+      "id": 45925,
+      "name": "Ceramic Great Mace Ornament Mold Sketch"
+    },
+    {
+      "id": 45926,
+      "name": "Ceramic Blade Ornament Mold Sketch"
+    },
+    {
+      "id": 45927,
+      "name": "Ceramic Great Blade Ornament Mold Sketch"
+    },
+    {
+      "id": 45928,
+      "name": "Ceramic Dagger Ornament Mold Sketch"
+    },
+    {
+      "id": 45929,
+      "name": "Ceramic Spear Ornament Mold Sketch"
+    },
+    {
+      "id": 45930,
+      "name": "Ceramic Fist Ornament Mold Sketch"
+    },
+    {
+      "id": 45938,
+      "name": "Cosgrove Infused Clay"
+    },
+    {
+      "id": 45939,
+      "name": "Unfired Ceramic Mace Ornament Mold"
+    },
+    {
+      "id": 45940,
+      "name": "Unfired Ceramic Great Mace Ornament Mold"
+    },
+    {
+      "id": 45941,
+      "name": "Unfired Ceramic Blade Ornament Mold"
+    },
+    {
+      "id": 45942,
+      "name": "Unfired Ceramic Great Blade Ornament Mold"
+    },
+    {
+      "id": 45943,
+      "name": "Unfired Ceramic Dagger Ornament Mold"
+    },
+    {
+      "id": 45944,
+      "name": "Unfired Ceramic Spear Ornament Mold"
+    },
+    {
+      "id": 45945,
+      "name": "Unfired Ceramic Fist Ornament Mold"
+    },
+    {
+      "id": 49982,
+      "name": "Cosgrove Powder"
+    },
+    {
+      "id": 66968,
+      "name": "Mercenary Tableware"
+    },
+    {
+      "id": 66975,
+      "name": "Durable Clay Mixture"
+    },
+    {
+      "id": 79481,
+      "name": "Fractured Pottery"
+    },
+    {
+      "id": 79482,
+      "name": "Chipped Statuettes"
+    },
+    {
+      "id": 79483,
+      "name": "Damaged Artwork"
+    },
+    {
+      "id": 79484,
+      "name": "Brell's Temple Pottery"
+    },
+    {
+      "id": 79485,
+      "name": "Brell Statuettes"
+    },
+    {
+      "id": 79486,
+      "name": "Underfoot Artwork"
+    },
+    {
+      "id": 96904,
+      "name": "Gem Powder"
+    }
+  ],
+  "source_facts": [
+    {
+      "recipe_id": 3102449,
+      "source_view_id": 10055,
+      "source_name": "Ceramic Mace Ornament Mold",
+      "source_url": "https://www.eqtraders.com/recipes/pottery_recipe_page.php?article=439&rsa=Pottery&sub=UF",
+      "source_primary_url": "https://www.eqtraders.com/items/show_item.php?item=33777",
+      "source_formula": "Components: High Quality Firing Sheet, Unfired Ceramic Mace Ornament Mold\nIn: Kiln, Tanaan Kiln, Kiln (Placeable), Guild Kiln\nYield: 1\nNotes: EQRecipeID: 2985\nCan scribe to learn: Ceramic Weapon Ornament Sketchbook",
+      "source_current_formula": "Pottery Components: High Quality Firing Sheet, Unfired Ceramic Mace Ornament Mold\nIn: Kiln, Tanaan Kiln, Kiln (Placeable), Guild Kiln\nYield: 1\nNotes: EQRecipeID: 2985\nCan scribe to learn: Ceramic Weapon Ornament Sketchbook\nTrivial at: 17\nEQ Recipe ID: 2985",
+      "source_catalogue_sha256": "0d6fc7cf9f51f0e0ae13c639dd40e810b500ca3fd30b51e68dc2a1b482b7aa3e",
+      "source_primary_raw_html_sha256": "4c69b8e053e6c6295390a8809594d434e0d78de390b1958d312408fdef772a96",
+      "output_item_id": 45868,
+      "yield_count": 1,
+      "trivial": 17,
+      "nofail": 0,
+      "ingredients": [
+        {
+          "item_id": 16908,
+          "name": "High Quality Firing Sheet",
+          "count": 1
+        },
+        {
+          "item_id": 45939,
+          "name": "Unfired Ceramic Mace Ornament Mold",
+          "count": 1
+        }
+      ],
+      "success_roles": {
+        "45868": 1
+      },
+      "failure_roles": {},
+      "container_item_ids": [
+        22
+      ],
+      "held_source_stations": [
+        "Tanaan Kiln",
+        "Kiln (Placeable)",
+        "Guild Kiln"
+      ],
+      "skillneeded": 0,
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "learning_origin": "EXPLICIT_CAN_SCRIBE_ORDINARY0",
+      "min_expansion": 16,
+      "era_origin": "THROUGH_ROF_CATALOGUE_AND_QUEST_FAMILY_CONTEXT_LOCAL_FLOOR_NOT_IMMUTABLE_DATE",
+      "May2013_exact_fields_verified": false
+    },
+    {
+      "recipe_id": 3102450,
+      "source_view_id": 10053,
+      "source_name": "Ceramic Great Mace Ornament Mold",
+      "source_url": "https://www.eqtraders.com/recipes/pottery_recipe_page.php?article=439&rsa=Pottery&sub=UF",
+      "source_primary_url": "https://www.eqtraders.com/items/show_item.php?item=33774",
+      "source_formula": "Components: High Quality Firing Sheet, Unfired Ceramic Great Mace Ornament Mold\nIn: Kiln, Tanaan Kiln, Kiln (Placeable), Guild Kiln\nYield: 1\nNotes: EQRecipeID: 2986\nCan scribe to learn: Ceramic Weapon Ornament Sketchbook",
+      "source_current_formula": "Pottery Components: High Quality Firing Sheet, Unfired Ceramic Great Mace Ornament Mold\nIn: Kiln, Tanaan Kiln, Kiln (Placeable), Guild Kiln\nYield: 1\nNotes: EQRecipeID: 2986\nCan scribe to learn: Ceramic Weapon Ornament Sketchbook\nTrivial at: 17\nEQ Recipe ID: 2986",
+      "source_catalogue_sha256": "0d6fc7cf9f51f0e0ae13c639dd40e810b500ca3fd30b51e68dc2a1b482b7aa3e",
+      "source_primary_raw_html_sha256": "5541ca5a6c51f571e642da2960c2c22e9f8cd1bce2543431b94020d934a664b8",
+      "output_item_id": 45869,
+      "yield_count": 1,
+      "trivial": 17,
+      "nofail": 0,
+      "ingredients": [
+        {
+          "item_id": 16908,
+          "name": "High Quality Firing Sheet",
+          "count": 1
+        },
+        {
+          "item_id": 45940,
+          "name": "Unfired Ceramic Great Mace Ornament Mold",
+          "count": 1
+        }
+      ],
+      "success_roles": {
+        "45869": 1
+      },
+      "failure_roles": {},
+      "container_item_ids": [
+        22
+      ],
+      "held_source_stations": [
+        "Tanaan Kiln",
+        "Kiln (Placeable)",
+        "Guild Kiln"
+      ],
+      "skillneeded": 0,
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "learning_origin": "EXPLICIT_CAN_SCRIBE_ORDINARY0",
+      "min_expansion": 16,
+      "era_origin": "THROUGH_ROF_CATALOGUE_AND_QUEST_FAMILY_CONTEXT_LOCAL_FLOOR_NOT_IMMUTABLE_DATE",
+      "May2013_exact_fields_verified": false
+    },
+    {
+      "recipe_id": 3102451,
+      "source_view_id": 10047,
+      "source_name": "Ceramic Blade Ornament Mold",
+      "source_url": "https://www.eqtraders.com/recipes/pottery_recipe_page.php?article=439&rsa=Pottery&sub=UF",
+      "source_primary_url": "https://www.eqtraders.com/items/show_item.php?item=32946",
+      "source_formula": "Components: High Quality Firing Sheet, Unfired Ceramic Blade Ornament Mold\nIn: Kiln, Tanaan Kiln, Kiln (Placeable), Guild Kiln\nYield: 1\nNotes: EQRecipeID: 2987\nCan scribe to learn: Ceramic Weapon Ornament Sketchbook",
+      "source_current_formula": "Pottery Components: High Quality Firing Sheet, Unfired Ceramic Blade Ornament Mold\nIn: Kiln, Tanaan Kiln, Kiln (Placeable), Guild Kiln\nYield: 1\nNotes: EQRecipeID: 2987\nCan scribe to learn: Ceramic Weapon Ornament Sketchbook\nTrivial at: 17\nEQ Recipe ID: 2987",
+      "source_catalogue_sha256": "0d6fc7cf9f51f0e0ae13c639dd40e810b500ca3fd30b51e68dc2a1b482b7aa3e",
+      "source_primary_raw_html_sha256": "c3625f3f68cc4de634d2597a658ea7884279cc61645457a2b40a41f42b272eda",
+      "output_item_id": 45870,
+      "yield_count": 1,
+      "trivial": 17,
+      "nofail": 0,
+      "ingredients": [
+        {
+          "item_id": 16908,
+          "name": "High Quality Firing Sheet",
+          "count": 1
+        },
+        {
+          "item_id": 45941,
+          "name": "Unfired Ceramic Blade Ornament Mold",
+          "count": 1
+        }
+      ],
+      "success_roles": {
+        "45870": 1
+      },
+      "failure_roles": {},
+      "container_item_ids": [
+        22
+      ],
+      "held_source_stations": [
+        "Tanaan Kiln",
+        "Kiln (Placeable)",
+        "Guild Kiln"
+      ],
+      "skillneeded": 0,
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "learning_origin": "EXPLICIT_CAN_SCRIBE_ORDINARY0",
+      "min_expansion": 16,
+      "era_origin": "THROUGH_ROF_CATALOGUE_AND_QUEST_FAMILY_CONTEXT_LOCAL_FLOOR_NOT_IMMUTABLE_DATE",
+      "May2013_exact_fields_verified": false
+    },
+    {
+      "recipe_id": 3102452,
+      "source_view_id": 10051,
+      "source_name": "Ceramic Great Blade Ornament Mold",
+      "source_url": "https://www.eqtraders.com/recipes/pottery_recipe_page.php?article=439&rsa=Pottery&sub=UF",
+      "source_primary_url": "https://www.eqtraders.com/items/show_item.php?item=33771",
+      "source_formula": "Components: High Quality Firing Sheet, Unfired Ceramic Great Blade Ornament Mold\nIn: Kiln, Tanaan Kiln, Kiln (Placeable), Guild Kiln\nYield: 1\nNotes: EQRecipeID: 2988\nCan scribe to learn: Ceramic Weapon Ornament Sketchbook",
+      "source_current_formula": "Pottery Components: High Quality Firing Sheet, Unfired Ceramic Great Blade Ornament Mold\nIn: Kiln, Tanaan Kiln, Kiln (Placeable), Guild Kiln\nYield: 1\nNotes: EQRecipeID: 2988\nCan scribe to learn: Ceramic Weapon Ornament Sketchbook\nTrivial at: 17\nEQ Recipe ID: 2988",
+      "source_catalogue_sha256": "0d6fc7cf9f51f0e0ae13c639dd40e810b500ca3fd30b51e68dc2a1b482b7aa3e",
+      "source_primary_raw_html_sha256": "f4e1a22c0ed9da03806920f8ade953ea10b5986cc2c1e0f5f994a3214f13508c",
+      "output_item_id": 45871,
+      "yield_count": 1,
+      "trivial": 17,
+      "nofail": 0,
+      "ingredients": [
+        {
+          "item_id": 16908,
+          "name": "High Quality Firing Sheet",
+          "count": 1
+        },
+        {
+          "item_id": 45942,
+          "name": "Unfired Ceramic Great Blade Ornament Mold",
+          "count": 1
+        }
+      ],
+      "success_roles": {
+        "45871": 1
+      },
+      "failure_roles": {},
+      "container_item_ids": [
+        22
+      ],
+      "held_source_stations": [
+        "Tanaan Kiln",
+        "Kiln (Placeable)",
+        "Guild Kiln"
+      ],
+      "skillneeded": 0,
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "learning_origin": "EXPLICIT_CAN_SCRIBE_ORDINARY0",
+      "min_expansion": 16,
+      "era_origin": "THROUGH_ROF_CATALOGUE_AND_QUEST_FAMILY_CONTEXT_LOCAL_FLOOR_NOT_IMMUTABLE_DATE",
+      "May2013_exact_fields_verified": false
+    },
+    {
+      "recipe_id": 3102453,
+      "source_view_id": 10049,
+      "source_name": "Ceramic Dagger Ornament Mold",
+      "source_url": "https://www.eqtraders.com/recipes/pottery_recipe_page.php?article=439&rsa=Pottery&sub=UF",
+      "source_primary_url": "https://www.eqtraders.com/items/show_item.php?item=33765",
+      "source_formula": "Components: High Quality Firing Sheet, Unfired Ceramic Dagger Ornament Mold\nIn: Kiln, Tanaan Kiln, Kiln (Placeable), Guild Kiln\nYield: 1\nNotes: EQRecipeID: 2989\nCan scribe to learn: Ceramic Weapon Ornament Sketchbook",
+      "source_current_formula": "Pottery Components: High Quality Firing Sheet, Unfired Ceramic Dagger Ornament Mold\nIn: Kiln, Tanaan Kiln, Kiln (Placeable), Guild Kiln\nYield: 1\nNotes: EQRecipeID: 2989\nCan scribe to learn: Ceramic Weapon Ornament Sketchbook\nTrivial at: 17\nEQ Recipe ID: 2989",
+      "source_catalogue_sha256": "0d6fc7cf9f51f0e0ae13c639dd40e810b500ca3fd30b51e68dc2a1b482b7aa3e",
+      "source_primary_raw_html_sha256": "93eaa4a1d0ebdcf236a69c86e68d2851c4b70770344626e90edcb7fc82160fbc",
+      "output_item_id": 45872,
+      "yield_count": 1,
+      "trivial": 17,
+      "nofail": 0,
+      "ingredients": [
+        {
+          "item_id": 16908,
+          "name": "High Quality Firing Sheet",
+          "count": 1
+        },
+        {
+          "item_id": 45943,
+          "name": "Unfired Ceramic Dagger Ornament Mold",
+          "count": 1
+        }
+      ],
+      "success_roles": {
+        "45872": 1
+      },
+      "failure_roles": {},
+      "container_item_ids": [
+        22
+      ],
+      "held_source_stations": [
+        "Tanaan Kiln",
+        "Kiln (Placeable)",
+        "Guild Kiln"
+      ],
+      "skillneeded": 0,
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "learning_origin": "EXPLICIT_CAN_SCRIBE_ORDINARY0",
+      "min_expansion": 16,
+      "era_origin": "THROUGH_ROF_CATALOGUE_AND_QUEST_FAMILY_CONTEXT_LOCAL_FLOOR_NOT_IMMUTABLE_DATE",
+      "May2013_exact_fields_verified": false
+    },
+    {
+      "recipe_id": 3102454,
+      "source_view_id": 10057,
+      "source_name": "Ceramic Spear Ornament Mold",
+      "source_url": "https://www.eqtraders.com/recipes/pottery_recipe_page.php?article=439&rsa=Pottery&sub=UF",
+      "source_primary_url": "https://www.eqtraders.com/items/show_item.php?item=33780",
+      "source_formula": "Components: High Quality Firing Sheet, Unfired Ceramic Spear Ornament Mold\nIn: Kiln, Tanaan Kiln, Kiln (Placeable), Guild Kiln\nYield: 1\nNotes: EQRecipeID: 2990\nCan scribe to learn: Ceramic Weapon Ornament Sketchbook",
+      "source_current_formula": "Pottery Components: High Quality Firing Sheet, Unfired Ceramic Spear Ornament Mold\nIn: Kiln, Tanaan Kiln, Kiln (Placeable), Guild Kiln\nYield: 1\nNotes: EQRecipeID: 2990\nCan scribe to learn: Ceramic Weapon Ornament Sketchbook\nTrivial at: 17\nEQ Recipe ID: 2990",
+      "source_catalogue_sha256": "0d6fc7cf9f51f0e0ae13c639dd40e810b500ca3fd30b51e68dc2a1b482b7aa3e",
+      "source_primary_raw_html_sha256": "dd1fbe57f907663d8dc0bd255ec5e054613f179b30222cb7b3299ad12488a728",
+      "output_item_id": 45873,
+      "yield_count": 1,
+      "trivial": 17,
+      "nofail": 0,
+      "ingredients": [
+        {
+          "item_id": 16908,
+          "name": "High Quality Firing Sheet",
+          "count": 1
+        },
+        {
+          "item_id": 45944,
+          "name": "Unfired Ceramic Spear Ornament Mold",
+          "count": 1
+        }
+      ],
+      "success_roles": {
+        "45873": 1
+      },
+      "failure_roles": {},
+      "container_item_ids": [
+        22
+      ],
+      "held_source_stations": [
+        "Tanaan Kiln",
+        "Kiln (Placeable)",
+        "Guild Kiln"
+      ],
+      "skillneeded": 0,
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "learning_origin": "EXPLICIT_CAN_SCRIBE_ORDINARY0",
+      "min_expansion": 16,
+      "era_origin": "THROUGH_ROF_CATALOGUE_AND_QUEST_FAMILY_CONTEXT_LOCAL_FLOOR_NOT_IMMUTABLE_DATE",
+      "May2013_exact_fields_verified": false
+    },
+    {
+      "recipe_id": 3102455,
+      "source_view_id": 10059,
+      "source_name": "Ceramic Spikefist Ornament Mold",
+      "source_url": "https://www.eqtraders.com/recipes/pottery_recipe_page.php?article=439&rsa=Pottery&sub=UF",
+      "source_primary_url": "https://www.eqtraders.com/items/show_item.php?item=33768",
+      "source_formula": "Components: High Quality Firing Sheet, Unfired Ceramic Fist Ornament Mold\nIn: Kiln, Tanaan Kiln, Kiln (Placeable), Guild Kiln\nYield: 1\nNotes: EQRecipeID: 2991\nCan scribe to learn: Ceramic Weapon Ornament Sketchbook",
+      "source_current_formula": "Pottery Components: High Quality Firing Sheet, Unfired Ceramic Fist Ornament Mold\nIn: Kiln, Tanaan Kiln, Kiln (Placeable), Guild Kiln\nYield: 1\nNotes: EQRecipeID: 2991\nCan scribe to learn: Ceramic Weapon Ornament Sketchbook\nTrivial at: 17\nEQ Recipe ID: 2991",
+      "source_catalogue_sha256": "0d6fc7cf9f51f0e0ae13c639dd40e810b500ca3fd30b51e68dc2a1b482b7aa3e",
+      "source_primary_raw_html_sha256": "2b16da1d256d8a9abf4c4a9310cb847f6d21910bd84bb880ae43ce25eec176b0",
+      "output_item_id": 45874,
+      "yield_count": 1,
+      "trivial": 17,
+      "nofail": 0,
+      "ingredients": [
+        {
+          "item_id": 16908,
+          "name": "High Quality Firing Sheet",
+          "count": 1
+        },
+        {
+          "item_id": 45945,
+          "name": "Unfired Ceramic Fist Ornament Mold",
+          "count": 1
+        }
+      ],
+      "success_roles": {
+        "45874": 1
+      },
+      "failure_roles": {},
+      "container_item_ids": [
+        22
+      ],
+      "held_source_stations": [
+        "Tanaan Kiln",
+        "Kiln (Placeable)",
+        "Guild Kiln"
+      ],
+      "skillneeded": 0,
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "learning_origin": "EXPLICIT_CAN_SCRIBE_ORDINARY0",
+      "min_expansion": 16,
+      "era_origin": "THROUGH_ROF_CATALOGUE_AND_QUEST_FAMILY_CONTEXT_LOCAL_FLOOR_NOT_IMMUTABLE_DATE",
+      "May2013_exact_fields_verified": false
+    },
+    {
+      "recipe_id": 3102456,
+      "source_view_id": 10056,
+      "source_name": "Unfired Ceramic Mace Ornament Mold",
+      "source_url": "https://www.eqtraders.com/recipes/pottery_recipe_page.php?article=439&rsa=Pottery&sub=UF",
+      "source_primary_url": "https://www.eqtraders.com/items/show_item.php?item=33776",
+      "source_formula": "Components: Ceramic Mace Ornament Mold Sketch, Cosgrove Infused Clay (2)\nIn: Pottery Wheel, Tanaan Pottery Wheel, Pottery Wheel (Placeable), Guild Pottery Wheel\nYield: 1\nNotes: EQRecipeID: 2971\nCan scribe to learn: Ceramic Weapon Ornament Sketchbook",
+      "source_current_formula": "Pottery Components: Ceramic Mace Ornament Mold Sketch, Cosgrove Infused Clay (2)\nIn: Pottery Wheel, Tanaan Pottery Wheel, Pottery Wheel (Placeable), Guild Pottery Wheel\nYield: 1\nNotes: EQRecipeID: 2971\nCan scribe to learn: Ceramic Weapon Ornament Sketchbook\nTrivial at: 302\nEQ Recipe ID: 2971",
+      "source_catalogue_sha256": "0d6fc7cf9f51f0e0ae13c639dd40e810b500ca3fd30b51e68dc2a1b482b7aa3e",
+      "source_primary_raw_html_sha256": "4f4c5c4c0590945264def0edfeb2126ed3294c909365ac06dcedb5d4143bfa2e",
+      "output_item_id": 45939,
+      "yield_count": 1,
+      "trivial": 302,
+      "nofail": 0,
+      "ingredients": [
+        {
+          "item_id": 45924,
+          "name": "Ceramic Mace Ornament Mold Sketch",
+          "count": 1
+        },
+        {
+          "item_id": 45938,
+          "name": "Cosgrove Infused Clay",
+          "count": 2
+        }
+      ],
+      "success_roles": {
+        "45939": 1
+      },
+      "failure_roles": {},
+      "container_item_ids": [
+        21
+      ],
+      "held_source_stations": [
+        "Tanaan Pottery Wheel",
+        "Pottery Wheel (Placeable)",
+        "Guild Pottery Wheel"
+      ],
+      "skillneeded": 0,
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "learning_origin": "EXPLICIT_CAN_SCRIBE_ORDINARY0",
+      "min_expansion": 16,
+      "era_origin": "THROUGH_ROF_CATALOGUE_AND_QUEST_FAMILY_CONTEXT_LOCAL_FLOOR_NOT_IMMUTABLE_DATE",
+      "May2013_exact_fields_verified": false
+    },
+    {
+      "recipe_id": 3102457,
+      "source_view_id": 10054,
+      "source_name": "Unfired Ceramic Great Mace Ornament Mold",
+      "source_url": "https://www.eqtraders.com/recipes/pottery_recipe_page.php?article=439&rsa=Pottery&sub=UF",
+      "source_primary_url": "https://www.eqtraders.com/items/show_item.php?item=33773",
+      "source_formula": "Components: Ceramic Great Mace Ornament Mold Sketch, Cosgrove Infused Clay (3)\nIn: Pottery Wheel, Tanaan Pottery Wheel, Pottery Wheel (Placeable), Guild Pottery Wheel\nYield: 1\nNotes: EQRecipeID: 2972\nCan scribe to learn: Ceramic Weapon Ornament Sketchbook",
+      "source_current_formula": "Pottery Components: Ceramic Great Mace Ornament Mold Sketch, Cosgrove Infused Clay (3)\nIn: Pottery Wheel, Tanaan Pottery Wheel, Pottery Wheel (Placeable), Guild Pottery Wheel\nYield: 1\nNotes: EQRecipeID: 2972\nCan scribe to learn: Ceramic Weapon Ornament Sketchbook\nTrivial at: 295\nEQ Recipe ID: 2972",
+      "source_catalogue_sha256": "0d6fc7cf9f51f0e0ae13c639dd40e810b500ca3fd30b51e68dc2a1b482b7aa3e",
+      "source_primary_raw_html_sha256": "992d4c65a295b398561226ddfbdadb73107de88bf53a92a48d7a9e13104298c8",
+      "output_item_id": 45940,
+      "yield_count": 1,
+      "trivial": 295,
+      "nofail": 0,
+      "ingredients": [
+        {
+          "item_id": 45925,
+          "name": "Ceramic Great Mace Ornament Mold Sketch",
+          "count": 1
+        },
+        {
+          "item_id": 45938,
+          "name": "Cosgrove Infused Clay",
+          "count": 3
+        }
+      ],
+      "success_roles": {
+        "45940": 1
+      },
+      "failure_roles": {},
+      "container_item_ids": [
+        21
+      ],
+      "held_source_stations": [
+        "Tanaan Pottery Wheel",
+        "Pottery Wheel (Placeable)",
+        "Guild Pottery Wheel"
+      ],
+      "skillneeded": 0,
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "learning_origin": "EXPLICIT_CAN_SCRIBE_ORDINARY0",
+      "min_expansion": 16,
+      "era_origin": "THROUGH_ROF_CATALOGUE_AND_QUEST_FAMILY_CONTEXT_LOCAL_FLOOR_NOT_IMMUTABLE_DATE",
+      "May2013_exact_fields_verified": false
+    },
+    {
+      "recipe_id": 3102458,
+      "source_view_id": 10048,
+      "source_name": "Unfired Ceramic Blade Ornament Mold",
+      "source_url": "https://www.eqtraders.com/recipes/pottery_recipe_page.php?article=439&rsa=Pottery&sub=UF",
+      "source_primary_url": "https://www.eqtraders.com/items/show_item.php?item=32945",
+      "source_formula": "Components: Ceramic Blade Ornament Mold Sketch, Cosgrove Infused Clay (2)\nIn: Pottery Wheel, Tanaan Pottery Wheel, Pottery Wheel (Placeable), Guild Pottery Wheel\nYield: 1\nNotes: EQRecipeID: 2973\nCan scribe to learn: Ceramic Weapon Ornament Sketchbook",
+      "source_current_formula": "Pottery Components: Ceramic Blade Ornament Mold Sketch, Cosgrove Infused Clay (2)\nIn: Pottery Wheel, Tanaan Pottery Wheel, Pottery Wheel (Placeable), Guild Pottery Wheel\nYield: 1\nNotes: EQRecipeID: 2973\nCan scribe to learn: Ceramic Weapon Ornament Sketchbook\nTrivial at: 295\nEQ Recipe ID: 2973",
+      "source_catalogue_sha256": "0d6fc7cf9f51f0e0ae13c639dd40e810b500ca3fd30b51e68dc2a1b482b7aa3e",
+      "source_primary_raw_html_sha256": "0195d6fd878e7f06865672035e8efe4040f0bd3ab0ddd4ecc7462a37a6fa6251",
+      "output_item_id": 45941,
+      "yield_count": 1,
+      "trivial": 295,
+      "nofail": 0,
+      "ingredients": [
+        {
+          "item_id": 45926,
+          "name": "Ceramic Blade Ornament Mold Sketch",
+          "count": 1
+        },
+        {
+          "item_id": 45938,
+          "name": "Cosgrove Infused Clay",
+          "count": 2
+        }
+      ],
+      "success_roles": {
+        "45941": 1
+      },
+      "failure_roles": {},
+      "container_item_ids": [
+        21
+      ],
+      "held_source_stations": [
+        "Tanaan Pottery Wheel",
+        "Pottery Wheel (Placeable)",
+        "Guild Pottery Wheel"
+      ],
+      "skillneeded": 0,
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "learning_origin": "EXPLICIT_CAN_SCRIBE_ORDINARY0",
+      "min_expansion": 16,
+      "era_origin": "THROUGH_ROF_CATALOGUE_AND_QUEST_FAMILY_CONTEXT_LOCAL_FLOOR_NOT_IMMUTABLE_DATE",
+      "May2013_exact_fields_verified": false
+    },
+    {
+      "recipe_id": 3102459,
+      "source_view_id": 10052,
+      "source_name": "Unfired Ceramic Great Blade Ornament Mold",
+      "source_url": "https://www.eqtraders.com/recipes/pottery_recipe_page.php?article=439&rsa=Pottery&sub=UF",
+      "source_primary_url": "https://www.eqtraders.com/items/show_item.php?item=33770",
+      "source_formula": "Components: Ceramic Great Blade Ornament Mold Sketch, Cosgrove Infused Clay (3)\nIn: Pottery Wheel, Tanaan Pottery Wheel, Pottery Wheel (Placeable), Guild Pottery Wheel\nYield: 1\nNotes: EQRecipeID: 2974\nCan scribe to learn: Ceramic Weapon Ornament Sketchbook",
+      "source_current_formula": "Pottery Components: Ceramic Great Blade Ornament Mold Sketch, Cosgrove Infused Clay (3)\nIn: Pottery Wheel, Tanaan Pottery Wheel, Pottery Wheel (Placeable), Guild Pottery Wheel\nYield: 1\nNotes: EQRecipeID: 2974\nCan scribe to learn: Ceramic Weapon Ornament Sketchbook\nTrivial at: 295\nEQ Recipe ID: 2974",
+      "source_catalogue_sha256": "0d6fc7cf9f51f0e0ae13c639dd40e810b500ca3fd30b51e68dc2a1b482b7aa3e",
+      "source_primary_raw_html_sha256": "20c7a77e5933e318b3c4a1306dfee5177ee844b83d205446a4915b19b490920b",
+      "output_item_id": 45942,
+      "yield_count": 1,
+      "trivial": 295,
+      "nofail": 0,
+      "ingredients": [
+        {
+          "item_id": 45927,
+          "name": "Ceramic Great Blade Ornament Mold Sketch",
+          "count": 1
+        },
+        {
+          "item_id": 45938,
+          "name": "Cosgrove Infused Clay",
+          "count": 3
+        }
+      ],
+      "success_roles": {
+        "45942": 1
+      },
+      "failure_roles": {},
+      "container_item_ids": [
+        21
+      ],
+      "held_source_stations": [
+        "Tanaan Pottery Wheel",
+        "Pottery Wheel (Placeable)",
+        "Guild Pottery Wheel"
+      ],
+      "skillneeded": 0,
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "learning_origin": "EXPLICIT_CAN_SCRIBE_ORDINARY0",
+      "min_expansion": 16,
+      "era_origin": "THROUGH_ROF_CATALOGUE_AND_QUEST_FAMILY_CONTEXT_LOCAL_FLOOR_NOT_IMMUTABLE_DATE",
+      "May2013_exact_fields_verified": false
+    },
+    {
+      "recipe_id": 3102460,
+      "source_view_id": 10050,
+      "source_name": "Unfired Ceramic Dagger Ornament Mold",
+      "source_url": "https://www.eqtraders.com/recipes/pottery_recipe_page.php?article=439&rsa=Pottery&sub=UF",
+      "source_primary_url": "https://www.eqtraders.com/items/show_item.php?item=33764",
+      "source_formula": "Components: Ceramic Dagger Ornament Mold Sketch, Cosgrove Infused Clay\nIn: Pottery Wheel, Tanaan Pottery Wheel, Pottery Wheel (Placeable), Guild Pottery Wheel\nYield: 1\nNotes: EQRecipeID: 2975\nCan scribe to learn: Ceramic Weapon Ornament Sketchbook",
+      "source_current_formula": "Pottery Components: Ceramic Dagger Ornament Mold Sketch, Cosgrove Infused Clay\nIn: Pottery Wheel, Tanaan Pottery Wheel, Pottery Wheel (Placeable), Guild Pottery Wheel\nYield: 1\nNotes: EQRecipeID: 2975\nCan scribe to learn: Ceramic Weapon Ornament Sketchbook\nTrivial at: 288\nEQ Recipe ID: 2975",
+      "source_catalogue_sha256": "0d6fc7cf9f51f0e0ae13c639dd40e810b500ca3fd30b51e68dc2a1b482b7aa3e",
+      "source_primary_raw_html_sha256": "66b8b9a6df61d257b1a8a08dbda851fd038ad36e31d318db71ad3f5643a7ea3a",
+      "output_item_id": 45943,
+      "yield_count": 1,
+      "trivial": 288,
+      "nofail": 0,
+      "ingredients": [
+        {
+          "item_id": 45928,
+          "name": "Ceramic Dagger Ornament Mold Sketch",
+          "count": 1
+        },
+        {
+          "item_id": 45938,
+          "name": "Cosgrove Infused Clay",
+          "count": 1
+        }
+      ],
+      "success_roles": {
+        "45943": 1
+      },
+      "failure_roles": {},
+      "container_item_ids": [
+        21
+      ],
+      "held_source_stations": [
+        "Tanaan Pottery Wheel",
+        "Pottery Wheel (Placeable)",
+        "Guild Pottery Wheel"
+      ],
+      "skillneeded": 0,
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "learning_origin": "EXPLICIT_CAN_SCRIBE_ORDINARY0",
+      "min_expansion": 16,
+      "era_origin": "THROUGH_ROF_CATALOGUE_AND_QUEST_FAMILY_CONTEXT_LOCAL_FLOOR_NOT_IMMUTABLE_DATE",
+      "May2013_exact_fields_verified": false
+    },
+    {
+      "recipe_id": 3102461,
+      "source_view_id": 10058,
+      "source_name": "Unfired Ceramic Spear Ornament Mold",
+      "source_url": "https://www.eqtraders.com/recipes/pottery_recipe_page.php?article=439&rsa=Pottery&sub=UF",
+      "source_primary_url": "https://www.eqtraders.com/items/show_item.php?item=33779",
+      "source_formula": "Components: Ceramic Spear Ornament Mold Sketch, Cosgrove Infused Clay (2)\nIn: Pottery Wheel, Tanaan Pottery Wheel, Pottery Wheel (Placeable), Guild Pottery Wheel\nYield: 1\nNotes: EQRecipeID: 2976\nCan scribe to learn: Ceramic Weapon Ornament Sketchbook",
+      "source_current_formula": "Pottery Components: Ceramic Spear Ornament Mold Sketch, Cosgrove Infused Clay (2)\nIn: Pottery Wheel, Tanaan Pottery Wheel, Pottery Wheel (Placeable), Guild Pottery Wheel\nYield: 1\nNotes: EQRecipeID: 2976\nCan scribe to learn: Ceramic Weapon Ornament Sketchbook\nTrivial at: 288\nEQ Recipe ID: 2976",
+      "source_catalogue_sha256": "0d6fc7cf9f51f0e0ae13c639dd40e810b500ca3fd30b51e68dc2a1b482b7aa3e",
+      "source_primary_raw_html_sha256": "0174d32283023bdf2b6a035d58a1c17fd65cda24225730b706fa5f15952fa1e9",
+      "output_item_id": 45944,
+      "yield_count": 1,
+      "trivial": 288,
+      "nofail": 0,
+      "ingredients": [
+        {
+          "item_id": 45929,
+          "name": "Ceramic Spear Ornament Mold Sketch",
+          "count": 1
+        },
+        {
+          "item_id": 45938,
+          "name": "Cosgrove Infused Clay",
+          "count": 2
+        }
+      ],
+      "success_roles": {
+        "45944": 1
+      },
+      "failure_roles": {},
+      "container_item_ids": [
+        21
+      ],
+      "held_source_stations": [
+        "Tanaan Pottery Wheel",
+        "Pottery Wheel (Placeable)",
+        "Guild Pottery Wheel"
+      ],
+      "skillneeded": 0,
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "learning_origin": "EXPLICIT_CAN_SCRIBE_ORDINARY0",
+      "min_expansion": 16,
+      "era_origin": "THROUGH_ROF_CATALOGUE_AND_QUEST_FAMILY_CONTEXT_LOCAL_FLOOR_NOT_IMMUTABLE_DATE",
+      "May2013_exact_fields_verified": false
+    },
+    {
+      "recipe_id": 3102462,
+      "source_view_id": 10060,
+      "source_name": "Unfired Ceramic Fist Ornament Mold",
+      "source_url": "https://www.eqtraders.com/recipes/pottery_recipe_page.php?article=439&rsa=Pottery&sub=UF",
+      "source_primary_url": "https://www.eqtraders.com/items/show_item.php?item=33767",
+      "source_formula": "Components: Ceramic Fist Ornament Mold Sketch, Cosgrove Infused Clay\nIn: Pottery Wheel, Tanaan Pottery Wheel, Pottery Wheel (Placeable), Guild Pottery Wheel\nYield: 1\nNotes: EQRecipeID: 2977\nCan scribe to learn: Ceramic Weapon Ornament Sketchbook",
+      "source_current_formula": "Pottery Components: Ceramic Fist Ornament Mold Sketch, Cosgrove Infused Clay\nIn: Pottery Wheel, Tanaan Pottery Wheel, Pottery Wheel (Placeable), Guild Pottery Wheel\nYield: 1\nNotes: EQRecipeID: 2977\nCan scribe to learn: Ceramic Weapon Ornament Sketchbook\nTrivial at: 302\nEQ Recipe ID: 2977",
+      "source_catalogue_sha256": "0d6fc7cf9f51f0e0ae13c639dd40e810b500ca3fd30b51e68dc2a1b482b7aa3e",
+      "source_primary_raw_html_sha256": "0653fc1f17b1dbca4da68f0b8b2563dc1cffc32baa50d312e4c74e99981d97be",
+      "output_item_id": 45945,
+      "yield_count": 1,
+      "trivial": 302,
+      "nofail": 0,
+      "ingredients": [
+        {
+          "item_id": 45930,
+          "name": "Ceramic Fist Ornament Mold Sketch",
+          "count": 1
+        },
+        {
+          "item_id": 45938,
+          "name": "Cosgrove Infused Clay",
+          "count": 1
+        }
+      ],
+      "success_roles": {
+        "45945": 1
+      },
+      "failure_roles": {},
+      "container_item_ids": [
+        21
+      ],
+      "held_source_stations": [
+        "Tanaan Pottery Wheel",
+        "Pottery Wheel (Placeable)",
+        "Guild Pottery Wheel"
+      ],
+      "skillneeded": 0,
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "learning_origin": "EXPLICIT_CAN_SCRIBE_ORDINARY0",
+      "min_expansion": 16,
+      "era_origin": "THROUGH_ROF_CATALOGUE_AND_QUEST_FAMILY_CONTEXT_LOCAL_FLOOR_NOT_IMMUTABLE_DATE",
+      "May2013_exact_fields_verified": false
+    },
+    {
+      "recipe_id": 3102463,
+      "source_view_id": 2920,
+      "source_name": "Mercenary Tableware",
+      "source_url": "https://www.eqtraders.com/recipes/pottery_recipe_page.php?article=550&rsa=Pottery&sub=VoA",
+      "source_primary_url": "https://www.eqtraders.com/items/show_item.php?item=38325",
+      "source_formula": "Components: Durable Clay Mixture\nIn: Kiln, Tanaan Kiln, Kiln (Placeable)\nYield: 1\nNotes: EQRecipeID: 4950",
+      "source_current_formula": "Pottery Components: Durable Clay Mixture\nIn: Kiln, Tanaan Kiln, Kiln (Placeable)\nYield: 1\nNotes: EQRecipeID: 4950\nTrivial at: 335\nEQ Recipe ID: 4950",
+      "source_catalogue_sha256": "9281525c4151caed842e749bcaa7dde73240146eff78fa845b95c16a9d230a88",
+      "source_primary_raw_html_sha256": "103897ef84d6de7705d4f878e15408d8b5c59364c3e909df23417a9be741dd94",
+      "output_item_id": 66968,
+      "yield_count": 1,
+      "trivial": 335,
+      "nofail": 0,
+      "ingredients": [
+        {
+          "item_id": 66975,
+          "name": "Durable Clay Mixture",
+          "count": 1
+        }
+      ],
+      "success_roles": {
+        "66968": 1
+      },
+      "failure_roles": {},
+      "container_item_ids": [
+        22
+      ],
+      "held_source_stations": [
+        "Tanaan Kiln",
+        "Kiln (Placeable)"
+      ],
+      "skillneeded": 0,
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "learning_origin": "OMITTED_LEARNING_ORDINARY0_POLICY",
+      "min_expansion": 18,
+      "era_origin": "THROUGH_ROF_CATALOGUE_AND_QUEST_FAMILY_CONTEXT_LOCAL_FLOOR_NOT_IMMUTABLE_DATE",
+      "May2013_exact_fields_verified": false
+    },
+    {
+      "recipe_id": 3102464,
+      "source_view_id": 28279,
+      "source_name": "Brell's Temple Pottery",
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=385&rsa=Pottery&sub=quest",
+      "source_primary_url": "https://www.eqtraders.com/items/show_item.php?item=40403",
+      "source_formula": "Components: Cosgrove Powder, Fractured Pottery, Large Block of Clay, Water Flask\nIn: Kiln, Tanaan Kiln, Kiln (Placeable), Guild Kiln\nYield: 1\nNotes: EQRecipeID: 4957\nQuest: Coldain Shawl 3.0 #3: Treasure!\nNOTE: This recipe will NOT advance your Pottery Trophy, you must use recipes that combine in a pottery wheel to evolve your Pottery Trophy.",
+      "source_current_formula": "Pottery Components: Cosgrove Powder, Fractured Pottery, Large Block of Clay, Water Flask\nIn: Kiln, Tanaan Kiln, Kiln (Placeable), Guild Kiln\nYield: 1\nNotes: EQRecipeID: 4957\nQuest: Coldain Shawl 3.0 #3: Treasure!\nNOTE: This recipe will NOT advance your Pottery Trophy, you must use recipes that combine in a pottery wheel to evolve your Pottery Trophy.\nTrivial at: 342\nEQ Recipe ID: 4957",
+      "source_catalogue_sha256": "292b55e0c9fcd9b2f6c2ceaf9be7c4a15a6e890a7e6a8107c0be7c50f4d2f98b",
+      "source_primary_raw_html_sha256": "452afb8409ed406e5c9c22d669088119d7547050aa66efdebe8508ff443cf170",
+      "output_item_id": 79484,
+      "yield_count": 1,
+      "trivial": 342,
+      "nofail": 0,
+      "ingredients": [
+        {
+          "item_id": 13006,
+          "name": "Water Flask",
+          "count": 1
+        },
+        {
+          "item_id": 16902,
+          "name": "Large Block of Clay",
+          "count": 1
+        },
+        {
+          "item_id": 49982,
+          "name": "Cosgrove Powder",
+          "count": 1
+        },
+        {
+          "item_id": 79481,
+          "name": "Fractured Pottery",
+          "count": 1
+        }
+      ],
+      "success_roles": {
+        "79484": 1
+      },
+      "failure_roles": {},
+      "container_item_ids": [
+        22
+      ],
+      "held_source_stations": [
+        "Tanaan Kiln",
+        "Kiln (Placeable)",
+        "Guild Kiln"
+      ],
+      "skillneeded": 0,
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "learning_origin": "OMITTED_LEARNING_ORDINARY0_POLICY",
+      "min_expansion": 19,
+      "era_origin": "THROUGH_ROF_CATALOGUE_AND_QUEST_FAMILY_CONTEXT_LOCAL_FLOOR_NOT_IMMUTABLE_DATE",
+      "May2013_exact_fields_verified": false
+    },
+    {
+      "recipe_id": 3102465,
+      "source_view_id": 956,
+      "source_name": "Brell Statuettes",
+      "source_url": "https://www.eqtraders.com/recipes/pottery_recipe_page.php?article=564&rsa=Pottery&sub=ROF",
+      "source_primary_url": "https://www.eqtraders.com/items/show_item.php?item=40401",
+      "source_formula": "Components: Blue Diamond, Chipped Statuettes, Cosgrove Powder, Small Block of Clay, Water Flask\nIn: Kiln, Tanaan Kiln, Kiln (Placeable), Guild Kiln\nYield: 1\nNotes: EQRecipeID: 4958\nNOTE: This recipe will NOT advance your Pottery Trophy, you must use recipes that combine in a pottery wheel to evolve your Pottery Trophy.",
+      "source_current_formula": "Pottery Components: Blue Diamond, Chipped Statuettes, Cosgrove Powder, Small Block of Clay, Water Flask\nIn: Kiln, Tanaan Kiln, Kiln (Placeable), Guild Kiln\nYield: 1\nNotes: EQRecipeID: 4958\nNOTE: This recipe will NOT advance your Pottery Trophy, you must use recipes that combine in a pottery wheel to evolve your Pottery Trophy.\nTrivial at: 328\nEQ Recipe ID: 4958",
+      "source_catalogue_sha256": "4d6f959a5db5b6b2b66845a7080a71a0a02ab77aee22aee5291cd38557e93b62",
+      "source_primary_raw_html_sha256": "957c0b802c57e4cf472117901743eff43c38abe9ce87867d17c59a204d24cfb7",
+      "output_item_id": 79485,
+      "yield_count": 1,
+      "trivial": 328,
+      "nofail": 0,
+      "ingredients": [
+        {
+          "item_id": 13006,
+          "name": "Water Flask",
+          "count": 1
+        },
+        {
+          "item_id": 16900,
+          "name": "Small Block of Clay",
+          "count": 1
+        },
+        {
+          "item_id": 22503,
+          "name": "Blue Diamond",
+          "count": 1
+        },
+        {
+          "item_id": 49982,
+          "name": "Cosgrove Powder",
+          "count": 1
+        },
+        {
+          "item_id": 79482,
+          "name": "Chipped Statuettes",
+          "count": 1
+        }
+      ],
+      "success_roles": {
+        "79485": 1
+      },
+      "failure_roles": {},
+      "container_item_ids": [
+        22
+      ],
+      "held_source_stations": [
+        "Tanaan Kiln",
+        "Kiln (Placeable)",
+        "Guild Kiln"
+      ],
+      "skillneeded": 0,
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "learning_origin": "OMITTED_LEARNING_ORDINARY0_POLICY",
+      "min_expansion": 16,
+      "era_origin": "THROUGH_ROF_CATALOGUE_AND_QUEST_FAMILY_CONTEXT_LOCAL_FLOOR_NOT_IMMUTABLE_DATE",
+      "May2013_exact_fields_verified": false
+    },
+    {
+      "recipe_id": 3102466,
+      "source_view_id": 1188,
+      "source_name": "Underfoot Artwork",
+      "source_url": "https://www.eqtraders.com/recipes/pottery_recipe_page.php?article=564&rsa=Pottery&sub=ROF",
+      "source_primary_url": "https://www.eqtraders.com/items/show_item.php?item=40402",
+      "source_formula": "Components: Cosgrove Powder, Damaged Artwork, Gem Powder, Small Block of Clay, Water Flask\nIn: Kiln, Tanaan Kiln, Kiln (Placeable), Guild Kiln\nYield: 1\nNotes: EQRecipeID: 4959\nNOTE: This recipe will NOT advance your Pottery Trophy, you must use recipes that combine in a pottery wheel to evolve your Pottery Trophy.",
+      "source_current_formula": "Pottery Components: Cosgrove Powder, Damaged Artwork, Gem Powder, Small Block of Clay, Water Flask\nIn: Kiln, Tanaan Kiln, Kiln (Placeable), Guild Kiln\nYield: 1\nNotes: EQRecipeID: 4959\nNOTE: This recipe will NOT advance your Pottery Trophy, you must use recipes that combine in a pottery wheel to evolve your Pottery Trophy.\nTrivial at: 355\nEQ Recipe ID: 4959",
+      "source_catalogue_sha256": "4d6f959a5db5b6b2b66845a7080a71a0a02ab77aee22aee5291cd38557e93b62",
+      "source_primary_raw_html_sha256": "5745b5b2fdd107ee744b4672e0b6ba885165df34b4d9f3eb40acdb929b7edfe6",
+      "output_item_id": 79486,
+      "yield_count": 1,
+      "trivial": 355,
+      "nofail": 0,
+      "ingredients": [
+        {
+          "item_id": 13006,
+          "name": "Water Flask",
+          "count": 1
+        },
+        {
+          "item_id": 16900,
+          "name": "Small Block of Clay",
+          "count": 1
+        },
+        {
+          "item_id": 49982,
+          "name": "Cosgrove Powder",
+          "count": 1
+        },
+        {
+          "item_id": 79483,
+          "name": "Damaged Artwork",
+          "count": 1
+        },
+        {
+          "item_id": 96904,
+          "name": "Gem Powder",
+          "count": 1
+        }
+      ],
+      "success_roles": {
+        "79486": 1
+      },
+      "failure_roles": {},
+      "container_item_ids": [
+        22
+      ],
+      "held_source_stations": [
+        "Tanaan Kiln",
+        "Kiln (Placeable)",
+        "Guild Kiln"
+      ],
+      "skillneeded": 0,
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "learning_origin": "OMITTED_LEARNING_ORDINARY0_POLICY",
+      "min_expansion": 16,
+      "era_origin": "THROUGH_ROF_CATALOGUE_AND_QUEST_FAMILY_CONTEXT_LOCAL_FLOOR_NOT_IMMUTABLE_DATE",
+      "May2013_exact_fields_verified": false
+    }
+  ],
+  "restriction_review": {
+    "scope": "Whole85remaining Pottery groups/90views triaged:18literal/native-fullinput-absent new routes proposed together,72views remain held.14ceramic mold steps(7unfired+7fired),BrellStatuettes,UnderfootArtwork,MercenaryTableware,BrellsTemplePottery.170primary target profiles41retained/129bounded captures plus8unfired ingredient captures;37full18native dependencies,zero output-use/name/fullinput matches.",
+    "source": "All selected component IDs,counts,yields,numeric trivials and toolreturns agree between original catalogue/current primary body. Seven source output links originally absent were recovered ONLY from same-name/same-native-ID authenticated fired-sibling component primary profiles; all7actual unfired current recipe bodies independently matched. Source row without a link is not authority by itself.8sketch/clay primary profiles captured separately, no guessed ID/name substitution.",
+    "stations": "Every route positively lists ordinary native world PotteryWheel21 orKiln22 in BOTH original/current source. World capacity10 and literaloccupiedcells apply; no item-definition BagSlots mutation, portable/named/guild/placeable substitution or station-object creation. Current other station links remain unqualified.",
+    "learning": "14ceramic steps explicitly Can scribe to learn Ceramic Weapon Ornament Sketchbook:ordinary0 optional learning supported; no mandatory book invented. Other4ordinary0/skillminimum0/quest0/enabled1/salvage conventions are labelled reconstruction where source omits fields.2VahShir-only routes held pending exact creator actor; no wearer-race shortcut.",
+    "era": "Current numeric source bodies are not immutable May2013 per-field dates. Local throughRoF family/quest floors16forUFceramic/repairs,18forMercenaryTableware,19forBrellsTemplePottery/ColdainShawl3.0 remain explicit reconstruction. No dating current ornament formulas using old output names/import timestamps.",
+    "holds": "72views across67groups:53modern ornament identity changes(candidate native124xxx/127xxx/134xxx versus current explicit153xxx IDs),10views with same-input conflicting outputs(PlanarSeals/Extravagant/StalwartCharms),5trophies,2VahShir creator actor gates,1SoloistDream mandatory learning unresolved,1FineXakraJar nonnumeric trivial.53current source IDs are evidence of drift, not permission to silently backport new output IDs or fabricate old recipe correctness.",
+    "preservation": "Add18headers/entries only;native37full18dependency guards,all-state output producer universe/fullinput/name collision checks,new IDrange/count/learned guards. No existing/item/book/object/player changes; no actor/code dependency. Rollback refuses learned references.",
+    "execution": "Source only pending coordinator disposition/exact GitHub publication/separate one-use SQL GO. No SQL,tests,rehearsal,build,runtime/native combine acceptance."
+  },
+  "source_urls": [
+    "https://www.eqtraders.com/items/show_item.php?item=32945",
+    "https://www.eqtraders.com/items/show_item.php?item=32946",
+    "https://www.eqtraders.com/items/show_item.php?item=33764",
+    "https://www.eqtraders.com/items/show_item.php?item=33765",
+    "https://www.eqtraders.com/items/show_item.php?item=33767",
+    "https://www.eqtraders.com/items/show_item.php?item=33768",
+    "https://www.eqtraders.com/items/show_item.php?item=33770",
+    "https://www.eqtraders.com/items/show_item.php?item=33771",
+    "https://www.eqtraders.com/items/show_item.php?item=33773",
+    "https://www.eqtraders.com/items/show_item.php?item=33774",
+    "https://www.eqtraders.com/items/show_item.php?item=33776",
+    "https://www.eqtraders.com/items/show_item.php?item=33777",
+    "https://www.eqtraders.com/items/show_item.php?item=33779",
+    "https://www.eqtraders.com/items/show_item.php?item=33780",
+    "https://www.eqtraders.com/items/show_item.php?item=38325",
+    "https://www.eqtraders.com/items/show_item.php?item=40401",
+    "https://www.eqtraders.com/items/show_item.php?item=40402",
+    "https://www.eqtraders.com/items/show_item.php?item=40403",
+    "https://www.eqtraders.com/recipes/pottery_recipe_page.php?article=439&rsa=Pottery&sub=UF",
+    "https://www.eqtraders.com/recipes/pottery_recipe_page.php?article=550&rsa=Pottery&sub=VoA",
+    "https://www.eqtraders.com/recipes/pottery_recipe_page.php?article=564&rsa=Pottery&sub=ROF",
+    "https://www.eqtraders.com/recipes/recipe_page.php?article=385&rsa=Pottery&sub=quest"
+  ],
+  "historical_context_urls": [
+    "https://www.eqtraders.com/recipes/pottery_recipe_page.php?article=439&rsa=Pottery&sub=UF",
+    "https://www.eqtraders.com/recipes/pottery_recipe_page.php?article=564&rsa=Pottery&sub=ROF"
+  ],
+  "native_actor_dependency": null,
+  "migration_dependencies": [],
+  "held_source_rows": [
+    {
+      "view_id": 28265,
+      "name": "Apprentice Potter Trophy",
+      "reason": "TROPHY_NATIVE_TASK_EVOLUTION_GATE_NOT_QUALIFIED"
+    },
+    {
+      "view_id": 28266,
+      "name": "Expert Potter Trophy",
+      "reason": "TROPHY_NATIVE_TASK_EVOLUTION_GATE_NOT_QUALIFIED"
+    },
+    {
+      "view_id": 28267,
+      "name": "Freshman Potter Trophy",
+      "reason": "TROPHY_NATIVE_TASK_EVOLUTION_GATE_NOT_QUALIFIED"
+    },
+    {
+      "view_id": 28276,
+      "name": "Journeyman Potter Trophy",
+      "reason": "TROPHY_NATIVE_TASK_EVOLUTION_GATE_NOT_QUALIFIED"
+    },
+    {
+      "view_id": 28277,
+      "name": "Master Potter Trophy",
+      "reason": "TROPHY_NATIVE_TASK_EVOLUTION_GATE_NOT_QUALIFIED"
+    },
+    {
+      "view_id": 942,
+      "name": "Arcane Maul of Celestial Destiny Ornamentation",
+      "reason": "PRIMARY_ID_CONFLICT_HOLD",
+      "error_type": "AssertionError",
+      "line": 35
+    },
+    {
+      "view_id": 944,
+      "name": "Ball of Sunlight Ornamentation",
+      "reason": "PRIMARY_ID_CONFLICT_HOLD",
+      "error_type": "AssertionError",
+      "line": 35
+    },
+    {
+      "view_id": 946,
+      "name": "Barrier of Black Ornamentation",
+      "reason": "PRIMARY_ID_CONFLICT_HOLD",
+      "error_type": "AssertionError",
+      "line": 35
+    },
+    {
+      "view_id": 948,
+      "name": "Blade of War Ornamentation",
+      "reason": "PRIMARY_ID_CONFLICT_HOLD",
+      "error_type": "AssertionError",
+      "line": 35
+    },
+    {
+      "view_id": 950,
+      "name": "Bloodied Berserker's Blade Ornamentation",
+      "reason": "PRIMARY_ID_CONFLICT_HOLD",
+      "error_type": "AssertionError",
+      "line": 35
+    },
+    {
+      "view_id": 952,
+      "name": "Bow of Doom Ornamentation",
+      "reason": "PRIMARY_ID_CONFLICT_HOLD",
+      "error_type": "AssertionError",
+      "line": 35
+    },
+    {
+      "view_id": 954,
+      "name": "Bow of the Whispering Wind Ornamentation",
+      "reason": "PRIMARY_ID_CONFLICT_HOLD",
+      "error_type": "AssertionError",
+      "line": 35
+    },
+    {
+      "view_id": 957,
+      "name": "Bulwark of the Firebringer Ornamentation",
+      "reason": "PRIMARY_ID_CONFLICT_HOLD",
+      "error_type": "AssertionError",
+      "line": 35
+    },
+    {
+      "view_id": 959,
+      "name": "Cauldron Minion Lance Ornamentation",
+      "reason": "PRIMARY_ID_CONFLICT_HOLD",
+      "error_type": "AssertionError",
+      "line": 35
+    },
+    {
+      "view_id": 961,
+      "name": "Centi Warspear Ornamentation",
+      "reason": "PRIMARY_ID_CONFLICT_HOLD",
+      "error_type": "AssertionError",
+      "line": 35
+    },
+    {
+      "view_id": 974,
+      "name": "Equifinis Ornamentation",
+      "reason": "PRIMARY_ID_CONFLICT_HOLD",
+      "error_type": "AssertionError",
+      "line": 35
+    },
+    {
+      "view_id": 976,
+      "name": "Gembladed Axe Ornamentation",
+      "reason": "PRIMARY_ID_CONFLICT_HOLD",
+      "error_type": "AssertionError",
+      "line": 35
+    },
+    {
+      "view_id": 978,
+      "name": "Greatstaff of the Four Winds Ornamentation",
+      "reason": "PRIMARY_ID_CONFLICT_HOLD",
+      "error_type": "AssertionError",
+      "line": 35
+    },
+    {
+      "view_id": 980,
+      "name": "Kranigan's Fist Ornamentation",
+      "reason": "PRIMARY_ID_CONFLICT_HOLD",
+      "error_type": "AssertionError",
+      "line": 35
+    },
+    {
+      "view_id": 982,
+      "name": "Krattk the Lion Tamer Ornamentation",
+      "reason": "PRIMARY_ID_CONFLICT_HOLD",
+      "error_type": "AssertionError",
+      "line": 35
+    },
+    {
+      "view_id": 984,
+      "name": "Mindreaper Club Ornamentation",
+      "reason": "PRIMARY_ID_CONFLICT_HOLD",
+      "error_type": "AssertionError",
+      "line": 35
+    },
+    {
+      "view_id": 986,
+      "name": "Naraithus Ornamentation",
+      "reason": "PRIMARY_ID_CONFLICT_HOLD",
+      "error_type": "AssertionError",
+      "line": 35
+    },
+    {
+      "view_id": 1140,
+      "name": "Rod of the Ruined Ornamentation",
+      "reason": "PRIMARY_ID_CONFLICT_HOLD",
+      "error_type": "AssertionError",
+      "line": 35
+    },
+    {
+      "view_id": 1142,
+      "name": "Runic Bloodstained Maul Ornamentation",
+      "reason": "PRIMARY_ID_CONFLICT_HOLD",
+      "error_type": "AssertionError",
+      "line": 35
+    },
+    {
+      "view_id": 1144,
+      "name": "Shield of Bane Warding Ornamentation",
+      "reason": "PRIMARY_ID_CONFLICT_HOLD",
+      "error_type": "AssertionError",
+      "line": 35
+    },
+    {
+      "view_id": 1146,
+      "name": "Shinai of the Ancients Ornamentation",
+      "reason": "PRIMARY_ID_CONFLICT_HOLD",
+      "error_type": "AssertionError",
+      "line": 35
+    },
+    {
+      "view_id": 1161,
+      "name": "Soloist Planar Chest Seal of the Seafarer",
+      "reason": "IDENTICAL_SOURCE_INPUTS_WITH_CONFLICTING_OUTPUTS_UNRESOLVED",
+      "error_type": "AssertionError",
+      "line": 29
+    },
+    {
+      "view_id": 1164,
+      "name": "Soloist Planar Chest Seal of the Traveler",
+      "reason": "IDENTICAL_SOURCE_INPUTS_WITH_CONFLICTING_OUTPUTS_UNRESOLVED",
+      "error_type": "AssertionError",
+      "line": 29
+    },
+    {
+      "view_id": 1182,
+      "name": "Split Blade of Destruction Ornamentation",
+      "reason": "PRIMARY_ID_CONFLICT_HOLD",
+      "error_type": "AssertionError",
+      "line": 35
+    },
+    {
+      "view_id": 1184,
+      "name": "Swiftcleave, the Flesh Carver Ornamentation",
+      "reason": "PRIMARY_ID_CONFLICT_HOLD",
+      "error_type": "AssertionError",
+      "line": 35
+    },
+    {
+      "view_id": 1186,
+      "name": "Timeless Coral Greatsword Ornamentation",
+      "reason": "PRIMARY_ID_CONFLICT_HOLD",
+      "error_type": "AssertionError",
+      "line": 35
+    },
+    {
+      "view_id": 1189,
+      "name": "Validus Custodus Longbow Ornamentation",
+      "reason": "PRIMARY_ID_CONFLICT_HOLD",
+      "error_type": "AssertionError",
+      "line": 35
+    },
+    {
+      "view_id": 1191,
+      "name": "Vanazir, Dreamer's Despair Ornamentation",
+      "reason": "PRIMARY_ID_CONFLICT_HOLD",
+      "error_type": "AssertionError",
+      "line": 35
+    },
+    {
+      "view_id": 2753,
+      "name": "Aegis of Blackscales Ornamentation",
+      "reason": "PRIMARY_ID_CONFLICT_HOLD",
+      "error_type": "AssertionError",
+      "line": 35
+    },
+    {
+      "view_id": 2756,
+      "name": "Ancient Prismatic Brawl Stick Ornamentation",
+      "reason": "PRIMARY_ID_CONFLICT_HOLD",
+      "error_type": "AssertionError",
+      "line": 35
+    },
+    {
+      "view_id": 2758,
+      "name": "Black Handled Bonebreaker Ornamentation",
+      "reason": "PRIMARY_ID_CONFLICT_HOLD",
+      "error_type": "AssertionError",
+      "line": 35
+    },
+    {
+      "view_id": 2760,
+      "name": "Brightwood Spear Ornamentation",
+      "reason": "PRIMARY_ID_CONFLICT_HOLD",
+      "error_type": "AssertionError",
+      "line": 35
+    },
+    {
+      "view_id": 2764,
+      "name": "Darkblade of the Warlord Ornamentation",
+      "reason": "PRIMARY_ID_CONFLICT_HOLD",
+      "error_type": "AssertionError",
+      "line": 35
+    },
+    {
+      "view_id": 2914,
+      "name": "Glowing Black Stone Ornamentation",
+      "reason": "PRIMARY_ID_CONFLICT_HOLD",
+      "error_type": "AssertionError",
+      "line": 35
+    },
+    {
+      "view_id": 2916,
+      "name": "Great Axe of Twin Flames Ornamentation",
+      "reason": "PRIMARY_ID_CONFLICT_HOLD",
+      "error_type": "AssertionError",
+      "line": 35
+    },
+    {
+      "view_id": 2918,
+      "name": "Jagged Onyx Staff Ornamentation",
+      "reason": "PRIMARY_ID_CONFLICT_HOLD",
+      "error_type": "AssertionError",
+      "line": 35
+    },
+    {
+      "view_id": 2929,
+      "name": "Planar Scorched Bladed Mace Ornamentation",
+      "reason": "PRIMARY_ID_CONFLICT_HOLD",
+      "error_type": "AssertionError",
+      "line": 35
+    },
+    {
+      "view_id": 2931,
+      "name": "Planar Scorched Buckler Ornamentation",
+      "reason": "PRIMARY_ID_CONFLICT_HOLD",
+      "error_type": "AssertionError",
+      "line": 35
+    },
+    {
+      "view_id": 2933,
+      "name": "Planar Scorched Cat Claws Ornamentation",
+      "reason": "PRIMARY_ID_CONFLICT_HOLD",
+      "error_type": "AssertionError",
+      "line": 35
+    },
+    {
+      "view_id": 2935,
+      "name": "Planar Scorched Combat Staff Ornamentation",
+      "reason": "PRIMARY_ID_CONFLICT_HOLD",
+      "error_type": "AssertionError",
+      "line": 35
+    },
+    {
+      "view_id": 2937,
+      "name": "Planar Scorched Dueling Blade Ornamentation",
+      "reason": "PRIMARY_ID_CONFLICT_HOLD",
+      "error_type": "AssertionError",
+      "line": 35
+    },
+    {
+      "view_id": 2939,
+      "name": "Planar Scorched Flail Ornamentation",
+      "reason": "PRIMARY_ID_CONFLICT_HOLD",
+      "error_type": "AssertionError",
+      "line": 35
+    },
+    {
+      "view_id": 2941,
+      "name": "Planar Scorched Glaive Ornamentation",
+      "reason": "PRIMARY_ID_CONFLICT_HOLD",
+      "error_type": "AssertionError",
+      "line": 35
+    },
+    {
+      "view_id": 2943,
+      "name": "Planar Scorched Greatbow Ornamentation",
+      "reason": "PRIMARY_ID_CONFLICT_HOLD",
+      "error_type": "AssertionError",
+      "line": 35
+    },
+    {
+      "view_id": 2945,
+      "name": "Planar Scorched Ranseur Ornamentation",
+      "reason": "PRIMARY_ID_CONFLICT_HOLD",
+      "error_type": "AssertionError",
+      "line": 35
+    },
+    {
+      "view_id": 2947,
+      "name": "Sarnak Battle Shield Ornamentation",
+      "reason": "PRIMARY_ID_CONFLICT_HOLD",
+      "error_type": "AssertionError",
+      "line": 35
+    },
+    {
+      "view_id": 2949,
+      "name": "Short Sword of the Ykesha Ornamentation",
+      "reason": "PRIMARY_ID_CONFLICT_HOLD",
+      "error_type": "AssertionError",
+      "line": 35
+    },
+    {
+      "view_id": 2951,
+      "name": "Sister's Opulent Backstabber Ornamentation",
+      "reason": "PRIMARY_ID_CONFLICT_HOLD",
+      "error_type": "AssertionError",
+      "line": 35
+    },
+    {
+      "view_id": 2994,
+      "name": "Staff of Transcendence Ornamentation",
+      "reason": "PRIMARY_ID_CONFLICT_HOLD",
+      "error_type": "AssertionError",
+      "line": 35
+    },
+    {
+      "view_id": 2996,
+      "name": "The Sword of Ssraeshza Ornamentation",
+      "reason": "PRIMARY_ID_CONFLICT_HOLD",
+      "error_type": "AssertionError",
+      "line": 35
+    },
+    {
+      "view_id": 2998,
+      "name": "Transient Bow of Solar Winds Ornamentation",
+      "reason": "PRIMARY_ID_CONFLICT_HOLD",
+      "error_type": "AssertionError",
+      "line": 35
+    },
+    {
+      "view_id": 3000,
+      "name": "Vyledorinajirnak Ornamentation",
+      "reason": "PRIMARY_ID_CONFLICT_HOLD",
+      "error_type": "AssertionError",
+      "line": 35
+    },
+    {
+      "view_id": 3002,
+      "name": "Wurmslayer Ornamentation",
+      "reason": "PRIMARY_ID_CONFLICT_HOLD",
+      "error_type": "AssertionError",
+      "line": 35
+    },
+    {
+      "view_id": 9824,
+      "name": "Extravagant Charm of Spiritual Conviction",
+      "reason": "IDENTICAL_SOURCE_INPUTS_WITH_CONFLICTING_OUTPUTS_UNRESOLVED",
+      "error_type": "AssertionError",
+      "line": 29
+    },
+    {
+      "view_id": 9825,
+      "name": "Extravagant Charm of Spiritual Conviction",
+      "reason": "IDENTICAL_SOURCE_INPUTS_WITH_CONFLICTING_OUTPUTS_UNRESOLVED",
+      "error_type": "AssertionError",
+      "line": 29
+    },
+    {
+      "view_id": 9826,
+      "name": "Extravagant Charm of Spiritual Corruption",
+      "reason": "IDENTICAL_SOURCE_INPUTS_WITH_CONFLICTING_OUTPUTS_UNRESOLVED",
+      "error_type": "AssertionError",
+      "line": 29
+    },
+    {
+      "view_id": 9827,
+      "name": "Extravagant Charm of Spiritual Corruption",
+      "reason": "IDENTICAL_SOURCE_INPUTS_WITH_CONFLICTING_OUTPUTS_UNRESOLVED",
+      "error_type": "AssertionError",
+      "line": 29
+    },
+    {
+      "view_id": 9877,
+      "name": "Obsidian Scale Great Hammer Ornamentation",
+      "reason": "PRIMARY_ID_CONFLICT_HOLD",
+      "error_type": "AssertionError",
+      "line": 35
+    },
+    {
+      "view_id": 9879,
+      "name": "Obsidian Scale Hammer Ornamentation",
+      "reason": "PRIMARY_ID_CONFLICT_HOLD",
+      "error_type": "AssertionError",
+      "line": 35
+    },
+    {
+      "view_id": 9905,
+      "name": "Soloist Dream Legging Seal of the Traveler",
+      "reason": "FAMILY_MANDATORY_LEARNING_NOT_POSITIVELY_BOUND",
+      "error_type": "AssertionError",
+      "line": 30
+    },
+    {
+      "view_id": 10173,
+      "name": "Stalwart Charm of Physical Ferocity",
+      "reason": "IDENTICAL_SOURCE_INPUTS_WITH_CONFLICTING_OUTPUTS_UNRESOLVED",
+      "error_type": "AssertionError",
+      "line": 29
+    },
+    {
+      "view_id": 10177,
+      "name": "Stalwart Charm of Physical Force",
+      "reason": "IDENTICAL_SOURCE_INPUTS_WITH_CONFLICTING_OUTPUTS_UNRESOLVED",
+      "error_type": "AssertionError",
+      "line": 29
+    },
+    {
+      "view_id": 10184,
+      "name": "Stalwart Charm of Physical Purpose",
+      "reason": "IDENTICAL_SOURCE_INPUTS_WITH_CONFLICTING_OUTPUTS_UNRESOLVED",
+      "error_type": "AssertionError",
+      "line": 29
+    },
+    {
+      "view_id": 10187,
+      "name": "Stalwart Charm of Physical Refinement",
+      "reason": "IDENTICAL_SOURCE_INPUTS_WITH_CONFLICTING_OUTPUTS_UNRESOLVED",
+      "error_type": "AssertionError",
+      "line": 29
+    },
+    {
+      "view_id": 22969,
+      "name": "Ceramic Claw Sleeve Set",
+      "reason": "EXPLICIT_VAH_SHIR_CREATOR_REQUIRES_SELECTED_NATIVE_ACTOR",
+      "error_type": "AssertionError",
+      "line": 31
+    },
+    {
+      "view_id": 22970,
+      "name": "Ceramic Dagger Sleeve",
+      "reason": "EXPLICIT_VAH_SHIR_CREATOR_REQUIRES_SELECTED_NATIVE_ACTOR",
+      "error_type": "AssertionError",
+      "line": 31
+    },
+    {
+      "view_id": 23135,
+      "name": "Fine Xakra Runed Jar",
+      "reason": "NONNUMERIC_TRIVIAL_HOLD",
+      "error_type": "AssertionError",
+      "line": 32
+    }
+  ]
+}
