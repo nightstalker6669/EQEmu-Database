@@ -1,0 +1,27 @@
+{
+  "status": "SOURCE_DEPENDENCY_ONLY_NOT_COMPILED_OR_INSTALLED",
+  "selected_source_bodies": 126,
+  "new_recipes": 70,
+  "existing_disabled_recipe_corrections": 56,
+  "smithing_selector_rows_before": 1764,
+  "smithing_selector_rows_after": 1890,
+  "files": {
+    "zone/cultural_armor_bulk_actor.h": {
+      "pre_sha256": "8f3639b92ab346ae00c34fa83e7c80cc9ed3f9a34ec8fdd0adcfe895eb901b42",
+      "post_sha256": "683dad188dd1d56709b6ef8ab433294a5779af6823567fdd73fd5b5203e91ded"
+    },
+    "zone/tradeskills.cpp": {
+      "pre_sha256": "912df33c0eafb91c1c579003ecdf92dc1d0b25a13d8306099a2151d21d69dcb7",
+      "post_sha256": "b8b8cf6867105c2574c38d3f05e578a991729ed30f03522db0e16704c2b397b7"
+    }
+  },
+  "patch_sha256": "6f0a8d83e409a1419cd23ff60915a666369d237fa0b79c0da27d1c9685e2cfe5",
+  "behavior": "Both exact selected CulturalArmorBulk manual/auto paths use native WORLD_SIZE after unchanged actual owned open world object/DBID/type/item/profile-race/bag validation. This is actual stationary world container capacity, not an item98306 slot default or physical bag metadata mutation.126 exactDrakkin IDs added in existing sorted lookup;old1764rows and allother CPP predicates preserved.",
+  "container": "Actual world object228165/zone394/type17/item98306, actualnativeprofileRaceDrakkin522;7physical components. Exact source Crystalwing Forge stationary profile and retained actual object;no coordinate trigger or generic portable forge substitution.",
+  "preserved": "Tailoring1148,research821,Gnomish35,bot/core/other predicates unchanged. Existing selected world recipes retain identities and use native world capacity. No Fire/Origin/HT/LoH source or serving artifact touched.",
+  "requirements": "Compatible installed1890 selector plus both native world-capacity callsites required before SQL. Coordinator/GitHub/Build own publication/build/install; this packet creates no authority.",
+  "tests": 0,
+  "builds": 0,
+  "runtime_actions": 0,
+  "SQL_execution": 0
+}

@@ -1,0 +1,24 @@
+{
+  "status": "PASS_RRC283_ACTOR_COMPILED_INSTALLED_SERVER_READY",
+  "evidence_sha256": "c433d708fcabf2f9c1db3daad5c88662b5fcf7f0c5f6c497aa28dba92fe27639",
+  "source_publication": "47ff6973c1fd107bb13c48c1ef293010947968a8",
+  "actor_contract_sha256": "2adb9063172b435808d663e6fc929bd6fad8fe6cf34bfcea6d7e882dbaff8809",
+  "source_patch_sha256": "6f0a8d83e409a1419cd23ff60915a666369d237fa0b79c0da27d1c9685e2cfe5",
+  "installed_source_files": {
+    "zone/bot.cpp": "0d68ba89eb46294fc56ea62a99f4f7f08e74f21a53d6aff9faef0b1e5b141b29",
+    "zone/cultural_armor_bulk_actor.h": "683dad188dd1d56709b6ef8ab433294a5779af6823567fdd73fd5b5203e91ded",
+    "zone/cultural_tailoring_bulk_actor.h": "f346b6690c08e17e10331c58abae5454398f4b2d9ecadaac834771869b4e39c3",
+    "zone/gnomish_tailoring35_actor.h": "7c19d6cb016ac1a6e203e22c7f3957111198c2182f4e179f36b0581df355abe3",
+    "zone/research_tablet335_actor.h": "0208732d67e494a4b4b8e0f3605949aad8866e9ef5a182bc2f419c08c65955df",
+    "zone/tradeskills.cpp": "b8b8cf6867105c2574c38d3f05e578a991729ed30f03522db0e16704c2b397b7"
+  },
+  "installed_zone_sha256": "a4783f53091ef2d480863a3365ff7578e5f069e4c61e4392b1b804ef0fde28b6",
+  "six_running_zone_executables_match_installed_cohort": true,
+  "smithing_selector_rows": 1890,
+  "tailoring_selector_rows_preserved": 1148,
+  "research_selector_rows_preserved": 821,
+  "actor_authority": "SQL HOLD until compatible1890 Smithing selector actor installed, with actual native profile raceDrakkin522 and owned stationary object in manual+auto. Existing1764rows and all other actor predicates preserved; selected world capacity correction also fixes existing generic-world null ItemData yielding0slot check. Tailoring1148/research821/Gnomish35/bot retained, Fire excluded.",
+  "station_boundary": "Positive retained primary Crystalwing Forge profile is a STATIONARY tradeskill container, matching actual object228165/zone394/type17/item98306. Native Object PutItem and GetTradeRecipe use native WORLD_SIZE10 slots independent of item BagSlots. Keep item98306 bagslots0 unchanged. Exact actual owned station/DBID/type/item/profile race remain required; source fix uses native actual world capacity after those checks, no default10 or generic portable fallback.",
+  "native_gameplay_acceptance": false,
+  "label_boundary": "Source-only and SQL HOLD labels historical; later installed actor and authorized actual establish subsequent installed/applied status."
+}

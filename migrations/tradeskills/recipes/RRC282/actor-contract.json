@@ -1,0 +1,34 @@
+{
+  "batch": "RRC282",
+  "status": "SOURCE_ONLY_DATA_APPEND_COMPATIBLE_ACTOR_INSTALL_REQUIRED_BEFORE_SQL",
+  "new_recipe_ids": [
+    3101776,
+    3101831
+  ],
+  "new_recipe_count": 56,
+  "prior_tailoring_requirements_preserved": 1092,
+  "resulting_tailoring_requirements": 1148,
+  "files": {
+    "zone/cultural_tailoring_bulk_actor.h": {
+      "preimage_sha256": "506f920314848180e9cf13737ced5386d3b5cbc5906e3f854bd788e77e60632d",
+      "postimage_sha256": "f346b6690c08e17e10331c58abae5454398f4b2d9ecadaac834771869b4e39c3"
+    }
+  },
+  "required_unchanged_tradeskills_cpp_sha256": "912df33c0eafb91c1c579003ecdf92dc1d0b25a13d8306099a2151d21d69dcb7",
+  "required_unchanged_research821_sha256": "0208732d67e494a4b4b8e0f3605949aad8866e9ef5a182bc2f419c08c65955df",
+  "required_unchanged_smithing1764_sha256": "8f3639b92ab346ae00c34fa83e7c80cc9ed3f9a34ec8fdd0adcfe895eb901b42",
+  "required_unchanged_gnomish35_sha256": "7c19d6cb016ac1a6e203e22c7f3957111198c2182f4e179f36b0581df355abe3",
+  "required_unchanged_bot_sha256": "0d68ba89eb46294fc56ea62a99f4f7f08e74f21a53d6aff9faef0b1e5b141b29",
+  "patch_sha256": "e2826fa8f8af1f9120ef7a3461359549da3fddee9c3ff046fc4b42bfad582926",
+  "actor": "Actual native PP race, same opened manual/owned personal auto kit ID and bagtype/capacity/size through existing compiled helper; no item usemask inference, packet-only inventory ownership or world kit widening. Exact56 new IDs only; all old1092 rows and predicates unchanged.",
+  "source_races": {
+    "DarkElf": 5,
+    "Halfling": 26,
+    "Erudite": 18,
+    "WoodElf": 7
+  },
+  "tests": 0,
+  "builds": 0,
+  "runtime_actions": 0,
+  "SQL_executions": 0
+}
