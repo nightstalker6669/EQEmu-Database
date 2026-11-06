@@ -1,0 +1,40 @@
+{
+  "status": "PASS_RRC307_309_FINAL_ADMISSION_RELEASED_RUNNING_FULL_PAUSE",
+  "startup_receipt_sha256": "91a1e9a2c999c1fa77f38698b31ab3eccfb32481a12f8145781f1374e964e9bd",
+  "release_receipt_sha256": "be8b9fc474e72fca209fd73eb8220dfb610dc23aa766b671849edb8555d236f4",
+  "phaseA_receipt_sha256": "6802bddc0272ec49015c9721addd5510475253c44b4b467ee71ddfc6ec2881c2",
+  "same_original_supervisor_start": "2026-11-06T19:04:18.979854672Z",
+  "same_uninterrupted_runtime_through_release": true,
+  "running_world_sha256": "93334f15d50508449b5af189448be6ca7b5d5efa77491558de3d6f3d0961a31f",
+  "all6_running_zone_sha256": "3ca4f45761ef942a95e47b520a3c4bb5e7f06f8e61df1232f75aa66effdf3079",
+  "actual_native_item23382_maps": {
+    "readers": 7,
+    "world": 1,
+    "zones": 6,
+    "item_id": 23382,
+    "name": "Imbued Northman Kite Shield",
+    "native_record_sha256": "b434e66b9918e1d486a4ecf2d5a7ad4b74892418a4e1fc482b0f80bfb3e55c5d",
+    "item_count": 118697
+  },
+  "Fire_catalogue_preserved": {
+    "all6tasks": 895,
+    "all6valid_selectable_reward_sets": 158,
+    "invalid_delivery_missing_enabled_reward_errors": 0,
+    "preservation_only_no_new_nonrecipe_work": true
+  },
+  "release": {
+    "owned_host4_and_namespace2_rules_absent": true,
+    "world_unlocked": true,
+    "config_untouched_prewindow_default_restored": true,
+    "all_unrelated_firewall_rules_and_chain_policies_preserved": true,
+    "restartpolicy": "no unchanged"
+  },
+  "observation_helper_correction": {
+    "initial": "Read-only item checker retained historical book-filename assertion and exited1; server start and holds succeeded.",
+    "resolution": "Removed only stale book assertion; reran corrected read-only item23382 mapping observer against same running processes, then finished remaining health observations. No second server start, reload, cache generation or runtime mutation."
+  },
+  "no_additional_server_start_or_cache_generation_due_to_observer_correction": true,
+  "native_gameplay_acceptance": false,
+  "acceptance_limits": "Native executable/cache readiness and SQL postimages are proven by existing receipts; no bookread/combine/recipegameplay/property/unknownCOMMIT/appearance acceptance claim.",
+  "after_release": "FULL PAUSE; remaining51groups/RRC310 and all unfinished work remain paused."
+}

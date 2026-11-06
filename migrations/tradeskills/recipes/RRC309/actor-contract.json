@@ -1,0 +1,27 @@
+{
+  "status": "SOURCE_ONLY_FINITE_NORTHMAN309_OVER_SELECTED307_SQL_HOLD",
+  "files": {
+    "zone/final_recipe300.h": {
+      "preimage_sha256": "4e58ee98b0e6a4e257a3b89e0775ed3c01bdd1d545af98665095d7a84e4cffd8",
+      "postimage_sha256": "2b7647fd4af7d8ae0c7aa48340e1aee12dce4b316198f2b8631cdcf02a623d57"
+    },
+    "zone/tradeskills.cpp": {
+      "preimage_sha256": "0eb8d613e7b47d9a0270e9f93978c8e3ab8da0573d899d60a111a60713d41603",
+      "postimage_sha256": "017e5b051202f1151a7b83ec6937451f34b27ed00caa5618473235ed20f4888d"
+    }
+  },
+  "patch_sha256": "bd742145f325e0d76d2d7190ea3acb810a52183c256f3d8f698b53213b2827db",
+  "parent_RRC307_manifest_sha256": "892522a3e3973dfa6b622c5637dd5ab5d458e7fcc15234c9d1b3d073f20520a1",
+  "native_actor_recipes": [
+    3102882
+  ],
+  "scope": "Only Shield3102882: stock native original PlayerProfile race2 Barbarian, actual currently owned world NorthmanForge36/object40/Halas29 version0/item0. Never infer maker Rallos worship from shield wearer deity. Fixed physical output23382 plus success/failure SmithyHammer10489 return, trivial115/must0/nofail0/minimum0 pinned.",
+  "manual": "Reuse existing finite300 original owner ticket/character/account/full original input tree capture before callback, now retaining Shield original selector too. Re-resolve current owned original source before pointer/tree comparison and recheck race/station/output immediately before debit.",
+  "auto": "Original Shield selector, owner ticket/character/account and current owned native world object/container/serial captured before callbacks. Re-resolve current ownership first and require same original source/session immediately predebit. Reject selector swap either direction. Existing parent native input matching/removal semantics retained; no new atomic writer claim.",
+  "definition": "Shield23382 is a separately proposed source-exact ID with labelled full287 sibling/default metadata. Definition-only actual receipt and Build targeted item cache must precede recipe SQL. Spell3102881 uses standard Research path and existing124972 nativevariant, no new127972 item or actor rule.",
+  "preservation": "Narrow2 paths over exact pending307 native preimages, preserve both307 neverlearn rules and all300/301R2/302/303 controls. No changes to other recipes/sourceID aliases/original-owned item state.",
+  "validation": "Source only; no tests/build/rehearsal/runtime/SQL/native acceptance. Coalesce307/309 and later recharge actor work before owner install when practical.",
+  "tests": 0,
+  "builds": 0,
+  "database_writes": 0
+}

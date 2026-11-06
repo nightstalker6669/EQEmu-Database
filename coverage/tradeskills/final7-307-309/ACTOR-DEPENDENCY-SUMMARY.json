@@ -1,0 +1,83 @@
+{
+  "status": "INSTALLED_RUNNING_NATIVE23382_CACHE_VERIFIED_ADMISSION_RELEASED_FULL_PAUSE",
+  "phaseA_receipt_sha256": "6802bddc0272ec49015c9721addd5510475253c44b4b467ee71ddfc6ec2881c2",
+  "compile_receipt_sha256": "3c562745fc638255ac4742ea9d11a52efeed4969eca8c09fc51b7932ae5e1587",
+  "native2_pins": {
+    "zone/final_recipe300.h": {
+      "postimage_sha256": "2b7647fd4af7d8ae0c7aa48340e1aee12dce4b316198f2b8631cdcf02a623d57",
+      "preimage_sha256": "4e58ee98b0e6a4e257a3b89e0775ed3c01bdd1d545af98665095d7a84e4cffd8"
+    },
+    "zone/tradeskills.cpp": {
+      "postimage_sha256": "017e5b051202f1151a7b83ec6937451f34b27ed00caa5618473235ed20f4888d",
+      "preimage_sha256": "0eb8d613e7b47d9a0270e9f93978c8e3ab8da0573d899d60a111a60713d41603"
+    }
+  },
+  "source_publication": "57b84a026fe47de472f933d0fee4e3c680585e58",
+  "source_patch_sha256": "bd742145f325e0d76d2d7190ea3acb810a52183c256f3d8f698b53213b2827db",
+  "focused_actual_selector_integration_historical_compile": "Only Shield3102882 added; original PP race2 Barbarian, owned Northman Forge36/object40/Halas29v0/item0, no maker deity restriction. Exact output23382x1 and hammer10489x1 success/hammerx1 failure, trivial115/must0/nofail0/minimum0 and native shield class/type/charges pinned. Manual original selector/full tree capture and current ownership before tree reused. Auto original selector/ticket/character/account/world/container/serial bound before mutable callbacks, current ownership resolved before comparison and rechecked before debit; both selector-swap directions denied. Existing307neverlearn and all prior source outside exact2pathdelta preserved. No new finding; closed custody assessment reused, no broad review/tests. Item23382 cache remains future installation dependency.",
+  "all_other_parent_source_paths_identical": true,
+  "world_retained_sha256": "93334f15d50508449b5af189448be6ca7b5d5efa77491558de3d6f3d0961a31f",
+  "installed_zone_sha256": "3ca4f45761ef942a95e47b520a3c4bb5e7f06f8e61df1232f75aa66effdf3079",
+  "targeted_item_cache": {
+    "selector": "items",
+    "generator_exit": 0,
+    "added_ids": [
+      23382
+    ],
+    "changed_existing_ids": [],
+    "removed_ids": [],
+    "all_other_existing_native_records_byte_identical": true,
+    "cache_sha256": "77e5cb720db388148a1acfc32d190119bc0165eda7ecc016b0651105db388b4c",
+    "item": {
+      "id": 23382,
+      "name": "Imbued Northman Kite Shield",
+      "native_record_sha256": "b434e66b9918e1d486a4ecf2d5a7ad4b74892418a4e1fc482b0f80bfb3e55c5d"
+    },
+    "spells_sha256_unchanged": "1fb22b3006bd905db33f8af97c9b2b9db7ae6e428bcd03346c7356fcd5703faa",
+    "no_spells_regeneration": true,
+    "definition_actual_receipt_sha256": "ddb34589e699042a8a004b4949b37e91a5cc5a552f01ae86f8d0e40b3679f74d",
+    "definition_not_replayed": true
+  },
+  "native_gameplay_acceptance": false,
+  "final_startup_and_release_pending": false,
+  "startup_and_release": {
+    "status": "PASS_RRC307_309_FINAL_ADMISSION_RELEASED_RUNNING_FULL_PAUSE",
+    "startup_receipt_sha256": "91a1e9a2c999c1fa77f38698b31ab3eccfb32481a12f8145781f1374e964e9bd",
+    "release_receipt_sha256": "be8b9fc474e72fca209fd73eb8220dfb610dc23aa766b671849edb8555d236f4",
+    "phaseA_receipt_sha256": "6802bddc0272ec49015c9721addd5510475253c44b4b467ee71ddfc6ec2881c2",
+    "same_original_supervisor_start": "2026-11-06T19:04:18.979854672Z",
+    "same_uninterrupted_runtime_through_release": true,
+    "running_world_sha256": "93334f15d50508449b5af189448be6ca7b5d5efa77491558de3d6f3d0961a31f",
+    "all6_running_zone_sha256": "3ca4f45761ef942a95e47b520a3c4bb5e7f06f8e61df1232f75aa66effdf3079",
+    "actual_native_item23382_maps": {
+      "readers": 7,
+      "world": 1,
+      "zones": 6,
+      "item_id": 23382,
+      "name": "Imbued Northman Kite Shield",
+      "native_record_sha256": "b434e66b9918e1d486a4ecf2d5a7ad4b74892418a4e1fc482b0f80bfb3e55c5d",
+      "item_count": 118697
+    },
+    "Fire_catalogue_preserved": {
+      "all6tasks": 895,
+      "all6valid_selectable_reward_sets": 158,
+      "invalid_delivery_missing_enabled_reward_errors": 0,
+      "preservation_only_no_new_nonrecipe_work": true
+    },
+    "release": {
+      "owned_host4_and_namespace2_rules_absent": true,
+      "world_unlocked": true,
+      "config_untouched_prewindow_default_restored": true,
+      "all_unrelated_firewall_rules_and_chain_policies_preserved": true,
+      "restartpolicy": "no unchanged"
+    },
+    "observation_helper_correction": {
+      "initial": "Read-only item checker retained historical book-filename assertion and exited1; server start and holds succeeded.",
+      "resolution": "Removed only stale book assertion; reran corrected read-only item23382 mapping observer against same running processes, then finished remaining health observations. No second server start, reload, cache generation or runtime mutation."
+    },
+    "no_additional_server_start_or_cache_generation_due_to_observer_correction": true,
+    "native_gameplay_acceptance": false,
+    "acceptance_limits": "Native executable/cache readiness and SQL postimages are proven by existing receipts; no bookread/combine/recipegameplay/property/unknownCOMMIT/appearance acceptance claim.",
+    "after_release": "FULL PAUSE; remaining51groups/RRC310 and all unfinished work remain paused."
+  }
+}

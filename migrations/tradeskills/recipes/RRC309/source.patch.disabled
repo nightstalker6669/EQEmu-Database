@@ -1,0 +1,90 @@
+--- a/zone/final_recipe300.h
++++ b/zone/final_recipe300.h
+@@ -2,20 +2,21 @@
+ #include <cstdint>
+ #include <cmath>
+ #include <cstring>
+-// Original fourteen plus two explicitly never-learn307 routes only. No global policy.
++// Original fourteen, two never-learn307 routes, one Northman309 route. No global policy.
+ namespace FinalRecipe300 {
+-inline bool Selected(uint32_t id) { return (id >= 3102753 && id <= 3102766) || id == 3102867 || id == 3102868; }
++inline bool Selected(uint32_t id) { return (id >= 3102753 && id <= 3102766) || id == 3102867 || id == 3102868 || id == 3102882; }
+ inline bool NeverLearn(uint32_t id) { return id == 3102756 || id == 3102757 || id == 3102867 || id == 3102868; }
+ inline bool Font(uint32_t id) { return id >= 3102758 && id <= 3102764; }
+ inline uint32_t Skill(uint32_t id) {
+  if (id == 3102867) return 64;
+- if (id == 3102868) return 63;
++ if (id == 3102868 || id == 3102882) return 63;
+  if (id <= 3102754) return 69;
+  if (id == 3102755) return 63;
+  if (NeverLearn(id) || id == 3102766) return 65;
+  return 68;
+ }
+ inline bool RaceAllowed(uint32_t id, uint32_t race) {
++ if (id == 3102882) return race == 2;
+  if (id == 3102867 || id == 3102868) return true;
+  return id <= 3102754 ? race == 130 : id != 3102755 || race == 9;
+ }
+@@ -24,6 +25,7 @@
+  if (!Selected(id) || Font(id) || item != 0) return false;
+  if (id == 3102867) return false; // actual owned portable Fletching Kit only
+  if (id == 3102868) return type == 17;
++ if (id == 3102882) return zone == 29 && version == 0 && object == 40 && type == 36;
+  if (id <= 3102754) return type == 22;
+  if (id == 3102755) return zone == 52 && version == 0 && object == 248 && type == 47;
+  if (NeverLearn(id)) return type == 19;
+--- a/zone/tradeskills.cpp
++++ b/zone/tradeskills.cpp
+@@ -91,6 +91,17 @@
+ bool Final300OutputValid(const DBTradeskillRecipe_Struct& spec) {
+  if (!FinalRecipe300::Selected(spec.recipe_id)) return true;
+  if (uint32_t(spec.tradeskill)!=FinalRecipe300::Skill(spec.recipe_id) || spec.quest) return false;
++ if (spec.recipe_id == 3102882) {
++  const auto* item=database.GetItem(23382);
++  if(!item || item->ItemClass!=0 || item->ItemType!=8 || item->MaxCharges!=0 ||
++   spec.nofail || spec.must_learn || spec.replace_container || spec.skill_needed || spec.trivial!=115)return false;
++  const auto has=[](const auto& items,uint32_t id,uint32_t count) {
++   for(const auto& p:items)if(p.first==id)return p.second==count;
++   return false;
++  };
++  return spec.onsuccess.size()==2 && has(spec.onsuccess,23382,1) && has(spec.onsuccess,10489,1) &&
++   spec.onfail.size()==1 && has(spec.onfail,10489,1);
++ }
+  if (spec.recipe_id == 3102867 || spec.recipe_id == 3102868) {
+   if (spec.nofail || spec.must_learn || spec.replace_container) return false;
+   const auto has=[](const auto& items,uint32_t id,uint32_t count) {
+@@ -658,8 +669,8 @@
+  }
+  // Capture the actual matched physical input tree before mutable validation hooks.
+  // No clone/replacement/consumption; compare identities and all nested charges/slots.
+- // Keep the original307 selector bound across the mutable validation hook.
+- const auto final307_recipe=(spec.recipe_id==3102867 || spec.recipe_id==3102868)?spec.recipe_id:0;
++ // Keep the original finite307/309 selector bound across mutable validation.
++ const auto final307_recipe=(spec.recipe_id==3102867 || spec.recipe_id==3102868 || spec.recipe_id==3102882)?spec.recipe_id:0;
+  std::unique_ptr<Final300InputTree> final300_inputs;
+  const auto final300_owner=user->InventorySessionReleaseTicket();
+  const auto final300_character=user->CharacterID();
+@@ -1089,7 +1100,23 @@
+   return station&&station->user==user&&station->GetDBID()&&station->GetType()==18&&rac->object_type==18&&station->m_inst&&station->m_inst->IsClassBag()&&station->GetItemID()==0;
+  };
+  if(!final302_valid()){user->Message(Chat::Red,"This recipe requires its correct container.");user->QueuePacket(outapp);safe_delete(outapp);return;}
++ // Bind only the new Northman309 route to its original source/session before callbacks.
++ const auto final309_recipe=spec.recipe_id==3102882?spec.recipe_id:0;
++ const auto final309_owner=user->InventorySessionReleaseTicket();
++ const auto final309_character=user->CharacterID();
++ const auto final309_account=user->AccountID();
++ auto* const final309_world=user->GetTradeskillObject();
++ const auto final309_world_id=final309_world?final309_world->GetDBID():0;
++ const auto* const final309_container=final309_world?final309_world->m_inst:nullptr;
++ const auto final309_serial=final309_container?final309_container->GetSerialNumber():0;
+  const auto final300_valid=[&](){
++  if(spec.recipe_id==3102882 || final309_recipe) {
++   if(!final309_recipe || spec.recipe_id!=final309_recipe || !final309_owner ||
++    !final309_owner->HeldFor(*user) || user->CharacterID()!=final309_character || user->AccountID()!=final309_account)return false;
++   auto* current=user->GetTradeskillObject();
++   if(!current || current!=final309_world || current->GetDBID()!=final309_world_id || current->user!=user ||
++    !current->m_inst || current->m_inst!=final309_container || current->m_inst->GetSerialNumber()!=final309_serial)return false;
++  }
+   if(!FinalRecipe300::Selected(spec.recipe_id))return true;
+   if(!Final300OutputValid(spec)||!FirePersonalOccurrenceSource::NativeInventoryFence::ProfileAllowed(&user->GetInv())||
+    !FinalRecipe300::RaceAllowed(spec.recipe_id,user->GetPP().race))return false;
