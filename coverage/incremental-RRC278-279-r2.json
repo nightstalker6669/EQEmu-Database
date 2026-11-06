@@ -1,0 +1,89 @@
+{
+  "format_version": 1,
+  "batches": [
+    "RRC278",
+    "RRC279-r2"
+  ],
+  "application_status": "APPLIED_VERIFIED",
+  "recipes_added": 134,
+  "entries_added": 1148,
+  "global_actual_counts": {
+    "recipes": 33174,
+    "entries": 252625
+  },
+  "TS_cumulative_added_current": {
+    "recipes": 10350,
+    "entries": 75000
+  },
+  "cumulative_basis": "After277 10216/73852 plus27898/980 and279r236/168.",
+  "new_recipe_batches": 225,
+  "RRC278_payload_unchanged_no_replay": true,
+  "RRC278_historical_qualification": {
+    "scope": "Complete98-body Simple/Ornate/Intricate/Elaborate/Inured/Elegant/Stalwart Smithing weapon family, fourteen forms each. 98 absent input routes proposed; 0 existing bodies preserved; 0 source holds.",
+    "identity": "288 primary references:3 retained authenticated profiles and285 bounded captures. Direct EQ IDs and literal component counts/yield/tool returns/numeric trivials rechecked against source catalogue. Ornate Dagger previously had no unique native-name candidate; direct output profile EQ48370 is used only with positive native definition/name and fullinput read, never a name-based winner.",
+    "learning": "Every selected current manufacturing formula explicitly requires its named tier Weapon Smithing book. Native book48930to48936 exact full18, filename and complete text hashes guarded. New must_learn1 and learned_by_item_id bind the actual matching tier book; existing routes are unchanged. No optional CAN converted to MUST.",
+    "era": "Firsthand EQTC Complete Guide to New SoD Weapon Making, Nov3,2008 with Jan2013 edit, lists these seven material tiers and fourteen smithing forms. Maintained SoD category plus period family context support floor15 reconstruction. Exact current trivials/quantities are not immutable May2013 field receipts. No era inference from itemIDs/levels.",
+    "fields": "Each selected literal success yield1 and returned Smithy Hammer on both success/failure; exact ore/mold/handle/hilt-wrap counts retained. Blunt formulas do not inherit a sharpening stone from guide shorthand. Native uncharged outputs and stack capacity guarded. Minimum0/quest0/enabled1/salvage are reconstruction conventions.",
+    "containers": "Only per-formula explicit ordinary Forge17 selected, source actual component total<=10. Other Tanaan/furniture/guild paths unqualified; no portable actor widening or source/core edits.",
+    "holds": "All source/identity differences retained individually in held_source_rows; existing fullinput bodies never duplicated or repaired implicitly. No claim exhaustive tradeskill/native gameplay acceptance.",
+    "preservation": "295 full18 dependencies and 1596 peer headers/12891 entries guarded unchanged, including tool-return peers. Fullinput collisions/name peer exact exclusions/count deltas/postimages/learned-reference rollback refusal retained.",
+    "execution": "Source proposal for Coordinator reconstruction disposition and publication; separate exact one-use SQL GO required. No book/item/player/quest/core mutation, builds/rehearsal/native actions."
+  },
+  "RRC279_r2_historical_qualification": {
+    "scope": "Complete38 remaining SoF/SoD/Underfoot/HoT metal/steel/seal component source bodies;36 absent input routes proposed and2 explicit holds. All36 current fullinput/name universes absent, no existing recipe changes.",
+    "identity": "73 direct primary profiles:13 reused authenticated captures and60 bounded current captures; all selected physical input/output/tool IDs and literal manufacturing bodies match. No guessed name identity or amounts.",
+    "learning": "2 selected Osmium barbs/studs bodies explicitly CAN scribe; all others omit a mandatory book. New ordinary0/book0 experiment rules accepted only as reconstruction policy. No source optional book converted to MUST.",
+    "era": "Maintained SoF14/SoD15/Underfoot16/HoT17 catalogue context; these floors are family reconstruction, not immutable per-field May2013 dates. No era inferred from IDs or level. Modern notes and later EQRecipeID metadata do not authenticate each historical field.",
+    "fields": "Source exact component quantities including three-inputs-of-three quantity10 fits, actual yield2 for Opal small-brick reduction, consumed pot in both Underfoot refiners; Brell Silver uses two separate nonstackable49176 instances in two ordinary Forge slots, native GetTradeRecipe counts occupied slots and source total4 fits; Smithing Chisel/File/Smithy Hammer returns on both success and failure where explicitly listed. Five seal results explicit NoFail1/trivial15. Brell Silver and two refiners retain literal skillneeded300, other minimum0; no added quest event behavior.",
+    "containers": "Only positively listed ordinary Forge17 selected, all source input totals<=10. Explicit Brell Temple forge spatial route withheld; no generic forge substitution for that route. Tanaan/furniture/guild source paths held separately, no actor/core change.",
+    "holds": "Osmium Fill8802 explicitly warns current experimentation produces wrong output and consumes hammer, so no blind insertion from declared body. Brell Heart Silver Filigree10226 explicitly requires Brell Temple forge; actor/spatial gate not qualified. Both retained, no guessed workaround or default.",
+    "preservation": "69 full18 dependencies/1848 peer headers/14680 entries guarded unchanged. Exact fullinput collision/name peer primarykey exclusions/fullpostimages/count deltas/learned-reference rollback refusal retained.",
+    "execution": "R2 source only after consumed failed attempt001; full affected preimages unchanged, zero new IDs, transaction0 verified. Added only known exact applied RRC27898peer headers980entries. Fresh revision publication and separate attempt002 GO required; no existing authority reused. Source only pending Coordinator reconstruction disposition/publication and separate exact one-use SQL GO. No book/item/player/quest/core mutation, build/rehearsal/runtime/native acceptance."
+  },
+  "RRC279_r2_source_commit": "73c1ba7618545417e61bb9957f09995fe726f77a",
+  "RRC279_r2_apply_sha256": "80d9dfb1346df09d029a5627bd403bf0addc97ee794690aa967e58f6440ac53c",
+  "RRC279_r2_package_manifest_sha256": "d24d32c72e5bdb2357bd9969892b9e0e8c0b88bd1df8c92348b24c9781fde54a",
+  "attempt_history": {
+    "failed_attempt001": {
+      "status": "STOPPED_NO_RETRY",
+      "SQL_invocations": 1,
+      "published_commit": "d94917f4be530e4b10fbad406eecda56210b205e",
+      "source_sha256": "cb7b5152c30a7223f9bf8e6c2faf2c9cee8adf3132425a65ae0eb802b8429ade",
+      "package_manifest_sha256": "7709af28ae96d64277a25e68d2b2518924dfa93c2cac5c060094cb56a62b0a84"
+    },
+    "failed_attempt001_read_only_disposition": {
+      "status": "READ_ONLY_FAILURE_DISPOSITION",
+      "SQL_retries": 0,
+      "inverses": 0,
+      "exact_all_affected_preimages_unchanged": true,
+      "tradeskill_recipe_count": 33138,
+      "tradeskill_recipe_entries_count": 252457,
+      "before_rows_sha256": "461c598275d504c803a7bf0dbcd21468b522d2713845219bc7bf97ca76afd287",
+      "new_ids_present": 0,
+      "database_writes": 0,
+      "reader_closed_transaction": 0
+    },
+    "successful_attempt002": {
+      "status": "APPLIED_VERIFIED",
+      "SQL_invocations": 1,
+      "published_commit": "73c1ba7618545417e61bb9957f09995fe726f77a",
+      "source_sha256": "80d9dfb1346df09d029a5627bd403bf0addc97ee794690aa967e58f6440ac53c",
+      "package_manifest_sha256": "d24d32c72e5bdb2357bd9969892b9e0e8c0b88bd1df8c92348b24c9781fde54a"
+    },
+    "revision_boundary": "Consumed failed001; zero-change readback; fresh published r2 and separate exact002GO, not automatic retry. Added only known exact applied RRC27898peer headers980entries; no blanket peer exemption. Original receipts retained privately."
+  },
+  "native_gameplay_acceptance": false,
+  "all_scope_complete": false,
+  "prior_holds_preserved": true,
+  "separate_Xorbb_recipe_excluded": {
+    "recipes": 1,
+    "entries": 6
+  },
+  "prior_locally_confirmed_published_normal_SQL_source_paths": 868,
+  "new_normal_SQL_source_paths": 4,
+  "normal_SQL_source_paths_after_all_pending_publications": 872,
+  "supersedes_standalone_RRC278_capture": true,
+  "history_archives_preserved": true,
+  "QA39999_production_exclusion_retained": true,
+  "assembly": "Exact source/curated actual capture; no new SQL/query/replay/build/runtime."
+}

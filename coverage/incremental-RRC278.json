@@ -1,0 +1,55 @@
+{
+  "format_version": 1,
+  "batches": [
+    "RRC278"
+  ],
+  "source_commit": "52de0c6bf0a412d73b78bf983c8024460b9203e6",
+  "apply_sha256": "fe594d836c406e4381a1f1101ddf5baa5db7e93e4a91ec9dfa6a726c70296647",
+  "package_manifest_sha256": "6694997d6df850c193023dd8dfa745f35987725c6da57669e9a6e0397fb38e97",
+  "application_status": "APPLIED_VERIFIED",
+  "recipes_added": 98,
+  "entries_added": 980,
+  "existing_rows_updated": 0,
+  "global_actual_counts": {
+    "recipes": 33138,
+    "entries": 252457
+  },
+  "TS_cumulative_added_current": {
+    "recipes": 10314,
+    "entries": 74832
+  },
+  "cumulative_basis": "Prior10216/73852 after277 plus98/980.",
+  "new_recipe_batches": 224,
+  "historical_qualification": {
+    "scope": "Complete98-body Simple/Ornate/Intricate/Elaborate/Inured/Elegant/Stalwart Smithing weapon family, fourteen forms each. 98 absent input routes proposed; 0 existing bodies preserved; 0 source holds.",
+    "identity": "288 primary references:3 retained authenticated profiles and285 bounded captures. Direct EQ IDs and literal component counts/yield/tool returns/numeric trivials rechecked against source catalogue. Ornate Dagger previously had no unique native-name candidate; direct output profile EQ48370 is used only with positive native definition/name and fullinput read, never a name-based winner.",
+    "learning": "Every selected current manufacturing formula explicitly requires its named tier Weapon Smithing book. Native book48930to48936 exact full18, filename and complete text hashes guarded. New must_learn1 and learned_by_item_id bind the actual matching tier book; existing routes are unchanged. No optional CAN converted to MUST.",
+    "era": "Firsthand EQTC Complete Guide to New SoD Weapon Making, Nov3,2008 with Jan2013 edit, lists these seven material tiers and fourteen smithing forms. Maintained SoD category plus period family context support floor15 reconstruction. Exact current trivials/quantities are not immutable May2013 field receipts. No era inference from itemIDs/levels.",
+    "fields": "Each selected literal success yield1 and returned Smithy Hammer on both success/failure; exact ore/mold/handle/hilt-wrap counts retained. Blunt formulas do not inherit a sharpening stone from guide shorthand. Native uncharged outputs and stack capacity guarded. Minimum0/quest0/enabled1/salvage are reconstruction conventions.",
+    "containers": "Only per-formula explicit ordinary Forge17 selected, source actual component total<=10. Other Tanaan/furniture/guild paths unqualified; no portable actor widening or source/core edits.",
+    "holds": "All source/identity differences retained individually in held_source_rows; existing fullinput bodies never duplicated or repaired implicitly. No claim exhaustive tradeskill/native gameplay acceptance.",
+    "preservation": "295 full18 dependencies and 1596 peer headers/12891 entries guarded unchanged, including tool-return peers. Fullinput collisions/name peer exact exclusions/count deltas/postimages/learned-reference rollback refusal retained.",
+    "execution": "Source proposal for Coordinator reconstruction disposition and publication; separate exact one-use SQL GO required. No book/item/player/quest/core mutation, builds/rehearsal/native actions."
+  },
+  "source_counts": {
+    "recipes": 98,
+    "entries": 980,
+    "item_dependencies": 295,
+    "unchanged_prototype_recipes": 1596,
+    "unchanged_prototype_entries": 12891
+  },
+  "native_gameplay_acceptance": false,
+  "all_scope_complete": false,
+  "prior_holds_preserved": true,
+  "separate_Xorbb_recipe_excluded": {
+    "recipes": 1,
+    "entries": 6
+  },
+  "prior_locally_confirmed_published_normal_SQL_source_paths": 868,
+  "earlier_pending_normal_SQL_source_paths": 0,
+  "new_normal_SQL_source_paths": 2,
+  "normal_SQL_source_paths_after_all_pending_publications": 870,
+  "history_archives_preserved": true,
+  "QA39999_production_exclusion_retained": true,
+  "assembly": "Exact source and curated actual capture; no new SQL/query/replay/build/runtime."
+}

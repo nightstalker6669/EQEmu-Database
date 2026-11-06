@@ -1,0 +1,29 @@
+{
+  "failed_attempt001": {
+    "status": "STOPPED_NO_RETRY",
+    "SQL_invocations": 1,
+    "published_commit": "d94917f4be530e4b10fbad406eecda56210b205e",
+    "source_sha256": "cb7b5152c30a7223f9bf8e6c2faf2c9cee8adf3132425a65ae0eb802b8429ade",
+    "package_manifest_sha256": "7709af28ae96d64277a25e68d2b2518924dfa93c2cac5c060094cb56a62b0a84"
+  },
+  "failed_attempt001_read_only_disposition": {
+    "status": "READ_ONLY_FAILURE_DISPOSITION",
+    "SQL_retries": 0,
+    "inverses": 0,
+    "exact_all_affected_preimages_unchanged": true,
+    "tradeskill_recipe_count": 33138,
+    "tradeskill_recipe_entries_count": 252457,
+    "before_rows_sha256": "461c598275d504c803a7bf0dbcd21468b522d2713845219bc7bf97ca76afd287",
+    "new_ids_present": 0,
+    "database_writes": 0,
+    "reader_closed_transaction": 0
+  },
+  "successful_attempt002": {
+    "status": "APPLIED_VERIFIED",
+    "SQL_invocations": 1,
+    "published_commit": "73c1ba7618545417e61bb9957f09995fe726f77a",
+    "source_sha256": "80d9dfb1346df09d029a5627bd403bf0addc97ee794690aa967e58f6440ac53c",
+    "package_manifest_sha256": "d24d32c72e5bdb2357bd9969892b9e0e8c0b88bd1df8c92348b24c9781fde54a"
+  },
+  "revision_boundary": "Consumed failed001; zero-change readback; fresh published r2 and separate exact002GO, not automatic retry. Added only known exact applied RRC27898peer headers980entries; no blanket peer exemption. Original receipts retained privately."
+}
