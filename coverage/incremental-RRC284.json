@@ -1,0 +1,73 @@
+{
+  "format_version": 1,
+  "batches": [
+    "RRC284"
+  ],
+  "source_commit": "f5b28cada44d26851c02a0337442939f52c44252",
+  "apply_sha256": "0c64f8b41fd2f337ffe8d850043ef16ef4915a079713be95604731a63a870397",
+  "package_manifest_sha256": "7aeec71e579c835a9e6f9cef7cbe6d242aaa58efc5d57372bcc223d8bcf3b199",
+  "application_status": "APPLIED_VERIFIED",
+  "recipes_added": 114,
+  "entries_added": 865,
+  "existing_recipe_definitions_updated": 0,
+  "existing_entry_rows_updated": 0,
+  "global_actual_counts": {
+    "recipes": 33579,
+    "entries": 255525
+  },
+  "TS_cumulative_added_current": {
+    "recipes": 10755,
+    "entries": 77900
+  },
+  "cumulative_basis": "Prior10641/77035 plus114/865.",
+  "new_recipe_batches": 230,
+  "historical_qualification": {
+    "scope": "Entire154 remaining racial Smithing views triaged in one unit:114 source-literal/native-fullinput-absent routes proposed,40held. Source creator counts DarkElf52/Human21/Troll16/Dwarf9/Ogre9/HighElf7. No item wearer/deity masks used as crafting authority.",
+    "source": "270 primary profiles:81authenticated retained+189bounded captures. Top-level raw manufacturing formulas reparsed without HTTP retry, including profiles with unrelated unknown-trivial nested recipes. All selected direct item IDs/literal counts/yields/trivials/tool returns and explicit maker race/named station positively match. Two explicit capitalization-only same-ID bindings:worked crook9802/Worked Crook andfearful acrylia-bladed wakizashi23545/Fearful Acrylia-Bladed Wakizashi. No generic name substitution.",
+    "native": "236full18 item snapshots retained across bounded discovery and earlier caches. All114 selected outputs maxcharges0; one actual native minus1output remains held, no item normalization.2470all-state output-use peer headers/19835entries guarded unchanged, zero fullinput matches. One same-name old4158DwarvenChainBoots different-input route preserved;current literal newroute verified independently, not a claim about older route correctness.",
+    "gates": "All114 current source bodies omit mandatory books and minimum:ordinary0/book0/min0/quest0/enabled1 are labelled reconstruction conventions. Literal nonstackable counts2/3 represent separate native occupied cells;minimum world slots3..9 fit actual native WORLD_SIZE10. No automatic stackability normalization.",
+    "era": "Old racial cultural catalogue families through-RoF context with classic-family floor0 reconstruction only; current literal numeric formulas are current observations, not immutable first-introduction/May2013 per-field proof. Era-unqualified Artisan-Material/Compendium variants are held; no dating by output level/name or blanket backport.",
+    "stations": "Only exact current owned named world stations/actual native profile race in both manual+auto. Six actual existing world object preimages guarded, no coordinate trigger/portable substitution/new object. Existing RRC283 native WORLD_SIZE capacity implementation retained.",
+    "holds": "40views:14current Artisan-Material/Compendium era-unqualified variants,24nonnumeric trivials,1source/native explicit-ID conflict(ImbuedNorthmanKiteShield25881),1actual native output maxchargesminus1(FearfulVarnishedWoodenCrook26800). No guessed trivials/IDs, alleged wrong definitions or automatic repair.",
+    "preservation": "Append114exact native actor selectors1890\u21922004 only;CPP b8b8cf6867105c2574c38d3f05e578a991729ed30f03522db0e16704c2b397b7 and old1890rows/other predicates unchanged. Tailoring1148/research821/Gnomish35/bot preserved,Fire excluded. Existing recipes/entries/items/books/world objects/player/learned rows unchanged.",
+    "execution": "Source only pending Coordinator disposition/publication, compatible installed2004Smithing actor and separate exact one-use SQL GO. No new tests/build/rehearsal/runtime/SQL executed."
+  },
+  "native_gameplay_acceptance": false,
+  "all_scope_complete": false,
+  "prior_holds_preserved": true,
+  "separate_Xorbb_recipe_excluded": {
+    "recipes": 1,
+    "entries": 6
+  },
+  "prior_locally_confirmed_published_normal_SQL_source_paths": 880,
+  "new_normal_SQL_source_paths": 2,
+  "normal_SQL_source_paths_after_all_pending_publications": 882,
+  "history_archives_preserved": true,
+  "QA39999_production_exclusion_retained": true,
+  "assembly": "Exact source and curated actual/actor capture; no new SQL/query/replay/build/runtime.",
+  "compatible_actor_installation": {
+    "status": "PASS_RRC284_ACTOR_COMPILED_INSTALLED_SERVER_READY",
+    "evidence_sha256": "f8b7a3f3c135f284fbee7e14b6f0abf392abbedf8958c045ae18767609b7049a",
+    "source_publication": "f5b28cada44d26851c02a0337442939f52c44252",
+    "actor_contract_sha256": "5a2567608a4f32b10a108b80c98a968d2a0a7451859d3691894c2ae949801b6d",
+    "source_patch_sha256": "ea70e3d7e2139aba84c466725cb55a40dcf2d9d4b910aa419f6de29ceb02784e",
+    "installed_source_files": {
+      "zone/bot.cpp": "0d68ba89eb46294fc56ea62a99f4f7f08e74f21a53d6aff9faef0b1e5b141b29",
+      "zone/cultural_armor_bulk_actor.h": "3f9527ed4a5179dc19c506f0cd89fc1b1fb8e61c785f7ef4f0f0c5566a8c9bb1",
+      "zone/cultural_tailoring_bulk_actor.h": "f346b6690c08e17e10331c58abae5454398f4b2d9ecadaac834771869b4e39c3",
+      "zone/gnomish_tailoring35_actor.h": "7c19d6cb016ac1a6e203e22c7f3957111198c2182f4e179f36b0581df355abe3",
+      "zone/research_tablet335_actor.h": "0208732d67e494a4b4b8e0f3605949aad8866e9ef5a182bc2f419c08c65955df",
+      "zone/tradeskills.cpp": "b8b8cf6867105c2574c38d3f05e578a991729ed30f03522db0e16704c2b397b7"
+    },
+    "installed_zone_sha256": "5cc4710168f774e0cc7ae5021e944d7a8a6d7bf1ab2ad90c8fc21b643595a894",
+    "six_running_zone_executables_match_installed_cohort": true,
+    "smithing_selector_rows": 2004,
+    "tailoring_selector_rows_preserved": 1148,
+    "research_selector_rows_preserved": 821,
+    "actor_authority": "Append114exact native actor selectors1890\u21922004 only;CPP b8b8cf6867105c2574c38d3f05e578a991729ed30f03522db0e16704c2b397b7 and old1890rows/other predicates unchanged. Tailoring1148/research821/Gnomish35/bot preserved,Fire excluded. Existing recipes/entries/items/books/world objects/player/learned rows unchanged.",
+    "station_boundary": "Only exact current owned named world stations/actual native profile race in both manual+auto. Six actual existing world object preimages guarded, no coordinate trigger/portable substitution/new object. Existing RRC283 native WORLD_SIZE capacity implementation retained.",
+    "historical_boundary": "Old racial cultural catalogue families through-RoF context with classic-family floor0 reconstruction only; current literal numeric formulas are current observations, not immutable first-introduction/May2013 per-field proof. Era-unqualified Artisan-Material/Compendium variants are held; no dating by output level/name or blanket backport.",
+    "native_gameplay_acceptance": false,
+    "label_boundary": "Source-only and SQL HOLD labels historical; later installed actor and authorized actual establish subsequent installed/applied status."
+  }
+}

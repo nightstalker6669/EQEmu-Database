@@ -1,0 +1,22 @@
+{
+  "status": "SOURCE_ONLY_NATIVE_ACTOR_DEPENDENCY",
+  "selected_source_bodies": 114,
+  "smithing_selector_rows_before": 1890,
+  "smithing_selector_rows_after": 2004,
+  "files": {
+    "zone/cultural_armor_bulk_actor.h": {
+      "pre_sha256": "683dad188dd1d56709b6ef8ab433294a5779af6823567fdd73fd5b5203e91ded",
+      "post_sha256": "3f9527ed4a5179dc19c506f0cd89fc1b1fb8e61c785f7ef4f0f0c5566a8c9bb1"
+    }
+  },
+  "patch_sha256": "ea70e3d7e2139aba84c466725cb55a40dcf2d9d4b910aa419f6de29ceb02784e",
+  "required_unchanged_CPP_sha256": "b8b8cf6867105c2574c38d3f05e578a991729ed30f03522db0e16704c2b397b7",
+  "behavior": "Append114 exact legacy cultural Smithing recipe IDs in existing sorted lookup;sourceexplicit creator profile race and exact owned actual named world station DBID/type/item,minimum physical world slots3..9. Current manual/auto paths already implement checks/native WORLD_SIZE. No CPP or previous1890row/predicate change.",
+  "races": "DarkElf52,Human21,Troll16,Dwarf9,Ogre9,HighElf7. No actor inferred from item wearer/deity masks.",
+  "preservation": "Existing1890Smithing,Tailoring1148,research821,Gnomish35,bot and both real owned world-capacity predicates preserved;Fire/Origin/HT/LoH excluded.",
+  "requirements": "Compatible installed2004Smithing data+unchanged CPP required before SQL. No source-only patch grants serving/SQL authority.",
+  "tests": 0,
+  "builds": 0,
+  "SQL_execution": 0,
+  "runtime_actions": 0
+}
