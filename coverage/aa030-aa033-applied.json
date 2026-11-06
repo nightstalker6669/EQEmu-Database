@@ -1,0 +1,243 @@
+{
+  "format_version": 1,
+  "features": [
+    "AA030",
+    "AA031",
+    "AA032",
+    "AA033"
+  ],
+  "application_status": "ALL_FOUR_APPLIED_VERIFIED_INDEPENDENT_FULL_POSTIMAGES_SEQUENTIAL_CLOSED",
+  "application_order": [
+    "AA030",
+    "AA031",
+    "AA032",
+    "AA033"
+  ],
+  "SQL_invocations": 4,
+  "SQL_invocations_each": 1,
+  "ranks_added": 4,
+  "effects_added": 0,
+  "prereqs_added": 0,
+  "existing_spell_player_writes": 0,
+  "runtime_cache_actions": 0,
+  "actuals": {
+    "AA030": {
+      "status": "APPLIED_VERIFIED_INDEPENDENT_FULL_POSTIMAGES",
+      "source_commit": "a3e644aa40c52c9f6be802f94d8d118140c7ceb9",
+      "forward_sha256": "a6862d26d366a13b87fbd2602a5c56397227f7704298f3817b0e5b34ede501cb",
+      "SQL_invocations": 1,
+      "ranks_added": 1,
+      "effects_added": 0,
+      "prereqs_added": 0,
+      "existing_rows_updated": 0,
+      "player_ownership_points_charges_writes": 0,
+      "runtime_cache_actions": 0,
+      "qualified_encoding": "Inherited activated timer44/reuse600, hotkey/title13556 separate from ownershiproot13556; period cost12/level92/era18/spell30793 binding-only. Predecessor prerequisites retained/inherited, no new rows. Finite next=-1 not historical terminal; later IDs held/native acceptance unclaimed.",
+      "native_acceptance": false,
+      "packet": {
+        "packet": "AA030",
+        "ability_id": 455,
+        "name": "Convergence of Spirits",
+        "ordinal": 2,
+        "target": 13557,
+        "root": 13556,
+        "predecessor": 13556,
+        "cost": 12,
+        "level": 92,
+        "expansion": 18,
+        "spell": 30793,
+        "timer": 44,
+        "reuse": 600,
+        "added_prereqs": 0,
+        "pre_prereqs": [
+          {
+            "rank_id": 13556,
+            "aa_id": 1685,
+            "points": 1
+          }
+        ],
+        "sql": "utils/sql/aa/2026_11_05_convergence_of_spirits_rank2.sql",
+        "rollback": "utils/sql/aa/rollback/2026_11_05_convergence_of_spirits_rank2.sql",
+        "period_source": {
+          "url": "https://everquest.allakhazam.com/wiki/EQ:Convergence_of_Spirits?oldid=448476",
+          "revision": "2012-11-08 15:59:01",
+          "method": "Actual Chrome history and rendered dated revision"
+        },
+        "sql_sha256": "a6862d26d366a13b87fbd2602a5c56397227f7704298f3817b0e5b34ede501cb",
+        "rollback_sha256": "6527067e69805d4c174303278e1f617b49b66ebc0dbc979cb714d6f2166396bb"
+      },
+      "independent_full_postimages_verified": true,
+      "connections_closed": true,
+      "bound_spell_full_current_row_unchanged": true
+    },
+    "AA031": {
+      "status": "APPLIED_VERIFIED_INDEPENDENT_FULL_POSTIMAGES",
+      "source_commit": "a3e644aa40c52c9f6be802f94d8d118140c7ceb9",
+      "forward_sha256": "0747e584b12f45fc405523e577ab2549064939f53f1aee7e28bf1082c56237b5",
+      "SQL_invocations": 1,
+      "ranks_added": 1,
+      "effects_added": 0,
+      "prereqs_added": 0,
+      "existing_rows_updated": 0,
+      "player_ownership_points_charges_writes": 0,
+      "runtime_cache_actions": 0,
+      "qualified_encoding": "Inherited activated timer3/reuse2160, hotkey/title1110 separate from ownershiproot1110; period cost11/level93/era18/spell30749 binding-only. Predecessor prerequisites retained/inherited, no new rows. Finite next=-1 not historical terminal; later IDs held/native acceptance unclaimed. Dance level93/VoA selected from pre-cutoff table with explicit inferred levels/eras; not independent original-field proof.",
+      "native_acceptance": false,
+      "packet": {
+        "packet": "AA031",
+        "ability_id": 359,
+        "name": "Dance of Blades",
+        "ordinal": 17,
+        "target": 13497,
+        "root": 1110,
+        "predecessor": 13496,
+        "cost": 11,
+        "level": 93,
+        "expansion": 18,
+        "spell": 30749,
+        "timer": 3,
+        "reuse": 2160,
+        "added_prereqs": 0,
+        "pre_prereqs": [
+          {
+            "rank_id": 13496,
+            "aa_id": 187,
+            "points": 5
+          },
+          {
+            "rank_id": 13496,
+            "aa_id": 1685,
+            "points": 1
+          }
+        ],
+        "sql": "utils/sql/aa/2026_11_05_dance_of_blades_rank17.sql",
+        "rollback": "utils/sql/aa/rollback/2026_11_05_dance_of_blades_rank17.sql",
+        "period_source": {
+          "url": "https://everquest.allakhazam.com/wiki/EQ:Dance_of_Blades?oldid=451308",
+          "revision": "2012-11-28 22:21:45",
+          "method": "Actual Chrome history and rendered dated page; scoped predecessor/successor rows with overview and tableboundary"
+        },
+        "sql_sha256": "0747e584b12f45fc405523e577ab2549064939f53f1aee7e28bf1082c56237b5",
+        "rollback_sha256": "d51fa6efea02f81f36e98fc2544abacdb57457de53fe77db15d34b2df5479216"
+      },
+      "independent_full_postimages_verified": true,
+      "connections_closed": true,
+      "bound_spell_full_current_row_unchanged": true
+    },
+    "AA032": {
+      "status": "APPLIED_VERIFIED_INDEPENDENT_FULL_POSTIMAGES",
+      "source_commit": "a3e644aa40c52c9f6be802f94d8d118140c7ceb9",
+      "forward_sha256": "a4ff5ddbe06ee8fc21157139e09fb383f62c8291783fbe5213b11068ed0a3ea2",
+      "SQL_invocations": 1,
+      "ranks_added": 1,
+      "effects_added": 0,
+      "prereqs_added": 0,
+      "existing_rows_updated": 0,
+      "player_ownership_points_charges_writes": 0,
+      "runtime_cache_actions": 0,
+      "qualified_encoding": "Inherited activated timer9/reuse300, hotkey/title5020 separate from ownershiproot5020; period cost12/level95/era18/spell30743 binding-only. Predecessor prerequisites retained/inherited, no new rows. Finite next=-1 not historical terminal; later IDs held/native acceptance unclaimed.",
+      "native_acceptance": false,
+      "packet": {
+        "packet": "AA032",
+        "ability_id": 669,
+        "name": "Bladed Song",
+        "ordinal": 6,
+        "target": 13491,
+        "root": 5020,
+        "predecessor": 13490,
+        "cost": 12,
+        "level": 95,
+        "expansion": 18,
+        "spell": 30743,
+        "timer": 9,
+        "reuse": 300,
+        "added_prereqs": 0,
+        "pre_prereqs": [
+          {
+            "rank_id": 13490,
+            "aa_id": 1685,
+            "points": 1
+          }
+        ],
+        "sql": "utils/sql/aa/2026_11_05_bladed_song_rank6.sql",
+        "rollback": "utils/sql/aa/rollback/2026_11_05_bladed_song_rank6.sql",
+        "period_source": {
+          "url": "https://everquest.allakhazam.com/wiki/EQ:Bladed_Song?oldid=455933",
+          "revision": "2013-01-22 21:19:19",
+          "method": "Actual Chrome history and rendered dated page; scoped predecessor/successor rows with overview and tableboundary"
+        },
+        "sql_sha256": "a4ff5ddbe06ee8fc21157139e09fb383f62c8291783fbe5213b11068ed0a3ea2",
+        "rollback_sha256": "04fe51e09ef67e561791e6b0ac525f512ca90fff898a7d5c122ed56426c05cde"
+      },
+      "independent_full_postimages_verified": true,
+      "connections_closed": true,
+      "bound_spell_full_current_row_unchanged": true
+    },
+    "AA033": {
+      "status": "APPLIED_VERIFIED_INDEPENDENT_FULL_POSTIMAGES",
+      "source_commit": "a3e644aa40c52c9f6be802f94d8d118140c7ceb9",
+      "forward_sha256": "8d4f4275bac2b063b56a0d958c4a5283d2ac0eb99ebf9f5f7139f33c4193896b",
+      "SQL_invocations": 1,
+      "ranks_added": 1,
+      "effects_added": 0,
+      "prereqs_added": 0,
+      "existing_rows_updated": 0,
+      "player_ownership_points_charges_writes": 0,
+      "runtime_cache_actions": 0,
+      "qualified_encoding": "Inherited activated timer15/reuse600, hotkey/title6533 separate from ownershiproot6200; period cost13/level93/era18/spell30758 binding-only. Predecessor prerequisites retained/inherited, no new rows. Finite next=-1 not historical terminal; later IDs held/native acceptance unclaimed. Dirge string/hotkey6533 preserved, ownershiproot6200 remains distinct.",
+      "native_acceptance": false,
+      "packet": {
+        "packet": "AA033",
+        "ability_id": 3701,
+        "name": "Dirge of the Sleepwalker",
+        "ordinal": 8,
+        "target": 13506,
+        "root": 6200,
+        "predecessor": 13505,
+        "cost": 13,
+        "level": 93,
+        "expansion": 18,
+        "spell": 30758,
+        "timer": 15,
+        "reuse": 600,
+        "added_prereqs": 0,
+        "pre_prereqs": [
+          {
+            "rank_id": 13505,
+            "aa_id": 1685,
+            "points": 1
+          }
+        ],
+        "sql": "utils/sql/aa/2026_11_05_dirge_of_the_sleepwalker_rank8.sql",
+        "rollback": "utils/sql/aa/rollback/2026_11_05_dirge_of_the_sleepwalker_rank8.sql",
+        "period_source": {
+          "url": "https://everquest.allakhazam.com/wiki/EQ:Dirge_of_the_Sleepwalker?oldid=457831",
+          "revision": "2013-03-18 00:22:46",
+          "method": "Actual Chrome rendered dated overview/scoped predecessor-successor rows"
+        },
+        "sql_sha256": "8d4f4275bac2b063b56a0d958c4a5283d2ac0eb99ebf9f5f7139f33c4193896b",
+        "rollback_sha256": "2afb160313841d84ae6aab28cce342b4efb5554b973fe8a1cb6cf17d6f982332"
+      },
+      "independent_full_postimages_verified": true,
+      "connections_closed": true,
+      "bound_spell_full_current_row_unchanged": true
+    }
+  },
+  "material_qualifications": [
+    "Dance rank17 level93/VoA selected from pre-cutoff table whose history notes inferred levels/eras; not independent original-field proof.",
+    "Dirge hotkey/title/description6533 retained separately from ownershiproot6200.",
+    "Spell ID/name binding only; unchanged current spell row does not establish historical content parity.",
+    "Native prerequisite inheritance retained without redundant rows; next=-1 finite boundary, not historical termination; later IDs held."
+  ],
+  "native_acceptance": false,
+  "scope_complete": false,
+  "source_documents": "Ten published source files retained verbatim; preparation labels historical, aggregate curated actual establishes later authorized closed applications.",
+  "rollback": "Each exact published inverse retained/unexecuted; separate GO and original exactpostimage/ownership refusal guards required. No replay/inverse/player edits.",
+  "prior_locally_confirmed_published_normal_SQL_source_paths": 790,
+  "earlier_pending_normal_SQL_source_paths": 0,
+  "new_normal_SQL_source_paths": 8,
+  "normal_SQL_source_paths_after_all_pending_publications": 798,
+  "SQL_path_count_meaning": "Source paths, not application count.",
+  "history_archives_preserved": true,
+  "QA39999_production_exclusion_retained": true
+}
