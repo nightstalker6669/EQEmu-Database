@@ -3,24 +3,24 @@
   "identity": "fire170-254row-staging-activation-recovery",
   "files": {
     "AUTHORITY-TEMPLATE.json": {
-      "sha256": "de23571ad5bffe6c905a4a52a3be1b0f766a6b8e649fad55bb8fda47a933291c",
-      "bytes": 820
+      "sha256": "f5882ab3c29c006acbfd6512dcea9a15dbb44766b1264f1cb7701be594d54036",
+      "bytes": 1046
     },
     "DEPENDENCIES.json": {
       "sha256": "dc097c691ab6c548ebf021c4cde913e2590ddc2946f30181898d842574ee10ca",
       "bytes": 2264
     },
     "README.md": {
-      "sha256": "bf843a35d78b4954c618a4084695a7d2d102ce3a3de0315eb5b934edc1a13434",
-      "bytes": 2850
+      "sha256": "a06b2a0c336302caa7665bb8826e34b513dc6d52123b60afd33a6cf3344485af",
+      "bytes": 3195
     },
     "fire170_db.py": {
       "sha256": "76df4478d4119223c65a78a392593b46cd27190084dbe12a7107b205d45b0ad5",
       "bytes": 1979
     },
     "release.py": {
-      "sha256": "fa7761bdc7ab12d9a510ac0e8196c1c3ebdf9a19e69f5538b749619c9b5e61ce",
-      "bytes": 11974
+      "sha256": "db4d9ace3fdd5d95c749ef79e4b4b30f1f53d60ca466a8d20ea83976351cf0d7",
+      "bytes": 12483
     },
     "schema-contract.json": {
       "sha256": "a86700d79acf045d3bc135c634a061421f820ff8d43c2d3035b3fd2d00e74e65",
@@ -47,5 +47,10 @@
   },
   "namespace": "490/version1 must have no active/pending consumers at future staging; coordinator must hold real admission and quiesce consumers. No spawn2 enabled column.",
   "execution": "No apply, DDL, runtime, tests or build performed. Exact separate stage/activation/recovery authority required. No automatic retry/inverse.",
-  "native_acceptance": false
+  "native_acceptance": false,
+  "activation_order": {
+    "before_activation": "Completed matched code-install+foundation receipts and pinned cache_restart_plan, with admission held.",
+    "after_activation": "Actual enabled-data fresh-process/cache verification BEFORE admission release; helper grants no admission-release authority.",
+    "plan_is_completed_receipt": false
+  }
 }

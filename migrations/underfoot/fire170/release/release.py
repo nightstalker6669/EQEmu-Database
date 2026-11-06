@@ -88,9 +88,11 @@ def main():
   if sha(ROOT/p)!=pin['sha256']:fail('Pinned artifact drift: '+p)
  if manifest['status']!='PREPARED_NOT_APPLIED_REQUIRES_SEPARATE_AUTHORITY':fail('Preparation is blocked')
  if args.phase=='activate':
-  for k in ['matched_code_install_receipt','matched_cache_refresh_receipt','foundation_install_receipt']:
+  for k in ['matched_code_install_receipt','foundation_install_receipt','cache_restart_plan']:
    pin=authority.get(k,{})
    if not pin.get('path') or sha(pin['path'])!=pin.get('sha256'):fail('Missing exact activation dependency: '+k)
+  # cache_restart_plan is a future procedure, NOT a completed enabled-data cache receipt.
+  # Native fresh-process/cache verification follows activation while admission stays held.
  target=load('target-rows.json');snap=load('schema-contract.json');check_input(target,snap)
  # This durable marker consumes this exact authority before opening any database connection.
  marker=ROOT/('authority-'+args.authority_sha256+'.consumed.private.json');b.save(marker,{'phase':args.phase,'authority_sha256':args.authority_sha256,'automatic_retry':False})
@@ -148,5 +150,7 @@ def main():
   if conn:
    try:conn.rollback();conn.close()
    except Exception:pass
-  result.update(connections_closed=True,automatic_retry=False,automatic_inverse=False);b.save(args.receipt_dir/'final-receipt.private.json',result)
+  result.update(connections_closed=True,automatic_retry=False,automatic_inverse=False,admission_release_authorized=False)
+  if args.phase=='activate':result.update(activation_boundary='DATA_ONLY_ADMISSION_MUST_REMAIN_HELD',cache_restart_plan_sha256=authority['cache_restart_plan']['sha256'],enabled_data_fresh_process_cache_verification='REQUIRED_AFTER_ACTIVATION_BEFORE_ADMISSION_RELEASE_NOT_PERFORMED_BY_DATABASE_HELPER')
+  b.save(args.receipt_dir/'final-receipt.private.json',result)
 if __name__=='__main__':main()
