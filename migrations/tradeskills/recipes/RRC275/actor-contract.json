@@ -1,0 +1,30 @@
+{
+  "status": "SOURCE_ONLY_REQUIRES_COORDINATOR_POLICY_EXACT_COMPOSITION_BUILD_INSTALL_RECEIPT_BEFORE_SQL",
+  "batch": "RRC275",
+  "new_recipe_ids": [
+    3100656,
+    3100990
+  ],
+  "new_recipe_count": 335,
+  "files": {
+    "zone/tradeskills.cpp": {
+      "preimage_sha256": "1c6e2bbfc03600455812de5b328327c52b4a517f01ad6f572178a3dc1f1001ed",
+      "postimage_sha256": "b739ddb8e4ad11e700482b4c99aca5249035d14c4493a49ca4f34ea61e52d6aa"
+    },
+    "zone/research_tablet335_actor.h": {
+      "preimage_sha256": null,
+      "postimage_sha256": "9d849ed4b5a9f953cf6d53e801ad243c8e05e8966383fa87a18c67039cadcbdc"
+    }
+  },
+  "patch_sha256": "7f5039e092c97121b871baf216a08acc49638c7b28e1c666133e3c276cac3bfe",
+  "actor": "Actual native class NEC11/WIZ12/MAG13/ENC14, not spell output class/use mask; actual native kit93492 type11/10slots/size3, no packet-ID ownership inference.",
+  "manual": "Actual opened Client inventory container; world object rejected before consumption.",
+  "automatic": "Actual native personal inventory HasItem/GetItem; verify packet container against owned kit and maker class before consumption.",
+  "historical_basis": "EQTC dated2012 Ultimate Tradeskill Guide permits INT casters any spell/song. Current June2016 broad all-archetype kit widening is not backdated; other native class kits/world/furniture unqualified.",
+  "preservation": "Nonselected recipe IDs return unchanged; existing Gnomish/Cultural armor gates and all other source unchanged. No new public game flow or persistence framework.",
+  "base_source": "Exact currently serving RRC266 compiled source, including all1092 cultural Tailoring/1764 Smithing/35 Gnomish selectors and RRC265 bot changes; Fire isolated source is not this base. Never force overwrite diverged owner source.",
+  "tests": 0,
+  "builds": 0,
+  "runtime": false,
+  "SQL_executions": 0
+}
