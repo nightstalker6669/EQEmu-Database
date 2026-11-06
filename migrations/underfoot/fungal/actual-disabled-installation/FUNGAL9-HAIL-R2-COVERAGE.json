@@ -1,0 +1,101 @@
+{
+  "status": "ACTUAL_FUNGAL9_HAIL_R2_CODE_INSTALLED_MISSIONS_DISABLED",
+  "publication": "4e668870e0a2711ffe0e3f5e15d13e2d81e02e7f",
+  "publication_manifest_sha256": "3b9ef322f4c5d9e8dbf336eefdcd62c3be16c9b75d8841fdcc228458b9c6519f",
+  "source_manifest_sha256": "238fa66f0eae556bb689fd3585a583679ede8ae4fe0c8757e8f8c48c3e2f46cd",
+  "actual_incremental_source_delta9": [
+    {
+      "path": "common/fungal_item_operation_wire.h",
+      "postimage_sha256": "5415cd2053df28e3c5941bb06ebb60505b16906a230197491c3c3675627c8914",
+      "preimage_sha256": "153e1be65a13ade20e083ec37185deaa7f6ee901929f01c290fafb98d6c24cb3"
+    },
+    {
+      "path": "zone/fungal_item_source_impl.inc",
+      "postimage_sha256": "5adadbf2cf0db7eef2af1c14717f42b60affd7a72e0f2135f2e80ac7ce70e2d5",
+      "preimage_sha256": "df452c4e912b42e925f7f631046ab54c7ddb8e037094a5053e9da45e1fe0f3a3"
+    },
+    {
+      "path": "zone/task_client_state.cpp",
+      "postimage_sha256": "3298229af534db52258a4eeef7d3936bffa45a1cab222fe4c70e006a346fe159",
+      "preimage_sha256": "afae7055a51f3ffaeb9717916324d95da3b9a664ddb944140462b9f08ca04fe0"
+    },
+    {
+      "path": "zone/shared_task_zone_messaging.cpp",
+      "postimage_sha256": "32963468d0b3fc3a6871443058b7d8dddcfc474293a3e7ab94357fd5430661a7",
+      "preimage_sha256": "681741d45b447b1696d55e330c3e197063d76842a19f4ce97b916fdef48d6fd3"
+    },
+    {
+      "path": "world/fungal_item_world_source_impl.inc",
+      "postimage_sha256": "0d25b8b3b9d005707c80b5da71cdf5a459d79c123d4c1c1b33b24e85fdcaee72",
+      "preimage_sha256": "aed849a06bcfb0486bed0a6a3fd4ec1e74496e28a8d3bed6c5e05808e7b10bfa"
+    },
+    {
+      "path": "world/shared_task_world_messaging.cpp",
+      "postimage_sha256": "0657bf8bd0f0d79c1b97fb4ca6e12e1fe31826ff8636250be2c866e5df68ca03",
+      "preimage_sha256": "a52fb4aa61aca9b1a7800733c2f15fb68de013525ca8831c9049c2888ddb6b92"
+    },
+    {
+      "path": "world/shared_task_manager.cpp",
+      "postimage_sha256": "a79b2e6a52087febea89dc38fa9cc350e676f36d3f3c90209a44a563112b333f",
+      "preimage_sha256": "4ec3ca625d519bc5a0161348d111b2e1ebf0e1fb91a25e84a5db5471c20ab2f7"
+    },
+    {
+      "path": "common/fungal_item_custody_sql.h",
+      "postimage_sha256": "dfd097f2d7ddcae9b7249b3e5c7f41a7d128f82eafc226ba99e17d599a0dd9be",
+      "preimage_sha256": "cb63071dc5fa94cfe2ce07ed1e9c57dc436727f0749ecf47d6ff31882061a82b"
+    },
+    {
+      "path": "world/fungal_native_world_custody.cpp",
+      "postimage_sha256": "2241203d55eddddc6252a26ac67bbf8800a71c5a0f5ae5016acf6aa8bf9112b3",
+      "preimage_sha256": "442c49d9ce62088d3d0c592ca92cfd993616fb5a54dbb047942fe0dc8745d951"
+    }
+  ],
+  "all29_Fungal_native_source_postimage_pins": {
+    "common/fire_native_inventory_fence.cpp": "b705877a4710b1ae7c3a78881c68ed34c8455f507ba398ecd5099861aa5e847f",
+    "common/fungal_item_custody_sql.h": "dfd097f2d7ddcae9b7249b3e5c7f41a7d128f82eafc226ba99e17d599a0dd9be",
+    "common/fungal_item_operation_wire.h": "5415cd2053df28e3c5941bb06ebb60505b16906a230197491c3c3675627c8914",
+    "common/fungal_unknown_inventory.h": "024fdab2328a303151eb30cc10218ec70682596d89409efc3de682906710b23e",
+    "common/fungal_world_hold.h": "c74791511fbb24eaf230622b92a8c3c82d20b5465a39053be50111a775c43a40",
+    "common/inventory_profile.cpp": "9870f08fa04aa5c66e54d76a8fdacf9de57b54924c029be3982a1217325443af",
+    "common/inventory_profile.h": "d70ace597218b9c0e108e15d17977f8f5ce0b12f140d0e29a6c286131a459bc8",
+    "world/CMakeLists.txt": "530543d61398ccad4352a7005d2c860dd371bb2f2836282adebe3b67c7f5fe9a",
+    "world/fungal_item_world_source.h": "d6fe69490e85113af352ad4e6bba1a265c82ab5aec7bb321c4e087c2b2d82cb0",
+    "world/fungal_item_world_source_impl.inc": "0d25b8b3b9d005707c80b5da71cdf5a459d79c123d4c1c1b33b24e85fdcaee72",
+    "world/fungal_native_world_custody.cpp": "2241203d55eddddc6252a26ac67bbf8800a71c5a0f5ae5016acf6aa8bf9112b3",
+    "world/shared_task_manager.cpp": "a79b2e6a52087febea89dc38fa9cc350e676f36d3f3c90209a44a563112b333f",
+    "world/shared_task_world_messaging.cpp": "0657bf8bd0f0d79c1b97fb4ca6e12e1fe31826ff8636250be2c866e5df68ca03",
+    "zone/CMakeLists.txt": "ba3bf47beda2c361f1297bf5cc01bf9acfb6bfd7cfba37e605b5d96e2cefcd5f",
+    "zone/client.cpp": "501a9cd5851151172d8be9351858257ae781a9bd60b2220dbf9bf40670b169ad",
+    "zone/client.h": "9a06c84e81a094fdc692addb0d61915752914d6c589a0949f1438d34e7aad583",
+    "zone/client_packet.cpp": "e3e550a7711cefa251987086749358291a39973e6f68201f82d0f424b4e4a350",
+    "zone/entity.cpp": "f356404c57a55ddbcaeb0993dc1979a8f51fc07632deaa4e4c8c13b323cd008a",
+    "zone/fungal_item_operation_source.h": "0bd68084e233d5b89068824e1c5b7f7bade78f8a8cb39ef247fdd4ad588a6c6f",
+    "zone/fungal_item_source_impl.inc": "5adadbf2cf0db7eef2af1c14717f42b60affd7a72e0f2135f2e80ac7ce70e2d5",
+    "zone/fungal_native_inventory_custody.cpp": "84ef9980ec1fee80bba6e59ab05e3a423060192a01b763739542e658e82c5fa6",
+    "zone/inventory_session_owner.cpp": "718e06b1d1d8c972161183e32053794a493f1454afa6b541a46ce815c6ca785f",
+    "zone/npc.cpp": "0566d224e6e140370a9abb4d0a87a7451550f09d12b25960a867438801b2ae7b",
+    "zone/npc.h": "f9fd7dabca9c7e2bb7518b7764a0e98a51e3be5149da4b4383d2bba36d9f3ddd",
+    "zone/shared_task_zone_messaging.cpp": "32963468d0b3fc3a6871443058b7d8dddcfc474293a3e7ab94357fd5430661a7",
+    "zone/task_client_state.cpp": "3298229af534db52258a4eeef7d3936bffa45a1cab222fe4c70e006a346fe159",
+    "zone/task_client_state.h": "7b972d66eaf1390d064da8edee36b76b775b7ab2e4b6f9c5fc6f6780fb39c6aa",
+    "zone/tasks.cpp": "f33f04640b365634629072c6b42fe5d1e85f5a5c0537a5f6026fe5a33bf2f558",
+    "zone/zone.cpp": "41692e0742937446192f0d33e4bb4f87004d570cb438a0c651d00010684af81e"
+  },
+  "installed_world_sha256": "6c317779f2c549c3e0852f93cb79e5f4bb6277c0c02eb3255569a03ee55e79dd",
+  "installed_zone_sha256": "c76799510e741370ee7880e036827968f34179cd85cc20afdbdfd7289912aa87",
+  "matched_compile_receipt_sha256": "e5c69b1d1ed2dbfae6ceca7ff97cd716419425671bd7db23c03bf85555883124",
+  "installed_receipt_sha256": "0408385327555a85ce46dc68903d93fa454023b5cf7fc67ee6f6bc26694c20c9",
+  "Fungal_foundation_receipt_sha256": "53990eab36a3804d1d5d541c311cda98a7debcba90d1e48f891aa659c063319c",
+  "actual_installed_disabled_boundary": "Matched native Fungal9HAILR2 code installed over FungalR3 foundation. Companion19datatype changes remain sourceonly/DISABLED/unapplied; no missionflags/content/rewards changed; missions notactivationready/otherhooks incomplete, no nativehail/gameplayacceptance.",
+  "companion19datatype_changes": "SOURCE_ONLY_DISABLED_UNAPPLIED;codeinstallation does not imply these data changes or any missionenable.",
+  "other_deliveries_and_hooks": "Incomplete;no complete mission/release/nativehail/gameplayclaim.",
+  "all_other_parent_paths_preserved": true,
+  "preservation_scope": "Serving Fire+FungalR3+291+290Loom13/autoPP/Smith2004/Tail1148/Research821/Gnomish35/bot/allWorldfeatures outside exact11owner deltas.",
+  "Fire_native_boot_cache_preserved": "All6 fresh zones loaded895tasks and158valid selectable task rewardsets; no invalid-delivery/missing-enabled-rewardset errors. No redundant reload. WorldDZ/tasks ordinary fresh boot; affected scenes nextZoneInit readiness, no perIDWorldDZinspection/nativeacceptance.",
+  "admission_restored": {
+    "owned_rules_removed": true,
+    "unrelated_rules_policies_preserved": true
+  },
+  "native_hail_gameplay_acceptance": false,
+  "capture_boundary": "Qualified actualsource+compile+loadedbinary coverage only;no extra DBaudit/SQL/tests/runtime/playerconfigexport."
+}

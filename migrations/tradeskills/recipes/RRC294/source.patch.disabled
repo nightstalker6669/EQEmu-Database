@@ -1,0 +1,237 @@
+--- a/zone/tradeskills.cpp
++++ b/zone/tradeskills.cpp
+@@ -16,6 +16,7 @@
+ 	along with this program. If not, see <http://www.gnu.org/licenses/>.
+ */
+ #include "client.h"
++#include "charged_recipe32.h"
+ #include "tanaan_forge28_actor.h"
+ #include "world_loom13_actor.h"
+ #include "gnomish_tailoring35_actor.h"
+@@ -38,9 +39,70 @@
+ 
+ #include <algorithm>
+ #include <list>
++#include <array>
+ 
+ extern QueryServ* QServ;
+ extern WorldServer worldserver;
++
++
++namespace {
++struct ChargedPacking32Plan {
++ struct Take {int16_t slot=INVALID_INDEX;const EQ::ItemInstance* original=nullptr;int32_t serial=0;};
++ int16_t kit_slot=INVALID_INDEX;const EQ::ItemInstance* kit=nullptr;int32_t kit_serial=0;
++ std::array<Take,10> takes{};size_t count=0;
++};
++bool Charged32OutputValid(const DBTradeskillRecipe_Struct& spec) {
++ const auto* r=ChargedRecipe32::Find(spec.recipe_id);if(!r)return true;
++ if(uint32_t(spec.tradeskill)!=r->skill||spec.quest)return false;
++ const auto* output=database.GetItem(r->output);
++ if(!output||output->ItemClass!=0||output->Stackable||output->MaxCharges!=int(r->charges))return false;
++ unsigned found=0;for(const auto& pair:spec.onsuccess)if(pair.first==r->output){if(pair.second!=1)return false;++found;}
++ return found==1&&(!r->units||(spec.nofail&&spec.trivial==0&&spec.skill_needed==0&&spec.replace_container));
++}
++bool Charged32SinglePoison(const EQ::ItemInstance* item,uint32_t id) {
++ const auto* d=item?item->GetItem():nullptr;
++ return d&&d->ID==id&&d->ItemClass==0&&!item->IsStackable()&&d->MaxCharges==1&&item->GetCharges()==1&&item->GetContents()->empty();
++}
++bool Charged32Kit(Client& user,const ChargedRecipe32::Requirement& r,int16_t slot,const EQ::ItemInstance* expected) {
++ const auto* inst=user.GetInv().GetItem(slot);const auto* d=inst&&inst->IsType(EQ::item::ItemClassBag)?inst->GetItem():nullptr;
++ return inst==expected&&d&&d->ID==r.kit&&d->BagType==12&&d->BagSlots==10&&d->BagSize==2;
++}
++bool Charged32PreparePacking(Client& user,const ChargedRecipe32::Requirement& r,int16_t slot,bool manual,ChargedPacking32Plan& plan) {
++ if(!r.units||user.GetClass()!=Class::Rogue||!FirePersonalOccurrenceSource::NativeInventoryFence::ProfileAllowed(&user.GetInv()))return false;
++ auto& inv=user.GetInv();const auto* kit=inv.GetItem(slot);
++ if(!Charged32Kit(user,r,slot,kit))return false;
++ plan.kit_slot=slot;plan.kit=kit;plan.kit_serial=kit->GetSerialNumber();
++ const auto add=[&](int16_t at,const EQ::ItemInstance* item){
++  if(!Charged32SinglePoison(item,r.input)||plan.count>=r.units)return false;
++  for(size_t n=0;n<plan.count;++n)if(plan.takes[n].original==item||plan.takes[n].slot==at)return false;
++  plan.takes[plan.count++]={at,item,item->GetSerialNumber()};return true;
++ };
++ // Bottle contents have priority, so no selected contents can be left behind
++ // when the guaranteed no-fail one-use bottle is removed.
++ for(const auto& child:*kit->GetContents())if(child.second){
++  if(child.first>=10||!add(EQ::InventoryProfile::CalcSlotId(slot,child.first),child.second))return false;
++ }
++ if(manual)return plan.count==r.units;
++ if(!EQ::ValueWithin(slot,EQ::invslot::GENERAL_BEGIN,EQ::invslot::GENERAL_END))return false;
++ for(int16_t root=EQ::invslot::GENERAL_BEGIN;root<=EQ::invslot::GENERAL_END&&plan.count<r.units;++root) {
++  if(root==slot||!inv.GetLookup()||!((uint64_t(1)<<root)&inv.GetLookup()->PossessionsBitmask))continue;
++  const auto* item=inv.GetItem(root);if(!item)continue;
++  if(Charged32SinglePoison(item,r.input)){if(!add(root,item))return false;continue;}
++  const auto* data=item->GetItem();if(!data||!item->IsClassBag())continue;
++  for(uint8_t index=0;index<data->BagSlots&&index<EQ::invbag::SLOT_COUNT&&plan.count<r.units;++index){
++   const auto* child=item->GetItem(index);if(Charged32SinglePoison(child,r.input)&&!add(EQ::InventoryProfile::CalcSlotId(root,index),child))return false;
++  }
++ }
++ return plan.count==r.units;
++}
++bool Charged32PackingStillOriginal(Client& user,const ChargedRecipe32::Requirement& r,const ChargedPacking32Plan& plan) {
++ if(user.GetClass()!=Class::Rogue||!FirePersonalOccurrenceSource::NativeInventoryFence::ProfileAllowed(&user.GetInv())||
++  !Charged32Kit(user,r,plan.kit_slot,plan.kit)||plan.kit->GetSerialNumber()!=plan.kit_serial||plan.count!=r.units)return false;
++ for(size_t n=0;n<plan.count;++n){const auto& take=plan.takes[n];const auto* item=user.GetInv().GetItem(take.slot);if(item!=take.original||!Charged32SinglePoison(item,r.input)||item->GetSerialNumber()!=take.serial)return false;}
++ for(const auto& child:*plan.kit->GetContents())if(child.second){bool selected=false;for(size_t n=0;n<plan.count;++n)if(plan.takes[n].slot==EQ::InventoryProfile::CalcSlotId(plan.kit_slot,child.first)&&plan.takes[n].original==child.second)selected=true;if(!selected)return false;}
++ return true;
++}
++}
+ 
+ static const EQ::skills::SkillType TradeskillUnknown = EQ::skills::Skill1HBlunt; /* an arbitrary non-tradeskill */
+ 
+@@ -506,6 +568,21 @@
+ 		}
+ 	}
+ 
++
++ const auto* charged_requirement=ChargedRecipe32::Find(spec.recipe_id);
++ ChargedPacking32Plan charged_packing;
++ const auto charged_station_valid=[&](){
++  if(!charged_requirement)return true;
++  if(!Charged32OutputValid(spec)||!FirePersonalOccurrenceSource::NativeInventoryFence::ProfileAllowed(&user->GetInv()))return false;
++  if(charged_requirement->units)return !worldcontainer&&user->GetInv().GetItem(in_combine->container_slot)==container;
++  if(charged_requirement->kit==17){auto* actual=user->GetTradeskillObject();return worldcontainer&&actual&&actual==worldo&&actual->user==user&&actual->GetType()==17&&actual->m_inst&&actual->m_inst==container;}
++  const auto* actual=user->GetInv().GetItem(in_combine->container_slot);const auto* data=actual&&actual->IsType(EQ::item::ItemClassBag)?actual->GetItem():nullptr;
++  return !worldcontainer&&actual==container&&data&&data->ID==charged_requirement->kit&&data->BagType==10&&data->BagSlots>=charged_requirement->cells&&data->BagSize>=charged_requirement->maxsize&&user->GetPP().race==Race::Gnome;
++ };
++ if(!charged_station_valid()||(charged_requirement&&charged_requirement->units&&!Charged32PreparePacking(*user,*charged_requirement,in_combine->container_slot,true,charged_packing))){
++  user->Message(Chat::Red,"This recipe needs its correct container and ingredients.");auto* denied=new EQApplicationPacket(OP_TradeSkillCombine,0);user->QueuePacket(denied);safe_delete(denied);return;
++ }
++
+ 	// Character hasn't learnt the recipe yet.
+ 	// must_learn:
+ 	// bit 1 (0x01): recipe can't be experimented
+@@ -594,6 +671,8 @@
+ 		}
+ 	}
+ 
++
++ if(!charged_station_valid()||(charged_requirement&&charged_requirement->units&&!Charged32PackingStillOriginal(*user,*charged_requirement,charged_packing))){auto* denied=new EQApplicationPacket(OP_TradeSkillCombine,0);user->QueuePacket(denied);safe_delete(denied);return;}
+ 	// Send acknowledgement packets to client
+ 	auto outapp = new EQApplicationPacket(OP_TradeSkillCombine, 0);
+ 	user->QueuePacket(outapp);
+@@ -618,6 +697,13 @@
+ 		container->Clear();
+ 	}
+ 	//do the check and send results...
++
++ if(charged_requirement&&charged_requirement->units){
++  // Inputs are already gone. Remove this exact emptied no-fail bottle BEFORE
++  // output/task callbacks, and suppress the stock delayed second removal.
++  if(user->GetInv().GetItem(charged_packing.kit_slot)!=charged_packing.kit||!charged_packing.kit->GetContents()->empty())return;
++  user->DeleteItemInInventory(charged_packing.kit_slot,0,true);spec.replace_container=false;
++ }
+ 	bool success = user->TradeskillExecute(&spec);
+ 
+ 	// Learn new recipe message
+@@ -793,6 +879,22 @@
+ 		}
+ 	}
+ 
++
++ const auto* charged_requirement=ChargedRecipe32::Find(spec.recipe_id);
++ ChargedPacking32Plan charged_packing;
++ const auto charged_station_valid=[&](){
++  if(!charged_requirement)return true;
++  if(!Charged32OutputValid(spec)||!FirePersonalOccurrenceSource::NativeInventoryFence::ProfileAllowed(&user->GetInv()))return false;
++  if(charged_requirement->units)return true;
++  if(charged_requirement->kit==17){auto* station=user->GetTradeskillObject();return station&&station->user==user&&station->m_inst&&station->m_inst->IsType(EQ::item::ItemClassBag)&&station->GetType()==17&&rac->object_type==17;}
++  const auto slot=user->GetInv().HasItem(charged_requirement->kit,1,invWherePersonal);const auto* native=user->GetInv().GetItem(slot);const auto* data=native&&native->IsType(EQ::item::ItemClassBag)?native->GetItem():nullptr;
++  return data&&data->ID==charged_requirement->kit&&data->BagType==10&&data->BagSlots>=charged_requirement->cells&&data->BagSize>=charged_requirement->maxsize&&rac->some_id==data->ID&&rac->object_type==data->BagType&&user->GetPP().race==Race::Gnome;
++ };
++ if(!charged_station_valid()||(charged_requirement&&charged_requirement->units&&
++  (rac->some_id!=17149||rac->object_type!=12||!Charged32PreparePacking(*user,*charged_requirement,user->GetInv().HasItem(17149,1,invWherePersonal),false,charged_packing)))){
++  user->Message(Chat::Red,"This recipe needs its correct container and ingredients.");user->QueuePacket(outapp);safe_delete(outapp);return;
++ }
++
+ 	// Character hasn't learnt the recipe yet.
+ 	// This shouldn't happen.
+ 	if ((spec.must_learn&0xf) && !spec.has_learnt) {
+@@ -931,6 +1033,8 @@
+ 		return;
+ 	}
+ 
++
++ if(!charged_station_valid()||(charged_requirement&&charged_requirement->units&&(results.RowCount()!=1||items[0]!=charged_requirement->input||counts[0]!=charged_requirement->units||!Charged32PackingStillOriginal(*user,*charged_requirement,charged_packing)))){user->QueuePacket(outapp);safe_delete(outapp);return;}
+ 	//now we know they have everything...
+ 
+ 	//remove all the items from the players inventory, with updates...
+@@ -941,7 +1045,10 @@
+ 
+ 		//we have to loop here to delete 1 at a time in case its in multiple stacks.
+ 		for(uint8 k = 0; k < counts[r]; k++) {
+-			slot = user_inv.HasItem(items[r], 1, invWherePersonal);
++			if(charged_requirement&&charged_requirement->units){
++    if(r!=0||k>=charged_packing.count||items[r]!=charged_requirement->input){user->QueuePacket(outapp);safe_delete(outapp);return;}
++    slot=charged_packing.takes[k].slot;
++   }else slot = user_inv.HasItem(items[r], 1, invWherePersonal);
+ 			if (slot == INVALID_INDEX) {
+ 				//WTF... I just checked this above, but just to be sure...
+ 				//we cant undo the previous deletes without a lot of work.
+@@ -960,6 +1067,11 @@
+ 		}
+ 	}
+ 
++
++ if(charged_requirement&&charged_requirement->units){
++  if(user_inv.GetItem(charged_packing.kit_slot)!=charged_packing.kit||!charged_packing.kit->GetContents()->empty()){user->QueuePacket(outapp);safe_delete(outapp);return;}
++  user->DeleteItemInInventory(charged_packing.kit_slot,0,true);spec.replace_container=false;
++ }
+ 	//otherwise, we found it all...
+ 	outp->reply_code = 0x00000000;	//success for finding it...
+ 	user->QueuePacket(outapp);
+@@ -1353,7 +1465,7 @@
+ 			item = database.GetItem(itr->first);
+ 			if (item) {
+ 				CheckItemDiscoverability(itr->first);
+-				SummonItem(itr->first, itr->second);
++				SummonItem(itr->first, ChargedRecipe32::SummonCount(spec->recipe_id, itr->first, itr->second));
+ 				if (GetGroup()) {
+ 					entity_list.MessageGroup(this, true, Chat::Skills, "%s has successfully fashioned %s!", GetName(), item->Name);
+ 				}
+--- /dev/null
++++ b/zone/charged_recipe32.h
+@@ -0,0 +1,43 @@
++#pragma once
++#include <cstdint>
++// Exact32 positive-source charged outcomes only. All SQL success quantities
++// stay PHYSICAL; task/craft counts are not the item factory charge argument.
++namespace ChargedRecipe32 {
++struct Requirement {uint32_t recipe,output,charges,skill,kit,input,units,cells,maxsize;};
++inline constexpr Requirement Requirements[]={
++ {3102639,11454,10,75,17149,10270,10,10,1},
++ {3102640,11462,10,75,17149,10278,10,10,1},
++ {3102641,22787,5,75,17149,10278,5,5,1},
++ {3102642,22791,5,75,17149,10282,5,5,1},
++ {3102643,29818,5,63,17,0,0,4,4},
++ {3102644,29818,5,63,17,0,0,4,4},
++ {3102645,29829,5,63,17,0,0,8,4},
++ {3102646,38993,10,57,17877,0,0,10,2},
++ {3102647,65500,5,75,17149,65497,5,5,1},
++ {3102648,65501,10,75,17149,65497,10,10,1},
++ {3102649,72620,10,75,17149,72600,10,10,1},
++ {3102650,72621,10,75,17149,72601,10,10,1},
++ {3102651,72622,10,75,17149,72602,10,10,1},
++ {3102652,72623,10,75,17149,72603,10,10,1},
++ {3102653,72625,10,75,17149,72609,10,10,1},
++ {3102654,72626,10,75,17149,72610,10,10,1},
++ {3102655,72627,10,75,17149,72611,10,10,1},
++ {3102656,72629,10,75,17149,72615,10,10,1},
++ {3102657,72630,10,75,17149,72616,10,10,1},
++ {3102658,72634,5,75,17149,72600,5,5,1},
++ {3102659,72636,5,75,17149,72602,5,5,1},
++ {3102660,72637,5,75,17149,72603,5,5,1},
++ {3102661,72639,5,75,17149,72609,5,5,1},
++ {3102662,72640,5,75,17149,72610,5,5,1},
++ {3102663,72641,5,75,17149,72611,5,5,1},
++ {3102664,72643,5,75,17149,72615,5,5,1},
++ {3102665,72644,5,75,17149,72616,5,5,1},
++ {3102666,81301,5,57,17877,0,0,7,2},
++ {3102667,81302,5,57,17877,0,0,7,2},
++ {3102668,81303,5,57,17877,0,0,7,2},
++ {3102669,81304,5,57,17877,0,0,7,2},
++ {3102670,97921,60,57,17877,0,0,8,2},
++};
++inline const Requirement* Find(uint32_t recipe)noexcept{for(const auto& r:Requirements)if(r.recipe==recipe)return &r;return nullptr;}
++inline int16_t SummonCount(uint32_t recipe,uint32_t item,uint8_t physical)noexcept{const auto* r=Find(recipe);return r&&r->output==item&&physical==1?int16_t(r->charges):int16_t(physical);}
++}
