@@ -1,0 +1,396 @@
+{
+  "format_version": 1,
+  "features": [
+    "AA048",
+    "AA049",
+    "RRC270-r2"
+  ],
+  "application_status": "AA048_AA049_AND_RRC270_R2_APPLIED_VERIFIED_CLOSED",
+  "AA_actuals": {
+    "AA048": {
+      "status": "APPLIED_VERIFIED_INDEPENDENT_FULL_POSTIMAGES",
+      "source_commit": "3e26429fd0390a3b284e001f22e3c67143fd4c31",
+      "forward_sha256": "46b5c78aa2a62af3a790a44a20ec7392ad9cd4d19ddca9277618e79b3211dc80",
+      "SQL_invocations": 1,
+      "ranks_added": 1,
+      "effects_added": 6,
+      "prereqs_added": 0,
+      "existing_rows_updated": 0,
+      "player_ownership_points_charges_writes": 0,
+      "runtime_cache_actions": 0,
+      "qualified_encoding": "Cumulative20%: SPA310 milliseconds306000 for spell8233 base1530000, and240000 for preserved groups2439/2539 base1200000. Existing rank1 encodes10% as153000/120000. Copy all four filters139/385/385/411 unchanged. Native focus handles separate blocks and divides310base by1000 to seconds. Perioddescription names EmpathicFury only. Later native SavageFury/Rage group filters are retained as existing compatibility scope, not authenticated historical family coverage. Known immediate12823only; rank3 purchase/identity unsupported. Preserve spell0, eligibility and both existing focus blocks. No existing spell/ability/player writes or native reuse acceptance. ExactnativeHEXname/type/classmask/passivefields/prereqs unchanged;finite next=-1/not historicalterminal/later IDs held/nativeunaccepted.",
+      "native_acceptance": false,
+      "packet": {
+        "packet": "AA048",
+        "ability_id": 454,
+        "name": "Hastened Empathic Fury",
+        "ordinal": 2,
+        "cost": 12,
+        "level": 88,
+        "expansion": 17,
+        "ability": {
+          "id": 454,
+          "name": "Hastened Empathic Fury",
+          "category": -1,
+          "classes": 16384,
+          "races": 65535,
+          "drakkin_heritage": 127,
+          "deities": 131071,
+          "status": 0,
+          "type": 3,
+          "charges": 0,
+          "grant_only": 0,
+          "first_rank_id": 12822,
+          "enabled": 1,
+          "reset_on_death": 0,
+          "auto_grant_enabled": 1
+        },
+        "predecessor": {
+          "id": 12822,
+          "upper_hotkey_sid": -1,
+          "lower_hotkey_sid": -1,
+          "title_sid": 12822,
+          "desc_sid": 12822,
+          "cost": 9,
+          "level_req": 86,
+          "spell": 0,
+          "spell_type": 0,
+          "recast_time": 0,
+          "expansion": 17,
+          "prev_id": -1,
+          "next_id": 12823
+        },
+        "target": 12823,
+        "pre_effects": [
+          {
+            "rank_id": 12822,
+            "slot": 1,
+            "effect_id": 310,
+            "base1": 153000,
+            "base2": 0
+          },
+          {
+            "rank_id": 12822,
+            "slot": 2,
+            "effect_id": 139,
+            "base1": 8233,
+            "base2": 0
+          },
+          {
+            "rank_id": 12822,
+            "slot": 3,
+            "effect_id": 310,
+            "base1": 120000,
+            "base2": 0
+          },
+          {
+            "rank_id": 12822,
+            "slot": 4,
+            "effect_id": 385,
+            "base1": 2439,
+            "base2": 0
+          },
+          {
+            "rank_id": 12822,
+            "slot": 5,
+            "effect_id": 385,
+            "base1": 2539,
+            "base2": 0
+          },
+          {
+            "rank_id": 12822,
+            "slot": 6,
+            "effect_id": 411,
+            "base1": 32768,
+            "base2": 0
+          }
+        ],
+        "pre_prereqs": [],
+        "new_effects": [
+          {
+            "rank_id": 12823,
+            "slot": 1,
+            "effect_id": 310,
+            "base1": 306000,
+            "base2": 0
+          },
+          {
+            "rank_id": 12823,
+            "slot": 2,
+            "effect_id": 139,
+            "base1": 8233,
+            "base2": 0
+          },
+          {
+            "rank_id": 12823,
+            "slot": 3,
+            "effect_id": 310,
+            "base1": 240000,
+            "base2": 0
+          },
+          {
+            "rank_id": 12823,
+            "slot": 4,
+            "effect_id": 385,
+            "base1": 2439,
+            "base2": 0
+          },
+          {
+            "rank_id": 12823,
+            "slot": 5,
+            "effect_id": 385,
+            "base1": 2539,
+            "base2": 0
+          },
+          {
+            "rank_id": 12823,
+            "slot": 6,
+            "effect_id": 411,
+            "base1": 32768,
+            "base2": 0
+          }
+        ],
+        "period_source": {
+          "url": "https://everquest.allakhazam.com/wiki/EQ:Hastened_Empathic_Fury?oldid=456303",
+          "revision": "2013-02-02 20:51:22",
+          "method": "Actual Chrome rendered dated table/description"
+        },
+        "encoding": "Cumulative20%: SPA310 milliseconds306000 for spell8233 base1530000, and240000 for preserved groups2439/2539 base1200000. Existing rank1 encodes10% as153000/120000. Copy all four filters139/385/385/411 unchanged. Native focus handles separate blocks and divides310base by1000 to seconds.",
+        "qualification": "Perioddescription names EmpathicFury only. Later native SavageFury/Rage group filters are retained as existing compatibility scope, not authenticated historical family coverage.",
+        "limits": "Known immediate12823only; rank3 purchase/identity unsupported. Preserve spell0, eligibility and both existing focus blocks. No existing spell/ability/player writes or native reuse acceptance.",
+        "sql": "utils/sql/aa/2026_11_05_hastened_empathic_fury_rank2.sql",
+        "rollback": "utils/sql/aa/rollback/2026_11_05_hastened_empathic_fury_rank2.sql",
+        "sql_sha256": "46b5c78aa2a62af3a790a44a20ec7392ad9cd4d19ddca9277618e79b3211dc80",
+        "rollback_sha256": "204ae8dac84658419680a8b9a0539d811bb648c4c17a9252cb9d0dae4a811100"
+      },
+      "independent_full_postimages_verified": true,
+      "connections_closed": true
+    },
+    "AA049": {
+      "status": "APPLIED_VERIFIED_INDEPENDENT_FULL_POSTIMAGES",
+      "source_commit": "3e26429fd0390a3b284e001f22e3c67143fd4c31",
+      "forward_sha256": "046a227b5b984c15ebc70e9d80bc1099ff39edade57b17d757611936007106ff",
+      "SQL_invocations": 1,
+      "ranks_added": 1,
+      "effects_added": 1,
+      "prereqs_added": 0,
+      "existing_rows_updated": 0,
+      "player_ownership_points_charges_writes": 0,
+      "runtime_cache_actions": 0,
+      "qualified_encoding": "SPA247RaiseSkillCap cumulative95 for TripleAttack76, fivepoints/rank. Native18=90 matches. Fourclass3833 table authenticates19cost15/lvl93/VoA. Preserve trailing name space and native type2/mask32841.  Known immediate12592only. Period20cost15/lvl95 does not establish its nativeID. Otherpage lines3837BardBST,3834Rogue,3708knights remain separate; no existingrow/playerwrites or native skill-cap acceptance. ExactnativeHEXname/type/classmask/passivefields/prereqs unchanged;finite next=-1/not historicalterminal/later IDs held/nativeunaccepted.",
+      "native_acceptance": false,
+      "packet": {
+        "packet": "AA049",
+        "ability_id": 3833,
+        "name": "Burst of Power ",
+        "ordinal": 19,
+        "cost": 15,
+        "level": 93,
+        "expansion": 18,
+        "ability": {
+          "id": 3833,
+          "name": "Burst of Power ",
+          "category": -1,
+          "classes": 32841,
+          "races": 65535,
+          "drakkin_heritage": 127,
+          "deities": 131071,
+          "status": 0,
+          "type": 2,
+          "charges": 0,
+          "grant_only": 0,
+          "first_rank_id": 6409,
+          "enabled": 1,
+          "reset_on_death": 0,
+          "auto_grant_enabled": 1
+        },
+        "predecessor": {
+          "id": 12591,
+          "upper_hotkey_sid": -1,
+          "lower_hotkey_sid": -1,
+          "title_sid": 6540,
+          "desc_sid": 6540,
+          "cost": 15,
+          "level_req": 91,
+          "spell": -1,
+          "spell_type": 0,
+          "recast_time": 0,
+          "expansion": 18,
+          "prev_id": 12513,
+          "next_id": 12592
+        },
+        "target": 12592,
+        "pre_effects": [
+          {
+            "rank_id": 12591,
+            "slot": 1,
+            "effect_id": 247,
+            "base1": 90,
+            "base2": 76
+          }
+        ],
+        "pre_prereqs": [],
+        "new_effects": [
+          {
+            "rank_id": 12592,
+            "slot": 1,
+            "effect_id": 247,
+            "base1": 95,
+            "base2": 76
+          }
+        ],
+        "period_source": {
+          "url": "https://everquest.allakhazam.com/wiki/EQ:Burst_of_Power?oldid=451572",
+          "revision": "2012-11-30 22:38:38",
+          "method": "Actual Chrome rendered dated four native-line tables and description"
+        },
+        "encoding": "SPA247RaiseSkillCap cumulative95 for TripleAttack76, fivepoints/rank. Native18=90 matches. Fourclass3833 table authenticates19cost15/lvl93/VoA. Preserve trailing name space and native type2/mask32841.",
+        "limits": "Known immediate12592only. Period20cost15/lvl95 does not establish its nativeID. Otherpage lines3837BardBST,3834Rogue,3708knights remain separate; no existingrow/playerwrites or native skill-cap acceptance.",
+        "sql": "utils/sql/aa/2026_11_05_burst_of_power_shared_rank19.sql",
+        "rollback": "utils/sql/aa/rollback/2026_11_05_burst_of_power_shared_rank19.sql",
+        "sql_sha256": "046a227b5b984c15ebc70e9d80bc1099ff39edade57b17d757611936007106ff",
+        "rollback_sha256": "5623a443fbf59a12f8626061a13fd351a96c8c2e6de504e33b80a2106ee652c5"
+      },
+      "independent_full_postimages_verified": true,
+      "connections_closed": true
+    }
+  },
+  "AA_delta": {
+    "ranks": 2,
+    "effects": 7,
+    "prereqs": 0,
+    "existing_player_writes": 0
+  },
+  "AA_material_qualifications": [
+    "HastenedEmpathicFury2 cumulative306000/240000ms in two nativefocusblocks,allfourfilters unchanged. SavageFury/Ragegroups retained as nativecompatibility,not periodfamilyproof. Spell0 preserved;currentcooldowndependencies fullrows backedup/independentlyunchanged.",
+    "Burst of Power3833 only:HEXtrailingname/type2/classmask32841 retained;strings6540 separate from root6409;SPA247cumulative95/TripleAttack76,otherclasslines separate;later IDs held.",
+    "Finite next=-1/not historicalterminal/native reuse-skillcapacceptance unclaimed."
+  ],
+  "RRC270_r2": {
+    "status": "APPLIED_VERIFIED",
+    "SQL_invocations": 1,
+    "published_commit": "25d0e38b456416a471bb6aa5a3fc28d054c6e57e",
+    "source_sha256": "90db7bb036161191ae3b58843a4573611854c369ccb7831d7d9a553881a0d536",
+    "recipes_added": 67,
+    "entries_added": 357,
+    "existing_recipe_definitions_updated": 0,
+    "existing_entry_rows_updated": 0,
+    "exact_postimages": true,
+    "learned_references_unchanged": true,
+    "after_counts": {
+      "recipes": 31893,
+      "entries": 243333
+    },
+    "historical_qualification": {
+      "scope": "168 raw utility/vial/mold/cookie/tutorial source bodies:67 absent full-input routes proposed,96 existing source bodies match physical roles/numeric fields and remain unchanged,5 holds. Existing duplicates preserved.",
+      "identity": "Current retained primary explicit EQ IDs and literal manufacture bodies, including distinct Lore and regular skins.15 unlinked roles resolved through explicit linked sibling ingredient profiles and original catalogue counts; no name-only binding or new item definitions.",
+      "learning": "Source omits mandatory books. Ordinary must0/book0 reconstruction; Learned as text supplies recipe label only. No omitted race gate is inferred from item use masks.",
+      "era": "Maintained VoA18,Underfoot16,OoW8,Luclin3,GoD7 and ordinary0 contexts are labelled reconstruction floors; no per-variant immutable May2013 proof. Native/source IDs and page modification dates do not authenticate introduction. Explicit coordinator era disposition required.",
+      "fields": "Literal input quantities/success/failure roles, yields including fired metallic3 and advanced raw2. Two new simple tutorials explicitly No-Fail; preserve nofail1. Output native MaxCharges0 authenticated. Other nofail0/quest0/enabled1 and salvage conventions labelled reconstruction.",
+      "containers": "Only per-body explicit ordinary Wheel21/Kiln22; each exact physical input count<=10. Other named/Tanaan/furniture/guild stations remain unqualified; source quest-use notes do not create manufacture task gates.",
+      "holds": "Ceramic Claw Sleeve Set22969 and Ceramic Dagger Sleeve22970 explicit Vah Shir manufacture gate unsupported; Fine Xakra Runed Jar23135 nonnumeric >250 trivial; existing9398 Advanced Vial yield1 versus source2; existing9562 Sealed Vial trivial255 versus source188. Preserve both existing bodies, no duplicate/repair.",
+      "preservation": "All113 full18 native definitions and131 existing peer headers/769 entries guarded unchanged; positive output-use universe/all-state-all-skill exact input multisets/new entry multiplicity/count deltas and rollback learned-reference refusal. No player/item/book/core mutations.",
+      "execution": "Source only pending explicit coordinator reconstruction/era disposition, GitHub publication and exact one-use SQL GO. No runtime, gameplay acceptance, build or rehearsal.",
+      "name_guard": "A same-name peer is exempt only by its captured primary key in the131 fully guarded existing definitions/769 exact entries; all peer preimages/postimages and output universe remain guarded. Every full-input collision still rejects.",
+      "failure_disposition": "R1 one SQL invocation stopped on overly broad recipe-name collision guard. Read-only confirmation: all affected preimages unchanged, no new IDs, actual31826/242976, transaction0. No retry/inverse; r2 requires fresh publication/exactGO."
+    },
+    "batch": "RRC270-r2",
+    "transaction_state_after": 0,
+    "connections_closed": true,
+    "native_item_dependencies_guarded": 113,
+    "unchanged_existing_peers": {
+      "definitions": 131,
+      "entry_IDs": 769,
+      "full_postimages_exact": true
+    },
+    "attempt_history": {
+      "first_attempt": {
+        "status": "STOPPED_NO_RETRY",
+        "SQL_invocations": 1,
+        "published_commit": "20919c4e21f0174f6ca1aa1b32162ccd645f8063",
+        "source_sha256": "d66d53b99ae02de0dc5403edaeaf90a0170160db421799e54f9861c8125c48e5",
+        "package_manifest_sha256": "3e774f01ff340474d5336db290cbf48d53f2346e0453054a110c250d22beb594"
+      },
+      "first_attempt_disposition": {
+        "reason": "Overly broad recipe-name collision guard stopped first revision.",
+        "all_affected_preimages_unchanged": true,
+        "new_ids_present": 0,
+        "counts": {
+          "recipes": 31826,
+          "entries": 242976
+        },
+        "closed_transaction": 0,
+        "automatic_SQL_retries": 0,
+        "inverses": 0,
+        "database_writes": 0
+      },
+      "corrected_revision": {
+        "source_commit": "25d0e38b456416a471bb6aa5a3fc28d054c6e57e",
+        "apply_sha256": "90db7bb036161191ae3b58843a4573611854c369ccb7831d7d9a553881a0d536",
+        "SQL_invocations": 1,
+        "status": "APPLIED_VERIFIED",
+        "boundary": "Fresh published r2/exact coordinatorGO,not automatic retry or replay of failedSQL. Only captured primary-key peers exempt from same-name guard;131full definitions/769entries and every full-input collision remain guarded.",
+        "rollback_sha256": "e7c418eadbd8e249e8a7d21922a41b2e180e5bcfcf84aceb9cf762657d0b529f"
+      },
+      "historical_evidence": "Original failed source/receipt/read-only zero-change disposition retained separately;not marked applied or replaced by successful actual."
+    },
+    "native_gameplay_acceptance": false,
+    "source_documents": "Four exact r2 published sources retained; preparation labels historical. Originalfailed001 and zero-change readback are separate;later002actual records fresh authorized r2,not replay."
+  },
+  "global_recipe_counts": {
+    "recipes": 31893,
+    "entries": 243333
+  },
+  "TS_cumulative_added_current": {
+    "recipes": 9069,
+    "entries": 65708
+  },
+  "cumulative_basis": "Prior9002/65351 after269 plus67/357.",
+  "new_recipe_batches": 216,
+  "five_recipe_holds": "Ceramic Claw Sleeve Set22969 and Ceramic Dagger Sleeve22970 explicit Vah Shir manufacture gate unsupported; Fine Xakra Runed Jar23135 nonnumeric >250 trivial; existing9398 Advanced Vial yield1 versus source2; existing9562 Sealed Vial trivial255 versus source188. Preserve both existing bodies, no duplicate/repair.",
+  "original_failed001_separate": {
+    "first_attempt": {
+      "status": "STOPPED_NO_RETRY",
+      "SQL_invocations": 1,
+      "published_commit": "20919c4e21f0174f6ca1aa1b32162ccd645f8063",
+      "source_sha256": "d66d53b99ae02de0dc5403edaeaf90a0170160db421799e54f9861c8125c48e5",
+      "package_manifest_sha256": "3e774f01ff340474d5336db290cbf48d53f2346e0453054a110c250d22beb594"
+    },
+    "first_attempt_disposition": {
+      "reason": "Overly broad recipe-name collision guard stopped first revision.",
+      "all_affected_preimages_unchanged": true,
+      "new_ids_present": 0,
+      "counts": {
+        "recipes": 31826,
+        "entries": 242976
+      },
+      "closed_transaction": 0,
+      "automatic_SQL_retries": 0,
+      "inverses": 0,
+      "database_writes": 0
+    },
+    "corrected_revision": {
+      "source_commit": "25d0e38b456416a471bb6aa5a3fc28d054c6e57e",
+      "apply_sha256": "90db7bb036161191ae3b58843a4573611854c369ccb7831d7d9a553881a0d536",
+      "SQL_invocations": 1,
+      "status": "APPLIED_VERIFIED",
+      "boundary": "Fresh published r2/exact coordinatorGO,not automatic retry or replay of failedSQL. Only captured primary-key peers exempt from same-name guard;131full definitions/769entries and every full-input collision remain guarded.",
+      "rollback_sha256": "e7c418eadbd8e249e8a7d21922a41b2e180e5bcfcf84aceb9cf762657d0b529f"
+    },
+    "historical_evidence": "Original failed source/receipt/read-only zero-change disposition retained separately;not marked applied or replaced by successful actual."
+  },
+  "native_gameplay_acceptance": false,
+  "all_scope_complete": false,
+  "prior_holds_preserved": true,
+  "separate_Xorbb_recipe_excluded": {
+    "recipes": 1,
+    "entries": 6
+  },
+  "prior_locally_confirmed_published_normal_SQL_source_paths": 848,
+  "earlier_pending_normal_SQL_source_paths": 0,
+  "new_normal_SQL_source_paths": 6,
+  "normal_SQL_source_paths_after_all_pending_publications": 854,
+  "history_archives_preserved": true,
+  "QA39999_production_exclusion_retained": true,
+  "assembly": "Onecombined capture;no additionalSQL/query/replay/tests/build/runtime/cache."
+}

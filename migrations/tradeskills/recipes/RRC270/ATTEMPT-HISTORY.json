@@ -1,0 +1,31 @@
+{
+  "first_attempt": {
+    "status": "STOPPED_NO_RETRY",
+    "SQL_invocations": 1,
+    "published_commit": "20919c4e21f0174f6ca1aa1b32162ccd645f8063",
+    "source_sha256": "d66d53b99ae02de0dc5403edaeaf90a0170160db421799e54f9861c8125c48e5",
+    "package_manifest_sha256": "3e774f01ff340474d5336db290cbf48d53f2346e0453054a110c250d22beb594"
+  },
+  "first_attempt_disposition": {
+    "reason": "Overly broad recipe-name collision guard stopped first revision.",
+    "all_affected_preimages_unchanged": true,
+    "new_ids_present": 0,
+    "counts": {
+      "recipes": 31826,
+      "entries": 242976
+    },
+    "closed_transaction": 0,
+    "automatic_SQL_retries": 0,
+    "inverses": 0,
+    "database_writes": 0
+  },
+  "corrected_revision": {
+    "source_commit": "25d0e38b456416a471bb6aa5a3fc28d054c6e57e",
+    "apply_sha256": "90db7bb036161191ae3b58843a4573611854c369ccb7831d7d9a553881a0d536",
+    "SQL_invocations": 1,
+    "status": "APPLIED_VERIFIED",
+    "boundary": "Fresh published r2/exact coordinatorGO,not automatic retry or replay of failedSQL. Only captured primary-key peers exempt from same-name guard;131full definitions/769entries and every full-input collision remain guarded.",
+    "rollback_sha256": "e7c418eadbd8e249e8a7d21922a41b2e180e5bcfcf84aceb9cf762657d0b529f"
+  },
+  "historical_evidence": "Original failed source/receipt/read-only zero-change disposition retained separately;not marked applied or replaced by successful actual."
+}
