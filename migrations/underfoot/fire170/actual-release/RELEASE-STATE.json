@@ -1,0 +1,217 @@
+{
+  "status": "FOUNDATION_STAGED_ACTIVATED_CORRECTED_MATCHED_CACHE_AND_ADMISSION_RELEASED",
+  "source_publication_commits": {
+    "initial_foundation_release": "6f3386f5cc92e2560b8f05634f65a514cc2eb7eb",
+    "cache_order": "066faf04a4378f3d0bb1b9d8355daa036f04f0b0",
+    "ASCII_target": "ffe9867317f51d2b8e8927d9c79741f87a5d0d8f",
+    "FLOAT_read_projection": "6ccbb0bd17e3bb3c40a7efb57878d937b8b05e94",
+    "Font_schema_typed_CAS": "0a7f22770466fac01d30a8b37a3c21794576597d",
+    "five_item_type_correction": "7db020f65690ed0adb5e9ff17357c50c23417893"
+  },
+  "evidence_receipt_sha256": {
+    "foundation": "c438a5ec3d3de1d38921475f21da9a048c0e543cc71f4667a9675e9cbde1788d",
+    "stage003": "2c6a515e0ea2404444cbda485ae3e951356e7303fc15230debd787626878627a",
+    "activate002": "c810de0a887512228b6e1df915860df8df920241f7fff4f886d0900643956b2c",
+    "item_type_correction001": "7586ba0a7f0354d7d3317e318ee49d38f0442f435cf4f7abf890f85c48236058",
+    "matched_cache": "089175b2dc9a2ecfc359c8bf46891ae7b7a1d9c43024a4cc86c445da85dbe63a",
+    "admission_release": "8509da74e02ae8c10cb1c7b9175b11accb8c9e1c1fef0bc64a2f95c350094b35"
+  },
+  "foundation": {
+    "created": [
+      "rof2_fire_construct_death_receipts",
+      "rof2_fire_run_actions",
+      "rof2_fire_run_item_origins"
+    ],
+    "preexisting_verified": [],
+    "each_created_once": true,
+    "all3_exact_and_empty_at_installation": true,
+    "DDL_implicit_commit_per_table": true,
+    "durable_intent_independent_completion_receipts": true,
+    "atomic_multi_table_DDL_claim": false
+  },
+  "stage003": {
+    "inserted_rows": 254,
+    "tables": 17,
+    "enable_flags_zero": 30,
+    "Font_unchanged": true,
+    "one_explicit_transaction": true,
+    "independent_full_postimages": true,
+    "connections_closed": true
+  },
+  "activate002": {
+    "enable_flags_zero_to_one": 30,
+    "selected_Font_fields": {
+      "keyitem": 47759,
+      "nokeyring": 1,
+      "lockpick": 32767,
+      "disable_timer": 0,
+      "close_timer_ms": 30000
+    },
+    "actual_Font_changes": {
+      "lockpick": {
+        "before": 0,
+        "after": 32767
+      },
+      "keyitem": {
+        "before": 0,
+        "after": 47759
+      },
+      "nokeyring": {
+        "before": 0,
+        "after": 1
+      },
+      "close_timer_ms": {
+        "before": 5000,
+        "after": 30000
+      }
+    },
+    "Font_disable_timer_was_already_zero": true,
+    "other_staged_fields_unchanged": true,
+    "independent_full_postimages": true,
+    "connections_closed": true,
+    "initial_boundary": "DATA_ONLY_ADMISSION_HELD;cache plan was not completed cache proof."
+  },
+  "item_type_correction001": {
+    "changed_reward_ids": [
+      3839201702,
+      3839201703,
+      3839201704,
+      3839201705,
+      3839201706
+    ],
+    "reward_type_before": 1,
+    "reward_type_after": 0,
+    "native_kind": "Item0/Experience1",
+    "one_SQL_invocation": true,
+    "independent_complete_reward_context_postimages": true,
+    "connections_closed": true,
+    "preserved": "Four Brellium type4 rewards,amounts,enabled flags,options,entries,class masks and sole existing delivery ledger unchanged;no second reward path."
+  },
+  "matched_cache": {
+    "status": "PASS_ONE_NATIVE_TASKS27_RELOAD_ALL6_ENABLED_REWARD_CATALOGUES_ADMISSION_HELD",
+    "one_native_invocation": "api reload 27 / ServerReload::Type::Tasks",
+    "actual_zone_native_results": {
+      "activities_each": 3777,
+      "interpretation": "All6 actual LoadTasks->LoadTaskRewardSets completed after exact five-row correction. Valid catalogues increased157->158 and task920170 missing-set error disappeared. This supports acceptance of corrected Fire task920170 rewardset via native loader; logs report totals rather than direct per-ID cache introspection.",
+      "invalid_delivery_errors_from_invocation": 0,
+      "missing_enabled_reward_set_errors_from_invocation": 0,
+      "new_valid_sets_each": 1,
+      "previous_valid_sets_each": 157,
+      "selectable_reward_sets_each": 158,
+      "tasks_each": 895,
+      "zones": 6
+    },
+    "World_boundary": "Existing Tasks27 handler synchronously invokes World SharedTaskManager::LoadTaskData before broadcasting to all6 idle zones. Console ACK plus actual zone completion/source path establishes reload execution, not per-ID World task/DZ introspection. DZ data unchanged by five-row correction; no redundant DZ9 reload.",
+    "deferred": "490v0/v1 loot/spawn/doors remain idle next-ZoneInit/native demand-load readiness only, not loadedscene proof. No native gameplay/reward claim acceptance.",
+    "same_matched_uninterrupted_start_receipt_sha256": "43d146261b087c0f45585a9d2e4d47fa8b3bb29e61adee030e1656912a8efd98",
+    "actual_code_install_receipt_sha256": "1099ef3ca98ed67a47dd6c688f6d247fdf54aca4d314c20f29a4b9f5050b25db",
+    "actual_serving_composed_build_receipt_sha256": "a2cd7cf8972c3348f43198b4466b719681d6ac6d7dc5410fb6e9eb6ffac1d939",
+    "no_SQL_mutations_or_restart_item_spell_regeneration_from_reload": true,
+    "native_log_sha256": {
+      "local-world.log": "551aef43af1ab45b233299d410661b56b0068302970c5e999332ccb802d4439e",
+      "local-zone-1.log": "585008db515aa165f13aea4a8a78bf337e495dcdae23c1d8fd3dab54e9b8800a",
+      "local-zone-2.log": "585008db515aa165f13aea4a8a78bf337e495dcdae23c1d8fd3dab54e9b8800a",
+      "local-zone-3.log": "585008db515aa165f13aea4a8a78bf337e495dcdae23c1d8fd3dab54e9b8800a",
+      "local-zone-4.log": "585008db515aa165f13aea4a8a78bf337e495dcdae23c1d8fd3dab54e9b8800a",
+      "local-zone-5.log": "585008db515aa165f13aea4a8a78bf337e495dcdae23c1d8fd3dab54e9b8800a",
+      "local-zone-6.log": "585008db515aa165f13aea4a8a78bf337e495dcdae23c1d8fd3dab54e9b8800a"
+    }
+  },
+  "failed_phases_preserved": [
+    {
+      "phase": "stage001",
+      "terminal_receipt_sha256": "a3cb930c7d8b0ea34a6f1768380999e9a1adae6581c5ccb9eb429c6152933d71",
+      "independent_zerochange_disposition_sha256": "985228fe17e2498d1dfb6fb2c16066584bcc2f117213352b454687ca3fc610a5",
+      "status": "STAGE001_STOPPED_ROLLBACK_EXACT_PREIMAGES_UNCHANGED_INDEPENDENT_READBACK_PASS",
+      "commit_returned": false,
+      "connections_closed": true,
+      "automatic_retry": false,
+      "automatic_inverse": false,
+      "error": "(1366, \"Incorrect string value: '\\\\xE2\\\\x86\\\\x92act...' for column `peq_housing_test`.`task_activities`.`target_name` at row 1\")",
+      "zerochange_scope": "All254absent/Fontunchanged/foundationsempty",
+      "evidence_limit": null
+    },
+    {
+      "phase": "stage002",
+      "terminal_receipt_sha256": "6ad9e2bee3488e3f8bfeb890ac0c4cffe34bba38ec4e2e5ad404d7130c50eb69",
+      "independent_zerochange_disposition_sha256": "b716ea0ca8c9d9880002735178155d1a2864032d2ec64b2c27d532488ecd8f12",
+      "status": "STAGE002_STOPPED_ROLLBACK_EXACT_PREIMAGES_UNCHANGED_INDEPENDENT_READBACK_PASS",
+      "commit_returned": false,
+      "connections_closed": true,
+      "automatic_retry": false,
+      "automatic_inverse": false,
+      "error": "In-transaction full postimage mismatch: task_activities",
+      "zerochange_scope": "All254absent/Fontunchanged/foundationsempty",
+      "evidence_limit": "Helper did not durably capture failing in-transaction postimages before rollback; exact differing cell is not established. Retained task_activities schema has FLOAT coordinate fields and target bounds +/-9999999; lossy FLOAT text-protocol representation is a concrete comparison hypothesis, not a proved row defect. No transliteration or new SQL mutation performed."
+    },
+    {
+      "phase": "activate001",
+      "terminal_receipt_sha256": "e286fdcddb3dc3021cd53e63c161076039a915016e409c22ce63456b6567b289",
+      "independent_zerochange_disposition_sha256": "19073622aa2f24a9a099282678ce4d3e1f9a1d380b3fcdf7b59242f8a533c057",
+      "status": "ACTIVATE001_STOPPED_ROLLBACK_INDEPENDENT_EXACT_STAGED_PREIMAGES_UNCHANGED",
+      "commit_returned": false,
+      "connections_closed": true,
+      "automatic_retry": false,
+      "automatic_inverse": false,
+      "error": "World Font full-row CAS refused",
+      "zerochange_scope": "All254stagedrows unchanged/30flags0/Fontunchanged",
+      "evidence_limit": null
+    }
+  ],
+  "correction_history": {
+    "stage001": "Six task text cells used U+2192 unsupported by latin1;source explicitly changed only those cells to ASCII->.",
+    "stage002": "Read-only literal proof established native FLOAT text rounding of +/-9999999 to +/-10000000;CAST storedFLOAT AS DOUBLE preserved intended binary32. Targetbounds unchanged;exact float32 comparator retained. Failing stage002 in-transaction cells not retained and not invented.",
+    "activate001": "Read-only exact predicate proof:pos_x/pos_y/pos_z FLOAT raw comparison false/schema-typed CAST parameter AS FLOAT true. Fullrow and nonFLOAT guards retained;no tolerance or coordinate edit.",
+    "authorization": "Every successful later phase had fresh published source and separate exact coordinator GO;consumed failed authorities never automatically retried/inverted."
+  },
+  "LOCAL_qualifications": [
+    "Map-derived LOCAL geometry/profile gates are source/compile evidence, not native collision/animation/pathing/combat acceptance.",
+    "Guardian native runspeed0 derives permarooted; exact period rampage/cast mechanics and effective scaling remain qualified.",
+    "Selected LOCAL terminal ordering/access/one equal gear draw/expiry cap remain reconstruction. Offline reward catchup depends actual native task reconnect state."
+  ],
+  "LOCAL_geometry_and_defaults": {
+    "coordinates": {
+      "compass_return": [
+        -12,
+        666,
+        21.125
+      ],
+      "return_h": 248,
+      "mission_entry": [
+        0,
+        0,
+        -22.2495,
+        0
+      ],
+      "qualification": "Compass/return from retained static world Gotonur; mission entry LOCAL mapfloor+nativeoffset before early drops/innergate; no native landing acceptance."
+    },
+    "spawn_respawntime_seconds": 21601,
+    "mission_lease_seconds": 21600,
+    "variance": 0,
+    "unique_group_cap": 1,
+    "no_in_mission_respawn": "LOCAL selected21601 exceeds original21600lease;not recovered periodrespawnproof.",
+    "source_geometry": "Map/collision floor/heading/model/size and maker profiles are LOCAL source reconstruction,not native collision/animation/navigation/combat/rewardclaim proof.",
+    "conditional_chest": "Anchor and existing NPC definition only;no persistent chest/condition rows.",
+    "mission_doors": "Six global SQL IDs304062000\u2013005 distinct from native doorids1\u20136 at490version1;existing worldFont35650/native7/version0 is separately scoped."
+  },
+  "native_gameplay_acceptance": false,
+  "admission_release": {
+    "status": "PASS_FIRE_INSTALLATION_ADMISSION_RELEASED_SERVER_RUNNING",
+    "owned_host_rules_removed": 4,
+    "owned_namespace_rules_removed": 2,
+    "unrelated_firewall_and_chain_policies_preserved": true,
+    "authenticated_world_unlock": "World unlocked.",
+    "world_preimage_qualification": "Saved prewindow configuration has no locked key; native defaultfalse. Restored configured unlocked state under explicit Coordinator releaseGO. Volatile pre-stop lock state was not independently sampled, so not claimed as observed.",
+    "same_matched_cohort": "Same uninterrupted matched Fire+serving284/bot cohort; prior actual hashes reused. PendingRRC290 not deployed.",
+    "same_container_start_and_PID": true,
+    "world_configuration_file_identical": true,
+    "no_additional_restart_SQL_reload_regeneration_client_campaign": true,
+    "known_limits": [
+      "All6 actual tasks/reward reload PASS895tasks/3777activities/158valid sets; target acceptance supported by157->158 plus disappearance of920170missing-set errors, not direct per-ID cache introspection.",
+      "World task/DZ boot/reload readiness bounded; no per-ID WorldDZ introspection.",
+      "Affected490loot/spawn/doors remain next-ZoneInit/native demand-load readiness, not loaded-scene/nativegameplayacceptance."
+    ],
+    "native_gameplay_acceptance": false
+  },
+  "assembly_actions": "Reused existing receipts only;no newDBquery/SQL/playerdata/config export/reload/start/test."
+}
