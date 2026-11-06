@@ -50,5 +50,37 @@
     "failed_stage002_disposition_sha256": "b716ea0ca8c9d9880002735178155d1a2864032d2ec64b2c27d532488ecd8f12",
     "scope": "SQL read-projection FLOAT-to-DOUBLE only,exact comparator unchanged;durable difference diagnostics;targets/schema/preimages untouched.",
     "new_stage_authority_required": true
+  },
+  "Font_CAS_revision": {
+    "activation001_terminal_sha256": "e286fdcddb3dc3021cd53e63c161076039a915016e409c22ce63456b6567b289",
+    "activation001_zerochange_disposition_sha256": "19073622aa2f24a9a099282678ce4d3e1f9a1d380b3fcdf7b59242f8a533c057",
+    "actual_read_only_proof": [
+      {
+        "column": "pos_y",
+        "SQL_type": "float",
+        "captured_text_preimage": 711.594,
+        "stored_FLOAT_widened_DOUBLE": 711.593994140625,
+        "raw_CAS_matches": false,
+        "schema_typed_CAS_matches": true
+      },
+      {
+        "column": "pos_x",
+        "SQL_type": "float",
+        "captured_text_preimage": 0.06667,
+        "stored_FLOAT_widened_DOUBLE": 0.0666700005531311,
+        "raw_CAS_matches": false,
+        "schema_typed_CAS_matches": true
+      },
+      {
+        "column": "pos_z",
+        "SQL_type": "float",
+        "captured_text_preimage": 22.77,
+        "stored_FLOAT_widened_DOUBLE": 22.770000457763672,
+        "raw_CAS_matches": false,
+        "schema_typed_CAS_matches": true
+      }
+    ],
+    "correction": "Every FLOAT column in full Font predicate binds CAST(parameter AS FLOAT);all non-FLOAT predicates unchanged;no epsilon/missing fields or targetcoordinate edits.",
+    "requires_fresh_published_revision_and_explicit_activate002_GO": true
   }
 }

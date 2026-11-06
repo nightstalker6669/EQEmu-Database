@@ -93,7 +93,10 @@ def write_flags(q,rows,snap,to):
 def write_world(q,before,after,snap):
  changed={k:v for k,v in after.items() if v!=before[k]}
  if not changed:fail('World activation has no transition')
- q.execute('UPDATE doors SET '+','.join(b.ident(k)+'=%s' for k in changed)+' WHERE id=35650 AND '+' AND '.join(b.ident(k)+' <=> %s' for k in before),(*changed.values(),*before.values()))
+ # Compare each captured value in its actual schema domain; no epsilon or dropped field.
+ types={c['Field']:c['Type'].lower() for c in snap['tables']['doors']['columns']}
+ predicates=[b.ident(k)+' <=> '+('CAST(%s AS FLOAT)' if types[k].startswith('float') else '%s') for k in before]
+ q.execute('UPDATE doors SET '+','.join(b.ident(k)+'=%s' for k in changed)+' WHERE id=35650 AND '+' AND '.join(predicates),(*changed.values(),*before.values()))
  if q.rowcount!=1:fail('World Font full-row CAS refused')
 def main():
  ap=argparse.ArgumentParser(description=__doc__);ap.add_argument('--phase',choices=['stage','activate','rollback_activation','rollback_stage'],required=True);ap.add_argument('--execute',action='store_true');ap.add_argument('--authority',type=Path);ap.add_argument('--authority-sha256');ap.add_argument('--receipt-dir',type=Path);ap.add_argument('--config',type=Path);ap.add_argument('--config-sha256');ap.add_argument('--host',default='127.0.0.1');ap.add_argument('--port',type=int,default=3306);args=ap.parse_args()
