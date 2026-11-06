@@ -2,7 +2,7 @@
 
 224 proposed recipes/2016entries.
 
-364 current literal seven-input Regal cultural armor and Gnomish Smithing completion formulas, selected from392; exact primary item IDs and per-row source race, book and minimum requirements.
+224 current literal seven-input Regal cultural armor and Gnomish Smithing completion formulas, selected from238; exact primary item IDs and per-row source race, book and minimum requirements.
 
 Maintained HoT17, VoA18 and RoF19 category floors are labelled reconstruction, not exact historical per-field proof.
 
