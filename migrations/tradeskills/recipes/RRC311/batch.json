@@ -1,0 +1,394 @@
+{
+  "batch": "RRC311",
+  "branch": "rof2-tradeskills",
+  "status": "SOURCE_ONLY_PROPOSED_LOCAL_STEW_RESTORATION_POLICY_SQL_HOLD",
+  "proposed_ids": [
+    3102891,
+    3102891
+  ],
+  "counts": {
+    "recipes": 1,
+    "entries": 6,
+    "item_dependencies": 5,
+    "unchanged_prototype_recipes": 2,
+    "unchanged_prototype_entries": 16
+  },
+  "recipes": [
+    {
+      "id": 3102891,
+      "name": "Grilled Darkhollow Basilisk Stew",
+      "tradeskill": 60,
+      "skillneeded": 0,
+      "trivial": 122,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "LOCAL native-homologue stew restoration; source explicitly unconfirmed; RRC311.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 10,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    }
+  ],
+  "entries": [
+    {
+      "recipe_id": 3102891,
+      "item_id": 13006,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3102891,
+      "item_id": 13419,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3102891,
+      "item_id": 13432,
+      "successcount": 1,
+      "failcount": 1,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3102891,
+      "item_id": 33449,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3102891,
+      "item_id": 33458,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3102891,
+      "item_id": 15,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    }
+  ],
+  "item_dependencies": [
+    {
+      "id": 13006,
+      "name": "Water Flask"
+    },
+    {
+      "id": 13419,
+      "name": "Vegetables"
+    },
+    {
+      "id": 13432,
+      "name": "Pot"
+    },
+    {
+      "id": 33449,
+      "name": "Grilled Darkhollow Basilisk Meat"
+    },
+    {
+      "id": 33458,
+      "name": "Grilled Darkhollow Basilisk Stew"
+    }
+  ],
+  "unchanged_prototype_recipes": [
+    {
+      "id": 1967,
+      "name": "Grilled Cragbeast Stew",
+      "tradeskill": 60,
+      "skillneeded": 0,
+      "trivial": 122,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": null,
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": -1,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 1978,
+      "name": "Grilled Hynid Stew",
+      "tradeskill": 60,
+      "skillneeded": 0,
+      "trivial": 122,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": null,
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": -1,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    }
+  ],
+  "unchanged_prototype_entries": [
+    {
+      "id": 14722,
+      "recipe_id": 1967,
+      "item_id": 13006,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 14723,
+      "recipe_id": 1967,
+      "item_id": 13419,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 14724,
+      "recipe_id": 1967,
+      "item_id": 13432,
+      "successcount": 1,
+      "failcount": 1,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 14725,
+      "recipe_id": 1967,
+      "item_id": 58474,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 14727,
+      "recipe_id": 1967,
+      "item_id": 58483,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 14729,
+      "recipe_id": 1967,
+      "item_id": 15,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 14730,
+      "recipe_id": 1967,
+      "item_id": 17164,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 14731,
+      "recipe_id": 1967,
+      "item_id": 17947,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 14812,
+      "recipe_id": 1978,
+      "item_id": 13006,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 14813,
+      "recipe_id": 1978,
+      "item_id": 13419,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 14814,
+      "recipe_id": 1978,
+      "item_id": 13432,
+      "successcount": 1,
+      "failcount": 1,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 14815,
+      "recipe_id": 1978,
+      "item_id": 58557,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 14817,
+      "recipe_id": 1978,
+      "item_id": 58566,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 14819,
+      "recipe_id": 1978,
+      "item_id": 15,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 14820,
+      "recipe_id": 1978,
+      "item_id": 17164,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 14821,
+      "recipe_id": 1978,
+      "item_id": 17947,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    }
+  ],
+  "source_facts": [
+    {
+      "recipe_id": 3102891,
+      "source_view_id": 14269,
+      "source_name": "Grilled Darkhollow Basilisk Stew",
+      "source_formula": "Components: Grilled Darkhollow Basilisk Meat, Pot, Vegetables, Water Flask\nIn: Spit (Portable), Oven, Tanaan Oven, Collapsible Spit\nYield: 1\nAlso Returns: Pot(1)\nOn Failure Returns: Pot(1)\nNotes: recipe unconfirmed",
+      "source_trivial": "122",
+      "trivial": 122,
+      "source_recipe_status": "EXPLICITLY_UNCONFIRMED",
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=346&rsa=Baking&sub=dodh",
+      "source_catalogue_sha256": "428e87635f0aa1d3499b45648b0ad88551b475ec14732a2ae00235fc6d340af6",
+      "source_primary_url": "https://www.eqtraders.com/items/show_item.php?item=21549",
+      "output_item_id": 33458,
+      "yield_count": 1,
+      "roles": {
+        "componentcount": {
+          "13006": 1,
+          "13419": 1,
+          "13432": 1,
+          "33449": 1
+        },
+        "successcount": {
+          "13432": 1,
+          "33458": 1
+        },
+        "failcount": {
+          "13432": 1
+        }
+      },
+      "ingredients": [
+        {
+          "item_id": 13006,
+          "name": "Water Flask",
+          "count": 1
+        },
+        {
+          "item_id": 13419,
+          "name": "Vegetables",
+          "count": 1
+        },
+        {
+          "item_id": 13432,
+          "name": "Pot",
+          "count": 1
+        },
+        {
+          "item_id": 33449,
+          "name": "Grilled Darkhollow Basilisk Meat",
+          "count": 1
+        }
+      ],
+      "container_item_ids": [
+        15
+      ],
+      "held_source_stations": [
+        "Spit (Portable)",
+        "Tanaan Oven",
+        "Collapsible Spit"
+      ],
+      "May2013_exact_fields_verified": false,
+      "existence_policy": "PROPOSED_LOCAL_RESTORATION_NOT_VERIFIED_ORIGINAL_RETAIL_RECIPE",
+      "learning_origin": "Ordinary0/min0/nofail0 local omitted-field conventions; no mandatorybook or source NEVERLEARN requirement"
+    }
+  ],
+  "restriction_review": {
+    "scope": "One proposed LOCAL restoration: source explicitly lists GrilledDarkhollowBasiliskMeat33449+Pot13432+Vegetables13419+Water13006, output33458yield1, trivial122, Pot returned on success/failure. Primary source still labels recipe UNCONFIRMED. This packet does not claim that original retail combination has been verified.",
+    "corroboration": "Actual native1967GrilledCragbeastStew and1978GrilledHynidStew have identical Pot/Vegetables/Water skeleton and return roles with one grilled-meat input, both Baking60/trivial122 and ordinary Oven15 availability. Five full18 native identities exist; target full input and output producer are absent. This is positive native homology for intentional local reconstruction, not proof original recipe existed.",
+    "availability": "Ordinary native world Oven15 only, positive source ordinary Oven and native homologues. Other source kits/stations held unqualified. No racial/deity/class maker requirement inferred.",
+    "defaults": "DoDH-context floor10, max-1, ordinary0/book0/min0/nofail0/quest0/enabled1 and salvage convention are labelled reconstruction choices. Numerical122 and physical roles are literal source values, not an interval endpoint guess.",
+    "preservation": "Guarded additive1/+6. Full16-field oldhomologueheaders and exact16oldentries unchanged, fivefull18items guarded, all-state fullinputcollision and crafted-output producer universe guarded; returnedPot does not expand targets to all cooking recipes. No newnativeactor/item/book/merchant/NPC/player changes.",
+    "execution": "POLICY AND SQL HOLD. Coordinator must explicitly adopt LOCAL restoration with source-unconfirmed status preserved before publication/application. GitHub solepublisher; Database soleSQLexecutor underexactGO; no selfSQL/build/runtime/tests. No original historical or nativegameplay acceptance claim."
+  },
+  "source_urls": [
+    "https://www.eqtraders.com/recipes/recipe_page.php?article=346&rsa=Baking&sub=dodh",
+    "https://www.eqtraders.com/items/show_item.php?item=21549"
+  ],
+  "migration_dependencies": [],
+  "held_source_rows": [],
+  "native_actor_required": false,
+  "reconstruction_policy_accepted": false
+}

@@ -1,0 +1,2139 @@
+{
+  "batch": "RRC310",
+  "branch": "rof2-tradeskills",
+  "status": "SOURCE_ONLY_PROPERTY_PRESERVING_RECHARGE8_ACTOR_SQL_HOLD",
+  "proposed_ids": [
+    3102883,
+    3102890
+  ],
+  "counts": {
+    "recipes": 8,
+    "entries": 28,
+    "item_dependencies": 15,
+    "unchanged_prototype_recipes": 8,
+    "unchanged_prototype_entries": 74
+  },
+  "recipes": [
+    {
+      "id": 3102883,
+      "name": "Potion Maker Kit",
+      "tradeskill": 57,
+      "skillneeded": 0,
+      "trivial": 0,
+      "nofail": 1,
+      "replace_container": 0,
+      "notes": "Finite property-preserving manual recharge; LOCAL kit availability and era floor; RRC310.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 19,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3102884,
+      "name": "Chipped Bone Rod Augmenter",
+      "tradeskill": 57,
+      "skillneeded": 0,
+      "trivial": 15,
+      "nofail": 1,
+      "replace_container": 0,
+      "notes": "Finite property-preserving manual recharge; LOCAL kit availability and era floor; RRC310.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 19,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3102885,
+      "name": "Full Capacity Gnomish Vanishing Device",
+      "tradeskill": 57,
+      "skillneeded": 0,
+      "trivial": 0,
+      "nofail": 1,
+      "replace_container": 0,
+      "notes": "Finite property-preserving manual recharge; LOCAL kit availability and era floor; RRC310.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 19,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3102886,
+      "name": "Full Capacity Gnomish Vanishing Device",
+      "tradeskill": 57,
+      "skillneeded": 0,
+      "trivial": 0,
+      "nofail": 1,
+      "replace_container": 0,
+      "notes": "Finite property-preserving manual recharge; LOCAL kit availability and era floor; RRC310.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 19,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3102887,
+      "name": "Geerlok Automated Caltrop Creator",
+      "tradeskill": 57,
+      "skillneeded": 0,
+      "trivial": 0,
+      "nofail": 1,
+      "replace_container": 0,
+      "notes": "Finite property-preserving manual recharge; LOCAL kit availability and era floor; RRC310.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 19,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3102888,
+      "name": "Geerlok Floatation Pack",
+      "tradeskill": 57,
+      "skillneeded": 0,
+      "trivial": 0,
+      "nofail": 1,
+      "replace_container": 0,
+      "notes": "Finite property-preserving manual recharge; LOCAL kit availability and era floor; RRC310.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 19,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3102889,
+      "name": "Half Capacity Gnomish Vanishing Device",
+      "tradeskill": 57,
+      "skillneeded": 0,
+      "trivial": 0,
+      "nofail": 1,
+      "replace_container": 0,
+      "notes": "Finite property-preserving manual recharge; LOCAL kit availability and era floor; RRC310.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 19,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3102890,
+      "name": "Portable Brewbarrel",
+      "tradeskill": 57,
+      "skillneeded": 0,
+      "trivial": 0,
+      "nofail": 1,
+      "replace_container": 0,
+      "notes": "Finite property-preserving manual recharge; LOCAL kit availability and era floor; RRC310.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 19,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    }
+  ],
+  "entries": [
+    {
+      "recipe_id": 3102883,
+      "item_id": 9181,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3102883,
+      "item_id": 64681,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3102883,
+      "item_id": 17902,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3102884,
+      "item_id": 14510,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3102884,
+      "item_id": 14802,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3102884,
+      "item_id": 97921,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3102884,
+      "item_id": 17902,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3102885,
+      "item_id": 29502,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3102885,
+      "item_id": 58244,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 2,
+      "salvagecount": 2,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3102885,
+      "item_id": 75857,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3102885,
+      "item_id": 17902,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3102886,
+      "item_id": 58244,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 2,
+      "salvagecount": 2,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3102886,
+      "item_id": 75857,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3102886,
+      "item_id": 17902,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3102887,
+      "item_id": 14802,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3102887,
+      "item_id": 16905,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3102887,
+      "item_id": 97922,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3102887,
+      "item_id": 17902,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3102888,
+      "item_id": 58244,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3102888,
+      "item_id": 96494,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3102888,
+      "item_id": 17902,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3102889,
+      "item_id": 14804,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3102889,
+      "item_id": 29502,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3102889,
+      "item_id": 75857,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3102889,
+      "item_id": 17902,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "recipe_id": 3102890,
+      "item_id": 34467,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3102890,
+      "item_id": 81303,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "recipe_id": 3102890,
+      "item_id": 17902,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    }
+  ],
+  "item_dependencies": [
+    {
+      "id": 9181,
+      "name": "Mana Battery - Class Six"
+    },
+    {
+      "id": 14510,
+      "name": "Chipped Bone Rod"
+    },
+    {
+      "id": 14802,
+      "name": "Mana Battery - Class Three"
+    },
+    {
+      "id": 14804,
+      "name": "Mana Battery - Class Five"
+    },
+    {
+      "id": 16905,
+      "name": "Metal Bits"
+    },
+    {
+      "id": 17902,
+      "name": "Toolbox"
+    },
+    {
+      "id": 29502,
+      "name": "Half Capacity Gnomish Vanishing Device"
+    },
+    {
+      "id": 34467,
+      "name": "Crude Coal"
+    },
+    {
+      "id": 58244,
+      "name": "Infused Dark Matter"
+    },
+    {
+      "id": 64681,
+      "name": "Potion Maker Kit"
+    },
+    {
+      "id": 75857,
+      "name": "Full Capacity Gnomish Vanishing Device"
+    },
+    {
+      "id": 81303,
+      "name": "Portable Brewbarrel"
+    },
+    {
+      "id": 96494,
+      "name": "Geerlok Floatation Pack"
+    },
+    {
+      "id": 97921,
+      "name": "Chipped Bone Rod Augmenter"
+    },
+    {
+      "id": 97922,
+      "name": "Geerlok Automated Caltrop Creator"
+    }
+  ],
+  "unchanged_prototype_recipes": [
+    {
+      "id": 439,
+      "name": "Gnomish Vanishing Device",
+      "tradeskill": 57,
+      "skillneeded": 0,
+      "trivial": 302,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": null,
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": -1,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 440,
+      "name": "Gnomish Vanishing Device",
+      "tradeskill": 57,
+      "skillneeded": 0,
+      "trivial": 0,
+      "nofail": 1,
+      "replace_container": 0,
+      "notes": null,
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": -1,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3091599,
+      "name": "Geerlok Floatation Pack",
+      "tradeskill": 57,
+      "skillneeded": 0,
+      "trivial": 302,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "DoDH/PoR; EQTC articles352/370; Tinkering; RRC025.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 11,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3092616,
+      "name": "Geerlok Automated Caltrop Creator",
+      "tradeskill": 57,
+      "skillneeded": 0,
+      "trivial": 300,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "TSS; EQTC articles394/400; Tinkering/Jewelcraft; RRC041.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 12,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3094733,
+      "name": "Potion Maker Kit",
+      "tradeskill": 57,
+      "skillneeded": 0,
+      "trivial": 322,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary VoA Tinkering reconstruction; RRC134.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 18,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3096655,
+      "name": "Full Capacity Gnomish Vanishing Device",
+      "tradeskill": 57,
+      "skillneeded": 0,
+      "trivial": 302,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Maintained-primary Velious Tinkering creation reconstruction; RRC205.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 2,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3102668,
+      "name": "Portable Brewbarrel",
+      "tradeskill": 57,
+      "skillneeded": 0,
+      "trivial": 210,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Explicit source charged physicaloutput1;finitecreation5/10/60charges/nativeactor;packingLOCALNoSkill75;RRC294.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 0,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    },
+    {
+      "id": 3102670,
+      "name": "Chipped Bone Rod Augmenter",
+      "tradeskill": 57,
+      "skillneeded": 0,
+      "trivial": 120,
+      "nofail": 0,
+      "replace_container": 0,
+      "notes": "Explicit source charged physicaloutput1;finitecreation5/10/60charges/nativeactor;packingLOCALNoSkill75;RRC294.",
+      "must_learn": 0,
+      "learned_by_item_id": 0,
+      "quest": 0,
+      "enabled": 1,
+      "min_expansion": 0,
+      "max_expansion": -1,
+      "content_flags": null,
+      "content_flags_disabled": null
+    }
+  ],
+  "unchanged_prototype_entries": [
+    {
+      "id": 3462,
+      "recipe_id": 439,
+      "item_id": 10037,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 3463,
+      "recipe_id": 439,
+      "item_id": 13003,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 3464,
+      "recipe_id": 439,
+      "item_id": 14804,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 3465,
+      "recipe_id": 439,
+      "item_id": 16860,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 3466,
+      "recipe_id": 439,
+      "item_id": 16861,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 3467,
+      "recipe_id": 439,
+      "item_id": 22535,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 3468,
+      "recipe_id": 439,
+      "item_id": 24862,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 3469,
+      "recipe_id": 439,
+      "item_id": 29502,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 3470,
+      "recipe_id": 439,
+      "item_id": 17276,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 3471,
+      "recipe_id": 439,
+      "item_id": 17877,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 3472,
+      "recipe_id": 439,
+      "item_id": 17902,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 3473,
+      "recipe_id": 440,
+      "item_id": 14804,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 3474,
+      "recipe_id": 440,
+      "item_id": 29502,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 3476,
+      "recipe_id": 440,
+      "item_id": 17276,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 3477,
+      "recipe_id": 440,
+      "item_id": 17877,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 3478,
+      "recipe_id": 440,
+      "item_id": 17902,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 30408023,
+      "recipe_id": 3091599,
+      "item_id": 96494,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 30408024,
+      "recipe_id": 3091599,
+      "item_id": 12089,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30408025,
+      "recipe_id": 3091599,
+      "item_id": 63244,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30408026,
+      "recipe_id": 3091599,
+      "item_id": 97071,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30408027,
+      "recipe_id": 3091599,
+      "item_id": 58244,
+      "successcount": 0,
+      "failcount": 1,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 30408028,
+      "recipe_id": 3091599,
+      "item_id": 16850,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 2,
+      "salvagecount": 2,
+      "iscontainer": 0
+    },
+    {
+      "id": 30408029,
+      "recipe_id": 3091599,
+      "item_id": 16893,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30408030,
+      "recipe_id": 3091599,
+      "item_id": 72048,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30408031,
+      "recipe_id": 3091599,
+      "item_id": 10064,
+      "successcount": 1,
+      "failcount": 1,
+      "componentcount": 1,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 30408032,
+      "recipe_id": 3091599,
+      "item_id": 63841,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30408033,
+      "recipe_id": 3091599,
+      "item_id": 10,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 30414690,
+      "recipe_id": 3092616,
+      "item_id": 97922,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 30414691,
+      "recipe_id": 3092616,
+      "item_id": 97923,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30414692,
+      "recipe_id": 3092616,
+      "item_id": 10481,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 4,
+      "salvagecount": 4,
+      "iscontainer": 0
+    },
+    {
+      "id": 30414693,
+      "recipe_id": 3092616,
+      "item_id": 72016,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30414694,
+      "recipe_id": 3092616,
+      "item_id": 14802,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30414695,
+      "recipe_id": 3092616,
+      "item_id": 16905,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30414696,
+      "recipe_id": 3092616,
+      "item_id": 72046,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 2,
+      "salvagecount": 2,
+      "iscontainer": 0
+    },
+    {
+      "id": 30414697,
+      "recipe_id": 3092616,
+      "item_id": 10,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 30437417,
+      "recipe_id": 3094733,
+      "item_id": 64681,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 30437418,
+      "recipe_id": 3094733,
+      "item_id": 64524,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30437419,
+      "recipe_id": 3094733,
+      "item_id": 64522,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30437420,
+      "recipe_id": 3094733,
+      "item_id": 7483,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30437421,
+      "recipe_id": 3094733,
+      "item_id": 16858,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30437422,
+      "recipe_id": 3094733,
+      "item_id": 63244,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30437423,
+      "recipe_id": 3094733,
+      "item_id": 9181,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30437424,
+      "recipe_id": 3094733,
+      "item_id": 93167,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 3,
+      "salvagecount": 3,
+      "iscontainer": 0
+    },
+    {
+      "id": 30437425,
+      "recipe_id": 3094733,
+      "item_id": 16882,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30437426,
+      "recipe_id": 3094733,
+      "item_id": 17877,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 30459946,
+      "recipe_id": 3096655,
+      "item_id": 10037,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30459947,
+      "recipe_id": 3096655,
+      "item_id": 13003,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30459948,
+      "recipe_id": 3096655,
+      "item_id": 16860,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30459949,
+      "recipe_id": 3096655,
+      "item_id": 16861,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30459950,
+      "recipe_id": 3096655,
+      "item_id": 22535,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30459951,
+      "recipe_id": 3096655,
+      "item_id": 24862,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30459952,
+      "recipe_id": 3096655,
+      "item_id": 58244,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 2,
+      "salvagecount": 2,
+      "iscontainer": 0
+    },
+    {
+      "id": 30459953,
+      "recipe_id": 3096655,
+      "item_id": 75857,
+      "successcount": 10,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 30459954,
+      "recipe_id": 3096655,
+      "item_id": 17902,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 30459955,
+      "recipe_id": 3096655,
+      "item_id": 17877,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 30459956,
+      "recipe_id": 3096655,
+      "item_id": 17276,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 30522359,
+      "recipe_id": 3102668,
+      "item_id": 9179,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30522360,
+      "recipe_id": 3102668,
+      "item_id": 9194,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30522361,
+      "recipe_id": 3102668,
+      "item_id": 16580,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30522362,
+      "recipe_id": 3102668,
+      "item_id": 16858,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30522363,
+      "recipe_id": 3102668,
+      "item_id": 16861,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30522364,
+      "recipe_id": 3102668,
+      "item_id": 63244,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30522365,
+      "recipe_id": 3102668,
+      "item_id": 81138,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30522366,
+      "recipe_id": 3102668,
+      "item_id": 81303,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 30522367,
+      "recipe_id": 3102668,
+      "item_id": 17877,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    },
+    {
+      "id": 30522377,
+      "recipe_id": 3102670,
+      "item_id": 10062,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30522378,
+      "recipe_id": 3102670,
+      "item_id": 14510,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30522379,
+      "recipe_id": 3102670,
+      "item_id": 14802,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30522380,
+      "recipe_id": 3102670,
+      "item_id": 16850,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30522381,
+      "recipe_id": 3102670,
+      "item_id": 16858,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 2,
+      "salvagecount": 2,
+      "iscontainer": 0
+    },
+    {
+      "id": 30522382,
+      "recipe_id": 3102670,
+      "item_id": 16881,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30522383,
+      "recipe_id": 3102670,
+      "item_id": 36172,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 1,
+      "salvagecount": 1,
+      "iscontainer": 0
+    },
+    {
+      "id": 30522384,
+      "recipe_id": 3102670,
+      "item_id": 97921,
+      "successcount": 1,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 0
+    },
+    {
+      "id": 30522385,
+      "recipe_id": 3102670,
+      "item_id": 17877,
+      "successcount": 0,
+      "failcount": 0,
+      "componentcount": 0,
+      "salvagecount": 0,
+      "iscontainer": 1
+    }
+  ],
+  "source_facts": [
+    {
+      "view_id": 4054,
+      "name": "Potion Maker Kit",
+      "display_name": "Potion Maker Kit",
+      "native_output_name": "Potion Maker Kit",
+      "skill": 57,
+      "trivial": 0,
+      "source_trivial": "no fail",
+      "source_current_trivial": "No Fail Combine",
+      "trivial_origin": "EXPLICIT_LITERAL_NOFAIL_LOCAL_ENCODING_TRIVIAL0",
+      "nofail": 1,
+      "skillneeded": 0,
+      "must_learn": 0,
+      "book_item_id": 0,
+      "min_expansion": 19,
+      "era_origin": "MAINTAINED_LEGACY_THROUGH_ROF_RECHARGE_CONTEXT_LOCAL_MAXIMUM_SCOPE_FLOOR_NOT_IMMUTABLE_DATE",
+      "output_item_id": 64681,
+      "yield_count": 1,
+      "roles": {
+        "componentcount": {
+          "9181": 1,
+          "64681": 1
+        },
+        "successcount": {
+          "64681": 1
+        },
+        "failcount": {}
+      },
+      "source_physical_roles": {
+        "componentcount": {
+          "9181": 1,
+          "64681": 1
+        },
+        "successcount": {
+          "64681": 1
+        },
+        "failcount": {}
+      },
+      "container_ids": [
+        17902
+      ],
+      "extra_dependency_ids": [
+        17902
+      ],
+      "input_device_id": 64681,
+      "output_full_charges": 5,
+      "input_native_maxcharges": 5,
+      "costs": {
+        "9181": 1
+      },
+      "source_charge_profile": {
+        "source_item_id": 38208,
+        "native_item_id": 64681,
+        "charges": [
+          5
+        ],
+        "profile": "recipes|sources|full list\nPotion Maker Kit\nQUEST ITEM\nCharges: 5\nEffect: Making Potion\nWT: 2.0 Size: SMALL\nClass: ALL\nRace: ALL\nItem lore: An automated kit that allows potion-making sans alchemist\nEQ item ID: 64681\nFind recipes that use this item.\nitem|sources|full list\n",
+        "source_primary_raw_html_sha256": "189e63d6f6d4297c517db1af15b7405017b1763c38260c2c9fe46db7acbe4936"
+      },
+      "learning_origin": "ORDINARY0_NATIVE_CREDIT_AND_LEARNING_RETAINED_LOCAL_MANUAL_INPLACE_ONLY_NO_SOURCE_NEVERLEARN_CLAIM",
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=553&rsa=Tinkering&sub=VoA",
+      "source_primary_url": "https://www.eqtraders.com/items/show_item.php?item=38208",
+      "source_formula": "Components: Mana Battery - Class Six, Potion Maker Kit\nIn: Toolbox, Deluxe Toolbox, Collapsible Toolbox, Tinkering Table (Placeable), Tinkering Table\nYield: 1\nThis combine may only be made by Gnomes\nNotes: Requires a Metallic Potion Vial, Infused Leaves of Dragonwart and Infused Pollen of Dragon wort to summon potions.",
+      "source_current_formula": "Tinkering Components: Mana Battery - Class Six, Potion Maker Kit\nIn: Toolbox, Deluxe Toolbox, Collapsible Toolbox, Tinkering Table (Placeable), Tinkering Table\nYield: 1\nThis combine may only be made by Gnomes\nNotes: Requires a Metallic Potion Vial, Infused Leaves of Dragonwart and Infused Pollen of Dragon wort to summon potions.\nNo Fail Combine",
+      "source_catalogue_sha256": "4ff2a547748536f7a2d362f3585655d942955573749ca6e2ddab174cdb2f1e38",
+      "source_primary_raw_html_sha256": "189e63d6f6d4297c517db1af15b7405017b1763c38260c2c9fe46db7acbe4936",
+      "maker": "SOURCE_EXPLICIT_ORIGINAL_PLAYERPROFILE_GNOME12",
+      "availability": "COORDINATOR_SELECTED_LOCAL_MANUAL_ONLY_OWNED_ROOT_TOOLBOX17902_INPLACE_SAME_CHILD_SLOT_GUID;AUTO_DENIED_NOT_RETAIL_UI_CLAIM",
+      "held_source_stations": [
+        "Deluxe Toolbox",
+        "Collapsible Toolbox",
+        "Tinkering Table (Placeable)",
+        "Tinkering Table"
+      ],
+      "notes": "PotionMaker activation-note materials are NOT recharge ingredients; only literal battery+device used.",
+      "recipe_id": 3102883,
+      "source_view_id": 4054,
+      "ingredients": [
+        {
+          "item_id": 9181,
+          "name": "Mana Battery - Class Six",
+          "count": 1
+        },
+        {
+          "item_id": 64681,
+          "name": "Potion Maker Kit",
+          "count": 1
+        }
+      ],
+      "learned_by_item_id": 0,
+      "May2013_exact_fields_verified": false
+    },
+    {
+      "view_id": 23750,
+      "name": "Chipped Bone Rod Augmenter",
+      "display_name": "Chipped Bone Rod Augmenter",
+      "native_output_name": "Chipped Bone Rod Augmenter",
+      "skill": 57,
+      "trivial": 15,
+      "source_trivial": "15 (No-Fail)",
+      "source_current_trivial": "15 (No-Fail)",
+      "trivial_origin": "SOURCE_LITERAL_NUMERIC15_NOFAIL",
+      "nofail": 1,
+      "skillneeded": 0,
+      "must_learn": 0,
+      "book_item_id": 0,
+      "min_expansion": 19,
+      "era_origin": "MAINTAINED_LEGACY_THROUGH_ROF_RECHARGE_CONTEXT_LOCAL_MAXIMUM_SCOPE_FLOOR_NOT_IMMUTABLE_DATE",
+      "output_item_id": 97921,
+      "yield_count": 1,
+      "roles": {
+        "componentcount": {
+          "14510": 1,
+          "14802": 1,
+          "97921": 1
+        },
+        "successcount": {
+          "97921": 1
+        },
+        "failcount": {}
+      },
+      "source_physical_roles": {
+        "componentcount": {
+          "14510": 1,
+          "14802": 1,
+          "97921": 1
+        },
+        "successcount": {
+          "97921": 1
+        },
+        "failcount": {}
+      },
+      "container_ids": [
+        17902
+      ],
+      "extra_dependency_ids": [
+        17902
+      ],
+      "input_device_id": 97921,
+      "output_full_charges": 60,
+      "input_native_maxcharges": 60,
+      "costs": {
+        "14510": 1,
+        "14802": 1
+      },
+      "source_charge_profile": {
+        "source_item_id": 27275,
+        "native_item_id": 97921,
+        "charges": [
+          60
+        ],
+        "profile": "recipes|sources|full list\nChipped Bone Rod Augmenter\nSlot: PRIMARY,SECONDARY\nCharges: 60\nEffect: Locate Corpse (Casting Time: Instant)\nWT: 0.8 Size: SMALL\nClass: ALL\nRace: ALL\nEQ item ID: 97921\nFind recipes that use this item.\nitem|sources|full list\n",
+        "source_primary_raw_html_sha256": "47cb9dc7cbfb698a9f1e7fc1a92a57fb50b3f3c7bbd8804c9822d371e1ab97d1"
+      },
+      "learning_origin": "ORDINARY0_NATIVE_CREDIT_AND_LEARNING_RETAINED_LOCAL_MANUAL_INPLACE_ONLY_NO_SOURCE_NEVERLEARN_CLAIM",
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=142&rsa=Tinkering&sub=chargedpotion",
+      "source_primary_url": "https://www.eqtraders.com/items/show_item.php?item=27275",
+      "source_formula": "Components: Chipped Bone Rod, Chipped Bone Rod Augmenter, Mana Battery - Class Three\nIn: Toolbox, Deluxe Toolbox, Collapsible Toolbox\nYield: 1\nThis combine may only be made by Gnomes\nNotes: Gives item a full set of charges again. Can be done when item has any number of charges.",
+      "source_current_formula": "Tinkering Components: Chipped Bone Rod, Chipped Bone Rod Augmenter, Mana Battery - Class Three\nIn: Toolbox, Deluxe Toolbox, Collapsible Toolbox\nYield: 1\nThis combine may only be made by Gnomes\nNotes: Gives item a full set of charges again. Can be done when item has any number of charges.\nTrivial at: 15 (No-Fail)",
+      "source_catalogue_sha256": "95465d579511a6deecf06451b89655927de615b8e71bf78c824ef7e109d9b550",
+      "source_primary_raw_html_sha256": "47cb9dc7cbfb698a9f1e7fc1a92a57fb50b3f3c7bbd8804c9822d371e1ab97d1",
+      "maker": "SOURCE_EXPLICIT_ORIGINAL_PLAYERPROFILE_GNOME12",
+      "availability": "COORDINATOR_SELECTED_LOCAL_MANUAL_ONLY_OWNED_ROOT_TOOLBOX17902_INPLACE_SAME_CHILD_SLOT_GUID;AUTO_DENIED_NOT_RETAIL_UI_CLAIM",
+      "held_source_stations": [
+        "Deluxe Toolbox",
+        "Collapsible Toolbox"
+      ],
+      "notes": null,
+      "recipe_id": 3102884,
+      "source_view_id": 23750,
+      "ingredients": [
+        {
+          "item_id": 14510,
+          "name": "Chipped Bone Rod",
+          "count": 1
+        },
+        {
+          "item_id": 14802,
+          "name": "Mana Battery - Class Three",
+          "count": 1
+        },
+        {
+          "item_id": 97921,
+          "name": "Chipped Bone Rod Augmenter",
+          "count": 1
+        }
+      ],
+      "learned_by_item_id": 0,
+      "May2013_exact_fields_verified": false
+    },
+    {
+      "view_id": 23771,
+      "name": "Full Capacity Gnomish Vanishing Device",
+      "display_name": "Full Capacity Gnomish Vanishing Device",
+      "native_output_name": "Full Capacity Gnomish Vanishing Device",
+      "skill": 57,
+      "trivial": 0,
+      "source_trivial": "no fail",
+      "source_current_trivial": "No Fail Combine",
+      "trivial_origin": "EXPLICIT_LITERAL_NOFAIL_LOCAL_ENCODING_TRIVIAL0",
+      "nofail": 1,
+      "skillneeded": 0,
+      "must_learn": 0,
+      "book_item_id": 0,
+      "min_expansion": 19,
+      "era_origin": "MAINTAINED_LEGACY_THROUGH_ROF_RECHARGE_CONTEXT_LOCAL_MAXIMUM_SCOPE_FLOOR_NOT_IMMUTABLE_DATE",
+      "output_item_id": 75857,
+      "yield_count": 1,
+      "roles": {
+        "componentcount": {
+          "29502": 1,
+          "58244": 2
+        },
+        "successcount": {
+          "75857": 1
+        },
+        "failcount": {}
+      },
+      "source_physical_roles": {
+        "componentcount": {
+          "29502": 1,
+          "58244": 2
+        },
+        "successcount": {
+          "75857": 1
+        },
+        "failcount": {}
+      },
+      "container_ids": [
+        17902
+      ],
+      "extra_dependency_ids": [
+        17902
+      ],
+      "input_device_id": 29502,
+      "output_full_charges": 10,
+      "input_native_maxcharges": 5,
+      "costs": {
+        "58244": 2
+      },
+      "source_charge_profile": {
+        "source_item_id": 16790,
+        "native_item_id": 75857,
+        "charges": [
+          10
+        ],
+        "profile": "recipes|sources|full list\nFull Capacity Gnomish Vanishing Device\nSlot: SECONDARY\nCharges: 10\nEffect: Invisibility Cloak (Must Equip, Casting Time: 5.0)\nWT: 0.8 Size: SMALL\nClass: ALL\nRace: ALL\nItem lore: Gnomish Vanishing Device\nEQTC notes: Charged\nEQ item ID: 75857\nFind recipes that use this item.\nitem|sources|full list\n",
+        "source_primary_raw_html_sha256": "41b047dfbec6d91f519c4113b444c7f6db443ae9a01a72506626049e97bb5809"
+      },
+      "learning_origin": "ORDINARY0_NATIVE_CREDIT_AND_LEARNING_RETAINED_LOCAL_MANUAL_INPLACE_ONLY_NO_SOURCE_NEVERLEARN_CLAIM",
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=142&rsa=Tinkering&sub=chargedpotion",
+      "source_primary_url": "https://www.eqtraders.com/items/show_item.php?item=16790",
+      "source_formula": "Components: Half Capacity Gnomish Vanishing Device, Infused Dark Matter (2)\nIn: Toolbox, Deluxe Toolbox, Collapsible Toolbox\nYield: 1\nThis combine may only be made by Gnomes\nNotes: Gives item a full set of charges again. Can be done when item has any number of charges.",
+      "source_current_formula": "Tinkering Components: Half Capacity Gnomish Vanishing Device, Infused Dark Matter (2)\nIn: Toolbox, Deluxe Toolbox, Collapsible Toolbox\nYield: 1\nThis combine may only be made by Gnomes\nNotes: Gives item a full set of charges again. Can be done when item has any number of charges.\nNo Fail Combine",
+      "source_catalogue_sha256": "95465d579511a6deecf06451b89655927de615b8e71bf78c824ef7e109d9b550",
+      "source_primary_raw_html_sha256": "41b047dfbec6d91f519c4113b444c7f6db443ae9a01a72506626049e97bb5809",
+      "maker": "SOURCE_EXPLICIT_ORIGINAL_PLAYERPROFILE_GNOME12",
+      "availability": "COORDINATOR_SELECTED_LOCAL_MANUAL_ONLY_OWNED_ROOT_TOOLBOX17902_INPLACE_SAME_CHILD_SLOT_GUID;AUTO_DENIED_NOT_RETAIL_UI_CLAIM",
+      "held_source_stations": [
+        "Deluxe Toolbox",
+        "Collapsible Toolbox"
+      ],
+      "notes": null,
+      "recipe_id": 3102885,
+      "source_view_id": 23771,
+      "ingredients": [
+        {
+          "item_id": 29502,
+          "name": "Half Capacity Gnomish Vanishing Device",
+          "count": 1
+        },
+        {
+          "item_id": 58244,
+          "name": "Infused Dark Matter",
+          "count": 2
+        }
+      ],
+      "learned_by_item_id": 0,
+      "May2013_exact_fields_verified": false
+    },
+    {
+      "view_id": 23772,
+      "name": "Full Capacity Gnomish Vanishing Device",
+      "display_name": "Full Capacity Gnomish Vanishing Device",
+      "native_output_name": "Full Capacity Gnomish Vanishing Device",
+      "skill": 57,
+      "trivial": 0,
+      "source_trivial": "no fail",
+      "source_current_trivial": "No Fail Combine",
+      "trivial_origin": "EXPLICIT_LITERAL_NOFAIL_LOCAL_ENCODING_TRIVIAL0",
+      "nofail": 1,
+      "skillneeded": 0,
+      "must_learn": 0,
+      "book_item_id": 0,
+      "min_expansion": 19,
+      "era_origin": "MAINTAINED_LEGACY_THROUGH_ROF_RECHARGE_CONTEXT_LOCAL_MAXIMUM_SCOPE_FLOOR_NOT_IMMUTABLE_DATE",
+      "output_item_id": 75857,
+      "yield_count": 1,
+      "roles": {
+        "componentcount": {
+          "58244": 2,
+          "75857": 1
+        },
+        "successcount": {
+          "75857": 1
+        },
+        "failcount": {}
+      },
+      "source_physical_roles": {
+        "componentcount": {
+          "58244": 2,
+          "75857": 1
+        },
+        "successcount": {
+          "75857": 1
+        },
+        "failcount": {}
+      },
+      "container_ids": [
+        17902
+      ],
+      "extra_dependency_ids": [
+        17902
+      ],
+      "input_device_id": 75857,
+      "output_full_charges": 10,
+      "input_native_maxcharges": 10,
+      "costs": {
+        "58244": 2
+      },
+      "source_charge_profile": {
+        "source_item_id": 16790,
+        "native_item_id": 75857,
+        "charges": [
+          10
+        ],
+        "profile": "recipes|sources|full list\nFull Capacity Gnomish Vanishing Device\nSlot: SECONDARY\nCharges: 10\nEffect: Invisibility Cloak (Must Equip, Casting Time: 5.0)\nWT: 0.8 Size: SMALL\nClass: ALL\nRace: ALL\nItem lore: Gnomish Vanishing Device\nEQTC notes: Charged\nEQ item ID: 75857\nFind recipes that use this item.\nitem|sources|full list\n",
+        "source_primary_raw_html_sha256": "41b047dfbec6d91f519c4113b444c7f6db443ae9a01a72506626049e97bb5809"
+      },
+      "learning_origin": "ORDINARY0_NATIVE_CREDIT_AND_LEARNING_RETAINED_LOCAL_MANUAL_INPLACE_ONLY_NO_SOURCE_NEVERLEARN_CLAIM",
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=142&rsa=Tinkering&sub=chargedpotion",
+      "source_primary_url": "https://www.eqtraders.com/items/show_item.php?item=16790",
+      "source_formula": "Components: Full Capacity Gnomish Vanishing Device, Infused Dark Matter (2)\nIn: Toolbox, Deluxe Toolbox, Collapsible Toolbox\nYield: 1\nThis combine may only be made by Gnomes\nNotes: Gives item a full set of charges again. Can be done when item has any number of charges.",
+      "source_current_formula": "Tinkering Components: Full Capacity Gnomish Vanishing Device, Infused Dark Matter (2)\nIn: Toolbox, Deluxe Toolbox, Collapsible Toolbox\nYield: 1\nThis combine may only be made by Gnomes\nNotes: Gives item a full set of charges again. Can be done when item has any number of charges.\nNo Fail Combine",
+      "source_catalogue_sha256": "95465d579511a6deecf06451b89655927de615b8e71bf78c824ef7e109d9b550",
+      "source_primary_raw_html_sha256": "41b047dfbec6d91f519c4113b444c7f6db443ae9a01a72506626049e97bb5809",
+      "maker": "SOURCE_EXPLICIT_ORIGINAL_PLAYERPROFILE_GNOME12",
+      "availability": "COORDINATOR_SELECTED_LOCAL_MANUAL_ONLY_OWNED_ROOT_TOOLBOX17902_INPLACE_SAME_CHILD_SLOT_GUID;AUTO_DENIED_NOT_RETAIL_UI_CLAIM",
+      "held_source_stations": [
+        "Deluxe Toolbox",
+        "Collapsible Toolbox"
+      ],
+      "notes": null,
+      "recipe_id": 3102886,
+      "source_view_id": 23772,
+      "ingredients": [
+        {
+          "item_id": 58244,
+          "name": "Infused Dark Matter",
+          "count": 2
+        },
+        {
+          "item_id": 75857,
+          "name": "Full Capacity Gnomish Vanishing Device",
+          "count": 1
+        }
+      ],
+      "learned_by_item_id": 0,
+      "May2013_exact_fields_verified": false
+    },
+    {
+      "view_id": 23773,
+      "name": "Geerlok Automated Caltrop Creator",
+      "display_name": "Geerlok Automated Caltrop Creator",
+      "native_output_name": "Geerlok Automated Caltrop Creator",
+      "skill": 57,
+      "trivial": 0,
+      "source_trivial": "no fail",
+      "source_current_trivial": "No Fail Combine",
+      "trivial_origin": "EXPLICIT_LITERAL_NOFAIL_LOCAL_ENCODING_TRIVIAL0",
+      "nofail": 1,
+      "skillneeded": 0,
+      "must_learn": 0,
+      "book_item_id": 0,
+      "min_expansion": 19,
+      "era_origin": "MAINTAINED_LEGACY_THROUGH_ROF_RECHARGE_CONTEXT_LOCAL_MAXIMUM_SCOPE_FLOOR_NOT_IMMUTABLE_DATE",
+      "output_item_id": 97922,
+      "yield_count": 1,
+      "roles": {
+        "componentcount": {
+          "14802": 1,
+          "16905": 1,
+          "97922": 1
+        },
+        "successcount": {
+          "97922": 1
+        },
+        "failcount": {}
+      },
+      "source_physical_roles": {
+        "componentcount": {
+          "14802": 1,
+          "16905": 1,
+          "97922": 1
+        },
+        "successcount": {
+          "97922": 1
+        },
+        "failcount": {}
+      },
+      "container_ids": [
+        17902
+      ],
+      "extra_dependency_ids": [
+        17902
+      ],
+      "input_device_id": 97922,
+      "output_full_charges": 5,
+      "input_native_maxcharges": 5,
+      "costs": {
+        "14802": 1,
+        "16905": 1
+      },
+      "source_charge_profile": {
+        "source_item_id": 26674,
+        "native_item_id": 97922,
+        "charges": [
+          5
+        ],
+        "profile": "recipes|sources|full list\nGeerlok Automated Caltrop Creator\nCharges: 5\nEffect: Caltrops Trap (Casting Time: 5.0)\nRequired level of 30\nWT: 5.0 Size: LARGE\nClass: ALL\nRace: ALL\nItem lore: Large device the creates caltrops\nEQTC notes: Caltrops Trap\nRequired Level: 30\nSpell Effect: Constructs a trap of poison spikes at your feet which will trigger when enemies draw near and slow their movement rate.\nEQ item ID: 97922\nFind recipes that use this item.\nitem|sources|full list\n",
+        "source_primary_raw_html_sha256": "55c4a70415ebb4101a03cbd43e046c8c9f985493c8816eba7127a4a911f5582a"
+      },
+      "learning_origin": "ORDINARY0_NATIVE_CREDIT_AND_LEARNING_RETAINED_LOCAL_MANUAL_INPLACE_ONLY_NO_SOURCE_NEVERLEARN_CLAIM",
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=142&rsa=Tinkering&sub=chargedpotion",
+      "source_primary_url": "https://www.eqtraders.com/items/show_item.php?item=26674",
+      "source_formula": "Components: Geerlok Automated Caltrop Creator, Mana Battery - Class Three, Metal Bits\nIn: Toolbox, Deluxe Toolbox, Collapsible Toolbox\nYield: 1\nThis combine may only be made by Gnomes\nNotes: Gives item a full set of charges again. Can be done when item has any number of charges.",
+      "source_current_formula": "Tinkering Components: Geerlok Automated Caltrop Creator, Mana Battery - Class Three, Metal Bits\nIn: Toolbox, Deluxe Toolbox, Collapsible Toolbox\nYield: 1\nThis combine may only be made by Gnomes\nNotes: Gives item a full set of charges again. Can be done when item has any number of charges.\nNo Fail Combine",
+      "source_catalogue_sha256": "95465d579511a6deecf06451b89655927de615b8e71bf78c824ef7e109d9b550",
+      "source_primary_raw_html_sha256": "55c4a70415ebb4101a03cbd43e046c8c9f985493c8816eba7127a4a911f5582a",
+      "maker": "SOURCE_EXPLICIT_ORIGINAL_PLAYERPROFILE_GNOME12",
+      "availability": "COORDINATOR_SELECTED_LOCAL_MANUAL_ONLY_OWNED_ROOT_TOOLBOX17902_INPLACE_SAME_CHILD_SLOT_GUID;AUTO_DENIED_NOT_RETAIL_UI_CLAIM",
+      "held_source_stations": [
+        "Deluxe Toolbox",
+        "Collapsible Toolbox"
+      ],
+      "notes": null,
+      "recipe_id": 3102887,
+      "source_view_id": 23773,
+      "ingredients": [
+        {
+          "item_id": 14802,
+          "name": "Mana Battery - Class Three",
+          "count": 1
+        },
+        {
+          "item_id": 16905,
+          "name": "Metal Bits",
+          "count": 1
+        },
+        {
+          "item_id": 97922,
+          "name": "Geerlok Automated Caltrop Creator",
+          "count": 1
+        }
+      ],
+      "learned_by_item_id": 0,
+      "May2013_exact_fields_verified": false
+    },
+    {
+      "view_id": 23774,
+      "name": "Geerlok Floatation Pack",
+      "display_name": "Geerlok Floatation Pack",
+      "native_output_name": "Geerlok Floatation Pack",
+      "skill": 57,
+      "trivial": 0,
+      "source_trivial": "no fail",
+      "source_current_trivial": "No Fail Combine",
+      "trivial_origin": "EXPLICIT_LITERAL_NOFAIL_LOCAL_ENCODING_TRIVIAL0",
+      "nofail": 1,
+      "skillneeded": 0,
+      "must_learn": 0,
+      "book_item_id": 0,
+      "min_expansion": 19,
+      "era_origin": "MAINTAINED_LEGACY_THROUGH_ROF_RECHARGE_CONTEXT_LOCAL_MAXIMUM_SCOPE_FLOOR_NOT_IMMUTABLE_DATE",
+      "output_item_id": 96494,
+      "yield_count": 1,
+      "roles": {
+        "componentcount": {
+          "58244": 1,
+          "96494": 1
+        },
+        "successcount": {
+          "96494": 1
+        },
+        "failcount": {}
+      },
+      "source_physical_roles": {
+        "componentcount": {
+          "58244": 1,
+          "96494": 1
+        },
+        "successcount": {
+          "96494": 1
+        },
+        "failcount": {}
+      },
+      "container_ids": [
+        17902
+      ],
+      "extra_dependency_ids": [
+        17902
+      ],
+      "input_device_id": 96494,
+      "output_full_charges": 20,
+      "input_native_maxcharges": 20,
+      "costs": {
+        "58244": 1
+      },
+      "source_charge_profile": {
+        "source_item_id": 22391,
+        "native_item_id": 96494,
+        "charges": [
+          20
+        ],
+        "profile": "recipes|sources|full list\nGeerlok Floatation Pack\nSlot: BACK\nCharges: 20\nAC: 10\nEffect: Levitation (Casting Time: Instant)\nWT: 0.3 Size: SMALL\nClass: ALL\nRace: ALL\nItem lore: Very light, yet large pack that makes odd noises\nEQTC notes: Levitation\nSpell Effect: Lifts your body on a cushion of air, allowing you to levitate a short distance off the ground.\nEQ item ID: 96494\nFind recipes that use this item.\nitem|sources|full list\n",
+        "source_primary_raw_html_sha256": "16061230253795c5e59d32a3f137b3d857d1a4c24973abd89f6c9a01050400f5"
+      },
+      "learning_origin": "ORDINARY0_NATIVE_CREDIT_AND_LEARNING_RETAINED_LOCAL_MANUAL_INPLACE_ONLY_NO_SOURCE_NEVERLEARN_CLAIM",
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=142&rsa=Tinkering&sub=chargedpotion",
+      "source_primary_url": "https://www.eqtraders.com/items/show_item.php?item=22391",
+      "source_formula": "Components: Geerlok Floatation Pack, Infused Dark Matter\nIn: Toolbox, Deluxe Toolbox, Collapsible Toolbox\nYield: 1\nThis combine may only be made by Gnomes\nNotes: Gives item a full set of charges again. Can be done when item has any number of charges.",
+      "source_current_formula": "Tinkering Components: Geerlok Floatation Pack, Infused Dark Matter\nIn: Toolbox, Deluxe Toolbox, Collapsible Toolbox\nYield: 1\nThis combine may only be made by Gnomes\nNotes: Gives item a full set of charges again. Can be done when item has any number of charges.\nNo Fail Combine",
+      "source_catalogue_sha256": "95465d579511a6deecf06451b89655927de615b8e71bf78c824ef7e109d9b550",
+      "source_primary_raw_html_sha256": "16061230253795c5e59d32a3f137b3d857d1a4c24973abd89f6c9a01050400f5",
+      "maker": "SOURCE_EXPLICIT_ORIGINAL_PLAYERPROFILE_GNOME12",
+      "availability": "COORDINATOR_SELECTED_LOCAL_MANUAL_ONLY_OWNED_ROOT_TOOLBOX17902_INPLACE_SAME_CHILD_SLOT_GUID;AUTO_DENIED_NOT_RETAIL_UI_CLAIM",
+      "held_source_stations": [
+        "Deluxe Toolbox",
+        "Collapsible Toolbox"
+      ],
+      "notes": null,
+      "recipe_id": 3102888,
+      "source_view_id": 23774,
+      "ingredients": [
+        {
+          "item_id": 58244,
+          "name": "Infused Dark Matter",
+          "count": 1
+        },
+        {
+          "item_id": 96494,
+          "name": "Geerlok Floatation Pack",
+          "count": 1
+        }
+      ],
+      "learned_by_item_id": 0,
+      "May2013_exact_fields_verified": false
+    },
+    {
+      "view_id": 23776,
+      "name": "Half Capacity Gnomish Vanishing Device",
+      "display_name": "Half Capacity Gnomish Vanishing Device",
+      "native_output_name": "Half Capacity Gnomish Vanishing Device",
+      "skill": 57,
+      "trivial": 0,
+      "source_trivial": "no fail",
+      "source_current_trivial": "No Fail Combine",
+      "trivial_origin": "EXPLICIT_LITERAL_NOFAIL_LOCAL_ENCODING_TRIVIAL0",
+      "nofail": 1,
+      "skillneeded": 0,
+      "must_learn": 0,
+      "book_item_id": 0,
+      "min_expansion": 19,
+      "era_origin": "MAINTAINED_LEGACY_THROUGH_ROF_RECHARGE_CONTEXT_LOCAL_MAXIMUM_SCOPE_FLOOR_NOT_IMMUTABLE_DATE",
+      "output_item_id": 29502,
+      "yield_count": 1,
+      "roles": {
+        "componentcount": {
+          "14804": 1,
+          "75857": 1
+        },
+        "successcount": {
+          "29502": 1
+        },
+        "failcount": {}
+      },
+      "source_physical_roles": {
+        "componentcount": {
+          "14804": 1,
+          "75857": 1
+        },
+        "successcount": {
+          "29502": 1
+        },
+        "failcount": {}
+      },
+      "container_ids": [
+        17902
+      ],
+      "extra_dependency_ids": [
+        17902
+      ],
+      "input_device_id": 75857,
+      "output_full_charges": 5,
+      "input_native_maxcharges": 10,
+      "costs": {
+        "14804": 1
+      },
+      "source_charge_profile": {
+        "source_item_id": 4132,
+        "native_item_id": 29502,
+        "charges": [
+          5
+        ],
+        "profile": "recipes|sources|full list\nHalf Capacity Gnomish Vanishing Device\nSlot: SECONDARY\nCharges: 5\nEffect: Invisibility Cloak (Must Equip, Casting Time: 5.0)\nWT: 0.7 Size: SMALL\nClass: ALL\nRace: ALL\nItem lore: Gnomish Vanishing Device\nEQ item ID: 29502\nFind recipes that use this item.\nitem|sources|full list\n",
+        "source_primary_raw_html_sha256": "76869dd00b4a82b68a3cd9a815bd4880d6c8c594825cddd50858731b104a540c"
+      },
+      "learning_origin": "ORDINARY0_NATIVE_CREDIT_AND_LEARNING_RETAINED_LOCAL_MANUAL_INPLACE_ONLY_NO_SOURCE_NEVERLEARN_CLAIM",
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=142&rsa=Tinkering&sub=chargedpotion",
+      "source_primary_url": "https://www.eqtraders.com/items/show_item.php?item=4132",
+      "source_formula": "Components: Full Capacity Gnomish Vanishing Device, Mana Battery - Class Five\nIn: Toolbox, Deluxe Toolbox, Collapsible Toolbox\nYield: 1\nThis combine may only be made by Gnomes\nNotes: Gives item a full set of charges again. Can be done when item has any number of charges.",
+      "source_current_formula": "Tinkering Components: Full Capacity Gnomish Vanishing Device, Mana Battery - Class Five\nIn: Toolbox, Deluxe Toolbox, Collapsible Toolbox\nYield: 1\nThis combine may only be made by Gnomes\nNotes: Gives item a full set of charges again. Can be done when item has any number of charges.\nNo Fail Combine",
+      "source_catalogue_sha256": "95465d579511a6deecf06451b89655927de615b8e71bf78c824ef7e109d9b550",
+      "source_primary_raw_html_sha256": "76869dd00b4a82b68a3cd9a815bd4880d6c8c594825cddd50858731b104a540c",
+      "maker": "SOURCE_EXPLICIT_ORIGINAL_PLAYERPROFILE_GNOME12",
+      "availability": "COORDINATOR_SELECTED_LOCAL_MANUAL_ONLY_OWNED_ROOT_TOOLBOX17902_INPLACE_SAME_CHILD_SLOT_GUID;AUTO_DENIED_NOT_RETAIL_UI_CLAIM",
+      "held_source_stations": [
+        "Deluxe Toolbox",
+        "Collapsible Toolbox"
+      ],
+      "notes": null,
+      "recipe_id": 3102889,
+      "source_view_id": 23776,
+      "ingredients": [
+        {
+          "item_id": 14804,
+          "name": "Mana Battery - Class Five",
+          "count": 1
+        },
+        {
+          "item_id": 75857,
+          "name": "Full Capacity Gnomish Vanishing Device",
+          "count": 1
+        }
+      ],
+      "learned_by_item_id": 0,
+      "May2013_exact_fields_verified": false
+    },
+    {
+      "view_id": 30387,
+      "name": "Portable Brewbarrel",
+      "display_name": "Portable Brewbarrel",
+      "native_output_name": "Portable Brewbarrel",
+      "skill": 57,
+      "trivial": 0,
+      "source_trivial": "no fail",
+      "source_current_trivial": "No Fail Combine",
+      "trivial_origin": "EXPLICIT_LITERAL_NOFAIL_LOCAL_ENCODING_TRIVIAL0",
+      "nofail": 1,
+      "skillneeded": 0,
+      "must_learn": 0,
+      "book_item_id": 0,
+      "min_expansion": 19,
+      "era_origin": "MAINTAINED_LEGACY_THROUGH_ROF_RECHARGE_CONTEXT_LOCAL_MAXIMUM_SCOPE_FLOOR_NOT_IMMUTABLE_DATE",
+      "output_item_id": 81303,
+      "yield_count": 1,
+      "roles": {
+        "componentcount": {
+          "34467": 1,
+          "81303": 1
+        },
+        "successcount": {
+          "81303": 1
+        },
+        "failcount": {}
+      },
+      "source_physical_roles": {
+        "componentcount": {
+          "34467": 1,
+          "81303": 1
+        },
+        "successcount": {
+          "81303": 1
+        },
+        "failcount": {}
+      },
+      "container_ids": [
+        17902
+      ],
+      "extra_dependency_ids": [
+        17902
+      ],
+      "input_device_id": 81303,
+      "output_full_charges": 5,
+      "input_native_maxcharges": 5,
+      "costs": {
+        "34467": 1
+      },
+      "source_charge_profile": {
+        "source_item_id": 34277,
+        "native_item_id": 81303,
+        "charges": [
+          5
+        ],
+        "profile": "recipes|sources|full list\nPortable Brewbarrel\nCharges: 5\nEffect: Portable Brewbarrel (Any Slot/Can Equip, Casting Time: Insta\nWT: 0.2 Size: TINY\nClass: ALL\nRace: ALL\nNPCs sell this at (unknown)\nNPCs will not buy this item\nItem lore: A brewbarrel that can be compacted for easy movement.\nEQ item ID: 81303\nFind recipes that use this item.\nitem|sources|full list\n",
+        "source_primary_raw_html_sha256": "9dcd07f4defe46ba3815011c7791dcba3b44a2728f3b2a57bb405172de982805"
+      },
+      "learning_origin": "ORDINARY0_NATIVE_CREDIT_AND_LEARNING_RETAINED_LOCAL_MANUAL_INPLACE_ONLY_NO_SOURCE_NEVERLEARN_CLAIM",
+      "source_url": "https://www.eqtraders.com/recipes/recipe_page.php?article=66&rsa=Tinkering&sub=",
+      "source_primary_url": "https://www.eqtraders.com/items/show_item.php?item=34277",
+      "source_formula": "Components: Crude Coal, Portable Brewbarrel\nIn: Toolbox, Deluxe Toolbox, Collapsible Toolbox\nYield: 1\nThis combine may only be made by Gnomes\nNotes: Gives item a full set of charges again. Can be done when item has any number of charges.",
+      "source_current_formula": "Tinkering Components: Crude Coal, Portable Brewbarrel\nIn: Toolbox, Deluxe Toolbox, Collapsible Toolbox\nYield: 1\nThis combine may only be made by Gnomes\nNotes: Gives item a full set of charges again. Can be done when item has any number of charges.\nNo Fail Combine",
+      "source_catalogue_sha256": "0c6f4a782fa7449eade887c73a3c44f526225e7ca44d653a88b94d85d7c5c951",
+      "source_primary_raw_html_sha256": "9dcd07f4defe46ba3815011c7791dcba3b44a2728f3b2a57bb405172de982805",
+      "maker": "SOURCE_EXPLICIT_ORIGINAL_PLAYERPROFILE_GNOME12",
+      "availability": "COORDINATOR_SELECTED_LOCAL_MANUAL_ONLY_OWNED_ROOT_TOOLBOX17902_INPLACE_SAME_CHILD_SLOT_GUID;AUTO_DENIED_NOT_RETAIL_UI_CLAIM",
+      "held_source_stations": [
+        "Deluxe Toolbox",
+        "Collapsible Toolbox"
+      ],
+      "notes": null,
+      "recipe_id": 3102890,
+      "source_view_id": 30387,
+      "ingredients": [
+        {
+          "item_id": 34467,
+          "name": "Crude Coal",
+          "count": 1
+        },
+        {
+          "item_id": 81303,
+          "name": "Portable Brewbarrel",
+          "count": 1
+        }
+      ],
+      "learned_by_item_id": 0,
+      "May2013_exact_fields_verified": false
+    }
+  ],
+  "restriction_review": {
+    "scope": "Eight explicit maintained-primary recharge/conversion formulas, only original Tinkering57/Gnome12 branch, with exact explicit item IDs and physical reagents. NoSkill recharging-kit alternatives remain unqualified.",
+    "charges": "Successcount1 means one physical original device, not charge count. Six self-recharges preserve owned item definition; two Full/Half routes replace only its base definition. Restore full source charges5/60/10/10/5/20/5/5 as applicable. No fresh factory output. Old eight manufacturing/other recharge peers remain unchanged, including legacy Full outputcount10.",
+    "source": "Seven explicit No Fail Combine markers encode LOCAL trivial0/nofail1; Chipped Bone Rod Augmenter explicitly15 No-Fail. Source literal text and uncertainties retained. Potion activation-note materials are not recharge inputs. Era floor19 is selected maintained-legacy scope policy, not immutable May2013 introduction proof.",
+    "availability": "LOCAL manual-only owned root Toolbox17902/type10/8slots/size4. Same original kit slot, device child slot and GUID. Accept original device charges0..native cap including already full. Exact whole physical manual reagent units; reject excess stacks, extra children, unsupported scaling/evolving roots and unsupported reagent augments/evolution. No player race inferred from wearable definitions.",
+    "custody": "One finite native strict transaction locks original actor/session lease, full owned parent/children/GUIDs, exact roles/definitions and evolving augment custody. Atomically update device itemID/charges and delete exact reagent rows. Raw custom bytes, attunement, color, ornaments, GUID, augment evolving identity, timers and task-delivery counts retained. Preallocate clones/proof/packet/retirement capacity before known COMMIT, then publish memory before callbacks. Unknown COMMIT attaches existing generic inventory admission hold with no retry/refund/inverse.",
+    "learning": "Preserve ordinary native tradeskill success/skill-credit/events and manual learning/madecount. No neverlearn claim. Automatic requests denied before mutable validators, and selectors changed into recharges denied again before debit. Only finite one-use private proof suppresses factory output for these eight IDs.",
+    "preservation": "Fifteen full18 native item dependencies and eight full unchanged existing producer headers/74entries guarded; all-state exact-input collision guard has no exemptions. Finite name exceptions cover captured old peers and staged sibling IDs only. Old recipes, items, learned state and existing native writer behavior unchanged. No item definitions added.",
+    "execution": "Source proposal only. GitHub alone publishes after actual branch/head and exact native preimage checks. Build alone compiles/installs compatible actor. Database owner applies exact SQL after coordinator GO and installed actor receipt. No Tradeskills SQL/build/runtime actions or native gameplay acceptance. Keep RRC310 SQL held until compatible actor install."
+  },
+  "native_authored_context": [],
+  "held_source_rows": [],
+  "migration_dependencies": [
+    "RRC307",
+    "RRC309"
+  ],
+  "source_urls": [
+    "https://www.eqtraders.com/items/show_item.php?item=16790",
+    "https://www.eqtraders.com/items/show_item.php?item=22391",
+    "https://www.eqtraders.com/items/show_item.php?item=26674",
+    "https://www.eqtraders.com/items/show_item.php?item=27275",
+    "https://www.eqtraders.com/items/show_item.php?item=34277",
+    "https://www.eqtraders.com/items/show_item.php?item=38208",
+    "https://www.eqtraders.com/items/show_item.php?item=4132",
+    "https://www.eqtraders.com/recipes/recipe_page.php?article=142&rsa=Tinkering&sub=chargedpotion",
+    "https://www.eqtraders.com/recipes/recipe_page.php?article=553&rsa=Tinkering&sub=VoA",
+    "https://www.eqtraders.com/recipes/recipe_page.php?article=66&rsa=Tinkering&sub="
+  ],
+  "native_actor_dependency": {
+    "contract": "actor-contract.json",
+    "compatible_installed_receipt_required": true,
+    "sql_hold": true
+  }
+}

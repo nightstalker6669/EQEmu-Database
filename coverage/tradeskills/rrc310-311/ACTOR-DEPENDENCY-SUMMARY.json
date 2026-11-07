@@ -1,0 +1,72 @@
+{
+  "status": "MATCHED_WORLD_ZONE_ACTOR_COMPILED_INSTALLED_HELD_STOPPED",
+  "installed_receipt_sha256": "45065d7f063cb1b9a5bdd0fbcd3bee2d99caa6e053ec4eb3d7798c6367ba53a7",
+  "compile_receipt_sha256": "b44ca0ad7963134cc10e825bd0e192a4c440890d680488737a41da02c7846cd7",
+  "develop_source_commit": "3cc44a15522d3bb0a8ba9cb7771bdfe38dcf4c21",
+  "SQL_only311_develop_commit": "ae8102a26b401d65ea88ba8d02d2df61b31975b3",
+  "SQL_only311_requires_new_actor": false,
+  "native7_pins": {
+    "common/fungal_unknown_inventory.h": {
+      "blob": "9d33f261aa39a9bb2e685e5afd945cb591e7cb4b",
+      "path": "common/fungal_unknown_inventory.h",
+      "preimage_sha256": "eae629332f0bf49a1535a30e9f11882c954fdcb9f4d9c5fed4220c99fc586372",
+      "sha256": "d5f57af83bc28ed9d5113cf12cb61eda67828d601557336a678eb82736486294",
+      "size": 2244
+    },
+    "common/inventory_profile.h": {
+      "blob": "e7e8fccb1fde3d18d25916e5d6675234a923b993",
+      "path": "common/inventory_profile.h",
+      "preimage_sha256": "eeb9c2ff331a19ebf7596e38489cd1c7f8cf993e89f7b41952728e2be9960900",
+      "sha256": "9775a7cf15e9e69a991055beefa85ce661810efa6e676f2173e2479feb12d2fa",
+      "size": 11038
+    },
+    "common/item_instance.h": {
+      "blob": "2450a099592a4d8150b0fbf7104c2bf65fe1f59e",
+      "path": "common/item_instance.h",
+      "preimage_sha256": "e14bb5c64e5bd55294338c17378321d69a18241308945e84afbfb2e0fb8f6627",
+      "sha256": "5f19c7fc04bb7bc4dcf349856dc4a931876fcbe41403d46b0adb7e7bc42d9b78",
+      "size": 22957
+    },
+    "zone/CMakeLists.txt": {
+      "blob": "d11b400dfb203372b65d01bb9c628f277f7eb20e",
+      "path": "zone/CMakeLists.txt",
+      "preimage_sha256": "8b52b6b6379359d22cd4aac36115974fffc1f86e0d3be33852157e93432be92e",
+      "sha256": "cf202f96618882a7b13d3b5cf6d604db4ebd41f8a8bb28a47cd69fd50ade23da",
+      "size": 19685
+    },
+    "zone/recharge_recipe8.cpp": {
+      "blob": "b8e02126fe2e8ee4d4ed7c57f5bdfb56aeab0e5b",
+      "path": "zone/recharge_recipe8.cpp",
+      "preimage_sha256": null,
+      "sha256": "41077ab2e4330e9ca2d81cd4ec83078d0c7516ae85c89505a63012aea471803a",
+      "size": 19615
+    },
+    "zone/recharge_recipe8.h": {
+      "blob": "3082e1e7f0d3e36b991e65ef895171b7443932c8",
+      "path": "zone/recharge_recipe8.h",
+      "preimage_sha256": null,
+      "sha256": "6c2eba47c1267fc7b99480efb8e91dc526f80b674d2da2d75028db8ed8f7e6a1",
+      "size": 1555
+    },
+    "zone/tradeskills.cpp": {
+      "blob": "38afce547d0525675686c93497e51011961d16cc",
+      "path": "zone/tradeskills.cpp",
+      "preimage_sha256": "017e5b051202f1151a7b83ec6937451f34b27ed00caa5618473235ed20f4888d",
+      "sha256": "2e79f261c66d5e8c8bbd3fe9b7c34ce30f8c04b9a3c3e33ee115e3c635c88835",
+      "size": 101523
+    }
+  },
+  "source_patch_sha256": "13436a37e9d2b4136099d491be65132e07eb95f26975f447e690d74525715c39",
+  "actor_contract_sha256": "bdcb334cfb45dd449279f04ad814fcf759cae700d6fbb50896d149a7c3668b37",
+  "installed_world_sha256": "d61896bd3cfa6746041c5df3fb432f92a0880814dfcee6201095f385ebdbc55c",
+  "installed_zone_sha256": "f7c1aa44c96eb115fad0387262b8ae69fcf219419a2ee26fcf1df9cfc36089a0",
+  "all_other_parent_source_unchanged": true,
+  "scope_and_property_authority": "Only8registeredTinkering57/GnomeoriginalPP12 operations; actual owned rootToolbox17902/type10/8slots/size4. Original selector, owner ticket/character/account/full original physical input tree captured before validation and rechecked immediately predebit; no source-pointer dereference before current custody resolution.",
+  "transaction_boundary": "One same strict no-reconnect inventory transaction locks character/account/original session epoch-token-process-client/lease/pending custody, exact recipe+roles/nativecharge definitions, full actual parent/child inventory rows/ownedGUIDs/augment evolving rows+originalrootGUIDlocators. Atomically updateonlydevice itemID/charges and deleteexactphysicalreagents. Full postimage/nullflags/custom bytes/ornaments/GUID/aug-evo payload compared before strictknownCOMMIT. Parent/rootitem propertyrows and CEI/locators are NOT rewritten or reset.",
+  "publication_boundary": "Preallocateproof/clones/full-kitnativepacket/retirementcapacity beforecommit. KnownCOMMIT thennonallocatingpointer/mappublication, thennativepackets/normalbonuses/one-useTradeskillExecute. Exact8privateproofsuppressesfreshfactoryonlythese8; no quantity-vs-charge inflation. Unknowncommit attachesexistinggenericUnknownInventoryadmissionhold, no memorypublish/refund/retry/inverse; no Fungal operation whitelist or Trophy scope expanded.",
+  "availability": "Explicit LOCAL manual/inplace only. Original nonstack common device stays in same kit childslot and durable GUID; charges0..inputcap includingalreadyfull supported; full↔half definitions changeonlytwo registered routes. Exact manual reagent physical counts required, no excess stacks or unrelated children. Other source kits/world/autocombine unqualified; auto these8 denied without debit. Native ordinary learning/madecount/events/taskcredit retained.",
+  "preservation": "Over exactpending309CPP; retain307/309 and all300/301R2/302/303/native source controls. Three sharedheaders only boundedfrienddeclarations fornewfinitecustody; sharedprimitive logic unchanged. One cpp/CMake addition. No new generic framework/action API, no data-drivenwriterbypass.",
+  "runtime_evidence_boundary": "Actual install held stopped, not running/loaded-gameplay proof. Server start/admission release is separately coordinator/Build-owned.",
+  "no_new_item_definition_or_cache_generation": true,
+  "native_gameplay_acceptance": false
+}
