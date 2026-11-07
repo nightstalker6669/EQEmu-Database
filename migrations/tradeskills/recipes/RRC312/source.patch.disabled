@@ -1,0 +1,317 @@
+--- a/zone/cultural_armor_bulk_actor.h
++++ b/zone/cultural_armor_bulk_actor.h
+@@ -2017,6 +2017,30 @@
+  {3102013,Race::DarkElf,42,104,32,0,9},
+  {3102014,Race::DarkElf,42,104,32,0,9},
+  {3102015,Race::Dwarf,60,120,34,0,8},
++ {3102896,Race::Iksar,106,13,38,0,6},
++ {3102897,Race::Ogre,49,19,33,0,6},
++ {3102898,Race::Troll,52,248,47,0,4},
++ {3102899,Race::Troll,52,248,47,0,4},
++ {3102900,Race::Troll,52,248,47,0,5},
++ {3102901,Race::Troll,52,248,47,0,5},
++ {3102902,Race::Troll,52,248,47,0,5},
++ {3102903,Race::Troll,52,248,47,0,5},
++ {3102904,Race::Troll,52,248,47,0,5},
++ {3102905,Race::Troll,52,248,47,0,5},
++ {3102906,Race::Troll,52,248,47,0,5},
++ {3102907,Race::Troll,52,248,47,0,5},
++ {3102908,Race::Troll,52,248,47,0,5},
++ {3102909,Race::Troll,52,248,47,0,4},
++ {3102910,Race::Troll,52,248,47,0,4},
++ {3102911,Race::Troll,52,248,47,0,5},
++ {3102912,Race::Troll,52,248,47,0,5},
++ {3102913,Race::Troll,52,248,47,0,5},
++ {3102914,Race::Troll,52,248,47,0,5},
++ {3102915,Race::Troll,52,248,47,0,5},
++ {3102916,Race::Troll,52,248,47,0,5},
++ {3102917,Race::Troll,52,248,47,0,5},
++ {3102922,Race::Dwarf,60,120,34,0,6},
++ {3102923,Race::Dwarf,60,120,34,0,7},
+ };
+ inline const Requirement* Find(std::uint32_t id) noexcept {
+  constexpr auto first=Requirements[0].recipe_id;
+--- a/zone/cultural_tailoring_bulk_actor.h
++++ b/zone/cultural_tailoring_bulk_actor.h
+@@ -1160,6 +1160,10 @@
+  {3102792,Race::Ogre,92880,16,7,1},
+  {3102793,Race::Ogre,92880,16,7,1},
+  {3102794,Race::Ogre,92880,16,7,1},
++ {3102892,Race::Erudite,92873,16,7,1},
++ {3102893,Race::Erudite,92873,16,7,1},
++ {3102894,Race::Erudite,92873,16,7,1},
++ {3102895,Race::Erudite,92873,16,7,1},
+ };
+ inline const Requirement* Find(std::uint32_t id) noexcept {
+  constexpr std::uint32_t count=sizeof(Requirements)/sizeof(Requirements[0]);
+--- a/zone/final_recipe300.h
++++ b/zone/final_recipe300.h
+@@ -2,13 +2,13 @@
+ #include <cstdint>
+ #include <cmath>
+ #include <cstring>
+-// Original fourteen, two never-learn307 routes, one Northman309 route. No global policy.
++// Existing finite routes plus the explicitly never-learn Grimling312 tool. No global policy.
+ namespace FinalRecipe300 {
+-inline bool Selected(uint32_t id) { return (id >= 3102753 && id <= 3102766) || id == 3102867 || id == 3102868 || id == 3102882; }
+-inline bool NeverLearn(uint32_t id) { return id == 3102756 || id == 3102757 || id == 3102867 || id == 3102868; }
++inline bool Selected(uint32_t id) { return (id >= 3102753 && id <= 3102766) || id == 3102867 || id == 3102868 || id == 3102882 || id == 3102918; }
++inline bool NeverLearn(uint32_t id) { return id == 3102756 || id == 3102757 || id == 3102867 || id == 3102868 || id == 3102918; }
+ inline bool Font(uint32_t id) { return id >= 3102758 && id <= 3102764; }
+ inline uint32_t Skill(uint32_t id) {
+- if (id == 3102867) return 64;
++ if (id == 3102867 || id == 3102918) return 64;
+  if (id == 3102868 || id == 3102882) return 63;
+  if (id <= 3102754) return 69;
+  if (id == 3102755) return 63;
+@@ -17,13 +17,13 @@
+ }
+ inline bool RaceAllowed(uint32_t id, uint32_t race) {
+  if (id == 3102882) return race == 2;
+- if (id == 3102867 || id == 3102868) return true;
++ if (id == 3102867 || id == 3102868 || id == 3102918) return true;
+  return id <= 3102754 ? race == 130 : id != 3102755 || race == 9;
+ }
+ inline bool WorldAllowed(uint32_t id, uint32_t zone, uint16_t version,
+  uint32_t object, uint32_t type, uint32_t item) {
+  if (!Selected(id) || Font(id) || item != 0) return false;
+- if (id == 3102867) return false; // actual owned portable Fletching Kit only
++ if (id == 3102867 || id == 3102918) return false; // actual owned portable Fletching Kit only
+  if (id == 3102868) return type == 17;
+  if (id == 3102882) return zone == 29 && version == 0 && object == 40 && type == 36;
+  if (id <= 3102754) return type == 22;
+--- a/zone/tradeskills.cpp
++++ b/zone/tradeskills.cpp
+@@ -1,3 +1,4 @@
++#include "final_recipe312.h"
+ #include "recharge_recipe8.h"
+ #include "final_recipe302.h"
+ #include "housing_recipe301.h"
+@@ -80,6 +81,27 @@
+ };
+ 
+ 
++bool Final312OutputValid(const DBTradeskillRecipe_Struct& spec) {
++ const auto* r=FinalRecipe312::Find(spec.recipe_id);
++ if(!r)return true;
++ if(uint32_t(spec.tradeskill)!=r->skill || spec.trivial!=r->trivial || spec.skill_needed ||
++    spec.nofail || spec.must_learn || spec.quest || spec.replace_container)return false;
++ const auto matches=[](const auto& actual,const auto& expected) {
++  size_t count=0;
++  for(const auto& role:expected)if(role.item) {
++   ++count;bool found=false;
++   for(const auto& a:actual)if(a.first==role.item && a.second==role.count)found=true;
++   if(!found)return false;
++  }
++  return actual.size()==count;
++ };
++ const auto* item=database.GetItem(r->output);
++ if(!item || item->ItemClass!=0 || item->MaxCharges!=r->charges)return false;
++ if(r->charges==-1 && (item->Stackable || item->Click.Effect!=51 || item->Click.Type!=5 ||
++    item->Click.Level2!=45 || item->CastTime!=3000))return false;
++ return matches(spec.onsuccess,r->success) && matches(spec.onfail,r->failure);
++}
++
+ bool Final302Output(const DBTradeskillRecipe_Struct& spec,const FinalRecipe302::Requirement& r) {
+  return uint32_t(spec.tradeskill)==r.skill&&!spec.quest&&!spec.replace_container&&spec.onsuccess.size()==1&&spec.onsuccess.begin()->first==r.output&&spec.onsuccess.begin()->second==r.yield;
+ }
+@@ -103,6 +125,7 @@
+   return spec.onsuccess.size()==2 && has(spec.onsuccess,23382,1) && has(spec.onsuccess,10489,1) &&
+    spec.onfail.size()==1 && has(spec.onfail,10489,1);
+  }
++ if (spec.recipe_id == 3102918) return Final312OutputValid(spec);
+  if (spec.recipe_id == 3102867 || spec.recipe_id == 3102868) {
+   if (spec.nofail || spec.must_learn || spec.replace_container) return false;
+   const auto has=[](const auto& items,uint32_t id,uint32_t count) {
+@@ -668,10 +691,48 @@
+  if(HousingRecipe301::Selected(spec.recipe_id)) {
+   user->Message(Chat::Red,"This recipe needs a placed Jewelry Making Table and its recipe list.");auto* denied=new EQApplicationPacket(OP_TradeSkillCombine,0);user->QueuePacket(denied);safe_delete(denied);return;
+  }
++ const auto final312_recipe=FinalRecipe312::Find(spec.recipe_id)?spec.recipe_id:0;
++ const auto final312_slot=in_combine->container_slot;
++ const auto final312_owner=user->InventorySessionReleaseTicket();
++ const auto final312_character=user->CharacterID(), final312_account=user->AccountID();
++ auto* const final312_world=worldcontainer?worldo:nullptr;
++ const auto final312_world_id=final312_world?final312_world->GetDBID():0;
++ std::unique_ptr<Final300InputTree> final312_inputs;
++ const auto final312_valid=[&](bool with_tree=true) {
++  if(!final312_recipe && !FinalRecipe312::Find(spec.recipe_id))return true;
++  const auto* r=FinalRecipe312::Find(spec.recipe_id);
++  if(!final312_recipe || spec.recipe_id!=final312_recipe || !r || !Final312OutputValid(spec) ||
++     !final312_owner || !final312_owner->HeldFor(*user) || user->CharacterID()!=final312_character ||
++     user->AccountID()!=final312_account || (r->race && user->GetPP().race!=r->race) ||
++     !FirePersonalOccurrenceSource::NativeInventoryFence::ProfileAllowed(&user->GetInv()))return false;
++  const EQ::ItemInstance* current=nullptr;
++  if(r->kit) {
++   if(worldcontainer || in_combine->container_slot!=final312_slot ||
++      !EQ::ValueWithin(final312_slot,EQ::invslot::GENERAL_BEGIN,EQ::invslot::GENERAL_END) ||
++      !user->GetInv().GetLookup() || !(user->GetInv().GetLookup()->PossessionsBitmask&(uint64_t(1)<<final312_slot)))return false;
++   current=user->GetInv().GetItem(final312_slot);
++   const auto* data=current&&current->IsClassBag()?current->GetItem():nullptr;
++   if(!data || data->ID!=r->kit || data->BagType!=r->bagtype || data->BagSlots!=r->slots || data->BagSize!=r->size)return false;
++  }else {
++   auto* world=user->GetTradeskillObject();
++   if(!worldcontainer || !world || world!=final312_world || world->GetDBID()!=final312_world_id ||
++      !world->GetDBID() || world->user!=user || !world->m_inst || !world->m_inst->IsType(EQ::item::ItemClassBag) ||
++      world->GetType()!=r->type || world->GetItemID()!=0 || EQ::invtype::WORLD_SIZE<r->slots)return false;
++   if(r->object && (world->GetDBID()!=r->object || zone->GetZoneID()!=r->zone || zone->GetInstanceVersion()!=0))return false;
++   current=world->m_inst;
++  }
++  return current && current==container && (!with_tree ||
++   (final312_inputs && Final300InputTree::Same(final312_inputs->root,current)));
++ };
++ if(final312_recipe) {
++  if(!final312_valid(false)){auto* denied=new EQApplicationPacket(OP_TradeSkillCombine,0);user->QueuePacket(denied);safe_delete(denied);return;}
++  try {final312_inputs=std::make_unique<Final300InputTree>(Final300InputTree{Final300InputTree::Capture(*container)});}
++  catch(...){auto* denied=new EQApplicationPacket(OP_TradeSkillCombine,0);user->QueuePacket(denied);safe_delete(denied);return;}
++ }
+  // Capture the actual matched physical input tree before mutable validation hooks.
+  // No clone/replacement/consumption; compare identities and all nested charges/slots.
+  // Keep the original finite307/309 selector bound across mutable validation.
+- const auto final307_recipe=(spec.recipe_id==3102867 || spec.recipe_id==3102868 || spec.recipe_id==3102882)?spec.recipe_id:0;
++ const auto final307_recipe=(spec.recipe_id==3102867 || spec.recipe_id==3102868 || spec.recipe_id==3102882 || spec.recipe_id==3102918)?spec.recipe_id:0;
+  const auto recharge_recipe=RechargeRecipe8::Find(spec.recipe_id)?spec.recipe_id:0;
+  const auto recharge_parent_slot=in_combine->container_slot;
+  std::unique_ptr<Final300InputTree> recharge_inputs;
+@@ -759,7 +820,7 @@
+   if(FinalRecipe300::Font(spec.recipe_id)) {
+    if(worldcontainer || !Final300Kit(*user,in_combine->container_slot,container) || !Final300Font(*user,spec.recipe_id))return false;
+    current=user->GetInv().GetItem(in_combine->container_slot);
+-  }else if(spec.recipe_id==3102867) {
++  }else if(spec.recipe_id==3102867 || spec.recipe_id==3102918) {
+    if(worldcontainer || !EQ::ValueWithin(in_combine->container_slot,EQ::invslot::GENERAL_BEGIN,EQ::invslot::GENERAL_END))return false;
+    current=user->GetInv().GetItem(in_combine->container_slot);
+    const auto* data=current&&current->IsClassBag()?current->GetItem():nullptr;
+@@ -880,7 +941,7 @@
+ 	}
+ 
+ 
+- if(!recharge_valid()||!ogre303_valid()||!final302_valid()||!final300_valid()||!charged_station_valid()||(charged_requirement&&charged_requirement->units&&!Charged32PackingStillOriginal(*user,*charged_requirement,charged_packing))){auto* denied=new EQApplicationPacket(OP_TradeSkillCombine,0);user->QueuePacket(denied);safe_delete(denied);return;}
++ if(!final312_valid()||!recharge_valid()||!ogre303_valid()||!final302_valid()||!final300_valid()||!charged_station_valid()||(charged_requirement&&charged_requirement->units&&!Charged32PackingStillOriginal(*user,*charged_requirement,charged_packing))){auto* denied=new EQApplicationPacket(OP_TradeSkillCombine,0);user->QueuePacket(denied);safe_delete(denied);return;}
+ 	// Send acknowledgement packets to client
+ 	auto outapp = new EQApplicationPacket(OP_TradeSkillCombine, 0);
+ 	user->QueuePacket(outapp);
+@@ -1004,6 +1065,49 @@
+ 		safe_delete(outapp);
+ 		return;
+ 	}
++
++ const auto final312_recipe=FinalRecipe312::Find(spec.recipe_id)?spec.recipe_id:0;
++ const auto* final312_requirement=FinalRecipe312::Find(spec.recipe_id);
++ const auto final312_owner=user->InventorySessionReleaseTicket();
++ const auto final312_character=user->CharacterID(), final312_account=user->AccountID();
++ const auto final312_slot=final312_requirement&&final312_requirement->kit?
++  user->GetInv().HasItem(final312_requirement->kit,1,invWherePersonal):INVALID_INDEX;
++ auto* const final312_world=final312_requirement&&!final312_requirement->kit?user->GetTradeskillObject():nullptr;
++ const auto final312_world_id=final312_world?final312_world->GetDBID():0;
++ const auto* const final312_container=final312_requirement&&final312_requirement->kit?
++  user->GetInv().GetItem(final312_slot):(final312_world?final312_world->m_inst:nullptr);
++ std::unique_ptr<Final300InputTree> final312_inputs;
++ const auto final312_valid=[&](bool with_tree=true) {
++  if(!final312_recipe && !FinalRecipe312::Find(spec.recipe_id))return true;
++  const auto* r=FinalRecipe312::Find(spec.recipe_id);
++  if(!final312_recipe || spec.recipe_id!=final312_recipe || !r || r->never_learn || !Final312OutputValid(spec) ||
++     !final312_owner || !final312_owner->HeldFor(*user) || user->CharacterID()!=final312_character ||
++     user->AccountID()!=final312_account || (r->race && user->GetPP().race!=r->race) ||
++     !FirePersonalOccurrenceSource::NativeInventoryFence::ProfileAllowed(&user->GetInv()))return false;
++  const EQ::ItemInstance* current=nullptr;
++  if(r->kit) {
++   if(!EQ::ValueWithin(final312_slot,EQ::invslot::GENERAL_BEGIN,EQ::invslot::GENERAL_END) ||
++      !user->GetInv().GetLookup() || !(user->GetInv().GetLookup()->PossessionsBitmask&(uint64_t(1)<<final312_slot)))return false;
++   current=user->GetInv().GetItem(final312_slot);
++   const auto* data=current&&current->IsClassBag()?current->GetItem():nullptr;
++   if(!data || rac->some_id!=r->kit || rac->object_type!=r->bagtype || data->ID!=r->kit ||
++      data->BagType!=r->bagtype || data->BagSlots!=r->slots || data->BagSize!=r->size)return false;
++  }else {
++   auto* world=user->GetTradeskillObject();
++   if(!world || world!=final312_world || world->GetDBID()!=final312_world_id || !world->GetDBID() ||
++      world->user!=user || !world->m_inst || !world->m_inst->IsType(EQ::item::ItemClassBag) ||
++      rac->object_type!=r->type || world->GetType()!=r->type || world->GetItemID()!=0 || EQ::invtype::WORLD_SIZE<r->slots)return false;
++   if(r->object && (world->GetDBID()!=r->object || zone->GetZoneID()!=r->zone || zone->GetInstanceVersion()!=0))return false;
++   current=world->m_inst;
++  }
++  return current && current==final312_container && (!with_tree ||
++   (final312_inputs && Final300InputTree::Same(final312_inputs->root,current)));
++ };
++ if(final312_recipe) {
++  if(!final312_valid(false)){user->QueuePacket(outapp);safe_delete(outapp);return;}
++  try {final312_inputs=std::make_unique<Final300InputTree>(Final300InputTree{Final300InputTree::Capture(*final312_container)});}
++  catch(...){user->QueuePacket(outapp);safe_delete(outapp);return;}
++ }
+ 
+  // Reject the original recharge selector before mutable validation callbacks.
+  // The later gate also rejects an ordinary selector changed into a recharge.
+@@ -1323,7 +1427,7 @@
+  if(RechargeRecipe8::Find(spec.recipe_id)) {
+   user->Message(Chat::Red,"Use an opened Toolbox to recharge this device.");user->QueuePacket(outapp);safe_delete(outapp);return;
+  }
+- if(!ogre303_valid()||!final302_valid()||!final300_valid()||!charged_station_valid()||(charged_requirement&&charged_requirement->units&&(results.RowCount()!=1||items[0]!=charged_requirement->input||counts[0]!=charged_requirement->units||!Charged32PackingStillOriginal(*user,*charged_requirement,charged_packing)))){user->QueuePacket(outapp);safe_delete(outapp);return;}
++ if(!final312_valid()||!ogre303_valid()||!final302_valid()||!final300_valid()||!charged_station_valid()||(charged_requirement&&charged_requirement->units&&(results.RowCount()!=1||items[0]!=charged_requirement->input||counts[0]!=charged_requirement->units||!Charged32PackingStillOriginal(*user,*charged_requirement,charged_packing)))){user->QueuePacket(outapp);safe_delete(outapp);return;}
+  std::unique_ptr<HousingRecipe301::Use> housing301_use;
+  if(HousingRecipe301::Selected(spec.recipe_id)) {
+   auto* station=user->GetTradeskillObject();const auto* origin=station?station->HousingRecipe301Origin():nullptr;
+@@ -1781,7 +1885,7 @@
+ 			item = database.GetItem(itr->first);
+ 			if (item) {
+ 				CheckItemDiscoverability(itr->first);
+-				if(!trophy_selected && !recharge_selected) SummonItem(itr->first, FinalRecipe300::SummonCount(spec->recipe_id, itr->first, ChargedRecipe32::SummonCount(spec->recipe_id, itr->first, itr->second)));
++				if(!trophy_selected && !recharge_selected) SummonItem(itr->first, FinalRecipe312::SummonCount(spec->recipe_id, itr->first, FinalRecipe300::SummonCount(spec->recipe_id, itr->first, ChargedRecipe32::SummonCount(spec->recipe_id, itr->first, itr->second))));
+ 				if (GetGroup()) {
+ 					entity_list.MessageGroup(this, true, Chat::Skills, "%s has successfully fashioned %s!", GetName(), item->Name);
+ 				}
+--- /dev/null
++++ b/zone/final_recipe312.h
+@@ -0,0 +1,53 @@
++#pragma once
++#include <cstdint>
++namespace FinalRecipe312 {
++struct Role { uint32_t item, count; };
++struct Requirement {
++ uint32_t recipe, skill, trivial, race, kit, bagtype, slots, size, zone, object, type, output;
++ int16_t charges; bool never_learn;
++ Role success[3], failure[2];
++};
++inline constexpr Requirement Requirements[] = {
++ {3102892,61,275,3,92873,16,10,3,0,0,0,24310,0,false,{{9724,1},{24310,1},{0,0}},{{9724,1},{0,0}}},
++ {3102893,61,275,3,92873,16,10,3,0,0,0,24317,0,false,{{9724,1},{24317,1},{0,0}},{{9724,1},{0,0}}},
++ {3102894,61,275,3,92873,16,10,3,0,0,0,24293,0,false,{{9724,1},{24293,1},{0,0}},{{9724,1},{0,0}}},
++ {3102895,61,255,3,92873,16,10,3,0,0,0,24260,0,false,{{9724,1},{24260,1},{0,0}},{{9724,1},{0,0}}},
++ {3102896,63,335,128,0,0,10,0,106,13,38,23955,0,false,{{6027,1},{23955,1},{0,0}},{{6027,1},{0,0}}},
++ {3102897,63,275,10,0,0,10,0,49,19,33,24221,0,false,{{10489,1},{24221,1},{0,0}},{{10489,1},{0,0}}},
++ {3102898,63,335,9,0,0,10,0,52,248,47,9786,0,false,{{7052,1},{9786,1},{12011,1}},{{7052,1},{12011,1}}},
++ {3102899,63,335,9,0,0,10,0,52,248,47,9788,0,false,{{7052,1},{9788,1},{12011,1}},{{7052,1},{12011,1}}},
++ {3102900,63,335,9,0,0,10,0,52,248,47,23547,0,false,{{7052,1},{12011,1},{23547,1}},{{7052,1},{12011,1}}},
++ {3102901,63,335,9,0,0,10,0,52,248,47,23544,0,false,{{7052,1},{12011,1},{23544,1}},{{7052,1},{12011,1}}},
++ {3102902,63,335,9,0,0,10,0,52,248,47,23549,0,false,{{7052,1},{12011,1},{23549,1}},{{7052,1},{12011,1}}},
++ {3102903,63,335,9,0,0,10,0,52,248,47,23556,0,false,{{7052,1},{12011,1},{23556,1}},{{7052,1},{12011,1}}},
++ {3102904,63,335,9,0,0,10,0,52,248,47,23558,0,false,{{7052,1},{12011,1},{23558,1}},{{7052,1},{12011,1}}},
++ {3102905,63,335,9,0,0,10,0,52,248,47,23555,0,false,{{7052,1},{12011,1},{23555,1}},{{7052,1},{12011,1}}},
++ {3102906,63,335,9,0,0,10,0,52,248,47,23557,0,false,{{7052,1},{12011,1},{23557,1}},{{7052,1},{12011,1}}},
++ {3102907,63,335,9,0,0,10,0,52,248,47,23560,0,false,{{7052,1},{12011,1},{23560,1}},{{7052,1},{12011,1}}},
++ {3102908,63,335,9,0,0,10,0,52,248,47,23561,-1,false,{{7052,1},{12011,1},{23561,1}},{{7052,1},{12011,1}}},
++ {3102909,63,335,9,0,0,10,0,52,248,47,9787,0,false,{{7052,1},{9787,1},{12011,1}},{{7052,1},{12011,1}}},
++ {3102910,63,335,9,0,0,10,0,52,248,47,9791,-1,false,{{7052,1},{9791,1},{12011,1}},{{7052,1},{12011,1}}},
++ {3102911,63,335,9,0,0,10,0,52,248,47,23567,0,false,{{7052,1},{12011,1},{23567,1}},{{7052,1},{12011,1}}},
++ {3102912,63,335,9,0,0,10,0,52,248,47,23569,0,false,{{7052,1},{12011,1},{23569,1}},{{7052,1},{12011,1}}},
++ {3102913,63,335,9,0,0,10,0,52,248,47,23566,0,false,{{7052,1},{12011,1},{23566,1}},{{7052,1},{12011,1}}},
++ {3102914,63,335,9,0,0,10,0,52,248,47,23568,0,false,{{7052,1},{12011,1},{23568,1}},{{7052,1},{12011,1}}},
++ {3102915,63,335,9,0,0,10,0,52,248,47,23571,0,false,{{7052,1},{12011,1},{23571,1}},{{7052,1},{12011,1}}},
++ {3102916,63,335,9,0,0,10,0,52,248,47,23574,0,false,{{7052,1},{12011,1},{23574,1}},{{7052,1},{12011,1}}},
++ {3102917,63,335,9,0,0,10,0,52,248,47,23572,-1,false,{{7052,1},{12011,1},{23572,1}},{{7052,1},{12011,1}}},
++ {3102918,64,41,0,17910,18,8,3,0,0,0,3472,0,true,{{3472,1},{0,0},{0,0}},{{3467,1},{0,0}}},
++ {3102919,63,255,0,0,0,10,0,0,0,17,28585,0,false,{{28585,1},{0,0},{0,0}},{{0,0},{0,0}}},
++ {3102920,63,255,0,0,0,10,0,0,0,17,28582,0,false,{{28582,1},{0,0},{0,0}},{{0,0},{0,0}}},
++ {3102921,63,255,0,0,0,10,0,0,0,17,28575,0,false,{{28575,1},{0,0},{0,0}},{{0,0},{0,0}}},
++ {3102922,63,335,8,0,0,10,0,60,120,34,23750,0,false,{{10477,1},{23750,1},{0,0}},{{10477,1},{0,0}}},
++ {3102923,63,335,8,0,0,10,0,60,120,34,23775,0,false,{{10477,1},{23775,1},{0,0}},{{10477,1},{0,0}}},
++};
++inline const Requirement* Find(uint32_t id) noexcept {
++ for (const auto& r : Requirements) if (r.recipe == id) return &r;
++ return nullptr;
++}
++inline int SummonCount(uint32_t recipe, uint32_t output, int count) {
++ const auto* r = Find(recipe);
++ // Native -1 means unlimited charges on ONE nonstack item. Physical yield and credit stay one.
++ return r && r->charges == -1 && r->output == output && count == 1 ? -1 : count;
++}
++} // namespace FinalRecipe312

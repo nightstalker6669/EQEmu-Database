@@ -1,0 +1,126 @@
+{
+  "status": "ZONE_FULL5PATH_COHORT_INSTALLED_WORLD_RETAINED_HELD_STOPPED",
+  "actual_install_receipt_sha256": "c15c02700f063234751020afaf84403748b4c795a893c426928b7888b96b6da9",
+  "compile_receipt_sha256": "c3d6c1bdc1b775699a13c5e1f11ab3d66e3a3dd2ebc1a9862625689815fe2ae4",
+  "published_develop_commit": "3ed26770e83e0881efadcfa93e382aff9fc626b9",
+  "native5_pins": {
+    "zone/cultural_armor_bulk_actor.h": {
+      "blob": "3b88ebab482227429fa2a821d22f1cac8d433d4b",
+      "path": "zone/cultural_armor_bulk_actor.h",
+      "preimage_sha256": "3f9527ed4a5179dc19c506f0cd89fc1b1fb8e61c785f7ef4f0f0c5566a8c9bb1",
+      "sha256": "7faa9dd3a2b3880c7e5301fa403bbd87dd9e8f0e17da2df768e413f154d03501",
+      "size": 82343
+    },
+    "zone/cultural_tailoring_bulk_actor.h": {
+      "blob": "55ab8143797c1627a109b57236f45b693bf30439",
+      "path": "zone/cultural_tailoring_bulk_actor.h",
+      "preimage_sha256": "73ccd70d344256311dcd90ad915b3a1a9e9213562fb84c1adfac8886b3c798f7",
+      "sha256": "ddbc5f5340f490d4f6baea0ae29b6ecb0c6dca85281cdda66710e4bab745ad5a",
+      "size": 44601
+    },
+    "zone/final_recipe300.h": {
+      "blob": "5b4b5e4a2c5504167a495c83bed2ccf2e1041752",
+      "path": "zone/final_recipe300.h",
+      "preimage_sha256": "2b7647fd4af7d8ae0c7aa48340e1aee12dce4b316198f2b8631cdcf02a623d57",
+      "sha256": "18b8307c028856caf4fae683178419ea04970c1ae44282c86bb9d2a95e7f2489",
+      "size": 3335
+    },
+    "zone/final_recipe312.h": {
+      "blob": "9b56958a4e0d32dc18ec44c00263cf07fd6a41d6",
+      "path": "zone/final_recipe312.h",
+      "preimage_sha256": null,
+      "sha256": "3674831cdec044f9546377a3a5bee8234640aa90e6008de3fbee85562dbf9cd6",
+      "size": 4054
+    },
+    "zone/tradeskills.cpp": {
+      "blob": "cfb22a6085af1e1f796956fb105ce218b1207eed",
+      "path": "zone/tradeskills.cpp",
+      "preimage_sha256": "2e79f261c66d5e8c8bbd3fe9b7c34ce30f8c04b9a3c3e33ee115e3c635c88835",
+      "sha256": "12e5fcb743acce8440aeeb5e41533eecfb4cf42181cf0483ee96e7efd6699da3",
+      "size": 108599
+    }
+  },
+  "actor_contract_sha256": "a12791612ad2bb83c67c8e60e9bfbd051deb714c3ea4c0862647e331f13eb2ca",
+  "source_patch_sha256": "ea926d9b151bc32ee2ca8d55877da62363d071a87ad53af33a65b5a05f4983c2",
+  "installed_zone_sha256": "40397c594d01b936ccc20c4499922453a4805e9f1f1387301b3d466d32ebcc28",
+  "world_retained_sha256": "d61896bd3cfa6746041c5df3fb432f92a0880814dfcee6201095f385ebdbc55c",
+  "all_other_parent_source_unchanged": true,
+  "actor_contract": {
+    "status": "SOURCE_ONLY_EXACT32_LOCAL_RECONSTRUCTION_SQL_HOLD_COMPATIBLE_ACTOR_REQUIRED",
+    "files": {
+      "zone/cultural_armor_bulk_actor.h": {
+        "preimage_sha256": "3f9527ed4a5179dc19c506f0cd89fc1b1fb8e61c785f7ef4f0f0c5566a8c9bb1",
+        "postimage_sha256": "7faa9dd3a2b3880c7e5301fa403bbd87dd9e8f0e17da2df768e413f154d03501"
+      },
+      "zone/cultural_tailoring_bulk_actor.h": {
+        "preimage_sha256": "73ccd70d344256311dcd90ad915b3a1a9e9213562fb84c1adfac8886b3c798f7",
+        "postimage_sha256": "ddbc5f5340f490d4f6baea0ae29b6ecb0c6dca85281cdda66710e4bab745ad5a"
+      },
+      "zone/final_recipe300.h": {
+        "preimage_sha256": "2b7647fd4af7d8ae0c7aa48340e1aee12dce4b316198f2b8631cdcf02a623d57",
+        "postimage_sha256": "18b8307c028856caf4fae683178419ea04970c1ae44282c86bb9d2a95e7f2489"
+      },
+      "zone/tradeskills.cpp": {
+        "preimage_sha256": "2e79f261c66d5e8c8bbd3fe9b7c34ce30f8c04b9a3c3e33ee115e3c635c88835",
+        "postimage_sha256": "12e5fcb743acce8440aeeb5e41533eecfb4cf42181cf0483ee96e7efd6699da3"
+      },
+      "zone/final_recipe312.h": {
+        "preimage_sha256": null,
+        "postimage_sha256": "3674831cdec044f9546377a3a5bee8234640aa90e6008de3fbee85562dbf9cd6"
+      }
+    },
+    "patch_sha256": "ea926d9b151bc32ee2ca8d55877da62363d071a87ad53af33a65b5a05f4983c2",
+    "observed_develop_commit": "ae8102a26b401d65ea88ba8d02d2df61b31975b3",
+    "source_parent_compile_commit": "3cc44a15522d3bb0a8ba9cb7771bdfe38dcf4c21",
+    "live_verified_develop_git_blobs": {
+      "zone/cultural_armor_bulk_actor.h": "0f1e7a2fffba811352fcc830fda6f3ea1797ff9f",
+      "zone/cultural_tailoring_bulk_actor.h": "48863c9cc61a6540ca9cace92db334c5c5385777",
+      "zone/final_recipe300.h": "ed2234d023fb17854fc8338798775c66a5bfc517",
+      "zone/tradeskills.cpp": "38afce547d0525675686c93497e51011961d16cc"
+    },
+    "native_rows": {
+      "smith": {
+        "previous": 1024,
+        "added": 24,
+        "result": 1048,
+        "array": "ExistingRequirements",
+        "dense_Requirements_rows_unchanged": 980,
+        "lookup": "Existing sorted binary-search fallback unchanged; new24 are reachable, dense fastpath unchanged."
+      },
+      "tailor": {
+        "previous": 1155,
+        "added": 4,
+        "result": 1159,
+        "array": "Requirements"
+      }
+    },
+    "scope": "Only32registered new IDs3102892–3102923. Preserve all existing selectors and310writer. Append24namedracialSmithing+4EruditeTailoring exact data rows. Source maker race and actual source station/ownedroot kit enforced; no wearer-deity grants.",
+    "custody": "Original recipe/sessionticket/character/account/maker/kit slot or worldpointer+DBID and full native input tree captured before mutable validation; re-resolve currently owned native source before retained pointer/tree comparison immediately predebit. Postcallback selector change rejected both directions only for312. Ordinary stock debit/output path retained; no new inventory writer/framework.",
+    "unlimited_output": "Native3outputs9791/23561/23572 nonstackMaxCharges-1,Click51Glimpse/type5/level45/cast3000, matching source profiles with Glimpse/nofinitecharge claim. Pin semantics before debit; translate successful factorychargeargument1→-1 ONLY three exact recipe/output pairs. NativeSummonItem uses nativeMaxCharges=-1; physicalyield/taskcredit/madecount1 remain unchanged. Existing item definitions untouched. This is explicit native charge default policy, not finite-source charge-count proof.",
+    "neverlearn": "Grimling3102918 extends only existing finite300 NEVERLEARN route: actual ownedrootFletchingKit17910/type18/8/3, exactHook3473+Xakra3467,41LOCAL/nofail0/literal3467failure1; denyauto and suppress learned/madecount/directLearnRecipe only this ID. Source failure PRESUMED/MaybeNoFail retained, not source NoFail proof.",
+    "qualifications": "Thirty-two numeric scalars remain coordinator-adopted LOCAL fallbacks, not verified historical/live values. Live collection resolved zero. Exact source physical bodies and seventy-nine explicit primary identity profiles reused hashchecked without HTTP.",
+    "validation": "Source only for focused changed-path assessment and Build owner compile/install; Database owner exactSQL after compatible installation. No self tests/build/runtime/SQL/native acceptance.",
+    "tests": 0,
+    "builds": 0,
+    "database_writes": 0,
+    "samepiece_Dwarf_proposal_sha256": "6de09e2e7ce059d9a940ef1137595c5dcce6536d34fdf5389bef50678929cccb",
+    "superseded_unpublished30_manifest_sha256": "2920e3c45a2dc43a53e8b104b3ba3d1b2cafdf3dc29fa3668aedeaf1a11fa935"
+  },
+  "evidence_boundary": "Actual phaseA held-stop installation snapshot; no running/loadedscene/gameplay acceptance inferred. Later startup/admission release remains separate owner evidence.",
+  "no_item_definition_writes_or_cache_regeneration": true,
+  "native_gameplay_acceptance": false,
+  "later_Build_owner_reported_state": {
+    "evidence_kind": "Later Build-owner receipt, distinct from historical capture-phase heldstop installation snapshot. Existing receipt reused; no fresh native observation by Database.",
+    "status": "PASS_RRC312_R2_NORMAL_ADMISSION_SAME_MATCHED_RUNTIME_BUILD_PAUSED",
+    "release_receipt_sha256": "c8a879c6f23221981c0a8f1690f8a7841e9c3da5aa4e86db40c5e18b61091363",
+    "startup_receipt_sha256": "b15ed91359de6fc2e2572348f7068dbe164d6d188068641ff3b60443b435bebd",
+    "matched_runtime_basis_owner_reported": "Worldd61896bd/all6Zone40397c59,32enabledrecipeDBavailability/all6Fire158catalogues verified in bound startup receipt; unchanged item/spellsegments, same uninterrupted runtime.",
+    "same_original_supervisor_start_and_PID": true,
+    "owned_host4_namespace2_rules_absent": true,
+    "unrelated_firewall_rules_and_chain_policies_preserved": true,
+    "configured_admission_restored_config_untouched": true,
+    "world_unlocked": true,
+    "native_gameplay_acceptance": false,
+    "no_bookread_combine_or_gameplay_acceptance_claim": true
+  }
+}
