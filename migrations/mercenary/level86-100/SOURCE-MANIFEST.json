@@ -1,0 +1,70 @@
+{
+  "status": "COHERENT_SOURCE_CONTENT_COHORT_READY_FOR_OWNER_REVIEW_NOT_APPLIED_BUILT_OR_NATIVE_VALIDATED",
+  "new_stat_rows": 600,
+  "npc_variants": 40,
+  "new_spell_rows": 188,
+  "distinct_spells": 188,
+  "legacy_rows_retired_only_above85": 50,
+  "focus_inventory_extensions": 40,
+  "spell_qualification": "Current loaded/client-matched class/level/RkI-II definitions; through-RoF repertoire reconstruction. Immutable May2013 definition snapshot and historical NPC casts NOT authenticated; no new shared spell definitions.",
+  "stat_qualification": "Bounded per-field75/80/85 quadratic reconstruction, monotonic tier envelope, accepted JIII-V110/120/130% policy; not historical Live stats.",
+  "no_live_mutation": true,
+  "sql_sha256": "6ad8f950c178e9c1d84658387c521dc33695572fd8926c30a711aff44e50790f",
+  "source_base_commit": "c642eb178b8a0a9881812c2b3d3f188acb1217d8",
+  "publication_files": [
+    {
+      "path": "zone/merc.cpp",
+      "preimage_sha256": "57e7cbad7674c29639f61e535903d1452c5fb9dc82f87081eace12a55060a2f9",
+      "postimage_sha256": "11ac144556a3caa91e9ab33bd31e937a9a30c2ab1f117265c32a77b30db99c91",
+      "bytes": 180767
+    },
+    {
+      "path": "utils/sql/mercenary/006_level86_100_content.sql",
+      "preimage_sha256": null,
+      "postimage_sha256": "6ad8f950c178e9c1d84658387c521dc33695572fd8926c30a711aff44e50790f",
+      "bytes": 627023
+    },
+    {
+      "path": "common/mercenary/LEVEL100.md",
+      "preimage_sha256": null,
+      "postimage_sha256": "9989c2bd809c1447f9146fdff7101f11d2b7a5e8e88e8990e66f1745e61261e4",
+      "bytes": 8622
+    },
+    {
+      "path": "common/mercenary/README.md",
+      "preimage_sha256": "576c3eeff143c9c57b2a314e104b1b13e9fbd20dce98435cb6a05537337f6a7a",
+      "postimage_sha256": "342fb8c8403431bfa971ac5d27332678f556774a0e6bab19f0888f453e558cf1",
+      "bytes": 22540
+    },
+    {
+      "path": "docs/rof2/INSTALL.md",
+      "preimage_sha256": "128ccf21802b562210633e8cbabad4b08bcf628f8be26fca848bb1320b89e578",
+      "postimage_sha256": "4d70acbd5ede842950b7917c5f75524c3240a5c397643f7a4c5897aa0983451e",
+      "bytes": 14358
+    }
+  ],
+  "complete_patch_sha256": "a5b2b0022a9b339fbed6d45d9823090236dd2638b0cb5f2c2d8e6d4f8d7d1816",
+  "source_rollback_sha256": "5486c146cdd7c773f29e3ea2afb6122453bdbe9e6db69a7c7b500deebcac587f",
+  "original_era_snapshot": "Not authenticated per Spells owner; exact historical numeric balance and NPC repertoire unknown. Reconstruction qualification is required.",
+  "code_delta": "Level86+ rogue targeted SkillAttack/stun selection with positive-range guard; mercenary exact-cost discipline admission corrected before reuse reservation to match c642 native-client source. Existing fallback/AA/ownership preserved.",
+  "database_owner_actions": [
+    "Capture exact three-content-table preimages and qualify scoped006 SQL",
+    "Apply/readback/rollback receipt via coordinated Database owner",
+    "Refresh sanitized release DB and deliver new immutable artifact hash/URL pin"
+  ],
+  "build_owner_actions": [
+    "Batch the source delta, content documentation and explicit refreshed DB release-input pin into ONE integration/CI release",
+    "Deploy/reload only in coordinator-granted matched cohort window; refresh cached mercenary/spell inputs normally"
+  ],
+  "github_owner_actions": [
+    "Verify current rof2-mercenaries/develop destinations and source head",
+    "Contextually merge only five listed paths; pair explicit new DB release-input pin supplied by Database/Build",
+    "Do not publish dirty/shared full-file copies or private evidence/inputs"
+  ],
+  "tester_scope_proposal": "After matched deploy, a small four-role level100 exercise plus one Apprentice/Journeyman rank-selection observation; no full old lifecycle/payment matrix, manual leveling or new accounts requested. Root grants actual fixtures/window.",
+  "no_runtime_or_shared_source_mutation": true,
+  "no_build_or_test_campaign": true,
+  "release_db_pin": "PENDING refreshed sanitized artifact; old945e9f1b is not this content update.",
+  "edge_review": "edge-review.json: exact-cost defect corrected; all18 selected rogue ranges positive50/200 and SQL-bound; all20 focus definitions lack SPA134/142 level caps, other filters retained.",
+  "supersedes_complete_patch": "940fec40ef6f697356a82e17f255e16a8d3c433661d8caca85f196d0567a0c12"
+}

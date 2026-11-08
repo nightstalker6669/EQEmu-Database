@@ -1,0 +1,79 @@
+{
+  "format": "eqemu-ci-database-release-inputs-v1",
+  "database_repository": "nightstalker6669/EQEmu-Database",
+  "source_repository": "nightstalker6669/EQEmu",
+  "source_commit": "5178edd73a4204f863b298fa9328e19205da5f56",
+  "source_commit_role": "Exact finalcohort featurecheckpoint in EQEmu; NOT a Database repository commit. Separate base_database_source_commit is prior sanitizedDB provenance only.",
+  "base_database_source_commit": "945e9f1b772d457fcb451e0a3e23f91f32936ec3",
+  "cohort_source_binding": {
+    "feature_branch": "rof2-mercenaries",
+    "feature_commit": "5178edd73a4204f863b298fa9328e19205da5f56",
+    "source_base_commit": "c642eb178b8a0a9881812c2b3d3f188acb1217d8",
+    "manifest_sha256": "78710b4716455c626cc62189cca8eacd252d2ce796adc018c0b4dd18657aace9",
+    "SQL_sha256": "6ad8f950c178e9c1d84658387c521dc33695572fd8926c30a711aff44e50790f",
+    "complete_patch_sha256": "a5b2b0022a9b339fbed6d45d9823090236dd2638b0cb5f2c2d8e6d4f8d7d1816",
+    "expected_develop_merc_cpp_postimage_sha256": "11ac144556a3caa91e9ab33bd31e937a9a30c2ab1f117265c32a77b30db99c91"
+  },
+  "release_tag": "peq-rof2-2026-11-07-mercenary86-100",
+  "asset": {
+    "name": "PEQ-RoF2-full-2026-11-07-mercenary86-100.zip",
+    "url": "https://github.com/nightstalker6669/EQEmu-Database/releases/download/peq-rof2-2026-11-07-mercenary86-100/PEQ-RoF2-full-2026-11-07-mercenary86-100.zip",
+    "bytes": 35850444,
+    "sha256": "022eac4166e5052d123635084dc6e9d65274170b201933c0d5404d593554722a",
+    "sha256_sidecar_url": "https://github.com/nightstalker6669/EQEmu-Database/releases/download/peq-rof2-2026-11-07-mercenary86-100/PEQ-RoF2-full-2026-11-07-mercenary86-100.zip.sha256"
+  },
+  "required_members_sha256": {
+    "full.sql": "2985a52a017a77bde5bbbe5cfe835ad83351ecbb858dbf07405904f0a1759fdf",
+    "README.md": "9d661df4676661cd6f3d791679e371622c4eb382d78cfd62e55186846d3b8172",
+    "TABLE-INVENTORY.json": "d6f167fbfbe3f7cbd64b44932d735f985af1e6551fcc8d5e06beceae49b1f330",
+    "MERCENARY86-100-CONTENT.json": "27a9d180e6a66320ae9877cd763341f6579d0a1a8a66ac6fc23c26fb9dc15c16",
+    "COMPLETED-RECIPE-UPDATES.json": "fdf459a6bef7e90351d3db5c983e30920205876a990aa144b5779a4c242d25e0",
+    "SHA256SUMS": "959e764199d19663fce7a9d4c43fbe86d1e961034c951c709029d3846e195237"
+  },
+  "payload_inventory": {
+    "all_member_sha256_file": "SHA256SUMS",
+    "payload_member_count": 337,
+    "housing_json_prefix": "housing-runtime-content/",
+    "housing_json_member_count": 331,
+    "housing_profile_bindings": "housing-runtime-content/PROFILE-BINDINGS.json",
+    "housing_profile_bindings_sha256": "4d6c3533a882ce79ef790caa08a781a1994d56ac3d9c58a8459bb9e1ac9b73b2",
+    "full_sql_bytes": 301066842,
+    "identical_SQL_and_Housing_bytes_required": true
+  },
+  "fresh_install": {
+    "new_empty_database_only": true,
+    "full_dump_replaces_tables": true,
+    "player_preserving_upgrade": false,
+    "MariaDB": "10.11",
+    "assembled_with": "10.11.19",
+    "schema_version": 9338,
+    "bots_version": 0,
+    "custom_version": 0,
+    "base_tables": 448,
+    "views": 1,
+    "rows": 3050609,
+    "recipes": 34486,
+    "recipe_entries": 261389,
+    "merc_stats": 4000,
+    "merc_spell_list_entries": 625,
+    "merc_inventory": 81,
+    "empty_private_player_and_operation_tables_preserved": true
+  },
+  "qualification_documents": [
+    "README.md",
+    "MERCENARY86-100-CONTENT.json",
+    "COMPLETED-RECIPE-UPDATES.json",
+    "TABLE-INVENTORY.json",
+    "housing-runtime-content/PROFILE-BINDINGS.json"
+  ],
+  "verification_basis": "Existing validateddisposableassembly: exact600stats/188newspells/50legacycaps/40focus rows, allother3tablecells and allunrelatedtablecounts unchanged;ZIPCRC/allmemberSHA/331Housingbytes PASS. No liveapply or nativegameplayacceptance.",
+  "CI_consumption": [
+    "Fetch explicit tag/asset and verify committed assetSHA256; remote checksum sidecar is informational, not authority.",
+    "Verify rootmember hashes and SHA256SUMS inventory; package identical full.sql and331HousingJSON plus all qualificationdocs. No live DB access/reassembly/private config required.",
+    "Bind the coherent final mercenary code+SQL/docs+this validated DBreleasepin in ONEdevelopintegration/push/CIbuild; sourcefeature5178 is authoritative stagedcohort provenance, finalintegration commit separately GitHub-owned."
+  ],
+  "future_update_policy": "A futurematchedDBversion requires a separately validatedwholecohort sanitizedrelease and explicitcommitted source/tag/assetdigest pin; never silently mutableLatest/latestDB, partialrank/itemexports, or old945-only pin for newcohort. ActualCIfailure corrections gather allvisible errors in one batch.",
+  "live_application_status": "HOLD_SEPARATE_ROOT_MATCHED_DEPLOYMENT_AUTHORITY",
+  "native_gameplay_acceptance": false,
+  "runtime_or_DB_access_required_for_packaging": false
+}

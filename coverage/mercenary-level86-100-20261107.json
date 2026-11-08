@@ -1,0 +1,61 @@
+{
+  "status": "FINAL_COHERENT_MERCENARY86_100_FRESH_INSTALL_ASSEMBLED_VERIFIED_NOT_LIVE_APPLIED",
+  "artifact": {
+    "name": "PEQ-RoF2-full-2026-11-07-mercenary86-100.zip",
+    "url": "https://github.com/nightstalker6669/EQEmu-Database/releases/download/peq-rof2-2026-11-07-mercenary86-100/PEQ-RoF2-full-2026-11-07-mercenary86-100.zip",
+    "bytes": 35850444,
+    "sha256": "022eac4166e5052d123635084dc6e9d65274170b201933c0d5404d593554722a",
+    "sha256_sidecar_url": "https://github.com/nightstalker6669/EQEmu-Database/releases/download/peq-rof2-2026-11-07-mercenary86-100/PEQ-RoF2-full-2026-11-07-mercenary86-100.zip.sha256"
+  },
+  "release_tag": "peq-rof2-2026-11-07-mercenary86-100",
+  "cohort_source_binding": {
+    "feature_branch": "rof2-mercenaries",
+    "feature_commit": "5178edd73a4204f863b298fa9328e19205da5f56",
+    "source_base_commit": "c642eb178b8a0a9881812c2b3d3f188acb1217d8",
+    "manifest_sha256": "78710b4716455c626cc62189cca8eacd252d2ce796adc018c0b4dd18657aace9",
+    "SQL_sha256": "6ad8f950c178e9c1d84658387c521dc33695572fd8926c30a711aff44e50790f",
+    "complete_patch_sha256": "a5b2b0022a9b339fbed6d45d9823090236dd2638b0cb5f2c2d8e6d4f8d7d1816",
+    "expected_develop_merc_cpp_postimage_sha256": "11ac144556a3caa91e9ab33bd31e937a9a30c2ab1f117265c32a77b30db99c91"
+  },
+  "base_database_source_commit": "945e9f1b772d457fcb451e0a3e23f91f32936ec3",
+  "base_sanitized_ZIP_sha256": "6cdc90e335c90bcb1427067063326dfb4de04c2e3afd3d6ee1367c1107b4e1d8",
+  "newcontent": {
+    "new_stats": 600,
+    "new_spell_entries": 188,
+    "legacy_caps_to85": 50,
+    "new_focus_inventory": 40
+  },
+  "isolated_release_table_counts": {
+    "merc_stats": 4000,
+    "merc_spell_list_entries": 625,
+    "merc_inventory": 81
+  },
+  "full_inventory": {
+    "base_tables": 448,
+    "views": 1,
+    "rows": 3050609,
+    "populated": 142,
+    "empty": 306
+  },
+  "recipe_counts_unchanged": {
+    "recipes": 34486,
+    "entries": 261389
+  },
+  "Housing_JSON_byteexact_unchanged": 331,
+  "qualification_documents": [
+    "migrations/mercenary/level86-100/SOURCE-MANIFEST.json",
+    "migrations/mercenary/level86-100/FRESH-INSTALL-CONTENT.json",
+    "releases/peq-rof2-2026-11-07-mercenary86-100/README.md"
+  ],
+  "checks": {
+    "ZIP_CRC": "PASS",
+    "all_member_SHA256": "PASS",
+    "exact_cohort_postimages": "PASS",
+    "unchanged_outside_cohort_3table_cells": "PASS",
+    "other_table_counts": "PASS"
+  },
+  "live_apply": "HOLD_PENDING_MATCHED_ROOT_DEPLOYMENT_GO; no servingDB connection/writes/restarts",
+  "native_gameplay_acceptance": false,
+  "historical_source_labels": "SOURCE-MANIFEST historicalready/notapplied labels preserved; isolatedfreshinstallvalidation is later evidence, not servingapplication/build/native acceptance.",
+  "batch_publication": "Commit code+SQL/docs+newvalidatedDBreleaseinputpin together once to develop; no oldpin-only followup or per-rank/item push/export."
+}
