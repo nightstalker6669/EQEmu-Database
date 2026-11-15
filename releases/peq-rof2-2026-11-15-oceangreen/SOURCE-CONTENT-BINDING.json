@@ -1,0 +1,120 @@
+{
+  "format": "eqemu-oceangreen-source-content-binding-v1",
+  "accepted_owner_manifest_sha256": "cd5fc8462c99dc50c69aadab93b98d8e5a0db2219c706c6815eeae13c6319533",
+  "preserved_published_base_commit": "4b1b2154a042c478f13a462731e36febadb70861",
+  "native_coherent_manifest_sha256": "00caab93d829df8264094c61c04bafe8aeecc61469b748ff9892d764ed260233",
+  "native_r5_postimages": 43,
+  "native_writer_fix_patch_sha256": "86e3f6933e91f73838c9fef5783170e70224e44a5c72e97e343afc6c9ca0c1f8",
+  "quest_postimages": [
+    {
+      "path": "global/encounters/rof2_sod_oceangreen.lua",
+      "sha256": "af4e3941ec862dc100a91ba2bbdeebc2516cc7ee0cf203c5387718d3a94261c5"
+    },
+    {
+      "path": "lua_modules/rof2_sod_oceangreen.lua",
+      "sha256": "9e234cdb76d711d88d5fc45bc674276fb129ac875b20d9bbf38e3ddf2dba7873"
+    },
+    {
+      "path": "lua_modules/rof2_sod_scene.lua",
+      "sha256": "fc4d10eae4e9a151a56b86a16f8b1e18bd72a2a7bc274c8ef1148caf564e5fc1"
+    },
+    {
+      "path": "lua_modules/rof2_sod_scene_bindings.lua",
+      "sha256": "318af80403153e589e548fbb18f52671ce1e3b83e1aa85ba1e509b216bfd1764"
+    },
+    {
+      "path": "lua_modules/rof2_sod_ward_door.lua",
+      "sha256": "9ff2e6ba2b739d878455df633c8abd70da3a0251f74fd7222f1191c06b447aa4"
+    },
+    {
+      "path": "oceangreenhills/#Bracka_Darkpaw.lua",
+      "sha256": "71bfc4b83569d4f6e40b4a62b285e808512b9b23f2ac0bd4b9f11cdfc3986f6e"
+    },
+    {
+      "path": "oceangreenhills/#Captain_Hiran_Tillin.lua",
+      "sha256": "099b75bb7076f246dc4bab3546ed0eed4a5ccf04eb427ee6ef4ce9dd87e4a1f1"
+    },
+    {
+      "path": "oceangreenhills/#Elder_Mystic_Foppye.lua",
+      "sha256": "0a1606da6e6ea07f9680d4feea6f7d64e5466034df56b2ade61e4481c7d723ff"
+    },
+    {
+      "path": "oceangreenhills/#Fripp_Darkpaw.lua",
+      "sha256": "c6ac8d688907b3e5b9b4f0da56f3619e748bf4c2e4527eaec750e2f67d5a4df9"
+    },
+    {
+      "path": "oceangreenhills/#Raxtor_Darkpaw.lua",
+      "sha256": "04f2d4323c22ed90e2dd179a8086c8d4c9c62ff6a4e7e51c548d43fae9aaedaf"
+    },
+    {
+      "path": "oceangreenhills/Acolyte_Koel.lua",
+      "sha256": "3992aae7fda774d945b3e27809eaeac1d01d1792c080b02f7c8a74adcba16996"
+    },
+    {
+      "path": "oceangreenhills/Sergeant_Bronal_Cadran.lua",
+      "sha256": "87e8b85bfe15e351d88296c69c39efb1a49a125e8b386c8d64fc11332a7a6a64"
+    },
+    {
+      "path": "oceangreenvillage/#Billik_Broadwake.lua",
+      "sha256": "6a3c07d70de7717db69c0e06cb11f7deb3ea0e091b6fa7ad236b5c2cb2de11e4"
+    },
+    {
+      "path": "oceangreenvillage/player.lua",
+      "sha256": "f1368857f2bbdb73b531c123d98870d27d1dadcde00af39231ffd79111431199"
+    },
+    {
+      "path": "oldblackburrow/player.lua",
+      "sha256": "9ad2e961e7edcec29eca843657cc94873cc020d4209d892fc4758c84491b3ee2"
+    }
+  ],
+  "final_integration_commit": "5f8481f1edfbb5eb8c6a746d86e731bc9ac66701",
+  "sql_sha256": "a4035ebd5770d56815c8ffc56fcd006d1ea7d043f2753210ab422b648f72ba7a",
+  "static_content_sha256": "5a5757e1c4631af375b87b6c69794d9e72ebc8cc91c832144d8359bb2b5454c2",
+  "scope": "Ten-task Oceangreen A/B LOCAL reconstruction SOD-OG-RECON-2; no allRoFcompletenessclaim",
+  "native_acceptance_summary": {
+    "ten_tasks": "Six personal175/176/177/181/182/190 and four shared178/179/183/180 natively completed; shared rewards verified for two real recipients",
+    "ordinary_routes": "Original Hills\u2192Blackburrow and original mission v1/v2 returns passed; both Koel admitted entries/returns passed. QA setup travel is not ordinary-route proof.",
+    "earned_VoidB": "Earned native access, normal scroll purchase and native scribe verified",
+    "shared_once_only": {
+      "Stop21": {
+        "task": 920178,
+        "quote_each": 60
+      },
+      "Dread22": {
+        "task": 920179,
+        "quote_each": 60,
+        "native_survival_seconds": 1140
+      },
+      "Freedom23": {
+        "task": 920183,
+        "quote_each": 60,
+        "pups": 8,
+        "actual_registered_guard_deaths": 12,
+        "trances": 2
+      },
+      "Chief24": {
+        "task": 920180,
+        "quote_each": 180,
+        "archive_goals": [
+          1,
+          1,
+          1,
+          1,
+          2,
+          1
+        ]
+      }
+    },
+    "persistence": "Existing actual full fresh logins reused: history/frozen quotes/currency/ledger/popularity/retained healer preserved; Chief STATE2 genuine reentry/journal recovery additionally passed. No extra relog/repeat campaign requested.",
+    "J2_positive": "PASS: one earned Journeyman tier2 healer hired through ordinary native merchant UI at accountstatus0/GMfalse; server contract confirmed level100 and unsuspended; existing peer healer preserved."
+  },
+  "limitations": [
+    "Upper ward CLOSED collision was not qualified; client Switch12 pose false was observed despite actual standing Chief access/LOS/melee. Do not claim full closed/open wall-geometry acceptance or invent a door patch.",
+    "Numeric encounter/loot/AI parameters are approved LOCAL reconstruction, not complete recovered original Live data.",
+    "Optional Zeralin rendering and post-expiry repeat execution are not promoted to PASS without an actual retained native receipt. No new campaign is authorized by this manifest.",
+    "One measured packet heap writer is fixed and its bounded native path passed; no all-defects or all-spells-through-RoF claim."
+  ],
+  "source_commit_role": "Actual GitHub-owned accepted feature integration checkpoint; final develop/release-inputs commit is separately GitHub-owned",
+  "database_artifact_qualified": true,
+  "publication_owner": "GitHub in coordinator-authorized complete matched batch"
+}

@@ -1,0 +1,1874 @@
+{
+  "format_version": 1,
+  "generated_date": "2026-11-15",
+  "database_repository": "nightstalker6669/EQEmu-Database",
+  "baseline_distribution": "PEQ2025-09-28/schema9328",
+  "baseline_zip_sha256": "ac8649f23d2c3aea2cade138dfe10d46d1b21ad1a80d08ca95f5434fab7f218d",
+  "assembled_schema_version": [
+    {
+      "version": 9338,
+      "bots_version": 0,
+      "custom_version": 0
+    }
+  ],
+  "base_tables": 455,
+  "views": 1,
+  "populated_tables": 143,
+  "empty_tables": 312,
+  "total_rows": 3051112,
+  "tables": {
+    "aa_ability": {
+      "rows": 1881,
+      "classification": "current_game_content_or_selected_feature_rule"
+    },
+    "aa_ranks": {
+      "rows": 7373,
+      "classification": "current_game_content_or_selected_feature_rule"
+    },
+    "aa_rank_effects": {
+      "rows": 10885,
+      "classification": "current_game_content_or_selected_feature_rule"
+    },
+    "aa_rank_prereqs": {
+      "rows": 2552,
+      "classification": "current_game_content_or_selected_feature_rule"
+    },
+    "account": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "account_flags": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "account_ip": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "account_rewards": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "achievements": {
+      "rows": 6593,
+      "classification": "current_game_content_or_selected_feature_rule"
+    },
+    "achievement_associations": {
+      "rows": 4667,
+      "classification": "current_game_content_or_selected_feature_rule"
+    },
+    "achievement_cast_requirements": {
+      "rows": 0,
+      "classification": "current_game_content_or_selected_feature_rule"
+    },
+    "achievement_categories": {
+      "rows": 296,
+      "classification": "current_game_content_or_selected_feature_rule"
+    },
+    "achievement_category_associations": {
+      "rows": 6816,
+      "classification": "current_game_content_or_selected_feature_rule"
+    },
+    "achievement_components": {
+      "rows": 32870,
+      "classification": "current_game_content_or_selected_feature_rule"
+    },
+    "achievement_criteria": {
+      "rows": 11460,
+      "classification": "current_game_content_or_selected_feature_rule"
+    },
+    "adventure_details": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "adventure_members": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "adventure_stats": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "adventure_template": {
+      "rows": 594,
+      "classification": "current_game_content_or_selected_feature_rule"
+    },
+    "adventure_template_entry": {
+      "rows": 594,
+      "classification": "current_game_content_or_selected_feature_rule"
+    },
+    "adventure_template_entry_flavor": {
+      "rows": 5,
+      "classification": "current_game_content_or_selected_feature_rule"
+    },
+    "alternate_currency": {
+      "rows": 49,
+      "classification": "current_game_content_or_selected_feature_rule"
+    },
+    "auras": {
+      "rows": 284,
+      "classification": "current_game_content_or_selected_feature_rule"
+    },
+    "banned_ips": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "base_data": {
+      "rows": 1600,
+      "classification": "current_game_content_or_selected_feature_rule"
+    },
+    "blocked_spells": {
+      "rows": 473,
+      "classification": "current_game_content_or_selected_feature_rule"
+    },
+    "books": {
+      "rows": 2678,
+      "classification": "current_game_content_or_selected_feature_rule"
+    },
+    "bugs": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "bug_reports": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "buyer": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "buyer_buy_lines": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "buyer_trade_items": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "character_achievements": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "character_achievement_pending_updates": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "character_achievement_progress": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "character_achievement_rewards": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "character_achievement_reward_selections": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "character_activities": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "character_alternate_abilities": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "character_alt_currency": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "character_auras": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "character_bandolier": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "character_bind": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "character_buffs": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "character_corpses": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "character_corpse_items": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "character_currency": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "character_data": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "character_disciplines": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "character_enabledtasks": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "character_evolving_items": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "character_expedition_lockouts": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "character_exp_modifiers": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "character_inspect_messages": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "character_instance_safereturns": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "character_item_recast": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "character_languages": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "character_leadership_abilities": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "character_material": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "character_memmed_spells": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "character_parcels": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "character_parcels_containers": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "character_peqzone_flags": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "character_pet_buffs": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "character_pet_info": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "character_pet_inventory": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "character_pet_name": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "character_potionbelt": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "character_shared_task_reward_instances": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "character_skills": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "character_spells": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "character_stats_record": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "character_tasks": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "character_task_rewards": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "character_task_reward_instances": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "character_task_reward_selections": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "character_task_timers": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "character_tribute": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "char_create_combinations": {
+      "rows": 641,
+      "classification": "current_game_content_or_selected_feature_rule"
+    },
+    "char_create_point_allocations": {
+      "rows": 109,
+      "classification": "current_game_content_or_selected_feature_rule"
+    },
+    "char_recipe_list": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "chatchannels": {
+      "rows": 28,
+      "classification": "original_PEQ_system_default"
+    },
+    "chatchannel_reserved_names": {
+      "rows": 0,
+      "classification": "original_PEQ_system_default"
+    },
+    "command_settings": {
+      "rows": 163,
+      "classification": "original_PEQ_system_default"
+    },
+    "command_subsettings": {
+      "rows": 128,
+      "classification": "original_PEQ_system_default"
+    },
+    "completed_shared_tasks": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "completed_shared_task_activity_state": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "completed_shared_task_members": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "completed_tasks": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "content_flags": {
+      "rows": 4,
+      "classification": "current_game_content_or_selected_feature_rule"
+    },
+    "damageshieldtypes": {
+      "rows": 189,
+      "classification": "current_game_content_or_selected_feature_rule"
+    },
+    "data_buckets": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "db_str": {
+      "rows": 44580,
+      "classification": "current_game_content_or_selected_feature_rule"
+    },
+    "db_version": {
+      "rows": 1,
+      "classification": "current_game_content_or_selected_feature_rule"
+    },
+    "discord_webhooks": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "discovered_items": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "doors": {
+      "rows": 19284,
+      "classification": "current_game_content_or_selected_feature_rule"
+    },
+    "dynamic_zones": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "dynamic_zone_lockouts": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "dynamic_zone_members": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "dynamic_zone_templates": {
+      "rows": 222,
+      "classification": "current_game_content_or_selected_feature_rule"
+    },
+    "eqtime": {
+      "rows": 1,
+      "classification": "original_PEQ_system_default"
+    },
+    "faction_association": {
+      "rows": 371,
+      "classification": "current_game_content_or_selected_feature_rule"
+    },
+    "faction_base_data": {
+      "rows": 619,
+      "classification": "current_game_content_or_selected_feature_rule"
+    },
+    "faction_list": {
+      "rows": 2105,
+      "classification": "current_game_content_or_selected_feature_rule"
+    },
+    "faction_list_mod": {
+      "rows": 9801,
+      "classification": "current_game_content_or_selected_feature_rule"
+    },
+    "faction_values": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "fellowships": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "fellowship_campsite_catalogue": {
+      "rows": 597,
+      "classification": "current_game_content_or_selected_feature_rule"
+    },
+    "fellowship_guard": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "fellowship_invitations": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "fellowship_members": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "fellowship_vitality": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "fellowship_xp_commits": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "fishing": {
+      "rows": 262,
+      "classification": "current_game_content_or_selected_feature_rule"
+    },
+    "forage": {
+      "rows": 997,
+      "classification": "current_game_content_or_selected_feature_rule"
+    },
+    "friends": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "fungal_item_operations": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "global_loot": {
+      "rows": 20,
+      "classification": "current_game_content_or_selected_feature_rule"
+    },
+    "gm_ips": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "graveyard": {
+      "rows": 32,
+      "classification": "current_game_content_or_selected_feature_rule"
+    },
+    "grid": {
+      "rows": 31563,
+      "classification": "current_game_content_or_selected_feature_rule"
+    },
+    "grid_entries": {
+      "rows": 860257,
+      "classification": "current_game_content_or_selected_feature_rule"
+    },
+    "ground_spawns": {
+      "rows": 1811,
+      "classification": "current_game_content_or_selected_feature_rule"
+    },
+    "group_id": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "group_leaders": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "guilds": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "guild_bank": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "guild_members": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "guild_permissions": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "guild_ranks": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "guild_relations": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "guild_tributes": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "horses": {
+      "rows": 159,
+      "classification": "current_game_content_or_selected_feature_rule"
+    },
+    "housing_acl_groups": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "housing_acl_members": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "housing_acl_special_members": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "housing_acl_state": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "housing_catalogs": {
+      "rows": 1,
+      "classification": "fresh_shared_housing_definition_or_allocator"
+    },
+    "housing_catalog_crate_upgrades": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "housing_catalog_pricing_upgrades": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "housing_content_installations": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "housing_crate_batch_receipts": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "housing_crate_creation_origins": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "housing_crate_estates": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "housing_crate_house_relocations": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "housing_crate_instances": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "housing_crate_locations": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "housing_crate_members": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "housing_crate_storage_receipts": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "housing_crate_vault_members": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "housing_escrow_balances": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "housing_escrow_bulk_death_reconciliations": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "housing_escrow_bulk_policy": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "housing_escrow_transfers": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "housing_estates": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "housing_estate_preferences": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "housing_estate_retirements": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "housing_evolving_item_locations": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "housing_fixture_item_custody": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "housing_fixture_item_receipts": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "housing_guild_inactivity_crate_creations": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "housing_guild_inactivity_deliveries": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "housing_guild_inactivity_packings": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "housing_guild_inactivity_policy": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "housing_guild_inactivity_retirements": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "housing_guild_portal_alignments": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "housing_guild_trophy_billing_policy": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "housing_guild_trophy_favor_charges": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "housing_guild_trophy_selections": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "housing_guild_trophy_state": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "housing_house_capacity_heads": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "housing_house_capacity_policies": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "housing_house_capacity_templates": {
+      "rows": 163,
+      "classification": "fresh_shared_housing_definition_or_allocator"
+    },
+    "housing_house_instances": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "housing_house_interiors": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "housing_house_inventory_pending": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "housing_house_inventory_receipts": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "housing_house_item_scopes": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "housing_house_locations": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "housing_house_receipt_effects": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "housing_house_room_profiles": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "housing_house_storage_reservations": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "housing_house_swap_receipts": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "housing_inactivity_crate_creations": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "housing_inactivity_crate_creation_policy": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "housing_inactivity_deliveries": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "housing_inactivity_delivery_policy": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "housing_inactivity_packings": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "housing_inactivity_packing_policy": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "housing_inactivity_policy": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "housing_inactivity_retirements": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "housing_instance_allocator": {
+      "rows": 1,
+      "classification": "fresh_shared_housing_definition_or_allocator"
+    },
+    "housing_interior_placement_reservations": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "housing_inventory_custody_links": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "housing_inventory_death_reconciliations": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "housing_inventory_processes": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "housing_inventory_sessions": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "housing_inventory_session_history": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "housing_layout_inventory_batches": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "housing_layout_mixed_batches": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "housing_live_escrow_pending": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "housing_live_escrow_receipts": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "housing_live_item_custody": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "housing_live_item_leases": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "housing_live_item_receipts": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "housing_live_item_storage": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "housing_live_npc_frames": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "housing_live_placed_items": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "housing_live_placement_reservations": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "housing_live_pose_moves": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "housing_live_storage_receipts": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "housing_live_transfer_receipts": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "housing_live_vault_items": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "housing_live_vault_partitions": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "housing_live_vault_transfers": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "housing_native_acl_receipts": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "housing_native_estates": {
+      "rows": 76,
+      "classification": "fresh_shared_housing_definition_or_allocator"
+    },
+    "housing_native_npc_item_sources": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "housing_native_plot_purchase_pending": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "housing_native_plot_purchase_policies": {
+      "rows": 75,
+      "classification": "fresh_shared_housing_definition_or_allocator"
+    },
+    "housing_native_plot_purchase_receipts": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "housing_native_plot_purchase_reconciliations": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "housing_neighborhoods": {
+      "rows": 1,
+      "classification": "fresh_shared_housing_definition_or_allocator"
+    },
+    "housing_occupied_refund_death_reconciliations": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "housing_occupied_refund_policy": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "housing_offline_return_batch_policy": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "housing_offline_return_finance": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "housing_offline_return_items": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "housing_ownership_state": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "housing_ownership_transfer_receipts": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "housing_plot_definitions": {
+      "rows": 75,
+      "classification": "fresh_shared_housing_definition_or_allocator"
+    },
+    "housing_purchase_offers": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "housing_purchase_requests": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "housing_return_parcels": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "housing_return_settlements": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "housing_return_settlement_crates": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "housing_return_settlement_items": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "housing_runtime_activation": {
+      "rows": 1,
+      "classification": "fresh_shared_housing_definition_or_allocator"
+    },
+    "housing_trophy_benefit_selections": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "housing_trophy_benefit_sources": {
+      "rows": 3,
+      "classification": "fresh_shared_housing_definition_or_allocator"
+    },
+    "housing_trophy_benefit_state": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "housing_trophy_billing_policy": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "housing_trophy_favor_charges": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "housing_upkeep_catchup_audits": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "housing_upkeep_catchup_checkpoints": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "housing_upkeep_catchup_policy": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "housing_upkeep_contracts": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "housing_upkeep_cycles": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "housing_upkeep_cycle_items": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "housing_upkeep_cycle_scopes": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "housing_upkeep_enrollment_policy": {
+      "rows": 75,
+      "classification": "fresh_shared_housing_definition_or_allocator"
+    },
+    "housing_upkeep_item_state": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "housing_upkeep_property_cycles": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "housing_upkeep_property_state": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "housing_upkeep_reactivation_policy": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "housing_upkeep_rounding_policy": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "housing_upkeep_selection": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "housing_upkeep_selection_receipts": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "housing_vendor_prices": {
+      "rows": 1,
+      "classification": "fresh_shared_housing_definition_or_allocator"
+    },
+    "instance_list": {
+      "rows": 1,
+      "classification": "fresh_shared_housing_definition_or_allocator"
+    },
+    "instance_list_player": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "inventory": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "inventory_snapshots": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "inventory_versions": {
+      "rows": 1,
+      "classification": "current_game_content_or_selected_feature_rule"
+    },
+    "ip_exemptions": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "items": {
+      "rows": 118697,
+      "classification": "current_game_content_or_selected_feature_rule"
+    },
+    "items_evolving_details": {
+      "rows": 443,
+      "classification": "current_game_content_or_selected_feature_rule"
+    },
+    "keyring": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "launcher": {
+      "rows": 2,
+      "classification": "original_PEQ_system_default"
+    },
+    "launcher_zones": {
+      "rows": 199,
+      "classification": "original_PEQ_system_default"
+    },
+    "ldon_trap_entries": {
+      "rows": 102,
+      "classification": "current_game_content_or_selected_feature_rule"
+    },
+    "ldon_trap_templates": {
+      "rows": 75,
+      "classification": "current_game_content_or_selected_feature_rule"
+    },
+    "level_exp_mods": {
+      "rows": 100,
+      "classification": "current_game_content_or_selected_feature_rule"
+    },
+    "lfguild": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "login_accounts": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "login_api_tokens": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "login_server_admins": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "login_server_list_types": {
+      "rows": 0,
+      "classification": "original_PEQ_system_default"
+    },
+    "login_world_servers": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "logsys_categories": {
+      "rows": 84,
+      "classification": "current_game_content_or_selected_feature_rule"
+    },
+    "lootdrop": {
+      "rows": 51981,
+      "classification": "current_game_content_or_selected_feature_rule"
+    },
+    "lootdrop_entries": {
+      "rows": 482644,
+      "classification": "current_game_content_or_selected_feature_rule"
+    },
+    "loottable": {
+      "rows": 26546,
+      "classification": "current_game_content_or_selected_feature_rule"
+    },
+    "loottable_entries": {
+      "rows": 55389,
+      "classification": "current_game_content_or_selected_feature_rule"
+    },
+    "mail": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "merchantlist": {
+      "rows": 65400,
+      "classification": "current_game_content_or_selected_feature_rule"
+    },
+    "merchantlist_temp": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "mercs": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "merc_armorinfo": {
+      "rows": 40,
+      "classification": "current_game_content_or_selected_feature_rule"
+    },
+    "merc_buffs": {
+      "rows": 0,
+      "classification": "current_game_content_or_selected_feature_rule"
+    },
+    "merc_inventory": {
+      "rows": 81,
+      "classification": "current_game_content_or_selected_feature_rule"
+    },
+    "merc_merchant_entries": {
+      "rows": 56,
+      "classification": "current_game_content_or_selected_feature_rule"
+    },
+    "merc_merchant_templates": {
+      "rows": 24,
+      "classification": "current_game_content_or_selected_feature_rule"
+    },
+    "merc_merchant_template_entries": {
+      "rows": 790,
+      "classification": "current_game_content_or_selected_feature_rule"
+    },
+    "merc_name_types": {
+      "rows": 14,
+      "classification": "current_game_content_or_selected_feature_rule"
+    },
+    "merc_npc_types": {
+      "rows": 40,
+      "classification": "current_game_content_or_selected_feature_rule"
+    },
+    "merc_spell_lists": {
+      "rows": 8,
+      "classification": "current_game_content_or_selected_feature_rule"
+    },
+    "merc_spell_list_entries": {
+      "rows": 625,
+      "classification": "current_game_content_or_selected_feature_rule"
+    },
+    "merc_stance_entries": {
+      "rows": 22,
+      "classification": "current_game_content_or_selected_feature_rule"
+    },
+    "merc_stats": {
+      "rows": 4000,
+      "classification": "current_game_content_or_selected_feature_rule"
+    },
+    "merc_subtypes": {
+      "rows": 20,
+      "classification": "current_game_content_or_selected_feature_rule"
+    },
+    "merc_templates": {
+      "rows": 790,
+      "classification": "current_game_content_or_selected_feature_rule"
+    },
+    "merc_types": {
+      "rows": 48,
+      "classification": "current_game_content_or_selected_feature_rule"
+    },
+    "merc_weaponinfo": {
+      "rows": 60,
+      "classification": "current_game_content_or_selected_feature_rule"
+    },
+    "name_filter": {
+      "rows": 281,
+      "classification": "original_PEQ_system_default"
+    },
+    "npc_emotes": {
+      "rows": 2652,
+      "classification": "current_game_content_or_selected_feature_rule"
+    },
+    "npc_faction": {
+      "rows": 1503,
+      "classification": "current_game_content_or_selected_feature_rule"
+    },
+    "npc_faction_entries": {
+      "rows": 4767,
+      "classification": "current_game_content_or_selected_feature_rule"
+    },
+    "npc_scale_global_base": {
+      "rows": 270,
+      "classification": "current_game_content_or_selected_feature_rule"
+    },
+    "npc_spells": {
+      "rows": 1933,
+      "classification": "current_game_content_or_selected_feature_rule"
+    },
+    "npc_spells_effects": {
+      "rows": 30,
+      "classification": "current_game_content_or_selected_feature_rule"
+    },
+    "npc_spells_effects_entries": {
+      "rows": 30,
+      "classification": "current_game_content_or_selected_feature_rule"
+    },
+    "npc_spells_entries": {
+      "rows": 5258,
+      "classification": "current_game_content_or_selected_feature_rule"
+    },
+    "npc_types": {
+      "rows": 70775,
+      "classification": "current_game_content_or_selected_feature_rule"
+    },
+    "npc_types_tint": {
+      "rows": 225,
+      "classification": "current_game_content_or_selected_feature_rule"
+    },
+    "object": {
+      "rows": 973,
+      "classification": "current_game_content_or_selected_feature_rule"
+    },
+    "object_contents": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "perl_event_export_settings": {
+      "rows": 84,
+      "classification": "current_game_content_or_selected_feature_rule"
+    },
+    "petitions": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "pets": {
+      "rows": 3508,
+      "classification": "current_game_content_or_selected_feature_rule"
+    },
+    "pets_beastlord_data": {
+      "rows": 5,
+      "classification": "current_game_content_or_selected_feature_rule"
+    },
+    "pets_equipmentset": {
+      "rows": 2,
+      "classification": "current_game_content_or_selected_feature_rule"
+    },
+    "pets_equipmentset_entries": {
+      "rows": 10,
+      "classification": "current_game_content_or_selected_feature_rule"
+    },
+    "player_event_aa_purchase": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "player_event_killed_named_npc": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "player_event_killed_npc": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "player_event_killed_raid_npc": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "player_event_logs": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "player_event_log_settings": {
+      "rows": 0,
+      "classification": "original_PEQ_system_default"
+    },
+    "player_event_loot_items": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "player_event_merchant_purchase": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "player_event_merchant_sell": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "player_event_npc_handin": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "player_event_npc_handin_entries": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "player_event_speech": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "player_event_trade": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "player_event_trade_entries": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "player_titlesets": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "profanity_list": {
+      "rows": 0,
+      "classification": "original_PEQ_system_default"
+    },
+    "quest_globals": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "raid_details": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "raid_leaders": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "raid_members": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "reports": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "respawn_times": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "rewards": {
+      "rows": 3924,
+      "classification": "current_game_content_or_selected_feature_rule"
+    },
+    "reward_options": {
+      "rows": 3078,
+      "classification": "current_game_content_or_selected_feature_rule"
+    },
+    "reward_option_entries": {
+      "rows": 3924,
+      "classification": "current_game_content_or_selected_feature_rule"
+    },
+    "reward_selection_wire_allocator": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "reward_sets": {
+      "rows": 217,
+      "classification": "current_game_content_or_selected_feature_rule"
+    },
+    "reward_sources": {
+      "rows": 217,
+      "classification": "current_game_content_or_selected_feature_rule"
+    },
+    "reward_source_entries": {
+      "rows": 0,
+      "classification": "current_game_content_or_selected_feature_rule"
+    },
+    "rof2_fire_construct_death_receipts": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "rof2_fire_run_actions": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "rof2_fire_run_item_origins": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "rule_sets": {
+      "rows": 8,
+      "classification": "original_PEQ_system_default"
+    },
+    "rule_values": {
+      "rows": 1076,
+      "classification": "current_game_content_or_selected_feature_rule"
+    },
+    "saylink": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "server_scheduled_events": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "sharedbank": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "shared_tasks": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "shared_task_activity_state": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "shared_task_admission_policies": {
+      "rows": 1,
+      "classification": "current_game_content_or_selected_feature_rule"
+    },
+    "shared_task_average_level_policies": {
+      "rows": 1,
+      "classification": "current_game_content_or_selected_feature_rule"
+    },
+    "shared_task_dynamic_zones": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "shared_task_members": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "shroud_original_character_alternate_abilities": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "shroud_original_character_bandolier": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "shroud_original_character_buffs": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "shroud_original_character_currency": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "shroud_original_character_data": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "shroud_original_character_disciplines": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "shroud_original_character_item_recast": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "shroud_original_character_material": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "shroud_original_character_memmed_spells": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "shroud_original_character_pet_buffs": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "shroud_original_character_pet_info": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "shroud_original_character_pet_inventory": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "shroud_original_character_potionbelt": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "shroud_original_character_skills": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "shroud_original_character_spells": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "shroud_original_inventory": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "shroud_original_timers": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "skill_caps": {
+      "rows": 58359,
+      "classification": "current_game_content_or_selected_feature_rule"
+    },
+    "spawn2": {
+      "rows": 165825,
+      "classification": "current_game_content_or_selected_feature_rule"
+    },
+    "spawn2_disabled": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "spawnentry": {
+      "rows": 167399,
+      "classification": "current_game_content_or_selected_feature_rule"
+    },
+    "spawngroup": {
+      "rows": 123971,
+      "classification": "current_game_content_or_selected_feature_rule"
+    },
+    "spawn_conditions": {
+      "rows": 163,
+      "classification": "current_game_content_or_selected_feature_rule"
+    },
+    "spawn_condition_values": {
+      "rows": 165,
+      "classification": "original_PEQ_system_default"
+    },
+    "spawn_events": {
+      "rows": 83,
+      "classification": "original_PEQ_system_default"
+    },
+    "spells_new": {
+      "rows": 40722,
+      "classification": "current_game_content_or_selected_feature_rule"
+    },
+    "spell_buckets": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "spell_globals": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "spire_analytic_events": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "spire_analytic_event_counts": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "spire_crash_reports": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "spire_server_database_connections": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "spire_settings": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "spire_users": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "spire_user_event_log": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "spire_user_server_database_connections": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "spire_user_server_resource_permissions": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "spirit_shroud_abilities": {
+      "rows": 6679,
+      "classification": "current_game_content_or_selected_feature_rule"
+    },
+    "spirit_shroud_allocations": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "spirit_shroud_bank_inventory": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "spirit_shroud_branch_progression": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "spirit_shroud_content_gaps": {
+      "rows": 2410,
+      "classification": "current_game_content_or_selected_feature_rule"
+    },
+    "spirit_shroud_corpse_state": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "spirit_shroud_entitlements": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "spirit_shroud_experience_events": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "spirit_shroud_experience_state": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "spirit_shroud_mercenary_fees": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "spirit_shroud_progress": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "spirit_shroud_progression_definitions": {
+      "rows": 8,
+      "classification": "current_game_content_or_selected_feature_rule"
+    },
+    "spirit_shroud_sessions": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "spirit_shroud_snapshot_manifest": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "spirit_shroud_spells": {
+      "rows": 0,
+      "classification": "current_game_content_or_selected_feature_rule"
+    },
+    "spirit_shroud_starter_equipment": {
+      "rows": 194,
+      "classification": "current_game_content_or_selected_feature_rule"
+    },
+    "spirit_shroud_starter_provenance": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "spirit_shroud_state": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "spirit_shroud_templates": {
+      "rows": 476,
+      "classification": "current_game_content_or_selected_feature_rule"
+    },
+    "starting_items": {
+      "rows": 148,
+      "classification": "current_game_content_or_selected_feature_rule"
+    },
+    "start_zones": {
+      "rows": 411,
+      "classification": "current_game_content_or_selected_feature_rule"
+    },
+    "tasks": {
+      "rows": 909,
+      "classification": "current_game_content_or_selected_feature_rule"
+    },
+    "tasksets": {
+      "rows": 14,
+      "classification": "current_game_content_or_selected_feature_rule"
+    },
+    "task_activities": {
+      "rows": 3820,
+      "classification": "current_game_content_or_selected_feature_rule"
+    },
+    "task_reward_option_gates": {
+      "rows": 210,
+      "classification": "current_game_content_or_selected_feature_rule"
+    },
+    "task_reward_progression_members": {
+      "rows": 231,
+      "classification": "current_game_content_or_selected_feature_rule"
+    },
+    "task_spell_exchange_policies": {
+      "rows": 18,
+      "classification": "current_game_content_or_selected_feature_rule"
+    },
+    "timers": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "titles": {
+      "rows": 171,
+      "classification": "current_game_content_or_selected_feature_rule"
+    },
+    "tool_game_objects": {
+      "rows": 51380,
+      "classification": "current_game_content_or_selected_feature_rule"
+    },
+    "tool_gearup_armor_sets": {
+      "rows": 148608,
+      "classification": "current_game_content_or_selected_feature_rule"
+    },
+    "trader": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "trader_audit": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "tradeskill_recipe": {
+      "rows": 34486,
+      "classification": "current_game_content_or_selected_feature_rule"
+    },
+    "tradeskill_recipe_entries": {
+      "rows": 261389,
+      "classification": "current_game_content_or_selected_feature_rule"
+    },
+    "traps": {
+      "rows": 763,
+      "classification": "current_game_content_or_selected_feature_rule"
+    },
+    "tributes": {
+      "rows": 78,
+      "classification": "current_game_content_or_selected_feature_rule"
+    },
+    "tribute_levels": {
+      "rows": 436,
+      "classification": "current_game_content_or_selected_feature_rule"
+    },
+    "variables": {
+      "rows": 6,
+      "classification": "original_PEQ_system_default"
+    },
+    "veteran_reward_templates": {
+      "rows": 0,
+      "classification": "current_game_content_or_selected_feature_rule"
+    },
+    "zone": {
+      "rows": 625,
+      "classification": "current_game_content_or_selected_feature_rule"
+    },
+    "zone_flags": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "zone_points": {
+      "rows": 1833,
+      "classification": "current_game_content_or_selected_feature_rule"
+    },
+    "zone_state_spawns": {
+      "rows": 0,
+      "classification": "empty_private_runtime_or_optional_schema"
+    },
+    "sod_task_reward_quotes": {
+      "classification": "empty_private_runtime_or_optional_schema",
+      "rows": 0
+    },
+    "sod_task_popularity_events": {
+      "classification": "empty_private_runtime_or_optional_schema",
+      "rows": 0
+    },
+    "sod_task_scene_runs": {
+      "classification": "empty_private_runtime_or_optional_schema",
+      "rows": 0
+    },
+    "sod_task_recipient_reward_inputs": {
+      "classification": "empty_private_runtime_or_optional_schema",
+      "rows": 0
+    },
+    "sod_task_scene_actions": {
+      "classification": "empty_private_runtime_or_optional_schema",
+      "rows": 0
+    },
+    "sod_task_ward_uses": {
+      "classification": "empty_private_runtime_or_optional_schema",
+      "rows": 0
+    },
+    "sod_scene_actor_bindings": {
+      "classification": "accepted_oceangreen_static_content",
+      "rows": 2
+    }
+  },
+  "view_names": [
+    "housing_current_estates"
+  ],
+  "all_private_runtime_tables_empty": true,
+  "new_public_permanent_neighborhood_instance_rows": 1,
+  "excluded_test_only_shroud_templates": 42,
+  "housing_fresh_catalog_key": "installed:peq-rof2-full-20261106",
+  "housing_capacity_templates": 163,
+  "draft_recipes_not_included": "RRC310 and remaining51unresolvedgroups;307309 now applied included",
+  "local_only_no_public_upload": true,
+  "refresh_basis": "VerifiedsanitizedNov7base+one exactfinalmercenary86-100SQL transaction in owneddisposableassembly. ServingDB notconnected ormodified.",
+  "prior_sanitized_zip_sha256": "29d074e794b83f5006e2012b696d7f0275b5a364380123a2184df79642dc67de",
+  "completed_recipe_delta": {
+    "recipes": 41,
+    "entries": 249
+  },
+  "current_recipe_counts": {
+    "recipes": 34486,
+    "entries": 261389
+  },
+  "release_content_status": "FINAL_MERCENARY86_100_COHORT_ASSEMBLED_FOR_FRESH_INSTALL_NOT_LIVE_APPLIED",
+  "base_database_publication_commit": "945e9f1b772d457fcb451e0a3e23f91f32936ec3",
+  "cohort_manifest_sha256": "78710b4716455c626cc62189cca8eacd252d2ce796adc018c0b4dd18657aace9",
+  "cohort_SQL_sha256": "6ad8f950c178e9c1d84658387c521dc33695572fd8926c30a711aff44e50790f",
+  "cohort_source_base_commit": "c642eb178b8a0a9881812c2b3d3f188acb1217d8",
+  "base_distribution": "peq-rof2-2026-11-07-mercenary86-100",
+  "base_asset_sha256": "022eac4166e5052d123635084dc6e9d65274170b201933c0d5404d593554722a",
+  "publication_status": "MATCHED_SANITIZED_ARTIFACT_QUALIFIED_AWAITING_GITHUB_BATCH_PUBLICATION",
+  "view_inventory": {
+    "housing_current_estates": {
+      "classification": "derived_public_schema_view"
+    }
+  }
+}

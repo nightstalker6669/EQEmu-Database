@@ -1,0 +1,201 @@
+{
+  "CI_consumption": [
+    "Fetch explicit tag/asset and verify committed asset SHA256; checksum sidecar informational.",
+    "Verify exact required member hashes and complete SHA256SUMS/member inventory, then copy fullSQL and331HousingJSON byte-identically with ALL qualification documents and nested upgrade files.",
+    "Publish exact accepted source,15quests,ordered additive migrations/fullSQL/database release pin in ONE coherent coordinator-authorized batch; preserve all later published additions.",
+    "Existing player volumes use reviewed additive migration then exact EverForge digest transition; never replay fresh-only fullSQL."
+  ],
+  "asset": {
+    "bytes": 35947217,
+    "name": "PEQ-RoF2-full-2026-11-15-oceangreen.zip",
+    "sha256": "2684bd2277ca7fdea3b0998579c6473d858ff9e55f285849e4158c7257213d55",
+    "sha256_sidecar_url": "https://github.com/nightstalker6669/EQEmu-Database/releases/download/peq-rof2-2026-11-15-oceangreen/PEQ-RoF2-full-2026-11-15-oceangreen.zip.sha256",
+    "url": "https://github.com/nightstalker6669/EQEmu-Database/releases/download/peq-rof2-2026-11-15-oceangreen/PEQ-RoF2-full-2026-11-15-oceangreen.zip"
+  },
+  "base_database_source_commit": "92220a200c51da46bfa334871dc8328a859f6aa9",
+  "cohort_source_binding": {
+    "accepted_owner_manifest_sha256": "cd5fc8462c99dc50c69aadab93b98d8e5a0db2219c706c6815eeae13c6319533",
+    "coherent_source_manifest_sha256": "00caab93d829df8264094c61c04bafe8aeecc61469b748ff9892d764ed260233",
+    "feature_commit": "5f8481f1edfbb5eb8c6a746d86e731bc9ac66701",
+    "native_postimages": 43,
+    "quest_postimages": 15,
+    "required_quest_files": [
+      {
+        "path": "global/encounters/rof2_sod_oceangreen.lua",
+        "sha256": "af4e3941ec862dc100a91ba2bbdeebc2516cc7ee0cf203c5387718d3a94261c5"
+      },
+      {
+        "path": "lua_modules/rof2_sod_oceangreen.lua",
+        "sha256": "9e234cdb76d711d88d5fc45bc674276fb129ac875b20d9bbf38e3ddf2dba7873"
+      },
+      {
+        "path": "lua_modules/rof2_sod_scene.lua",
+        "sha256": "fc4d10eae4e9a151a56b86a16f8b1e18bd72a2a7bc274c8ef1148caf564e5fc1"
+      },
+      {
+        "path": "lua_modules/rof2_sod_scene_bindings.lua",
+        "sha256": "318af80403153e589e548fbb18f52671ce1e3b83e1aa85ba1e509b216bfd1764"
+      },
+      {
+        "path": "lua_modules/rof2_sod_ward_door.lua",
+        "sha256": "9ff2e6ba2b739d878455df633c8abd70da3a0251f74fd7222f1191c06b447aa4"
+      },
+      {
+        "path": "oceangreenhills/#Bracka_Darkpaw.lua",
+        "sha256": "71bfc4b83569d4f6e40b4a62b285e808512b9b23f2ac0bd4b9f11cdfc3986f6e"
+      },
+      {
+        "path": "oceangreenhills/#Captain_Hiran_Tillin.lua",
+        "sha256": "099b75bb7076f246dc4bab3546ed0eed4a5ccf04eb427ee6ef4ce9dd87e4a1f1"
+      },
+      {
+        "path": "oceangreenhills/#Elder_Mystic_Foppye.lua",
+        "sha256": "0a1606da6e6ea07f9680d4feea6f7d64e5466034df56b2ade61e4481c7d723ff"
+      },
+      {
+        "path": "oceangreenhills/#Fripp_Darkpaw.lua",
+        "sha256": "c6ac8d688907b3e5b9b4f0da56f3619e748bf4c2e4527eaec750e2f67d5a4df9"
+      },
+      {
+        "path": "oceangreenhills/#Raxtor_Darkpaw.lua",
+        "sha256": "04f2d4323c22ed90e2dd179a8086c8d4c9c62ff6a4e7e51c548d43fae9aaedaf"
+      },
+      {
+        "path": "oceangreenhills/Acolyte_Koel.lua",
+        "sha256": "3992aae7fda774d945b3e27809eaeac1d01d1792c080b02f7c8a74adcba16996"
+      },
+      {
+        "path": "oceangreenhills/Sergeant_Bronal_Cadran.lua",
+        "sha256": "87e8b85bfe15e351d88296c69c39efb1a49a125e8b386c8d64fc11332a7a6a64"
+      },
+      {
+        "path": "oceangreenvillage/#Billik_Broadwake.lua",
+        "sha256": "6a3c07d70de7717db69c0e06cb11f7deb3ea0e091b6fa7ad236b5c2cb2de11e4"
+      },
+      {
+        "path": "oceangreenvillage/player.lua",
+        "sha256": "f1368857f2bbdb73b531c123d98870d27d1dadcde00af39231ffd79111431199"
+      },
+      {
+        "path": "oldblackburrow/player.lua",
+        "sha256": "9ad2e961e7edcec29eca843657cc94873cc020d4209d892fc4758c84491b3ee2"
+      }
+    ],
+    "source_base_commit": "4b1b2154a042c478f13a462731e36febadb70861",
+    "static_content_sha256": "5a5757e1c4631af375b87b6c69794d9e72ebc8cc91c832144d8359bb2b5454c2",
+    "writer_fix_patch_sha256": "86e3f6933e91f73838c9fef5783170e70224e44a5c72e97e343afc6c9ca0c1f8"
+  },
+  "database_repository": "nightstalker6669/EQEmu-Database",
+  "existing_volume_upgrade": {
+    "accepted_owner_manifest_sha256": "cd5fc8462c99dc50c69aadab93b98d8e5a0db2219c706c6815eeae13c6319533",
+    "bootstrap_seed_replay": false,
+    "bots_version": 0,
+    "custom_version": 0,
+    "database": "peq_full",
+    "format": "eqemu-oceangreen-existing-volume-upgrade-v1",
+    "marker_after_successful_migration_postconditions_only": true,
+    "native_coherent_source_manifest_sha256": "00caab93d829df8264094c61c04bafe8aeecc61469b748ff9892d764ed260233",
+    "native_source_commit": "5f8481f1edfbb5eb8c6a746d86e731bc9ac66701",
+    "new_runtime_tables_empty_at_upgrade": true,
+    "new_seed_sql_sha256": "a4035ebd5770d56815c8ffc56fcd006d1ea7d043f2753210ab422b648f72ba7a",
+    "ordered_migrations": [
+      {
+        "authorization_variable": "sod_oceangreen_20261115_authorized",
+        "file": "001_oceangreen_required.sql",
+        "sha256": "a4276f2534775de8c2c9fe605dca006ed2c3e72b2a8c795d184f4bd83cb3311f"
+      },
+      {
+        "authorization_variable": "sod_oceangreen_20261115_marker_authorized",
+        "file": "002_everforge_accept_seed.sql",
+        "sha256": "52bc75af280a484e410bd6a694417ef28a3922ea3abcfb3733b6ba4f20d7e641"
+      }
+    ],
+    "partial_DDL_no_automatic_retry": true,
+    "preserves_existing_player_rows_and_custom_content": true,
+    "publication": "QUALIFIED_ARTIFACT_AWAITING_MATCHED_GITHUB_BATCH",
+    "require_backup": true,
+    "schema_version": 9338,
+    "supported_old_seed_sql_sha256": "2985a52a017a77bde5bbbe5cfe835ad83351ecbb858dbf07405904f0a1759fdf"
+  },
+  "format": "eqemu-ci-database-release-inputs-v1",
+  "fresh_install": {
+    "MariaDB": "10.11",
+    "assembled_with": "10.11.19",
+    "base_tables": 455,
+    "bots_version": 0,
+    "custom_version": 0,
+    "empty_private_player_and_operation_tables_preserved": true,
+    "full_dump_replaces_tables": true,
+    "merc_inventory": 81,
+    "merc_spell_list_entries": 625,
+    "merc_stats": 4000,
+    "new_empty_database_only": true,
+    "player_preserving_upgrade": false,
+    "recipe_entries": 261389,
+    "recipes": 34486,
+    "rows": 3051112,
+    "schema_version": 9338,
+    "views": 1
+  },
+  "future_update_policy": "A futurematchedDBversion requires a separately validatedwholecohort sanitizedrelease and explicitcommitted source/tag/assetdigest pin; never silently mutableLatest/latestDB, partialrank/itemexports, or old945-only pin for newcohort. ActualCIfailure corrections gather allvisible errors in one batch.",
+  "live_application_status": "Accepted local feature and actualJ2positive; no private serving DB exported; final integration/publication GitHub-owned",
+  "native_acceptance_scope": "Approved ten-task Oceangreen A/B LOCAL reconstruction, original routes/sharedtwo-real recipients/earnedVoidB/vendor-scribe/J2/persistence; explicit bounded limitations retained, no all-RoF or universal heap-safety claim.",
+  "native_gameplay_acceptance": true,
+  "payload_inventory": {
+    "all_member_sha256_file": "SHA256SUMS",
+    "full_sql_bytes": 301119467,
+    "housing_json_member_count": 331,
+    "housing_json_prefix": "housing-runtime-content/",
+    "housing_profile_bindings": "housing-runtime-content/PROFILE-BINDINGS.json",
+    "housing_profile_bindings_sha256": "4d6c3533a882ce79ef790caa08a781a1994d56ac3d9c58a8459bb9e1ac9b73b2",
+    "identical_SQL_and_Housing_bytes_required": true,
+    "payload_member_count": 344
+  },
+  "preserved_mercenary_cohort_source_binding": {
+    "SQL_sha256": "6ad8f950c178e9c1d84658387c521dc33695572fd8926c30a711aff44e50790f",
+    "complete_patch_sha256": "a5b2b0022a9b339fbed6d45d9823090236dd2638b0cb5f2c2d8e6d4f8d7d1816",
+    "expected_develop_merc_cpp_postimage_sha256": "11ac144556a3caa91e9ab33bd31e937a9a30c2ab1f117265c32a77b30db99c91",
+    "feature_branch": "rof2-mercenaries",
+    "feature_commit": "5178edd73a4204f863b298fa9328e19205da5f56",
+    "manifest_sha256": "78710b4716455c626cc62189cca8eacd252d2ce796adc018c0b4dd18657aace9",
+    "source_base_commit": "c642eb178b8a0a9881812c2b3d3f188acb1217d8"
+  },
+  "qualification_documents": [
+    "README.md",
+    "BASE-README.md",
+    "TABLE-INVENTORY.json",
+    "MERCENARY86-100-CONTENT.json",
+    "COMPLETED-RECIPE-UPDATES.json",
+    "SOD-OCEANGREEN-CONTENT.json",
+    "SOURCE-CONTENT-BINDING.json",
+    "VALIDATION.json",
+    "migrations/oceangreen/UPGRADE-CONTRACT.json",
+    "housing-runtime-content/PROFILE-BINDINGS.json"
+  ],
+  "release_tag": "peq-rof2-2026-11-15-oceangreen",
+  "required_code_boundary": {
+    "compatible_descendants_must_preserve": "Completed RRC310 property-preserving recharge and RRC312-r2 full32 actor contracts plus matching integrated housing/reward/schema/quest/opcode contracts. Build pins exact server revision separately. Accepted ten-task Oceangreen native postimages, measured interrupt writer fix,15 final quests and existing base character-selection fix4b must all remain matched.",
+    "completed_actor_source_commit": "3ed26770e83e0881efadcfa93e382aff9fc626b9",
+    "completed_mercenary_feature_commit": "5178edd73a4204f863b298fa9328e19205da5f56",
+    "external_operator_resources": "Authenticated original RoF2 archives/maps and matching server quests/opcodes; generate fresh target shared memory normally."
+  },
+  "required_members_sha256": {
+    "COMPLETED-RECIPE-UPDATES.json": "fdf459a6bef7e90351d3db5c983e30920205876a990aa144b5779a4c242d25e0",
+    "MERCENARY86-100-CONTENT.json": "27a9d180e6a66320ae9877cd763341f6579d0a1a8a66ac6fc23c26fb9dc15c16",
+    "README.md": "b6ca5f4e522748793531ab4416a7345a7254a1e06d9a184a3ea1e6a541482940",
+    "SHA256SUMS": "6a04ece46040ab358542d38d14607b82a16920d43e1cc1ef79f1f43bd152dac4",
+    "SOD-OCEANGREEN-CONTENT.json": "5a5757e1c4631af375b87b6c69794d9e72ebc8cc91c832144d8359bb2b5454c2",
+    "SOURCE-CONTENT-BINDING.json": "c767cc0f28cbf557a6731984769961189c51626a2225f40f60404b5d6790cb3d",
+    "TABLE-INVENTORY.json": "422200ad57314f97aa4c4124810b0377588995a3233c0dcf0291942682f9572f",
+    "VALIDATION.json": "8bac04e7fbc2115b6e321037c3f9ebbd050faf14c156073047762e08ddeb9339",
+    "full.sql": "a4035ebd5770d56815c8ffc56fcd006d1ea7d043f2753210ab422b648f72ba7a",
+    "migrations/oceangreen/001_oceangreen_required.sql": "a4276f2534775de8c2c9fe605dca006ed2c3e72b2a8c795d184f4bd83cb3311f",
+    "migrations/oceangreen/002_everforge_accept_seed.sql": "52bc75af280a484e410bd6a694417ef28a3922ea3abcfb3733b6ba4f20d7e641",
+    "migrations/oceangreen/UPGRADE-CONTRACT.json": "a6b704028995992ee1ad07b453ca7a270a66037219d473eaec173e8050024f06"
+  },
+  "runtime_or_DB_access_required_for_packaging": false,
+  "source_commit": "5f8481f1edfbb5eb8c6a746d86e731bc9ac66701",
+  "source_commit_role": "Exact accepted Oceangreen feature integration checkpoint owned by GitHub; not Database repository commit or content-manifest hash. Final develop/release-inputs integration is separately GitHub-owned.",
+  "source_repository": "nightstalker6669/EQEmu",
+  "verification_basis": "Isolated published sanitized base+502 exact typed static rows/default feature rule/five zone access cells; exact preexisting affected-table data hashes and all unaffected-table checksums preserved.455tables+1view/3051112rows,303private-runtime tablesempty; fresh-empty restore/allcounts/view/activation PASS; exact old-to-new EverForge marker transition after all postconditions PASS; ZIP CRC/all members SHA/331Housingbyteidentity PASS. Native ten-task/sharedtwo-recipient/earnedVoidB+purchase+scribe/ordinaryJ2positive qualification is scoped in SOURCE-CONTENT-BINDING."
+}

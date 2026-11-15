@@ -1,0 +1,29 @@
+{
+  "format": "sanitized-oceangreen-database-validation-v1",
+  "sanitized_base_zip_sha256": "022eac4166e5052d123635084dc6e9d65274170b201933c0d5404d593554722a",
+  "full_sql_sha256": "a4035ebd5770d56815c8ffc56fcd006d1ea7d043f2753210ab422b648f72ba7a",
+  "static_rows_added": 502,
+  "feature_rule_rows_added": 1,
+  "schema": {
+    "version": 9338,
+    "bots_version": 0,
+    "custom_version": 0,
+    "base_tables": 455,
+    "views": 1,
+    "rows": 3051112
+  },
+  "checks": {
+    "typed_static_postimages": "PASS",
+    "preexisting_rows_outside_affected_namespaces_SHA256": "PASS",
+    "all_unaffected_table_checksums": "PASS",
+    "all303private_runtime_tables_empty": "PASS",
+    "331housingJSON_byteidentity": "PASS",
+    "fresh_empty_import_all_table_counts_view_activation": "PASS",
+    "guarded_EverForge_marker_transition_after_postconditions": "PASS",
+    "QA_player_credentials_contracts_history_runtime_rows_exported": false
+  },
+  "source_content_manifest": "c767cc0f28cbf557a6731984769961189c51626a2225f40f60404b5d6790cb3d",
+  "native_J2_positive": "PASS: one earned Journeyman tier2 healer hired through ordinary native merchant UI at accountstatus0/GMfalse; server contract confirmed level100 and unsuspended; existing peer healer preserved.",
+  "fresh_install_only": true,
+  "existing_upgrade": "migrations/oceangreen/UPGRADE-CONTRACT.json"
+}
