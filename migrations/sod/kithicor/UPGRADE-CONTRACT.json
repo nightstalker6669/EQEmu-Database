@@ -1,0 +1,41 @@
+{
+  "format": "eqemu-kithicor-existing-volume-upgrade-v1",
+  "publication": "QUALIFIED_ARTIFACT_AWAITING_MATCHED_GITHUB_BATCH",
+  "database": "peq_full",
+  "schema_version": 9338,
+  "bots_version": 0,
+  "custom_version": 0,
+  "supported_old_seed_sql_sha256": "a4035ebd5770d56815c8ffc56fcd006d1ea7d043f2753210ab422b648f72ba7a",
+  "new_seed_sql_sha256": "f101d26f1a492fd29240d6404f4affd9573f189617df95644f7f2411d4e9e9a5",
+  "ordered_migrations": [
+    {
+      "file": "001_kithicor_required.sql",
+      "sha256": "cd4971ef8a325ca4991af9dce9cddc6ca76fdd63694019d24f44ebebf3692135",
+      "authorization_variable": "kithicor_20261115_authorized"
+    },
+    {
+      "file": "002_everforge_accept_seed.sql",
+      "sha256": "15fcd9997ecc6e12f631c23e26501d141d98d1194c61095c9029232777e2d7af",
+      "authorization_variable": "kithicor_20261115_marker_authorized"
+    }
+  ],
+  "backup_required": true,
+  "offline_server_required": true,
+  "partial_DDL_no_automatic_retry": true,
+  "bootstrap_seed_replay": false,
+  "marker_after_successful_migration_postconditions_only": true,
+  "no_marker_adoption": true,
+  "preserves_existing_player_rows_and_custom_content": true,
+  "private_runtime_schema_only": [
+    "kithicor_mission_phases",
+    "kithicor_mission_actions",
+    "kithicor_personal_burns",
+    "kithicor_poison_custody"
+  ],
+  "private_runtime_values_or_counts_in_public_payload": false,
+  "public_damagecap_threshold_default": 0,
+  "source_base_commit": "99c11623c2cf5ed15b0f0830a3aecea28528fc21",
+  "accepted_source_manifest_sha256": "7b46c11e92988f5af405fe719e4fb02c95c30057afbcd2ff26e1dca68d7dbd21",
+  "composed_r11_sha256": "efcebb9cce61a259499932049438f7ba0c3b1739afc888837a85dc11130d25a9",
+  "new_source_integration_commit": "GitHub records actual matched source capture commit separately; no fabricated Git SHA."
+}

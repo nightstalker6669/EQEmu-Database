@@ -1,0 +1,57 @@
+{
+  "format": "kithicor-sanitized-database-validation-v1",
+  "status": "QUALIFIED_ACTUAL_ARTIFACT_NOT_PUBLISHED",
+  "base_archive_sha256": "2684bd2277ca7fdea3b0998579c6473d858ff9e55f285849e4158c7257213d55",
+  "base_SQL_sha256": "a4035ebd5770d56815c8ffc56fcd006d1ea7d043f2753210ab422b648f72ba7a",
+  "full_SQL_sha256": "f101d26f1a492fd29240d6404f4affd9573f189617df95644f7f2411d4e9e9a5",
+  "schema": {
+    "version": 9338,
+    "bots_version": 0,
+    "custom_version": 0,
+    "base_tables": 459,
+    "views": 1,
+    "public_static_rows": 3052212
+  },
+  "checks": {
+    "1100typed_static_postimages": "PASS",
+    "only13NPCrows_1LTEunlink_3zonecells_1Kithrule": "PASS",
+    "preexisting_public_slices_preserved": "PASS",
+    "unaffected_public_checksums_against_actual_published_SQL_baseline": "PASS",
+    "fresh_empty_fullSQL_import_schema_publiccounts_typedcontent": "PASS",
+    "private_runtime_schemas_only_no_seed_INSERTs": "PASS",
+    "managed_EverForge_exactoldready_to_newdigest_after_allpostconditions": "PASS",
+    "public_development_damagecap_default0": "PASS",
+    "no_serving_connections_or_private_data_capture": true
+  },
+  "canonical_FLOAT_snapshot_normalization_sha256": "10841105f2ce7e1876a9f1d408ad7a535a22406e1c6572e011a73f1e0e77586c",
+  "source_manifest_sha256": "7b46c11e92988f5af405fe719e4fb02c95c30057afbcd2ff26e1dca68d7dbd21",
+  "native_acceptance": {
+    "six_task_native_completion": true,
+    "both_real_shared_recipients_paid": true,
+    "all_selected_reward_components_paid": true,
+    "earned_original_Door20_to_VoidC461": true,
+    "cumulative_vendor_stock": 22,
+    "one_scroll_purchase_and_scribe": {
+      "item_id": 119452,
+      "spell_id": 19702,
+      "price_Chronobines": 165,
+      "prior_spell19679_preserved": true
+    },
+    "ordinary_J3_healer_offer_and_one_hire": true,
+    "retained_prior_mercenary_contracts_preserved": true,
+    "ordinary_status0_GMfalse": true,
+    "qualifications": [
+      "Both physical r8 escort stages/refugee gates and both recipients native shared rewards passed. Positioning fixtures are separate from walking/admission proof.",
+      "The r11 Colonel homing fix has source, focused mock and staged-file qualification only; a fresh full native r11 walk was not observed.",
+      "Guard614 was observed walking then homing; causes for615/616 remain unproven. No all-guard-walk GO is claimed.",
+      "Peer NPC-ready return remains unproven; peer used its owned AA exit."
+    ]
+  },
+  "limitations": [
+    "Both physical r8 escort stages/refugee gates and both recipients native shared rewards passed. Positioning fixtures are separate from walking/admission proof.",
+    "The r11 Colonel homing fix has source, focused mock and staged-file qualification only; a fresh full native r11 walk was not observed.",
+    "Guard614 was observed walking then homing; causes for615/616 remain unproven. No all-guard-walk GO is claimed.",
+    "Peer NPC-ready return remains unproven; peer used its owned AA exit."
+  ],
+  "qualification_note": "Old pre-export doors checksum differs from exact published SQL roundtrip; unchanged current table matches a one-table reimport from the accepted base archive. No Kithicor door edits."
+}

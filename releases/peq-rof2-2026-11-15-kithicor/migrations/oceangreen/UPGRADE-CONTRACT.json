@@ -1,0 +1,31 @@
+{
+  "format": "eqemu-oceangreen-existing-volume-upgrade-v1",
+  "publication": "QUALIFIED_ARTIFACT_AWAITING_MATCHED_GITHUB_BATCH",
+  "supported_old_seed_sql_sha256": "2985a52a017a77bde5bbbe5cfe835ad83351ecbb858dbf07405904f0a1759fdf",
+  "new_seed_sql_sha256": "a4035ebd5770d56815c8ffc56fcd006d1ea7d043f2753210ab422b648f72ba7a",
+  "database": "peq_full",
+  "schema_version": 9338,
+  "bots_version": 0,
+  "custom_version": 0,
+  "ordered_migrations": [
+    {
+      "file": "001_oceangreen_required.sql",
+      "sha256": "a4276f2534775de8c2c9fe605dca006ed2c3e72b2a8c795d184f4bd83cb3311f",
+      "authorization_variable": "sod_oceangreen_20261115_authorized"
+    },
+    {
+      "file": "002_everforge_accept_seed.sql",
+      "sha256": "52bc75af280a484e410bd6a694417ef28a3922ea3abcfb3733b6ba4f20d7e641",
+      "authorization_variable": "sod_oceangreen_20261115_marker_authorized"
+    }
+  ],
+  "require_backup": true,
+  "partial_DDL_no_automatic_retry": true,
+  "new_runtime_tables_empty_at_upgrade": true,
+  "preserves_existing_player_rows_and_custom_content": true,
+  "marker_after_successful_migration_postconditions_only": true,
+  "bootstrap_seed_replay": false,
+  "native_source_commit": "5f8481f1edfbb5eb8c6a746d86e731bc9ac66701",
+  "native_coherent_source_manifest_sha256": "00caab93d829df8264094c61c04bafe8aeecc61469b748ff9892d764ed260233",
+  "accepted_owner_manifest_sha256": "cd5fc8462c99dc50c69aadab93b98d8e5a0db2219c706c6815eeae13c6319533"
+}
