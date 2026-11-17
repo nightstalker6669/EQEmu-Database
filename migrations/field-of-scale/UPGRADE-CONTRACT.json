@@ -1,0 +1,58 @@
+{
+  "format": "field-of-scale-existing-volume-upgrade-v1",
+  "database": "selected compatible database; managed marker transition requires peq_full",
+  "supported_old_seed_sql_sha256": "f101d26f1a492fd29240d6404f4affd9573f189617df95644f7f2411d4e9e9a5",
+  "new_seed_sql_sha256": "e5bc30356530ca289806697e504586ac7121ff019277814cf9d0028aa0cc9ce9",
+  "ordered_additive_entrypoint": "APPLY.sql",
+  "ordered_migrations": [
+    {
+      "file": "001_fos_food_custody_required.sql",
+      "sha256": "c2783fad063f04aadf1bed1f4cc9250f3a531a7bd85f55d053519c5264c981cc"
+    },
+    {
+      "file": "002_fos_original_transform_required.sql",
+      "sha256": "3e5e336c69a791844a72329a0e573e2efd4c1c88edcfd60cc4e4898f1e4e60b1"
+    },
+    {
+      "file": "002_CAPTURE_CHECK_BINDING.sql",
+      "sha256": "71d0e48f9058b44f351d106f2a7588cb198a4c75cd2624e656292bcaebee7585"
+    },
+    {
+      "file": "003_fos_message_selector_required.sql",
+      "sha256": "662680323f3affde798c59b4f8329bc965e167bf7e745ced11bdcd6a63200c7d"
+    },
+    {
+      "file": "004_fos_combined_content_required.sql",
+      "sha256": "1640a08500bd71c27b94c1d69608c14c9b8fd57f4dcb0125aa303c301cb32aa1"
+    },
+    {
+      "file": "005_personal_taskset_markers.sql",
+      "sha256": "78c03d0a7f9ba462ca9f769e360f35f381e1e1844aa5b3ada052e43b6a030e73"
+    }
+  ],
+  "same_connection_CHECK_binding": "002 must succeed immediately before exact metadata capture003; no guessednames or existingtable adoption.",
+  "managed_marker_transition": {
+    "file": "006_everforge_accept_seed.sql",
+    "sha256": "de773bc43ad82aaf910fe229de781227d7f2cae17591565a9f6d61c685290a21",
+    "authorization_variable": "fos_20261117_marker_authorized",
+    "explicit_old_ready_CAS": true,
+    "postconditions_checked": 672
+  },
+  "backup_required": true,
+  "offline_writers_required": true,
+  "partial_DDL_no_automatic_retry": true,
+  "full_seed_replay": false,
+  "marker_adoption": false,
+  "private_runtime_schema_only": [
+    "kithicor_mission_phases",
+    "kithicor_mission_actions",
+    "kithicor_personal_burns",
+    "kithicor_poison_custody",
+    "sod_weighted_delivery_state",
+    "sod_weighted_delivery_actions",
+    "sod_original_delivery_decisions",
+    "sod_original_message_selectors"
+  ],
+  "preserves_player_and_other_owner_content": true,
+  "already_applied_development_database": "Do not replay: exact original batch and marker supplement are already applied. This contract is for compatible unupgraded base317 databases."
+}

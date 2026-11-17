@@ -1,0 +1,557 @@
+{
+  "format": "field-of-scale-source-manifest-v1",
+  "repository": "nightstalker6669/EQEmu",
+  "branch": "develop",
+  "expected_publication_parent": "d36a281113206cb959c2ca4116ce59a303b6d2c6",
+  "compiled_manifest_sha256": "8545762778b39fcdba5a312c7447392691e99892bc85e67c0fda156fe42c1c64",
+  "native_postimages": 72,
+  "owned_quest_postimages": 19,
+  "files": [
+    {
+      "path": "common/fungal_unknown_inventory.h",
+      "sha256": "f643600d3d093ef19c42f4473217cf57c0a5a9de6324f8cd842be4c62456521c",
+      "bytes": 3203,
+      "role": "native"
+    },
+    {
+      "path": "common/housing/inventory_process_recovery.cpp",
+      "sha256": "5ae552509a342cd83274c3139687bd1d7d6cefb76998a325ab607c28b5b5ca49",
+      "bytes": 24031,
+      "role": "native"
+    },
+    {
+      "path": "common/inventory_profile.h",
+      "sha256": "cd3a8cb2f8792f23020b4e565c3ccba0e9f2db549040344ad0a6de236babcbe3",
+      "bytes": 11128,
+      "role": "native"
+    },
+    {
+      "path": "common/kithicor_mission.h",
+      "sha256": "c94f3b63e8bb6804a8b2d49fb104c93fb1fcf60e6d9598433ef4a1e489633604",
+      "bytes": 2298,
+      "role": "native"
+    },
+    {
+      "path": "common/kithicor_poison_custody.h",
+      "sha256": "927e16fba9185140b9064dfa8da2e49926c12f2b3d67523019ccc721d6f14ea6",
+      "bytes": 217,
+      "role": "native"
+    },
+    {
+      "path": "common/ruletypes.h",
+      "sha256": "f24a4f37ee96742c556716b6aa9a176a12a525b3238453f28bd4fda2ac35b8ec",
+      "bytes": 131292,
+      "role": "native"
+    },
+    {
+      "path": "common/shared_core/field_of_scale_food_recipe.h",
+      "sha256": "50429736c7f13bbec42717e566f0ee2893aa8ba2ed621f5402f48131b956f19c",
+      "bytes": 560,
+      "role": "native"
+    },
+    {
+      "path": "common/shared_core/inventory_session_service.cpp",
+      "sha256": "2aa88e20d028e1ea4360e28a9d694b635101d57a324227236dbb0ee0c0519ef9",
+      "bytes": 10657,
+      "role": "native"
+    },
+    {
+      "path": "common/shared_core/original_message_admission_native.h",
+      "sha256": "55e28b533ffe8723abf4416164ea06900c086383ade62d4d9e66cc3b88005d36",
+      "bytes": 718,
+      "role": "native"
+    },
+    {
+      "path": "common/shared_core/original_trade_custody.h",
+      "sha256": "2792ae934e74f0a8634a65545f3acb37353e57d569fc5a13440a7197036e7af3",
+      "bytes": 30278,
+      "role": "native"
+    },
+    {
+      "path": "common/shared_core/original_trade_recipe.h",
+      "sha256": "721f6d6193761828a273c0d37e3743ac8f4667f3ede0de641817b52f7fabea78",
+      "bytes": 2417,
+      "role": "native"
+    },
+    {
+      "path": "common/shared_core/original_trade_transform.h",
+      "sha256": "df98e6edd5c257e8906b432ba47d198ff833ff324db56837f644d566cb34b2a2",
+      "bytes": 8341,
+      "role": "native"
+    },
+    {
+      "path": "common/shared_core/original_transform_native.h",
+      "sha256": "3fb5dfeb414a8c2a965c04b4f9ebfd59923f561a3e9e7d94683a5275498dd054",
+      "bytes": 1686,
+      "role": "native"
+    },
+    {
+      "path": "common/shared_core/weighted_delivery_recovery.h",
+      "sha256": "22199dc9fa5f3f78eb1c529e49c87fe129815644dbf9247b425151f279e3ca47",
+      "bytes": 641,
+      "role": "native"
+    },
+    {
+      "path": "common/shared_core/weighted_personal_delivery.h",
+      "sha256": "5200c554ad9c448bfa064ce64c41b5237526606e4ed9901aa188f77b9a77eede",
+      "bytes": 4513,
+      "role": "native"
+    },
+    {
+      "path": "common/sod_faction_reward.h",
+      "sha256": "66c48df41e1e8694409fe49135375df7b7ea219d9acc87c6bdddfe9d8d325285",
+      "bytes": 1414,
+      "role": "native"
+    },
+    {
+      "path": "common/sod_food_binding.h",
+      "sha256": "c3ed175153dca022b4bdc54080956315900ec4626bd254f23f98e498af863eeb",
+      "bytes": 1394,
+      "role": "native"
+    },
+    {
+      "path": "common/sod_message_admission.h",
+      "sha256": "85c48db50dd4a4d2337aeeba289ab0464452eec466c5475e9cadce4e78626d14",
+      "bytes": 6260,
+      "role": "native"
+    },
+    {
+      "path": "common/sod_original_transform_native.h",
+      "sha256": "f3ffc10193c8f598bed5ee6448cb49564f5ee82bcd69b42b982697a33d96a320",
+      "bytes": 13220,
+      "role": "native"
+    },
+    {
+      "path": "common/sod_progression.h",
+      "sha256": "79fb59644c761772954c9a37bd360c0d716f6e046d4c7b1ab2fc92f4e7ad4cb9",
+      "bytes": 7274,
+      "role": "native"
+    },
+    {
+      "path": "common/sod_reward_quote.h",
+      "sha256": "052cb06433d2f0f1d820b392defc9287ff644b661ce6e3199e38b5d7e413c204",
+      "bytes": 5761,
+      "role": "native"
+    },
+    {
+      "path": "common/sod_task_activation.h",
+      "sha256": "486afd98be2a6da3597b64f6e57f39296eb49b77b3562d36ce0649c0a1f21dd6",
+      "bytes": 2469,
+      "role": "native"
+    },
+    {
+      "path": "common/sod_weighted_delivery_context.h",
+      "sha256": "b30e5b9d2a0ed9643756db354b5c818cfca924dc19e4a28121f91af9a4facdf9",
+      "bytes": 6646,
+      "role": "native"
+    },
+    {
+      "path": "common/sod_weighted_delivery_recovery.h",
+      "sha256": "dee4801bc84d4b77dc5b996bdb7c278efe258d3885dcefd60365e88af2f9ada0",
+      "bytes": 4636,
+      "role": "native"
+    },
+    {
+      "path": "common/sod_weighted_delivery_recovery_adapter.h",
+      "sha256": "d3e25c38a3b8c3eee2f14a8acb858912bf9f07cedfc7d7ce54ec06d2f44a8ac3",
+      "bytes": 1891,
+      "role": "native"
+    },
+    {
+      "path": "utils/sql/optional/2026_11_15_kithicor_poison_custody.sql",
+      "sha256": "101e92ed5ae30517eda45828e2bffd83d994d5eac2ff02f77a36c578f1e2a816",
+      "bytes": 1657,
+      "role": "native"
+    },
+    {
+      "path": "utils/sql/optional/2026_11_15_kithicor_progression_journals.sql",
+      "sha256": "1a2cd524344f8dcf6c6c9c0bcb4c41b90db793ef0c96dbf2a7e887fbae45c8a1",
+      "bytes": 1697,
+      "role": "native"
+    },
+    {
+      "path": "world/dynamic_zone.cpp",
+      "sha256": "26bc361698ac3f4750f627da2d34a7144b08944a29892543605950588473b26f",
+      "bytes": 8861,
+      "role": "native"
+    },
+    {
+      "path": "world/dynamic_zone.h",
+      "sha256": "ced9df0235998898245a7cf074ba92532fb4b615666d37c838c1f0c70774d489",
+      "bytes": 2278,
+      "role": "native"
+    },
+    {
+      "path": "world/shared_task_manager.cpp",
+      "sha256": "9d7b85225a1e6fa782ca0fade9e1e4097f8646c2047c9f212a97d178d99f19e4",
+      "bytes": 86579,
+      "role": "native"
+    },
+    {
+      "path": "world/shared_task_manager.h",
+      "sha256": "0feb57f2dd932520ffd13b7d463ca9c08621aa0be519bc4e00e1530fcea13023",
+      "bytes": 7452,
+      "role": "native"
+    },
+    {
+      "path": "world/sod_original_transform_world.h",
+      "sha256": "5f15c52c28c9af40037ee830d9171590efb77fea37cd9b982dc0d54f2d700ec6",
+      "bytes": 2485,
+      "role": "native"
+    },
+    {
+      "path": "world/sod_original_transform_world.inc",
+      "sha256": "f837a5e649586b04d135f5006116e36b888d137066492a56079768034d051fae",
+      "bytes": 11279,
+      "role": "native"
+    },
+    {
+      "path": "zone/CMakeLists.txt",
+      "sha256": "fb378b37968fb0e8e26a80fb4b823b1e0a26fa526a9b7586e7f9b7dcfe3ab3a7",
+      "bytes": 19763,
+      "role": "native"
+    },
+    {
+      "path": "zone/attack.cpp",
+      "sha256": "8dcc9192310c23c4cd92a312264830a7c3436ff8626e63027bb0a96ed4e5fadd",
+      "bytes": 247836,
+      "role": "native"
+    },
+    {
+      "path": "zone/client.cpp",
+      "sha256": "b068f14e87fe4d089036ae9e7d8647e83ca5d0693a5a86779783166dff87d3f2",
+      "bytes": 504939,
+      "role": "native"
+    },
+    {
+      "path": "zone/client_packet.cpp",
+      "sha256": "b35e25e9386cbde3d3d4d0131c5d7f1e2b028599b46f50d291b68eaa3a93c420",
+      "bytes": 564786,
+      "role": "native"
+    },
+    {
+      "path": "zone/client_process.cpp",
+      "sha256": "10f64370ac707354ba8c37f15bcb0514222b2bf81796c224c697013bea992ce2",
+      "bytes": 73404,
+      "role": "native"
+    },
+    {
+      "path": "zone/death_experience.h",
+      "sha256": "e27f9847734be7e8e78134d97953424a8454409d4726f394b68e46b0fa950002",
+      "bytes": 347,
+      "role": "native"
+    },
+    {
+      "path": "zone/doors.cpp",
+      "sha256": "0ec8961028ba5cc5d4c0347d9c3380e75c2711799b98ba28ae5cc14c8633b65c",
+      "bytes": 30260,
+      "role": "native"
+    },
+    {
+      "path": "zone/inventory_session_owner.cpp",
+      "sha256": "fd11052f469aa0442cfab9395799409329f943d0ce1900401005bdafcce1b32d",
+      "bytes": 4840,
+      "role": "native"
+    },
+    {
+      "path": "zone/kithicor_poison_trade.h",
+      "sha256": "b3d4293730ac57f42bc2551eae5536dc573fe633aefee2f9acaaf48f2d87b0fb",
+      "bytes": 673,
+      "role": "native"
+    },
+    {
+      "path": "zone/kithicor_poison_trade.inc",
+      "sha256": "8eea6f23036fea7f606cd45a30c91d0be49906d050d3038f373300163be5f122",
+      "bytes": 46190,
+      "role": "native"
+    },
+    {
+      "path": "zone/lua_client.cpp",
+      "sha256": "1c0cd553122cbb3b281037c14a1fafe213c451c17317864a16265763a2ec3b35",
+      "bytes": 187921,
+      "role": "native"
+    },
+    {
+      "path": "zone/lua_client.h",
+      "sha256": "c9d8f92a11f136ef4ec9c16d34a201b29b5a839ca661cea89412ac0e94b79f87",
+      "bytes": 31924,
+      "role": "native"
+    },
+    {
+      "path": "zone/lua_mob.cpp",
+      "sha256": "d27ebc0716be7f27b79eef4af0198064f0fe9e40021335bef28eb9b851f6671c",
+      "bytes": 131095,
+      "role": "native"
+    },
+    {
+      "path": "zone/lua_mob.h",
+      "sha256": "71f567fa6b54c84a7d82e6c382e298eea43234f363a73ead9977836802d99ddd",
+      "bytes": 26777,
+      "role": "native"
+    },
+    {
+      "path": "zone/lua_zone.cpp",
+      "sha256": "0aac1d0b03bf827a5fc24ddae6bdea402687fabe909ce4842ea402f04288dd27",
+      "bytes": 33480,
+      "role": "native"
+    },
+    {
+      "path": "zone/lua_zone.h",
+      "sha256": "df5ce06bdf154df9ed9318d20482ff4626f989da5ab731875e7d9a022b5e4605",
+      "bytes": 6002,
+      "role": "native"
+    },
+    {
+      "path": "zone/merc.cpp",
+      "sha256": "88fc6a64f18d59f7b68ed187f6f33efe5e475aa65fff22c77321ef171d3b7a20",
+      "bytes": 182950,
+      "role": "native"
+    },
+    {
+      "path": "zone/mob.h",
+      "sha256": "69bdea7a699344cc846bdba653eb45259b433c7a4db49ca5cf4038006e127ffd",
+      "bytes": 95547,
+      "role": "native"
+    },
+    {
+      "path": "zone/original_message_admission.h",
+      "sha256": "f3da81189d3012163fa203f152af8f3075e76766a2e8ff4173f74a919b6af153",
+      "bytes": 2011,
+      "role": "native"
+    },
+    {
+      "path": "zone/original_trade_offer.h",
+      "sha256": "43a89e22a593bfc0f4b19b1d19ef13a31ff7f1e0b8f3ca8a20ab8acee693ecf5",
+      "bytes": 815,
+      "role": "native"
+    },
+    {
+      "path": "zone/original_trade_recipe_hooks.h",
+      "sha256": "302e5bf000659bd4af43d61a6c8a39d1c3fe4dc209f7435ffeca7ac60d20d36f",
+      "bytes": 3325,
+      "role": "native"
+    },
+    {
+      "path": "zone/original_trade_transform_hooks.h",
+      "sha256": "fd7e26ca00bccdccbaa4b2ea1ebf72dbf9cf8153cf46010aab413deb8e4b6ee1",
+      "bytes": 1703,
+      "role": "native"
+    },
+    {
+      "path": "zone/sod_admission.h",
+      "sha256": "c550f86039cc14359ca5330bef5bb504543f99d65c8747d2fde563008b7bedb6",
+      "bytes": 1463,
+      "role": "native"
+    },
+    {
+      "path": "zone/sod_fieldofscale_crystal_source.h",
+      "sha256": "3ed7484b601b4b4edcf40481020b38b9365b0a170c78e4806fc6492cd21b2b96",
+      "bytes": 2082,
+      "role": "native"
+    },
+    {
+      "path": "zone/sod_food_delivery.cpp",
+      "sha256": "71876bf1135d6f7826598cfa833d343f4bb93ac543695f0e49699f2ca2953984",
+      "bytes": 14155,
+      "role": "native"
+    },
+    {
+      "path": "zone/sod_food_delivery.h",
+      "sha256": "6e81da5247dd82c7a763b8f426f42aba7ab718da8283abe6560b68351ff12508",
+      "bytes": 590,
+      "role": "native"
+    },
+    {
+      "path": "zone/sod_message_admission.cpp",
+      "sha256": "e11c25a49d5e0fbff7f063ffadb99c876a4fa831867d9e70231d912414c42616",
+      "bytes": 4181,
+      "role": "native"
+    },
+    {
+      "path": "zone/sod_message_admission.h",
+      "sha256": "7ebbd776613d6babc11cc17ede1a4dc60a339595e5cc92bc1376f24fa3374054",
+      "bytes": 611,
+      "role": "native"
+    },
+    {
+      "path": "zone/sod_original_transform.cpp",
+      "sha256": "7e651b89b76838b1b2f0e5d04ef5119095342cf420d3b3550974b7e0214a168c",
+      "bytes": 11269,
+      "role": "native"
+    },
+    {
+      "path": "zone/sod_progression.h",
+      "sha256": "48784960c87c72cd4d535b9932e573f943f0870f5c7352ee175c342fa99602d8",
+      "bytes": 13881,
+      "role": "native"
+    },
+    {
+      "path": "zone/spells.cpp",
+      "sha256": "e7e155b9fad993cbac93fdb5854742643b0d1d894fea23e4e7ea7c2ceb8582e5",
+      "bytes": 244986,
+      "role": "native"
+    },
+    {
+      "path": "zone/task_client_state.cpp",
+      "sha256": "81b5a39b92f97cfecc72421dd27682deb919a8471ef2b522056afa3614d9ab57",
+      "bytes": 149622,
+      "role": "native"
+    },
+    {
+      "path": "zone/task_client_state.h",
+      "sha256": "1f31fff905ae38d9b8f4f39847dca2f9ec1fd2964df52db0f4393495c26128f5",
+      "bytes": 9550,
+      "role": "native"
+    },
+    {
+      "path": "zone/task_manager.cpp",
+      "sha256": "41f521f28b339b4091af4479e97663f27930ab2eaa418cb2a65fdcc8c6532f07",
+      "bytes": 74714,
+      "role": "native"
+    },
+    {
+      "path": "zone/task_manager.h",
+      "sha256": "726600f5e1fc560c9ea91a277b68836f763e157c57641d97c9de80cb1d68c644",
+      "bytes": 5506,
+      "role": "native"
+    },
+    {
+      "path": "zone/trading.cpp",
+      "sha256": "83170e7d8164558828d311df3190c706ecef630f52d6107f27fe6e91c718c11a",
+      "bytes": 121757,
+      "role": "native"
+    },
+    {
+      "path": "zone/zoning.cpp",
+      "sha256": "d81a88878a1f7c87e4bf060fb87acd52f335c1ec4b033ba662908842b91f1be4",
+      "bytes": 59987,
+      "role": "native"
+    },
+    {
+      "path": "zone/api_service.cpp",
+      "sha256": "d6a755927bf88f92c680cc1d61bdbc0014c18a49cda3ae3c05411d8580116ff6",
+      "bytes": 42858,
+      "role": "native"
+    },
+    {
+      "path": "common/shared_task_completion.h",
+      "sha256": "b1ab1af44c5e1aca279288c46417e1cd011b2456b971ed6300a6e11f9b916a44",
+      "bytes": 7831,
+      "role": "native"
+    },
+    {
+      "path": "quests/global/encounters/rof2_sod_fieldofscale.lua",
+      "sha256": "9bfb4226765f040390c7af705b80218c35c3e82e2ac62679fb814c0e48c8962f",
+      "bytes": 244,
+      "role": "quest"
+    },
+    {
+      "path": "quests/global/encounters/rof2_sod_fieldofscale_public.lua",
+      "sha256": "0546dba471addde8545e2163cbff702a61a0609d3adb1f006a9b996ba5daa919",
+      "bytes": 206,
+      "role": "quest"
+    },
+    {
+      "path": "quests/lua_modules/rof2_sod_fieldofscale.lua",
+      "sha256": "6ba248707e01d92af911c177a09aa2b668c2022bd17b5edddc4f059a7b993fee",
+      "bytes": 6765,
+      "role": "quest"
+    },
+    {
+      "path": "quests/lua_modules/rof2_sod_fieldofscale_data.lua",
+      "sha256": "6dc9c782b24b94bfd0b245505dfea21e117933ac5f3964aa778f4700656fb8bb",
+      "bytes": 11303,
+      "role": "quest"
+    },
+    {
+      "path": "quests/lua_modules/rof2_sod_fieldofscale_policy.lua",
+      "sha256": "2c655d39b3b0308518f926dad513f0a920787874001749501c8260664edef8a3",
+      "bytes": 2378,
+      "role": "quest"
+    },
+    {
+      "path": "quests/lua_modules/rof2_sod_fieldofscale_public.lua",
+      "sha256": "567ff399b87a742f2fc2d48655713110499daab18986db4270da9269cb362b7a",
+      "bytes": 5771,
+      "role": "quest"
+    },
+    {
+      "path": "quests/lua_modules/rof2_sod_fieldofscale_scene.lua",
+      "sha256": "59275b9f2928261ed9eb428f5a245c2d74ff69cdc362ab8185246a7ceb933cab",
+      "bytes": 12774,
+      "role": "quest"
+    },
+    {
+      "path": "quests/lua_modules/rof2_sod_fieldofscale_world.lua",
+      "sha256": "b016492c3050d7f8224754c668c1cf1dcacd44d9558d889ff358d3b2695f0158",
+      "bytes": 6467,
+      "role": "quest"
+    },
+    {
+      "path": "quests/oldfieldofbone/452079.lua",
+      "sha256": "a610757ff3cf5dc8b4363208df81d9749b90cbd763ee8bde37c877f0da747363",
+      "bytes": 154,
+      "role": "quest"
+    },
+    {
+      "path": "quests/oldfieldofbone/452108.lua",
+      "sha256": "90e436f8d5d787118e092105aba4cee0059f885152ea7ccb18b8b82dbd54b119",
+      "bytes": 156,
+      "role": "quest"
+    },
+    {
+      "path": "quests/oldfieldofbone/452121.lua",
+      "sha256": "666a7c6058fd4ad2ff7cc6813e7d7ce57654aa6b699b8f27f26deefa1e36975d",
+      "bytes": 169,
+      "role": "quest"
+    },
+    {
+      "path": "quests/oldfieldofbone/452133.lua",
+      "sha256": "d862203d02a308437c9aec7fd5173361fa862a287c136329f71e5d176a6c42e9",
+      "bytes": 168,
+      "role": "quest"
+    },
+    {
+      "path": "quests/oldfieldofbone/452147.lua",
+      "sha256": "9e0920464147fd0cc9dc33988b34100c927fd5b463720b8235d46eed82e6fdcf",
+      "bytes": 233,
+      "role": "quest"
+    },
+    {
+      "path": "quests/oldfieldofbone/452150.lua",
+      "sha256": "5c822651123d426510b03eb06e816a8a705858c5529d9e79307b558f775376ad",
+      "bytes": 151,
+      "role": "quest"
+    },
+    {
+      "path": "quests/oldfieldofbone/452163.lua",
+      "sha256": "61e2ec1d343e6216e0b2f3a1195f7a2b3fa2a7cb351196b69acab812f52d95c8",
+      "bytes": 165,
+      "role": "quest"
+    },
+    {
+      "path": "quests/oldfieldofbone/player.lua",
+      "sha256": "d94454615c92f7ee00817127387f01c68f88144a4baf585b340ffa2d9b5fd321",
+      "bytes": 371,
+      "role": "quest"
+    },
+    {
+      "path": "quests/oldkaesoraa/player.lua",
+      "sha256": "0f988f95694930c10f2eaae4f437382c0300a085ef595081e968cd74cdc618ec",
+      "bytes": 661,
+      "role": "quest"
+    },
+    {
+      "path": "quests/oldkaesorab/player.lua",
+      "sha256": "38e9f399ea67446eab7c62c92951a801c6fef86da42e4ddf8bbcb517dd04fa75",
+      "bytes": 349,
+      "role": "quest"
+    },
+    {
+      "path": "quests/oldkurn/player.lua",
+      "sha256": "38e9f399ea67446eab7c62c92951a801c6fef86da42e4ddf8bbcb517dd04fa75",
+      "bytes": 349,
+      "role": "quest"
+    }
+  ]
+}
