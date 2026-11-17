@@ -1,0 +1,888 @@
+{
+  "CI_consumption": [
+    "Verify exact asset and archive member hashes. Match server source and all required quest overlay paths.",
+    "Import only into a fresh empty database with a DELIMITER-aware MariaDB 10.11 client.",
+    "For an existing volume select the matching guarded upgrade using UPGRADE-CONTRACT.json."
+  ],
+  "asset": {
+    "name": "PEQ-RoF2-full-2026-11-17-rathe.zip",
+    "sha256": "f64815dbcdd4a2bfbc5fd9efc2610ec1b9832039ad76bf341d22c7e6777e7d13",
+    "bytes": 34645208,
+    "url": "https://github.com/nightstalker6669/EQEmu-Database/releases/download/peq-rof2-2026-11-17-rathe/PEQ-RoF2-full-2026-11-17-rathe.zip",
+    "sha256_sidecar_url": "https://github.com/nightstalker6669/EQEmu-Database/releases/download/peq-rof2-2026-11-17-rathe/PEQ-RoF2-full-2026-11-17-rathe.zip.sha256"
+  },
+  "cohort_source_binding": {
+    "source_base_commit": "e77c507c9b2a84e467ab07a6f2a25f63e9ecf0aa",
+    "accepted_source_manifest_sha256": "0b820ac7abd7f258eeee6747d8e2af7b71911fde5f9a9ccfcacdb6678f20e357",
+    "compiled_source_manifest_sha256": "44a9af77d4c75571860707dcb26d5e8226883a90396fb991667a9864cec19fa1",
+    "native_postimages": 15,
+    "quest_postimages": 8,
+    "required_quest_files": [
+      {
+        "path": "global/encounters/rof2_sod_fieldofscale.lua",
+        "sha256": "9bfb4226765f040390c7af705b80218c35c3e82e2ac62679fb814c0e48c8962f"
+      },
+      {
+        "path": "global/encounters/rof2_sod_fieldofscale_public.lua",
+        "sha256": "0546dba471addde8545e2163cbff702a61a0609d3adb1f006a9b996ba5daa919"
+      },
+      {
+        "path": "global/encounters/rof2_sod_kithicor.lua",
+        "sha256": "d4744d40fa020053ef200295fa9a413e9edc13da90db8b978feb278d88223711"
+      },
+      {
+        "path": "global/encounters/rof2_sod_oceangreen.lua",
+        "sha256": "af4e3941ec862dc100a91ba2bbdeebc2516cc7ee0cf203c5387718d3a94261c5"
+      },
+      {
+        "path": "global/encounters/rof2_sod_rathe.lua",
+        "sha256": "0eabe7dd1978d243a300b38100ac556a5c7c21132dc7532adeaf4d745fb1df69"
+      },
+      {
+        "path": "korascian/476110.lua",
+        "sha256": "4a0e56c5e0264ee665ac34e8228bb7524be66194492ab446141a536a42a95d5b"
+      },
+      {
+        "path": "korascian/476115.lua",
+        "sha256": "f8183909d76491c74b34dba345dd57926bd6446f401b8b421452c14239446af7"
+      },
+      {
+        "path": "korascian/476122.lua",
+        "sha256": "f1d48312c3d8d25bf88f3ae2be9674b91b8bdb835bd212391bb63b012034cc45"
+      },
+      {
+        "path": "korascian/player.lua",
+        "sha256": "597781abbf00f534bb9df7e367eac27c5e1f779a63f4b28de133f5836b95e465"
+      },
+      {
+        "path": "lua_modules/rof2_sod_fieldofscale.lua",
+        "sha256": "6ba248707e01d92af911c177a09aa2b668c2022bd17b5edddc4f059a7b993fee"
+      },
+      {
+        "path": "lua_modules/rof2_sod_fieldofscale_data.lua",
+        "sha256": "6dc9c782b24b94bfd0b245505dfea21e117933ac5f3964aa778f4700656fb8bb"
+      },
+      {
+        "path": "lua_modules/rof2_sod_fieldofscale_policy.lua",
+        "sha256": "2c655d39b3b0308518f926dad513f0a920787874001749501c8260664edef8a3"
+      },
+      {
+        "path": "lua_modules/rof2_sod_fieldofscale_public.lua",
+        "sha256": "567ff399b87a742f2fc2d48655713110499daab18986db4270da9269cb362b7a"
+      },
+      {
+        "path": "lua_modules/rof2_sod_fieldofscale_scene.lua",
+        "sha256": "59275b9f2928261ed9eb428f5a245c2d74ff69cdc362ab8185246a7ceb933cab"
+      },
+      {
+        "path": "lua_modules/rof2_sod_fieldofscale_world.lua",
+        "sha256": "b016492c3050d7f8224754c668c1cf1dcacd44d9558d889ff358d3b2695f0158"
+      },
+      {
+        "path": "lua_modules/rof2_sod_kithicor.lua",
+        "sha256": "f1c2e1a6ed71936785bd1f4cb1b810eedc5e0ede01e2d4fcde1b76b031e887a5"
+      },
+      {
+        "path": "lua_modules/rof2_sod_kithicor_data.lua",
+        "sha256": "5c306054246164672aecdb863f291959884f9ca49f09b2e69173296dd99ae71b"
+      },
+      {
+        "path": "lua_modules/rof2_sod_kithicor_personal.lua",
+        "sha256": "82958ca6c57956ab9d652735eff58f9f02ecec89a5842468fe1c8a9307986640"
+      },
+      {
+        "path": "lua_modules/rof2_sod_kithicor_scene.lua",
+        "sha256": "48ed3ffffa9b65c52cd6370242aba5f29a2cfdd5809d8b0a35fcf63605564ed6"
+      },
+      {
+        "path": "lua_modules/rof2_sod_oceangreen.lua",
+        "sha256": "9e234cdb76d711d88d5fc45bc674276fb129ac875b20d9bbf38e3ddf2dba7873"
+      },
+      {
+        "path": "lua_modules/rof2_sod_rathe.lua",
+        "sha256": "aef193a73efdf112683bc27ba04f778c6ceabac83dc8653fdb8e35ebd757ad4c"
+      },
+      {
+        "path": "lua_modules/rof2_sod_rathe_data.lua",
+        "sha256": "2941b35aee414c4ef6bb05dc277f9778ac72fa6a0b80511ae245cbf8a88746a9"
+      },
+      {
+        "path": "lua_modules/rof2_sod_rathe_scene.lua",
+        "sha256": "f96be22433de498c0997c030c669ef3babea38e6190567718329ba24b1bd06ad"
+      },
+      {
+        "path": "lua_modules/rof2_sod_scene.lua",
+        "sha256": "fc4d10eae4e9a151a56b86a16f8b1e18bd72a2a7bc274c8ef1148caf564e5fc1"
+      },
+      {
+        "path": "lua_modules/rof2_sod_scene_bindings.lua",
+        "sha256": "318af80403153e589e548fbb18f52671ce1e3b83e1aa85ba1e509b216bfd1764"
+      },
+      {
+        "path": "lua_modules/rof2_sod_ward_door.lua",
+        "sha256": "9ff2e6ba2b739d878455df633c8abd70da3a0251f74fd7222f1191c06b447aa4"
+      },
+      {
+        "path": "oceangreenhills/#Bracka_Darkpaw.lua",
+        "sha256": "71bfc4b83569d4f6e40b4a62b285e808512b9b23f2ac0bd4b9f11cdfc3986f6e"
+      },
+      {
+        "path": "oceangreenhills/#Captain_Hiran_Tillin.lua",
+        "sha256": "099b75bb7076f246dc4bab3546ed0eed4a5ccf04eb427ee6ef4ce9dd87e4a1f1"
+      },
+      {
+        "path": "oceangreenhills/#Elder_Mystic_Foppye.lua",
+        "sha256": "0a1606da6e6ea07f9680d4feea6f7d64e5466034df56b2ade61e4481c7d723ff"
+      },
+      {
+        "path": "oceangreenhills/#Fripp_Darkpaw.lua",
+        "sha256": "c6ac8d688907b3e5b9b4f0da56f3619e748bf4c2e4527eaec750e2f67d5a4df9"
+      },
+      {
+        "path": "oceangreenhills/#Raxtor_Darkpaw.lua",
+        "sha256": "04f2d4323c22ed90e2dd179a8086c8d4c9c62ff6a4e7e51c548d43fae9aaedaf"
+      },
+      {
+        "path": "oceangreenhills/Acolyte_Koel.lua",
+        "sha256": "3992aae7fda774d945b3e27809eaeac1d01d1792c080b02f7c8a74adcba16996"
+      },
+      {
+        "path": "oceangreenhills/Sergeant_Bronal_Cadran.lua",
+        "sha256": "87e8b85bfe15e351d88296c69c39efb1a49a125e8b386c8d64fc11332a7a6a64"
+      },
+      {
+        "path": "oceangreenvillage/#Billik_Broadwake.lua",
+        "sha256": "6a3c07d70de7717db69c0e06cb11f7deb3ea0e091b6fa7ad236b5c2cb2de11e4"
+      },
+      {
+        "path": "oceangreenvillage/player.lua",
+        "sha256": "f1368857f2bbdb73b531c123d98870d27d1dadcde00af39231ffd79111431199"
+      },
+      {
+        "path": "oldblackburrow/player.lua",
+        "sha256": "9ad2e961e7edcec29eca843657cc94873cc020d4209d892fc4758c84491b3ee2"
+      },
+      {
+        "path": "oldcommons/player.lua",
+        "sha256": "e063125eb1247e46956729c355312f5e3d4dfdcf7111e01913579405794bcbd8"
+      },
+      {
+        "path": "oldfieldofbone/452079.lua",
+        "sha256": "a610757ff3cf5dc8b4363208df81d9749b90cbd763ee8bde37c877f0da747363"
+      },
+      {
+        "path": "oldfieldofbone/452108.lua",
+        "sha256": "90e436f8d5d787118e092105aba4cee0059f885152ea7ccb18b8b82dbd54b119"
+      },
+      {
+        "path": "oldfieldofbone/452121.lua",
+        "sha256": "666a7c6058fd4ad2ff7cc6813e7d7ce57654aa6b699b8f27f26deefa1e36975d"
+      },
+      {
+        "path": "oldfieldofbone/452133.lua",
+        "sha256": "d862203d02a308437c9aec7fd5173361fa862a287c136329f71e5d176a6c42e9"
+      },
+      {
+        "path": "oldfieldofbone/452147.lua",
+        "sha256": "9e0920464147fd0cc9dc33988b34100c927fd5b463720b8235d46eed82e6fdcf"
+      },
+      {
+        "path": "oldfieldofbone/452150.lua",
+        "sha256": "5c822651123d426510b03eb06e816a8a705858c5529d9e79307b558f775376ad"
+      },
+      {
+        "path": "oldfieldofbone/452163.lua",
+        "sha256": "61e2ec1d343e6216e0b2f3a1195f7a2b3fa2a7cb351196b69acab812f52d95c8"
+      },
+      {
+        "path": "oldfieldofbone/player.lua",
+        "sha256": "d94454615c92f7ee00817127387f01c68f88144a4baf585b340ffa2d9b5fd321"
+      },
+      {
+        "path": "oldkaesoraa/player.lua",
+        "sha256": "0f988f95694930c10f2eaae4f437382c0300a085ef595081e968cd74cdc618ec"
+      },
+      {
+        "path": "oldkaesorab/player.lua",
+        "sha256": "38e9f399ea67446eab7c62c92951a801c6fef86da42e4ddf8bbcb517dd04fa75"
+      },
+      {
+        "path": "oldkithicor/456002.lua",
+        "sha256": "102044465ce3926211b431e0913e65d274e2896f43ca241168d0173c20b9a04a"
+      },
+      {
+        "path": "oldkithicor/456003.lua",
+        "sha256": "e8b30add84c7b3b951d6dc505efd21a06db59ce2ca568bb8eae6770909ab5b6b"
+      },
+      {
+        "path": "oldkithicor/456061.lua",
+        "sha256": "cfa9d9fac812aeef32d19805f92189a23c7fbe59c6530cca4d7bbc97dcb7b30f"
+      },
+      {
+        "path": "oldkithicor/456126.lua",
+        "sha256": "3ca32cc36135604d8711da38d8048fb60e3432451c02abfe98711bc0e3eed436"
+      },
+      {
+        "path": "oldkithicor/456163.lua",
+        "sha256": "47856f1b3c0b532d2e3ef8cee3c1966f5a64e4e6e87f0b9d8e3f48f68a8a3213"
+      },
+      {
+        "path": "oldkithicor/456171.lua",
+        "sha256": "d7d235f58e977ad41fa0ce719c8a4f56e80323d656ac24c3f33e5a7a4faee6f9"
+      },
+      {
+        "path": "oldkithicor/456172.lua",
+        "sha256": "5daf61a9ee2846c833c2bfa63bb184226c77ee8a5c9dda49b4370135e844a7b6"
+      },
+      {
+        "path": "oldkithicor/456174.lua",
+        "sha256": "5f99c169c5788b0d80b650e220732f1a97de7bd7072eb2d699fe4975a2a73729"
+      },
+      {
+        "path": "oldkithicor/456175.lua",
+        "sha256": "00b179a5e050b9d268a355995c383c9d48286f01b9ea552733600ad0bc546944"
+      },
+      {
+        "path": "oldkithicor/456178.lua",
+        "sha256": "c6b30625139c1d1b3eec140e71c602406d1282df2dc25a32b82050911a240807"
+      },
+      {
+        "path": "oldkithicor/player.lua",
+        "sha256": "31db36893d3d60eb61f69198cdc48b7b90169ebdc861fef2b48b7dad765f06c3"
+      },
+      {
+        "path": "oldkithicor/v0/spells/8140.lua",
+        "sha256": "2721a724135455b103ee859b4691ca130efe48a2a70bab4c7b98a1b7e0cda31e"
+      },
+      {
+        "path": "oldkurn/player.lua",
+        "sha256": "38e9f399ea67446eab7c62c92951a801c6fef86da42e4ddf8bbcb517dd04fa75"
+      }
+    ],
+    "required_quest_files_aggregate_count": 60,
+    "preserved_prior_Field_of_Scale_source_binding": {
+      "source_base_commit": "d36a281113206cb959c2ca4116ce59a303b6d2c6",
+      "accepted_source_manifest_sha256": "11d49b309bd44ef46782ea2b72a9f557790fb3a66df9d54b2beab818176ce180",
+      "compiled_source_manifest_sha256": "8545762778b39fcdba5a312c7447392691e99892bc85e67c0fda156fe42c1c64",
+      "native_postimages": 72,
+      "quest_postimages": 19,
+      "required_quest_files": [
+        {
+          "path": "global/encounters/rof2_sod_fieldofscale.lua",
+          "sha256": "9bfb4226765f040390c7af705b80218c35c3e82e2ac62679fb814c0e48c8962f"
+        },
+        {
+          "path": "global/encounters/rof2_sod_fieldofscale_public.lua",
+          "sha256": "0546dba471addde8545e2163cbff702a61a0609d3adb1f006a9b996ba5daa919"
+        },
+        {
+          "path": "global/encounters/rof2_sod_kithicor.lua",
+          "sha256": "d4744d40fa020053ef200295fa9a413e9edc13da90db8b978feb278d88223711"
+        },
+        {
+          "path": "global/encounters/rof2_sod_oceangreen.lua",
+          "sha256": "af4e3941ec862dc100a91ba2bbdeebc2516cc7ee0cf203c5387718d3a94261c5"
+        },
+        {
+          "path": "lua_modules/rof2_sod_fieldofscale.lua",
+          "sha256": "6ba248707e01d92af911c177a09aa2b668c2022bd17b5edddc4f059a7b993fee"
+        },
+        {
+          "path": "lua_modules/rof2_sod_fieldofscale_data.lua",
+          "sha256": "6dc9c782b24b94bfd0b245505dfea21e117933ac5f3964aa778f4700656fb8bb"
+        },
+        {
+          "path": "lua_modules/rof2_sod_fieldofscale_policy.lua",
+          "sha256": "2c655d39b3b0308518f926dad513f0a920787874001749501c8260664edef8a3"
+        },
+        {
+          "path": "lua_modules/rof2_sod_fieldofscale_public.lua",
+          "sha256": "567ff399b87a742f2fc2d48655713110499daab18986db4270da9269cb362b7a"
+        },
+        {
+          "path": "lua_modules/rof2_sod_fieldofscale_scene.lua",
+          "sha256": "59275b9f2928261ed9eb428f5a245c2d74ff69cdc362ab8185246a7ceb933cab"
+        },
+        {
+          "path": "lua_modules/rof2_sod_fieldofscale_world.lua",
+          "sha256": "b016492c3050d7f8224754c668c1cf1dcacd44d9558d889ff358d3b2695f0158"
+        },
+        {
+          "path": "lua_modules/rof2_sod_kithicor.lua",
+          "sha256": "f1c2e1a6ed71936785bd1f4cb1b810eedc5e0ede01e2d4fcde1b76b031e887a5"
+        },
+        {
+          "path": "lua_modules/rof2_sod_kithicor_data.lua",
+          "sha256": "5c306054246164672aecdb863f291959884f9ca49f09b2e69173296dd99ae71b"
+        },
+        {
+          "path": "lua_modules/rof2_sod_kithicor_personal.lua",
+          "sha256": "82958ca6c57956ab9d652735eff58f9f02ecec89a5842468fe1c8a9307986640"
+        },
+        {
+          "path": "lua_modules/rof2_sod_kithicor_scene.lua",
+          "sha256": "48ed3ffffa9b65c52cd6370242aba5f29a2cfdd5809d8b0a35fcf63605564ed6"
+        },
+        {
+          "path": "lua_modules/rof2_sod_oceangreen.lua",
+          "sha256": "9e234cdb76d711d88d5fc45bc674276fb129ac875b20d9bbf38e3ddf2dba7873"
+        },
+        {
+          "path": "lua_modules/rof2_sod_scene.lua",
+          "sha256": "fc4d10eae4e9a151a56b86a16f8b1e18bd72a2a7bc274c8ef1148caf564e5fc1"
+        },
+        {
+          "path": "lua_modules/rof2_sod_scene_bindings.lua",
+          "sha256": "318af80403153e589e548fbb18f52671ce1e3b83e1aa85ba1e509b216bfd1764"
+        },
+        {
+          "path": "lua_modules/rof2_sod_ward_door.lua",
+          "sha256": "9ff2e6ba2b739d878455df633c8abd70da3a0251f74fd7222f1191c06b447aa4"
+        },
+        {
+          "path": "oceangreenhills/#Bracka_Darkpaw.lua",
+          "sha256": "71bfc4b83569d4f6e40b4a62b285e808512b9b23f2ac0bd4b9f11cdfc3986f6e"
+        },
+        {
+          "path": "oceangreenhills/#Captain_Hiran_Tillin.lua",
+          "sha256": "099b75bb7076f246dc4bab3546ed0eed4a5ccf04eb427ee6ef4ce9dd87e4a1f1"
+        },
+        {
+          "path": "oceangreenhills/#Elder_Mystic_Foppye.lua",
+          "sha256": "0a1606da6e6ea07f9680d4feea6f7d64e5466034df56b2ade61e4481c7d723ff"
+        },
+        {
+          "path": "oceangreenhills/#Fripp_Darkpaw.lua",
+          "sha256": "c6ac8d688907b3e5b9b4f0da56f3619e748bf4c2e4527eaec750e2f67d5a4df9"
+        },
+        {
+          "path": "oceangreenhills/#Raxtor_Darkpaw.lua",
+          "sha256": "04f2d4323c22ed90e2dd179a8086c8d4c9c62ff6a4e7e51c548d43fae9aaedaf"
+        },
+        {
+          "path": "oceangreenhills/Acolyte_Koel.lua",
+          "sha256": "3992aae7fda774d945b3e27809eaeac1d01d1792c080b02f7c8a74adcba16996"
+        },
+        {
+          "path": "oceangreenhills/Sergeant_Bronal_Cadran.lua",
+          "sha256": "87e8b85bfe15e351d88296c69c39efb1a49a125e8b386c8d64fc11332a7a6a64"
+        },
+        {
+          "path": "oceangreenvillage/#Billik_Broadwake.lua",
+          "sha256": "6a3c07d70de7717db69c0e06cb11f7deb3ea0e091b6fa7ad236b5c2cb2de11e4"
+        },
+        {
+          "path": "oceangreenvillage/player.lua",
+          "sha256": "f1368857f2bbdb73b531c123d98870d27d1dadcde00af39231ffd79111431199"
+        },
+        {
+          "path": "oldblackburrow/player.lua",
+          "sha256": "9ad2e961e7edcec29eca843657cc94873cc020d4209d892fc4758c84491b3ee2"
+        },
+        {
+          "path": "oldcommons/player.lua",
+          "sha256": "e063125eb1247e46956729c355312f5e3d4dfdcf7111e01913579405794bcbd8"
+        },
+        {
+          "path": "oldfieldofbone/452079.lua",
+          "sha256": "a610757ff3cf5dc8b4363208df81d9749b90cbd763ee8bde37c877f0da747363"
+        },
+        {
+          "path": "oldfieldofbone/452108.lua",
+          "sha256": "90e436f8d5d787118e092105aba4cee0059f885152ea7ccb18b8b82dbd54b119"
+        },
+        {
+          "path": "oldfieldofbone/452121.lua",
+          "sha256": "666a7c6058fd4ad2ff7cc6813e7d7ce57654aa6b699b8f27f26deefa1e36975d"
+        },
+        {
+          "path": "oldfieldofbone/452133.lua",
+          "sha256": "d862203d02a308437c9aec7fd5173361fa862a287c136329f71e5d176a6c42e9"
+        },
+        {
+          "path": "oldfieldofbone/452147.lua",
+          "sha256": "9e0920464147fd0cc9dc33988b34100c927fd5b463720b8235d46eed82e6fdcf"
+        },
+        {
+          "path": "oldfieldofbone/452150.lua",
+          "sha256": "5c822651123d426510b03eb06e816a8a705858c5529d9e79307b558f775376ad"
+        },
+        {
+          "path": "oldfieldofbone/452163.lua",
+          "sha256": "61e2ec1d343e6216e0b2f3a1195f7a2b3fa2a7cb351196b69acab812f52d95c8"
+        },
+        {
+          "path": "oldfieldofbone/player.lua",
+          "sha256": "d94454615c92f7ee00817127387f01c68f88144a4baf585b340ffa2d9b5fd321"
+        },
+        {
+          "path": "oldkaesoraa/player.lua",
+          "sha256": "0f988f95694930c10f2eaae4f437382c0300a085ef595081e968cd74cdc618ec"
+        },
+        {
+          "path": "oldkaesorab/player.lua",
+          "sha256": "38e9f399ea67446eab7c62c92951a801c6fef86da42e4ddf8bbcb517dd04fa75"
+        },
+        {
+          "path": "oldkithicor/456002.lua",
+          "sha256": "102044465ce3926211b431e0913e65d274e2896f43ca241168d0173c20b9a04a"
+        },
+        {
+          "path": "oldkithicor/456003.lua",
+          "sha256": "e8b30add84c7b3b951d6dc505efd21a06db59ce2ca568bb8eae6770909ab5b6b"
+        },
+        {
+          "path": "oldkithicor/456061.lua",
+          "sha256": "cfa9d9fac812aeef32d19805f92189a23c7fbe59c6530cca4d7bbc97dcb7b30f"
+        },
+        {
+          "path": "oldkithicor/456126.lua",
+          "sha256": "3ca32cc36135604d8711da38d8048fb60e3432451c02abfe98711bc0e3eed436"
+        },
+        {
+          "path": "oldkithicor/456163.lua",
+          "sha256": "47856f1b3c0b532d2e3ef8cee3c1966f5a64e4e6e87f0b9d8e3f48f68a8a3213"
+        },
+        {
+          "path": "oldkithicor/456171.lua",
+          "sha256": "d7d235f58e977ad41fa0ce719c8a4f56e80323d656ac24c3f33e5a7a4faee6f9"
+        },
+        {
+          "path": "oldkithicor/456172.lua",
+          "sha256": "5daf61a9ee2846c833c2bfa63bb184226c77ee8a5c9dda49b4370135e844a7b6"
+        },
+        {
+          "path": "oldkithicor/456174.lua",
+          "sha256": "5f99c169c5788b0d80b650e220732f1a97de7bd7072eb2d699fe4975a2a73729"
+        },
+        {
+          "path": "oldkithicor/456175.lua",
+          "sha256": "00b179a5e050b9d268a355995c383c9d48286f01b9ea552733600ad0bc546944"
+        },
+        {
+          "path": "oldkithicor/456178.lua",
+          "sha256": "c6b30625139c1d1b3eec140e71c602406d1282df2dc25a32b82050911a240807"
+        },
+        {
+          "path": "oldkithicor/player.lua",
+          "sha256": "31db36893d3d60eb61f69198cdc48b7b90169ebdc861fef2b48b7dad765f06c3"
+        },
+        {
+          "path": "oldkithicor/v0/spells/8140.lua",
+          "sha256": "2721a724135455b103ee859b4691ca130efe48a2a70bab4c7b98a1b7e0cda31e"
+        },
+        {
+          "path": "oldkurn/player.lua",
+          "sha256": "38e9f399ea67446eab7c62c92951a801c6fef86da42e4ddf8bbcb517dd04fa75"
+        }
+      ],
+      "required_quest_files_aggregate_count": 52,
+      "preserved_prior_Kithicor_source_binding": {
+        "source_base_commit": "99c11623c2cf5ed15b0f0830a3aecea28528fc21",
+        "accepted_source_manifest_sha256": "7b46c11e92988f5af405fe719e4fb02c95c30057afbcd2ff26e1dca68d7dbd21",
+        "coherent_source_manifest_sha256": "efcebb9cce61a259499932049438f7ba0c3b1739afc888837a85dc11130d25a9",
+        "final_serving_quest_manifest_sha256": "40d533a33f198327b9bbd26ee41b8fa1ede6fbcc5350dd1b216ecfaff5d2eeb4",
+        "native_postimages": 37,
+        "quest_postimages": 18,
+        "required_quest_files": [
+          {
+            "path": "global/encounters/rof2_sod_oceangreen.lua",
+            "sha256": "af4e3941ec862dc100a91ba2bbdeebc2516cc7ee0cf203c5387718d3a94261c5"
+          },
+          {
+            "path": "lua_modules/rof2_sod_oceangreen.lua",
+            "sha256": "9e234cdb76d711d88d5fc45bc674276fb129ac875b20d9bbf38e3ddf2dba7873"
+          },
+          {
+            "path": "lua_modules/rof2_sod_scene.lua",
+            "sha256": "fc4d10eae4e9a151a56b86a16f8b1e18bd72a2a7bc274c8ef1148caf564e5fc1"
+          },
+          {
+            "path": "lua_modules/rof2_sod_scene_bindings.lua",
+            "sha256": "318af80403153e589e548fbb18f52671ce1e3b83e1aa85ba1e509b216bfd1764"
+          },
+          {
+            "path": "lua_modules/rof2_sod_ward_door.lua",
+            "sha256": "9ff2e6ba2b739d878455df633c8abd70da3a0251f74fd7222f1191c06b447aa4"
+          },
+          {
+            "path": "oceangreenhills/#Bracka_Darkpaw.lua",
+            "sha256": "71bfc4b83569d4f6e40b4a62b285e808512b9b23f2ac0bd4b9f11cdfc3986f6e"
+          },
+          {
+            "path": "oceangreenhills/#Captain_Hiran_Tillin.lua",
+            "sha256": "099b75bb7076f246dc4bab3546ed0eed4a5ccf04eb427ee6ef4ce9dd87e4a1f1"
+          },
+          {
+            "path": "oceangreenhills/#Elder_Mystic_Foppye.lua",
+            "sha256": "0a1606da6e6ea07f9680d4feea6f7d64e5466034df56b2ade61e4481c7d723ff"
+          },
+          {
+            "path": "oceangreenhills/#Fripp_Darkpaw.lua",
+            "sha256": "c6ac8d688907b3e5b9b4f0da56f3619e748bf4c2e4527eaec750e2f67d5a4df9"
+          },
+          {
+            "path": "oceangreenhills/#Raxtor_Darkpaw.lua",
+            "sha256": "04f2d4323c22ed90e2dd179a8086c8d4c9c62ff6a4e7e51c548d43fae9aaedaf"
+          },
+          {
+            "path": "oceangreenhills/Acolyte_Koel.lua",
+            "sha256": "3992aae7fda774d945b3e27809eaeac1d01d1792c080b02f7c8a74adcba16996"
+          },
+          {
+            "path": "oceangreenhills/Sergeant_Bronal_Cadran.lua",
+            "sha256": "87e8b85bfe15e351d88296c69c39efb1a49a125e8b386c8d64fc11332a7a6a64"
+          },
+          {
+            "path": "oceangreenvillage/#Billik_Broadwake.lua",
+            "sha256": "6a3c07d70de7717db69c0e06cb11f7deb3ea0e091b6fa7ad236b5c2cb2de11e4"
+          },
+          {
+            "path": "oceangreenvillage/player.lua",
+            "sha256": "f1368857f2bbdb73b531c123d98870d27d1dadcde00af39231ffd79111431199"
+          },
+          {
+            "path": "oldblackburrow/player.lua",
+            "sha256": "9ad2e961e7edcec29eca843657cc94873cc020d4209d892fc4758c84491b3ee2"
+          },
+          {
+            "path": "global/encounters/rof2_sod_kithicor.lua",
+            "sha256": "d4744d40fa020053ef200295fa9a413e9edc13da90db8b978feb278d88223711"
+          },
+          {
+            "path": "lua_modules/rof2_sod_kithicor.lua",
+            "sha256": "f1c2e1a6ed71936785bd1f4cb1b810eedc5e0ede01e2d4fcde1b76b031e887a5"
+          },
+          {
+            "path": "lua_modules/rof2_sod_kithicor_data.lua",
+            "sha256": "5c306054246164672aecdb863f291959884f9ca49f09b2e69173296dd99ae71b"
+          },
+          {
+            "path": "lua_modules/rof2_sod_kithicor_personal.lua",
+            "sha256": "82958ca6c57956ab9d652735eff58f9f02ecec89a5842468fe1c8a9307986640"
+          },
+          {
+            "path": "lua_modules/rof2_sod_kithicor_scene.lua",
+            "sha256": "48ed3ffffa9b65c52cd6370242aba5f29a2cfdd5809d8b0a35fcf63605564ed6"
+          },
+          {
+            "path": "oldcommons/player.lua",
+            "sha256": "e063125eb1247e46956729c355312f5e3d4dfdcf7111e01913579405794bcbd8"
+          },
+          {
+            "path": "oldkithicor/456002.lua",
+            "sha256": "102044465ce3926211b431e0913e65d274e2896f43ca241168d0173c20b9a04a"
+          },
+          {
+            "path": "oldkithicor/456003.lua",
+            "sha256": "e8b30add84c7b3b951d6dc505efd21a06db59ce2ca568bb8eae6770909ab5b6b"
+          },
+          {
+            "path": "oldkithicor/456061.lua",
+            "sha256": "cfa9d9fac812aeef32d19805f92189a23c7fbe59c6530cca4d7bbc97dcb7b30f"
+          },
+          {
+            "path": "oldkithicor/456126.lua",
+            "sha256": "3ca32cc36135604d8711da38d8048fb60e3432451c02abfe98711bc0e3eed436"
+          },
+          {
+            "path": "oldkithicor/456163.lua",
+            "sha256": "47856f1b3c0b532d2e3ef8cee3c1966f5a64e4e6e87f0b9d8e3f48f68a8a3213"
+          },
+          {
+            "path": "oldkithicor/456171.lua",
+            "sha256": "d7d235f58e977ad41fa0ce719c8a4f56e80323d656ac24c3f33e5a7a4faee6f9"
+          },
+          {
+            "path": "oldkithicor/456172.lua",
+            "sha256": "5daf61a9ee2846c833c2bfa63bb184226c77ee8a5c9dda49b4370135e844a7b6"
+          },
+          {
+            "path": "oldkithicor/456174.lua",
+            "sha256": "5f99c169c5788b0d80b650e220732f1a97de7bd7072eb2d699fe4975a2a73729"
+          },
+          {
+            "path": "oldkithicor/456175.lua",
+            "sha256": "00b179a5e050b9d268a355995c383c9d48286f01b9ea552733600ad0bc546944"
+          },
+          {
+            "path": "oldkithicor/456178.lua",
+            "sha256": "c6b30625139c1d1b3eec140e71c602406d1282df2dc25a32b82050911a240807"
+          },
+          {
+            "path": "oldkithicor/player.lua",
+            "sha256": "31db36893d3d60eb61f69198cdc48b7b90169ebdc861fef2b48b7dad765f06c3"
+          },
+          {
+            "path": "oldkithicor/v0/spells/8140.lua",
+            "sha256": "2721a724135455b103ee859b4691ca130efe48a2a70bab4c7b98a1b7e0cda31e"
+          }
+        ],
+        "required_quest_files_aggregate_count": 33,
+        "static_content_sha256": "5b043982b23b74f4f857724b6baf1ff0611bb88ce348f32f15f3f6230462ffc5",
+        "preserved_prior_oceangreen_source_binding": {
+          "accepted_owner_manifest_sha256": "cd5fc8462c99dc50c69aadab93b98d8e5a0db2219c706c6815eeae13c6319533",
+          "coherent_source_manifest_sha256": "00caab93d829df8264094c61c04bafe8aeecc61469b748ff9892d764ed260233",
+          "feature_commit": "5f8481f1edfbb5eb8c6a746d86e731bc9ac66701",
+          "native_postimages": 43,
+          "quest_postimages": 15,
+          "required_quest_files": [
+            {
+              "path": "global/encounters/rof2_sod_oceangreen.lua",
+              "sha256": "af4e3941ec862dc100a91ba2bbdeebc2516cc7ee0cf203c5387718d3a94261c5"
+            },
+            {
+              "path": "lua_modules/rof2_sod_oceangreen.lua",
+              "sha256": "9e234cdb76d711d88d5fc45bc674276fb129ac875b20d9bbf38e3ddf2dba7873"
+            },
+            {
+              "path": "lua_modules/rof2_sod_scene.lua",
+              "sha256": "fc4d10eae4e9a151a56b86a16f8b1e18bd72a2a7bc274c8ef1148caf564e5fc1"
+            },
+            {
+              "path": "lua_modules/rof2_sod_scene_bindings.lua",
+              "sha256": "318af80403153e589e548fbb18f52671ce1e3b83e1aa85ba1e509b216bfd1764"
+            },
+            {
+              "path": "lua_modules/rof2_sod_ward_door.lua",
+              "sha256": "9ff2e6ba2b739d878455df633c8abd70da3a0251f74fd7222f1191c06b447aa4"
+            },
+            {
+              "path": "oceangreenhills/#Bracka_Darkpaw.lua",
+              "sha256": "71bfc4b83569d4f6e40b4a62b285e808512b9b23f2ac0bd4b9f11cdfc3986f6e"
+            },
+            {
+              "path": "oceangreenhills/#Captain_Hiran_Tillin.lua",
+              "sha256": "099b75bb7076f246dc4bab3546ed0eed4a5ccf04eb427ee6ef4ce9dd87e4a1f1"
+            },
+            {
+              "path": "oceangreenhills/#Elder_Mystic_Foppye.lua",
+              "sha256": "0a1606da6e6ea07f9680d4feea6f7d64e5466034df56b2ade61e4481c7d723ff"
+            },
+            {
+              "path": "oceangreenhills/#Fripp_Darkpaw.lua",
+              "sha256": "c6ac8d688907b3e5b9b4f0da56f3619e748bf4c2e4527eaec750e2f67d5a4df9"
+            },
+            {
+              "path": "oceangreenhills/#Raxtor_Darkpaw.lua",
+              "sha256": "04f2d4323c22ed90e2dd179a8086c8d4c9c62ff6a4e7e51c548d43fae9aaedaf"
+            },
+            {
+              "path": "oceangreenhills/Acolyte_Koel.lua",
+              "sha256": "3992aae7fda774d945b3e27809eaeac1d01d1792c080b02f7c8a74adcba16996"
+            },
+            {
+              "path": "oceangreenhills/Sergeant_Bronal_Cadran.lua",
+              "sha256": "87e8b85bfe15e351d88296c69c39efb1a49a125e8b386c8d64fc11332a7a6a64"
+            },
+            {
+              "path": "oceangreenvillage/#Billik_Broadwake.lua",
+              "sha256": "6a3c07d70de7717db69c0e06cb11f7deb3ea0e091b6fa7ad236b5c2cb2de11e4"
+            },
+            {
+              "path": "oceangreenvillage/player.lua",
+              "sha256": "f1368857f2bbdb73b531c123d98870d27d1dadcde00af39231ffd79111431199"
+            },
+            {
+              "path": "oldblackburrow/player.lua",
+              "sha256": "9ad2e961e7edcec29eca843657cc94873cc020d4209d892fc4758c84491b3ee2"
+            }
+          ],
+          "source_base_commit": "4b1b2154a042c478f13a462731e36febadb70861",
+          "static_content_sha256": "5a5757e1c4631af375b87b6c69794d9e72ebc8cc91c832144d8359bb2b5454c2",
+          "writer_fix_patch_sha256": "86e3f6933e91f73838c9fef5783170e70224e44a5c72e97e343afc6c9ca0c1f8"
+        }
+      },
+      "static_content_sha256": "aa9587ed0ee56bb7729968aa7a7da4cd17dd1fe2cf2d2d7dda587181d9cc4fbb"
+    },
+    "static_content_sha256": "afc4b2a6bb98a02ef47e03cf56b6de12a312cbb99cba37ff6bc1b7d53e3bead6"
+  },
+  "database_repository": "nightstalker6669/EQEmu-Database",
+  "existing_volume_upgrade": {
+    "format": "rathe-existing-volume-upgrade-v1",
+    "supported_old_seed_sql_sha256": "e5bc30356530ca289806697e504586ac7121ff019277814cf9d0028aa0cc9ce9",
+    "new_seed_sql_sha256": "814959619e8eaeff56cd4c705aec5cadac50f722c44422b0164cb1c00f1719a8",
+    "ordered_additive_entrypoint": "APPLY.sql",
+    "ordered_migrations": [
+      {
+        "file": "APPLY.sql",
+        "sha256": "5c3dac2109dfa0146e7ad85508370a5b4d3d8151eb358ef4eab5f13de6d0cd35",
+        "bytes": 139971
+      }
+    ],
+    "prior_rathe_step0_only": {
+      "file": "002_disrupt_parallel_prior_rathe_only.sql",
+      "sha256": "80f9b930f7af0c28e9131f6b792a2aa7e5860e0ca44fac44f99fa289b9377554",
+      "bytes": 25991,
+      "required_preimage": "All five Disrupt activities exactly match the original Rathe step 0 definitions.",
+      "run_after_APPLY_sql": false
+    },
+    "managed_marker_transition": {
+      "file": "003_everforge_accept_seed.sql",
+      "sha256": "06ff71df9df187f755b7d6f8c24e7916ffcbe0ecb10acd1859b164ebbc5aefee",
+      "bytes": 172359,
+      "authorization_variable": "rathe_20261117_marker_authorized",
+      "requires_exact_published_fos_ready_digest": true,
+      "exact_definition_postconditions": 179
+    },
+    "backup_required": true,
+    "offline_writers_required": true,
+    "preserves_player_and_other_owner_content": true,
+    "full_seed_replay": false,
+    "marker_adoption": false
+  },
+  "format": "eqemu-rathe-database-release-v1",
+  "fresh_install": {
+    "MariaDB": "10.11",
+    "assembled_with": "10.11.19",
+    "base_tables": 463,
+    "bots_version": 0,
+    "custom_version": 0,
+    "empty_private_player_and_operation_tables_preserved": true,
+    "full_dump_replaces_tables": true,
+    "merc_inventory": 81,
+    "merc_spell_list_entries": 625,
+    "merc_stats": 4000,
+    "new_empty_database_only": true,
+    "player_preserving_upgrade": false,
+    "recipe_entries": 261389,
+    "recipes": 34486,
+    "rows": 3053042,
+    "schema_version": 9338,
+    "views": 1,
+    "composition": "Exact published FoS seed plus accepted Rathe definition SQL with final Disrupt step 1"
+  },
+  "future_update_policy": "A futurematchedDBversion requires a separately validatedwholecohort sanitizedrelease and explicitcommitted source/tag/assetdigest pin; never silently mutableLatest/latestDB, partialrank/itemexports, or old945-only pin for newcohort. ActualCIfailure corrections gather allvisible errors in one batch.",
+  "live_application_status": "Exact scoped application and native acceptance complete. Public artifacts prepared for coordinated publication.",
+  "native_acceptance_scope": {
+    "status": "SCOPED_NATIVE_ACCEPTANCE",
+    "receipt_sha256": {
+      "six_personal_tasks": "6c6fe7d6fb195c7191809e22230ed1dc075f4e7dc93b343791f05f519c5a73c9",
+      "disrupt_parallel_credit": "6a028a3e1a0c7a9192329956eecd256c2fee7f1d8dba8758cabacfaf376e053c",
+      "murdunk_success": "a8b283a2c3743ba82310a6e69383a46a19400d218032c540df7572ad445f4aee",
+      "murdunk_tenth_escape_failure": "e420c48da676ded25cbc1655e739da4a802aa42773e8368f5b7284c054c417db",
+      "murdunk_sorcerer_casting": "7e5bda6f7fdc787f249e5431ddc44a73701cfb3ce04cae86c4532296cdd6f834",
+      "void_e_admission": "15e36996671029f42497868fe3f72813d0f908b66896c192895131a1934c3c36",
+      "void_e_stock": "2f8abb34b3d871838251a370a3e1c8a9a71a6affa793a526270b58d5a3b3597e",
+      "void_e_purchase_and_learning": "ecb94c03c3773f1e48506e7c214fdf6e4017145ec62a3238917078aecdd81dba",
+      "korafax_all_four_group_admission": "36c5a30695d760bfc73610195d3566181bb181fb1c8998b6600c5d6d903567e3",
+      "peer_all_seven": "0d27af876781737d970e47c5360bfb5d579ba299ca34273e469b4b3bec01704c",
+      "peer_j5_native_hire": "6de9ac3f1df861858a8b7e34d0d75c77ad54defa1f01ed42e182348dfcfa1ae5"
+    },
+    "observed": [
+      "Six personal tasks and three-member Murdunk completion with native rewards.",
+      "Murdunk completed on 35 actual kills. A separate run failed on the tenth escape.",
+      "Parallel Disrupt scout credit observed while another objective remained incomplete.",
+      "Earned Void E admission, 54 vendor entries including 14 additions, item 119446 purchase for 185 Chronobines and spell 19696 learning.",
+      "Original Void E body trigger admitted an eligible character to Korafax (discord, 470).",
+      "An eligible peer at ordinary account access hired Journeyman V template 659. Prior mercenary ownership was preserved."
+    ],
+    "limits": [
+      "The acceptance cohort included development access, accelerated combat/movement and a Shock fixture. The full walkthrough does not establish unassisted gameplay or historical fidelity.",
+      "The Murdunk caster evidence covers the observed sorcerer. Archer ranged attacks remain unverified.",
+      "Whom Frogs Destroy used actual hostile deaths. The flee-arrival and hailer-only credit branch was not observed.",
+      "Geometry, NPC balance and AI are approved local reconstruction. Raid, Crystal Bloom and Void F/G are outside this release."
+    ]
+  },
+  "native_gameplay_acceptance": true,
+  "payload_inventory": {
+    "all_member_sha256_file": "SHA256SUMS",
+    "full_sql_bytes": 301682066,
+    "housing_json_member_count": 331,
+    "housing_json_prefix": "housing-runtime-content/",
+    "housing_profile_bindings": "housing-runtime-content/PROFILE-BINDINGS.json",
+    "housing_profile_bindings_sha256": "4d6c3533a882ce79ef790caa08a781a1994d56ac3d9c58a8459bb9e1ac9b73b2",
+    "identical_SQL_and_Housing_bytes_required": true,
+    "payload_member_count": 388
+  },
+  "preserved_mercenary_cohort_source_binding": {
+    "SQL_sha256": "6ad8f950c178e9c1d84658387c521dc33695572fd8926c30a711aff44e50790f",
+    "complete_patch_sha256": "a5b2b0022a9b339fbed6d45d9823090236dd2638b0cb5f2c2d8e6d4f8d7d1816",
+    "expected_develop_merc_cpp_postimage_sha256": "11ac144556a3caa91e9ab33bd31e937a9a30c2ab1f117265c32a77b30db99c91",
+    "feature_branch": "rof2-mercenaries",
+    "feature_commit": "5178edd73a4204f863b298fa9328e19205da5f56",
+    "manifest_sha256": "78710b4716455c626cc62189cca8eacd252d2ce796adc018c0b4dd18657aace9",
+    "source_base_commit": "c642eb178b8a0a9881812c2b3d3f188acb1217d8"
+  },
+  "qualification_documents": [
+    "README.md",
+    "TABLE-INVENTORY.json",
+    "SOURCE-MANIFEST.json",
+    "SOURCE-CONTENT-BINDING.json",
+    "NATIVE-QUALIFICATIONS.json",
+    "VALIDATION.json",
+    "CANONICAL-SEED-COMPOSITION.json",
+    "migrations/rathe/UPGRADE-CONTRACT.json"
+  ],
+  "release_tag": "peq-rof2-2026-11-17-rathe",
+  "required_code_boundary": {
+    "compatible_descendants_must_preserve": "Completed RRC310 property-preserving recharge and RRC312-r2 full32 actor contracts plus matching integrated housing/reward/schema/quest/opcode contracts. Build pins exact server revision separately. Accepted ten-task Oceangreen native postimages, measured interrupt writer fix,15 final quests and existing base character-selection fix4b must all remain matched. Kithicor final r11 exact37native/18quests,all publicclass1correction/4private-schemas/custody/deathEXP/faction fixes and qualified r8 native behavior/explicit r11 limits must remain matched. Field of Scale exact72native/19ownedquests, compiled85457627 cohort and all qualified native acceptance limits; physical27columns/recipe_outbox/immutable decisions/message selectors/item cache alias definitions must remain matched. Rathe World/Zone composition and eight quest paths, including earned Void E, native all-four-group Korafax gate and Journeyman V.",
+    "completed_actor_source_commit": "3ed26770e83e0881efadcfa93e382aff9fc626b9",
+    "completed_mercenary_feature_commit": "5178edd73a4204f863b298fa9328e19205da5f56",
+    "external_operator_resources": "Authenticated original RoF2 archives/maps and matching server quests/opcodes; generate fresh target shared memory normally."
+  },
+  "required_members_sha256": {
+    "NATIVE-QUALIFICATIONS.json": "20608dd2d822055035b1689668af5984f4fc7fe2d9dced9387054be8c533b8ef",
+    "BASE-KITHICOR-NATIVE-QUALIFICATIONS.json": "ae00d73a34e6e7e601ac5574efbbc78fbbc96190eb6fb2e8a786e57ffec8e765",
+    "BASE-FIELD-OF-SCALE-NATIVE-QUALIFICATIONS.json": "ef9ea22dcecd4d77896d7483818e33fdff4ce14fb7fe060b46f6b04b7a157923",
+    "SOD-OCEANGREEN-CONTENT.json": "5a5757e1c4631af375b87b6c69794d9e72ebc8cc91c832144d8359bb2b5454c2",
+    "VICTUAL-CLASS-FEATURE-DELTA.json": "1220253988a07ff5ef833759b947c33b4bcc56cad20195f94366cd510df7ffaf",
+    "CANONICAL-SEED-COMPOSITION.json": "2a99ac7d73d2a0ab8b8968060aa93c5b8a36fc536b30ebbe3f597515bdbab257",
+    "BASE-OCEANGREEN-VALIDATION.json": "8bac04e7fbc2115b6e321037c3f9ebbd050faf14c156073047762e08ddeb9339",
+    "SOURCE-MANIFEST.json": "0b820ac7abd7f258eeee6747d8e2af7b71911fde5f9a9ccfcacdb6678f20e357",
+    "BASE-KITHICOR-VALIDATION.json": "31de29a3e6b7fe4d4dd7fc64684bc0b5b64107de96335ff078d9a90ac0021af1",
+    "SOURCE-CONTENT-BINDING.json": "b5a4c32594ab5aec3b3a4ca783eebcd55ab44aea728cb3440709e60cd9adbfcd",
+    "BASE-README.md": "9d661df4676661cd6f3d791679e371622c4eb382d78cfd62e55186846d3b8172",
+    "BASE-OCEANGREEN-SOURCE-CONTENT-BINDING.json": "c767cc0f28cbf557a6731984769961189c51626a2225f40f60404b5d6790cb3d",
+    "BASE-FIELD-OF-SCALE-TABLE-INVENTORY.json": "1db192127f251334b59a50f28600d809159977b55c92e2c352ce485febbe8033",
+    "VALIDATION.json": "bdfee356c214b7682c027df998adad2d21fca5f212f63477eb550675a0f3b2a2",
+    "COMPLETED-RECIPE-UPDATES.json": "fdf459a6bef7e90351d3db5c983e30920205876a990aa144b5779a4c242d25e0",
+    "full.sql": "814959619e8eaeff56cd4c705aec5cadac50f722c44422b0164cb1c00f1719a8",
+    "BASE-FIELD-OF-SCALE-SOURCE-CONTENT-BINDING.json": "af3bd4e1d6a05f8da2c89bfde68ee245f54c76db5b7a550d2826b2fa90c48263",
+    "BASE-KITHICOR-README.md": "7c187ed4a8f4c1fb9ab2d8771e7ab28b671b209e13ff64e73c8de8367fa86720",
+    "BASE-FIELD-OF-SCALE-CANONICAL-SEED-COMPOSITION.json": "b72eb294f1b1600687caf2d97bb14d9530f06630080b627f0d638c57644fbc35",
+    "BASE-FIELD-OF-SCALE-VALIDATION.json": "abc5d479e7abc7f97932fb70991958123c500639700db92e1c64e2545276ced8",
+    "BASE-OCEANGREEN-README.md": "b6ca5f4e522748793531ab4416a7345a7254a1e06d9a184a3ea1e6a541482940",
+    "BASE-FIELD-OF-SCALE-README.md": "26765b19fdf4abe66b878aa7add7ce87a6f051c557f9affda894cf9b078ff1ea",
+    "BASE-KITHICOR-TABLE-INVENTORY.json": "0864644e42bc12e37289a56840788fe668909bec2c93f2001c51868820bff46b",
+    "KITHICOR-STATIC-CONTENT.json": "5b043982b23b74f4f857724b6baf1ff0611bb88ce348f32f15f3f6230462ffc5",
+    "README.md": "ca296832726f905da0bcf2f015d2e1a614ab9bb9fee872d13c54b35e653d0c6a",
+    "BASE-FIELD-OF-SCALE-SOURCE-MANIFEST.json": "11d49b309bd44ef46782ea2b72a9f557790fb3a66df9d54b2beab818176ce180",
+    "BASE-KITHICOR-SOURCE-MANIFEST.json": "7b46c11e92988f5af405fe719e4fb02c95c30057afbcd2ff26e1dca68d7dbd21",
+    "TABLE-INVENTORY.json": "e6fe3fa78ad7b16e8c9d5f9b73d3d24552e9cfff663578b45e665aa5d5e991fe",
+    "MERCENARY86-100-CONTENT.json": "27a9d180e6a66320ae9877cd763341f6579d0a1a8a66ac6fc23c26fb9dc15c16",
+    "BASE-KITHICOR-SOURCE-CONTENT-BINDING.json": "c8b30a33bc2c2cd23c574148547d03f20a986c1cc82c50cf4b0f0261c959e3f1",
+    "migrations/rathe/APPLY.sql": "5c3dac2109dfa0146e7ad85508370a5b4d3d8151eb358ef4eab5f13de6d0cd35",
+    "migrations/rathe/UPGRADE-CONTRACT.json": "e2f5502817d97f6d1fe668b5199256fc4d4383c688cef7b5f8af1601855ee746",
+    "migrations/rathe/003_everforge_accept_seed.sql": "06ff71df9df187f755b7d6f8c24e7916ffcbe0ecb10acd1859b164ebbc5aefee",
+    "migrations/rathe/RATHE-STATIC-CONTENT.json": "afc4b2a6bb98a02ef47e03cf56b6de12a312cbb99cba37ff6bc1b7d53e3bead6",
+    "migrations/rathe/README.md": "ca296832726f905da0bcf2f015d2e1a614ab9bb9fee872d13c54b35e653d0c6a",
+    "migrations/rathe/002_disrupt_parallel_prior_rathe_only.sql": "80f9b930f7af0c28e9131f6b792a2aa7e5860e0ca44fac44f99fa289b9377554",
+    "migrations/oceangreen/002_everforge_accept_seed.sql": "52bc75af280a484e410bd6a694417ef28a3922ea3abcfb3733b6ba4f20d7e641",
+    "migrations/oceangreen/UPGRADE-CONTRACT.json": "a6b704028995992ee1ad07b453ca7a270a66037219d473eaec173e8050024f06",
+    "migrations/oceangreen/001_oceangreen_required.sql": "a4276f2534775de8c2c9fe605dca006ed2c3e72b2a8c795d184f4bd83cb3311f",
+    "migrations/field-of-scale/001_fos_food_custody_required.sql": "c2783fad063f04aadf1bed1f4cc9250f3a531a7bd85f55d053519c5264c981cc",
+    "migrations/field-of-scale/APPLY.sql": "1e10bde84fd9ce5901dbcf1f8e6577a64b9d7d016f13a12f29035d6ac1325914",
+    "migrations/field-of-scale/003_fos_message_selector_required.sql": "662680323f3affde798c59b4f8329bc965e167bf7e745ced11bdcd6a63200c7d",
+    "migrations/field-of-scale/APPLIED-SUMMARY.json": "0b07dc82cdb7154fa7273afcebac8fb49a40a8bf39b676a6389dea1549254467",
+    "migrations/field-of-scale/002_fos_original_transform_required.sql": "3e5e336c69a791844a72329a0e573e2efd4c1c88edcfd60cc4e4898f1e4e60b1",
+    "migrations/field-of-scale/UPGRADE-CONTRACT.json": "e7fe69a508d383b25b3185d5764ca7fba87ed87634efee4cb3be66bbee447362",
+    "migrations/field-of-scale/006_everforge_accept_seed.sql": "de773bc43ad82aaf910fe229de781227d7f2cae17591565a9f6d61c685290a21",
+    "migrations/field-of-scale/005_personal_taskset_markers.sql": "78c03d0a7f9ba462ca9f769e360f35f381e1e1844aa5b3ada052e43b6a030e73",
+    "migrations/field-of-scale/POSTCONDITIONS.sql.inc": "bc959cc9867540b2801bc4b182bc168f1bc3a362003f1a59f70154b87d2e872f",
+    "migrations/field-of-scale/README.md": "26765b19fdf4abe66b878aa7add7ce87a6f051c557f9affda894cf9b078ff1ea",
+    "migrations/field-of-scale/004_fos_combined_content_required.sql": "1640a08500bd71c27b94c1d69608c14c9b8fd57f4dcb0125aa303c301cb32aa1",
+    "migrations/field-of-scale/FIELD-OF-SCALE-STATIC-CONTENT.json": "aa9587ed0ee56bb7729968aa7a7da4cd17dd1fe2cf2d2d7dda587181d9cc4fbb",
+    "migrations/field-of-scale/002_CAPTURE_CHECK_BINDING.sql": "71d0e48f9058b44f351d106f2a7588cb198a4c75cd2624e656292bcaebee7585",
+    "migrations/kithicor/002_everforge_accept_seed.sql": "15fcd9997ecc6e12f631c23e26501d141d98d1194c61095c9029232777e2d7af",
+    "migrations/kithicor/003_repeatable_victual_class.sql.inc": "1d202d25790112cc21da2e6815b31e37f5d80badc8c5ae559e5e17e0487d29cf",
+    "migrations/kithicor/UPGRADE-CONTRACT.json": "4d0f1f204036206eca93e60ee2c361c42ccb86b6bee31661342398edf8d5bdda",
+    "migrations/kithicor/001_kithicor_required.sql": "cd4971ef8a325ca4991af9dce9cddc6ca76fdd63694019d24f44ebebf3692135"
+  },
+  "runtime_or_DB_access_required_for_packaging": false,
+  "source_commit": "e77c507c9b2a84e467ab07a6f2a25f63e9ecf0aa",
+  "source_commit_role": "Published source parent. GitHub records the actual matching integration commit.",
+  "source_repository": "nightstalker6669/EQEmu",
+  "verification_basis": "Published seed bytes and CAS preimages checked offline, applied receipts and native receipts reused, archive CRC and all member SHA256 verified.",
+  "base_database_release_tag": "peq-rof2-2026-11-17-field-of-scale"
+}

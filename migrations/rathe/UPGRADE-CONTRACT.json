@@ -1,0 +1,33 @@
+{
+  "format": "rathe-existing-volume-upgrade-v1",
+  "supported_old_seed_sql_sha256": "e5bc30356530ca289806697e504586ac7121ff019277814cf9d0028aa0cc9ce9",
+  "new_seed_sql_sha256": "814959619e8eaeff56cd4c705aec5cadac50f722c44422b0164cb1c00f1719a8",
+  "ordered_additive_entrypoint": "APPLY.sql",
+  "ordered_migrations": [
+    {
+      "file": "APPLY.sql",
+      "sha256": "5c3dac2109dfa0146e7ad85508370a5b4d3d8151eb358ef4eab5f13de6d0cd35",
+      "bytes": 139971
+    }
+  ],
+  "prior_rathe_step0_only": {
+    "file": "002_disrupt_parallel_prior_rathe_only.sql",
+    "sha256": "80f9b930f7af0c28e9131f6b792a2aa7e5860e0ca44fac44f99fa289b9377554",
+    "bytes": 25991,
+    "required_preimage": "All five Disrupt activities exactly match the original Rathe step 0 definitions.",
+    "run_after_APPLY_sql": false
+  },
+  "managed_marker_transition": {
+    "file": "003_everforge_accept_seed.sql",
+    "sha256": "06ff71df9df187f755b7d6f8c24e7916ffcbe0ecb10acd1859b164ebbc5aefee",
+    "bytes": 172359,
+    "authorization_variable": "rathe_20261117_marker_authorized",
+    "requires_exact_published_fos_ready_digest": true,
+    "exact_definition_postconditions": 179
+  },
+  "backup_required": true,
+  "offline_writers_required": true,
+  "preserves_player_and_other_owner_content": true,
+  "full_seed_replay": false,
+  "marker_adoption": false
+}
