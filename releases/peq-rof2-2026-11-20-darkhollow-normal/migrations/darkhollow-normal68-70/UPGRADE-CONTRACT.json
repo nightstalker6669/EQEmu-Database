@@ -1,0 +1,150 @@
+{
+  "append_only_client_inputs": [
+    {
+      "file": "client-data/rof2/spells_us.append.txt",
+      "records": 3,
+      "sha256": "428a6b92ba8887c8d117746c2f9bc192a6429b7fd2c6c46438005442b351b7d6"
+    },
+    {
+      "file": "client-data/rof2/dbstr_us.append.txt",
+      "records": 15,
+      "sha256": "71f93726675b66a45496e61f42994a691ab6663a326f92497627d37f6f42dfec"
+    }
+  ],
+  "backup_required": true,
+  "baselines": {
+    "exact_accepted_normal69": {
+      "seed_sha256": "4f9bf4f64afc84acab47a467a09248b1986ea3a43ceb64a2bcd89cc65130f93e",
+      "verify": "migrations/darkhollow-normal69/VERIFY.sql",
+      "verify_sha256": "bcc0034cb38edad43c4ca9caadba124d62cea0b5b0943ef4aaf893c933b3470d"
+    },
+    "peq-rof2-2026-11-17-rathe-r2": {
+      "base_full_sql_sha256": "814959619e8eaeff56cd4c705aec5cadac50f722c44422b0164cb1c00f1719a8",
+      "first_apply": "migrations/darkhollow-normal69/APPLY.sql",
+      "sha256": {
+        "migrations/darkhollow-normal69/APPLY.sql": "157d5a3f6868ee142492b94a0f9cd18a8c8f519f5ad0ef56d61e68dc8bbdf137",
+        "migrations/darkhollow-normal69/VERIFY.sql": "bcc0034cb38edad43c4ca9caadba124d62cea0b5b0943ef4aaf893c933b3470d"
+      },
+      "verify": "migrations/darkhollow-normal69/VERIFY.sql"
+    }
+  },
+  "escrow_requirement": "Stopped writers, exact legacy schema, zero active shrouds and all four affected escrow tables empty.",
+  "existing_promoted_or_partial_volume": "Use a separate exact version-aware disposition. Do not replay blindly.",
+  "format": "darkhollow-normal-player-preserving-upgrade-v1",
+  "full_seed_replay": false,
+  "opcode_asset": {
+    "destination": "server/assets/patches/patch_RoF2.conf",
+    "sha256": "32cec08d90da4bde6d4ae95b5e29ff65b9e75c0387d76a8e88b56c6ae9e2dbfc",
+    "source": "utils/patches/patch_RoF2.conf"
+  },
+  "ordered_sql": [
+    {
+      "file": "migrations/darkhollow-normal68-70/02-ALIGN-SHROUD-ESCROW.sql",
+      "sha256": "5c47bbf12e6cc50976694c5c74fa508359d737c661676fdded19913036494526"
+    },
+    {
+      "file": "migrations/darkhollow-normal68-70/03-VERIFY-SHROUD-ESCROW.sql",
+      "sha256": "0fbdcac1cc500a1fd9dcc0fe08414ca5d300623951bc0ae00e282bb1085e12f6"
+    },
+    {
+      "file": "migrations/darkhollow-normal68-70/10-LEVEL68-70-CLAIM-SCHEMA.sql",
+      "sha256": "972fdeb85e17f62aa65509d140294c9000a659338e3f819377d6bbe6a86a2231"
+    },
+    {
+      "file": "migrations/darkhollow-normal68-70/11-LEVEL68-70-DISABLED-CONTENT.sql",
+      "sha256": "2860af13bd73637aebf923dd702bdd69412b18f89180bf6f6d4205d64c317bb0"
+    },
+    {
+      "file": "migrations/darkhollow-normal68-70/12-VERIFY-LEVEL68-70-DISABLED.sql",
+      "sha256": "24ce2117805730a7f09307f1515bf2612186df5f914b2f0c88db51ed0c169209"
+    },
+    {
+      "file": "migrations/darkhollow-normal68-70/13-RAGE-ORB.sql",
+      "sha256": "f23e5145d62852bdbdf0990b7379bba42b7c8949bed736398da2cdcaca5984f8"
+    },
+    {
+      "file": "migrations/darkhollow-normal68-70/14-SCOUTING-COURTYARD.sql",
+      "sha256": "bd21815cc89dee00293a07ae93f66c876e5d86df5bca6ab3febeafb4658044fc"
+    },
+    {
+      "file": "migrations/darkhollow-normal68-70/15-ENABLE-SEVEN-EARLY-ROUTES.sql",
+      "sha256": "4483c416c604d81e82f066a867134c9b8d716f2e195eee4d1f0bedb8392e0937"
+    },
+    {
+      "file": "migrations/darkhollow-normal68-70/16-VERIFY-RAGE-ORB.sql",
+      "sha256": "0a3dbb0eca1480096c0aa202740fe762e5e5b4e40d049b4aeb360c3dc795e9be"
+    },
+    {
+      "file": "migrations/darkhollow-normal68-70/17-VERIFY-SCOUTING-COURTYARD.sql",
+      "sha256": "bf98c52d705feea640e0b9c7ea5daa2f948f9e4f95be261e23676a3ec8e36a35"
+    },
+    {
+      "file": "migrations/darkhollow-normal68-70/20-FALL-DISABLED-DERIVATIVES.sql",
+      "sha256": "279f66facc0f48454b499e3ea5efb8cb5fbb39d29490fe5727bb567fe845ee14"
+    },
+    {
+      "file": "migrations/darkhollow-normal68-70/21-FALL-DISABLED-ENCOUNTER.sql",
+      "sha256": "ad528ff70d261bef0d5752207c189ef0aaae2a2ccb1ed777217eca826c0d6d05"
+    },
+    {
+      "file": "migrations/darkhollow-normal68-70/22-VERIFY-FALL-DISABLED.sql",
+      "sha256": "6fc929d36b9ee20432ef34241e097a9c4b3d51ea2fe430c36b9725b572e6912c"
+    },
+    {
+      "file": "migrations/darkhollow-normal68-70/30-ENABLE-FINAL-ROUTES.sql",
+      "sha256": "67843df7684511b0e53fac05a6f1311d7be7c453382261ac7db85fce385b2d2d"
+    },
+    {
+      "file": "migrations/darkhollow-normal68-70/31-VERIFY-FALL-ENABLED.sql",
+      "sha256": "09a7384c30b26e30f2483b56f86922082d06a61dc9b9c0fcb72808c018a05cbc"
+    },
+    {
+      "file": "migrations/darkhollow-normal68-70/32-VERIFY-COMBINED-DEFINITIONS.sql",
+      "sha256": "704df3c57b858f66d06bacbb0048183254cd9a458b6cf42e11836076df3e6fe5"
+    }
+  ],
+  "preserves_player_state": true,
+  "rathe_r2_database_commit": "6f8610e8266dd6096d25084d9601797b9a30e7c8",
+  "release_tag": "peq-rof2-2026-11-20-darkhollow-normal",
+  "roF2_base_client_files": {
+    "dbstr_us.txt": {
+      "sha256": "d16a9ffd8cb923fca78c0073caf099a098a489b1b58011fecfd673050a17c04b"
+    },
+    "spells_us.txt": {
+      "sha256": "0abb6e975183ec918227c1b8cc6bfb7664507f97e79d1edfebf8b1f412c6428a"
+    }
+  },
+  "runtime_cache_rebuild": {
+    "arguments": [
+      "items",
+      "spells"
+    ],
+    "cache_files": [
+      "shared/items",
+      "shared/spells"
+    ],
+    "command": [
+      "shared_memory",
+      "items",
+      "spells"
+    ],
+    "item_ids": [
+      900100,
+      900101,
+      900102,
+      900103,
+      900104,
+      900105
+    ],
+    "post_boot_mapping_verification": true,
+    "spell_ids": [
+      42700,
+      42701,
+      42702
+    ],
+    "stopped_runtime_required": true
+  },
+  "scope": "Preserve all account, character, inventory, earned task and claim data. Require stopped writers and matching code before use.",
+  "separate_ddl_commits": true,
+  "source_and_roF2_binding": "SOURCE-MANIFEST.json"
+}

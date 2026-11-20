@@ -1,0 +1,25 @@
+{
+  "already_applied": "Verify an exact level 69 baseline before starting the combined upgrade. Preserve existing claims.",
+  "apply_precondition": "Exact Rathe r2 definitions, with matching Darkhollow source and quests staged under stopped writers.",
+  "backup_required": true,
+  "base_full_sha256": "814959619e8eaeff56cd4c705aec5cadac50f722c44422b0164cb1c00f1719a8",
+  "base_tag": "peq-rof2-2026-11-17-rathe-r2",
+  "base_tag_commit": "6f8610e8266dd6096d25084d9601797b9a30e7c8",
+  "format": "darkhollow-normal69-existing-volume-upgrade-v1",
+  "full_seed_replay": false,
+  "partial_failure": "Stop on first SQL error. Claim DDL commits separately. Inspect the exact outcome and route recovery before any further write.",
+  "preserves_existing_player_state": true,
+  "steps": [
+    {
+      "bytes": 457454,
+      "file": "APPLY.sql",
+      "sha256": "157d5a3f6868ee142492b94a0f9cd18a8c8f519f5ad0ef56d61e68dc8bbdf137"
+    },
+    {
+      "bytes": 250042,
+      "file": "VERIFY.sql",
+      "sha256": "bcc0034cb38edad43c4ca9caadba124d62cea0b5b0943ef4aaf893c933b3470d"
+    }
+  ],
+  "target_full_sha256": "4f9bf4f64afc84acab47a467a09248b1986ea3a43ceb64a2bcd89cc65130f93e"
+}
