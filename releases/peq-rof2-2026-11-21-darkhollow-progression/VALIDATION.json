@@ -1,0 +1,17 @@
+{
+  "assembly": "Published sanitized base plus byte-exact isolated-tested stages",
+  "deleted_legacy_static_rows": 2,
+  "fresh_import_validation": "Verified exact published base import and exact appended stage execution on isolated MariaDB 10.11.19.",
+  "inserted_static_rows": 243,
+  "new_tables": 18,
+  "portable_stages_passed": [
+    "00-VERIFY-R29-PREIMAGE.sql",
+    "10-ADD-PROGRESSION-SCHEMA.sql",
+    "20-APPLY-PROGRESSION.sql",
+    "30-VERIFY-PROGRESSION.sql"
+  ],
+  "private_player_seed_rows": 0,
+  "serving_writes": 0,
+  "standalone_hard_notebook_920229": 0,
+  "status": "PASS"
+}

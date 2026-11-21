@@ -1,0 +1,79 @@
+{
+  "append_only_client_inputs": [
+    {
+      "file": "client-data/rof2/spells_us.append.txt",
+      "records": 3,
+      "sha256": "428a6b92ba8887c8d117746c2f9bc192a6429b7fd2c6c46438005442b351b7d6"
+    },
+    {
+      "file": "client-data/rof2/dbstr_us.append.txt",
+      "records": 15,
+      "sha256": "71f93726675b66a45496e61f42994a691ab6663a326f92497627d37f6f42dfec"
+    }
+  ],
+  "backup_required": true,
+  "baseline": {
+    "asset_sha256": "c633b37b102d7f49f57bd794b3de29b38d74e19aded0bdf97b629a4468ce43e2",
+    "database_commit": "25b26fb5d16405bc5613d10cfc36dc34be330b85",
+    "full_sql_sha256": "dce7e0630c0bb99b0619fbc000df00e32112f3a31e5e7b9bae5310a8cd3ddc93",
+    "source_release_commit": "b4c9fe3474235edf0d41d2dc24ac540cde7ba2dd",
+    "tag": "peq-rof2-2026-11-20-darkhollow-normal"
+  },
+  "database_repository": "nightstalker6669/EQEmu-Database",
+  "execution": "Run each stage with a DELIMITER-aware MariaDB client in the selected database. DDL commits independently. The content transaction rolls back on error. Stop on preimage or readback failures.",
+  "format": "darkhollow-progression-player-preserving-upgrade-v1",
+  "fresh_install_sql_replaces_tables": true,
+  "mariadb": "10.11",
+  "migration_order": [
+    {
+      "path": "migrations/darkhollow-progression/00-VERIFY-R29-PREIMAGE.sql",
+      "sha256": "28f0e2e40f46c7d34a3d7df31c8a440b080b4d3fe084d020b01ab047bc510a25"
+    },
+    {
+      "path": "migrations/darkhollow-progression/10-ADD-PROGRESSION-SCHEMA.sql",
+      "sha256": "88717e87aa08cc7176581868ac986ebbd265e0fe33ecdf783b814e51236bc63c"
+    },
+    {
+      "path": "migrations/darkhollow-progression/20-APPLY-PROGRESSION.sql",
+      "sha256": "0ddc43ff4cf78c9284a81c3d98ebb7d29036a43f3a17eb359b944a84a9e1736b"
+    },
+    {
+      "path": "migrations/darkhollow-progression/30-VERIFY-PROGRESSION.sql",
+      "sha256": "2b689f3ce7470cbee1b89115525efafc06e91d0a12d426306fcd0c18bcde0408"
+    }
+  ],
+  "player_state": "No inserts, updates, deletes or resets to account, character, inventory, archive or claim data. Existing Frustrated Functionary journals must be completed before its four objective definitions change.",
+  "release_tag": "peq-rof2-2026-11-21-darkhollow-progression",
+  "runtime_cache_rebuild": {
+    "arguments": [
+      "items",
+      "spells"
+    ],
+    "cache_files": [
+      "shared/items",
+      "shared/spells"
+    ],
+    "command": [
+      "shared_memory",
+      "items",
+      "spells"
+    ],
+    "item_ids": [
+      900100,
+      900101,
+      900102,
+      900103,
+      900104,
+      900105
+    ],
+    "post_boot_mapping_verification": true,
+    "spell_ids": [
+      42700,
+      42701,
+      42702
+    ],
+    "stopped_runtime_required": true
+  },
+  "source_binding_sha256": "75a37d7cb622456c3bdf18cf6017e96044c353baa1970f47439b95339b306665",
+  "stopped_writers_required": true
+}

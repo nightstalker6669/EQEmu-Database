@@ -1,0 +1,1174 @@
+{
+  "base": {
+    "asset_sha256": "c633b37b102d7f49f57bd794b3de29b38d74e19aded0bdf97b629a4468ce43e2",
+    "database_commit": "25b26fb5d16405bc5613d10cfc36dc34be330b85",
+    "full_sql_sha256": "dce7e0630c0bb99b0619fbc000df00e32112f3a31e5e7b9bae5310a8cd3ddc93",
+    "source_release_commit": "b4c9fe3474235edf0d41d2dc24ac540cde7ba2dd",
+    "tag": "peq-rof2-2026-11-20-darkhollow-normal"
+  },
+  "change_tables": {
+    "achievement_criteria": {
+      "inserted_keys": [
+        23265,
+        23266,
+        23267,
+        23268,
+        23269,
+        23270,
+        23271,
+        23272,
+        23273,
+        23274,
+        23275,
+        23276,
+        23277,
+        23278,
+        23279
+      ],
+      "key_columns": [
+        "id"
+      ],
+      "removed_keys": [],
+      "updated_keys": []
+    },
+    "dodh_bellfast_korlach_settings": {
+      "inserted_keys": [
+        920273
+      ],
+      "key_columns": [
+        "task_id"
+      ],
+      "removed_keys": [],
+      "updated_keys": []
+    },
+    "dodh_longshadow_scene_fixtures": {
+      "inserted_keys": [
+        354920,
+        363035
+      ],
+      "key_columns": [
+        "actor_type"
+      ],
+      "removed_keys": [],
+      "updated_keys": []
+    },
+    "dodh_longshadow_tail_tuning": {
+      "inserted_keys": [
+        1
+      ],
+      "key_columns": [
+        "id"
+      ],
+      "removed_keys": [],
+      "updated_keys": []
+    },
+    "dodh_longshadow_tail_wave_types": {
+      "inserted_keys": [
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          4,
+          1
+        ],
+        [
+          4,
+          2
+        ],
+        [
+          4,
+          3
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          5,
+          1
+        ],
+        [
+          5,
+          2
+        ],
+        [
+          5,
+          3
+        ],
+        [
+          5,
+          4
+        ],
+        [
+          6,
+          1
+        ],
+        [
+          6,
+          2
+        ],
+        [
+          6,
+          3
+        ],
+        [
+          6,
+          4
+        ],
+        [
+          7,
+          1
+        ],
+        [
+          7,
+          2
+        ],
+        [
+          7,
+          3
+        ],
+        [
+          7,
+          4
+        ]
+      ],
+      "key_columns": [
+        "stop",
+        "ordinal"
+      ],
+      "removed_keys": [],
+      "updated_keys": []
+    },
+    "dodh_longshadow_traitor_rooms": {
+      "inserted_keys": [
+        1,
+        2,
+        3
+      ],
+      "key_columns": [
+        "chamber"
+      ],
+      "removed_keys": [],
+      "updated_keys": []
+    },
+    "doors": {
+      "inserted_keys": [
+        304070113,
+        304070114,
+        304070115,
+        304070116,
+        304070117,
+        304070118,
+        304070119,
+        304070120
+      ],
+      "key_columns": [
+        "id"
+      ],
+      "removed_keys": [],
+      "updated_keys": []
+    },
+    "dynamic_zone_templates": {
+      "inserted_keys": [
+        920251,
+        920252,
+        920253,
+        920254,
+        920255,
+        920270,
+        920271,
+        920272,
+        920273,
+        920275,
+        920276,
+        920277,
+        920278
+      ],
+      "key_columns": [
+        "id"
+      ],
+      "removed_keys": [],
+      "updated_keys": []
+    },
+    "ground_spawns": {
+      "inserted_keys": [
+        304067002,
+        304067003
+      ],
+      "key_columns": [
+        "id"
+      ],
+      "removed_keys": [],
+      "updated_keys": []
+    },
+    "lootdrop": {
+      "inserted_keys": [
+        304070104
+      ],
+      "key_columns": [
+        "id"
+      ],
+      "removed_keys": [],
+      "updated_keys": []
+    },
+    "lootdrop_entries": {
+      "inserted_keys": [
+        [
+          304070104,
+          86568
+        ],
+        [
+          304070104,
+          86569
+        ],
+        [
+          304070104,
+          86570
+        ],
+        [
+          304070104,
+          86571
+        ],
+        [
+          304070104,
+          86572
+        ]
+      ],
+      "key_columns": [
+        "lootdrop_id",
+        "item_id"
+      ],
+      "removed_keys": [],
+      "updated_keys": []
+    },
+    "loottable": {
+      "inserted_keys": [
+        304070103
+      ],
+      "key_columns": [
+        "id"
+      ],
+      "removed_keys": [],
+      "updated_keys": []
+    },
+    "loottable_entries": {
+      "inserted_keys": [
+        [
+          304070103,
+          304070104
+        ]
+      ],
+      "key_columns": [
+        "loottable_id",
+        "lootdrop_id"
+      ],
+      "removed_keys": [
+        [
+          91494,
+          107161
+        ]
+      ],
+      "updated_keys": []
+    },
+    "npc_spells": {
+      "inserted_keys": [
+        304072000,
+        304072008
+      ],
+      "key_columns": [
+        "id"
+      ],
+      "removed_keys": [],
+      "updated_keys": []
+    },
+    "npc_spells_entries": {
+      "inserted_keys": [
+        304072001,
+        304072002,
+        304072003,
+        304072009
+      ],
+      "key_columns": [
+        "id"
+      ],
+      "removed_keys": [],
+      "updated_keys": []
+    },
+    "npc_types": {
+      "inserted_keys": [
+        25920,
+        347940,
+        349940,
+        350920,
+        350921,
+        351920,
+        351921,
+        351922,
+        351923,
+        351924,
+        351925,
+        351926,
+        351927,
+        351928,
+        351929,
+        351930,
+        351931,
+        351932,
+        354920,
+        354921,
+        355940,
+        357920,
+        357921,
+        357922,
+        357923,
+        357924,
+        357925,
+        357926,
+        357927,
+        357928,
+        357929,
+        357930,
+        361940,
+        362940,
+        362942,
+        363920
+      ],
+      "key_columns": [
+        "id"
+      ],
+      "removed_keys": [],
+      "updated_keys": [
+        354311,
+        363064
+      ]
+    },
+    "shared_task_average_level_policies": {
+      "inserted_keys": [
+        920275,
+        920276,
+        920277,
+        920278
+      ],
+      "key_columns": [
+        "task_id"
+      ],
+      "removed_keys": [],
+      "updated_keys": []
+    },
+    "spawn2": {
+      "inserted_keys": [
+        304066072
+      ],
+      "key_columns": [
+        "id"
+      ],
+      "removed_keys": [
+        260808
+      ],
+      "updated_keys": []
+    },
+    "spawnentry": {
+      "inserted_keys": [
+        [
+          304066072,
+          25920
+        ]
+      ],
+      "key_columns": [
+        "spawngroupID",
+        "npcID"
+      ],
+      "removed_keys": [],
+      "updated_keys": []
+    },
+    "spawngroup": {
+      "inserted_keys": [
+        304066072
+      ],
+      "key_columns": [
+        "id"
+      ],
+      "removed_keys": [],
+      "updated_keys": []
+    },
+    "task_activities": {
+      "inserted_keys": [
+        [
+          920251,
+          0
+        ],
+        [
+          920251,
+          1
+        ],
+        [
+          920251,
+          2
+        ],
+        [
+          920251,
+          3
+        ],
+        [
+          920251,
+          4
+        ],
+        [
+          920252,
+          0
+        ],
+        [
+          920252,
+          1
+        ],
+        [
+          920252,
+          2
+        ],
+        [
+          920252,
+          3
+        ],
+        [
+          920253,
+          0
+        ],
+        [
+          920253,
+          1
+        ],
+        [
+          920253,
+          2
+        ],
+        [
+          920253,
+          3
+        ],
+        [
+          920253,
+          4
+        ],
+        [
+          920254,
+          0
+        ],
+        [
+          920254,
+          1
+        ],
+        [
+          920254,
+          2
+        ],
+        [
+          920255,
+          0
+        ],
+        [
+          920255,
+          1
+        ],
+        [
+          920255,
+          2
+        ],
+        [
+          920255,
+          3
+        ],
+        [
+          920255,
+          4
+        ],
+        [
+          920270,
+          0
+        ],
+        [
+          920270,
+          1
+        ],
+        [
+          920270,
+          2
+        ],
+        [
+          920271,
+          0
+        ],
+        [
+          920271,
+          1
+        ],
+        [
+          920271,
+          2
+        ],
+        [
+          920271,
+          3
+        ],
+        [
+          920271,
+          4
+        ],
+        [
+          920272,
+          0
+        ],
+        [
+          920272,
+          1
+        ],
+        [
+          920272,
+          2
+        ],
+        [
+          920272,
+          3
+        ],
+        [
+          920272,
+          4
+        ],
+        [
+          920273,
+          0
+        ],
+        [
+          920273,
+          1
+        ],
+        [
+          920273,
+          2
+        ],
+        [
+          920273,
+          3
+        ],
+        [
+          920273,
+          4
+        ],
+        [
+          920273,
+          5
+        ],
+        [
+          920275,
+          0
+        ],
+        [
+          920275,
+          1
+        ],
+        [
+          920275,
+          2
+        ],
+        [
+          920275,
+          3
+        ],
+        [
+          920275,
+          4
+        ],
+        [
+          920275,
+          5
+        ],
+        [
+          920276,
+          0
+        ],
+        [
+          920276,
+          1
+        ],
+        [
+          920276,
+          2
+        ],
+        [
+          920276,
+          3
+        ],
+        [
+          920276,
+          4
+        ],
+        [
+          920276,
+          5
+        ],
+        [
+          920277,
+          0
+        ],
+        [
+          920277,
+          1
+        ],
+        [
+          920277,
+          2
+        ],
+        [
+          920277,
+          3
+        ],
+        [
+          920277,
+          4
+        ],
+        [
+          920277,
+          5
+        ],
+        [
+          920277,
+          6
+        ],
+        [
+          920278,
+          0
+        ],
+        [
+          920278,
+          1
+        ],
+        [
+          920278,
+          2
+        ],
+        [
+          920278,
+          3
+        ],
+        [
+          920279,
+          0
+        ],
+        [
+          920279,
+          1
+        ],
+        [
+          920279,
+          2
+        ],
+        [
+          920279,
+          3
+        ],
+        [
+          920279,
+          4
+        ],
+        [
+          920279,
+          5
+        ],
+        [
+          920280,
+          0
+        ],
+        [
+          920280,
+          1
+        ],
+        [
+          920281,
+          0
+        ],
+        [
+          920281,
+          1
+        ],
+        [
+          920281,
+          2
+        ],
+        [
+          920281,
+          3
+        ],
+        [
+          920282,
+          0
+        ],
+        [
+          920282,
+          1
+        ],
+        [
+          920282,
+          2
+        ],
+        [
+          920283,
+          0
+        ],
+        [
+          920283,
+          1
+        ],
+        [
+          920283,
+          2
+        ],
+        [
+          920283,
+          3
+        ],
+        [
+          920283,
+          4
+        ],
+        [
+          920284,
+          0
+        ]
+      ],
+      "key_columns": [
+        "taskid",
+        "activityid"
+      ],
+      "removed_keys": [],
+      "updated_keys": [
+        [
+          505745,
+          0
+        ],
+        [
+          505745,
+          1
+        ],
+        [
+          505745,
+          2
+        ],
+        [
+          505745,
+          3
+        ]
+      ]
+    },
+    "tasks": {
+      "inserted_keys": [
+        920251,
+        920252,
+        920253,
+        920254,
+        920255,
+        920270,
+        920271,
+        920272,
+        920273,
+        920275,
+        920276,
+        920277,
+        920278,
+        920279,
+        920280,
+        920281,
+        920282,
+        920283,
+        920284
+      ],
+      "key_columns": [
+        "id"
+      ],
+      "removed_keys": [],
+      "updated_keys": []
+    },
+    "tradeskill_recipe": {
+      "inserted_keys": [
+        30752006,
+        30752007
+      ],
+      "key_columns": [
+        "id"
+      ],
+      "removed_keys": [],
+      "updated_keys": []
+    },
+    "tradeskill_recipe_entries": {
+      "inserted_keys": [
+        30524367,
+        30524368,
+        30524369,
+        30524370,
+        30524371,
+        30524372,
+        30524373,
+        30524374,
+        30524375,
+        30524376,
+        30524377
+      ],
+      "key_columns": [
+        "id"
+      ],
+      "removed_keys": [],
+      "updated_keys": []
+    }
+  },
+  "existing_key_item_definitions_referenced_unchanged": [
+    {
+      "id": 54606,
+      "name": "Dustspirit's Note"
+    },
+    {
+      "id": 54607,
+      "name": "Drachnid Shackle Key"
+    },
+    {
+      "id": 54608,
+      "name": "Orb of Subversion"
+    },
+    {
+      "id": 54609,
+      "name": "Enshrouded Orb of Subversion"
+    },
+    {
+      "id": 85024,
+      "name": "Enchanted Corathus Coral"
+    },
+    {
+      "id": 85025,
+      "name": "Magical Corathus Coral"
+    },
+    {
+      "id": 85026,
+      "name": "Aged Witheran Larva Skin"
+    },
+    {
+      "id": 85027,
+      "name": "Withered Basilisk Tongue"
+    },
+    {
+      "id": 85028,
+      "name": "Witheran Feeder Guts"
+    },
+    {
+      "id": 85566,
+      "name": "Fractured Werewolf Jawbone"
+    },
+    {
+      "id": 85567,
+      "name": "Fractured Temporal Plate"
+    },
+    {
+      "id": 85568,
+      "name": "Fractured Frontal Plate"
+    },
+    {
+      "id": 85569,
+      "name": "Fractured Bone Ridges"
+    },
+    {
+      "id": 85570,
+      "name": "Fractured Werewolf Incisors"
+    },
+    {
+      "id": 85571,
+      "name": "Ancient Werewolf Skull"
+    },
+    {
+      "id": 85575,
+      "name": "Funeral Shroud of Den Lord Rakban"
+    },
+    {
+      "id": 86685,
+      "name": "Gilded Ring"
+    },
+    {
+      "id": 86686,
+      "name": "Faceted Nargilor Band"
+    },
+    {
+      "id": 86705,
+      "name": "Earring of Wretchedness"
+    },
+    {
+      "id": 86706,
+      "name": "Earring of Bitterness"
+    },
+    {
+      "id": 86733,
+      "name": "Barnacle Encrusted Stud"
+    },
+    {
+      "id": 86734,
+      "name": "Earring of Control"
+    },
+    {
+      "id": 86753,
+      "name": "Ring of the Sleeping Leviathan"
+    },
+    {
+      "id": 86754,
+      "name": "Ring of Travail"
+    },
+    {
+      "id": 87004,
+      "name": "Fibblebrap Gem Fragment"
+    },
+    {
+      "id": 87005,
+      "name": "Fibblebrap's Memory Fragment"
+    },
+    {
+      "id": 87008,
+      "name": "Fibblebrap Gem Fragment"
+    },
+    {
+      "id": 87009,
+      "name": "Fibblebrap Gem Fragment"
+    },
+    {
+      "id": 87010,
+      "name": "Fibblebrap Gem Fragment"
+    },
+    {
+      "id": 88005,
+      "name": "Treddlehoop's Wonderful Monoculor Seeing Device"
+    },
+    {
+      "id": 88007,
+      "name": "Study of Mystical Vision"
+    },
+    {
+      "id": 88009,
+      "name": "Coral-set Golden Necklace"
+    },
+    {
+      "id": 88014,
+      "name": "Elixir of Velvet Blood"
+    },
+    {
+      "id": 88015,
+      "name": "Crypt Dust"
+    },
+    {
+      "id": 88016,
+      "name": "Funeral Donation Pouch"
+    },
+    {
+      "id": 88017,
+      "name": "Crypt Blood Slurry"
+    },
+    {
+      "id": 88018,
+      "name": "Bloody Cloth Eye Patch"
+    },
+    {
+      "id": 88019,
+      "name": "Polished Mystical Glass Shard"
+    },
+    {
+      "id": 88020,
+      "name": "Blurry Lens"
+    },
+    {
+      "id": 88021,
+      "name": "Lens of Bound Eyes"
+    },
+    {
+      "id": 88022,
+      "name": "Moon-shaped Diamond Pendant"
+    },
+    {
+      "id": 88023,
+      "name": "Daily Log"
+    },
+    {
+      "id": 88034,
+      "name": "Lens of Eye-Glass"
+    },
+    {
+      "id": 88035,
+      "name": "Vule's Eye"
+    }
+  ],
+  "new_tables": {
+    "dodh_bellfast_hive_chests": {
+      "ddl_stage": "10-ADD-PROGRESSION-SCHEMA.sql",
+      "static_seed": false
+    },
+    "dodh_bellfast_korlach_kills": {
+      "ddl_stage": "10-ADD-PROGRESSION-SCHEMA.sql",
+      "static_seed": false
+    },
+    "dodh_bellfast_korlach_settings": {
+      "ddl_stage": "10-ADD-PROGRESSION-SCHEMA.sql",
+      "static_seed": true
+    },
+    "dodh_bellfast_neran_crossings": {
+      "ddl_stage": "10-ADD-PROGRESSION-SCHEMA.sql",
+      "static_seed": false
+    },
+    "dodh_bellfast_neran_runs": {
+      "ddl_stage": "10-ADD-PROGRESSION-SCHEMA.sql",
+      "static_seed": false
+    },
+    "dodh_longshadow_item_sources": {
+      "ddl_stage": "10-ADD-PROGRESSION-SCHEMA.sql",
+      "static_seed": false
+    },
+    "dodh_longshadow_note_events": {
+      "ddl_stage": "10-ADD-PROGRESSION-SCHEMA.sql",
+      "static_seed": false
+    },
+    "dodh_longshadow_orb_deaths": {
+      "ddl_stage": "10-ADD-PROGRESSION-SCHEMA.sql",
+      "static_seed": false
+    },
+    "dodh_longshadow_scene_effects": {
+      "ddl_stage": "10-ADD-PROGRESSION-SCHEMA.sql",
+      "static_seed": false
+    },
+    "dodh_longshadow_scene_fixtures": {
+      "ddl_stage": "10-ADD-PROGRESSION-SCHEMA.sql",
+      "static_seed": true
+    },
+    "dodh_longshadow_tail_tuning": {
+      "ddl_stage": "10-ADD-PROGRESSION-SCHEMA.sql",
+      "static_seed": true
+    },
+    "dodh_longshadow_tail_wave_types": {
+      "ddl_stage": "10-ADD-PROGRESSION-SCHEMA.sql",
+      "static_seed": true
+    },
+    "dodh_longshadow_traitor_chests": {
+      "ddl_stage": "10-ADD-PROGRESSION-SCHEMA.sql",
+      "static_seed": false
+    },
+    "dodh_longshadow_traitor_rooms": {
+      "ddl_stage": "10-ADD-PROGRESSION-SCHEMA.sql",
+      "static_seed": true
+    },
+    "dodh_longshadow_travel_events": {
+      "ddl_stage": "10-ADD-PROGRESSION-SCHEMA.sql",
+      "static_seed": false
+    },
+    "dodh_longshadow_turnins": {
+      "ddl_stage": "10-ADD-PROGRESSION-SCHEMA.sql",
+      "static_seed": false
+    },
+    "dodh_rakban_claims": {
+      "ddl_stage": "10-ADD-PROGRESSION-SCHEMA.sql",
+      "static_seed": false
+    },
+    "dodh_rakban_combines": {
+      "ddl_stage": "10-ADD-PROGRESSION-SCHEMA.sql",
+      "static_seed": false
+    }
+  },
+  "scope": {
+    "existing_functionary_activity_ids": [
+      [
+        505745,
+        0
+      ],
+      [
+        505745,
+        1
+      ],
+      [
+        505745,
+        2
+      ],
+      [
+        505745,
+        3
+      ]
+    ],
+    "family_task_ids": [
+      920270,
+      920271,
+      920272,
+      920273,
+      920275,
+      920276,
+      920277,
+      920278
+    ],
+    "linked_achievement_id": 500990060,
+    "new_activity_count": 85,
+    "new_task_ids": [
+      920251,
+      920252,
+      920253,
+      920254,
+      920255,
+      920270,
+      920271,
+      920272,
+      920273,
+      920275,
+      920276,
+      920277,
+      920278,
+      920279,
+      920280,
+      920281,
+      920282,
+      920283,
+      920284
+    ],
+    "recipe_ids": [
+      30752006,
+      30752007
+    ],
+    "shared_dz_template_ids": [
+      920251,
+      920252,
+      920253,
+      920254,
+      920255,
+      920270,
+      920271,
+      920272,
+      920273,
+      920275,
+      920276,
+      920277,
+      920278
+    ]
+  }
+}
