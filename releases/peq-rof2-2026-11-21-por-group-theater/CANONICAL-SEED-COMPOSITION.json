@@ -1,0 +1,37 @@
+{
+  "base": {
+    "asset_id": 775445668,
+    "asset_sha256": "c7f518ce95406222189b532ef0bf5cd0c4659e00f17d552c1fc3dc3bd796664a",
+    "database_commit": "2493a57a813dfb844c39df5648032494ccdd8e1a",
+    "full_sql_sha256": "8938736333f254a2a401613a5b25e5451ae93e0a6fe7849be3d471ddc7ac6d89",
+    "release_tag": "peq-rof2-2026-11-21-darkhollow-progression"
+  },
+  "existing_volume_upgrade_supported": false,
+  "fresh_install_only": true,
+  "full_sql_sha256": "18f4eeee28a423fa8773d14af82ec853f6b281a207cb9c4d0f50fe986752bde5",
+  "native_validation": "Accepted within the documented limits",
+  "order": [
+    {
+      "path": "migrations/por-group-theater/00-owned-scene-schema.sql",
+      "sha256": "365ac474427110d1a6fb1704d45526b257e5c093371320366842d4d6512dbb2c"
+    },
+    {
+      "path": "migrations/por-group-theater/10-stage-por-catalog.sql",
+      "sha256": "5e442e12e768b97ee856ad817fe8ac64cedbd3fb1485cf276ba24e07d6d96305"
+    },
+    {
+      "path": "migrations/por-group-theater/20-enable-por-catalog.sql",
+      "sha256": "10eb2c1041e9235ba54a7cdefb40eed346b27feb2765ac3c2903ead16522fc30"
+    },
+    {
+      "path": "migrations/por-group-theater/30-stage-sverag-controllers.sql",
+      "sha256": "d7b970ea92cf4d8df89bf2c0f37595be10eee6ac16f037b531841b7bd1e3b495"
+    },
+    {
+      "path": "migrations/por-group-theater/40-enable-skull-route.sql",
+      "sha256": "ccc880a106fec9c903024044c56cdbc3678b17f5fb7444d640b7bb4a4bb3b281"
+    }
+  ],
+  "source_manifest_sha256": "cbb446ca6eb3d3bdae3aaa55b5bed5d4c5c4c8c6b5321d314f007d662094c90f",
+  "status": "VERIFIED_FRESH_INSTALL_ASSEMBLY"
+}
