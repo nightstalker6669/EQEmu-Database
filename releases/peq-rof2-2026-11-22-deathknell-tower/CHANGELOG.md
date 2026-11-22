@@ -1,0 +1,5 @@
+- Restore the Tolling of Dissonance Bells, Vertigo, Unwelcome Guests, and the Mad Choir in owned Deathknell expeditions.
+- Add individual encounter lockouts and the four event chest reward pools.
+- Restore native passage through the earned upper and lower trapdoors, and make revealed Vertigo floor traps selectable for the stock RoF2 Disarm Traps skill.
+- Restore the Divine Fetters vulnerability windows and permanent Deathknell access from a looted Twisted Harp String.
+- Add Deathknell raid-in eligibility alongside permanent flags and level-based member admission.

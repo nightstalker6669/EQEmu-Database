@@ -1,0 +1,21 @@
+{
+  "base": {
+    "archive_sha256": "8a250975028fcf99cc094b08900f07c1122674e1d651e39820728ef3bf8827d3",
+    "commit": "7e0dab5457aaa3f0fdcf89caf69f4a997c22bfad",
+    "full_sql_sha256": "61e842d149779727a9d2621bbaf9151d4dd0fceefc737106512bbd9645b69884",
+    "release_tag": "peq-rof2-2026-11-22-deathknell"
+  },
+  "existing_volume_upgrade_supported": false,
+  "fresh_install_only": true,
+  "full_sql_sha256": "8ea47bddaaea6e6afa4a808a751776cf1ea4ff00bb744f538490be68d6f04055",
+  "isolated_validation_sha256": "02d27adc08048b965ec6ca10b96676b583b02bcfeba13c7c3cef8efd028919ad",
+  "native_acceptance_receipt_sha256": "e030ea4c5c1d1e5c08104897f382ef7bd08c547481b0a6963776374442ffe2eb",
+  "order": [
+    {
+      "path": "migrations/por-deathknell-tower/00-tower-content.sql",
+      "sha256": "0f136232b333d80654f2430229f28ef8295692b2884ba559f5d377c0062a61b2"
+    }
+  ],
+  "source_manifest_sha256": "74a245ae6dd9921a77c03c55acb60988a024ecca6e5b58d19a6e9804550a75d4",
+  "status": "NATIVE_ACCEPTED_WITH_DOCUMENTED_LIMITS"
+}
