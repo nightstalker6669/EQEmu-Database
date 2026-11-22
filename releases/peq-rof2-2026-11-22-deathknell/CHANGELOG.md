@@ -1,0 +1,4 @@
+- Restore the earned Deathknell route through Relic, Daosheen, Sullon, Suchun, the Shrine exchanges, and Theater of Blood.
+- Add four owned raid expeditions with requester qualifications and per-member victory credit.
+- Restore the Sullon ward and both Suchun reward paths, including durable shard exchanges and early Vial delivery.
+- Place Daosheen’s crystal spirits on reachable ledges, restore Suchun’s destructible wall and gateway progression, and add the Theater Inspiration drops.

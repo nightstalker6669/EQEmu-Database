@@ -1,0 +1,58 @@
+{
+  "base": {
+    "archive_name": "PEQ-RoF2-full-2026-11-21-por-group-theater.zip",
+    "archive_sha256": "7b314a300e2793335c99b9d7639f5c8763beecd2773e140b0c9bbce39fc5115d",
+    "commit": "8e073222a61b05bf14eacb0921e0de751c343a6a",
+    "full_sql_sha256": "18f4eeee28a423fa8773d14af82ec853f6b281a207cb9c4d0f50fe986752bde5"
+  },
+  "existing_volume_upgrade_supported": false,
+  "final_content_delta_sha256": "774bc6e27aa8d211bb0b0544987c9787cebf64f0f8befe56097248b0fa90021c",
+  "fresh_install_only": true,
+  "full_sql_sha256": "61e842d149779727a9d2621bbaf9151d4dd0fceefc737106512bbd9645b69884",
+  "native_validation": {
+    "core_receipt_sha256": "f24a9f23dd3644989ae34c2bc1352fb6912cec0ec68b761f14a5bb5d1fd40e2a",
+    "focused_daosheen_receipt_sha256": "fe819d03cd17483974b5756f2749a2f15b1e55ffecb57720243a226383f6d327"
+  },
+  "offline_validation": "MariaDB 10.11 composed import and static readback passed",
+  "order": [
+    {
+      "input": "base",
+      "path": "migrations/por-deathknell/00-DEATHKNELL-PROGRESSION-SCHEMA.sql",
+      "sha256": "85ec7539a11b596896b1a7e6f081249da09826281308c7210c9ca4a711c7b486"
+    },
+    {
+      "input": "base",
+      "path": "migrations/por-deathknell/10-requester-tasks.sql",
+      "sha256": "7e5681955a4ebeb8fb5d5e62623d798a7113403cd8af0418bd83e805f1ced089"
+    },
+    {
+      "input": "base",
+      "path": "migrations/por-deathknell/30-progression-loot.sql",
+      "sha256": "3d9cc325e5c7dae6988160a35f89ce2aabff4b0301d9e499d43d38463023d2bb"
+    },
+    {
+      "input": "base",
+      "path": "migrations/por-deathknell/40-raid-actors.sql",
+      "sha256": "091a642be1a72fba7754c5d1d013b0ed2ee5bab49b341857f04c3c877e4d9960"
+    },
+    {
+      "input": "base",
+      "path": "migrations/por-deathknell/20-raid-instances.sql",
+      "sha256": "6a9d40dd127d6147f9125cbdec66d14ac1a1dca000e486c7420690d0b21cce1b"
+    },
+    {
+      "input": "daosheen-wave",
+      "path": "migrations/por-deathknell/daosheen-crystal-spirit.sql",
+      "sha256": "ec4dcf1400ec678c3d9ac5f8c44c239476b82a6d7921606517030bbe46f9a811"
+    },
+    {
+      "input": "suchun-wall",
+      "path": "migrations/por-deathknell/suchun-wall-targetability.sql",
+      "sha256": "9fb9ab719752d1d5e69b18b98af3bd0c401bd69397f780fed458598c8ba79d95"
+    }
+  ],
+  "owner_manifest_sha256": "bcaedc5bc2f6422c9ac6566e1f3e60877e268e9340fbee40bca949080b22e6b5",
+  "quest_projection_sha256": "c881a30becf383cac3ba8fa076db9a77bd27338b64d4679b315d1aa08726dfe8",
+  "source_manifest_sha256": "ae5bf11e8f7877e166d8afad91f47f66c2b3677005ab19e95bc541cbb72f563c",
+  "status": "NATIVE_ACCEPTED_WITH_DOCUMENTED_LIMITS"
+}
