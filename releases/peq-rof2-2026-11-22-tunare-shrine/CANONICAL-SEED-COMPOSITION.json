@@ -1,0 +1,39 @@
+{
+  "base": {
+    "archive_sha256": "9a6669fdadb3c0f03b3de3d4445f4d4e8f324335308fe16998ded5c6f5e42e07",
+    "commit": "cb79181bec0a8b8c05c6d098998eb3a1d722dc36",
+    "full_sql_sha256": "8ea47bddaaea6e6afa4a808a751776cf1ea4ff00bb744f538490be68d6f04055",
+    "release_tag": "peq-rof2-2026-11-22-deathknell-tower"
+  },
+  "existing_volume_upgrade_supported": false,
+  "fresh_install_only": true,
+  "full_sql_sha256": "4ca380ec14989cdea0cb5019d8fa54b776d8abaf96b9706167ccfc239eec0545",
+  "isolated_validation": {
+    "core": "3bc2b373f196befd3d83f49a25863ae4c41c2889d5c352f7c2f76206778352dc",
+    "takish_door": "ed47ad036514ad995d013676bca0efc5c7b15a120a824a226fbff72ba12a0264"
+  },
+  "native_acceptance": {
+    "core": "368493f30dd160faca5b385c715c4c74823a1446c120b712551465478cc4bf94",
+    "public_route": "72ca7bc01aeffaf3739751ec74bbaa5485453e595f6961cbf6a72e3d11ea4325"
+  },
+  "order": [
+    {
+      "path": "migrations/por-tunare/00-TUNARE-CUSTODY.sql",
+      "sha256": "71fd7eec86e6e15362e7c23493a25935bed9312b9ed2b6284ad58d74916d67e0"
+    },
+    {
+      "path": "migrations/por-tunare/10-TUNARE-TASKS.sql",
+      "sha256": "675f2173c7e30c3cea4b38d5b4eaa6e0dfc8e3c06adf16ce9102908b57d3c64b"
+    },
+    {
+      "path": "migrations/por-tunare/20-TUNARE-CATALOG.sql",
+      "sha256": "988507b30cd4755211c337e46ba97380e8b4835d341d12af19bc07fac8d96367"
+    },
+    {
+      "path": "migrations/por-tunare/30-TUNARE-TAKISH-GROUND-DOOR.sql",
+      "sha256": "ea084b4543d41bd414d0130a62d8383c54faf33dd24a669633fe80e30dd57881"
+    }
+  ],
+  "source_manifest_sha256": "c8cc663450e141a87c9f0df286fd0f23e65b76478c10c05e7e1837bccf14d7ac",
+  "status": "NATIVE_ACCEPTED_WITH_DOCUMENTED_LIMITS"
+}
