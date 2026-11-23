@@ -1,0 +1,52 @@
+{
+  "base": {
+    "archive_sha256": "51e599653f2d5717c8d6f4014f616bd24e22d498b7af9078bc701fe55ed480f9",
+    "commit": "4e47cfca719dd368c6ac9afc443f7f29beaa155f",
+    "full_sql_sha256": "4ca380ec14989cdea0cb5019d8fa54b776d8abaf96b9706167ccfc239eec0545",
+    "release_tag": "peq-rof2-2026-11-22-tunare-shrine"
+  },
+  "existing_volume_upgrade_supported": false,
+  "fresh_install_only": true,
+  "full_sql_sha256": "15b99b8e372245f3742c798a3759d1c6abd94aa2bb95fa95bf941d130cc9bd41",
+  "isolated_validation_sha256": [
+    "f4b26e86364140ee9cf7caadc0643f301aa785aed22844eff3af7d180c2071fa",
+    "013d39f943ea9baceaa3e70d8239abfe15b696e79f7347db9061042bf51c3c8a",
+    "2f7bb4c840a1c7c7b014f84610b0ae28e7a25d63e6de58f179e2145efd0fe0d7"
+  ],
+  "native_evidence_sha256": {
+    "End full native acceptance": "a386cb7d46eebd51f50c9f4d5f1a4b442f476083be867f1ad80262633b72fa71",
+    "Kazzar standard Hail": "e1bf4670908415d8c90c690ecaef2bd40e0c9ee0f7af09aff1b58928b6f2b67c",
+    "Kellak replay and complete roster": "cb4023571317052cd123a1951eb0c3b58dcda50fcb12e673bcf075605b18f38b",
+    "Rune correction native worker readback": "ad1b03acb0c86909b0fa0357cdf12f0c7fa0882fc6273c325193584df79ff548",
+    "Same expedition gate fix and Hail mount": "438434b1840125c83de7f062eb6be948a4be13c8ac34e3c0dd798d34af6fe9d6"
+  },
+  "order": [
+    {
+      "bytes": 2091,
+      "path": "migrations/tss-vergalid/10-VERGALID-RAID-TASKS.sql",
+      "sha256": "b25f1ff2c6a58191f8ade3d146c23c8b3e80f6dd22aed025561363e4ae3c32a4"
+    },
+    {
+      "bytes": 97542,
+      "path": "migrations/tss-vergalid/20-VERGALID-RAID-CATALOG.sql",
+      "sha256": "92229ef4037a35797f4700be6b001671e0f9bc3e0af318e654df1faebe2b4818"
+    },
+    {
+      "bytes": 1499,
+      "path": "migrations/tss-vergalid/30-VERGALID-PUBLIC-ENTRANCE.sql",
+      "sha256": "4b4c5f5d2f4c90506f09cfce2bd36dd93668ba2bd04230a19515dae8de160b97"
+    },
+    {
+      "bytes": 967,
+      "path": "migrations/tss-vergalid/40-VERGALID-PUBLIC-LIFT.sql",
+      "sha256": "cf05d37d3c9a27f33b260ad1d8c3ef76e4bcf8e4f24a62647ffb353fb466ef9b"
+    },
+    {
+      "bytes": 728,
+      "path": "migrations/tss-vergalid/50-VERGALID-RUNE-BOUNDS.sql",
+      "sha256": "efe816b25f569e166cfd96674dd0bfb73132e3a18f2855a6df58a26f9e04309d"
+    }
+  ],
+  "source_manifest_sha256": "80ebb03344518f1500393ab7505a926033fa9972b09dbb2f503fa7801cbc9cc8",
+  "status": "NATIVE_ACCEPTED_WITH_DOCUMENTED_LIMITS"
+}
