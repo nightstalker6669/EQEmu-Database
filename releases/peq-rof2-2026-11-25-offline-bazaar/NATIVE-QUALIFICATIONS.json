@@ -1,0 +1,18 @@
+{
+  "status": "NATIVE_ACCEPTED_WITH_DOCUMENTED_LIMITS",
+  "feature": "RoF2 Offline Bazaar Trader",
+  "native_acceptance": [
+    "The original RoF2 Offline Mode and confirmation controls detached the seller. Both listings remained active after that client returned to Character Select.",
+    "A second ordinary RoF2 client in the same Bazaar instance bought one Bat Wing at the seller’s counter for 1 platinum. Inventory and balances showed one item transferred, a 1 platinum buyer debit and a matching seller credit.",
+    "One Enter World input on the same seller client reclaimed the detached trader and entered the same Bazaar instance. The seller kept the proceeds and unsold Tiny Dagger, and the old listing cleared.",
+    "Ordinary camp with one active listing cleared that listing. Both actors retained item custody and all test clients closed normally."
+  ],
+  "fixture_setup": [
+    "The server rule was enabled on the existing development server. A GM moved the ordinary test characters between the bank and the Bazaar stall. Trader controls, the counter sale, and re-entry used the native RoF2 client.",
+    "The seller’s Character Select view rendered black locally. The same owned client window received the stock Enter World input, and the authenticated World transition and arrival in game verified re-entry."
+  ],
+  "scope_and_limits": [
+    "Bazaar:EnableOfflineTraders defaults to false. RoF2 Trader sessions opened while the rule is enabled use counter checkout. Their parcel path rejects the purchase before charging the buyer.",
+    "Offline listings live with the running Bazaar worker and clear on restart. The stock in-person sale is not crash-atomic. Native acceptance covered one same-instance purchase and same-client reclaim. Sold-out retirement, a separate desktop login, native parcel rejection and crash recovery were not exercised."
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "base": {
+    "archive_sha256": "01a54798b09baceb3113bec593cc78e239d0f3c9235336ea2435c8440ee2f750",
+    "commit": "77cc309c61b1c7d3299249813f29816d89a039c6",
+    "full_sql_sha256": "15b99b8e372245f3742c798a3759d1c6abd94aa2bb95fa95bf941d130cc9bd41",
+    "release_tag": "peq-rof2-2026-11-23-vergalid-raids-r2"
+  },
+  "existing_volume_upgrade_supported": false,
+  "fresh_install_only": true,
+  "full_sql_sha256": "1e6b5aecb4fa63f92db61f48864db0742342ea73aab7975c786b6371e6083c5b",
+  "isolated_validation_sha256": [
+    "d3932352c988b051616db65c4a70d9dca6be7e3583cbb9c5584797abfd8c9008"
+  ],
+  "metadata_only_rebind": {
+    "archive_sha256": "c6173065c6d1398eddb4949f93f1f44a2e4654121af1989451af1e7cbdf24257",
+    "commit": "bdd011614f83dffd41a2b529edb2f770773ea6d0",
+    "release_tag": "peq-rof2-2026-11-23-ashengate-east-west",
+    "schema_delta": false
+  },
+  "native_evidence_sha256": {
+    "HISTORICAL-BINDINGS.md": "c7d21fe1384a3155aedde6b9589af9bd1dec5c67d30699996c1bcb10aa25437a",
+    "NATIVE-INTERFACE.md": "14da5c25511bc1e70ded8a85f48719a5b70a28f763a0a76b89b6f90ee68d633c",
+    "belltank_gm_level_74": "3b00fb2629af2e3bad1ac2167c9ba89be1b19778043823bf02323ec8fb8c9cd3",
+    "east_west_native_terminal": "90a1d244045a0ca8467239e4730452bc0ca639d6c32ee9c4f630fa90e1a08694",
+    "jenray_hail_mounted": "232ec44179cf9185dc909ce411f3495a61a536c69647256b8a9f5b5cc86dbc2c",
+    "jenray_hail_native": "3b7bf628e9010b257a47f7a419e98aca6e714709fcb3e1fac0b184377f8eb5d1",
+    "jenray_hail_offline": "794255eb983b720831b09b73834a9247b7dc2404d2f5477b1a366bd0d72e122b",
+    "vergalid_end_replay_and_both_side_tasks": "0f1c126764df16adbee0d9858d0a6b74fc351df87149b9163a611687fc65b09e",
+    "verified_faction_replay_preparation": "303c054a3765033dda7e05e6e5fa40cbb0de24b0e1accc672fdfd3b367b04c36",
+    "west_ambersnout": "d3981b51ead7877fa41218fcb83fd632b9c26c9765e529642828523844d5125c",
+    "west_attendants": "b1b8c5f5610e34f0d0eaa50f55a7e788fa8587a7603f73252b74b799d5e35e8a",
+    "west_ghosts_from_the_past": "058307ffb89709a43852b790a1d7a4e09eace8307ea6a956ebdc45df71f5a8a5",
+    "west_layout_offline": "461b19c1fbf69c65cee5d8165551faa1744a7ced8b3fe1376739a209a3352194",
+    "west_layout_serving": "a971803e6ad6cad0cac95c156d4cef6a8b08d3aa27825739edb89d5d18049df4",
+    "west_mark_proof": "c83f58d9b7ca7164582c9b3cab897ebe48030e224d2402c27257633f163c52a8",
+    "west_native_loot_4": "6e6d20784d05ae8d6dd99a4fae0c262a2a2a7f56261acdf3f15fd7383cdc68ed",
+    "west_native_loot_5": "417bd8dc555aba54b0c09726fd4223c0247fa7b4ff4d34fab78b2de871e48b9d",
+    "west_native_loot_6": "23db3c375d4c9a7515828e36b6c21e8ce7c4149abd1db324571fc5773bde1fcf",
+    "west_sothgar": "4ff49be396adaada60d53de2f02344f80ccf0871b873a0cddc02d52cd88c351d",
+    "west_unflagged_seventh_arrival": "efd4dde7fab2e1197f0fc0ed24d2a20e92c41fe9a25492e88a196595c4384a3c"
+  },
+  "order": [
+    {
+      "bytes": 1991,
+      "path": "migrations/tss-ashengate-wings/00-ASHENGATE-PROGRESSION-SCHEMA.sql",
+      "sha256": "642f29406bdf2cbd2dd98f327a877f12052f0ab09348ea5d00482cc1120c6629"
+    },
+    {
+      "bytes": 1662,
+      "path": "migrations/tss-ashengate-wings/10-ASHENGATE-VERGALID-SIDE-TASKS.sql",
+      "sha256": "91409c0f070cdea6951f39c9ecbbb1be2c2293138fa8b348adfa6034de9264ba"
+    },
+    {
+      "bytes": 3884,
+      "path": "migrations/tss-ashengate-wings/20-ASHENGATE-FACTION-TASKS.sql",
+      "sha256": "e6a8cb491f7e7a63d48bbe651c6c8955465769513fabd76b1de39814d6685226"
+    },
+    {
+      "bytes": 174095,
+      "path": "migrations/tss-ashengate-wings/30-ASHENGATE-CATALOG.sql",
+      "sha256": "c6de5398fa62db311929daa24ecce6fdd054498e092cc1c144c87f1c34653aae"
+    }
+  ],
+  "source_manifest_sha256": "88f713de2bff5335c5996e80514b2904a964b1b1c22a664ca0d17c2f65fe5ca6",
+  "status": "NATIVE_ACCEPTED_WITH_DOCUMENTED_LIMITS"
+}
