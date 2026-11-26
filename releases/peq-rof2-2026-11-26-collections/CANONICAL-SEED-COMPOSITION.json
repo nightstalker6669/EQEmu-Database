@@ -1,0 +1,25 @@
+{
+  "base": {
+    "archive_sha256": "ce601df23511ad80667ca2807c64b93094e3d77a66dd3916464b1eb1e98cb841",
+    "commit": "ceb6b28a137fd2c8d3641e5437acad5c2db0b105",
+    "full_sql_sha256": "1e6b5aecb4fa63f92db61f48864db0742342ea73aab7975c786b6371e6083c5b",
+    "release_tag": "peq-rof2-2026-11-25-offline-bazaar"
+  },
+  "existing_volume_upgrade_supported": false,
+  "fresh_install_only": true,
+  "full_sql_sha256": "eb8a81eeaec08b75f44a91e7df1b42b5fc12bd2dce5fc67b04fbae06d2c55ac7",
+  "order": [
+    {
+      "bytes": 7068,
+      "path": "migrations/rof2-collections/00-ROF2-COLLECTIONS-CATALOG-AND-ARENA.sql",
+      "sha256": "1b05eb77b345b42e17b1eebc5904de2a757793175ab5aab406b99dc5eb0b9c47"
+    },
+    {
+      "bytes": 2707,
+      "path": "migrations/rof2-collections/10-ROF2-COLLECTIONS-GROUND.sql",
+      "sha256": "52b518fb93fd5589ea4d85459da63ffecba335ddd156bca537a39206d7af7cf3"
+    }
+  ],
+  "source_manifest_sha256": "5539fdbbd80ca7bf032c3aa786489c803864340c4bf886cb7f6ffb1c86bd5ad3",
+  "status": "NATIVE_ACCEPTED_WITH_DOCUMENTED_LIMITS"
+}

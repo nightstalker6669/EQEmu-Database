@@ -1,0 +1,55 @@
+{
+  "status": "NATIVE_ACCEPTED_WITH_DOCUMENTED_LIMITS",
+  "client": "May 2013 RoF2",
+  "released_content": [
+    {
+      "set": "Fear in Pieces",
+      "native_achievement_id": 2040752,
+      "item_ids": [
+        77389,
+        77390,
+        77391,
+        77392,
+        77393,
+        77394,
+        77395,
+        77396
+      ],
+      "source": "Eight yellow ground pickups in Shard’s Landing"
+    },
+    {
+      "set": "Alaran in Chains",
+      "native_achievement_id": 2060752,
+      "item_ids": [
+        77424,
+        77425,
+        77426,
+        77427,
+        77428,
+        77429,
+        77430,
+        77431
+      ],
+      "source": "Creature drops from four established lower-arena NPC types in Shard’s Landing"
+    }
+  ],
+  "native_acceptance": [
+    "Picked up the eight ground items and registered them by ordinary inventory right-click. The native Achievements window showed Fear in Pieces complete, and the server granted exactly 16,610,406 normal XP once.",
+    "A genuine extra item remained in inventory on duplicate use. Normal relog preserved all eight components, one completion and one XP award. Using the duplicate again preserved the copy and awarded no repeat credit.",
+    "Killed a native arena enemy, looted Glass Flask from its actual corpse, registered it by the same right-click and saw Alaran in Chains at one of eight in the native Achievements window.",
+    "The Runed Circlet used the normal ItemVerify and cast-start path with no achievement update."
+  ],
+  "test_limits": [
+    "QA used GM positioning and the fixture’s existing invulnerability. Invulnerability stopped the Runed Circlet self-buff after the normal cast began.",
+    "Alaran in Chains was witnessed through its first arena item and component. Full arena-set completion was not exercised.",
+    "Isolated MariaDB verified that rolling back registration restores both the stack count and progress and that duplicate use leaves both unchanged. Native crash recovery was not exercised."
+  ],
+  "historical_scope": [
+    "The original Rain of Fear announcement confirms ground and drop acquisition and approximately 20 percent intended-level XP for each completed set.",
+    "The level-95 tier is reconstructed. The reward rounds 20 percent of EQEmu’s default 95-to-96 XP span of 83,052,032 to 16,610,406 normal XP.",
+    "Individual ground assignments, 300-second respawn and the 20 percent arena roll over eight equal items are reconstructed. Retained ordinary yellow actor data and collision-supported map locations guide the ground pickups."
+  ],
+  "references": [
+    "https://www.everquest.com/news/imported-eq-enus-524411"
+  ]
+}
