@@ -1,0 +1,138 @@
+{
+  "client_scope": "May 2013 RoF2. The July Heart of Fear definitions are outside this release.",
+  "shipped_catalog": {
+    "collectibles": 389,
+    "sets": 45,
+    "completion_achievements": 15,
+    "public_zones": 11,
+    "reward_bindings": 69
+  },
+  "native_evidence": {
+    "registered_items": 386,
+    "completed_sets": 43,
+    "completed_meta_achievements": 10,
+    "once_only_reward_deliveries": 61,
+    "acquisition": "All ground collectibles, both original April public round trips and the Chelsith aqueduct crossings, normal corpses in all eleven donor families, both rare Dark Secrets items, and normal right-click registration.",
+    "retention": "Duplicate items were retained and native stacking conserved quantities. The earned Stalking Fear set and its single reward persisted across relog after the temporary Collector’s Edition entitlement was removed.",
+    "collector_edition": "Stalking Fear requires the respective account entitlement. The same red occurrence denied an unentitled observer and yielded the real item to the entitled fixture after ordinary login. All nine items were earned through gameplay.",
+    "fixture_assistance": "The test used protected fixtures, approved GM positioning, and an already-owned QA mallet on repeat fights only after first ordinary combat, corpse and collectible evidence for the same donor family. Native combat evidence covers the acquisition path. Exact kill times and unassisted difficulty were outside that evidence."
+  },
+  "verified_from_catalog_and_source": {
+    "remaining_item_ids": {
+      "77467": {
+        "zone": 753,
+        "zone_version": 0,
+        "loot_table": 304098981,
+        "loot_drop": 304099452,
+        "bound_actor_placements": 14,
+        "level_range": [
+          97,
+          102
+        ],
+        "outer_percent": 20,
+        "weight": 11.1111,
+        "witnessed_items": [
+          77465,
+          77466,
+          77468,
+          77470,
+          77471,
+          77472,
+          77473
+        ]
+      },
+      "77469": {
+        "zone": 753,
+        "zone_version": 0,
+        "loot_table": 304098981,
+        "loot_drop": 304099452,
+        "bound_actor_placements": 14,
+        "level_range": [
+          97,
+          102
+        ],
+        "outer_percent": 20,
+        "weight": 11.1111,
+        "witnessed_items": [
+          77465,
+          77466,
+          77468,
+          77470,
+          77471,
+          77472,
+          77473
+        ]
+      },
+      "81438": {
+        "zone": 764,
+        "zone_version": 0,
+        "loot_table": 304098992,
+        "loot_drop": 304099474,
+        "bound_actor_placements": 8,
+        "level_range": [
+          100,
+          101
+        ],
+        "outer_percent": 20,
+        "weight": 12.5,
+        "witnessed_items": [
+          81432,
+          81433,
+          81434,
+          81435,
+          81436,
+          81437,
+          81439
+        ]
+      }
+    },
+    "completion_dependencies": [
+      {
+        "id": 2020753,
+        "name": "Gelatinous Geometry"
+      },
+      {
+        "id": 2076360,
+        "name": "Dark Secrets"
+      },
+      {
+        "id": 2076400,
+        "name": "The Tilted Balance"
+      },
+      {
+        "id": 2076440,
+        "name": "Corrupted Guardians"
+      },
+      {
+        "id": 2080753,
+        "name": "Eye Won!"
+      },
+      {
+        "id": 2090752,
+        "name": "Nothing Left to Fear"
+      },
+      {
+        "id": 2090754,
+        "name": "Cleaning Up Cazic"
+      }
+    ],
+    "scope": "Three exact collectible rows use the same native-witnessed donor tables as collected items in their sets. Isolated SQL readback and deterministic closure verify their dependent completions and eight reward bindings in configuration. These three items, seven completions and eight awards were outside native acceptance coverage."
+  },
+  "zone_access": {
+    "fresh_database_staff_removals": 64,
+    "native_witnesses": [
+      "Valley of King Xorbb",
+      "The Breeding Grounds",
+      "Evantil, the Vile Oak",
+      "Grelleth’s Palace",
+      "Chapterhouse of the Fallen"
+    ],
+    "catalog_and_cache_scope": "The broader playable-zone continuation was verified by exact catalog and live typed cache readback. A separate successful live crossing through the broader continuation was outside the completed test.",
+    "theater_of_blood": "Public minimum level 68, matching the prior restored route."
+  },
+  "reconstruction_limits": [
+    "Era and retained client evidence identify the supported zone and acquisition areas. Exact per-item ground placement, rotating order and cadence, combat profiles and percentage/weight tuning use documented reconstruction where evidence only supports an area or a donor family.",
+    "The normal XP values are fixed reconstructions using approximately twenty percent of the applicable level band. The earlier tier uses 16,610,406 XP and the later tier uses 18,414,643 XP. The April and Collector’s Edition level-100 selections are reconstructed.",
+    "Historical evidence supports the shipped verified gear and the Fearchaser suffix bindings. Dark Secrets completion has no bound extra reward because exact reward evidence was unavailable."
+  ]
+}

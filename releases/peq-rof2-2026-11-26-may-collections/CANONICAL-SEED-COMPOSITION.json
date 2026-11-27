@@ -1,0 +1,75 @@
+{
+  "base": {
+    "archive_sha256": "d6411995bfe674305517f6d4ffbcf35842ad5677ab7812932981926767d7e601",
+    "commit": "7605e294ba0127e27ef166f0429de1684d1e8c82",
+    "full_sql_sha256": "eb8a81eeaec08b75f44a91e7df1b42b5fc12bd2dce5fc67b04fbae06d2c55ac7",
+    "release_tag": "peq-rof2-2026-11-26-collections"
+  },
+  "existing_volume_upgrade_supported": false,
+  "fresh_install_only": true,
+  "full_sql_sha256": "9ff99cc554238f817737b0a4f463bbc38391b4d8e32c8d0245d6d832e6c1daf5",
+  "order": [
+    {
+      "bytes": 327,
+      "path": "migrations/rof2-may-collections/00-MAY-COLLECTIONS-GROUND-POOL-SCHEMA.sql",
+      "sha256": "96926dad959d38400f5121c77bc3520465873d39f4b501bb75750268ff5e3ea1"
+    },
+    {
+      "bytes": 11477,
+      "path": "migrations/rof2-may-collections/10-MAY-COLLECTIONS-SHARDSLANDING.sql",
+      "sha256": "fb017cd9a2f90bfa7482a473a0caed5cb0c21a31f4eecbab1a4542987235a60a"
+    },
+    {
+      "bytes": 55067,
+      "path": "migrations/rof2-may-collections/20-MAY-COLLECTIONS-ADDITIONAL-PROVEN-GROUND.sql",
+      "sha256": "c9898334bd1127d43c3d3210bdee8bb2c751423d544f101ba7a892f9e2bd41bb"
+    },
+    {
+      "bytes": 72309,
+      "path": "migrations/rof2-may-collections/30-MAY-COLLECTIONS-PROGRESSION-AND-REWARDS.sql",
+      "sha256": "4c633540a0bdde0c000d29bcce175b6fe3b0fc71836befd8388de6bbb90ce0be"
+    },
+    {
+      "bytes": 4156,
+      "path": "migrations/rof2-may-collections/40-MAY-COLLECTIONS-APRIL-PUBLIC-ACCESS.sql",
+      "sha256": "77c76fd022acb2dc3a729d80c8edd0395c3cf842fcab91a3df3596c9cf5c0aa8"
+    },
+    {
+      "bytes": 43286,
+      "path": "migrations/rof2-may-collections/45-MAY-COLLECTIONS-REMAINING-GROUND.sql",
+      "sha256": "58899aa5efed854be3dba68d5b05b60baf11a78795590ea6809b0acc9191a21d"
+    },
+    {
+      "bytes": 20066,
+      "path": "migrations/rof2-may-collections/50-MAY-COLLECTIONS-COLLECTORS-GROUND.sql",
+      "sha256": "62e3957c04d6f242beaf524c49bcc794c8829ef6067f3e0f38e41b4bec35ecf3"
+    },
+    {
+      "bytes": 293897,
+      "path": "migrations/rof2-may-collections/60-MAY-COLLECTIONS-LIVING-ACQUISITION.sql",
+      "sha256": "39a055a5ceed0afe34c8ad6f05b69dbca4a944b34df3be24671f36de292e4e29"
+    },
+    {
+      "bytes": 13187,
+      "path": "migrations/rof2-may-collections/70-MAY-COLLECTIONS-ENABLE.sql",
+      "sha256": "d0f70563388b44025cf7c0857e3d6384d8bd2d652301e59dfad15491f7474c58"
+    },
+    {
+      "bytes": 810,
+      "path": "migrations/rof2-may-collections/80-MAY-COLLECTIONS-PUBLIC-ZONE-ACCESS.sql",
+      "sha256": "6388935fac31effa625ef1e61e2e25f86fb7d5c55a3b6a58fe1789524622c3d8"
+    },
+    {
+      "bytes": 5957,
+      "path": "migrations/rof2-may-collections/90-MAY-PUBLIC-ZONE-ACCESS-CONTINUATION.sql",
+      "sha256": "8d04db60da92dff5619c622c1fe021120bcf830f9669fd93f40767d47d5c404d"
+    },
+    {
+      "bytes": 1123,
+      "path": "migrations/rof2-may-collections/95-MAY-PUBLIC-THEATER-ADMISSION.sql",
+      "sha256": "670fe10e1a83a94d46c0d377a7d443e722f5eb983fc408232cafd1f0aa66a39f"
+    }
+  ],
+  "source_manifest_sha256": "2e35da5d44b239c5f639375ba27b1c8ae925a9ccd67eed22bbb7ce45fe05cfc3",
+  "status": "NATIVE_ACCEPTED_WITH_DOCUMENTED_LIMITS"
+}
