@@ -1,0 +1,36 @@
+{
+  "feature": "Guild Banners",
+  "client": "May 2013 RoF2",
+  "production_scope": {
+    "planting_zones": [
+      "Buried Sea public v0",
+      "Loping Plains public v0"
+    ],
+    "minimum_nearby_guild_members": 12,
+    "quorum_radius": 150,
+    "portal_source_paths": [
+      "basic Guild Hall",
+      "placed Guild Hall"
+    ],
+    "verified_upgrade_catalogue_choices": 556
+  },
+  "native_verification": [
+    "The real Banner tab offered Standard of Honor and eligible upgrades. With one nearby member the officer's plant was denied. With two it planted Standard of Honor. The ordinary member's Plant control was disabled.",
+    "An ordinary guild member used the stock Guild Lobby left entrance to the basic guild hall. The native merchant accepted the authentic Splinter, the geode presented the banner destination, and confirmation reached the existing Standard of Honor in Buried Sea.",
+    "The active Banner tab countdown rendered normally after the packet fix. The leader removed Standard of Honor and planted Simple Standard of Celerity using one purchased kit and one purchased dye. The consumed inventory rows and one-hour upgrade deadline were independently verified.",
+    "Native short-slot spell 7613 appeared on the nearby ordinary member. Observed haste was 145 without Celerity and 148 with it. Both the buff and the three-point difference disappeared outside the radius, returned on walking back, and disappeared after native removal.",
+    "A subsequent ordinary static Guild Hall alignment and confirmation reached North Karana."
+  ],
+  "deterministic_verification": [
+    "The same production count predicate rejects 11 and accepts 12. The same predicate rejects one and accepts two with the development override.",
+    "The exact May spell catalogue and the retained material and dye recipes verify the shipped choices. Celerity uses native spell 7613, caster level 1, and the stock formula."
+  ],
+  "test_setup": "An isolated temporary guild used two existing ordinary dev characters. An existing GM account staged the route and briefly lifted the recipient's existing invulnerability at a verified safe site to observe normal beneficial spell landing. The operator restored the original protection immediately afterward. Planting, removal, the material and portal transactions, travel confirmation, and aura exposure and fade used the real game paths.",
+  "reconstruction_and_limits": [
+    "The 100-unit aura radius and rolling base-standard lifetime are reconstructed. The upgrade has a fixed one-hour deadline and reverts to the base while that base remains active. The full hour and natural expiry were not observed in the client.",
+    "Buried Sea was the native deployment witness. Loping Plains and the placed Guild Hall path are implemented and source-checked. Native travel acceptance used the basic Guild Hall.",
+    "Cross-guild attempts, stale popup acceptance, and the timed retail planting ritual were not independently observed. The served path validates fresh guild membership, current revision and normal zone entry at confirmation.",
+    "The native Celerity witness does not exercise every catalogue row. Forty discipline-grade bindings with uncertain formula levels are excluded. Appearance editing and unsupported deployment zones remain outside this release."
+  ],
+  "development_cleanup": "The temporary minimum of two was removed. The ordinary Rules readback returned 12 in Buried Sea after all workers refreshed. The temporary guild, banner, portal alignment, basic hall instance and its test-only records were removed. The test characters completed normal camps with original protection restored."
+}
