@@ -1,0 +1,21 @@
+{
+  "feature": "Cross-zone parcel purchases from offline RoF2 Bazaar traders",
+  "client": "May 10, 2013 RoF2",
+  "native": [
+    "A seller entered Offline Mode via the native Trader controls and left listings active at Character Select.",
+    "An ordinary buyer in Plane of Knowledge found the offline Bazaar listing and bought three from a five-item stack using the native Parcel option. Exactly one three-item parcel was created, with the purchase price and fee debited once, the seller credited once and the two remaining items conserved.",
+    "A parcel merchant delivered the exact stack. An ordinary Bazaar counter purchase passed and the seller reclaimed proceeds and remaining inventory through Enter World.",
+    "On the final Zone binary, a fresh native one-of-two purchase charged exactly one platinum plus two gold. The immediate displayed and saved buyer balances matched. The buyer claimed the item through the parcel merchant."
+  ],
+  "same_dev_server_replay": "A private guarded production settlement invocation replayed the exact first completed native purchase after the parcel had been claimed. The original result returned with no writes and the buyer, seller, stock, receipt and parcel state unchanged. The retail client refreshed the search result after checkout, so the retry evidence is server-side on dev.",
+  "isolated": [
+    "Forced late write failure and precommit connection loss rolled back both wallets, item stock, parcel and receipt.",
+    "Two concurrent buyers of the same quote yielded one completed sale. Full mailbox, wrong price, unsupported dyed item and oversized quantity checks conserved state. The original receipt survived simulated trader ID reuse."
+  ],
+  "scope": [
+    "Production uses the existing three gates for offline traders, Bazaar parcel delivery and parcel merchants. Ordinary counter and online checkout remain available under their existing conditions.",
+    "The parcel checkout supports items representable by the existing parcel format. Items with unsupported instance state, such as custom dyes, containers, evolving items or unlimited charges, retain the ordinary counter path where eligible.",
+    "The checkout receipt survives claim. Unsold offline listings still clear on Bazaar worker restart. Legacy counter crash atomicity and interrupted merchant pickup remain outside this verification.",
+    "QA used approved travel staging. Search, purchase, parcel retrieval, counter sale and reclaim used ordinary native actions."
+  ]
+}
