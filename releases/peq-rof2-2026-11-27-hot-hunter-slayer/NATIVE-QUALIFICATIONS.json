@@ -1,0 +1,71 @@
+{
+  "client": "EverQuest Rain of Fear 2, May 10, 2013",
+  "house_of_thule": {
+    "native_completed": {
+      "personal_quests": 34,
+      "shared_quests": 3,
+      "group_missions": 10,
+      "total": 47
+    },
+    "ordinary_earned_public_destinations": [
+      "House of Thule, Upper Floors",
+      "Al'Kabor's Nightmare",
+      "Miragul's Nightmare",
+      "Fear Itself",
+      "Morell's Castle",
+      "Sanctum Somnium"
+    ],
+    "native_evidence": [
+      "Native task completion and exact archived shared-task objective counts.",
+      "Earned Tier 3 and Tier 4 group achievements and ordinary public admission after relog.",
+      "Native item restoration, quest hand-in, mission chest opening and representative gear loot.",
+      "The opening shared mission request was refused before its requirements were met.",
+      "The same repaired Lower Floors gate denied a player without the earned achievement and admitted a player who had earned it."
+    ],
+    "implementation": [
+      "The prerequisite and mission titles, dependency order, group sizes and earned access use May-era progression evidence.",
+      "The 30 newly authored public quests and ten group missions use original dialogue, objectives, encounters and layouts. Six prerequisite drafts and An Expedition Gone Awry reuse project-owned work.",
+      "The Al'Kabor island contacts provide locally authored travel. The Lower Floors gate uses the retained Upper Floors arrival coordinates.",
+      "Coin, faction, Dream Motes and item identities use sourced catalog values where supported. Unsourced experience amounts were omitted."
+    ]
+  },
+  "hunter": {
+    "offline_validated": {
+      "exact_targets": 562,
+      "zone_achievements": 33,
+      "zone_ids": 35,
+      "positive_catalog_placements": 554,
+      "exact_script_bound_targets": 8,
+      "phase_logic": "All four matching towers and all twelve mismatches, plus invalid source, duplicate and failed-roll cases."
+    },
+    "native_representative": [
+      "Cragbeak earned its exact component in Shard's Landing. The nearby ordinary placeholder earned no Hunter credit.",
+      "Rotticus earned its exact Upper Floors component after the HoT progression run.",
+      "An ordinary player used the public Sarith and Rubak Oseka doors in both directions.",
+      "An ordinary player and a later entrant saw the same Pillars statue phase. A connected client saw the statue update from Shadow to Nature."
+    ],
+    "implementation": "Some rare opportunities, placements, combat tuning and loot odds use local reconstruction. The Rubak return heading comes from the existing door orientation. Pillars uses a locally reconstructed six-hour EverQuest time phase per tower and a 10 percent eligible kill roll.",
+    "pillars_kills": "One real Arcane-tower kill during Shadow and one matched Shadow-tower kill produced no Peacekeeper in the bounded native pass. Exact spawn, eligible kill, uniqueness, wrong-tower rejection and achievement bindings were validated offline for all four phases.",
+    "other_special_encounters": "Kael's Statue sequence, Chelsith's Blade sequence, Arelis's Krongar, the Plane of Shadow special camps and other roster variants retain exact offline catalog or script validation."
+  },
+  "slayer": {
+    "offline_validated": {
+      "achievements": 142,
+      "race_criteria": 807,
+      "distinct_components": 157
+    },
+    "native_representative": [
+      "Five actual skunk kills completed It Stinks! and earned rank 1 of active Banestrike.",
+      "A mastered target took the ability and an unmastered race was rejected. Normal relog preserved the earned AA."
+    ],
+    "implementation": "The active ability uses original May spell data and a local transient actor. Some damage-level breakpoints are reconstructed. Hastened Banestrike ranks and higher kill thresholds were checked offline. The native test did not capture the spirit rendering or the numerical damage display."
+  },
+  "hunter_slayer_rewards": {
+    "offline_exact_reward_bindings": {
+      "bags": 14,
+      "title_sets": 6
+    },
+    "qualification": "The new bag and title bindings were checked against the isolated catalog and normal reward paths. Higher-count earned bag delivery and selection of the new titles were outside the native representative run."
+  },
+  "qa_setup": "Approved native QA fixtures used operator travel staging, protective setup and the existing QA melee weapon for incidental combat. Task completions, kill credit, chest claims and final public gate crossings used the native game path."
+}

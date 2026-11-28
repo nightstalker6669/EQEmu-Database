@@ -1,0 +1,185 @@
+{
+  "base": {
+    "archive_sha256": "557e9b4830faf4c4c61b9fc5a6ba4e7ad10826ab0e043be51b0a65ef1a946971",
+    "commit": "16bc41554e132ac3fe4c77b361ba19cdf3d9e3ab",
+    "full_sql_sha256": "73d79abb715a6876f64b8ff0c436e90fcb0fcbba358d234331ff5fd991990128",
+    "release_tag": "peq-rof2-2026-11-27-guild-banners"
+  },
+  "existing_volume_upgrade_supported": false,
+  "fresh_install_only": true,
+  "full_sql_sha256": "15c16598f3ce6f867d8dc7608aa3368fd3bab0800a0674d2b35aaea13aa6c26b",
+  "order": [
+    {
+      "bytes": 8904,
+      "path": "migrations/10-MAY-SLAYER-CORE-ENABLE.sql",
+      "sha256": "09c1c0fd5a81e718d3d206e19d5d245de12ba777e22ffaa3bbb10a268d20c657"
+    },
+    {
+      "bytes": 10639,
+      "path": "migrations/30-MAY-BANESTRIKE-SPELLS.sql",
+      "sha256": "573545a61ce2046e7e44b5df135e578106cd2f2804de61c1fc34228b62739bdb"
+    },
+    {
+      "bytes": 1702,
+      "path": "migrations/40-MAY-BANESTRIKE-SPIRIT.sql",
+      "sha256": "0bfbf31f869817cafc971fa5adc1ff00198956e069dee7b7cae67d05a62b0d70"
+    },
+    {
+      "bytes": 2193,
+      "path": "migrations/50-MAY-HASTENED-BANESTRIKE-RANKS.sql",
+      "sha256": "f23456fffcdc352220fe9224382bf9a8327a9a0fcfad2bf736542592ea13936b"
+    },
+    {
+      "bytes": 75261,
+      "path": "migrations/60-MAY-SHARDS-LANDING-HUNTER-AND-NOVICE.sql",
+      "sha256": "3e821ed79da340263d159efed644511a3a08800b5f811131e91eeecc7420ad55"
+    },
+    {
+      "bytes": 3224,
+      "path": "migrations/70-MAY-SLAYER-TITLES.sql",
+      "sha256": "d44aeb7cab0a36748143b63acaf54a65deab17eb995061fb57cc7684757f6da7"
+    },
+    {
+      "bytes": 2220,
+      "path": "migrations/80-MAY-SLAYER-RRRRIBIT-POISON-FROG.sql",
+      "sha256": "af1da6d18320d9fe914fbfc3230882fa3da176fa78a52ac66725073d80dd5046"
+    },
+    {
+      "bytes": 4060,
+      "path": "migrations/85-MAY-SLAYER-AMBASSADOR.sql",
+      "sha256": "7d32804ee1c52763999086032bbe7d9f1a7061f3e53ee2d99de59c5f86003d8e"
+    },
+    {
+      "bytes": 213226,
+      "path": "migrations/200-MAY-VOA-WINDSONG-CITY-HUNTER.sql",
+      "sha256": "e377638f0de054d38a822dfafdb8cbe46d80b6ae9ffdc3072d47467c642dab57"
+    },
+    {
+      "bytes": 371408,
+      "path": "migrations/220-MAY-VOA-ADEPT-HUNTER.sql",
+      "sha256": "96da96e76331466b175b957d4651454b70b1bfd1731b70c1b81af334f92fa9d1"
+    },
+    {
+      "bytes": 8563,
+      "path": "migrations/90-MAY-RUBAK-PUBLIC-ACCESS.sql",
+      "sha256": "b4a7499963d49e37e5ecfdbf12e73246fb49b16dc97a1f2cd5a44780c3afb46e"
+    },
+    {
+      "bytes": 92089,
+      "path": "migrations/100-MAY-GRELLETH-HUNTER.sql",
+      "sha256": "68a11507ac72164806d6537b2bff584677012cccaf3b33eeac9146ebeef1eae2"
+    },
+    {
+      "bytes": 234359,
+      "path": "migrations/110-MAY-HOT-NOVICE-HUNTER.sql",
+      "sha256": "3bfa7beeb7e03516732a516774fe0f8fbf528bb53c4e1e85b74b4e05faccefa7"
+    },
+    {
+      "bytes": 237988,
+      "path": "migrations/120-MAY-HOT-ADEPT-HUNTER.sql",
+      "sha256": "057688323befd29276056b453663f8301ce3112fbdc7278983ff8a7b46ad25c6"
+    },
+    {
+      "bytes": 29754,
+      "path": "migrations/130-MAY-KAEL-HUNTER-STATUE-RING.sql",
+      "sha256": "706f65b0fe0d88041e408b47a91b2ad812d25e89540ce4b3a3e7acf8fb2ba2bf"
+    },
+    {
+      "bytes": 173043,
+      "path": "migrations/140-MAY-ARGATH-NOVICE-HUNTER.sql",
+      "sha256": "84bd6064ee6342302243a8640ba5e4b711e57c082d8dbf579d02b1f1c12ae804"
+    },
+    {
+      "bytes": 244567,
+      "path": "migrations/150-MAY-ROF-ADEPT-HUNTER.sql",
+      "sha256": "aa35b4e0ae413c85b1ceac32014f608a8b6ed63a70214ad1a8114b6692917429"
+    },
+    {
+      "bytes": 316691,
+      "path": "migrations/160-MAY-ROF-VETERAN-EXPERT-MASTER-HUNTER.sql",
+      "sha256": "c947d21ea1ebd574368a848b6f02b7269e373ad1e027a78fac51ba5e61334f9c"
+    },
+    {
+      "bytes": 33967,
+      "path": "migrations/170-MAY-CHELSITH-BLADE-ENCOUNTER.sql",
+      "sha256": "3f3bf3b82e3367a29c1a9fa7ef7d15c27327ba34ed77a78c1f277b182e6673cb"
+    },
+    {
+      "bytes": 45494,
+      "path": "migrations/180-MAY-PLANE-OF-SHADOW-FOUR-HUNTER-CAMPS.sql",
+      "sha256": "68b2f07d654558b30b3f31e5d98e3cedd76320b142341ff4fe2337b1f1934d17"
+    },
+    {
+      "bytes": 241480,
+      "path": "migrations/190-MAY-APRIL-HUNTER-CLOSURE.sql",
+      "sha256": "b9cd7d7d488e8c8f0efcad99688edc9a51cdebe8d4b2cd6ffcf652c63c98ca20"
+    },
+    {
+      "bytes": 362082,
+      "path": "migrations/210-MAY-VOA-VETERAN-HUNTER.sql",
+      "sha256": "1968897ffc902abf4d71ce80dda07f3872d300ecd508e83dca1bea5188fc9f57"
+    },
+    {
+      "bytes": 209954,
+      "path": "migrations/230-MAY-VOA-SEPULCHER-HUNTER.sql",
+      "sha256": "3b188a275cf8293283a28eb121ec6633340b6ae80084cc3d2b148f392959b611"
+    },
+    {
+      "bytes": 122364,
+      "path": "migrations/240-MAY-VOA-PILLARS-ORDINARY-HUNTER.sql",
+      "sha256": "5292d464319812df0ebeee264a952285674c844c68d0d63ba83c1b397e94b37f"
+    },
+    {
+      "bytes": 41280,
+      "path": "migrations/250-MAY-VOA-PEACEKEEPERS-EXPERT-VEILSLAYER.sql",
+      "sha256": "7e0d08843712f77b36027bee90fb65d44c015885294aff1b67fd8d3cc4882c8d"
+    },
+    {
+      "bytes": 13701,
+      "path": "migrations/260-MAY-VOA-PEACEKEEPER-LOOT.sql",
+      "sha256": "a5ef55196345aeb3b63d719a4b144b6045e3435398698951cacef7d761957f73"
+    },
+    {
+      "bytes": 15871,
+      "path": "migrations/270-MAY-HOT-RUPKERR-PREREQUISITES-DRAFT.sql",
+      "sha256": "fdd7af3e66addcabf01f43ce82aa91c300819e833d857ccb4a4f047bff511037"
+    },
+    {
+      "bytes": 14899,
+      "path": "migrations/300-MAY-HOT-BREORO-PREREQUISITES.sql",
+      "sha256": "d3a08dd039aca2ceedd8c2421f50cb197f01469da103f5949b3b7cd4537fadb8"
+    },
+    {
+      "bytes": 51702,
+      "path": "migrations/310-MAY-HOT-AUTHORED-PUBLIC-PREREQUISITES-POST-HUNTER.sql",
+      "sha256": "d45e5cc1f0525a3721130213e679124d3ab5f6ae7b424fbd5d93533ce38e4e86"
+    },
+    {
+      "bytes": 320650,
+      "path": "migrations/320-MAY-HOT-ORIGINAL-MISSION-SCENES.sql",
+      "sha256": "c49a1f7f1836cedf68bd26ca92a55bcb100417e099a470027b67f8db4274acf0"
+    },
+    {
+      "bytes": 4000,
+      "path": "migrations/325-MAY-HOT-ORIGINAL-MISSION-HOSTILITY.sql",
+      "sha256": "1fb2c140e1eeb5fcb3c1d9a4f91b474e6f1745bab7e2d0e683bc7ee741d41d20"
+    },
+    {
+      "bytes": 3794,
+      "path": "migrations/330-MAY-HOT-EARNED-PUBLIC-ADMISSION.sql",
+      "sha256": "8173eceb4a177e114954c22e4016053589a695c57137a1c0aa3090957a371bb3"
+    },
+    {
+      "bytes": 591024,
+      "path": "migrations/340-MAY-HOT-UPPER-HUNTER.sql",
+      "sha256": "f0488c3dee45f88cb7ca842b6558e2bb6a451fb100baf0e31ae5c387d72836fb"
+    },
+    {
+      "bytes": 3477,
+      "path": "migrations/350-MAY-HOT-LOWER-TO-UPPER-PUBLIC-DOOR.sql",
+      "sha256": "d19052dee2bb4516219cce77bea8f1ffb5c28f5e5353fbaf12268be7b8831cc6"
+    }
+  ],
+  "source_manifest_sha256": "35045ddbbca2752a321589eb70642f3d9b39221d5b85e30b5f587f514772c4d7",
+  "status": "NATIVE_ACCEPTED_WITH_DOCUMENTED_LIMITS"
+}

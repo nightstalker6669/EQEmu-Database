@@ -1,0 +1,17 @@
+-- Bind public Lower Floors gate 34464 to the stock v0 Upper Floors landing after earned admission SQL330.
+DELIMITER $$
+BEGIN NOT ATOMIC
+    DECLARE EXIT HANDLER FOR SQLEXCEPTION BEGIN ROLLBACK; RESIGNAL; END;
+    START TRANSACTION;
+    IF (SELECT COUNT(*) FROM doors WHERE zone='thulehouse1' AND (id=34464 OR doorid=19 OR dest_zone='thulehouse2'))<>1 THEN SIGNAL SQLSTATE '45000' SET MESSAGE_TEXT='HoT Lower gate door or version ambiguity'; END IF;
+    IF (SELECT COUNT(*) FROM zone_points WHERE zone='thulehouse1' AND (number=19 OR target_zone_id=702))<>2 THEN SIGNAL SQLSTATE '45000' SET MESSAGE_TEXT='HoT Lower gate zone point scope mismatch'; END IF;
+    IF (SELECT COUNT(*) FROM zone_points WHERE id=1999 AND SHA2(JSON_ARRAY(`id`,`zone`,`version`,`number`,`y`,`x`,`z`,`heading`,`target_y`,`target_x`,`target_z`,`target_heading`,`zoneinst`,`target_zone_id`,`target_instance`,`buffer`,`client_version_mask`,`min_expansion`,`max_expansion`,`content_flags`,`content_flags_disabled`,`is_virtual`,`height`,`width`),256)='bcf175578fb63e314ec8961f5d295c8f35b653bc7c845c798c6861d0ec35e3f1')<>1 THEN SIGNAL SQLSTATE '45000' SET MESSAGE_TEXT='HoT Lower gate zone point tuple mismatch'; END IF;
+    IF (SELECT COUNT(*) FROM zone_points WHERE id=2078 AND SHA2(JSON_ARRAY(`id`,`zone`,`version`,`number`,`y`,`x`,`z`,`heading`,`target_y`,`target_x`,`target_z`,`target_heading`,`zoneinst`,`target_zone_id`,`target_instance`,`buffer`,`client_version_mask`,`min_expansion`,`max_expansion`,`content_flags`,`content_flags_disabled`,`is_virtual`,`height`,`width`),256)='a3abb54e532a06216df464fa27dc2d0ed94f1d3eb6d129e1689f22a7bf3a3f04')<>1 THEN SIGNAL SQLSTATE '45000' SET MESSAGE_TEXT='HoT Lower gate zone point tuple mismatch'; END IF;
+    IF (SELECT COUNT(*) FROM zone WHERE id=5566 AND zoneidnumber=702 AND short_name='thulehouse2' AND version=0 AND min_status=0 AND flag_needed='hot_group_tier3')<>1 THEN SIGNAL SQLSTATE '45000' SET MESSAGE_TEXT='HoT Lower gate earned zone gate mismatch'; END IF;
+    IF (SELECT COUNT(*) FROM doors WHERE id=34464 AND SHA2(JSON_ARRAY(`id`,`doorid`,`zone`,`version`,`name`,`pos_y`,`pos_x`,`pos_z`,`heading`,`opentype`,`guild`,`lockpick`,`keyitem`,`nokeyring`,`triggerdoor`,`triggertype`,`disable_timer`,`doorisopen`,`door_param`,`dest_zone`,`dest_instance`,`dest_x`,`dest_y`,`dest_z`,`dest_heading`,`invert_state`,`incline`,`size`,`buffer`,`client_version_mask`,`is_ldon_door`,`close_timer_ms`,`dz_switch_id`,`min_expansion`,`max_expansion`,`content_flags`,`content_flags_disabled`),256)='61d403f7ca5e8182acc537ab2927f9d74c43ca192d1f202f9d07c6af72ea78ca')<>1 THEN SIGNAL SQLSTATE '45000' SET MESSAGE_TEXT='HoT Lower gate door preimage mismatch'; END IF;
+    UPDATE doors SET dest_zone='thulehouse2',dest_x=88,dest_y=365,dest_z=64,dest_heading=201
+    WHERE id=34464 AND SHA2(JSON_ARRAY(`id`,`doorid`,`zone`,`version`,`name`,`pos_y`,`pos_x`,`pos_z`,`heading`,`opentype`,`guild`,`lockpick`,`keyitem`,`nokeyring`,`triggerdoor`,`triggertype`,`disable_timer`,`doorisopen`,`door_param`,`dest_zone`,`dest_instance`,`dest_x`,`dest_y`,`dest_z`,`dest_heading`,`invert_state`,`incline`,`size`,`buffer`,`client_version_mask`,`is_ldon_door`,`close_timer_ms`,`dz_switch_id`,`min_expansion`,`max_expansion`,`content_flags`,`content_flags_disabled`),256)='61d403f7ca5e8182acc537ab2927f9d74c43ca192d1f202f9d07c6af72ea78ca';
+    IF ROW_COUNT()<>1 THEN SIGNAL SQLSTATE '45000' SET MESSAGE_TEXT='HoT Lower gate affected count mismatch'; END IF;
+    COMMIT;
+END$$
+DELIMITER ;
