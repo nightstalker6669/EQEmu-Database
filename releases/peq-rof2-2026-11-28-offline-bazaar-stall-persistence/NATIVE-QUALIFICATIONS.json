@@ -1,0 +1,22 @@
+{
+  "scope": "May 10, 2013 RoF2 offline Bazaar Trader stalls and counter/parcel sales after restart",
+  "native": [
+    "An ordinary seller entered native Offline Mode with four Bat Wings in the Trader's Satchel. A separate buyer completed a real remote parcel purchase. The buyer paid 1,200 copper including a 200-copper delivery fee, the seller earned 1,000 copper, and three wings remained.",
+    "The same dev game stopped and started normally while the seller's retail client stayed logged out. MariaDB stayed up. World and all 12 Zone workers had new process IDs. Independent database readback conserved the exact three unsold wings, balances, parcel and committed receipt.",
+    "An ordinary buyer entered the Bazaar through Nexus and booted the original permanent Bazaar shard. The restored stall appeared at its saved location and its native Browse window showed all three wings at the original price. In-person checkout delivered one wing directly to native inventory, charged 1,000 copper, credited the seller once, reduced the stock to two and created no parcel.",
+    "A second ordinary buyer searched from another zone, bought one wing for 1,200 copper including the 200-copper fee, and claimed it from a native parcel merchant. The seller stayed logged out through both purchases. The earlier parcel and receipt remained intact.",
+    "The seller reclaimed through ordinary Enter World once. The seller retained the one unsold wing and earned proceeds. All scoped native fixtures camped, the restored stall and its listings were cleared, and historical sale records remained."
+  ],
+  "isolated": [
+    "Exact production persistence and settlement code ran against isolated MariaDB using the migrated r43 schema. Concurrent recovery created one authorized stall, and a pending pre-restart quote was stale after recovery. A completed quote remained idempotently replayable with its original delivery mode.",
+    "A database connection was terminated before commit. Separate late receipt and occupied destination errors also rolled back the direct item, both balances and stock. A fresh retry recorded one delivery. Competing counter and parcel checkouts for the last stock produced one winner. Counter checkout racing ordinary seller reclaim preserved exactly one coherent outcome. Neither sold nor withdrawn stock returned.",
+    "A changed satchel and an instance recreated with the same numeric ID and timing fields were rejected. The exact migration was independently applied to the complete published r43 seed."
+  ],
+  "limits": [
+    "Native restart coverage used a supervised whole-game stop/start with MariaDB kept online. An independently replaced live Zone worker and abrupt whole-game loss were not native witnesses. The interruption, replay, stale token and contention checks above ran in isolated MariaDB.",
+    "The restored RoF2 stall uses a server-owned, player-shaped actor at the saved pose. It is a generic appearance rather than a recreation of the seller's equipment or appearance. One native counter confirmation showed the actor's numeric spawn-name suffix.",
+    "Restart recovery applies to verified eligible satchel stock on the public Bazaar or a matching permanent global Bazaar shard. Unsupported item properties and unresolved custody do not restore as eligible listings. Legacy online and ordinary counter paths retain their prior scope."
+  ],
+  "configuration": "The existing Offline Mode opt-in applies. Cross-zone parcel purchases use the existing parcel rules. Fresh-empty release data contains the schema only.",
+  "client_evidence": "Ordinary game UI established sales, parcel collection and reclaim. Approved staging shortened portions of travel. Windows runtime packaging is not a Windows native gameplay witness."
+}
